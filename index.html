@@ -65,6 +65,20 @@
     .unit-arrow { flex: 0 0 auto; font-size: 1rem; font-weight: 800; color: #b2eacc; line-height: 1.15; }
     .unit-node[open] .unit-arrow { transform: rotate(180deg); }
     .unit-children { margin: 0 10px 10px 46px; padding: 9px 11px; border-left: 2px solid #6cab8e; color: #b6d3c5; font-size: .78rem; line-height: 1.6; }
+    .unit-subunits { margin-left: 14px; padding: 9px; border-left-color: #8bc9a8; }
+    .subunit-node { border-radius: 9px; background: #194037; border: 1px solid #3d725e; }
+    .subunit-node > summary { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; list-style: none; padding: 10px; color: #e8f7ed; font-size: .82rem; line-height: 1.5; font-weight: 650; }
+    .subunit-node > summary::-webkit-details-marker { display: none; }
+    .subunit-node > summary:hover { background: #225443; border-radius: 9px; }
+    .subunit-code { flex-shrink: 0; color: #a3f0c2; font-weight: 800; }
+    .subunit-node > summary > span:nth-child(2) { flex: 1; min-width: 0; }
+    .subunit-node[open] > summary .unit-arrow { transform: rotate(180deg); }
+    .topic-tree { border-top: 1px solid #396a57; padding: 12px 10px 8px; }
+    .topic-caption { margin: 0 0 8px; color: #a3f0c2; text-transform: uppercase; font-size: .68rem; font-weight: 700; letter-spacing: .06em; }
+    .topic-tree ol { list-style: none; margin: 0; padding: 0; }
+    .topic-tree li { display: flex; align-items: baseline; gap: 8px; padding: 8px 0; border-top: 1px solid rgba(214,248,225,.08); color: #dcebe1; font-size: .8rem; line-height: 1.45; }
+    .topic-code { color: #a3f0c2; font-weight: 750; flex-shrink: 0; }
+    .topic-notice, .unit-subunit-note { margin: 10px 2px 2px; color: #afcbbb; font-size: .73rem; line-height: 1.6; }
     @media (max-width: 850px) {
       .site-header { position: relative; }
       .header-inner { min-height: 72px; flex-wrap: wrap; column-gap: 12px; padding: 14px 20px; }
@@ -118,7 +132,24 @@
                   <h3>Molecular &amp; Cellular Foundations</h3>
                   <details class="unit-node">
                     <summary><span class="unit-number">01</span><span class="unit-name">Structure and Function of Biomolecules</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
-                    <div class="unit-children">Topic and subtopic links for Unit 1 will be added after the content structure is finalized.</div>
+                    <div class="unit-children unit-subunits">
+                      <details class="subunit-node">
+                        <summary><span class="subunit-code">1.A</span><span>Structure of atoms, molecules and chemical bonds</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                        <div class="topic-tree">
+                          <p class="topic-caption">Academy topic breakdown · planned notes</p>
+                          <ol>
+                            <li><span class="topic-code">1.A.1</span><span>Atomic structure — protons, neutrons, electrons, isotopes</span></li>
+                            <li><span class="topic-code">1.A.2</span><span>Electronic configuration — orbitals, shells and valence electrons</span></li>
+                            <li><span class="topic-code">1.A.3</span><span>Periodic properties — electronegativity, atomic radius and ionization energy</span></li>
+                            <li><span class="topic-code">1.A.4</span><span>Chemical bonds — ionic, covalent and coordinate bonding</span></li>
+                            <li><span class="topic-code">1.A.5</span><span>Bond geometry — hybridization, VSEPR and molecular shape</span></li>
+                            <li><span class="topic-code">1.A.6</span><span>Bond polarity and biological examples</span></li>
+                          </ol>
+                          <p class="topic-notice">Topics are an outline only. Detailed lesson pages and links will be added later.</p>
+                        </div>
+                      </details>
+                      <p class="unit-subunit-note">Remaining Unit 1 syllabus sections (B–J) will be added next.</p>
+                    </div>
                   </details>
                   <details class="unit-node">
                     <summary><span class="unit-number">02</span><span class="unit-name">Cellular Organization</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>

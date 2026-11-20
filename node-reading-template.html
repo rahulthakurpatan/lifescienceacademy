@@ -37,6 +37,13 @@
     .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
     .sample-banner strong { color:var(--ink) }
     .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
     .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
     .tool-group:last-child { border-right:0; padding-right:0 }
     .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
@@ -93,6 +100,7 @@
     .focus-mode .toolbar { margin:0 }
     .focus-mode .reading-paper { border:0; box-shadow:none; }
     @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
     @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
     @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
   </style>
@@ -116,7 +124,12 @@
     </div>
     <div class="sample-banner" role="note"><span aria-hidden="true">ⓘ</span><span><strong>Design preview only.</strong> This page contains short demonstration paragraphs, not the complete CSIR-NET / SET study node. Future detailed notes will use the same reading template, while premium content will be stored privately.</span></div>
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
-      <div class="tool-group">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node not yet available">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node is not yet published">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
         <span class="tool-label">Text</span>
         <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
         <span class="font-value" id="font-display">18px</span>
@@ -135,6 +148,7 @@
       </div>
       <div class="tool-group">
         <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
       </div>
     </div>
     <div class="reading-layout">
@@ -198,10 +212,7 @@
             </section>
           </div>
         </article>
-        <div class="node-navigation" aria-label="Node navigation preview">
-          <span class="disabled-nav">← Previous Node · not connected</span>
-          <span class="disabled-nav">Next Node → · not connected</span>
-        </div>
+        <div class="node-navigation" aria-label="Node navigation preview"><span class="disabled-nav">Use the fixed bottom toolbar to move between published nodes. Adjacent pages are not available yet.</span></div>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Node Reading Template Preview. Reading controls work locally in your browser. Full study content and paid-unit access are not included in this demo.</footer>

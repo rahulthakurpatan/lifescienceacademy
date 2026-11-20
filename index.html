@@ -78,6 +78,21 @@
     .topic-tree ol { list-style: none; margin: 0; padding: 0; }
     .topic-tree li { display: flex; align-items: baseline; gap: 8px; padding: 8px 0; border-top: 1px solid rgba(214,248,225,.08); color: #dcebe1; font-size: .8rem; line-height: 1.45; }
     .topic-code { color: #a3f0c2; font-weight: 750; flex-shrink: 0; }
+    .topic-tree li.topic-item-expanded { display: block; padding: 6px 0; }
+    .topic-node { border: 1px solid #477d69; border-radius: 10px; background: #1a4438; }
+    .topic-node > summary { display: flex; align-items: flex-start; gap: 7px; padding: 11px 9px; list-style: none; cursor: pointer; color: #ecf9f0; font-size: .8rem; line-height: 1.5; }
+    .topic-node > summary::-webkit-details-marker { display: none; }
+    .topic-node > summary:hover { background: #245745; border-radius: 10px; }
+    .topic-label { flex: 1; min-width: 0; }
+    .node-count { flex: 0 0 auto; padding: 2px 5px; border-radius: 5px; background: #345e4b; color: #c9f4da; font-size: .68rem; white-space: nowrap; }
+    .topic-node[open] > summary .unit-arrow { transform: rotate(180deg); }
+    .nodes-container { border-top: 1px solid #477d69; padding: 10px 9px; }
+    .node-intro { margin: 0 0 11px; color: #b2d6c2; line-height: 1.6; font-size: .75rem; }
+    .node-section { padding: 8px 0 10px; }
+    .node-section + .node-section { border-top: 1px solid #3b6853; }
+    .node-section h4 { margin: 0 0 8px; color: #b1efcc; font-size: .76rem; line-height: 1.5; }
+    .node-row { display: flex; gap: 10px; padding: 6px 0; font-size: .75rem; line-height: 1.5; color: #d7eade; }
+    .node-index { flex: 0 0 23px; color: #a3f0c2; font-weight: 750; font-variant-numeric: tabular-nums; }
     .topic-notice, .unit-subunit-note { margin: 10px 2px 2px; color: #afcbbb; font-size: .73rem; line-height: 1.6; }
     @media (max-width: 850px) {
       .site-header { position: relative; }
@@ -138,7 +153,54 @@
                         <div class="topic-tree">
                           <p class="topic-caption">Academy topic breakdown · planned notes</p>
                           <ol>
-                            <li><span class="topic-code">1.A.1</span><span>Atomic structure — protons, neutrons, electrons, isotopes</span></li>
+                            <li class="topic-item-expanded">
+                              <details class="topic-node">
+                                <summary><span class="topic-code">1.A.1</span><span class="topic-label">Atomic Structure — protons, neutrons, electrons and isotopes</span><span class="node-count">28 nodes</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                                <div class="nodes-container">
+                                  <p class="node-intro">28 planned learning nodes, from atomic foundations to applied practice. Titles only — detailed notes will be created separately.</p>
+                                <section class="node-section" aria-label="I. Atomic foundations">
+                                  <h4>I. Atomic foundations</h4>
+                                  <div class="node-row"><span class="node-index">01</span><span>What is an atom? Structure and biological relevance</span></div>
+                                  <div class="node-row"><span class="node-index">02</span><span>Dalton’s atomic theory: postulates and limitations</span></div>
+                                  <div class="node-row"><span class="node-index">03</span><span>Thomson’s electron discovery and cathode rays</span></div>
+                                  <div class="node-row"><span class="node-index">04</span><span>Thomson’s plum-pudding model</span></div>
+                                  <div class="node-row"><span class="node-index">05</span><span>Rutherford’s gold-foil experiment</span></div>
+                                  <div class="node-row"><span class="node-index">06</span><span>Rutherford’s nuclear model and its limitations</span></div>
+                                  <div class="node-row"><span class="node-index">07</span><span>Bohr’s atomic model: basic ideas and limitations</span></div>
+                                </section>
+                                <section class="node-section" aria-label="II. Subatomic particles and notation">
+                                  <h4>II. Subatomic particles and notation</h4>
+                                  <div class="node-row"><span class="node-index">08</span><span>Modern atom: nucleus and electron cloud</span></div>
+                                  <div class="node-row"><span class="node-index">09</span><span>Protons: discovery, charge, mass and role</span></div>
+                                  <div class="node-row"><span class="node-index">10</span><span>Neutrons: discovery, charge, mass and role</span></div>
+                                  <div class="node-row"><span class="node-index">11</span><span>Electrons: charge, mass and basic behaviour</span></div>
+                                  <div class="node-row"><span class="node-index">12</span><span>Comparing proton, neutron and electron properties</span></div>
+                                  <div class="node-row"><span class="node-index">13</span><span>Atomic number (Z): identifying an element</span></div>
+                                  <div class="node-row"><span class="node-index">14</span><span>Mass number (A): counting nucleons</span></div>
+                                </section>
+                                <section class="node-section" aria-label="III. Nuclides and isotopic patterns">
+                                  <h4>III. Nuclides and isotopic patterns</h4>
+                                  <div class="node-row"><span class="node-index">15</span><span>Reading nuclide notation (A, Z and element symbol)</span></div>
+                                  <div class="node-row"><span class="node-index">16</span><span>Neutral atoms versus ions: particle counts</span></div>
+                                  <div class="node-row"><span class="node-index">17</span><span>Isotopes: definition and characteristics</span></div>
+                                  <div class="node-row"><span class="node-index">18</span><span>Hydrogen isotopes: protium, deuterium and tritium</span></div>
+                                  <div class="node-row"><span class="node-index">19</span><span>Carbon and oxygen isotopes: biological examples</span></div>
+                                  <div class="node-row"><span class="node-index">20</span><span>Isobars and isotones: how they differ</span></div>
+                                  <div class="node-row"><span class="node-index">21</span><span>Stable isotopes versus radioactive isotopes</span></div>
+                                </section>
+                                <section class="node-section" aria-label="IV. Calculations, applications and revision">
+                                  <h4>IV. Calculations, applications and revision</h4>
+                                  <div class="node-row"><span class="node-index">22</span><span>Atomic mass unit (u) and relative atomic mass</span></div>
+                                  <div class="node-row"><span class="node-index">23</span><span>Natural isotopic abundance</span></div>
+                                  <div class="node-row"><span class="node-index">24</span><span>Calculating weighted average atomic mass</span></div>
+                                  <div class="node-row"><span class="node-index">25</span><span>Nuclear stability and binding-energy basics</span></div>
+                                  <div class="node-row"><span class="node-index">26</span><span>Radioactive decay: alpha, beta and gamma</span></div>
+                                  <div class="node-row"><span class="node-index">27</span><span>Half-life: concepts and simple numericals</span></div>
+                                  <div class="node-row"><span class="node-index">28</span><span>Biological isotope tracers and CSIR-NET practice</span></div>
+                                </section>
+                                </div>
+                              </details>
+                            </li>
                             <li><span class="topic-code">1.A.2</span><span>Electronic configuration — orbitals, shells and valence electrons</span></li>
                             <li><span class="topic-code">1.A.3</span><span>Periodic properties — electronegativity, atomic radius and ionization energy</span></li>
                             <li><span class="topic-code">1.A.4</span><span>Chemical bonds — ionic, covalent and coordinate bonding</span></li>

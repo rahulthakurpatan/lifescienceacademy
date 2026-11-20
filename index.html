@@ -49,6 +49,22 @@
     .hero-copy { max-width: 590px; color: #c1d5cb; font-size: clamp(1.05rem,2.4vw,1.3rem); line-height: 1.7; margin: 0; }
     .hero-hint { display: inline-flex; align-items: center; gap: 10px; margin-top: 34px; color: #c3f2d5; font-size: .94rem; border-top: 2px solid #a3f0c2; padding-top: 18px; }
     .foot { border-top: 1px solid #2b4c3f; padding: 24px 0; color: #99bcaa; font-size: .85rem; }
+
+    /* Syllabus navigation: responsive multi-level unit tree, no external dependencies */
+    .notes-panel { left: 50%; transform: translateX(-50%); width: min(810px, calc(100vw - 42px)); max-height: min(76vh, 700px); overflow-y: auto; overscroll-behavior: contain; }
+    .notes-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: start; }
+    .notes-group { padding: 14px; border: 1px solid #2f5146; background: #16362f; border-radius: 13px; min-width: 0; }
+    .notes-group h3 { margin: 0 0 10px; color: #a3f0c2; font-size: .76rem; font-weight: 750; text-transform: uppercase; letter-spacing: .055em; line-height: 1.5; }
+    .unit-node { margin-top: 5px; border-radius: 9px; background: #1d4439; border: 1px solid transparent; }
+    .unit-node[open] { border-color: #447c67; }
+    .unit-node > summary { display: flex; align-items: flex-start; gap: 10px; padding: 11px 10px; list-style: none; cursor: pointer; color: #e9f7ee; line-height: 1.45; font-size: .87rem; font-weight: 580; }
+    .unit-node > summary::-webkit-details-marker { display: none; }
+    .unit-node > summary:hover, .unit-node[open] > summary { background: #245444; border-radius: 9px; }
+    .unit-number { flex: 0 0 26px; text-align: center; font-size: .75rem; font-weight: 800; line-height: 1.6; color: #a3f0c2; }
+    .unit-name { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+    .unit-arrow { flex: 0 0 auto; font-size: 1rem; font-weight: 800; color: #b2eacc; line-height: 1.15; }
+    .unit-node[open] .unit-arrow { transform: rotate(180deg); }
+    .unit-children { margin: 0 10px 10px 46px; padding: 9px 11px; border-left: 2px solid #6cab8e; color: #b6d3c5; font-size: .78rem; line-height: 1.6; }
     @media (max-width: 850px) {
       .site-header { position: relative; }
       .header-inner { min-height: 72px; flex-wrap: wrap; column-gap: 12px; padding: 14px 20px; }
@@ -61,6 +77,8 @@
       .nav-home, .menu-item > summary { display: flex; width: 100%; justify-content: space-between; padding: 15px 12px; font-size: 1rem; }
       .mega-panel, .nav-list > li:nth-child(n+4) .mega-panel { position: static; width: 100%; padding: 13px; border-radius: 14px; margin: 5px 0 12px; box-shadow: none; }
       .mega-panel::before { display: none; }
+      .notes-panel { max-height: none; overflow: visible; transform: none; }
+      .notes-grid { grid-template-columns: 1fr; }
       .hero { min-height: 550px; padding: 74px 0 100px; }
     }
     @media (max-width: 480px) {
@@ -93,13 +111,79 @@
             </div>
           </details></li>
           <li><details class="menu-item"><summary>Study Notes</summary>
-            <div class="mega-panel">
-              <div class="mega-heading"><div><h2>Study notes</h2><p>Organized learning paths for future detailed notes.</p></div><span class="sample-tag">Preview</span></div>
-              <div class="mega-grid">
-                <section class="mega-group"><h3>Core concepts</h3><span class="sample-entry">Cell Biology</span><span class="sample-entry">Biochemistry</span><span class="sample-entry">Molecular Biology</span></section>
-                <section class="mega-group"><h3>Advanced topics</h3><span class="sample-entry">Genetics</span><span class="sample-entry">Ecology</span><span class="sample-entry">Developmental Biology</span></section>
+            <div class="mega-panel notes-panel">
+              <div class="mega-heading"><div><h2>CSIR-NET Life Sciences &amp; Biotechnology</h2><p>Revised syllabus · Explore all 14 units, with room for topics and subtopics.</p></div><span class="sample-tag">14 Units</span></div>
+              <div class="notes-grid">
+                <section class="notes-group" aria-label="Molecular &amp; Cellular Foundations">
+                  <h3>Molecular &amp; Cellular Foundations</h3>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">01</span><span class="unit-name">Structure and Function of Biomolecules</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 1 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">02</span><span class="unit-name">Cellular Organization</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 2 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">03</span><span class="unit-name">Fundamental Processes</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 3 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">04</span><span class="unit-name">Cell Communication and Cell Signaling</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 4 will be added after the content structure is finalized.</div>
+                  </details>
+                </section>
+                <section class="notes-group" aria-label="Development, Physiology &amp; Genetics">
+                  <h3>Development, Physiology &amp; Genetics</h3>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">05</span><span class="unit-name">Developmental Biology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 5 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">06</span><span class="unit-name">System Physiology – Plant</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 6 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">07</span><span class="unit-name">System Physiology – Animal</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 7 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">08</span><span class="unit-name">Inheritance Biology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 8 will be added after the content structure is finalized.</div>
+                  </details>
+                </section>
+                <section class="notes-group" aria-label="Evolution, Ecology &amp; Computation">
+                  <h3>Evolution, Ecology &amp; Computation</h3>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">09</span><span class="unit-name">Evolution and Diversity of Life Forms</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 9 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">10</span><span class="unit-name">Ecology and Behavioural Biology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 10 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">11</span><span class="unit-name">Bioinformatics and Computational Biology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 11 will be added after the content structure is finalized.</div>
+                  </details>
+                </section>
+                <section class="notes-group" aria-label="Biotechnology &amp; Research Methods">
+                  <h3>Biotechnology &amp; Research Methods</h3>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">12</span><span class="unit-name">Biochemical Engineering and Industrial Biotechnology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 12 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">13</span><span class="unit-name">Advances in Biotechnology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 13 will be added after the content structure is finalized.</div>
+                  </details>
+                  <details class="unit-node">
+                    <summary><span class="unit-number">14</span><span class="unit-name">Methods in Biology</span><span class="unit-arrow" aria-hidden="true">⌄</span></summary>
+                    <div class="unit-children">Topic and subtopic links for Unit 14 will be added after the content structure is finalized.</div>
+                  </details>
+                </section>
               </div>
-              <p class="menu-note">Actual unit, topic and subtopic links will follow your syllabus plan.</p>
+              <p class="menu-note">Official 14-unit syllabus structure. Unit labels can expand; topic, subtopic and notes links are not published yet.</p>
             </div>
           </details></li>
           <li><details class="menu-item"><summary>Practice</summary>

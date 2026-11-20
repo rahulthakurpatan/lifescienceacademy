@@ -47,6 +47,12 @@
     h1 { font-size: clamp(3rem,8vw,6.2rem); font-weight: 800; line-height: 1.06; letter-spacing: -.057em; margin: 24px 0; }
     h1 span { color: #a3f0c2; }
     .hero-copy { max-width: 590px; color: #c1d5cb; font-size: clamp(1.05rem,2.4vw,1.3rem); line-height: 1.7; margin: 0; }
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 27px; }
+    .sample-note-cta { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 52px; padding: 14px 22px; border-radius: 13px; background: #a3f0c2; color: #092820; text-decoration: none; font-size: 1rem; font-weight: 800; box-shadow: 0 9px 28px rgba(85,220,143,.16); transition: transform .15s ease, background .15s ease; }
+    .sample-note-cta:hover { background: #c0ffd9; transform: translateY(-2px); }
+    .sample-note-cta:focus-visible { outline-color: #fff; }
+    .sample-note-caption { max-width: 360px; color: #b5ddc7; font-size: .86rem; line-height: 1.5; }
+    @media (max-width: 480px) { .sample-note-cta { width: 100%; } .hero-actions { align-items: stretch; } }
     .hero-hint { display: inline-flex; align-items: center; gap: 10px; margin-top: 34px; color: #c3f2d5; font-size: .94rem; border-top: 2px solid #a3f0c2; padding-top: 18px; }
     .foot { border-top: 1px solid #2b4c3f; padding: 24px 0; color: #99bcaa; font-size: .85rem; }
 
@@ -308,6 +314,10 @@
       <span class="eyebrow">Life Science Academy · Early preview</span>
       <h1>Explore life.<br><span>Keep learning.</span></h1>
       <p class="hero-copy">A learning platform for life sciences is taking shape. Explore the sample navigation above; the detailed syllabus, notes and official destinations will be added step by step.</p>
+      <div class="hero-actions">
+        <a class="sample-note-cta" href="./node-reading-template.html" aria-label="Open the sample note What Is an Atom">📖 View Sample Note <span aria-hidden="true">→</span></a>
+        <span class="sample-note-caption">Preview the reading page: Light, Dark, Sepia, A+/A− and Focus Mode.</span>
+      </div>
       <span class="hero-hint">✦ Responsive mega menu demo — desktop &amp; mobile</span>
     </main>
     <footer class="foot">© Life Science Academy. Navigation labels are placeholders for the upcoming course structure.</footer>

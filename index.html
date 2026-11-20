@@ -4,35 +4,171 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0c1c1b">
-  <meta name="description" content="Life Science Academy — a new learning experience is coming soon.">
-  <title>Life Science Academy | Coming Soon</title>
+  <meta name="description" content="Life Science Academy — a thoughtfully organized learning experience for life sciences.">
+  <title>Life Science Academy | Learning, Organized</title>
   <style>
     :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 80% 20%, #174f44 0, transparent 42%), linear-gradient(135deg, #081715, #0e2723 65%, #0b1a1a); color: #f3faf6; }
-    .shell { min-height: 100vh; display: flex; flex-direction: column; max-width: 1150px; margin: auto; padding: 28px clamp(20px, 5vw, 64px); }
-    header { display: flex; align-items: center; gap: 12px; font-weight: 750; letter-spacing: .02em; }
-    .mark { width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; color: #0b2922; background: #a3f0c2; font-size: 22px; }
-    main { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; max-width: 780px; padding: 84px 0; }
-    .eyebrow { display: inline-block; padding: 9px 14px; border: 1px solid #367e68; border-radius: 999px; color: #bcf4d3; background: #123c32; font-size: .84rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
-    h1 { font-size: clamp(3rem, 8.2vw, 6.2rem); line-height: 1.06; letter-spacing: -.055em; margin: 24px 0; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 84% 16%, #174b40 0, transparent 43%), linear-gradient(135deg, #081715, #0d2924 68%, #0b191a); color: #f3faf6; }
+    a { color: inherit; }
+    button, summary { font: inherit; }
+    button:focus-visible, summary:focus-visible, a:focus-visible { outline: 3px solid #a3f0c2; outline-offset: 4px; }
+    .site-header { position: relative; z-index: 10; border-bottom: 1px solid rgba(166,239,197,.15); background: rgba(7,23,21,.94); }
+    .header-inner { max-width: 1200px; margin: auto; min-height: 86px; padding: 16px clamp(18px,4vw,44px); display: flex; align-items: center; justify-content: space-between; gap: 26px; }
+    .brand { display: inline-flex; flex-shrink: 0; align-items: center; gap: 12px; text-decoration: none; font-weight: 800; letter-spacing: -.025em; font-size: 1.04rem; }
+    .brand-mark { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 13px; background: #a3f0c2; color: #0c2820; font-size: 22px; }
+    .site-nav { margin-left: auto; }
+    .nav-list { display: flex; align-items: center; gap: 3px; margin: 0; padding: 0; list-style: none; }
+    .nav-list > li { position: relative; }
+    .nav-home, .menu-item > summary { display: inline-flex; align-items: center; gap: 8px; padding: 12px 13px; border-radius: 11px; color: #e1f2e8; font-size: .93rem; font-weight: 600; text-decoration: none; cursor: pointer; white-space: nowrap; }
+    .menu-item > summary { list-style: none; user-select: none; }
+    .menu-item > summary::-webkit-details-marker { display: none; }
+    .menu-item > summary::after { content: ""; width: 6px; height: 6px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .18s ease; opacity: .7; }
+    .menu-item[open] > summary::after { transform: translateY(2px) rotate(225deg); }
+    .nav-home:hover, .menu-item > summary:hover, .menu-item[open] > summary { background: #173d33; color: #b9f5d0; }
+    .mega-panel { position: absolute; top: calc(100% + 13px); left: 0; width: min(640px, calc(100vw - 40px)); padding: 22px; border: 1px solid #356457; border-radius: 20px; background: #102b26; box-shadow: 0 24px 65px rgba(0,0,0,.4); }
+    .nav-list > li:nth-child(n+4) .mega-panel { left: auto; right: 0; }
+    .mega-panel::before { content: ""; position: absolute; height: 14px; top: -14px; left: 0; right: 0; }
+    .mega-heading { display: flex; align-items: start; justify-content: space-between; gap: 12px; margin-bottom: 17px; }
+    .mega-heading h2 { margin: 0 0 5px; font-size: 1.13rem; letter-spacing: -.015em; }
+    .mega-heading p { margin: 0; color: #a9c6b9; font-size: .84rem; line-height: 1.5; }
+    .sample-tag { flex-shrink: 0; color: #b4f5ce; border: 1px solid #367b64; background: #174735; border-radius: 100px; padding: 6px 10px; font-size: .7rem; font-weight: 750; text-transform: uppercase; letter-spacing: .04em; }
+    .mega-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+    .mega-group { padding: 15px; border-radius: 13px; border: 1px solid #2f5146; background: #16362f; }
+    .mega-group h3 { color: #a3f0c2; font-size: .8rem; text-transform: uppercase; letter-spacing: .075em; margin: 0 0 12px; }
+    .sample-entry { display: block; padding: 7px 0; color: #e2efe9; font-size: .91rem; line-height: 1.45; }
+    .sample-entry + .sample-entry { border-top: 1px solid rgba(202,245,220,.07); }
+    .menu-note { margin: 16px 0 0; color: #a8c9bc; font-size: .78rem; line-height: 1.5; }
+    .mobile-toggle { display: none; appearance: none; border: 1px solid #396958; border-radius: 12px; background: #173c32; color: #e9fbf0; padding: 11px 14px; font-weight: 700; cursor: pointer; }
+    .main-shell { max-width: 1200px; margin: auto; padding: 0 clamp(20px,5vw,64px); }
+    .hero { min-height: min(720px, calc(100vh - 165px)); display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 82px 0 112px; }
+    .eyebrow { display: inline-block; border-radius: 100px; border: 1px solid #367b64; background: #164236; color: #bef5d2; padding: 9px 14px; font-size: .83rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+    h1 { font-size: clamp(3rem,8vw,6.2rem); font-weight: 800; line-height: 1.06; letter-spacing: -.057em; margin: 24px 0; }
     h1 span { color: #a3f0c2; }
-    p { max-width: 570px; color: #bed0c9; font-size: clamp(1.05rem, 2.5vw, 1.35rem); line-height: 1.7; margin: 0; }
-    .rule { width: 86px; height: 3px; background: #a3f0c2; border-radius: 2px; margin-top: 35px; }
-    footer { padding: 22px 0 4px; border-top: 1px solid #2b4740; color: #9ab6a9; font-size: .88rem; }
-    @media (prefers-reduced-motion: no-preference) { main { animation: appear .7s ease-out both; } @keyframes appear { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } } }
+    .hero-copy { max-width: 590px; color: #c1d5cb; font-size: clamp(1.05rem,2.4vw,1.3rem); line-height: 1.7; margin: 0; }
+    .hero-hint { display: inline-flex; align-items: center; gap: 10px; margin-top: 34px; color: #c3f2d5; font-size: .94rem; border-top: 2px solid #a3f0c2; padding-top: 18px; }
+    .foot { border-top: 1px solid #2b4c3f; padding: 24px 0; color: #99bcaa; font-size: .85rem; }
+    @media (max-width: 850px) {
+      .site-header { position: relative; }
+      .header-inner { min-height: 72px; flex-wrap: wrap; column-gap: 12px; padding: 14px 20px; }
+      .brand { font-size: .98rem; }
+      .mobile-toggle { display: inline-flex; margin-left: auto; }
+      .site-nav { display: none; width: 100%; order: 3; margin-left: 0; max-height: min(72vh,650px); overflow-y: auto; padding: 10px 0 12px; }
+      .site-nav.is-open { display: block; }
+      .nav-list { display: block; }
+      .nav-list > li { width: 100%; margin: 3px 0; }
+      .nav-home, .menu-item > summary { display: flex; width: 100%; justify-content: space-between; padding: 15px 12px; font-size: 1rem; }
+      .mega-panel, .nav-list > li:nth-child(n+4) .mega-panel { position: static; width: 100%; padding: 13px; border-radius: 14px; margin: 5px 0 12px; box-shadow: none; }
+      .mega-panel::before { display: none; }
+      .hero { min-height: 550px; padding: 74px 0 100px; }
+    }
+    @media (max-width: 480px) {
+      .brand { gap: 9px; font-size: .91rem; }
+      .brand-mark { width: 35px; height: 35px; font-size: 19px; }
+      .mobile-toggle { padding: 9px 11px; font-size: .87rem; }
+      .mega-grid { grid-template-columns: 1fr; }
+      .mega-heading { flex-wrap: wrap; }
+      .hero { min-height: 490px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .menu-item > summary::after { transition: none; } }
   </style>
 </head>
 <body>
-  <div class="shell">
-    <header aria-label="Site brand"><div class="mark" aria-hidden="true">✦</div>Life Science Academy</header>
-    <main>
-      <div class="eyebrow">A new chapter is beginning</div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Life Science Academy home"><span class="brand-mark" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰ Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-home" href="./" aria-current="page">Home</a></li>
+          <li><details class="menu-item"><summary>Exams</summary>
+            <div class="mega-panel">
+              <div class="mega-heading"><div><h2>Explore exams</h2><p>Sample exam categories; links will be added later.</p></div><span class="sample-tag">Preview</span></div>
+              <div class="mega-grid">
+                <section class="mega-group"><h3>National</h3><span class="sample-entry">CSIR-NET Life Sciences</span><span class="sample-entry">Exam syllabus</span><span class="sample-entry">Preparation roadmap</span></section>
+                <section class="mega-group"><h3>State level</h3><span class="sample-entry">State SET examinations</span><span class="sample-entry">Eligibility &amp; patterns</span><span class="sample-entry">State-wise resources</span></section>
+              </div>
+              <p class="menu-note">These are demonstration labels, not active links.</p>
+            </div>
+          </details></li>
+          <li><details class="menu-item"><summary>Study Notes</summary>
+            <div class="mega-panel">
+              <div class="mega-heading"><div><h2>Study notes</h2><p>Organized learning paths for future detailed notes.</p></div><span class="sample-tag">Preview</span></div>
+              <div class="mega-grid">
+                <section class="mega-group"><h3>Core concepts</h3><span class="sample-entry">Cell Biology</span><span class="sample-entry">Biochemistry</span><span class="sample-entry">Molecular Biology</span></section>
+                <section class="mega-group"><h3>Advanced topics</h3><span class="sample-entry">Genetics</span><span class="sample-entry">Ecology</span><span class="sample-entry">Developmental Biology</span></section>
+              </div>
+              <p class="menu-note">Actual unit, topic and subtopic links will follow your syllabus plan.</p>
+            </div>
+          </details></li>
+          <li><details class="menu-item"><summary>Practice</summary>
+            <div class="mega-panel">
+              <div class="mega-heading"><div><h2>Practice &amp; revise</h2><p>Sample formats for exam preparation.</p></div><span class="sample-tag">Preview</span></div>
+              <div class="mega-grid">
+                <section class="mega-group"><h3>Question bank</h3><span class="sample-entry">Unit-wise MCQs</span><span class="sample-entry">Topic-wise practice</span><span class="sample-entry">Previous-year questions</span></section>
+                <section class="mega-group"><h3>Assessment</h3><span class="sample-entry">Mock tests</span><span class="sample-entry">Revision sets</span><span class="sample-entry">Explanations</span></section>
+              </div>
+              <p class="menu-note">Test and question links are placeholders until configured.</p>
+            </div>
+          </details></li>
+          <li><details class="menu-item"><summary>Resources</summary>
+            <div class="mega-panel">
+              <div class="mega-heading"><div><h2>Helpful resources</h2><p>Plan, track and structure learning.</p></div><span class="sample-tag">Preview</span></div>
+              <div class="mega-grid">
+                <section class="mega-group"><h3>Planning</h3><span class="sample-entry">Syllabus overview</span><span class="sample-entry">Study planner</span><span class="sample-entry">Revision checklist</span></section>
+                <section class="mega-group"><h3>Reference</h3><span class="sample-entry">Glossary</span><span class="sample-entry">Recommended reading</span><span class="sample-entry">Learning guides</span></section>
+              </div>
+              <p class="menu-note">This is a sample mega menu. No premium notes are published here.</p>
+            </div>
+          </details></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="main-shell">
+    <main class="hero" id="overview">
+      <span class="eyebrow">Life Science Academy · Early preview</span>
       <h1>Explore life.<br><span>Keep learning.</span></h1>
-      <p>Welcome to Life Science Academy. We're creating a new space for curiosity, learning, and discovery in the life sciences. More details are coming soon.</p>
-      <div class="rule" aria-hidden="true"></div>
+      <p class="hero-copy">A learning platform for life sciences is taking shape. Explore the sample navigation above; the detailed syllabus, notes and official destinations will be added step by step.</p>
+      <span class="hero-hint">✦ Responsive mega menu demo — desktop &amp; mobile</span>
     </main>
-    <footer>© Life Science Academy. All rights reserved.</footer>
+    <footer class="foot">© Life Science Academy. Navigation labels are placeholders for the upcoming course structure.</footer>
   </div>
+  <script>
+    (function () {
+      const toggle = document.querySelector('.mobile-toggle');
+      const nav = document.querySelector('#site-nav');
+      const menus = Array.from(document.querySelectorAll('.menu-item'));
+      const setMobileOpen = (open) => {
+        nav.classList.toggle('is-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.textContent = open ? '✕ Close' : '☰ Menu';
+      };
+      toggle.addEventListener('click', () => setMobileOpen(toggle.getAttribute('aria-expanded') !== 'true'));
+      menus.forEach((menu) => {
+        menu.querySelector('summary').addEventListener('click', () => {
+          menus.forEach((other) => { if (other !== menu) other.open = false; });
+        });
+      });
+      document.addEventListener('click', (event) => {
+        if (!event.target.closest('.menu-item')) menus.forEach((menu) => { menu.open = false; });
+        if (!event.target.closest('.header-inner') && toggle.getAttribute('aria-expanded') === 'true') setMobileOpen(false);
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape') return;
+        const openMenu = menus.find((menu) => menu.open);
+        menus.forEach((menu) => { menu.open = false; });
+        if (openMenu) openMenu.querySelector('summary').focus();
+        if (toggle.getAttribute('aria-expanded') === 'true') {
+          setMobileOpen(false);
+          if (!openMenu) toggle.focus();
+        }
+      });
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 850 && toggle.getAttribute('aria-expanded') === 'true') setMobileOpen(false);
+      });
+    }());
+  </script>
 </body>
 </html>

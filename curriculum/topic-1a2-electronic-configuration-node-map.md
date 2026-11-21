@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–07 are complete published chapters, while Nodes 08–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–08 are complete published chapters, while Nodes 09–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 7 of 22 Topic 1.A.2 lessons published; Nodes 08–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 8 of 22 Topic 1.A.2 lessons published; Nodes 09–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -89,7 +89,7 @@
 - **Full-note content contract:** m_l=−l,...,+l; degeneracy, orbital orientation labels, intrinsic electron spin m_s=±1/2; spin does not mean a tiny ball literally rotates.
 - **Essential visual / worked practice:** Enumerate m_l for p and d subshells; show spin-up/down conceptual arrows in orbital diagrams.
 - **Boundary and scientific caveat:** Do not claim orbital orientation always predicts an immutable direction in complex atoms or fields.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). Complete chapter: [Read Node 1.A.2.08](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-08-magnetic-spin-quantum-numbers.html).
 
 #### 1.A.2.09 — Allowed Quantum Numbers, Orbital Counts and Electron Capacity
 

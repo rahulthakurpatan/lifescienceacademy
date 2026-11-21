@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:05:00+05:30",
-  "node_id": "1.A.2.06",
-  "title": "Principal Quantum Number n: Shells, Scale and Energy",
-  "slug": "notes/unit-01/subunit-1a/topic-1a2/node-06-principal-quantum-number-shells-scale-energy.html",
+  "updated_at": "2026-11-22",
+  "node_id": "1.A.2.07",
+  "title": "Azimuthal Quantum Number l: Subshells and Angular Momentum",
   "unit": "01",
   "subunit": "1.A",
   "topic": "1.A.2",
+  "slug": "notes/unit-01/subunit-1a/topic-1a2/node-07-azimuthal-quantum-number-subshells-angular-momentum.html",
   "status": "published_in_main_pending_live_verification",
   "published": true,
   "published_topic_1a1_nodes": [
@@ -45,10 +45,10 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "planned_topic_1a2_nodes": [
-    7,
     8,
     9,
     10,
@@ -65,24 +65,25 @@
     21,
     22
   ],
-  "next_pending_node_id": "1.A.2.07",
-  "next_pending_node_title": "Azimuthal Quantum Number l: Subshells and Angular Momentum",
-  "main_baseline_sha": "46f2f547c34ec4ac585a632383881deb9563e355",
-  "source_branch": "automation-node-1a2-06-principal-quantum-number",
-  "source_draft_commit": "108ea5ad4ebf9a02b8d5828b63685e103da0a4cc",
+  "next_pending_node_id": "1.A.2.08",
+  "next_pending_node_title": "Magnetic and Spin Quantum Numbers: m_l and m_s",
+  "main_baseline_sha": "76f0ef6445551761a23602a09eb86aa8fd2d0146",
+  "source_branch": "manual-node-1a2-07-azimuthal-quantum-number",
+  "source_draft_commit": "85a63cdd740b1cdb1ee9e9ad9604ebe38dc0c5d3",
   "qa": {
-    "scientific_models": "Hydrogenic Coulomb assumptions checked against OpenStax, NIST and physical chemistry references; energy and radius arithmetic reviewed",
     "content_complete": true,
     "sections": 35,
     "worked_examples": 40,
-    "original_practice_questions": 62,
+    "original_practice_questions": 64,
     "application_cases": 12,
     "misconceptions": 30,
     "integrative_challenges": 10,
-    "svg_diagrams": 3,
+    "svg_diagrams": 2,
     "references": 9,
-    "technical": "Unique anchors, balanced semantic sections/tables/SVG, canonical and JSON-LD; Node 05 CSS and JS preserved",
+    "scientific": "Allowed l values, L squared eigenvalues, SI dimensional calculations, Coulomb state assumptions and biological model boundaries cross-checked with OpenStax/LibreTexts references",
+    "technical": "Static DOM checks: 35 unique heading anchors and TOC targets; balanced tags, SVG aria title/desc references, preserved original reader CSS and JavaScript; valid canonical and JSON-LD",
+    "responsive_browser_verified": false,
     "live_deployment_verified": false
   },
-  "notes": "Main and draft branch checked before publishing. Verify current main and actual files in every manual or hourly execution. Do not duplicate completed Node 06; Node 07 is next. Reader uses a nonclickable Next control until Node 07 genuinely exists."
+  "notes": "Always check actual main files and menu before every manual/automation run; Nodes 01-07 published, next scheduled target Node 08. Never republish Node 07. Existing reader controls unchanged."
 }

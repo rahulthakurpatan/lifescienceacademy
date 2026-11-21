@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–06 are complete published chapters, while Nodes 07–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–07 are complete published chapters, while Nodes 08–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 6 of 22 Topic 1.A.2 lessons published; Nodes 07–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 7 of 22 Topic 1.A.2 lessons published; Nodes 08–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -81,7 +81,7 @@
 - **Full-note content contract:** l=0...(n−1); s,p,d,f correspondence; allowed n-l combinations; relation to orbital angular momentum magnitude, possible shapes and angular dependence.
 - **Essential visual / worked practice:** List allowed l for n=2,3,4 and name the subshells; distinguish impossible 2d and 1p.
 - **Boundary and scientific caveat:** Detailed shapes and nodes are developed in Node 10 to avoid premature memorization.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). Full textbook chapter: [Read Node 1.A.2.07](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-07-azimuthal-quantum-number-subshells-angular-momentum.html).
 
 #### 1.A.2.08 — Magnetic and Spin Quantum Numbers: m_l and m_s
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01–06 have been added to the XML sitemap.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01–07 have been added to the XML sitemap.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

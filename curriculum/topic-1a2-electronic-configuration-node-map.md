@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–08 are complete published chapters, while Nodes 09–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–09 are complete published chapters, while Nodes 10–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 8 of 22 Topic 1.A.2 lessons published; Nodes 09–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 9 of 22 Topic 1.A.2 lessons published; Nodes 10–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -97,7 +97,7 @@
 - **Full-note content contract:** Combine (n,l,m_l,m_s) restrictions; count 2l+1 orbitals/subshell and n² orbitals/shell, max 2(2l+1) electrons per subshell and 2n² electrons/shell; valid/invalid sets.
 - **Essential visual / worked practice:** Derive 3p→3 orbitals→6 electrons, n=3→9 orbitals→18 electrons; test many candidate quantum-number tuples.
 - **Boundary and scientific caveat:** Capacities are upper bounds for available states, not a claim that every ground-state n-shell fills before next shell begins.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). Complete chapter: [Read Node 1.A.2.09](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-09-allowed-quantum-numbers-orbital-counts-electron-capacity.html). Scientific scope: counting distinct allowed orbital states and capacity, not predicting energetic occupation.
 
 #### 1.A.2.10 — Orbital Shapes and Nodes: s, p, d and f
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01–07 have been added to the XML sitemap.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–09 are indexed.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

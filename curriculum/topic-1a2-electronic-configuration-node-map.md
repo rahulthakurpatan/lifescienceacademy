@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–09 are complete published chapters, while Nodes 10–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–10 are complete published chapters, while Nodes 11–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 9 of 22 Topic 1.A.2 lessons published; Nodes 10–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 10 of 22 Topic 1.A.2 lessons published; Nodes 11–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -105,7 +105,7 @@
 - **Full-note content contract:** spherical s density, dumbbell-like p lobes, qualitative d and f shapes; nodes versus empty space, radial/ angular nodes for hydrogenic orbitals (n−l−1 and l), probability vs boundary surfaces.
 - **Essential visual / worked practice:** Interpret labelled 1s,2s,2p,3d probability schematics and calculate allowed radial/angular node counts.
 - **Boundary and scientific caveat:** Do not present orbitals as fixed hard shells or give exact shape claims for strongly interacting many-electron systems.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). Comprehensive original textbook chapter: [Read Node 1.A.2.10](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-10-orbital-shapes-radial-angular-nodes.html). Chapter includes hydrogenic wavefunctions, radial distributions, s/p/d/f visualizations, nodal geometry, 66 solved examples, 66 explained original practice questions, scientific case studies, and appropriate model limitations.
 
 ### III. Orbital energies and filling principles
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–09 are indexed.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–10 are indexed.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

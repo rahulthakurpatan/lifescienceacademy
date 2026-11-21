@@ -1,6 +1,6 @@
 # Working manuscript — 1.A.2.06 Principal Quantum Number n: Shells, Scale and Energy
 
-> **DRAFT ONLY — NOT A PUBLISHED NODE.** This is a research-backed content foundation for a complete standalone HTML textbook chapter. It must not be linked in the public menu or sitemap until full chapter development and independent QA are complete.
+> **ARCHIVED RESEARCH DRAFT: Node 1.A.2.06 has been fully published on GitHub main.** Publication commit: 76f0ef6445551761a23602a09eb86aa8fd2d0146. This file documents preliminary research only. Do not develop, republish or relink Node 06 from this branch; verify current main before starting the next genuinely unpublished Node.
 >
 > Target canonical slug: `notes/unit-01/subunit-1a/topic-1a2/node-06-principal-quantum-number-shells-scale-energy.html`.
 

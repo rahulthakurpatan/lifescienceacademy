@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-21T18:30:00Z",
-  "status": "draft",
+  "status": "archived_after_main_publication",
   "node_id": "1.A.2.06",
   "title": "Principal Quantum Number n: Shells, Scale and Energy",
   "slug": "notes/unit-01/subunit-1a/topic-1a2/node-06-principal-quantum-number-shells-scale-energy.html",
-  "main_baseline_sha": "46f2f547c34ec4ac585a632383881deb9563e355",
+  "main_baseline_sha": "76f0ef6445551761a23602a09eb86aa8fd2d0146",
   "working_branch": "automation-node-1a2-06-principal-quantum-number",
   "draft_path": "curriculum/drafts/node-1a2-06-principal-quantum-number.md",
-  "published": false,
+  "published": true,
   "verified_published_topic_1a2_nodes": [
     1,
     2,
@@ -35,13 +35,15 @@
     21,
     22
   ],
-  "next_action": "BEFORE any editing, re-read latest main/index/menu/sitemap/roadmap and branches to detect manual publication. If Node 06 still unpublished, expand draft to full HTML matching Node 05 depth, add original figures/MCQs/QA, verify and publish only after pre-publish double sync. If manually published, do not duplicate; move to next unpublished Node.",
+  "next_action": "Node 1.A.2.06 is complete on main. Verify current main/index/roadmap/sitemap and select next genuinely unfinished Node 1.A.2.07; do not republish Node 06. If main has advanced, follow the latest state.",
   "qa": {
     "scientific_foundation": "drafted; equations and worked numerical approximations require independent validation",
-    "full_html": "not_started",
-    "mcqs": "not_started",
-    "svg": "planned",
-    "publication": "blocked until full chapter and QA"
+    "full_html": "complete_on_main",
+    "mcqs": "62 original explained",
+    "svg": "3 original accessible scientific diagrams",
+    "publication": "main commit confirmed; live status is checked separately"
   },
-  "notes": "Checkpoint lives on draft branch, not main. Never assume this file supersedes manually published main. No public menu/sitemap changes made."
+  "notes": "Archive-only coordination record on former draft branch. The authoritative progress record is curriculum/academy-progress.json on main.",
+  "publication_commit_sha": "76f0ef6445551761a23602a09eb86aa8fd2d0146",
+  "next_pending_node_id": "1.A.2.07"
 }

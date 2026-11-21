@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01 and 1.A.2.02 are complete published chapters, while Nodes 03–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01, 1.A.2.02 and 1.A.2.03 are complete published chapters, while Nodes 04–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 2 of 22 Topic 1.A.2 lessons published; Nodes 03–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 3 of 22 Topic 1.A.2 lessons published; Nodes 04–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -45,7 +45,7 @@
 - **Full-note content contract:** Particle momentum and λ=h/p, electron diffraction evidence, wave-particle complementarity, standing-wave motivation and nonrelativistic examples.
 - **Essential visual / worked practice:** Compute de Broglie wavelength for a given electron momentum; discuss electron diffraction and limitation of classical orbits.
 - **Boundary and scientific caveat:** Keep scattering/instrumentation details within scope; no advanced solid-state band calculations.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-21). Read the full chapter: [Node 1.A.2.03 — Matter Waves](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-03-matter-waves-de-broglie-electron-behaviour.html).
 
 #### 1.A.2.04 — Heisenberg Uncertainty and the Failure of Fixed Orbits
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01 and 1.A.2.02 have been added to the XML sitemap.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01–03 have been added to the XML sitemap.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

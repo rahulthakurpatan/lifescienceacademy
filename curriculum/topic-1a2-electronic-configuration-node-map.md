@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Node 1.A.2.01 is now a fully published chapter, while Nodes 02–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01 and 1.A.2.02 are complete published chapters, while Nodes 03–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 1 of 22 Topic 1.A.2 lessons published; Nodes 02–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 2 of 22 Topic 1.A.2 lessons published; Nodes 03–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -37,7 +37,7 @@
 - **Full-note content contract:** Electromagnetic wavelength/frequency, c=λν, E=hν=hc/λ, electronvolt vs joule, absorption/emission and meaningful spectral calculations.
 - **Essential visual / worked practice:** Convert 500 nm to photon energy; solve several emission/absorption energy problems with units.
 - **Boundary and scientific caveat:** Avoid treating photon wavelength as orbital size or ionization energy without the actual transition.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-21). Full chapter: [Read Node 1.A.2.02](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-02-quantized-light-wavelength-frequency-photon-energy.html).
 
 #### 1.A.2.03 — Matter Waves: de Broglie Wavelength and Electron Behaviour
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Node 1.A.2.01 has been added to the XML sitemap.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01 and 1.A.2.02 have been added to the XML sitemap.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

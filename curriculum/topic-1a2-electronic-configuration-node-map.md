@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01, 1.A.2.02 and 1.A.2.03 are complete published chapters, while Nodes 04–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–04 are complete published chapters, while Nodes 05–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 3 of 22 Topic 1.A.2 lessons published; Nodes 04–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 4 of 22 Topic 1.A.2 lessons published; Nodes 05–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -53,7 +53,7 @@
 - **Full-note content contract:** ΔxΔp≥ħ/2, uncertainty as quantum principle rather than instrument defect, momentum/position trade-off, classical-orbit limitations, sample dimensionally checked estimates.
 - **Essential visual / worked practice:** Use a stated position uncertainty to infer a lower bound on momentum uncertainty; distinguish uncertainty from probabilistic ignorance.
 - **Boundary and scientific caveat:** Do not say an electron has zero position information or that the uncertainty principle causes electrons to orbit.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-21). Read the complete textbook chapter: [Node 1.A.2.04 — Heisenberg Uncertainty](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-04-heisenberg-uncertainty-failure-fixed-orbits.html).
 
 #### 1.A.2.05 — Quantum Orbitals: Wavefunctions and Probability Density
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01–03 have been added to the XML sitemap.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Nodes 1.A.2.01–04 have been added to the XML sitemap.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

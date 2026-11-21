@@ -221,7 +221,7 @@
 ## Deployment integration rules
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
-- On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes.
+- On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes. **Permanent homepage menu display rule:** show only the total planned learning-node count beside each Topic title (for example, `22 nodes` or `28 nodes`); never display `X/Y published`, counts of published/unpublished nodes, progress ratios, or similar completion-status statistics anywhere in the student-facing curriculum menu or its descriptive captions. Keep actual published chapter links clickable and planned entries nonclickable; progress statistics may remain in the internal roadmap and checkpoint.
 - The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–10 are indexed.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

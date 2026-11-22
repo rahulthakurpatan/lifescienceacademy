@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–12 are complete published chapters, while Nodes 13–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–13 are complete published chapters, while Nodes 14–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 12 of 22 Topic 1.A.2 lessons published; Nodes 13–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 13 of 22 Topic 1.A.2 lessons published; Nodes 14–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -133,7 +133,7 @@
 - **Full-note content contract:** Aufbau as energy-building guide, diagonal ordering (n+l then lower n), 1s→2s→2p→3s→3p→4s→3d..., shell/subshell capacities, exceptions and contextual limits.
 - **Essential visual / worked practice:** Construct an Aufbau chart and trace orbital filling up to 4p using n+l; identify why 4s can be filled before 3d in neutral atoms.
 - **Boundary and scientific caveat:** State n+l as a useful rule of thumb, not a rigorous universal energy law.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22): [Read Node 1.A.2.13](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-13-aufbau-principle-n-plus-l-filling-guide.html). Original 61-section textbook chapter with quantum-number prerequisites, Madelung (n+l,n) order, tie-breaker, neutral configuration construction, 4s/3d caveats, verified Cr/Cu exceptions, 61 worked examples, 85 explained practice questions, 12 cases, 12 integrative challenges, 35 misconceptions and three accessible SVG diagrams. Next Node 14 remains planned.
 
 #### 1.A.2.14 — Pauli Exclusion Principle and Electron Pairing
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes. **Permanent homepage menu display rule:** show only the total planned learning-node count beside each Topic title (for example, `22 nodes` or `28 nodes`); never display `X/Y published`, counts of published/unpublished nodes, progress ratios, or similar completion-status statistics anywhere in the student-facing curriculum menu or its descriptive captions. Keep actual published chapter links clickable and planned entries nonclickable; progress statistics may remain in the internal roadmap and checkpoint.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–12 are indexed.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–13 are indexed.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

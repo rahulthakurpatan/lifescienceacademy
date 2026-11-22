@@ -2,7 +2,7 @@
 
 > **Quality hold:** Prior Topic 1.A.2 Node 22 is published but requires substantial textbook-level narrative re-development. Before publishing the next node, check `curriculum/academy-progress.json` and `curriculum/academy-editorial-quality-gate.md` for resolution and current main status. The planned Node 1.A.3.01 remains next in the chronological syllabus, but does not override the repair priority.
 
-> **Development status (2026-11-22):** Topic 1.A.2 is complete. Topic 1.A.3 has **2 published chapters (Nodes 1.A.3.01 and 1.A.3.02)** and 24 further planned nonclickable nodes. These are Academy design decisions, not an official CSIR-mandated count.
+> **Development status (2026-11-22):** Topic 1.A.2 is complete. Topic 1.A.3 has **3 published chapters (Nodes 1.A.3.01 through 1.A.3.03)** and 23 further planned nonclickable nodes. These are Academy design decisions, not an official CSIR-mandated count.
 
 - **Unit:** 01 — Structure and Function of Biomolecules
 - **Subunit:** 1.A — Structure of atoms, molecules and chemical bonds
@@ -35,7 +35,7 @@
 - **Learning question:** How quantum-shell and subshell arrangements shape the periodic table.
 - **Content scope:** Rows, groups, s/p/d/f blocks, valence patterns, exceptions to simplistic group rules.
 - **Teaching contract:** Progress from a motivating observation to an accurate scientific model, verified evidence, definitions and assumptions, authentic applications, worked problems and explained original practice as appropriate. Avoid consuming later Nodes.
-- **State:** Planned; no published chapter file, clickable menu link or sitemap entry.
+- **State:** Published (2026-11-22) — [read full textbook chapter](../notes/unit-01/subunit-1a/topic-1a3/node-03-periods-groups-electron-configurations.html). Scientific and technical quality gate passed.
 
 #### 1.A.3.04 — Effective Nuclear Charge and Periodic Trends
 
@@ -209,7 +209,7 @@
 
 ## Safe publication protocol
 
-1. Before development inspect GitHub main HEAD, menu, actual files, sitemap, draft branches and checkpoints. The first genuinely unpublished Node is 1.A.3.03, unless another session publishes it first. Preserve the separate editorial quality hold on Node 1.A.2.22. Check the outstanding Node 1.A.2.22 quality hold before new work.
+1. Before development inspect GitHub main HEAD, menu, actual files, sitemap, draft branches and checkpoints. The first genuinely unpublished Node is 1.A.3.04, unless another session publishes it first. Preserve the separate quality hold on Node 1.A.2.22. Preserve the separate editorial quality hold on Node 1.A.2.22. Check the outstanding Node 1.A.2.22 quality hold before new work.
 2. Use original, beginner-friendly, academically rigorous chronological narrative; independently verify numerical results and claims.
 3. Preserve existing responsive chapter reader, accessibility, metadata and navigation. Create no thin placeholders.
 4. Publish only after content QA, technical QA and last-minute main refresh; conditionally update main without force-push.

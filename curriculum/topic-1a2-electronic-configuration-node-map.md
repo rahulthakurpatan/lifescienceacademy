@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–15 are complete published chapters, while Nodes 16–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–16 are complete published chapters, while Nodes 17–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 15 of 22 Topic 1.A.2 lessons published; Nodes 16–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 16 of 22 Topic 1.A.2 lessons published; Nodes 17–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -133,7 +133,7 @@
 - **Full-note content contract:** Aufbau as energy-building guide, diagonal ordering (n+l then lower n), 1s→2s→2p→3s→3p→4s→3d..., shell/subshell capacities, exceptions and contextual limits.
 - **Essential visual / worked practice:** Construct an Aufbau chart and trace orbital filling up to 4p using n+l; identify why 4s can be filled before 3d in neutral atoms.
 - **Boundary and scientific caveat:** State n+l as a useful rule of thumb, not a rigorous universal energy law.
-- **State:** Published on GitHub main (2026-11-22): [Read Node 1.A.2.13](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-13-aufbau-principle-n-plus-l-filling-guide.html). Original 61-section textbook chapter with quantum-number prerequisites, Madelung (n+l,n) order, tie-breaker, neutral configuration construction, 4s/3d caveats, verified Cr/Cu exceptions, 61 worked examples, 85 explained practice questions, 12 cases, 12 integrative challenges, 35 misconceptions and three accessible SVG diagrams. Nodes 14 and 15 are now published; Node 16 remains planned.
+- **State:** Published on GitHub main (2026-11-22): [Read Node 1.A.2.13](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-13-aufbau-principle-n-plus-l-filling-guide.html). Original 61-section textbook chapter with quantum-number prerequisites, Madelung (n+l,n) order, tie-breaker, neutral configuration construction, 4s/3d caveats, verified Cr/Cu exceptions, 61 worked examples, 85 explained practice questions, 12 cases, 12 integrative challenges, 35 misconceptions and three accessible SVG diagrams. Nodes 14–16 are now published.
 
 #### 1.A.2.14 — Pauli Exclusion Principle and Electron Pairing
 
@@ -141,7 +141,7 @@
 - **Full-note content contract:** Four-quantum-number distinctness, fermion antisymmetry conceptual basis, opposite spin arrows in one spatial orbital, filling limits and impossible diagrams.
 - **Essential visual / worked practice:** Diagnose orbital boxes with two identical spins in same orbital, contrast orbital occupancy and spin orientation.
 - **Boundary and scientific caveat:** Avoid unsupported assertion that spin is literal clockwise/counterclockwise spinning charge.
-- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.14](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-14-pauli-exclusion-principle-electron-pairing.html). Full 52-section textbook chapter with historical motivation, quantum-number uniqueness, Pauli and Hund distinction, spin singlets/triplets, antisymmetry/Slater determinants, 4 original accessible SVG diagrams, 12 scientific cases, 40 solved examples, 30 misconception corrections, 10 integrative challenges, 60 original explained NET/SET-style questions and 11 references. Node 15 is now published; Node 16 remains planned.
+- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.14](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-14-pauli-exclusion-principle-electron-pairing.html). Full 52-section textbook chapter with historical motivation, quantum-number uniqueness, Pauli and Hund distinction, spin singlets/triplets, antisymmetry/Slater determinants, 4 original accessible SVG diagrams, 12 scientific cases, 40 solved examples, 30 misconception corrections, 10 integrative challenges, 60 original explained NET/SET-style questions and 11 references. Nodes 15–16 are now published.
 
 #### 1.A.2.15 — Hund's Rule and Ground-State Orbital Diagrams
 
@@ -149,15 +149,15 @@
 - **Full-note content contract:** Degenerate orbitals, Hund maximum multiplicity for relevant cases, consistent parallel spins, pairing vs promotion, orbital-box notation, conceptual exchange/correlation.
 - **Essential visual / worked practice:** Draw p²,p³,p⁴,p⁵, d⁵ boxes, count unpaired electrons and identify ground-state arrangements.
 - **Boundary and scientific caveat:** Do not claim exchange energy alone is a universally complete many-electron explanation.
-- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.15](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-15-hunds-rule-ground-state-orbital-diagrams.html). Original 61-section chapter on Hund's first rule, p and d high-spin orbital diagrams, electron pairing, maximum spin/multiplicity, exchange models and limitations, NIST evaluated atomic terms, ligand-field high- and low-spin cases, four SVGs, 12 scientific cases, 40 worked examples, 60 explained original exam questions, 30 misconceptions, 10 integrative challenges and 13 scholarly references. Node 16 remains planned.
+- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.15](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-15-hunds-rule-ground-state-orbital-diagrams.html). Original 61-section chapter on Hund's first rule, p and d high-spin orbital diagrams, electron pairing, maximum spin/multiplicity, exchange models and limitations, NIST evaluated atomic terms, ligand-field high- and low-spin cases, four SVGs, 12 scientific cases, 40 worked examples, 60 explained original exam questions, 30 misconceptions, 10 integrative challenges and 13 scholarly references. Node 16 has now been published.
 
-#### 1.A.2.16 — Write Ground-State Configurations from Hydrogen to Calcium
+#### 1.A.2.16 — Ground-State Electron Configurations from Hydrogen to Calcium
 
 - **Learning question:** Can we construct and verify configurations for main-group elements?
 - **Full-note content contract:** Step-by-step H–Ca (Z=1–20), subshell notation, noble-gas shorthand [He],[Ne],[Ar], count check, common oxygen/sodium/magnesium/chlorine examples.
 - **Essential visual / worked practice:** Write C,N,O,Na,Mg,Al,S,Cl,Ar,K,Ca; compare orbital boxes and verify electron count.
 - **Boundary and scientific caveat:** Do not conflate filling order with ion electron-removal order, handled in Node 19.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.16](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-16-ground-state-configurations-hydrogen-calcium.html). Complete original 69-section, ~13,200-word chapter with all 20 neutral H–Ca configurations, four accessible scientific SVG figures, 40 worked constructions/analytical examples, 60 original explained NET/SET-style questions, 12 scientific cases, 30 corrected misconceptions, 10 integrative challenges and eight credible references. Neutral K/Ca 4s occupation is explicitly scoped; ions, transition metals and molecules are not misrepresented.
 
 ### IV. Configurations, ions and biological relevance
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes. **Permanent homepage menu display rule:** show only the total planned learning-node count beside each Topic title (for example, `22 nodes` or `28 nodes`); never display `X/Y published`, counts of published/unpublished nodes, progress ratios, or similar completion-status statistics anywhere in the student-facing curriculum menu or its descriptive captions. Keep actual published chapter links clickable and planned entries nonclickable; progress statistics may remain in the internal roadmap and checkpoint.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–15 are indexed.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–16 are indexed.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

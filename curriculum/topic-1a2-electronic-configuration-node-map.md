@@ -177,7 +177,7 @@
 - **Full-note content contract:** Cr [Ar]3d⁵4s¹, Cu [Ar]3d¹⁰4s¹; energy competition, limits of simplistic half-filled/full-filled slogan; known contexts and ground-state nuance.
 - **Essential visual / worked practice:** Compare naive predictions with measured Cr/Cu configurations; identify why predictions require evidence and subtle energy considerations.
 - **Boundary and scientific caveat:** Do not claim all half-filled subshells always have the same exception or force one rule onto ions.
-- **State:** Planned (no published URL).
+- **State:** Published to GitHub main (2026-11-22). [Read full Node 1.A.2.18](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-18-chromium-copper-limits-simple-filling-rules.html). Complete original 49-section chapter with 40 worked examples, 60 explained original exam questions, 12 scientific cases, 30 misconception corrections, 10 integrative challenges, three labelled zoomable SVG figures, NIST ground-state evidence and official syllabus alignment. GitHub Pages deployment and direct live HTTP availability require separate verification.
 
 #### 1.A.2.19 — Electronic Configurations of Ions and the 4s–3d Issue
 

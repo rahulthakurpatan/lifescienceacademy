@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status (updated 2026-11-22):** Topic 1.A.2 has 22 planned learning nodes; Nodes 1.A.2.01–20 are published, and Nodes 21–22 remain planned. The 22-node division is an Academy design and is independent of Topic 1.A.1's 28 published nodes.
+> **Implementation status (updated 2026-11-22):** Topic 1.A.2 has 22 planned learning nodes; Nodes 1.A.2.01–21 are published, and Node 22 remains planned. The 22-node division is an Academy design and is independent of Topic 1.A.1's 28 published nodes.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 20 of 22 Topic 1.A.2 lessons published. Nodes 21 and 22 remain nonclickable planned curriculum entries until complete chapters exist.
+- **Status:** 21 of 22 Topic 1.A.2 lessons published. Node 22 remains a nonclickable planned curriculum entry until its complete chapter exists.
 
 ## Development commitments for every eventual full note
 
@@ -201,7 +201,7 @@
 - **Full-note content contract:** Paired versus unpaired electrons, atom/ion paramagnetism and diamagnetism, simple spin counts, scope limits in molecules and complexes, caution about molecular O₂.
 - **Essential visual / worked practice:** Determine unpaired electrons for N, O, Fe³⁺ free-ion in context; compare paramagnetic versus diamagnetic species.
 - **Boundary and scientific caveat:** Do not infer O₂ molecular magnetism solely from isolated oxygen atomic configurations; molecular orbitals and ligand fields need separate models.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.21](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-21-unpaired-electrons-spin-magnetic-response.html). Complete original deep chapter with 49 teaching/practice sections, 3 accessible SVG diagrams, 45 worked examples, 24 explained MCQs, additional numerical/analytical/assertion–reason problems, 12 scientific cases, 25 corrected misconceptions, 6 integrative challenges and authoritative references. Spin-only approximations and atom/molecule/complex distinctions are stated explicitly; Pages live verification is separate.
 
 #### 1.A.2.22 — Electronic Configuration in Biology and Integrated CSIR-NET Practice
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes. **Permanent homepage menu display rule:** show only the total planned learning-node count beside each Topic title (for example, `22 nodes` or `28 nodes`); never display `X/Y published`, counts of published/unpublished nodes, progress ratios, or similar completion-status statistics anywhere in the student-facing curriculum menu or its descriptive captions. Keep actual published chapter links clickable and planned entries nonclickable; progress statistics may remain in the internal roadmap and checkpoint.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Published Node 1.A.2.01–20 chapter URLs are included in the XML sitemap; only actually published chapters may be added.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Published Node 1.A.2.01–21 chapter URLs are included in the XML sitemap; only actually published chapters may be added.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

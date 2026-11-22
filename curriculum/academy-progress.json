@@ -127,5 +127,16 @@
   ],
   "next_topic_roadmap": "curriculum/topic-1a3-periodic-properties-node-map.md",
   "github_pages_deployment_workflow_id": 44994084562,
-  "github_pages_deployment_workflow_url": "https://github.com/rahulthakurpatan/lifescienceacademy/actions/runs/44994084562"
+  "github_pages_deployment_workflow_url": "https://github.com/rahulthakurpatan/lifescienceacademy/actions/runs/44994084562",
+  "quality_hold": {
+    "active": true,
+    "applies_to_node_id": "1.A.2.22",
+    "reason": "Published Node22 has only ~3233 visible outside-table narrative words, versus 13711 in comparable Node18; ~45% of article HTML is table markup and substantive teaching depth is below the Academy editorial standard.",
+    "priority": "Substantive re-development of existing Node 1.A.2.22 before advancing new node production, subject to safe manual/automation synchronization.",
+    "quality_gate_file": "curriculum/academy-editorial-quality-gate.md",
+    "checkpoint": "2026-11-22",
+    "clear_only_after": "Verified substantial prose, experimental evidence, mechanisms, derivations, expanded explained examples and scientific/technical QA; then successful non-force Git publication",
+    "status": "pending_redevelopment"
+  },
+  "next_required_action": "Audit and substantially deepen the existing Node 1.A.2.22 under the new quality gate; do not publish new nodes just to fill a schedule. Next genuinely unbuilt Node remains 1.A.3.01."
 }

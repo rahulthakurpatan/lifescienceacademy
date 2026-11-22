@@ -1,5 +1,7 @@
 # Life Science Academy — Topic 1.A.3 Periodic Properties
 
+> **Quality hold:** Prior Topic 1.A.2 Node 22 is published but requires substantial textbook-level narrative re-development. Before publishing the next node, check `curriculum/academy-progress.json` and `curriculum/academy-editorial-quality-gate.md` for resolution and current main status. The planned Node 1.A.3.01 remains next in the chronological syllabus, but does not override the repair priority.
+
 > **Development status (2026-11-22):** Topic 1.A.2 is complete. Topic 1.A.3 has 26 planned, nonclickable learning nodes and **no published chapters yet**. These are Academy design decisions, not an official CSIR-mandated count.
 
 - **Unit:** 01 — Structure and Function of Biomolecules

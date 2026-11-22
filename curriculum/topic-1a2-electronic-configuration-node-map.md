@@ -193,7 +193,7 @@
 - **Full-note content contract:** Core-valence boundary; outer-shell ns/np for main group; d-electron participation for transition metals, group/electron configuration correlations, ionic charge preview.
 - **Essential visual / worked practice:** Identify core and valence for C, Na, Mg, Cl, Fe under stated conventions; distinguish shell from chemical valence.
 - **Boundary and scientific caveat:** Periodic trends are in 1.A.3 and bond mechanism in 1.A.4: keep only the electronic prerequisites here.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). [Read full Node 1.A.2.20](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-20-core-versus-valence-electrons-main-group-transition-metals.html). Original 53-section teaching chapter with 34 worked examples, 38 explained original exam-style problems, 10 scientific cases, 20 misconception corrections, five integrative challenges and three original labelled SVG illustrations. Scientific sources include NIST, OpenStax and chemistry teaching resources. Direct live Pages availability is verified separately.
 
 #### 1.A.2.21 — Unpaired Electrons, Electron Spin and Magnetic Response
 

@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–16 are complete published chapters, while Nodes 17–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–17 are complete published chapters, while Nodes 18–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 16 of 22 Topic 1.A.2 lessons published; Nodes 17–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 17 of 22 Topic 1.A.2 lessons published; Nodes 18–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -169,7 +169,7 @@
 - **Full-note content contract:** Neutral Sc–Zn 3d/4s configurations, [Ar] core, ground-state notation, distinguishing final-electron order from chemical reactivity, qualitative transition metal context.
 - **Essential visual / worked practice:** Determine Fe, Co, Ni, Zn configurations and electron counts; label core and 3d/4s contributions.
 - **Boundary and scientific caveat:** Cr/Cu anomalies are examined independently in Node 18, not hidden as mere memorization.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). Complete original chapter: [Read Node 1.A.2.17](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-17-transition-metal-configurations-sc-zn-noble-gas-shorthand.html). Scientific sources: NIST evaluated neutral table and CSIR-HRDG 2026 syllabus.
 
 #### 1.A.2.18 — Chromium, Copper and the Limits of Simple Filling Rules
 

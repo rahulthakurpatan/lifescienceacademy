@@ -2,7 +2,7 @@
 
 > **Quality hold:** Prior Topic 1.A.2 Node 22 is published but requires substantial textbook-level narrative re-development. Before publishing the next node, check `curriculum/academy-progress.json` and `curriculum/academy-editorial-quality-gate.md` for resolution and current main status. The planned Node 1.A.3.01 remains next in the chronological syllabus, but does not override the repair priority.
 
-> **Development status (2026-11-22):** Topic 1.A.2 is complete. Topic 1.A.3 has **4 published chapters (Nodes 1.A.3.01 through 1.A.3.04)** and 22 further planned nonclickable nodes. These are Academy design decisions, not an official CSIR-mandated count.
+> **Development status (2026-11-22):** Topic 1.A.2 is complete. Topic 1.A.3 has **5 published chapters (Nodes 1.A.3.01 through 1.A.3.05)** and 21 further planned nonclickable nodes. These are Academy design decisions, not an official CSIR-mandated count.
 
 - **Unit:** 01 — Structure and Function of Biomolecules
 - **Subunit:** 1.A — Structure of atoms, molecules and chemical bonds
@@ -51,7 +51,7 @@
 - **Learning question:** How a probabilistic atom can have reported atomic radii.
 - **Content scope:** Covalent, metallic, van der Waals radii; experimental context and units.
 - **Teaching contract:** Progress from a motivating observation to an accurate scientific model, verified evidence, definitions and assumptions, authentic applications, worked problems and explained original practice as appropriate. Avoid consuming later Nodes.
-- **State:** Planned; no published chapter file, clickable menu link or sitemap entry.
+- **State:** Published 2026-11-22 — [read the complete evidence-based learning node](../notes/unit-01/subunit-1a/topic-1a3/node-05-atomic-radius-measurement-definitions.html). Scientific narrative and technical QA passed.
 
 #### 1.A.3.06 — Atomic Radius Across a Period
 
@@ -209,7 +209,7 @@
 
 ## Safe publication protocol
 
-1. Before development inspect GitHub main HEAD, menu, actual files, sitemap, draft branches and checkpoints. The first genuinely unpublished Node is 1.A.3.05, unless another session publishes it first. The separate editorial quality hold on published Node 1.A.2.22 remains open and is not cleared by this new publication.
+1. Before development inspect GitHub main HEAD, menu, actual files, sitemap, draft branches and checkpoints. The first genuinely unpublished Node is 1.A.3.06, unless another session publishes it first. The separate editorial quality hold on published Node 1.A.2.22 remains open.
 2. Use original, beginner-friendly, academically rigorous chronological narrative; independently verify numerical results and claims.
 3. Preserve existing responsive chapter reader, accessibility, metadata and navigation. Create no thin placeholders.
 4. Publish only after content QA, technical QA and last-minute main refresh; conditionally update main without force-push.

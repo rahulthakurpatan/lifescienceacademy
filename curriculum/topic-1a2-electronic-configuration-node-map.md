@@ -185,7 +185,7 @@
 - **Full-note content contract:** Cation/anion electron counts, main-group octet examples, transition-metal oxidation states, removing 4s electrons before 3d when forming common transition-metal cations from neutral atoms, Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺.
 - **Essential visual / worked practice:** Write Na⁺, Mg²⁺, O²⁻, Cl⁻, Fe²⁺, Fe³⁺, Cu⁺; verify Z, charge and electron count.
 - **Boundary and scientific caveat:** No rigid blanket statement that 4s is always higher or lower in energy; contextualize atom/ion differences.
-- **State:** Planned (no published URL).
+- **State:** Published to GitHub main (2026-11-22). [Read full Node 1.A.2.19](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-19-electronic-configurations-ions-4s-3d-issue.html). Original 58-section chapter with 40 worked examples, 60 explained NET/SET-style questions, 12 scientific cases, 30 misconceptions, 10 integrative challenges, 4 accessible scientific SVG diagrams and 8 authoritative reference entries. Distinguishes charge bookkeeping, standard 4s-first introductory shortcut, NIST evaluated first-cation d–s rearrangements (V⁺, Co⁺, Ni⁺), gas-phase O²⁻ instability and metal–ligand chemical environment. GitHub Pages deployment and independent live HTTP checks are recorded separately.
 
 #### 1.A.2.20 — Core versus Valence Electrons: Main-Group and Transition Metals
 

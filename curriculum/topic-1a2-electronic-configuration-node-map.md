@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status (updated 2026-11-22):** Topic 1.A.2 has 22 planned learning nodes; Nodes 1.A.2.01–21 are published, and Node 22 remains planned. The 22-node division is an Academy design and is independent of Topic 1.A.1's 28 published nodes.
+> **Implementation status (updated 2026-11-22):** Topic 1.A.2 is complete: all 22 Academy learning nodes are published. This 22-node division is a pedagogical plan, not a CSIR-mandated node count. Topic 1.A.3 has a complete 26-node planned, nonclickable menu.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 21 of 22 Topic 1.A.2 lessons published. Node 22 remains a nonclickable planned curriculum entry until its complete chapter exists.
+- **Status:** Topic 1.A.2 complete (22 of 22 published). Topic 1.A.3 menu and roadmap prepared as planned nonclickable nodes; see `curriculum/topic-1a3-periodic-properties-node-map.md`.
 
 ## Development commitments for every eventual full note
 
@@ -209,7 +209,7 @@
 - **Full-note content contract:** Na⁺/K⁺ in electrochemical physiology, Mg²⁺ and Ca²⁺, Fe/Cu electronic arrangements and redox state implications, qualitative coordination relevance, integrated electron-count/orbital/magnetism problems and bridge to periodic properties.
 - **Essential visual / worked practice:** Multi-step worked cases for K⁺, Ca²⁺, Fe²⁺, Fe³⁺ and Cu ions; explain evidence versus inference and solve original NET/SET-style integrated questions.
 - **Boundary and scientific caveat:** Avoid deep physiological mechanism, periodic trends or bonding geometry: these belong to their later topics.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.22](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-22-electronic-configuration-biology-integrated-csir-net-practice.html). Original comprehensive chapter with 36 connected teaching/practice sections, 40 worked exercises, 36 explained MCQs, 20 additional analytical/numerical solutions, eight assertion–reason items, 12 biological cases, 30 misconception corrections, ten integrative challenges and three accessible scientific SVG diagrams. Formal ion states, membrane physiology, metal redox and evidence boundaries are explicitly distinguished.
 
 ## Authoritative references used to shape this map
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes. **Permanent homepage menu display rule:** show only the total planned learning-node count beside each Topic title (for example, `22 nodes` or `28 nodes`); never display `X/Y published`, counts of published/unpublished nodes, progress ratios, or similar completion-status statistics anywhere in the student-facing curriculum menu or its descriptive captions. Keep actual published chapter links clickable and planned entries nonclickable; progress statistics may remain in the internal roadmap and checkpoint.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Published Node 1.A.2.01–21 chapter URLs are included in the XML sitemap; only actually published chapters may be added.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Published Node 1.A.2.01–22 chapter URLs are included in the XML sitemap; only actually published chapters may be added.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

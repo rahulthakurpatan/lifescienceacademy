@@ -1,12 +1,12 @@
 # Life Science Academy — Topic 1.A.2 Electronic Configuration
 
-> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–11 are complete published chapters, while Nodes 12–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
+> **Implementation status:** Topic 1.A.2 has 22 planned nodes; Nodes 1.A.2.01–12 are complete published chapters, while Nodes 13–22 remain curriculum plans. These numbers are independent of the published 28-node Topic 1.A.1 sequence.
 
 - **Syllabus alignment:** Structure of atoms, molecules and chemical bonds (CSIR-NET Life Sciences / revised LS&BT structure). The 22-node decomposition is an *Academy teaching design*, not an official CSIR mandated number of lessons.
 - **Prerequisite:** Topic 1.A.1 — Atomic Structure (28 published notes). Do not reproduce full Rutherford, Bohr, isotope and radiation lessons.
 - **Audience:** First-time life-science learner through CSIR-NET/SET-level conceptual and numerical mastery, with simple English, accurate terms and friendly chronological narration.
 - **Scope boundary:** Topic 1.A.3 is periodic properties; Topic 1.A.4 chemical bonding; Topic 1.A.5 geometry/VSEPR. Biological links here are applications of electronic structure, not full physiology or coordination chemistry.
-- **Status:** 11 of 22 Topic 1.A.2 lessons published; Nodes 12–22 remain planned and must not be linked to nonexistent articles.
+- **Status:** 12 of 22 Topic 1.A.2 lessons published; Nodes 13–22 remain planned and must not be linked to nonexistent articles.
 
 ## Development commitments for every eventual full note
 
@@ -125,7 +125,7 @@
 - **Full-note content contract:** Core shielding, penetration, effective nuclear charge Z_eff, trends within shell, qualitative orbital stabilization, interpretation of s/p/d radial probability and energy.
 - **Essential visual / worked practice:** Rank penetration s>p>d>f in comparable shells; distinguish nuclear charge Z from experienced effective attraction.
 - **Boundary and scientific caveat:** Detailed periodic trends belong in Topic 1.A.3; this node provides their electronic prerequisites only.
-- **State:** Planned (no published URL).
+- **State:** Published on GitHub main (2026-11-22). [Read Node 1.A.2.12](https://rahulthakurpatan.github.io/lifescienceacademy/notes/unit-01/subunit-1a/topic-1a2/node-12-shielding-penetration-effective-nuclear-charge.html). Complete original course with 69 sections, hydrogenic radial penetration calculations, shell electrostatics, Slater effective-charge methods, 71 worked examples, 87 explained original practice questions, 12 scientific cases, 12 integrative challenges, 35 misconception corrections, three accessible SVG diagrams and ten scholarly/official references. Other planned nodes remain nonclickable.
 
 #### 1.A.2.13 — Aufbau Principle and the (n + l) Filling Guide
 
@@ -222,6 +222,6 @@
 
 - Source of truth for topic ordering is this roadmap. Update it if a scientifically meaningful boundary changes; do not add arbitrary lessons to inflate node count.
 - On the homepage, display four expandable curriculum groups using the existing `topic-node`, `node-section` and `node-row` classes. **Permanent homepage menu display rule:** show only the total planned learning-node count beside each Topic title (for example, `22 nodes` or `28 nodes`); never display `X/Y published`, counts of published/unpublished nodes, progress ratios, or similar completion-status statistics anywhere in the student-facing curriculum menu or its descriptive captions. Keep actual published chapter links clickable and planned entries nonclickable; progress statistics may remain in the internal roadmap and checkpoint.
-- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–11 are indexed.
+- The roadmap is not a public lesson; its Markdown GitHub page does not belong in `sitemap.xml`. Only actual complete chapter pages may be indexed; Only verified published chapters have been added to the XML sitemap; as of this checkpoint Nodes 1.A.2.01–12 are indexed.
 - Expected future standalone slug format: `notes/unit-01/subunit-1a/topic-1a2/node-XX-<descriptive-slug>.html` (not live until built).
 - Confirm the previous published topic's notes and navigation remain unchanged during this Phase 2 mapping.

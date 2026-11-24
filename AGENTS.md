@@ -16,8 +16,9 @@ This repo is developed concurrently through manual ChatGPT/GitHub sessions and s
 - Keep previously verified pages/design intact, don't duplicate menu or sitemap entries, use GitHub conditional non-force updates and second HEAD/file checks before publication.
 - Do not call a site live unless GitHub Pages success/live availability was independently verified.
 
-## Current 2026-11-22 exceptional priority
-Node `1.A.2.22` is published but markedly under-depth for a broad integrated chapter; it requires a *real 360-degree narrative rework*, not merely more tables or filler. Consult the full editorial-quality-gate file for gaps and criteria. Next unbuilt node is still `1.A.3.01`, but the quality hold has higher editorial priority until cleared with verified improvement.
+## Current Unit 1 curriculum reset — 2026-11-24
+
+The owner explicitly retired the prior Unit 1 syllabus and lesson files. Unit 1 is delinked pending approval of a replacement architecture. Never restore, repair or publish the retired node sequence, old paths or old drafts. Pause Unit 1 publication until a new approved roadmap and checkpoint are committed. Read current main; do not use old chat instructions or draft branches as a publication target. Units 2–14 retain their current architecture.
 
 ## Student-facing publication and editorial voice
 - Treat every visible syllabus title, description, topic heading, learning node and navigation element as finished, publication-ready educational copy. Publish only useful student-facing material; do not expose internal planning, implementation status, scheduling, AI assistance, developer notes or procedural commentary in the rendered site.

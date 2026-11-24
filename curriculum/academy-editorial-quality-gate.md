@@ -1,6 +1,6 @@
 # Life Science Academy — Scientific Teaching Quality Gate (Manual + Automation)
 
-**Authority:** This operational editorial standard implements the user's no-thin-content requirement across both manual ChatGPT runs and hourly builder runs. Adopted 2026-11-22 after a comparative audit exposed disproportionate table-driven brevity in Node 1.A.2.22.
+**Authority:** This operational editorial standard implements the user's no-thin-content requirement across both manual ChatGPT runs and hourly builder runs. Adopted 2026-11-22; the old Unit 1 curriculum and lessons were retired on 2026-11-24 at the owner's direction.
 
 ## 1. The invariant
 
@@ -20,13 +20,7 @@ A node should guide the learner through: motivating observation → question and
 - Whether questions and examples explain *why*, what assumptions apply and why distractors fail.
 - Whether there are substantial missing conceptual links hidden by high section/question counts.
 
-For broad integrative nodes, use substantial completed Academy chapters as **comparators**, never as mandatory word-count quotas. Audited examples (actual 2026-11-22 GitHub HTML extraction):
-- Node 1.A.2.12: ~22,472 visible narrative words outside tables; ~488 paragraphs; ~2% of article HTML from table markup.
-- Node 1.A.2.18: ~13,711 visible narrative words outside tables; ~307 paragraphs; ~2% from tables.
-- Node 1.A.2.21: ~8,430 visible narrative words; ~147 paragraphs; ~7% from tables.
-- Node 1.A.2.22: only ~3,233 visible narrative words; ~77 paragraphs; ~45% article HTML from tables. **This is BELOW THE DESIRED DEPTH STANDARD for its broad integrative scope and needs substantive re-development.**
-
-These are baseline diagnostic measurements, not scientific statements or mechanical length minimums. More characters alone do not repair superficial instruction. Filler, duplicated paragraphs, repetitive examples or artificial section inflation are prohibited.
+For broad integrative nodes, compare with relevant verified exemplar lessons when available, not fixed word-count quotas. The retired Unit 1 chapters are not active comparators or publication targets. More characters alone do not repair superficial instruction. Filler, duplicated paragraphs, repetitive examples or artificial section inflation are prohibited.
 
 ## 3. Independent scientific teaching review: mandatory publication questions
 
@@ -59,24 +53,12 @@ Report **separately**:
 
 Typical target is comparable explanatory care to the strongest relevant published chapters, not a fixed number of characters. Escalate to a careful human-like review if the article is unusually short or heavily table-driven for its breadth.
 
-## 5. Mandatory repair note: Node 1.A.2.22
+## 5. Curriculum reset guard
 
-This already-published chapter is **flagged for substantial narrative re-development** following user feedback. Do not delete or duplicate it, and do not claim a new node should take priority solely because Node 22's menu status is "published".
-
-When a manual or automatic execution has time and explicit scope to repair it, improve the **existing** path `notes/unit-01/subunit-1a/topic-1a2/node-22-electronic-configuration-biology-integrated-csir-net-practice.html` in a safe branch, retaining page URL, reader design, menu, sitemap, and correct science.
-
-Specific gaps to address before clearing the quality hold:
-- A connected, motivating and experimentally grounded narrative of how ion gradients/electronic states inform biological interpretations.
-- Carefully defined and derived electrochemical potential and Nernst relation within topic scope; multiple thorough numerical solutions with assumptions, activity and voltage signs.
-- Deep but appropriately bounded explanations of Na/K ATPase stoichiometry, K/Na selectivity, Mg–ATP chemical association and calcium as second messenger, with molecular/transport evidence clearly distinguished from atomic electron configuration.
-- Detailed Fe/Cu redox and heme/iron-sulfur contexts, avoiding false spin-only or simplistic oxidation-state claims; compare measured evidence to models.
-- Convert short, table-cell-only 'worked examples' and one-line case summaries into genuinely solved stories where they teach hard concepts. Explain why plausible wrong exam choices fail.
-- Expanded authentic interpretation problems, case histories, comparison charts/diagrams only when pedagogically useful, and citations attached to important factual claims.
-- Preserve topic boundary: do not turn Node 22 into full membrane physiology, all coordination chemistry or Topic 1.A.3 periodic-properties lessons.
-- Full scientific and technical QA, latest main refresh and conditional non-force commit required. Only mark quality repair complete after real expansion and verification, not a character-count increase.
+Unit 1's old node architecture and lesson files have been retired by the owner. Do not restore the retired chapters, repair the old node identifiers or publish from stale drafts. Await an approved replacement roadmap and updated progress checkpoint before publishing Unit 1. The general quality gate remains mandatory.
 
 ## 6. Manual and scheduled executions
 
 Before choosing a node, inspect main SHA, actual chapter, menu, roadmap, sitemap, checkpoint, branches and active drafts. An existing quality-hold item is a **priority repair** to address before advancing the node sequence, provided the execution can genuinely meet the standard without sacrificing quality. Preserve concurrent work. If it cannot be repaired in the current run, report/preserve a resumable draft instead of pretending it is fixed.
 
-After the repair, clear the hold only if the newly strengthened text is *substantively* better, all QA tests pass and the main-branch commit is independently verified. Do not falsely change the number of published nodes, and never add a duplicate URL to sitemap.
+For any future active quality hold, clear it only if the newly strengthened text is *substantively* better, all QA tests pass and the main-branch commit is independently verified. Do not falsely change the number of published nodes, and never add a duplicate URL to sitemap.

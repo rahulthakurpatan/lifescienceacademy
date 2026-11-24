@@ -247,7 +247,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" disabled aria-label="First node in the curriculum">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Read Node 1.A.02">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -353,7 +353,7 @@
 <section id="references"><h2>18. References and further reading</h2><p>These explanations, diagrams, examples and questions are original teaching material. The following resources support further reading and verification of the scientific principles.</p><ul><li><a href="https://csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR–HRDG merged Life Sciences and Biotechnology syllabus, January 2026, Unit 1 A</a>.</li><li><a href="https://openstax.org/books/chemistry-2e/pages/2-2-evolution-of-atomic-theory">OpenStax Chemistry 2e, §2.2 Evolution of Atomic Theory</a>; <a href="https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism">§2.3 Atomic Structure and Symbolism</a>.</li><li><a href="https://ciaaw.org/atomic-masses.htm">CIAAW: Atomic masses</a>; <a href="https://ciaaw.org/carbon.htm">Carbon isotope composition</a>.</li><li><a href="https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory">OpenStax §6.3 Quantum Theory</a>; <a href="https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations">§6.4 Electron Configurations</a>; <a href="https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties">§6.5 Periodic Properties</a>.</li><li><a href="https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding">OpenStax §7.1 Ionic Bonding</a>; <a href="https://openstax.org/books/chemistry-2e/pages/7-3-lewis-symbols-and-structures">§7.3 Lewis Structures</a>; <a href="https://openstax.org/books/chemistry-2e/pages/7-4-formal-charges-and-resonance">§7.4 Formal Charges and Resonance</a>; <a href="https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity">§7.6 Molecular Structure and Polarity</a>.</li><li><a href="https://openstax.org/books/chemistry-2e/pages/8-1-valence-bond-theory">OpenStax §8.1 Valence Bond Theory</a>; <a href="https://openstax.org/books/chemistry-2e/pages/8-2-hybrid-atomic-orbitals">§8.2 Hybrid Orbitals</a>; <a href="https://openstax.org/books/chemistry-2e/pages/8-4-molecular-orbital-theory">§8.4 Molecular Orbital Theory</a>.</li><li>Nelson and Cox, <cite>Lehninger Principles of Biochemistry</cite>; Berg and colleagues, <cite>Biochemistry</cite>: chemical foundations and molecular structure.</li></ul></section>
 </div>
         </article>
-        <nav class="node-navigation" aria-label="Study navigation"><a href="./">← Return to curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Study navigation"><a href="./">← Return to curriculum</a><a href="water-and-molecular-stabilising-interactions.html">1.A.02 Water and Molecular Stabilising Interactions →</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 1 · Chemical and Biophysical Foundations</footer>
@@ -394,6 +394,7 @@
         fontDisplay.textContent=current.size+"px";
         save();
       }
+      byId("next-node").addEventListener("click",()=>location.href="water-and-molecular-stabilising-interactions.html");
       byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
       byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
       byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});

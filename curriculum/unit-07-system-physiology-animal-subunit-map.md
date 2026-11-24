@@ -1,0 +1,162 @@
+# Life Science Academy — Unit 07: System Physiology – Animal
+
+## Verified source scope and architecture
+
+- Revised merged UGC–CSIR–DBT NET Life Sciences & Biotechnology syllabus, printed page 8 (PDF index 7): https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf
+- Separate CSIR NET Life Sciences syllabus, Unit 7, PDF index 4: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf
+- MP SET 2024 Life Sciences Paper II syllabus scan, printed page 5: https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf
+- The revised syllabus has twelve official subunits A–L. A–J retain the separate NET and MP SET scope; K and L are additional explicit headings. Preserve this official order and distinguish teaching examples from official headings.
+- Deployment scope: twelve student-facing English descriptions and this internal roadmap only. Individual node counts and IDs will be finalized during subunit research; no invented chapter URLs, sitemap entries, completed reading counts, or alteration of progress/quality holds.
+- Pedagogical flow: blood → pumping and circulation → gas exchange → neural coordination → sensory input → excretion and fluid homeostasis → thermal regulation → stress and adaptation → digestion and energy supply → endocrine and reproductive coordination → host–microbiome interactions → integrated metabolism. These systems operate concurrently, not as a literal chronological biological sequence.
+- Academic standard: BSc foundations through MSc/CSIR NET and SET reasoning; comparative invertebrate and vertebrate physiology where relevant; accessible connected English, mechanisms, classical evidence, quantitative interpretation, original figures and explained practice. Avoid clinical-specialist tangents, procedural research training, thin content and redundancy.
+
+## Twelve subunit contracts
+
+### 7.A — Blood and Circulation
+
+**Student-facing menu description:** Explore blood as a transport and protective tissue through plasma, blood cells, haematopoiesis and haemoglobin. Connect blood volume and its regulation with blood groups, immune functions, platelet activity, coagulation and haemostasis.
+
+**Future topic scope:** Formed elements: erythrocytes, leukocytes and platelets; haematopoietic lineages and erythropoietin; plasma proteins, osmotic and transport functions, haematocrit, blood volume estimation and regulation; haemoglobin structure and functional variants; ABO and Rh blood groups, compatibility principles; circulating immune cells and proteins; vascular response, platelet plug, coagulation cascades, anticoagulant control and fibrinolysis.
+
+**Driving scientific question:** How does circulating blood carry substances, defend the body and prevent blood loss?
+
+**Cross-unit boundaries:** Unit 4.B/C owns detailed haematopoietic signaling and immunology; 7.C owns gas transport curves; 7.F owns renal volume mechanisms.
+
+### 7.B — Cardiovascular System
+
+**Student-facing menu description:** Compare heart structure and circulation across animal groups, then follow myogenic pacemaking, specialised conducting tissue, ECG, cardiac cycle and pumping mechanics. Explain blood pressure, blood flow and neural and chemical regulation of cardiovascular function.
+
+**Future topic scope:** Open and closed circulations, single and double circulation, comparative vertebrate hearts, neurogenic versus myogenic examples; SA and AV nodes, His–Purkinje system, cardiac action potentials; ECG principles and significance, pressure–volume relations, valves, heart sounds, stroke volume, cardiac output, Frank–Starling law; vascular resistance, compliance, microcirculation, arterial pressure, baroreflex, autonomic and humoral control.
+
+**Driving scientific question:** How does electrical excitation become coordinated pumping and regulated tissue perfusion?
+
+**Cross-unit boundaries:** 7.A blood properties; 7.D general excitability; 7.F renal long-term pressure regulation.
+
+### 7.C — Respiratory System
+
+**Student-facing menu description:** Compare respiratory surfaces and organs across species, from diffusion and tracheae to gills and lungs. Explain ventilation, gas exchange, oxygen and carbon dioxide transport, respiratory waste elimination and the neural and chemical control of breathing.
+
+**Future topic scope:** Cutaneous, tracheal, branchial and pulmonary respiration; countercurrent gill exchange, amphibian ventilation, avian air sacs and crosscurrent exchange, mammalian lung anatomy, surfactant, pressure mechanics, lung volumes, ventilation and perfusion; diffusion and partial pressures, haemoglobin saturation, Bohr and Haldane effects, bicarbonate and chloride shift, CO₂ elimination, respiratory centres and chemoreceptors.
+
+**Driving scientific question:** How do animals obtain oxygen and remove carbon dioxide in different environments?
+
+**Cross-unit boundaries:** 7.A haemoglobin foundation; 7.F renal acid–base regulation; 7.H altitude acclimatization.
+
+### 7.D — Nervous System
+
+**Student-facing menu description:** Trace neural communication from neurons and glia through resting membrane potential, action potentials, conduction and synapses to the organisation of the brain, spinal cord and peripheral nerves. Connect sensory–motor circuits, reflexes and descending pathways with muscle tone and posture.
+
+**Future topic scope:** Neuron types, glia, Nernst and Goldman principles, voltage-gated channels, refractory periods, saltatory conduction, electrical and chemical synapses, EPSPs/IPSPs and integration; gross brain and spinal anatomy; CNS/PNS, somatic and autonomic divisions; neuromuscular junction and excitation–contraction as motor context, muscle spindles, Golgi tendon organs, stretch reflex, motor units, cerebellar and vestibular contributions, descending pathways, tone and posture.
+
+**Driving scientific question:** How do electrical and chemical signals coordinate movement and internal functions?
+
+**Cross-unit boundaries:** Unit 2.A general membrane transport; 4.B general communication; 7.E sensory transduction; avoid exhaustive clinical neuroanatomy.
+
+### 7.E — Sense Organs
+
+**Student-facing menu description:** Explain sensory transduction through vision, hearing and tactile responses. Relate the structure of the eye, retina, auditory apparatus and skin receptors to stimulus encoding, neural pathways, adaptation and perception.
+
+**Future topic scope:** Receptor potentials, sensitivity, adaptation and receptive fields; optics and accommodation, rods and cones, photopigments, phototransduction, retinal circuits and visual pathway; external/middle/inner ear, cochlea, hair-cell mechanotransduction, tonotopy and auditory pathway; skin mechanoreceptors, touch, pressure, vibration and tactile discrimination; vestibular function only as a bridge to posture.
+
+**Driving scientific question:** How do light, sound and mechanical stimuli become meaningful neural signals?
+
+**Cross-unit boundaries:** 7.D owns general action potentials and motor control; keep chemical senses as optional comparisons only, not separate required topics.
+
+### 7.F — Excretory System
+
+**Student-facing menu description:** Compare excretory strategies across animals and trace kidney function from filtration through tubular reabsorption, secretion and urine concentration to waste elimination and micturition. Explain renal control of water, blood volume, blood pressure, electrolytes and acid–base balance.
+
+**Future topic scope:** Ammonotelism, ureotelism and uricotelism; contractile vacuoles as comparative context, protonephridia, metanephridia, Malpighian tubules, vertebrate kidneys; nephron, renal circulation, GFR and clearance, transport along tubules, countercurrent multiplier/exchanger, urea recycling, ADH and thirst, RAAS, aldosterone and ANP, micturition reflex; Na⁺, K⁺, water and osmolality, bicarbonate reclamation, ammonium and titratable acid excretion.
+
+**Driving scientific question:** How do animals eliminate metabolic wastes without losing control of internal fluid composition?
+
+**Cross-unit boundaries:** 7.B pressure and haemodynamics; 7.A blood volume; 7.C respiratory acid–base component; 7.J hormonal origins.
+
+### 7.G — Thermoregulation
+
+**Student-facing menu description:** Compare ectothermic and endothermic strategies, thermal comfort and thermoneutrality, then explain physical heat exchange, metabolic heat production, neural control of body temperature and acclimatization.
+
+**Future topic scope:** Conduction, convection, radiation and evaporation; heat balance and surface-area scaling; thermoneutral and comfort zones distinguished; behavioural responses, insulation, vasomotor changes, sweating/panting, shivering, non-shivering thermogenesis and UCP1; hypothalamic circuits, fever versus hyperthermia, torpor and hibernation as examples; thermal acclimation/acclimatization.
+
+**Driving scientific question:** How do animals maintain or adjust body temperature as environments change?
+
+**Cross-unit boundaries:** 7.D neural control, 7.I BMR and energy expenditure, 7.H general stress, 7.L energy integration.
+
+### 7.H — Stress and Adaptation
+
+**Student-facing menu description:** Examine how animals detect physiological challenges and restore homeostasis through autonomic, endocrine, cellular and behavioural responses. Compare acute and chronic stress, acclimation, acclimatization and adaptations to changing environments.
+
+**Future topic scope:** Stressors, homeostasis and allostasis; sympathetic–adrenal and hypothalamic–pituitary–adrenal axes, catecholamines and glucocorticoids, feedback and chronic stress costs; cellular stress protection and recovery; hypoxia and altitude, dehydration, thermal and osmotic challenges as integrated examples; acclimation versus field acclimatization versus heritable evolutionary adaptation.
+
+**Driving scientific question:** How do short-term protective responses support survival, and why can prolonged stress become harmful?
+
+**Cross-unit boundaries:** 7.G specific thermoregulation, 7.C oxygen exchange, 7.J hormone mechanisms, Unit 9/10 evolutionary and ecological adaptation.
+
+### 7.I — Digestive System
+
+**Student-facing menu description:** Follow food through digestive organs, motility, secretions and enzymatic breakdown to intestinal absorption and nutrient distribution. Connect nutrition with energy balance, energy expenditure and basal metabolic rate.
+
+**Future topic scope:** Comparative digestive strategies including herbivory and ruminant fermentation; gastrointestinal anatomy and motility; saliva, gastric acid and pepsin, pancreatic enzymes, bile, brush-border digestion; carbohydrate, protein and lipid absorption, micelles and chylomicrons, water, electrolytes and vitamins; enteric, neural and hormonal control, gastrin, secretin and CCK; calorimetry, respiratory quotient, BMR conditions, metabolic scaling, energy intake and expenditure.
+
+**Driving scientific question:** How does food become absorbable nutrients and usable energy?
+
+**Cross-unit boundaries:** Unit 1 biochemical pathways; 7.K microbiome mechanisms; 7.L cross-organ metabolic control.
+
+### 7.J — Endocrinology and Reproduction
+
+**Student-facing menu description:** Study endocrine glands, hormone synthesis and action, feedback control and representative hormone-related disorders. Trace male and female reproductive physiology, gametogenesis, ovarian cycles and ovulation, linking reproductive processes with neuroendocrine regulation.
+
+**Future topic scope:** Hormone classes, secretion, transport, receptors and feedback; hypothalamus, pituitary, thyroid, parathyroid, adrenal, endocrine pancreas, pineal, gonads and other endocrine tissues; growth, thyroid and calcium control, adrenal hormones, glucose control, representative excess/deficiency disorders; HPG axis, spermatogenesis and oogenesis, reproductive anatomy, menstrual and estrous cycles, ovulation, corpus luteum, fertilization context, pregnancy, parturition, lactation and comparative reproductive endocrine regulation.
+
+**Driving scientific question:** How do endocrine signals coordinate metabolism, development and reproductive function?
+
+**Cross-unit boundaries:** Unit 4.A general signaling; Unit 5.B gamete recognition and embryogenesis; 7.H stress integration and 7.L metabolic disease mechanisms.
+
+### 7.K — Concept of Metaorganisms/Holobionts
+
+**Student-facing menu description:** Explore animals as hosts of microbial communities, focusing on gut microbiome contributions to physiology. Compare microbiome study methods and germ-free animal evidence, then connect gut–brain signaling, dysbiosis and disease while distinguishing association from causation.
+
+**Future topic scope:** Microbiota versus microbiome, holobiont concept and its limits; colonization, gut microbial ecology, fibre fermentation, short-chain fatty acids, bile acid transformation, barrier and immune interactions; sampling and controls, 16S profiling, shotgun metagenomics and metabolite measurements, relative abundance limitations; germ-free versus specific-pathogen-free and gnotobiotic animals, colonization and transfer evidence; gut–brain neural, immune, endocrine and metabolic routes; dysbiosis, confounding and disease examples.
+
+**Driving scientific question:** How can resident microbes influence host physiology, and what evidence establishes their contribution?
+
+**Cross-unit boundaries:** 7.I host digestion; 4.C immune mechanisms; Unit 11 computational methods; avoid treating dysbiosis as a universal cause or promising unproven interventions.
+
+### 7.L — Interorgan Communication and Energy Homeostasis; Metabolic Health and Disorders
+
+**Student-facing menu description:** Integrate endocrine, neural and metabolite signals between the brain, gut, liver, skeletal muscle, adipose tissue and pancreas. Explain fed and fasting metabolism, appetite and energy expenditure, then relate disrupted interorgan signaling to insulin resistance, obesity and other metabolic disorders.
+
+**Future topic scope:** Fed–fasted–exercise transitions, insulin and glucagon, hepatic glucose production, muscle glucose uptake, adipose lipolysis and storage; hypothalamic appetite circuits, leptin, ghrelin, incretins, adipokines, myokines and hepatokines with representative examples; organ substrate exchange, Cori cycle and glucose–alanine cycle as links, thermogenesis and energy balance; insulin resistance, type 2 diabetes, obesity, dyslipidaemia and fatty liver as mechanistic examples; distinguish type 1 diabetes and avoid clinical treatment protocols.
+
+**Driving scientific question:** How do organs share fuel and signals to maintain energy balance, and what happens when this coordination fails?
+
+**Cross-unit boundaries:** Unit 1 owns detailed metabolic reaction pathways; 7.I BMR and digestion; 7.J hormone action; 7.K microbiome; this subunit integrates organ-level regulation and dysfunction.
+
+## Official syllabus traceability
+
+| Official topic group (paraphrased) | Subunit |
+|---|---|
+| Blood cells and formation, plasma, volume and regulation, groups, haemoglobin, immunity and haemostasis | 7.A |
+| Comparative hearts, myogenic activity and specialized tissue, ECG, cycle, pump, blood pressure and neural/chemical control | 7.B |
+| Comparative respiratory anatomy, gas transport/exchange, waste elimination and regulation | 7.C |
+| Neurons and action potentials, gross brain/spinal anatomy, CNS/PNS, neural control of tone and posture | 7.D |
+| Vision, hearing and tactile responses | 7.E |
+| Comparative excretion, kidney, urine formation/concentration, waste elimination, micturition and water/volume/pressure/electrolyte/acid–base regulation | 7.F |
+| Thermal comfort, physical/chemical/neural temperature regulation and acclimatization | 7.G |
+| Stress and adaptation | 7.H |
+| Digestion, absorption, energy balance and BMR | 7.I |
+| Endocrine glands, hormonal action and diseases, reproduction, gametogenesis, ovulation and neuroendocrine regulation | 7.J |
+| Holobionts, gut microbiome physiology and study, germ-free animals, gut–brain axis, dysbiosis and disease | 7.K |
+| Interorgan communication, energy homeostasis, metabolic health and disorders | 7.L |
+
+## Reference starting points for subsequent node research
+
+- Hill, Wyse and Anderson, Animal Physiology; comparative physiological principles.
+- Guyton and Hall Textbook of Medical Physiology; integrated mammalian physiology.
+- Boron and Boulpaep, Medical Physiology; mechanistic foundations, with scope limited to NET/SET.
+- OpenStax Anatomy and Physiology 2e: https://openstax.org/details/books/anatomy-and-physiology-2e
+- For 7.K and 7.L, validate current evidence using peer-reviewed reviews and landmark experiments during detailed node planning; distinguish causal results in models from human associations.
+
+## Quality checks
+
+Every explicit official topic is represented in the corresponding subunit scope. Preserve all preceding and following units. No placeholder language within Unit 7, no fabricated reading links, no sitemap change. Individual node planning remains a separate stage.

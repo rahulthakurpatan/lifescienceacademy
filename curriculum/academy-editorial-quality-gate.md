@@ -55,7 +55,7 @@ Typical target is comparable explanatory care to the strongest relevant publishe
 
 ## 5. Curriculum reset guard
 
-Unit 1's old node architecture and lesson files have been retired by the owner. Do not restore the retired chapters, repair the old node identifiers or publish from stale drafts. Await an approved replacement roadmap and updated progress checkpoint before publishing Unit 1. The general quality gate remains mandatory.
+Unit 1's old node architecture and lesson files have been retired by the owner. Do not restore the retired chapters, repair the old node identifiers or publish from stale drafts. Use the approved replacement master roadmap `curriculum/unit-01-structure-function-biomolecules-subunit-map.md` and current progress checkpoint. Develop only new three-part node IDs in authorised lesson-development runs; the retired four-part IDs and files remain excluded. The general quality gate remains mandatory.
 
 ## 6. Manual and scheduled executions
 

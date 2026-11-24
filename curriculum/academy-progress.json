@@ -2,22 +2,27 @@
   "schema_version": 1,
   "updated_at": "2026-11-24",
   "unit": "01",
-  "status": "curriculum_reset_awaiting_approved_architecture",
+  "status": "approved_curriculum_menu_published_lessons_pending",
   "published": false,
   "node_id": null,
   "title": null,
   "subunit": null,
   "topic": null,
   "slug": null,
-  "next_pending_node_id": null,
-  "next_pending_node_title": null,
+  "next_pending_node_id": "1.A.01",
+  "next_pending_node_title": "Atomic Structure and Chemical Bonding",
   "published_node_count": 0,
-  "publication_allowed": false,
-  "main_baseline_sha": "a211a4679034c20a78af7d7b498f45a86e582d5f",
+  "publication_allowed": true,
+  "main_baseline_sha": "80c7add3351728af887b36fe8105a40dd64b6b3e",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Await owner approval and deployment of the fresh Unit 1 syllabus. Do not restore prior lesson files, node IDs, sitemap URLs or old drafts. Re-read current main before any publication. Units 2–14 remain unchanged."
+  "next_required_action": "On the next authorised lesson-development run, read the approved Unit 1 master map and Subunit 1.A roadmap. Research and develop new 1.A.01 under the full editorial quality gate. Do not restore retired four-part node IDs, old lesson files or old sitemap URLs. No lesson has been published under this architecture.",
+  "planned_node_count": 30,
+  "planned_subunit_count": 6,
+  "architecture_version": "unit-01-compact-2026-11-24",
+  "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
+  "next_topic_roadmap": "curriculum/subunit-1a-chemical-biophysical-foundations-node-map.md"
 }

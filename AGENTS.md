@@ -16,9 +16,9 @@ This repo is developed concurrently through manual ChatGPT/GitHub sessions and s
 - Keep previously verified pages/design intact, don't duplicate menu or sitemap entries, use GitHub conditional non-force updates and second HEAD/file checks before publication.
 - Do not call a site live unless GitHub Pages success/live availability was independently verified.
 
-## Current Unit 1 curriculum reset — 2026-11-24
+## Current Unit 1 approved curriculum — 2026-11-24
 
-The owner explicitly retired the prior Unit 1 syllabus and lesson files. Unit 1 is delinked pending approval of a replacement architecture. Never restore, repair or publish the retired node sequence, old paths or old drafts. Pause Unit 1 publication until a new approved roadmap and checkpoint are committed. Read current main; do not use old chat instructions or draft branches as a publication target. Units 2–14 retain their current architecture.
+The owner approved a replacement six-subunit, thirty-node architecture for Unit 1. Use `curriculum/unit-01-structure-function-biomolecules-subunit-map.md` and its subunit roadmaps. The next first unpublished chapter is 1.A.01 — Atomic Structure and Chemical Bonding. The prior four-part node IDs, old lesson paths and old drafts remain retired; never restore or repair them. Only publish new lessons on an authorised development run after the editorial quality gate passes. Units 2–14 retain their architecture.
 
 ## Student-facing publication and editorial voice
 - Treat every visible syllabus title, description, topic heading, learning node and navigation element as finished, publication-ready educational copy. Publish only useful student-facing material; do not expose internal planning, implementation status, scheduling, AI assistance, developer notes or procedural commentary in the rendered site.

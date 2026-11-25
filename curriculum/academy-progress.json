@@ -126,38 +126,39 @@
   },
   "unit_02": {
     "published_node_ids": [
-      "2.A.06"
+      "2.A.06",
+      "2.A.07"
     ],
-    "published_node_count": 1,
+    "published_node_count": 2,
     "last_qa": {
-      "node_id": "2.A.06",
-      "title": "Osmosis, Water Transport and Osmotic Balance",
-      "narrative_words": 8362,
-      "visible_article_words": 10596,
-      "html_characters": 121722,
-      "sections": 18,
-      "figures": 9,
+      "node_id": "2.A.07",
+      "title": "Ion Channels: Selectivity, Gating and Ion Movement",
+      "narrative_words": 11596,
+      "visible_article_words": 14064,
+      "html_characters": 174873,
+      "sections": 21,
+      "figures": 12,
       "tables": 3,
-      "part_b": 9,
-      "part_c": 13,
-      "method": "Visible teaching paragraph whitespace count, excluding practice, references, tables, figures and reader UI; inline tags removed before counting. Visible article count includes headings, tables, questions and captions.",
-      "comparator": "1.A.02 water and stabilising interactions: 10142 teaching words by same method; different and broader scope. 2.A.06 covers every approved requirement with sustained narrative, derivations and worked applications. No fixed quota.",
-      "scientific_checks": "Official revised CSIR Unit 2.A page 3 verified; archived MPPSC SET 2024 Unit 2.A page 2 verified. Water chemical potential, van’t Hoff ideal derivation, particle units, permeating vs retained solutes, initial vs equilibrium volume, Boyle–van’t Hoff model, turgor, plasmolysis, AQP structure and 1992 evidence, reflection coefficient and volume regulation reviewed; recomputed pressure, flux, volume and water-potential examples. Original questions. Whole-plant and kidney physiology deferred.",
+      "part_b": 12,
+      "part_c": 16,
+      "method": "Visible whitespace-separated teaching paragraphs before practice; excludes tables, SVG, figure captions, questions and UI. Article count includes headings, captions, questions and references, excludes SVG and zoom buttons.",
+      "comparator": "2.A.06 checkpoint 8362 narrative words; this chapter has scope-specific sustained prose on pore energetics, K/Na/Ca/Cl selectivity, voltage/ligand/mechanical gating, conductance, stochastic kinetics, experimental interpretation and channelopathies. Counts support but do not replace review.",
+      "scientific_checks": "Official revised CSIR Unit 2.A page 3 visually verified; MP SET archived syllabus aligned. Reviewed KcsA carbonyl coordination and limitations; DEKA and acidic Ca loci; chloride current sign and ClC exchanger exception; CFTR ATP gating vs transport; S4 sensor; ligand and mechanical gating; recomputed elementary charge, slope/intercept, Boltzmann, rate ratios, two-state kinetics, binomial current, tension and recovery examples. Original questions and schematic figures, not actual recorded data. Nernst and GHK derivations deferred to 2.A.09.",
       "technical_checks": {
         "uniqueIds": true,
         "anchors": true,
         "zoom": true,
         "canonical": true,
         "reader": true,
-        "links": true,
         "menu": true,
         "sitemap": true,
-        "references": true
+        "reciprocal": true,
+        "noUnpublishedNavigation": true
       },
-      "limitations": "Static source audit only; browser/device interaction and live Pages verification pending; current MPPSC original not independently confirmed. Unpublished adjacent nodes disabled until their actual links exist.",
-      "main_baseline_sha": "d356a152168f60a70187fa3b42c59aa6eae6df3a"
+      "limitations": "Static source audit only. Interactive browser/device rendering and live Pages verification pending; current original MPPSC syllabus not independently confirmed. Unpublished adjacent nodes disabled.",
+      "main_baseline_sha": "ae8ef7b6c51022342645f89366f525988d76263c"
     },
-    "last_published_node_id": "2.A.06",
+    "last_published_node_id": "2.A.07",
     "updated_at": "2026-11-25",
     "status": "lesson_committed_pages_verification_pending"
   }

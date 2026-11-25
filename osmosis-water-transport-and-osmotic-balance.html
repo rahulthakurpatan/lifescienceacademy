@@ -248,7 +248,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next curriculum node: Ion Channels: Selectivity, Gating and Ion Movement">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -398,7 +398,7 @@
 <p>These principles also explain why selective ion movement matters. By controlling the quantities and distribution of ions, a membrane affects not only cellular electrical behavior but also the osmotic contribution of those ions. The next chapter will investigate the molecular basis of ion selectivity and gating. Water channels and ion channels both offer pathways for passive transport, but ions additionally experience electrical driving forces. The water-potential reasoning established here will help distinguish the osmotic consequences of ion movement from the electrochemical forces that determine ion flow itself.</p></section>
 <section id="references"><h2>18. References and further reading</h2><p>For further study, consult the following sources on passive membrane transport, water potential and the experimental identification of aquaporins.</p><ol><li>OpenStax, Biology 2e, <a href="https://openstax.org/books/biology-2e/pages/5-2-passive-transport">5.2 Passive Transport</a> and <a href="https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants">30.5 Transport of Water and Solutes in Plants</a>.</li><li>Alberts and colleagues, Molecular Biology of the Cell, 4th ed., <a href="https://www.ncbi.nlm.nih.gov/books/NBK26896/">Carrier Proteins and Active Membrane Transport</a>, NCBI Bookshelf.</li><li>Preston GM, Carroll TP, Guggino WB, Agre P. Appearance of water channels in Xenopus oocytes expressing red cell CHIP28 protein. Science 256 (1992): 385–387. <a href="https://pubmed.ncbi.nlm.nih.gov/1373524/">PMID 1373524</a>.</li><li>Peter Agre, <a href="https://www.nobelprize.org/prizes/chemistry/2003/agre/lecture/">Nobel lecture, 2003</a>, Aquaporin Water Channels.</li><li>CSIR-HRDG, <a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">Life Sciences and Biotechnology syllabus</a>, Unit 2.A.</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6457474/">Water Homeostasis and Cell Volume Maintenance and Regulation</a>, for the Boyle–van’t Hoff model and regulatory volume responses.</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2711286/">Osmotic Transport across Cell Membranes in Nondilute Solutions</a>, for the dilute-limit transport coefficients and their limitations.</li><li><a href="https://rupress.org/jgp/article/155/10/e202313332/276211/The-physical-basis-of-osmosisThe-physical-basis-of">The Physical Basis of Osmosis</a>, Journal of General Physiology, for thermodynamic and historical background.</li></ol></section>
 </div></article>
-        <nav class="node-navigation" aria-label="Study navigation"><a href="./">Return to curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Study navigation"><a href="./">Return to curriculum</a><a href="ion-channels-selectivity-gating-and-ion-movement.html">2.A.07 Ion Channels: Selectivity, Gating and Ion Movement →</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 2 · Cellular Organization</footer>
@@ -480,6 +480,7 @@
         if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
       });
       const dialog=byId("diagram-dialog");
+      byId("next-node").addEventListener("click",()=>location.href="ion-channels-selectivity-gating-and-ion-movement.html");
       document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
         if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
         const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);

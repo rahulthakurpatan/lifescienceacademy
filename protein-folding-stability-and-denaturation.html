@@ -244,7 +244,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" aria-label="Previous node: Protein tertiary and quaternary organisation">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next node: Protein Structure–Function Relationships">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -505,6 +505,7 @@
       byId("previous-node").addEventListener("click",()=>location.href="protein-tertiary-and-quaternary-organisation.html");
       
 
+      byId("next-node").addEventListener("click",()=>location.href="protein-structure-function-relationships.html");
       document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
         if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
         const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);

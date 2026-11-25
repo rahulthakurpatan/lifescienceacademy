@@ -1,0 +1,370 @@
+{
+  "b": [
+    [
+      "What specifies the 5′ and 3′ ends of a DNA chain?",
+      "Position of the sugar carbons|Number of bases|Number of hydrogen bonds|Direction of chromosome movement",
+      0,
+      "Prime numbers refer to sugar carbons and determine backbone polarity; fork motion and base composition do not define the ends."
+    ],
+    [
+      "A rightward fork has an upper template 3′→5′ left to right. Which new strand is predominantly continuous?",
+      "Lower complement|Upper complement|Both|Neither",
+      1,
+      "The upper template is read 3′→5′ toward the fork. Both new products extend 5′→3′, so the lower complement requires repeated starts."
+    ],
+    [
+      "Which atom directly attacks the incoming dNTP alpha phosphorus?",
+      "Template 5′ oxygen|Incoming base nitrogen|Primer 3′ oxygen|Incoming gamma phosphorus",
+      2,
+      "The terminal primer 3′ hydroxyl is the nucleophile; the template base determines selection but is not the reacting acceptor."
+    ],
+    [
+      "Which dNTP phosphate is retained during normal incorporation?",
+      "Alpha|Beta|Gamma|All three",
+      0,
+      "The alpha phosphate becomes part of the phosphodiester backbone; beta and gamma leave as pyrophosphate."
+    ],
+    [
+      "What is the principal contribution of primase?",
+      "Seals nicks|Creates an extendable primer de novo|Relaxes supercoils|Removes mismatches",
+      1,
+      "Primase can initiate RNA synthesis without a pre-existing chain; ligase, topoisomerase and proofreading perform the other tasks."
+    ],
+    [
+      "What does SSB primarily accomplish?",
+      "Creates covalent strand breaks|Stabilizes exposed single-stranded DNA|Synthesizes RNA|Introduces negative linking",
+      1,
+      "Binding reduces problematic folding and premature reannealing. It is not the directional motor that opens the fork."
+    ],
+    [
+      "Why is a clamp loader required?",
+      "To select complementary dNTPs|To remove RNA primers|To open and position a sliding clamp around DNA|To make ATP",
+      2,
+      "The ring needs to encircle a suitable junction; the loader couples ATP-dependent changes to assembly."
+    ],
+    [
+      "What is processivity?",
+      "Nucleotides incorporated per productive binding encounter|Nucleotides per second|Fraction of correct bases|Number of forks per origin",
+      0,
+      "The other options describe speed, fidelity and replication architecture, respectively."
+    ],
+    [
+      "Which intermediate is the direct ordinary substrate for a replication ligase?",
+      "A long unprimed gap|An intact duplex|A nick with adjacent 3′-OH and 5′ phosphate|A free dNTP",
+      2,
+      "An ordinary nick has chemically adjacent ends. Missing nucleotide positions require other activities before ligation."
+    ],
+    [
+      "Which cofactor statement about DNA ligase is accurate?",
+      "Every ligase requires ATP|Some bacterial ligases use NAD+|All ligases use dGTP|Ligases never require activated donors",
+      1,
+      "ATP-dependent and NAD+-dependent ligases both form adenylated intermediates; donor choice varies."
+    ],
+    [
+      "In a bidirectional bubble, one old strand can be what?",
+      "Leading template at both forks|Lagging template at both forks|Leading at one fork and lagging at the other|Never a template",
+      2,
+      "Opposing fork directions reverse which old strand has suitable polarity for continuous extension."
+    ],
+    [
+      "Which enzyme directly removes torsional constraints by transient DNA cleavage and resealing?",
+      "Primase|Polymerase|Topoisomerase|SSB",
+      2,
+      "Topoisomerases alter topology; helicase separates bases, not the covalent backbone."
+    ],
+    [
+      "Which statement best describes the trombone model?",
+      "A loop changes polymerase chemistry to 3′→5′ synthesis|A lagging-template loop permits spatial coordination without changing chemical polarity|A bubble always contains one fork|DNA ends become permanently linked",
+      1,
+      "The loop changes the path of the DNA, not its chemical orientation or extension direction."
+    ],
+    [
+      "What is the expected effect of a primer ending in a dideoxynucleotide?",
+      "Normal extension|Faster ligation|Ordinary polymerization stops at that end|Helicase cannot bind anywhere",
+      2,
+      "The 3′-OH required for the next phosphodiester bond is absent."
+    ],
+    [
+      "Which protein is the eukaryotic functional counterpart of the bacterial beta clamp?",
+      "RPA|PCNA|ORC|FEN1",
+      1,
+      "PCNA forms the sliding clamp; RPA protects ssDNA, ORC participates in initiation and FEN1 processes flaps."
+    ],
+    [
+      "Which statement about helicase polarity is correct?",
+      "All helicases track 5′→3′|All track 3′→5′|Tracking polarity depends on the motor and strand|Tracking polarity is the same as synthesis polarity",
+      2,
+      "DnaB and CMG exemplify different tracking strand polarities; both can advance with their respective forks."
+    ],
+    [
+      "Which operation does not add new nucleotide positions to DNA?",
+      "Gap filling|Leading extension|Ligation of a nick|Lagging extension",
+      2,
+      "Ligase makes a covalent bond between existing adjacent residues, rather than selecting and incorporating dNTPs."
+    ],
+    [
+      "What does a 3′→5′ proofreading exonuclease do?",
+      "Copies the opposite strand backwards|Removes residues from the growing end|Removes all 5′ primers|Generates RNA primers",
+      1,
+      "Proofreading cleaves the nascent terminus; it is chemically distinct from extension and downstream primer removal."
+    ],
+    [
+      "Which historical observation supports discontinuous DNA synthesis?",
+      "All old DNA is degraded|Short nascent chains become part of long covalent chains|Both parental strands disappear|DNA is synthesized without enzymes",
+      1,
+      "Pulse-chase conversion of short labeled chains into long products supports precursor-product joining, with appropriate controls."
+    ],
+    [
+      "What is the approximate relationship between Lk, Tw and Wr in closed circular duplex DNA?",
+      "Lk = Tw − Wr|Lk = Tw + Wr|Lk = Tw × Wr|Lk is always zero",
+      1,
+      "Linking number is the sum of twist and writhe for the closed duplex; individual terms can redistribute."
+    ]
+  ],
+  "c": [
+    [
+      "A fork advances rightward at 300 bp/s. The upper old strand is 5′→3′ left to right. Identify the leading template and the spatial direction of new lagging extension.",
+      "The lower old strand is the leading template. The upper new strand extends leftward from each primer, because its template is read right to left. The fork moves right regardless."
+    ],
+    [
+      "A primed 100-base template is extended by an enzyme lacking dCTP. The first template G is the ninth uncopied base. What is the longest ordinary error-free extension?",
+      "Eight nucleotides. Template G requires dCTP at position nine; ordinary correct extension stops before it. The absence of one nucleotide does not abolish earlier additions."
+    ],
+    [
+      "A polymerase has normal incorporation on preprimed ssDNA, but an extract fails to make RNA primers and cannot start on unprimed DNA. Which defect is most direct, and what rescue is informative?",
+      "Primase activity is the direct candidate. A correctly oriented synthetic primer should restore extension on the simple substrate; it cannot replace repeated priming at a whole moving fork."
+    ],
+    [
+      "Two helicase substrates have identical duplexes. One presents a 5′ tail on the long strand; the other a 3′ tail. A motor releases the short strand only with the 5′ tail and ATP. Interpret.",
+      "The result supports 5′→3′ movement on the long tracking strand if loading occurs on the tail. Controls must exclude unequal stability, binding or spontaneous separation. Native replisome orientation is not proven by this assay alone."
+    ],
+    [
+      "A 4.2-Mb circular chromosome has two forks moving at 700 bp/s each. Calculate ideal time and new DNA residues.",
+      "Time = 4,200,000/(2 × 700) = 3,000 s = 50 min. Each parental base pair requires two new residues, so 8.4 million nucleotides are incorporated into final DNA."
+    ],
+    [
+      "One fork moves at 450 bp/s, with successful lagging initiation every 2.4 s. Estimate spacing. What if the interval doubles at fixed speed?",
+      "450 × 2.4 = 1,080 bases; doubling the interval gives 2,160 bases. This is ideal primer spacing, not an invariant fragment length."
+    ],
+    [
+      "A polymerase adds 120 nt/s while bound, averages 60 nt per encounter and waits 1.5 s to rebind. Compute effective speed.",
+      "Extension takes 60/120 = 0.5 s; total cycle = 2 s. Effective throughput = 60/2 = 30 nt/s, assuming identical repeated cycles."
+    ],
+    [
+      "A clamp reduces dissociation probability per addition from 0.02 to 0.001. Calculate mean processivity and fold increase using the geometric model.",
+      "Means are 1/0.02 = 50 and 1/0.001 = 1,000 nucleotides; increase = 20-fold. Instantaneous chemistry need not change."
+    ],
+    [
+      "In a single-hit assay, clamp A increases median DNA length but not the initial nucleotide incorporation rate per bound enzyme. What property changed?",
+      "The length shift supports improved processivity. Rate per engaged enzyme is unchanged, so it does not demonstrate faster chemical catalysis."
+    ],
+    [
+      "A mutant has normal loaded-clamp abundance, normal short-template catalysis, but unusually short single-hit products. Which interaction is worth testing?",
+      "Polymerase-clamp binding or retention. A loader defect is less likely given normal loaded-clamp abundance. A direct interaction assay and a functional wild-type polymerase rescue discriminate."
+    ],
+    [
+      "An intact closed clamp disappears from a 50-bp linear DNA molecule but persists on a circular molecule. Does that prove ring opening?",
+      "No. A closed ring can slide off a free linear end. End-blocked linear DNA and ring-interface mutants would help distinguish loss by sliding from opening."
+    ],
+    [
+      "A DNA-binding protein has Kd = 20 nM. At free protein 60 nM, compute occupied fraction. What is occupancy if Kd increases to 60 nM?",
+      "60/(20+60)=0.75; mutant 60/(60+60)=0.50. Assumes independent equivalent sites and known free, not total, protein concentration."
+    ],
+    [
+      "The fraction of label in small chains changes from 80% immediately after pulse to 15% after chase. Total recovered label is constant. What does this support and what is not established?",
+      "It supports conversion of many small labeled chains into larger covalent products. It does not on its own assign them to leading or lagging templates or prove which joining enzyme acted."
+    ],
+    [
+      "Pulse-chase small-chain radioactivity falls from 600 to 60 units, but long-chain radioactivity stays at 400 units. Is joining established?",
+      "No. Total recovery fell from 1,000 to 460 units; loss or degradation could explain disappearance. A transfer of signal to long chains and matched recovery controls are needed."
+    ],
+    [
+      "An extract synthesizes DNA normally but retains RNA-containing fragment junctions and seals a preformed DNA nick efficiently. Identify the likely operation impaired.",
+      "Primer removal or associated processing is more plausible than ligase failure. RNA sensitivity and gap/flap assays could further localize the defect."
+    ],
+    [
+      "A labeled 20-nt oligo and a 35-nt oligo form a nick on a common template. After ligase treatment and denaturation a labeled 55-nt product appears. What is demonstrated?",
+      "Covalent joining of the two chains, because base pairing alone would not retain the 55-nt product under denaturing conditions. No new DNA nucleotide need be incorporated."
+    ],
+    [
+      "A 6,300-bp circular DNA has h=10.5 and Lk=570. Calculate relaxed linking number, ΔLk, and σ.",
+      "Lk0=6,300/10.5=600; ΔLk=−30; σ=−30/600=−0.05. The molecule is negatively supercoiled relative to that reference."
+    ],
+    [
+      "The same DNA is acted on by an enzyme that increases Lk by 2 per cycle. How many net cycles achieve Lk=600?",
+      "(600−570)/2=15 net cycles. Total cycles may exceed this if reverse events occur."
+    ],
+    [
+      "A constrained nonrotating fork opens 2,100 bp with h=10.5 and no topoisomerase. Estimate the winding that must be accommodated.",
+      "2,100/10.5=200 turns. This is a topological bookkeeping estimate; it does not mean exactly 200 visible loops."
+    ],
+    [
+      "A mutant replisome exposes template at 280 nt/s and copies the lagging template at 220 nt/s for 8 seconds. Calculate additional uncopied template.",
+      "(280−220) × 8 = 480 nt under the stated simple model. Initial exposure and primer/maturation contributions are not included."
+    ],
+    [
+      "A single linear stretch consists of 36 separate adjacent lagging fragments, all processed to pure DNA. How many internal nicks remain before joining?",
+      "35 internal boundaries. Ends connecting to other stretches are excluded; if the question counts all chromosomal joins, additional information is needed."
+    ],
+    [
+      "Two equal-speed forks travel 15,000 bp each; mean lagging fragment spacing is 150 nt. Estimate total productive lagging starts.",
+      "Each fork makes approximately 15,000/150=100 starts; two forks give 200. This excludes leading initiation and assumes exact average spacing."
+    ],
+    [
+      "A helicase mutant unwinds short unconstrained substrates normally but replication of closed DNA stops. Addition of topoisomerase restores copying. Interpret.",
+      "The rescue supports a limitation caused by topology rather than intrinsic helicase motor failure under these conditions. Confirm that added protein restores topology and does not supply another missing activity."
+    ],
+    [
+      "A catalytic topoisomerase inhibitor and a cleavage-complex stabilizer both reduce DNA synthesis. Which additional readout separates the mechanisms?",
+      "Measure persistent protein-linked DNA breaks alongside topology and synthesis. A poison can stabilize cleavage complexes, whereas catalytic blockade may inhibit strand passage without generating the same trapped intermediate burden."
+    ],
+    [
+      "A proofreading-defective system makes long DNA and has normal nick sealing but has a tenfold increase in mismatches. A ligase-defective system retains nicks with near-normal initial base selection. Why can both be lethal?",
+      "Sequence fidelity and covalent chromosome integrity are distinct requirements. Long products or high incorporation alone are not measures of viable completed chromosomes."
+    ],
+    [
+      "If a primase is inhibited just after initiation, which strand-specific signal should decrease first in an ideal uncoupled fork? What caveat applies?",
+      "New lagging-fragment starts should drop first because repeated priming is necessary. Leading extension can temporarily continue from its existing end, but real coupling and stress responses may inhibit both."
+    ]
+  ],
+  "ar": [
+    [
+      "Assertion: A leading strand is normally made continuously. Reason: Its parental template is read toward the advancing fork in the 3′→5′ direction.",
+      "Both true; reason explains assertion. The existing 3′ end can follow newly exposed template."
+    ],
+    [
+      "Assertion: DNA ligase fills a five-nucleotide gap. Reason: Ligase forms phosphodiester bonds at adjacent suitable ends.",
+      "Assertion false, reason true. Missing nucleotide positions require synthesis before ordinary nick sealing."
+    ],
+    [
+      "Assertion: A primase defect can preferentially reduce new lagging starts after initiation. Reason: Each ordinary Okazaki fragment needs a fresh starting chain.",
+      "Both true; reason explains assertion. Secondary fork effects may subsequently alter both strands."
+    ],
+    [
+      "Assertion: Every type I topoisomerase changes Lk by exactly one per cleavage event. Reason: Type I enzymes cleave a single DNA strand.",
+      "Assertion false, reason true. Type IB controlled rotation can relax multiple turns in one cleavage event."
+    ],
+    [
+      "Assertion: A closed circular duplex has invariant Lk in the absence of strand passage or breakage. Reason: Tw and Wr can redistribute without changing their sum.",
+      "Both true; the reason expresses the topological constraint."
+    ]
+  ],
+  "extra": [
+    [
+      "Evaluate statements: I. RPA binds ssDNA. II. PCNA directly catalyzes DNA polymerization. III. RFC loads PCNA. IV. Ligase normally incorporates dNTPs. Which are correct?",
+      "I and III. PCNA is an accessory clamp, while ligase seals adjacent ends without adding nucleotide positions."
+    ],
+    [
+      "Match each function with primase, ligase, helicase, topoisomerase: (a) temporary starter, (b) nick sealing, (c) directional unwinding, (d) strand passage/relaxation.",
+      "a primase; b ligase; c helicase; d topoisomerase. These are distinct tasks even though their loss can reduce replication."
+    ],
+    [
+      "Evaluate statements: I. A gap differs from a nick. II. A flap can arise by strand displacement. III. A closed sliding clamp cannot slide off a free linear end. IV. Nascent fragment RNA is normally removed.",
+      "I, II and IV. A ring can leave a linear duplex through its free end without opening."
+    ],
+    [
+      "Match the assay to the inferred operation: tail-dependent duplex separation, preprimed single-hit length distribution, covalent joining after denaturation, change in closed-circle topoisomers.",
+      "Helicase; processivity; ligase; topoisomerase, respectively. Include controls for energy, rebinding, end chemistry and backbone integrity."
+    ],
+    [
+      "A polymerase can extend DNA at 5′→3′ and remove residues at 3′→5′. A student claims this violates antiparallel copying. Correct the claim.",
+      "The directions refer to different chemical operations. Addition extends the available 3′ end; proofreading hydrolyzes residues from that same end. Neither entails 3′→5′ synthesis."
+    ]
+  ],
+  "revision": [
+    [
+      "Direction",
+      "All ordinary replicative DNA polymerases extend a suitable 3′-OH in the 5′→3′ direction. Determine leading template from the arrow of each fork."
+    ],
+    [
+      "Energy",
+      "Incoming dNTPs provide activation for extension; helicase and clamp loader use ATP; ligase activates a 5′ end using ATP or NAD+ depending on enzyme."
+    ],
+    [
+      "Maturation",
+      "Primer removal and replacement precede nick sealing. Distinguish RNA-containing junction, gap, flap and nick."
+    ],
+    [
+      "Topology",
+      "Lk = Tw + Wr; Lk0 = N/h; σ = (Lk−Lk0)/Lk0. Type II passage changes intraduplex Lk by two; type I mechanisms differ."
+    ],
+    [
+      "Quantitation",
+      "For ideal two equal-speed forks, T = N/(2v); new residues = 2N. Mean primer spacing ≈ vτ; mean geometric processivity = 1/q."
+    ],
+    [
+      "Controls",
+      "Compare preprimed and unprimed substrates; isolate unwinding, primer synthesis, processivity, covalent completion and topology; check recovery and background."
+    ],
+    [
+      "Active recall",
+      "Draw a rightward and leftward fork with all template and daughter polarities; identify which enzyme produces or consumes every intermediate."
+    ],
+    [
+      "Mastery checklist",
+      "Explain chemical polarity without memorizing a diagram; predict effects of missing ATP, dNTPs or primer; calculate speed, spacing, occupancy and linking difference; distinguish a primary biochemical defect from secondary fork arrest; interpret pulse-chase evidence and its limits."
+    ]
+  ],
+  "refs": [
+    [
+      "Alberts et al., Molecular Biology of the Cell, 4th ed. (2002), DNA Replication Mechanisms",
+      "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    ],
+    [
+      "Cooper, The Cell: A Molecular Approach, 2nd ed. (2000), DNA Replication",
+      "https://www.ncbi.nlm.nih.gov/books/NBK9940/"
+    ],
+    [
+      "Kornberg, Nobel lecture (1959), enzymatic synthesis of DNA",
+      "https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf"
+    ],
+    [
+      "Okazaki et al. (1968), Mechanism of DNA chain growth I, PNAS 59:598–605",
+      "https://doi.org/10.1073/pnas.59.2.598"
+    ],
+    [
+      "Okazaki et al. (1969), Mechanism of DNA chain growth IV, PNAS 64:1242–1248",
+      "https://doi.org/10.1073/pnas.64.4.1242"
+    ],
+    [
+      "Johansson and Dixon, Replicative DNA Polymerases (2013)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3660833/"
+    ],
+    [
+      "The kinetic and chemical mechanism of high-fidelity DNA polymerases",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3047511/"
+    ],
+    [
+      "The E. coli DNA Replication Fork (2016)",
+      "https://pubmed.ncbi.nlm.nih.gov/27241927/"
+    ],
+    [
+      "Burgers and Kunkel, Eukaryotic DNA Replication Fork (2017)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5597965/"
+    ],
+    [
+      "Graham et al. (2017), Independent and Stochastic Action of DNA Polymerases in the Replisome",
+      "https://doi.org/10.1016/j.cell.2017.05.041"
+    ],
+    [
+      "Diversity and Functions of Type II Topoisomerases (2021)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8084294/"
+    ],
+    [
+      "DNA: Alternative Conformations and Biology, NCBI Bookshelf",
+      "https://www.ncbi.nlm.nih.gov/books/NBK6545/"
+    ],
+    [
+      "Official merged CSIR–UGC–DBT NET syllabus, Unit 3.A",
+      "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf"
+    ],
+    [
+      "Official CSIR NET Life Sciences syllabus, Unit 3.A",
+      "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf"
+    ],
+    [
+      "MP SET 2024 Life Sciences Paper II syllabus (archived copy), Unit 3.A",
+      "https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf"
+    ]
+  ]
+}

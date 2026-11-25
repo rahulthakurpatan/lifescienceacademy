@@ -244,7 +244,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" aria-label="Previous curriculum node: Electron Transport and Oxidative Phosphorylation">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Fatty Acid and Ketone Body Metabolism">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next curriculum node: Fatty Acid and Ketone Body Metabolism">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -390,7 +390,7 @@
 <p>To revise, draw G6P at the centre of a page. From it, trace the route to glycogen, the route to free glucose in liver, the route into glycolysis, and the oxidative pentose route. Then start with pyruvate, glycerol and lactate and draw the routes back toward G6P; annotate which reactions consume ATP, GTP or NADH. Add fructose and galactose at their actual entry points. Finally, mark the two opposing enzyme switches at glycogen synthesis/degradation and the F6P/F1,6BP junction. The result should be a connected pathway map, not a list of unrelated enzyme names.</p>
 <p>This network explains why fat metabolism is the next subject. During fasting, oxidation of fatty acids powers gluconeogenesis without supplying net glucose from even-chain acetyl-CoA; during feeding, carbohydrate-derived acetyl-CoA and NADPH support fatty acid synthesis. The next chapter, 1.F.01 — Fatty Acid and Ketone Body Metabolism, develops these complementary processes and their energetic balance.</p></section>
 <section id="references"><h2>21. References and further reading</h2><p>Standard textbook foundations: Nelson and Cox, <em>Lehninger Principles of Biochemistry</em>, 8th edition, chapters on carbohydrate metabolism, glycolysis/gluconeogenesis/PPP and hormonal regulation; Berg, Tymoczko, Gatto and Stryer, <em>Biochemistry</em>, 9th edition, sections on carbohydrate metabolism and glycogen. The figures are original schematic teaching illustrations, not structural-scale models. Worked data and examination questions are original and illustrative.</p><ul><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK544346/">NCBI Bookshelf — Biochemistry, Gluconeogenesis</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4802397/">Glycogen metabolism in humans</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK551687/">NCBI Bookshelf — Biochemistry, Hexose Monophosphate Pathway</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11251397/">The pentose phosphate pathway in health and disease</a> (core pathway chemistry)</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK576428/">NCBI Bookshelf — Biochemistry, Fructose Metabolism</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK1518/">GeneReviews — Classic Galactosemia and Clinical Variant Galactosemia</a> (Leloir pathway)</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7778149/">Carbohydrate Metabolism</a> (hexose entry)</li><li><a href="https://csirhrdg.res.in/Home/Index/1/InPage/37/26">CSIR-HRDG Life Science and Biotechnology syllabus</a>, Unit 1 carbohydrate metabolism and bioenergetics.</li></ul></section></div></article>
-        <nav class="node-navigation" aria-label="Curriculum navigation"><a class="disabled-nav" href="electron-transport-and-oxidative-phosphorylation.html">← 1.E.04 Electron Transport and Oxidative Phosphorylation</a><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Curriculum navigation"><a class="disabled-nav" href="electron-transport-and-oxidative-phosphorylation.html">← 1.E.04 Electron Transport and Oxidative Phosphorylation</a><a class="disabled-nav" href="fatty-acid-and-ketone-body-metabolism.html">1.F.01 Fatty Acid and Ketone Body Metabolism →</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 1 · Structure and Function of Biomolecules</footer>
@@ -473,6 +473,7 @@
       });
       const dialog=byId("diagram-dialog");
       byId("previous-node").addEventListener("click",()=>location.href="electron-transport-and-oxidative-phosphorylation.html");
+      byId("next-node").addEventListener("click",()=>location.href="fatty-acid-and-ketone-body-metabolism.html");
 
 
       document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{

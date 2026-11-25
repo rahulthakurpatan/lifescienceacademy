@@ -1,0 +1,492 @@
+{
+  "node_id": "3.D.01",
+  "title": "Fundamental Principles of Gene Expression Regulation",
+  "slug": "fundamental-principles-of-gene-expression-regulation.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamental-principles-of-gene-expression-regulation.html",
+  "narrative_words": 13957,
+  "teaching_paragraphs": 158,
+  "visible_article_words": 18552,
+  "theory_sections": 16,
+  "sections": 23,
+  "figures": 13,
+  "tables": 3,
+  "questions": 50,
+  "distribution": {
+    "part_b": 20,
+    "part_c": 20,
+    "assertion_reason": 4,
+    "multiple_statement": 2,
+    "matching": 2,
+    "integrative": 2,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 12,
+      "D": 12
+    }
+  },
+  "references": 13,
+  "revision_traps": 15,
+  "active_recall": 10,
+  "mastery_checklist": 6,
+  "method": "Whitespace-delimited actual saved p.teaching-prose only, excluding tables, headings, practice, explanations, captions, SVG, references, UI. Article words exclude diagrams and buttons.",
+  "comparator": {
+    "node_id": "3.C.14",
+    "narrative_words_recounted": 14633,
+    "teaching_paragraphs": 149
+  },
+  "scope_review": "Official separate CSIR NET p.3, merged CSIR–UGC–DBT p.4, archived MP SET p.3 visually verified. All 3.D.01 roadmap responsibilities covered; specific lac, trp, lambda, viral, chromatin and silencing mechanisms reserved for subsequent chapters. Checked PaJaMo, Jacob–Monod, Brenner–Jacob–Meselson, standard textbooks. Separate review of regulatory sign, four models, cis/trans, binding equilibrium, rates vs stocks, step-response and turnover models, controls and biological limits.",
+  "arithmetic_checks": [
+    {
+      "label": "Active pool 80%",
+      "actual": 80,
+      "expected": 80,
+      "pass": true
+    },
+    {
+      "label": "Active pool 5%",
+      "actual": 5,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "label": "active ratio",
+      "actual": 16,
+      "expected": 16,
+      "pass": true
+    },
+    {
+      "label": "single site half",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true
+    },
+    {
+      "label": "R=9Kd",
+      "actual": 0.9,
+      "expected": 0.9,
+      "pass": true
+    },
+    {
+      "label": "R=Kd/9",
+      "actual": 0.09999999999999999,
+      "expected": 0.1,
+      "pass": true
+    },
+    {
+      "label": "1 nM occupancy",
+      "actual": 0.09090909090909091,
+      "expected": 0.090909,
+      "pass": true
+    },
+    {
+      "label": "100 nM occupancy",
+      "actual": 0.9090909090909091,
+      "expected": 0.909091,
+      "pass": true
+    },
+    {
+      "label": "Kd mutation old",
+      "actual": 0.6666666666666666,
+      "expected": 0.6666666666666666,
+      "pass": true
+    },
+    {
+      "label": "Kd mutation new",
+      "actual": 0.3333333333333333,
+      "expected": 0.3333333333333333,
+      "pass": true
+    },
+    {
+      "label": "repressor rate theta .8",
+      "actual": 24,
+      "expected": 24,
+      "pass": true
+    },
+    {
+      "label": "repressor theta .1",
+      "actual": 90.5,
+      "expected": 90.5,
+      "pass": true
+    },
+    {
+      "label": "activator theta .25",
+      "actual": 27.5,
+      "expected": 27.5,
+      "pass": true
+    },
+    {
+      "label": "activator theta .75",
+      "actual": 62.5,
+      "expected": 62.5,
+      "pass": true
+    },
+    {
+      "label": "R80 K20",
+      "actual": 0.8,
+      "expected": 0.8,
+      "pass": true
+    },
+    {
+      "label": "R5 K20",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "label": "output theta .2",
+      "actual": 81,
+      "expected": 81,
+      "pass": true
+    },
+    {
+      "label": "completion 90%",
+      "actual": 90,
+      "expected": 90,
+      "pass": true
+    },
+    {
+      "label": "completion 30%",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "label": "isoforms",
+      "actual": 15,
+      "expected": 15,
+      "pass": true
+    },
+    {
+      "label": "RNA steady A",
+      "actual": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "label": "RNA steady B",
+      "actual": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "label": "RNA steady signal",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "label": "half-life delta .2",
+      "actual": 3.465735902799726,
+      "expected": 3.465736,
+      "pass": true
+    },
+    {
+      "label": "half-life delta .4",
+      "actual": 1.732867951399863,
+      "expected": 1.732868,
+      "pass": true
+    },
+    {
+      "label": "decay 80 to 20, 4 min",
+      "actual": 0.34657359027997264,
+      "expected": 0.346574,
+      "pass": true
+    },
+    {
+      "label": "inferred s",
+      "actual": 27.725887222397812,
+      "expected": 27.725887,
+      "pass": true
+    },
+    {
+      "label": "RNA new steady",
+      "actual": 160,
+      "expected": 160,
+      "pass": true
+    },
+    {
+      "label": "RNA half-step",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "label": "RNA 2 half-steps",
+      "actual": 130,
+      "expected": 130,
+      "pass": true
+    },
+    {
+      "label": "repression 1 half",
+      "actual": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "label": "repression 2 half",
+      "actual": 40,
+      "expected": 40,
+      "pass": true
+    },
+    {
+      "label": "90% response",
+      "actual": 23.025850929940457,
+      "expected": 23.025851,
+      "pass": true
+    },
+    {
+      "label": "short half-life",
+      "actual": 1.3862943611198906,
+      "expected": 1.386294,
+      "pass": true
+    },
+    {
+      "label": "long half-life",
+      "actual": 13.862943611198904,
+      "expected": 13.862944,
+      "pass": true
+    },
+    {
+      "label": "stabilised half-step",
+      "actual": 75,
+      "expected": 75,
+      "pass": true
+    },
+    {
+      "label": "protein steady",
+      "actual": 2000,
+      "expected": 2000,
+      "pass": true
+    },
+    {
+      "label": "half translation",
+      "actual": 1000,
+      "expected": 1000,
+      "pass": true
+    },
+    {
+      "label": "double protein loss",
+      "actual": 1000,
+      "expected": 1000,
+      "pass": true
+    },
+    {
+      "label": "multi regulation fold",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "label": "opposing RNA/protein fold",
+      "actual": 0.75,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "label": "protein slow half",
+      "actual": 34.657359027997266,
+      "expected": 34.657359,
+      "pass": true
+    },
+    {
+      "label": "protein fast half",
+      "actual": 3.465735902799726,
+      "expected": 3.465736,
+      "pass": true
+    },
+    {
+      "label": "activity fold",
+      "actual": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "label": "two-copy off",
+      "actual": 55,
+      "expected": 55,
+      "pass": true
+    },
+    {
+      "label": "two-copy on",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "label": "normalised ratio A",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "label": "normalised ratio B",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "label": "integration RNA basal",
+      "actual": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "label": "integration RNA nutrient",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "label": "integration RNA both",
+      "actual": 400,
+      "expected": 400,
+      "pass": true
+    },
+    {
+      "label": "integration protein both",
+      "actual": 8000,
+      "expected": 8000,
+      "pass": true
+    },
+    {
+      "label": "stabilisation inverse example",
+      "actual": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "Q21",
+      "actual": 0.75,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "label": "Q22",
+      "actual": 34,
+      "expected": 34,
+      "pass": true
+    },
+    {
+      "label": "Q23",
+      "actual": 40,
+      "expected": 40,
+      "pass": true
+    },
+    {
+      "label": "Q24 old",
+      "actual": 0.75,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "label": "Q24 new",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "label": "Q25",
+      "actual": 80,
+      "expected": 80,
+      "pass": true
+    },
+    {
+      "label": "Q26",
+      "actual": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "label": "Q27",
+      "actual": 120,
+      "expected": 120,
+      "pass": true
+    },
+    {
+      "label": "Q28",
+      "actual": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "label": "Q29",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true
+    },
+    {
+      "label": "Q30",
+      "actual": 2000,
+      "expected": 2000,
+      "pass": true
+    },
+    {
+      "label": "Q31",
+      "actual": 1.5,
+      "expected": 1.5,
+      "pass": true
+    },
+    {
+      "label": "Q37 old",
+      "actual": 90,
+      "expected": 90,
+      "pass": true
+    },
+    {
+      "label": "Q37 new",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "label": "Q39",
+      "actual": 0.3,
+      "expected": 0.3,
+      "pass": true
+    },
+    {
+      "label": "Q39 after",
+      "actual": 0.3,
+      "expected": 0.3,
+      "pass": true
+    }
+  ],
+  "static_checks": {
+    "word_gate": true,
+    "unique_paragraphs": true,
+    "unique_ids": true,
+    "anchors": true,
+    "svg_labels": true,
+    "zoom_targets": true,
+    "question_keys": true,
+    "arithmetic": true,
+    "correct_nav": true,
+    "no_stale_title": true,
+    "draft_noindex": true,
+    "published_indexable": true,
+    "menu_unique": true,
+    "sitemap_unique": true,
+    "next_unpublished": true,
+    "previous_published": true
+  },
+  "limitations": [
+    "Internal author/editor review, not external peer review.",
+    "Archived MP SET 2024 comparator rather than verified current MPPSC-hosted original.",
+    "Source records and accessible excerpts checked, not every complete primary paper.",
+    "Static HTML/SVG source checks, not full device/browser interactions or independent accessibility audit.",
+    "Pages deployment verification is separate."
+  ],
+  "main_baseline_sha": "24322e014ecd1bbfd702f03c764d6cf799ea0561",
+  "source_draft_branch": "draft/node-3d01-gene-expression-regulation",
+  "status": "lesson_committed_pages_verification_pending",
+  "draft_commit_sha": "1c5108cc83d651bbaf01ef4e2fb28f08992169ea",
+  "html_characters": 232257,
+  "academy_published_count": 132,
+  "unit_03_published_count": 40,
+  "unit_03_planned_count": 51,
+  "subunit_3d_published_count": 1,
+  "subunit_3d_planned_count": 12,
+  "next_pending_node_id": "3.D.02",
+  "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System"
+}

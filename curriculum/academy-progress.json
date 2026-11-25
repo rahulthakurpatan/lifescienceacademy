@@ -1,31 +1,967 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-25",
-  "unit": "01",
+  "unit": "03",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "1.A.03",
-  "title": "Biological Solutions, pH and Buffer Systems",
-  "subunit": "1.A",
-  "topic": "Biological Solutions, pH and Buffer Systems",
-  "slug": "biological-solutions-ph-and-buffer-systems.html",
-  "next_pending_node_id": "3.D.01",
-  "next_pending_node_title": "Fundamental Principles of Gene Expression Regulation",
-  "published_node_count": 131,
+  "node_id": "3.D.01",
+  "title": "Fundamental Principles of Gene Expression Regulation",
+  "subunit": "3.D",
+  "topic": "Control of Gene Expression at Transcription and Translation Level",
+  "slug": "fundamental-principles-of-gene-expression-regulation.html",
+  "next_pending_node_id": "3.D.02",
+  "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
+  "published_node_count": 132,
   "publication_allowed": true,
-  "main_baseline_sha": "3dfb6d96c09ba520d933022413bf4679f479137d",
+  "main_baseline_sha": "24322e014ecd1bbfd702f03c764d6cf799ea0561",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages deployment for 1.A.03. Unit 1 complete (30/30); global next pending chapter 3.D.01. Preserve all parallel Unit 4 publications.",
-  "planned_node_count": 30,
-  "planned_subunit_count": 6,
-  "architecture_version": "unit-01-compact-2026-11-24",
-  "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
+  "next_required_action": "Verify Pages for 3.D.01; then develop 3.D.02 under the editorial gate. Preserve all parallel publications.",
+  "planned_node_count": 51,
+  "planned_subunit_count": 4,
+  "architecture_version": "unit-03-fundamental-processes-2026-11-24",
+  "curriculum_roadmap": "curriculum/unit-03-fundamental-processes-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-3d-gene-expression-regulation-node-map.md",
   "last_qa": {
+    "node_id": "3.D.01",
+    "title": "Fundamental Principles of Gene Expression Regulation",
+    "slug": "fundamental-principles-of-gene-expression-regulation.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamental-principles-of-gene-expression-regulation.html",
+    "narrative_words": 13957,
+    "teaching_paragraphs": 158,
+    "visible_article_words": 18552,
+    "theory_sections": 16,
+    "sections": 23,
+    "figures": 13,
+    "tables": 3,
+    "questions": 50,
+    "distribution": {
+      "part_b": 20,
+      "part_c": 20,
+      "assertion_reason": 4,
+      "multiple_statement": 2,
+      "matching": 2,
+      "integrative": 2,
+      "answer_positions": {
+        "A": 13,
+        "B": 13,
+        "C": 12,
+        "D": 12
+      }
+    },
+    "references": 13,
+    "revision_traps": 15,
+    "active_recall": 10,
+    "mastery_checklist": 6,
+    "method": "Whitespace-delimited actual saved p.teaching-prose only, excluding tables, headings, practice, explanations, captions, SVG, references, UI. Article words exclude diagrams and buttons.",
+    "comparator": {
+      "node_id": "3.C.14",
+      "narrative_words_recounted": 14633,
+      "teaching_paragraphs": 149
+    },
+    "scope_review": "Official separate CSIR NET p.3, merged CSIR–UGC–DBT p.4, archived MP SET p.3 visually verified. All 3.D.01 roadmap responsibilities covered; specific lac, trp, lambda, viral, chromatin and silencing mechanisms reserved for subsequent chapters. Checked PaJaMo, Jacob–Monod, Brenner–Jacob–Meselson, standard textbooks. Separate review of regulatory sign, four models, cis/trans, binding equilibrium, rates vs stocks, step-response and turnover models, controls and biological limits.",
+    "arithmetic_checks": [
+      {
+        "label": "Active pool 80%",
+        "actual": 80,
+        "expected": 80,
+        "pass": true
+      },
+      {
+        "label": "Active pool 5%",
+        "actual": 5,
+        "expected": 5,
+        "pass": true
+      },
+      {
+        "label": "active ratio",
+        "actual": 16,
+        "expected": 16,
+        "pass": true
+      },
+      {
+        "label": "single site half",
+        "actual": 0.5,
+        "expected": 0.5,
+        "pass": true
+      },
+      {
+        "label": "R=9Kd",
+        "actual": 0.9,
+        "expected": 0.9,
+        "pass": true
+      },
+      {
+        "label": "R=Kd/9",
+        "actual": 0.09999999999999999,
+        "expected": 0.1,
+        "pass": true
+      },
+      {
+        "label": "1 nM occupancy",
+        "actual": 0.09090909090909091,
+        "expected": 0.090909,
+        "pass": true
+      },
+      {
+        "label": "100 nM occupancy",
+        "actual": 0.9090909090909091,
+        "expected": 0.909091,
+        "pass": true
+      },
+      {
+        "label": "Kd mutation old",
+        "actual": 0.6666666666666666,
+        "expected": 0.6666666666666666,
+        "pass": true
+      },
+      {
+        "label": "Kd mutation new",
+        "actual": 0.3333333333333333,
+        "expected": 0.3333333333333333,
+        "pass": true
+      },
+      {
+        "label": "repressor rate theta .8",
+        "actual": 24,
+        "expected": 24,
+        "pass": true
+      },
+      {
+        "label": "repressor theta .1",
+        "actual": 90.5,
+        "expected": 90.5,
+        "pass": true
+      },
+      {
+        "label": "activator theta .25",
+        "actual": 27.5,
+        "expected": 27.5,
+        "pass": true
+      },
+      {
+        "label": "activator theta .75",
+        "actual": 62.5,
+        "expected": 62.5,
+        "pass": true
+      },
+      {
+        "label": "R80 K20",
+        "actual": 0.8,
+        "expected": 0.8,
+        "pass": true
+      },
+      {
+        "label": "R5 K20",
+        "actual": 0.2,
+        "expected": 0.2,
+        "pass": true
+      },
+      {
+        "label": "output theta .2",
+        "actual": 81,
+        "expected": 81,
+        "pass": true
+      },
+      {
+        "label": "completion 90%",
+        "actual": 90,
+        "expected": 90,
+        "pass": true
+      },
+      {
+        "label": "completion 30%",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "label": "isoforms",
+        "actual": 15,
+        "expected": 15,
+        "pass": true
+      },
+      {
+        "label": "RNA steady A",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "label": "RNA steady B",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "label": "RNA steady signal",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "label": "half-life delta .2",
+        "actual": 3.465735902799726,
+        "expected": 3.465736,
+        "pass": true
+      },
+      {
+        "label": "half-life delta .4",
+        "actual": 1.732867951399863,
+        "expected": 1.732868,
+        "pass": true
+      },
+      {
+        "label": "decay 80 to 20, 4 min",
+        "actual": 0.34657359027997264,
+        "expected": 0.346574,
+        "pass": true
+      },
+      {
+        "label": "inferred s",
+        "actual": 27.725887222397812,
+        "expected": 27.725887,
+        "pass": true
+      },
+      {
+        "label": "RNA new steady",
+        "actual": 160,
+        "expected": 160,
+        "pass": true
+      },
+      {
+        "label": "RNA half-step",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "label": "RNA 2 half-steps",
+        "actual": 130,
+        "expected": 130,
+        "pass": true
+      },
+      {
+        "label": "repression 1 half",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "label": "repression 2 half",
+        "actual": 40,
+        "expected": 40,
+        "pass": true
+      },
+      {
+        "label": "90% response",
+        "actual": 23.025850929940457,
+        "expected": 23.025851,
+        "pass": true
+      },
+      {
+        "label": "short half-life",
+        "actual": 1.3862943611198906,
+        "expected": 1.386294,
+        "pass": true
+      },
+      {
+        "label": "long half-life",
+        "actual": 13.862943611198904,
+        "expected": 13.862944,
+        "pass": true
+      },
+      {
+        "label": "stabilised half-step",
+        "actual": 75,
+        "expected": 75,
+        "pass": true
+      },
+      {
+        "label": "protein steady",
+        "actual": 2000,
+        "expected": 2000,
+        "pass": true
+      },
+      {
+        "label": "half translation",
+        "actual": 1000,
+        "expected": 1000,
+        "pass": true
+      },
+      {
+        "label": "double protein loss",
+        "actual": 1000,
+        "expected": 1000,
+        "pass": true
+      },
+      {
+        "label": "multi regulation fold",
+        "actual": 6,
+        "expected": 6,
+        "pass": true
+      },
+      {
+        "label": "opposing RNA/protein fold",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "label": "protein slow half",
+        "actual": 34.657359027997266,
+        "expected": 34.657359,
+        "pass": true
+      },
+      {
+        "label": "protein fast half",
+        "actual": 3.465735902799726,
+        "expected": 3.465736,
+        "pass": true
+      },
+      {
+        "label": "activity fold",
+        "actual": 3,
+        "expected": 3,
+        "pass": true
+      },
+      {
+        "label": "two-copy off",
+        "actual": 55,
+        "expected": 55,
+        "pass": true
+      },
+      {
+        "label": "two-copy on",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "label": "normalised ratio A",
+        "actual": 0.2,
+        "expected": 0.2,
+        "pass": true
+      },
+      {
+        "label": "normalised ratio B",
+        "actual": 0.2,
+        "expected": 0.2,
+        "pass": true
+      },
+      {
+        "label": "integration RNA basal",
+        "actual": 10,
+        "expected": 10,
+        "pass": true
+      },
+      {
+        "label": "integration RNA nutrient",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "label": "integration RNA both",
+        "actual": 400,
+        "expected": 400,
+        "pass": true
+      },
+      {
+        "label": "integration protein both",
+        "actual": 8000,
+        "expected": 8000,
+        "pass": true
+      },
+      {
+        "label": "stabilisation inverse example",
+        "actual": 200,
+        "expected": 200,
+        "pass": true
+      },
+      {
+        "label": "Q21",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "label": "Q22",
+        "actual": 34,
+        "expected": 34,
+        "pass": true
+      },
+      {
+        "label": "Q23",
+        "actual": 40,
+        "expected": 40,
+        "pass": true
+      },
+      {
+        "label": "Q24 old",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "label": "Q24 new",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "label": "Q25",
+        "actual": 80,
+        "expected": 80,
+        "pass": true
+      },
+      {
+        "label": "Q26",
+        "actual": 3,
+        "expected": 3,
+        "pass": true
+      },
+      {
+        "label": "Q27",
+        "actual": 120,
+        "expected": 120,
+        "pass": true
+      },
+      {
+        "label": "Q28",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "label": "Q29",
+        "actual": 0.5,
+        "expected": 0.5,
+        "pass": true
+      },
+      {
+        "label": "Q30",
+        "actual": 2000,
+        "expected": 2000,
+        "pass": true
+      },
+      {
+        "label": "Q31",
+        "actual": 1.5,
+        "expected": 1.5,
+        "pass": true
+      },
+      {
+        "label": "Q37 old",
+        "actual": 90,
+        "expected": 90,
+        "pass": true
+      },
+      {
+        "label": "Q37 new",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "label": "Q39",
+        "actual": 0.3,
+        "expected": 0.3,
+        "pass": true
+      },
+      {
+        "label": "Q39 after",
+        "actual": 0.3,
+        "expected": 0.3,
+        "pass": true
+      }
+    ],
+    "static_checks": {
+      "word_gate": true,
+      "unique_paragraphs": true,
+      "unique_ids": true,
+      "anchors": true,
+      "svg_labels": true,
+      "zoom_targets": true,
+      "question_keys": true,
+      "arithmetic": true,
+      "correct_nav": true,
+      "no_stale_title": true,
+      "draft_noindex": true,
+      "published_indexable": true,
+      "menu_unique": true,
+      "sitemap_unique": true,
+      "next_unpublished": true,
+      "previous_published": true
+    },
+    "limitations": [
+      "Internal author/editor review, not external peer review.",
+      "Archived MP SET 2024 comparator rather than verified current MPPSC-hosted original.",
+      "Source records and accessible excerpts checked, not every complete primary paper.",
+      "Static HTML/SVG source checks, not full device/browser interactions or independent accessibility audit.",
+      "Pages deployment verification is separate."
+    ],
+    "main_baseline_sha": "24322e014ecd1bbfd702f03c764d6cf799ea0561",
+    "source_draft_branch": "draft/node-3d01-gene-expression-regulation",
+    "status": "lesson_committed_pages_verification_pending",
+    "draft_commit_sha": "1c5108cc83d651bbaf01ef4e2fb28f08992169ea",
+    "html_characters": 232257,
+    "academy_published_count": 132,
+    "unit_03_published_count": 40,
+    "unit_03_planned_count": 51,
+    "subunit_3d_published_count": 1,
+    "subunit_3d_planned_count": 12,
+    "next_pending_node_id": "3.D.02",
+    "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System"
+  },
+  "published_node_ids": [
+    "1.A.01",
+    "1.A.02",
+    "1.A.03",
+    "1.A.04",
+    "1.A.05",
+    "1.B.01",
+    "1.B.02",
+    "1.B.03",
+    "1.B.04",
+    "1.B.05",
+    "1.C.01",
+    "1.C.02",
+    "1.C.03",
+    "1.C.04",
+    "1.C.05",
+    "1.D.01",
+    "1.D.02",
+    "1.D.03",
+    "1.D.04",
+    "1.D.05",
+    "1.E.01",
+    "1.E.02",
+    "1.E.03",
+    "1.E.04",
+    "1.E.05",
+    "1.F.01",
+    "1.F.02",
+    "1.F.03",
+    "1.F.04",
+    "1.F.05",
+    "2.A.01",
+    "2.A.02",
+    "2.A.03",
+    "2.A.04",
+    "2.A.05",
+    "2.A.06",
+    "2.A.07",
+    "2.A.08",
+    "2.A.09",
+    "2.A.10",
+    "2.B.01",
+    "2.B.02",
+    "2.B.03",
+    "2.B.04",
+    "2.B.05",
+    "2.B.06",
+    "2.B.07",
+    "2.B.08",
+    "2.B.09",
+    "2.B.10",
+    "2.C.01",
+    "2.C.02",
+    "2.C.03",
+    "2.C.04",
+    "2.C.05",
+    "2.C.06",
+    "2.C.07",
+    "2.C.08",
+    "2.C.09",
+    "2.C.10",
+    "2.D.01",
+    "2.D.02",
+    "2.D.03",
+    "2.D.04",
+    "2.D.05",
+    "2.D.06",
+    "2.D.07",
+    "2.D.08",
+    "2.D.09",
+    "2.D.10",
+    "2.E.01",
+    "2.E.02",
+    "2.E.03",
+    "2.E.04",
+    "2.E.05",
+    "2.E.06",
+    "2.E.07",
+    "2.E.08",
+    "2.E.09",
+    "2.E.10",
+    "3.A.01",
+    "3.A.02",
+    "3.A.03",
+    "3.A.04",
+    "3.A.05",
+    "3.A.06",
+    "3.A.07",
+    "3.A.08",
+    "3.A.09",
+    "3.A.10",
+    "3.A.11",
+    "3.A.12",
+    "3.B.01",
+    "3.B.02",
+    "3.B.03",
+    "3.B.04",
+    "3.B.05",
+    "3.B.06",
+    "3.B.07",
+    "3.B.08",
+    "3.B.09",
+    "3.B.10",
+    "3.B.11",
+    "3.B.12",
+    "3.B.13",
+    "3.C.01",
+    "3.C.02",
+    "3.C.03",
+    "3.C.04",
+    "3.C.05",
+    "3.C.06",
+    "3.C.07",
+    "3.C.08",
+    "3.C.09",
+    "3.C.10",
+    "3.C.11",
+    "3.C.12",
+    "3.C.13",
+    "3.C.14",
+    "4.A.02",
+    "4.A.03",
+    "4.A.04",
+    "4.A.05",
+    "4.A.06",
+    "4.A.07",
+    "4.A.08",
+    "4.A.09",
+    "4.A.10",
+    "4.A.11",
+    "4.A.12",
+    "4.A.13",
+    "3.D.01"
+  ],
+  "prior_publication_qa": {
+    "node_id": "4.A.13",
+    "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
+    "unit": "04",
+    "subunit": "4.A",
+    "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
+    "status": "lesson_committed_pages_verification_pending",
+    "narrative_words": 14306,
+    "visible_article_words": 20212,
+    "teaching_paragraphs": 144,
+    "theory_sections": 16,
+    "sections": 24,
+    "figures": 13,
+    "tables": 4,
+    "questions": 52,
+    "references": 28,
+    "html_bytes": 238970,
+    "revision_traps": 15,
+    "active_recall": 10,
+    "mastery_checklist": 6,
+    "distribution": {
+      "Part B": 20,
+      "Part C": 20,
+      "Assertion–Reason": 3,
+      "Multiple statements": 3,
+      "Matching": 2,
+      "Additional numerical": 2,
+      "Experimental interpretation": 1,
+      "Integrative reasoning": 1
+    },
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 13
+    },
+    "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
+    "comparator": {
+      "node_id": "4.A.07",
+      "narrative_words": 14453,
+      "teaching_paragraphs": 158,
+      "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
+    },
+    "scientific_checks": [
+      "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
+      "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
+      "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
+      "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
+      "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
+      "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
+    ],
+    "experimental_reasoning_cases": [
+      "conditioned medium and matched controls",
+      "purified LuxI evidence",
+      "LuxI signal supplementation",
+      "LuxR feedback loss",
+      "luciferase output defect",
+      "peptide precursor and maturation defects",
+      "AgrC kinase defect",
+      "LuxS metabolic vs signaling rescue",
+      "AI-2 uptake vs extracellular decline",
+      "signal retention and exchange",
+      "biofilm attachment vs dispersal",
+      "quenching vs viability",
+      "mixed producer/receiver populations",
+      "dose-response sensitivity vs affinity",
+      "reporter normalization and persistence"
+    ],
+    "arithmetic_checks": {
+      "total": 30,
+      "passed": 30,
+      "details": [
+        {
+          "name": "signal at 2 h",
+          "actual": 25.284822353142307,
+          "expected": 25.3,
+          "pass": true
+        },
+        {
+          "name": "threshold time",
+          "actual": 2.772588722239781,
+          "expected": 2.77,
+          "pass": true
+        },
+        {
+          "name": "half-time",
+          "actual": 1.3862943611198906,
+          "expected": 1.39,
+          "pass": true
+        },
+        {
+          "name": "theta 2.5",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "name": "theta 10",
+          "actual": 0.5,
+          "expected": 0.5,
+          "pass": true
+        },
+        {
+          "name": "theta 40",
+          "actual": 0.8,
+          "expected": 0.8,
+          "pass": true
+        },
+        {
+          "name": "hill low h1",
+          "actual": 0.3333333333333333,
+          "expected": 0.3333333333333333,
+          "pass": true
+        },
+        {
+          "name": "hill low h3",
+          "actual": 0.1111111111111111,
+          "expected": 0.1111111111111111,
+          "pass": true
+        },
+        {
+          "name": "hill high h1",
+          "actual": 0.6666666666666666,
+          "expected": 0.6666666666666666,
+          "pass": true
+        },
+        {
+          "name": "hill high h3",
+          "actual": 0.8888888888888888,
+          "expected": 0.8888888888888888,
+          "pass": true
+        },
+        {
+          "name": "diffusion 60",
+          "actual": 2,
+          "expected": 2,
+          "pass": true
+        },
+        {
+          "name": "diffusion 120",
+          "actual": 8,
+          "expected": 8,
+          "pass": true
+        },
+        {
+          "name": "steady no exchange",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "name": "steady exchange",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "name": "protein one hour",
+          "actual": 90.48374180359595,
+          "expected": 90.5,
+          "pass": true
+        },
+        {
+          "name": "protein ten hours",
+          "actual": 36.787944117144235,
+          "expected": 36.8,
+          "pass": true
+        },
+        {
+          "name": "WT normalization",
+          "actual": 4,
+          "expected": 4,
+          "pass": true
+        },
+        {
+          "name": "mutant normalization",
+          "actual": 6,
+          "expected": 6,
+          "pass": true
+        },
+        {
+          "name": "Q25 ratio",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "name": "Q26 steady",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "name": "Q27 half time",
+          "actual": 1.3862943611198906,
+          "expected": 1.39,
+          "pass": true
+        },
+        {
+          "name": "Q28 occupancy",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "name": "Q29 hill h1",
+          "actual": 0.3333333333333333,
+          "expected": 0.3333333333333333,
+          "pass": true
+        },
+        {
+          "name": "Q29 hill h2",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "name": "Q36 steady",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "name": "Q37 protein",
+          "actual": 36.787944117144235,
+          "expected": 36.8,
+          "pass": true
+        },
+        {
+          "name": "Q38 producer fraction",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "name": "Q49 exchange",
+          "actual": 39.99999999999999,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "name": "Q50 diffusion",
+          "actual": 12,
+          "expected": 12,
+          "pass": true
+        },
+        {
+          "name": "Q51 normalization",
+          "actual": 1.5,
+          "expected": 1.5,
+          "pass": true
+        }
+      ]
+    },
+    "technical_checks": {
+      "word_gate": true,
+      "duplicate_paragraphs": true,
+      "unique_ids": true,
+      "anchors": true,
+      "svg_accessible_labels": true,
+      "zoom_targets": true,
+      "question_keys": true,
+      "balanced_html": true,
+      "local_published_links": true,
+      "reader_controls": true,
+      "dynamic_neighbors": true,
+      "canonical": true,
+      "no_stale_title": true,
+      "arithmetic": true
+    },
+    "academic_self_review": {
+      "scope_20": 20,
+      "accuracy_25": 24,
+      "depth_20": 20,
+      "evidence_quantitative_15": 14,
+      "practice_10": 9,
+      "technical_10": 8,
+      "total": 95,
+      "maximum": 100,
+      "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
+    },
+    "limitations": [
+      "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
+      "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
+      "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
+      "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
+      "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
+      "Draft robots metadata is noindex; public candidate changes to index,follow only."
+    ],
+    "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
+    "source_draft_branch": "draft/node-4a13-quorum-sensing",
+    "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
+    "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
+    "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
+    "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
+    "chapter_blob_sha": "15def3c812aebc05286c8833d6f95122f8d9788c",
+    "concurrent_reconciliation": {
+      "global_published_before": 127,
+      "global_published_after": 128,
+      "unit_04_published_after": 10,
+      "subunit_4a_published_after": 10,
+      "subunit_4a_planned": 13,
+      "next_pending_unit_04": "4.A.01",
+      "next_pending_global": "1.A.03",
+      "previous_neighbor": "4.A.12",
+      "next_neighbor": "4.B.01",
+      "reciprocal_navigation": "Existing dynamic index-based navigation; 4.A.12 points to 4.A.13; unpublished 4.B.01 remains disabled."
+    }
+  },
+  "previous_last_qa": {
     "node_id": "1.A.03",
     "title": "Biological Solutions, pH and Buffer Systems",
     "slug": "biological-solutions-ph-and-buffer-systems.html",
@@ -499,562 +1435,6 @@
         "linked": true
       }
     ]
-  },
-  "published_node_ids": [
-    "1.A.01",
-    "1.A.02",
-    "1.A.03",
-    "1.A.04",
-    "1.A.05",
-    "1.B.01",
-    "1.B.02",
-    "1.B.03",
-    "1.B.04",
-    "1.B.05",
-    "1.C.01",
-    "1.C.02",
-    "1.C.03",
-    "1.C.04",
-    "1.C.05",
-    "1.D.01",
-    "1.D.02",
-    "1.D.03",
-    "1.D.04",
-    "1.D.05",
-    "1.E.01",
-    "1.E.02",
-    "1.E.03",
-    "1.E.04",
-    "1.E.05",
-    "1.F.01",
-    "1.F.02",
-    "1.F.03",
-    "1.F.04",
-    "1.F.05",
-    "2.A.01",
-    "2.A.02",
-    "2.A.03",
-    "2.A.04",
-    "2.A.05",
-    "2.A.06",
-    "2.A.07",
-    "2.A.08",
-    "2.A.09",
-    "2.A.10",
-    "2.B.01",
-    "2.B.02",
-    "2.B.03",
-    "2.B.04",
-    "2.B.05",
-    "2.B.06",
-    "2.B.07",
-    "2.B.08",
-    "2.B.09",
-    "2.B.10",
-    "2.C.01",
-    "2.C.02",
-    "2.C.03",
-    "2.C.04",
-    "2.C.05",
-    "2.C.06",
-    "2.C.07",
-    "2.C.08",
-    "2.C.09",
-    "2.C.10",
-    "2.D.01",
-    "2.D.02",
-    "2.D.03",
-    "2.D.04",
-    "2.D.05",
-    "2.D.06",
-    "2.D.07",
-    "2.D.08",
-    "2.D.09",
-    "2.D.10",
-    "2.E.01",
-    "2.E.02",
-    "2.E.03",
-    "2.E.04",
-    "2.E.05",
-    "2.E.06",
-    "2.E.07",
-    "2.E.08",
-    "2.E.09",
-    "2.E.10",
-    "3.A.01",
-    "3.A.02",
-    "3.A.03",
-    "3.A.04",
-    "3.A.05",
-    "3.A.06",
-    "3.A.07",
-    "3.A.08",
-    "3.A.09",
-    "3.A.10",
-    "3.A.11",
-    "3.A.12",
-    "3.B.01",
-    "3.B.02",
-    "3.B.03",
-    "3.B.04",
-    "3.B.05",
-    "3.B.06",
-    "3.B.07",
-    "3.B.08",
-    "3.B.09",
-    "3.B.10",
-    "3.B.11",
-    "3.B.12",
-    "3.B.13",
-    "3.C.01",
-    "3.C.02",
-    "3.C.03",
-    "3.C.04",
-    "3.C.05",
-    "3.C.06",
-    "3.C.07",
-    "3.C.08",
-    "3.C.09",
-    "3.C.10",
-    "3.C.11",
-    "3.C.12",
-    "3.C.13",
-    "3.C.14",
-    "4.A.02",
-    "4.A.03",
-    "4.A.04",
-    "4.A.05",
-    "4.A.06",
-    "4.A.07",
-    "4.A.08",
-    "4.A.09",
-    "4.A.10",
-    "4.A.11",
-    "4.A.12",
-    "4.A.13"
-  ],
-  "prior_publication_qa": {
-    "node_id": "4.A.13",
-    "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
-    "unit": "04",
-    "subunit": "4.A",
-    "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "narrative_words": 14306,
-    "visible_article_words": 20212,
-    "teaching_paragraphs": 144,
-    "theory_sections": 16,
-    "sections": 24,
-    "figures": 13,
-    "tables": 4,
-    "questions": 52,
-    "references": 28,
-    "html_bytes": 238970,
-    "revision_traps": 15,
-    "active_recall": 10,
-    "mastery_checklist": 6,
-    "distribution": {
-      "Part B": 20,
-      "Part C": 20,
-      "Assertion–Reason": 3,
-      "Multiple statements": 3,
-      "Matching": 2,
-      "Additional numerical": 2,
-      "Experimental interpretation": 1,
-      "Integrative reasoning": 1
-    },
-    "answer_positions": {
-      "A": 13,
-      "B": 13,
-      "C": 13,
-      "D": 13
-    },
-    "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
-    "comparator": {
-      "node_id": "4.A.07",
-      "narrative_words": 14453,
-      "teaching_paragraphs": 158,
-      "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
-    },
-    "scientific_checks": [
-      "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
-      "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
-      "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
-      "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
-      "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
-      "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
-    ],
-    "experimental_reasoning_cases": [
-      "conditioned medium and matched controls",
-      "purified LuxI evidence",
-      "LuxI signal supplementation",
-      "LuxR feedback loss",
-      "luciferase output defect",
-      "peptide precursor and maturation defects",
-      "AgrC kinase defect",
-      "LuxS metabolic vs signaling rescue",
-      "AI-2 uptake vs extracellular decline",
-      "signal retention and exchange",
-      "biofilm attachment vs dispersal",
-      "quenching vs viability",
-      "mixed producer/receiver populations",
-      "dose-response sensitivity vs affinity",
-      "reporter normalization and persistence"
-    ],
-    "arithmetic_checks": {
-      "total": 30,
-      "passed": 30,
-      "details": [
-        {
-          "name": "signal at 2 h",
-          "actual": 25.284822353142307,
-          "expected": 25.3,
-          "pass": true
-        },
-        {
-          "name": "threshold time",
-          "actual": 2.772588722239781,
-          "expected": 2.77,
-          "pass": true
-        },
-        {
-          "name": "half-time",
-          "actual": 1.3862943611198906,
-          "expected": 1.39,
-          "pass": true
-        },
-        {
-          "name": "theta 2.5",
-          "actual": 0.2,
-          "expected": 0.2,
-          "pass": true
-        },
-        {
-          "name": "theta 10",
-          "actual": 0.5,
-          "expected": 0.5,
-          "pass": true
-        },
-        {
-          "name": "theta 40",
-          "actual": 0.8,
-          "expected": 0.8,
-          "pass": true
-        },
-        {
-          "name": "hill low h1",
-          "actual": 0.3333333333333333,
-          "expected": 0.3333333333333333,
-          "pass": true
-        },
-        {
-          "name": "hill low h3",
-          "actual": 0.1111111111111111,
-          "expected": 0.1111111111111111,
-          "pass": true
-        },
-        {
-          "name": "hill high h1",
-          "actual": 0.6666666666666666,
-          "expected": 0.6666666666666666,
-          "pass": true
-        },
-        {
-          "name": "hill high h3",
-          "actual": 0.8888888888888888,
-          "expected": 0.8888888888888888,
-          "pass": true
-        },
-        {
-          "name": "diffusion 60",
-          "actual": 2,
-          "expected": 2,
-          "pass": true
-        },
-        {
-          "name": "diffusion 120",
-          "actual": 8,
-          "expected": 8,
-          "pass": true
-        },
-        {
-          "name": "steady no exchange",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "name": "steady exchange",
-          "actual": 20,
-          "expected": 20,
-          "pass": true
-        },
-        {
-          "name": "protein one hour",
-          "actual": 90.48374180359595,
-          "expected": 90.5,
-          "pass": true
-        },
-        {
-          "name": "protein ten hours",
-          "actual": 36.787944117144235,
-          "expected": 36.8,
-          "pass": true
-        },
-        {
-          "name": "WT normalization",
-          "actual": 4,
-          "expected": 4,
-          "pass": true
-        },
-        {
-          "name": "mutant normalization",
-          "actual": 6,
-          "expected": 6,
-          "pass": true
-        },
-        {
-          "name": "Q25 ratio",
-          "actual": 0.25,
-          "expected": 0.25,
-          "pass": true
-        },
-        {
-          "name": "Q26 steady",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "name": "Q27 half time",
-          "actual": 1.3862943611198906,
-          "expected": 1.39,
-          "pass": true
-        },
-        {
-          "name": "Q28 occupancy",
-          "actual": 0.75,
-          "expected": 0.75,
-          "pass": true
-        },
-        {
-          "name": "Q29 hill h1",
-          "actual": 0.3333333333333333,
-          "expected": 0.3333333333333333,
-          "pass": true
-        },
-        {
-          "name": "Q29 hill h2",
-          "actual": 0.2,
-          "expected": 0.2,
-          "pass": true
-        },
-        {
-          "name": "Q36 steady",
-          "actual": 20,
-          "expected": 20,
-          "pass": true
-        },
-        {
-          "name": "Q37 protein",
-          "actual": 36.787944117144235,
-          "expected": 36.8,
-          "pass": true
-        },
-        {
-          "name": "Q38 producer fraction",
-          "actual": 0.25,
-          "expected": 0.25,
-          "pass": true
-        },
-        {
-          "name": "Q49 exchange",
-          "actual": 39.99999999999999,
-          "expected": 40,
-          "pass": true
-        },
-        {
-          "name": "Q50 diffusion",
-          "actual": 12,
-          "expected": 12,
-          "pass": true
-        },
-        {
-          "name": "Q51 normalization",
-          "actual": 1.5,
-          "expected": 1.5,
-          "pass": true
-        }
-      ]
-    },
-    "technical_checks": {
-      "word_gate": true,
-      "duplicate_paragraphs": true,
-      "unique_ids": true,
-      "anchors": true,
-      "svg_accessible_labels": true,
-      "zoom_targets": true,
-      "question_keys": true,
-      "balanced_html": true,
-      "local_published_links": true,
-      "reader_controls": true,
-      "dynamic_neighbors": true,
-      "canonical": true,
-      "no_stale_title": true,
-      "arithmetic": true
-    },
-    "academic_self_review": {
-      "scope_20": 20,
-      "accuracy_25": 24,
-      "depth_20": 20,
-      "evidence_quantitative_15": 14,
-      "practice_10": 9,
-      "technical_10": 8,
-      "total": 95,
-      "maximum": 100,
-      "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
-    },
-    "limitations": [
-      "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
-      "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
-      "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
-      "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
-      "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
-      "Draft robots metadata is noindex; public candidate changes to index,follow only."
-    ],
-    "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-    "source_draft_branch": "draft/node-4a13-quorum-sensing",
-    "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
-    "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
-    "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
-    "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
-    "chapter_blob_sha": "15def3c812aebc05286c8833d6f95122f8d9788c",
-    "concurrent_reconciliation": {
-      "global_published_before": 127,
-      "global_published_after": 128,
-      "unit_04_published_after": 10,
-      "subunit_4a_published_after": 10,
-      "subunit_4a_planned": 13,
-      "next_pending_unit_04": "4.A.01",
-      "next_pending_global": "1.A.03",
-      "previous_neighbor": "4.A.12",
-      "next_neighbor": "4.B.01",
-      "reciprocal_navigation": "Existing dynamic index-based navigation; 4.A.12 points to 4.A.13; unpublished 4.B.01 remains disabled."
-    }
-  },
-  "previous_last_qa": {
-    "node_id": "4.A.10",
-    "title": "Plant Two-Component Signaling and Cytokinin Phosphorelays",
-    "unit": "04",
-    "subunit": "4.A",
-    "slug": "plant-two-component-signaling-and-cytokinin-phosphorelays.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-two-component-signaling-and-cytokinin-phosphorelays.html",
-    "narrative_words": 13584,
-    "visible_article_words": 20814,
-    "teaching_paragraphs": 132,
-    "theory_sections": 19,
-    "sections": 27,
-    "figures": 13,
-    "tables": 2,
-    "questions": 52,
-    "distribution": {
-      "Part B": 20,
-      "Part C": 20,
-      "Assertion–Reason": 4,
-      "Multiple statements": 3,
-      "Matching": 2,
-      "Experimental interpretation": 1,
-      "Additional numerical": 1,
-      "Integrative reasoning": 1
-    },
-    "answer_positions": {
-      "A": 13,
-      "B": 13,
-      "C": 13,
-      "D": 13
-    },
-    "references": 26,
-    "html_bytes": 237978,
-    "revision_traps": 15,
-    "active_recall": 10,
-    "mastery_checklist": 6,
-    "method": "Unicode lexical count from retrieved p.teaching-prose text, excluding supplementary material. Total article includes expandable answers, visible SVG labels, references and captions; excludes SVG title/desc and buttons.",
-    "comparator": {
-      "node_id": "4.A.02",
-      "narrative_words": 13987,
-      "teaching_paragraphs": 143,
-      "figures": 13,
-      "method": "Recounted actual chapter and inspected opening narrative and reader."
-    },
-    "scientific_checks": [
-      "Verified merged CSIR–DBT Unit 4.A p.5, legacy NET and archived MP SET 2024 Unit 4.B p.3 using page images.",
-      "Reviewed AHK2/3/4 receptor domains, CHASE and ER topology, His–Asp transfer and ATP accounting, AHP distribution, AHP6, type-B and type-A ARR roles, AHK4-dependent removal, CKI1/ethylene boundaries, genetic redundancy, reporters and experimental limits.",
-      "Separate review corrected table responsiveness, plot-label placement, source anchors, 17 distractors and associated explanations; original hypothetical data labeled."
-    ],
-    "arithmetic_checks": {
-      "count": 46,
-      "passed": 46,
-      "method": "Independent JavaScript recalculation of binding and competition, rate/decay, expression balance, conditional efficiencies, matched controls and numerical practice answers."
-    },
-    "technical_checks": {
-      "wordGate": true,
-      "noDuplicateProse": true,
-      "uniqueIds": true,
-      "anchors": true,
-      "svgLabels": true,
-      "zoomTargets": true,
-      "questionKeys": true,
-      "canonical": true,
-      "readerSource": true,
-      "noStaleTitle": true,
-      "localLinks": true,
-      "menuUnique": true,
-      "sitemapUnique": true,
-      "checkpointReconciled": true,
-      "balancedHTML": true,
-      "arithmetic": true
-    },
-    "academic_self_review": {
-      "scope_20": 20,
-      "accuracy_25": 24,
-      "depth_20": 19,
-      "evidence_quantitative_15": 14,
-      "practice_10": 9,
-      "technical_10": 9,
-      "total": 95,
-      "maximum": 100,
-      "method": "Separate internal editorial review, not independent peer review. Deductions: incomplete full-source access, deliberately concise comparative scope, historical raw data not all examined, no external examiner validation and no interactive browser/device audit."
-    },
-    "limitations": [
-      "Full primary-paper and textbook-edition access incomplete.",
-      "MP SET 2024 archived source rather than current primary MPPSC-hosted copy.",
-      "Static markup and coordinate checks only; interactive browser/mobile and comprehensive accessibility tests not performed.",
-      "New filename based on verified title-based convention; adjacent links resolve dynamically from current published menu.",
-      "Deployment not verified at commit."
-    ],
-    "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-    "main_baseline_sha": "8f30ce591fed825dd5ec09f8eea341dda0ce7d2d",
-    "source_draft_branch": "draft/node-4a10-cytokinin-phosphorelays",
-    "draft_commit_sha": "eb9ec31952ca8fcfb38e23c0456408208c5f59f3",
-    "neighbors": [
-      {
-        "code": "4.A.09",
-        "linked": true
-      },
-      {
-        "code": "4.A.11",
-        "linked": true
-      }
-    ],
-    "status": "lesson_committed_pages_verification_pending",
-    "unit_04_published_count": 12,
-    "unit_04_planned_count": 61,
-    "subunit_4a_published_count": 12,
-    "subunit_4a_planned_count": 13,
-    "academy_published_count": 130,
-    "next_unit_pending_node_id": "4.A.01",
-    "next_unit_pending_node_title": "Principles of Cell Signaling: Signals, Receptors and Responses"
   },
   "unit_02": {
     "published_node_ids": [
@@ -2577,7 +2957,7 @@
     "next_pending_node_id": "1.A.03",
     "next_pending_node_title": "Biological Solutions, pH and Buffer Systems"
   },
-  "last_node_roadmap": "curriculum/subunit-4a-cell-signaling-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-3d-gene-expression-regulation-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -2683,109 +3063,504 @@
       "3.C.10",
       "3.C.11",
       "3.C.13",
-      "3.C.14"
+      "3.C.14",
+      "3.D.01"
     ],
-    "published_node_count": 39,
-    "last_published_node_id": "3.C.14",
+    "published_node_count": 40,
+    "last_published_node_id": "3.D.01",
     "updated_at": "2026-11-25",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "3.C.14",
-      "title": "Protein Degradation: Ubiquitin–Proteasome and Lysosomal Pathways",
-      "slug": "protein-degradation-ubiquitin-proteasome-and-lysosomal-pathways.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/protein-degradation-ubiquitin-proteasome-and-lysosomal-pathways.html",
-      "narrative_words": 14662,
-      "visible_article_words": 19915,
-      "teaching_paragraphs": 149,
-      "theory_sections": 15,
+      "node_id": "3.D.01",
+      "title": "Fundamental Principles of Gene Expression Regulation",
+      "slug": "fundamental-principles-of-gene-expression-regulation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamental-principles-of-gene-expression-regulation.html",
+      "narrative_words": 13957,
+      "teaching_paragraphs": 158,
+      "visible_article_words": 18552,
+      "theory_sections": 16,
       "sections": 23,
       "figures": 13,
-      "tables": 4,
+      "tables": 3,
       "questions": 50,
       "distribution": {
-        "Part B": 20,
-        "Part C": 20,
-        "Assertion–Reason": 3,
-        "Multiple statements": 3,
-        "Matching": 2,
-        "Experimental interpretation": 1,
-        "Integrative reasoning": 1
+        "part_b": 20,
+        "part_c": 20,
+        "assertion_reason": 4,
+        "multiple_statement": 2,
+        "matching": 2,
+        "integrative": 2,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 12,
+          "D": 12
+        }
       },
-      "references": 27,
-      "html_bytes": 231980,
-      "revision_traps": 13,
-      "active_recall": 8,
-      "mastery_checklist": 5,
-      "method": "Unicode lexical count from actual saved HTML p.teaching-prose paragraphs, excluding headings, tables, SVG, captions, exercises, answers, revision, references and UI. Article total includes supplementary text and visible SVG labels, excluding title/desc and buttons.",
+      "references": 13,
+      "revision_traps": 15,
+      "active_recall": 10,
+      "mastery_checklist": 6,
+      "method": "Whitespace-delimited actual saved p.teaching-prose only, excluding tables, headings, practice, explanations, captions, SVG, references, UI. Article words exclude diagrams and buttons.",
       "comparator": {
-        "node_id": "3.C.09",
-        "narrative_words": 13485,
-        "teaching_paragraphs": 131,
-        "figures": 13
+        "node_id": "3.C.14",
+        "narrative_words_recounted": 14633,
+        "teaching_paragraphs": 149
       },
-      "scientific_checks": [
-        "Revised CSIR Unit 3.C printed p.4, separate CSIR and archived MP SET p.3 screenshots checked; separate NET/SET do not name degradation explicitly in 3.C.",
-        "Reviewed degradation vs denaturation, kinetics and dilution, reticulocyte conjugation experiments, E1 adenylation and E2 thioesters, RING vs HECT/RBR, ubiquitin linkage and non-proteasomal signals; proteasome architecture, gate, initiation segment, unfolding, deubiquitination and cleavage; lysosomal pH, sorting, macroautophagy and CMA, flux, ERAD, ClpXP, APC/C, N-degrons, HIF/VHL and auxin/TIR1, pulse-chase and controls.",
-        "Second editorial pass strengthened 12 analytical distractors and replaced redundant plot with pulse-chase diagram."
+      "scope_review": "Official separate CSIR NET p.3, merged CSIR–UGC–DBT p.4, archived MP SET p.3 visually verified. All 3.D.01 roadmap responsibilities covered; specific lac, trp, lambda, viral, chromatin and silencing mechanisms reserved for subsequent chapters. Checked PaJaMo, Jacob–Monod, Brenner–Jacob–Meselson, standard textbooks. Separate review of regulatory sign, four models, cis/trans, binding equilibrium, rates vs stocks, step-response and turnover models, controls and biological limits.",
+      "arithmetic_checks": [
+        {
+          "label": "Active pool 80%",
+          "actual": 80,
+          "expected": 80,
+          "pass": true
+        },
+        {
+          "label": "Active pool 5%",
+          "actual": 5,
+          "expected": 5,
+          "pass": true
+        },
+        {
+          "label": "active ratio",
+          "actual": 16,
+          "expected": 16,
+          "pass": true
+        },
+        {
+          "label": "single site half",
+          "actual": 0.5,
+          "expected": 0.5,
+          "pass": true
+        },
+        {
+          "label": "R=9Kd",
+          "actual": 0.9,
+          "expected": 0.9,
+          "pass": true
+        },
+        {
+          "label": "R=Kd/9",
+          "actual": 0.09999999999999999,
+          "expected": 0.1,
+          "pass": true
+        },
+        {
+          "label": "1 nM occupancy",
+          "actual": 0.09090909090909091,
+          "expected": 0.090909,
+          "pass": true
+        },
+        {
+          "label": "100 nM occupancy",
+          "actual": 0.9090909090909091,
+          "expected": 0.909091,
+          "pass": true
+        },
+        {
+          "label": "Kd mutation old",
+          "actual": 0.6666666666666666,
+          "expected": 0.6666666666666666,
+          "pass": true
+        },
+        {
+          "label": "Kd mutation new",
+          "actual": 0.3333333333333333,
+          "expected": 0.3333333333333333,
+          "pass": true
+        },
+        {
+          "label": "repressor rate theta .8",
+          "actual": 24,
+          "expected": 24,
+          "pass": true
+        },
+        {
+          "label": "repressor theta .1",
+          "actual": 90.5,
+          "expected": 90.5,
+          "pass": true
+        },
+        {
+          "label": "activator theta .25",
+          "actual": 27.5,
+          "expected": 27.5,
+          "pass": true
+        },
+        {
+          "label": "activator theta .75",
+          "actual": 62.5,
+          "expected": 62.5,
+          "pass": true
+        },
+        {
+          "label": "R80 K20",
+          "actual": 0.8,
+          "expected": 0.8,
+          "pass": true
+        },
+        {
+          "label": "R5 K20",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "label": "output theta .2",
+          "actual": 81,
+          "expected": 81,
+          "pass": true
+        },
+        {
+          "label": "completion 90%",
+          "actual": 90,
+          "expected": 90,
+          "pass": true
+        },
+        {
+          "label": "completion 30%",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "label": "isoforms",
+          "actual": 15,
+          "expected": 15,
+          "pass": true
+        },
+        {
+          "label": "RNA steady A",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "label": "RNA steady B",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "label": "RNA steady signal",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "label": "half-life delta .2",
+          "actual": 3.465735902799726,
+          "expected": 3.465736,
+          "pass": true
+        },
+        {
+          "label": "half-life delta .4",
+          "actual": 1.732867951399863,
+          "expected": 1.732868,
+          "pass": true
+        },
+        {
+          "label": "decay 80 to 20, 4 min",
+          "actual": 0.34657359027997264,
+          "expected": 0.346574,
+          "pass": true
+        },
+        {
+          "label": "inferred s",
+          "actual": 27.725887222397812,
+          "expected": 27.725887,
+          "pass": true
+        },
+        {
+          "label": "RNA new steady",
+          "actual": 160,
+          "expected": 160,
+          "pass": true
+        },
+        {
+          "label": "RNA half-step",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "label": "RNA 2 half-steps",
+          "actual": 130,
+          "expected": 130,
+          "pass": true
+        },
+        {
+          "label": "repression 1 half",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "label": "repression 2 half",
+          "actual": 40,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "label": "90% response",
+          "actual": 23.025850929940457,
+          "expected": 23.025851,
+          "pass": true
+        },
+        {
+          "label": "short half-life",
+          "actual": 1.3862943611198906,
+          "expected": 1.386294,
+          "pass": true
+        },
+        {
+          "label": "long half-life",
+          "actual": 13.862943611198904,
+          "expected": 13.862944,
+          "pass": true
+        },
+        {
+          "label": "stabilised half-step",
+          "actual": 75,
+          "expected": 75,
+          "pass": true
+        },
+        {
+          "label": "protein steady",
+          "actual": 2000,
+          "expected": 2000,
+          "pass": true
+        },
+        {
+          "label": "half translation",
+          "actual": 1000,
+          "expected": 1000,
+          "pass": true
+        },
+        {
+          "label": "double protein loss",
+          "actual": 1000,
+          "expected": 1000,
+          "pass": true
+        },
+        {
+          "label": "multi regulation fold",
+          "actual": 6,
+          "expected": 6,
+          "pass": true
+        },
+        {
+          "label": "opposing RNA/protein fold",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "label": "protein slow half",
+          "actual": 34.657359027997266,
+          "expected": 34.657359,
+          "pass": true
+        },
+        {
+          "label": "protein fast half",
+          "actual": 3.465735902799726,
+          "expected": 3.465736,
+          "pass": true
+        },
+        {
+          "label": "activity fold",
+          "actual": 3,
+          "expected": 3,
+          "pass": true
+        },
+        {
+          "label": "two-copy off",
+          "actual": 55,
+          "expected": 55,
+          "pass": true
+        },
+        {
+          "label": "two-copy on",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "label": "normalised ratio A",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "label": "normalised ratio B",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "label": "integration RNA basal",
+          "actual": 10,
+          "expected": 10,
+          "pass": true
+        },
+        {
+          "label": "integration RNA nutrient",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "label": "integration RNA both",
+          "actual": 400,
+          "expected": 400,
+          "pass": true
+        },
+        {
+          "label": "integration protein both",
+          "actual": 8000,
+          "expected": 8000,
+          "pass": true
+        },
+        {
+          "label": "stabilisation inverse example",
+          "actual": 200,
+          "expected": 200,
+          "pass": true
+        },
+        {
+          "label": "Q21",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "label": "Q22",
+          "actual": 34,
+          "expected": 34,
+          "pass": true
+        },
+        {
+          "label": "Q23",
+          "actual": 40,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "label": "Q24 old",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "label": "Q24 new",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "label": "Q25",
+          "actual": 80,
+          "expected": 80,
+          "pass": true
+        },
+        {
+          "label": "Q26",
+          "actual": 3,
+          "expected": 3,
+          "pass": true
+        },
+        {
+          "label": "Q27",
+          "actual": 120,
+          "expected": 120,
+          "pass": true
+        },
+        {
+          "label": "Q28",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "label": "Q29",
+          "actual": 0.5,
+          "expected": 0.5,
+          "pass": true
+        },
+        {
+          "label": "Q30",
+          "actual": 2000,
+          "expected": 2000,
+          "pass": true
+        },
+        {
+          "label": "Q31",
+          "actual": 1.5,
+          "expected": 1.5,
+          "pass": true
+        },
+        {
+          "label": "Q37 old",
+          "actual": 90,
+          "expected": 90,
+          "pass": true
+        },
+        {
+          "label": "Q37 new",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "label": "Q39",
+          "actual": 0.3,
+          "expected": 0.3,
+          "pass": true
+        },
+        {
+          "label": "Q39 after",
+          "actual": 0.3,
+          "expected": 0.3,
+          "pass": true
+        }
       ],
-      "arithmetic_checks": {
-        "count": 21,
-        "passed": 21,
-        "examples": [
-          "30/0.3 = 100; 30/0.1 = 300",
-          "2^(-12/4) = 0.125",
-          "ln2/2 = 0.34657; ln2/4 = 0.17329",
-          "100*2^(-2/4) = 70.71; 100*2^(-4/4) = 50",
-          "5 Ub = 10 activation bond equivalents",
-          "10 fragments require 9 backbone cuts",
-          "10^(7−5)=100",
-          "6/2=3; 12/2=6; 6/1=6",
-          "Q21 3h; Q22 400; Q23 2.31049h; Q24 6 ATP; Q31 4 to 8; Q33 0.1; Q49 2-fold"
-        ]
-      },
-      "technical_checks": {
-        "wordGate": true,
-        "noDuplicateProse": true,
-        "uniqueIds": true,
+      "static_checks": {
+        "word_gate": true,
+        "unique_paragraphs": true,
+        "unique_ids": true,
         "anchors": true,
-        "ariaLabels": true,
-        "zoomTargets": true,
-        "balancedArticle": true,
-        "localLinks": true,
-        "questionKeys": true,
-        "questionCount": true,
-        "readerSource": true,
-        "dynamicNavigation": true,
-        "canonical": true,
-        "noOldTitle": true,
+        "svg_labels": true,
+        "zoom_targets": true,
+        "question_keys": true,
         "arithmetic": true,
-        "menu": true,
-        "sitemap": true,
-        "checkpoint": true
-      },
-      "academic_self_review": {
-        "scope_20": 20,
-        "accuracy_25": 24,
-        "depth_20": 20,
-        "evidence_quantitative_15": 14,
-        "practice_10": 9,
-        "technical_10": 8,
-        "total": 95,
-        "maximum": 100,
-        "method": "Separate internal author review, not external peer review."
+        "correct_nav": true,
+        "no_stale_title": true,
+        "draft_noindex": true,
+        "published_indexable": true,
+        "menu_unique": true,
+        "sitemap_unique": true,
+        "next_unpublished": true,
+        "previous_published": true
       },
       "limitations": [
-        "Source records and accessible abstracts/reviews checked, not all full papers.",
-        "MP SET comparator archived 2024 copy.",
-        "Static HTML/SVG validation; interactive browser/mobile and comprehensive accessibility tests not performed.",
-        "New slug follows repository title convention.",
-        "Pages verification pending at commit."
+        "Internal author/editor review, not external peer review.",
+        "Archived MP SET 2024 comparator rather than verified current MPPSC-hosted original.",
+        "Source records and accessible excerpts checked, not every complete primary paper.",
+        "Static HTML/SVG source checks, not full device/browser interactions or independent accessibility audit.",
+        "Pages deployment verification is separate."
       ],
-      "initial_head_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
-      "main_baseline_sha": "36e36e31d9bcae023260923d3f25228e1696c55d",
-      "source_draft_branch": "draft/node-3c14-protein-degradation",
-      "draft_commit_sha": "8ac0338b8fa3f9524ba16078ebe560f67d39dcbc",
-      "status": "lesson_committed_pages_verification_pending"
+      "main_baseline_sha": "24322e014ecd1bbfd702f03c764d6cf799ea0561",
+      "source_draft_branch": "draft/node-3d01-gene-expression-regulation",
+      "status": "lesson_committed_pages_verification_pending",
+      "draft_commit_sha": "1c5108cc83d651bbaf01ef4e2fb28f08992169ea",
+      "html_characters": 232257,
+      "academy_published_count": 132,
+      "unit_03_published_count": 40,
+      "unit_03_planned_count": 51,
+      "subunit_3d_published_count": 1,
+      "subunit_3d_planned_count": 12,
+      "next_pending_node_id": "3.D.02",
+      "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System"
     },
     "qa_by_node": {
       "3.A.01": {
@@ -6766,122 +7541,598 @@
         "source_draft_branch": "draft/node-3c14-protein-degradation",
         "draft_commit_sha": "8ac0338b8fa3f9524ba16078ebe560f67d39dcbc",
         "status": "lesson_committed_pages_verification_pending"
+      },
+      "3.D.01": {
+        "node_id": "3.D.01",
+        "title": "Fundamental Principles of Gene Expression Regulation",
+        "slug": "fundamental-principles-of-gene-expression-regulation.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamental-principles-of-gene-expression-regulation.html",
+        "narrative_words": 13957,
+        "teaching_paragraphs": 158,
+        "visible_article_words": 18552,
+        "theory_sections": 16,
+        "sections": 23,
+        "figures": 13,
+        "tables": 3,
+        "questions": 50,
+        "distribution": {
+          "part_b": 20,
+          "part_c": 20,
+          "assertion_reason": 4,
+          "multiple_statement": 2,
+          "matching": 2,
+          "integrative": 2,
+          "answer_positions": {
+            "A": 13,
+            "B": 13,
+            "C": 12,
+            "D": 12
+          }
+        },
+        "references": 13,
+        "revision_traps": 15,
+        "active_recall": 10,
+        "mastery_checklist": 6,
+        "method": "Whitespace-delimited actual saved p.teaching-prose only, excluding tables, headings, practice, explanations, captions, SVG, references, UI. Article words exclude diagrams and buttons.",
+        "comparator": {
+          "node_id": "3.C.14",
+          "narrative_words_recounted": 14633,
+          "teaching_paragraphs": 149
+        },
+        "scope_review": "Official separate CSIR NET p.3, merged CSIR–UGC–DBT p.4, archived MP SET p.3 visually verified. All 3.D.01 roadmap responsibilities covered; specific lac, trp, lambda, viral, chromatin and silencing mechanisms reserved for subsequent chapters. Checked PaJaMo, Jacob–Monod, Brenner–Jacob–Meselson, standard textbooks. Separate review of regulatory sign, four models, cis/trans, binding equilibrium, rates vs stocks, step-response and turnover models, controls and biological limits.",
+        "arithmetic_checks": [
+          {
+            "label": "Active pool 80%",
+            "actual": 80,
+            "expected": 80,
+            "pass": true
+          },
+          {
+            "label": "Active pool 5%",
+            "actual": 5,
+            "expected": 5,
+            "pass": true
+          },
+          {
+            "label": "active ratio",
+            "actual": 16,
+            "expected": 16,
+            "pass": true
+          },
+          {
+            "label": "single site half",
+            "actual": 0.5,
+            "expected": 0.5,
+            "pass": true
+          },
+          {
+            "label": "R=9Kd",
+            "actual": 0.9,
+            "expected": 0.9,
+            "pass": true
+          },
+          {
+            "label": "R=Kd/9",
+            "actual": 0.09999999999999999,
+            "expected": 0.1,
+            "pass": true
+          },
+          {
+            "label": "1 nM occupancy",
+            "actual": 0.09090909090909091,
+            "expected": 0.090909,
+            "pass": true
+          },
+          {
+            "label": "100 nM occupancy",
+            "actual": 0.9090909090909091,
+            "expected": 0.909091,
+            "pass": true
+          },
+          {
+            "label": "Kd mutation old",
+            "actual": 0.6666666666666666,
+            "expected": 0.6666666666666666,
+            "pass": true
+          },
+          {
+            "label": "Kd mutation new",
+            "actual": 0.3333333333333333,
+            "expected": 0.3333333333333333,
+            "pass": true
+          },
+          {
+            "label": "repressor rate theta .8",
+            "actual": 24,
+            "expected": 24,
+            "pass": true
+          },
+          {
+            "label": "repressor theta .1",
+            "actual": 90.5,
+            "expected": 90.5,
+            "pass": true
+          },
+          {
+            "label": "activator theta .25",
+            "actual": 27.5,
+            "expected": 27.5,
+            "pass": true
+          },
+          {
+            "label": "activator theta .75",
+            "actual": 62.5,
+            "expected": 62.5,
+            "pass": true
+          },
+          {
+            "label": "R80 K20",
+            "actual": 0.8,
+            "expected": 0.8,
+            "pass": true
+          },
+          {
+            "label": "R5 K20",
+            "actual": 0.2,
+            "expected": 0.2,
+            "pass": true
+          },
+          {
+            "label": "output theta .2",
+            "actual": 81,
+            "expected": 81,
+            "pass": true
+          },
+          {
+            "label": "completion 90%",
+            "actual": 90,
+            "expected": 90,
+            "pass": true
+          },
+          {
+            "label": "completion 30%",
+            "actual": 30,
+            "expected": 30,
+            "pass": true
+          },
+          {
+            "label": "isoforms",
+            "actual": 15,
+            "expected": 15,
+            "pass": true
+          },
+          {
+            "label": "RNA steady A",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "label": "RNA steady B",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "label": "RNA steady signal",
+            "actual": 30,
+            "expected": 30,
+            "pass": true
+          },
+          {
+            "label": "half-life delta .2",
+            "actual": 3.465735902799726,
+            "expected": 3.465736,
+            "pass": true
+          },
+          {
+            "label": "half-life delta .4",
+            "actual": 1.732867951399863,
+            "expected": 1.732868,
+            "pass": true
+          },
+          {
+            "label": "decay 80 to 20, 4 min",
+            "actual": 0.34657359027997264,
+            "expected": 0.346574,
+            "pass": true
+          },
+          {
+            "label": "inferred s",
+            "actual": 27.725887222397812,
+            "expected": 27.725887,
+            "pass": true
+          },
+          {
+            "label": "RNA new steady",
+            "actual": 160,
+            "expected": 160,
+            "pass": true
+          },
+          {
+            "label": "RNA half-step",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "label": "RNA 2 half-steps",
+            "actual": 130,
+            "expected": 130,
+            "pass": true
+          },
+          {
+            "label": "repression 1 half",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "label": "repression 2 half",
+            "actual": 40,
+            "expected": 40,
+            "pass": true
+          },
+          {
+            "label": "90% response",
+            "actual": 23.025850929940457,
+            "expected": 23.025851,
+            "pass": true
+          },
+          {
+            "label": "short half-life",
+            "actual": 1.3862943611198906,
+            "expected": 1.386294,
+            "pass": true
+          },
+          {
+            "label": "long half-life",
+            "actual": 13.862943611198904,
+            "expected": 13.862944,
+            "pass": true
+          },
+          {
+            "label": "stabilised half-step",
+            "actual": 75,
+            "expected": 75,
+            "pass": true
+          },
+          {
+            "label": "protein steady",
+            "actual": 2000,
+            "expected": 2000,
+            "pass": true
+          },
+          {
+            "label": "half translation",
+            "actual": 1000,
+            "expected": 1000,
+            "pass": true
+          },
+          {
+            "label": "double protein loss",
+            "actual": 1000,
+            "expected": 1000,
+            "pass": true
+          },
+          {
+            "label": "multi regulation fold",
+            "actual": 6,
+            "expected": 6,
+            "pass": true
+          },
+          {
+            "label": "opposing RNA/protein fold",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "label": "protein slow half",
+            "actual": 34.657359027997266,
+            "expected": 34.657359,
+            "pass": true
+          },
+          {
+            "label": "protein fast half",
+            "actual": 3.465735902799726,
+            "expected": 3.465736,
+            "pass": true
+          },
+          {
+            "label": "activity fold",
+            "actual": 3,
+            "expected": 3,
+            "pass": true
+          },
+          {
+            "label": "two-copy off",
+            "actual": 55,
+            "expected": 55,
+            "pass": true
+          },
+          {
+            "label": "two-copy on",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "label": "normalised ratio A",
+            "actual": 0.2,
+            "expected": 0.2,
+            "pass": true
+          },
+          {
+            "label": "normalised ratio B",
+            "actual": 0.2,
+            "expected": 0.2,
+            "pass": true
+          },
+          {
+            "label": "integration RNA basal",
+            "actual": 10,
+            "expected": 10,
+            "pass": true
+          },
+          {
+            "label": "integration RNA nutrient",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "label": "integration RNA both",
+            "actual": 400,
+            "expected": 400,
+            "pass": true
+          },
+          {
+            "label": "integration protein both",
+            "actual": 8000,
+            "expected": 8000,
+            "pass": true
+          },
+          {
+            "label": "stabilisation inverse example",
+            "actual": 200,
+            "expected": 200,
+            "pass": true
+          },
+          {
+            "label": "Q21",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "label": "Q22",
+            "actual": 34,
+            "expected": 34,
+            "pass": true
+          },
+          {
+            "label": "Q23",
+            "actual": 40,
+            "expected": 40,
+            "pass": true
+          },
+          {
+            "label": "Q24 old",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "label": "Q24 new",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "label": "Q25",
+            "actual": 80,
+            "expected": 80,
+            "pass": true
+          },
+          {
+            "label": "Q26",
+            "actual": 3,
+            "expected": 3,
+            "pass": true
+          },
+          {
+            "label": "Q27",
+            "actual": 120,
+            "expected": 120,
+            "pass": true
+          },
+          {
+            "label": "Q28",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "label": "Q29",
+            "actual": 0.5,
+            "expected": 0.5,
+            "pass": true
+          },
+          {
+            "label": "Q30",
+            "actual": 2000,
+            "expected": 2000,
+            "pass": true
+          },
+          {
+            "label": "Q31",
+            "actual": 1.5,
+            "expected": 1.5,
+            "pass": true
+          },
+          {
+            "label": "Q37 old",
+            "actual": 90,
+            "expected": 90,
+            "pass": true
+          },
+          {
+            "label": "Q37 new",
+            "actual": 30,
+            "expected": 30,
+            "pass": true
+          },
+          {
+            "label": "Q39",
+            "actual": 0.3,
+            "expected": 0.3,
+            "pass": true
+          },
+          {
+            "label": "Q39 after",
+            "actual": 0.3,
+            "expected": 0.3,
+            "pass": true
+          }
+        ],
+        "static_checks": {
+          "word_gate": true,
+          "unique_paragraphs": true,
+          "unique_ids": true,
+          "anchors": true,
+          "svg_labels": true,
+          "zoom_targets": true,
+          "question_keys": true,
+          "arithmetic": true,
+          "correct_nav": true,
+          "no_stale_title": true,
+          "draft_noindex": true,
+          "published_indexable": true,
+          "menu_unique": true,
+          "sitemap_unique": true,
+          "next_unpublished": true,
+          "previous_published": true
+        },
+        "limitations": [
+          "Internal author/editor review, not external peer review.",
+          "Archived MP SET 2024 comparator rather than verified current MPPSC-hosted original.",
+          "Source records and accessible excerpts checked, not every complete primary paper.",
+          "Static HTML/SVG source checks, not full device/browser interactions or independent accessibility audit.",
+          "Pages deployment verification is separate."
+        ],
+        "main_baseline_sha": "24322e014ecd1bbfd702f03c764d6cf799ea0561",
+        "source_draft_branch": "draft/node-3d01-gene-expression-regulation",
+        "status": "lesson_committed_pages_verification_pending",
+        "draft_commit_sha": "1c5108cc83d651bbaf01ef4e2fb28f08992169ea",
+        "html_characters": 232257,
+        "academy_published_count": 132,
+        "unit_03_published_count": 40,
+        "unit_03_planned_count": 51,
+        "subunit_3d_published_count": 1,
+        "subunit_3d_planned_count": 12,
+        "next_pending_node_id": "3.D.02",
+        "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System"
       }
     },
-    "next_pending_node_id": "3.D.01",
-    "next_pending_node_title": "Fundamental Principles of Gene Expression Regulation",
+    "next_pending_node_id": "3.D.02",
+    "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
     "previous_last_qa": {
-      "node_id": "3.C.13",
-      "title": "Protein Import into Nucleus, Mitochondria, Plastids and Peroxisomes",
-      "slug": "protein-import-into-nucleus-mitochondria-plastids-and-peroxisomes.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/protein-import-into-nucleus-mitochondria-plastids-and-peroxisomes.html",
-      "narrative_words": 14889,
-      "visible_article_words": 21531,
-      "html_bytes": 251934,
-      "html_characters": 251696,
-      "theory_sections": 17,
-      "teaching_paragraphs": 141,
-      "sections": 21,
-      "figures": 15,
-      "tables": 3,
-      "questions": 55,
+      "node_id": "3.C.14",
+      "title": "Protein Degradation: Ubiquitin–Proteasome and Lysosomal Pathways",
+      "slug": "protein-degradation-ubiquitin-proteasome-and-lysosomal-pathways.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/protein-degradation-ubiquitin-proteasome-and-lysosomal-pathways.html",
+      "narrative_words": 14662,
+      "visible_article_words": 19915,
+      "teaching_paragraphs": 149,
+      "theory_sections": 15,
+      "sections": 23,
+      "figures": 13,
+      "tables": 4,
+      "questions": 50,
       "distribution": {
-        "part_b": 30,
-        "part_c": 25,
-        "conceptual_mcq": 22,
-        "assertion_reason": 5,
-        "multiple_statement": 2,
-        "matching": 1,
-        "part_c_experimental_interpretation": 14,
-        "part_c_analytical": 3,
-        "part_c_numerical": 7,
-        "part_c_integrative": 1,
-        "answer_key_positions": {
-          "A": 20,
-          "B": 12,
-          "C": 11,
-          "D": 12
-        }
+        "Part B": 20,
+        "Part C": 20,
+        "Assertion–Reason": 3,
+        "Multiple statements": 3,
+        "Matching": 2,
+        "Experimental interpretation": 1,
+        "Integrative reasoning": 1
       },
-      "references": 26,
-      "revision_traps": 16,
-      "active_recall": 12,
-      "mastery_checklist": 10,
-      "method": "Unicode lexical counting of 141 actual saved HTML p.teaching-prose elements; excludes headings, SVG, figures, captions, tables, questions and answers, revision, references, UI and source notes. Article total counts student-facing text including expandable answers and visible diagram labels but excludes SVG title/desc and buttons.",
+      "references": 27,
+      "html_bytes": 231980,
+      "revision_traps": 13,
+      "active_recall": 8,
+      "mastery_checklist": 5,
+      "method": "Unicode lexical count from actual saved HTML p.teaching-prose paragraphs, excluding headings, tables, SVG, captions, exercises, answers, revision, references and UI. Article total includes supplementary text and visible SVG labels, excluding title/desc and buttons.",
       "comparator": {
-        "node_id": "3.C.12",
-        "narrative_words_recounted": 13719,
-        "method": "Same Unicode lexical method applied to stored previous chapter."
+        "node_id": "3.C.09",
+        "narrative_words": 13485,
+        "teaching_paragraphs": 131,
+        "figures": 13
       },
       "scientific_checks": [
-        "Verified merged official 2026 Unit 3.C, separate CSIR and archived MP SET Unit 2 transport/organelles and Unit 3 coverage, visually inspected syllabus pages.",
-        "Reviewed canonical signal chemistry and positions, NLS/importin α/β, FG nucleoporins, RCC1/RanGAP/NTF2/CAS, CRM1, TOM/TIM23/PAM, mitochondrial alternative pathways, potential direction and processing, TOC/TIC GTP and ATP, SPP, thylakoid Sec/Tat/cpSRP, PTS1/PTS2/Pex5/Pex7, folded cargo and Pex1/Pex6 recycling, ER contrast and exceptions.",
-        "Landmark Kalderon et al. 1984, Eilers and Schatz 1986, and Gould et al. 1989 checked against abstracts; additional reviews used for mechanisms and exceptions.",
-        "Separate author review corrected destination map, signal placement, Ran cycle, mitochondrial route map and Pex5 extraction topology. Revised nine analytical distractor sets and shuffled non-assertion question options. Added specific references for NFAT, Rubisco assembly and piggyback import.",
-        "Recalculated quantitative examples and all seven numerical questions; all hypothetical educational scenarios explicitly identified."
+        "Revised CSIR Unit 3.C printed p.4, separate CSIR and archived MP SET p.3 screenshots checked; separate NET/SET do not name degradation explicitly in 3.C.",
+        "Reviewed degradation vs denaturation, kinetics and dilution, reticulocyte conjugation experiments, E1 adenylation and E2 thioesters, RING vs HECT/RBR, ubiquitin linkage and non-proteasomal signals; proteasome architecture, gate, initiation segment, unfolding, deubiquitination and cleavage; lysosomal pH, sorting, macroautophagy and CMA, flux, ERAD, ClpXP, APC/C, N-degrons, HIF/VHL and auxin/TIR1, pulse-chase and controls.",
+        "Second editorial pass strengthened 12 analytical distractors and replaced redundant plot with pulse-chase diagram."
       ],
       "arithmetic_checks": {
-        "electrical_kJ_mol": [
-          -43.41825,
-          -23.1564
-        ],
-        "kinetics": [
-          0.63212056,
-          0.22119922
-        ],
-        "nuclear_fraction": [
-          0.75,
-          0.85714286
-        ],
-        "numerical_question_answers": [
-          0.8,
-          2,
-          -23.1564,
-          0.63212056,
-          200,
-          0.37927234,
-          0.05
+        "count": 21,
+        "passed": 21,
+        "examples": [
+          "30/0.3 = 100; 30/0.1 = 300",
+          "2^(-12/4) = 0.125",
+          "ln2/2 = 0.34657; ln2/4 = 0.17329",
+          "100*2^(-2/4) = 70.71; 100*2^(-4/4) = 50",
+          "5 Ub = 10 activation bond equivalents",
+          "10 fragments require 9 backbone cuts",
+          "10^(7−5)=100",
+          "6/2=3; 12/2=6; 6/1=6",
+          "Q21 3h; Q22 400; Q23 2.31049h; Q24 6 ATP; Q31 4 to 8; Q33 0.1; Q49 2-fold"
         ]
       },
       "technical_checks": {
-        "actual_stored_word_count": true,
-        "unique_ids": true,
+        "wordGate": true,
+        "noDuplicateProse": true,
+        "uniqueIds": true,
         "anchors": true,
-        "svg_accessibility_source": true,
-        "zoom_targets": true,
-        "balanced_article_markup": true,
-        "question_numbering_and_answer_key": true,
-        "no_duplicate_teaching_paragraphs": true,
+        "ariaLabels": true,
+        "zoomTargets": true,
+        "balancedArticle": true,
+        "localLinks": true,
+        "questionKeys": true,
+        "questionCount": true,
+        "readerSource": true,
+        "dynamicNavigation": true,
         "canonical": true,
-        "local_prerequisite_paths": true,
-        "reader_controls_source": true,
-        "dynamic_neighbor_navigation": true,
+        "noOldTitle": true,
+        "arithmetic": true,
         "menu": true,
         "sitemap": true,
         "checkpoint": true
       },
       "academic_self_review": {
         "scope_20": 20,
-        "accuracy_30": 29,
-        "pedagogy_20": 19,
-        "practice_15": 14,
-        "references_5": 4,
-        "technical_10": 9,
+        "accuracy_25": 24,
+        "depth_20": 20,
+        "evidence_quantitative_15": 14,
+        "practice_10": 9,
+        "technical_10": 8,
         "total": 95,
         "maximum": 100,
-        "method": "Separate internal author/editor review, not external peer review. Deductions for source access limits, schematic simplification, assessment distractor breadth and lack of interactive browser testing."
+        "method": "Separate internal author review, not external peer review."
       },
       "limitations": [
-        "Selected source abstracts and accessible chapters/reviews verified; not all cited full texts read.",
-        "MP SET comparison uses archived 2024 public copy, not independently verified current MPPSC-hosted syllabus.",
-        "Static HTML and SVG source checks only; independent browser/mobile rendering, full accessibility audit and interactions not exercised.",
-        "New title-based slug selected because no existing target path or link was found.",
-        "Pages deployment must be verified separately. Immediate unpublished neighbors remain unlinked until publication."
+        "Source records and accessible abstracts/reviews checked, not all full papers.",
+        "MP SET comparator archived 2024 copy.",
+        "Static HTML/SVG validation; interactive browser/mobile and comprehensive accessibility tests not performed.",
+        "New slug follows repository title convention.",
+        "Pages verification pending at commit."
       ],
-      "source_draft_branch": "draft/node-3c13-organelle-protein-import",
-      "draft_commit_sha": "65f58d248e43faf4c8b9f1fbb4f439a5a8156e12",
       "initial_head_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
-      "main_baseline_sha": "d25554c918f1292a169ed1f46cdb6ef1eab1d087",
+      "main_baseline_sha": "36e36e31d9bcae023260923d3f25228e1696c55d",
+      "source_draft_branch": "draft/node-3c14-protein-degradation",
+      "draft_commit_sha": "8ac0338b8fa3f9524ba16078ebe560f67d39dcbc",
       "status": "lesson_committed_pages_verification_pending"
     }
   },
@@ -9016,5 +10267,9 @@
         "1.A.05"
       ]
     }
-  }
+  },
+  "unit3d_published_node_ids": [
+    "3.D.01"
+  ],
+  "unit3d_planned_node_count": 12
 }

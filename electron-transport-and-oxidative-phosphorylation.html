@@ -243,7 +243,7 @@
     
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
-        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn" type="button" id="previous-node" aria-label="Previous curriculum node">← Previous Node</button>
         <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
@@ -383,7 +383,7 @@
 <section id="revision"><h2>22. Consolidation and the next metabolic question</h2><p>Reconstruct the chapter as a causal chain rather than a list of complexes. Fuel oxidation generates NADH and other reducing equivalents. Their electrons pass to Q, cytochrome c and oxygen; three respiratory complexes conserve some of the energy as a transmembrane proton motive force. The gradient combines electrical and chemical potential differences. ATP synthase turns favourable proton entry into conformational cycles that synthesise and release ATP. Metabolite carriers exchange ATP, ADP and phosphate, while redox shuttles transfer cytosolic reducing equivalents without moving NADH itself across the inner membrane.</p>
 <p>For examination problems, establish the electron-entry point, the unit of oxygen, the direction of the proton gradient, and the assumed energetic cost before calculating anything. Then ask whether the perturbation blocks electron flow, blocks ATP synthase, changes metabolite access or increases proton leak. Oxygen consumption and ATP production need not change in parallel. The subsequent chapter applies this energy and redox framework to gluconeogenesis, glycogen turnover and alternative carbohydrate pathways, where ATP, NADH and NADPH have distinct metabolic roles.</p></section>
 <section id="references"><h2>23. Scientific references and further reading</h2><ul><li>Nelson and Cox, <em>Lehninger Principles of Biochemistry</em>, 8th edition, chapters on oxidative phosphorylation and glycolysis.</li><li>Alberts et al., <em>Molecular Biology of the Cell</em>, 4th edition, <a href="https://www.ncbi.nlm.nih.gov/books/NBK26904/">Electron-Transport Chains and Their Proton Pumps</a>.</li><li>Cooper, <em>The Cell: A Molecular Approach</em>, 2nd edition, <a href="https://www.ncbi.nlm.nih.gov/books/NBK9885/">The Mechanism of Oxidative Phosphorylation</a>.</li><li>Mitchell, P. (1961). Coupling of phosphorylation to electron and hydrogen transfer by a chemiosmotic type of mechanism. <em>Nature</em> 191, 144–148. <a href="https://doi.org/10.1038/191144a0">DOI</a>.</li><li>Jagendorf, A. T. and Uribe, E. (1966). ATP formation caused by acid-base transition of spinach chloroplasts. <em>PNAS</em> 55, 170–177. <a href="https://doi.org/10.1073/pnas.55.1.170">DOI</a>.</li><li>Racker, E. and Stoeckenius, W. (1974). Reconstitution of purple membrane vesicles catalyzing light-driven proton uptake and adenosine triphosphate formation. <em>JBC</em> 249, 662–663. <a href="https://pubmed.ncbi.nlm.nih.gov/4272126/">PubMed</a>.</li><li>Boyer, P. D. (1997). <a href="https://www.nobelprize.org/prizes/chemistry/1997/boyer/lecture/">Nobel lecture on ATP synthase</a>.</li><li>Hinkle, P. C. (2005). P/O ratios of mitochondrial oxidative phosphorylation. <em>Biochimica et Biophysica Acta</em> 1706, 1–11. <a href="https://pubmed.ncbi.nlm.nih.gov/15620362/">PubMed</a>.</li><li>Review (2023). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9871338/">Regulation and function of the mammalian tricarboxylic acid cycle</a>, discussion of redox shuttles.</li><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR-HRDG revised Life Sciences and Biotechnology syllabus, Unit 1, section E</a>.</li></ul></section></div></article>
-        <nav class="node-navigation" aria-label="Curriculum navigation"><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Curriculum navigation"><a href="citric-acid-cycle-and-metabolic-integration.html">← 1.E.03 · Citric Acid Cycle and Metabolic Integration</a><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 1 · Structure and Function of Biomolecules</footer>
@@ -398,6 +398,7 @@
       "use strict";
       const root = document.documentElement, body = document.body;
       const byId = id => document.getElementById(id);
+      byId("previous-node").addEventListener("click",()=>{location.href="citric-acid-cycle-and-metabolic-integration.html";});
       const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
       const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
       const storageKey = "lsa-reading-prefs-v1";
@@ -465,7 +466,7 @@
         if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
       });
       const dialog=byId("diagram-dialog");
-      const nodes=[["1.E.03","previous-node"],["1.E.05","next-node"]];
+      const nodes=[["1.E.05","next-node"]];
       fetch("./index.html",{cache:"no-cache"}).then(r=>r.ok?r.text():Promise.reject()).then(markup=>{const doc=new DOMParser().parseFromString(markup,"text/html");for(const [code,id] of nodes){const item=Array.from(doc.querySelectorAll(".topic-code")).find(el=>el.textContent.trim()===code);const a=item?.closest("li")?.querySelector("a[href]");if(a){const btn=byId(id);btn.disabled=false;btn.setAttribute("aria-label",(id==="previous-node"?"Previous node: ":"Next node: ")+a.textContent.trim());btn.addEventListener("click",()=>location.href=new URL(a.getAttribute("href"),location.href).href);}}}).catch(()=>{});
 
       document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{

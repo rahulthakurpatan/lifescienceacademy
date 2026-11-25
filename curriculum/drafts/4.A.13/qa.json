@@ -1,0 +1,296 @@
+{
+  "node_id": "4.A.13",
+  "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
+  "unit": "04",
+  "subunit": "4.A",
+  "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
+  "status": "draft_academic_and_static_quality_review_completed",
+  "narrative_words": 14306,
+  "visible_article_words": 20212,
+  "teaching_paragraphs": 144,
+  "theory_sections": 16,
+  "sections": 24,
+  "figures": 13,
+  "tables": 4,
+  "questions": 52,
+  "references": 28,
+  "html_bytes": 238970,
+  "revision_traps": 15,
+  "active_recall": 10,
+  "mastery_checklist": 6,
+  "distribution": {
+    "Part B": 20,
+    "Part C": 20,
+    "Assertion–Reason": 3,
+    "Multiple statements": 3,
+    "Matching": 2,
+    "Additional numerical": 2,
+    "Experimental interpretation": 1,
+    "Integrative reasoning": 1
+  },
+  "answer_positions": {
+    "A": 13,
+    "B": 13,
+    "C": 13,
+    "D": 13
+  },
+  "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
+  "comparator": {
+    "node_id": "4.A.07",
+    "narrative_words": 14453,
+    "teaching_paragraphs": 158,
+    "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
+  },
+  "scientific_checks": [
+    "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
+    "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
+    "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
+    "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
+    "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
+    "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
+  ],
+  "experimental_reasoning_cases": [
+    "conditioned medium and matched controls",
+    "purified LuxI evidence",
+    "LuxI signal supplementation",
+    "LuxR feedback loss",
+    "luciferase output defect",
+    "peptide precursor and maturation defects",
+    "AgrC kinase defect",
+    "LuxS metabolic vs signaling rescue",
+    "AI-2 uptake vs extracellular decline",
+    "signal retention and exchange",
+    "biofilm attachment vs dispersal",
+    "quenching vs viability",
+    "mixed producer/receiver populations",
+    "dose-response sensitivity vs affinity",
+    "reporter normalization and persistence"
+  ],
+  "arithmetic_checks": {
+    "total": 30,
+    "passed": 30,
+    "details": [
+      {
+        "name": "signal at 2 h",
+        "actual": 25.284822353142307,
+        "expected": 25.3,
+        "pass": true
+      },
+      {
+        "name": "threshold time",
+        "actual": 2.772588722239781,
+        "expected": 2.77,
+        "pass": true
+      },
+      {
+        "name": "half-time",
+        "actual": 1.3862943611198906,
+        "expected": 1.39,
+        "pass": true
+      },
+      {
+        "name": "theta 2.5",
+        "actual": 0.2,
+        "expected": 0.2,
+        "pass": true
+      },
+      {
+        "name": "theta 10",
+        "actual": 0.5,
+        "expected": 0.5,
+        "pass": true
+      },
+      {
+        "name": "theta 40",
+        "actual": 0.8,
+        "expected": 0.8,
+        "pass": true
+      },
+      {
+        "name": "hill low h1",
+        "actual": 0.3333333333333333,
+        "expected": 0.3333333333333333,
+        "pass": true
+      },
+      {
+        "name": "hill low h3",
+        "actual": 0.1111111111111111,
+        "expected": 0.1111111111111111,
+        "pass": true
+      },
+      {
+        "name": "hill high h1",
+        "actual": 0.6666666666666666,
+        "expected": 0.6666666666666666,
+        "pass": true
+      },
+      {
+        "name": "hill high h3",
+        "actual": 0.8888888888888888,
+        "expected": 0.8888888888888888,
+        "pass": true
+      },
+      {
+        "name": "diffusion 60",
+        "actual": 2,
+        "expected": 2,
+        "pass": true
+      },
+      {
+        "name": "diffusion 120",
+        "actual": 8,
+        "expected": 8,
+        "pass": true
+      },
+      {
+        "name": "steady no exchange",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "name": "steady exchange",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "name": "protein one hour",
+        "actual": 90.48374180359595,
+        "expected": 90.5,
+        "pass": true
+      },
+      {
+        "name": "protein ten hours",
+        "actual": 36.787944117144235,
+        "expected": 36.8,
+        "pass": true
+      },
+      {
+        "name": "WT normalization",
+        "actual": 4,
+        "expected": 4,
+        "pass": true
+      },
+      {
+        "name": "mutant normalization",
+        "actual": 6,
+        "expected": 6,
+        "pass": true
+      },
+      {
+        "name": "Q25 ratio",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "name": "Q26 steady",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "name": "Q27 half time",
+        "actual": 1.3862943611198906,
+        "expected": 1.39,
+        "pass": true
+      },
+      {
+        "name": "Q28 occupancy",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "name": "Q29 hill h1",
+        "actual": 0.3333333333333333,
+        "expected": 0.3333333333333333,
+        "pass": true
+      },
+      {
+        "name": "Q29 hill h2",
+        "actual": 0.2,
+        "expected": 0.2,
+        "pass": true
+      },
+      {
+        "name": "Q36 steady",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "name": "Q37 protein",
+        "actual": 36.787944117144235,
+        "expected": 36.8,
+        "pass": true
+      },
+      {
+        "name": "Q38 producer fraction",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "name": "Q49 exchange",
+        "actual": 39.99999999999999,
+        "expected": 40,
+        "pass": true
+      },
+      {
+        "name": "Q50 diffusion",
+        "actual": 12,
+        "expected": 12,
+        "pass": true
+      },
+      {
+        "name": "Q51 normalization",
+        "actual": 1.5,
+        "expected": 1.5,
+        "pass": true
+      }
+    ]
+  },
+  "technical_checks": {
+    "word_gate": true,
+    "duplicate_paragraphs": true,
+    "unique_ids": true,
+    "anchors": true,
+    "svg_accessible_labels": true,
+    "zoom_targets": true,
+    "question_keys": true,
+    "balanced_html": true,
+    "local_published_links": true,
+    "reader_controls": true,
+    "dynamic_neighbors": true,
+    "canonical": true,
+    "no_stale_title": true,
+    "arithmetic": true
+  },
+  "academic_self_review": {
+    "scope_20": 20,
+    "accuracy_25": 24,
+    "depth_20": 20,
+    "evidence_quantitative_15": 14,
+    "practice_10": 9,
+    "technical_10": 8,
+    "total": 95,
+    "maximum": 100,
+    "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
+  },
+  "limitations": [
+    "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
+    "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
+    "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
+    "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
+    "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
+    "Draft robots metadata is noindex; public candidate changes to index,follow only."
+  ],
+  "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
+  "source_draft_branch": "draft/node-4a13-quorum-sensing",
+  "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
+  "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
+  "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69"
+}

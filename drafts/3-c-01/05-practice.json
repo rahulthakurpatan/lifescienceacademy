@@ -1,0 +1,323 @@
+{
+  "b": [
+    [
+      "Which feature makes translation chemically different from transcription?",
+      "Complementary base pairing alone directly forms peptide bonds|It maps nucleotide triplets to amino-acid residues through molecular adaptors|It copies an RNA into another RNA|It always begins at the transcription +1 site",
+      1,
+      "Translation connects two chemically distinct polymers via charged tRNAs. Complementary copying describes transcription, not peptide synthesis; the initiation site of translation is distinct from +1."
+    ],
+    [
+      "Under a fixed-length four-letter code, why are two-letter words insufficient for 20 amino acids?",
+      "There are 8 words|There are 16 words|There are 20 words but no stops|All words must contain different bases",
+      1,
+      "4² = 16. Repeated letters are allowed and positions are independent. A three-letter alphabet has 64 words."
+    ],
+    [
+      "Which statement correctly distinguishes degeneracy from ambiguity?",
+      "A codon normally directs several different residues|Every amino acid has six codons|Several distinct codons can specify one residue|Each sense codon is read by exactly one tRNA",
+      2,
+      "Degeneracy is many-to-one mapping. It does not require equal degeneracy, one tRNA per codon, or multiple ordinary amino-acid assignments per codon."
+    ],
+    [
+      "Which standard-code amino-acid pair has one codon each?",
+      "Met and Trp|Lys and Glu|Ile and Val|Ser and Arg",
+      0,
+      "AUG and UGG are the single ordinary sense assignments for methionine and tryptophan. The other residues have multiple codons."
+    ],
+    [
+      "A codon written 5′-GAC-3′ has which strictly complementary anticodon written 5′ to 3′?",
+      "CUG|GUC|CAG|GAC",
+      1,
+      "The aligned anticodon is 3′-CUG-5′; reverse it to obtain 5′-GUC-3′. CUG is the correct complement only in the opposite orientation."
+    ],
+    [
+      "In conventional tRNA numbering, which position faces codon base 3?",
+      "36|35|34|73",
+      2,
+      "The interaction is antiparallel: 36 faces 1, 35 faces 2, and 34 faces 3. Position 73 lies near the acceptor end, not the anticodon."
+    ],
+    [
+      "Under classical wobble rules, which codon endings can anticodon position 34 G recognize?",
+      "A and G|U and C|A and C|All four",
+      1,
+      "G pairs canonically with C and by wobble with U. U at position 34 recognizes A/G in the simplified model."
+    ],
+    [
+      "An anticodon 5′-IAU-3′ recognizes which standard sense family in the classical model?",
+      "AUG only|AUU, AUC and AUA|UAU, UAC and UAA|All four AU codons",
+      1,
+      "The fixed first two codon bases are AU; I recognizes U/C/A, not G in this model. The three targets specify isoleucine."
+    ],
+    [
+      "Which statement about AUG is correct?",
+      "Every AUG begins a separate protein|An internal AUG normally encodes methionine|AUG is a stop signal in all bacteria|AUG cannot be used by an initiator tRNA",
+      1,
+      "Internal AUG normally directs methionine incorporation, while initiation requires a suitable context and initiator tRNA. Identical triplets need not act as starts."
+    ],
+    [
+      "An experimentally established bacterial GUG initiation site usually gives which initial residue?",
+      "Valine|Leucine|N-formylmethionine|Glycine",
+      2,
+      "GUG can serve as a start recognized by the bacterial initiator fMet-tRNA. Internal GUG normally specifies valine."
+    ],
+    [
+      "Which three are conventional standard stop codons?",
+      "UAA, UAG, UGA|AUG, UAA, UGG|UAC, UAU, UAA|UGU, UGC, UGG",
+      0,
+      "UAA, UAG and UGA normally signal termination. AUG specifies methionine, UGG tryptophan, UAU/UAC tyrosine and UGU/UGC cysteine."
+    ],
+    [
+      "Which conclusion is justified by a poly(U)-directed polyphenylalanine product in a triplet framework?",
+      "All U-containing codons specify phenylalanine|UUU specifies phenylalanine|Poly(U) establishes all codon boundaries by itself|UUU is a start codon in normal cells",
+      1,
+      "Every complete triplet in a poly(U) template is UUU. The result identifies that assignment in the triplet framework, but a homopolymer alone cannot establish word length."
+    ],
+    [
+      "What was the distinctive contribution of Nirenberg and Leder's defined-trinucleotide assay?",
+      "It measured transcription start positions|It linked a particular ordered triplet to aminoacyl-tRNA binding on ribosomes|It proved every gene has one exon|It sequenced whole proteins directly",
+      1,
+      "The assay tested ordered triplets through specific ribosome-associated aminoacyl-tRNA retention; it did not require full-length peptide synthesis."
+    ],
+    [
+      "Which experimental observation supported a three-nucleotide reading phase in the T4 rII study?",
+      "Every substitution was lethal|Certain combinations of three same-sign frame changes restored function|Only poly(U) bound ribosomes|All mutant genomes were identical in sequence",
+      1,
+      "Restoration of reading phase by combinations of frame changes supported a triplet code. Functional compensation did not imply restoration of the original sequence."
+    ],
+    [
+      "Which change is synonymous under the standard internal code?",
+      "GAA→GAG|GAA→GUA|GAA→UAA|GAA→GCA",
+      0,
+      "GAA/GAG encode Glu; GUA encodes Val, UAA is stop, and GCA encodes Ala."
+    ],
+    [
+      "A one-nucleotide deletion within a continuous coding region generally causes what consequence?",
+      "A one-residue deletion with all downstream codons unchanged|A shift in downstream grouping|A necessary synonymous substitution|A guaranteed increase in protein length",
+      1,
+      "A deletion not divisible by three changes grouping downstream. The new stop and length depend on the actual sequence."
+    ],
+    [
+      "Which distinguishes a three-base deletion from a one-base deletion?",
+      "A three-base deletion always leaves the entire protein sequence unchanged|A three-base deletion preserves downstream reading phase, assuming unchanged initiation|A one-base deletion never changes a stop|Both necessarily remove exactly one residue",
+      1,
+      "Three is divisible by the codon length. Junction residues may still change, so phase preservation is not identity of protein sequence."
+    ],
+    [
+      "Which standard-code codon becomes Trp in the vertebrate mitochondrial table?",
+      "UAA|UGA|AUA|AGA",
+      1,
+      "UGA is assigned Trp in table 2. AUA is Met, and AGA is listed as termination in that table."
+    ],
+    [
+      "Which statement about selenocysteine is correct?",
+      "Every UGA in every cell encodes Sec|Selected UGA codons can encode Sec with specialized machinery and RNA context|Sec is always added to a protein after translation|Sec introduces a fifth ordinary mRNA base",
+      1,
+      "Selective UGA recoding requires a dedicated system and contextual signals. Ordinary termination remains possible at other UGA codons."
+    ],
+    [
+      "What distinguishes programmed ribosomal frameshifting from a DNA frameshift indel?",
+      "The RNA sequence need not change|It always requires addition of a DNA nucleotide|The genetic code becomes doublet|It changes every transcript from a genome",
+      0,
+      "Programmed frameshifting alters the ribosome's grouping phase on an existing message; an indel changes the underlying sequence."
+    ],
+    [
+      "A peptide ends with lysine in the nascent chain. Which statement about its following ordinary stop is correct?",
+      "The stop contributes another amino acid|The stop specifies release rather than an incorporated residue|The stop is always UGA|The stop must lie in the 5′ UTR",
+      1,
+      "The stop is an in-frame termination signal, not a residue. Any of the three standard stop codons can serve, depending on the sequence."
+    ],
+    [
+      "Why does an ORF prediction alone not establish that a protein is expressed?",
+      "ORFs have no triplets|A candidate frame can exist without biological initiation or detectable translation|Every ORF is always a noncoding RNA|All ORFs must contain introns",
+      1,
+      "Sequence-based criteria identify potential coding regions; expression requires supporting biological evidence."
+    ],
+    [
+      "A tRNA has a correct glycine-recognizing anticodon but carries alanine. What follows if it is accepted and used?",
+      "Glycine is obligatorily delivered|Alanine can be incorporated at a glycine codon|The mRNA sequence changes|The ribosome necessarily reverses direction",
+      1,
+      "The amino acid delivered depends on the attached residue. The tRNA's anticodon can still recognize the codon correctly; charging and decoding are separate specificity layers."
+    ],
+    [
+      "Which pair shares a standard first-two-base box but encodes different amino acids?",
+      "GCU and GCC|UUU and UUA|AAA and AAG|CGU and CGC",
+      1,
+      "UUU is Phe and UUA is Leu. The other pairs are synonymous."
+    ],
+    [
+      "Why is a synonymous substitution not guaranteed to be phenotypically neutral?",
+      "It necessarily alters the side chain|It can alter RNA properties or translation efficiency despite preserving the primary sequence|It always deletes three bases|It changes all future codon assignments",
+      1,
+      "The code predicts residue identity, not every aspect of expression. RNA structure, decoding availability and other processes may differ."
+    ],
+    [
+      "Which change is a standard stop-loss mutation?",
+      "UAU→UAA|UAG→UGG|GCU→GCC|AAG→AAC",
+      1,
+      "UAG normally terminates, while UGG encodes Trp. UAU→UAA is stop gain; GCU→GCC is synonymous; AAG→AAC is missense."
+    ]
+  ],
+  "ar": [
+    [
+      "The genetic code is degenerate.",
+      "Different codons can specify the same amino acid.",
+      0,
+      "Both are true; the reason defines degeneracy directly."
+    ],
+    [
+      "The transcription start site and translation start site must always be the same nucleotide.",
+      "An mRNA can contain a 5′ untranslated region before its initiation codon.",
+      3,
+      "Assertion false; reason true. The UTR makes the separation explicit."
+    ],
+    [
+      "A single codon substitution does not ordinarily shift the reading frame.",
+      "Substitution does not change the number of nucleotides in the sequence.",
+      0,
+      "Both true; the unchanged length preserves phase when initiation and decoding mode are unchanged."
+    ],
+    [
+      "The genetic code is absolutely universal.",
+      "UGA has a tryptophan assignment in vertebrate mitochondria.",
+      3,
+      "Assertion false; reason true. Alternative translation tables establish near, not absolute, universality."
+    ],
+    [
+      "An in-frame stop triplet normally adds no amino acid.",
+      "Ordinary release factors promote termination instead of an ordinary aminoacyl-tRNA supplying a residue.",
+      0,
+      "Both true; the mechanism explains why the stop is excluded from the nascent chain length."
+    ]
+  ],
+  "m": [
+    [
+      "Match: (i) UGG (ii) GCU (iii) UAA (iv) AUA to standard assignments.",
+      "Trp, Ala, stop, Ile|Trp, Gly, Lys, Met|Stop, Ala, Trp, Ile|Trp, Ala, Ile, stop",
+      0,
+      "UGG=Trp, GCU=Ala, UAA=stop, AUA=Ile. Mitochondrial AUA is not the standard assignment."
+    ],
+    [
+      "Select the correct statements: (i) 61 sense triplets in the standard code; (ii) all three stop triplets encode residues; (iii) codon position 3 faces tRNA position 34; (iv) a 3′ UTR follows the translated region in a typical mRNA.",
+      "i and ii|i, iii and iv|ii and iii|all four",
+      1,
+      "Statements i, iii and iv are correct. Stop triplets ordinarily specify release, not additional residues."
+    ]
+  ],
+  "c": [
+    [
+      "A mature mRNA begins translation at coordinate 17. Identify the codon number and position of nucleotide 46.",
+      "Codon 10, third base",
+      "46−17=29=9×3+2. With one-based indexing, codon=9+1=10 and position=2+1=3. Coordinate 47 begins codon 11."
+    ],
+    [
+      "An uninterrupted coding region including its only terminal stop is 1,203 nt. How many nascent residues and peptide bonds?",
+      "400 residues; 399 peptide bonds",
+      "1,203/3=401 triplets; subtract one stop gives 400 residues. A linear 400-residue chain contains 399 peptide bonds."
+    ],
+    [
+      "How many sense-region strings encode Met-Ala-Gly-Lys-Trp under independent standard synonymous choices? Include a free conventional stop as a second answer.",
+      "32 without stop; 96 including stop",
+      "1×4×4×2×1=32. There are three independent stop choices, so 32×3=96."
+    ],
+    [
+      "A toy random RNA has independent equiprobable bases. What is the probability that five consecutive codons contain no standard stop?",
+      "(61/64)^5 ≈ 0.7866",
+      "There are 61 sense triplets out of 64. Multiply the independent five sense probabilities. This is conditional on a fixed frame, not a probability of actual protein expression."
+    ],
+    [
+      "A random RNA has independent frequencies A=U=0.30, G=C=0.20. Find the probability of a standard stop in a specified triplet.",
+      "0.063 (6.3%)",
+      "P(UAA)=0.30×0.30×0.30=0.027; P(UAG)=P(UGA)=0.018. The three mutually exclusive probabilities sum to 0.063."
+    ],
+    [
+      "For GAA, assume each of the nine single-nucleotide alternatives is equally likely. Find the probabilities of synonymous, missense and stop gain.",
+      "1/9, 7/9, 1/9 respectively",
+      "GAG is synonymous; UAA is stop. AAA, CAA, GCA, GGA, GUA, GAC and GAU are missense. Equal mutation rates are an explicit artificial assumption."
+    ],
+    [
+      "A continuous coding region experiences an insertion of two nucleotides followed by a deletion of five. Is downstream phase restored?",
+      "Yes, net −3 nucleotides",
+      "2−5=−3, divisible by 3. Grouping after the last event aligns with the original; intermediate residues and termination may have changed."
+    ],
+    [
+      "An RNA is an unlimited repeat of a five-base pattern. How many codons are required before the same position within the repeat recurs?",
+      "Five codons",
+      "The smallest q satisfying 3q divisible by 5 is 5. The result describes grouping; a real stop codon could prevent completion of the cycle."
+    ],
+    [
+      "A chain has 230 residues and an assumed mean residue mass of 110 Da. Estimate its mass and minimum sense coding length.",
+      "25.3 kDa; 690 nt",
+      "230×110=25,300 Da; 230×3=690 nt. Including an ordinary stop gives 693 nt. The mass is approximate and excludes added modifications."
+    ],
+    [
+      "Assume classical wobble coverage for one fourfold, one threefold and one twofold synonymous group in separate first-two-base boxes. Minimum anticodon types?",
+      "Four",
+      "Two types cover the fourfold box, one inosine type covers U/C/A in the threefold box, and one compatible type covers the twofold group. The calculation assumes the groups have the appropriate endings."
+    ],
+    [
+      "Translate the template DNA written 5′-TTA TGG AAA GTC CAT-3′ assuming a complete standard coding region.",
+      "Met-Asp-Phe-Pro",
+      "Reverse-complement into mRNA 5′-AUG GAC UUU CCA UAA-3′. Read the four sense codons, then stop."
+    ],
+    [
+      "A sequence is 5′-AUG GCU AAA CCG UAA-3′. Remove the initial G of GCU. Translate every complete displayed codon.",
+      "Met-Leu-Asn-Arg; termination not established",
+      "The altered sequence groups AUG-CUA-AAC-CGU-AA. The remaining AA is incomplete. The old stop is no longer in phase; downstream sequence is needed to predict eventual termination."
+    ],
+    [
+      "Two coding exons contribute AUGGC and UAAAUAA in their RNA order. What is the spliced coding product?",
+      "Met-Ala-Lys",
+      "Join to AUGGCUAAAUAA, regroup AUG-GCU-AAA-UAA. GCU crosses the junction; independent exon translation would fail."
+    ],
+    [
+      "Compare standard and vertebrate mitochondrial translation of AUG-AUA-UGA-GCU-UAA, with AUG stipulated as the start.",
+      "Standard: Met-Ile; vertebrate mitochondrial: Met-Met-Trp-Ala",
+      "In standard decoding AUA is Ile and UGA stops. In table 2 AUA is Met and UGA is Trp; termination is at UAA."
+    ],
+    [
+      "Hypothetical binding assay: labelled Phe-tRNA retention is 30 without triplet, 850 with UUU, and 35 with GCU. What is the strongest inference and one critical control?",
+      "UUU specifically promotes Phe-tRNA association with ribosomes; include a no-ribosome control",
+      "The large specific increase supports recognition rather than general nucleotide binding. No-ribosome retention assesses nonspecific filter binding. A full synthesis assay would additionally test incorporation."
+    ],
+    [
+      "Hypothetical reporter signals for wild type, +1, +2 and +3 insertions are 100, 3, 2 and 72. What does the pattern support, and what does 72 not prove?",
+      "Triplet-phase restoration; not complete restoration of original protein",
+      "Three added bases preserve downstream phase. Activity recovery can coexist with altered junction residues, changes in abundance or partial loss of function."
+    ],
+    [
+      "A 5′-IGC-3′ anticodon loses its inosine modification and now contains A at position 34. Predict the simple-model targets before and after.",
+      "GCU/GCC/GCA before; GCU after",
+      "I34 permits U/C/A; A34 pairs with U. Other tRNAs may compensate in a cell, so reduced recognition range is more certain than the whole-cell phenotype."
+    ],
+    [
+      "A reporter has a premature UAG. A suppressor tRNA restores full-length product but activity remains 20% of wild type. Explain.",
+      "Decoding may continue with a wrong residue or inefficient suppression; length alone does not establish normal function",
+      "Sequence the product at the suppressed site and quantify full-length abundance. A changed residue or lower yield can account for reduced activity. The DNA mutation need not be repaired."
+    ],
+    [
+      "Hypothetical reporters contain an identical internal UGA; only one has a functional SECIS. Full-length protein occurs chiefly with SECIS. What conclusion is supported, and what needs testing?",
+      "Context-dependent readthrough/recoding is supported; verify Sec identity and dependence on the specialized machinery",
+      "The contextual signal argues against a universal sense assignment in that system. Product length alone cannot identify the inserted residue."
+    ],
+    [
+      "A synonymous GCU→GCC variant has unchanged mRNA abundance but half the steady-state protein level. Is a missense mechanism supported? Which measurements help?",
+      "No conventional missense effect; measure newly synthesized protein and protein turnover",
+      "Both encode Ala. Altered initiation/elongation or degradation can change accumulation. Equal steady-state RNA does not prove equal protein production."
+    ],
+    [
+      "Ribosome footprints show phase 0 upstream, phase +1 downstream. Mutation of a candidate signal removes the shift. Is programmed frameshifting proved?",
+      "Supported, not conclusively proved",
+      "Check mapping, potential overlapping ORFs and actual peptide sequence. The signal-sensitive phase change is compatible with programmed frameshifting but is not uniquely diagnostic."
+    ],
+    [
+      "A bacterial expression construct containing a eukaryotic genomic gene produces an aberrant peptide. Why does standard-code conservation not rule this out?",
+      "RNA processing and expression contexts differ between organisms",
+      "Introns may be retained in a bacterial transcript; promoters, initiation signals and tRNA availability can differ. The shared code only ensures ordinary assignment given the proper message and context."
+    ],
+    [
+      "A UAU codon is changed to UAG in a vertebrate nuclear gene. A second mutation converts UAG to UAC. Classify both changes relative to their immediate precursor and compare final product with original.",
+      "First stop gain; second stop loss; final Tyr restored",
+      "UAU and UAC both specify Tyr. UAG is stop. The final local assignment matches wild type, despite a changed nucleotide sequence; expression effects remain possible."
+    ]
+  ]
+}

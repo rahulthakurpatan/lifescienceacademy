@@ -1,0 +1,322 @@
+[
+  [
+    "Part B conceptual MCQs",
+    [
+      [
+        "What is the direct substrate added to a growing DNA strand?",
+        "dNTP",
+        "dNMP; NTP; free base",
+        "A dNTP supplies the activated alpha phosphate; dNMP is the incorporated residue, NTP has ribose, and a free base lacks the backbone precursor."
+      ],
+      [
+        "Which group participates in the next polymerization reaction?",
+        "Primer 3′-OH",
+        "Template 5′ phosphate; primer 2′-OH; incoming base amino group",
+        "The primer hydroxyl attacks the alpha phosphate. The template guides identity but does not provide the growing hydroxyl."
+      ],
+      [
+        "Which direction describes ordinary polymerase proofreading?",
+        "3′→5′ exonuclease",
+        "5′→3′ polymerase; 5′→3′ exonuclease; internal endonuclease",
+        "Editing removes the newest nucleotide from the growing 3′ end; extension moves in the opposite direction."
+      ],
+      [
+        "Which activity of E. coli Pol I removes downstream RNA primer material?",
+        "5′→3′ nuclease",
+        "3′→5′ proofreading; helicase; ligase",
+        "Downstream 5′ end processing is distinct from editing the growing 3′ end; ligase seals rather than removes residues."
+      ],
+      [
+        "Why is G–C not selected at every template position?",
+        "Complementary geometry and catalytic alignment determine specificity",
+        "Three bonds always win; GTP is always more abundant; proofreading converts all pairs to G–C",
+        "The active site recognizes the template-dependent pair, not maximum hydrogen-bond number."
+      ],
+      [
+        "Which E. coli Pol III subunit carries its primary editing activity?",
+        "Epsilon (dnaQ)",
+        "Alpha (dnaE); beta clamp; DnaB",
+        "Alpha synthesizes DNA, beta is a processivity clamp and DnaB is a helicase."
+      ],
+      [
+        "Which eukaryotic nuclear replication polymerase lacks intrinsic proofreading?",
+        "Pol α",
+        "Pol δ; Pol ε; all three",
+        "Pol α initiates DNA synthesis after primase; δ and ε possess editing activity."
+      ],
+      [
+        "Which structure is the preferred direct substrate for ordinary polymerase proofreading?",
+        "A mismatched primer 3′ terminus",
+        "A fully paired fixed substitution; an internal double-strand break; intact methylated GATC",
+        "The exonuclease processes a growing end, not a distant internal substrate or a fixed complementary pair."
+      ],
+      [
+        "Which E. coli protein recognizes the mismatch?",
+        "MutS",
+        "MutH; Dam; DNA ligase",
+        "MutH incises the appropriate GATC site, Dam methylates it and ligase seals nicks."
+      ],
+      [
+        "Which property normally directs E. coli methyl-directed MMR toward the new strand?",
+        "Temporary lack of adenine methylation at GATC",
+        "CpG methylation; RNA cap; telomere length",
+        "The hemimethylated GATC site provides orientation; CpG and RNA capping are different processes."
+      ],
+      [
+        "Which enzyme creates the classical methyl-directed incision in E. coli?",
+        "MutH",
+        "MutS; UvrD; Pol III",
+        "MutH is an endonuclease; MutS recognizes, UvrD unwinds and Pol III can resynthesize."
+      ],
+      [
+        "Which factor unwinds DNA in the canonical E. coli MMR route?",
+        "UvrD",
+        "Dam; MutH; DNA ligase",
+        "UvrD helicase exposes the strand for excision; the other factors methylate, incise or seal."
+      ],
+      [
+        "What is the composition of human MutSα?",
+        "MSH2–MSH6",
+        "MSH2–MSH3; MLH1–PMS2; MLH1–MSH6",
+        "MSH2–MSH3 is MutSβ and MLH1–PMS2 is MutLα."
+      ],
+      [
+        "What is human MutLα?",
+        "MLH1–PMS2",
+        "MSH2–MSH6; MSH2–MSH3; RFC–PCNA",
+        "The MSH complexes recognize substrates; RFC loads PCNA, a clamp."
+      ],
+      [
+        "Which complex preferentially contributes to recognition of larger small insertion-deletion loops?",
+        "MutSβ",
+        "MutH; Pol α; ligase I",
+        "MSH2–MSH3 has loop-substrate preferences; recognition overlaps with MutSα."
+      ],
+      [
+        "What is PCNA?",
+        "A eukaryotic sliding clamp",
+        "A methyltransferase; an exonuclease; a dNTP",
+        "PCNA coordinates replication and repair proteins and can contribute to strand orientation."
+      ],
+      [
+        "What is the direct chemical product of proofreading hydrolysis of one terminal residue?",
+        "A nucleotide monophosphate",
+        "A dNTP; an amino acid; pyrophosphate alone",
+        "Hydrolysis cleaves the backbone; polymerization, not proofreading, releases pyrophosphate from a dNTP."
+      ],
+      [
+        "Which term describes the number of additions per productive enzyme association?",
+        "Processivity",
+        "Mutation frequency; fidelity; strand discrimination",
+        "Processivity concerns continuity of synthesis, while fidelity concerns sequence correctness."
+      ],
+      [
+        "What is a fixed substitution?",
+        "A changed complementary base pair that can be inherited",
+        "Every transient mismatch; any nick; every chemically modified base",
+        "A mismatch may be corrected; a nick alters continuity; a lesion is chemical damage."
+      ],
+      [
+        "Which mutation class is G–C to A–T?",
+        "Transition",
+        "Transversion; frameshift; inversion",
+        "G→A and C→T are within their respective base classes; both describe the same base-pair change."
+      ]
+    ]
+  ],
+  [
+    "Part C analytical and numerical problems",
+    [
+      [
+        "A polymerase makes 10⁻⁵ errors per addition; proofreading removes 99% and MMR removes 99.9% of survivors. What residual probability follows?",
+        "10⁻¹⁰",
+        "10⁻⁵; 10⁻⁷; 10⁻⁸",
+        "Multiply 10⁻⁵ × 0.01 × 0.001. The other choices represent uncorrected or partly corrected outcomes."
+      ],
+      [
+        "A 4 Mbp chromosome is duplicated completely. Error probability is 10⁻⁷ per newly added nucleotide. Expected errors across both daughter duplexes?",
+        "0.8",
+        "0.4; 4; 8",
+        "There are 8 million new nucleotide additions across both daughters, so 8×10⁶×10⁻⁷=0.8. The 0.4 choice counts one daughter."
+      ],
+      [
+        "For λ=0.2 independent rare residual events per daughter, approximate probability of at least one?",
+        "0.1813",
+        "0.2 exactly; 0.8187; 0.04",
+        "1−exp(−0.2)=0.18127. 0.8187 is the zero-event probability; the mean is not exactly the probability."
+      ],
+      [
+        "Correct and incorrect specificity constants are 10⁵ and 1 M⁻¹s⁻¹. Wrong nucleotide concentration is five times correct. Approximate wrong-to-correct flux ratio?",
+        "5×10⁻⁵",
+        "2×10⁻⁶; 10⁻⁵; 5×10⁵",
+        "The ratio is (1×5)/(10⁵×1). Equal concentration would instead yield 10⁻⁵."
+      ],
+      [
+        "A mismatched end can extend at 4 s⁻¹ or be excised at 96 s⁻¹ in a two-exit model. What fraction escapes editing?",
+        "0.04",
+        "0.96; 4; 0.24",
+        "The first-event probability is 4/(4+96). 0.96 is the excision fraction, not escape."
+      ],
+      [
+        "Initial error 10⁻⁵, escape proofreading 10⁻², escape MMR 10⁻³. What is the double-deficient fold increase over wild type?",
+        "100,000",
+        "1,100; 100; 1,000",
+        "With neither correction layer the error is 10⁻⁵; divide by 10⁻¹⁰. The fold effects multiply under this model."
+      ],
+      [
+        "A methylated G-containing parental strand pairs incorrectly with T on its daughter strand. Which product should directed correction favor?",
+        "G–C",
+        "A–T; G–T; A–C",
+        "Removal of daughter T followed by copying G restores C. A–T would require inappropriate removal of G."
+      ],
+      [
+        "Reverse only methylation orientation in the same G–T heteroduplex. Which complementary product may become favored?",
+        "A–T",
+        "G–C necessarily; G–G; T–T",
+        "The orientation now favors using T as template, illustrating that strand identity is not inherent in base identity."
+      ],
+      [
+        "A purified E. coli MMR reaction binds mismatch normally but fails to nick hemimethylated GATC. Which specific defect is most directly supported?",
+        "MutH incision or its activation",
+        "Defective nucleotide selection; DNA ligase alone; a lack of primer hydroxyl",
+        "Recognition is intact; the blocked readout is incision. MutL signaling is also a possible cause, so MutH activity should be tested directly."
+      ],
+      [
+        "A defined E. coli reaction lacking MutH regains repair with a suitable pre-existing nick. What does that support?",
+        "The nick bypasses the usual incision requirement",
+        "MutH is the only repair protein; MutH is proofreading polymerase; repair no longer needs recognition",
+        "Supplying the intermediate can bypass its production, not the remainder of the pathway."
+      ],
+      [
+        "A mutant can extend correctly paired primer but cannot hydrolyze a mismatched 3′ end. Which defect is most directly demonstrated?",
+        "Proofreading exonuclease",
+        "MutS recognition; Dam methylation; ligase",
+        "The measured defect is terminal hydrolysis; internal mismatch repair requires a different substrate assay."
+      ],
+      [
+        "MSH2 loss disrupts both major nuclear MutS complexes. Loss of MSH6 primarily removes which?",
+        "MutSα",
+        "MutSβ; MutLα; both necessarily",
+        "MSH6 partners MSH2 in α; MSH3 is the distinct β partner."
+      ],
+      [
+        "A eukaryotic nick initially lies 3′ to a mismatch. How can 5′→3′ EXO1 still contribute?",
+        "MutLα-directed additional incision can provide a suitable 5′ entry",
+        "EXO1 must reverse its polarity in all cases; MutH methylates the site; ligase removes the mismatch",
+        "Additional incision resolves the geometric problem; alternative EXO1-independent pathways also exist."
+      ],
+      [
+        "An intact G–T heteroduplex persists to another replication round with no repair. What products arise from its two strands?",
+        "G–C and A–T",
+        "Two G–T; two G–C; two A–T",
+        "G templates C, and T templates A; one product is restored and the other is a complementary substitution."
+      ],
+      [
+        "An extra nucleotide loops out on the nascent strand in a repeat, then is retained and fixed. What change is expected?",
+        "Insertion",
+        "Deletion; inversion; translocation",
+        "The daughter strand contains an extra copied unit; a template loop can instead produce a deletion."
+      ],
+      [
+        "Forty of 100 independent cultures have no mutants. Under the zero-class model, what is m?",
+        "0.916 events per culture",
+        "0.4; 2.5; 40",
+        "−ln(0.40)=0.916. The zero fraction is not itself the mean event count."
+      ],
+      [
+        "If the preceding cultures each experienced 10⁶ divisions, estimated rate under the stated assumptions?",
+        "9.16×10⁻⁷ per division",
+        "0.916 per division; 4×10⁻⁵; 10⁶",
+        "Divide estimated events per culture by divisions per culture, not by number of cultures again."
+      ],
+      [
+        "An inhibitor reduces total synthesized molecules from 10,000 to 1,000 and erroneous molecules from 100 to 10. What happens to observed error fraction?",
+        "It remains 1%",
+        "It improves tenfold; worsens tenfold; becomes 0.1%",
+        "Both numerator and denominator decrease proportionally: 100/10000=10/1000."
+      ],
+      [
+        "Two error classes contribute 100 initial errors each. Proofreading leaves 1 A and 50 B; MMR leaves 10% of A and 20% of B. Expected survivors?",
+        "10.1",
+        "51; 15; 30",
+        "Class-specific expected counts are 0.1+10=10.1. Averaging unrelated escape fractions before weighting can mislead."
+      ],
+      [
+        "Two independent cultures contain 100 resistant cells each, one descended from one early mutation and another from many late events. What can be inferred from the counts alone?",
+        "The mutant counts do not establish equal mutation rates",
+        "Exactly 100 mutations occurred in each; rates must be zero; both must lack MMR",
+        "Clonal descendants are not independent mutation events; timing and growth matter."
+      ]
+    ]
+  ],
+  [
+    "Assertion–Reason (A: both true and reason explains assertion; B: both true but reason does not explain; C: assertion true, reason false; D: assertion false, reason true)",
+    [
+      [
+        "Assertion: MMR needs strand discrimination. Reason: an ordinary mismatch alone does not reveal which strand was originally correct.",
+        "A",
+        "B; C; D",
+        "Both are true; replacing the wrong strand can fix an altered pair, so orientation is needed."
+      ],
+      [
+        "Assertion: Pol α lacks intrinsic proofreading. Reason: all replicative polymerases contain the same exonuclease domain.",
+        "C",
+        "A; B; D",
+        "The assertion is correct; the reason is false because proofreading arrangements vary."
+      ],
+      [
+        "Assertion: Every bacterial MMR pathway uses MutH. Reason: E. coli has methyl-directed MutH-dependent incision.",
+        "D",
+        "A; B; C",
+        "The E. coli statement is true, but the mechanism is not universal."
+      ],
+      [
+        "Assertion: A fixed complementary mutation is not ordinarily recognized as a mismatch. Reason: correct Watson–Crick geometry can be retained after the sequence changes.",
+        "A",
+        "B; C; D",
+        "A complementary changed pair lacks the abnormal pairing geometry that mismatch recognition detects."
+      ],
+      [
+        "Assertion: PCNA is a sliding clamp. Reason: MSH2 is a shared subunit of MutSα and MutSβ.",
+        "B",
+        "A; C; D",
+        "Both statements are accurate but MSH2 composition does not explain the structure of PCNA."
+      ]
+    ]
+  ],
+  [
+    "Multiple statements and matching",
+    [
+      [
+        "Which statements hold? I: DNA synthesis is 5′→3′. II: proofreading can hydrolyze a 3′ terminal linkage. III: MutH is universal in bacteria. IV: MutS detects mismatches.",
+        "I, II and IV",
+        "I and III; II and III; all four",
+        "I, II and IV are correct; MutH is organism-specific."
+      ],
+      [
+        "Match E. coli factors to tasks: 1 MutS, 2 MutH, 3 UvrD, 4 ligase; a incision, b unwinding, c recognition, d sealing.",
+        "1c, 2a, 3b, 4d",
+        "1a,2c,3d,4b; 1b,2d,3c,4a; 1d,2b,3a,4c",
+        "Recognition precedes incision, then helicase-supported processing and sealing."
+      ],
+      [
+        "Which statements hold? I: MSH2–MSH6 is MutSα. II: MSH2–MSH3 is MutSβ. III: human MLH1–PMS2 is MutLα. IV: MutLα is identical to E. coli MutH.",
+        "I, II and III",
+        "II and IV; I and IV; all four",
+        "The first three identify complexes correctly; MutLα is not identical to MutH."
+      ],
+      [
+        "Match term to description: 1 mismatch, 2 nick, 3 gap, 4 fixed substitution; a backbone interruption without missing residue, b absent residues, c abnormal pairing, d altered complementary pair.",
+        "1c, 2a, 3b, 4d",
+        "1a,2c,3d,4b; 1b,2d,3a,4c; 1d,2b,3c,4a",
+        "These structures differ by pairing, continuity and sequence inheritance."
+      ],
+      [
+        "Which statements hold under the simple sequential error model? I: conditional escape probabilities multiply. II: E(X)=Np needs independence. III: P(X=0)=(1−p)ᴺ assumes independent equal-probability trials. IV: mutation frequency is always a mutation rate.",
+        "I and III",
+        "I and II; II and IV; all four",
+        "Expectation is additive even without independence; mutant frequency depends on clone growth and timing."
+      ]
+    ]
+  ]
+]

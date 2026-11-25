@@ -1,0 +1,46 @@
+<section id="revision"><h2>Revision, active recall and examination traps</h2>
+<h3>Mechanism at a glance</h3><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Stage</th><th scope="col">Molecular event</th><th scope="col">Expected result of a selective block</th></tr></thead><tbody>
+<tr><td>Early recognition</td><td>U1 and downstream factors recognize candidate boundaries.</td><td>Precursor accumulates; later complexes decrease.</td></tr>
+<tr><td>Branch recognition</td><td>U2 pairs around branch A, exposing its 2′-OH.</td><td>Reduced stable assembly or branch-site use.</td></tr>
+<tr><td>Activation</td><td>Tri-snRNP joins; U1 and U4 depart; U2/U6 active center forms.</td><td>Pre-catalytic complexes accumulate if stable.</td></tr>
+<tr><td>Step one</td><td>Branch A 2′-OH attacks the 5′ junction phosphate.</td><td>No canonical lariat–downstream-exon intermediate.</td></tr>
+<tr><td>Step two</td><td>Upstream exon 3′-OH attacks the 3′ junction phosphate.</td><td>First-step products accumulate if stable.</td></tr>
+<tr><td>Release and turnover</td><td>Exons released; lariat debranched and often degraded; particles recycled.</td><td>Altered product clearance or component availability.</td></tr>
+</tbody></table></div>
+<h3>Compare related processing routes</h3><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Pathway</th><th scope="col">Initial attacking group</th><th scope="col">Typical intron product</th></tr></thead><tbody><tr><td>Major spliceosome</td><td>Internal branch A 2′-OH</td><td>Lariat</td></tr><tr><td>Minor spliceosome</td><td>Internal branch A 2′-OH</td><td>Lariat</td></tr><tr><td>Group I self-splicing</td><td>Free guanosine 3′-OH</td><td>Initially linear</td></tr><tr><td>Group II branching</td><td>Internal branch A 2′-OH</td><td>Lariat; other routes exist</td></tr></tbody></table></div>
+<h3>Formula and assumption sheet</h3><ul><li>One intron: L<sub>precursor</sub> = L<sub>E1</sub> + L<sub>I</sub> + L<sub>E2</sub>. Immediately after step one: L<sub>E1</sub> and L<sub>I</sub> + L<sub>E2</sub>; after step two: L<sub>E1</sub> + L<sub>E2</sub> and L<sub>I</sub>. Ignore end modifications and degradation.</li><li>Independent optional exons: 2<sup>n</sup> products; exactly k included: n!/[k!(n−k)!]. Fixed order; all counted combinations must be allowed.</li><li>Independent mandatory exclusive clusters: multiply their numbers of choices. Subtract incompatible combinations when choices are conditional.</li><li>PSI = 100I/(I+S), where I and S are inclusion and skipping molecule counts. Use a justified count model for junction reads.</li><li>Coding-frame preservation for an internal coding deletion: removed nucleotide count ≡ 0 (mod 3), assuming unchanged start and downstream context.</li><li>Simple first-order conversion: P(t)/P(0)=e<sup>−kt</sup>; t<sub>1/2</sub>=ln(2)/k. Applies to constant effective rate, no competing losses.</li><li>Steady-state abundance N=f/d for constant production flux f and first-order loss constant d; equal flux does not imply equal abundance.</li></ul>
+<h3>Twelve misconceptions to eliminate</h3><ol>
+<li><strong>Exon means protein coding.</strong> Exons can contain untranslated regions and noncoding RNA sequences. Retention, not translation, defines their role.</li>
+<li><strong>Splicing removes DNA.</strong> Ordinary pre-mRNA splicing rearranges RNA connectivity, leaving the genomic sequence intact.</li>
+<li><strong>GU and AG are sufficient recognition signals.</strong> Short motifs recur by chance; broader signals and cooperative factors distinguish productive sites.</li>
+<li><strong>All introns start GU and end AG.</strong> Noncanonical terminal patterns exist; minor-class recognition cannot be inferred from terminal dinucleotides alone.</li>
+<li><strong>U1 is the central chemical catalyst.</strong> U1 helps early recognition; U6 and U2 participate in the active RNA architecture.</li>
+<li><strong>All five major snRNAs remain together at catalysis.</strong> U1 and U4 depart during activation; their earlier functions remain essential.</li>
+<li><strong>Branch A attacks through its 3′ hydroxyl.</strong> Its internal 2′ hydroxyl attacks in the first canonical reaction.</li>
+<li><strong>Step one releases the complete intron.</strong> The intron is still attached to the downstream exon until step two.</li>
+<li><strong>ATP supplies the exon-junction phosphate.</strong> The junction phosphate originates in the precursor; ATP-dependent remodeling assists the overall cycle.</li>
+<li><strong>Every skipped exon frameshifts the protein.</strong> Coding length, position and reading frame determine the effect; untranslated exons may not change amino acid sequence.</li>
+<li><strong>Every predicted splice combination is expressed.</strong> Combinatorial counts depend on assumptions; biological regulation and stability restrict observed products.</li>
+<li><strong>A lariat band migrates like a linear molecule of equal length.</strong> Branch topology alters mobility; identification requires appropriate controls or structural evidence.</li>
+</ol>
+<h3>Active recall</h3><ol>
+<li>Draw a three-exon precursor and two excision reactions without changing exon order.</li><li>Label the donor, branch A, polypyrimidine tract and acceptor in their 5′→3′ order.</li><li>Explain why GU alone is insufficient to select a donor.</li><li>Describe the roles of U1, U2, U4, U5 and U6 at different stages.</li><li>Track both boundary phosphates into the two final products.</li><li>Explain how ATP-dependent remodeling differs from the chemistry of phosphotransfer.</li><li>Predict the species that accumulate during a selective second-step block.</li><li>Draw exon skipping, alternative donor choice and mutually exclusive exons.</li><li>Derive the count of exactly three included exons among six independent cassette exons.</li><li>Explain why equal total transcript abundance does not establish identical splicing.</li><li>Design a control for a compensatory donor/U1 experiment.</li><li>Compare group I and group II initiation without equating self-splicing with universally protein-free processing.</li></ol>
+<h3>Mastery checklist</h3><p>Before moving to RNA editing and other RNA maturation pathways, make sure you can independently reconstruct the two chemical steps, predict the effect of losing a specific recognition interaction, read a labeled-intermediate experiment, distinguish RNA abundance from processing flux, count constrained splice choices, predict reading-frame consequences and explain the main differences between spliceosomal and self-splicing pathways.</p></section>
+<section id="references"><h2>References and further reading</h2><ol>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26887/">Alberts and colleagues, Molecular Biology of the Cell: From DNA to RNA.</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK9864/">Cooper, The Cell: A Molecular Approach — RNA Processing and Turnover.</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK21132/">Brown, Genomes — Synthesis and Processing of RNA.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/269380/">Berget, Moore and Sharp (1977), Spliced segments at the 5′ terminus of adenovirus 2 late mRNA.</a></li>
+<li><a href="https://www.nobelprize.org/prizes/medicine/2006/advanced-information/">Nobel Prize, advanced information (2006): historical context of split genes and catalytic RNA.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/3757028/">Zhuang and Weiner (1986), A compensatory base change in U1 snRNA suppresses a 5′ splice site mutation.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/24196718/">Fica and colleagues (2013), RNA catalyses nuclear pre-mRNA splicing.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/31794245/">RNA Splicing by the Spliceosome, review of the structural and catalytic cycle.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/11606537/">Alternative splicing of the Drosophila Dscam pre-mRNA is both temporally and spatially regulated (2001).</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1370636/">The organization and evolution of Dipteran and Hymenopteran Dscam genes.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4861142/">The neurogenetics of alternative splicing.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7384967/">Pre-mRNA Splicing in the Nuclear Landscape.</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK595944/">The Expanding Repertoire of RNA, historical and mechanistic context.</a></li>
+<li><a href="https://csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR-HRDG revised Life Sciences and Biotechnology syllabus, Unit 3.B.</a></li>
+<li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf">CSIR-HRDG separate Life Sciences syllabus, Unit 3.B.</a></li>
+<li><a href="https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinsces-1760795800.pdf">MP SET 2024 Life Sciences syllabus, archived copy.</a></li>
+</ol></section>

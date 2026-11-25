@@ -4,41 +4,41 @@
   "unit": "03",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "3.C.08",
-  "title": "Regulation of Translation in Prokaryotic and Eukaryotic Cells",
+  "node_id": "3.C.12",
+  "title": "Protein Targeting to the ER and Secretory Pathway",
   "subunit": "3.C",
-  "topic": "Regulation of Translation in Prokaryotic and Eukaryotic Cells",
-  "slug": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+  "topic": "Protein Targeting to the ER and Secretory Pathway",
+  "slug": "protein-targeting-to-the-er-and-secretory-pathway.html",
   "next_pending_node_id": "1.A.03",
   "next_pending_node_title": "Biological Solutions, pH and Buffer Systems",
-  "published_node_count": 113,
+  "published_node_count": 114,
   "publication_allowed": true,
-  "main_baseline_sha": "ffdb363f3d58b9b1377713e9375232406177a909",
+  "main_baseline_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages deployment for 3.C.08. Next pending Unit 3 node: 3.C.10. Preserve global pending pointer.",
+  "next_required_action": "Verify Pages deployment for 3.C.12. Next pending Unit 3 node: 3.C.10. Preserve global pending pointer.",
   "planned_node_count": 30,
   "planned_subunit_count": 6,
   "architecture_version": "unit-01-compact-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-1a-chemical-biophysical-foundations-node-map.md",
   "last_qa": {
-    "node_id": "3.C.08",
-    "title": "Regulation of Translation in Prokaryotic and Eukaryotic Cells",
-    "slug": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
-    "narrative_words": 14332,
-    "visible_article_words": 19316,
-    "html_bytes": 228258,
-    "html_characters": 227939,
-    "theory_sections": 17,
-    "teaching_paragraphs": 119,
-    "sections": 21,
-    "figures": 16,
-    "tables": 3,
+    "node_id": "3.C.12",
+    "title": "Protein Targeting to the ER and Secretory Pathway",
+    "slug": "protein-targeting-to-the-er-and-secretory-pathway.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/protein-targeting-to-the-er-and-secretory-pathway.html",
+    "narrative_words": 13719,
+    "visible_article_words": 19436,
+    "html_bytes": 223768,
+    "html_characters": 223511,
+    "theory_sections": 22,
+    "teaching_paragraphs": 157,
+    "sections": 26,
+    "figures": 15,
+    "tables": 4,
     "questions": 55,
     "distribution": {
       "part_b": 30,
@@ -47,70 +47,74 @@
       "assertion_reason": 5,
       "matching_multiple_statement": 5,
       "part_c_numerical": 10,
-      "part_c_experimental_analytical": 15
+      "part_c_experimental_analytical": 15,
+      "answer_key_positions": {
+        "A": 14,
+        "B": 13,
+        "C": 12,
+        "D": 16
+      }
     },
-    "references": 25,
-    "revision_traps": 15,
+    "references": 26,
+    "revision_traps": 14,
     "active_recall": 12,
-    "method": "Unicode lexical count of stored HTML teaching-prose paragraphs only; excludes headings, tables, SVG, captions, practice, revision, references and reader UI. Article total includes visible SVG labels but excludes title/desc and diagram buttons.",
+    "method": "Unicode lexical count of actual saved HTML p.teaching-prose, excluding headings, figures, captions, tables, questions/answers, revision, references and reader UI. Total visible article includes SVG labels, excludes SVG title/desc and buttons.",
     "comparator": {
-      "node_id": "3.B.13",
-      "narrative_words": 13473
+      "node_id": "3.C.08",
+      "narrative_words": 14332,
+      "teaching_paragraphs": 119,
+      "method": "Adjacent chapter's checkpoint count uses same Unicode teaching-prose method; comparison supports depth, not independent proof of quality."
     },
     "scientific_checks": [
-      "Verified syllabus screenshots and roadmap; reviewed RBS accessibility, sRNAs, RNA thermometers, ribosomal protein feedback, translational coupling, stringent response, hibernation, eIF2B/eIF2α, four kinases, ATF4 and GCN4, mTOR/4E-BP, iron control, elongation and assays.",
-      "Second author review corrected five SVGs, clarified quantitative notation and applications. Recomputed example and practice values; original questions; hypothetical datasets labeled."
+      "Verified official merged CSIR-DBT Unit 3.C and archived MP SET 2024 syllabus page images, node roadmap and overlap boundaries.",
+      "Reviewed signal hypothesis and microsome controls, SRP RNA and GTP cycle, receptor handover, Sec61 channel and lateral gate, signal cleavage versus membrane entry, type I/II/III and multipass topology, positive-inside tendency, alternative post-translational routes and GPI anchoring.",
+      "Reviewed BiP, PDI and glycan-dependent quality control, KDEL receptor-mediated retrieval, Golgi fate and pulse-chase models. Reviewed Endo H/PNGase F interpretation and confounding by enzyme redistribution.",
+      "Second author review added proximity-versus-causation controls and GPI anchor distinction, caveats for glycan readouts, five verified sources, balanced question keys and checked arithmetic."
     ],
     "arithmetic_checks": {
-      "examples": [
-        "Synthesis flux, steady-state RNA and protein, half-time",
-        "Occupancy",
-        "Two-state fractions 0.11953/0.88047",
-        "Reinitiation probabilities 0.13286/0.38351/0.07387",
-        "Competition",
-        "Energy 398 and 998 equivalents",
-        "Ten numerical practice answers reviewed"
-      ]
+      "count": 21,
+      "passed": 21
     },
     "technical_checks": {
       "word_count": true,
       "unique_ids": true,
       "anchors": true,
-      "local_links": true,
-      "question_count": true,
-      "canonical": true,
       "svg_accessibility_source": true,
       "zoom_targets": true,
-      "markup": true,
-      "reader_source": true,
-      "previous_next_dynamic": true,
-      "no_duplicate_prose": true,
+      "balanced_article_markup": true,
+      "unique_teaching_paragraphs": true,
+      "question_keys": true,
+      "arithmetic": true,
+      "canonical": true,
+      "local_prerequisite_links": true,
+      "dynamic_previous_next": true,
       "menu": true,
       "sitemap": true,
       "checkpoint": true
     },
     "academic_self_review": {
       "scope_20": 20,
-      "accuracy_30": 29,
-      "pedagogy_20": 19,
-      "practice_15": 14,
-      "references_5": 4,
+      "accuracy_25": 24,
+      "teaching_20": 19,
+      "evidence_quantitative_15": 14,
+      "practice_10": 9,
       "technical_10": 9,
       "total": 95,
       "maximum": 100,
-      "method": "Separate author review, not external peer review"
+      "method": "Separate internal author/editor review of the saved HTML, not independent external peer review. Deductions for limited complete-paper reading, model/diagram simplifications, assessment not externally tested, and interactive rendering not tested."
     },
     "limitations": [
-      "Not all cited full texts read; accessible sources and abstracts used.",
-      "No independent interactive browser/device rendering or full accessibility audit.",
-      "MP SET archived 2024 syllabus comparison.",
-      "Pages deployment requires separate verification.",
-      "Out-of-order authorized development; unpublished immediate neighbors remain unlinked."
+      "Accessible scientific records, reviews and textbook excerpts checked, not every full paper or textbook edition.",
+      "MP SET comparison is archived 2024 syllabus, not independently verified current MPPSC-hosted source.",
+      "Static markup, SVG labels and reader source checked; interactive browser/mobile rendering and full accessibility audit not performed.",
+      "New slug follows repository naming convention because no preexisting target was present.",
+      "Adjacent navigation resolves only published menu links; out-of-order requested node, earliest pending pointers preserved.",
+      "GitHub Pages deployment separately verified where available."
     ],
-    "source_draft_branch": "draft/node-3c08-translation-regulation",
-    "draft_commit_sha": "c1c28b51c09e3ac2508d9ac0400f0e7c3c28db3a",
-    "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-    "main_baseline_sha": "ffdb363f3d58b9b1377713e9375232406177a909",
+    "initial_head_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
+    "main_baseline_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
+    "source_draft_branch": "draft/node-3c12-er-secretory-targeting",
+    "draft_commit_sha": "2cff25c26a3e44e982a0fd28548301112e4efcf4",
     "status": "lesson_committed_pages_verification_pending"
   },
   "published_node_ids": [
@@ -226,7 +230,8 @@
     "3.C.07",
     "3.C.09",
     "3.C.05",
-    "3.C.08"
+    "3.C.08",
+    "3.C.12"
   ],
   "prior_publication_qa": {
     "node_id": "2.B.03",
@@ -262,93 +267,91 @@
     "main_baseline_sha": "a5876ac9a66255f1837aa44b58fbe2aa73b55f83"
   },
   "previous_last_qa": {
-    "node_id": "3.C.05",
-    "title": "Eukaryotic Translation Initiation and Its Key Factors",
-    "slug": "eukaryotic-translation-initiation-and-its-key-factors.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/eukaryotic-translation-initiation-and-its-key-factors.html",
-    "narrative_words": 14374,
-    "visible_article_words": 21378,
-    "teaching_paragraphs": 121,
-    "theory_sections": 18,
+    "node_id": "3.C.08",
+    "title": "Regulation of Translation in Prokaryotic and Eukaryotic Cells",
+    "slug": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+    "narrative_words": 14332,
+    "visible_article_words": 19316,
+    "html_bytes": 228258,
+    "html_characters": 227939,
+    "theory_sections": 17,
+    "teaching_paragraphs": 119,
+    "sections": 21,
     "figures": 16,
     "tables": 3,
     "questions": 55,
     "distribution": {
       "part_b": 30,
-      "conceptual_mcq": 21,
-      "assertion_reason": 5,
-      "multiple_statement": 2,
-      "matching": 2,
       "part_c": 25,
-      "numerical": 8,
-      "experimental_interpretation": 14,
-      "analytical_reasoning": 3,
-      "answer_key_positions": {
-        "A": 16,
-        "B": 12,
-        "C": 13,
-        "D": 14
-      }
+      "part_b_conceptual": 20,
+      "assertion_reason": 5,
+      "matching_multiple_statement": 5,
+      "part_c_numerical": 10,
+      "part_c_experimental_analytical": 15
     },
-    "references": 20,
-    "html_bytes": 253413,
+    "references": 25,
     "revision_traps": 15,
-    "active_recall": 13,
-    "mastery_checklist": 10,
-    "method": "Unicode lexical count of 121 stored p.teaching-prose elements; excludes all headings, SVGs, captions, tables, practice and answers, revision, references and reader UI. Visible article includes supplementary content and visible SVG labels, excludes SVG title/desc and buttons.",
+    "active_recall": 12,
+    "method": "Unicode lexical count of stored HTML teaching-prose paragraphs only; excludes headings, tables, SVG, captions, practice, revision, references and reader UI. Article total includes visible SVG labels but excludes title/desc and diagram buttons.",
     "comparator": {
-      "node_id": "3.C.04",
-      "narrative_words_recounted": 14438,
-      "method": "Same teaching-prose lexical extraction from stored adjacent chapter."
+      "node_id": "3.B.13",
+      "narrative_words": 13473
     },
     "scientific_checks": [
-      "Official merged CSIR Unit 3.C, separate CSIR Life Sciences and archived MP SET 2024 syllabus page inspected.",
-      "Checked initiator Met-tRNAi identity and charging, cap/PABP organization, eIF2/eIF2B cycle, 43S assembly, eIF4F/eIF4B, scanning, Kozak positions and context, eIF1/eIF1A, eIF5/eIF5B, distinction between nucleotide hydrolysis and phosphate release, 48S to 80S joining, bacterial comparison, alternative entry and organelle exceptions.",
-      "Verified Kozak preproinsulin studies, Pestova reconstitution and eIF5B joining evidence, toeprinting logic and alternative explanations for bicistronic reporter signals.",
-      "Reviewed all question answers, reading-frame arithmetic, conditional probabilities, rate models, cap-tail additivity, ATP/GTP accounting and assay interpretation; hypothetical datasets explicitly labeled."
+      "Verified syllabus screenshots and roadmap; reviewed RBS accessibility, sRNAs, RNA thermometers, ribosomal protein feedback, translational coupling, stringent response, hibernation, eIF2B/eIF2α, four kinases, ATF4 and GCN4, mTOR/4E-BP, iron control, elongation and assays.",
+      "Second author review corrected five SVGs, clarified quantitative notation and applications. Recomputed example and practice values; original questions; hypothetical datasets labeled."
     ],
     "arithmetic_checks": {
-      "count": 29,
-      "passed": 29
+      "examples": [
+        "Synthesis flux, steady-state RNA and protein, half-time",
+        "Occupancy",
+        "Two-state fractions 0.11953/0.88047",
+        "Reinitiation probabilities 0.13286/0.38351/0.07387",
+        "Competition",
+        "Energy 398 and 998 equivalents",
+        "Ten numerical practice answers reviewed"
+      ]
     },
     "technical_checks": {
       "word_count": true,
       "unique_ids": true,
       "anchors": true,
-      "svg_labels": true,
-      "zoom_targets": true,
-      "question_numbering_and_answers": true,
-      "balanced_article_stack": true,
-      "duplicate_paragraphs": 0,
-      "reader_controls_source": true,
+      "local_links": true,
+      "question_count": true,
       "canonical": true,
-      "dynamic_neighbor_navigation": true,
-      "local_prerequisite_paths": true,
+      "svg_accessibility_source": true,
+      "zoom_targets": true,
+      "markup": true,
+      "reader_source": true,
+      "previous_next_dynamic": true,
+      "no_duplicate_prose": true,
       "menu": true,
-      "sitemap": true
+      "sitemap": true,
+      "checkpoint": true
     },
     "academic_self_review": {
       "scope_20": 20,
-      "accuracy_25": 24,
-      "teaching_20": 19,
-      "evidence_quantitative_15": 15,
-      "practice_10": 9,
-      "technical_10": 8,
+      "accuracy_30": 29,
+      "pedagogy_20": 19,
+      "practice_15": 14,
+      "references_5": 4,
+      "technical_10": 9,
       "total": 95,
       "maximum": 100,
-      "method": "Internal author/editor rubric based on roadmap coverage, verified scientific mechanisms and source excerpts, original teaching and questions, arithmetic and static HTML checks. Deductions for limited full-paper review, simplified diagram geometry, assessment breadth and lack of interactive browser/mobile testing; not external peer review."
+      "method": "Separate author review, not external peer review"
     },
     "limitations": [
-      "No external academic or examiner review; selective source abstracts, chapters and reviews checked, not all full texts.",
-      "MP SET syllabus comparator is archived 2024 public copy, not verified latest MPPSC-hosted version.",
-      "Static HTML/SVG/source checks only; browser interactions, mobile rendering, zoom and full accessibility audit not exercised.",
-      "New slug follows existing title-based convention; no prior target URL existed.",
-      "Pages deployment not yet independently verified."
+      "Not all cited full texts read; accessible sources and abstracts used.",
+      "No independent interactive browser/device rendering or full accessibility audit.",
+      "MP SET archived 2024 syllabus comparison.",
+      "Pages deployment requires separate verification.",
+      "Out-of-order authorized development; unpublished immediate neighbors remain unlinked."
     ],
-    "source_draft_branch": "draft/3.C.05-eukaryotic-translation-initiation",
-    "draft_commit_sha": "daf022a6c8f3a2523ce0b8b811fbdb36149afb2a",
+    "source_draft_branch": "draft/node-3c08-translation-regulation",
+    "draft_commit_sha": "c1c28b51c09e3ac2508d9ac0400f0e7c3c28db3a",
     "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-    "main_baseline_sha": "38c3624dc64b900a0283111025bdebda885062de",
+    "main_baseline_sha": "ffdb363f3d58b9b1377713e9375232406177a909",
     "status": "lesson_committed_pages_verification_pending"
   },
   "unit_02": {
@@ -1973,26 +1976,27 @@
       "3.C.06",
       "3.C.07",
       "3.C.09",
-      "3.C.08"
+      "3.C.08",
+      "3.C.12"
     ],
-    "published_node_count": 34,
-    "last_published_node_id": "3.C.08",
+    "published_node_count": 35,
+    "last_published_node_id": "3.C.12",
     "updated_at": "2026-11-25",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "3.C.08",
-      "title": "Regulation of Translation in Prokaryotic and Eukaryotic Cells",
-      "slug": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
-      "narrative_words": 14332,
-      "visible_article_words": 19316,
-      "html_bytes": 228258,
-      "html_characters": 227939,
-      "theory_sections": 17,
-      "teaching_paragraphs": 119,
-      "sections": 21,
-      "figures": 16,
-      "tables": 3,
+      "node_id": "3.C.12",
+      "title": "Protein Targeting to the ER and Secretory Pathway",
+      "slug": "protein-targeting-to-the-er-and-secretory-pathway.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/protein-targeting-to-the-er-and-secretory-pathway.html",
+      "narrative_words": 13719,
+      "visible_article_words": 19436,
+      "html_bytes": 223768,
+      "html_characters": 223511,
+      "theory_sections": 22,
+      "teaching_paragraphs": 157,
+      "sections": 26,
+      "figures": 15,
+      "tables": 4,
       "questions": 55,
       "distribution": {
         "part_b": 30,
@@ -2001,70 +2005,74 @@
         "assertion_reason": 5,
         "matching_multiple_statement": 5,
         "part_c_numerical": 10,
-        "part_c_experimental_analytical": 15
+        "part_c_experimental_analytical": 15,
+        "answer_key_positions": {
+          "A": 14,
+          "B": 13,
+          "C": 12,
+          "D": 16
+        }
       },
-      "references": 25,
-      "revision_traps": 15,
+      "references": 26,
+      "revision_traps": 14,
       "active_recall": 12,
-      "method": "Unicode lexical count of stored HTML teaching-prose paragraphs only; excludes headings, tables, SVG, captions, practice, revision, references and reader UI. Article total includes visible SVG labels but excludes title/desc and diagram buttons.",
+      "method": "Unicode lexical count of actual saved HTML p.teaching-prose, excluding headings, figures, captions, tables, questions/answers, revision, references and reader UI. Total visible article includes SVG labels, excludes SVG title/desc and buttons.",
       "comparator": {
-        "node_id": "3.B.13",
-        "narrative_words": 13473
+        "node_id": "3.C.08",
+        "narrative_words": 14332,
+        "teaching_paragraphs": 119,
+        "method": "Adjacent chapter's checkpoint count uses same Unicode teaching-prose method; comparison supports depth, not independent proof of quality."
       },
       "scientific_checks": [
-        "Verified syllabus screenshots and roadmap; reviewed RBS accessibility, sRNAs, RNA thermometers, ribosomal protein feedback, translational coupling, stringent response, hibernation, eIF2B/eIF2α, four kinases, ATF4 and GCN4, mTOR/4E-BP, iron control, elongation and assays.",
-        "Second author review corrected five SVGs, clarified quantitative notation and applications. Recomputed example and practice values; original questions; hypothetical datasets labeled."
+        "Verified official merged CSIR-DBT Unit 3.C and archived MP SET 2024 syllabus page images, node roadmap and overlap boundaries.",
+        "Reviewed signal hypothesis and microsome controls, SRP RNA and GTP cycle, receptor handover, Sec61 channel and lateral gate, signal cleavage versus membrane entry, type I/II/III and multipass topology, positive-inside tendency, alternative post-translational routes and GPI anchoring.",
+        "Reviewed BiP, PDI and glycan-dependent quality control, KDEL receptor-mediated retrieval, Golgi fate and pulse-chase models. Reviewed Endo H/PNGase F interpretation and confounding by enzyme redistribution.",
+        "Second author review added proximity-versus-causation controls and GPI anchor distinction, caveats for glycan readouts, five verified sources, balanced question keys and checked arithmetic."
       ],
       "arithmetic_checks": {
-        "examples": [
-          "Synthesis flux, steady-state RNA and protein, half-time",
-          "Occupancy",
-          "Two-state fractions 0.11953/0.88047",
-          "Reinitiation probabilities 0.13286/0.38351/0.07387",
-          "Competition",
-          "Energy 398 and 998 equivalents",
-          "Ten numerical practice answers reviewed"
-        ]
+        "count": 21,
+        "passed": 21
       },
       "technical_checks": {
         "word_count": true,
         "unique_ids": true,
         "anchors": true,
-        "local_links": true,
-        "question_count": true,
-        "canonical": true,
         "svg_accessibility_source": true,
         "zoom_targets": true,
-        "markup": true,
-        "reader_source": true,
-        "previous_next_dynamic": true,
-        "no_duplicate_prose": true,
+        "balanced_article_markup": true,
+        "unique_teaching_paragraphs": true,
+        "question_keys": true,
+        "arithmetic": true,
+        "canonical": true,
+        "local_prerequisite_links": true,
+        "dynamic_previous_next": true,
         "menu": true,
         "sitemap": true,
         "checkpoint": true
       },
       "academic_self_review": {
         "scope_20": 20,
-        "accuracy_30": 29,
-        "pedagogy_20": 19,
-        "practice_15": 14,
-        "references_5": 4,
+        "accuracy_25": 24,
+        "teaching_20": 19,
+        "evidence_quantitative_15": 14,
+        "practice_10": 9,
         "technical_10": 9,
         "total": 95,
         "maximum": 100,
-        "method": "Separate author review, not external peer review"
+        "method": "Separate internal author/editor review of the saved HTML, not independent external peer review. Deductions for limited complete-paper reading, model/diagram simplifications, assessment not externally tested, and interactive rendering not tested."
       },
       "limitations": [
-        "Not all cited full texts read; accessible sources and abstracts used.",
-        "No independent interactive browser/device rendering or full accessibility audit.",
-        "MP SET archived 2024 syllabus comparison.",
-        "Pages deployment requires separate verification.",
-        "Out-of-order authorized development; unpublished immediate neighbors remain unlinked."
+        "Accessible scientific records, reviews and textbook excerpts checked, not every full paper or textbook edition.",
+        "MP SET comparison is archived 2024 syllabus, not independently verified current MPPSC-hosted source.",
+        "Static markup, SVG labels and reader source checked; interactive browser/mobile rendering and full accessibility audit not performed.",
+        "New slug follows repository naming convention because no preexisting target was present.",
+        "Adjacent navigation resolves only published menu links; out-of-order requested node, earliest pending pointers preserved.",
+        "GitHub Pages deployment separately verified where available."
       ],
-      "source_draft_branch": "draft/node-3c08-translation-regulation",
-      "draft_commit_sha": "c1c28b51c09e3ac2508d9ac0400f0e7c3c28db3a",
-      "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-      "main_baseline_sha": "ffdb363f3d58b9b1377713e9375232406177a909",
+      "initial_head_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
+      "main_baseline_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
+      "source_draft_branch": "draft/node-3c12-er-secretory-targeting",
+      "draft_commit_sha": "2cff25c26a3e44e982a0fd28548301112e4efcf4",
       "status": "lesson_committed_pages_verification_pending"
     },
     "qa_by_node": {
@@ -5542,98 +5550,188 @@
         "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
         "main_baseline_sha": "ffdb363f3d58b9b1377713e9375232406177a909",
         "status": "lesson_committed_pages_verification_pending"
+      },
+      "3.C.12": {
+        "node_id": "3.C.12",
+        "title": "Protein Targeting to the ER and Secretory Pathway",
+        "slug": "protein-targeting-to-the-er-and-secretory-pathway.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/protein-targeting-to-the-er-and-secretory-pathway.html",
+        "narrative_words": 13719,
+        "visible_article_words": 19436,
+        "html_bytes": 223768,
+        "html_characters": 223511,
+        "theory_sections": 22,
+        "teaching_paragraphs": 157,
+        "sections": 26,
+        "figures": 15,
+        "tables": 4,
+        "questions": 55,
+        "distribution": {
+          "part_b": 30,
+          "part_c": 25,
+          "part_b_conceptual": 20,
+          "assertion_reason": 5,
+          "matching_multiple_statement": 5,
+          "part_c_numerical": 10,
+          "part_c_experimental_analytical": 15,
+          "answer_key_positions": {
+            "A": 14,
+            "B": 13,
+            "C": 12,
+            "D": 16
+          }
+        },
+        "references": 26,
+        "revision_traps": 14,
+        "active_recall": 12,
+        "method": "Unicode lexical count of actual saved HTML p.teaching-prose, excluding headings, figures, captions, tables, questions/answers, revision, references and reader UI. Total visible article includes SVG labels, excludes SVG title/desc and buttons.",
+        "comparator": {
+          "node_id": "3.C.08",
+          "narrative_words": 14332,
+          "teaching_paragraphs": 119,
+          "method": "Adjacent chapter's checkpoint count uses same Unicode teaching-prose method; comparison supports depth, not independent proof of quality."
+        },
+        "scientific_checks": [
+          "Verified official merged CSIR-DBT Unit 3.C and archived MP SET 2024 syllabus page images, node roadmap and overlap boundaries.",
+          "Reviewed signal hypothesis and microsome controls, SRP RNA and GTP cycle, receptor handover, Sec61 channel and lateral gate, signal cleavage versus membrane entry, type I/II/III and multipass topology, positive-inside tendency, alternative post-translational routes and GPI anchoring.",
+          "Reviewed BiP, PDI and glycan-dependent quality control, KDEL receptor-mediated retrieval, Golgi fate and pulse-chase models. Reviewed Endo H/PNGase F interpretation and confounding by enzyme redistribution.",
+          "Second author review added proximity-versus-causation controls and GPI anchor distinction, caveats for glycan readouts, five verified sources, balanced question keys and checked arithmetic."
+        ],
+        "arithmetic_checks": {
+          "count": 21,
+          "passed": 21
+        },
+        "technical_checks": {
+          "word_count": true,
+          "unique_ids": true,
+          "anchors": true,
+          "svg_accessibility_source": true,
+          "zoom_targets": true,
+          "balanced_article_markup": true,
+          "unique_teaching_paragraphs": true,
+          "question_keys": true,
+          "arithmetic": true,
+          "canonical": true,
+          "local_prerequisite_links": true,
+          "dynamic_previous_next": true,
+          "menu": true,
+          "sitemap": true,
+          "checkpoint": true
+        },
+        "academic_self_review": {
+          "scope_20": 20,
+          "accuracy_25": 24,
+          "teaching_20": 19,
+          "evidence_quantitative_15": 14,
+          "practice_10": 9,
+          "technical_10": 9,
+          "total": 95,
+          "maximum": 100,
+          "method": "Separate internal author/editor review of the saved HTML, not independent external peer review. Deductions for limited complete-paper reading, model/diagram simplifications, assessment not externally tested, and interactive rendering not tested."
+        },
+        "limitations": [
+          "Accessible scientific records, reviews and textbook excerpts checked, not every full paper or textbook edition.",
+          "MP SET comparison is archived 2024 syllabus, not independently verified current MPPSC-hosted source.",
+          "Static markup, SVG labels and reader source checked; interactive browser/mobile rendering and full accessibility audit not performed.",
+          "New slug follows repository naming convention because no preexisting target was present.",
+          "Adjacent navigation resolves only published menu links; out-of-order requested node, earliest pending pointers preserved.",
+          "GitHub Pages deployment separately verified where available."
+        ],
+        "initial_head_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
+        "main_baseline_sha": "3812f3fedaef0abb0f01af1914476774a66e196a",
+        "source_draft_branch": "draft/node-3c12-er-secretory-targeting",
+        "draft_commit_sha": "2cff25c26a3e44e982a0fd28548301112e4efcf4",
+        "status": "lesson_committed_pages_verification_pending"
       }
     },
     "next_pending_node_id": "3.C.10",
     "next_pending_node_title": "Nascent Protein Folding, Chaperones and Maturation",
     "previous_last_qa": {
-      "node_id": "3.C.05",
-      "title": "Eukaryotic Translation Initiation and Its Key Factors",
-      "slug": "eukaryotic-translation-initiation-and-its-key-factors.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/eukaryotic-translation-initiation-and-its-key-factors.html",
-      "narrative_words": 14374,
-      "visible_article_words": 21378,
-      "teaching_paragraphs": 121,
-      "theory_sections": 18,
+      "node_id": "3.C.08",
+      "title": "Regulation of Translation in Prokaryotic and Eukaryotic Cells",
+      "slug": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+      "narrative_words": 14332,
+      "visible_article_words": 19316,
+      "html_bytes": 228258,
+      "html_characters": 227939,
+      "theory_sections": 17,
+      "teaching_paragraphs": 119,
+      "sections": 21,
       "figures": 16,
       "tables": 3,
       "questions": 55,
       "distribution": {
         "part_b": 30,
-        "conceptual_mcq": 21,
-        "assertion_reason": 5,
-        "multiple_statement": 2,
-        "matching": 2,
         "part_c": 25,
-        "numerical": 8,
-        "experimental_interpretation": 14,
-        "analytical_reasoning": 3,
-        "answer_key_positions": {
-          "A": 16,
-          "B": 12,
-          "C": 13,
-          "D": 14
-        }
+        "part_b_conceptual": 20,
+        "assertion_reason": 5,
+        "matching_multiple_statement": 5,
+        "part_c_numerical": 10,
+        "part_c_experimental_analytical": 15
       },
-      "references": 20,
-      "html_bytes": 253413,
+      "references": 25,
       "revision_traps": 15,
-      "active_recall": 13,
-      "mastery_checklist": 10,
-      "method": "Unicode lexical count of 121 stored p.teaching-prose elements; excludes all headings, SVGs, captions, tables, practice and answers, revision, references and reader UI. Visible article includes supplementary content and visible SVG labels, excludes SVG title/desc and buttons.",
+      "active_recall": 12,
+      "method": "Unicode lexical count of stored HTML teaching-prose paragraphs only; excludes headings, tables, SVG, captions, practice, revision, references and reader UI. Article total includes visible SVG labels but excludes title/desc and diagram buttons.",
       "comparator": {
-        "node_id": "3.C.04",
-        "narrative_words_recounted": 14438,
-        "method": "Same teaching-prose lexical extraction from stored adjacent chapter."
+        "node_id": "3.B.13",
+        "narrative_words": 13473
       },
       "scientific_checks": [
-        "Official merged CSIR Unit 3.C, separate CSIR Life Sciences and archived MP SET 2024 syllabus page inspected.",
-        "Checked initiator Met-tRNAi identity and charging, cap/PABP organization, eIF2/eIF2B cycle, 43S assembly, eIF4F/eIF4B, scanning, Kozak positions and context, eIF1/eIF1A, eIF5/eIF5B, distinction between nucleotide hydrolysis and phosphate release, 48S to 80S joining, bacterial comparison, alternative entry and organelle exceptions.",
-        "Verified Kozak preproinsulin studies, Pestova reconstitution and eIF5B joining evidence, toeprinting logic and alternative explanations for bicistronic reporter signals.",
-        "Reviewed all question answers, reading-frame arithmetic, conditional probabilities, rate models, cap-tail additivity, ATP/GTP accounting and assay interpretation; hypothetical datasets explicitly labeled."
+        "Verified syllabus screenshots and roadmap; reviewed RBS accessibility, sRNAs, RNA thermometers, ribosomal protein feedback, translational coupling, stringent response, hibernation, eIF2B/eIF2α, four kinases, ATF4 and GCN4, mTOR/4E-BP, iron control, elongation and assays.",
+        "Second author review corrected five SVGs, clarified quantitative notation and applications. Recomputed example and practice values; original questions; hypothetical datasets labeled."
       ],
       "arithmetic_checks": {
-        "count": 29,
-        "passed": 29
+        "examples": [
+          "Synthesis flux, steady-state RNA and protein, half-time",
+          "Occupancy",
+          "Two-state fractions 0.11953/0.88047",
+          "Reinitiation probabilities 0.13286/0.38351/0.07387",
+          "Competition",
+          "Energy 398 and 998 equivalents",
+          "Ten numerical practice answers reviewed"
+        ]
       },
       "technical_checks": {
         "word_count": true,
         "unique_ids": true,
         "anchors": true,
-        "svg_labels": true,
-        "zoom_targets": true,
-        "question_numbering_and_answers": true,
-        "balanced_article_stack": true,
-        "duplicate_paragraphs": 0,
-        "reader_controls_source": true,
+        "local_links": true,
+        "question_count": true,
         "canonical": true,
-        "dynamic_neighbor_navigation": true,
-        "local_prerequisite_paths": true,
+        "svg_accessibility_source": true,
+        "zoom_targets": true,
+        "markup": true,
+        "reader_source": true,
+        "previous_next_dynamic": true,
+        "no_duplicate_prose": true,
         "menu": true,
-        "sitemap": true
+        "sitemap": true,
+        "checkpoint": true
       },
       "academic_self_review": {
         "scope_20": 20,
-        "accuracy_25": 24,
-        "teaching_20": 19,
-        "evidence_quantitative_15": 15,
-        "practice_10": 9,
-        "technical_10": 8,
+        "accuracy_30": 29,
+        "pedagogy_20": 19,
+        "practice_15": 14,
+        "references_5": 4,
+        "technical_10": 9,
         "total": 95,
         "maximum": 100,
-        "method": "Internal author/editor rubric based on roadmap coverage, verified scientific mechanisms and source excerpts, original teaching and questions, arithmetic and static HTML checks. Deductions for limited full-paper review, simplified diagram geometry, assessment breadth and lack of interactive browser/mobile testing; not external peer review."
+        "method": "Separate author review, not external peer review"
       },
       "limitations": [
-        "No external academic or examiner review; selective source abstracts, chapters and reviews checked, not all full texts.",
-        "MP SET syllabus comparator is archived 2024 public copy, not verified latest MPPSC-hosted version.",
-        "Static HTML/SVG/source checks only; browser interactions, mobile rendering, zoom and full accessibility audit not exercised.",
-        "New slug follows existing title-based convention; no prior target URL existed.",
-        "Pages deployment not yet independently verified."
+        "Not all cited full texts read; accessible sources and abstracts used.",
+        "No independent interactive browser/device rendering or full accessibility audit.",
+        "MP SET archived 2024 syllabus comparison.",
+        "Pages deployment requires separate verification.",
+        "Out-of-order authorized development; unpublished immediate neighbors remain unlinked."
       ],
-      "source_draft_branch": "draft/3.C.05-eukaryotic-translation-initiation",
-      "draft_commit_sha": "daf022a6c8f3a2523ce0b8b811fbdb36149afb2a",
+      "source_draft_branch": "draft/node-3c08-translation-regulation",
+      "draft_commit_sha": "c1c28b51c09e3ac2508d9ac0400f0e7c3c28db3a",
       "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-      "main_baseline_sha": "38c3624dc64b900a0283111025bdebda885062de",
+      "main_baseline_sha": "ffdb363f3d58b9b1377713e9375232406177a909",
       "status": "lesson_committed_pages_verification_pending"
     }
   },
@@ -5677,7 +5775,8 @@
     "3.C.06",
     "3.C.07",
     "3.C.09",
-    "3.C.08"
+    "3.C.08",
+    "3.C.12"
   ],
   "unit3c_planned_node_count": 14
 }

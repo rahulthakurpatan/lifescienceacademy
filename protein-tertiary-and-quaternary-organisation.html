@@ -245,7 +245,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node: Protein backbone conformation and secondary structure (not yet linked)">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next node: Protein folding, stability and denaturation">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -504,6 +504,7 @@
         if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
       });
       const dialog=byId("diagram-dialog");
+      byId("next-node").addEventListener("click",()=>location.href="protein-folding-stability-and-denaturation.html");
       const nodes=[["1.C.02","previous-node"],["1.C.04","next-node"]];
       fetch("./index.html",{cache:"no-cache"}).then(r=>r.ok?r.text():Promise.reject()).then(html=>{const doc=new DOMParser().parseFromString(html,"text/html");for(const [code,id] of nodes){const item=Array.from(doc.querySelectorAll(".topic-code")).find(el=>el.textContent.trim()===code);const a=item?.closest("li")?.querySelector("a[href]");if(a){const btn=byId(id);btn.disabled=false;btn.setAttribute("aria-label",(id==="previous-node"?"Previous node: ":"Next node: ")+a.textContent.trim());btn.addEventListener("click",()=>location.href=new URL(a.getAttribute("href"),location.href).href);}}}).catch(()=>{});
 

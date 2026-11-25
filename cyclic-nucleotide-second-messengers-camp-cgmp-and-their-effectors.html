@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Learn cyclic nucleotide signaling, cAMP, cGMP, their enzymes and effectors, and quantitative CSIR-NET reasoning.">
+  <meta name="robots" content="noindex,follow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/cyclic-nucleotide-second-messengers-camp-cgmp-and-their-effectors.html">
+  <title>Cyclic Nucleotide Second Messengers: cAMP, cGMP and Their Effectors | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 4</span><span>›</span><span>Sub-unit 4.A</span><span>›</span><strong>Node 04</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 4.A.04</span><span>Unit 4 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Cyclic Nucleotide Second Messengers: cAMP, cGMP and Their Effectors</h1><p class="subtitle">Cyclic nucleotide chemistry, signal formation, effector activation, messenger clearance and experimental reasoning.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#lesson-1">1. Why cells make a second messenger</a><a href="#lesson-2">2. Chemical structure and conversion of nucleotide triphosphates</a><a href="#lesson-3">3. Historical evidence for an intracellular signal</a><a href="#lesson-4">4. Adenylyl cyclase as a regulated source of cAMP</a><a href="#lesson-5">5. PKA activation and phosphorylation-dependent responses</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Cyclic Nucleotide Second Messengers: cAMP, cGMP and Their Effectors study notes"><div class="article-content" id="article"><section class="teaching-section" id="lesson-1"><h2>1. Why cells make a second messenger</h2><p class="teaching-prose">A hormone arriving at the surface of a cell presents a problem of communication rather than a problem of nutrition. The cell may already contain the enzymes required to carry out the response, yet those enzymes must remain in a different functional state until an appropriate instruction arrives. For example, a liver cell contains glycogen and the enzymes that mobilize it even when no additional glucose is immediately needed. An extracellular hormone can change the activities of those enzymes without becoming one of their substrates. The hormone supplies information; the cell supplies the molecules and chemical energy required to act upon it. This division between instruction and execution is the foundation of second-messenger signaling.</p>
+<p class="teaching-prose">Many extracellular signaling molecules are too polar or too large to cross the lipid bilayer by ordinary diffusion. A peptide hormone cannot simply enter the cytosol and find a metabolic enzyme. Instead, the extracellular domain of a receptor recognizes the hormone and transmits the information to a molecular system facing the cytoplasm. The receptor need not itself enter the cell. Its conformation or catalytic activity changes, allowing molecules on the inner side of the membrane to respond. The resulting intracellular change can be propagated by enzymes that manufacture small molecules or alter ion concentrations. An intracellular messenger is therefore an intermediate between recognition and response, not merely another name for the extracellular ligand.</p>
+<p class="teaching-prose">A cyclic nucleotide is especially useful because its concentration can be controlled by a pair of enzyme activities. A cyclase creates the cyclic form from a nucleotide triphosphate, while a phosphodiesterase converts that cyclic form into a noncyclic nucleotide. A protein that binds the cyclic product selectively can respond when its concentration rises. When the concentration falls, the equilibrium shifts toward the unbound protein, allowing many responses to reverse. This architecture is analogous to filling and draining a vessel, but with a crucial molecular qualification: the functional response is determined by binding and catalytic kinetics rather than by a macroscopic liquid level.</p>
+<p class="teaching-prose">Cyclic adenosine monophosphate, abbreviated cAMP, and cyclic guanosine monophosphate, abbreviated cGMP, are the two principal examples in classical animal-cell signal transduction. Their names identify the purine nucleoside and the presence of one phosphate group arranged in a ring. They are not simply abbreviations for ATP and GTP, and neither molecule is the same as the GDP or GTP bound to a signaling G protein. The G protein changes the state of an effector enzyme; the cyclic nucleotide is a product that can interact with many downstream targets. An examination question often tests whether these physically distinct molecular roles have been separated correctly.</p>
+<p class="teaching-prose">A receptor may be active only briefly, but an activated enzyme can turn over more than one substrate molecule during that interval. Consequently, a small number of ligand-bound receptors can lead to a much larger number of cyclic nucleotide molecules. Subsequent activation of a protein kinase provides another opportunity for amplification, since one catalytic molecule can modify multiple substrates. Amplification does not create energy from information: cellular nucleotide triphosphates supply the chemical energy and molecular material. It is possible for a pathway to amplify at one stage yet saturate at another, because finite enzyme concentrations and substrate availability place limits on the maximum response.</p>
+<p class="teaching-prose">The concentration of a messenger alone does not specify the biological response. A cell expressing a kinase and a metabolic substrate may change enzyme activity, while a cell expressing a cyclic nucleotide-gated channel may change membrane conductance. Even when two cells receive the same extracellular stimulus and generate identical average cAMP concentrations, their outputs may differ if their effectors, localization, phosphatases or regulatory proteins differ. The information carried by the signal is interpreted by the recipient. This explains why a relatively small collection of second messengers can serve many physiological processes without demanding a unique chemical messenger for every response.</p>
+<p class="teaching-prose">The words first and second describe roles within a particular signaling sequence rather than permanent chemical classes. An extracellular hormone is commonly called a first messenger because it initiates a response in a target cell. cAMP generated inside that cell then acts as a second messenger. An important exception to a simplistic location rule is nitric oxide: it can be produced in one cell, diffuse into another and directly activate an intracellular receptor-enzyme. In the responding cell it is the incoming signal, whereas cGMP formed by the activated enzyme is the downstream messenger. The biological sequence must be followed rather than inferred from the molecular size alone.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-1" viewBox="0 0 720 180" role="img" aria-labelledby="fig-1-t fig-1-d"><title id="fig-1-t">cAMP source and sink</title><desc id="fig-1-d">Cyclase produces a cyclic messenger from ATP, releasing PPi. PDE opens the ring using water.</desc><rect x="16" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="114" y="102" font-size="16" text-anchor="middle" fill="currentColor">ATP</text><rect x="261" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="359" y="102" font-size="16" text-anchor="middle" fill="currentColor">cAMP</text><rect x="506" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="604" y="102" font-size="16" text-anchor="middle" fill="currentColor">5′-AMP</text><line x1="212" y1="97" x2="261" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="261,97 251,92 251,102" fill="var(--accent)"/><text x="237" y="49" font-size="13" text-anchor="middle" fill="currentColor">Adenylyl cyclase</text><line x1="457" y1="97" x2="506" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="506,97 496,92 496,102" fill="var(--accent)"/><text x="482" y="49" font-size="13" text-anchor="middle" fill="currentColor">Phosphodiesterase</text></svg><figcaption>Cyclase produces a cyclic messenger from ATP, releasing PPi. PDE opens the ring using water. <button type="button" class="diagram-zoom tool-btn" data-figure="fig-1" aria-label="Enlarge cAMP source and sink">Enlarge diagram</button></figcaption></figure></section>
+<section class="teaching-section" id="lesson-2"><h2>2. Chemical structure and conversion of nucleotide triphosphates</h2><p class="teaching-prose">The nucleotide substrates used to make cyclic messengers are familiar from energy metabolism and nucleic acid synthesis. ATP contains the purine adenine, a ribose sugar and three phosphates attached through the 5′ oxygen of ribose. The phosphate closest to ribose is the alpha phosphate; the next two are beta and gamma. GTP has a corresponding arrangement but carries guanine instead of adenine. The ribose bears hydroxyl groups at its 2′ and 3′ positions. Numbering the sugar positions with primes distinguishes them from positions on the nitrogenous base. The 3′ oxygen and 5′ oxygen are the two points involved in the classical 3′,5′ cyclic nucleotide linkage.</p>
+<p class="teaching-prose">Adenylyl cyclase catalyzes ATP conversion into 3′,5′-cAMP and inorganic pyrophosphate. The ribose 3′ oxygen participates in attack on the alpha phosphorus, establishing a second ester linkage to the same phosphate that remains attached to the 5′ oxygen. The beta and gamma phosphates leave together as pyrophosphate. Thus the single phosphate in the product is not the result of removing two independent terminal phosphate groups in succession. Ring formation changes the connectivity of the nucleotide. Guanylyl cyclase performs an analogous transformation of GTP, producing 3′,5′-cGMP and pyrophosphate. Metal ions, typically magnesium under physiological conditions, help support catalysis by coordinating nucleotide phosphate groups and stabilizing reactive states.</p>
+<p class="teaching-prose">The distinction between ATP hydrolysis and cyclization can be expressed by following the fate of the phosphate atoms. In a conventional protein kinase reaction, the terminal gamma phosphate of ATP is transferred to a substrate hydroxyl group, leaving ADP. In a cyclase reaction, the alpha phosphate is retained in the cyclic product, while the remaining two phosphates leave as pyrophosphate. In a phosphodiesterase reaction, water is used to open the ring, and a linear nucleotide monophosphate is produced. These three transformations must not be merged into a single vague process described as using ATP. A pathway containing all three enzyme activities performs chemically distinct operations.</p>
+<p class="teaching-prose">The term phosphodiester is used because the phosphorus in the cyclic product participates in ester linkages with two oxygen atoms belonging to the sugar. The cyclic linkage is important to molecular recognition. A protein that binds cAMP does not necessarily bind ordinary 5′-AMP effectively, even though both carry the same adenine base and a single phosphate. Binding pockets distinguish molecular geometry, charge distribution and hydrogen-bonding opportunities. Adenine and guanine also present different chemical groups at their base edges, allowing many cyclic nucleotide-binding proteins and enzymes to discriminate between cAMP and cGMP. Selectivity is a quantitative property rather than an absolute rule; some targets can respond to both compounds with different affinities.</p>
+<p class="teaching-prose">Free cyclic nucleotides are hydrophilic and carry negative charge at physiological pH. They can move through aqueous intracellular spaces, but generally do not cross the hydrophobic core of a membrane freely. Their mobility inside a cell is influenced by molecular binding, barriers and local production or removal. It is therefore reasonable to depict an arrow from a membrane-associated cyclase to a cytosolic kinase in a simple pathway diagram. It is not reasonable to conclude from that arrow that the entire cell has one perfectly uniform messenger concentration at every instant. Compartmentation becomes particularly important when an experiment measures the average concentration across cells or an entire cell lysate.</p>
+<p class="teaching-prose">The energy dependence of synthesis differs from the energy dependence of subsequent signaling. The cyclase uses the nucleotide triphosphate itself as the chemical substrate. Hydrolysis of released pyrophosphate can help drive the overall transformation in cells. Binding of the cyclic product to its target is generally reversible and does not consume a new ATP molecule simply to occupy the binding site. If the target is a kinase, however, phosphorylation of a protein substrate then requires another ATP molecule. A cyclic nucleotide-gated ion channel instead permits ions to move in accordance with their electrochemical gradients. The energy for the ionic movement resides in gradients maintained by other cellular processes, not in cleavage of the bound cyclic nucleotide.</p>
+<p class="teaching-prose">Finally, cyclic nucleotide synthesis and degradation operate in a metabolically active cell whose nucleotide pools are continually renewed. A signal of a few micromolar does not imply that the corresponding millimolar triphosphate pool has been exhausted. Nonetheless, a severe metabolic perturbation that reduces ATP or GTP can influence messenger synthesis as well as many unrelated processes. An experiment using energy depletion cannot by itself establish that a particular receptor has failed. To identify the affected step, one must examine the signaling components under conditions where substrate availability and general viability are controlled.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-2" viewBox="0 0 720 180" role="img" aria-labelledby="fig-2-t fig-2-d"><title id="fig-2-t">Phosphate fates</title><desc id="fig-2-d">The alpha phosphate stays with the sugar; beta and gamma leave as pyrophosphate.</desc><rect x="16" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="114" y="102" font-size="16" text-anchor="middle" fill="currentColor">ATP (α, β, γ)</text><rect x="261" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="359" y="102" font-size="16" text-anchor="middle" fill="currentColor">cAMP (α)</text><rect x="506" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="604" y="102" font-size="16" text-anchor="middle" fill="currentColor">5′-AMP</text><line x1="212" y1="97" x2="261" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="261,97 251,92 251,102" fill="var(--accent)"/><text x="237" y="49" font-size="13" text-anchor="middle" fill="currentColor">PPi released</text><line x1="457" y1="97" x2="506" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="506,97 496,92 496,102" fill="var(--accent)"/><text x="482" y="49" font-size="13" text-anchor="middle" fill="currentColor">H₂O consumed</text></svg><figcaption>The alpha phosphate stays with the sugar; beta and gamma leave as pyrophosphate. <button type="button" class="diagram-zoom tool-btn" data-figure="fig-2" aria-label="Enlarge Phosphate fates">Enlarge diagram</button></figcaption></figure></section>
+<section class="teaching-section" id="lesson-3"><h2>3. Historical evidence for an intracellular signal</h2><p class="teaching-prose">The discovery of cAMP arose from efforts to explain how hormones control the activity of intracellular enzymes. Adrenaline and glucagon can influence glycogen metabolism, yet a simple model in which these hormones directly activate the final glycogen-degrading enzyme does not explain why membranes and soluble cellular fractions are both important. Fractionation offered a way to separate the components of the proposed pathway. Breaking cells and separating particulate material from soluble material creates preparations that retain different subsets of cellular activities. Although this technique disrupts normal spatial organization, it can reveal whether a transferable chemical intermediate exists.</p>
+<p class="teaching-prose">Rall and Sutherland reported the formation of a cyclic adenine ribonucleotide by tissue particles in 1958, followed by work characterizing the compound. These studies established a connection between hormone stimulation, a particulate enzyme system and the generation of an adenine-derived cyclic nucleotide. The importance of this work is not that every modern detail of the G-protein pathway was already known. Rather, it showed that receptor-associated events could be separated from the intracellular biochemical response by an intermediate molecule. The later identification of G proteins, cyclase isoforms and kinase mechanisms provided the molecular explanation for a principle established through biochemical fractionation.</p>
+<p class="teaching-prose">Consider a simplified reconstruction of the logic, using hypothetical preparations rather than reporting historical measurements. A particulate fraction is incubated with ATP and magnesium, either with or without a hormone that can activate the relevant machinery. A soluble preparation contains downstream enzymes but lacks an intact receptor-cyclase system. The soluble preparation is tested separately with hormone, with a small-molecule fraction from the first incubation and with purified cAMP. If hormone fails to stimulate the downstream response in the soluble preparation but purified cAMP and the small-molecule fraction from stimulated particles succeed, a direct effect of hormone on the final enzyme becomes less plausible. An additional control tests a fraction from unstimulated particles, helping distinguish the effect of hormone-induced messenger production from a constitutively present component.</p>
+<p class="teaching-prose">The interpretation must be constrained by the actual readout. An increase in downstream enzyme activity shows that the preparation contains something capable of stimulating the pathway. It does not by itself establish the chemical identity of that substance. Chemical separation and comparison with authentic compounds are necessary to establish identity. Similarly, showing that cAMP can stimulate a downstream process establishes sufficiency under the assay conditions; demonstrating that cAMP is necessary for the intact hormonal response requires interventions that remove or prevent the messenger while leaving other components functional. These are different experimental claims, and a strong answer to a Part C question recognizes the distinction.</p>
+<p class="teaching-prose">Fractionation also introduces possible artifacts. Membrane fragments may retain some cytosolic enzymes, and soluble fractions may contain small vesicles. Enzymes that would normally be separated inside a living cell may come into contact after disruption. A substance that acts in a broken-cell assay may be unable to reach its target in an intact cell because of the plasma membrane. A result should therefore be supported by tests in intact cells or complementary biochemical assays. The value of the historical evidence is its explanatory strength when combined with these distinctions, not the assumption that an early experimental system reproduces all aspects of cellular signaling.</p>
+<p class="teaching-prose">A useful modern way to revisit the discovery is to compare the effect of an upstream agonist with that of an intervention that bypasses the receptor. If a receptor is missing, hormone-dependent cAMP production may be lost, but direct activation of a competent downstream cyclase may still generate the messenger. If the cyclase is missing, stimulation of the receptor may be detectable by other means even when cAMP does not rise. A suitable intracellular cAMP delivery or analog experiment can then test whether downstream proteins retain responsiveness. The logical structure is comparable to a genetic rescue analysis: bypassing an upstream lesion can restore an output only if the necessary downstream machinery remains functional.</p>
+<p class="teaching-prose">In this way, the historical question becomes a general method for analyzing signaling. Instead of memorizing a chronological list of discoveries, the student learns to discriminate among hypotheses: direct hormone action, indirect action through a diffusible intermediate, and altered activity of a messenger-removing system. The distinction between these possibilities will recur when interpreting phosphodiesterase inhibition, nitric oxide responses and the effects of kinase mutations.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-3" viewBox="0 0 720 180" role="img" aria-labelledby="fig-3-t fig-3-d"><title id="fig-3-t">Transferable messenger</title><desc id="fig-3-d">Conceptual fractionation experiment; the intermediate can act downstream of the hormone-responsive fraction.</desc><rect x="16" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="114" y="102" font-size="16" text-anchor="middle" fill="currentColor">Hormone + particles</text><rect x="261" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="359" y="102" font-size="16" text-anchor="middle" fill="currentColor">Small molecule</text><rect x="506" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="604" y="102" font-size="16" text-anchor="middle" fill="currentColor">Soluble enzymes</text><line x1="212" y1="97" x2="261" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="261,97 251,92 251,102" fill="var(--accent)"/><text x="237" y="49" font-size="13" text-anchor="middle" fill="currentColor">Production</text><line x1="457" y1="97" x2="506" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="506,97 496,92 496,102" fill="var(--accent)"/><text x="482" y="49" font-size="13" text-anchor="middle" fill="currentColor">Transfer</text></svg><figcaption>Conceptual fractionation experiment; the intermediate can act downstream of the hormone-responsive fraction. <button type="button" class="diagram-zoom tool-btn" data-figure="fig-3" aria-label="Enlarge Transferable messenger">Enlarge diagram</button></figcaption></figure></section>
+<section class="teaching-section" id="lesson-4"><h2>4. Adenylyl cyclase as a regulated source of cAMP</h2><p class="teaching-prose">Adenylyl cyclase is the enzyme responsible for converting ATP into cAMP. In the canonical GPCR pathway of mammalian cells, the relevant cyclases are integral membrane proteins with catalytic regions exposed to the cytoplasm. This arrangement permits a membrane-localized receptor and associated G protein to control an enzyme that uses cytosolic ATP. The hormone does not enter the catalytic pocket of adenylyl cyclase. Instead, a conformational transition in the receptor changes the state of a G protein, and an active G-protein component interacts with the cyclase. This mechanism preserves the separation between ligand recognition and product synthesis.</p>
+<p class="teaching-prose">Many mammalian transmembrane adenylyl cyclases have two groups of membrane-spanning helices and two major cytoplasmic regions, commonly referred to as C1 and C2. Portions of those cytoplasmic regions associate to create the catalytic environment. Regulation changes the arrangement and activity of the catalytic regions. This is conceptually different from a simple soluble enzyme whose only regulatory signal is the concentration of its substrate. The cell can change the rate of ATP cyclization without requiring a corresponding large change in the bulk concentration of ATP. Such control is necessary if cAMP is to represent external information rather than merely report the availability of energy substrates.</p>
+<p class="teaching-prose">The stimulatory G protein Gs is named for the effect of its activated alpha subunit on appropriate adenylyl cyclase isoforms. A Gs-coupled receptor promotes nucleotide exchange in the alpha subunit. Gαs carrying GTP can interact with the cyclase and enhance cAMP formation. The activated state persists until GTP hydrolysis returns the G protein toward its GDP-bound inactive condition. The nucleotide bound to the alpha subunit is not transferred to the cyclase as the source of the cyclic product. GTP is involved in the regulatory switch; ATP is the chemical precursor of cAMP.</p>
+<p class="teaching-prose">Gi is conventionally introduced as the inhibitory G protein in this pathway. Activation of a Gi-coupled receptor can reduce the activity of susceptible adenylyl cyclase isoforms through Gαi-GTP. This reduction does not convert cAMP directly into AMP. The cAMP already present must still be removed by phosphodiesterases or other loss processes. If the production rate decreases while removal continues, the concentration falls. The time required for the decrease depends on both rates, the initial concentration and any compartmental constraints. This is why a receptor that inhibits a source enzyme can have an effect even though it does not itself destroy the messenger.</p>
+<p class="teaching-prose">There are limitations to the classroom rule Gs raises cAMP and Gi lowers cAMP. Mammalian cells express different adenylyl cyclase isoforms, which have distinct responses to regulatory proteins. Certain isoforms can be affected by Gβγ or calcium-associated regulators, and the net effect may depend on concurrent stimulation. An experiment must specify the relevant cell type and signaling context. Nevertheless, the basic Gs and Gi scheme is a reliable model for a question that explicitly assumes an appropriate cyclase, a functional receptor and no competing pathways. A student should not discard the simple model merely because exceptions exist, but should recognize when its assumptions have been exceeded.</p>
+<p class="teaching-prose">A mammalian soluble adenylyl cyclase also exists. Despite its name, it may be associated with cellular structures and is not simply a freely dispersed equivalent of the transmembrane GPCR-regulated enzymes. Its activity can respond to bicarbonate and calcium, linking cyclic nucleotide formation to changes in the internal environment. Its regulation differs from the standard direct Gs/Gi model. The existence of this enzyme shows that not all cAMP production demonstrates GPCR activation. If an experiment detects elevated cAMP without ligand binding to a cell-surface receptor, another source of cAMP must be considered.</p>
+<p class="teaching-prose">Forskolin is a commonly used experimental tool because it can directly stimulate many transmembrane adenylyl cyclases, though responses differ among isoforms. Under a suitable model, normal cAMP production in response to forskolin together with loss of response to an upstream agonist suggests a defect before the cyclase or in receptor-specific coupling. This is not conclusive identification of a particular receptor mutation: altered receptor expression, G-protein function or agonist access could produce the same pattern. Moreover, a cyclase that responds weakly to forskolin would make the proposed bypass less useful. The experiment is informative only if the intervention is validated for the cells being studied.</p>
+<p class="teaching-prose">Adenylyl cyclase activity and cAMP concentration are related but not interchangeable measurements. The enzyme assay may estimate how fast cAMP is generated during a defined interval under controlled substrate conditions. A measurement of cellular cAMP instead reflects the history of its formation, degradation and distribution. An unchanged cyclase assay alongside a large increase in cellular cAMP is compatible with impaired messenger clearance. Conversely, an elevated cyclase assay does not guarantee a sustained rise in intracellular cAMP if removal increases proportionately. This distinction provides a bridge from molecular mechanisms to the quantitative models of production and degradation.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-4" viewBox="0 0 720 180" role="img" aria-labelledby="fig-4-t fig-4-d"><title id="fig-4-t">Gs pathway</title><desc id="fig-4-d">Active Gαs regulates the cyclase, which converts cytosolic ATP to cAMP.</desc><rect x="16" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="114" y="102" font-size="16" text-anchor="middle" fill="currentColor">Gαs–GTP</text><rect x="261" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="359" y="102" font-size="16" text-anchor="middle" fill="currentColor">Adenylyl cyclase</text><rect x="506" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="604" y="102" font-size="16" text-anchor="middle" fill="currentColor">cAMP</text><line x1="212" y1="97" x2="261" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="261,97 251,92 251,102" fill="var(--accent)"/><text x="237" y="49" font-size="13" text-anchor="middle" fill="currentColor">Stimulates</text><line x1="457" y1="97" x2="506" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="506,97 496,92 496,102" fill="var(--accent)"/><text x="482" y="49" font-size="13" text-anchor="middle" fill="currentColor">Produces</text></svg><figcaption>Active Gαs regulates the cyclase, which converts cytosolic ATP to cAMP. <button type="button" class="diagram-zoom tool-btn" data-figure="fig-4" aria-label="Enlarge Gs pathway">Enlarge diagram</button></figcaption></figure></section>
+<section class="teaching-section" id="lesson-5"><h2>5. PKA activation and phosphorylation-dependent responses</h2><p class="teaching-prose">Protein kinase A, abbreviated PKA, is a major enzyme that interprets the concentration of cAMP. The word kinase indicates that it catalyzes transfer of a phosphoryl group to a substrate. PKA generally phosphorylates serine or threonine hydroxyl groups in proteins. The enzyme has a catalytic site that recognizes ATP and an appropriate protein substrate, but the kinase is controlled by separate regulatory interactions that respond to cAMP. It is therefore important to distinguish the cyclic nucleotide binding site from the ATP binding site. The former senses a signaling molecule; the latter participates directly in phosphate transfer.</p>
+<p class="teaching-prose">The canonical inactive PKA holoenzyme contains two regulatory subunits and two catalytic subunits, often represented as R₂C₂. Each regulatory subunit has two cyclic nucleotide-binding domains, giving four binding sites per holoenzyme. In the classical model, when cAMP is low, regulatory subunits bind and restrain the catalytic subunits. Binding of cAMP changes regulatory-subunit conformation, weakens the inhibitory interaction and permits catalytic activity. Many textbook diagrams show the two catalytic subunits released from the regulatory dimer. This is a useful biochemical representation, although in cellular settings some active complexes can remain spatially associated; physical separation across a large intracellular distance is not essential to the concept of relieving inhibition.</p>
+<p class="teaching-prose">A substrate must present an appropriate amino acid sequence and be accessible to the catalytic site. The presence of a serine or threonine residue alone is insufficient to make a protein a good physiological PKA substrate. Nearby residues influence recognition, and protein folding can conceal an otherwise suitable site. Even a sequence that resembles a preferred recognition motif may not be phosphorylated efficiently if it lies in a different compartment. This explains why activation of PKA does not cause indiscriminate phosphorylation of every cellular protein. The kinase has biochemical selectivity, while cellular localization supplies an additional level of specificity.</p>
+<p class="teaching-prose">The molecular consequence of phosphorylation depends on the particular protein. Adding a phosphoryl group can alter local charge and hydrogen bonding, create or destroy an interaction surface, change catalytic efficiency, or affect the location of the protein. Some PKA substrates become more active after phosphorylation; others become less active. The term protein kinase activation does not mean activation of every downstream enzyme. In glycogen regulation, a sequence of phosphorylations can stimulate glycogen breakdown while reducing the activity of glycogen synthase. Coordinating these opposite effects helps avoid simultaneous expenditure of energy on opposing metabolic processes.</p>
+<p class="teaching-prose">In a simplified hepatic glycogen pathway, PKA phosphorylates and activates phosphorylase kinase, which in turn phosphorylates glycogen phosphorylase, favoring its active phosphorylated state. Glycogen phosphorylase catalyzes phosphorolytic removal of glucose residues from glycogen to produce glucose 1-phosphate. PKA therefore does not directly hydrolyze glycogen and need not bind to glycogen as its substrate. Its role is the control of a kinase cascade upstream of a metabolic enzyme. The final metabolic response is larger than the number of initiating signals because each active enzyme can catalyze multiple reactions. The full systemic control of glucose homeostasis involves other pathways and tissues and is not required to understand the example.</p>
+<p class="teaching-prose">Protein phosphatases reverse many effects of PKA by hydrolyzing the ester bond between a substrate amino acid and its phosphate group. This process produces inorganic phosphate and restores the unphosphorylated form of the protein. Phosphatases do not reverse the kinase reaction by resynthesizing ATP from ADP and the phosphorylated protein. They carry out a separate hydrolytic reaction. The net phosphorylation state of a target depends on the relative rates of kinase and phosphatase activity. An increased phosphatase activity can diminish a PKA-dependent output even when cAMP and PKA activity remain elevated.</p>
+<p class="teaching-prose">A-kinase anchoring proteins, or AKAPs, help organize PKA and related components near specific targets. Anchoring provides a physical explanation for selective signaling when many potential substrates coexist. If a mutation disrupts anchoring, total kinase activity measured after lysis may appear normal, while phosphorylation of a locally positioned substrate decreases. This is not a contradiction: the assay has removed the spatial constraints that existed in the intact cell. It also illustrates why measuring total abundance of a protein is not equivalent to measuring its local functional activity. The exact scaffold composition differs among cell types, but the organizing principle is sufficient for the present level.</p>
+<p class="teaching-prose">The time scale of a phosphorylation response can be short because existing proteins are modified without requiring new transcription or translation. A kinase-dependent change in enzyme activity may occur before a measurable alteration in messenger RNA abundance. Some responses nevertheless persist after cAMP falls because the phosphorylated substrate has not yet been dephosphorylated. Other responses depend on transcription and may last much longer than the initial signal. For a data interpretation problem, the peak times of cAMP, kinase activity, substrate phosphorylation and physiological output should therefore not be assumed to coincide.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-5" viewBox="0 0 720 180" role="img" aria-labelledby="fig-5-t fig-5-d"><title id="fig-5-t">PKA cascade</title><desc id="fig-5-d">cAMP regulates PKA; PKA uses a separate ATP molecule to phosphorylate a target.</desc><rect x="16" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="114" y="102" font-size="16" text-anchor="middle" fill="currentColor">cAMP</text><rect x="261" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="359" y="102" font-size="16" text-anchor="middle" fill="currentColor">Active PKA</text><rect x="506" y="66" width="196" height="62" rx="9" fill="var(--surface)" stroke="currentColor"/><text x="604" y="102" font-size="16" text-anchor="middle" fill="currentColor">Phosphoprotein</text><line x1="212" y1="97" x2="261" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="261,97 251,92 251,102" fill="var(--accent)"/><text x="237" y="49" font-size="13" text-anchor="middle" fill="currentColor">Relieves inhibition</text><line x1="457" y1="97" x2="506" y2="97" stroke="var(--accent)" stroke-width="2.5"/><polygon points="506,97 496,92 496,102" fill="var(--accent)"/><text x="482" y="49" font-size="13" text-anchor="middle" fill="currentColor">ATP → ADP</text></svg><figcaption>cAMP regulates PKA; PKA uses a separate ATP molecule to phosphorylate a target. <button type="button" class="diagram-zoom tool-btn" data-figure="fig-5" aria-label="Enlarge PKA cascade">Enlarge diagram</button></figcaption></figure></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 4 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 4 · Cell Communication and Cell Signaling</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["4.A.03","previous-node","← "],["4.A.05","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

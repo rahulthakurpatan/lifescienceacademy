@@ -1,0 +1,387 @@
+[
+  [
+    "B",
+    "Which element acts in cis?",
+    "DnaA protein|oriC DNA|DnaB protein|SSB protein",
+    1,
+    "oriC acts on the molecule containing it. DnaA, DnaB and SSB are diffusible proteins that can act in trans."
+  ],
+  [
+    "B",
+    "What does a replicator specify?",
+    "An obligatory transcription start|A DNA element supporting initiation in context|A completed daughter chromosome|A ribosomal binding site",
+    1,
+    "A replicator confers replication competence in a suitable context. It is distinct from a promoter, the completed product and translation signals."
+  ],
+  [
+    "B",
+    "Why is an A/T-rich sequence not automatically an origin?",
+    "It cannot be unwound|All DNA must be GC-rich|Origin recognition and context are also required|It lacks phosphodiester bonds",
+    2,
+    "Local stability affects opening but recognition signals, their arrangement and regulatory state also matter. A/T-rich DNA has normal phosphodiester backbones."
+  ],
+  [
+    "B",
+    "What normally remains intact during local origin opening?",
+    "All base pairs|Both sugar-phosphate backbones|All base stacking|The duplex geometry",
+    1,
+    "Opening disrupts noncovalent pairing and stacking without normally cleaving either covalent backbone."
+  ],
+  [
+    "B",
+    "Which E. coli protein recognizes DnaA boxes?",
+    "DnaG|DnaC|DnaA|DnaB",
+    2,
+    "DnaA is the initiator. DnaC loads DnaB, DnaB is the helicase and DnaG is primase."
+  ],
+  [
+    "B",
+    "What best describes ADP-bound DnaA?",
+    "It cannot bind any DNA|It is the bacterial primase|It is less competent for productive initiation but can occupy some strong sites|It is the active fork helicase",
+    2,
+    "ADP-DnaA can bind certain high-affinity sites, but ATP-DnaA supports productive origin assembly. Neither is primase or helicase."
+  ],
+  [
+    "B",
+    "What is the main role of IHF at the E. coli origin?",
+    "DNA bending to assist assembly|DNA polymerization|RNA primer removal|Methylation of adenine",
+    0,
+    "IHF changes DNA geometry to facilitate assembly. The other reactions belong to different proteins."
+  ],
+  [
+    "B",
+    "Which pair is correct for E. coli?",
+    "DnaB loader, DnaC helicase|DnaC loader, DnaB helicase|DnaA primase, DnaG initiator|DnaG methylase, SeqA polymerase",
+    1,
+    "E. coli DnaC loads DnaB; DnaA initiates and DnaG primes. Bacillus naming differs."
+  ],
+  [
+    "B",
+    "DnaB typically translocates along which template?",
+    "Leading, 3′→5′|Lagging, 5′→3′|Both in the same ring|Neither strand",
+    1,
+    "DnaB moves 5′→3′ along the lagging template; the eukaryotic CMG uses the leading template in the opposite polarity."
+  ],
+  [
+    "B",
+    "Why does primase act before DNA polymerase can extend a new chain?",
+    "It provides an existing 3′-OH|It removes all origin proteins|It methylates the DNA|It reverses the direction of the template",
+    0,
+    "DNA polymerase usually requires a primer 3′-OH. Primase can synthesize a short RNA de novo."
+  ],
+  [
+    "B",
+    "Which protein preferentially associates with freshly replicated hemimethylated GATC-rich oriC in E. coli?",
+    "ORC|Geminin|SeqA|GINS",
+    2,
+    "SeqA participates in sequestration. ORC, geminin and GINS belong to eukaryotic initiation mechanisms."
+  ],
+  [
+    "B",
+    "What is RIDA?",
+    "RNA removal by DnaG|Regulatory inactivation of DnaA via ATP hydrolysis|Direct methylation of DNA by Hda|Loading MCM in G1",
+    1,
+    "RIDA links the DNA-loaded clamp and Hda to DnaA-ATP hydrolysis, reducing initiation competence."
+  ],
+  [
+    "B",
+    "What is the role of DARS sequences in E. coli?",
+    "Promote DnaA nucleotide exchange|Encode GINS|Replace oriC with a promoter|Terminate every replication fork",
+    0,
+    "DARS facilitates reactivation of DnaA through nucleotide exchange; it is not a helicase or termination sequence."
+  ],
+  [
+    "B",
+    "Which statement describes a normal budding yeast licensed origin?",
+    "An active DnaB ring surrounds ssDNA|An inactive MCM double hexamer surrounds duplex DNA|A DNA polymerase has already copied the entire replicon|Geminin must be bound to every origin",
+    1,
+    "MCM cores are loaded head-to-head around duplex DNA before firing. Geminin is an animal-cell regulatory example."
+  ],
+  [
+    "B",
+    "Which combination establishes eukaryotic origin licensing?",
+    "ORC, Cdc6, Cdt1, MCM2–7|DnaA, DnaB, DnaG, SeqA|Cdc45 alone|Pol δ and ligase alone",
+    0,
+    "The first group supports loading of MCM. Cdc45 is associated with firing and the bacterial factors belong to another system."
+  ],
+  [
+    "B",
+    "What does CMG stand for?",
+    "Cdc6, methylase, gyrase|Cdc45, MCM, GINS|Cdt1, MCM, geminin|Clamp, motor, GATC",
+    1,
+    "CMG is the active eukaryotic helicase core formed by Cdc45, MCM2–7 and GINS."
+  ],
+  [
+    "B",
+    "Which activity promotes eukaryotic firing?",
+    "DDK and S-phase CDK|Dam methylase alone|SeqA binding|Loss of all nucleotide triphosphates",
+    0,
+    "DDK and S-CDK promote activation of loaded MCM through phosphorylation-dependent interactions."
+  ],
+  [
+    "B",
+    "What is the immediate priming product of eukaryotic Pol α–primase?",
+    "A completed chromosome|A composite RNA-DNA primer|Only a DNA duplex with no RNA|An ATP-bound ORC",
+    1,
+    "Primase makes RNA and Pol α extends it with short DNA. Later replicative polymerases extend the product."
+  ],
+  [
+    "B",
+    "Geminin most directly restricts which activity in animal cells?",
+    "Cdt1-dependent licensing|DNA base pairing|DnaG priming|Bacterial RIDA",
+    0,
+    "Geminin inhibits Cdt1 and helps prevent relicensing during S/G2/M."
+  ],
+  [
+    "B",
+    "Which is the correct statement about origin use?",
+    "Every licensed origin fires exactly once|A licensed origin can be passively replicated|All origins fire simultaneously|Origin and fork are synonymous",
+    1,
+    "A neighboring fork can copy a licensed region before that origin fires; the other claims confuse competence with execution."
+  ],
+  [
+    "B",
+    "Which is true of mammalian nuclear origins?",
+    "Every one is specified by the budding yeast ACS|None is associated with chromatin|Origin selection depends on multiple sequence/context features|All are located at chromosome ends",
+    2,
+    "Mammalian initiation frequently occurs within zones and depends on chromatin and other factors; there is no universal yeast-style ACS."
+  ],
+  [
+    "B",
+    "Which feature is characteristic of many archaea?",
+    "Orc1/Cdc6-related initiators and MCM helicase|Universal E. coli DnaA plus DnaB|Only linear chromosomes|Mandatory animal geminin control",
+    0,
+    "Archaeal initiator and helicase families resemble eukaryotic factors, but their origin counts and regulatory arrangements vary."
+  ],
+  [
+    "B",
+    "What is the strongest direct interpretation of a DNA footprint?",
+    "The whole replicon is duplicated|A DNA region is protected by bound molecules under assay conditions|Every origin has fired|All forks have terminated",
+    1,
+    "Footprinting maps protection, not completion or fork count."
+  ],
+  [
+    "B",
+    "A bubble arc on a suitable two-dimensional replication gel supports what?",
+    "Initiation inside the tested fragment|A protein binding site without DNA replication|Only passive entry of one fork|Absence of all replication",
+    0,
+    "Internal initiation generates bubble intermediates; passive fork entry ordinarily yields a simple Y pattern."
+  ],
+  [
+    "C",
+    "An oriC allele has normal DnaA occupancy but no strand-accessibility increase. Which defect is most directly supported?",
+    "Failure after recognition at productive assembly or opening|Complete absence of all DnaA|Failure exclusively in ligation|Loss of terminus DNA",
+    0,
+    "Recognition was detected but local opening was not. Ligation acts later; DnaA absence contradicts the observation."
+  ],
+  [
+    "C",
+    "A bacterial extract opens oriC and loads DnaB, but lacks short RNA products. Normal DnaG restores RNA and DNA synthesis. Which stage failed?",
+    "Origin identification|Helicase loading|Priming|Termination",
+    2,
+    "The upstream steps were intact and rescue with primase identifies failure of primer formation."
+  ],
+  [
+    "C",
+    "A mutant DnaB unwinds an artificial preopened substrate normally but fails to associate with oriC. Which inference is most justified?",
+    "The motor is completely inactive|Origin-dependent recruitment/loading may be defective|The DNA cannot base-pair|SeqA must be absent",
+    1,
+    "Motor activity on the artificial substrate is preserved; the native loading step could be impaired. Other diagnoses require additional evidence."
+  ],
+  [
+    "C",
+    "A cell retains total DnaA but has markedly less ATP-DnaA. Which experiment best addresses whether its initiation competence has changed?",
+    "Total protein blot only|Assay nucleotide state plus new origin initiation|Count ribosomes|Measure only final ligase abundance",
+    1,
+    "The active state and actual initiation must both be assessed. Total abundance alone misses state changes."
+  ],
+  [
+    "C",
+    "An E. coli population has high ori/ter ratio, slow forks and normal initiator abundance. What follows?",
+    "Overinitiation is proved|Slower completion can contribute to the ratio|All chromosomes must have two origins|The data prove no replication",
+    1,
+    "The ratio depends on the interval between marker duplication. Slower forks can elevate it without excessive initiation."
+  ],
+  [
+    "C",
+    "A G1 yeast sample has normal ORC association but little stable MCM on DNA. The earliest detected defect is at what stage?",
+    "Recognition of all DNA|Helicase loading|S-phase fork termination|RNA splicing",
+    1,
+    "The recognition signal is retained while the licensing product is deficient. The precise affected loading factor is not determined."
+  ],
+  [
+    "C",
+    "Normal G1 MCM, low S-phase Cdc45 and low nascent DNA are observed. Which mechanism is most consistent?",
+    "Failure to activate licensed origins|Complete failure to license|Excessive RNA splicing|Loss of all chromosomal DNA",
+    0,
+    "MCM loading occurred, but the transition to active CMG and synthesis was compromised."
+  ],
+  [
+    "C",
+    "Cdt1 activity remains abnormally high in S phase and new MCM is detected on already copied DNA. Which phenotype is a concern?",
+    "Relicensing and rereplication|Failure of all initial origin recognition|Only transcription termination|Complete absence of G1 licensing",
+    0,
+    "New licensing on copied DNA can permit repeated initiation; initial synthesis is not necessarily impaired."
+  ],
+  [
+    "C",
+    "Two cultures incorporate equal total analog in a pulse, but culture X has fewer newly fired origins. What explanation is compatible?",
+    "X could have more ongoing forks or faster forks|Equal incorporation proves equal origin firing|X has no DNA|X must have no helicase",
+    0,
+    "Bulk incorporation integrates active fork numbers and rates. It does not directly count new origins."
+  ],
+  [
+    "C",
+    "An inhibitor added during S phase prevents new CMG formation but not existing fork motion. What should happen initially?",
+    "All ongoing synthesis ceases instantly|Existing forks can continue while fewer new bubbles appear|New licensing immediately begins on copied DNA|Every origin fires at once",
+    1,
+    "Already activated motors and polymerases can function under the stipulated conditions; new initiation is specifically reduced."
+  ],
+  [
+    "C",
+    "A yeast ARS mutation impairs plasmid maintenance. Which additional control distinguishes autonomous replication from integration?",
+    "Verify recovered extrachromosomal DNA and compare no-ARS plasmid|Measure colony color only|Add more unrelated protein|Assume every colony is independent replication",
+    0,
+    "Physical plasmid recovery and a negative construct control address integration and transient expression."
+  ],
+  [
+    "C",
+    "A normal DnaA protein supplied in trans rescues strain X but not strain Y, whose oriC contains a crucial recognition-site mutation. What interpretation fits?",
+    "X may carry an initiator defect; Y has a cis defect|Both must lack all DNA|Y is necessarily a DnaG mutant|Origin DNA always acts in trans",
+    0,
+    "A diffusible factor can rescue a recessive protein defect but need not restore a missing cis-acting signal."
+  ],
+  [
+    "C",
+    "A licensed origin is reached by a neighboring fork before its planned firing time. What normally happens?",
+    "It must fire anyway|It is passively copied and its licensing competence is lost|It is deleted from the genome|It must become a promoter",
+    1,
+    "Passive replication removes the need for an independent initiation event and prevents that licensed state from persisting on copied DNA."
+  ],
+  [
+    "C",
+    "Moderate MCM depletion has little effect in favorable conditions but under fork stress reduces additional origin use. Which hypothesis is supported?",
+    "Excess MCM provides dormant-origin reserve|MCM is irrelevant|Every loaded MCM must fire normally|MCM is bacterial primase",
+    0,
+    "A reserve is most valuable under stress; normal replication can use fewer than all licensed sites."
+  ],
+  [
+    "N",
+    "A 4.8 Mb circular chromosome has two forks at 1000 bp/s each. Ideal completion time?",
+    "20 min|40 min|80 min|240 min",
+    1,
+    "4,800,000 bp ÷ 2000 bp/s = 2400 s = 40 min. The denominator includes both forks."
+  ],
+  [
+    "N",
+    "For a 60 kb interval between simultaneously fired origins with opposing forks at 1 and 2 kb/min, when do they meet?",
+    "10 min|20 min|30 min|60 min",
+    1,
+    "Closing speed is 3 kb/min; 60 ÷ 3 = 20 min. The slow fork covers 20 kb."
+  ],
+  [
+    "N",
+    "An origin fires at t=0; a neighbor 100 kb away would fire at t=70 min. First fork speed is 2 kb/min. What occurs?",
+    "Neighbor is reached at 50 min and passively replicated|Neighbor fires first|Fork reaches at 100 min|Both must fire",
+    0,
+    "100 ÷ 2 = 50 min, before the scheduled firing at 70 min."
+  ],
+  [
+    "N",
+    "For C=45 min and doubling time 30 min in the balanced growth model, predicted ori/ter is approximately?",
+    "1.5|2.0|2.83|4.5",
+    2,
+    "2^(45/30) = 2^1.5 = 2.828. The ratio is exponential, not C/τ."
+  ],
+  [
+    "N",
+    "A fiber segment covers 24 kb during a 12 min pulse. Estimated fork speed?",
+    "0.5 kb/min|2 kb/min|12 kb/min|288 kb/min",
+    1,
+    "Distance divided by time = 24/12 = 2 kb/min."
+  ],
+  [
+    "N",
+    "For free DnaA=60 nM and an independent site Kd=20 nM, occupancy is?",
+    "25%|50%|75%|100%",
+    2,
+    "P/(Kd+P) = 60/80 = 0.75; the independent-site assumption is supplied."
+  ],
+  [
+    "N",
+    "A closed 2100 bp B-DNA circle has relaxed 10.5 bp/turn and Lk=190. Superhelical density is?",
+    "+0.05|−0.05|−0.10|+10",
+    1,
+    "Lk0=200, ΔLk=−10; σ=−10/200=−0.05."
+  ],
+  [
+    "N",
+    "An origin fires in 48 of 120 equivalent molecules. Estimated observed efficiency?",
+    "25%|40%|48%|72%",
+    1,
+    "48/120=0.4. The other molecules may still be replicated passively."
+  ],
+  [
+    "N",
+    "A diploid G2 cell has 4C DNA. If 5% of that DNA is copied one extra time with no loss, final DNA content?",
+    "4.05C|4.2C|4.5C|8C",
+    1,
+    "Extra DNA is 0.05 × 4C = 0.2C; total 4.2C. Ploidy does not necessarily change."
+  ],
+  [
+    "AR",
+    "Assertion: MCM loading in G1 does not prove firing. Reason: MCM can be loaded as an inactive duplex-bound double hexamer.",
+    "Both true, reason explains assertion|Both true, reason does not explain|Assertion true, reason false|Assertion false, reason true",
+    0,
+    "The inactive loaded state is precisely why detection of MCM is not evidence of initiation."
+  ],
+  [
+    "AR",
+    "Assertion: DnaB and CMG move on different strand templates at a fork. Reason: DnaB tracks 5′→3′ and CMG tracks 3′→5′.",
+    "Both true, reason explains assertion|Both true, reason does not explain|Assertion true, reason false|Assertion false, reason true",
+    0,
+    "Antiparallel template orientation makes the different tracking polarities correspond to lagging versus leading templates."
+  ],
+  [
+    "AR",
+    "Assertion: Every licensed origin must fire. Reason: A neighboring fork can passively copy a licensed site before activation.",
+    "Both true, reason explains assertion|Both true, reason does not explain|Assertion true, reason false|Assertion false, reason true",
+    3,
+    "The reason is true and directly refutes the assertion."
+  ],
+  [
+    "AR",
+    "Assertion: A rise in bacterial ori/ter proves overinitiation. Reason: A decrease in fork speed can also raise ori/ter.",
+    "Both true, reason explains assertion|Both true, reason does not explain|Assertion true, reason false|Assertion false, reason true",
+    3,
+    "The ratio is not unique evidence for overinitiation; the reason gives a plausible alternative."
+  ],
+  [
+    "AR",
+    "Assertion: High S-phase CDK can favor firing while restricting licensing. Reason: Different phosphorylation targets control different stages.",
+    "Both true, reason explains assertion|Both true, reason does not explain|Assertion true, reason false|Assertion false, reason true",
+    0,
+    "CDK promotes activation of existing licensed origins and helps inhibit installation of new helicases."
+  ],
+  [
+    "MS",
+    "Select the correct statements: I. oriC is cis-acting. II. DnaA is trans-acting. III. Every A/T-rich segment is an origin. IV. DnaG synthesizes primers.",
+    "I and II only|I, II and IV|II and III|All four",
+    1,
+    "I, II and IV are correct. A/T richness is not sufficient for an origin."
+  ],
+  [
+    "MS",
+    "Select the correct statements: I. MCM2–7 has six distinct subunits. II. A loaded double hexamer contains two MCM cores. III. CMG contains GINS. IV. ORC is the moving fork helicase.",
+    "I and IV|II and IV|I, II and III|All four",
+    2,
+    "I–III are true. ORC supports recognition/loading, not continuous fork helicase action."
+  ],
+  [
+    "M",
+    "Match E. coli components: 1 DnaA, 2 DnaC, 3 DnaG, 4 SeqA; P priming, Q origin sequestration, R helicase loading, S origin initiation.",
+    "1-S, 2-R, 3-P, 4-Q|1-P, 2-Q, 3-R, 4-S|1-R, 2-S, 3-Q, 4-P|1-Q, 2-P, 3-S, 4-R",
+    0,
+    "DnaA organizes initiation, DnaC loads DnaB, DnaG primes and SeqA sequesters newly replicated origin DNA."
+  ]
+]

@@ -1,0 +1,92 @@
+{
+  "node_id": "3.C.01",
+  "title": "Genetic Code and Principles of Translational Decoding",
+  "slug": "genetic-code-and-principles-of-translational-decoding.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-code-and-principles-of-translational-decoding.html",
+  "narrative_words": 14102,
+  "visible_article_words": 19225,
+  "teaching_paragraphs": 141,
+  "theory_sections": 15,
+  "figures": 14,
+  "tables": 5,
+  "questions": 56,
+  "distribution": {
+    "part_b": 33,
+    "conceptual_mcq": 26,
+    "assertion_reason": 5,
+    "matching_multiple_statement": 2,
+    "part_c": 23,
+    "numerical": 10,
+    "other_analytical": 13
+  },
+  "references": 20,
+  "html_bytes": 229252,
+  "revision_traps": 15,
+  "active_recall": 10,
+  "method": "Unicode lexical count of 141 actual stored HTML p.teaching-prose paragraphs; article total includes visible SVG labels and supplementary text, excludes SVG title/desc and buttons. Headings, figures, captions, tables, questions, answers, revision and references excluded from narrative count.",
+  "comparator": {
+    "node_id": "3.B.13",
+    "narrative_words_recounted": 13490,
+    "method": "Same Unicode word regex on stored comparator teaching paragraphs; minor differences from its historical QA method possible."
+  },
+  "scientific_checks": [
+    "Official merged NET Unit 3.C, separate NET and archived MP SET 2024 page 3 visually inspected",
+    "Verified standard codon table, 61 sense plus three stops and unequal degeneracy",
+    "Reviewed Crick T4 frameshift evidence, Nirenberg/Matthaei poly(U), Khorana defined polymers, Nirenberg/Leder triplet binding and Chapeville adaptor experiment",
+    "Verified 5′/3′ orientation, reading phases and initiation/termination distinctions, wobble and modification caveats",
+    "Verified vertebrate mitochondrial table and selective Sec/Pyl recoding; distinguished genome-wide reassignment and context-specific events",
+    "Reviewed mutational examples, spliced exon junction, tRNA attachment vs recognition, hypothetical assay controls and probability assumptions"
+  ],
+  "arithmetic_checks": {
+    "examples_recomputed": [
+      "three frames of AUGGCUAAACCGUAA",
+      "coordinate 46 from start 17 = codon 10 base 3",
+      "64 total triplets; 61 sense; 20 residue types",
+      "classical coverage 31 anticodon types",
+      "1,203 nt including stop = 400 residues, 399 bonds",
+      "96 reverse translations including stop",
+      "(61/64)^5 = 0.7865916; (61/64)^10 = 0.6187263",
+      "biased-base random stop probability = 0.063"
+    ],
+    "passed": true
+  },
+  "technical_checks": {
+    "word_gate": true,
+    "unique_ids": true,
+    "duplicate_teaching_paragraphs": 0,
+    "anchor_targets": true,
+    "svg_accessibility_source": true,
+    "zoom_targets": true,
+    "balanced_markup_stack": true,
+    "question_numbering": true,
+    "code_table_stop_count": true,
+    "local_prerequisite_paths": true,
+    "previous_dynamic_navigation": true,
+    "next_node_disabled_until_linked": true,
+    "reader_controls_source": true,
+    "canonical": true
+  },
+  "academic_self_review": {
+    "scope_20": 20,
+    "accuracy_25": 24,
+    "depth_20": 19,
+    "experimental_quantitative_15": 15,
+    "practice_10": 9,
+    "technical_10": 8,
+    "total": 95,
+    "maximum": 100,
+    "method": "Separate internal critical review of stored chapter; not external peer review. Deductions for limitations in source coverage, assessment breadth and lack of actual browser/device testing."
+  },
+  "limitations": [
+    "Not externally peer reviewed; not all cited full papers inspected.",
+    "MP SET comparator is archived public 2024 copy, not independently verified latest MPPSC-hosted syllabus.",
+    "Static HTML source review only; interactive reader controls, SVG rendering and mobile accessibility not independently browser-tested.",
+    "GitHub Pages deployment must be verified separately.",
+    "New filename follows established lower-case hyphenated title convention; no previous target URL existed."
+  ],
+  "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
+  "main_baseline_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
+  "source_draft_branch": "draft/node-3c01-genetic-code",
+  "draft_commit_sha": "671e5dce73cab42fe551128595047012dec81e60",
+  "status": "lesson_committed_pages_verification_pending"
+}

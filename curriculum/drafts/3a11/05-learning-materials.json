@@ -1,0 +1,826 @@
+{
+  "extension": "A central feature of homologous pairing is that it conserves the distinction between thermodynamic possibility and kinetic accessibility. Two complementary DNA strands can form a stable duplex, but this does not imply that a complementary sequence buried inside a double helix is immediately accessible. In a donor duplex, the bases that could pair with the incoming strand are already paired. Productive invasion requires an intermediate in which new pairing interactions can be tested before the system commits to displacement of the previous partner. The recombinase filament facilitates this exchange while avoiding the requirement that the entire donor molecule become single-stranded. This helps explain how sequence recognition can occur within a long molecule whose overall double-helical organization remains intact.\n\nThe free-energy change of the complete reaction must not be inferred merely by counting hydrogen bonds. Base stacking, electrostatic effects, DNA deformation, hydration, protein binding and nucleotide-dependent transitions all influence the energetic landscape. In a simplified exchange between perfectly matching strands, the number of ordinary base pairs may be nearly the same before and after exchange. Yet the transition between the two arrangements can face a kinetic barrier, because the original pairing must be disrupted and the incoming strand must be appropriately aligned. A recombinase can facilitate productive transitions without creating a new chemical rule for base recognition. ATP-dependent changes in the filament can regulate the lifetime of intermediates and the ability of the system to reset for further rounds of activity.\n\nA second energetic distinction concerns the separate activities of the downstream enzymes. DNA polymerase uses incoming deoxyribonucleoside triphosphates to extend the primer, releasing pyrophosphate. ATP-dependent motor proteins such as RuvB use nucleotide hydrolysis to promote DNA translocation. Ligases use an activated chemical intermediate to seal a phosphodiester bond, with ATP or NAD-dependent systems occurring in different organisms. These are different energy-coupling reactions. If a biochemical assay contains ATP but lacks the deoxyribonucleotide substrates needed for DNA synthesis, the ATP cannot simply replace all four DNA precursors. Similarly, the ability to synthesize DNA does not replace the need for an appropriate junction-processing activity.\n\nThe distinction is experimentally useful when the stages of the pathway are isolated. In a pairing assay designed to measure formation of a D-loop, the absence of deoxyribonucleotide incorporation does not necessarily indicate failure, because synthesis may not be part of the reaction being measured. In a complete repair reaction, by contrast, missing sequence cannot be restored if the nucleotide precursors and required polymerase activity are unavailable. A successful early-stage assay is therefore not evidence that all later energy-dependent reactions have occurred. The appropriate interpretation always depends on the defined starting substrate and the product being measured.\n\nThis perspective also clarifies why no universal ATP-per-base-pair stoichiometry should be assigned to homologous recombination. The number of ATP molecules hydrolyzed by a filament depends on its assembly, turnover, duration and the circumstances of the reaction; the amount of motor activity required to move a junction depends on its substrate and pathway. A numerical examination problem may specify a motor's hydrolysis rate and an ideal step size, permitting a conditional calculation of displacement. Such a calculation describes that hypothetical motor model, not a general energetic law of chromosome repair.",
+  "extensionTitle": "Energetics of strand exchange and DNA processing",
+  "B": [
+    [
+      "Conceptual",
+      "Which property directly permits an invading DNA strand to pair with one strand of a donor duplex?",
+      [
+        "Identical polarity and sequence to the pairing partner",
+        "Antiparallel complementary sequence",
+        "Identical chromosome size",
+        "Presence of a replication origin"
+      ],
+      1,
+      "Watson–Crick pairing requires antiparallel complementary strands. The displaced strand, not the pairing partner, corresponds to the invading sequence; chromosome size and an origin are irrelevant to local pairing."
+    ],
+    [
+      "Conceptual",
+      "What defines a heteroduplex in a recombination intermediate?",
+      [
+        "Two strands with different molecular origins paired together",
+        "Any DNA with a nick",
+        "A molecule with three covalent backbones",
+        "DNA containing only G:C pairs"
+      ],
+      0,
+      "Different molecular origins define the mixed duplex. Mismatches may occur, but a nick, three-strand structure or particular base composition is not required."
+    ],
+    [
+      "Conceptual",
+      "The classical Holliday model begins with which event?",
+      [
+        "Two corresponding single-strand nicks",
+        "A transposon insertion",
+        "Complete chromosome replication",
+        "A programmed RNA cleavage"
+      ],
+      0,
+      "The original model uses equivalent nicks and exchange of strands. Modern break-repair models instead begin with a break in one recipient duplex."
+    ],
+    [
+      "Conceptual",
+      "What is the central action of E. coli RecA?",
+      [
+        "Ligation of nicks",
+        "Homology search and strand exchange",
+        "Excision of thymine dimers",
+        "Cleavage of Holliday junctions"
+      ],
+      1,
+      "RecA organizes a pairing-competent filament and promotes strand exchange. Ligase, lesion-specific repair factors and RuvC perform other operations."
+    ],
+    [
+      "Conceptual",
+      "Which eukaryotic factor is a central RecA-family recombinase in mitotic repair?",
+      [
+        "RAD51",
+        "RPA",
+        "DNA ligase I",
+        "ORC"
+      ],
+      0,
+      "RAD51 promotes homologous pairing; RPA protects exposed ssDNA, ligase seals nicks and ORC participates in replication initiation."
+    ],
+    [
+      "Conceptual",
+      "A canonical D-loop contains:",
+      [
+        "Two completely separate duplexes",
+        "A locally displaced donor strand and a new paired region",
+        "Only RNA–DNA hybrids",
+        "Four broken chromosome ends"
+      ],
+      1,
+      "The invading strand pairs with its complementary donor partner and displaces the other donor strand. A D-loop need not be a four-way junction."
+    ],
+    [
+      "Conceptual",
+      "Which exposed end can ordinarily prime repair synthesis?",
+      [
+        "A paired 5′ phosphate",
+        "A paired 3′ hydroxyl",
+        "An unpaired 5′ hydroxyl alone",
+        "An internal base with no backbone break"
+      ],
+      1,
+      "Polymerase extends the primer 3′-OH. A 5′ end cannot substitute as the ordinary extension terminus."
+    ],
+    [
+      "Conceptual",
+      "Which bacterial factor is the canonical junction-recognition component of RuvAB?",
+      [
+        "RuvA",
+        "RuvB",
+        "RuvC",
+        "RecA"
+      ],
+      0,
+      "RuvA recognizes and organizes the four-way structure. RuvB drives migration, RuvC cleaves junctions and RecA catalyzes pairing."
+    ],
+    [
+      "Conceptual",
+      "Which protein provides the ATP-driven motor of the E. coli RuvAB system?",
+      [
+        "RuvC",
+        "RuvA",
+        "RuvB",
+        "DNA ligase"
+      ],
+      2,
+      "RuvB translocates DNA. RuvA organizes the junction, RuvC resolves it and ligase seals compatible nicks."
+    ],
+    [
+      "Conceptual",
+      "Canonical RuvC activity is best described as:",
+      [
+        "DNA polymerization",
+        "Structure-selective nuclease cleavage",
+        "Origin licensing",
+        "ATP-driven homology search"
+      ],
+      1,
+      "RuvC introduces related junction incisions; polymerization, origin licensing and homology search belong to other proteins."
+    ],
+    [
+      "Conceptual",
+      "What changes during branch migration?",
+      [
+        "The location of the pairing boundary along DNA",
+        "The sequence order of all parental backbones",
+        "The genetic code",
+        "The direction of DNA polymerase synthesis"
+      ],
+      0,
+      "Migration shifts the branch point and pairing relationships; it need not cut every backbone bond or reorder the sequence."
+    ],
+    [
+      "Conceptual",
+      "Which route characteristically produces a noncrossover by removal and annealing of the extended invading strand?",
+      [
+        "SDSA",
+        "RecBCD loading",
+        "Canonical NHEJ",
+        "Site-specific integration"
+      ],
+      0,
+      "Synthesis-dependent strand annealing returns the extended strand to the recipient. NHEJ does not require this donor-copying reaction."
+    ],
+    [
+      "Conceptual",
+      "Dissolution of a double Holliday junction yields which distal outcome?",
+      [
+        "Obligate crossover",
+        "Noncrossover",
+        "Obligate chromosome deletion",
+        "A four-arm junction as final product"
+      ],
+      1,
+      "Convergent migration and topological unlinking preserve noncrossover flanking associations; a persistent junction would be incomplete processing."
+    ],
+    [
+      "Conceptual",
+      "Which is most directly associated with an A:a 3:1 tetrad ratio?",
+      [
+        "Reciprocal exchange alone",
+        "Gene conversion at the informative locus",
+        "Ordinary replication alone",
+        "Equal segregation with no allele changes"
+      ],
+      1,
+      "A local conversion can change the allele inventory. Reciprocal crossover alone preserves the total two-to-two count."
+    ],
+    [
+      "Conceptual",
+      "Why is a sister chromatid commonly a favorable repair template?",
+      [
+        "It generally has closely matching DNA and is nearby",
+        "It never contains DNA damage",
+        "It is always available in G1",
+        "It lacks phosphodiester bonds"
+      ],
+      0,
+      "Replicated sisters generally provide highly matching nearby sequence. They can be damaged and are not yet available as a replicated pair in G1."
+    ],
+    [
+      "Conceptual",
+      "Which distinction between homologous and site-specific recombination is sound?",
+      [
+        "Both always use RecA",
+        "Homologous recombination recognizes sequence correspondence between substrates",
+        "Site-specific recombination never changes DNA topology",
+        "Homologous recombination never makes deletions"
+      ],
+      1,
+      "Extended matching sequence is central to homologous exchange, whereas site-specific recombinases recognize characteristic sites. Both can alter chromosome organization."
+    ],
+    [
+      "Conceptual",
+      "What is the principal danger of nonallelic homologous recombination?",
+      [
+        "Loss of Watson–Crick complementarity everywhere",
+        "Rearrangement caused by pairing at inappropriate repeated loci",
+        "Loss of all polymerase activity",
+        "Universal conversion to RNA"
+      ],
+      1,
+      "A locally compatible repeat at the wrong genomic location can produce copy-number or orientation changes."
+    ],
+    [
+      "Conceptual",
+      "Which eukaryotic protein protects exposed ssDNA before productive RAD51 assembly?",
+      [
+        "RPA",
+        "RuvC",
+        "Tus",
+        "DNA Pol I"
+      ],
+      0,
+      "RPA protects ssDNA in eukaryotes. RuvC, Tus and Pol I are familiar bacterial model factors with different roles."
+    ],
+    [
+      "Assertion–reason",
+      "Assertion: Gene conversion may occur without a crossover. Reason: Repair synthesis can copy a donor allele without exchanging distal chromosome arms.",
+      [
+        "Both true; reason explains assertion",
+        "Both true; reason does not explain assertion",
+        "Assertion true; reason false",
+        "Assertion false; reason true"
+      ],
+      0,
+      "SDSA is an example of donor copying followed by restoration of recipient distal connectivity."
+    ],
+    [
+      "Assertion–reason",
+      "Assertion: A D-loop necessarily proves a stable double Holliday junction exists. Reason: The D-loop can be an early substrate for repair synthesis.",
+      [
+        "Both true; reason explains assertion",
+        "Both true; reason does not explain assertion",
+        "Assertion true; reason false",
+        "Assertion false; reason true"
+      ],
+      3,
+      "A D-loop can proceed into SDSA or other routes without a stable double junction."
+    ],
+    [
+      "Assertion–reason",
+      "Assertion: RuvB hydrolyzes ATP during active branch migration. Reason: RuvB is the nuclease that makes paired resolution cuts.",
+      [
+        "Both true; reason explains assertion",
+        "Both true; reason does not explain assertion",
+        "Assertion true; reason false",
+        "Assertion false; reason true"
+      ],
+      2,
+      "RuvB is the motor; the model nuclease is RuvC."
+    ],
+    [
+      "Assertion–reason",
+      "Assertion: Recombination in mitotic cells can contribute to genome stability. Reason: An intact homologous molecule can supply information lost at a break.",
+      [
+        "Both true; reason explains assertion",
+        "Both true; reason does not explain assertion",
+        "Assertion true; reason false",
+        "Assertion false; reason true"
+      ],
+      0,
+      "Template copying restores missing information; not all recombination outcomes are protective, but the stated reason explains the beneficial role."
+    ],
+    [
+      "Multiple statement",
+      "Select the correct statements: I. A 3′-OH can prime DNA extension. II. RecA is a DNA ligase. III. RuvC is a junction resolvase. IV. Every noncrossover lacks invasion.",
+      [
+        "I and III",
+        "II and IV",
+        "I, II and III",
+        "All four"
+      ],
+      0,
+      "I and III are correct. RecA promotes pairing, and SDSA shows why IV is false."
+    ],
+    [
+      "Multiple statement",
+      "Select correct statements: I. Heteroduplex may contain mismatches. II. Perfectly matching strands cannot form heteroduplex. III. Mismatch correction can produce conversion. IV. A crossover always changes allele count at one marker.",
+      [
+        "I and III",
+        "II and IV",
+        "I and IV",
+        "II and III"
+      ],
+      0,
+      "Mixed molecular origin does not require mismatch. Reciprocal crossover alone does not change total allele count."
+    ],
+    [
+      "Matching",
+      "Match RecA, RuvA, RuvB and RuvC, in that order, to their canonical functions.",
+      [
+        "Pairing; junction recognition; migration motor; resolution",
+        "Resolution; pairing; ligation; replication",
+        "Migration; ligation; recognition; pairing",
+        "Pairing; resolution; recognition; migration"
+      ],
+      0,
+      "The canonical E. coli sequence of roles is recombinase, junction organizer, motor and nuclease."
+    ],
+    [
+      "Matching",
+      "Match SDSA, dissolution and end joining with characteristic descriptions.",
+      [
+        "Extended strand annealing; topological unlinking; direct joining of ends",
+        "Direct joining; nucleotide excision; extended strand annealing",
+        "Paired junction cuts; direct joining; topological unlinking",
+        "All three are the same process"
+      ],
+      0,
+      "SDSA and dissolution both favor noncrossovers but remove intermediates differently; end joining reconnects DNA ends without the same extended donor-copying mechanism."
+    ]
+  ],
+  "C": [
+    [
+      "Sequence reasoning",
+      "Invader 5′-AGTC-3′ meets donor upper 5′-AGTCAA-3′ and lower 3′-TCAGTT-5′. What bases are added first if extension proceeds?",
+      [
+        "TT",
+        "AA",
+        "GG",
+        "CT"
+      ],
+      1,
+      "The lower donor strand is the template. Its next two bases are T and T, specifying A and A on the extension."
+    ],
+    [
+      "Polarity",
+      "At the left side of a blunt break, upper strand runs 5′ to 3′ from left to right. Which strand is preferentially removed in standard resection?",
+      [
+        "Upper",
+        "Lower",
+        "Both equally",
+        "Neither"
+      ],
+      1,
+      "At the right end of the left fragment, the lower strand terminates 5′ and the upper 3′. Removing lower exposes an upper 3′ tail."
+    ],
+    [
+      "Mutation",
+      "A mutant has normal resection and RPA binding but greatly reduced RAD51 filaments. Which defect is most directly consistent?",
+      [
+        "Loss of RAD51-loading mediator activity",
+        "Increased RuvC cleavage",
+        "Loss of DNA origin sequence only",
+        "Excessive ligase activity only"
+      ],
+      0,
+      "A mediator defect can prevent productive RAD51 assembly on RPA-coated ssDNA. The alternatives do not directly explain this selective defect."
+    ],
+    [
+      "Mutation",
+      "A bacterial mutant binds four-way junctions normally but cannot move them efficiently in an ATP-dependent assay. Which canonical activity is implicated?",
+      [
+        "RuvB motor",
+        "RuvC nuclease",
+        "RecA pairing",
+        "DNA ligase"
+      ],
+      0,
+      "A migration assay starts downstream of invasion; impaired RuvB motor activity fits recognition with failed movement."
+    ],
+    [
+      "Mutation",
+      "A mutant has normal D-loop formation but reduced nucleotide incorporation into the recipient. Which stage is most directly affected?",
+      [
+        "Repair synthesis or primer extension",
+        "Homology search exclusively",
+        "Chromosome replication origin selection",
+        "RuvA binding exclusively"
+      ],
+      0,
+      "Pairing has occurred; extension is compromised. Check primer chemistry, polymerase and joint stability to distinguish alternatives."
+    ],
+    [
+      "Mutation",
+      "Resected DNA and joints appear normally, but joint molecules persist and final separated products are scarce. What is the best initial interpretation?",
+      [
+        "Late joint processing defect",
+        "No strand invasion ever occurs",
+        "No end resection occurs",
+        "All joints must be nonspecific"
+      ],
+      0,
+      "The presence of early intermediates favors a later defect, although further structure-specific assays are needed."
+    ],
+    [
+      "Experimental",
+      "In a pairing assay, protein binds homologous and unrelated DNA equally but stable joint DNA appears only with homologous donor. What follows?",
+      [
+        "Binding and productive homology recognition can be separated",
+        "Binding alone proves recombination",
+        "Unrelated DNA is equally effective as donor",
+        "No DNA pairing has occurred"
+      ],
+      0,
+      "Equal association does not establish equivalent pairing. The stable sequence-dependent product is the informative observation."
+    ],
+    [
+      "Experimental",
+      "A nuclease cuts synthetic four-way DNA at paired positions but rarely cuts an ordinary duplex. What does this support?",
+      [
+        "Structure-selective resolving activity",
+        "Proof of every cellular pathway's initiation",
+        "DNA replication licensing",
+        "A universal equal crossover probability"
+      ],
+      0,
+      "Substrate preference and paired incisions support resolvase activity; the assay cannot establish in vivo frequency or initiation."
+    ],
+    [
+      "Experimental",
+      "A slowly migrating gel band increases after adding RecA. What additional control most directly rules out simple protein binding as the sole explanation?",
+      [
+        "Analyze DNA after accounting for or removing bound protein and test joint structure",
+        "Add a different colored dye only",
+        "Increase sample volume without changing analysis",
+        "Count colonies in a different organism"
+      ],
+      0,
+      "The band shift alone is ambiguous. Structure-sensitive analysis of the DNA distinguishes a joint product from protein-associated mobility changes."
+    ],
+    [
+      "Product tracing",
+      "Parental flanks are L1–R1 and L2–R2. Products are L1–R2 and L2–R1. What is the outcome?",
+      [
+        "Reciprocal crossover",
+        "Noncrossover",
+        "Unresolved junction",
+        "Necessarily gene conversion at every marker"
+      ],
+      0,
+      "Distal associations have switched reciprocally. Local marker conversion cannot be inferred from flanking connectivity alone."
+    ],
+    [
+      "Product tracing",
+      "Parental AB and ab have internal alleles C and c. Final flanks remain AB and ab but the AB recipient now carries c. What occurred?",
+      [
+        "Local conversion with noncrossover at the flanks",
+        "Obligatory reciprocal crossover",
+        "No information transfer",
+        "All four alleles have changed"
+      ],
+      0,
+      "The local allele changed while flanking connectivity was retained. This distinguishes conversion from crossover."
+    ],
+    [
+      "Quantitative",
+      "Of 500 cells, 300 complete repair and 75 repaired products are crossovers. What is crossover fraction among completed products and yield among starting cells?",
+      [
+        "25%; 15%",
+        "15%; 25%",
+        "60%; 75%",
+        "75%; 60%"
+      ],
+      0,
+      "75/300 = 0.25; 75/500 = 0.15. The two denominators answer different questions."
+    ],
+    [
+      "Quantitative",
+      "WT: 1000 starting cells, 400 repairs, 100 crossovers. Mutant: 1000 starting, 100 repairs, 50 crossovers. Which is correct?",
+      [
+        "Mutant crossover share rises from 25% to 50%, but yield falls from 10% to 5%",
+        "Mutant makes twice as many crossovers",
+        "Both yields equal 50%",
+        "WT has larger conditional crossover share"
+      ],
+      0,
+      "100/400 = 25%, 50/100 = 50%, while starting-cell yields are 100/1000 and 50/1000."
+    ],
+    [
+      "Quantitative",
+      "30% of repaired breaks enter a junction route, and 40% of that route's products are crossovers. Others are noncrossovers. Total crossover fraction?",
+      [
+        "70%",
+        "12%",
+        "40%",
+        "30%"
+      ],
+      1,
+      "0.30 × 0.40 = 0.12, assuming nested categories and one product classification per event."
+    ],
+    [
+      "Quantitative",
+      "In an independent binary-switch model of two junctions, switch probabilities are 0.1 and 0.4. Probability of exactly one switch?",
+      [
+        "0.42",
+        "0.04",
+        "0.50",
+        "0.60"
+      ],
+      0,
+      "0.1 × 0.6 + 0.9 × 0.4 = 0.06 + 0.36 = 0.42. Both switching is a distinct event."
+    ],
+    [
+      "Quantitative",
+      "An unbiased junction random walk has 225 independent steps of ±1 bp. Root mean squared displacement?",
+      [
+        "225 bp",
+        "15 bp",
+        "0 bp",
+        "112.5 bp"
+      ],
+      1,
+      "Variance equals 225 bp² and RMS displacement is √225 = 15 bp. Mean signed displacement is zero, not RMS."
+    ],
+    [
+      "Quantitative",
+      "A hypothetical motor moves 2 bp per completed step at 8 steps/s for 10 s, with no pauses. Net distance?",
+      [
+        "16 bp",
+        "80 bp",
+        "160 bp",
+        "20 bp"
+      ],
+      2,
+      "2 bp/step × 8 steps/s × 10 s = 160 bp under the stipulated directed-motion model."
+    ],
+    [
+      "Quantitative",
+      "20 of 250 tetrads show a single-chromatid conversion each; assume no others. Fraction of tetrads with conversion and fraction of chromatids converted?",
+      [
+        "8%; 2%",
+        "2%; 8%",
+        "20%; 5%",
+        "8%; 8%"
+      ],
+      0,
+      "20/250 = 8%; total chromatids 1000, so 20/1000 = 2%."
+    ],
+    [
+      "Quantitative",
+      "In 60% of meioses exactly one nonsister crossover occurs between informative flanks; none in others. Fraction of all chromatids recombinant?",
+      [
+        "60%",
+        "30%",
+        "15%",
+        "100%"
+      ],
+      1,
+      "Two of four chromatids are recombinant in each affected meiosis: 0.60 × 0.50 = 0.30."
+    ],
+    [
+      "Quantitative",
+      "A donor has informative differences at positions 10, 30, 50 and 70. Only 30 and 50 convert. Under one continuous fully converted tract assumption, minimum endpoint separation?",
+      [
+        "20 bp",
+        "40 bp",
+        "60 bp",
+        "10 bp"
+      ],
+      0,
+      "50 − 30 = 20 bp; inclusive positions number 21. Without the assumption, the actual heteroduplex extent is not determined."
+    ],
+    [
+      "Segregation",
+      "Three meiotic products are A, A and a. The fourth contains unresolved A/a heteroduplex. With one subsequent mitosis and no other changes, octad counts?",
+      [
+        "4 A:4 a",
+        "5 A:3 a",
+        "6 A:2 a",
+        "8 A:0 a"
+      ],
+      1,
+      "Resolved products give 4 A and 2 a; heteroduplex descendants give one of each, totaling 5:3."
+    ],
+    [
+      "Segregation",
+      "Two A and two a chromatids start meiosis. One A-bearing chromatid converts to a; no other changes. Tetrad and octad?",
+      [
+        "3 A:1 a; 6 A:2 a",
+        "1 A:3 a; 2 A:6 a",
+        "2 A:2 a; 4 A:4 a",
+        "0 A:4 a; 0 A:8 a"
+      ],
+      1,
+      "One A becomes a; the tetrad is 1:3 and a subsequent ordinary mitosis duplicates each product."
+    ],
+    [
+      "Mechanism",
+      "Loss of a dissolution factor raises the crossover fraction, while early joint formation remains unchanged. What is the best inference?",
+      [
+        "Late pathway partitioning may favor crossover resolution",
+        "Invasion necessarily doubled",
+        "Every junction cut is now equally probable",
+        "All cells use site-specific recombination"
+      ],
+      0,
+      "The initial measured step is unchanged; altered late processing is a plausible explanation, not proof of increased initiation."
+    ],
+    [
+      "Mechanism",
+      "A resected strand invades donor, extends, dissociates and anneals to the other broken end. Which product pattern is expected?",
+      [
+        "Noncrossover, possibly with donor allele conversion",
+        "Obligate distal crossover",
+        "No DNA synthesis",
+        "Obligate reciprocal replacement of donor"
+      ],
+      0,
+      "The described route is SDSA; copied local sequence can be retained without exchanging chromosome arms."
+    ],
+    [
+      "Comparative",
+      "In a bacterial transformation assay, DNA entry is normal but chromosomal integration is severely reduced in a recA mutant. What does this distinguish?",
+      [
+        "DNA uptake from homologous integration",
+        "Uptake from RNA translation only",
+        "Replication from transcription only",
+        "End joining from plasmid copy number only"
+      ],
+      0,
+      "Incoming DNA can enter without becoming part of the chromosome. RecA supports homologous integration after entry."
+    ],
+    [
+      "Rearrangement",
+      "Two intramolecular direct repeats surround segment M. A reciprocal exchange between the repeats yields what main chromosome arrangement?",
+      [
+        "One repeat remaining with M deleted",
+        "M inverted with both repeats retained necessarily",
+        "Four copies of M",
+        "No sequence change in any product"
+      ],
+      0,
+      "With direct repeats and the specified intramolecular configuration, recombination can excise the interval and one repeat from the main molecule."
+    ],
+    [
+      "Rearrangement",
+      "Two identical chromatids misalign their direct repeats before a reciprocal unequal crossover. Expected complementary outcomes?",
+      [
+        "Duplication in one, deletion in the other",
+        "Inversion in both obligatorily",
+        "Both lose the same interval with no gain",
+        "Neither changes copy number"
+      ],
+      0,
+      "Offset pairing changes distal-arm exchange points; one product gains a segment and the reciprocal product loses it."
+    ],
+    [
+      "Integrative",
+      "A mismatch-repair mutant shows more divergent-sequence recombinants and more postmeiotic segregation. Which explanation accounts for both?",
+      [
+        "Reduced heteroduplex rejection and reduced mismatch correction can coexist",
+        "All homologous pairing has ceased",
+        "Mismatch repair is identical to RuvB translocation",
+        "The mutant must have twice as many chromosomes"
+      ],
+      0,
+      "Mismatch recognition can oppose inappropriate divergent interactions and correct mismatches after pairing. Separate assays are needed to quantify each effect."
+    ]
+  ],
+  "traps": [
+    [
+      "Homology is not complementarity between the same two named strands",
+      "The invader matches the displaced donor strand in sequence orientation; it pairs with the complementary donor strand."
+    ],
+    [
+      "Recombination is not synonymous with crossover",
+      "Noncrossover repair can involve genuine homologous strand invasion."
+    ],
+    [
+      "A Holliday junction is not a chiasma",
+      "A junction is a molecular DNA intermediate; a chiasma is a chromosome-level association reflecting crossover and cohesion."
+    ],
+    [
+      "A D-loop is not necessarily a Holliday junction",
+      "The displaced strand and invaded duplex do not automatically create a four-arm covalent junction."
+    ],
+    [
+      "A 3′ tail does not mean removal of the 3′ strand",
+      "Standard resection preferentially removes the strand ending 5′ at the break."
+    ],
+    [
+      "RuvABC roles are distinct",
+      "RuvA recognizes, RuvB migrates and RuvC resolves."
+    ],
+    [
+      "Cut direction is drawing-dependent",
+      "Trace labelled flanks rather than memorizing horizontal versus vertical."
+    ],
+    [
+      "Two cleavage choices do not mean equal biological probability",
+      "Enzyme preferences, pathway selection and coordinated processing alter outcome frequencies."
+    ],
+    [
+      "Gene conversion is not necessarily reciprocal",
+      "Donor-directed synthesis or mismatch correction may change one recipient while leaving donor unchanged."
+    ],
+    [
+      "A normal 2:2 ratio does not rule out heteroduplex",
+      "A mismatch may have been restored, or parental sequence may be identical at the scored locus."
+    ],
+    [
+      "Dissolution is not cleavage-based resolution",
+      "It uses convergent migration and topological unlinking to yield noncrossovers."
+    ],
+    [
+      "A high recombinant percentage among survivors may hide lower absolute yield",
+      "Report numerator and denominator separately."
+    ],
+    [
+      "Homologous recombination does not always preserve genome organization",
+      "Misalignment of repeats can produce rearrangements."
+    ],
+    [
+      "The original Holliday scheme is not the universal initiating mechanism",
+      "Distinguish paired nicks from modern break-and-resection pathways."
+    ]
+  ],
+  "recall": [
+    [
+      "Why is resection directional?",
+      "To expose three-prime ends capable of invasion and extension."
+    ],
+    [
+      "Which donor strand pairs with the invader?",
+      "The antiparallel complementary strand."
+    ],
+    [
+      "What makes an RPA-coated substrate recombinase competent?",
+      "Regulated RAD51 loading by mediators such as BRCA2 in vertebrates."
+    ],
+    [
+      "What is the distinction between branch migration and resolution?",
+      "Migration shifts pairing boundaries; resolution introduces cuts that separate joint duplexes."
+    ],
+    [
+      "How can gene conversion occur without a mismatch?",
+      "A missing recipient sequence can be copied directly from an alternative donor allele."
+    ],
+    [
+      "How do SDSA and dissolution differ?",
+      "SDSA avoids a stable double junction; dissolution removes the topology of an existing double junction."
+    ],
+    [
+      "Why can a crossover cause loss of heterozygosity?",
+      "Mitotic crossover plus particular segregation can make distal allele states identical in a daughter."
+    ],
+    [
+      "Why distinguish survival from repair yield?",
+      "Survival-based denominators can bias the apparent frequency of repair outcomes."
+    ],
+    [
+      "What makes RecBCD and RecFOR different?",
+      "They are model routes adapted especially to broken ends and ssDNA gaps, respectively."
+    ],
+    [
+      "What does a 5:3 octad illustrate?",
+      "Persistence of heteroduplex through meiosis followed by segregation in subsequent replication and division."
+    ]
+  ],
+  "references": [
+    [
+      "Holliday R. A mechanism for gene conversion in fungi (1964).",
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E11586A6605C2A54C648BACEABECF954/S0016672300001233a.pdf/a-mechanism-for-gene-conversion-in-fungi.pdf"
+    ],
+    [
+      "Szostak JW, Orr-Weaver TL, Rothstein RJ, Stahl FW. The double-strand-break repair model for recombination (1983).",
+      "https://pubmed.ncbi.nlm.nih.gov/6380756/"
+    ],
+    [
+      "Alberts et al. Molecular Biology of the Cell: General Recombination.",
+      "https://www.ncbi.nlm.nih.gov/books/NBK26898/"
+    ],
+    [
+      "Cooper GM. The Cell: Recombination Between Homologous DNA Sequences.",
+      "https://www.ncbi.nlm.nih.gov/books/NBK9859/"
+    ],
+    [
+      "Shibata et al. Purified Escherichia coli recA protein catalyzes homologous pairing of superhelical DNA and single-stranded fragments (1979).",
+      "https://pubmed.ncbi.nlm.nih.gov/156361/"
+    ],
+    [
+      "Iwasaki et al. Escherichia coli RuvA and RuvB proteins specifically interact with Holliday junctions and promote branch migration.",
+      "https://pubmed.ncbi.nlm.nih.gov/1427081/"
+    ],
+    [
+      "Holliday Junction Resolvases.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4142969/"
+    ],
+    [
+      "Regulation of homologous recombination in eukaryotes.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4114321/"
+    ],
+    [
+      "Biochemistry of eukaryotic homologous recombination.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3087616/"
+    ],
+    [
+      "Regulation of DNA Pairing in Homologous Recombination.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4413238/"
+    ],
+    [
+      "Investigations of Homologous Recombination Pathways and Their Regulation.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3848099/"
+    ],
+    [
+      "RecBCD Enzyme and the Repair of Double-Stranded DNA Breaks.",
+      "https://journals.asm.org/doi/10.1128/mmbr.00020-08"
+    ],
+    [
+      "Remodeling and Control of Homologous Recombination by DNA Helicases and Translocases that Target Recombinases and Synapsis.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4999840/"
+    ],
+    [
+      "Gene conversion and concerted evolution in bacterial genomes.",
+      "https://academic.oup.com/femsre/article/29/2/169/571701"
+    ],
+    [
+      "CSIR–UGC–DBT NET merged syllabus, Unit 3.A (page 4).",
+      "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf"
+    ],
+    [
+      "CSIR–UGC NET Life Sciences syllabus, Unit 3.A (page 2).",
+      "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf"
+    ],
+    [
+      "MPPSC SET-2024 Life Sciences syllabus, archived copy, Unit 3.A (page 2).",
+      "https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf"
+    ]
+  ]
+}

@@ -244,7 +244,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node unavailable">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node unavailable">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next curriculum node: Intracellular Membrane Sorting, Vesicular Transport and Regulation">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -430,7 +430,7 @@
 <p>A resting voltage is a dynamic electrical steady state rather than universal ionic equilibrium. Opening a channel draws the membrane toward its reversal potential and can reduce resistance even if the baseline voltage does not change. When channel gating creates positive feedback, graded depolarization can become an action potential. Current clamp and voltage clamp separate different aspects of the resulting behaviour. These principles connect the channels and pumps already studied with membrane function throughout the cell.</p>
 <p>Membranes also differ from one intracellular compartment to another. Their electrical and chemical identity depends on the particular proteins and lipids they contain and on the transport pathways that establish gradients. The next curriculum node turns to how cells preserve that identity through sorting, vesicle budding, targeting, fusion and recycling.</p></section>
 <section id="references"><h2>21. References and further reading</h2><p>Core textbook sources: Alberts et al., <em>Molecular Biology of the Cell</em>, chapter on membrane transport and electrical properties; Purves et al., <em>Neuroscience</em>, 2nd ed., chapters on electrical signals of nerve cells; Hille, <em>Ion Channels of Excitable Membranes</em>, 3rd ed., foundational electrochemical and channel principles.</p><ul><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK11102/">Purves et al. — The Forces that Create Membrane Potentials</a>.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK10931/">The Ionic Basis of the Resting Membrane Potential</a>.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK10897/">The Ionic Basis of Action Potentials</a>.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK10879/">Ionic Currents Across Nerve Cell Membranes</a>.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26910/">Alberts et al. — Ion Channels and the Electrical Properties of Membranes</a>.</li><li>Goldman DE (1943). Potential, impedance, and rectification in membranes. <em>Journal of General Physiology</em> 27:37–60. <a href="https://doi.org/10.1085/jgp.27.1.37">DOI</a>.</li><li>Hodgkin AL and Katz B (1949). The effect of sodium ions on the electrical activity of the giant axon of the squid. <em>Journal of Physiology</em> 108:37–77. <a href="https://doi.org/10.1113/jphysiol.1949.sp004310">DOI</a>.</li><li>Hodgkin AL and Huxley AF (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. <em>Journal of Physiology</em> 117:500–544. <a href="https://doi.org/10.1113/jphysiol.1952.sp004764">DOI</a>.</li><li><a href="https://csirhrdg.res.in/Home/Index/1/InPage/37/26">CSIR-HRDG official Life Science and Biotechnology syllabi</a>, Unit 2.A.</li></ul><p>All practice questions, diagrams and illustrative numerical datasets in this chapter are original teaching material; they are not reproduced examination papers or experimental recordings.</p></section></div></article>
-        <nav class="node-navigation" aria-label="Curriculum navigation"><a href="./">← Unit 2 curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Curriculum navigation"><a href="./">← Unit 2 curriculum</a><a href="intracellular-membrane-sorting-vesicular-transport-and-regulation.html">2.A.10 Intracellular Membrane Sorting, Vesicular Transport and Regulation →</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 2 · Cellular Organization</footer>
@@ -512,6 +512,7 @@
         if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
       });
       const dialog=byId("diagram-dialog");
+      byId("next-node").addEventListener("click",()=>location.href="intracellular-membrane-sorting-vesicular-transport-and-regulation.html");
       
       
       

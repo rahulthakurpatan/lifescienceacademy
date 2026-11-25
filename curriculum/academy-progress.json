@@ -4,109 +4,237 @@
   "unit": "03",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "3.C.07",
-  "title": "Translation Termination, Ribosome Recycling and Polysomes",
+  "node_id": "3.C.09",
+  "title": "Translational Inhibitors and Their Sites of Action",
   "subunit": "3.C",
-  "topic": "Translation Termination, Ribosome Recycling and Polysomes",
-  "slug": "translation-termination-ribosome-recycling-and-polysomes.html",
+  "topic": "Translational Inhibitors and Their Sites of Action",
+  "slug": "translational-inhibitors-and-their-sites-of-action.html",
   "next_pending_node_id": "1.A.03",
   "next_pending_node_title": "Biological Solutions, pH and Buffer Systems",
-  "published_node_count": 110,
+  "published_node_count": 111,
   "publication_allowed": true,
-  "main_baseline_sha": "edf4225cc1af6a93e6c6baee0dc26fb1b8fa8024",
+  "main_baseline_sha": "47b5e751828f759538fc721b9cc174e1c021f4e0",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages deployment for 3.C.07. Next pending Unit 3 node: 3.C.05. Preserve global pending pointer.",
+  "next_required_action": "Verify Pages deployment for 3.C.09 and any earlier pending deployments. Next Unit 3 pending node: 3.C.05. Preserve global pending pointer.",
   "planned_node_count": 30,
   "planned_subunit_count": 6,
   "architecture_version": "unit-01-compact-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-1a-chemical-biophysical-foundations-node-map.md",
   "last_qa": {
-    "node_id": "3.C.07",
-    "title": "Translation Termination, Ribosome Recycling and Polysomes",
-    "slug": "translation-termination-ribosome-recycling-and-polysomes.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translation-termination-ribosome-recycling-and-polysomes.html",
-    "narrative_words": 14291,
-    "visible_article_words": 20139,
-    "html_bytes": 231583,
-    "theory_sections": 23,
-    "teaching_paragraphs": 154,
-    "figures": 15,
-    "tables": 4,
-    "questions": 57,
+    "node_id": "3.C.09",
+    "title": "Translational Inhibitors and Their Sites of Action",
+    "slug": "translational-inhibitors-and-their-sites-of-action.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translational-inhibitors-and-their-sites-of-action.html",
+    "narrative_words": 13485,
+    "visible_article_words": 17833,
+    "teaching_paragraphs": 131,
+    "theory_sections": 21,
+    "figures": 13,
+    "tables": 2,
+    "questions": 56,
     "distribution": {
-      "part_b": 39,
-      "conceptual_mcq": 28,
-      "assertion_reason": 5,
-      "multiple_statement": 4,
-      "matching": 2,
-      "part_c": 18,
-      "numerical": 9,
-      "other_analytical": 9
+      "Part B MCQ": 17,
+      "Part C": 26,
+      "Assertion–Reason": 6,
+      "Matching": 3,
+      "Multiple statements": 4
     },
-    "references": 17,
+    "references": 13,
+    "html_bytes": 207784,
     "revision_traps": 12,
-    "method": "Unicode lexical count of actual stored HTML p.teaching-prose paragraphs, after stripping inline tags and decoding entities; excludes headings, captions, figures, tables, practice, answers, revision, references and reader UI. Article total includes visible SVG labels and supplementary text, excludes SVG title/desc and buttons.",
+    "active_recall": 10,
+    "method": "Unicode lexical count from actual saved HTML p.teaching-prose text; excludes headings, tables, SVG, captions, exercises, answers, revision and references. Article count includes supplementary visible text and answer explanations, excludes SVG internals and buttons.",
     "comparator": {
-      "node_id": "3.C.01",
-      "narrative_words_recounted": 14097,
-      "teaching_paragraphs": 141
+      "node_id": "3.B.06",
+      "narrative_words_recounted": 14392,
+      "teaching_paragraphs": 144,
+      "method": "Same teaching-paragraph token extraction applied to the stored adjacent inhibitor chapter."
     },
     "scientific_checks": [
-      "Verified merged NET, separate NET and archived MP SET 2024 Unit 3.C syllabus screenshots.",
-      "Reviewed A-site stop and P-site ester substrate, RF1/RF2 specificity and RF3 versus RRF, GGQ, eRF1/eRF3, ABCE1 ATP cycle, bacterial IF3 anti-association, archaeal and organellar exceptions, nonsense mutations and stop loss, stalls versus release, occupancy versus flux, quantitative assumptions, polysome profiling and stage-specific assays.",
-      "Second author review added clinical variant interpretation, recombinant tag and plant stress reasoning, code/syllabus references and four published prerequisite links. Historical experiments and hypothetical data explicitly separated."
+      "Reviewed all seven assigned inhibitor mechanisms and distinction between binding site and interrupted reaction.",
+      "Confirmed context-dependent chloramphenicol/macrolide effects against peer-reviewed reviews and primary-study text; streptomycin decoding, cycloheximide E-site, puromycin premature release and eEF2 modification checked against accessible scientific sources.",
+      "Reconciled revised and separate CSIR syllabi and archived MP SET Unit 3.C using syllabus page images.",
+      "Reviewed quantitative assumptions and experimental controls; all educational datasets are hypothetical."
     ],
-    "arithmetic_checks": {
-      "count": 30,
-      "passed": 30
-    },
+    "arithmetic_checks": [
+      {
+        "name": "completion100",
+        "actual": 0.3660323412732292,
+        "expected": 0.366,
+        "pass": true
+      },
+      {
+        "name": "completion200",
+        "actual": 0.13397967485796172,
+        "expected": 0.134,
+        "pass": true
+      },
+      {
+        "name": "50 transitions",
+        "actual": 0.36416968008711675,
+        "expected": 0.364,
+        "pass": true
+      },
+      {
+        "name": "k 3 h",
+        "actual": 0.23104906018664842,
+        "expected": 0.231,
+        "pass": true
+      },
+      {
+        "name": "k 2 h",
+        "actual": 0.34657359027997264,
+        "expected": 0.347,
+        "pass": true
+      },
+      {
+        "name": "error-free 200",
+        "actual": 0.6700516137378225,
+        "expected": 0.67,
+        "pass": true
+      },
+      {
+        "name": "corrected inhibition",
+        "actual": 0.6363636363636364,
+        "expected": 0.636,
+        "pass": true
+      },
+      {
+        "name": "residual activity",
+        "actual": 0.375,
+        "expected": 0.375,
+        "pass": true
+      },
+      {
+        "name": "relative specific activity",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "name": "binding fraction",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "name": "occupancy 48 s",
+        "actual": 6,
+        "expected": 6,
+        "pass": true
+      },
+      {
+        "name": "occupancy 72 s",
+        "actual": 9,
+        "expected": 9,
+        "pass": true
+      },
+      {
+        "name": "partial synthesis",
+        "actual": 35,
+        "expected": 35,
+        "pass": true
+      },
+      {
+        "name": "complete inhibition 6 h",
+        "actual": 10,
+        "expected": 10,
+        "pass": true
+      },
+      {
+        "name": "organellar effect",
+        "actual": 0.955,
+        "expected": 0.955,
+        "pass": true
+      },
+      {
+        "name": "partial example 2 h",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "name": "partial example 4 h",
+        "actual": 40,
+        "expected": 40,
+        "pass": true
+      },
+      {
+        "name": "partial example 6 h",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "name": "first protein relative",
+        "actual": 0.0625,
+        "expected": 0.0625,
+        "pass": true
+      },
+      {
+        "name": "second protein relative",
+        "actual": 0.7071067811865476,
+        "expected": 0.707,
+        "pass": true
+      },
+      {
+        "name": "background correction",
+        "actual": 0.4,
+        "expected": 0.4,
+        "pass": true
+      }
+    ],
     "technical_checks": {
-      "word_gate": true,
-      "unique_ids": true,
+      "wordGate": true,
+      "uniqueParagraphs": true,
+      "uniqueIds": true,
       "anchors": true,
-      "svg_aria_labels": true,
-      "zoom_targets": true,
-      "balanced_markup": true,
-      "duplicate_paragraphs": 0,
-      "local_links": true,
+      "svgLabels": true,
+      "zoomTargets": true,
+      "questions": true,
+      "answers": true,
+      "readerSource": true,
       "canonical": true,
-      "reader_controls_source": true,
-      "dynamic_adjacent_navigation": true,
-      "question_sequence": true,
-      "question_keys": true,
+      "dynamicNavigation": true,
+      "prereqs": true,
+      "menuSingle": true,
+      "sitemapSingle": true,
       "arithmetic": true,
-      "menu": true,
-      "sitemap": true
+      "noStaleContent": true
     },
     "academic_self_review": {
       "scope_20": 20,
       "accuracy_25": 24,
-      "teaching_20": 19,
-      "evidence_quantitative_15": 15,
+      "depth_20": 19,
+      "evidence_quantitative_15": 14,
       "practice_10": 9,
-      "technical_10": 8,
+      "technical_10": 9,
       "total": 95,
       "maximum": 100,
-      "method": "Internal second-pass author assessment only. Deductions for simplified diagrams, source-access limits, practice breadth and no interactive browser/mobile audit; not independent peer-review certification."
+      "method": "Internal critical author review after separately retrieving HTML. Deductions for simplified schematics, limited full-paper coverage, non-external assessment validation, and untested browser rendering. Not external peer review."
     },
     "limitations": [
-      "Not externally peer reviewed; accessible textbook excerpts, reviews and records checked, not every full primary paper.",
-      "MP SET comparator is archived 2024 copy, not independently verified latest official-host syllabus.",
-      "Static HTML, labels, links and reader source checked; interactive browser, mobile layout, full accessibility and SVG rendering not independently tested.",
-      "New URL follows repository naming convention because target was unpublished. Adjacent navigation resolves only real published links from index.html.",
-      "Authorized out-of-order publication; earliest unfinished Unit 3 and global pending pointers preserved.",
-      "GitHub Pages deployment separate and pending at commit."
+      "No external academic or examiner review; accessible source abstracts and reviews, not all complete papers.",
+      "MP SET comparison is an archived 2024 public syllabus copy, not a newly verified current MPPSC-hosted syllabus.",
+      "HTML and SVG source checks only; actual mobile and browser interactions, rendering and full accessibility audit not tested.",
+      "New slug follows established lower-case hyphenated title convention; no preexisting target file.",
+      "Out-of-order node requested; dynamic navigation leaves unavailable neighbors disabled.",
+      "Pages verification pending at commit."
     ],
-    "source_draft_branch": "draft/node-3c07-termination-recycling-polysomes",
-    "draft_commit_sha": "2498e72a654096655105564ce68fb526204dbe0d",
     "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-    "main_baseline_sha": "edf4225cc1af6a93e6c6baee0dc26fb1b8fa8024",
-    "status": "lesson_committed_pages_verification_pending"
+    "main_baseline_sha": "47b5e751828f759538fc721b9cc174e1c021f4e0",
+    "source_draft_branch": "draft/3c09-translational-inhibitors-20261125",
+    "draft_commit_sha": "5ab09493bf8810df9fa3ef82791137dd4dc03acc",
+    "status": "lesson_committed_pages_verification_pending",
+    "conflict_reconciliation": {
+      "previous_candidate_sha": "93f3c690523e4787e024d360d9ac3a3000b7a37a",
+      "reason": "Concurrent main advances; rebuilt against current main without overwriting other nodes."
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -218,7 +346,8 @@
     "3.C.03",
     "3.C.04",
     "3.C.06",
-    "3.C.07"
+    "3.C.07",
+    "3.C.09"
   ],
   "prior_publication_qa": {
     "node_id": "2.B.03",
@@ -254,93 +383,86 @@
     "main_baseline_sha": "a5876ac9a66255f1837aa44b58fbe2aa73b55f83"
   },
   "previous_last_qa": {
-    "node_id": "3.C.06",
-    "title": "Translation Elongation, Translocation and Decoding Accuracy",
-    "slug": "translation-elongation-translocation-and-decoding-accuracy.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translation-elongation-translocation-and-decoding-accuracy.html",
-    "narrative_words": 14006,
-    "visible_article_words": 19991,
-    "visible_article_excluding_svg": 19258,
-    "teaching_paragraphs": 142,
-    "theory_sections": 22,
-    "figures": 14,
-    "tables": 3,
-    "questions": 55,
+    "node_id": "3.C.07",
+    "title": "Translation Termination, Ribosome Recycling and Polysomes",
+    "slug": "translation-termination-ribosome-recycling-and-polysomes.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translation-termination-ribosome-recycling-and-polysomes.html",
+    "narrative_words": 14291,
+    "visible_article_words": 20139,
+    "html_bytes": 231583,
+    "theory_sections": 23,
+    "teaching_paragraphs": 154,
+    "figures": 15,
+    "tables": 4,
+    "questions": 57,
     "distribution": {
-      "part_b": 35,
-      "part_c": 20,
-      "part_b_conceptual": 24,
-      "assertion_reason": 6,
-      "multiple_statements": 3,
+      "part_b": 39,
+      "conceptual_mcq": 28,
+      "assertion_reason": 5,
+      "multiple_statement": 4,
       "matching": 2,
-      "part_c_numerical": 11,
-      "part_c_analytical": 9
+      "part_c": 18,
+      "numerical": 9,
+      "other_analytical": 9
     },
-    "references": 20,
-    "html_bytes": 233808,
-    "revision_traps": 14,
-    "active_recall": 10,
-    "method": "Count Unicode lexical tokens in 142 stored p.teaching-prose paragraphs; excludes headings, captions, tables, SVG, questions, answers, revision, references and UI. Article word count includes visible SVG labels but excludes SVG title/desc and site navigation.",
+    "references": 17,
+    "revision_traps": 12,
+    "method": "Unicode lexical count of actual stored HTML p.teaching-prose paragraphs, after stripping inline tags and decoding entities; excludes headings, captions, figures, tables, practice, answers, revision, references and reader UI. Article total includes visible SVG labels and supplementary text, excludes SVG title/desc and buttons.",
     "comparator": {
-      "node_id": "3.C.02",
-      "narrative_words": 14446,
-      "teaching_paragraphs": 148,
-      "source": "Repository-recorded QA; similar depth, not an external evaluation."
+      "node_id": "3.C.01",
+      "narrative_words_recounted": 14097,
+      "teaching_paragraphs": 141
     },
     "scientific_checks": [
-      "Exact roadmap: EF-Tu/eEF1A, EF-Ts/eEF1B, EF-G/eEF2, delivery, recognition, accommodation, hydrolysis, kinetic proofreading, chemical transfer, hybrid states, movement and reading frame.",
-      "Correct donor ester and incoming alpha-amino nucleophile; rRNA catalytic environment; ATP-to-AMP distinction.",
-      "Hopfield 1974 and Ninio 1975; Moazed–Noller 1989; Nissen et al. 2000; Nirenberg–Matthaei 1961; conservative evidence limitations.",
-      "Explicit assumptions and competing first-order probabilities, cumulative error, energy boundaries, waiting time models, mutation and rescue reasoning.",
-      "Bacterial vs eukaryotic comparison, organelle caveat, EF-P/eIF5A; no duplication of detailed charging, initiation, termination or inhibitor chapters.",
-      "Official revised and separate CSIR syllabus screenshots plus archived 2024 MP SET comparator."
+      "Verified merged NET, separate NET and archived MP SET 2024 Unit 3.C syllabus screenshots.",
+      "Reviewed A-site stop and P-site ester substrate, RF1/RF2 specificity and RF3 versus RRF, GGQ, eRF1/eRF3, ABCE1 ATP cycle, bacterial IF3 anti-association, archaeal and organellar exceptions, nonsense mutations and stop loss, stalls versus release, occupancy versus flux, quantitative assumptions, polysome profiling and stage-specific assays.",
+      "Second author review added clinical variant interpretation, recombinant tag and plant stress reasoning, code/syllabus references and four published prerequisite links. Historical experiments and hypothetical data explicitly separated."
     ],
     "arithmetic_checks": {
-      "checked_values": 31,
-      "passed": true
+      "count": 30,
+      "passed": 30
     },
     "technical_checks": {
-      "word_count": true,
+      "word_gate": true,
       "unique_ids": true,
       "anchors": true,
-      "aria_labels": true,
+      "svg_aria_labels": true,
       "zoom_targets": true,
-      "tag_balance": true,
-      "javascript_syntax": true,
-      "duplicate_teaching_paragraphs": 0,
-      "answer_option_match": true,
+      "balanced_markup": true,
+      "duplicate_paragraphs": 0,
+      "local_links": true,
       "canonical": true,
-      "reader_source": true,
-      "menu_driven_previous_next": true,
-      "prerequisite_links": true,
+      "reader_controls_source": true,
+      "dynamic_adjacent_navigation": true,
+      "question_sequence": true,
+      "question_keys": true,
+      "arithmetic": true,
       "menu": true,
-      "sitemap": true,
-      "checkpoint": true
+      "sitemap": true
     },
     "academic_self_review": {
-      "score": 95,
-      "out_of": 100,
-      "rubric": {
-        "scope": "20/20",
-        "accuracy": "24/25",
-        "depth_and_pedagogy": "19/20",
-        "evidence_and_quantitative_reasoning": "14/15",
-        "practice": "9/10",
-        "technical": "9/10"
-      },
-      "basis": "Separate author review of stored HTML, all assigned microtopics, mechanism transitions, 31 arithmetic checks, question options, diagrams, source integrity and reference checks. Deductions for schematic geometry, selective literature access, distractor granularity and lack of interactive browser validation. Not external peer review."
+      "scope_20": 20,
+      "accuracy_25": 24,
+      "teaching_20": 19,
+      "evidence_quantitative_15": 15,
+      "practice_10": 9,
+      "technical_10": 8,
+      "total": 95,
+      "maximum": 100,
+      "method": "Internal second-pass author assessment only. Deductions for simplified diagrams, source-access limits, practice breadth and no interactive browser/mobile audit; not independent peer-review certification."
     },
     "limitations": [
-      "Not externally peer-reviewed; scientific source verification used accessible textbook material, abstracts and reviews, not every full primary article.",
-      "SVG geometry and HTML/JS were checked in source; actual mobile rendering, accessibility with assistive technology, interactive controls and diagram zoom not independently exercised.",
-      "MP SET comparison uses an archived 2024 public copy, not independently verified latest MPPSC-hosted syllabus.",
-      "Out-of-order authorized development: earlier unpublished nodes remain unlinked and the first pending node is preserved.",
-      "GitHub Pages deployment is pending at commit."
+      "Not externally peer reviewed; accessible textbook excerpts, reviews and records checked, not every full primary paper.",
+      "MP SET comparator is archived 2024 copy, not independently verified latest official-host syllabus.",
+      "Static HTML, labels, links and reader source checked; interactive browser, mobile layout, full accessibility and SVG rendering not independently tested.",
+      "New URL follows repository naming convention because target was unpublished. Adjacent navigation resolves only real published links from index.html.",
+      "Authorized out-of-order publication; earliest unfinished Unit 3 and global pending pointers preserved.",
+      "GitHub Pages deployment separate and pending at commit."
     ],
+    "source_draft_branch": "draft/node-3c07-termination-recycling-polysomes",
+    "draft_commit_sha": "2498e72a654096655105564ce68fb526204dbe0d",
     "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-    "main_baseline_sha": "6ff4289b4fcf56ebb9c33042556110071688d842",
-    "source_draft_branch": "draft/node-3c06-translation-elongation",
-    "draft_commit_sha": "5d46a30aef59117980e461fb61f6168a9a4e7ea2",
+    "main_baseline_sha": "edf4225cc1af6a93e6c6baee0dc26fb1b8fa8024",
     "status": "lesson_committed_pages_verification_pending"
   },
   "unit_02": {
@@ -1962,94 +2084,223 @@
       "3.C.03",
       "3.C.04",
       "3.C.06",
-      "3.C.07"
+      "3.C.07",
+      "3.C.09"
     ],
-    "published_node_count": 31,
-    "last_published_node_id": "3.C.07",
+    "published_node_count": 32,
+    "last_published_node_id": "3.C.09",
     "updated_at": "2026-11-25",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "3.C.07",
-      "title": "Translation Termination, Ribosome Recycling and Polysomes",
-      "slug": "translation-termination-ribosome-recycling-and-polysomes.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translation-termination-ribosome-recycling-and-polysomes.html",
-      "narrative_words": 14291,
-      "visible_article_words": 20139,
-      "html_bytes": 231583,
-      "theory_sections": 23,
-      "teaching_paragraphs": 154,
-      "figures": 15,
-      "tables": 4,
-      "questions": 57,
+      "node_id": "3.C.09",
+      "title": "Translational Inhibitors and Their Sites of Action",
+      "slug": "translational-inhibitors-and-their-sites-of-action.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translational-inhibitors-and-their-sites-of-action.html",
+      "narrative_words": 13485,
+      "visible_article_words": 17833,
+      "teaching_paragraphs": 131,
+      "theory_sections": 21,
+      "figures": 13,
+      "tables": 2,
+      "questions": 56,
       "distribution": {
-        "part_b": 39,
-        "conceptual_mcq": 28,
-        "assertion_reason": 5,
-        "multiple_statement": 4,
-        "matching": 2,
-        "part_c": 18,
-        "numerical": 9,
-        "other_analytical": 9
+        "Part B MCQ": 17,
+        "Part C": 26,
+        "Assertion–Reason": 6,
+        "Matching": 3,
+        "Multiple statements": 4
       },
-      "references": 17,
+      "references": 13,
+      "html_bytes": 207784,
       "revision_traps": 12,
-      "method": "Unicode lexical count of actual stored HTML p.teaching-prose paragraphs, after stripping inline tags and decoding entities; excludes headings, captions, figures, tables, practice, answers, revision, references and reader UI. Article total includes visible SVG labels and supplementary text, excludes SVG title/desc and buttons.",
+      "active_recall": 10,
+      "method": "Unicode lexical count from actual saved HTML p.teaching-prose text; excludes headings, tables, SVG, captions, exercises, answers, revision and references. Article count includes supplementary visible text and answer explanations, excludes SVG internals and buttons.",
       "comparator": {
-        "node_id": "3.C.01",
-        "narrative_words_recounted": 14097,
-        "teaching_paragraphs": 141
+        "node_id": "3.B.06",
+        "narrative_words_recounted": 14392,
+        "teaching_paragraphs": 144,
+        "method": "Same teaching-paragraph token extraction applied to the stored adjacent inhibitor chapter."
       },
       "scientific_checks": [
-        "Verified merged NET, separate NET and archived MP SET 2024 Unit 3.C syllabus screenshots.",
-        "Reviewed A-site stop and P-site ester substrate, RF1/RF2 specificity and RF3 versus RRF, GGQ, eRF1/eRF3, ABCE1 ATP cycle, bacterial IF3 anti-association, archaeal and organellar exceptions, nonsense mutations and stop loss, stalls versus release, occupancy versus flux, quantitative assumptions, polysome profiling and stage-specific assays.",
-        "Second author review added clinical variant interpretation, recombinant tag and plant stress reasoning, code/syllabus references and four published prerequisite links. Historical experiments and hypothetical data explicitly separated."
+        "Reviewed all seven assigned inhibitor mechanisms and distinction between binding site and interrupted reaction.",
+        "Confirmed context-dependent chloramphenicol/macrolide effects against peer-reviewed reviews and primary-study text; streptomycin decoding, cycloheximide E-site, puromycin premature release and eEF2 modification checked against accessible scientific sources.",
+        "Reconciled revised and separate CSIR syllabi and archived MP SET Unit 3.C using syllabus page images.",
+        "Reviewed quantitative assumptions and experimental controls; all educational datasets are hypothetical."
       ],
-      "arithmetic_checks": {
-        "count": 30,
-        "passed": 30
-      },
+      "arithmetic_checks": [
+        {
+          "name": "completion100",
+          "actual": 0.3660323412732292,
+          "expected": 0.366,
+          "pass": true
+        },
+        {
+          "name": "completion200",
+          "actual": 0.13397967485796172,
+          "expected": 0.134,
+          "pass": true
+        },
+        {
+          "name": "50 transitions",
+          "actual": 0.36416968008711675,
+          "expected": 0.364,
+          "pass": true
+        },
+        {
+          "name": "k 3 h",
+          "actual": 0.23104906018664842,
+          "expected": 0.231,
+          "pass": true
+        },
+        {
+          "name": "k 2 h",
+          "actual": 0.34657359027997264,
+          "expected": 0.347,
+          "pass": true
+        },
+        {
+          "name": "error-free 200",
+          "actual": 0.6700516137378225,
+          "expected": 0.67,
+          "pass": true
+        },
+        {
+          "name": "corrected inhibition",
+          "actual": 0.6363636363636364,
+          "expected": 0.636,
+          "pass": true
+        },
+        {
+          "name": "residual activity",
+          "actual": 0.375,
+          "expected": 0.375,
+          "pass": true
+        },
+        {
+          "name": "relative specific activity",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "name": "binding fraction",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "name": "occupancy 48 s",
+          "actual": 6,
+          "expected": 6,
+          "pass": true
+        },
+        {
+          "name": "occupancy 72 s",
+          "actual": 9,
+          "expected": 9,
+          "pass": true
+        },
+        {
+          "name": "partial synthesis",
+          "actual": 35,
+          "expected": 35,
+          "pass": true
+        },
+        {
+          "name": "complete inhibition 6 h",
+          "actual": 10,
+          "expected": 10,
+          "pass": true
+        },
+        {
+          "name": "organellar effect",
+          "actual": 0.955,
+          "expected": 0.955,
+          "pass": true
+        },
+        {
+          "name": "partial example 2 h",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "name": "partial example 4 h",
+          "actual": 40,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "name": "partial example 6 h",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "name": "first protein relative",
+          "actual": 0.0625,
+          "expected": 0.0625,
+          "pass": true
+        },
+        {
+          "name": "second protein relative",
+          "actual": 0.7071067811865476,
+          "expected": 0.707,
+          "pass": true
+        },
+        {
+          "name": "background correction",
+          "actual": 0.4,
+          "expected": 0.4,
+          "pass": true
+        }
+      ],
       "technical_checks": {
-        "word_gate": true,
-        "unique_ids": true,
+        "wordGate": true,
+        "uniqueParagraphs": true,
+        "uniqueIds": true,
         "anchors": true,
-        "svg_aria_labels": true,
-        "zoom_targets": true,
-        "balanced_markup": true,
-        "duplicate_paragraphs": 0,
-        "local_links": true,
+        "svgLabels": true,
+        "zoomTargets": true,
+        "questions": true,
+        "answers": true,
+        "readerSource": true,
         "canonical": true,
-        "reader_controls_source": true,
-        "dynamic_adjacent_navigation": true,
-        "question_sequence": true,
-        "question_keys": true,
+        "dynamicNavigation": true,
+        "prereqs": true,
+        "menuSingle": true,
+        "sitemapSingle": true,
         "arithmetic": true,
-        "menu": true,
-        "sitemap": true
+        "noStaleContent": true
       },
       "academic_self_review": {
         "scope_20": 20,
         "accuracy_25": 24,
-        "teaching_20": 19,
-        "evidence_quantitative_15": 15,
+        "depth_20": 19,
+        "evidence_quantitative_15": 14,
         "practice_10": 9,
-        "technical_10": 8,
+        "technical_10": 9,
         "total": 95,
         "maximum": 100,
-        "method": "Internal second-pass author assessment only. Deductions for simplified diagrams, source-access limits, practice breadth and no interactive browser/mobile audit; not independent peer-review certification."
+        "method": "Internal critical author review after separately retrieving HTML. Deductions for simplified schematics, limited full-paper coverage, non-external assessment validation, and untested browser rendering. Not external peer review."
       },
       "limitations": [
-        "Not externally peer reviewed; accessible textbook excerpts, reviews and records checked, not every full primary paper.",
-        "MP SET comparator is archived 2024 copy, not independently verified latest official-host syllabus.",
-        "Static HTML, labels, links and reader source checked; interactive browser, mobile layout, full accessibility and SVG rendering not independently tested.",
-        "New URL follows repository naming convention because target was unpublished. Adjacent navigation resolves only real published links from index.html.",
-        "Authorized out-of-order publication; earliest unfinished Unit 3 and global pending pointers preserved.",
-        "GitHub Pages deployment separate and pending at commit."
+        "No external academic or examiner review; accessible source abstracts and reviews, not all complete papers.",
+        "MP SET comparison is an archived 2024 public syllabus copy, not a newly verified current MPPSC-hosted syllabus.",
+        "HTML and SVG source checks only; actual mobile and browser interactions, rendering and full accessibility audit not tested.",
+        "New slug follows established lower-case hyphenated title convention; no preexisting target file.",
+        "Out-of-order node requested; dynamic navigation leaves unavailable neighbors disabled.",
+        "Pages verification pending at commit."
       ],
-      "source_draft_branch": "draft/node-3c07-termination-recycling-polysomes",
-      "draft_commit_sha": "2498e72a654096655105564ce68fb526204dbe0d",
       "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-      "main_baseline_sha": "edf4225cc1af6a93e6c6baee0dc26fb1b8fa8024",
-      "status": "lesson_committed_pages_verification_pending"
+      "main_baseline_sha": "47b5e751828f759538fc721b9cc174e1c021f4e0",
+      "source_draft_branch": "draft/3c09-translational-inhibitors-20261125",
+      "draft_commit_sha": "5ab09493bf8810df9fa3ef82791137dd4dc03acc",
+      "status": "lesson_committed_pages_verification_pending",
+      "conflict_reconciliation": {
+        "previous_candidate_sha": "93f3c690523e4787e024d360d9ac3a3000b7a37a",
+        "reason": "Concurrent main advances; rebuilt against current main without overwriting other nodes."
+      }
     },
     "qa_by_node": {
       "3.A.01": {
@@ -5137,98 +5388,302 @@
         "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
         "main_baseline_sha": "edf4225cc1af6a93e6c6baee0dc26fb1b8fa8024",
         "status": "lesson_committed_pages_verification_pending"
+      },
+      "3.C.09": {
+        "node_id": "3.C.09",
+        "title": "Translational Inhibitors and Their Sites of Action",
+        "slug": "translational-inhibitors-and-their-sites-of-action.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translational-inhibitors-and-their-sites-of-action.html",
+        "narrative_words": 13485,
+        "visible_article_words": 17833,
+        "teaching_paragraphs": 131,
+        "theory_sections": 21,
+        "figures": 13,
+        "tables": 2,
+        "questions": 56,
+        "distribution": {
+          "Part B MCQ": 17,
+          "Part C": 26,
+          "Assertion–Reason": 6,
+          "Matching": 3,
+          "Multiple statements": 4
+        },
+        "references": 13,
+        "html_bytes": 207784,
+        "revision_traps": 12,
+        "active_recall": 10,
+        "method": "Unicode lexical count from actual saved HTML p.teaching-prose text; excludes headings, tables, SVG, captions, exercises, answers, revision and references. Article count includes supplementary visible text and answer explanations, excludes SVG internals and buttons.",
+        "comparator": {
+          "node_id": "3.B.06",
+          "narrative_words_recounted": 14392,
+          "teaching_paragraphs": 144,
+          "method": "Same teaching-paragraph token extraction applied to the stored adjacent inhibitor chapter."
+        },
+        "scientific_checks": [
+          "Reviewed all seven assigned inhibitor mechanisms and distinction between binding site and interrupted reaction.",
+          "Confirmed context-dependent chloramphenicol/macrolide effects against peer-reviewed reviews and primary-study text; streptomycin decoding, cycloheximide E-site, puromycin premature release and eEF2 modification checked against accessible scientific sources.",
+          "Reconciled revised and separate CSIR syllabi and archived MP SET Unit 3.C using syllabus page images.",
+          "Reviewed quantitative assumptions and experimental controls; all educational datasets are hypothetical."
+        ],
+        "arithmetic_checks": [
+          {
+            "name": "completion100",
+            "actual": 0.3660323412732292,
+            "expected": 0.366,
+            "pass": true
+          },
+          {
+            "name": "completion200",
+            "actual": 0.13397967485796172,
+            "expected": 0.134,
+            "pass": true
+          },
+          {
+            "name": "50 transitions",
+            "actual": 0.36416968008711675,
+            "expected": 0.364,
+            "pass": true
+          },
+          {
+            "name": "k 3 h",
+            "actual": 0.23104906018664842,
+            "expected": 0.231,
+            "pass": true
+          },
+          {
+            "name": "k 2 h",
+            "actual": 0.34657359027997264,
+            "expected": 0.347,
+            "pass": true
+          },
+          {
+            "name": "error-free 200",
+            "actual": 0.6700516137378225,
+            "expected": 0.67,
+            "pass": true
+          },
+          {
+            "name": "corrected inhibition",
+            "actual": 0.6363636363636364,
+            "expected": 0.636,
+            "pass": true
+          },
+          {
+            "name": "residual activity",
+            "actual": 0.375,
+            "expected": 0.375,
+            "pass": true
+          },
+          {
+            "name": "relative specific activity",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "name": "binding fraction",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "name": "occupancy 48 s",
+            "actual": 6,
+            "expected": 6,
+            "pass": true
+          },
+          {
+            "name": "occupancy 72 s",
+            "actual": 9,
+            "expected": 9,
+            "pass": true
+          },
+          {
+            "name": "partial synthesis",
+            "actual": 35,
+            "expected": 35,
+            "pass": true
+          },
+          {
+            "name": "complete inhibition 6 h",
+            "actual": 10,
+            "expected": 10,
+            "pass": true
+          },
+          {
+            "name": "organellar effect",
+            "actual": 0.955,
+            "expected": 0.955,
+            "pass": true
+          },
+          {
+            "name": "partial example 2 h",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "name": "partial example 4 h",
+            "actual": 40,
+            "expected": 40,
+            "pass": true
+          },
+          {
+            "name": "partial example 6 h",
+            "actual": 30,
+            "expected": 30,
+            "pass": true
+          },
+          {
+            "name": "first protein relative",
+            "actual": 0.0625,
+            "expected": 0.0625,
+            "pass": true
+          },
+          {
+            "name": "second protein relative",
+            "actual": 0.7071067811865476,
+            "expected": 0.707,
+            "pass": true
+          },
+          {
+            "name": "background correction",
+            "actual": 0.4,
+            "expected": 0.4,
+            "pass": true
+          }
+        ],
+        "technical_checks": {
+          "wordGate": true,
+          "uniqueParagraphs": true,
+          "uniqueIds": true,
+          "anchors": true,
+          "svgLabels": true,
+          "zoomTargets": true,
+          "questions": true,
+          "answers": true,
+          "readerSource": true,
+          "canonical": true,
+          "dynamicNavigation": true,
+          "prereqs": true,
+          "menuSingle": true,
+          "sitemapSingle": true,
+          "arithmetic": true,
+          "noStaleContent": true
+        },
+        "academic_self_review": {
+          "scope_20": 20,
+          "accuracy_25": 24,
+          "depth_20": 19,
+          "evidence_quantitative_15": 14,
+          "practice_10": 9,
+          "technical_10": 9,
+          "total": 95,
+          "maximum": 100,
+          "method": "Internal critical author review after separately retrieving HTML. Deductions for simplified schematics, limited full-paper coverage, non-external assessment validation, and untested browser rendering. Not external peer review."
+        },
+        "limitations": [
+          "No external academic or examiner review; accessible source abstracts and reviews, not all complete papers.",
+          "MP SET comparison is an archived 2024 public syllabus copy, not a newly verified current MPPSC-hosted syllabus.",
+          "HTML and SVG source checks only; actual mobile and browser interactions, rendering and full accessibility audit not tested.",
+          "New slug follows established lower-case hyphenated title convention; no preexisting target file.",
+          "Out-of-order node requested; dynamic navigation leaves unavailable neighbors disabled.",
+          "Pages verification pending at commit."
+        ],
+        "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
+        "main_baseline_sha": "47b5e751828f759538fc721b9cc174e1c021f4e0",
+        "source_draft_branch": "draft/3c09-translational-inhibitors-20261125",
+        "draft_commit_sha": "5ab09493bf8810df9fa3ef82791137dd4dc03acc",
+        "status": "lesson_committed_pages_verification_pending",
+        "conflict_reconciliation": {
+          "previous_candidate_sha": "93f3c690523e4787e024d360d9ac3a3000b7a37a",
+          "reason": "Concurrent main advances; rebuilt against current main without overwriting other nodes."
+        }
       }
     },
     "next_pending_node_id": "3.C.05",
     "next_pending_node_title": "Eukaryotic Translation Initiation and Its Key Factors",
     "previous_last_qa": {
-      "node_id": "3.C.06",
-      "title": "Translation Elongation, Translocation and Decoding Accuracy",
-      "slug": "translation-elongation-translocation-and-decoding-accuracy.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translation-elongation-translocation-and-decoding-accuracy.html",
-      "narrative_words": 14006,
-      "visible_article_words": 19991,
-      "visible_article_excluding_svg": 19258,
-      "teaching_paragraphs": 142,
-      "theory_sections": 22,
-      "figures": 14,
-      "tables": 3,
-      "questions": 55,
+      "node_id": "3.C.07",
+      "title": "Translation Termination, Ribosome Recycling and Polysomes",
+      "slug": "translation-termination-ribosome-recycling-and-polysomes.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/translation-termination-ribosome-recycling-and-polysomes.html",
+      "narrative_words": 14291,
+      "visible_article_words": 20139,
+      "html_bytes": 231583,
+      "theory_sections": 23,
+      "teaching_paragraphs": 154,
+      "figures": 15,
+      "tables": 4,
+      "questions": 57,
       "distribution": {
-        "part_b": 35,
-        "part_c": 20,
-        "part_b_conceptual": 24,
-        "assertion_reason": 6,
-        "multiple_statements": 3,
+        "part_b": 39,
+        "conceptual_mcq": 28,
+        "assertion_reason": 5,
+        "multiple_statement": 4,
         "matching": 2,
-        "part_c_numerical": 11,
-        "part_c_analytical": 9
+        "part_c": 18,
+        "numerical": 9,
+        "other_analytical": 9
       },
-      "references": 20,
-      "html_bytes": 233808,
-      "revision_traps": 14,
-      "active_recall": 10,
-      "method": "Count Unicode lexical tokens in 142 stored p.teaching-prose paragraphs; excludes headings, captions, tables, SVG, questions, answers, revision, references and UI. Article word count includes visible SVG labels but excludes SVG title/desc and site navigation.",
+      "references": 17,
+      "revision_traps": 12,
+      "method": "Unicode lexical count of actual stored HTML p.teaching-prose paragraphs, after stripping inline tags and decoding entities; excludes headings, captions, figures, tables, practice, answers, revision, references and reader UI. Article total includes visible SVG labels and supplementary text, excludes SVG title/desc and buttons.",
       "comparator": {
-        "node_id": "3.C.02",
-        "narrative_words": 14446,
-        "teaching_paragraphs": 148,
-        "source": "Repository-recorded QA; similar depth, not an external evaluation."
+        "node_id": "3.C.01",
+        "narrative_words_recounted": 14097,
+        "teaching_paragraphs": 141
       },
       "scientific_checks": [
-        "Exact roadmap: EF-Tu/eEF1A, EF-Ts/eEF1B, EF-G/eEF2, delivery, recognition, accommodation, hydrolysis, kinetic proofreading, chemical transfer, hybrid states, movement and reading frame.",
-        "Correct donor ester and incoming alpha-amino nucleophile; rRNA catalytic environment; ATP-to-AMP distinction.",
-        "Hopfield 1974 and Ninio 1975; Moazed–Noller 1989; Nissen et al. 2000; Nirenberg–Matthaei 1961; conservative evidence limitations.",
-        "Explicit assumptions and competing first-order probabilities, cumulative error, energy boundaries, waiting time models, mutation and rescue reasoning.",
-        "Bacterial vs eukaryotic comparison, organelle caveat, EF-P/eIF5A; no duplication of detailed charging, initiation, termination or inhibitor chapters.",
-        "Official revised and separate CSIR syllabus screenshots plus archived 2024 MP SET comparator."
+        "Verified merged NET, separate NET and archived MP SET 2024 Unit 3.C syllabus screenshots.",
+        "Reviewed A-site stop and P-site ester substrate, RF1/RF2 specificity and RF3 versus RRF, GGQ, eRF1/eRF3, ABCE1 ATP cycle, bacterial IF3 anti-association, archaeal and organellar exceptions, nonsense mutations and stop loss, stalls versus release, occupancy versus flux, quantitative assumptions, polysome profiling and stage-specific assays.",
+        "Second author review added clinical variant interpretation, recombinant tag and plant stress reasoning, code/syllabus references and four published prerequisite links. Historical experiments and hypothetical data explicitly separated."
       ],
       "arithmetic_checks": {
-        "checked_values": 31,
-        "passed": true
+        "count": 30,
+        "passed": 30
       },
       "technical_checks": {
-        "word_count": true,
+        "word_gate": true,
         "unique_ids": true,
         "anchors": true,
-        "aria_labels": true,
+        "svg_aria_labels": true,
         "zoom_targets": true,
-        "tag_balance": true,
-        "javascript_syntax": true,
-        "duplicate_teaching_paragraphs": 0,
-        "answer_option_match": true,
+        "balanced_markup": true,
+        "duplicate_paragraphs": 0,
+        "local_links": true,
         "canonical": true,
-        "reader_source": true,
-        "menu_driven_previous_next": true,
-        "prerequisite_links": true,
+        "reader_controls_source": true,
+        "dynamic_adjacent_navigation": true,
+        "question_sequence": true,
+        "question_keys": true,
+        "arithmetic": true,
         "menu": true,
-        "sitemap": true,
-        "checkpoint": true
+        "sitemap": true
       },
       "academic_self_review": {
-        "score": 95,
-        "out_of": 100,
-        "rubric": {
-          "scope": "20/20",
-          "accuracy": "24/25",
-          "depth_and_pedagogy": "19/20",
-          "evidence_and_quantitative_reasoning": "14/15",
-          "practice": "9/10",
-          "technical": "9/10"
-        },
-        "basis": "Separate author review of stored HTML, all assigned microtopics, mechanism transitions, 31 arithmetic checks, question options, diagrams, source integrity and reference checks. Deductions for schematic geometry, selective literature access, distractor granularity and lack of interactive browser validation. Not external peer review."
+        "scope_20": 20,
+        "accuracy_25": 24,
+        "teaching_20": 19,
+        "evidence_quantitative_15": 15,
+        "practice_10": 9,
+        "technical_10": 8,
+        "total": 95,
+        "maximum": 100,
+        "method": "Internal second-pass author assessment only. Deductions for simplified diagrams, source-access limits, practice breadth and no interactive browser/mobile audit; not independent peer-review certification."
       },
       "limitations": [
-        "Not externally peer-reviewed; scientific source verification used accessible textbook material, abstracts and reviews, not every full primary article.",
-        "SVG geometry and HTML/JS were checked in source; actual mobile rendering, accessibility with assistive technology, interactive controls and diagram zoom not independently exercised.",
-        "MP SET comparison uses an archived 2024 public copy, not independently verified latest MPPSC-hosted syllabus.",
-        "Out-of-order authorized development: earlier unpublished nodes remain unlinked and the first pending node is preserved.",
-        "GitHub Pages deployment is pending at commit."
+        "Not externally peer reviewed; accessible textbook excerpts, reviews and records checked, not every full primary paper.",
+        "MP SET comparator is archived 2024 copy, not independently verified latest official-host syllabus.",
+        "Static HTML, labels, links and reader source checked; interactive browser, mobile layout, full accessibility and SVG rendering not independently tested.",
+        "New URL follows repository naming convention because target was unpublished. Adjacent navigation resolves only real published links from index.html.",
+        "Authorized out-of-order publication; earliest unfinished Unit 3 and global pending pointers preserved.",
+        "GitHub Pages deployment separate and pending at commit."
       ],
+      "source_draft_branch": "draft/node-3c07-termination-recycling-polysomes",
+      "draft_commit_sha": "2498e72a654096655105564ce68fb526204dbe0d",
       "initial_head_sha": "d00bcba6ab2e81f77cf6f59ff0e518cf7b5bba00",
-      "main_baseline_sha": "6ff4289b4fcf56ebb9c33042556110071688d842",
-      "source_draft_branch": "draft/node-3c06-translation-elongation",
-      "draft_commit_sha": "5d46a30aef59117980e461fb61f6168a9a4e7ea2",
+      "main_baseline_sha": "edf4225cc1af6a93e6c6baee0dc26fb1b8fa8024",
       "status": "lesson_committed_pages_verification_pending"
     }
   },
@@ -5269,7 +5724,8 @@
     "3.C.03",
     "3.C.04",
     "3.C.06",
-    "3.C.07"
+    "3.C.07",
+    "3.C.09"
   ],
   "unit3c_planned_node_count": 14
 }

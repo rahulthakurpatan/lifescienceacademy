@@ -1,66 +1,326 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-25",
-  "unit": "02",
+  "unit": "03",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "2.E.08",
-  "title": "Oxidative Stress, Nutrient Starvation and Microbial Survival",
-  "subunit": "2.E",
-  "topic": "Oxidative Stress, Nutrient Starvation and Microbial Survival",
-  "slug": "oxidative-stress-nutrient-starvation-and-microbial-survival.html",
+  "node_id": "3.A.01",
+  "title": "Evidence for DNA Replication and the Replicon Concept",
+  "subunit": "3.A",
+  "topic": "Evidence for DNA Replication and the Replicon Concept",
+  "slug": "evidence-for-dna-replication-and-the-replicon-concept.html",
   "next_pending_node_id": "1.A.03",
   "next_pending_node_title": "Biological Solutions, pH and Buffer Systems",
-  "published_node_count": 79,
+  "published_node_count": 80,
   "publication_allowed": true,
-  "main_baseline_sha": "4246a0d0d5d0a7a4e323c37c91fef1fb935dfacc",
+  "main_baseline_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages deployment for 2.E.08; all Unit 2 nodes committed; preserve global pending pointer.",
+  "next_required_action": "Verify Pages deployment for 3.A.01; preserve global Unit 1 pending pointer; next Unit 3.A node is 3.A.02.",
   "planned_node_count": 30,
   "planned_subunit_count": 6,
   "architecture_version": "unit-01-compact-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-1a-chemical-biophysical-foundations-node-map.md",
   "last_qa": {
-    "node_id": "2.E.08",
-    "title": "Oxidative Stress, Nutrient Starvation and Microbial Survival",
-    "slug": "oxidative-stress-nutrient-starvation-and-microbial-survival.html",
-    "narrative_words": 14663,
-    "visible_article_words": 17297,
-    "html_characters": 190356,
-    "html_bytes": 191001,
-    "sections": 21,
-    "theory_sections": 18,
-    "figures": 11,
-    "tables": 2,
-    "part_b": 12,
-    "part_c": 14,
-    "questions": 26,
-    "worked_numerical_examples": 13,
-    "references": 14,
-    "method": "Whitespace-delimited visible text of teaching paragraphs before Part B; excluding tables, figures/captions, practice, references and UI. Total article includes headings, captions, tables, questions/answers and references, excluding SVGs and diagram buttons.",
-    "comparator": "2.E.07 QA reports 14,943 teaching narrative words, 18 theory sections; 2.E.04 QA reports 14,080; 2.D.10 QA reports 7,560. This node independently develops distinct oxidative and nutrient stress mechanisms, evidence, physiological heterogeneity and survival mathematics.",
-    "scientific_checks": "Official merged NET page 3, separate NET page 2 and archived MP SET page 2 visually verified. Reviewed partial reduction, SOD and catalase stoichiometry, Ahp reducing equivalents, Fenton reaction and iron availability, Fe–S enzyme lesions, OxyR/SoxR/PerR scope, nutrient budget, RelA/SpoT and species-specific (p)ppGpp regulation, RpoS, stationary-phase measurement ambiguity, VBNC recovery limits, cross-protection and persistence/tolerance/resistance. First substantive self-review corrected peroxide stoichiometry and graph legend and strengthened Seaver–Imlay and RpoS evidence. Second self-review checked conceptual sequence, wording of heritable tolerance vs resistance, controls, linked prerequisites, question options and calculations. Recomputed clearance half-times 0.9242/0.2310 min, saturating removal 11.7647/0.9901, survival model fast 4535.45 slow 60653.07 and slow share 93.04%, k 0.115129 min^-1, D 20 min, half-time 6.0206 min; also checked stoichiometry, lag ratio, survival fractions, 2.301 log reduction, 1.49% mixture, MDK assumptions and numerical practice. All hypothetical data and original figures/questions identified.",
+    "node_id": "3.A.01",
+    "title": "Evidence for DNA Replication and the Replicon Concept",
+    "slug": "evidence-for-dna-replication-and-the-replicon-concept.html",
+    "narrative_words": 14757,
+    "visible_article_words": 18429,
+    "html_characters": 203079,
+    "html_bytes": 203511,
+    "sections": 27,
+    "theory_sections": 20,
+    "teaching_paragraphs": 155,
+    "figures": 12,
+    "tables": 3,
+    "questions": 50,
+    "distribution": {
+      "part-b": 20,
+      "part-c": 20,
+      "assertion-reason": 5,
+      "multiple-statements": 4,
+      "matching": 1
+    },
+    "references": 13,
+    "method": "Whitespace-delimited count of actual saved theory-section paragraph text, inline tags and numeric citation links removed; excludes headings, diagrams, captions, tables, questions, revision, references and UI. Article count includes headings, captions, tables, practice, revealed answers, and reference titles; excludes SVG contents and diagram buttons.",
+    "comparator": "2.E.08 QA 14,663 narrative words across 18 theory sections; 2.E.10 QA 14,253 across 17. This chapter gives 20 distinct sections and 155 paragraphs; no identical paragraphs. Comparison is supportive, not a proxy for quality.",
+    "scientific_checks": "Official merged NET page 4, separate NET page 2 and archived MP SET page 2 visually checked. Verified landmark Meselson–Stahl 1958, Taylor/Woods/Hughes 1957, Cairns 1963, Huberman/Riggs 1968, 1953 double helix and modern review of replicon concept. Reviewed isotope chemistry, equilibrium separation, two-generation model discrimination, strand denaturation, old material vs immediate template, partial duplication and isotope carryover, sister chromatid pulse/chase, actual vs potential origins, theta shape vs direction, cis/trans distinction, fork direction, circular vs linear geometry, delayed initiation and convergence. Corrected toolbar assembly, previous-node target, multiple-origin geometry and source anchors before publication.",
+    "arithmetic_checks": [
+      {
+        "test": "25 HH, three rounds",
+        "actual": 200,
+        "expected": 200,
+        "pass": true
+      },
+      {
+        "test": "hybrids",
+        "actual": 50,
+        "expected": 50,
+        "pass": true
+      },
+      {
+        "test": "light",
+        "actual": 150,
+        "expected": 150,
+        "pass": true
+      },
+      {
+        "test": "heavy chain share",
+        "actual": 0.125,
+        "expected": 0.125,
+        "pass": true
+      },
+      {
+        "test": "5 rounds hybrid",
+        "actual": 0.0625,
+        "expected": 0.0625,
+        "pass": true
+      },
+      {
+        "test": "hybrid density",
+        "actual": 1.7169999999999999,
+        "expected": 1.717,
+        "pass": true
+      },
+      {
+        "test": "dispersive mean",
+        "actual": 1.7135,
+        "expected": 1.7135,
+        "pass": true
+      },
+      {
+        "test": "conservative mean",
+        "actual": 1.7135,
+        "expected": 1.7135,
+        "pass": true
+      },
+      {
+        "test": "switched heavy fraction",
+        "actual": 0.625,
+        "expected": 0.625,
+        "pass": true
+      },
+      {
+        "test": "mixed start",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "test": "asynchronous",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "test": "half originals complete",
+        "actual": 0.3333333333333333,
+        "expected": 0.3333333333333333,
+        "pass": true
+      },
+      {
+        "test": "circle 4.8Mb one fork",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "test": "circle two forks",
+        "actual": 50,
+        "expected": 50,
+        "pass": true
+      },
+      {
+        "test": "unequal fork time",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "test": "unequal fork distance",
+        "actual": 800,
+        "expected": 800,
+        "pass": true
+      },
+      {
+        "test": "linear completion",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "test": "bubble speed",
+        "actual": 2,
+        "expected": 2,
+        "pass": true
+      },
+      {
+        "test": "pulse speed",
+        "actual": 25,
+        "expected": 25,
+        "pass": true
+      },
+      {
+        "test": "pulse ratio",
+        "actual": 1.4000000000000001,
+        "expected": 1.4,
+        "pass": true
+      },
+      {
+        "test": "one origin",
+        "actual": 20000,
+        "expected": 20000,
+        "pass": true
+      },
+      {
+        "test": "100 origins",
+        "actual": 200,
+        "expected": 200,
+        "pass": true
+      },
+      {
+        "test": "min origins",
+        "actual": 67,
+        "expected": 67,
+        "pass": true
+      },
+      {
+        "test": "delayed meeting",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "test": "Q21 total",
+        "actual": 192,
+        "expected": 192,
+        "pass": true
+      },
+      {
+        "test": "Q22 hybrid",
+        "actual": 0.03125,
+        "expected": 0.03125,
+        "pass": true
+      },
+      {
+        "test": "Q23 heavy",
+        "actual": 0.015625,
+        "expected": 0.015625,
+        "pass": true
+      },
+      {
+        "test": "Q24 hybrid",
+        "actual": 0.55,
+        "expected": 0.55,
+        "pass": true
+      },
+      {
+        "test": "Q27 density",
+        "actual": 1.702,
+        "expected": 1.702,
+        "pass": true
+      },
+      {
+        "test": "Q28 hybrid",
+        "actual": 1.708,
+        "expected": 1.708,
+        "pass": true
+      },
+      {
+        "test": "Q30 copied",
+        "actual": 40,
+        "expected": 40,
+        "pass": true
+      },
+      {
+        "test": "Q31 circle",
+        "actual": 50,
+        "expected": 50,
+        "pass": true
+      },
+      {
+        "test": "Q32 faster distance",
+        "actual": 500,
+        "expected": 500,
+        "pass": true
+      },
+      {
+        "test": "Q33 linear",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "test": "Q34 balanced",
+        "actual": 80,
+        "expected": 80,
+        "pass": true
+      },
+      {
+        "test": "Q35 min origins",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "test": "Q36 delayed",
+        "actual": 75,
+        "expected": 75,
+        "pass": true
+      },
+      {
+        "test": "Q37 passive arrival",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "test": "Q39 track",
+        "actual": 1.8,
+        "expected": 1.8,
+        "pass": true
+      }
+    ],
     "technical_checks": {
+      "wordGate": true,
       "uniqueIds": true,
-      "toc": true,
-      "svgLabelsAndZoom": true,
+      "anchors": true,
+      "ariaLabels": true,
+      "svgZoom": true,
       "readerControls": true,
+      "nextDisabled": true,
+      "previousReciprocal": true,
+      "localLinks": true,
       "canonical": true,
       "menu": true,
       "sitemap": true,
-      "questionCount": true,
-      "wordGate": true,
-      "reciprocalForPublishedNeighbors": true,
-      "unpublishedNeighborsDisabled": true
+      "questions": true,
+      "sections": true,
+      "noDuplicateParagraphs": true,
+      "arithmetic": true,
+      "noStaleContent": true,
+      "tables": true
     },
-    "limitations": "Two substantive editorial self-review passes, not independent external human review. Static source, diagram geometry, links and arithmetic checks, not full browser/device/accessibility or interactive SVG rendering audit. MP SET source is archived 2024, not a verified current original MPPSC-hosted syllabus. Pages verification separate and pending at commit.",
-    "source_draft_branch": "develop-2e08-oxidative-starvation-survival-20261125",
-    "main_baseline_sha": "4246a0d0d5d0a7a4e323c37c91fef1fb935dfacc",
+    "academic_self_review": {
+      "scope": 20,
+      "scientificAccuracy": 19,
+      "teachingDepth": 19,
+      "evidence": 14,
+      "quantitativeReasoning": 10,
+      "practice": 9,
+      "illustrations": 4,
+      "total": 95,
+      "maximum": 100,
+      "method": "Internal self-review rubric only: scope /20, accuracy /20, depth /20, evidence /15, quantitative /10, practice /10, illustrations /5. Deductions for source-reading limits, diagram rendering untested, and room for deeper distractor explanations; not a peer-review grade."
+    },
+    "limitations": "Self-review by author, not independent human peer review. Sources checked via available abstracts, chapter excerpts and syllabus screenshots, not every textbook edition or full paper. Static HTML/SVG source and coordinate checks only; full rendered browser/mobile/device interaction and accessibility testing not performed. MP SET 2024 source is an archived copy, not verified current original MPPSC-hosted syllabus. Pages live verification pending at commit.",
+    "main_baseline_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+    "source_draft_branch": "draft/node-3a01-evidence-replication",
     "status": "lesson_committed_pages_verification_pending"
   },
   "published_node_ids": [
@@ -142,7 +402,8 @@
     "2.E.07",
     "2.E.09",
     "2.E.10",
-    "2.E.08"
+    "2.E.08",
+    "3.A.01"
   ],
   "prior_publication_qa": {
     "node_id": "2.B.03",
@@ -178,43 +439,41 @@
     "main_baseline_sha": "a5876ac9a66255f1837aa44b58fbe2aa73b55f83"
   },
   "previous_last_qa": {
-    "node_id": "2.E.09",
-    "title": "Antimicrobial Action, Susceptibility and Resistance Fundamentals",
-    "slug": "antimicrobial-action-susceptibility-and-resistance-fundamentals.html",
-    "narrative_words": 14713,
-    "visible_article_words": 17352,
-    "html_characters": 197233,
-    "html_bytes": 197395,
-    "sections": 18,
-    "theory_sections": 15,
-    "figures": 10,
+    "node_id": "2.E.08",
+    "title": "Oxidative Stress, Nutrient Starvation and Microbial Survival",
+    "slug": "oxidative-stress-nutrient-starvation-and-microbial-survival.html",
+    "narrative_words": 14663,
+    "visible_article_words": 17297,
+    "html_characters": 190356,
+    "html_bytes": 191001,
+    "sections": 21,
+    "theory_sections": 18,
+    "figures": 11,
     "tables": 2,
-    "part_b": 10,
-    "part_c": 12,
-    "questions": 22,
-    "worked_numerical_examples": 8,
-    "references": 12,
-    "method": "Whitespace-delimited actual visible teaching paragraphs only, excluding headings, tables, SVG, figure captions, citations, questions, references and reader UI. Article count includes visible headings, captions, tables, question explanations and references but excludes SVG, section citation markers and zoom buttons. Eight worked examples: net-rate model, relative suppression versus viable loss, MIC endpoint, MIC fold difference, censored MIC bound, and three viable-loss/log-reduction examples.",
-    "comparator": "Same-subunit published QA records: 2.E.05 14952, 2.E.07 14943, 2.E.10 14253 narrative words. Node 2.E.09 treats 15 substantial theory sections, from target selectivity and evidence through all five action categories, endpoint mathematics and limitations, intrinsic/acquired resistance, tolerance/persistence and integrated reasoning. Detailed molecular resistance spread belongs to 2.E.10.",
-    "scientific_checks": "Verified merged CSIR-DBT NET Unit 2.E page 3, separate CSIR Life Sciences page 2 and archived MP SET 2024 page 2 visually. Sources include Fleming 1929, Tipper/Strominger 1965, Yocum et al. 1980, OpenStax, quinolone and ribosomal reviews, Balaban et al. 2004 and 2019, EUCAST. Two editorial self-review passes added spectrum, biochemical and persistence evidence, clarified tolerance and comparative interpretation, expanded log reduction comparisons, corrected folate and ribosome diagrams and dark contrast. Recomputed net rates 0.3/0, ratio 4, 99.8% and log10(500)=2.69897, 99.99% and four logs, fractions 0.1/0.001 and 9.9 percentage points; practice net rates 0.2/0.2, ratio 8, fraction 0.002 and 2.69897 logs, three logs. All illustrative data and questions original; no real experimental susceptibility protocols or clinical treatment advice.",
+    "part_b": 12,
+    "part_c": 14,
+    "questions": 26,
+    "worked_numerical_examples": 13,
+    "references": 14,
+    "method": "Whitespace-delimited visible text of teaching paragraphs before Part B; excluding tables, figures/captions, practice, references and UI. Total article includes headings, captions, tables, questions/answers and references, excluding SVGs and diagram buttons.",
+    "comparator": "2.E.07 QA reports 14,943 teaching narrative words, 18 theory sections; 2.E.04 QA reports 14,080; 2.D.10 QA reports 7,560. This node independently develops distinct oxidative and nutrient stress mechanisms, evidence, physiological heterogeneity and survival mathematics.",
+    "scientific_checks": "Official merged NET page 3, separate NET page 2 and archived MP SET page 2 visually verified. Reviewed partial reduction, SOD and catalase stoichiometry, Ahp reducing equivalents, Fenton reaction and iron availability, Fe–S enzyme lesions, OxyR/SoxR/PerR scope, nutrient budget, RelA/SpoT and species-specific (p)ppGpp regulation, RpoS, stationary-phase measurement ambiguity, VBNC recovery limits, cross-protection and persistence/tolerance/resistance. First substantive self-review corrected peroxide stoichiometry and graph legend and strengthened Seaver–Imlay and RpoS evidence. Second self-review checked conceptual sequence, wording of heritable tolerance vs resistance, controls, linked prerequisites, question options and calculations. Recomputed clearance half-times 0.9242/0.2310 min, saturating removal 11.7647/0.9901, survival model fast 4535.45 slow 60653.07 and slow share 93.04%, k 0.115129 min^-1, D 20 min, half-time 6.0206 min; also checked stoichiometry, lag ratio, survival fractions, 2.301 log reduction, 1.49% mixture, MDK assumptions and numerical practice. All hypothetical data and original figures/questions identified.",
     "technical_checks": {
       "uniqueIds": true,
-      "anchors": true,
-      "diagramLabels": true,
-      "diagramZoomHooks": true,
+      "toc": true,
+      "svgLabelsAndZoom": true,
       "readerControls": true,
       "canonical": true,
       "menu": true,
       "sitemap": true,
-      "reciprocal": true,
-      "previousPublished": false,
-      "nextPublished": true,
-      "unpublishedNeighborsDisabled": true,
-      "numericalRecalculation": true
+      "questionCount": true,
+      "wordGate": true,
+      "reciprocalForPublishedNeighbors": true,
+      "unpublishedNeighborsDisabled": true
     },
-    "limitations": "Two substantive editorial self-review passes, not an independent human expert review. Static source, label and diagram geometry checks only; interactive browser/device/accessibility audit not performed. MP SET comparator is an archived copy, not an original current MPPSC-hosted PDF; AMR is explicitly in the merged NET syllabus rather than the older 2.E SET line. GitHub Pages deployment verification separate and pending.",
-    "main_baseline_sha": "14278a1eed68dc11de4d0e6762d6b58450d0d091",
-    "source_draft_branch": "develop-2e09-antimicrobial-fundamentals-20261125",
+    "limitations": "Two substantive editorial self-review passes, not independent external human review. Static source, diagram geometry, links and arithmetic checks, not full browser/device/accessibility or interactive SVG rendering audit. MP SET source is archived 2024, not a verified current original MPPSC-hosted syllabus. Pages verification separate and pending at commit.",
+    "source_draft_branch": "develop-2e08-oxidative-starvation-survival-20261125",
+    "main_baseline_sha": "4246a0d0d5d0a7a4e323c37c91fef1fb935dfacc",
     "status": "lesson_committed_pages_verification_pending"
   },
   "unit_02": {
@@ -1738,7 +1997,7 @@
     "next_pending_node_id": "1.A.03",
     "next_pending_node_title": "Biological Solutions, pH and Buffer Systems"
   },
-  "last_node_roadmap": "curriculum/subunit-2e-microbial-physiology-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-3a-dna-replication-repair-recombination-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -1803,5 +2062,618 @@
     "2.E.09",
     "2.E.10"
   ],
-  "unit2e_planned_node_count": 10
+  "unit2e_planned_node_count": 10,
+  "unit_03": {
+    "published_node_ids": [
+      "3.A.01"
+    ],
+    "published_node_count": 1,
+    "last_published_node_id": "3.A.01",
+    "updated_at": "2026-11-25",
+    "status": "lesson_committed_pages_verification_pending",
+    "last_qa": {
+      "node_id": "3.A.01",
+      "title": "Evidence for DNA Replication and the Replicon Concept",
+      "slug": "evidence-for-dna-replication-and-the-replicon-concept.html",
+      "narrative_words": 14757,
+      "visible_article_words": 18429,
+      "html_characters": 203079,
+      "html_bytes": 203511,
+      "sections": 27,
+      "theory_sections": 20,
+      "teaching_paragraphs": 155,
+      "figures": 12,
+      "tables": 3,
+      "questions": 50,
+      "distribution": {
+        "part-b": 20,
+        "part-c": 20,
+        "assertion-reason": 5,
+        "multiple-statements": 4,
+        "matching": 1
+      },
+      "references": 13,
+      "method": "Whitespace-delimited count of actual saved theory-section paragraph text, inline tags and numeric citation links removed; excludes headings, diagrams, captions, tables, questions, revision, references and UI. Article count includes headings, captions, tables, practice, revealed answers, and reference titles; excludes SVG contents and diagram buttons.",
+      "comparator": "2.E.08 QA 14,663 narrative words across 18 theory sections; 2.E.10 QA 14,253 across 17. This chapter gives 20 distinct sections and 155 paragraphs; no identical paragraphs. Comparison is supportive, not a proxy for quality.",
+      "scientific_checks": "Official merged NET page 4, separate NET page 2 and archived MP SET page 2 visually checked. Verified landmark Meselson–Stahl 1958, Taylor/Woods/Hughes 1957, Cairns 1963, Huberman/Riggs 1968, 1953 double helix and modern review of replicon concept. Reviewed isotope chemistry, equilibrium separation, two-generation model discrimination, strand denaturation, old material vs immediate template, partial duplication and isotope carryover, sister chromatid pulse/chase, actual vs potential origins, theta shape vs direction, cis/trans distinction, fork direction, circular vs linear geometry, delayed initiation and convergence. Corrected toolbar assembly, previous-node target, multiple-origin geometry and source anchors before publication.",
+      "arithmetic_checks": [
+        {
+          "test": "25 HH, three rounds",
+          "actual": 200,
+          "expected": 200,
+          "pass": true
+        },
+        {
+          "test": "hybrids",
+          "actual": 50,
+          "expected": 50,
+          "pass": true
+        },
+        {
+          "test": "light",
+          "actual": 150,
+          "expected": 150,
+          "pass": true
+        },
+        {
+          "test": "heavy chain share",
+          "actual": 0.125,
+          "expected": 0.125,
+          "pass": true
+        },
+        {
+          "test": "5 rounds hybrid",
+          "actual": 0.0625,
+          "expected": 0.0625,
+          "pass": true
+        },
+        {
+          "test": "hybrid density",
+          "actual": 1.7169999999999999,
+          "expected": 1.717,
+          "pass": true
+        },
+        {
+          "test": "dispersive mean",
+          "actual": 1.7135,
+          "expected": 1.7135,
+          "pass": true
+        },
+        {
+          "test": "conservative mean",
+          "actual": 1.7135,
+          "expected": 1.7135,
+          "pass": true
+        },
+        {
+          "test": "switched heavy fraction",
+          "actual": 0.625,
+          "expected": 0.625,
+          "pass": true
+        },
+        {
+          "test": "mixed start",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "test": "asynchronous",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "test": "half originals complete",
+          "actual": 0.3333333333333333,
+          "expected": 0.3333333333333333,
+          "pass": true
+        },
+        {
+          "test": "circle 4.8Mb one fork",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "test": "circle two forks",
+          "actual": 50,
+          "expected": 50,
+          "pass": true
+        },
+        {
+          "test": "unequal fork time",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "test": "unequal fork distance",
+          "actual": 800,
+          "expected": 800,
+          "pass": true
+        },
+        {
+          "test": "linear completion",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "test": "bubble speed",
+          "actual": 2,
+          "expected": 2,
+          "pass": true
+        },
+        {
+          "test": "pulse speed",
+          "actual": 25,
+          "expected": 25,
+          "pass": true
+        },
+        {
+          "test": "pulse ratio",
+          "actual": 1.4000000000000001,
+          "expected": 1.4,
+          "pass": true
+        },
+        {
+          "test": "one origin",
+          "actual": 20000,
+          "expected": 20000,
+          "pass": true
+        },
+        {
+          "test": "100 origins",
+          "actual": 200,
+          "expected": 200,
+          "pass": true
+        },
+        {
+          "test": "min origins",
+          "actual": 67,
+          "expected": 67,
+          "pass": true
+        },
+        {
+          "test": "delayed meeting",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "test": "Q21 total",
+          "actual": 192,
+          "expected": 192,
+          "pass": true
+        },
+        {
+          "test": "Q22 hybrid",
+          "actual": 0.03125,
+          "expected": 0.03125,
+          "pass": true
+        },
+        {
+          "test": "Q23 heavy",
+          "actual": 0.015625,
+          "expected": 0.015625,
+          "pass": true
+        },
+        {
+          "test": "Q24 hybrid",
+          "actual": 0.55,
+          "expected": 0.55,
+          "pass": true
+        },
+        {
+          "test": "Q27 density",
+          "actual": 1.702,
+          "expected": 1.702,
+          "pass": true
+        },
+        {
+          "test": "Q28 hybrid",
+          "actual": 1.708,
+          "expected": 1.708,
+          "pass": true
+        },
+        {
+          "test": "Q30 copied",
+          "actual": 40,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "test": "Q31 circle",
+          "actual": 50,
+          "expected": 50,
+          "pass": true
+        },
+        {
+          "test": "Q32 faster distance",
+          "actual": 500,
+          "expected": 500,
+          "pass": true
+        },
+        {
+          "test": "Q33 linear",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "test": "Q34 balanced",
+          "actual": 80,
+          "expected": 80,
+          "pass": true
+        },
+        {
+          "test": "Q35 min origins",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "test": "Q36 delayed",
+          "actual": 75,
+          "expected": 75,
+          "pass": true
+        },
+        {
+          "test": "Q37 passive arrival",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "test": "Q39 track",
+          "actual": 1.8,
+          "expected": 1.8,
+          "pass": true
+        }
+      ],
+      "technical_checks": {
+        "wordGate": true,
+        "uniqueIds": true,
+        "anchors": true,
+        "ariaLabels": true,
+        "svgZoom": true,
+        "readerControls": true,
+        "nextDisabled": true,
+        "previousReciprocal": true,
+        "localLinks": true,
+        "canonical": true,
+        "menu": true,
+        "sitemap": true,
+        "questions": true,
+        "sections": true,
+        "noDuplicateParagraphs": true,
+        "arithmetic": true,
+        "noStaleContent": true,
+        "tables": true
+      },
+      "academic_self_review": {
+        "scope": 20,
+        "scientificAccuracy": 19,
+        "teachingDepth": 19,
+        "evidence": 14,
+        "quantitativeReasoning": 10,
+        "practice": 9,
+        "illustrations": 4,
+        "total": 95,
+        "maximum": 100,
+        "method": "Internal self-review rubric only: scope /20, accuracy /20, depth /20, evidence /15, quantitative /10, practice /10, illustrations /5. Deductions for source-reading limits, diagram rendering untested, and room for deeper distractor explanations; not a peer-review grade."
+      },
+      "limitations": "Self-review by author, not independent human peer review. Sources checked via available abstracts, chapter excerpts and syllabus screenshots, not every textbook edition or full paper. Static HTML/SVG source and coordinate checks only; full rendered browser/mobile/device interaction and accessibility testing not performed. MP SET 2024 source is an archived copy, not verified current original MPPSC-hosted syllabus. Pages live verification pending at commit.",
+      "main_baseline_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+      "source_draft_branch": "draft/node-3a01-evidence-replication",
+      "status": "lesson_committed_pages_verification_pending"
+    },
+    "qa_by_node": {
+      "3.A.01": {
+        "node_id": "3.A.01",
+        "title": "Evidence for DNA Replication and the Replicon Concept",
+        "slug": "evidence-for-dna-replication-and-the-replicon-concept.html",
+        "narrative_words": 14757,
+        "visible_article_words": 18429,
+        "html_characters": 203079,
+        "html_bytes": 203511,
+        "sections": 27,
+        "theory_sections": 20,
+        "teaching_paragraphs": 155,
+        "figures": 12,
+        "tables": 3,
+        "questions": 50,
+        "distribution": {
+          "part-b": 20,
+          "part-c": 20,
+          "assertion-reason": 5,
+          "multiple-statements": 4,
+          "matching": 1
+        },
+        "references": 13,
+        "method": "Whitespace-delimited count of actual saved theory-section paragraph text, inline tags and numeric citation links removed; excludes headings, diagrams, captions, tables, questions, revision, references and UI. Article count includes headings, captions, tables, practice, revealed answers, and reference titles; excludes SVG contents and diagram buttons.",
+        "comparator": "2.E.08 QA 14,663 narrative words across 18 theory sections; 2.E.10 QA 14,253 across 17. This chapter gives 20 distinct sections and 155 paragraphs; no identical paragraphs. Comparison is supportive, not a proxy for quality.",
+        "scientific_checks": "Official merged NET page 4, separate NET page 2 and archived MP SET page 2 visually checked. Verified landmark Meselson–Stahl 1958, Taylor/Woods/Hughes 1957, Cairns 1963, Huberman/Riggs 1968, 1953 double helix and modern review of replicon concept. Reviewed isotope chemistry, equilibrium separation, two-generation model discrimination, strand denaturation, old material vs immediate template, partial duplication and isotope carryover, sister chromatid pulse/chase, actual vs potential origins, theta shape vs direction, cis/trans distinction, fork direction, circular vs linear geometry, delayed initiation and convergence. Corrected toolbar assembly, previous-node target, multiple-origin geometry and source anchors before publication.",
+        "arithmetic_checks": [
+          {
+            "test": "25 HH, three rounds",
+            "actual": 200,
+            "expected": 200,
+            "pass": true
+          },
+          {
+            "test": "hybrids",
+            "actual": 50,
+            "expected": 50,
+            "pass": true
+          },
+          {
+            "test": "light",
+            "actual": 150,
+            "expected": 150,
+            "pass": true
+          },
+          {
+            "test": "heavy chain share",
+            "actual": 0.125,
+            "expected": 0.125,
+            "pass": true
+          },
+          {
+            "test": "5 rounds hybrid",
+            "actual": 0.0625,
+            "expected": 0.0625,
+            "pass": true
+          },
+          {
+            "test": "hybrid density",
+            "actual": 1.7169999999999999,
+            "expected": 1.717,
+            "pass": true
+          },
+          {
+            "test": "dispersive mean",
+            "actual": 1.7135,
+            "expected": 1.7135,
+            "pass": true
+          },
+          {
+            "test": "conservative mean",
+            "actual": 1.7135,
+            "expected": 1.7135,
+            "pass": true
+          },
+          {
+            "test": "switched heavy fraction",
+            "actual": 0.625,
+            "expected": 0.625,
+            "pass": true
+          },
+          {
+            "test": "mixed start",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "test": "asynchronous",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "test": "half originals complete",
+            "actual": 0.3333333333333333,
+            "expected": 0.3333333333333333,
+            "pass": true
+          },
+          {
+            "test": "circle 4.8Mb one fork",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "test": "circle two forks",
+            "actual": 50,
+            "expected": 50,
+            "pass": true
+          },
+          {
+            "test": "unequal fork time",
+            "actual": 20,
+            "expected": 20,
+            "pass": true
+          },
+          {
+            "test": "unequal fork distance",
+            "actual": 800,
+            "expected": 800,
+            "pass": true
+          },
+          {
+            "test": "linear completion",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "test": "bubble speed",
+            "actual": 2,
+            "expected": 2,
+            "pass": true
+          },
+          {
+            "test": "pulse speed",
+            "actual": 25,
+            "expected": 25,
+            "pass": true
+          },
+          {
+            "test": "pulse ratio",
+            "actual": 1.4000000000000001,
+            "expected": 1.4,
+            "pass": true
+          },
+          {
+            "test": "one origin",
+            "actual": 20000,
+            "expected": 20000,
+            "pass": true
+          },
+          {
+            "test": "100 origins",
+            "actual": 200,
+            "expected": 200,
+            "pass": true
+          },
+          {
+            "test": "min origins",
+            "actual": 67,
+            "expected": 67,
+            "pass": true
+          },
+          {
+            "test": "delayed meeting",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "test": "Q21 total",
+            "actual": 192,
+            "expected": 192,
+            "pass": true
+          },
+          {
+            "test": "Q22 hybrid",
+            "actual": 0.03125,
+            "expected": 0.03125,
+            "pass": true
+          },
+          {
+            "test": "Q23 heavy",
+            "actual": 0.015625,
+            "expected": 0.015625,
+            "pass": true
+          },
+          {
+            "test": "Q24 hybrid",
+            "actual": 0.55,
+            "expected": 0.55,
+            "pass": true
+          },
+          {
+            "test": "Q27 density",
+            "actual": 1.702,
+            "expected": 1.702,
+            "pass": true
+          },
+          {
+            "test": "Q28 hybrid",
+            "actual": 1.708,
+            "expected": 1.708,
+            "pass": true
+          },
+          {
+            "test": "Q30 copied",
+            "actual": 40,
+            "expected": 40,
+            "pass": true
+          },
+          {
+            "test": "Q31 circle",
+            "actual": 50,
+            "expected": 50,
+            "pass": true
+          },
+          {
+            "test": "Q32 faster distance",
+            "actual": 500,
+            "expected": 500,
+            "pass": true
+          },
+          {
+            "test": "Q33 linear",
+            "actual": 30,
+            "expected": 30,
+            "pass": true
+          },
+          {
+            "test": "Q34 balanced",
+            "actual": 80,
+            "expected": 80,
+            "pass": true
+          },
+          {
+            "test": "Q35 min origins",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "test": "Q36 delayed",
+            "actual": 75,
+            "expected": 75,
+            "pass": true
+          },
+          {
+            "test": "Q37 passive arrival",
+            "actual": 20,
+            "expected": 20,
+            "pass": true
+          },
+          {
+            "test": "Q39 track",
+            "actual": 1.8,
+            "expected": 1.8,
+            "pass": true
+          }
+        ],
+        "technical_checks": {
+          "wordGate": true,
+          "uniqueIds": true,
+          "anchors": true,
+          "ariaLabels": true,
+          "svgZoom": true,
+          "readerControls": true,
+          "nextDisabled": true,
+          "previousReciprocal": true,
+          "localLinks": true,
+          "canonical": true,
+          "menu": true,
+          "sitemap": true,
+          "questions": true,
+          "sections": true,
+          "noDuplicateParagraphs": true,
+          "arithmetic": true,
+          "noStaleContent": true,
+          "tables": true
+        },
+        "academic_self_review": {
+          "scope": 20,
+          "scientificAccuracy": 19,
+          "teachingDepth": 19,
+          "evidence": 14,
+          "quantitativeReasoning": 10,
+          "practice": 9,
+          "illustrations": 4,
+          "total": 95,
+          "maximum": 100,
+          "method": "Internal self-review rubric only: scope /20, accuracy /20, depth /20, evidence /15, quantitative /10, practice /10, illustrations /5. Deductions for source-reading limits, diagram rendering untested, and room for deeper distractor explanations; not a peer-review grade."
+        },
+        "limitations": "Self-review by author, not independent human peer review. Sources checked via available abstracts, chapter excerpts and syllabus screenshots, not every textbook edition or full paper. Static HTML/SVG source and coordinate checks only; full rendered browser/mobile/device interaction and accessibility testing not performed. MP SET 2024 source is an archived copy, not verified current original MPPSC-hosted syllabus. Pages live verification pending at commit.",
+        "main_baseline_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+        "source_draft_branch": "draft/node-3a01-evidence-replication",
+        "status": "lesson_committed_pages_verification_pending"
+      }
+    },
+    "next_pending_node_id": "3.A.02",
+    "next_pending_node_title": "DNA Replication Origins and Initiation"
+  },
+  "unit3a_published_node_ids": [
+    "3.A.01"
+  ],
+  "unit3a_planned_node_count": 12
 }

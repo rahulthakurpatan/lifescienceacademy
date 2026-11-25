@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Learn fatty acid chemistry, triacylglycerols, phospholipids, sphingolipids, sterols, eicosanoids, lipid self-assembly and membrane fluidity for CSIR-NET Life Sciences and State SET.">
+  <meta name="robots" content="index,follow">
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/lipid-chemistry-and-biological-organisation.html">
+  <title>Lipid Chemistry and Biological Organisation | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+   .article-content details{border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin:14px 0} .article-content summary{cursor:pointer;font-weight:600} .article-content svg{display:block;margin:auto} 
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.toc{max-height:calc(100vh - 125px);overflow-y:auto;overscroll-behavior:contain}.article-content details summary{cursor:pointer}.compare-table caption{text-align:left;margin-bottom:8px}.figure-panel svg{display:block;margin:auto}.article-content .keybox{overflow-wrap:anywhere}@media(max-width:940px){.toc{max-height:none;overflow:visible}}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 1</span><span>›</span><span>Sub-unit 1.B</span><span>›</span><strong>Node 1.B.02</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 1.B.02</span><span>Unit 1 · Carbohydrates, Lipids and Nucleic Acids</span></div>
+      <h1>Lipid Chemistry and Biological Organisation</h1>
+      <p class="subtitle">From fatty acid chemistry and energy storage to molecular self-assembly, biological interfaces and lipid-mediated communication.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#intro">1. Why life needs a family of water-avoiding molecules</a>
+<a href="#fatty-acids">2. Fatty acids: hydrocarbon chain, carboxyl group and notation</a>
+<a href="#packing">3. Saturation, cis/trans geometry and physical behaviour</a>
+<a href="#essential">4. Essential fatty acids and chemical reactivity</a>
+<a href="#neutral">5. Neutral lipids: glycerol esters, waxes and energy storage</a>
+<a href="#hydrolysis">6. Hydrolysis, saponification and interpreting lipid measurements</a>
+<a href="#glycerophospholipids">7. Glycerophospholipids: turning an oil molecule into an interface</a>
+<a href="#lipid-variants">8. Ether lipids, lysolipids and phospholipase reasoning</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Lipid chemistry and biological organisation lesson"><div class="article-content" id="article">
+<section id="intro"><h2>1. Why life needs a family of water-avoiding molecules</h2>
+<p>Place a drop of vegetable oil in a glass of water and stir. For a while the water may appear cloudy, but left undisturbed it separates again. Now consider a living cell, which also contains mostly water. The cell must store substantial quantities of chemical fuel, keep its cytoplasm distinct from the surrounding solution, communicate with distant tissues and protect its surface. It performs all these tasks in part by using molecules with the very property that makes oil separate from water. Lipid chemistry is the study of how this apparent incompatibility becomes a biological advantage.</p>
+<p>Carbohydrates contain numerous hydroxyl groups and can generally establish favourable contacts with water. Lipids typically contain extensive nonpolar carbon skeletons, although many also contain a polar region. The contrast is not absolute: cellulose is insoluble despite its hydroxyl groups, and small fatty acids can dissolve readily. What matters is the balance of molecular interactions, not a rule that every molecule with oxygen is soluble and every molecule with carbon is insoluble. Review the hydrophobic effect in <a href="water-and-molecular-stabilising-interactions.html">1.A.02</a> if necessary.</p>
+<p>The term lipid describes a chemically diverse family rather than a single polymer type. Unlike proteins, whose backbones repeat a peptide-bond motif, the lipid family has no universal repeating linkage or obligatory monomer. A triacylglycerol contains three fatty acyl residues esterified to glycerol, whereas cholesterol is a compact fused-ring alcohol. Both are rich in nonpolar surface. Some lipids contain phosphorus, nitrogen or sulfur, and some contain no fatty acid at all. Neither a universal empirical formula nor the presence of glycerol identifies every lipid.</p>
+<p>Historically, the ability to extract fat-like molecules into organic solvents was a practical starting point for their classification. Modern chemistry also uses biosynthetic origin and structural frameworks. Common textbook groupings distinguish simple lipids such as fats and waxes, compound lipids such as phospholipids and glycolipids, and derived substances such as fatty acids and sterols. These categories can overlap in ways that make an exclusive classification unreliable. Modern LIPID MAPS distinguishes fatty acyls, glycerolipids, glycerophospholipids, sphingolipids, sterol lipids, prenol lipids, saccharolipids and polyketides. For examination purposes, learn to read the structural framework first and then identify relevant functional groups.</p>
+<p>Three independent questions guide this chapter. What is the covalent architecture of a lipid? How does that architecture determine the molecule's interaction with water and neighbouring lipids? How does the resulting organisation support storage, boundaries, recognition or signalling? Answering these questions will allow you to predict the behaviour of a lipid you have not memorised, including the effect of changing one double bond or replacing one head group. The full pathways of lipid biosynthesis and degradation belong to 1.F; here we establish the molecular reasoning those pathways require.</p></section>
+<section id="fatty-acids"><h2>2. Fatty acids: hydrocarbon chain, carboxyl group and notation</h2>
+<p>A fatty acid is a carboxylic acid with an aliphatic hydrocarbon chain. Its two ends behave differently: the carboxyl group forms hydrogen bonds and can lose a proton, whereas the chain largely participates in dispersion interactions. The conventional numbering starts at the carboxyl carbon, which is carbon 1, not carbon 0. The second carbon is the alpha carbon, the third is beta, and the terminal methyl carbon is omega. These names matter because a double bond and an oxidation reaction may be described using different reference points.</p>
+<p>For an unbranched, saturated, acyclic monocarboxylic acid containing n carbons, the neutral molecular formula is C<sub>n</sub>H<sub>2n</sub>O<sub>2</sub>. Introducing one carbon–carbon double bond removes two hydrogens without changing the carbon or oxygen count. With d such double bonds, the formula becomes C<sub>n</sub>H<sub>2n−2d</sub>O<sub>2</sub>, provided that there are no other rings or unsaturations. This is why palmitic acid (16:0) is C<sub>16</sub>H<sub>32</sub>O<sub>2</sub> and oleic acid (18:1) is C<sub>18</sub>H<sub>34</sub>O<sub>2</sub>. The carboxyl carbonyl already belongs to the acid framework; do not count it as an extra fatty-acid chain double bond.</p>
+<p>The shorthand 18:2 describes an 18-carbon chain with two carbon–carbon double bonds, but says nothing about their exact locations or geometries. Delta notation supplies positions from the carboxyl end. In 18:2 Δ9,12, the first bond lies between carbons 9 and 10, and the second between 12 and 13. In omega or n notation, the family is determined by the double bond nearest the methyl terminus. For an n-carbon chain with the largest delta index j, the omega number is n − j. Thus 18:2 Δ9,12 belongs to the n−6 family; 18:3 Δ9,12,15 belongs to n−3. The family name alone does not specify all double bonds or their geometries.</p>
+<figure class="figure-panel"><svg id="fa-number" role="img" aria-labelledby="fa-number-title fa-number-desc" viewBox="0 0 460 235" xmlns="http://www.w3.org/2000/svg"><title id="fa-number-title">Fatty acid numbering</title><desc id="fa-number-desc">An 18-carbon fatty acid numbered from the carboxyl end and from the methyl end; the delta 9 and delta 12 double bonds are indicated.</desc><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><text x="12" y="25" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Carboxyl end (C1)</text> <text x="292" y="25" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Methyl end (C18)</text><path d="M24 110 H430" stroke-width="1"/><circle cx="24" cy="110" r="3" fill="currentColor"/><text x="19" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">1</text><circle cx="47.5" cy="110" r="3" fill="currentColor"/><text x="42.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">2</text><circle cx="71" cy="110" r="3" fill="currentColor"/><text x="66" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">3</text><circle cx="94.5" cy="110" r="3" fill="currentColor"/><text x="89.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">4</text><circle cx="118" cy="110" r="3" fill="currentColor"/><text x="113" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">5</text><circle cx="141.5" cy="110" r="3" fill="currentColor"/><text x="136.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">6</text><circle cx="165" cy="110" r="3" fill="currentColor"/><text x="160" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">7</text><circle cx="188.5" cy="110" r="3" fill="currentColor"/><text x="183.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">8</text><circle cx="212" cy="110" r="3" fill="currentColor"/><text x="207" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">9</text><circle cx="235.5" cy="110" r="3" fill="currentColor"/><text x="230.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">10</text><circle cx="259" cy="110" r="3" fill="currentColor"/><text x="254" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">11</text><circle cx="282.5" cy="110" r="3" fill="currentColor"/><text x="277.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">12</text><circle cx="306" cy="110" r="3" fill="currentColor"/><text x="301" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">13</text><circle cx="329.5" cy="110" r="3" fill="currentColor"/><text x="324.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">14</text><circle cx="353" cy="110" r="3" fill="currentColor"/><text x="348" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">15</text><circle cx="376.5" cy="110" r="3" fill="currentColor"/><text x="371.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">16</text><circle cx="400" cy="110" r="3" fill="currentColor"/><text x="395" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">17</text><circle cx="423.5" cy="110" r="3" fill="currentColor"/><text x="418.5" y="131" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">18</text><path d="M212 103 H235 M282 103 H306" stroke="#d97706" stroke-width="4"/><text x="187" y="82" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Δ9</text> <text x="273" y="82" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Δ12</text><path d="M430 150 H306 M430 150 l-8 -5 M430 150 l-8 5"/><text x="318" y="172" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">n−6 family</text> <text x="20" y="200" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Schematic carbon positions; double bonds highlighted.</text></g></svg><figcaption>Carbon counting is from opposite ends in delta and omega notation. The highlighted bond nearer the methyl end determines the omega family.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="fa-number">Enlarge diagram</button></figure>
+<p>Even-numbered chains predominate in many organisms because common biosynthetic routes extend chains in two-carbon increments. Odd-chain, branched and hydroxylated fatty acids nevertheless occur, especially in particular microbial lipids and specialised animal lipids. Chain length also varies greatly. In general, increasing hydrocarbon length reduces water solubility and increases the strength of cumulative dispersion contacts. Small carboxylic acids such as acetate behave quite differently from palmitate, despite sharing the carboxyl group.</p>
+<p>The protonated species R–COOH and the deprotonated carboxylate R–COO<sup>−</sup> interconvert. In an ideal dilute solution of an acid, the ratio of carboxylate to acid is 10<sup>pH−pKa</sup>. At pH 7.0 and an illustrative pKa of 4.8, the ratio is about 158:1, so about 99.4% is ionised. In real long-chain fatty acid aggregates, the local electrostatic environment can shift the apparent pKa; the dilute-solution calculation is not a universal membrane speciation rule. The charged head favours contact with water, yet the chain remains hydrophobic, making long-chain fatty acid salts amphipathic rather than freely soluble at arbitrary concentrations.</p>
+<p>Distinguish a free fatty acid from a fatty acyl residue. Esterification replaces the acid hydroxyl with an oxygen bonded to another group; the carboxyl proton is no longer present. A palmitoyl residue in a glycerol ester therefore cannot be treated as a free palmitate anion at neutral pH. This distinction will explain why triacylglycerol is nearly nonpolar even though it contains three fatty acids in esterified form.</p>
+<div class="table-scroll"><table class="compare-table"><caption>Representative naturally occurring fatty acids (common all-cis forms where unsaturated)</caption><thead><tr><th scope="col">Name</th><th scope="col">Notation</th><th scope="col">Biochemical context</th></tr></thead><tbody><tr><td>Lauric</td><td>12:0</td><td>Shorter saturated chain than palmitate</td></tr><tr><td>Palmitic</td><td>16:0</td><td>Common saturated fatty acid</td></tr><tr><td>Stearic</td><td>18:0</td><td>Long saturated chain</td></tr><tr><td>Oleic</td><td>18:1 Δ9; n−9</td><td>Monounsaturated fatty acid</td></tr><tr><td>Linoleic</td><td>18:2 Δ9,12; n−6</td><td>Essential in humans</td></tr><tr><td>α-Linolenic</td><td>18:3 Δ9,12,15; n−3</td><td>Essential in humans</td></tr><tr><td>Arachidonic</td><td>20:4 Δ5,8,11,14; n−6</td><td>Precursor of many eicosanoids</td></tr><tr><td>EPA</td><td>20:5 Δ5,8,11,14,17; n−3</td><td>Long-chain polyunsaturated fatty acid</td></tr><tr><td>DHA</td><td>22:6 Δ4,7,10,13,16,19; n−3</td><td>Important in neural and retinal lipids</td></tr></tbody></table></div></section>
+<section id="packing"><h2>3. Saturation, cis/trans geometry and physical behaviour</h2>
+<p>A saturated chain contains carbon–carbon single bonds. Rotation about these bonds allows different conformations, although in an ordered environment extended conformations maximise close contacts. In a crystal or ordered bilayer, many such chains can approach each other over much of their length. Each individual dispersion interaction is weak, but the sum over a long chain is significant. Consequently, increasing the length of otherwise comparable saturated chains generally increases their melting temperature. A longer chain has more surface to interact with, and separating the ordered chains requires more thermal energy.</p>
+<p>A double bond changes this situation in two ways. Its π bond restricts rotation, and the substituents can lie on the same side (cis) or opposite sides (trans). Most common unsaturated fatty acids have cis double bonds. In a cis chain, the two continuing chain segments depart at an angle, introducing a persistent change of direction that neighbouring straight chains cannot accommodate as easily. A trans chain is more extended, although it is not chemically identical to a saturated chain. The cis isomer generally has a lower melting point than the corresponding trans isomer because its crystal packs less efficiently.</p>
+<figure class="figure-panel"><svg id="cis-trans" role="img" aria-labelledby="cis-trans-title cis-trans-desc" viewBox="0 0 460 235" xmlns="http://www.w3.org/2000/svg"><title id="cis-trans-title">Chain geometry and packing</title><desc id="cis-trans-desc">Three schematic carbon chains: straight saturated chain, bent cis chain and more extended trans chain.</desc><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><text x="20" y="32" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Saturated</text><path d="M28 65 l25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17"/><path d="M28 82 l25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17 25 -17 25 17" opacity=".5"/><text x="20" y="115" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">cis</text><path d="M28 138 l30 -18 30 18 30 -18 45 0 45 50 25 17 25 -17 25 17"/><path d="M118 125 H163" stroke="#d97706" stroke-width="3"/><text x="310" y="165" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Kink</text> <text x="20" y="205" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">trans</text><path d="M89 203 l30 -17 30 17 46 0 30 -17 30 17 30 -17 30 17"/><path d="M149 208 H195" stroke="#d97706" stroke-width="3"/></g></svg><figcaption>Double-bond regions are highlighted. The geometry of the continuing carbon chains, rather than the mere existence of a double bond, controls packing. Schematic, not a complete structural formula.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="cis-trans">Enlarge diagram</button></figure>
+<p>Compare stearic acid (18:0), oleic acid (cis-18:1 Δ9) and elaidic acid (trans-18:1 Δ9). Their approximate pure-compound melting points are 69–70 °C, 13–14 °C and 44–45 °C, respectively. The comparison between the last two is particularly instructive because their elemental compositions and double-bond counts are identical. A difference in physical property therefore reveals the role of geometry, not the number of carbon atoms. Natural oils and fats are mixtures of triacylglycerols, however, so one must not transfer these pure free-fatty-acid melting temperatures directly to an entire oil or membrane.</p>
+<p>Polyunsaturated chains contain more than one double bond. In common methylene-interrupted fatty acids, successive double bonds are separated by a –CH<sub>2</sub>– group. These chains sample a range of conformations that strongly modify packing. A higher fraction of cis-polyunsaturated chains usually favours a more disordered lipid phase at a given temperature. A conjugated chain, in contrast, has alternating double and single bonds, and electronic delocalisation changes chemical reactivity. It is a mistake to predict every physical property from double-bond count alone: position, geometry, chain length, head group and the surrounding mixture also matter.</p>
+<p>Hydrogenation adds hydrogen across chain double bonds. Full hydrogenation of oleate's single double bond yields stearate; partial hydrogenation can also promote cis-to-trans isomerisation and migration of double bonds. The resulting mixture may have a higher melting range. In living organisms, enzyme-catalysed desaturation introduces double bonds with specific positions and geometry. The ability to change unsaturation provides a way to adjust lipid physical properties without constructing an entirely new head group.</p>
+<p>Consider two model lipid preparations containing identical head groups and equal chain lengths. If one contains straight saturated chains and the other contains cis-unsaturated chains, cooling should generally induce chain ordering earlier in the saturated sample. If experimental data show the opposite, first check that the comparison is truly matched: the unsaturated preparation may have longer chains, a different head-group composition or sterols. This controlled-comparison habit is central to Part C reasoning. Biological function emerges from competing contributions, not a single memorised factor.</p></section>
+<section id="essential"><h2>4. Essential fatty acids and chemical reactivity</h2>
+<p>The body can synthesise many fatty acids from small carbon precursors and alter their chains. Essential fatty acids are a nutritional subset: humans cannot synthesise enough of particular structures de novo because the required desaturation reactions are missing. Mammalian Δ9 desaturase can introduce a double bond into suitable saturated chains, producing oleate, but humans lack the Δ12 and Δ15 desaturases that would turn the oleate framework into linoleate and alpha-linolenate. Plants and many other organisms possess different desaturase repertoires. Thus the statement that a fatty acid is essential must be qualified by organism.</p>
+<p>Linoleic acid (18:2 n−6) and alpha-linolenic acid (18:3 n−3) are the two classical essential fatty acids for humans. They contribute to membrane composition and supply the starting frameworks for longer polyunsaturated derivatives. Elongation adds carbons at the carboxyl end: when an 18-carbon n−6 chain becomes a 20-carbon chain, both the total carbon count and the delta positions of existing double bonds increase by two, so the n−6 identity is conserved. Further desaturation introduces additional bonds without creating the missing terminal family pattern. This explains why a supply of n−9 oleate cannot simply replace n−6 linoleate or n−3 alpha-linolenate.</p>
+<p>Arachidonic acid is usually produced from dietary linoleate and is present in many membrane phospholipids. EPA and DHA can be formed from alpha-linolenate, but conversion, especially to DHA, is limited and variable in humans. A derivative may become conditionally essential in certain physiological or developmental circumstances. Do not memorise every polyunsaturated fatty acid as strictly essential. Essentiality concerns synthetic capacity and physiological demand, while unsaturation describes covalent structure; these are different classifications.</p>
+<p>Unsaturation also creates chemical vulnerability. Removing a hydrogen from a carbon between two double bonds can generate a resonance-stabilised lipid radical. Oxygen reacts with the radical to produce a peroxyl radical, which can remove a hydrogen from another lipid, leaving a lipid hydroperoxide and propagating the chain reaction. The damage is not restricted to the original molecule: neighbouring chains can become oxidised. Cleavage products and altered tail polarity can perturb membrane packing and proteins. Vitamin E can interrupt propagation by donating a hydrogen to lipid peroxyl radicals; enzymatic peroxide-removal systems are also important. Detailed antioxidant metabolism belongs in later nodes.</p>
+<p>Differentiate this oxidative rancidity from hydrolytic rancidity, in which ester cleavage releases fatty acids. Both can alter odour and quality, but only oxidative rancidity necessarily involves radical oxidation. Increasing the number of methylene-interrupted double bonds generally increases susceptibility to lipid peroxidation, although antioxidants, oxygen exposure and metal ions affect the observed rate. In a comparison of saturated and polyunsaturated vesicles, one therefore expects more oxidation in the latter under matched pro-oxidant conditions, not because every double bond spontaneously breaks in water, but because radical intermediates and propagation become chemically accessible.</p>
+<p>A useful measure of average unsaturation is the iodine value: grams of iodine equivalent consumed by 100 g of a lipid sample in a standard addition assay. Idealised one-to-one addition of I<sub>2</sub> to each chain double bond gives iodine value = 100 × 253.8 × d/M, where d is the number of reactive double bonds per molecule and M is the molar mass in g mol<sup>−1</sup>. Pure oleic acid (M ≈ 282.46, d = 1) has a theoretical value of about 89.9; linoleic acid (M ≈ 280.45, d = 2) gives 181.0. In actual assays the reagent and reaction conditions are standardised; mixtures give an average and the value cannot tell cis from trans or determine exact double-bond locations. Two isomers of identical formula can have the same theoretical iodine value but different melting points.</p></section>
+<section id="neutral"><h2>5. Neutral lipids: glycerol esters, waxes and energy storage</h2>
+<p>Glycerol is a three-carbon alcohol with a hydroxyl group on each carbon. Each hydroxyl can become esterified to a fatty acid. The simplest product has one acyl residue (monoacylglycerol), the next has two (diacylglycerol), and complete esterification yields triacylglycerol, often called triglyceride. A triacylglycerol with three identical acyl chains is a simple triacylglycerol; with two or more different chains it is mixed. Most natural fats contain many mixed molecular species. The stereospecific numbering system (sn) distinguishes glycerol positions; a molecule with different groups at sn-1 and sn-3 can be chiral. This positional information matters for enzyme recognition.</p>
+<p>Formal ester formation joins an alcohol oxygen to an acyl carbon and removes one water molecule per ester bond. In a cell the acyl group is usually delivered in activated form rather than by direct spontaneous dehydration of glycerol and free acid in water. The mass balance nevertheless helps read structures. Glycerol plus three stearic acid molecules minus three water molecules yields tristearin, C<sub>57</sub>H<sub>110</sub>O<sub>6</sub>: C = 3 + 3×18, H = 8 + 3×36 − 6, O = 3 + 3×2 − 3. This stoichiometric accounting avoids the common error of counting the acid oxygen atoms twice.</p>
+<figure class="figure-panel"><svg id="tag" role="img" aria-labelledby="tag-title tag-desc" viewBox="0 0 460 235" xmlns="http://www.w3.org/2000/svg"><title id="tag-title">Glycerol ester architecture</title><desc id="tag-desc">Three oxygen ester bonds join the three-carbon glycerol skeleton to three acyl chains.</desc><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><text x="15" y="25" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Glycerol framework</text> <text x="185" y="25" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Ester bonds</text> <text x="337" y="25" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Acyl chains</text><rect x="12" y="39" width="118" height="155" rx="8" stroke-dasharray="4 3"/><path d="M71 72 V162"/><text x="47" y="68" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">CH₂</text><path d="M92 64 H131 M159 64 H181"/><text x="134" y="68" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O</text> <text x="187" y="68" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">C</text><path d="M191 49 V59 M196 49 V59"/><text x="185" y="46" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O</text><path d="M202 64 H238 l18 -12 18 12 18 -12 18 12 18 -12 18 12 18 -12 18 12"/><text x="47" y="113" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">CH</text><path d="M92 109 H131 M159 109 H181"/><text x="134" y="113" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O</text> <text x="187" y="113" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">C</text><path d="M191 94 V104 M196 94 V104"/><text x="185" y="91" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O</text><path d="M202 109 H238 l18 -12 18 12 18 -12 18 12 18 -12 18 12 18 -12 18 12"/><text x="47" y="158" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">CH₂</text><path d="M92 154 H131 M159 154 H181"/><text x="134" y="158" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O</text> <text x="187" y="158" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">C</text><path d="M191 139 V149 M196 139 V149"/><text x="185" y="136" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O</text><path d="M202 154 H238 l18 -12 18 12 18 -12 18 12 18 -12 18 12 18 -12 18 12"/><text x="16" y="221" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Each –O–C(=O)– linkage is an ester.</text></g></svg><figcaption>Esterified glycerol bears three acyl residues. The carbonyls remain polar, but three long tails dominate the interaction with water.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="tag">Enlarge diagram</button></figure>
+<p>Because all three glycerol hydroxyls are esterified and the free carboxylates are masked, triacylglycerols have little capacity to hydrate and carry no ordinary ionisable head group at physiological pH. They therefore separate from water into an oil-like phase. This is appropriate for storage but unsuitable as the sole material of a hydrated bilayer. A cellular lipid droplet solves the interface problem with a single surface layer of amphipathic lipids and associated proteins; inside it lies a neutral lipid core. The surface is a monolayer rather than a bilayer because its inner side contacts oil instead of aqueous solution.</p>
+<p>Fat stores concentrated chemical energy. Fatty acid chains contain many reduced carbon atoms and comparatively little oxygen, so complete oxidation to CO<sub>2</sub> and water transfers many electrons to cellular electron acceptors. Carbohydrates are already partly oxidised. As a rough nutritional energy comparison, fat supplies about 9 kcal per gram and digestible carbohydrate about 4 kcal per gram. These values are not bond energies or universal ATP yields. An additional storage advantage is that neutral lipid is stored with relatively little associated water, whereas glycogen is stored with substantial hydration. If a cell stores 90 kcal as dry fat, the mass is approximately 10 g, compared with 22.5 g of dry carbohydrate at these conventional values. Including hydration would further increase the difference in stored mass.</p>
+<p>Plants commonly store triacylglycerol in seeds as oil bodies; animals store it in lipid droplets, particularly in adipose tissue. Saturated-chain-rich mixtures are often solid or semisolid at room temperature, while mixtures rich in cis-unsaturated chains often remain liquid. Exceptions arise from chain length and mixture composition, so the everyday distinction between fats and oils is physical rather than a different fundamental ester chemistry.</p>
+<p>Waxes use a different alcohol framework. A typical wax ester connects one long-chain fatty acid to one long-chain alcohol. This produces an extensive nonpolar surface with relatively little polar functionality, useful for reducing water penetration or loss. Plant cuticles, insect surface coatings and some marine energy reserves contain wax esters. Many natural waxes also contain hydrocarbons and other compounds, so not every component of a wax mixture is an ester. The key structural comparison is one ester bond between two long chains in a wax ester versus three ester bonds on a glycerol framework in triacylglycerol.</p></section>
+<section id="hydrolysis"><h2>6. Hydrolysis, saponification and interpreting lipid measurements</h2>
+<p>Ester bonds can be cleaved by hydrolysis. In acid-catalysed hydrolysis the products of complete triacylglycerol cleavage are glycerol and three fatty acids. In base-promoted hydrolysis, hydroxide attacks an ester carbonyl, a tetrahedral intermediate forms, and collapse of that intermediate releases the alcohol-derived leaving group. Proton transfer ultimately gives a carboxylate salt. Its negative charge makes it a poor electrophile and favours the net hydrolysis under the alkaline conditions. The process is called saponification when applied to fats and oils because the long-chain carboxylate salts are soaps.</p>
+<p>For a triacylglycerol with three ester bonds, complete alkaline hydrolysis consumes three equivalents of hydroxide per molecule in the ideal net stoichiometry: TAG + 3 KOH → glycerol + 3 RCOO<sup>−</sup>K<sup>+</sup> (R groups need not be identical). Soaps clean because their chains can associate with nonpolar material while charged heads remain exposed to water; calcium and magnesium may form less-soluble salts, reducing effectiveness in hard water. Lipases also hydrolyse ester bonds but catalyse reactions in biological settings and often show positional or interfacial selectivity.</p>
+<p>The saponification value is milligrams of KOH required to saponify one gram of sample under standard conditions, including neutralisation of free fatty acids when present. For a pure neutral lipid with e hydrolysable ester groups and molar mass M, the ideal value is 1000 × e × 56.11/M mg KOH g<sup>−1</sup>. For tripalmitin (M ≈ 807.34 g mol<sup>−1</sup>, e = 3), this is about 208.5 mg g<sup>−1</sup>; for tristearin (M ≈ 891.49 g mol<sup>−1</sup>), it is about 188.8 mg g<sup>−1</sup>. The shorter-chain TAG has more ester molecules per gram even though every molecule has three bonds. Therefore higher saponification value generally indicates shorter average chain length when comparing otherwise similar TAG mixtures. It does not independently measure unsaturation.</p>
+<p>Suppose an unknown pure TAG has a saponification value of 210.0 mg KOH g<sup>−1</sup>. Rearranging gives M = 1000×3×56.11/210.0 ≈ 801.6 g mol<sup>−1</sup>. Subtract the glycerol contribution (92.09 g mol<sup>−1</sup>) and add back the three waters lost (54.05 g mol<sup>−1</sup>) to obtain the sum of the three free-fatty-acid molar masses: about 763.6 g mol<sup>−1</sup>, or 254.5 on average. This is consistent with chains around C16, but does not establish identity; mixed lengths or unsaturation can yield similar average masses. If the sample includes free acid or non-TAG molecules, the calculation requires a different model.</p>
+<p>Acid value, expressed as mg KOH needed to neutralise free acids per gram, is distinct from saponification value. A rising acid value during storage can indicate increased free fatty acid content following hydrolysis. Iodine value estimates unsaturation. Peroxide value measures primary oxidation products in a defined assay and can later decrease as hydroperoxides decompose, so a low value alone does not guarantee that an old sample is unoxidised. These classical measurements are most useful when interpreted together: a molecule-count-sensitive quantity, a double-bond-sensitive quantity and an oxidation-sensitive quantity answer different questions.</p>
+<p>Traditional textbooks contrast saponifiable lipids (containing bonds susceptible to alkaline hydrolysis, especially esters) with nonsaponifiable lipids such as free cholesterol and hydrocarbons. A cholesteryl ester is an important counterexample to the assumption that sterol lipids are all nonsaponifiable: it can release cholesterol and a fatty acid salt. Sphingolipids typically contain amide-linked fatty acids, which are less readily hydrolysed than esters under ordinary saponification conditions; avoid assigning their hydrolysis behaviour simply from the word “lipid”. Always inspect the linkage.</p></section>
+<section id="glycerophospholipids"><h2>7. Glycerophospholipids: turning an oil molecule into an interface</h2>
+<p>Now imagine replacing the third fatty acyl residue of a triacylglycerol framework with a phosphate-containing group. Two hydrocarbon chains remain, but a hydrated polar region appears. The new molecule has an architectural asymmetry: it can lower the exposure of the chains to water while retaining contact between its phosphate-containing region and water. This is the central design principle of many structural membrane lipids.</p>
+<p>In the common glycerophospholipid framework, glycerol's sn-1 and sn-2 positions carry fatty acyl esters and sn-3 bears phosphate. Phosphatidic acid is the simplest such framework. Attachment of an alcohol to the phosphate yields a phosphodiester; glycerol is on one side and the head alcohol on the other. Different head groups change charge, hydration, hydrogen bonding and effective cross-sectional area while the two chains supply hydrophobic interactions. Natural molecular species often have a more saturated sn-1 chain and a more unsaturated sn-2 chain, but this is a common pattern, not a chemical requirement.</p>
+<figure class="figure-panel"><svg id="gp" role="img" aria-labelledby="gp-title gp-desc" viewBox="0 0 460 235" xmlns="http://www.w3.org/2000/svg"><title id="gp-title">Glycerophospholipid architecture</title><desc id="gp-desc">A glycerol backbone has ester-linked acyl chains at positions 1 and 2 and a phosphate-containing head at position 3.</desc><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><text x="17" y="24" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Glycerol</text> <text x="175" y="24" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Two hydrophobic chains</text><path d="M55 48 V160"/><circle cx="55" cy="53" r="9" fill="var(--panel)"/><circle cx="55" cy="105" r="9" fill="var(--panel)"/><circle cx="55" cy="157" r="9" fill="var(--panel)"/><text x="14" y="57" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">sn-1</text><path d="M64 53 H105"/><text x="110" y="57" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O–C(=O)</text><path d="M175 53 h25 l20 -12 20 12 20 -12 20 12 20 -12 20 12 20 -12 20 12"/><text x="14" y="109" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">sn-2</text><path d="M64 105 H105"/><text x="110" y="109" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O–C(=O)</text><path d="M175 105 h25 l20 -12 20 12 20 -12 20 12 20 -12 20 12 20 -12 20 12"/><text x="14" y="161" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">sn-3</text><path d="M64 157 H108"/><text x="113" y="161" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O–P</text><circle cx="165" cy="157" r="18" fill="#8bd0b5"/><path d="M183 157 H220"/><rect x="220" y="139" width="118" height="36" rx="9" fill="var(--surface)"/><text x="230" y="161" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Head group</text> <text x="105" y="207" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Hydrated phosphate / head region</text></g></svg><figcaption>The two acyl esters and phosphate-containing head occupy distinct positions. Schematic labels identify functional regions, not all atoms or charges.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="gp">Enlarge diagram</button></figure>
+<p>Phosphatidylcholine (PC, lecithin in older terminology) contains choline, whose quaternary ammonium group carries a permanent positive charge. The phosphate diester carries a negative charge at physiological pH. The net charge of the head group is approximately zero, but it has spatially separated charges and substantial hydration. Phosphatidylethanolamine (PE, historically cephalin in some usage) contains a protonated primary amine under ordinary physiological conditions and also has net zero charge. Its smaller head group compared with PC changes packing and favours curvature in many mixtures. Neither lipid is “nonpolar” simply because its net charge is zero.</p>
+<p>Phosphatidylserine (PS) carries a phosphate negative charge, a carboxylate negative charge and an ammonium positive charge, giving net charge about −1. Phosphatidylinositol (PI) contains an inositol ring, a cyclic polyol, and ordinarily has net charge −1. Additional phosphorylations on that ring create phosphoinositides with more negative charge. Phosphatidylglycerol (PG) bears a glycerol head group and is also commonly anionic. Phosphatidic acid (PA) has a phosphomonoester rather than a head-group phosphodiester; its effective charge can vary between approximately −1 and −2 as pH, hydrogen bonding and lipid environment change. Do not count every phosphate group as exactly −2 regardless of its esterification state.</p>
+<p>Cardiolipin, or diphosphatidylglycerol, is an especially instructive extension of the framework. Two phosphatidyl groups are linked through a central glycerol, giving four hydrophobic chains and two phosphate groups. It is abundant in the inner mitochondrial membrane and occurs in many bacteria. Its unusual geometry and interactions contribute to the organisation of respiratory membrane proteins; the detailed mechanisms of respiration will be studied later. Its charge state depends on molecular environment, with a commonly used physiological formal representation of −2. It is not simply a diacyl phosphatidylglycerol.</p>
+<div class="table-scroll"><table class="compare-table"><caption>Head-group identities and typical formal charge near physiological pH</caption><thead><tr><th scope="col">Lipid</th><th scope="col">Polar group</th><th scope="col">Typical charge and implication</th></tr></thead><tbody><tr><td>PC</td><td>Choline</td><td>0; hydrated zwitterion, often near-cylindrical</td></tr><tr><td>PE</td><td>Ethanolamine</td><td>0; smaller head, curvature tendency</td></tr><tr><td>PS</td><td>Serine</td><td>−1; negatively charged surfaces</td></tr><tr><td>PI</td><td>Inositol</td><td>−1; substrate for head-group phosphorylation</td></tr><tr><td>PG</td><td>Glycerol</td><td>−1; common in bacterial and organelle lipids</td></tr><tr><td>PA</td><td>Phosphate</td><td>−1 to −2, environment dependent</td></tr><tr><td>Cardiolipin</td><td>Glycerol-linked two phosphatidyl groups</td><td>Usually modelled as −2; four chains</td></tr></tbody></table></div>
+<p>Given a molecular sketch, first locate glycerol, next identify how many tails attach and through which bonds, and then inspect the polar region. For instance, a phosphate diester joined to serine gives PS rather than PE despite their similar glycerol and fatty acid composition. Counting charged atoms then distinguishes PS from PC. These are the chemical differences that determine which proteins bind to a membrane or which surface adopts a particular shape.</p></section>
+<section id="lipid-variants"><h2>8. Ether lipids, lysolipids and phospholipase reasoning</h2>
+<p>Not all glycerophospholipids have two ester linkages. Ether glycerophospholipids contain an alkyl chain linked through C–O–C rather than C(=O)–O–C. Plasmalogens contain a vinyl ether at sn-1 and commonly an ester at sn-2. They occur prominently in certain animal tissues, including heart and nervous tissue. The linkage changes hydrolysis and oxidation behaviour. An ether has no acyl carbonyl for an ordinary esterase to attack; a vinyl ether, however, can undergo acid-sensitive cleavage. The terms ester, ether and vinyl ether must therefore be recognised from the molecular structure, not inferred from the head group alone.</p>
+<p>Archaeal membrane lipids demonstrate that the same principle of amphipathicity can be realised through a chemically different architecture. Typical archaeal lipids have isoprenoid chains ether-linked to a glycerol-1-phosphate framework, whereas bacterial and eukaryotic glycerophospholipids usually use glycerol-3-phosphate and ester-linked fatty acids. These glycerol phosphate frameworks are stereochemical opposites. Some archaeal tetraether lipids span the entire membrane and form a monolayer rather than two independent leaflets. This distinction is important in comparing membrane chemistry across domains, although not every archaeon has the same lipid composition and unusual ether lipids occur outside Archaea too.</p>
+<p>Specific phospholipases allow us to map a glycerophospholipid's bonds. Phospholipase A1 cleaves a conventional ester at sn-1, and A2 cleaves the ester at sn-2. Each reaction releases a free fatty acid and leaves a monoacyl or lysophospholipid. The chain loss changes effective molecular geometry: the polar head is still present while the hydrophobic cross-sectional area becomes smaller. Many such lysolipids prefer positive curvature and can destabilise bilayers at sufficient concentration. Their effects depend on concentration and other lipids present; a trace amount does not necessarily destroy an entire membrane.</p>
+<figure class="figure-panel"><svg id="pla" role="img" aria-labelledby="pla-title pla-desc" viewBox="0 0 460 235" xmlns="http://www.w3.org/2000/svg"><title id="pla-title">Phospholipase cleavage sites</title><desc id="pla-desc">The A1 and A2 sites are the sn-1 and sn-2 acyl ester bonds; C cuts glycerol-phosphate and D cuts phosphate-head.</desc><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><text x="18" y="24" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Glycerophospholipid (schematic)</text><path d="M90 54 V150 M90 54 H155 M90 102 H155 M90 150 H205 M205 150 H350"/><circle cx="90" cy="54" r="8" fill="var(--panel)"/><circle cx="90" cy="102" r="8" fill="var(--panel)"/><circle cx="90" cy="150" r="8" fill="var(--panel)"/><text x="14" y="59" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">sn-1</text> <text x="14" y="107" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">sn-2</text> <text x="14" y="155" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">sn-3</text> <text x="156" y="58" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O–C(=O)–R₁</text> <text x="156" y="106" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">O–C(=O)–R₂</text><rect x="205" y="135" width="35" height="30" rx="5" fill="#8bd0b5"/><text x="218" y="154" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">P</text> <text x="353" y="154" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">Head</text><path d="M148 40 V67 M148 88 V115 M189 137 V162 M270 137 V162" stroke="#d97706" stroke-width="4"/><text x="122" y="34" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">A₁</text> <text x="122" y="83" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">A₂</text> <text x="171" y="181" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">C</text> <text x="266" y="181" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">D</text> <text x="18" y="220" fill="currentColor" stroke="none" font-size="13" font-family="system-ui, sans-serif">C: DAG + phosphorylated head; D: PA + free head.</text></g></svg><figcaption>Cleavage sites are shown schematically at the four bond regions of an ordinary diacyl phospholipid.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="pla">Enlarge diagram</button></figure>
+<p>Phospholipase C cleaves between glycerol and phosphate, producing diacylglycerol (DAG) and a phosphorylated head-group product. Phospholipase D cleaves between phosphate and the head-group alcohol, generating phosphatidic acid and the free head alcohol. These enzyme classes reveal a functional difference between a tail-cleaving reaction and a head-cleaving reaction. The former liberates a fatty acid and changes the number of tails, whereas the latter leaves both tails attached but changes the polar region. Product identity follows directly from which side of the bond retains phosphate.</p>
+<p>One important signalling example is phospholipase C cleavage of phosphatidylinositol 4,5-bisphosphate (PIP<sub>2</sub>). The two-tailed DAG remains preferentially associated with the membrane; the phosphorylated inositol head product IP<sub>3</sub> is highly water soluble and can act in the cytosol. They arise from a single cleavage but occupy different environments because of their chemistry. The complete receptor and calcium signalling pathways belong to Unit 4. Likewise, phospholipase A2 can release arachidonate from membrane lipids, supplying substrate for eicosanoid formation.</p>
+<p>Try a simple inference: a radiolabel is present exclusively on the sn-2 acyl chain of a phosphatidylcholine molecule. Treatment with A2 transfers the label into the released fatty acid fraction, whereas C releases a labelled DAG into the lipid fraction and a largely unlabelled phosphorylated head group. D yields labelled phosphatidic acid. This prediction assumes complete, specific cleavage without secondary reactions or label exchange. Such a controlled labelling question tests your understanding of covalent architecture rather than your ability to recall enzyme names alone.</p></section>
+</div></article>
+        <nav class="node-navigation" aria-label="Study navigation"><a href="./">Return to curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 1 · Carbohydrates, Lipids and Nucleic Acids</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

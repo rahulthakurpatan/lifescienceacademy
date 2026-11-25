@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Understand batch culture, microbial growth phases, nutrient limitation, stationary-phase physiology and viable growth-curve interpretation for CSIR-NET and SET.">
+  <meta name="robots" content="index,follow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/batch-culture-and-the-microbial-growth-curve.html">
+  <title>Batch Culture and the Microbial Growth Curve | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 2</span><span>›</span><span>Sub-unit 2.E</span><span>›</span><strong>Node 02</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 2.E.02</span><span>Unit 2 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Batch Culture and the Microbial Growth Curve</h1><p class="subtitle">How finite resources and changing cellular physiology shape microbial population growth over time.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node unavailable">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node unavailable">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#batch">1. Why microbial populations cannot grow indefinitely</a><a href="#observations">2. From a culture to a meaningful growth curve</a><a href="#lag">3. Lag phase: adaptation before sustained multiplication</a><a href="#exponential">4. Exponential phase: coordinated synthesis and repeated division</a><a href="#transition">5. Deceleration: why a growing culture changes its own environment</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Batch Culture and the Microbial Growth Curve study notes"><div class="article-content" id="article"><section id="batch"><h2>1. Why microbial populations cannot grow indefinitely</h2><p>A bacterial cell placed in a suitable environment can acquire nutrients, enlarge, duplicate its hereditary material and divide. If the two daughters behave similarly, the process repeats and a population develops. The arithmetic of this process suggests an extraordinary possibility: repeated doubling produces very large populations in surprisingly few generations. Yet a suspension of bacteria in a vessel supplied with a finite amount of food does not ordinarily become denser at an unchanged rate forever. After some time the increase slows, eventually the population may stop increasing, and the number of cells capable of reproduction may decline. The discrepancy between the potential for multiplication and the observed behavior of a culture is the central problem of microbial growth physiology.</p><p>A culture is a population maintained under defined or partly defined environmental conditions. The word culture can refer to the organisms and the surrounding medium together. The medium supplies water and substances that cells use to build their constituents, obtain energy or maintain internal conditions. An inoculum is the material introduced at the beginning of a culture: it may consist of a suspension containing many cells, rather than a single individual. The amount of inoculum affects the initial population, whereas its physiological condition influences how those cells behave after transfer. Two samples containing the same number of bacteria can therefore produce quite different early growth curves.</p><p>The defining feature of a batch culture is that the initial medium is provided as a finite batch, rather than continually replenished while spent medium is continually withdrawn. A simple teaching model is a well-mixed vessel containing a finite quantity of nutrients and a microbial population. The term closed in this context refers primarily to the absence of routine replacement of the liquid medium, not necessarily to the absence of all exchange of gases or heat. A vessel may exchange oxygen and carbon dioxide with its surroundings; temperature may be maintained externally. Even when some gas exchange occurs, the carbon source, nitrogen source or another essential nutrient in the original medium may be consumed. Conversely, a strictly sealed vessel may also run short of an initially available gaseous resource. It is important to specify the boundary of the model before predicting its behavior.</p><p>A batch culture should not be imagined as a permanent environment of fixed chemical composition. Its contents change because cells remove substances and release others. The cells themselves alter their surroundings. A nutrient molecule may become incorporated into biomass, oxidized to release energy, or converted to a secreted end product. If the medium has weak buffering capacity, some metabolic products can change its pH. Dissolved oxygen can become scarce when consumption outruns supply. The ratio of available resources to the number of consumers changes dramatically as the population increases. As a result, an environment that originally supported rapid reproduction may later support little new growth, even though the same vessel remains at the same temperature.</p><p>There are at least three different meanings of growth that matter in this discussion. A single cell grows when it increases its biomass or dimensions. A population grows numerically when the number of cells increases. A culture grows in biomass when the combined mass of its organisms increases. These usually correlate during sustained balanced reproduction, but they need not do so during transitions. A newly transferred bacterium may synthesize new proteins and expand before it divides. A damaged population may retain considerable biomass even while losing the capacity to reproduce. A curve of cell concentration, therefore, is not automatically a curve of total biological activity.</p><p>The earliest prerequisite is an understanding of cell membranes and energy conversion. Nutrients must reach transport proteins or otherwise enter cells; their conversion into useful precursors and ATP must be coordinated with the synthesis of proteins, nucleic acids and envelope materials. A cell can perform some of these functions without completing a new division. The next prerequisite is the difference between counting structures and detecting reproductive competence. A direct cell count may include intact dead cells, while a colony count measures units capable of forming colonies under the conditions used. An optical measurement responds to the physical properties of suspended material. These are different windows on one culture, not mutually interchangeable definitions of life.</p><p>The study of a batch curve connects all these concepts. A student who understands it should be able to infer which constraints are likely to be operating from the shape of a curve, recognize when a particular measurement cannot resolve the mechanism, and decide what comparison would distinguish two explanations. Merely memorizing the order of four named phases is not sufficient. The phases describe broad population behavior; the underlying causes concern energy, nutrient use, cell structure, regulation and survival. The goal is to reconstruct that causal connection whenever a graph or a set of measurements is presented.</p><p>The simplest reference population will be a unicellular bacterium capable of binary fission in a homogeneous liquid environment. This model is useful because population increase can be related directly to division. It is not a claim that every microorganism is a bacterium or reproduces by binary fission. Budding yeast, filamentous fungi and other organisms may require different operational measures of growth. Even among bacteria the shape of a batch curve depends on the organism, the inoculum, the medium and the environmental conditions. The model should be used as a framework for thinking rather than as an invariant schedule that all cells obey.</p></section><section id="observations"><h2>2. From a culture to a meaningful growth curve</h2><p>A growth curve is a plot of a specified population measurement against elapsed time. Its horizontal axis is normally time, often measured in hours. Its vertical axis might represent viable colony-forming units per milliliter, total cells per milliliter, dry biomass per liter, or optical density. The choice must be stated before phases are assigned. It is especially useful to plot the logarithm of a cell concentration because populations may change across several orders of magnitude. An increase from one million to two million cells and an increase from one hundred million to two hundred million are equal fold increases, despite their very different arithmetic increments.</p><p>The classical four-phase picture contains an initial interval of little detectable increase, an interval of rapid approximately exponential multiplication, a plateau of little net increase, and a period of declining viable counts. These are called lag, exponential or log, stationary, and decline or death phases. Real transitions may be gradual, and some authors distinguish acceleration and deceleration intervals separately. The phases are recognized by the behavior of the measured population, not by a universal number of hours from inoculation. A sampling interval that is too large can miss an entire short transition. For example, two points separated by several hours might conceal a lag and a subsequent rise even if their average slope seems modest.</p><p>Jacques Monod's 1949 review of bacterial cultures helped formalize the distinction between cell concentration, bacterial mass and the quantitative behavior of growing populations. The importance of this approach is not that the four-phase graph originated in that one publication; earlier microbiologists had already described changes during culture development. Its importance is that growth curves became a way to study the properties of cells rather than simply record whether a tube appeared turbid. One can infer properties of a population by asking how quickly its concentration changes and whether biomass changes in proportion to the number of individuals. The review also reminds us that a mathematical description of positive growth does not, on its own, explain the mechanisms that cause loss of viability.</p><p>Imagine observing equal volumes from a culture at several times. At an early time the suspension appears nearly clear. Several hours later it looks cloudy, and a cell count confirms multiplication. Much later, the suspension may remain cloudy even though substantially fewer colony-forming units are recovered. The discrepancy is not necessarily a contradiction between instruments. Cells and fragments scatter light whether or not they can reproduce; a colony requires repeated division on the recovery medium. During the later culture phases, the physical persistence of cells may become uncoupled from their reproductive potential.</p><p>The distinction between a population level and a population rate is fundamental. A population can be large and grow very slowly. It can be small and grow rapidly relative to its own size. The height of the graph represents the former measurement, while the slope concerns the latter, with the interpretation depending on the axis scale. A high plateau does not represent a high growth rate just because it lies high on the page. On a graph of viable concentration, a horizontal region means that gains and losses of detectable viable units approximately cancel or are both negligible over the interval studied.</p><p>A logarithm converts multiplicative changes into additive changes. For positive counts expressed as cells per milliliter, a base-ten logarithmic plot gives equal vertical distances for equal fold changes. Counts of ten thousand, one hundred thousand and one million lie at successive equal intervals on this scale. A curve cannot plot a true zero on a logarithmic axis because the logarithm of zero is undefined. An observation below the detection limit is not evidence for a precisely zero population. It is best represented as a censored observation or limit rather than by taking the logarithm of zero or silently substituting one.</p><p>The shape of the graph depends on whether one uses a linear or a logarithmic vertical scale. Repeated proportional multiplication produces an increasingly steep curve on a linear axis, but a straight rising segment on a semilogarithmic axis. A plateau appears horizontal on both scales when the measured value is constant. A constant proportional decline gives a straight falling segment on a semilog plot. A downward line is not proof that every bacterium has the same risk of death, since a heterogeneous population may show an approximately linear interval by coincidence. The slope is an observed population pattern; a mechanism must be inferred using additional information.</p><p>A simple example illustrates how to read a graph without using the full kinetic machinery developed in the next chapter. Suppose a culture has two million viable units per milliliter at an early point and eight million two hours later. The increase is fourfold. In a different period a culture with eight hundred million units increases to nine hundred million in two hours. Its absolute increase is much greater, but its fold increase is only 1.125. The former interval has the greater proportional change. If the purpose is to compare the physiological speed of reproduction, proportional change is usually more informative than raw additions of cells.</p><p>A graph constructed from optical density should not be labelled viable count unless an appropriate conversion has actually been established for the conditions. Optical density is normally dimensionless and is not itself a concentration in cells per milliliter. A direct count is expressed in counted cells per volume, while a colony count is expressed in CFU per volume. An aggregate that forms one colony may contain several cells. The resulting distinction is often particularly important in late cultures, where aggregation, shrinkage or damage can change the relation between measurements.</p><p>Comparisons require controls. If the purpose is to compare two environmental conditions, it is necessary to consider whether the inocula, sampling times, measured quantity and other conditions are comparable. A medium-only control can show whether an optical signal arises from the medium rather than the cells. Repeated measurements from independent cultures help distinguish consistent features from sampling variation. A culture that differs in its starting viable concentration may reach the detection threshold earlier even when its intrinsic physiology is identical. Therefore a shorter time to detectable cloudiness does not establish a faster intrinsic rate unless starting abundance and the lag interval have been accounted for.</p><p>All numerical datasets in the teaching examples that follow are hypothetical unless an actual study is named. They are intended to separate the reasoning from the peculiarities of a particular organism and should not be treated as empirical growth schedules. The classical model provides an expected sequence, but the scientifically useful question is what each observation does and does not establish.</p></section><section id="lag"><h2>3. Lag phase: adaptation before sustained multiplication</h2><p>The apparent paradox of lag is that favorable medium does not always produce immediate numerical multiplication. When a population is moved to fresh surroundings, it carries the biochemical history of its previous environment. Some enzymes may be present in abundance, others scarce. The cells may have accumulated damage, altered their membranes, reduced protein synthesis or exhausted internal stores. Fresh medium offers resources, but the cells must possess the machinery and physiological state needed to use them before sustained cell division can occur.</p><p>The first step is the interaction between the cells and the new chemical environment. Solutes encounter the cell surface and membrane transport systems. Some molecules enter readily using existing transporters, whereas others require proteins that were not expressed at high abundance in the previous environment. Uptake supplies intracellular substrates that can enter metabolism. Cells must coordinate energy production and the regeneration of molecules that carry electrons or activated chemical groups. If energy production and transport are initially limited, the synthesis of new macromolecules may also be limited. The appearance of extracellular nutrients is therefore not identical to the immediate appearance of a high rate of biosynthesis.</p><p>Consider a bacterium previously growing on a carbon source that enters one metabolic route. After transfer, a different carbon source may be supplied. Existing enzymes that process the old substrate do not necessarily catalyze the reactions required for the new substrate. Regulatory proteins respond to available metabolites and change the expression of relevant genes. Messenger RNA is transcribed, translated and the resulting proteins become available to catalyze new reactions or transport substrates. As the new substrate becomes accessible to metabolism, ATP and precursor production can increase. The cell can then invest more effectively in growth. This sequence explains why a change of medium can introduce a lag even when the new medium is capable of supporting rapid eventual growth.</p><p>Cells transferred from an exhausted culture face additional demands. Proteins damaged by previous environmental stress may require repair or replacement. Membrane transport and ion gradients must remain functional or be restored. Cellular structures may need to be reorganized after prolonged nongrowth. Ribosomes are the structures that synthesize proteins from messenger RNA; their functional abundance and activity can limit the rate at which a cell produces growth-related proteins. A cell with insufficient active biosynthetic machinery can require a period of rebuilding before it divides at the rate characteristic of a fresh, favorable environment.</p><p>The completion of adaptation is not necessarily simultaneous with the first metabolic reaction, the first molecule of new DNA or the first appearance of new cell material. Different cell functions can resume at different times. A bacterium may increase its volume before completing chromosome duplication and septation. Septation is the process of constructing the division partition between future daughter cells. An increase in cell material therefore can be detected before an increase in the number of separately counted cells. If the vertical axis is dry biomass, an early rise may occur while a graph of cell number still appears nearly horizontal.</p><p>Lag should not be described as a compulsory period of metabolic inactivity. The appropriate claim is that sustained net numerical increase is not yet evident. Metabolism and gene expression may be active and may change rapidly. Conversely, the observation of a flat viable count alone does not prove that every cell in the sample is busy adapting. Some cells may remain inactive, some may divide, and others may die or fail to recover. The population response summarizes the combined outcomes of these individual cells.</p><p>Evidence for this interpretation comes from direct examination of early culture physiology. Rolfe and colleagues investigated the transition of stationary-phase bacteria into fresh medium and measured changes in gene expression and other physiological features during lag. Their 2012 study established that the early interval contains organized physiological events rather than simply an empty waiting period. The use of measurements before the onset of rapid multiplication allows gene expression changes to be placed temporally relative to population growth. The result does not establish that every organism activates the same genes or exhibits the same sequence; it supports the broader conclusion that numerical lag can involve extensive preparation.</p><p>A comparison that illustrates this distinction would follow two quantities in the same culture: viable count and an indicator of new protein synthesis or biomass. If biomass increases while viable count is initially stable, a reasonable inference is that some cells accumulate material before producing additional separately counted viable units. A control without viable inoculum would help establish the background signal. If the culture contains aggregates, changes in aggregation must also be considered. These measurements together provide more information than either alone, but they do not directly establish the exact order of all molecular events inside individual cells.</p><p>The duration of lag depends on the starting population. Actively growing cells transferred into the same kind of favorable medium may resume proliferation with a very short or experimentally undetectable lag, because their transport, metabolic and biosynthetic systems are already functioning in an appropriate state. Cells from a prolonged stationary phase may need more time before they recover. Transfer between very different media may require adjustment even if the old culture was growing rapidly. An inoculum injured by a previous stress may display delayed recovery or incomplete recovery. The new environment can thus influence both the speed at which growth resumes and the fraction of cells that successfully resume it.</p><p>Lag is not simply the generation time. Generation time describes how long a population takes to double during a suitable interval of exponential growth. A cell transferred from an unfavorable condition can have a long time to first division and subsequently produce descendants with short division intervals. Another population may begin dividing promptly but grow slowly afterward because its new medium supports only a modest rate of biosynthesis. Separating these properties is necessary when interpreting two growth curves whose rising segments have similar slopes but different starting times.</p><p>A further complication concerns the initial density and the detection method. An inoculum of one thousand viable units and an inoculum of one hundred thousand units may have exactly the same physiological lag. The larger inoculum will nevertheless reach a chosen measurable concentration earlier. If a measurement system detects only concentrations greater than one million per milliliter, the first sample must increase one thousandfold to cross that threshold, whereas the second must increase tenfold. Time to detection therefore contains a contribution from starting abundance as well as lag and subsequent growth. An apparent difference in lag estimated from detection times alone can be misleading.</p><p>Even genetically identical cells can differ in their readiness for growth. The distribution of damaged molecules, levels of particular proteins and previous histories can differ among individuals. If some cells divide early while others remain inactive, their descendants can rapidly dominate the measurable culture. An aggregate population curve may then mostly reflect the behavior of cells that recovered early. A long lag does not necessarily mean that every viable cell delayed for exactly the duration shown. Single-cell observations can distinguish variation in first division times from a shared delay; such observations are useful conceptually without requiring specialist methods.</p><p>Lag can therefore be understood as a transition from one physiological state toward another, superimposed on a population measurement. The new environment does not erase the previous history of the cells. Once enough of the population can coordinate nutrient uptake, energy generation, macromolecular synthesis and division, the characteristic rising segment begins. The next question is why the rate of numerical increase then becomes approximately proportional to the population itself.</p></section><section id="exponential"><h2>4. Exponential phase: coordinated synthesis and repeated division</h2><p>During the exponential phase, a substantial proportion of the population can complete successive rounds of growth and division under conditions that remain sufficiently favorable. Each reproducing cell gives rise to descendants that can themselves reproduce. If the average multiplication rate remains approximately constant and losses are small, the number of descendants produced during an interval is proportional to the number of cells present at its beginning. This is the biological source of exponential behavior; it is not a mysterious property imposed by a graph.</p><p>To see the difference between additive and multiplicative growth, imagine four cells that each divide once in a common interval. There are then eight cells. If each of the eight divides in the next interval, there are sixteen, and a further such interval produces thirty-two. The additions are four, eight and sixteen rather than a constant four. This example treats divisions as synchronous for ease of calculation. A real culture is generally asynchronous: different cells divide at different times, and the total curve may be smooth rather than step-shaped. A smooth population curve does not imply that an individual cell splits gradually or that every cell divides simultaneously.</p><p>The ability to reproduce at a sustained rate requires more than duplication of DNA. Cells need sources of carbon skeletons, nitrogen for amino acids and nucleotides, phosphorus for nucleic acids and other compounds, sulfur for sulfur-containing biomolecules, and appropriate inorganic ions and cofactors. They also need an energy supply to power synthesis, transport and maintenance. Carbon and energy metabolism produce small molecules that are converted into cellular building blocks. These building blocks become proteins, nucleic acids, membrane components, cell wall materials and other constituents. New cellular material must be assembled into functional structures rather than simply accumulated.</p><p>Protein synthesis illustrates the coordination required. Many enzymes responsible for metabolism are proteins. Ribosomes are themselves complexes containing RNA and proteins, and their production consumes resources. More protein-synthesizing capacity can support faster production of transporters, metabolic enzymes and division-related components, provided the required precursors and energy are available. But producing ribosomes also carries a resource cost. Growth therefore reflects coordinated allocation of cellular resources rather than the unconstrained increase of one enzyme. A cell cannot indefinitely increase division rate by increasing a single component if another required function becomes limiting.</p><p>DNA replication and segregation must also be coordinated with cell enlargement. The chromosome provides hereditary information that daughter cells require. Envelope expansion must keep pace with increasing internal material, and the division machinery must create two viable compartments. A defect in the completion of division can cause biomass or cellular length to increase without the expected numerical multiplication. This is one reason why optical density cannot always be substituted for a viable count in a perturbation experiment. The details of bacterial division machinery belong to the later chapters on microbial cell division.</p><p>A population in balanced growth exhibits approximately constant average composition over the period studied: major cellular constituents increase in similar proportions to overall biomass. Balanced does not mean that every cell has identical size, identical DNA content or identical momentary activity. It means that the distributions and average composition are relatively stable when viewed at the population level. For example, in a reproducibly growing asynchronous culture, some cells may be small and newly divided, while others are larger and approaching division. The proportion in each state can remain broadly stable even while the number of cells increases.</p><p>Balanced growth provides conditions in which different measurements may track each other. If the average biomass per cell is approximately constant and cells remain viable, both biomass and cell number increase proportionally. A doubling of cell concentration should then approximately correspond to a doubling of biomass concentration. Outside this condition, the relation can fail. When cells enlarge without dividing, the average biomass per cell increases; if cells lose viability while retaining their material, biomass may remain high while viable count falls. Therefore the usefulness of a conversion from biomass to cell number depends on the physiological state.</p><p>The term log phase refers to the linearity of the growth curve when the logarithm of the relevant population measurement is plotted against time. It does not mean that growth follows a logarithmic function of time on an arithmetic scale. In this phase a roughly constant doubling interval generates exponential numerical increase. The proportional rate is more useful than the number of cells added per hour. Equal successive intervals of doubling produce equal vertical changes on a base-two logarithmic plot. On a base-ten plot, a doubling increases the ordinate by approximately 0.301, because log base ten of two is approximately 0.301. The full derivations and use of the specific growth rate are developed in Node 2.E.03.</p><p>Suppose two cultures in their rising regions are measured at equally spaced times. Culture A has counts of two, four and eight million viable units per milliliter. Culture B has counts of two, three and four million. Culture A doubles at each interval, while B adds the same absolute number. B might be undergoing a transition or its apparent increments might arise from measurement variation. Three data points cannot conclusively establish the law over a long period, but they are more consistent with constant proportional multiplication for A than for B. Exam questions often ask which graph represents exponential growth; testing ratios is a reliable way to decide when the scale is not obvious.</p><p>It is tempting to assume that exponential growth always occurs at the organism's maximum possible rate. That inference is not justified. A population may sustain an approximately constant proportional rate at a temperature, pH or nutrient availability below its optimum, so long as the constraint is effectively stable over the measurement interval. Under more favorable conditions the same organism could have a steeper semilog slope. Maximum growth rate is a conditional property of an organism in a specified environment, not a universal constant independent of the medium.</p><p>The concept of exponential growth is also conditional on losses. Suppose cells divide, but some viable units disappear at the same time. A graph of viable concentration then records the net effect. If death is negligible relative to division, the slope closely reflects reproductive increase. If death is substantial and both processes occur, the slope represents their difference rather than the gross birth rate. A population can show exponential net growth even when individual losses occur. In elementary treatments it is usually appropriate to assume low losses during favorable early exponential growth, but an examination problem may explicitly supply evidence that invalidates this assumption.</p><p>Exponential cultures are often selected for physiological comparisons because their properties are more reproducible over time than those of rapidly transitioning cultures. Nevertheless, reproducibility depends on defining the state, not just on choosing a fixed number of hours after inoculation. A sample collected at six hours may be exponential in one medium but stationary in another. If protein expression or sensitivity to a perturbation is compared without verifying phase, physiological state can confound the result. A comparison at similar position within the growth curve may answer a different question from a comparison at the same elapsed time. Both designs can be useful, but they are not equivalent.</p><p>As the population expands, its success changes the conditions that made such expansion possible. The nutrient demand per unit volume increases, available resources decline, and metabolic products may accumulate. At some point the processes that had supported a stable proportional rate no longer keep pace with the demand for new biomass. This is the transition out of exponential growth.</p></section><section id="transition"><h2>5. Deceleration: why a growing culture changes its own environment</h2><p>The exponential phase cannot continue indefinitely in a finite batch because production of new organisms consumes matter and free energy. A newly produced cell contains atoms that must come from available resources, and synthesis requires energy released or captured through metabolism. Multiplication therefore imposes physical demands on the culture environment. Even a medium that was initially rich may eventually fail to supply one or more required resources at a rate sufficient to maintain the previous rate of division.</p><p>A limiting resource is one whose availability constrains further growth under the existing conditions. It need not be the nutrient present in the smallest numerical concentration, since different substances are required in different amounts. For example, nitrogen may remain available but a usable carbon source may become scarce; alternatively the medium may contain considerable carbon yet have insufficient nitrogen for additional protein and nucleic acid synthesis. Which resource limits growth depends on the organism and the relative supplies and demands. The presence of some residual nutrient does not demonstrate that the culture is unrestricted.</p><p>The distinction between nutrient concentration and uptake flux is helpful. Concentration describes the amount of a substance per unit volume, while flux describes the rate of movement or conversion. A cell can experience restricted uptake before a nutrient reaches zero concentration. Transport systems may acquire substrate more slowly as extracellular availability falls, and metabolism may receive insufficient precursor or energy input to sustain the earlier synthesis rate. In a dense population many cells compete for the available supply. Therefore the end of rapid exponential growth may develop progressively before the limiting resource is completely exhausted.</p><p>Oxygen provides an important example of a constraint that depends on both supply and consumption. In an aerobic culture, cells may use oxygen in respiration as an electron acceptor. When dissolved oxygen is consumed more rapidly than it enters the liquid, its concentration can decline. The resulting limitation may change the rate and pathways of energy metabolism. For a facultative organism, alternative metabolism may sustain slower growth under some conditions, whereas an obligately aerobic organism may be more strongly restricted. An organism that does not require oxygen for growth cannot automatically be assigned the same response. The direction of an oxygen effect depends on its physiology.</p><p>The chemical consequences of metabolism may also restrict growth. A substance produced by cells is not necessarily harmful, but some products can accumulate to levels that affect transport, enzyme activity or membrane function. When acidic products accumulate, for instance, extracellular pH may fall if buffering is insufficient. The cells must expend resources to maintain an internal pH compatible with their enzymes. A growing culture might have plenty of remaining carbon and nitrogen but still decelerate because the altered external pH increases the cost of homeostasis or inhibits essential functions. Waste accumulation and nutrient depletion are therefore different hypotheses, even though they often coexist.</p><p>Temperature can affect the activities of enzymes, the properties of membranes and the stability of cellular structures. In the ideal batch model, temperature is controlled so that changes in growth are primarily associated with the changing medium and physiology. In a real experiment, a change of temperature or another external condition may produce a slope change unrelated to ordinary nutrient exhaustion. The same observed flattening of a curve can therefore arise through different causal routes. The four-phase model cannot identify the limiting factor from shape alone.</p><p>The departure from rapid growth is not an instantaneous switch required to occur at one precise cell density. Cells sense changes in nutrient and energy status, and the ability to maintain biosynthesis decreases as constraints become stronger. Different processes may respond at different rates. Some cells may cease division before others. The resulting deceleration interval is often curved on a semilog plot, linking the straight rising segment with the stationary region. The point where a researcher labels the transition is partly a practical convention based on the available measurements.</p><p>Consider two hypothetical cultures with comparable initial states and identical starting nutrient supplies, except one contains an additional source of a nutrient that is limiting in the other. If both cultures initially have sufficient amounts of that nutrient to sustain the same growth rate, their exponential slopes may be similar. The culture with more of the limiting resource can continue increasing for longer and reach a higher population level, assuming no different constraint intervenes. Thus a greater final population need not indicate a faster earlier multiplication rate. This distinction between growth rate and amount of growth will become central in the separate chapter on growth yield.</p><p>A well-designed interpretation distinguishes between observations and interventions. A drop in substrate concentration concurrent with a fall in slope is consistent with nutrient limitation, but does not by itself establish causation. The culture could simultaneously acidify or lose oxygen. A comparison that changes one candidate constraint while holding others as comparable as possible can strengthen the inference. Recovery of growth after relieving a constraint suggests that it contributed to the slowdown, whereas failure to recover may indicate that another limitation remains or that irreversible damage has already occurred. The interpretation requires attention to the time of the intervention and the physiological condition of the cells.</p><p>The deceleration interval prepares the population for stationary behavior. A stationary region is not simply an arbitrary horizontal line drawn after a rising one; it is the observable consequence of a new balance between the processes that produce additional viable units and the processes that prevent or remove them. The cells have not ceased to be biological systems simply because the graph becomes nearly horizontal.</p></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation"><a href="./">← Academy curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 2 · Cellular Organization</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

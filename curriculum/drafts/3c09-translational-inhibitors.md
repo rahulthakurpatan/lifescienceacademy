@@ -333,6 +333,139 @@ Finally, these distinctions explain why the primary mechanism of a translation i
 11. **Multiple statements.** (i) Chloramphenicol inhibits bacterial peptidyl transfer. (ii) Every peptide bond is equally sensitive. (iii) Macrolides can act in a sequence-dependent manner. **Answer:** i and iii. Context-specific inhibition contradicts ii.
 12. **Part C.** A chain requires 50 independent elongation transitions, each with 0.98 probability of success. Estimate the fraction completed. **Answer:** 0.98^50 ≈ 0.364. This is an idealized model, not a measured drug effect.
 
+13. **Part B.** Which event is immediately before EF-G-dependent movement in an ordinary bacterial elongation cycle? A. Transcription initiation B. Transfer of the peptide to the A-site tRNA C. Release-factor-mediated hydrolysis D. Initiator tRNA charging. **Answer:** B. Peptide transfer creates a longer peptidyl-tRNA and a deacylated tRNA, which then move relative to the ribosome. A and D are earlier, distinct processes; C normally occurs at termination.
+
+14. **Part B.** Which pairing is incorrect? A. Chloramphenicol—bacterial PTC B. Erythromycin—bacterial exit tunnel C. Streptomycin—bacterial decoding centre D. Cycloheximide—bacterial RNA polymerase. **Answer:** D. Cycloheximide acts primarily on eukaryotic cytosolic ribosomes and impairs elongation. The other associations describe standard ribosomal targets.
+
+15. **Part B.** Which agent is best described as a substrate analogue rather than simply a site-occupying inhibitor? A. Puromycin B. Tetracycline C. Erythromycin D. Streptomycin. **Answer:** A. Puromycin accepts the nascent chain, producing a covalent nonproductive end product. The other choices primarily disturb normal ribosomal substrate handling or elongation.
+
+16. **Part B.** The principal catalytic RNA in the bacterial peptide transferase centre is A. 16S rRNA B. 23S rRNA C. 5S rRNA alone D. mRNA. **Answer:** B. The 23S rRNA of the large subunit forms the central catalytic environment. 16S rRNA is principally associated with small-subunit decoding; mRNA carries sequence information.
+
+17. **Part B.** Which statement about streptomycin-associated miscoding is correct? A. Each error permanently changes DNA B. A correctly charged near-cognate tRNA may be accepted C. All chains terminate at the first codon D. The drug primarily blocks RNA synthesis. **Answer:** B. Altered discrimination can permit incorporation from a near-cognate tRNA. The error is made in translation and need not alter inherited nucleic acid sequence. The other statements confuse separate mechanisms.
+
+18. **Part B.** Which molecule provides the ADP-ribose moiety in the standard diphtheria toxin mechanism? A. GTP B. NAD+ C. ATP D. FAD. **Answer:** B. NAD+ supplies the transferred group and nicotinamide is released. GTP is used by elongation factors in the ordinary translation cycle, not as the ADP-ribose donor.
+
+19. **Part B.** Which statement best describes eukaryotic cytosolic cycloheximide action? A. Inhibition of translocation associated with the large-subunit E-site region B. Direct destruction of mRNA C. Inhibition of tRNA charging by all synthetases D. Replacement of stop codons. **Answer:** A. Cycloheximide binds a ribosomal pocket associated with the E site and interferes with movement. The remaining choices do not describe its principal target.
+
+20. **Part B.** Which is an appropriate statement about bacterial and organellar ribosomes? A. All mitochondrial ribosomes are identical to bacterial 70S particles B. Organellar translation can show bacterial-like sensitivity, with important differences C. Every bacterial translation inhibitor is harmless to organelles D. All 80S ribosomes are mitochondrial. **Answer:** B. Endosymbiotic ancestry explains some shared characteristics, but organellar ribosomes have distinct compositions and sensitivities.
+
+21. **Part B.** Which change distinguishes puromycin release from normal termination? A. Transfer of the peptide to a substrate analogue B. Mandatory recognition of UAA C. Release of the entire mRNA as a polypeptide D. Addition of a new DNA nucleotide. **Answer:** A. Normal termination uses release-factor-promoted hydrolysis; puromycin accepts the chain and interrupts elongation independently of the ordinary stop-codon signal.
+
+22. **Part B.** Which observation best fits inhibition of A-site accommodation? A. Productive entry of a charged tRNA decreases despite normal charging B. All DNA is degraded C. Translation continues accurately at the same rate D. The messenger becomes a protein. **Answer:** A. Charging and accommodation are distinct processes. The other choices either concern unrelated processes or contradict the proposed inhibition.
+
+23. **Part B.** A macrolide binds in which ribosomal region in the standard bacterial model? A. Small-subunit anticodon recognition site B. Large-subunit nascent peptide exit tunnel C. DNA promoter D. Nuclear pore. **Answer:** B. Erythromycin occupies the exit-tunnel region. Its functional effects can include sequence-dependent interference with peptide transfer.
+
+24. **Part B.** Which is the correct direction of ordinary elongation? A. Protein C to N, mRNA 3′ to 5′ B. Protein N to C, mRNA 5′ to 3′ C. Both 3′ to 5′ D. Neither direction is defined. **Answer:** B. The ribosome reads successive codons from the 5′ end towards the 3′ end; new residues are added to the carboxyl end of the growing chain.
+
+25. **Part B.** Which factor is the bacterial functional counterpart of eEF2? A. EF-G B. EF-Tu C. RF1 D. IF3. **Answer:** A. EF-G coordinates bacterial translocation. EF-Tu delivers charged tRNA; RF1 and IF3 participate in termination and initiation respectively.
+
+26. **Part B.** Which statement about chloramphenicol is most accurate? A. Every sequence is equally sensitive B. It inhibits peptide transfer at the bacterial PTC, with context-dependent efficiency C. It acts primarily on bacterial DNA helicase D. It replaces eEF2. **Answer:** B. The classical target is correct, but arrest efficiency can depend on the substrates and nascent chain. A is an overgeneralization.
+
+27. **Assertion–Reason.** Assertion: Protein abundance need not immediately become zero when translation is inhibited. Reason: Proteins present before the inhibition can persist until they are removed. **Answer:** Both true; the reason explains the assertion. A synthesis rate and the existing molecular pool are different variables.
+
+28. **Assertion–Reason.** Assertion: A heavy polysome profile proves high protein output. Reason: Slow elongation can increase the time ribosomes remain on a message. **Answer:** Assertion false, reason true. High occupancy can reflect slow transit and does not prove a high rate of completion.
+
+29. **Assertion–Reason.** Assertion: Bacterial translation and mammalian cytosolic translation differ in sensitivity to some antibiotics. Reason: Their ribosomal molecular environments differ despite a conserved functional core. **Answer:** Both true; the reason explains the assertion. Selectivity does not imply absolute insensitivity of all organellar systems.
+
+30. **Assertion–Reason.** Assertion: Puromycin-mediated premature release requires a normal stop codon. Reason: Puromycin can act as an alternative acceptor at the peptidyl transferase centre. **Answer:** Assertion false, reason true. The reaction does not depend on ordinary stop-codon recognition.
+
+31. **Assertion–Reason.** Assertion: A decline in protein synthesis after diphtheria toxin action is associated with impaired translocation. Reason: The toxin modifies eEF2 rather than directly occupying the ordinary bacterial decoding site. **Answer:** Both true; the reason explains the mechanism in the eukaryotic system.
+
+32. **Multiple statements.** Evaluate (i) Streptomycin can alter decoding fidelity; (ii) tetracycline primarily blocks tRNA synthesis; (iii) peptide transfer and translocation are separate steps; (iv) cycloheximide primarily inhibits transcription. Which are correct? **Answer:** i and iii. Tetracycline restricts productive ribosomal entry of aminoacyl-tRNA rather than tRNA production. Cycloheximide is an elongation inhibitor.
+
+33. **Multiple statements.** Evaluate (i) A large-subunit inhibitor necessarily binds the PTC; (ii) macrolides can cause sequence-dependent arrest; (iii) puromycin can act without normal stop-codon recognition; (iv) eEF2 is a bacterial RNA polymerase. **Answer:** ii and iii. The large subunit includes other functional sites, including the exit tunnel. eEF2 is a eukaryotic elongation factor.
+
+34. **Multiple statements.** Evaluate (i) RNA abundance may initially remain constant after translation inhibition; (ii) it must remain constant indefinitely; (iii) a protein pool can decline after its synthesis is stopped; (iv) the decline always proves direct degradation by the inhibitor. **Answer:** i and iii. Secondary changes may alter RNA later; protein loss can reflect normal turnover and does not imply that the inhibitor is a protease.
+
+35. **Matching.** Match processes A. aminoacyl-tRNA productive entry B. decoding discrimination C. peptide transfer D. cytosolic eukaryotic translocation with 1. tetracycline 2. streptomycin 3. chloramphenicol 4. cycloheximide. **Answer:** A–1, B–2, C–3, D–4. The pairing concerns the primary textbook effect rather than all downstream consequences.
+
+36. **Matching.** Match observations A. terminal substrate analogue on short released chains B. modified soluble eukaryotic movement factor C. bacterial exit-tunnel occupancy D. reduced productive entry of charged bacterial tRNA with 1. erythromycin 2. diphtheria toxin 3. tetracycline 4. puromycin. **Answer:** A–4, B–2, C–1, D–3. Each observation is matched to the molecule's distinctive action.
+
+37. **Part C.** A hypothetical system has 90 units of charged tRNA and 10 units of new peptide, compared with 100 and 100 in the control. Does this prove inhibition of peptide transfer rather than tRNA entry? **Answer:** No. Both productive entry and transfer defects could produce low incorporation with an appreciable charged pool. A measurement of productive A-site occupancy and the state of the donor chain would distinguish these hypotheses. Pool abundance is also not identical to charging flux.
+
+38. **Part C.** In a hypothetical synchronized elongation population, the first new peptide bond forms but successive additions are impaired; the pre-movement complex accumulates. Which operation is most directly implicated? **Answer:** Translocation. The successful first bond argues against a complete block of the initial transfer chemistry, while retention of the pre-movement state supports a movement defect. Later substrate entry could be secondarily reduced.
+
+39. **Part C.** A control reporter produces 150 units of protein and 120 units of activity. A treated reporter produces 100 units of protein and 20 units of activity. Calculate relative activity per unit protein. **Answer:** Control specific activity = 120/150 = 0.8; treated = 20/100 = 0.2. Relative value = 0.2/0.8 = 0.25. A quality or maturation defect is plausible, but direct sequence evidence is needed to identify miscoding.
+
+40. **Part C.** A hypothetical translation readout has control signal 250, treated signal 110 and a common blank of 30. Calculate background-corrected percent inhibition. **Answer:** Corrected control = 220, treated = 80. Residual fraction = 80/220 = 0.3636; inhibition ≈ 63.6%. Raw signals would give a different, biased estimate.
+
+41. **Part C.** A one-site equilibrium binding model has Kd = 4 arbitrary concentration units and free inhibitor = 12 units. Calculate occupied fraction. Can this be assumed equal to translation inhibition? **Answer:** 12/(4+12) = 0.75. It equals fractional inhibition only if every bound target is inactive, every free target is normally active and the model's other assumptions hold. Ribosomal state dependence can invalidate the inference.
+
+42. **Part C.** A message normally receives one initiated ribosome every 8 seconds, with a mean translation time of 48 seconds. Estimate average occupancy under the independent steady-state completion model. If translation time increases to 72 seconds, what is the predicted occupancy? **Answer:** J = 1/8 s⁻¹. N = JT gives 6 and 9 ribosomes respectively. Output does not automatically increase; crowding, losses or altered initiation could invalidate the model.
+
+43. **Part C.** A hypothetical message contains ribosomes at different positions when initiation is stopped. The maximum remaining transit time at unchanged speed is 45 seconds. At 90 seconds many ribosomes remain. What follows? **Answer:** At least one ideal assumption fails: existing ribosomes may progress more slowly, initiation may persist or inactive complexes may remain associated. The data alone do not uniquely identify the cause.
+
+44. **Part C.** Assume independent errors of 0.002 per residue for a 200-residue protein. Estimate the fraction containing no error; compare with 0.01 per residue. **Answer:** (0.998)^200 ≈ 0.670; (0.99)^200 ≈ 0.134. A modest increase in error per residue has a large cumulative effect. Error-free fraction is not exactly the functional fraction.
+
+45. **Part C.** Two hypothetical samples each contain 1,200 incorporated residues. A contains 120 chains of ten residues, B contains 12 chains of 100 residues. Can equal total label establish equal full-length output for a 100-residue reporter? **Answer:** No. Total residues are equal, but sample A contains no 100-residue product and sample B contains 12 such chains. Chain length and molecular identity are necessary to infer full-length output.
+
+46. **Part C.** An initially steady-state protein has 80 units and a half-life of 2 h. Synthesis is completely blocked. Predict abundance after 6 h. **Answer:** Three half-lives have elapsed, so 80 × (1/2)^3 = 10 units. The calculation assumes constant first-order loss, no new synthesis and no independent dilution contribution.
+
+47. **Part C.** An initially steady-state protein has 80 units, half-life 2 h, and synthesis falls to 25% of normal while degradation is unchanged. Calculate abundance after 4 h. **Answer:** New steady state = 20 units. After two half-lives, P = 20 + (80−20)/4 = 35 units. Assuming complete synthesis inhibition would incorrectly predict 20 units.
+
+48. **Part C.** One hypothetical drug reduces RNA synthesis immediately, and protein synthesis decreases only later. A second inhibits protein incorporation immediately with pre-supplied mRNA intact. What is the most appropriate mechanistic distinction? **Answer:** The first pattern is compatible with transcription-first inhibition and later messenger depletion. The second supports a translation-level effect. Direct molecular assays are needed to establish exact targets.
+
+49. **Part C.** A cell-free comparison shows that a defect follows an isolated ribosomal fraction rather than soluble factors. Which is more consistent with the pattern: a direct ribosomal inhibitor or a soluble-factor-specific modification? **Answer:** A ribosome-associated defect. This does not prove the identity of the compound: fraction integrity, carryover and component competence must be considered. A factor-specific modification would more directly follow the affected factor fraction.
+
+50. **Part C.** An unknown perturbation gives an abundance peak near a particular codon and depletion of ribosome occupancy downstream. What inference is supported, and what ambiguity remains? **Answer:** Local slowing or arrest is consistent with the pattern, particularly if input flux and message abundance are comparable. Queuing can displace a peak from the first arrested position, and altered initiation or transcript features may influence occupancy.
+
+51. **Part C.** Two reporters have comparable mRNA abundance and length but one is preferentially arrested by a macrolide. Is this necessarily evidence for different binding sites? **Answer:** No. A common ribosomal site can yield context-dependent arrest when the nascent peptide sequences differ. The inference is strengthened by positional ribosome and completed-product measurements.
+
+52. **Part C.** A compound suppresses eukaryotic cytosolic translation, while another suppresses bacterial translation in isolated systems. Is organism selectivity sufficient to predict all intact-cell effects? **Answer:** No. Compartmental access, target differences, physiological state and organellar sensitivity matter. Isolated-system activity identifies a more direct biochemical effect than a general intact-cell response.
+
+53. **Part C.** A hypothetical protein population declines from 96 to 24 units over 4 h during a complete synthesis block. Calculate k. **Answer:** Two half-lives in 4 h give t½ = 2 h. k = ln(2)/2 ≈ 0.347 h⁻¹. If synthesis persists or loss is not first order, this estimate is not justified.
+
+54. **Part C.** A hypothetical drug causes a 90% decrease in whole-cell mitochondrial translation, which normally contributes 5% of total measured incorporation. Assuming cytosolic synthesis is unchanged, predict the residual whole-cell signal. **Answer:** Mitochondrial contribution remaining is 0.05 × 0.10 = 0.005. Cytosolic contribution is 0.95, giving 0.955 or 95.5%. A small change in total signal can conceal a large compartment-specific defect.
+
+55. **Part C.** A treatment leaves 60% of total incorporated peptide but only 20% full-length reporter. What additional result would distinguish premature release from persistent stalling? **Answer:** Compare whether incomplete chains are released or retained in ribosomal complexes and determine the nature of their termini. Short released chains with an alternative acceptor are consistent with premature release, whereas retained intermediates support arrest.
+
+56. **Part C.** A student claims that washing away every translation inhibitor restores every unfinished chain immediately. Evaluate this claim. **Answer:** False. Reversible occupancy may permit competent complexes to recover, but prematurely released chains cannot resume the ordinary elongation cycle and covalently modified factors do not automatically regain their original state. Cell-level recovery also depends on secondary effects.
+
+
+## Examination traps and corrective reasoning
+
+- **A subunit number is not a reaction.** The large subunit has multiple functional regions; distinguish PTC, exit tunnel and movement-associated sites.
+- **A-site entry is not aminoacylation.** A charged tRNA can exist without productive accommodation.
+- **Miscoding is not a DNA mutation.** A wrong residue can occur without a change in nucleotide sequence.
+- **Peptide transfer is not translocation.** The first makes a bond; the second advances the complex.
+- **Puromycin release is not ordinary termination.** An alternative acceptor releases the chain without a stop-codon requirement.
+- **Erythromycin is not a universal tunnel plug.** Nascent sequence can determine arrest efficiency.
+- **Chloramphenicol is not equally effective at every peptide bond.** Context modifies arrest.
+- **eEF2 is not EF-G.** They are functionally related but are distinct factors in different translation systems.
+- **A heavy polysome is not proof of high protein output.** Occupancy reflects residence time as well as input.
+- **A synthesis block is not direct protein degradation.** Existing proteins can disappear through their ordinary turnover.
+- **Bacterial selectivity is not absolute organelle insensitivity.** Translation compartment and access matter.
+- **IC50 is not invariably Kd.** The relationship requires restrictive binding and activity assumptions.
+
+## Revision and active recall
+
+1. Sketch the post-initiation A/P/E sites and identify where productive entry, transfer and movement occur.
+2. Explain why streptomycin can reduce the function of a reporter more than its abundance.
+3. Contrast chloramphenicol and erythromycin by binding region and context-dependent effect.
+4. Contrast cycloheximide and diphtheria toxin by molecular target, not just endpoint.
+5. Explain why puromycin can release a chain before a normal stop codon.
+6. Derive N = JT under its assumptions and distinguish occupancy from flux.
+7. Derive the first-order loss equation and the partial-synthesis steady-state expression.
+8. Explain why the same total label can correspond to different numbers of complete proteins.
+9. Interpret a hypothetical local ribosome peak and identify at least two limitations.
+10. Predict how whole-cell incorporation might mask an organellar effect.
+
+## Formula sheet and mastery checklist
+
+| Model | Expression | Key restriction |
+|---|---|---|
+| Corrected residual activity | (treated − blank)/(control − blank) | Comparable background and linear readout |
+| Independent transition completion | p^n | Identical independent success probabilities |
+| Error-free chains | (1−e)^L | Independent equal per-residue errors |
+| Mean ribosome occupancy | N = JT | Steady input, eventual completion, negligible crowding |
+| One-site equilibrium occupancy | I/(Kd+I) | Equivalent independent sites and known free ligand |
+| Protein loss | P = P0 exp(−kt) | Complete synthesis block and constant first-order loss |
+| Half-life | ln(2)/k | First-order loss |
+| Partial synthesis | P = s1/k + (P0−s1/k)exp(−kt) | Constant synthesis and first-order loss |
+
+A student is ready to advance when they can identify all seven principal targets without notes; reconstruct intermediates before and after transfer and movement; separate binding, flux, occupancy and product quality; recognize organellar exceptions; solve the quantitative examples with assumptions; and distinguish direct evidence from plausible interpretation.
+
+
 ## References consulted
 
 1. Alberts et al., *Molecular Biology of the Cell*, From RNA to Protein. NCBI Bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK26829/

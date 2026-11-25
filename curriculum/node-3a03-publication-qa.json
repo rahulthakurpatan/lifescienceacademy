@@ -1,0 +1,265 @@
+{
+  "node_id": "3.A.03",
+  "title": "Replication Fork Architecture and Core Replication Enzymes",
+  "slug": "replication-fork-architecture-and-core-replication-enzymes.html",
+  "narrative_words": 14689,
+  "visible_article_words": 18505,
+  "html_characters": 213049,
+  "html_bytes": 213727,
+  "sections": 21,
+  "theory_sections": 16,
+  "teaching_paragraphs": 137,
+  "figures": 14,
+  "tables": 4,
+  "questions": 56,
+  "distribution": {
+    "part_b": 20,
+    "part_c": 26,
+    "assertion_reason": 5,
+    "multiple_statement": 2,
+    "matching": 2,
+    "integrative": 1
+  },
+  "references": 20,
+  "method": "Whitespace-delimited actual HTML teaching-prose paragraphs, inline HTML removed; excludes headings, tables, diagrams and captions, practice, answers, revision, references, UI. Total article includes headings, captions, tables, practice, revealed answers and references; excludes SVG contents, diagram buttons and inline source lists.",
+  "comparator": "3.A.01 QA 14,757 teaching words; 2.E.08 QA 14,663. This chapter has 16 theory sections, 137 paragraphs and no identical paragraphs. Scope, explanation and evidence reviewed separately.",
+  "scientific_checks": "Official merged NET Unit 3.A page 4, separate NET page 2 and archived MP SET page 2 visually checked. Reviewed primer chemistry, polymerase direction, Kornberg evidence, helicase tracking polarity, SSB/RPA, primase, processivity, ATP-dependent clamp loading, Okazaki evidence, primer processing, nick/gap/flap, ligase adenylation, topology and type IA/IB/II distinctions, gyrase and replisome dynamics, experimental controls, model limitations and all 56 answers. Recalculated 33 numerical values. Sources checked through available textbook excerpts and publication abstracts; no full-text verification of every source. Hypothetical data and original questions labeled.",
+  "arithmetic_checks": [
+    {
+      "test": "binding WT",
+      "actual": 0.75,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "test": "binding high",
+      "actual": 0.9,
+      "expected": 0.9,
+      "pass": true
+    },
+    {
+      "test": "binding mutant",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "test": "primer spacing",
+      "actual": 1500,
+      "expected": 1500,
+      "pass": true
+    },
+    {
+      "test": "shorter interval",
+      "actual": 1000,
+      "expected": 1000,
+      "pass": true
+    },
+    {
+      "test": "A rate",
+      "actual": 33.333333333333336,
+      "expected": 33.333333333333336,
+      "pass": true
+    },
+    {
+      "test": "B rate",
+      "actual": 47.61904761904762,
+      "expected": 47.61904761904762,
+      "pass": true
+    },
+    {
+      "test": "processivity A",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "test": "processivity B",
+      "actual": 5000,
+      "expected": 5000,
+      "pass": true
+    },
+    {
+      "test": "ligase",
+      "actual": 0.87,
+      "expected": 0.87,
+      "pass": true
+    },
+    {
+      "test": "Lk0",
+      "actual": 400,
+      "expected": 400,
+      "pass": true
+    },
+    {
+      "test": "sigma",
+      "actual": -0.06,
+      "expected": -0.06,
+      "pass": true
+    },
+    {
+      "test": "sigma after",
+      "actual": -0.02,
+      "expected": -0.02,
+      "pass": true
+    },
+    {
+      "test": "unwinding",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "test": "type II cycles",
+      "actual": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "test": "lag backlog",
+      "actual": 500,
+      "expected": 500,
+      "pass": true
+    },
+    {
+      "test": "fork time",
+      "actual": 50,
+      "expected": 50,
+      "pass": true
+    },
+    {
+      "test": "new residues",
+      "actual": 9600000,
+      "expected": 9600000,
+      "pass": true
+    },
+    {
+      "test": "fragment starts",
+      "actual": 20,
+      "expected": 20,
+      "pass": true
+    },
+    {
+      "test": "short fragments",
+      "actual": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "test": "C5 time",
+      "actual": 50,
+      "expected": 50,
+      "pass": true
+    },
+    {
+      "test": "C5 residues",
+      "actual": 8400000,
+      "expected": 8400000,
+      "pass": true
+    },
+    {
+      "test": "C6 spacing",
+      "actual": 1080,
+      "expected": 1080,
+      "pass": true
+    },
+    {
+      "test": "C7 rate",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "test": "C8 fold",
+      "actual": 20,
+      "expected": 20,
+      "pass": true
+    },
+    {
+      "test": "C12 WT",
+      "actual": 0.75,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "test": "C12 mutant",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true
+    },
+    {
+      "test": "C17 sigma",
+      "actual": -0.05,
+      "expected": -0.05,
+      "pass": true
+    },
+    {
+      "test": "C18 cycles",
+      "actual": 15,
+      "expected": 15,
+      "pass": true
+    },
+    {
+      "test": "C19 winding",
+      "actual": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "test": "C20 backlog",
+      "actual": 480,
+      "expected": 480,
+      "pass": true
+    },
+    {
+      "test": "C21 nicks",
+      "actual": 35,
+      "expected": 35,
+      "pass": true
+    },
+    {
+      "test": "C22 starts",
+      "actual": 200,
+      "expected": 200,
+      "pass": true
+    }
+  ],
+  "technical_checks": {
+    "wordGate": true,
+    "uniqueIds": true,
+    "anchors": true,
+    "ariaLabels": true,
+    "svgZoom": true,
+    "readerControls": true,
+    "canonical": true,
+    "menu": true,
+    "sitemap": true,
+    "questions": true,
+    "sections": true,
+    "noDuplicateParagraphs": true,
+    "arithmetic": true,
+    "noStaleContent": true,
+    "tables": true,
+    "neighborNavigation": true,
+    "scriptSyntax": true,
+    "previousReciprocal": true,
+    "nextReciprocal": true
+  },
+  "academic_self_review": {
+    "scope": 20,
+    "scientific_accuracy": 19,
+    "teaching_depth": 19,
+    "evidence": 14,
+    "quantitative_reasoning": 10,
+    "practice": 9,
+    "illustrations": 4,
+    "total": 95,
+    "maximum": 100,
+    "method": "Internal author self-review, not independent external approval. Deductions for partial source access, untested rendered diagrams and concise distractor explanations."
+  },
+  "limitations": "Static HTML/JS/SVG source and coordinate checks, not full interactive browser/device or external accessibility audit. Archived MP SET 2024 is not verified as current original MPPSC-hosted syllabus. Pages verification separate and pending at commit.",
+  "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+  "main_baseline_sha": "cb40563f955977c9d2a11e5cef05ef09d8f932d8",
+  "source_draft_branch": "develop-3a03-replication-fork-20261125",
+  "status": "lesson_committed_pages_verification_pending"
+}

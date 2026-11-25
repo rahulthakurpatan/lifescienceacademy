@@ -1,0 +1,433 @@
+{
+  "sets": [
+    [
+      "Part B · Conceptual MCQs",
+      [
+        [
+          "Which termini can a standard DNA ligase join at a clean nick?",
+          "A. 3′-P and 5′-OH|B. 3′-OH and 5′-P|C. 3′-P and 5′-P|D. 3′-OH and 5′-OH",
+          "B",
+          "The 3′ hydroxyl attacks the activated 5′ phosphate. A lacks both necessary groups; C lacks a free 3′ hydroxyl and D lacks the activated phosphate."
+        ],
+        [
+          "What distinguishes a nick from a gap?",
+          "A. A nick lacks a backbone bond but no nucleotide|B. A nick interrupts both strands|C. A gap always contains a modified base|D. A nick always carries a mutation",
+          "A",
+          "A gap lacks nucleotide positions; a nick need not. Neither structure necessarily changes the inherited sequence, and a nick affects one strand."
+        ],
+        [
+          "Which protein coordinates mammalian SSBR through interactions with multiple enzymes?",
+          "A. RAD51|B. XRCC1|C. FtsZ|D. LexA",
+          "B",
+          "XRCC1 is a scaffold in SSBR; RAD51 promotes homologous pairing, FtsZ participates in division and LexA regulates bacterial SOS genes."
+        ],
+        [
+          "Which activity directly removes a blocking 3′ phosphate and can phosphorylate a 5′ hydroxyl?",
+          "A. PNKP|B. Pol β|C. Ku70|D. RAD51",
+          "A",
+          "PNKP corrects terminal chemistry. Pol β performs synthesis, Ku recognizes duplex ends, and RAD51 promotes homologous interactions."
+        ],
+        [
+          "PARP1 consumes which substrate to generate poly(ADP-ribose)?",
+          "A. dATP|B. NAD⁺|C. UDP-glucose|D. GTP",
+          "B",
+          "NAD⁺ supplies ADP-ribose units. PARP signaling does not directly synthesize DNA or seal a nick."
+        ],
+        [
+          "Which mammalian protein complex directly supplies the ligase activity in classical NHEJ?",
+          "A. MRN|B. Ku–DNA-PKcs|C. XRCC4–LIG4|D. RPA–RAD51",
+          "C",
+          "Ligase IV catalyzes joining and XRCC4 supports it. MRN processes or organizes breaks; Ku–DNA-PKcs participates in recognition and regulation."
+        ],
+        [
+          "What does DNA-PKcs principally catalyze?",
+          "A. DNA ligation|B. Protein phosphorylation|C. DNA base excision|D. RNA transcription",
+          "B",
+          "DNA-PKcs is a protein kinase using ATP; DNA ligase IV completes phosphodiester joining."
+        ],
+        [
+          "When can NHEJ produce exact restoration?",
+          "A. Never|B. Only when RAD51 is absent|C. When the original compatible ends are rejoined without sequence alteration|D. Only after deleting both ends",
+          "C",
+          "End joining does not intrinsically require nucleotide loss. Compatible ends can be precisely sealed; neither RAD51 absence nor trimming is a prerequisite."
+        ],
+        [
+          "What is the product of standard 5′-strand end resection?",
+          "A. 5′ single-stranded tails|B. 3′ single-stranded tails|C. Two RNA primers|D. A covalently closed chromosome",
+          "B",
+          "Preferential loss of the 5′-terminated strands leaves 3′ tails that can prime synthesis after pairing with a homologous donor."
+        ],
+        [
+          "What is the key role of BRCA2 in conventional HR?",
+          "A. Load RAD51 onto ssDNA|B. Cut all DNA ends|C. Ligate DNA by ATP|D. Synthesize ubiquitin",
+          "A",
+          "BRCA2 helps assemble RAD51 on resected ssDNA. It is not the final ligase, a universal nuclease or a ubiquitin-synthesizing enzyme."
+        ],
+        [
+          "Why is HR favored in S/G2 relative to G1 in typical mammalian cells?",
+          "A. Ligase IV exists only in G1|B. Sister chromatids and resection-promoting regulation become available|C. DNA synthesis is chemically impossible in G1|D. Homologous chromosomes disappear in G1",
+          "B",
+          "A sister donor is available following local replication, and cell-cycle regulation favors resection. NHEJ remains active in S/G2; homologs do not disappear in G1."
+        ],
+        [
+          "What is the immediate objective of TLS?",
+          "A. Excise the damaged parental base|B. Seal every DSB|C. Continue DNA synthesis using a lesion-containing template|D. Degrade the whole chromosome",
+          "C",
+          "TLS directly bypasses a lesion during synthesis. Excision and DSB repair solve different substrate problems."
+        ],
+        [
+          "Which example contradicts the claim that all TLS is necessarily mutagenic?",
+          "A. Pol η inserting adenines opposite a thymine CPD|B. Ku protecting ends|C. LexA binding an operator|D. PNKP correcting a 3′ phosphate",
+          "A",
+          "Pol η is adapted to bypass certain CPDs accurately. The remaining options describe other reactions and do not test TLS fidelity."
+        ],
+        [
+          "Which signal commonly promotes recruitment of eukaryotic TLS polymerases?",
+          "A. PCNA monoubiquitination|B. DNA ligase IV removal|C. FtsZ polymerization|D. LexA accumulation",
+          "A",
+          "PCNA modification supports damage-associated polymerase exchange. FtsZ and LexA belong to bacterial systems."
+        ],
+        [
+          "Which bacterial protein is the SOS repressor in E. coli?",
+          "A. RecA|B. LexA|C. SulA|D. UmuC",
+          "B",
+          "LexA binds SOS operators. RecA stimulates LexA self-cleavage, SulA affects division and UmuC contributes to Pol V."
+        ],
+        [
+          "Which statement correctly describes SOS induction?",
+          "A. LexA stimulates RecA proteolysis|B. Activated RecA promotes LexA self-cleavage|C. FtsZ directly cleaves LexA|D. Pol V transcribes SOS genes",
+          "B",
+          "The DNA-associated RecA state stimulates LexA's own cleavage reaction, releasing repression; RecA is not an indiscriminate protease."
+        ],
+        [
+          "What is the direct cellular target of SulA in E. coli division control?",
+          "A. FtsZ assembly|B. RAD51 loading|C. DNA ligase IV|D. Telomerase",
+          "A",
+          "SulA inhibits FtsZ-dependent division. Its role buys time for recovery rather than directly repairing DNA."
+        ],
+        [
+          "Which E. coli complex initiates repair of many duplex DNA ends?",
+          "A. RecBCD|B. ORC|C. DNA-PKcs|D. RNA polymerase II",
+          "A",
+          "RecBCD processes broken duplex ends and supports RecA loading; ORC and RNA polymerase II are eukaryotic systems."
+        ],
+        [
+          "Which outcome is characteristic of single-strand annealing between direct repeats?",
+          "A. Always exact restoration|B. Deletion of the intervening region and one repeat|C. Conversion of DNA into RNA|D. Removal of a CPD by light",
+          "B",
+          "Annealing of exposed repeat sequences eliminates the intervening DNA and redundant repeat. This is not conventional sister-directed restoration."
+        ],
+        [
+          "What is the primary difference between classical NHEJ and template-guided HR?",
+          "A. Only HR makes a phosphodiester bond|B. NHEJ uses no extended homologous donor, HR normally does|C. NHEJ is bacterial only|D. HR requires no DNA synthesis in any context",
+          "B",
+          "Both can restore covalent DNA continuity. Their defining difference is the use of donor information, not species or an absolute difference in ligation."
+        ]
+      ]
+    ],
+    [
+      "Part C · Analytical and experimental MCQs",
+      [
+        [
+          "A repaired DNA patch incorporates labeled dNTPs but persists as a nick. Which activity is most directly implicated?",
+          "A. Gap filling|B. Final ligation|C. Base pairing|D. DNA unwinding",
+          "B",
+          "Incorporation establishes that synthesis occurred; it does not establish phosphodiester continuity at the final junction. A ligation defect is most consistent with the combination."
+        ],
+        [
+          "A clean nick and a 3′-P/5′-OH nick are exposed to ligase alone. Only the former is sealed. Adding PNKP rescues the latter. What follows?",
+          "A. PNKP substitutes for ligase|B. PNKP restores ligatable chemistry|C. DNA ligase requires a DSB|D. PNKP removes entire damaged genes",
+          "B",
+          "The selective rescue shows the importance of terminal processing. Ligation still supplies the final bond; the experiment does not show that PNKP ligates."
+        ],
+        [
+          "Two genetically identical mammalian populations are in G1 or G2. A donor-marker HR reporter is induced equally. G2 shows higher reporter restoration. Best explanation?",
+          "A. Only G2 contains ATP|B. G2 favors template-directed repair and resection|C. G1 cannot repair any DSB|D. G2 cannot perform NHEJ",
+          "B",
+          "G2 offers sister DNA and appropriate regulation. The experiment supports a cell-cycle association, not the absolute exclusion of other pathways."
+        ],
+        [
+          "A mutant shows fewer colonies after irradiation and is restored by the normal gene. What is justified without other assays?",
+          "A. The gene is necessarily a ligase|B. It contributes to survival under the tested conditions|C. Every surviving mutant has an altered sequence|D. The gene is necessarily involved in TLS",
+          "B",
+          "Rescue supports a causal contribution to survival. Specific chemistry requires independent substrate or enzyme evidence."
+        ],
+        [
+          "A broken reporter lacks two bases. The donor contains a nearby silent marker. Restored reporters acquire the marker. Most direct inference?",
+          "A. End trimming alone occurred|B. Donor sequence information was transferred|C. All breaks are repaired by NHEJ|D. Marker acquisition proves a crossover",
+          "B",
+          "The marker distinguishes donor-dependent copying from direct joining of original ends. It does not establish whether a crossover occurred."
+        ],
+        [
+          "A G1-enriched mutant has reduced HR reporter activity. Its purified RAD51 behaves normally. Best next control?",
+          "A. Remove all DNA|B. Compare phase-matched cells and reporter delivery|C. Count only total culture mass|D. Assume RAD51 is inactive",
+          "B",
+          "Cell-cycle composition and assay eligibility can explain the difference. Normal purified activity does not settle recruitment or regulation."
+        ],
+        [
+          "At a break between two 12-base direct repeats, sequencing shows loss of the intervening interval and one repeat. Which conclusion is strongest?",
+          "A. Consistent with repeat-mediated annealing|B. Unambiguously proves POLQ dependence|C. Proves no DNA processing|D. Establishes exact restoration",
+          "A",
+          "The product fits an annealing mechanism. Genetic tests are needed to distinguish routes with overlapping junction patterns."
+        ],
+        [
+          "Ku-deficient cells retain some repaired junctions. Which interpretation is valid?",
+          "A. Ku is irrelevant|B. All junctions are precise|C. Other pathways may restore some continuity|D. The cells lack DNA damage",
+          "C",
+          "Repair is partly redundant; residual joining can be due to alternative mechanisms. Neither product accuracy nor absence of damage follows."
+        ],
+        [
+          "A replication fork encounters a nick and creates a one-ended DSB. Which outcome is least suitable as a general solution?",
+          "A. Access an intact homologous template|B. Restore a productive replication structure|C. Join the end to an unrelated chromosome end|D. Temporarily delay progression",
+          "C",
+          "The unmatched end cannot be safely paired arbitrarily. Incorrect joining risks rearrangement rather than restoration of the original fork."
+        ],
+        [
+          "A POLH mutant and wild type remove UV photoproducts at the same rate; mutant nascent DNA remains shorter. Which process is primarily implicated?",
+          "A. Lesion-specific bypass|B. Photoproduct formation|C. Base excision of every lesion|D. Chromosome centromere loss",
+          "A",
+          "Normal removal with defective synthesis recovery supports a tolerance defect; cell-cycle and baseline replication controls strengthen the inference."
+        ],
+        [
+          "Polymerase X copies undamaged DNA accurately but stops at a dimer. Y bypasses the dimer with correct incorporation but is inaccurate on normal DNA. Best biological strategy?",
+          "A. Permanently replace X with Y|B. Restrict Y to appropriate damaged substrates|C. Prevent all nucleotide incorporation|D. Remove every sliding clamp",
+          "B",
+          "Transient polymerase switching combines normal replication fidelity with lesion-specific capacity, avoiding unnecessary mutagenesis."
+        ],
+        [
+          "A PCNA Lys164 modification-site mutant has normal purified Pol η activity but poor UV-associated synthesis. What is a plausible mechanism?",
+          "A. Impaired polymerase access or regulation|B. Pol η has changed catalytic sequence necessarily|C. DNA synthesis runs 3′ to 5′|D. All UV lesions are absent",
+          "A",
+          "The clamp modification influences cellular pathway selection. Purified enzyme activity can remain intact while recruitment is impaired."
+        ],
+        [
+          "A noncleavable LexA retains operator binding; damaged cells show normal RecA accumulation but low SOS reporter transcription. Why?",
+          "A. LexA repression cannot be relieved normally|B. FtsZ directly transcribes the reporter|C. DNA has no single-stranded regions|D. LexA is the bypass polymerase",
+          "A",
+          "The regulatory block lies at repressor cleavage. Normal RecA abundance is not sufficient to overcome noncleavable LexA."
+        ],
+        [
+          "A strain has constitutive SOS reporter expression in the absence of detectable breaks. Which statement is justified?",
+          "A. All DNA must be broken|B. The regulatory state can be altered independently of lesion burden|C. Pol V is necessarily maximally active|D. The cells lack LexA target genes",
+          "B",
+          "Reporter activity measures promoter regulation. Additional activation requirements and the absence of detectable lesions preclude the other conclusions."
+        ],
+        [
+          "A SulA-deficient strain induces SOS genes normally but divides sooner after damage. What is the most direct missing function?",
+          "A. Division delay|B. LexA cleavage|C. DNA ligation|D. Removal of thymine dimers",
+          "A",
+          "SulA inhibits division via FtsZ. Other SOS functions may remain induced in this mutant."
+        ],
+        [
+          "A mutant gives more persistent γH2AX foci but normal levels of correct reporter junctions. What should be tested before inferring a generalized repair defect?",
+          "A. Marker persistence and other damage classes|B. Whether all foci are mutations|C. Whether H2AX is a ligase|D. Nothing; foci prove exact break counts",
+          "A",
+          "Signaling foci are indirect measures and the reporter samples a particular substrate. Additional physical and functional assays are needed."
+        ],
+        [
+          "In hypothetical populations A and B, damage-marker foci disappear faster in A, but A has more deletions in repaired junctions. Which conclusion is valid?",
+          "A. A necessarily preserves sequence better|B. Speed of signal loss and sequence fidelity are different endpoints|C. B has no repair|D. Both pathways are proven identical",
+          "B",
+          "Rapid disappearance of a signal can accompany mutagenic joining. Sequencing gives complementary information about accuracy."
+        ],
+        [
+          "A donor-dependent repair reporter decreases after deletion of a regulator, but an unrelated reporter delivery control also decreases. What is the best interpretation?",
+          "A. HR is conclusively blocked|B. Delivery differences confound pathway inference|C. All cells are in G2|D. The regulator is a DNA nuclease",
+          "B",
+          "Fewer eligible cells can reduce raw reporter output. Normalize to successful delivery and viable cells before assigning a repair defect."
+        ],
+        [
+          "A mutant can bind a break but an inactive version of its protein fails to restore repair. A functional version restores repair. What is supported?",
+          "A. Binding alone is insufficient under these conditions|B. The protein never binds DNA|C. Catalysis is irrelevant|D. Every repair gene acts identically",
+          "A",
+          "The comparison suggests an additional activity beyond binding is needed. It does not establish the exact catalytic step without further evidence."
+        ],
+        [
+          "A homologous donor carries allele a at a damaged A locus. The repaired recipient and original donor both carry a. Which genetic outcome is consistent?",
+          "A. Local loss of heterozygosity|B. Obligatory chromosome loss|C. No sequence change possible|D. RNA editing",
+          "A",
+          "Copying donor information can change the recipient allele without losing a chromosome. HR is not necessarily restoration of the original allele."
+        ]
+      ]
+    ],
+    [
+      "Numerical and multiple-statement reasoning",
+      [
+        [
+          "A treated population yields 360 colonies and a matched untreated population yields 1,800. What is survival?",
+          "A. 5%|B. 20%|C. 36%|D. 80%",
+          "B",
+          "360/1,800 = 0.20, or 20%. The ratio assumes comparable input and plating conditions."
+        ],
+        [
+          "From 10,000 initial viable cells, 2,000 survive and 30 survivors are mutant. What is the mutant fraction among survivors?",
+          "A. 0.3%|B. 1.5%|C. 15%|D. 20%",
+          "B",
+          "30/2,000 = 0.015 = 1.5%. 30/10,000 = 0.3% is relative to initial input, not survivors."
+        ],
+        [
+          "A population has 25% survival and a mutant fraction of 0.04 among survivors. What fraction of initial cells are mutant survivors?",
+          "A. 0.01|B. 0.04|C. 0.16|D. 0.29",
+          "A",
+          "Multiply S × f = 0.25 × 0.04 = 0.01. The result is 1% of the original input."
+        ],
+        [
+          "In a hypothetical first-order model, 100 breaks fall to 25 in 4 h. What is the half-time?",
+          "A. 1 h|B. 2 h|C. 4 h|D. 8 h",
+          "B",
+          "A fourfold reduction represents two half-times, so t½ = 4/2 = 2 h. This assumes no new breaks and first-order disappearance."
+        ],
+        [
+          "Using a first-order model with k = 0.3466 h⁻¹, what fraction remains after 4 h?",
+          "A. 0.125|B. 0.25|C. 0.50|D. 0.75",
+          "B",
+          "exp(−0.3466 × 4) ≈ exp(−1.3864) ≈ 0.25. k has inverse-time units."
+        ],
+        [
+          "Reporter A gives 300 positives among 1,500 eligible cells; reporter B gives 180 among 600. Which has higher positive fraction?",
+          "A. A|B. B|C. Equal|D. Cannot calculate",
+          "B",
+          "A = 20%, B = 30%. Raw positives alone would reverse the apparent comparison. The percentages apply only to the reporter-defined endpoints."
+        ],
+        [
+          "Select correct statements: I. NHEJ can be precise. II. HR can copy a donor variant. III. TLS always removes lesions. IV. γH2AX is a signaling marker.",
+          "A. I, II, IV|B. II, III|C. I, III|D. III, IV",
+          "A",
+          "I, II and IV are correct. TLS completes synthesis without necessarily removing the template lesion."
+        ],
+        [
+          "Select correct statements: I. RecA promotes LexA self-cleavage. II. SulA directly ligates DNA. III. Pol II has proofreading activity. IV. E. coli universally uses Ku–LigD.",
+          "A. I and III|B. I and IV|C. II and III|D. All",
+          "A",
+          "SulA regulates division, not ligation. Ku–LigD is found in certain bacteria but is not the standard E. coli repair system."
+        ],
+        [
+          "Match 1. Ku; 2. RPA; 3. LIG4; 4. Pol η to P. ssDNA binding; Q. DSB end recognition; R. joining; S. CPD bypass.",
+          "A. 1-Q, 2-P, 3-R, 4-S|B. 1-P, 2-Q, 3-S, 4-R|C. 1-R, 2-S, 3-Q, 4-P|D. 1-S, 2-R, 3-P, 4-Q",
+          "A",
+          "Ku binds duplex ends; RPA coats ssDNA; ligase IV catalyzes NHEJ sealing; Pol η bypasses suitable UV photoproducts."
+        ],
+        [
+          "Match 1. G1; 2. S/G2; 3. 3′-P nick; 4. LexA noncleavable to P. restricted SOS induction; Q. sister-donor availability; R. favors NHEJ for two-ended breaks; S. end processing required.",
+          "A. 1-R, 2-Q, 3-S, 4-P|B. 1-Q, 2-R, 3-P, 4-S|C. 1-P, 2-S, 3-Q, 4-R|D. 1-S, 2-P, 3-R, 4-Q",
+          "A",
+          "The matching follows template availability, terminal chemistry and repression logic, not an absolute restriction of NHEJ to G1."
+        ]
+      ]
+    ],
+    [
+      "Assertion–Reason",
+      [
+        [
+          "Assertion: Classical NHEJ can restore an original DNA sequence. Reason: Compatible ends may be sealed without nucleotide removal or addition.",
+          "A. Both true, reason explains assertion|B. Both true, reason does not explain|C. Assertion true, reason false|D. Assertion false, reason true",
+          "A",
+          "The reason establishes how direct rejoining can preserve every nucleotide. Mutagenicity depends on processing and alignment."
+        ],
+        [
+          "Assertion: TLS can improve completion of DNA synthesis without eliminating the original lesion. Reason: A specialized polymerase can use a lesion-containing template directly.",
+          "A. Both true, reason explains assertion|B. Both true, reason does not explain|C. Assertion true, reason false|D. Assertion false, reason true",
+          "A",
+          "The bypass polymerase solves the copying problem without chemically reversing or excising the original lesion."
+        ],
+        [
+          "Assertion: HR predominates exclusively in all S/G2 mammalian cells. Reason: Sister chromatids are available after replication.",
+          "A. Both true, reason explains assertion|B. Both true, reason does not explain|C. Assertion true, reason false|D. Assertion false, reason true",
+          "D",
+          "Sister availability favors HR but does not exclude NHEJ or guarantee predominance for every substrate."
+        ],
+        [
+          "Assertion: RecA deficiency can affect both recombinational recovery and SOS induction. Reason: RecA participates in homologous interactions and stimulates LexA self-cleavage.",
+          "A. Both true, reason explains assertion|B. Both true, reason does not explain|C. Assertion true, reason false|D. Assertion false, reason true",
+          "A",
+          "Two mechanistically distinct RecA functions can explain the combined phenotype."
+        ],
+        [
+          "Assertion: A decrease in the proportion of mutant survivors necessarily means improved DNA repair. Reason: Mutation fraction among survivors is conditioned on survival.",
+          "A. Both true, reason explains assertion|B. Both true, reason does not explain|C. Assertion true, reason false|D. Assertion false, reason true",
+          "D",
+          "Selection of survivors can change the measured fraction. Survival and mutation frequency must be measured separately."
+        ]
+      ]
+    ]
+  ],
+  "revision": {
+    "definitions": [
+      [
+        "Nick",
+        "One missing backbone linkage without a missing nucleotide."
+      ],
+      [
+        "Gap",
+        "One or more missing nucleotides in a strand."
+      ],
+      [
+        "DSB",
+        "Discontinuity in both strands of a duplex."
+      ],
+      [
+        "Resection",
+        "Processing that exposes ssDNA, commonly 3′ tails for HR."
+      ],
+      [
+        "NHEJ",
+        "End joining without an extended homologous donor."
+      ],
+      [
+        "HR",
+        "Template-guided restoration using homologous DNA."
+      ],
+      [
+        "TLS",
+        "Direct DNA synthesis across a lesion-containing template."
+      ],
+      [
+        "Template switching",
+        "Bypass using alternative undamaged sister-derived information."
+      ],
+      [
+        "SOS",
+        "Inducible bacterial damage-response regulon."
+      ],
+      [
+        "Mutant fraction",
+        "Detected mutant survivors divided by eligible survivors."
+      ]
+    ],
+    "traps": [
+      "Ligation cannot fill a missing nucleotide.",
+      "A 3′ phosphate is not a primer hydroxyl.",
+      "PARP1 and XRCC1 are not DNA ligases.",
+      "NHEJ is not always mutagenic.",
+      "HR need not restore the original allele.",
+      "NHEJ also acts in S/G2.",
+      "Microhomology is not unique evidence for an alternative pathway.",
+      "TLS does not necessarily remove damage.",
+      "Pol η can accurately bypass suitable CPDs.",
+      "LexA cleaves itself with stimulation by RecA.",
+      "Pol II has proofreading activity.",
+      "Fewer γH2AX foci do not prove exact repair.",
+      "Survival and mutant frequency have different denominators."
+    ],
+    "recall": [
+      "Predict the fate of a nick carrying 3′-P/5′-OH in the absence of PNKP.",
+      "Explain why a one-ended break is an unsuitable substrate for arbitrary end joining.",
+      "Trace the role of Ku, DNA-PKcs, Artemis and LIG4.",
+      "Explain why resection creates a primer-compatible 3′ tail.",
+      "Compare sister-chromatid repair with a donor carrying a different allele.",
+      "Distinguish direct lesion bypass, template switching and removal.",
+      "Predict SOS transcription in a LexA noncleavable mutant.",
+      "Design independent readouts for lesion removal, survival and mutation."
+    ],
+    "checklist": [
+      "Explain break geometry and end chemistry from an unlabeled diagram.",
+      "Predict effects of end-processing, ligation and HR defects.",
+      "Distinguish clean end joining from sequence-altering repair.",
+      "Explain the role of cell cycle without treating it as an absolute rule.",
+      "Classify tolerance by the template used.",
+      "Explain RecA–LexA regulation and distinguish it from RecA strand exchange.",
+      "Calculate survival, mutant fractions and model half-times.",
+      "Interpret reporter, sequencing and signaling data with appropriate controls."
+    ]
+  }
+}

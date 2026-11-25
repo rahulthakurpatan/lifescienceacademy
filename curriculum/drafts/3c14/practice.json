@@ -289,15 +289,15 @@
   },
   {
     "type": "Part C",
-    "q": "An E1 mutant forms ubiquitin–AMP but no E1 thioester. What most directly fails next?",
+    "q": "A purified E1 mutant makes normal ubiquitin–AMP but fails to yield an E1–ubiquitin thioester. E2 is wild type. Which initial result is most likely?",
     "options": [
-      "Lysosome fusion",
-      "E2 loading",
-      "Ribosome scanning",
-      "Cathepsin cleavage"
+      "Normal E2 charging but failure of E3 recognition",
+      "Reduced E2–ubiquitin thioester despite adenylation",
+      "Normal E2 charging but altered K48 chain topology only",
+      "Reduced formation of ubiquitin–AMP with normal E2 charging"
     ],
     "answer": 1,
-    "explanation": "E2 normally receives ubiquitin from the E1 thioester. The other functions are not the next chemical transfer."
+    "explanation": "The thioester on E1 is the ordinary donor for E2 loading. A defect only in E3 recognition or linkage specification occurs downstream and would not explain the failed intermediate. The measured adenylation contradicts the fourth option."
   },
   {
     "type": "Part C",
@@ -313,51 +313,51 @@
   },
   {
     "type": "Part C",
-    "q": "Two cells have equal synthesis of target X. X is stabilized and loses ubiquitin conjugates after mutation. Which initial hypothesis is best?",
+    "q": "In a mutant, target X has unchanged synthesis, a longer half-life and markedly reduced ubiquitin conjugates even after a brief core blockade. Which hypothesis is favored?",
     "options": [
-      "Faster core cleavage",
-      "Increased translation",
-      "Increased lysosome acidity",
-      "Impaired tagging"
+      "Increased proteasomal catalysis with unchanged tagging",
+      "Increased translation combined with normal clearance",
+      "A selective core blockade with normal tagging and unchanged DUB activity",
+      "Impaired net conjugation of X"
     ],
     "answer": 3,
-    "explanation": "Reduced modification with prolonged survival favors an upstream conjugation problem. Downstream proteasome inhibition often causes tagged intermediates to accumulate instead."
+    "explanation": "Low conjugation persists when consumption at the core is briefly blocked, favoring reduced tagging or excessive upstream removal. Increased core catalysis cannot explain the longer half-life; equal synthesis contradicts increased translation. A core block with normal tagging tends to preserve conjugates."
   },
   {
     "type": "Part C",
-    "q": "An inhibitor stabilizes a reporter and increases its ubiquitinated forms. Which interpretation is most consistent?",
+    "q": "A reporter accumulates after a perturbation, its mRNA and newly synthesized amount stay constant, and its covalent ubiquitin conjugates increase. Which interpretation is best supported?",
     "options": [
-      "A downstream clearance bottleneck",
-      "Complete absence of ubiquitin",
-      "Faster destruction of the conjugate",
-      "No protein exists"
+      "Removal of the conjugate is impaired relative to its formation",
+      "E1 activation is entirely abolished",
+      "Degradation of the conjugate has accelerated with unchanged formation",
+      "Protein synthesis alone has increased"
     ],
     "answer": 0,
-    "explanation": "Conjugates form but persist, consistent with a downstream block. Increased tagged material alone does not prove the exact affected component."
+    "explanation": "Conjugates persist while synthesis is unchanged, favoring a downstream bottleneck or reduced removal of the tag. Complete E1 failure would diminish new conjugates. Accelerated clearance at constant formation would generally lower intermediate abundance. The synthesis measurement excludes the last hypothesis under the stated conditions."
   },
   {
     "type": "Part C",
-    "q": "A purified core hydrolyzes a short peptide normally; intact ubiquitinated substrates accumulate in cells. Which test most directly addresses the missing function?",
+    "q": "Small peptide cleavage is normal in purified proteasome preparations, but intact ubiquitinated substrate turnover is impaired. Which experiment most directly distinguishes defective 19S handling from intact core catalysis?",
     "options": [
-      "Measure DNA melting",
-      "Assay full-length tagged substrate processing by regulated proteasomes",
-      "Measure total RNA only",
-      "Count lysosomes only"
+      "Compare only rates for two small fluorogenic peptides",
+      "Compare processing of intact tagged substrate with short peptide cleavage, using matched preparations",
+      "Measure global ubiquitin abundance without a substrate assay",
+      "Measure synthesis of the substrate after a transcription block"
     ],
     "answer": 1,
-    "explanation": "The full-substrate assay includes recognition, unfolding and translocation, unlike the small peptide assay. Other measures do not directly test these functions."
+    "explanation": "Full-length processing requires recognition, unfolding and translocation as well as cleavage; the comparison isolates the extra requirements. Two short peptide assays mostly test core catalysis, global ubiquitin abundance cannot localize the failure, and transcription blockade does not assess motor function."
   },
   {
     "type": "Part C",
-    "q": "A reporter loses 50% soluble signal but total recovered intact protein is unchanged. Which conclusion is justified?",
+    "q": "A soluble reporter loses 50% of its signal after heat stress. When soluble and insoluble fractions are combined, total intact reporter is unchanged. Which conclusion is most justified?",
     "options": [
-      "Exactly half is degraded",
-      "E3 absent",
-      "Redistribution into another fraction is plausible",
-      "All protein synthesis stopped"
+      "A twofold increase in degradation is established",
+      "The reporter's transcription must have declined",
+      "Redistribution into an insoluble pool is consistent with the measurements",
+      "Proteasome-dependent turnover is abolished"
     ],
     "answer": 2,
-    "explanation": "Loss from one fraction does not establish loss of the molecule. Total recovery contradicts the claim of 50% destruction under the stated assumptions."
+    "explanation": "Total intact recovery makes disappearance from the soluble pool insufficient evidence of degradation. Redistribution is consistent but requires confirmation by fraction controls. A transcription change or absolute abolition of turnover cannot be inferred from these measurements."
   },
   {
     "type": "Part C",
@@ -373,15 +373,15 @@
   },
   {
     "type": "Part C",
-    "q": "A receptor internalizes normally but remains abundant and reappears at the cell surface. What defect is suggested?",
+    "q": "A receptor has a normal early internalization rate, but total intact receptor remains high and a larger fraction of surface label returns later. Which process is most likely shifted?",
     "options": [
-      "Degradative sorting rather than uptake",
-      "Initial translation failure",
-      "Excessive proteasomal cleavage of receptor",
-      "Loss of every endosome"
+      "Sorting toward recycling rather than degradative endosomes",
+      "Initial internalization from the plasma membrane is reduced",
+      "Lysosomal cleavage is accelerated after normal sorting",
+      "Receptor synthesis alone increases the original labeled cohort"
     ],
     "answer": 0,
-    "explanation": "Uptake remains functional and recycling occurs. Inefficient routing to degradation is more consistent than the other explanations."
+    "explanation": "The marked cohort enters normally and resurfaces, supporting a change in sorting toward recycling. A primary uptake defect conflicts with the early measurement; accelerated lysosomal cleavage conflicts with intact label retention. New synthesis does not generate the original surface label."
   },
   {
     "type": "Part C",
@@ -397,39 +397,39 @@
   },
   {
     "type": "Part C",
-    "q": "An ER luminal substrate binds recognition machinery, but remains associated with ER after a p97 perturbation. Which step is implicated?",
+    "q": "A misfolded ER luminal substrate is recognized and ubiquitinated, but remains associated with ER membranes after p97 inhibition; 20S peptide activity is unaffected. Which defect is most plausible?",
     "options": [
-      "Transcription initiation",
-      "Protein synthesis on ribosomes",
-      "Extraction toward cytosol",
-      "Lysosomal export of amino acids"
+      "Recognition of the substrate before conjugation",
+      "A direct loss of 20S catalytic activity",
+      "Extraction or late retrotranslocation toward the cytosol",
+      "Synthesis of the substrate is reduced"
     ],
     "answer": 2,
-    "explanation": "p97 participates in extraction of many ERAD substrates. The observation is compatible with an extraction bottleneck and does not identify a transcription defect."
+    "explanation": "Recognition and conjugation are demonstrated, and the core peptide assay is normal. The accumulation of ER-associated intermediates implicates extraction. Reduced synthesis would not by itself explain this retained pool."
   },
   {
     "type": "Part C",
-    "q": "A kinase-dependent degron loses its phosphorylation site. Protein synthesis is unchanged. Which outcome fits a phosphorylation-dependent ligase model?",
+    "q": "A kinase-dependent degron is mutated without changing the target's folding or synthesis. Phosphorylation-dependent E3 binding is lost, but core proteasome activity is normal. What follows?",
     "options": [
-      "The protein must be translated faster",
-      "All cell proteins are destroyed",
-      "The proteasome becomes a kinase",
-      "Target recognition declines and lifetime may increase"
+      "The mutant must have a shorter half-life because it lacks phosphate",
+      "Global E1 activation must decline",
+      "Ubiquitin-chain linkage must switch from K48 to K63",
+      "The target may be stabilized through reduced recognition"
     ],
     "answer": 3,
-    "explanation": "The site mutation can prevent E3 recognition without changing synthesis or the global proteasome. The predicted effect depends on alternative recognition pathways."
+    "explanation": "The primary measured defect is substrate recognition. Reduced recognition can lower turnover if no alternative ligase compensates. A global activation failure or compulsory linkage switch is not implied, and shorter half-life is contrary to the model."
   },
   {
     "type": "Part C",
-    "q": "A mutant securin cannot be ubiquitinated efficiently but still inhibits separase. What is expected when APC/C activates?",
+    "q": "A securin mutant resists APC/C-dependent ubiquitination but retains separase binding. APC/C is activated normally. What is the predicted direct effect?",
     "options": [
-      "Delayed separase activation",
-      "Immediate degradation of all cohesin",
-      "No requirement for separase",
-      "Increased translation of every cyclin"
+      "Securin persists and separase activation may be delayed",
+      "Separase becomes active earlier because APC/C remains intact",
+      "Securin disappears normally because ubiquitination is dispensable by definition",
+      "Cohesin cleavage is accelerated by securin persistence"
     ],
     "answer": 0,
-    "explanation": "Persisting securin can restrain separase despite ligase activation. The other outcomes do not follow from stabilizing the inhibitor."
+    "explanation": "The mutant maintains its inhibitory interaction, so activation of the ligase does not guarantee release of separase. The other choices ignore the stated loss of recognition or reverse the sign of securin's action."
   },
   {
     "type": "Part C",
@@ -445,39 +445,39 @@
   },
   {
     "type": "Part C",
-    "q": "Equal tagged reporters show different degradation after one is made mechanically more stable, without altered E3 binding. What is the informative next comparison?",
+    "q": "Two reporters carry identical ubiquitin chains and bind the 19S cap equally. Reporter B is more mechanically stable and is processed slowly. Which comparison best evaluates the leading hypothesis?",
     "options": [
-      "mRNA sequence only",
-      "Lysosomal diameter",
-      "Unfolding/translocation of intact reporters",
-      "Total cell DNA"
+      "Compare E3 recruitment only",
+      "Compare total substrate ubiquitination at one endpoint only",
+      "Compare unfolding/translocation of intact reporters in matched regulated proteasomes",
+      "Compare lysosomal pH in cells expressing each reporter"
     ],
     "answer": 2,
-    "explanation": "The hypothesis is a difference in motor processing rather than tagging. Measuring intact substrate processing directly addresses it."
+    "explanation": "The tag and cap binding are already matched. The intact-protein assay tests the subsequent mechanical step. E3 recruitment and endpoint conjugation do not isolate motor processing; lysosomal pH is not the proposed mechanism."
   },
   {
     "type": "Part C",
-    "q": "Auxin promotes destruction of an inhibitor of transcription. Under that simple regulatory model, transcriptional response should do what?",
+    "q": "Auxin promotes turnover of an Aux/IAA repressor, but a mutant repressor binds its transcriptional partner normally and lacks efficient ligase recognition. Which result is predicted in the simplified model?",
     "options": [
-      "Always stop",
-      "Never change",
-      "Become independent of all regulators",
-      "Increase if inhibitor removal is rate limiting"
+      "Auxin response strengthens because the repressor remains abundant",
+      "The repressor is necessarily degraded faster despite poor recognition",
+      "Auxin directly cleaves the repressor without the ligase",
+      "Auxin-dependent transcriptional induction may be attenuated"
     ],
     "answer": 3,
-    "explanation": "Degradation of a repressor releases inhibition; the result is conditional on the rest of the pathway. Destroying a protein is not universally a negative functional output."
+    "explanation": "A stable repressor can retain its inhibitory function despite hormone input, attenuating the response. Persistent repression does not strengthen induction. Neither accelerated turnover nor direct hormone-mediated cleavage follows from the observations."
   },
   {
     "type": "Part C",
-    "q": "A rescue experiment restores turnover only with catalytically active E3. What is justified?",
+    "q": "A ligase knockout stabilizes X. Wild-type ligase re-expression restores turnover, but a catalytically inactive mutant expressed at similar levels does not. Which inference is warranted?",
     "options": [
-      "Ligase activity is implicated, but direct binding still needs evidence",
-      "Direct interaction is proven for every substrate",
-      "Proteasome is unnecessary",
-      "The target cannot be ubiquitinated"
+      "Ligase activity is required in the tested pathway; direct substrate recognition still needs evidence",
+      "X necessarily binds the ligase directly",
+      "The ligase must itself cleave X's backbone",
+      "The ligase acts independently of ubiquitin"
     ],
     "answer": 0,
-    "explanation": "Catalytic activity dependence supports the pathway but may be indirect. Reconstitution or binding evidence is needed for a stronger direct-substrate claim."
+    "explanation": "The rescue establishes dependence on catalytic activity under the tested conditions. An indirect substrate could give the same result, so direct interaction and defined-component transfer require separate evidence. The data do not turn the E3 into a protease or establish a ubiquitin-independent pathway."
   },
   {
     "type": "Assertion–Reason",

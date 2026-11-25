@@ -2,93 +2,293 @@
   "schema_version": 1,
   "updated_at": "2026-11-25",
   "unit": "03",
-  "status": "published_on_main_pages_verification_pending",
+  "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "3.A.10",
-  "title": "DNA Repair II: Strand Break Repair and DNA Damage Tolerance",
+  "node_id": "3.A.03",
+  "title": "Replication Fork Architecture and Core Replication Enzymes",
   "subunit": "3.A",
-  "topic": "DNA Repair II: Strand Break Repair and DNA Damage Tolerance",
-  "slug": "dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
+  "topic": "DNA Replication, Repair and Recombination",
+  "slug": "replication-fork-architecture-and-core-replication-enzymes.html",
   "next_pending_node_id": "1.A.03",
   "next_pending_node_title": "Biological Solutions, pH and Buffer Systems",
-  "published_node_count": 86,
+  "published_node_count": 87,
   "publication_allowed": true,
-  "main_baseline_sha": "27b02f623881917cee8f01935ded7de50ee34c5b",
+  "main_baseline_sha": "73823bb66f1ec8fc71b141343b1bdd2b9d0df7c0",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages deployment for 3.A.08; preserve global pending pointer 1.A.03; next Unit 3.A pending node 3.A.03.",
+  "next_required_action": "Verify GitHub Pages deployment of 3.A.03; preserve global pending pointer; next Unit 3.A node is 3.A.05.",
   "planned_node_count": 30,
   "planned_subunit_count": 6,
   "architecture_version": "unit-01-compact-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-1a-chemical-biophysical-foundations-node-map.md",
   "last_qa": {
-    "node_id": "3.A.10",
-    "title": "DNA Repair II: Strand Break Repair and DNA Damage Tolerance",
-    "status": "published_on_main_pages_verification_pending",
-    "date": "2026-11-25",
-    "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
-    "publication_base_sha": "27b02f623881917cee8f01935ded7de50ee34c5b",
-    "draft_commit_sha": "261631edf50ddf0ad8e42d633dfc02286dd785fd",
-    "slug": "dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
-    "teaching_words": 14680,
-    "student_facing_article_words": 19159,
-    "teaching_paragraphs": 154,
-    "unique_teaching_paragraphs": 154,
-    "theory_sections": 21,
-    "total_sections": 28,
-    "svg_diagrams": 13,
-    "tables": 3,
-    "questions": {
-      "total": 55,
+    "node_id": "3.A.03",
+    "title": "Replication Fork Architecture and Core Replication Enzymes",
+    "slug": "replication-fork-architecture-and-core-replication-enzymes.html",
+    "narrative_words": 14689,
+    "visible_article_words": 18505,
+    "html_characters": 213049,
+    "html_bytes": 213727,
+    "sections": 21,
+    "theory_sections": 16,
+    "teaching_paragraphs": 137,
+    "figures": 14,
+    "tables": 4,
+    "questions": 56,
+    "distribution": {
       "part_b": 20,
-      "part_c": 20,
-      "numerical": 6,
+      "part_c": 26,
+      "assertion_reason": 5,
       "multiple_statement": 2,
       "matching": 2,
-      "assertion_reason": 5
+      "integrative": 1
     },
-    "references": 24,
-    "html_bytes": 220591,
-    "quantitative_checks": 22,
+    "references": 20,
+    "method": "Whitespace-delimited actual HTML teaching-prose paragraphs, inline HTML removed; excludes headings, tables, diagrams and captions, practice, answers, revision, references, UI. Total article includes headings, captions, tables, practice, revealed answers and references; excludes SVG contents, diagram buttons and inline source lists.",
+    "comparator": "3.A.01 QA 14,757 teaching words; 2.E.08 QA 14,663. This chapter has 16 theory sections, 137 paragraphs and no identical paragraphs. Scope, explanation and evidence reviewed separately.",
+    "scientific_checks": "Official merged NET Unit 3.A page 4, separate NET page 2 and archived MP SET page 2 visually checked. Reviewed primer chemistry, polymerase direction, Kornberg evidence, helicase tracking polarity, SSB/RPA, primase, processivity, ATP-dependent clamp loading, Okazaki evidence, primer processing, nick/gap/flap, ligase adenylation, topology and type IA/IB/II distinctions, gyrase and replisome dynamics, experimental controls, model limitations and all 56 answers. Recalculated 33 numerical values. Sources checked through available textbook excerpts and publication abstracts; no full-text verification of every source. Hypothetical data and original questions labeled.",
+    "arithmetic_checks": [
+      {
+        "test": "binding WT",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "test": "binding high",
+        "actual": 0.9,
+        "expected": 0.9,
+        "pass": true
+      },
+      {
+        "test": "binding mutant",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "test": "primer spacing",
+        "actual": 1500,
+        "expected": 1500,
+        "pass": true
+      },
+      {
+        "test": "shorter interval",
+        "actual": 1000,
+        "expected": 1000,
+        "pass": true
+      },
+      {
+        "test": "A rate",
+        "actual": 33.333333333333336,
+        "expected": 33.333333333333336,
+        "pass": true
+      },
+      {
+        "test": "B rate",
+        "actual": 47.61904761904762,
+        "expected": 47.61904761904762,
+        "pass": true
+      },
+      {
+        "test": "processivity A",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "test": "processivity B",
+        "actual": 5000,
+        "expected": 5000,
+        "pass": true
+      },
+      {
+        "test": "ligase",
+        "actual": 0.87,
+        "expected": 0.87,
+        "pass": true
+      },
+      {
+        "test": "Lk0",
+        "actual": 400,
+        "expected": 400,
+        "pass": true
+      },
+      {
+        "test": "sigma",
+        "actual": -0.06,
+        "expected": -0.06,
+        "pass": true
+      },
+      {
+        "test": "sigma after",
+        "actual": -0.02,
+        "expected": -0.02,
+        "pass": true
+      },
+      {
+        "test": "unwinding",
+        "actual": 100,
+        "expected": 100,
+        "pass": true
+      },
+      {
+        "test": "type II cycles",
+        "actual": 10,
+        "expected": 10,
+        "pass": true
+      },
+      {
+        "test": "lag backlog",
+        "actual": 500,
+        "expected": 500,
+        "pass": true
+      },
+      {
+        "test": "fork time",
+        "actual": 50,
+        "expected": 50,
+        "pass": true
+      },
+      {
+        "test": "new residues",
+        "actual": 9600000,
+        "expected": 9600000,
+        "pass": true
+      },
+      {
+        "test": "fragment starts",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "test": "short fragments",
+        "actual": 200,
+        "expected": 200,
+        "pass": true
+      },
+      {
+        "test": "C5 time",
+        "actual": 50,
+        "expected": 50,
+        "pass": true
+      },
+      {
+        "test": "C5 residues",
+        "actual": 8400000,
+        "expected": 8400000,
+        "pass": true
+      },
+      {
+        "test": "C6 spacing",
+        "actual": 1080,
+        "expected": 1080,
+        "pass": true
+      },
+      {
+        "test": "C7 rate",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "test": "C8 fold",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "test": "C12 WT",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "test": "C12 mutant",
+        "actual": 0.5,
+        "expected": 0.5,
+        "pass": true
+      },
+      {
+        "test": "C17 sigma",
+        "actual": -0.05,
+        "expected": -0.05,
+        "pass": true
+      },
+      {
+        "test": "C18 cycles",
+        "actual": 15,
+        "expected": 15,
+        "pass": true
+      },
+      {
+        "test": "C19 winding",
+        "actual": 200,
+        "expected": 200,
+        "pass": true
+      },
+      {
+        "test": "C20 backlog",
+        "actual": 480,
+        "expected": 480,
+        "pass": true
+      },
+      {
+        "test": "C21 nicks",
+        "actual": 35,
+        "expected": 35,
+        "pass": true
+      },
+      {
+        "test": "C22 starts",
+        "actual": 200,
+        "expected": 200,
+        "pass": true
+      }
+    ],
+    "technical_checks": {
+      "wordGate": true,
+      "uniqueIds": true,
+      "anchors": true,
+      "ariaLabels": true,
+      "svgZoom": true,
+      "readerControls": true,
+      "canonical": true,
+      "menu": true,
+      "sitemap": true,
+      "questions": true,
+      "sections": true,
+      "noDuplicateParagraphs": true,
+      "arithmetic": true,
+      "noStaleContent": true,
+      "tables": true,
+      "neighborNavigation": true,
+      "scriptSyntax": true,
+      "previousReciprocal": true,
+      "nextReciprocal": true
+    },
     "academic_self_review": {
       "scope": 20,
-      "accuracy": 19,
-      "depth": 19,
+      "scientific_accuracy": 19,
+      "teaching_depth": 19,
       "evidence": 14,
-      "quantitative": 10,
+      "quantitative_reasoning": 10,
       "practice": 9,
       "illustrations": 4,
       "total": 95,
-      "maximum": 100
+      "maximum": 100,
+      "method": "Internal author self-review, not independent external approval. Deductions for partial source access, untested rendered diagrams and concise distractor explanations."
     },
-    "checks": {
-      "word_count": true,
-      "unique_ids": true,
-      "section_anchors": true,
-      "svg_count": true,
-      "arithmetic": true,
-      "prerequisite_links": [
-        "nucleotide-chemistry-and-dna-conformation.html",
-        "cell-cycle-checkpoints-and-control-mechanisms.html",
-        "replication-fidelity-polymerase-proofreading-and-mismatch-repair.html"
-      ],
-      "menu": true,
-      "sitemap": true,
-      "source_level_reader_review": true
-    },
-    "limitations": [
-      "Self-review rather than independent external peer review.",
-      "Not every cited full paper was inspected; bibliographic and accessible evidence checked.",
-      "No interactive mobile/browser or visual SVG rendering test performed.",
-      "MP SET alignment uses an archived 2024 syllabus copy.",
-      "Pages deployment not yet verified at commit time.",
-      "Adjacent links resolve from the published menu and remain disabled until the corresponding chapter is available."
-    ]
+    "limitations": "Static HTML/JS/SVG source and coordinate checks, not full interactive browser/device or external accessibility audit. Archived MP SET 2024 is not verified as current original MPPSC-hosted syllabus. Pages verification separate and pending at commit.",
+    "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+    "main_baseline_sha": "73823bb66f1ec8fc71b141343b1bdd2b9d0df7c0",
+    "source_draft_branch": "develop-3a03-replication-fork-20261125",
+    "status": "lesson_committed_pages_verification_pending"
   },
   "published_node_ids": [
     "1.A.01",
@@ -176,7 +376,8 @@
     "3.A.06",
     "3.A.02",
     "3.A.08",
-    "3.A.10"
+    "3.A.10",
+    "3.A.03"
   ],
   "prior_publication_qa": {
     "node_id": "2.B.03",
@@ -212,67 +413,69 @@
     "main_baseline_sha": "a5876ac9a66255f1837aa44b58fbe2aa73b55f83"
   },
   "previous_last_qa": {
-    "node_id": "3.A.08",
-    "title": "DNA Damage: Sources, Lesions and Consequences",
-    "slug": "dna-damage-sources-lesions-and-consequences.html",
-    "narrative_words": 14551,
-    "visible_article_words": 19021,
-    "html_characters": 239272,
-    "html_bytes": 239831,
-    "sections": 20,
-    "theory_sections": 16,
-    "teaching_paragraphs": 139,
-    "figures": 14,
-    "tables": 1,
-    "questions": 55,
-    "distribution": {
-      "part_b": 25,
-      "part_c": 30,
-      "conceptual_mcq": 20,
-      "assertion_reason": 5,
-      "part_c_quantitative": 9,
-      "part_c_matching": 1,
-      "part_c_multiple_statement": 1
+    "node_id": "3.A.10",
+    "title": "DNA Repair II: Strand Break Repair and DNA Damage Tolerance",
+    "status": "published_on_main_pages_verification_pending",
+    "date": "2026-11-25",
+    "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+    "publication_base_sha": "27b02f623881917cee8f01935ded7de50ee34c5b",
+    "draft_commit_sha": "261631edf50ddf0ad8e42d633dfc02286dd785fd",
+    "slug": "dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
+    "teaching_words": 14680,
+    "student_facing_article_words": 19159,
+    "teaching_paragraphs": 154,
+    "unique_teaching_paragraphs": 154,
+    "theory_sections": 21,
+    "total_sections": 28,
+    "svg_diagrams": 13,
+    "tables": 3,
+    "questions": {
+      "total": 55,
+      "part_b": 20,
+      "part_c": 20,
+      "numerical": 6,
+      "multiple_statement": 2,
+      "matching": 2,
+      "assertion_reason": 5
     },
-    "worked_numerical_example_groups": 9,
-    "references": 14,
-    "method": "Whitespace-delimited saved HTML teaching paragraphs; excludes headings, figures, captions, tables, practice, answers, revision, source notes, references and UI. Total article includes supplementary text and collapsed answers; excludes SVG, source-note markers and zoom controls.",
-    "comparator": "3.A.01 reported 14,757 teaching words; 3.A.04 reported 14,526. 3.A.08 has 14,551 teaching words and 139 distinct paragraphs; covers approved scope without duplicating repair pathways.",
-    "scientific_checks": "Verified merged NET page 4, separate NET page 2, archived MP SET page 2. Reviewed glycosidic vs backbone cleavage, C and 5mC deamination, hypoxanthine, U:A incorporation, 8-oxoG pairing and MutT, Fenton balance, O6/N7/N3 methylation, CPD and 6–4 linkage, UVA caveat, direct and indirect ionizing radiation, clustered damage, SSB/DSB and circular topology, interstrand and DNA–protein crosslinks, fork arrest vs collapse, transcriptional mutagenesis, ATM/ATR, comet and γH2AX limitations. Second self-review corrected MCQ answer distribution, C14 wording, fork and plasmid diagrams, added specific experimental evidence. Original questions and figures; hypothetical data identified.",
-    "arithmetic_checks": "Checked Np=6, GC-specific 4 and 2, Poisson e^-0.5=0.60653, e^-2=0.13534, e^-0.8=0.44933, 50e^-2=6.76676, steady-state 200 and 400, k=ln4/4=0.346574 h^-1, excess half-lives 2 and 1 h, fixation 1 and 2, photon energies 4.7692 and 3.3973 eV, ratios 1.40385 and 1.33333, doses 2 and 3 Gy, C10 final 25; conceptual answer key 5 each A–D.",
-    "technical_checks": {
-      "wordGate": true,
-      "uniqueIds": true,
-      "anchors": true,
-      "aria": true,
-      "noDuplicateParagraphs": true,
-      "localLinks": true,
-      "canonical": true,
-      "menu": true,
-      "sitemap": true,
-      "questions": true,
-      "figures": true,
-      "readerControls": true,
-      "prevCorrect": true,
-      "nextCorrect": true,
-      "referenceAnchors": true
-    },
+    "references": 24,
+    "html_bytes": 220591,
+    "quantitative_checks": 22,
     "academic_self_review": {
       "scope": 20,
-      "scientific_accuracy": 19,
-      "teaching_depth": 20,
-      "evidence": 13,
-      "quantitative_reasoning": 10,
+      "accuracy": 19,
+      "depth": 19,
+      "evidence": 14,
+      "quantitative": 10,
       "practice": 9,
       "illustrations": 4,
       "total": 95,
-      "maximum": 100,
-      "method": "Internal editorial rubric, not external peer review. Deductions for full-paper access, browser rendering limits and room for expanded distractor discussion."
+      "maximum": 100
     },
-    "limitations": "MP SET 2024 archived copy, not verified current original MPPSC-hosted syllabus. Available source text/abstracts checked, not every full paper. Static source, SVG geometry, links and arithmetic; interactive browser/mobile and accessibility rendering not independently tested. Pages verification pending at commit.",
-    "main_baseline_sha": "d994b2489c5d86de49c569a854c7b28a94531559",
-    "source_draft_branch": "draft-3a08-dna-damage-20261125",
-    "status": "lesson_committed_pages_verification_pending"
+    "checks": {
+      "word_count": true,
+      "unique_ids": true,
+      "section_anchors": true,
+      "svg_count": true,
+      "arithmetic": true,
+      "prerequisite_links": [
+        "nucleotide-chemistry-and-dna-conformation.html",
+        "cell-cycle-checkpoints-and-control-mechanisms.html",
+        "replication-fidelity-polymerase-proofreading-and-mismatch-repair.html"
+      ],
+      "menu": true,
+      "sitemap": true,
+      "source_level_reader_review": true
+    },
+    "limitations": [
+      "Self-review rather than independent external peer review.",
+      "Not every cited full paper was inspected; bibliographic and accessible evidence checked.",
+      "No interactive mobile/browser or visual SVG rendering test performed.",
+      "MP SET alignment uses an archived 2024 syllabus copy.",
+      "Pages deployment not yet verified at commit time.",
+      "Adjacent links resolve from the published menu and remain disabled until the corresponding chapter is available."
+    ]
   },
   "unit_02": {
     "published_node_ids": [
@@ -1869,76 +2072,277 @@
       "3.A.06",
       "3.A.07",
       "3.A.08",
-      "3.A.10"
+      "3.A.10",
+      "3.A.03"
     ],
-    "published_node_count": 7,
-    "last_published_node_id": "3.A.10",
+    "published_node_count": 8,
+    "last_published_node_id": "3.A.03",
     "updated_at": "2026-11-25",
-    "status": "published_on_main_pages_verification_pending",
+    "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "3.A.10",
-      "title": "DNA Repair II: Strand Break Repair and DNA Damage Tolerance",
-      "status": "published_on_main_pages_verification_pending",
-      "date": "2026-11-25",
-      "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
-      "publication_base_sha": "27b02f623881917cee8f01935ded7de50ee34c5b",
-      "draft_commit_sha": "261631edf50ddf0ad8e42d633dfc02286dd785fd",
-      "slug": "dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
-      "teaching_words": 14680,
-      "student_facing_article_words": 19159,
-      "teaching_paragraphs": 154,
-      "unique_teaching_paragraphs": 154,
-      "theory_sections": 21,
-      "total_sections": 28,
-      "svg_diagrams": 13,
-      "tables": 3,
-      "questions": {
-        "total": 55,
+      "node_id": "3.A.03",
+      "title": "Replication Fork Architecture and Core Replication Enzymes",
+      "slug": "replication-fork-architecture-and-core-replication-enzymes.html",
+      "narrative_words": 14689,
+      "visible_article_words": 18505,
+      "html_characters": 213049,
+      "html_bytes": 213727,
+      "sections": 21,
+      "theory_sections": 16,
+      "teaching_paragraphs": 137,
+      "figures": 14,
+      "tables": 4,
+      "questions": 56,
+      "distribution": {
         "part_b": 20,
-        "part_c": 20,
-        "numerical": 6,
+        "part_c": 26,
+        "assertion_reason": 5,
         "multiple_statement": 2,
         "matching": 2,
-        "assertion_reason": 5
+        "integrative": 1
       },
-      "references": 24,
-      "html_bytes": 220591,
-      "quantitative_checks": 22,
+      "references": 20,
+      "method": "Whitespace-delimited actual HTML teaching-prose paragraphs, inline HTML removed; excludes headings, tables, diagrams and captions, practice, answers, revision, references, UI. Total article includes headings, captions, tables, practice, revealed answers and references; excludes SVG contents, diagram buttons and inline source lists.",
+      "comparator": "3.A.01 QA 14,757 teaching words; 2.E.08 QA 14,663. This chapter has 16 theory sections, 137 paragraphs and no identical paragraphs. Scope, explanation and evidence reviewed separately.",
+      "scientific_checks": "Official merged NET Unit 3.A page 4, separate NET page 2 and archived MP SET page 2 visually checked. Reviewed primer chemistry, polymerase direction, Kornberg evidence, helicase tracking polarity, SSB/RPA, primase, processivity, ATP-dependent clamp loading, Okazaki evidence, primer processing, nick/gap/flap, ligase adenylation, topology and type IA/IB/II distinctions, gyrase and replisome dynamics, experimental controls, model limitations and all 56 answers. Recalculated 33 numerical values. Sources checked through available textbook excerpts and publication abstracts; no full-text verification of every source. Hypothetical data and original questions labeled.",
+      "arithmetic_checks": [
+        {
+          "test": "binding WT",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "test": "binding high",
+          "actual": 0.9,
+          "expected": 0.9,
+          "pass": true
+        },
+        {
+          "test": "binding mutant",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "test": "primer spacing",
+          "actual": 1500,
+          "expected": 1500,
+          "pass": true
+        },
+        {
+          "test": "shorter interval",
+          "actual": 1000,
+          "expected": 1000,
+          "pass": true
+        },
+        {
+          "test": "A rate",
+          "actual": 33.333333333333336,
+          "expected": 33.333333333333336,
+          "pass": true
+        },
+        {
+          "test": "B rate",
+          "actual": 47.61904761904762,
+          "expected": 47.61904761904762,
+          "pass": true
+        },
+        {
+          "test": "processivity A",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "test": "processivity B",
+          "actual": 5000,
+          "expected": 5000,
+          "pass": true
+        },
+        {
+          "test": "ligase",
+          "actual": 0.87,
+          "expected": 0.87,
+          "pass": true
+        },
+        {
+          "test": "Lk0",
+          "actual": 400,
+          "expected": 400,
+          "pass": true
+        },
+        {
+          "test": "sigma",
+          "actual": -0.06,
+          "expected": -0.06,
+          "pass": true
+        },
+        {
+          "test": "sigma after",
+          "actual": -0.02,
+          "expected": -0.02,
+          "pass": true
+        },
+        {
+          "test": "unwinding",
+          "actual": 100,
+          "expected": 100,
+          "pass": true
+        },
+        {
+          "test": "type II cycles",
+          "actual": 10,
+          "expected": 10,
+          "pass": true
+        },
+        {
+          "test": "lag backlog",
+          "actual": 500,
+          "expected": 500,
+          "pass": true
+        },
+        {
+          "test": "fork time",
+          "actual": 50,
+          "expected": 50,
+          "pass": true
+        },
+        {
+          "test": "new residues",
+          "actual": 9600000,
+          "expected": 9600000,
+          "pass": true
+        },
+        {
+          "test": "fragment starts",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "test": "short fragments",
+          "actual": 200,
+          "expected": 200,
+          "pass": true
+        },
+        {
+          "test": "C5 time",
+          "actual": 50,
+          "expected": 50,
+          "pass": true
+        },
+        {
+          "test": "C5 residues",
+          "actual": 8400000,
+          "expected": 8400000,
+          "pass": true
+        },
+        {
+          "test": "C6 spacing",
+          "actual": 1080,
+          "expected": 1080,
+          "pass": true
+        },
+        {
+          "test": "C7 rate",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "test": "C8 fold",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "test": "C12 WT",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "test": "C12 mutant",
+          "actual": 0.5,
+          "expected": 0.5,
+          "pass": true
+        },
+        {
+          "test": "C17 sigma",
+          "actual": -0.05,
+          "expected": -0.05,
+          "pass": true
+        },
+        {
+          "test": "C18 cycles",
+          "actual": 15,
+          "expected": 15,
+          "pass": true
+        },
+        {
+          "test": "C19 winding",
+          "actual": 200,
+          "expected": 200,
+          "pass": true
+        },
+        {
+          "test": "C20 backlog",
+          "actual": 480,
+          "expected": 480,
+          "pass": true
+        },
+        {
+          "test": "C21 nicks",
+          "actual": 35,
+          "expected": 35,
+          "pass": true
+        },
+        {
+          "test": "C22 starts",
+          "actual": 200,
+          "expected": 200,
+          "pass": true
+        }
+      ],
+      "technical_checks": {
+        "wordGate": true,
+        "uniqueIds": true,
+        "anchors": true,
+        "ariaLabels": true,
+        "svgZoom": true,
+        "readerControls": true,
+        "canonical": true,
+        "menu": true,
+        "sitemap": true,
+        "questions": true,
+        "sections": true,
+        "noDuplicateParagraphs": true,
+        "arithmetic": true,
+        "noStaleContent": true,
+        "tables": true,
+        "neighborNavigation": true,
+        "scriptSyntax": true,
+        "previousReciprocal": true,
+        "nextReciprocal": true
+      },
       "academic_self_review": {
         "scope": 20,
-        "accuracy": 19,
-        "depth": 19,
+        "scientific_accuracy": 19,
+        "teaching_depth": 19,
         "evidence": 14,
-        "quantitative": 10,
+        "quantitative_reasoning": 10,
         "practice": 9,
         "illustrations": 4,
         "total": 95,
-        "maximum": 100
+        "maximum": 100,
+        "method": "Internal author self-review, not independent external approval. Deductions for partial source access, untested rendered diagrams and concise distractor explanations."
       },
-      "checks": {
-        "word_count": true,
-        "unique_ids": true,
-        "section_anchors": true,
-        "svg_count": true,
-        "arithmetic": true,
-        "prerequisite_links": [
-          "nucleotide-chemistry-and-dna-conformation.html",
-          "cell-cycle-checkpoints-and-control-mechanisms.html",
-          "replication-fidelity-polymerase-proofreading-and-mismatch-repair.html"
-        ],
-        "menu": true,
-        "sitemap": true,
-        "source_level_reader_review": true
-      },
-      "limitations": [
-        "Self-review rather than independent external peer review.",
-        "Not every cited full paper was inspected; bibliographic and accessible evidence checked.",
-        "No interactive mobile/browser or visual SVG rendering test performed.",
-        "MP SET alignment uses an archived 2024 syllabus copy.",
-        "Pages deployment not yet verified at commit time.",
-        "Adjacent links resolve from the published menu and remain disabled until the corresponding chapter is available."
-      ]
+      "limitations": "Static HTML/JS/SVG source and coordinate checks, not full interactive browser/device or external accessibility audit. Archived MP SET 2024 is not verified as current original MPPSC-hosted syllabus. Pages verification separate and pending at commit.",
+      "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+      "main_baseline_sha": "73823bb66f1ec8fc71b141343b1bdd2b9d0df7c0",
+      "source_draft_branch": "develop-3a03-replication-fork-20261125",
+      "status": "lesson_committed_pages_verification_pending"
     },
     "qa_by_node": {
       "3.A.01": {
@@ -2603,65 +3007,339 @@
           "Pages deployment not yet verified at commit time.",
           "Adjacent links resolve from the published menu and remain disabled until the corresponding chapter is available."
         ]
+      },
+      "3.A.03": {
+        "node_id": "3.A.03",
+        "title": "Replication Fork Architecture and Core Replication Enzymes",
+        "slug": "replication-fork-architecture-and-core-replication-enzymes.html",
+        "narrative_words": 14689,
+        "visible_article_words": 18505,
+        "html_characters": 213049,
+        "html_bytes": 213727,
+        "sections": 21,
+        "theory_sections": 16,
+        "teaching_paragraphs": 137,
+        "figures": 14,
+        "tables": 4,
+        "questions": 56,
+        "distribution": {
+          "part_b": 20,
+          "part_c": 26,
+          "assertion_reason": 5,
+          "multiple_statement": 2,
+          "matching": 2,
+          "integrative": 1
+        },
+        "references": 20,
+        "method": "Whitespace-delimited actual HTML teaching-prose paragraphs, inline HTML removed; excludes headings, tables, diagrams and captions, practice, answers, revision, references, UI. Total article includes headings, captions, tables, practice, revealed answers and references; excludes SVG contents, diagram buttons and inline source lists.",
+        "comparator": "3.A.01 QA 14,757 teaching words; 2.E.08 QA 14,663. This chapter has 16 theory sections, 137 paragraphs and no identical paragraphs. Scope, explanation and evidence reviewed separately.",
+        "scientific_checks": "Official merged NET Unit 3.A page 4, separate NET page 2 and archived MP SET page 2 visually checked. Reviewed primer chemistry, polymerase direction, Kornberg evidence, helicase tracking polarity, SSB/RPA, primase, processivity, ATP-dependent clamp loading, Okazaki evidence, primer processing, nick/gap/flap, ligase adenylation, topology and type IA/IB/II distinctions, gyrase and replisome dynamics, experimental controls, model limitations and all 56 answers. Recalculated 33 numerical values. Sources checked through available textbook excerpts and publication abstracts; no full-text verification of every source. Hypothetical data and original questions labeled.",
+        "arithmetic_checks": [
+          {
+            "test": "binding WT",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "test": "binding high",
+            "actual": 0.9,
+            "expected": 0.9,
+            "pass": true
+          },
+          {
+            "test": "binding mutant",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "test": "primer spacing",
+            "actual": 1500,
+            "expected": 1500,
+            "pass": true
+          },
+          {
+            "test": "shorter interval",
+            "actual": 1000,
+            "expected": 1000,
+            "pass": true
+          },
+          {
+            "test": "A rate",
+            "actual": 33.333333333333336,
+            "expected": 33.333333333333336,
+            "pass": true
+          },
+          {
+            "test": "B rate",
+            "actual": 47.61904761904762,
+            "expected": 47.61904761904762,
+            "pass": true
+          },
+          {
+            "test": "processivity A",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "test": "processivity B",
+            "actual": 5000,
+            "expected": 5000,
+            "pass": true
+          },
+          {
+            "test": "ligase",
+            "actual": 0.87,
+            "expected": 0.87,
+            "pass": true
+          },
+          {
+            "test": "Lk0",
+            "actual": 400,
+            "expected": 400,
+            "pass": true
+          },
+          {
+            "test": "sigma",
+            "actual": -0.06,
+            "expected": -0.06,
+            "pass": true
+          },
+          {
+            "test": "sigma after",
+            "actual": -0.02,
+            "expected": -0.02,
+            "pass": true
+          },
+          {
+            "test": "unwinding",
+            "actual": 100,
+            "expected": 100,
+            "pass": true
+          },
+          {
+            "test": "type II cycles",
+            "actual": 10,
+            "expected": 10,
+            "pass": true
+          },
+          {
+            "test": "lag backlog",
+            "actual": 500,
+            "expected": 500,
+            "pass": true
+          },
+          {
+            "test": "fork time",
+            "actual": 50,
+            "expected": 50,
+            "pass": true
+          },
+          {
+            "test": "new residues",
+            "actual": 9600000,
+            "expected": 9600000,
+            "pass": true
+          },
+          {
+            "test": "fragment starts",
+            "actual": 20,
+            "expected": 20,
+            "pass": true
+          },
+          {
+            "test": "short fragments",
+            "actual": 200,
+            "expected": 200,
+            "pass": true
+          },
+          {
+            "test": "C5 time",
+            "actual": 50,
+            "expected": 50,
+            "pass": true
+          },
+          {
+            "test": "C5 residues",
+            "actual": 8400000,
+            "expected": 8400000,
+            "pass": true
+          },
+          {
+            "test": "C6 spacing",
+            "actual": 1080,
+            "expected": 1080,
+            "pass": true
+          },
+          {
+            "test": "C7 rate",
+            "actual": 30,
+            "expected": 30,
+            "pass": true
+          },
+          {
+            "test": "C8 fold",
+            "actual": 20,
+            "expected": 20,
+            "pass": true
+          },
+          {
+            "test": "C12 WT",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "test": "C12 mutant",
+            "actual": 0.5,
+            "expected": 0.5,
+            "pass": true
+          },
+          {
+            "test": "C17 sigma",
+            "actual": -0.05,
+            "expected": -0.05,
+            "pass": true
+          },
+          {
+            "test": "C18 cycles",
+            "actual": 15,
+            "expected": 15,
+            "pass": true
+          },
+          {
+            "test": "C19 winding",
+            "actual": 200,
+            "expected": 200,
+            "pass": true
+          },
+          {
+            "test": "C20 backlog",
+            "actual": 480,
+            "expected": 480,
+            "pass": true
+          },
+          {
+            "test": "C21 nicks",
+            "actual": 35,
+            "expected": 35,
+            "pass": true
+          },
+          {
+            "test": "C22 starts",
+            "actual": 200,
+            "expected": 200,
+            "pass": true
+          }
+        ],
+        "technical_checks": {
+          "wordGate": true,
+          "uniqueIds": true,
+          "anchors": true,
+          "ariaLabels": true,
+          "svgZoom": true,
+          "readerControls": true,
+          "canonical": true,
+          "menu": true,
+          "sitemap": true,
+          "questions": true,
+          "sections": true,
+          "noDuplicateParagraphs": true,
+          "arithmetic": true,
+          "noStaleContent": true,
+          "tables": true,
+          "neighborNavigation": true,
+          "scriptSyntax": true,
+          "previousReciprocal": true,
+          "nextReciprocal": true
+        },
+        "academic_self_review": {
+          "scope": 20,
+          "scientific_accuracy": 19,
+          "teaching_depth": 19,
+          "evidence": 14,
+          "quantitative_reasoning": 10,
+          "practice": 9,
+          "illustrations": 4,
+          "total": 95,
+          "maximum": 100,
+          "method": "Internal author self-review, not independent external approval. Deductions for partial source access, untested rendered diagrams and concise distractor explanations."
+        },
+        "limitations": "Static HTML/JS/SVG source and coordinate checks, not full interactive browser/device or external accessibility audit. Archived MP SET 2024 is not verified as current original MPPSC-hosted syllabus. Pages verification separate and pending at commit.",
+        "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+        "main_baseline_sha": "73823bb66f1ec8fc71b141343b1bdd2b9d0df7c0",
+        "source_draft_branch": "develop-3a03-replication-fork-20261125",
+        "status": "lesson_committed_pages_verification_pending"
       }
     },
-    "next_pending_node_id": "3.A.03",
-    "next_pending_node_title": "Replication Fork Architecture and Core Replication Enzymes",
+    "next_pending_node_id": "3.A.05",
+    "next_pending_node_title": "Eukaryotic DNA Replication: Fork Progression and Chromosome Ends",
     "previous_last_qa": {
-      "node_id": "3.A.07",
-      "title": "Replication Fidelity, Polymerase Proofreading and Mismatch Repair",
-      "slug": "replication-fidelity-polymerase-proofreading-and-mismatch-repair.html",
-      "narrative_words": 13946,
-      "visible_article_words": 17280,
-      "html_characters": 198827,
-      "html_bytes": 199879,
-      "sections": 18,
-      "theory_sections": 15,
-      "teaching_paragraphs": 134,
-      "figures": 12,
-      "tables": 4,
-      "questions": 50,
-      "part_b": 20,
-      "part_c": 20,
-      "assertion_reason": 5,
-      "multiple_statement_matching": 5,
-      "worked_numerical_examples": 9,
-      "references": 17,
-      "syllabus_links": 2,
-      "method": "Actual stored HTML teaching-prose paragraph text, whitespace-delimited; excludes headings, tables, SVG, captions, questions, explanations, references and UI. Article count includes headings, captions, tables, expanded answers and references; excludes SVG and zoom buttons.",
-      "comparator": "2.E.08 QA reports 14,663 teaching words; 2.E.07 reports 14,943. This node has 13,946 words in 134 distinct narrative paragraphs and 15 theory sections, including biochemical mechanisms, quantitative derivations and experimental inference.",
-      "scientific_checks": "Separate editorial self-review of complementarity versus selection, two-metal catalysis, kinetic specificity and proofreading partition, polarity, Pol III subunits, Pol alpha exception, mismatch fixation and strand slippage, E. coli Dam/MutSLH/UvrD processing, alternative bacterial MMR, eukaryotic MutSα/β and MutLα, PCNA/RFC strand cues, EXO1 directionality and alternative processing, mutation spectra and pathway interactions. Checked the 1989 Lahue–Au–Modrich reconstitution and 2006 Kadyrov human MutLα study; Luria–Delbrück fluctuation interpretation. Recomputed 10^-10, 0.0004498988, 0.2591817793, 0.1812692469, -ln(0.4)=0.9162907319, hypothetical dataset sums 100 each, 0.8, 5×10^-5, 0.04, 100000-fold, 10.1 survivors, 1% unchanged. Original questions and schematic diagrams; hypothetical data clearly identified.",
-      "academic_self_review": {
-        "score": 95,
-        "max": 100,
-        "rubric": {
-          "scope_and_completeness": "20/20: all roadmap responsibilities addressed",
-          "mechanistic_accuracy": "24/25: textbook-level simplifications of kinetic and repair routes explicitly qualified",
-          "evidence_and_quantitative_reasoning": "19/20: primary studies and calculated examples; not a comprehensive literature review",
-          "pedagogical_progression": "19/20: connected prose, revision, prerequisites; some figures are simplified schematics",
-          "exam_readiness": "13/15: 50 explained items including 20 analytical items; not externally examiner-validated"
-        },
-        "qualification": "Internal editorial scoring judgment, not external certification."
+      "node_id": "3.A.10",
+      "title": "DNA Repair II: Strand Break Repair and DNA Damage Tolerance",
+      "status": "published_on_main_pages_verification_pending",
+      "date": "2026-11-25",
+      "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
+      "publication_base_sha": "27b02f623881917cee8f01935ded7de50ee34c5b",
+      "draft_commit_sha": "261631edf50ddf0ad8e42d633dfc02286dd785fd",
+      "slug": "dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/dna-repair-ii-strand-break-repair-and-dna-damage-tolerance.html",
+      "teaching_words": 14680,
+      "student_facing_article_words": 19159,
+      "teaching_paragraphs": 154,
+      "unique_teaching_paragraphs": 154,
+      "theory_sections": 21,
+      "total_sections": 28,
+      "svg_diagrams": 13,
+      "tables": 3,
+      "questions": {
+        "total": 55,
+        "part_b": 20,
+        "part_c": 20,
+        "numerical": 6,
+        "multiple_statement": 2,
+        "matching": 2,
+        "assertion_reason": 5
       },
-      "technical_checks": {
-        "uniqueIds": true,
-        "allAnchors": true,
-        "svgLabels": true,
-        "zoomTargets": true,
-        "readerControlsPresent": true,
-        "canonical": true,
+      "references": 24,
+      "html_bytes": 220591,
+      "quantitative_checks": 22,
+      "academic_self_review": {
+        "scope": 20,
+        "accuracy": 19,
+        "depth": 19,
+        "evidence": 14,
+        "quantitative": 10,
+        "practice": 9,
+        "illustrations": 4,
+        "total": 95,
+        "maximum": 100
+      },
+      "checks": {
+        "word_count": true,
+        "unique_ids": true,
+        "section_anchors": true,
+        "svg_count": true,
+        "arithmetic": true,
+        "prerequisite_links": [
+          "nucleotide-chemistry-and-dna-conformation.html",
+          "cell-cycle-checkpoints-and-control-mechanisms.html",
+          "replication-fidelity-polymerase-proofreading-and-mismatch-repair.html"
+        ],
         "menu": true,
         "sitemap": true,
-        "wordGate": true,
-        "questionOptionsAndKeys": true,
-        "unpublishedNeighborsDisabled": true,
-        "arithmetic": true
+        "source_level_reader_review": true
       },
-      "limitations": "Internal editorial self-review, not independent external peer review. Static source and geometry inspection, not interactive browser/mobile or full accessibility testing. Archived MP SET 2024 syllabus rather than verified current original MPPSC-hosted source. GitHub Pages live verification separate.",
-      "source_draft_branch": "draft/3a07-replication-fidelity",
-      "initial_head_sha": "12030df6c75f87e08b8544de076e1ccf377221bb",
-      "main_baseline_sha": "16e5027e96fb8fd51b762ff495115a453564608c",
-      "status": "lesson_committed_pages_verification_pending"
+      "limitations": [
+        "Self-review rather than independent external peer review.",
+        "Not every cited full paper was inspected; bibliographic and accessible evidence checked.",
+        "No interactive mobile/browser or visual SVG rendering test performed.",
+        "MP SET alignment uses an archived 2024 syllabus copy.",
+        "Pages deployment not yet verified at commit time.",
+        "Adjacent links resolve from the published menu and remain disabled until the corresponding chapter is available."
+      ]
     }
   },
   "unit3a_published_node_ids": [
@@ -2671,7 +3349,8 @@
     "3.A.06",
     "3.A.07",
     "3.A.08",
-    "3.A.10"
+    "3.A.10",
+    "3.A.03"
   ],
   "unit3a_planned_node_count": 12
 }

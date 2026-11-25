@@ -1,0 +1,177 @@
+[
+  [
+    "Experimental",
+    "A native Ala tRNA gives 100 units of charging; G3–C70 mutant gives 2; a non-Ala scaffold gives 1; that scaffold carrying G3·U70 gives 60. All RNAs have intact CCA. What is the strongest conclusion?",
+    "The determinant contributes to charging and is transferable in the tested scaffold|All tRNAs must carry G3·U70|The anticodon always defines amino acid identity|The mutation must eliminate all RNA folding",
+    0,
+    "Loss in native RNA and gain in a recipient support a major identity determinant. The observations do not show universal sufficiency or prove complete unfolding."
+  ],
+  [
+    "Experimental",
+    "A minihelix lacking an anticodon is charged by AlaRS. Which conclusion is justified?",
+    "The minihelix can independently translate mRNA|An anticodon is not indispensable for charging that construct|All synthetases ignore anticodons|Ribosomes no longer need tRNA",
+    1,
+    "The assay establishes charging of the reduced substrate, not decoding. It cannot generalize to every aaRS."
+  ],
+  [
+    "Experimental",
+    "A synthetase mutant retains ATP–PPi exchange but produces little charged RNA. Which next measurement best localizes the defect?",
+    "Total DNA concentration|Number of codons in the genome|Aminoacyl transfer and product hydrolysis separately|Number of ribosomal proteins",
+    2,
+    "Activation appears possible. Direct transfer and stability assays distinguish deficient transfer from rapid loss of product."
+  ],
+  [
+    "Experimental",
+    "Wild-type enzyme hydrolyzes preformed Val-tRNA^Ile quickly; mutant and no-enzyme samples hydrolyze slowly. Correct Ile charging is similar for wild type and mutant. What is most supported?",
+    "A defect in transcription|A defect in codon pairing|Absence of CCA addition|A selective post-transfer editing defect",
+    3,
+    "The substrate is already mischarged, so the experiment tests post-transfer hydrolysis. Correct synthesis is retained, narrowing the defect."
+  ],
+  [
+    "Numerical",
+    "A 240-residue protein is synthesized from standard directly charged tRNAs without futile cycles. What is the charging cost?",
+    "240 ATP molecules and 480 phosphate-bond equivalents|239 ATP and 478 equivalents|480 ATP molecules and 480 equivalents|240 GTP only",
+    0,
+    "Every incorporated residue requires one charging event: 240 ATP → AMP, conventionally 480 equivalents. The 239 peptide bonds are not the charging count."
+  ],
+  [
+    "Numerical",
+    "A preparation releases 150 nmol AMP and accumulates 125 nmol correctly charged RNA. Assume each ATP-consuming attempt releases one AMP and no other AMP source or product loss. How many attempts did not yield correct accumulated product?",
+    "150 nmol|25 nmol|125 nmol|275 nmol",
+    1,
+    "150−125=25 nmol. This discrepancy alone cannot distinguish editing stages or identify the wrong product."
+  ],
+  [
+    "Numerical",
+    "A hypothetical synthetase activates 990 correct and 10 wrong substrates. Editing removes 9 wrong products and no correct ones. What is the wrong fraction among surviving products?",
+    "10/1000|9/1000|1/991|1/1000",
+    2,
+    "Surviving products total 990+1=991. One is wrong. The denominator must exclude discarded products."
+  ],
+  [
+    "Numerical",
+    "Correct and wrong activation efficiencies are 500 and 5 M⁻¹ s⁻¹; the wrong amino acid is 20-fold more concentrated. Under low-substrate competition, what is the wrong activation fraction?",
+    "1%|20% exactly|50%|About 16.7%",
+    3,
+    "Wrong/correct flux = (5/500)×20=0.2. Wrong fraction =0.2/1.2=1/6. The ratio is not the fraction."
+  ],
+  [
+    "Numerical",
+    "If 90% of ATP-consuming independent attempts yield correct product, what is the average phosphate-bond equivalent cost per correct product?",
+    "2/0.9 ≈ 2.22|0.9×2=1.8|1/0.9 ≈ 1.11|Exactly 2",
+    0,
+    "Mean attempts = 1/0.9; multiply by two equivalents per attempt. A fractional value is a population average."
+  ],
+  [
+    "Numerical",
+    "At 310 K, PPi activity falls 100-fold with all other activities fixed. How does the free-energy change of aminoacylation (before explicit PPi hydrolysis) shift?",
+    "+11.9 kJ/mol|−11.9 kJ/mol approximately|0|−100 kJ/mol",
+    1,
+    "RT ln(0.01)=−2×8.314×310×ln(10) J/mol ≈ −11.87 kJ/mol. This is the shift, not the entire reaction ΔG."
+  ],
+  [
+    "Numerical",
+    "For a fixed RNA pool, k_ch=0.6 s⁻¹ and k_use=0.4 s⁻¹. If k_use doubles while k_ch remains fixed, what is the new steady-state charged fraction?",
+    "0.30|0.60|0.6/1.4 ≈ 0.429|0.80",
+    2,
+    "Use C/T=k_ch/(k_ch+k_use). The new utilization constant is 0.8 s⁻¹; the denominator is 1.4 s⁻¹."
+  ],
+  [
+    "Data interpretation",
+    "Acidic gel signals are 72 charged and 18 uncharged in sample A; 36 charged and 9 uncharged in B. Which inference is justified?",
+    "B has half the charged fraction|A has twice the charged fraction|B has completely inactive aaRS|Both have 80% charged, but B has half the total signal",
+    3,
+    "72/90=36/45=0.8. Lower total signal could reflect abundance or technical recovery; fraction alone cannot identify flux."
+  ],
+  [
+    "Experimental",
+    "A mutant tRNA loses charging after a stem-disrupting substitution. A compensatory substitution restores base pairing but not the original sequence; charging returns. What is favored?",
+    "A structural contribution rather than strict requirement for original bases|Anticodon replacement is proved|ATP is unnecessary|The RNA must have acquired a new amino acid identity",
+    0,
+    "Restoring pairing rescues activity despite changed sequence. This supports a structural requirement in the tested context, not universal absence of sequence-specific recognition."
+  ],
+  [
+    "Experimental",
+    "Two tRNAs bind a synthetase with similar apparent affinity; only one is aminoacylated efficiently. What explains the observation?",
+    "Binding always guarantees transfer|Productive positioning or chemistry may differ despite similar binding|Both must be charged identically|The result proves neither RNA binds",
+    1,
+    "Association and catalysis are distinct. Bound substrate may be in a nonproductive orientation."
+  ],
+  [
+    "Experimental",
+    "An incorrect amino acid stimulates AMP release only when tRNA is present, but charged product is undetectable. What is the appropriate interpretation?",
+    "Pre-transfer editing is excluded|No ATP turnover occurred|Either tRNA-dependent pre-transfer or rapid post-transfer editing is possible|All amino acid was incorporated into protein",
+    2,
+    "RNA binding can stimulate pre-transfer editing, while rapid post-transfer hydrolysis can conceal the intermediate. Separate assays are needed."
+  ],
+  [
+    "Integrative",
+    "A cell has normal total translation but elevated Val substitutions at Ile codons. Which direct observation distinguishes charging from decoding most effectively?",
+    "Normal mRNA abundance|Cell size|Number of tRNA genes|Detection of Val-tRNA^Ile before ribosome delivery",
+    3,
+    "Direct detection of the wrong cargo on the Ile adaptor supports an upstream charging defect. Normal translation rate does not establish fidelity."
+  ],
+  [
+    "Experimental",
+    "An Ala tRNA anticodon is altered; G3·U70, CCA and fold remain intact. It is still charged with Ala. Which prediction is justified?",
+    "Its possible decoding targets change while charging identity can remain Ala|It must become charged with another amino acid|Its aminoacylation necessarily ceases|It can no longer interact with any RNA",
+    0,
+    "An anticodon change can redirect pairing without changing recognition by AlaRS. Actual cellular incorporation depends on downstream compatibility and competition."
+  ],
+  [
+    "Multiple statements",
+    "An editing-defective mutant has normal cognate charging and weak wrong-product hydrolysis. I. Correct-only assay may look normal. II. Wrong-product accumulation may increase with a competitor. III. Every mutant protein must contain the same wrong residue. IV. The phenotype may depend on amino acid pools. Which are supported?",
+    "I and III only|I, II and IV|II and III only|All four",
+    1,
+    "I, II and IV follow from selective loss of editing. III is false because errors are probabilistic and may affect multiple proteins and sites."
+  ],
+  [
+    "Integrative",
+    "An archaeon lacks GlnRS but contains a nondiscriminating GluRS and an active tRNA-dependent amidotransferase. What is the expected final product on tRNA^Gln?",
+    "Glu-tRNA^Gln always|Free glutamine only|Gln-tRNA^Gln after conversion|Gln-tRNA^Glu necessarily",
+    2,
+    "Glu is attached first, then its side chain is amidated on tRNA^Gln. Lack of direct GlnRS need not prevent decoding glutamine codons."
+  ],
+  [
+    "Matching",
+    "Match observation 1. Exchange absent 2. Exchange retained, transfer poor 3. Preformed wrong ester hydrolysis lost 4. Correct charging but near-cognate codons misread with likely affected stage a. activation b. transfer/product stability c. post-transfer editing d. ribosomal decoding.",
+    "1-d 2-c 3-b 4-a|1-b 2-a 3-d 4-c|1-c 2-d 3-a 4-b|1-a 2-b 3-c 4-d",
+    3,
+    "These observations localize likely defects to the relevant biochemical stage. Further assays are needed to establish the exact molecular lesion."
+  ],
+  [
+    "Data interpretation",
+    "At steady state, charging and consumption rate constants each fall fourfold while the total pool is unchanged. What happens in the simple first-order model?",
+    "Charged fraction stays the same but steady-state flux falls fourfold|Charged fraction rises fourfold|Both fraction and flux stay identical|All tRNA becomes uncharged",
+    0,
+    "The ratio k_ch/(k_ch+k_use) is unchanged; flux k_use C is fourfold lower. Fraction and throughput are not interchangeable."
+  ],
+  [
+    "Numerical",
+    "A first selection produces wrong fraction p=0.04. Editing survival for wrong products is s=0.01 and for correct products c=0.90. What is the wrong fraction among released products?",
+    "0.04 exactly|0.0004/(0.8644) ≈ 0.000463|0.01|0.90",
+    1,
+    "Wrong survival is 0.04×0.01=0.0004. Correct survival is 0.96×0.90=0.864. Divide by their sum."
+  ],
+  [
+    "Experimental",
+    "A mutant protein hydrolyzes both correctly and incorrectly charged RNA ten times faster than wild type. What is the most plausible concern?",
+    "It is necessarily a superior editing enzyme|ATP is no longer needed|Loss of editing discrimination can waste useful product|Ribosomal decoding becomes error-free",
+    2,
+    "Editing is useful only when incorrect cargo is preferentially removed. Excessive cognate hydrolysis may reduce usable charged RNA and increase futile cycles."
+  ],
+  [
+    "Integrative",
+    "During amino acid deprivation a bacterial strain accumulates uncharged tRNA and activates a RelA-dependent response. Which is the best interpretation?",
+    "Uncharged tRNA directly copies DNA|CCA addition synthesizes ATP|All peptide bonds are hydrolyzed by RelA|The charged state links nutrient supply to a translation-associated stress signal",
+    3,
+    "Uncharged tRNA in an appropriate ribosomal context contributes to stringent-response signaling; it does not replace a synthetase or hydrolyze peptide chains."
+  ],
+  [
+    "Experimental",
+    "A cell-free reaction with Cys-tRNA chemically converted to Ala-tRNA^Cys incorporates alanine at positions selected by the Cys adaptor. Which control is most important for distinguishing adaptor-directed incorporation from ordinary Ala charging?",
+    "Establish that altered cargo remains attached and is not merely released and recharged onto Ala tRNA|Measure chromosome length|Remove all RNA from both reactions and expect normal synthesis|Determine the color of the solution",
+    0,
+    "Free alanine could enter normal charging and obscure the inference. Tracking the adaptor-linked cargo distinguishes the two models; the experiment does not show all mischarged RNAs are accepted equally."
+  ]
+]

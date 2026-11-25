@@ -1,0 +1,413 @@
+{
+  "node_id": "1.A.03",
+  "title": "Biological Solutions, pH and Buffer Systems",
+  "slug": "biological-solutions-ph-and-buffer-systems.html",
+  "status": "draft_reviewed_not_published",
+  "initial_head_sha": "3dfb6d96c09ba520d933022413bf4679f479137d",
+  "source_draft_branch": "draft/node-1a03-biological-solutions",
+  "draft_commit_sha": "8348c34fe74dee4bd9139a0351a0c845b3321b3a",
+  "teaching_words": 14610,
+  "lexical_words": 14879,
+  "paragraphs": 147,
+  "visible_article_words_excluding_svg_and_buttons": 19144,
+  "sections": 28,
+  "figures": 13,
+  "tables": 3,
+  "questions": 52,
+  "refs": 22,
+  "duplicate_ids": [],
+  "missing_targets": [],
+  "duplicate_paragraphs": 0,
+  "keyProblems": 0,
+  "word_count_method": "Whitespace-delimited saved p.teaching-prose paragraphs; excludes headings, figures, table cells, all practice and explanations, source notes, revision and references. Lexical count provided separately.",
+  "practice": {
+    "part_b": 20,
+    "part_c": 20,
+    "mixed": 12,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 13
+    },
+    "revision_traps": 15,
+    "active_recall": 10,
+    "mastery_checklist": 6
+  },
+  "arithmetic_checks": [
+    {
+      "label": "NaCl concentration",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "label": "stock dilution",
+      "actual": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "label": "mix",
+      "actual": 0.09000000000000001,
+      "expected": 0.09,
+      "pass": true
+    },
+    {
+      "label": "glucose w/v",
+      "actual": 0.05550621669626998,
+      "expected": 0.0555,
+      "pass": true
+    },
+    {
+      "label": "molality-density",
+      "actual": 0.4747357992073976,
+      "expected": 0.475,
+      "pass": true
+    },
+    {
+      "label": "ionic strength CaCl2",
+      "actual": 0.30000000000000004,
+      "expected": 0.3,
+      "pass": true
+    },
+    {
+      "label": "Raoult",
+      "actual": 3.04,
+      "expected": 3.04,
+      "pass": true
+    },
+    {
+      "label": "boiling rise",
+      "actual": 0.1024,
+      "expected": 0.1024,
+      "pass": true
+    },
+    {
+      "label": "freezing drop",
+      "actual": 0.37200000000000005,
+      "expected": 0.372,
+      "pass": true
+    },
+    {
+      "label": "unknown mass",
+      "actual": 90,
+      "expected": 90,
+      "pass": true
+    },
+    {
+      "label": "Kf derivation",
+      "actual": 1.8593974213169673,
+      "expected": 1.86,
+      "pass": true
+    },
+    {
+      "label": "Kb derivation",
+      "actual": 0.5130392932205405,
+      "expected": 0.513,
+      "pass": true
+    },
+    {
+      "label": "factor 0.05",
+      "actual": 1.9032258064516125,
+      "expected": 1.9,
+      "pass": true
+    },
+    {
+      "label": "factor 0.10",
+      "actual": 1.8333333333333333,
+      "expected": 1.83,
+      "pass": true
+    },
+    {
+      "label": "factor 0.20",
+      "actual": 1.6989247311827955,
+      "expected": 1.7,
+      "pass": true
+    },
+    {
+      "label": "3-ion ideal dissociation",
+      "actual": 0.7499999999999998,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "label": "osmotic pressure",
+      "actual": 2.4452986000000005,
+      "expected": 2.45,
+      "pass": true
+    },
+    {
+      "label": "osmotic pressure SI",
+      "actual": 247757.19999999998,
+      "expected": 247800,
+      "pass": true
+    },
+    {
+      "label": "protein pressure mmHg",
+      "actual": 3.716853872,
+      "expected": 3.72,
+      "pass": true
+    },
+    {
+      "label": "apparent molar mass",
+      "actual": 50034.756097560974,
+      "expected": 50035,
+      "pass": true
+    },
+    {
+      "label": "number average",
+      "actual": 40000,
+      "expected": 40000,
+      "pass": true
+    },
+    {
+      "label": "strong acid pH",
+      "actual": 2.6989700043360187,
+      "expected": 2.699,
+      "pass": true
+    },
+    {
+      "label": "dilute acid pH",
+      "actual": 6.978294313542888,
+      "expected": 6.978,
+      "pass": true
+    },
+    {
+      "label": "mixed strong acid pH",
+      "actual": 2.2967086218813386,
+      "expected": 2.297,
+      "pass": true
+    },
+    {
+      "label": "weak acid root",
+      "actual": 0.001332670973077975,
+      "expected": 0.001333,
+      "pass": true
+    },
+    {
+      "label": "weak acid dilute root",
+      "actual": 0.00003437049688440288,
+      "expected": 0.0000344,
+      "pass": true
+    },
+    {
+      "label": "weak base root",
+      "actual": 0.0009397259878384275,
+      "expected": 0.00094,
+      "pass": true
+    },
+    {
+      "label": "weak base pH",
+      "actual": 10.973001237304176,
+      "expected": 10.97,
+      "pass": true
+    },
+    {
+      "label": "buffer initial",
+      "actual": 6.976091259055681,
+      "expected": 6.976,
+      "pass": true
+    },
+    {
+      "label": "buffer base addition",
+      "actual": 7.167976785294594,
+      "expected": 7.168,
+      "pass": true
+    },
+    {
+      "label": "buffer prep acid",
+      "actual": 19.343158992342847,
+      "expected": 19.34,
+      "pass": true
+    },
+    {
+      "label": "buffer prep base",
+      "actual": 30.656841007657153,
+      "expected": 30.66,
+      "pass": true
+    },
+    {
+      "label": "capacity maximum",
+      "actual": 0.05756462732485115,
+      "expected": 0.0576,
+      "pass": true
+    },
+    {
+      "label": "concentrated shift",
+      "actual": -0.03476210625921192,
+      "expected": -0.0348,
+      "pass": true
+    },
+    {
+      "label": "dilute shift",
+      "actual": -0.36797678529459443,
+      "expected": -0.368,
+      "pass": true
+    },
+    {
+      "label": "strong acid titration",
+      "actual": 1.9542425094393248,
+      "expected": 1.95,
+      "pass": true
+    },
+    {
+      "label": "strong base excess",
+      "actual": 11.958607314841775,
+      "expected": 11.96,
+      "pass": true
+    },
+    {
+      "label": "weak acid titration 10mL",
+      "actual": 4.583908740944318,
+      "expected": 4.58,
+      "pass": true
+    },
+    {
+      "label": "weak acid titration 20mL",
+      "actual": 5.362059991327962,
+      "expected": 5.36,
+      "pass": true
+    },
+    {
+      "label": "weak acid equivalence",
+      "actual": 8.729485002168008,
+      "expected": 8.73,
+      "pass": true
+    },
+    {
+      "label": "bicarbonate pH",
+      "actual": 7.401029995663981,
+      "expected": 7.4,
+      "pass": true
+    },
+    {
+      "label": "group active fraction",
+      "actual": 0.939632772709278,
+      "expected": 0.94,
+      "pass": true
+    },
+    {
+      "label": "capacity off pKa",
+      "actual": 0.009514814433859695,
+      "expected": 0.00952,
+      "pass": true
+    },
+    {
+      "label": "capacity 0.2 M",
+      "actual": 0.03805925773543878,
+      "expected": 0.0381,
+      "pass": true
+    },
+    {
+      "label": "temperature change",
+      "actual": 0.42500000000000004,
+      "expected": 0.425,
+      "pass": true
+    },
+    {
+      "label": "Q21 stock",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "label": "Q22 density",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true
+    },
+    {
+      "label": "Q23 mixing",
+      "actual": 40,
+      "expected": 40,
+      "pass": true
+    },
+    {
+      "label": "Q24 osmolarity",
+      "actual": 300,
+      "expected": 300,
+      "pass": true
+    },
+    {
+      "label": "Q25 ionic strength",
+      "actual": 0.15000000000000002,
+      "expected": 0.15,
+      "pass": true
+    },
+    {
+      "label": "Q26 vapour",
+      "actual": 3.6,
+      "expected": 3.6,
+      "pass": true
+    },
+    {
+      "label": "Q27 freezing",
+      "actual": 0.837,
+      "expected": 0.837,
+      "pass": true
+    },
+    {
+      "label": "Q28 mass",
+      "actual": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "label": "Q29 pressure",
+      "actual": 0.49234200000000006,
+      "expected": 0.492,
+      "pass": true
+    },
+    {
+      "label": "Q30 cell volume",
+      "actual": 0.75,
+      "expected": 0.75,
+      "pass": true
+    },
+    {
+      "label": "Q37 buffer pH",
+      "actual": 6.9128498242811,
+      "expected": 6.913,
+      "pass": true
+    },
+    {
+      "label": "Q38 buffer concentration",
+      "actual": 45.58481559887747,
+      "expected": 45.6,
+      "pass": true
+    },
+    {
+      "label": "Q39 capacity",
+      "actual": 0.04605170185988092,
+      "expected": 0.0461,
+      "pass": true
+    },
+    {
+      "label": "Q40 acid concentration",
+      "actual": 0.072,
+      "expected": 0.072,
+      "pass": true
+    },
+    {
+      "label": "Q50 measured factor",
+      "actual": 1.8010752688172043,
+      "expected": 1.8,
+      "pass": true
+    },
+    {
+      "label": "Q52 bicarbonate",
+      "actual": 7.2249387366082995,
+      "expected": 7.225,
+      "pass": true
+    }
+  ],
+  "scope_review": "Revised CSIR–UGC–DBT Unit 1.D page 2, separate CSIR NET Unit 1.D and archived MP SET 2024 Unit 1.D visually checked. All approved 1.A.03 roadmap responsibilities developed. Donnan and protein ionisation used only as brief explanatory bridges. Comparators 1.A.02 and 1.A.04 inspected. No duplication of retired content.",
+  "limitations": [
+    "Internal editorial review, not independent external peer review.",
+    "Archived MP SET 2024 copy, not independently verified current MPPSC original.",
+    "Static source validation only; no interactive device or browser testing yet.",
+    "Primary-source full text access incomplete; references include standard textbooks and verifiable accessible records.",
+    "Pages verification separate."
+  ]
+}

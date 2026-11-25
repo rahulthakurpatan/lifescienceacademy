@@ -1,0 +1,477 @@
+{
+  "B": [
+    {
+      "q": "The canonical mRNA cap contains which linkage?",
+      "options": [
+        "3′–5′ phosphodiester",
+        "5′–5′ triphosphate",
+        "2′–3′ phosphodiester",
+        "Peptide bond"
+      ],
+      "answer": 1,
+      "explanation": "The inverted triphosphate bridge joins the 5′ positions of guanosine and the first transcribed residue. Ordinary internal RNA bonds are 3′–5′."
+    },
+    {
+      "q": "Which substrate directly donates the cap guanosine?",
+      "options": [
+        "ATP",
+        "UTP",
+        "GTP",
+        "SAM"
+      ],
+      "answer": 2,
+      "explanation": "GTP supplies GMP through a guanylyltransferase intermediate. SAM supplies methyl groups, not guanosine."
+    },
+    {
+      "q": "The first canonical capping reaction removes which phosphate?",
+      "options": [
+        "RNA 5′ γ phosphate",
+        "RNA 5′ α phosphate",
+        "GTP α phosphate",
+        "The last internal phosphate"
+      ],
+      "answer": 0,
+      "explanation": "Triphosphatase hydrolyzes the terminal γ phosphate of the nascent RNA, leaving a diphosphate substrate."
+    },
+    {
+      "q": "Which reagent donates the N7 methyl group?",
+      "options": [
+        "NADH",
+        "FAD",
+        "ATP",
+        "S-adenosylmethionine"
+      ],
+      "answer": 3,
+      "explanation": "SAM transfers its methyl group and becomes S-adenosylhomocysteine. The nucleotide donor GTP has a distinct role."
+    },
+    {
+      "q": "Which feature differentiates cap 1 from cap 0?",
+      "options": [
+        "A second cap guanosine",
+        "2′-O methylation of the first transcribed residue",
+        "A fourth bridge phosphate",
+        "A terminal adenosine"
+      ],
+      "answer": 1,
+      "explanation": "Cap 1 adds a ribose methylation at the first transcribed nucleotide. The cap itself still contains one guanosine."
+    },
+    {
+      "q": "Early capping is linked to which Pol II CTD state?",
+      "options": [
+        "Ser5 phosphorylation",
+        "Complete CTD deletion",
+        "DNA methylation",
+        "Ribosome phosphorylation"
+      ],
+      "answer": 0,
+      "explanation": "Early Ser5 phosphorylation promotes recruitment of capping factors. It does not itself catalyze cap synthesis."
+    },
+    {
+      "q": "The nuclear cap-binding complex commonly comprises:",
+      "options": [
+        "CPSF73 and PAP",
+        "eIF4A and eIF4G",
+        "CBP80 and CBP20",
+        "U7 and SLBP"
+      ],
+      "answer": 2,
+      "explanation": "CBP80/CBP20 comprise CBC. eIF4E is the familiar cytoplasmic cap-recognition protein."
+    },
+    {
+      "q": "Which protein directly recognizes the cap in canonical cytoplasmic initiation?",
+      "options": [
+        "PABPN1",
+        "eIF4E",
+        "XRN2",
+        "CstF64"
+      ],
+      "answer": 1,
+      "explanation": "eIF4E binds methylated cap; the other proteins principally function in tail formation, termination or cleavage-site recognition."
+    },
+    {
+      "q": "AAUAAA usually identifies:",
+      "options": [
+        "The translation stop codon",
+        "The cleavage bond itself",
+        "The complete tail",
+        "An upstream polyadenylation signal"
+      ],
+      "answer": 3,
+      "explanation": "AAUAAA is a common RNA recognition element. Cleavage generally occurs downstream, and adenosines are then added."
+    },
+    {
+      "q": "Which mammalian component catalyzes canonical endonucleolytic cleavage?",
+      "options": [
+        "CPSF73",
+        "PAP",
+        "eIF4E",
+        "PABPC"
+      ],
+      "answer": 0,
+      "explanation": "CPSF73 is the endonuclease. PAP extends the new upstream end rather than creating it."
+    },
+    {
+      "q": "The U/GU-rich downstream element is associated principally with:",
+      "options": [
+        "RNA triphosphatase",
+        "CstF",
+        "eIF4E",
+        "DNA ligase"
+      ],
+      "answer": 1,
+      "explanation": "CstF, including its RNA-binding CstF64 subunit, helps recognize the downstream region."
+    },
+    {
+      "q": "Which proteins participate directly in AAUAAA recognition in mammalian CPSF?",
+      "options": [
+        "XRN1 and XRN2",
+        "U1 and U2",
+        "WDR33 and CPSF30",
+        "PABPC and eIF4A"
+      ],
+      "answer": 2,
+      "explanation": "WDR33 and CPSF30 contribute to sequence recognition. CPSF73 is the cleavage catalyst."
+    },
+    {
+      "q": "The retained upstream cleavage product has a new:",
+      "options": [
+        "5′ triphosphate",
+        "3′ phosphate only",
+        "5′ cap newly attached at the cut",
+        "3′ hydroxyl"
+      ],
+      "answer": 3,
+      "explanation": "The hydroxyl at its new 3′ end is a substrate for extension by PAP. The downstream fragment bears a 5′ monophosphate."
+    },
+    {
+      "q": "Poly(A) polymerase uses:",
+      "options": [
+        "ATP without a DNA template for each added residue",
+        "dATP on a DNA template",
+        "GTP only",
+        "ADP incorporated intact"
+      ],
+      "answer": 0,
+      "explanation": "ATP contributes AMP and releases PPi. Repeated addition is not specified by template base pairing."
+    },
+    {
+      "q": "PABPN1 principally contributes to:",
+      "options": [
+        "Bacterial promoter recognition",
+        "Nuclear poly(A) tail synthesis and length control",
+        "Ribosomal peptidyl transfer",
+        "DNA replication initiation"
+      ],
+      "answer": 1,
+      "explanation": "Nuclear PABPN1 supports tail elongation and length regulation; cytoplasmic PABPC proteins have distinct roles."
+    },
+    {
+      "q": "The cap–tail closed-loop model requires:",
+      "options": [
+        "Covalent circularization of RNA",
+        "Direct base pairing of guanosine and every tail A",
+        "Protein interactions involving eIF4G and PABP",
+        "RNA cleavage at the start codon"
+      ],
+      "answer": 2,
+      "explanation": "Protein interactions bridge the ends. The RNA backbone need not be covalently circular."
+    },
+    {
+      "q": "Which is a classic nonpolyadenylated nuclear mRNA example in animals?",
+      "options": [
+        "Every histone variant",
+        "All Pol II transcripts",
+        "All ribosomal proteins",
+        "Canonical replication-dependent histone mRNA"
+      ],
+      "answer": 3,
+      "explanation": "These transcripts use a stem-loop-based end system; many replication-independent histone variants do have tails."
+    },
+    {
+      "q": "The specialized histone end-processing pathway uses:",
+      "options": [
+        "SLBP and U7 snRNP",
+        "DNA polymerase III and sigma factor",
+        "eIF4E and eIF4A only",
+        "Rho and primase"
+      ],
+      "answer": 0,
+      "explanation": "SLBP recognizes the stem-loop and U7 recognizes a downstream element by base pairing."
+    },
+    {
+      "q": "In E. coli, polyadenylation of structured decay intermediates often:",
+      "options": [
+        "Creates a mammalian cap",
+        "Facilitates RNA degradation",
+        "Blocks all exonucleases permanently",
+        "Terminates DNA replication"
+      ],
+      "answer": 1,
+      "explanation": "An accessible tail can provide a foothold for degradation machinery, contrasting with the usual nuclear mRNA context."
+    },
+    {
+      "q": "Alternative polyadenylation within one shared 3′ UTR necessarily changes:",
+      "options": [
+        "All codons",
+        "The identity of the promoter",
+        "The retained untranslated sequence",
+        "The genetic code"
+      ],
+      "answer": 2,
+      "explanation": "Different cuts change retained UTR sequence. Coding sequence can remain identical."
+    },
+    {
+      "q": "XRN2 primarily acts in the standard termination model on:",
+      "options": [
+        "The cap guanosine",
+        "The upstream poly(A) tail",
+        "The DNA template",
+        "The downstream cleavage product"
+      ],
+      "answer": 3,
+      "explanation": "The downstream RNA has a newly exposed 5′ monophosphate. Degradation contributes to termination."
+    },
+    {
+      "q": "Which observation is most direct evidence of mature cleavage position?",
+      "options": [
+        "Mapping the RNA-to-tail sequence junction",
+        "Measuring total protein alone",
+        "Counting promoters",
+        "Measuring genomic DNA mass"
+      ],
+      "answer": 0,
+      "explanation": "Junction mapping distinguishes the last retained genomic nucleotide from appended adenosines."
+    },
+    {
+      "q": "Oligo(dT) selection may fail to enrich:",
+      "options": [
+        "Every long-tailed message",
+        "Normal nonpolyadenylated histone mRNA",
+        "Any RNA carrying A residues",
+        "Only DNA"
+      ],
+      "answer": 1,
+      "explanation": "Selection depends on accessible adenosine-rich sequences and can miss physiologically nonpolyadenylated RNAs."
+    },
+    {
+      "q": "Which sequence is transcribed from coding-strand DNA AATAAA?",
+      "options": [
+        "UU AUUU",
+        "TTATTT",
+        "AAUAAA",
+        "AATAAA"
+      ],
+      "answer": 2,
+      "explanation": "RNA corresponds to the coding strand with U replacing T. The signal is not the tail."
+    },
+    {
+      "q": "What is the fate of the cap guanosine during translation of the main ORF?",
+      "options": [
+        "It forms the first amino acid",
+        "It forms the stop codon",
+        "It is replicated as DNA",
+        "It helps recruit machinery but is not decoded as the first codon"
+      ],
+      "answer": 3,
+      "explanation": "The cap is outside the ORF. Translation initiates at a distinct start site."
+    }
+  ],
+  "C": [
+    {
+      "type": "Isotope reasoning",
+      "q": "The initiating RNA nucleotide has a labeled γ phosphate. GTP donor is unlabeled. Where should the label go during canonical capping?",
+      "answer": "Inorganic phosphate",
+      "explanation": "Triphosphatase hydrolyzes the terminal γ phosphate before guanylyl transfer. The two retained phosphates originate from the RNA end; the third bridge phosphate originates from donor GTP."
+    },
+    {
+      "type": "Isotope reasoning",
+      "q": "A donor GTP carries label only in its α phosphate. Predict label distribution after cap formation.",
+      "answer": "The cap bridge retains the label.",
+      "explanation": "Guanylyltransferase transfers GMP, including its α phosphate. β and γ leave as PPi; the methyl donor has a separate chemical role."
+    },
+    {
+      "type": "Numerical",
+      "q": "An RNA population of 400 contains 300 guanosine-attached ends, of which 180 have N7 methylation. Find the conditional methylation yield and the mature methylated fraction of all RNA.",
+      "answer": "60%; 45%.",
+      "explanation": "180/300 = 0.60; 180/400 = 0.45. The denominators differ because the first asks about already attached guanosine and the second about all transcripts."
+    },
+    {
+      "type": "Mutation",
+      "q": "A mutant shows 90% diphosphate RNA, very little GMP attachment and low N7 cap signal. Identify the most likely failed stage.",
+      "answer": "Guanylyl transfer.",
+      "explanation": "Diphosphate formation indicates triphosphatase activity. Low attachment locates the failure before methylation; a methyltransferase-only defect would not directly abolish attachment."
+    },
+    {
+      "type": "Mutation",
+      "q": "Purified capping enzyme from a mutant has normal catalytic activity, but capping of nascent RNA in cells is reduced. What two explanations need to be distinguished?",
+      "answer": "Defective recruitment versus altered availability of nascent RNA.",
+      "explanation": "Measure cap fraction relative to newly synthesized RNA and assay polymerase-associated enzyme. A total RNA decrease alone does not localize a catalytic defect."
+    },
+    {
+      "type": "Assertion–reason",
+      "q": "Assertion: A 5′ cap helps protect typical eukaryotic mRNA from XRN1. Reason: XRN1 generally prefers a 5′ monophosphate substrate. Are both true, and does the reason explain the assertion?",
+      "answer": "Both true; reason explains the assertion.",
+      "explanation": "The cap blocks the ordinary substrate configuration. Decapping can create a monophosphate; protection is not absolute against every nuclease."
+    },
+    {
+      "type": "Numerical",
+      "q": "A transcript has 1,850 retained encoded residues, a tail of 220 residues, and one cap guanosine. Count all nucleotide-derived residues including cap.",
+      "answer": "2,071.",
+      "explanation": "1,850 + 220 + 1. The phosphate bridge does not contribute an additional nucleotide residue. Introns or downstream discarded sequences must not be included."
+    },
+    {
+      "type": "Experimental interpretation",
+      "q": "A 900-nt precursor is cut at 620 nt. An upstream probe detects a band at 620 but not 280 nt. Is the absence of 280 evidence that cleavage did not occur?",
+      "answer": "No.",
+      "explanation": "The downstream fragment is 280 nt, but lacks the upstream probe-binding region. Detect it with a downstream probe or an appropriate uniform label."
+    },
+    {
+      "type": "Numerical",
+      "q": "A retained upstream product is 620 nt. Its tailed product migrates near 810 nt under an ideal size assay. Estimate the number of added adenosines.",
+      "answer": "190 residues.",
+      "explanation": "810 − 620 = 190, assuming other length changes and migration effects are absent. This is a length difference, not a DNA base-pair count."
+    },
+    {
+      "type": "Mutation",
+      "q": "A catalytic CPSF73 mutant produces readthrough RNA and loss of correctly cut RNA. Why would supplying more PAP alone generally not rescue the intended end?",
+      "answer": "PAP needs the correctly generated 3′ hydroxyl.",
+      "explanation": "Increasing extension capacity cannot replace the missing endonucleolytic positioning reaction. Nonspecific tailing is not equivalent to accurate cleavage."
+    },
+    {
+      "type": "Experimental interpretation",
+      "q": "Cleavage products are normal; the downstream RNA persists and engaged polymerase accumulates beyond the site. Which defect is more consistent: selective loss of XRN2 or catalytic loss of CPSF73?",
+      "answer": "Selective loss of XRN2.",
+      "explanation": "Cleavage still occurs, whereas downstream RNA removal and termination are affected. CPSF73 loss would directly compromise the cut itself."
+    },
+    {
+      "type": "Multiple statements",
+      "q": "Evaluate: I AAUAAA is normally retained upstream of the cut. II The downstream element can affect maturation without being retained. III The entire tail must be encoded as a genomic A tract.",
+      "answer": "I and II only.",
+      "explanation": "III confuses sequence-directed cleavage with template-independent addition. I and II follow from the typical ordering of signal, cut and downstream element."
+    },
+    {
+      "type": "Experimental design",
+      "q": "A 3′ processing signal mutant reduces mature RNA by 70%. Design a comparison distinguishing reduced initiation from failure of end formation.",
+      "answer": "Compare matched nascent transcription and correctly cleaved mature RNA, with appropriate normalization.",
+      "explanation": "If nascent transcription is similar but correct mature ends are depleted and readthrough increases, a processing defect is supported. A reporter protein measurement alone conflates stages."
+    },
+    {
+      "type": "Numerical",
+      "q": "A reaction adds 240 adenosines to each of 50 molecules. Count ATP incorporation events and PPi released.",
+      "answer": "12,000 each.",
+      "explanation": "240 × 50 = 12,000 ATP molecules incorporated as AMP and 12,000 PPi released. ATP-to-ADP hydrolysis is not the direct chemistry."
+    },
+    {
+      "type": "Matching",
+      "q": "Match A CPSF73, B PABPN1, C eIF4E, D CstF64 to 1 downstream RNA recognition, 2 nuclear tail elongation, 3 cap recognition, 4 RNA cleavage.",
+      "answer": "A–4, B–2, C–3, D–1.",
+      "explanation": "The roles represent distinct steps and molecular contexts. CstF64 is not the nuclease; eIF4E is not the nuclear tail regulator."
+    },
+    {
+      "type": "Quantitative reasoning",
+      "q": "Under equal independent nucleotide frequencies, estimate the expected occurrences of AAUAAA among 8,192 possible start positions.",
+      "answer": "2.",
+      "explanation": "Probability = (1/4)^6 = 1/4096; expectation = 8192/4096. Real sequences violate the simplifying model, and a motif occurrence is not proof of functional cleavage."
+    },
+    {
+      "type": "Experimental interpretation",
+      "q": "Proximal and distal isoforms are 90 and 10 molecules in control; mutant has 30 and 10. Has distal abundance increased?",
+      "answer": "No; only its relative fraction increased from 10% to 25%.",
+      "explanation": "The absolute distal count remains 10. A percentage shift can result solely from reduction of the other population."
+    },
+    {
+      "type": "Integrative",
+      "q": "Two alternative cleavage sites lie 350 nt apart after a shared stop codon. Tails are equally long. Predict the RNA and protein differences.",
+      "answer": "The distal isoform is 350 nt longer; the ORF is unchanged.",
+      "explanation": "The retained 3′ UTR differs. Protein quantity or localization may change, but the given coding sequence does not."
+    },
+    {
+      "type": "Numerical",
+      "q": "RNA falls from 1,200 to 150 copies in 90 min after synthesis stops. Assuming exponential decay, find half-life and k.",
+      "answer": "30 min; approximately 0.0231 min⁻¹.",
+      "explanation": "1200/150 = 8 = 2³, so three half-lives pass. k = ln2/30. This is a net decay constant, not a specific nuclease activity."
+    },
+    {
+      "type": "Numerical",
+      "q": "Control mature formation is 48 molecules/min and k = 0.024 min⁻¹. A processing defect halves formation without changing k. Compare steady states.",
+      "answer": "2,000 versus 1,000 molecules.",
+      "explanation": "M = s/k. Halving s halves steady-state abundance under the stated assumptions. A different change in k could produce the same abundance."
+    },
+    {
+      "type": "Numerical",
+      "q": "Of 200 primary transcripts, 90% are capped; among capped molecules 80% are correctly cleaved; among these 75% gain tails. Predict fully processed count.",
+      "answer": "108.",
+      "explanation": "200 × 0.90 × 0.80 × 0.75 = 108. The probabilities are sequential conditional yields, not additive percentages."
+    },
+    {
+      "type": "Experimental interpretation",
+      "q": "Total RNA shows a histone transcript, but oligo(dT)-selected RNA does not. What is the best next interpretation?",
+      "answer": "It may be a normal nonpolyadenylated replication-dependent transcript.",
+      "explanation": "Confirm the characteristic end structure or use a tail-independent assay. Failure of enrichment is not absence of transcription."
+    },
+    {
+      "type": "Assertion–reason",
+      "q": "Assertion: Every eukaryotic mRNA requires a conventional long poly(A) tail. Reason: Poly(A)-binding proteins can aid canonical translation.",
+      "answer": "Assertion false; reason true.",
+      "explanation": "Replication-dependent animal histone mRNAs provide a standard exception. A common functional contribution is not a universal necessity."
+    },
+    {
+      "type": "Experimental design",
+      "q": "A reporter with a long tail produces twice as much protein, but its RNA abundance is four times higher. Under matched short-interval conditions, compare protein output per RNA.",
+      "answer": "One-half of the control's per-RNA output.",
+      "explanation": "Relative efficiency = 2/4 = 0.5, if accumulation history and protein removal are controlled. Total protein does not by itself measure translation efficiency."
+    },
+    {
+      "type": "Integrative",
+      "q": "A bacterial structured decay intermediate is stabilized when tail addition is disrupted. Why does this not contradict the usual eukaryotic tail role?",
+      "answer": "The tail can recruit or enable different machinery in different systems.",
+      "explanation": "In E. coli, tailing can create a single-stranded entry region for degradative enzymes. Nuclear eukaryotic mRNA commonly uses tail-associated proteins for productive expression."
+    },
+    {
+      "type": "Experimental interpretation",
+      "q": "An RNA becomes 70 nt longer during oocyte activation, but its mapped genomic 3′ boundary is unchanged. What hypothesis is favored and what control is needed?",
+      "answer": "Cytoplasmic tail extension; verify that the extra residues are terminal adenosines.",
+      "explanation": "Alternative cleavage predicts a changed retained sequence. Tail-specific measurement distinguishes extension from other apparent size effects."
+    },
+    {
+      "type": "Multiple statements",
+      "q": "I Capping adds a nucleotide in an inverted orientation. II PAP extends a 3′ hydroxyl. III The stop codon fixes the cleavage site. IV Termination and cleavage can be experimentally separated. Select true statements.",
+      "answer": "I, II and IV.",
+      "explanation": "III is false because the 3′ UTR generally lies between the stop codon and cleavage site. The mature end does not locate polymerase release."
+    },
+    {
+      "type": "Experimental interpretation",
+      "q": "A cap–tail interaction mutant reduces reporter protein despite normal RNA abundance and normal cap/tail structures. What further experiment would strengthen a causal interpretation?",
+      "answer": "Rescue with interaction-competent protein and measure translation rate per RNA.",
+      "explanation": "Structural modifications are present but their recognition/cooperation may be defective. Rescue with wild type versus an interaction-deficient variant helps distinguish specific function from generalized effects."
+    }
+  ],
+  "traps": [
+    "Cap guanosine is added, not the first transcribed base.",
+    "Cap 1 means first-residue ribose methylation, not two caps.",
+    "GTP contributes GMP; SAM supplies methyl groups.",
+    "Capping is generally cotranscriptional, not restricted to completed transcripts.",
+    "AAUAAA is a signal, not the cleavage bond or the tail.",
+    "The stop codon does not locate the 3′ cleavage site.",
+    "CPSF73 cuts RNA; PAP extends the new upstream end.",
+    "Cleavage and polymerase termination are distinct events.",
+    "PABPN1 and cytoplasmic PABPC have different roles.",
+    "A closed-loop mRNP is not a covalently circular RNA.",
+    "Replication-dependent histone mRNAs are a major exception.",
+    "Bacterial tailing may stimulate decay.",
+    "Tail length alone does not prove translation efficiency.",
+    "Relative isoform frequency is not absolute abundance."
+  ],
+  "recall": [
+    "Explain the origin of each phosphate in the cap bridge.",
+    "Predict products if methyltransferase alone is missing.",
+    "Draw signal, cleavage site and downstream element in order.",
+    "Describe both cleavage products and their distinct fates.",
+    "Explain why PAP uses ATP without a template.",
+    "Contrast PABPN1, PABPC and CBC.",
+    "Derive the first-order half-life relation.",
+    "Design a test for alternative cleavage rather than tail-length variation.",
+    "Explain why oligo(dT) selection can miss histone mRNA.",
+    "Distinguish nuclear mRNA tailing from bacterial tailing."
+  ]
+}

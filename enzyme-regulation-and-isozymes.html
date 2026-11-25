@@ -244,7 +244,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next curriculum node">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -427,7 +427,7 @@
 <p>For ATCase, recall the separation of regulatory and catalytic chains and the opposing effects of CTP and ATP. For glycogen metabolism, remember that phosphorylation generally promotes phosphorylase activity but reduces synthase activity, and that allostery provides an additional layer. For zymogens, distinguish precursor processing from reversible modulation. For LDH, understand the five H/M tetrameric compositions and the assumptions behind binomial assembly. For hexokinase and glucokinase, connect distinct glucose responses to tissue function without implying that they catalyse different net reactions.</p>
 <p>Four equations provide useful checkpoints: v = kcat[E]active[S]/(Km+[S]) for an appropriate Michaelis–Menten system; fss = a/(a+b) for a first-order modification cycle; Ess = s/kd and t½ = ln2/kd for first-order enzyme turnover; and d[X]/dt = total inputs − total outputs for a metabolite pool. For random assembly of n positions from two subunit types, use C(n,k)pᵏ(1−p)ⁿ⁻ᵏ only when the assumptions of independent assembly and comparable availability apply.</p>
 <p>The story of enzymes began with catalysis and ended with control. A living cell does not simply accumulate catalysts; it continually adjusts their behaviour to the availability of nutrients, energy requirements and the demands of different tissues. In Subunit 1.E, these regulatory principles become essential for understanding ATP, coupled reactions and metabolic pathways. The next chapter begins with biological energy transduction, linking chemical driving forces with controlled cellular work.</p><h3>References and further reading</h3><ul><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK9923/">Cooper, The Cell: A Molecular Approach, 2nd ed. — Regulation of Protein Function.</a> Feedback, covalent modification, proteolytic activation and gene expression.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26911/">Alberts et al., Molecular Biology of the Cell, 4th ed. — Protein Function.</a> Allostery, ATCase and protein regulation.</li><li><a href="https://pubmed.ncbi.nlm.nih.gov/23953008/">Kantrowitz, 2012/2013, From feedback inhibition to allostery: the enduring example of aspartate transcarbamoylase.</a> Historical and mechanistic context.</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/">Structure and Mechanisms of Escherichia coli Aspartate Transcarbamoylase.</a> Classical ATCase evidence and regulatory architecture.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK557536/">StatPearls, Biochemistry, Lactate Dehydrogenase.</a> Classical H/M isozyme compositions.</li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK539802/">StatPearls, Biochemistry, Glycogen.</a> Glycogen phosphorylase and synthase regulation.</li><li>Nelson and Cox, <em>Lehninger Principles of Biochemistry</em>, 8th ed., chapters on enzymes and metabolic regulation; Berg, Tymoczko, Gatto and Stryer, <em>Biochemistry</em>, 9th ed., chapters on enzyme regulation and carbohydrate metabolism.</li><li><a href="https://csirhrdg.res.in/Home/Index/1/InPage/37/26">CSIR-HRDG Life Sciences / Life Sciences and Biotechnology syllabus</a>, Unit 1, enzyme regulation and isozymes.</li></ul></section></div></article>
-        <nav class="node-navigation" aria-label="Curriculum navigation"><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Curriculum navigation"><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a><a href="bioenergetics-and-biological-energy-transduction.html">1.E.01 · Bioenergetics and Biological Energy Transduction →</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 1 · Structure and Function of Biomolecules</footer>
@@ -442,6 +442,7 @@
       "use strict";
       const root = document.documentElement, body = document.body;
       const byId = id => document.getElementById(id);
+      byId("next-node").addEventListener("click",()=>{location.href="bioenergetics-and-biological-energy-transduction.html";});
       const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
       const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
       const storageKey = "lsa-reading-prefs-v1";

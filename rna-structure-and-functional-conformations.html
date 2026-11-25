@@ -248,7 +248,7 @@
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
         <button class="nav-btn" type="button" id="previous-node" aria-label="Previous node 1.B.03: Nucleotide Chemistry and DNA Conformation" onclick="location.href='nucleotide-chemistry-and-dna-conformation.html'">← Previous Node</button>
-        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node">Next Node →</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" aria-label="Next node: Nucleic Acid Topology and Molecular Stability">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
         <div class="tool-group">
@@ -504,6 +504,7 @@
         document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
       }
     })();
-  </script>
+  document.getElementById("next-node").addEventListener("click",()=>location.href="nucleic-acid-topology-and-molecular-stability.html");
+</script>
 </body>
 </html>

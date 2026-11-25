@@ -4,113 +4,297 @@
   "unit": "04",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "4.A.06",
-  "title": "Receptor Tyrosine Kinases and the Ras–MAPK Signaling Cascade",
+  "node_id": "4.A.13",
+  "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
   "subunit": "4.A",
-  "topic": "Receptor Tyrosine Kinases and the Ras–MAPK Signaling Cascade",
-  "slug": "receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
+  "topic": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
+  "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
   "next_pending_node_id": "1.A.03",
   "next_pending_node_title": "Biological Solutions, pH and Buffer Systems",
-  "published_node_count": 127,
+  "published_node_count": 128,
   "publication_allowed": true,
-  "main_baseline_sha": "0ad35ffc411ce9db3102454a0b258f99c6ee7ad6",
+  "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages deployment for 4.A.06. Next pending Unit 4.A node: 4.A.01. Preserve global pending pointer.",
+  "next_required_action": "Verify Pages deployment for 4.A.13; global pending 1.A.03; Unit 4 pending 4.A.01.",
   "planned_node_count": 30,
   "planned_subunit_count": 6,
   "architecture_version": "unit-01-compact-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-01-structure-function-biomolecules-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-1a-chemical-biophysical-foundations-node-map.md",
   "last_qa": {
-    "node_id": "4.A.06",
-    "title": "Receptor Tyrosine Kinases and the Ras–MAPK Signaling Cascade",
+    "node_id": "4.A.13",
+    "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
     "unit": "04",
     "subunit": "4.A",
-    "slug": "receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
-    "narrative_words": 13948,
-    "visible_article_words": 20003,
+    "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
+    "status": "lesson_committed_pages_verification_pending",
+    "narrative_words": 14306,
+    "visible_article_words": 20212,
     "teaching_paragraphs": 144,
-    "theory_sections": 20,
-    "sections": 28,
-    "figures": 12,
+    "theory_sections": 16,
+    "sections": 24,
+    "figures": 13,
     "tables": 4,
-    "questions": 50,
+    "questions": 52,
+    "references": 28,
+    "html_bytes": 238970,
+    "revision_traps": 15,
+    "active_recall": 10,
+    "mastery_checklist": 6,
     "distribution": {
       "Part B": 20,
       "Part C": 20,
       "Assertion–Reason": 3,
       "Multiple statements": 3,
       "Matching": 2,
-      "Additional numerical": 1,
-      "Integrative experimental reasoning": 1
+      "Additional numerical": 2,
+      "Experimental interpretation": 1,
+      "Integrative reasoning": 1
     },
     "answer_positions": {
       "A": 13,
       "B": 13,
-      "C": 12,
-      "D": 12
+      "C": 13,
+      "D": 13
     },
-    "references": 26,
-    "html_bytes": 232470,
-    "revision_traps": 15,
-    "active_recall": 10,
-    "mastery_checklist": 8,
-    "method": "Unicode lexical word count of actual saved p.teaching-prose only; article count includes visible SVG labels, excludes title/desc and zoom buttons.",
+    "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
     "comparator": {
-      "node_id": "3.C.14",
-      "narrative_words": 14662,
-      "teaching_paragraphs": 149
+      "node_id": "4.A.07",
+      "narrative_words": 14453,
+      "teaching_paragraphs": 158,
+      "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
     },
     "scientific_checks": [
-      "Mapped 20 sections to roadmap and verified syllabus sources.",
-      "Reviewed ATP transfer, RTK dimerization and receptor exceptions, Grb2-SOS-Ras, GAP, Raf-MEK-ERK and TEY, transcription, PI3K-PTEN-PDK1-mTORC2.",
-      "Reviewed historical Cohen, Zhang, Buday–Downward, Sevenless genetics, Huang–Ferrell, Traverse, Marshall; labeled hypothetical datasets.",
-      "Corrected Grb2 and rescue diagram geometry, responsive tables, reference links and canonical in second editorial pass."
+      "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
+      "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
+      "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
+      "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
+      "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
+      "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
+    ],
+    "experimental_reasoning_cases": [
+      "conditioned medium and matched controls",
+      "purified LuxI evidence",
+      "LuxI signal supplementation",
+      "LuxR feedback loss",
+      "luciferase output defect",
+      "peptide precursor and maturation defects",
+      "AgrC kinase defect",
+      "LuxS metabolic vs signaling rescue",
+      "AI-2 uptake vs extracellular decline",
+      "signal retention and exchange",
+      "biofilm attachment vs dispersal",
+      "quenching vs viability",
+      "mixed producer/receiver populations",
+      "dose-response sensitivity vs affinity",
+      "reporter normalization and persistence"
     ],
     "arithmetic_checks": {
-      "count": 23,
-      "passed": 23,
-      "examples": [
-        "Ras steady state 0.2/0.6; 1 min 0.452848; 2 min 0.545866; GAP loss 0.923077",
-        "Hill n=1 0.333333/0.666667; n=4 0.058824/0.941176",
-        "Amplification 200, cap 120, pulse areas 1.6/8, ratio 5",
-        "Phosphorylation 0.75/0.25; PIP3 20/40/40; half-times 1.155245/2.310490 min"
+      "total": 30,
+      "passed": 30,
+      "details": [
+        {
+          "name": "signal at 2 h",
+          "actual": 25.284822353142307,
+          "expected": 25.3,
+          "pass": true
+        },
+        {
+          "name": "threshold time",
+          "actual": 2.772588722239781,
+          "expected": 2.77,
+          "pass": true
+        },
+        {
+          "name": "half-time",
+          "actual": 1.3862943611198906,
+          "expected": 1.39,
+          "pass": true
+        },
+        {
+          "name": "theta 2.5",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "name": "theta 10",
+          "actual": 0.5,
+          "expected": 0.5,
+          "pass": true
+        },
+        {
+          "name": "theta 40",
+          "actual": 0.8,
+          "expected": 0.8,
+          "pass": true
+        },
+        {
+          "name": "hill low h1",
+          "actual": 0.3333333333333333,
+          "expected": 0.3333333333333333,
+          "pass": true
+        },
+        {
+          "name": "hill low h3",
+          "actual": 0.1111111111111111,
+          "expected": 0.1111111111111111,
+          "pass": true
+        },
+        {
+          "name": "hill high h1",
+          "actual": 0.6666666666666666,
+          "expected": 0.6666666666666666,
+          "pass": true
+        },
+        {
+          "name": "hill high h3",
+          "actual": 0.8888888888888888,
+          "expected": 0.8888888888888888,
+          "pass": true
+        },
+        {
+          "name": "diffusion 60",
+          "actual": 2,
+          "expected": 2,
+          "pass": true
+        },
+        {
+          "name": "diffusion 120",
+          "actual": 8,
+          "expected": 8,
+          "pass": true
+        },
+        {
+          "name": "steady no exchange",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "name": "steady exchange",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "name": "protein one hour",
+          "actual": 90.48374180359595,
+          "expected": 90.5,
+          "pass": true
+        },
+        {
+          "name": "protein ten hours",
+          "actual": 36.787944117144235,
+          "expected": 36.8,
+          "pass": true
+        },
+        {
+          "name": "WT normalization",
+          "actual": 4,
+          "expected": 4,
+          "pass": true
+        },
+        {
+          "name": "mutant normalization",
+          "actual": 6,
+          "expected": 6,
+          "pass": true
+        },
+        {
+          "name": "Q25 ratio",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "name": "Q26 steady",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "name": "Q27 half time",
+          "actual": 1.3862943611198906,
+          "expected": 1.39,
+          "pass": true
+        },
+        {
+          "name": "Q28 occupancy",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "name": "Q29 hill h1",
+          "actual": 0.3333333333333333,
+          "expected": 0.3333333333333333,
+          "pass": true
+        },
+        {
+          "name": "Q29 hill h2",
+          "actual": 0.2,
+          "expected": 0.2,
+          "pass": true
+        },
+        {
+          "name": "Q36 steady",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "name": "Q37 protein",
+          "actual": 36.787944117144235,
+          "expected": 36.8,
+          "pass": true
+        },
+        {
+          "name": "Q38 producer fraction",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "name": "Q49 exchange",
+          "actual": 39.99999999999999,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "name": "Q50 diffusion",
+          "actual": 12,
+          "expected": 12,
+          "pass": true
+        },
+        {
+          "name": "Q51 normalization",
+          "actual": 1.5,
+          "expected": 1.5,
+          "pass": true
+        }
       ]
     },
     "technical_checks": {
-      "wordGate": true,
-      "duplicateParagraphs": 0,
-      "balancedMarkup": true,
-      "uniqueIds": 110,
-      "brokenAnchors": 0,
-      "svgLabels": true,
-      "zoomTargets": true,
-      "readerControls": true,
+      "word_gate": true,
+      "duplicate_paragraphs": true,
+      "unique_ids": true,
+      "anchors": true,
+      "svg_accessible_labels": true,
+      "zoom_targets": true,
+      "question_keys": true,
+      "balanced_html": true,
+      "local_published_links": true,
+      "reader_controls": true,
+      "dynamic_neighbors": true,
       "canonical": true,
-      "questionKeys": true,
-      "questionCount": true,
-      "arithmetic": true,
-      "internalLinks": true,
-      "noStaleTitles": true,
-      "menu": true,
-      "sitemap": true,
-      "checkpoint": true,
-      "neighborChecks": [
-        {
-          "node": "4.A.05",
-          "status": "Reciprocal navigation source verified"
-        },
-        {
-          "node": "4.A.07",
-          "status": "Reciprocal navigation source verified"
-        }
-      ],
-      "interactiveBrowserTest": false
+      "no_stale_title": true,
+      "arithmetic": true
     },
     "academic_self_review": {
       "scope_20": 20,
@@ -121,20 +305,35 @@
       "technical_10": 8,
       "total": 95,
       "maximum": 100,
-      "method": "Separate internal author review, not external peer review. Deductions for source access, illustrative datasets, grouped distractor explanations and missing browser/mobile/accessibility audit."
+      "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
     },
     "limitations": [
-      "Not every full paper or textbook edition independently accessed.",
-      "MP SET comparator archived 2024 syllabus.",
-      "Static source checks only; no interactive browser/mobile or full accessibility audit.",
-      "Slug follows repository convention.",
-      "Deployment pending at commit."
+      "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
+      "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
+      "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
+      "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
+      "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
+      "Draft robots metadata is noindex; public candidate changes to index,follow only."
     ],
     "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-    "main_baseline_sha": "0ad35ffc411ce9db3102454a0b258f99c6ee7ad6",
-    "source_draft_branch": "draft/node-4-a-06-rtk-mapk",
-    "draft_commit_sha": "13f18d453ae585db64698faf88df98a16b95bc8c",
-    "status": "lesson_committed_pages_verification_pending"
+    "source_draft_branch": "draft/node-4a13-quorum-sensing",
+    "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
+    "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
+    "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
+    "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
+    "chapter_blob_sha": "15def3c812aebc05286c8833d6f95122f8d9788c",
+    "concurrent_reconciliation": {
+      "global_published_before": 127,
+      "global_published_after": 128,
+      "unit_04_published_after": 10,
+      "subunit_4a_published_after": 10,
+      "subunit_4a_planned": 13,
+      "next_pending_unit_04": "4.A.01",
+      "next_pending_global": "1.A.03",
+      "previous_neighbor": "4.A.12",
+      "next_neighbor": "4.B.01",
+      "reciprocal_navigation": "Existing dynamic index-based navigation; 4.A.12 points to 4.A.13; unpublished 4.B.01 remains disabled."
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -259,11 +458,12 @@
     "4.A.03",
     "4.A.04",
     "4.A.05",
+    "4.A.06",
     "4.A.07",
     "4.A.08",
     "4.A.09",
     "4.A.12",
-    "4.A.06"
+    "4.A.13"
   ],
   "prior_publication_qa": {
     "node_id": "4.A.12",
@@ -402,105 +602,115 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "4.A.08",
-    "title": "Regulation and Integration of Cell-Signaling Pathways",
+    "node_id": "4.A.06",
+    "title": "Receptor Tyrosine Kinases and the Ras–MAPK Signaling Cascade",
     "unit": "04",
     "subunit": "4.A",
-    "slug": "regulation-and-integration-of-cell-signaling-pathways.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-and-integration-of-cell-signaling-pathways.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "narrative_words": 14014,
-    "visible_article_words": 19422,
-    "teaching_paragraphs": 138,
-    "theory_sections": 27,
-    "sections": 33,
+    "slug": "receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
+    "narrative_words": 13948,
+    "visible_article_words": 20003,
+    "teaching_paragraphs": 144,
+    "theory_sections": 20,
+    "sections": 28,
     "figures": 12,
-    "tables": 2,
-    "questions": 52,
+    "tables": 4,
+    "questions": 50,
     "distribution": {
       "Part B": 20,
       "Part C": 20,
-      "Assertion-reason": 6,
-      "Multiple-statement": 4,
-      "Matching": 2
+      "Assertion–Reason": 3,
+      "Multiple statements": 3,
+      "Matching": 2,
+      "Additional numerical": 1,
+      "Integrative experimental reasoning": 1
     },
-    "answer_key_positions": {
-      "A": 15,
-      "B": 12,
-      "C": 13,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 12,
       "D": 12
     },
     "references": 26,
-    "revision_traps": 14,
-    "active_recall": 8,
-    "mastery_checklist": 6,
-    "html_bytes": 221091,
-    "method": "Retrieved root draft blob; counted Unicode lexical tokens only within explicit teaching-prose paragraphs, excluding markup, reference notes, headings, SVGs, tables and practice. Article count excludes SVG titles/descriptions and enlargement buttons but includes other student-facing article text.",
-    "comparator": "Inspected published 3.C.14 reader at initial baseline and 4.A.07 at 8f7bcb45811d275bde044b710733ef0f0c187beb (14416 narrative words, 158 teaching paragraphs, 15 SVGs by same counting approach); similar narrative scale, reader reused; distinct regulatory focus.",
+    "html_bytes": 232470,
+    "revision_traps": 15,
+    "active_recall": 10,
+    "mastery_checklist": 8,
+    "method": "Unicode lexical word count of actual saved p.teaching-prose only; article count includes visible SVG labels, excludes title/desc and zoom buttons.",
+    "comparator": {
+      "node_id": "3.C.14",
+      "narrative_words": 14662,
+      "teaching_paragraphs": 149
+    },
     "scientific_checks": [
-      "Official revised CSIR-NET and legacy syllabi and MP SET 2024 archived syllabus; roadmap coverage checked.",
-      "Checked GTP hydrolysis/RGS, GRK/arrestin and receptor trafficking, opposing phosphorylation and PTEN, PDE feedback, calcium recovery and buffers, scaffold specificity, cross-talk, temporal coding, adaptation and experimental inference.",
-      "Reviewed selected Alberts/NCBI teaching material and primary/review source records; added Benovic reconstitution, Traverse PC12 studies, and RGS9 knockout evidence with limitations.",
-      "Separate editorial pass revised 31 distractors, shuffled initial answer pattern, strengthened evidence, corrected diagram feedback/docking and marker handling; hypothetical datasets clearly marked."
+      "Mapped 20 sections to roadmap and verified syllabus sources.",
+      "Reviewed ATP transfer, RTK dimerization and receptor exceptions, Grb2-SOS-Ras, GAP, Raf-MEK-ERK and TEY, transcription, PI3K-PTEN-PDK1-mTORC2.",
+      "Reviewed historical Cohen, Zhang, Buday–Downward, Sevenless genetics, Huang–Ferrell, Traverse, Marshall; labeled hypothetical datasets.",
+      "Corrected Grb2 and rescue diagram geometry, responsive tables, reference links and canonical in second editorial pass."
     ],
     "arithmetic_checks": {
-      "verified_25_programmatic_calculations": true,
-      "q27_expected": 15,
-      "note": "Recomputed G-protein active fractions and half-lives, messenger steady-state and decay, phosphorylation fractions, hypothetical data clearance rates, amplification and numerical practice; Q27 independently recalculated."
+      "count": 23,
+      "passed": 23,
+      "examples": [
+        "Ras steady state 0.2/0.6; 1 min 0.452848; 2 min 0.545866; GAP loss 0.923077",
+        "Hill n=1 0.333333/0.666667; n=4 0.058824/0.941176",
+        "Amplification 200, cap 120, pulse areas 1.6/8, ratio 5",
+        "Phosphorylation 0.75/0.25; PIP3 20/40/40; half-times 1.155245/2.310490 min"
+      ]
     },
     "technical_checks": {
-      "word_count_pass": true,
-      "duplicate_exact_paragraphs": 0,
-      "balanced_markup_stack": true,
-      "duplicate_ids": 0,
-      "internal_anchors": 76,
-      "missing_anchor_or_aria_or_marker_targets": 0,
-      "svg_title_desc_labels": 12,
-      "zoom_targets": 12,
-      "question_options_and_answer_labels": 52,
+      "wordGate": true,
+      "duplicateParagraphs": 0,
+      "balancedMarkup": true,
+      "uniqueIds": 110,
+      "brokenAnchors": 0,
+      "svgLabels": true,
+      "zoomTargets": true,
+      "readerControls": true,
       "canonical": true,
-      "related_links_verified": 7,
-      "reader_source_and_dynamic_adjacent_navigation": true,
-      "interactive_browser_testing": false
-    },
-    "academic_self_review": {
-      "scope": 20,
-      "accuracy": 24,
-      "teaching_depth": 19,
-      "experimental_quantitative": 14,
-      "practice": 9,
-      "technical": 9,
-      "total": 95,
-      "method": "Internal critical author review, not external peer review. Full roadmap scope; deductions for limited access to some full scientific papers, necessary reinforcement of concepts, abstract-level evidence for some experiments, a few straightforward distractors, and untested browser interactions."
-    },
-    "limitations": [
-      "Selected full text and bibliographic records only; not every cited source read in full.",
-      "State SET comparison used archived MP SET 2024 syllabus, not independently verified current MPPSC syllabus.",
-      "Static HTML/SVG/source validation; no interactive browser/mobile or formal accessibility audit.",
-      "New slug follows existing title-based convention. Deployment must be verified separately."
-    ],
-    "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-    "main_baseline_sha": "f1668a827d9eeeaeee9fee2b55847afdf3a52624",
-    "source_draft_branch": "draft/node-4a08-signaling-regulation",
-    "draft_commit_sha": "5d0155ea16a76f0a9bf11f9874eb4c8a6848a97a",
-    "chapter_blob_sha": "871ab3ef7ec7c5d7bc502e93a16926185576e49c",
-    "concurrent_reconciliation": {
-      "published_nodes_after": 126,
-      "unit4_after": 8,
-      "subunit4a_after": 8,
-      "unit4_pending": "4.A.01",
-      "global_pending": "1.A.03",
-      "neighbors": [
+      "questionKeys": true,
+      "questionCount": true,
+      "arithmetic": true,
+      "internalLinks": true,
+      "noStaleTitles": true,
+      "menu": true,
+      "sitemap": true,
+      "checkpoint": true,
+      "neighborChecks": [
         {
-          "id": "4.A.07",
-          "published": true
+          "node": "4.A.05",
+          "status": "Reciprocal navigation source verified"
         },
         {
-          "id": "4.A.09",
-          "published": true
+          "node": "4.A.07",
+          "status": "Reciprocal navigation source verified"
         }
-      ]
-    }
+      ],
+      "interactiveBrowserTest": false
+    },
+    "academic_self_review": {
+      "scope_20": 20,
+      "accuracy_25": 24,
+      "depth_20": 20,
+      "evidence_quantitative_15": 14,
+      "practice_10": 9,
+      "technical_10": 8,
+      "total": 95,
+      "maximum": 100,
+      "method": "Separate internal author review, not external peer review. Deductions for source access, illustrative datasets, grouped distractor explanations and missing browser/mobile/accessibility audit."
+    },
+    "limitations": [
+      "Not every full paper or textbook edition independently accessed.",
+      "MP SET comparator archived 2024 syllabus.",
+      "Static source checks only; no interactive browser/mobile or full accessibility audit.",
+      "Slug follows repository convention.",
+      "Deployment pending at commit."
+    ],
+    "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
+    "main_baseline_sha": "0ad35ffc411ce9db3102454a0b258f99c6ee7ad6",
+    "source_draft_branch": "draft/node-4-a-06-rtk-mapk",
+    "draft_commit_sha": "13f18d453ae585db64698faf88df98a16b95bc8c",
+    "status": "lesson_committed_pages_verification_pending"
   },
   "unit_02": {
     "published_node_ids": [
@@ -6388,7 +6598,8 @@
     "4.A.07",
     "4.A.08",
     "4.A.09",
-    "4.A.12"
+    "4.A.12",
+    "4.A.13"
   ],
   "unit4a_planned_node_count": 13,
   "unit_04": {
@@ -6401,99 +6612,284 @@
       "4.A.07",
       "4.A.08",
       "4.A.09",
-      "4.A.12"
+      "4.A.12",
+      "4.A.13"
     ],
-    "published_node_count": 9,
+    "published_node_count": 10,
     "planned_node_count": 61,
-    "last_published_node_id": "4.A.06",
+    "last_published_node_id": "4.A.13",
     "updated_at": "2026-11-25",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "4.A.06",
-      "title": "Receptor Tyrosine Kinases and the Ras–MAPK Signaling Cascade",
+      "node_id": "4.A.13",
+      "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
       "unit": "04",
       "subunit": "4.A",
-      "slug": "receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
-      "narrative_words": 13948,
-      "visible_article_words": 20003,
+      "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
+      "status": "lesson_committed_pages_verification_pending",
+      "narrative_words": 14306,
+      "visible_article_words": 20212,
       "teaching_paragraphs": 144,
-      "theory_sections": 20,
-      "sections": 28,
-      "figures": 12,
+      "theory_sections": 16,
+      "sections": 24,
+      "figures": 13,
       "tables": 4,
-      "questions": 50,
+      "questions": 52,
+      "references": 28,
+      "html_bytes": 238970,
+      "revision_traps": 15,
+      "active_recall": 10,
+      "mastery_checklist": 6,
       "distribution": {
         "Part B": 20,
         "Part C": 20,
         "Assertion–Reason": 3,
         "Multiple statements": 3,
         "Matching": 2,
-        "Additional numerical": 1,
-        "Integrative experimental reasoning": 1
+        "Additional numerical": 2,
+        "Experimental interpretation": 1,
+        "Integrative reasoning": 1
       },
       "answer_positions": {
         "A": 13,
         "B": 13,
-        "C": 12,
-        "D": 12
+        "C": 13,
+        "D": 13
       },
-      "references": 26,
-      "html_bytes": 232470,
-      "revision_traps": 15,
-      "active_recall": 10,
-      "mastery_checklist": 8,
-      "method": "Unicode lexical word count of actual saved p.teaching-prose only; article count includes visible SVG labels, excludes title/desc and zoom buttons.",
+      "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
       "comparator": {
-        "node_id": "3.C.14",
-        "narrative_words": 14662,
-        "teaching_paragraphs": 149
+        "node_id": "4.A.07",
+        "narrative_words": 14453,
+        "teaching_paragraphs": 158,
+        "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
       },
       "scientific_checks": [
-        "Mapped 20 sections to roadmap and verified syllabus sources.",
-        "Reviewed ATP transfer, RTK dimerization and receptor exceptions, Grb2-SOS-Ras, GAP, Raf-MEK-ERK and TEY, transcription, PI3K-PTEN-PDK1-mTORC2.",
-        "Reviewed historical Cohen, Zhang, Buday–Downward, Sevenless genetics, Huang–Ferrell, Traverse, Marshall; labeled hypothetical datasets.",
-        "Corrected Grb2 and rescue diagram geometry, responsive tables, reference links and canonical in second editorial pass."
+        "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
+        "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
+        "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
+        "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
+        "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
+        "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
+      ],
+      "experimental_reasoning_cases": [
+        "conditioned medium and matched controls",
+        "purified LuxI evidence",
+        "LuxI signal supplementation",
+        "LuxR feedback loss",
+        "luciferase output defect",
+        "peptide precursor and maturation defects",
+        "AgrC kinase defect",
+        "LuxS metabolic vs signaling rescue",
+        "AI-2 uptake vs extracellular decline",
+        "signal retention and exchange",
+        "biofilm attachment vs dispersal",
+        "quenching vs viability",
+        "mixed producer/receiver populations",
+        "dose-response sensitivity vs affinity",
+        "reporter normalization and persistence"
       ],
       "arithmetic_checks": {
-        "count": 23,
-        "passed": 23,
-        "examples": [
-          "Ras steady state 0.2/0.6; 1 min 0.452848; 2 min 0.545866; GAP loss 0.923077",
-          "Hill n=1 0.333333/0.666667; n=4 0.058824/0.941176",
-          "Amplification 200, cap 120, pulse areas 1.6/8, ratio 5",
-          "Phosphorylation 0.75/0.25; PIP3 20/40/40; half-times 1.155245/2.310490 min"
+        "total": 30,
+        "passed": 30,
+        "details": [
+          {
+            "name": "signal at 2 h",
+            "actual": 25.284822353142307,
+            "expected": 25.3,
+            "pass": true
+          },
+          {
+            "name": "threshold time",
+            "actual": 2.772588722239781,
+            "expected": 2.77,
+            "pass": true
+          },
+          {
+            "name": "half-time",
+            "actual": 1.3862943611198906,
+            "expected": 1.39,
+            "pass": true
+          },
+          {
+            "name": "theta 2.5",
+            "actual": 0.2,
+            "expected": 0.2,
+            "pass": true
+          },
+          {
+            "name": "theta 10",
+            "actual": 0.5,
+            "expected": 0.5,
+            "pass": true
+          },
+          {
+            "name": "theta 40",
+            "actual": 0.8,
+            "expected": 0.8,
+            "pass": true
+          },
+          {
+            "name": "hill low h1",
+            "actual": 0.3333333333333333,
+            "expected": 0.3333333333333333,
+            "pass": true
+          },
+          {
+            "name": "hill low h3",
+            "actual": 0.1111111111111111,
+            "expected": 0.1111111111111111,
+            "pass": true
+          },
+          {
+            "name": "hill high h1",
+            "actual": 0.6666666666666666,
+            "expected": 0.6666666666666666,
+            "pass": true
+          },
+          {
+            "name": "hill high h3",
+            "actual": 0.8888888888888888,
+            "expected": 0.8888888888888888,
+            "pass": true
+          },
+          {
+            "name": "diffusion 60",
+            "actual": 2,
+            "expected": 2,
+            "pass": true
+          },
+          {
+            "name": "diffusion 120",
+            "actual": 8,
+            "expected": 8,
+            "pass": true
+          },
+          {
+            "name": "steady no exchange",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "name": "steady exchange",
+            "actual": 20,
+            "expected": 20,
+            "pass": true
+          },
+          {
+            "name": "protein one hour",
+            "actual": 90.48374180359595,
+            "expected": 90.5,
+            "pass": true
+          },
+          {
+            "name": "protein ten hours",
+            "actual": 36.787944117144235,
+            "expected": 36.8,
+            "pass": true
+          },
+          {
+            "name": "WT normalization",
+            "actual": 4,
+            "expected": 4,
+            "pass": true
+          },
+          {
+            "name": "mutant normalization",
+            "actual": 6,
+            "expected": 6,
+            "pass": true
+          },
+          {
+            "name": "Q25 ratio",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "name": "Q26 steady",
+            "actual": 60,
+            "expected": 60,
+            "pass": true
+          },
+          {
+            "name": "Q27 half time",
+            "actual": 1.3862943611198906,
+            "expected": 1.39,
+            "pass": true
+          },
+          {
+            "name": "Q28 occupancy",
+            "actual": 0.75,
+            "expected": 0.75,
+            "pass": true
+          },
+          {
+            "name": "Q29 hill h1",
+            "actual": 0.3333333333333333,
+            "expected": 0.3333333333333333,
+            "pass": true
+          },
+          {
+            "name": "Q29 hill h2",
+            "actual": 0.2,
+            "expected": 0.2,
+            "pass": true
+          },
+          {
+            "name": "Q36 steady",
+            "actual": 20,
+            "expected": 20,
+            "pass": true
+          },
+          {
+            "name": "Q37 protein",
+            "actual": 36.787944117144235,
+            "expected": 36.8,
+            "pass": true
+          },
+          {
+            "name": "Q38 producer fraction",
+            "actual": 0.25,
+            "expected": 0.25,
+            "pass": true
+          },
+          {
+            "name": "Q49 exchange",
+            "actual": 39.99999999999999,
+            "expected": 40,
+            "pass": true
+          },
+          {
+            "name": "Q50 diffusion",
+            "actual": 12,
+            "expected": 12,
+            "pass": true
+          },
+          {
+            "name": "Q51 normalization",
+            "actual": 1.5,
+            "expected": 1.5,
+            "pass": true
+          }
         ]
       },
       "technical_checks": {
-        "wordGate": true,
-        "duplicateParagraphs": 0,
-        "balancedMarkup": true,
-        "uniqueIds": 110,
-        "brokenAnchors": 0,
-        "svgLabels": true,
-        "zoomTargets": true,
-        "readerControls": true,
+        "word_gate": true,
+        "duplicate_paragraphs": true,
+        "unique_ids": true,
+        "anchors": true,
+        "svg_accessible_labels": true,
+        "zoom_targets": true,
+        "question_keys": true,
+        "balanced_html": true,
+        "local_published_links": true,
+        "reader_controls": true,
+        "dynamic_neighbors": true,
         "canonical": true,
-        "questionKeys": true,
-        "questionCount": true,
-        "arithmetic": true,
-        "internalLinks": true,
-        "noStaleTitles": true,
-        "menu": true,
-        "sitemap": true,
-        "checkpoint": true,
-        "neighborChecks": [
-          {
-            "node": "4.A.05",
-            "status": "Reciprocal navigation source verified"
-          },
-          {
-            "node": "4.A.07",
-            "status": "Reciprocal navigation source verified"
-          }
-        ],
-        "interactiveBrowserTest": false
+        "no_stale_title": true,
+        "arithmetic": true
       },
       "academic_self_review": {
         "scope_20": 20,
@@ -6504,20 +6900,35 @@
         "technical_10": 8,
         "total": 95,
         "maximum": 100,
-        "method": "Separate internal author review, not external peer review. Deductions for source access, illustrative datasets, grouped distractor explanations and missing browser/mobile/accessibility audit."
+        "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
       },
       "limitations": [
-        "Not every full paper or textbook edition independently accessed.",
-        "MP SET comparator archived 2024 syllabus.",
-        "Static source checks only; no interactive browser/mobile or full accessibility audit.",
-        "Slug follows repository convention.",
-        "Deployment pending at commit."
+        "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
+        "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
+        "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
+        "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
+        "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
+        "Draft robots metadata is noindex; public candidate changes to index,follow only."
       ],
       "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-      "main_baseline_sha": "0ad35ffc411ce9db3102454a0b258f99c6ee7ad6",
-      "source_draft_branch": "draft/node-4-a-06-rtk-mapk",
-      "draft_commit_sha": "13f18d453ae585db64698faf88df98a16b95bc8c",
-      "status": "lesson_committed_pages_verification_pending"
+      "source_draft_branch": "draft/node-4a13-quorum-sensing",
+      "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
+      "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
+      "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
+      "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
+      "chapter_blob_sha": "15def3c812aebc05286c8833d6f95122f8d9788c",
+      "concurrent_reconciliation": {
+        "global_published_before": 127,
+        "global_published_after": 128,
+        "unit_04_published_after": 10,
+        "subunit_4a_published_after": 10,
+        "subunit_4a_planned": 13,
+        "next_pending_unit_04": "4.A.01",
+        "next_pending_global": "1.A.03",
+        "previous_neighbor": "4.A.12",
+        "next_neighbor": "4.B.01",
+        "reciprocal_navigation": "Existing dynamic index-based navigation; 4.A.12 points to 4.A.13; unpublished 4.B.01 remains disabled."
+      }
     },
     "qa_by_node": {
       "4.A.02": {
@@ -7734,129 +8145,430 @@
         "source_draft_branch": "draft/node-4-a-06-rtk-mapk",
         "draft_commit_sha": "13f18d453ae585db64698faf88df98a16b95bc8c",
         "status": "lesson_committed_pages_verification_pending"
+      },
+      "4.A.13": {
+        "node_id": "4.A.13",
+        "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
+        "unit": "04",
+        "subunit": "4.A",
+        "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
+        "status": "lesson_committed_pages_verification_pending",
+        "narrative_words": 14306,
+        "visible_article_words": 20212,
+        "teaching_paragraphs": 144,
+        "theory_sections": 16,
+        "sections": 24,
+        "figures": 13,
+        "tables": 4,
+        "questions": 52,
+        "references": 28,
+        "html_bytes": 238970,
+        "revision_traps": 15,
+        "active_recall": 10,
+        "mastery_checklist": 6,
+        "distribution": {
+          "Part B": 20,
+          "Part C": 20,
+          "Assertion–Reason": 3,
+          "Multiple statements": 3,
+          "Matching": 2,
+          "Additional numerical": 2,
+          "Experimental interpretation": 1,
+          "Integrative reasoning": 1
+        },
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        },
+        "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
+        "comparator": {
+          "node_id": "4.A.07",
+          "narrative_words": 14453,
+          "teaching_paragraphs": 158,
+          "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
+        },
+        "scientific_checks": [
+          "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
+          "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
+          "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
+          "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
+          "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
+          "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
+        ],
+        "experimental_reasoning_cases": [
+          "conditioned medium and matched controls",
+          "purified LuxI evidence",
+          "LuxI signal supplementation",
+          "LuxR feedback loss",
+          "luciferase output defect",
+          "peptide precursor and maturation defects",
+          "AgrC kinase defect",
+          "LuxS metabolic vs signaling rescue",
+          "AI-2 uptake vs extracellular decline",
+          "signal retention and exchange",
+          "biofilm attachment vs dispersal",
+          "quenching vs viability",
+          "mixed producer/receiver populations",
+          "dose-response sensitivity vs affinity",
+          "reporter normalization and persistence"
+        ],
+        "arithmetic_checks": {
+          "total": 30,
+          "passed": 30,
+          "details": [
+            {
+              "name": "signal at 2 h",
+              "actual": 25.284822353142307,
+              "expected": 25.3,
+              "pass": true
+            },
+            {
+              "name": "threshold time",
+              "actual": 2.772588722239781,
+              "expected": 2.77,
+              "pass": true
+            },
+            {
+              "name": "half-time",
+              "actual": 1.3862943611198906,
+              "expected": 1.39,
+              "pass": true
+            },
+            {
+              "name": "theta 2.5",
+              "actual": 0.2,
+              "expected": 0.2,
+              "pass": true
+            },
+            {
+              "name": "theta 10",
+              "actual": 0.5,
+              "expected": 0.5,
+              "pass": true
+            },
+            {
+              "name": "theta 40",
+              "actual": 0.8,
+              "expected": 0.8,
+              "pass": true
+            },
+            {
+              "name": "hill low h1",
+              "actual": 0.3333333333333333,
+              "expected": 0.3333333333333333,
+              "pass": true
+            },
+            {
+              "name": "hill low h3",
+              "actual": 0.1111111111111111,
+              "expected": 0.1111111111111111,
+              "pass": true
+            },
+            {
+              "name": "hill high h1",
+              "actual": 0.6666666666666666,
+              "expected": 0.6666666666666666,
+              "pass": true
+            },
+            {
+              "name": "hill high h3",
+              "actual": 0.8888888888888888,
+              "expected": 0.8888888888888888,
+              "pass": true
+            },
+            {
+              "name": "diffusion 60",
+              "actual": 2,
+              "expected": 2,
+              "pass": true
+            },
+            {
+              "name": "diffusion 120",
+              "actual": 8,
+              "expected": 8,
+              "pass": true
+            },
+            {
+              "name": "steady no exchange",
+              "actual": 60,
+              "expected": 60,
+              "pass": true
+            },
+            {
+              "name": "steady exchange",
+              "actual": 20,
+              "expected": 20,
+              "pass": true
+            },
+            {
+              "name": "protein one hour",
+              "actual": 90.48374180359595,
+              "expected": 90.5,
+              "pass": true
+            },
+            {
+              "name": "protein ten hours",
+              "actual": 36.787944117144235,
+              "expected": 36.8,
+              "pass": true
+            },
+            {
+              "name": "WT normalization",
+              "actual": 4,
+              "expected": 4,
+              "pass": true
+            },
+            {
+              "name": "mutant normalization",
+              "actual": 6,
+              "expected": 6,
+              "pass": true
+            },
+            {
+              "name": "Q25 ratio",
+              "actual": 0.25,
+              "expected": 0.25,
+              "pass": true
+            },
+            {
+              "name": "Q26 steady",
+              "actual": 60,
+              "expected": 60,
+              "pass": true
+            },
+            {
+              "name": "Q27 half time",
+              "actual": 1.3862943611198906,
+              "expected": 1.39,
+              "pass": true
+            },
+            {
+              "name": "Q28 occupancy",
+              "actual": 0.75,
+              "expected": 0.75,
+              "pass": true
+            },
+            {
+              "name": "Q29 hill h1",
+              "actual": 0.3333333333333333,
+              "expected": 0.3333333333333333,
+              "pass": true
+            },
+            {
+              "name": "Q29 hill h2",
+              "actual": 0.2,
+              "expected": 0.2,
+              "pass": true
+            },
+            {
+              "name": "Q36 steady",
+              "actual": 20,
+              "expected": 20,
+              "pass": true
+            },
+            {
+              "name": "Q37 protein",
+              "actual": 36.787944117144235,
+              "expected": 36.8,
+              "pass": true
+            },
+            {
+              "name": "Q38 producer fraction",
+              "actual": 0.25,
+              "expected": 0.25,
+              "pass": true
+            },
+            {
+              "name": "Q49 exchange",
+              "actual": 39.99999999999999,
+              "expected": 40,
+              "pass": true
+            },
+            {
+              "name": "Q50 diffusion",
+              "actual": 12,
+              "expected": 12,
+              "pass": true
+            },
+            {
+              "name": "Q51 normalization",
+              "actual": 1.5,
+              "expected": 1.5,
+              "pass": true
+            }
+          ]
+        },
+        "technical_checks": {
+          "word_gate": true,
+          "duplicate_paragraphs": true,
+          "unique_ids": true,
+          "anchors": true,
+          "svg_accessible_labels": true,
+          "zoom_targets": true,
+          "question_keys": true,
+          "balanced_html": true,
+          "local_published_links": true,
+          "reader_controls": true,
+          "dynamic_neighbors": true,
+          "canonical": true,
+          "no_stale_title": true,
+          "arithmetic": true
+        },
+        "academic_self_review": {
+          "scope_20": 20,
+          "accuracy_25": 24,
+          "depth_20": 20,
+          "evidence_quantitative_15": 14,
+          "practice_10": 9,
+          "technical_10": 8,
+          "total": 95,
+          "maximum": 100,
+          "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
+        },
+        "limitations": [
+          "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
+          "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
+          "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
+          "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
+          "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
+          "Draft robots metadata is noindex; public candidate changes to index,follow only."
+        ],
+        "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
+        "source_draft_branch": "draft/node-4a13-quorum-sensing",
+        "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
+        "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
+        "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
+        "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
+        "chapter_blob_sha": "15def3c812aebc05286c8833d6f95122f8d9788c",
+        "concurrent_reconciliation": {
+          "global_published_before": 127,
+          "global_published_after": 128,
+          "unit_04_published_after": 10,
+          "subunit_4a_published_after": 10,
+          "subunit_4a_planned": 13,
+          "next_pending_unit_04": "4.A.01",
+          "next_pending_global": "1.A.03",
+          "previous_neighbor": "4.A.12",
+          "next_neighbor": "4.B.01",
+          "reciprocal_navigation": "Existing dynamic index-based navigation; 4.A.12 points to 4.A.13; unpublished 4.B.01 remains disabled."
+        }
       }
     },
     "next_pending_node_id": "4.A.01",
     "next_pending_node_title": "Principles of Cell Signaling: Signals, Receptors and Responses",
     "previous_last_qa": {
-      "node_id": "4.A.05",
-      "title": "Phosphoinositide, IP₃, DAG and Calcium Signaling",
+      "node_id": "4.A.06",
+      "title": "Receptor Tyrosine Kinases and the Ras–MAPK Signaling Cascade",
       "unit": "04",
       "subunit": "4.A",
-      "slug": "phosphoinositide-ip3-dag-and-calcium-signaling.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/phosphoinositide-ip3-dag-and-calcium-signaling.html",
-      "status": "lesson_committed_pages_verification_pending",
-      "narrative_words": 13739,
-      "visible_article_words": 19047,
-      "visible_article_words_excluding_svg_labels": 18814,
-      "svg_label_words": 233,
-      "teaching_paragraphs": 124,
-      "theory_sections": 17,
-      "sections": 26,
-      "figures": 14,
-      "tables": 3,
-      "questions": 54,
+      "slug": "receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/receptor-tyrosine-kinases-and-the-ras-mapk-signaling-cascade.html",
+      "narrative_words": 13948,
+      "visible_article_words": 20003,
+      "teaching_paragraphs": 144,
+      "theory_sections": 20,
+      "sections": 28,
+      "figures": 12,
+      "tables": 4,
+      "questions": 50,
       "distribution": {
-        "Part B": 18,
+        "Part B": 20,
         "Part C": 20,
-        "Numerical": 8,
-        "Assertion–Reason": 4,
-        "Multiple statements": 2,
-        "Matching": 2
+        "Assertion–Reason": 3,
+        "Multiple statements": 3,
+        "Matching": 2,
+        "Additional numerical": 1,
+        "Integrative experimental reasoning": 1
       },
-      "answer_key_positions": {
+      "answer_positions": {
         "A": 13,
-        "B": 17,
-        "C": 11,
-        "D": 13
+        "B": 13,
+        "C": 12,
+        "D": 12
       },
-      "references": 19,
+      "references": 26,
+      "html_bytes": 232470,
       "revision_traps": 15,
-      "active_recall_and_mastery_checklist": 12,
-      "html_bytes": 218295,
-      "method": "Unicode lexical count from retrieved saved p.teaching-prose HTML, excluding headings, SVG, tables, captions, questions, answers, revision, references and reader UI. Article count includes supplementary article words and visible SVG text labels, excludes SVG title/description, zoom controls and reader UI.",
+      "active_recall": 10,
+      "mastery_checklist": 8,
+      "method": "Unicode lexical word count of actual saved p.teaching-prose only; article count includes visible SVG labels, excludes title/desc and zoom buttons.",
       "comparator": {
-        "node_id": "4.A.04",
-        "narrative_words": 14766,
-        "teaching_paragraphs": 144,
-        "method": "Retrieved actual neighboring published HTML on main; same lexical method. Compared reader structure and mechanistic narrative scale; avoided duplicating cyclic-nucleotide teaching."
+        "node_id": "3.C.14",
+        "narrative_words": 14662,
+        "teaching_paragraphs": 149
       },
       "scientific_checks": [
-        "Mapped to repository roadmap 4.A.05, official merged CSIR-NET Life Sciences and Biotechnology Unit 4.A, separate Life Sciences Unit 4.B and archived MP SET 2024 Unit 4.B.",
-        "Reviewed PI/PIP2 topology, receptor-mediated PLCβ/γ activation, phosphodiester hydrolysis, IP3 and DAG localization, IP3R channel gating and electrochemical gradient, SERCA and store-operated STIM/Orai entry, EF-hands, calmodulin, CaMKII autophosphorylation, PKC class requirements, DAG kinase and inositol phosphate turnover, buffering, calcium oscillation encoding and direct vs indirect effects.",
-        "Checked source records and accessible authoritative chapters/reviews for historical Streb, Burgess, Berridge and De Koninck/Schulman experiments and modern mechanisms; distinguished hypothetical datasets from documented evidence.",
-        "Separate editorial review strengthened 40 distractors, expanded mechanistic caveats and source attribution, verified prerequisites, diagram labels and responsive table wrappers."
+        "Mapped 20 sections to roadmap and verified syllabus sources.",
+        "Reviewed ATP transfer, RTK dimerization and receptor exceptions, Grb2-SOS-Ras, GAP, Raf-MEK-ERK and TEY, transcription, PI3K-PTEN-PDK1-mTORC2.",
+        "Reviewed historical Cohen, Zhang, Buday–Downward, Sevenless genetics, Huang–Ferrell, Traverse, Marshall; labeled hypothetical datasets.",
+        "Corrected Grb2 and rescue diagram geometry, responsive tables, reference links and canonical in second editorial pass."
       ],
       "arithmetic_checks": {
-        "passed": 27,
-        "total": 27,
+        "count": 23,
+        "passed": 23,
         "examples": [
-          "120000×0.75=90000; ×0.5=60000",
-          "RT ln(0.1/500)=-21.95 kJ/mol",
-          "CaM fractional occupancy 1/6 to 2/3, 4-fold",
-          "Pulse exposures 0.8×10=4×0.4×5=8",
-          "Steady state 2 and 1; ln2/0.1=6.93",
-          "0.5 µM in 1 pL≈301107 ions",
-          "0.49 bound plus 0.01 free=0.50",
-          "Hill responses 0.8 and 0.2; coincidence 0.2 and 0.6",
-          "Q39–46 independently recomputed"
+          "Ras steady state 0.2/0.6; 1 min 0.452848; 2 min 0.545866; GAP loss 0.923077",
+          "Hill n=1 0.333333/0.666667; n=4 0.058824/0.941176",
+          "Amplification 200, cap 120, pulse areas 1.6/8, ratio 5",
+          "Phosphorylation 0.75/0.25; PIP3 20/40/40; half-times 1.155245/2.310490 min"
         ]
       },
       "technical_checks": {
-        "word_gate": true,
-        "duplicate_paragraphs": 0,
-        "unique_ids": true,
-        "anchors": true,
-        "svg_accessible_labels": true,
-        "zoom_targets": true,
-        "balanced_html_stack": true,
-        "local_links": true,
-        "question_keys_passed": 54,
-        "reader_controls": true,
-        "dynamic_neighbor_navigation": true,
+        "wordGate": true,
+        "duplicateParagraphs": 0,
+        "balancedMarkup": true,
+        "uniqueIds": 110,
+        "brokenAnchors": 0,
+        "svgLabels": true,
+        "zoomTargets": true,
+        "readerControls": true,
         "canonical": true,
-        "no_stale_title": true,
+        "questionKeys": true,
+        "questionCount": true,
         "arithmetic": true,
+        "internalLinks": true,
+        "noStaleTitles": true,
         "menu": true,
         "sitemap": true,
-        "checkpoint": true
+        "checkpoint": true,
+        "neighborChecks": [
+          {
+            "node": "4.A.05",
+            "status": "Reciprocal navigation source verified"
+          },
+          {
+            "node": "4.A.07",
+            "status": "Reciprocal navigation source verified"
+          }
+        ],
+        "interactiveBrowserTest": false
       },
       "academic_self_review": {
         "scope_20": 20,
         "accuracy_25": 24,
-        "depth_20": 19,
-        "experimental_quantitative_15": 14,
+        "depth_20": 20,
+        "evidence_quantitative_15": 14,
         "practice_10": 9,
-        "technical_10": 9,
+        "technical_10": 8,
         "total": 95,
         "maximum": 100,
-        "method": "Separate internal author review, not external peer review. Scope fully mapped; deducted for partial full-text source access, schematic simplifications and some reinforcement, limited historical data granularity, remaining straightforward distractors, and absence of interactive browser/device tests."
+        "method": "Separate internal author review, not external peer review. Deductions for source access, illustrative datasets, grouped distractor explanations and missing browser/mobile/accessibility audit."
       },
       "limitations": [
-        "Selected authoritative source records, accessible chapters and reviews checked; not every full textbook edition or full primary paper read.",
-        "MP SET comparator is an archived 2024 copy, not independently verified current MPPSC-hosted original.",
-        "Static HTML/SVG source and coordinate checks only; interactive browser/mobile and comprehensive accessibility tests not performed.",
-        "New slug derived from title because no existing URL present; dynamic neighboring navigation resolves only published menu links.",
-        "Pages deployment requires independent verification."
+        "Not every full paper or textbook edition independently accessed.",
+        "MP SET comparator archived 2024 syllabus.",
+        "Static source checks only; no interactive browser/mobile or full accessibility audit.",
+        "Slug follows repository convention.",
+        "Deployment pending at commit."
       ],
       "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-      "main_baseline_sha": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
-      "source_draft_branch": "draft/node-4-a-05-phosphoinositide-calcium",
-      "draft_commit_sha": "6cc819286717fca0c5667770c94048bf39b76c6f",
-      "draft_blob_sha": "d67059e1622cc5398db621015b169bbe3f4054e3",
-      "concurrent_reconciliation": {
-        "existing_unit4_nodes": [
-          "4.A.02",
-          "4.A.03",
-          "4.A.04",
-          "4.A.07",
-          "4.A.09",
-          "4.A.12"
-        ],
-        "unit4a_published_count": 7,
-        "earliest_pending_unit4": "4.A.01",
-        "global_pending_preserved": "1.A.03"
-      }
+      "main_baseline_sha": "0ad35ffc411ce9db3102454a0b258f99c6ee7ad6",
+      "source_draft_branch": "draft/node-4-a-06-rtk-mapk",
+      "draft_commit_sha": "13f18d453ae585db64698faf88df98a16b95bc8c",
+      "status": "lesson_committed_pages_verification_pending"
     },
     "subunit_4a": {
       "published_node_ids": [
@@ -7864,12 +8576,14 @@
         "4.A.03",
         "4.A.04",
         "4.A.05",
+        "4.A.06",
         "4.A.07",
         "4.A.08",
         "4.A.09",
-        "4.A.12"
+        "4.A.12",
+        "4.A.13"
       ],
-      "published_node_count": 8,
+      "published_node_count": 10,
       "planned_node_count": 13,
       "next_pending_node_id": "4.A.01",
       "next_pending_node_title": "Principles of Cell Signaling: Signals, Receptors and Responses",

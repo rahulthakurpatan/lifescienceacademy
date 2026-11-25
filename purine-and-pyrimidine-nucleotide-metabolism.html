@@ -243,7 +243,7 @@
     
     <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
       <div class="reader-node-nav" aria-label="Node navigation">
-        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Amino Acid Metabolism and Nitrogen Homeostasis">← Previous Node</button>
+        <button class="nav-btn" type="button" id="previous-node" aria-label="Previous curriculum node: Amino Acid Metabolism and Nitrogen Homeostasis">← Previous Node</button>
         <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Vitamins, Coenzymes and Integrated Metabolic Regulation">Next Node →</button>
       </div>
       <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
@@ -397,7 +397,7 @@
 <p>The recurring regulatory principle is feedback at costly early reactions and at branch points. Salvage reduces the need for de novo synthesis, while degradation disposes of excess ring-containing material. Human purines end in urate; pyrimidines are opened into soluble fragments. DNA precursor generation imposes additional requirements for NADPH-dependent reduction and the folate-dependent conversion of dUMP to dTMP. Keep the names of nucleotide pools and the phosphorylation states precise, because many wrong examination answers interchange bases, nucleosides and nucleotides.</p>
 <p>The next chapter will bring these relationships together through the vitamin-derived coenzymes: folate carries one-carbon groups; PLP facilitates amino-acid reactions; niacin-derived NAD and NADP transfer electrons; and riboflavin-derived flavins participate in redox chemistry. The nucleotide pathway thus provides a concrete example of why micronutrients are required for biosynthesis even when they are not themselves consumed as major fuel molecules.</p><p>Revisit <a href="nucleotide-chemistry-and-dna-conformation.html">nucleotide chemistry</a>, <a href="glucose-homeostasis-and-alternative-carbohydrate-pathways.html">the pentose phosphate pathway</a> and <a href="enzyme-regulation-and-isozymes.html">enzyme regulation</a> when revising the chemical foundations.</p></section>
 <section id="references"><h2>20. References and further reading</h2><ol><li>Nelson DL, Cox MM, Hoskins AA. <em>Lehninger Principles of Biochemistry</em>, 8th ed., Macmillan Learning, 2021. Amino acid and nucleotide biosynthesis; nucleotide degradation and regulation.</li><li>Berg JM, Tymoczko JL, Gatto GJ Jr, Stryer L. <em>Biochemistry</em>, 9th ed., W.H. Freeman, 2019. Nucleotide biosynthesis and metabolic regulation.</li><li>Lane AN, Fan TWM. <a href="https://doi.org/10.1093/nar/gkv047">Regulation of mammalian nucleotide metabolism and biosynthesis</a>. Nucleic Acids Research 43 (2015): 2466–2485. Precursor origins, mammalian pathway organisation and isotope tracing.</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8247561/">Nucleotide Metabolism</a>. Open-access educational review (2021); synthesis, salvage, catabolism and biochemical disease examples.</li><li>CSIR-HRDG. <a href="https://csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">Life Sciences &amp; Biotechnology syllabus</a>, Unit 1 J (2026).</li></ol><p>Figures and practice examples are original schematic teaching materials. Numerical datasets are hypothetical unless otherwise stated.</p></section></div></article>
-        <nav class="node-navigation" aria-label="Curriculum navigation"><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a></nav>
+        <nav class="node-navigation" aria-label="Curriculum navigation"><a href="amino-acid-metabolism-and-nitrogen-homeostasis.html">← 1.F.03 Amino Acid Metabolism and Nitrogen Homeostasis</a><a class="disabled-nav" href="./">Return to Unit 1 curriculum</a></nav>
       </div>
     </div>
     <footer class="site-footer">Life Science Academy · Unit 1 · Structure and Function of Biomolecules</footer>
@@ -479,6 +479,7 @@
         if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
       });
       const dialog=byId("diagram-dialog");
+      byId("previous-node").addEventListener("click",()=>location.href="amino-acid-metabolism-and-nitrogen-homeostasis.html");
 
 
       document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{

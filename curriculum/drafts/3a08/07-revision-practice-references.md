@@ -52,65 +52,65 @@ You should be able to classify lesions from a diagram; derive the potential subs
 
 ## 18. Part B — Conceptual questions (original)
 
-**B1.** Which event produces an AP site directly? (A) Breaking a hydrogen bond between paired bases (B) Hydrolyzing a base–sugar glycosidic bond (C) Joining two DNA ends (D) Replacing one complete base pair with another.  
-Answer: B. The base departs, but the sugar and backbone can initially remain. A disrupts pairing without removing the base, C restores continuity, and D describes a substitution.
+**B1.** Which event produces an AP site directly? (A) Breaking a hydrogen bond between paired bases (B) Joining two DNA ends (C) Hydrolyzing a base–sugar glycosidic bond (D) Replacing one complete base pair with another.  
+Answer: C. The base departs, but the sugar and backbone can initially remain. Disrupting pairing does not remove the base, ligation restores continuity, and exchanging complete base pairs describes a substitution.
 
-**B2.** The first product of cytosine deamination in a G:C pair is: (A) G:U (B) A:T (C) G:A (D) a DSB.  
+**B2.** The first product of cytosine deamination in a G:C pair is: (A) G:U (B) G:A (C) a DSB. (D) A:T  
 Answer: A. The complementary G is unchanged; T:A may appear only after miscopying and fixation. No backbone cleavage is required.
 
-**B3.** Deamination of 5-methylcytosine yields: (A) uracil (B) thymine (C) hypoxanthine (D) xanthine.  
-Answer: B. The methyl group remains at C5. Unmethylated C gives U, A gives hypoxanthine, and G can yield xanthine.
+**B3.** Deamination of 5-methylcytosine yields: (A) xanthine. (B) uracil (C) hypoxanthine (D) thymine  
+Answer: D. The methyl group remains at C5. Unmethylated C gives U, A gives hypoxanthine, and G can yield xanthine.
 
-**B4.** Hypoxanthine in DNA can arise from: (A) adenine deamination (B) guanine oxidation (C) thymine dimerization (D) cytosine methylation.  
-Answer: A. The product can favor pairing with C; oxidation of G may instead yield 8-oxoG.
+**B4.** Hypoxanthine in DNA can arise from: (A) guanine oxidation (B) adenine deamination (C) thymine dimerization (D) cytosine methylation.  
+Answer: B. The product can favor pairing with C; oxidation of G may instead yield 8-oxoG.
 
-**B5.** Which is a nonradical ROS? (A) Hydroxyl radical (B) Superoxide radical (C) Hydrogen peroxide (D) A hydrated electron.  
-Answer: C. H₂O₂ has no unpaired electron, although it can generate radicals in metal-mediated reactions. A and B are radicals; D is not an example of a nonradical oxygen species.
+**B5.** Which is a nonradical ROS? (A) Superoxide radical (B) A hydrated electron. (C) Hydrogen peroxide (D) Hydroxyl radical  
+Answer: C. H₂O₂ has no unpaired electron, although it can generate radicals in metal-mediated reactions. Hydroxyl and superoxide are radicals; a hydrated electron is not a nonradical oxygen species.
 
-**B6.** A characteristic substitution arising from 8-oxoG in a G:C pair is: (A) G:C → T:A (B) G:C → A:T (C) A:T → G:C exclusively (D) deletion of every oxidized G.  
-Answer: A. A can be inserted opposite oxidized G and subsequently direct T insertion. B is a characteristic possibility for O6-methylG; neither C nor D is a compulsory consequence.
+**B6.** A characteristic substitution arising from 8-oxoG in a G:C pair is: (A) deletion of every oxidized G. (B) G:C → A:T (C) A:T → G:C exclusively (D) G:C → T:A  
+Answer: D. A can be inserted opposite oxidized G and subsequently direct T insertion. G:C → A:T is a characteristic possibility for O6-methylG; the remaining choices are not compulsory consequences.
 
-**B7.** Which alkylated base can favor inappropriate thymine incorporation? (A) O6-methylguanine (B) N7-methylguanine exclusively (C) 5-methylcytosine in normal pairing (D) thymine glycol.  
-Answer: A. Its altered coding surface is important; N7 methylation instead destabilizes base attachment. The other choices do not describe this lesion.
+**B7.** Which alkylated base can favor inappropriate thymine incorporation? (A) N7-methylguanine exclusively (B) O6-methylguanine (C) 5-methylcytosine in normal pairing (D) thymine glycol.  
+Answer: B. Its altered coding surface is important; N7 methylation instead destabilizes base attachment. The other choices do not describe this lesion.
 
-**B8.** Which property best distinguishes an SSB from an AP site? (A) A missing phosphodiester continuity (B) presence of water (C) number of purines (D) presence of chromatin.  
+**B8.** Which property best distinguishes an SSB from an AP site? (A) A missing phosphodiester continuity (B) number of purines (C) presence of chromatin. (D) presence of water  
 Answer: A. A strand discontinuity is necessary for an SSB but not for an AP site.
 
-**B9.** The usual UV CPD links: (A) two adjacent pyrimidines of one strand (B) A and T across the duplex by a hydrogen bond (C) two distant phosphate groups (D) two proteins.  
-Answer: A. It is a covalent same-strand lesion; ordinary base pairing and the other listed linkages are not CPDs.
+**B9.** The usual UV CPD links: (A) two proteins. (B) A and T across the duplex by a hydrogen bond (C) two adjacent pyrimidines of one strand (D) two distant phosphate groups  
+Answer: C. It is a covalent same-strand lesion; ordinary base pairing and the other listed linkages are not CPDs.
 
-**B10.** A 6–4 photoproduct involves: (A) a C6–C4 linkage between successive pyrimidines (B) removal of every C6 atom (C) two phosphodiester cuts (D) normal purine pairing.  
-Answer: A. Its geometry differs from the four-membered ring of a CPD.
+**B10.** A 6–4 photoproduct involves: (A) removal of every C6 atom (B) two phosphodiester cuts (C) normal purine pairing. (D) a C6–C4 linkage between successive pyrimidines  
+Answer: D. Its geometry differs from the four-membered ring of a CPD.
 
-**B11.** Which unit is used for absorbed ionizing radiation dose? (A) Gy, J kg⁻¹ (B) mol L⁻¹ (C) base pairs s⁻¹ (D) mutations per genome.  
-Answer: A. Absorbed dose is energy per mass; the other units describe different quantities.
+**B11.** Which unit is used for absorbed ionizing radiation dose? (A) base pairs s⁻¹ (B) Gy, J kg⁻¹ (C) mutations per genome. (D) mol L⁻¹  
+Answer: B. Absorbed dose is energy per mass; the other units describe different quantities.
 
-**B12.** Which lesion most directly prevents strand separation through a covalent connection between complementary chains? (A) interstrand crosslink (B) isolated U:G mismatch (C) N7-methylG (D) a simple nick.  
+**B12.** Which lesion most directly prevents strand separation through a covalent connection between complementary chains? (A) interstrand crosslink (B) a simple nick. (C) isolated U:G mismatch (D) N7-methylG  
 Answer: A. The other lesions do not inherently join the two chains covalently.
 
-**B13.** A nick in a covalently closed circular DNA molecule can produce: (A) an open circular relaxed form (B) obligatory loss of all bases (C) an RNA molecule (D) an interstrand crosslink.  
-Answer: A. Strand discontinuity releases the topological constraint. It need not change molecule length or produce the other listed outcomes.
+**B13.** A nick in a covalently closed circular DNA molecule can produce: (A) obligatory loss of all bases (B) an RNA molecule (C) an interstrand crosslink. (D) an open circular relaxed form  
+Answer: D. Strand discontinuity releases the topological constraint. It need not change molecule length or produce the other listed outcomes.
 
-**B14.** A DNA ligase generally needs which termini to join a simple nick? (A) juxtaposed 3′-OH and 5′-phosphate (B) two unmodified bases with no backbone (C) two 3′-phosphates only (D) two 5′-OH ends only.  
-Answer: A. Other end structures may require processing before ligation.
+**B14.** A DNA ligase generally needs which termini to join a simple nick? (A) two 3′-phosphates only (B) two 5′-OH ends only. (C) juxtaposed 3′-OH and 5′-phosphate (D) two unmodified bases with no backbone  
+Answer: C. Other end structures may require processing before ligation.
 
-**B15.** A blocking lesion in the transcribed strand of a gene may directly cause: (A) impaired RNA polymerase elongation (B) obligatory chromosome doubling (C) immediate Mendelian segregation (D) loss of every transcript.  
-Answer: A. The effect depends on locus, lesion and enzyme; B–D are unjustified generalizations.
+**B15.** A blocking lesion in the transcribed strand of a gene may directly cause: (A) impaired RNA polymerase elongation (B) loss of every transcript. (C) obligatory chromosome doubling (D) immediate Mendelian segregation  
+Answer: A. The effect depends on locus, lesion and enzyme; Chromosome doubling, immediate segregation and universal loss of transcripts are unjustified generalizations.
 
 **B16.** Which statement about lesion bypass is correct? (A) It always removes the lesion (B) It can permit synthesis despite a persistent lesion (C) It necessarily causes a mutation (D) It is identical to photoreactivation.  
 Answer: B. Tolerance is distinct from removal; accuracy depends on the polymerase and substrate.
 
-**B17.** MutT in E. coli primarily illustrates: (A) sanitation of oxidized nucleotide precursors (B) severing both DNA strands (C) histone phosphorylation (D) pyrimidine dimer formation.  
-Answer: A. It acts on oxidized nucleotide substrates before incorporation rather than directly repairing a chromosomal CPD.
+**B17.** MutT in E. coli primarily illustrates: (A) histone phosphorylation (B) pyrimidine dimer formation. (C) severing both DNA strands (D) sanitation of oxidized nucleotide precursors  
+Answer: D. It acts on oxidized nucleotide substrates before incorporation rather than directly repairing a chromosomal CPD.
 
-**B18.** Which is a valid example of an endogenous damage source? (A) reactive products of ordinary cellular metabolism (B) only laboratory UVC lamps (C) only external gamma radiation (D) only inherited sequence variation.  
-Answer: A. Endogenous chemistry occurs within the organism; B and C are external examples, D is not a chemical source.
+**B18.** Which is a valid example of an endogenous damage source? (A) only inherited sequence variation. (B) only laboratory UVC lamps (C) reactive products of ordinary cellular metabolism (D) only external gamma radiation  
+Answer: C. Endogenous chemistry occurs within the organism; Laboratory UVC and external gamma radiation are exogenous examples; inherited sequence variation is not a chemical source.
 
 **B19.** Which is most directly consistent with the appearance of a fixed mutation? (A) a changed canonical base pair inherited after replication (B) an increased H₂O₂ concentration alone (C) one AP site in an isolated molecule (D) a transient mismatch that is accurately repaired.  
 Answer: A. The other choices do not establish a stable sequence change.
 
-**B20.** A standard alkaline comet assay primarily responds to: (A) strand breaks and alkali-labile sites (B) only point mutations (C) exclusively CPDs without modification (D) only protein concentration.  
-Answer: A. The assay is not a direct sequencing method or a universal lesion-specific measurement.
+**B20.** A standard alkaline comet assay primarily responds to: (A) exclusively CPDs without modification (B) strand breaks and alkali-labile sites (C) only protein concentration. (D) only point mutations  
+Answer: B. The assay is not a direct sequencing method or a universal lesion-specific measurement.
 
 ### Assertion–reason (B21–B25)
 
@@ -122,7 +122,7 @@ Answer: A. The chemical independence of these linkages explains why AP sites nee
 **B22.** Assertion: 5-methylcytosine deamination is challenging to recognize. Reason: The product thymine is normally present in DNA.  
 Answer: A. The normal chemical identity of thymine complicates discrimination of T:G compared with U:G.
 
-**B23.** Assertion: A photolyase can reverse a particular UV photoproduct in organisms possessing it. Reason: Human placental mammalian cells possess conventional DNA photolyases.  
+**B23.** Assertion: A photolyase can reverse a particular UV photoproduct in organisms possessing it. Reason: Humans possess conventional DNA photolyases.  
 Answer: C. The assertion is true in the specified organisms, but placental mammals lack the conventional photolyase pathways.
 
 **B24.** Assertion: Every blocked replication fork is already a DSB. Reason: A fork can stall while duplex continuity is initially recoverable.  
@@ -174,7 +174,7 @@ Answer: E₃₀₀/E₄₀₀ = 400/300 = 4/3. The 300 nm photon has about 33% m
 **C13.** A population has 500 premutagenic lesions on average. 96% are removed before copying; 25% of the remaining lesions cause an error; 40% of errors become fixed. Calculate expected fixed substitutions.  
 Answer: 500 × 0.04 × 0.25 × 0.40 = 2. Each fraction applies to the previous stage; adding fractions is invalid.
 
-**C14.** Two strains show equal initial CPD burden. A photolyase-containing strain loses CPD signal in visible light, but a matched photolyase-deficient strain does not. Which additional group tests whether light alone accounts for the result?  
+**C14.** Two strains show equal initial CPD burden. A photolyase-containing strain loses CPD signal in visible light, but a matched photolyase-deficient strain does not. Which additional groups distinguish enzyme-dependent light reversal from ordinary recovery and establish baseline?  
 Answer: The enzyme-deficient irradiated light group is already an important control; add the competent irradiated dark group and unirradiated baseline. A light-dependent difference restricted to enzyme competence supports photoreactivation; it does not prove every UV lesion is a CPD.
 
 **C15.** After equal exposure, one sample exhibits a higher comet tail than another. Addition of a crosslinking condition lowers the tail signal despite equal break-inducing treatment. Explain.  
@@ -217,7 +217,7 @@ Answer: O6-methylG can directly miscode with T and yield the observed transition
 Answer: C. A and B are unjustified by rate differences, and D is false. Different lesion-specific recognition and processing can account for the observation.
 
 **C28.** A DNA sample has 100 independent lesions spread over 50 equally accessible fragments. Under a Poisson model, estimate how many fragments are lesion free. Then explain why a clustered distribution could change the answer.  
-Answer: Mean 2 per fragment; 50e^(−2) ≈ 6.77, or about 7 expected intact fragments. Clustering leaves more fragments without events while concentrating damage in others; independence and equal rates are assumptions.
+Answer: Mean 2 per fragment; 50e^(−2) ≈ 6.77, or about 7 expected intact fragments. A clustered, overdispersed distribution can leave more fragments without events while concentrating damage in others; independence and equal rates are assumptions.
 
 **C29.** A polymerase stalls after a nick is encountered by the fork; a break marker increases only after cells enter S phase. What alternative explains delayed breaks without new exposure?  
 Answer: Replication-associated conversion of a pre-existing single-strand discontinuity into a one-ended break. Compare nonreplicating and replicating cells, and establish initial nick burdens. A delayed marker can also reflect signaling kinetics.

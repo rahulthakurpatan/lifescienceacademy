@@ -1,0 +1,516 @@
+{
+  "B": [
+    {
+      "stem": "What directly measures translation output per mRNA?",
+      "options": [
+        "Nascent protein production divided by transcript abundance",
+        "Total accumulated protein alone",
+        "Promoter occupancy",
+        "Total genomic DNA"
+      ],
+      "answer": "A",
+      "explanation": "The synthesis flux normalized to RNA abundance estimates productive output per transcript. Accumulated protein reflects turnover; promoter occupancy and DNA abundance do not measure translation.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "A bacterial promoter and a Shine–Dalgarno sequence differ because the latter primarily affects:",
+      "options": [
+        "DNA replication",
+        "RNA polymerase recruitment",
+        "Ribosome positioning on mRNA",
+        "Protein degradation"
+      ],
+      "answer": "C",
+      "explanation": "The Shine–Dalgarno interaction helps position a small ribosomal subunit. Promoters act on transcription, not ribosome recognition.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Why can a perfectly complementary Shine–Dalgarno sequence be inefficient?",
+      "options": [
+        "It must be translated into amino acids",
+        "It may be sequestered in a stable RNA stem",
+        "16S rRNA is a DNA polymerase",
+        "It necessarily causes premature termination"
+      ],
+      "answer": "B",
+      "explanation": "Intramolecular pairing can compete with pairing to 16S rRNA. Complementarity alone does not establish accessibility.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "A trans-acting bacterial sRNA typically differs from a cis thermometer because it:",
+      "options": [
+        "Is a ribosomal protein",
+        "Must encode a kinase",
+        "Is separately produced and recognizes a target RNA",
+        "Can function only through DNA binding"
+      ],
+      "answer": "C",
+      "explanation": "A trans sRNA is a distinct RNA molecule; a thermometer is usually part of the regulated messenger. Neither requires encoding a protein.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Which RNA interaction can activate bacterial translation?",
+      "options": [
+        "Pairing that sequesters the RBS",
+        "Pairing that removes an inhibitory stem from the RBS",
+        "Cleavage of every copy of the coding sequence",
+        "Deletion of the only usable start codon"
+      ],
+      "answer": "B",
+      "explanation": "Displacement of an inhibitory intramolecular pairing exposes the RBS. The other alternatives remove or obstruct productive templates.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Hfq is best described as:",
+      "options": [
+        "An RNA chaperone facilitating many bacterial sRNA interactions",
+        "A universal DNA polymerase",
+        "A eukaryotic cap-binding initiation factor",
+        "The sole bacterial translation initiation factor"
+      ],
+      "answer": "A",
+      "explanation": "Hfq can stabilize and facilitate pairing of many bacterial sRNAs. Its requirement is not universal, and it is not eIF4E or a polymerase.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "A translational RNA thermometer commonly acts by changing:",
+      "options": [
+        "DNA codon degeneracy",
+        "The amino acid sequence of 16S rRNA",
+        "Peptide bond chemistry",
+        "Accessibility of a ribosome-binding region"
+      ],
+      "answer": "D",
+      "explanation": "Temperature can alter the RNA conformational ensemble and expose the initiation region; rRNA is not an amino acid sequence.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "A free ribosomal protein represses translation of its own operon when rRNA is scarce. This is:",
+      "options": [
+        "Positive transcriptional feedback",
+        "Autogenous negative translational feedback",
+        "RNA editing",
+        "A universal feature of every ribosomal protein"
+      ],
+      "answer": "B",
+      "explanation": "The product represses its own system at the RNA level. Many, not all, bacterial ribosomal protein operons use such feedback.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Which factor makes (p)ppGpp in the classical E. coli starvation example?",
+      "options": [
+        "eIF2B",
+        "eEF2K",
+        "RelA",
+        "4E-BP"
+      ],
+      "answer": "C",
+      "explanation": "RelA responds to stressed ribosomes with deacylated tRNA and synthesizes alarmones. The other factors operate in eukaryotic translation.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "A 100S bacterial hibernating particle typically consists of:",
+      "options": [
+        "Two associated 70S ribosomes",
+        "A 30S DNA polymerase and 70S ribosome",
+        "A single eukaryotic 80S ribosome",
+        "A messenger RNA without ribosomes"
+      ],
+      "answer": "A",
+      "explanation": "100S particles commonly represent ribosome dimers. Sedimentation coefficients are not arithmetically additive.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Which factor directly recognizes the conventional eukaryotic 5′ cap?",
+      "options": [
+        "eIF2B",
+        "eIF4E",
+        "eEF2",
+        "GCN2"
+      ],
+      "answer": "B",
+      "explanation": "eIF4E recognizes the cap. eIF2B exchanges nucleotides, eEF2 translocates and GCN2 is a kinase.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Which factor promotes GDP-to-GTP exchange on eIF2?",
+      "options": [
+        "eIF4A",
+        "eIF4G",
+        "eIF2B",
+        "4E-BP"
+      ],
+      "answer": "C",
+      "explanation": "eIF2B facilitates nucleotide exchange, not GDP phosphorylation. eIF4A remodels RNA and eIF4G scaffolds recruitment.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Phosphorylation of mammalian eIF2α at Ser51 typically causes:",
+      "options": [
+        "Increased exchange activity of eIF2B",
+        "Direct phosphorylation of every ribosome",
+        "More eIF4E binding to caps",
+        "Reduced eIF2B-mediated exchange and ternary-complex supply"
+      ],
+      "answer": "D",
+      "explanation": "Phosphorylated eIF2 inhibits exchange machinery and generally decreases productive initiation. Cap recognition is a distinct control point.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Which kinase is classically associated with amino acid starvation?",
+      "options": [
+        "GCN2",
+        "HRI",
+        "PKR",
+        "PERK"
+      ],
+      "answer": "A",
+      "explanation": "GCN2 responds to amino acid limitation; HRI, PKR and PERK classically respond to heme scarcity, dsRNA and ER stress respectively.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Which kinase is classically activated during ER folding stress?",
+      "options": [
+        "HRI",
+        "PERK",
+        "GCN2",
+        "PKR"
+      ],
+      "answer": "B",
+      "explanation": "PERK links ER stress to eIF2α phosphorylation. GCN2, HRI and PKR respond to other characteristic inputs.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "What is the primary role of a hypophosphorylated 4E-BP in the standard model?",
+      "options": [
+        "It charges tRNA",
+        "It hydrolyzes mRNA caps",
+        "It competes with eIF4G for eIF4E",
+        "It phosphorylates eIF2"
+      ],
+      "answer": "C",
+      "explanation": "4E-BP prevents productive eIF4E–eIF4G association; it need not directly displace the cap.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Activation of mTORC1 can relieve cap-dependent repression by:",
+      "options": [
+        "Dephosphorylating eIF2α directly",
+        "Degrading all messenger RNA",
+        "Removing every 5′ cap",
+        "Phosphorylating 4E-BPs"
+      ],
+      "answer": "D",
+      "explanation": "Phosphorylated 4E-BPs generally bind eIF4E less effectively, favoring eIF4F assembly. The eIF2 cycle is distinct.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "A TOP motif is located:",
+      "options": [
+        "At the extreme 5′ end of particular mRNAs",
+        "In the genomic centromere",
+        "Only at the protein C terminus",
+        "At every stop codon"
+      ],
+      "answer": "A",
+      "explanation": "TOP mRNAs have a terminal oligopyrimidine feature and often encode translation machinery. A random pyrimidine tract is not equivalent.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "What distinguishes reinitiation from leaky scanning?",
+      "options": [
+        "Reinitiation is DNA replication",
+        "Reinitiation follows actual translation and termination of an upstream frame",
+        "Leaky scanning requires translation of an upstream peptide",
+        "Reinitiation extends the upstream polypeptide without a new start"
+      ],
+      "answer": "B",
+      "explanation": "Reinitiation requires a new initiation event after upstream termination; leaky scanning bypasses a start without translating that frame.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "At low iron, IRP binding to the ferritin 5′ IRE usually:",
+      "options": [
+        "Stimulates storage-protein translation",
+        "Removes the main stop codon",
+        "Represses ferritin initiation",
+        "Increases promoter DNA methylation directly"
+      ],
+      "answer": "C",
+      "explanation": "Ferritin production is restrained when iron is scarce. IRP binding at transferrin receptor 3′ elements has a distinct RNA-stability effect.",
+      "type": "conceptual MCQ"
+    },
+    {
+      "stem": "Assertion: eIF2α phosphorylation can increase ATF4 synthesis. Reason: Reduced ternary-complex availability can delay reinitiation until after the inhibitory uORF2 start.",
+      "options": [
+        "Both true, and reason explains assertion",
+        "Both true, but reason does not explain assertion",
+        "Assertion true, reason false",
+        "Assertion false, reason true"
+      ],
+      "answer": "A",
+      "explanation": "Both statements are true and the timing mechanism explains preferential ATF4 translation in the canonical response; not all messages use this architecture.",
+      "type": "assertion–reason"
+    },
+    {
+      "stem": "Assertion: Higher polysome occupancy always implies greater completion flux. Reason: Slower elongation can increase ribosome residence time.",
+      "options": [
+        "Both true, and reason explains assertion",
+        "Both true, but reason does not explain assertion",
+        "Assertion true, reason false",
+        "Assertion false, reason true"
+      ],
+      "answer": "D",
+      "explanation": "The assertion is false, but the reason is true. Greater occupancy can reflect slower transit rather than greater synthesis.",
+      "type": "assertion–reason"
+    },
+    {
+      "stem": "Assertion: A bacterial sRNA can cause both translational repression and RNA destabilization. Reason: Ribosomes can protect some RNA regions from nucleolytic attack.",
+      "options": [
+        "Both true, and reason explains assertion",
+        "Both true, but reason does not explain assertion",
+        "Assertion true, reason false",
+        "Assertion false, reason true"
+      ],
+      "answer": "A",
+      "explanation": "Both are true, and reduced ribosome engagement can contribute to subsequent destabilization, although other decay mechanisms also exist.",
+      "type": "assertion–reason"
+    },
+    {
+      "stem": "Assertion: eIF2B is a GTP-synthesizing kinase. Reason: It catalyzes exchange of GDP for GTP on eIF2.",
+      "options": [
+        "Both true, and reason explains assertion",
+        "Both true, but reason does not explain assertion",
+        "Assertion true, reason false",
+        "Assertion false, reason true"
+      ],
+      "answer": "D",
+      "explanation": "The assertion is false, the reason is true. Exchange releases one nucleotide and permits binding of another; it does not phosphorylate GDP.",
+      "type": "assertion–reason"
+    },
+    {
+      "stem": "Assertion: mTORC1-dependent phosphorylation of 4E-BP can increase translation. Reason: Phosphorylation can weaken the inhibitory interaction with eIF4E.",
+      "options": [
+        "Both true, and reason explains assertion",
+        "Both true, but reason does not explain assertion",
+        "Assertion true, reason false",
+        "Assertion false, reason true"
+      ],
+      "answer": "A",
+      "explanation": "Both are true; relieving competition with eIF4G promotes cap-dependent recruitment.",
+      "type": "assertion–reason"
+    },
+    {
+      "stem": "Select the correct statements: I. A cap is not an AUG. II. eIF4A participates in RNA remodeling. III. eIF4G is a scaffold. IV. eIF4E is an aminoacyl-tRNA synthetase.",
+      "options": [
+        "I and IV",
+        "I, II and III",
+        "II and IV",
+        "All four"
+      ],
+      "answer": "B",
+      "explanation": "I–III describe distinct initiation functions; IV confuses cap recognition with tRNA charging.",
+      "type": "multiple statement / matching"
+    },
+    {
+      "stem": "Match GCN2, PERK, PKR and HRI, respectively, to characteristic stimuli.",
+      "options": [
+        "Heme, dsRNA, ER stress, starvation",
+        "ER stress, starvation, heme, dsRNA",
+        "Amino acid limitation, ER stress, dsRNA, heme scarcity",
+        "dsRNA, heme scarcity, starvation, ER stress"
+      ],
+      "answer": "C",
+      "explanation": "The characteristic pairing follows the four classical mammalian stress sensing routes.",
+      "type": "multiple statement / matching"
+    },
+    {
+      "stem": "Which statements are valid? I. Translation and RNA decay can be coupled. II. Protein abundance always equals synthesis flux. III. A reporter RNA measurement helps interpret protein output. IV. A protein half-life can influence its steady-state abundance.",
+      "options": [
+        "I and II",
+        "II and IV",
+        "II and III",
+        "I, III and IV"
+      ],
+      "answer": "D",
+      "explanation": "The steady-state protein pool depends on production and removal; statement II is false.",
+      "type": "multiple statement / matching"
+    },
+    {
+      "stem": "Match factor to function: 1 eIF4E; 2 eIF2B; 3 eEF2; 4 Hfq.",
+      "options": [
+        "1 cap recognition, 2 nucleotide exchange, 3 translocation, 4 RNA chaperoning",
+        "1 elongation, 2 cap recognition, 3 RNA chaperoning, 4 exchange",
+        "1 RNA editing, 2 proteolysis, 3 replication, 4 transcription",
+        "1 translocation, 2 charging, 3 cap recognition, 4 peptide hydrolysis"
+      ],
+      "answer": "A",
+      "explanation": "These four molecular activities distinguish the recruitment, nucleotide-cycle, elongation and bacterial RNA-regulation examples.",
+      "type": "multiple statement / matching"
+    },
+    {
+      "stem": "Which statements about ATF4 are correct in the canonical model? I. uORF2 overlaps the main coding region out of frame. II. High ternary-complex availability favors inhibitory reinitiation. III. Severe loss of all initiation must indefinitely increase absolute ATF4 output.",
+      "options": [
+        "I and III",
+        "I and II",
+        "II and III",
+        "All three"
+      ],
+      "answer": "B",
+      "explanation": "I and II are correct; III ignores the requirement for residual recruitment and productive main-frame initiation.",
+      "type": "multiple statement / matching"
+    }
+  ],
+  "C": [
+    {
+      "stem": "A cell has 400 usable mRNAs, each producing 0.25 proteins/min. A stress reduces the rate per RNA to 0.10 without changing RNA abundance. Find both synthesis fluxes and percentage reduction.",
+      "answer": "100 and 40 proteins/min; 60%",
+      "explanation": "J=kT M, giving 400×0.25=100 and 400×0.10=40. The loss is (100−40)/100×100=60%. The unchanged RNA excludes an abundance-only explanation in this model.",
+      "type": "numerical"
+    },
+    {
+      "stem": "At steady state transcription adds 60 RNAs/min and kM=0.2/min. If kT=0.4 proteins per RNA/min and kP=0.03/min, calculate M and P.",
+      "answer": "300 RNAs; 4000 proteins",
+      "explanation": "M=60/0.2=300, J=0.4×300=120 proteins/min, P=120/0.03=4000. This requires time-independent rates at steady state.",
+      "type": "numerical"
+    },
+    {
+      "stem": "An initial steady protein pool of 1000 receives a new synthesis flux of 20/min; kP=0.04/min. What is the pool after one loss half-time?",
+      "answer": "750 proteins",
+      "explanation": "New equilibrium=20/0.04=500. Excess above equilibrium halves from 500 to 250, so P=750. The total pool does not simply halve.",
+      "type": "numerical"
+    },
+    {
+      "stem": "A 450-codon ORF is translated at 7.5 codons/s. Initiation occurs every 12 s. Assuming no interference, find transit time and mean occupancy.",
+      "answer": "60 s and 5 ribosomes",
+      "explanation": "τ=450/7.5=60 s. N=τ/12=5. Occupancy is not output; flux is one completion per 12 s at steady state if all finish.",
+      "type": "numerical"
+    },
+    {
+      "stem": "A gene has RNA counts 100 and 250 and footprint counts 200 and 750 in two conditions. Calculate the fold change in footprints per RNA.",
+      "answer": "1.5-fold",
+      "explanation": "Before: 200/100=2; after: 750/250=3. Ratio=3/2=1.5. Footprints per RNA represent occupancy, not necessarily completed protein flux.",
+      "type": "numerical"
+    },
+    {
+      "stem": "In a two-state leader at 310 K, ΔG(open−closed)=0. Calculate the open fraction. If ΔG=RT ln 3, recalculate.",
+      "answer": "0.5 and 0.25",
+      "explanation": "f=1/(1+exp(ΔG/RT)); for zero it is 1/2, for RT ln 3 it is 1/4. Positive ΔG favors the closed state.",
+      "type": "numerical"
+    },
+    {
+      "stem": "A repressor binds an RNA with Kd=10 nM. Free repressor rises from 10 to 40 nM. If only free RNA initiates, find normalized initiation before and after.",
+      "answer": "0.50 and 0.20",
+      "explanation": "Unbound fraction=Kd/(Kd+R). Values are 10/20 and 10/50. Output decreases by 60% relative to the first state, not 30% of baseline in relative units.",
+      "type": "numerical"
+    },
+    {
+      "stem": "Assume ternary-complex reacquisition is exponential with λ=0.5/s and inhibitory/main sites are reached at 2 and 4 s. Calculate the conditional probability of bypass followed by successful reacquisition.",
+      "answer": "About 0.2325",
+      "explanation": "P=e^(−0.5×2)−e^(−0.5×4)=e^−1−e^−2=0.3679−0.1353=0.2325. It is conditional on scanning after uORF1.",
+      "type": "numerical"
+    },
+    {
+      "stem": "For mutually exclusive binding of eIF4G and 4E-BP, G/KG=3 and B/KB=6. After phosphorylation B/KB becomes 2. Find G-bound eIF4E fractions.",
+      "answer": "0.30 and 0.50",
+      "explanation": "fG=(G/KG)/(1+G/KG+B/KB). Before=3/10, after=3/6. This does not by itself give the protein synthesis rate.",
+      "type": "numerical"
+    },
+    {
+      "stem": "A 250-residue polypeptide uses the simplified charging and elongation accounting, excluding initiation, termination and recycling. Find high-energy equivalents.",
+      "answer": "998 equivalents",
+      "explanation": "Charging=2×250=500. Elongation=2×249=498. Total=998; this is phosphate-bond equivalents, not 998 literal ATP molecules.",
+      "type": "numerical"
+    },
+    {
+      "stem": "A bacterial leader mutant produces 5× more reporter but mRNA abundance is 5× greater as well. What conclusion is justified?",
+      "answer": "No demonstrated increase in output per transcript",
+      "explanation": "The reporter/RNA ratio is unchanged if the numerator measures actual synthesis. Increased RNA stability or transcription could explain the output. A direct initiation assay is required before assigning a mechanism.",
+      "type": "analytical"
+    },
+    {
+      "stem": "Four reporter/sRNA genotypes show repression only for wild-type/wild-type and a complementary double mutant. Why is this stronger than a single knockout?",
+      "answer": "It supports sequence-specific RNA pairing",
+      "explanation": "Single mismatches disrupt the predicted duplex and compensatory changes restore it. Comparable RNA abundance and structure controls remain necessary to exclude indirect effects.",
+      "type": "analytical"
+    },
+    {
+      "stem": "An RNA thermometer reporter rises from 10 to 60 at high temperature; a control lacking the leader rises from 50 to 100. RNA is unchanged. Is the increase explained entirely by general temperature effects?",
+      "answer": "The data favor a leader-specific component",
+      "explanation": "The test rises sixfold while control rises twofold. General temperature effects can contribute, but do not readily account for the extra relative response; structure mutations and probing test causality.",
+      "type": "analytical"
+    },
+    {
+      "stem": "An operon reporter retains downstream RNA after an upstream premature stop but downstream protein output decreases. A mutation opening the downstream stem rescues output. Explain.",
+      "answer": "Translation-dependent exposure of the downstream start",
+      "explanation": "The rescue supports structural coupling between upstream ribosome passage and downstream initiation. Full-length RNA measurement reduces the likelihood of transcriptional polarity as the only cause.",
+      "type": "analytical"
+    },
+    {
+      "stem": "A starvation mutant cannot activate RelA but loses charged tRNA and protein synthesis nonetheless. Does this refute the stringent response?",
+      "answer": "No; direct substrate limitation is independent of the signaling defect",
+      "explanation": "Elongation still lacks charged tRNA; RelA mediates a separate adaptive alarmone branch. Measure (p)ppGpp and rRNA synthesis to assess the response.",
+      "type": "analytical"
+    },
+    {
+      "stem": "After stress, bulk RNA remains constant, polysomes become heavier and nascent labeling falls. Which mechanism should be investigated first?",
+      "answer": "Slower elongation or stalling",
+      "explanation": "Longer residence time increases occupancy while synthesis declines. An initiation increase alone would not readily explain the decreased flux, although combined regulation remains possible.",
+      "type": "analytical"
+    },
+    {
+      "stem": "A mutant eIF2α S51A prevents stress-dependent loss of initiation but does not restore cap-associated eIF4G recruitment. Interpret.",
+      "answer": "Distinct initiation checkpoints remain",
+      "explanation": "The mutant disrupts canonical phosphorylation-dependent control, not necessarily 4E-BP-mediated repression. Measuring both factor states distinguishes the two branches.",
+      "type": "analytical"
+    },
+    {
+      "stem": "Total eIF2 is unchanged, phosphorylation is low, but eIF2B activity is severely impaired. Predict ternary-complex supply.",
+      "answer": "Reduced",
+      "explanation": "Exchange is necessary to recycle GDP-bound eIF2 independently of the phosphorylation signal. Normal total eIF2 does not guarantee active GTP-loaded factor.",
+      "type": "analytical"
+    },
+    {
+      "stem": "A reporter carrying the ATF4 leader loses most stress inducibility when uORF2 is removed, and basal synthesis increases. Explain.",
+      "answer": "Removing the inhibitory frame relieves basal repression",
+      "explanation": "Normally early reinitiation at uORF2 diverts ribosomes from the main frame. Removing that start reduces the need for delayed reinitiation under stress; residual regulation is possible.",
+      "type": "analytical"
+    },
+    {
+      "stem": "A synthetic ATF4 reporter has a longer interval from uORF1 termination to uORF2 start. Assuming scanning speed and other features unchanged, predict effect at moderate stress.",
+      "answer": "More opportunity for early ternary-complex reacquisition",
+      "explanation": "The increased time may favor initiation at inhibitory uORF2 and reduce main-frame activation. Sequence insertions can also affect structure, so use matched controls.",
+      "type": "analytical"
+    },
+    {
+      "stem": "mTORC1 is active but a nonphosphorylatable 4E-BP retains eIF4E binding. Predict cap-dependent initiation.",
+      "answer": "It may remain restricted",
+      "explanation": "The inhibitor can still compete with eIF4G despite upstream kinase activity. Other mTORC1 targets may retain effects, so suppression is not necessarily complete.",
+      "type": "analytical"
+    },
+    {
+      "stem": "mTOR inhibition represses a TOP reporter in wild type but has a smaller effect in a 4E-BP-null cell. What is supported?",
+      "answer": "Contribution of 4E-BPs to the response",
+      "explanation": "Genetic reduction of sensitivity supports mediation through 4E-BPs. It does not prove all mTOR targets act through them or that the reporter responds identically in every cell.",
+      "type": "analytical"
+    },
+    {
+      "stem": "Low iron reduces ferritin reporter synthesis without changing reporter RNA, while transferrin receptor RNA increases. Why are the responses opposite?",
+      "answer": "Element position determines different post-transcriptional consequences",
+      "explanation": "IRP binding at a ferritin 5′ IRE inhibits recruitment, whereas 3′ IRE binding can stabilize receptor RNA. The common input coordinates storage and uptake.",
+      "type": "analytical"
+    },
+    {
+      "stem": "A luciferase reporter loses light output after ATP depletion, but an immunoblot shows the same amount of reporter protein. Can the result alone establish translational repression?",
+      "answer": "No",
+      "explanation": "Detection chemistry or protein activity can change independently of synthesis. Measure nascent protein production, RNA abundance and an appropriate activity control.",
+      "type": "analytical"
+    },
+    {
+      "stem": "A stress elevates phospho-eIF2α and lowers phospho-4E-BP. Double genetic perturbation restores synthesis only partially. What can the experiment establish?",
+      "answer": "Both branches may contribute; residual inhibition is unresolved",
+      "explanation": "Rescue comparisons support contribution if basal conditions are controlled. Residual inhibition could reflect substrate shortage, incomplete rescue or other mechanisms; simple additivity is not guaranteed.",
+      "type": "analytical"
+    }
+  ]
+}

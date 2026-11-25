@@ -1,0 +1,358 @@
+[
+  {
+    "n": 1,
+    "t": "Two independent recognition events",
+    "cap": "A synthetase assigns the amino acid to an adaptor; a ribosome selects the adaptor through codon recognition.",
+    "nodes": [
+      [
+        "Amino acid + tRNA",
+        50,
+        55
+      ],
+      [
+        "aaRS: charging",
+        250,
+        55
+      ],
+      [
+        "Aminoacyl-tRNA",
+        450,
+        55
+      ],
+      [
+        "mRNA codon",
+        50,
+        155
+      ],
+      [
+        "Ribosome: decoding",
+        250,
+        155
+      ],
+      [
+        "Residue in protein",
+        450,
+        155
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "n": 2,
+    "t": "Classical cargo substitution experiment",
+    "cap": "Schematic of the Chapeville experiment: chemical conversion changes the attached amino acid without intentionally changing adaptor identity.",
+    "nodes": [
+      [
+        "Cys + tRNAᶜʸˢ",
+        50,
+        55
+      ],
+      [
+        "Cys-tRNAᶜʸˢ",
+        250,
+        55
+      ],
+      [
+        "Ala-tRNAᶜʸˢ",
+        450,
+        55
+      ],
+      [
+        "Cys coding position",
+        250,
+        155
+      ],
+      [
+        "Ala incorporated",
+        450,
+        155
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "n": 3,
+    "t": "Canonical tRNA structural regions",
+    "cap": "Simplified cloverleaf with acceptor stem, D arm, anticodon arm, T arm, variable region and 3′ CCA end; the mature 3-D fold separates the anticodon and aminoacyl termini.",
+    "kind": "trna"
+  },
+  {
+    "n": 5,
+    "t": "Testing alanine identity by substitution",
+    "cap": "The G3·U70 pair is a major determinant in bacterial alanine tRNA. Replacing the pair can reduce charging; transfer into a suitable scaffold can confer alanine acceptance.",
+    "kind": "identity"
+  },
+  {
+    "n": 7,
+    "t": "Activation at ATP alpha phosphorus",
+    "cap": "The amino acid carboxylate participates in adenylate formation; PPi is released and can subsequently be hydrolyzed.",
+    "nodes": [
+      [
+        "Amino acid + ATP",
+        50,
+        75
+      ],
+      [
+        "aa-AMP + PPi",
+        250,
+        75
+      ],
+      [
+        "PPi → 2 Pi",
+        450,
+        75
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "n": 8,
+    "t": "Acyl transfer to the terminal ribose",
+    "cap": "The aminoacyl adenylate transfers its acyl group to the terminal ribose, liberating AMP; the amino group remains available.",
+    "kind": "ester"
+  },
+  {
+    "n": 11,
+    "t": "Pre-transfer editing branch",
+    "cap": "After noncognate activation, hydrolysis before esterification removes an incorrect adenylate. The lower branch shows the productive transfer route.",
+    "nodes": [
+      [
+        "Wrong aa + ATP",
+        50,
+        55
+      ],
+      [
+        "Wrong aa-AMP",
+        250,
+        55
+      ],
+      [
+        "Wrong aa + AMP",
+        450,
+        55
+      ],
+      [
+        "tRNA attachment",
+        250,
+        155
+      ],
+      [
+        "Wrong aa-tRNA",
+        450,
+        155
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "n": 12,
+    "t": "Post-transfer editing branch",
+    "cap": "Hydrolysis of the ester regenerates intact, uncharged RNA and the free amino acid.",
+    "nodes": [
+      [
+        "Wrong aa-AMP",
+        50,
+        55
+      ],
+      [
+        "Wrong aa-tRNA",
+        250,
+        55
+      ],
+      [
+        "Editing site",
+        450,
+        55
+      ],
+      [
+        "Free aa + tRNA",
+        450,
+        155
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  {
+    "n": 13,
+    "t": "Double sieve: IleRS and valine",
+    "cap": "Ile and Val may enter the synthetic pathway. The editing site preferentially removes incorrect Val while retaining the useful Ile product.",
+    "kind": "sieve"
+  },
+  {
+    "n": 14,
+    "t": "Distinct sources of a valine substitution",
+    "cap": "Either a mischarged Ile adaptor or a wrongly selected Val adaptor may cause a Val residue at an Ile codon. The two pathways require different assays.",
+    "nodes": [
+      [
+        "Val-tRNAᴵˡᵉ",
+        50,
+        45
+      ],
+      [
+        "Correct pairing",
+        250,
+        45
+      ],
+      [
+        "Val at Ile codon",
+        450,
+        95
+      ],
+      [
+        "Val-tRNAⱽᵃˡ",
+        50,
+        145
+      ],
+      [
+        "Wrong pairing",
+        250,
+        145
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ]
+  },
+  {
+    "n": 15,
+    "t": "Hypothetical product formation rates",
+    "cap": "Initial slopes for wild type and mutant are 0.020 and 0.004 micromolar per second; the values are hypothetical and apply only over the indicated interval.",
+    "kind": "graph"
+  },
+  {
+    "n": 16,
+    "t": "Hypothetical acidic gel charging assay",
+    "cap": "A deliberately deacylated control identifies the uncharged band. The illustrated bands are schematic; migration order is not a universal property.",
+    "kind": "gel"
+  },
+  {
+    "n": 17,
+    "t": "Steady-state charged pool",
+    "cap": "The simplified first-order model describes opposing fluxes between charged and uncharged tRNA, with a fixed total pool.",
+    "kind": "pool"
+  },
+  {
+    "n": 18,
+    "t": "Indirect glutaminyl-tRNA synthesis",
+    "cap": "In some organisms a nondiscriminating GluRS charges tRNA for glutamine with glutamate, and amidotransferase converts the attached cargo.",
+    "nodes": [
+      [
+        "tRNAᴳˡⁿ + Glu",
+        50,
+        75
+      ],
+      [
+        "Glu-tRNAᴳˡⁿ",
+        250,
+        75
+      ],
+      [
+        "Gln-tRNAᴳˡⁿ",
+        450,
+        75
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  }
+]

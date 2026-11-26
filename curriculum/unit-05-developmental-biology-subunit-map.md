@@ -125,3 +125,8 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.A.03 — Genomic Equivalence and Nuclear Reprogramming in Development**: chapter included in the publication tree at `genomic-equivalence-and-nuclear-reprogramming-in-development.html`; live deployment must be checked separately.
 - Subunit 5.A: 6 / 11. Unit 05: 6 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.
+
+### Publication checkpoint — 2026-11-26
+
+- **5.A.07 — Morphogen Gradients, Positional Information and Pattern Formation**: chapter included in the publication tree at `morphogen-gradients-positional-information-and-pattern-formation.html`; live deployment must be checked separately.
+- Subunit 5.A: 7 / 11. Unit 05: 7 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.

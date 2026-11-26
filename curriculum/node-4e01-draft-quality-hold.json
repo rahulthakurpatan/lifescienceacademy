@@ -1,157 +1,263 @@
 {
   "node_id": "4.E.01",
   "title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+  "unit": "04",
+  "subunit": "4.E",
+  "slug": "fundamentals-of-cancer-biology-from-normal-growth-to-malignancy.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-cancer-biology-from-normal-growth-to-malignancy.html",
   "date": "2026-11-26",
-  "status": "QUALITY HOLD — substantive partial draft; publication prohibited",
+  "status": "academic_and_static_technical_qa_passed",
+  "source_draft_branch": "draft/4.E.01-cancer-fundamentals",
+  "source_draft_chapter_commit_sha": "e06127834fb5a37376862af7d9b1ca631de505dc",
+  "draft_blob_sha": "c3188347f3fef4f861367b8175de61fe4db113ed",
   "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-  "draft_branch": "draft/4.E.01-cancer-fundamentals",
-  "chapter_commit": "af5799209a84da27934c552515c66b9edbadbf6e",
-  "chapter_blob": "801b00341587de2af2867b04b24a4b42810acc1d",
   "metrics": {
-    "genuine_teaching_words": 3798,
-    "visible_article_words_excluding_svg_buttons": 4818,
-    "teaching_paragraphs": 45,
-    "exact_duplicate_teaching_paragraphs": 0,
+    "genuine_teaching_words": 13392,
+    "visible_article_words_excluding_svg_buttons": 18459,
+    "teaching_paragraphs": 133,
+    "exact_duplicate_paragraphs": 0,
     "theory_sections": 8,
-    "sections": 13,
-    "svg": 4,
-    "tables": 0,
-    "worked": 3,
-    "part_b": 4,
-    "part_c": 4,
-    "mixed": 0,
-    "total_questions": 8,
-    "misconceptions": 6,
-    "active_recall_prompts": 5,
-    "references": 7,
+    "total_sections": 16,
+    "svg": 11,
+    "tables": 2,
+    "worked_examples": 8,
+    "part_b": 20,
+    "part_c": 20,
+    "mixed": 12,
+    "total_questions": 52,
+    "misconceptions": 19,
+    "active_recall": 16,
+    "references": 12,
     "answer_positions": {
-      "A": 2,
-      "B": 2,
-      "C": 2,
-      "D": 2
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 13
     }
   },
-  "word_count_method": "Unicode lexical tokens in saved p.teaching-prose; article total excludes SVG and buttons; headings and practice excluded from teaching count.",
-  "comparator": {
-    "node": "4.D.12",
-    "actual_saved_teaching_words": 14124,
-    "actual_paragraphs": 135,
-    "assessment": "Target is much shorter and insufficiently developed compared with neighboring chapter."
-  },
+  "word_count_method": "Unicode lexical tokens from saved p.teaching-prose; excludes SVG, questions, answers, tables, examples, captions, headings and revision. Visible article excludes SVG/buttons.",
   "syllabus": {
-    "revised": "Official revised PDF page 5, Unit 4.E verified visually",
-    "legacy": "Official separate PDF page 3, Unit 4.D verified visually",
-    "mp_set": "Archived MP SET 2024 PDF page 3, Unit 4.D verified visually; current MPPSC original not located",
-    "academy": "curriculum/subunit-4e-cancer-node-map.md"
-  },
-  "coverage": [
-    [
-      "A",
-      "partial",
-      "homeostasis, terminology",
-      "Expand prerequisites and growth distinctions"
-    ],
-    [
-      "B",
-      "partial",
-      "progression, evidence",
-      "Expand scientific history and landmark evidence"
-    ],
-    [
-      "C",
-      "partial",
-      "architecture",
-      "Expand structure-function narrative"
-    ],
-    [
-      "D",
-      "partial",
-      "progression, capabilities",
-      "Expand causal progression and mechanistic depth within node scope"
-    ],
-    [
-      "E",
-      "partial",
-      "quantitative",
-      "Expand transport, energy and physical principles"
-    ],
-    [
-      "F",
-      "partial",
-      "homeostasis, capabilities",
-      "Expand control and feedback"
-    ],
-    [
-      "G",
-      "partial",
-      "quantitative, worked",
-      "Expand models, graphs and worked examples"
-    ],
-    [
-      "H",
-      "partial",
-      "evidence",
-      "Expand authentic evidence, controls and interpretation"
-    ],
-    [
-      "I",
-      "partial",
-      "homeostasis, architecture",
-      "Expand physiology and tissue consequences"
-    ],
-    [
-      "J",
-      "partial",
-      "heterogeneity, progression",
-      "Expand comparative context and selection limits"
-    ],
-    [
-      "K",
-      "partial",
-      "capabilities",
-      "Expand failure reasoning"
-    ],
-    [
-      "L",
-      "partial",
-      "terminology, progression, heterogeneity",
-      "Expand relevant exceptions"
-    ],
-    [
-      "M",
-      "partial",
-      "heterogeneity",
-      "Expand exam-relevant research applications"
-    ],
-    [
-      "N",
-      "partial",
-      "capabilities, revision",
-      "Expand cross-concept links"
-    ],
-    [
-      "O",
-      "partial",
-      "practice, worked",
-      "Expand to at least 20 Part B and 20 Part C"
+    "revised": "Official revised CSIR-UGC-DBT LS&BT Unit 4.E p.5; PDF screenshot inspected",
+    "legacy": "Separate CSIR LS Unit 4.D p.3; PDF screenshot inspected",
+    "mp_set": "Archived MP SET 2024 Unit 4.D p.3 screenshot inspected; current official-host copy not independently located",
+    "academy": "curriculum/subunit-4e-cancer-node-map.md",
+    "scope": "Academy introductory subdivision; not an official separate syllabus heading.",
+    "matrix": [
+      [
+        "Normal tissue homeostasis, regulation and differentiation",
+        "Cancer and cell cycle; cellular communication prerequisites",
+        "homeostasis",
+        "normal growth control vs failure; no detailed cyclin pathways"
+      ],
+      [
+        "Neoplasia and benign/malignant distinction",
+        "Cancer, metastasis",
+        "terminology; architecture",
+        "morphology, lineage and tissue boundary; no staging"
+      ],
+      [
+        "Multistep progression and selection",
+        "Genetic rearrangements in progenitor cells",
+        "progression; evidence",
+        "heritable variation and selection; detailed genes reserved for 4.E.02–04"
+      ],
+      [
+        "Major capabilities",
+        "Oncogenes, tumor suppressors, cell cycle, apoptosis, tumor-normal interactions, metastasis",
+        "capabilities",
+        "functional overview; no detailed later-node mechanisms"
+      ],
+      [
+        "Population growth, diffusion and sampling",
+        "Cancer growth; earlier biophysical and cell cycle prerequisites",
+        "quantitative; heterogeneity",
+        "idealized models and limitations"
+      ],
+      [
+        "Heterogeneity and integrated reasoning",
+        "Cancer and interaction with normal cells",
+        "heterogeneity; worked; assessment",
+        "lineage, environmental and composition effects; no specialist sequencing methods"
+      ]
     ]
+  },
+  "coverage": {
+    "A": {
+      "status": "pass",
+      "sections": "homeostasis, terminology",
+      "evidence": "Normal renewal, growth and neoplasia",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "B": {
+      "status": "pass",
+      "sections": "progression, evidence",
+      "evidence": "Nowell and colorectal multistage studies, X-linked lineage evidence",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "C": {
+      "status": "pass",
+      "sections": "architecture, homeostasis",
+      "evidence": "Epithelial polarity, basement membrane, cellular compartments",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "D": {
+      "status": "pass",
+      "sections": "progression, capabilities",
+      "evidence": "Heritable variation, retention, growth signals, restraints, survival",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "E": {
+      "status": "pass",
+      "sections": "quantitative, capabilities",
+      "evidence": "Geometry, diffusion, energy/material constraints",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "F": {
+      "status": "pass",
+      "sections": "homeostasis, capabilities",
+      "evidence": "Feedback, thresholds, context and cell fate",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "G": {
+      "status": "pass",
+      "sections": "quantitative, worked",
+      "evidence": "Exponential/logistic, lineage frequency, mixture, diffusion",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "H": {
+      "status": "pass",
+      "sections": "evidence",
+      "evidence": "Published observations, controls, necessity/sufficiency, sampling",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "I": {
+      "status": "pass",
+      "sections": "homeostasis, architecture",
+      "evidence": "Intestinal, marrow, liver and epithelial function",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "J": {
+      "status": "pass",
+      "sections": "progression, heterogeneity",
+      "evidence": "Somatic selection, cell versus organism fitness, plant contrast",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "K": {
+      "status": "pass",
+      "sections": "capabilities, progression",
+      "evidence": "Growth-control failure, loss, altered retention",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "L": {
+      "status": "pass",
+      "sections": "terminology, evidence, quantitative",
+      "evidence": "Limits of morphology, assays, models and marker inference",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "M": {
+      "status": "pass",
+      "sections": "evidence, heterogeneity",
+      "evidence": "Research measurement, interpretation and selection after intervention",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "N": {
+      "status": "pass",
+      "sections": "capabilities, heterogeneity, revision",
+      "evidence": "Cell cycle, signaling, genetics, physiology and next node",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    },
+    "O": {
+      "status": "pass",
+      "sections": "worked, practice, part-c, mixed, traps, revision",
+      "evidence": "52 original explained questions, 19 traps, 16 active recall",
+      "assessment": "Related conceptual/analytical questions or active recall; within introductory NET/SET scope.",
+      "limitations": "Selected examples, not specialist research coverage."
+    }
+  },
+  "reviews": [
+    {
+      "pass": 1,
+      "focus": "Scientific and syllabus",
+      "changes": [
+        "Recovered original draft and expanded distinct microtopics to required depth.",
+        "Verified official syllabus screenshots and landmark indexed records, including the 172-specimen study; added Ki-67 qualification and linked source anchors.",
+        "Clarified population balance, cell-fate retention, tissue feedback, ancestry vs function, necessity/sufficiency and model limitations; recalculated worked and assessment results.",
+        "Corrected schematic boundary, graph labels and scientific terminology."
+      ]
+    },
+    {
+      "pass": 2,
+      "focus": "Teaching and examination",
+      "changes": [
+        "Added 44 questions to existing eight; rewrote original ambiguous Part C item; checked 20/20/12 split and balanced keys.",
+        "Added seven original accessible figures, two comparison tables, five worked examples, thirteen misconceptions and sixteen active-recall prompts.",
+        "Renumbered figures and cross-references; aligned question/table CSS classes with reader; checked saved HTML and compared adjacent chapters.",
+        "Editorial review distinguishes recurring central concepts from repeated passages; lexical maximum Jaccard 0.1882, not proof of semantic originality."
+      ]
+    }
   ],
-  "review_1": "Preliminary scientific review of saved narrative and linked records; official PDFs visually verified, abstract/textbook records checked. No complete review gate. Boundary diagram dash pattern corrected. Current MPPSC original and all full texts not verified.",
-  "review_2": "Preliminary review of saved practice and counts; rewrote ambiguous Part C population question to specify completed division counts and verified arithmetic. No complete teaching review. No exact duplicate teaching paragraphs; preliminary qualitative reading shows distinct sections, but full semantic-depth audit remains open.",
-  "academic_quality_score": null,
-  "academic_gate": "Not scored as finished chapter; mandatory prerequisites fail, including word count, diagrams, practice, misconceptions, active recall and depth. Do not publish regardless of numerical self-review.",
+  "comparators": [
+    {
+      "node": "4.E.02",
+      "words": 14077,
+      "paragraphs": 125,
+      "blob": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c"
+    },
+    {
+      "node": "4.D.12",
+      "words": 14124,
+      "paragraphs": 135,
+      "blob": "01f3b509487e5c17d484967f8af5c366da6e3362"
+    }
+  ],
+  "quality": {
+    "scope": 20,
+    "accuracy": 24,
+    "depth": 19,
+    "experimental_analytical": 14,
+    "practice": 9,
+    "technical": 9,
+    "total": 95,
+    "threshold": 95,
+    "rationale": [
+      "Approved microtopics mapped and covered within introductory scope.",
+      "Science checked against authoritative references; not all full primary papers accessed (-1).",
+      "13,392 substantive words and comparable paragraph count; lower end of allowed narrative range and purposeful recurrence of population concepts (-1).",
+      "Eight worked examples and evidence interpretation; hypothetical datasets and condensed historical experiments (-1).",
+      "52 original explained items including 20 analytical; no external exam calibration (-1).",
+      "Static HTML, controls and links verified; no interactive browser/mobile/device or comprehensive accessibility test (-1)."
+    ]
+  },
   "checks": {
     "duplicate_ids": 0,
-    "unresolved_anchor_aria_zoom_targets": [],
-    "question_structure_errors": 0,
-    "svg_with_title_desc": 4,
-    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-cancer-biology-from-normal-growth-to-malignancy.html",
-    "noindex": true,
+    "broken_anchor_aria_zoom_targets": 0,
+    "html_tag_stack_errors": 0,
+    "svg_accessible_title_desc": 11,
+    "question_structural_errors": 0,
+    "question_number_sequence_valid": true,
+    "answer_positions_balanced": true,
+    "canonical": "correct intended production URL",
+    "draft_robots": "noindex,nofollow",
     "reader_controls_present": true,
-    "navigation_dynamic": true,
-    "arithmetic": [
-      34.657359027997266,
-      11.552453009332423,
+    "neighbor_resolution_dynamic": true,
+    "lexical_max_jaccard": 0.18823529411764706,
+    "numerical_checks": [
+      34.657359,
+      11.552453,
       1.5,
       0.75,
       8,
@@ -159,27 +265,34 @@
       120,
       135,
       120,
-      15
+      15,
+      0.069314718,
+      0.3333333333333333,
+      25,
+      16,
+      16,
+      8,
+      0.2,
+      800,
+      5,
+      11,
+      0.3,
+      0.15,
+      37.5,
+      37.5,
+      0.14285714285714285,
+      9,
+      0.02,
+      0.04
     ]
   },
-  "unexecuted": [
-    "browser/mobile/assistive technology tests",
-    "complete scientific evidence and question-difficulty audit",
-    "complete HTML parser validation",
-    "publication reconciliation",
-    "Pages deployment or live verification for target"
+  "limitations": [
+    "Internal editorial review only; not external peer review.",
+    "MP SET current official-host version not independently verified; archived 2024 copy inspected.",
+    "Selected source abstracts and authoritative textbooks/reviews used; not all full texts read.",
+    "No interactive browser, mobile or assistive technology test. HTML structural and static source checks only.",
+    "No external question calibration or formal semantic originality assessment. Pages deployment verification is separate."
   ],
-  "main_snapshot": {
-    "published": 180,
-    "planned": 723,
-    "unit4": 49,
-    "unit4planned": 61,
-    "subunit4e": 0,
-    "subunit4eplanned": 12,
-    "next": "4.E.01",
-    "sitemap_entries": 181,
-    "target_link": false,
-    "target_sitemap": false
-  },
-  "next_action": "Expand existing draft with original explanatory narrative to 13000–15000 teaching words, satisfy all assessment/illustration/revision gates, complete reviews and static/browser tests, then reconcile latest main atomically. Preserve existing valid material."
+  "publication_eligible": true,
+  "previous_hold_resolved": "All mandatory numeric and scope gates met; prior draft preserved in branch history; old hold replaced on branch only."
 }

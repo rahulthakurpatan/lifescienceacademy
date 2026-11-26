@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Explore phagocyte killing, natural killer cell recognition, inflammatory mediators, leukocyte recruitment and dendritic-cell priming of adaptive immunity.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html">
+  <title>Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 4</span><span>›</span><span>Sub-unit 4.C</span><span>›</span><strong>Node 4.C.02</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 4.C.02</span><span>Unit 4 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge</h1><p class="subtitle">Explore phagocyte killing, natural killer cell recognition, inflammatory mediators, leukocyte recruitment and dendritic-cell priming of adaptive immunity.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#problem">1. From detection to defense</a><a href="#history">2. How cellular defense became an experimental science</a><a href="#cells">3. Professional phagocytes: division of labor</a><a href="#capture">4. Recognition, attachment and phagosome formation</a><a href="#maturation">5. Phagosome maturation and non-oxidative killing</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge study notes"><div class="article-content" id="article"><section id="problem"><h2>1. From detection to defense</h2><p class="teaching-prose">A bacterium crossing a damaged epithelial surface encounters a very different environment from the one in which it had been living. In a tissue, it can encounter cells capable of engulfing it, soluble molecules that bind its surface, and chemical conditions that interfere with its metabolism. Yet these protective mechanisms cannot be present at their maximum intensity everywhere and all the time. A molecule that damages a bacterial membrane might also damage a host membrane. An enzyme capable of digesting microbial proteins might digest the extracellular matrix. The biological problem is therefore not simply how to recognize an invader, but how to deploy destructive activity at an appropriate place and time, and how to withdraw it after its useful work is finished.</p>
+<p class="teaching-prose">Recognition and effector action are distinguishable stages. A pattern recognition receptor detects a molecular feature associated with microbes or injured tissue. Its engagement can change the behavior of the cell bearing it. The resulting behavior might include ingestion, secretion of a messenger, altered adhesion, or increased synthesis of an antimicrobial substance. The receptor does not have to participate directly in the chemical reaction that destroys the microbe. For instance, a macrophage that detects bacterial products may release a cytokine which acts upon endothelial cells. The resulting vascular change can permit another cell, a neutrophil, to reach the bacterial population. Recognition by one cell thus helps organize an effector action performed by another.</p>
+<p class="teaching-prose">The location of a threat strongly influences the appropriate defensive strategy. An extracellular bacterial cell is an object that can be surrounded by a phagocyte and enclosed within a membrane-bound organelle. A virus replicating within an epithelial cell is much less accessible to a phagocyte while that host cell remains intact. Eliminating an infected host cell can interrupt viral replication and remove the source of infectious progeny. Natural killer cells are suited to recognizing and eliminating certain abnormal host cells, whereas professional phagocytes are particularly effective against many extracellular particles. These distinctions concern the compartment occupied by the threat, not an absolute rule that one leukocyte type protects exclusively against one pathogen class.</p>
+<p class="teaching-prose">The response also has a spatial problem. A small injury initially involves a limited number of resident sentinel cells, while a large reserve of circulating leukocytes may be available elsewhere in the body. Direct contact between resident cells and distant leukocytes is not needed to initiate recruitment. Diffusible mediators, endothelial adhesion molecules and chemotactic signals together translate a local disturbance into a route by which additional cells leave the blood. This tissue-level process is called inflammation. Inflammation includes changes in circulation, vascular permeability, cellular composition and mediator production; it is not a synonym for infection, nor does it mean simply the presence of a neutrophil.</p>
+<p class="teaching-prose">Finally, successful local defense does not require that all information remain local. A dendritic cell can carry evidence of what it encountered into a lymphoid organ, where rare lymphocytes with suitable antigen receptors may be found. The dendritic cell's state provides contextual information that helps determine the lymphocyte response. This makes the innate response a decision-making partner of adaptive immunity rather than merely a temporary substitute for it. To understand the later chapters on antibody and T-cell responses, it is necessary first to understand how a local biological disturbance is translated into cellular recruitment, target destruction and communication with lymphocytes.</p></section>
+<section id="history"><h2>2. How cellular defense became an experimental science</h2><p class="teaching-prose">Before the molecular basis of immunity was known, investigators faced a basic interpretive difficulty: collections of white blood cells were visible at sites of injury, but their presence did not itself show whether they caused disease or protected the organism. The same microscopic observation could support opposite explanations. If white cells arrived after damage, they might be reacting to injury rather than causing it. If they contained microbial material, this could reflect a defensive action or an incidental association with material already dying. Distinguishing these alternatives required examining the behavior of living cells and the fate of the particles they encountered.</p>
+<p class="teaching-prose">Mechnikov's work on phagocytosis established an influential cellular account of defense. His observations of mobile cells in comparatively simple animals and his subsequent studies of interactions between leukocytes and microbes shifted attention from static tissue appearances to active cell behavior. In his 1908 Nobel lecture, he discussed cell movement, uptake and the fate of ingested infectious agents as connected processes. The importance of this evidence was not that all protection could be reduced to ingestion. Rather, it established that cells could themselves perform protective work and that their recruitment to an injured or infected region could have a functional explanation.</p>
+<p class="teaching-prose">The historical contrast between cellular and humoral explanations illustrates why modern immunology requires both. A soluble factor that binds an organism might have little direct killing activity but greatly enhance recognition by a phagocyte. Conversely, a powerful phagocyte can fail to ingest an organism whose surface is poorly recognized. The soluble factor and the cell do not compete as explanations; they solve different stages of the same problem. This insight prepares the distinction between opsonization and the subsequent intracellular mechanisms of killing. It also explains why a serum-dependent improvement in ingestion does not establish that the serum itself killed the ingested particles.</p>
+<p class="teaching-prose">A second important step was the identification of a specialized cell whose function could not be inferred from its shape alone. Steinman and Cohn reported a distinct dendritic cell population in mouse peripheral lymphoid organs in 1973. Morphological features and tissue distribution provided evidence that the cells were not simply another appearance of familiar macrophages. Later functional experiments established the extraordinary ability of dendritic cells to stimulate T lymphocytes. The distinction between identifying a cellular population and establishing its physiological role is essential. A cell with branched processes is not automatically an effective primer of naive T cells; its origin, receptor repertoire and activation state must be evaluated.</p>
+<p class="teaching-prose">The study of natural killer cells revealed another kind of defensive logic. In 1986, Kärre and colleagues reported preferential rejection of lymphoma variants deficient in mouse major histocompatibility complex class I expression. A conventional antigen-specific T-cell model alone would not predict that reducing a molecule required for many T-cell recognition events would necessarily make a cell more vulnerable. The results supported a complementary recognition strategy in which loss of normal self-identifying molecules can remove an inhibitory influence on NK cells. Later receptor studies supplied molecular mechanisms for this behavior. The historical experiment should not be interpreted as proving that any MHC-deficient cell will be destroyed; activating input and NK-cell competence also matter.</p>
+<p class="teaching-prose">These examples share a methodological principle. A proposed immune mechanism must explain a comparison between appropriately controlled conditions. The amount of material inside a phagocyte cannot alone establish that the material is dead. Expression of an activation marker cannot alone establish that a dendritic cell initiated a specific lymphocyte response. A decrease in surviving target cells does not establish which killer cell acted or whether the target had become intrinsically fragile. By measuring distinct steps separately and changing one relevant variable at a time, experiments convert plausible descriptions into testable explanations.</p></section>
+<section id="cells"><h2>3. Professional phagocytes: division of labor</h2><p class="teaching-prose">A professional phagocyte is a cell adapted to engulf particulate material and regulate its fate. Neutrophils and macrophages are major examples. Dendritic cells can also capture particles, although in many contexts their distinctive contribution is the acquisition and display of antigenic information. These cells have different lifetimes, tissue distributions and priorities. It is more informative to ask what task each cell is equipped to perform than to memorize a single list of functions that appears to assign all forms of uptake, killing and signaling equally to every leukocyte.</p>
+<p class="teaching-prose">Neutrophils are granulocytes, so named because their cytoplasm contains prominent granules with stored proteins. A mature human neutrophil typically has a nucleus divided into several connected lobes. This appearance distinguishes it from a monocyte in a conventional stained blood preparation, although the functional properties of a cell cannot be established from nuclear shape alone. Many neutrophils are available in the circulation and marrow reserve, allowing a rapid increase in delivery to an inflamed site. Their stored antimicrobial components allow a rapid response without waiting for every effector molecule to be synthesized after recognition. This is valuable during an acute increase in microbial burden, when the time needed to expand a specialized lymphocyte population may be comparatively long.</p>
+<p class="teaching-prose">Granules are not all identical storage compartments. Primary or azurophilic granules contain substances such as myeloperoxidase and proteases; other granule populations contain different antimicrobial proteins and membrane components. Controlled delivery of these contents to a newly formed phagosome brings chemically distinct activities into proximity with the engulfed particle. A phagocyte that released its full granule contents indiscriminately into the blood would waste resources and expose neighboring cells to injury. Regulation of granule traffic is therefore as significant for defensive specificity as the ability of the individual granule proteins to damage microbes.</p>
+<p class="teaching-prose">Macrophages often operate within tissues before large-scale recruitment begins. Their cytoplasm and endolysosomal system support ingestion and degradation of diverse cargo, from microbial particles to dying host cells and extracellular debris. Macrophages also produce mediators that influence neighboring endothelial cells, fibroblasts and leukocytes. Depending on tissue location and environmental signals, they may participate in sustained antimicrobial defense or contribute to repair. A tissue macrophage is not merely a long-lived neutrophil: the priorities and regulatory programs of the two cells are different, even where they share an oxidase or a receptor involved in phagocytosis.</p>
+<p class="teaching-prose">Blood monocytes can enter tissues and acquire macrophage-like or dendritic-like functions under appropriate conditions. However, the statement that every tissue macrophage comes from a circulating adult monocyte is too broad. Several tissue-resident macrophage populations are established during development and can maintain themselves locally. Inflammation can recruit additional monocyte-derived cells, with the magnitude and persistence of that contribution depending on the tissue and the stimulus. This distinction prevents confusion between a developmental lineage and a functional state observed during inflammation.</p>
+<p class="teaching-prose">Dendritic cells encounter material in peripheral tissues and in lymphoid organs. Many resting conventional dendritic cells are efficient at acquiring antigens, including soluble substances and particles. Encountering microbial signals can alter their priorities, increasing their capacity to stimulate lymphocytes and promoting migration where appropriate. This is not a universal loss of all uptake activity, nor does every dendritic cell migrate after activation. Some resident lymphoid dendritic cells encounter antigen delivered by other routes. Their hallmark is the capacity to integrate antigen acquisition with the signals that govern the initiation and character of a T-cell response.</p>
+<p class="teaching-prose">The differences among these cells have experimental implications. Suppose two cell types ingest equal numbers of fluorescent bacteria, but one causes a greater fall in the number of viable bacteria while the other induces stronger proliferation of antigen-specific naive T cells. The uptake measurement establishes a shared capacity to acquire particles. The viability assay and lymphocyte proliferation assay establish different downstream functions. A useful comparison would normalize cell numbers and initial bacterial exposure, account for extracellular organisms and include appropriate negative controls for T-cell activation. Without these controls, greater uptake or a larger cell population could masquerade as specialized killing or presentation.</p>
+<p class="teaching-prose">The defensive roles of neutrophils and macrophages are not restricted to infection. For example, a tissue that experiences mechanical damage generates dying cells and fragments of extracellular material even if no microorganism enters. Macrophages and recruited phagocytes can remove such material, while signals generated by damaged cells help recruit and activate them. When dead cells are removed efficiently without spilling their contents, the tissue can proceed toward restoration. If debris continues to accumulate, danger-associated signals can persist. Thus the same general cellular capability, engulfment, supports different biological outcomes according to the identity of the cargo and the circumstances in which it is taken up.</p></section>
+<section id="capture"><h2>4. Recognition, attachment and phagosome formation</h2><p class="teaching-prose">Phagocytosis is a form of endocytosis adapted to uptake of relatively large particles. It differs from the internalization of individual receptor-bound molecules through small coated vesicles because a substantial area of plasma membrane must be extended around a particle. The size and geometry of a bacterium, yeast cell or cellular fragment impose mechanical constraints on the engulfing cell. The membrane must remain continuous throughout the process, while the cytoskeleton supplies the force and organization required to construct a cup around the cargo. At the end, the particle is separated from the extracellular environment by a closed host-derived membrane.</p>
+<p class="teaching-prose">The first stable contact depends on molecular recognition. Some receptors bind structures on microbial surfaces directly. Others recognize host-derived molecules that have already attached to a target. The latter molecules are called opsonins when their presence promotes uptake. Antibody of a suitable class can provide Fc regions that are recognized by phagocyte receptors; fragments of activated complement can provide ligands for complement receptors. The detailed generation of complement opsonins belongs to the next chapter. For now, the important structural relationship is that the coating creates a bridge between a particle and a receptor on the phagocyte, so the phagocyte need not itself have a receptor for every molecular feature of the particle.</p>
+<p class="teaching-prose">A pattern recognition receptor and a phagocytic receptor are categories based on function, not necessarily mutually exclusive families of molecules. Some receptors both recognize a microbial feature and support uptake. Others primarily transmit signals that alter transcription, secretion or responsiveness to additional stimuli. A Toll-like receptor detecting bacterial material should not be assumed to serve as the mechanical attachment receptor that directly drives engulfment. If deletion of a sensing receptor diminishes inflammatory cytokines without reducing measured particle internalization, the observation is entirely compatible with recognition and uptake being accomplished by different receptor systems.</p>
+<p class="teaching-prose">Multiple receptor-ligand interactions can stabilize contact with a large particle. The cell must then rearrange its cortical actin, a network beneath the plasma membrane, to shape a growing phagocytic cup. Local activation of actin-regulating proteins promotes polymerization and the movement of membrane around the object. The exact architecture and signaling differ according to receptor and cargo. A simplified zipper model is useful for understanding how successive receptor engagements can support extension along a coated surface. It is not an assertion that all phagocytic mechanisms require identical sequential contacts. In particular, different complement and Fc receptor pathways can produce different patterns of membrane movement.</p>
+<p class="teaching-prose">The availability of membrane also constrains uptake. Engulfing a large particle consumes surface area in a way that internalizing a small soluble ligand does not. Membrane rearrangement and delivery from intracellular stores can support an expanding cup. When opposite edges meet, membrane remodeling closes the compartment. A particle at the surface, a particle partially surrounded by a cup and a particle fully enclosed in a phagosome are therefore three distinct physical situations. A static micrograph may fail to distinguish them, especially when a fluorescent object lies in the projected image of the cell. Experiments designed to measure uptake must demonstrate internalization rather than simple overlap.</p>
+<p class="teaching-prose">Actin-dependent engulfment consumes cellular energy through the cycling of cytoskeletal and regulatory systems. ATP is used in actin turnover and motor activity, among other processes, and GTP-binding regulatory proteins coordinate local changes. This does not mean that a universal number of ATP molecules is expended for each bacterium. Particle size, receptor distribution, membrane tension and the cell's prior state all influence the required work. The useful thermodynamic principle is that the cell actively organizes membrane and cytoskeleton in a non-equilibrium process rather than relying on a bacterium to diffuse spontaneously into a membrane-bound internal compartment.</p>
+<p class="teaching-prose">Once a particle has been enclosed, its fate is still undecided. Many microbes remain viable immediately after ingestion. Others are killed rapidly, and some have evolved mechanisms to alter the intracellular compartment in which they reside. A cell that displays normal ingestion but deficient microbial killing can therefore show recurrent infectious susceptibility even though microscopic phagocytosis appears normal. This distinction leads directly to the next mechanism: the conversion of a newly formed phagosome into a compartment with appropriate chemical and enzymatic activities.</p></section>
+<section id="maturation"><h2>5. Phagosome maturation and non-oxidative killing</h2><p class="teaching-prose">A newly closed phagosome inherits much of its membrane from the cell surface, but its function changes as it interacts with intracellular trafficking systems. In a macrophage, early phagosomes commonly acquire characteristics of early endosomal compartments before progressing toward a later state that communicates with lysosomes. Small regulatory GTPases such as Rab5 and Rab7 are associated with different stages of this progression. They help coordinate the recruitment of proteins required for appropriate membrane identity and transport. Their sequential association is a useful marker of maturation, although the organelle is not defined by a single protein and the precise sequence can vary with the cargo.</p>
+<p class="teaching-prose">The lysosome is a membrane-bound organelle rich in degradative enzymes. Fusion of a maturing phagosome with lysosomal compartments can deliver these enzymes into the space occupied by the ingested particle. A vacuolar proton-pumping ATPase moves protons into the lumen, establishing a tendency toward acidification. An acidic environment favors the activity of many lysosomal hydrolases and can challenge microbial mechanisms that maintain intracellular pH. The proton gradient requires energy, because maintaining a difference in proton electrochemical potential across a membrane cannot occur indefinitely without active transport or another source of free energy.</p>
+<p class="teaching-prose">The term phagolysosome describes the mature degradative compartment formed through interaction of the phagosome with lysosomes. It is not simply a second particle that enters the cell and joins the bacterium. Both compartments are parts of the cell's membrane-trafficking network, and fusion permits their luminal contents to mix while retaining a boundary with the cytoplasm. The resulting local environment concentrates enzymes and other antimicrobial agents near the cargo. A membrane that preserves this separation helps protect the host's own cytosolic proteins and other organelles from unnecessary exposure to those agents.</p>
+<p class="teaching-prose">Neutrophil phagosomes deserve a qualification. They receive material from pre-existing granules very rapidly, and their early ionic and pH properties can differ substantially from those of macrophage phagolysosomes. In particular, intense oxidase activity can contribute to an initially alkaline neutrophil phagosome. Thus the useful textbook association between lysosomal acidification and digestion must not be turned into a claim that all professional phagocytes establish the same pH immediately after engulfment. The antimicrobial environment results from the combined effects of ion movement, enzyme delivery, oxidase activity and time. Different antimicrobial proteins have different preferred chemical conditions.</p>
+<p class="teaching-prose">Lysozyme can cleave bonds within bacterial peptidoglycan, weakening a structural component of many bacterial cell walls. Its effectiveness depends on accessibility; the outer membrane of many Gram-negative bacteria can restrict access to underlying peptidoglycan. Other antimicrobial proteins can disturb membranes, bind essential microbial nutrients, or cleave proteins. Lactoferrin, for example, can bind iron and help restrict its availability. A microbial cell requires suitable ion balance, intact membranes, functional proteins and access to nutrients. Disturbing multiple requirements at once can produce stronger inhibition than interfering with a single requirement in isolation.</p>
+<p class="teaching-prose">Proteases delivered by granules or lysosomes hydrolyze peptide bonds and can disrupt bacterial structures and virulence-associated proteins. Some antimicrobial peptides interact with microbial membrane surfaces and impair membrane integrity. The effects of these agents depend on the composition of the target and the chemical properties of the phagosomal lumen. It would be inaccurate to attribute every failure of microbial growth inside phagocytes to protein digestion alone. In some organisms, membrane damage precedes enzymatic degradation; in others, restriction of nutrients contributes to failure to replicate. Conversely, a particle may be killed while still retaining recognizable structures for a substantial time.</p>
+<p class="teaching-prose">The consequences of interference with maturation can be studied by distinguishing uptake, luminal acidification, lysosomal cargo delivery and microbial viability. Imagine cells exposed to a mutation affecting a trafficking regulator. If the number of internalized bacteria is normal, but delivery of a labeled lysosomal protein is reduced and bacterial survival increases, a downstream defect is plausible. The conclusion would be stronger if restoration of the normal regulator restored both lysosomal delivery and killing. The observations would not by themselves demonstrate that acidity was the sole missing factor, because fusion also changes enzyme concentration, membrane proteins and ionic properties. Measurements of pH and enzyme activity would distinguish these possibilities.</p>
+<p class="teaching-prose">These mechanisms also explain why phagosome maturation is an important target of microbial adaptations. An intracellular organism that delays delivery of harmful luminal contents or survives within an altered compartment can persist despite efficient capture. This is a brief mechanistic connection to later study of bacterial infections, rather than a universal property of pathogens. For the current chapter the central distinction is between the cellular decision to engulf and the subsequent establishment of an effective antimicrobial compartment. To understand killing fully, the degradative functions of that compartment must be considered alongside oxygen-dependent chemistry.</p></section>
+</div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 4 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 4 · Cell Communication and Signaling</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["4.C.01","previous-node","← "],["4.C.03","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

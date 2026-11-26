@@ -4,24 +4,371 @@
   "unit": "04",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "4.C.10",
-  "title": "Hypersensitivity and Autoimmunity: Immune-Mediated Damage",
+  "node_id": "4.C.02",
+  "title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
   "subunit": "4.C",
   "topic": "Innate and Adaptive Immune System",
-  "slug": "hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
-  "next_pending_node_id": "4.C.02",
-  "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
-  "published_node_count": 161,
+  "slug": "innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
+  "next_pending_node_id": "4.C.06",
+  "next_pending_node_title": "MHC Molecules, Antigen Processing and Presentation",
+  "published_node_count": 162,
   "publication_allowed": true,
-  "main_baseline_sha": "52c6e85ccd2150781599b75dbb42d77722a9cb20",
+  "main_baseline_sha": "6e473c0926fca6e7e449a30c0d32430291a07f0f",
   "quality_hold": false,
-  "next_required_action": "Verify Pages for 4.C.10; preserve concurrent publications; next unpublished 4.C.02.",
+  "next_required_action": "Verify Pages for 4.C.02; preserve concurrent publications; next unpublished 4.C.06.",
   "planned_node_count": 61,
   "planned_subunit_count": 5,
   "architecture_version": "unit-04-cell-communication-signaling-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-04-cell-communication-signaling-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-4c-innate-adaptive-immune-system-node-map.md",
   "last_qa": {
+    "node_id": "4.C.02",
+    "title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
+    "unit": "04",
+    "subunit": "4.C",
+    "slug": "innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
+    "status": "lesson_committed_pages_verification_pending",
+    "narrative_words": 14891,
+    "genuine_teaching_words": 14891,
+    "visible_article_words": 22475,
+    "article_words_excluding_svg_labels": 22159,
+    "teaching_paragraphs": 152,
+    "html_bytes": 271159,
+    "theory_sections": 19,
+    "sections": 26,
+    "figures": 15,
+    "tables": 6,
+    "worked_numerical_examples": 7,
+    "questions": 55,
+    "distribution": {
+      "part_b": 20,
+      "part_c": 25,
+      "mixed": 10,
+      "answer_positions": {
+        "A": 14,
+        "B": 14,
+        "C": 14,
+        "D": 13
+      }
+    },
+    "references": 23,
+    "revision_traps": 20,
+    "active_recall": 14,
+    "mastery_checklist": 7,
+    "method": "Re-fetched final saved HTML and counted Unicode lexical words in p.teaching-prose only; excluded headings, tables, practice, references, diagrams and revision. Visible article includes expanded answers, captions and visible SVG labels but excludes SVG title/desc and buttons. Zero exact duplicate teaching paragraphs. Published chapter differs only in robots metadata.",
+    "comparator": {
+      "node_id": "4.B.09",
+      "narrative_words": 14402,
+      "teaching_paragraphs": 127,
+      "review": "Fetched published HTML and used established Academy reader architecture; comparable narrative depth with independent topic-specific material."
+    },
+    "syllabus_references": {
+      "merged": "Official revised CSIR–UGC–DBT Unit 4.C p.5",
+      "legacy": "Official CSIR Life Sciences Unit 4.E p.3",
+      "state_set": "Archived MP SET 2024 Unit 4.E p.3; current MPPSC hosting not independently confirmed"
+    },
+    "microtopic_matrix": {
+      "phagocytes": "3–8",
+      "natural_killer_cells": "9–10",
+      "microbial_killing": "4–8",
+      "inflammatory_mediators": "11–13",
+      "leukocyte_recruitment": "14–15",
+      "innate_adaptive_bridge": "17,19"
+    },
+    "coverage_360": {
+      "foundations": "1,3",
+      "history": "2",
+      "structure": "3–7,9–10",
+      "mechanisms": "4–17",
+      "chemical_physical": "5–7,13–15",
+      "regulation": "9,12–17",
+      "quantitative": "18 and 7 worked examples",
+      "experimental": "2,8,19 and Part C",
+      "physiology": "3,11–17",
+      "comparative_evolution": "19",
+      "perturbations": "5–10,14–19",
+      "exceptions": "3,5–10,14–17",
+      "applications": "8,19",
+      "integration": "17,19",
+      "exam_reasoning": "55 original explained questions, 20 traps, 14 recall prompts"
+    },
+    "review_pass_1": "Internal scientific/syllabus review: checked phagocytosis versus killing, Rab maturation, cell-specific phagosomal pH, NOX2/MPO stoichiometry, nonoxidative routes, missing-self conditionality, perforin/granzyme and Fas, adhesion cascade, tissue-specific exceptions, chemotaxis, efferocytosis, DC migration and naive T-cell priming. Separated hypothetical data from historical evidence and recomputed arithmetic.",
+    "review_pass_2": "Internal teaching/exam review: checked prose progression, added applied immunology and readout reasoning, corrected barrier drawing, expanded reasons for all 20 misconceptions, revised 16 analytical question distractors/explanations, checked all 55 keys against their options, shuffled answer positions and checked static tags, IDs, anchors, zoom targets, reader controls and comparator.",
+    "arithmetic_checks": {
+      "oxidase": [
+        18,
+        9
+      ],
+      "loss": [
+        0.8,
+        0.5
+      ],
+      "decay": 0.023104906018664842,
+      "half_life_min": 30,
+      "recruitment": [
+        0.6,
+        0.6,
+        0.36,
+        72
+      ],
+      "chemotaxis": [
+        30,
+        0.6,
+        -0.1
+      ],
+      "resolution": [
+        600,
+        1.732867951399863,
+        81.20116994196762
+      ],
+      "corrected_lysis": 0.5,
+      "practice": [
+        12,
+        6,
+        0.8,
+        0.4,
+        13.862943611198904,
+        0.5,
+        0.6,
+        0.15,
+        0.6,
+        -0.1,
+        -30,
+        0.30119421191220214
+      ]
+    },
+    "academic_self_review": {
+      "syllabus_microtopic_completeness": 20,
+      "scientific_mechanistic_accuracy": 24,
+      "teaching_depth_progression": 20,
+      "experimental_quantitative_reasoning": 14,
+      "examination_practice_quality": 9,
+      "technical_accessibility": 8,
+      "total": 95,
+      "maximum": 100,
+      "method": "Two internal review passes. Deductions: some full texts inaccessible (1); quantitative examples are illustrative rather than primary datasets (1); no external examiner calibration (1); no interactive browser/mobile or assistive-technology tests (2)."
+    },
+    "static_checks": {
+      "word_gate": true,
+      "unique_ids": true,
+      "internal_anchors": true,
+      "aria_references": true,
+      "balanced_tags": true,
+      "svg_title_desc_and_zoom_targets": true,
+      "all_answer_keys_match": true,
+      "no_duplicate_teaching_paragraphs": true,
+      "canonical": true,
+      "indexable": true,
+      "reader_controls": "Existing reader source preserved; static verification only",
+      "menu_link_once": true,
+      "sitemap_entry_once": true,
+      "neighbor_dynamic_links": true,
+      "checkpoint_reconciled": true
+    },
+    "limitations": [
+      "Internal academic review, not independent expert peer review; some scientific full texts inaccessible.",
+      "Archived MP SET 2024 syllabus examined; current official MPPSC-hosted copy not confirmed.",
+      "Static markup and diagram review; no interactive browser, mobile or assistive-technology testing.",
+      "New title-based filename follows Academy convention; numerical data illustrative unless expressly cited as historical.",
+      "Pages deployment is separate from this commit."
+    ],
+    "initial_head_sha": "9336b51953ed8c36001be9648e49afcc08e7cf81",
+    "main_baseline_sha": "6e473c0926fca6e7e449a30c0d32430291a07f0f",
+    "source_draft_branch": "draft/node-4c02-innate-effectors-inflammation",
+    "draft_commit_sha": "3a9dbb628873d4e1e9fbca9a4c15d3d180e3b85d",
+    "draft_blob_sha": "e27f3fb7966c61a26388512729c3bcc9a42d1c37",
+    "academy_published_count": 162,
+    "unit_04_published_count": 31,
+    "unit_04_planned_count": 61,
+    "subunit_4c_published_count": 7,
+    "subunit_4c_planned_count": 13,
+    "next_pending_node_id": "4.C.06",
+    "next_pending_node_title": "MHC Molecules, Antigen Processing and Presentation",
+    "neighbors": [
+      {
+        "node_id": "4.C.01",
+        "published": true,
+        "linked": true
+      },
+      {
+        "node_id": "4.C.03",
+        "published": true,
+        "linked": true
+      }
+    ],
+    "concurrent_reconciliation": {
+      "previous_published_count": 161,
+      "all_previous_ids_preserved": true,
+      "non_force": true,
+      "baseline_changed": true
+    }
+  },
+  "published_node_ids": [
+    "1.A.01",
+    "1.A.02",
+    "1.A.03",
+    "1.A.04",
+    "1.A.05",
+    "1.B.01",
+    "1.B.02",
+    "1.B.03",
+    "1.B.04",
+    "1.B.05",
+    "1.C.01",
+    "1.C.02",
+    "1.C.03",
+    "1.C.04",
+    "1.C.05",
+    "1.D.01",
+    "1.D.02",
+    "1.D.03",
+    "1.D.04",
+    "1.D.05",
+    "1.E.01",
+    "1.E.02",
+    "1.E.03",
+    "1.E.04",
+    "1.E.05",
+    "1.F.01",
+    "1.F.02",
+    "1.F.03",
+    "1.F.04",
+    "1.F.05",
+    "2.A.01",
+    "2.A.02",
+    "2.A.03",
+    "2.A.04",
+    "2.A.05",
+    "2.A.06",
+    "2.A.07",
+    "2.A.08",
+    "2.A.09",
+    "2.A.10",
+    "2.B.01",
+    "2.B.02",
+    "2.B.03",
+    "2.B.04",
+    "2.B.05",
+    "2.B.06",
+    "2.B.07",
+    "2.B.08",
+    "2.B.09",
+    "2.B.10",
+    "2.C.01",
+    "2.C.02",
+    "2.C.03",
+    "2.C.04",
+    "2.C.05",
+    "2.C.06",
+    "2.C.07",
+    "2.C.08",
+    "2.C.09",
+    "2.C.10",
+    "2.D.01",
+    "2.D.02",
+    "2.D.03",
+    "2.D.04",
+    "2.D.05",
+    "2.D.06",
+    "2.D.07",
+    "2.D.08",
+    "2.D.09",
+    "2.D.10",
+    "2.E.01",
+    "2.E.02",
+    "2.E.03",
+    "2.E.04",
+    "2.E.05",
+    "2.E.06",
+    "2.E.07",
+    "2.E.08",
+    "2.E.09",
+    "2.E.10",
+    "3.A.01",
+    "3.A.02",
+    "3.A.03",
+    "3.A.04",
+    "3.A.05",
+    "3.A.06",
+    "3.A.07",
+    "3.A.08",
+    "3.A.09",
+    "3.A.10",
+    "3.A.11",
+    "3.A.12",
+    "3.B.01",
+    "3.B.02",
+    "3.B.03",
+    "3.B.04",
+    "3.B.05",
+    "3.B.06",
+    "3.B.07",
+    "3.B.08",
+    "3.B.09",
+    "3.B.10",
+    "3.B.11",
+    "3.B.12",
+    "3.B.13",
+    "3.C.01",
+    "3.C.02",
+    "3.C.03",
+    "3.C.04",
+    "3.C.05",
+    "3.C.06",
+    "3.C.07",
+    "3.C.08",
+    "3.C.09",
+    "3.C.10",
+    "3.C.11",
+    "3.C.12",
+    "3.C.13",
+    "3.C.14",
+    "3.D.01",
+    "3.D.02",
+    "3.D.03",
+    "3.D.04",
+    "3.D.05",
+    "3.D.06",
+    "3.D.07",
+    "3.D.08",
+    "3.D.09",
+    "3.D.10",
+    "3.D.11",
+    "3.D.12",
+    "4.A.01",
+    "4.A.02",
+    "4.A.03",
+    "4.A.04",
+    "4.A.05",
+    "4.A.06",
+    "4.A.07",
+    "4.A.08",
+    "4.A.09",
+    "4.A.10",
+    "4.A.11",
+    "4.A.12",
+    "4.A.13",
+    "4.B.01",
+    "4.B.02",
+    "4.B.03",
+    "4.B.04",
+    "4.B.05",
+    "4.B.06",
+    "4.B.07",
+    "4.B.08",
+    "4.B.09",
+    "4.B.10",
+    "4.B.11",
+    "4.C.01",
+    "4.C.02",
+    "4.C.03",
+    "4.C.04",
+    "4.C.05",
+    "4.C.08",
+    "4.C.10"
+  ],
+  "prior_publication_qa": {
     "node_id": "4.C.10",
     "title": "Hypersensitivity and Autoimmunity: Immune-Mediated Damage",
     "unit": "04",
@@ -277,273 +624,188 @@
       ]
     }
   },
-  "published_node_ids": [
-    "1.A.01",
-    "1.A.02",
-    "1.A.03",
-    "1.A.04",
-    "1.A.05",
-    "1.B.01",
-    "1.B.02",
-    "1.B.03",
-    "1.B.04",
-    "1.B.05",
-    "1.C.01",
-    "1.C.02",
-    "1.C.03",
-    "1.C.04",
-    "1.C.05",
-    "1.D.01",
-    "1.D.02",
-    "1.D.03",
-    "1.D.04",
-    "1.D.05",
-    "1.E.01",
-    "1.E.02",
-    "1.E.03",
-    "1.E.04",
-    "1.E.05",
-    "1.F.01",
-    "1.F.02",
-    "1.F.03",
-    "1.F.04",
-    "1.F.05",
-    "2.A.01",
-    "2.A.02",
-    "2.A.03",
-    "2.A.04",
-    "2.A.05",
-    "2.A.06",
-    "2.A.07",
-    "2.A.08",
-    "2.A.09",
-    "2.A.10",
-    "2.B.01",
-    "2.B.02",
-    "2.B.03",
-    "2.B.04",
-    "2.B.05",
-    "2.B.06",
-    "2.B.07",
-    "2.B.08",
-    "2.B.09",
-    "2.B.10",
-    "2.C.01",
-    "2.C.02",
-    "2.C.03",
-    "2.C.04",
-    "2.C.05",
-    "2.C.06",
-    "2.C.07",
-    "2.C.08",
-    "2.C.09",
-    "2.C.10",
-    "2.D.01",
-    "2.D.02",
-    "2.D.03",
-    "2.D.04",
-    "2.D.05",
-    "2.D.06",
-    "2.D.07",
-    "2.D.08",
-    "2.D.09",
-    "2.D.10",
-    "2.E.01",
-    "2.E.02",
-    "2.E.03",
-    "2.E.04",
-    "2.E.05",
-    "2.E.06",
-    "2.E.07",
-    "2.E.08",
-    "2.E.09",
-    "2.E.10",
-    "3.A.01",
-    "3.A.02",
-    "3.A.03",
-    "3.A.04",
-    "3.A.05",
-    "3.A.06",
-    "3.A.07",
-    "3.A.08",
-    "3.A.09",
-    "3.A.10",
-    "3.A.11",
-    "3.A.12",
-    "3.B.01",
-    "3.B.02",
-    "3.B.03",
-    "3.B.04",
-    "3.B.05",
-    "3.B.06",
-    "3.B.07",
-    "3.B.08",
-    "3.B.09",
-    "3.B.10",
-    "3.B.11",
-    "3.B.12",
-    "3.B.13",
-    "3.C.01",
-    "3.C.02",
-    "3.C.03",
-    "3.C.04",
-    "3.C.05",
-    "3.C.06",
-    "3.C.07",
-    "3.C.08",
-    "3.C.09",
-    "3.C.10",
-    "3.C.11",
-    "3.C.12",
-    "3.C.13",
-    "3.C.14",
-    "3.D.01",
-    "3.D.02",
-    "3.D.03",
-    "3.D.04",
-    "3.D.05",
-    "3.D.06",
-    "3.D.07",
-    "3.D.08",
-    "3.D.09",
-    "3.D.10",
-    "3.D.11",
-    "3.D.12",
-    "4.A.01",
-    "4.A.02",
-    "4.A.03",
-    "4.A.04",
-    "4.A.05",
-    "4.A.06",
-    "4.A.07",
-    "4.A.08",
-    "4.A.09",
-    "4.A.10",
-    "4.A.11",
-    "4.A.12",
-    "4.A.13",
-    "4.B.01",
-    "4.B.02",
-    "4.B.03",
-    "4.B.04",
-    "4.B.05",
-    "4.B.06",
-    "4.B.07",
-    "4.B.08",
-    "4.B.09",
-    "4.B.10",
-    "4.B.11",
-    "4.C.01",
-    "4.C.03",
-    "4.C.04",
-    "4.C.05",
-    "4.C.08",
-    "4.C.10"
-  ],
-  "prior_publication_qa": {
-    "node_id": "4.C.08",
-    "title": "T-Cell Receptors, Thymic Selection, Activation and Differentiation",
+  "previous_last_qa": {
+    "node_id": "4.C.10",
+    "title": "Hypersensitivity and Autoimmunity: Immune-Mediated Damage",
     "unit": "04",
     "subunit": "4.C",
-    "slug": "t-cell-receptors-thymic-selection-activation-and-differentiation.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/t-cell-receptors-thymic-selection-activation-and-differentiation.html",
+    "slug": "hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
     "status": "lesson_committed_pages_verification_pending",
-    "narrative_words": 14749,
-    "genuine_teaching_words": 14749,
-    "visible_article_words": 20454,
-    "teaching_paragraphs": 134,
-    "html_bytes": 243796,
-    "theory_sections": 16,
-    "sections": 23,
+    "genuine_teaching_words": 13869,
+    "narrative_words": 13869,
+    "visible_article_words": 19775,
+    "teaching_paragraphs": 145,
+    "html_bytes": 231384,
+    "theory_sections": 12,
+    "sections": 20,
     "figures": 14,
-    "tables": 4,
-    "worked_numerical_examples": 7,
-    "questions": 54,
+    "tables": 3,
+    "worked_numerical_examples": 8,
+    "questions": 52,
     "distribution": {
       "part_b": 20,
-      "part_c": 23,
-      "mixed": 11,
+      "part_c": 24,
+      "mixed": 8,
       "answer_positions": {
-        "A": 14,
-        "B": 13,
-        "C": 14,
-        "D": 13
+        "C": 13,
+        "A": 13,
+        "D": 13,
+        "B": 13
       }
     },
-    "references": 22,
-    "revision_traps": 19,
+    "references": 20,
+    "revision_traps": 20,
     "active_recall": 15,
-    "mastery_checklist": 15,
-    "method": "Re-fetched saved draft HTML; count whitespace-delimited visible words from 134 unique p.teaching-prose paragraphs, excluding all headings, figures, tables, exercises, answer explanations, revision, source notes and refs. Article total excludes SVG and buttons and includes supplementary content; counts are reproducible with the stated tokenizer.",
-    "comparator": {
-      "node_id": "4.B.09",
-      "genuine_teaching_words": 14363,
-      "method": "Same paragraph-class counting method; inspected reader and introductory theory; no adjacent 4.C.07 or 4.C.09 chapter existed at initial baseline."
-    },
+    "mastery_checklist": 6,
+    "method": "Unicode lexical word count of saved p.teaching-prose only (entities decoded); visible article count includes expanded practice answers and references but excludes SVG and buttons.",
+    "comparator": [
+      {
+        "node_id": "4.C.01",
+        "narrative_words": 13569,
+        "teaching_paragraphs": 157
+      },
+      {
+        "node_id": "4.C.03",
+        "narrative_words": 14838,
+        "teaching_paragraphs": 141
+      }
+    ],
+    "comparison": "Fetched actual published chapters; target uses comparable sustained explanatory depth with distinct tissue-injury and tolerance focus. Maximum paragraph trigram Jaccard against comparator chapters 0.1043; no within-draft pair above 0.35.",
     "syllabus_references": {
-      "merged": "Official CSIR–UGC–DBT syllabus Unit 4.C, p.5; opened and inspected",
-      "legacy": "Official CSIR-UGC NET LS Unit 4.E p.3; opened and inspected",
-      "state_set": "MPPSC SET 2024 Life Sciences Unit 4.E p.3; archived document mirror opened; latest MPPSC-hosted source not independently verified",
-      "academy": "curriculum/subunit-4c-innate-adaptive-immune-system-node-map.md"
+      "merged": "CSIR–UGC–DBT revised Unit 4.C printed page 5, official PDF visually checked",
+      "legacy": "CSIR–UGC NET Unit 4.E printed page 3 official PDF visually checked",
+      "state_set": "MP SET 2024 archived Unit 4.E printed page 3 visually checked; current primary hosting unverified"
     },
     "coverage_360": {
-      "foundations": "1,3",
-      "historical": "2,13 (Miller, Zinkernagel/Doherty, Mosmann), 10 (Altman)",
-      "structure": "3,4",
-      "mechanisms": "4–10,11–16",
-      "chemical_physical": "3,9,11",
-      "regulation": "6–12,15",
-      "quantitative": "3,4,8,11 and 7 worked examples",
-      "experimental": "2,6–10,11–16; flow cytometry, selection perturbations, cytokine and binding assays",
-      "physiological": "1,5–8,13–16",
-      "comparative": "3,5,16; BCR/TCR, NK/CTL, γδ, jawless/jawed",
-      "perturbations": "4,6–10,13–16",
-      "exceptions": "3–10,12–16; selection thresholds, nonclassical recognition, context-dependent anergy, lineage plasticity",
-      "applications": "10,14,16; tetramers, linked recognition and vaccine response reasoning",
-      "integration": "1,3,9,14,16",
-      "exam_reasoning": "54 explained questions, 19 traps and 15 active recall prompts"
+      "foundations": "1",
+      "historical": "2, Arthus, von Pirquet and Schick, Landsteiner and Chase, IgE, AIRE and Treg research",
+      "structure": "3–6 IgE-FcεRI, Fc recognition, fixed vs soluble antigen, peptide–MHC",
+      "mechanisms": "3–10 all four types and self-directed damage",
+      "physical": "binding saturation, aggregation, clearance, flow resistance",
+      "regulation": "7–10 central/peripheral tolerance, HLA and inflammatory feedback",
+      "quantitative": "11 and eight worked examples",
+      "evidence": "2 and 12, controls, transfer, depletion and rescue",
+      "physiology": "3–10 vascular, renal, endocrine and neuromuscular effects",
+      "comparative": "3 mast-cell-like cells and mammalian IgE; plants do not share vertebrate antibody machinery",
+      "perturbations": "3–12 receptor, complement, MHC, AIRE, FOXP3, regulation",
+      "exceptions": "non-IgE anaphylaxis, late type I, receptor dysfunction, dual complement roles, biomarker vs mediator, mixed lesions",
+      "applications": "antibody engineering and functional assay interpretation",
+      "integration": "complement, antigen presentation, cellular signaling, immunity to infections",
+      "exam_reasoning": "52 original questions, 20 traps, 15 recall prompts"
     },
-    "review_pass_1": "Internal scientific and syllabus review of receptor architecture, lineage selection, activation and differentiation; checked official syllabus pages and source excerpts, clarified conditional selection, corrected exponential graph caption, verified all explicit numerical outcomes and added binding affinity/dwell-time derivation, historical evidence and comparative context.",
-    "review_pass_2": "Internal teaching and examination review; evaluated progressive sequence, checked 16 theory section sizes, added section-specific references, randomized correct option positions, refined assertion–reason wording, checked all 54 saved question keys, 134 unique prose paragraphs, 14 SVG title/description/zoom targets, unique IDs and anchors. No external peer review.",
-    "arithmetic_checks": {
-      "diversity": 48000,
-      "diversity_question": 7200,
-      "itams": 10,
-      "thymocyte_counts": [
-        10,
-        4,
-        8,
-        5
-      ],
-      "expansion": [
-        6400,
-        5120,
-        1600,
-        2560
-      ],
-      "dye": [
-        200,
-        150,
-        100
-      ],
-      "lysis": 60,
-      "selection": 160,
-      "occupancy": 0.75,
-      "graph_cells": [
-        25,
-        50,
-        100,
-        200,
-        400
-      ],
-      "graph_dye": [
-        1600,
-        800,
-        400,
-        200,
-        100
-      ]
-    },
+    "review_pass_1": "Read roadmap and visually checked three syllabus pages; reviewed mechanisms and historical claims against accessible textbooks, reviews and primary records; expanded historical distinction and molecular FcεRI architecture; checked all quantitative assumptions and independently recomputed arithmetic.",
+    "review_pass_2": "Inspected saved teaching prose and original questions; compared actual 4.C.01 and 4.C.03, checked near-duplicate paragraph overlap, corrected fixed-target diagram orientation and figure-number references, applied established table styling, captions and column scopes; verified all keys, anchors, accessibility label targets and tag balance.",
+    "arithmetic_checks": [
+      {
+        "name": "occupancy",
+        "actual": 0.8,
+        "expected": 0.8,
+        "pass": true
+      },
+      {
+        "name": "complex steady",
+        "actual": 20,
+        "expected": 20,
+        "pass": true
+      },
+      {
+        "name": "complex half clearance",
+        "actual": 40,
+        "expected": 40,
+        "pass": true
+      },
+      {
+        "name": "mediator half-life",
+        "actual": 1.3862943611198906,
+        "expected": 1.3862943611198906,
+        "pass": true
+      },
+      {
+        "name": "radius ratio",
+        "actual": 3.160493827160493,
+        "expected": 3.160493827160493,
+        "pass": true
+      },
+      {
+        "name": "cell reserve",
+        "actual": 90,
+        "expected": 90,
+        "pass": true
+      },
+      {
+        "name": "odds ratio",
+        "actual": 3.5,
+        "expected": 3.5,
+        "pass": true
+      },
+      {
+        "name": "mediator steady",
+        "actual": 60,
+        "expected": 60,
+        "pass": true
+      },
+      {
+        "name": "clearance",
+        "actual": 10,
+        "expected": 10,
+        "pass": true
+      },
+      {
+        "name": "Part C occupancy",
+        "actual": 0.75,
+        "expected": 0.75,
+        "pass": true
+      },
+      {
+        "name": "Part C radius",
+        "actual": 2.4414062499999996,
+        "expected": 2.44140625,
+        "pass": true
+      },
+      {
+        "name": "Part C complex",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "name": "Part C odds",
+        "actual": 2.6666666666666665,
+        "expected": 2.6666666666666665,
+        "pass": true
+      },
+      {
+        "name": "Part C reserve",
+        "actual": 75,
+        "expected": 75,
+        "pass": true
+      },
+      {
+        "name": "mediator half release",
+        "actual": 30,
+        "expected": 30,
+        "pass": true
+      },
+      {
+        "name": "remaining quarter",
+        "actual": 0.25,
+        "expected": 0.25,
+        "pass": true
+      },
+      {
+        "name": "40 cells",
+        "actual": 48,
+        "expected": 48,
+        "pass": true
+      },
+      {
+        "name": "half occupancy",
+        "actual": 0.5,
+        "expected": 0.5,
+        "pass": true
+      }
+    ],
     "academic_self_review": {
       "syllabus_microtopic_completeness": 20,
       "scientific_mechanistic_accuracy": 24,
@@ -553,188 +815,7 @@
       "technical_accessibility": 8,
       "total": 95,
       "maximum": 100,
-      "method": "Internal editorial rubric; deductions: partial historical full-text access, hypothetical teaching rather than raw experimental datasets, no student difficulty calibration, and no interactive cross-browser/mobile or assistive technology test."
-    },
-    "static_checks": {
-      "narrative_gate": true,
-      "no_duplicate_prose": true,
-      "unique_ids": true,
-      "internal_anchors": true,
-      "svg_label_targets": true,
-      "diagram_zoom_targets": true,
-      "answer_key_consistency": true,
-      "canonical": true,
-      "reader_controls_preserved": true,
-      "menu_target_once": true,
-      "sitemap_target_once": true,
-      "existing_menu_links_preserved": true,
-      "progress_reconciled": true,
-      "adjacent_dynamic_nav": true,
-      "indexable": true
-    },
-    "limitations": [
-      "Latest MPPSC-hosted syllabus not independently verified; archived 2024 document checked.",
-      "Some primary full texts unavailable; accessible authoritative sources and abstracts used.",
-      "Original questions internally checked; not student-cohort calibrated.",
-      "Static technical checks only; no interactive browser or assistive-technology validation.",
-      "Live deployment not confirmed at commit creation."
-    ],
-    "initial_head_sha": "9336b51953ed8c36001be9648e49afcc08e7cf81",
-    "main_baseline_sha": "310f3eaec08933c97d1a7fe73553c0901a583c58",
-    "source_draft_branch": "draft/node-4c08-t-cell-development",
-    "draft_commit_sha": "eee34b740bd8f09144df384a5b0c0130973073c6",
-    "draft_blob_sha": "0766729fcd2b5892b82b4e0ed094b75c4ffdad83",
-    "academy_published_count": 159,
-    "unit_04_published_count": 28,
-    "unit_04_planned_count": 61,
-    "subunit_4c_published_count": 4,
-    "subunit_4c_planned_count": 13,
-    "next_pending_node_id": "4.C.02",
-    "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
-    "neighbors": [
-      {
-        "node_id": "4.C.07",
-        "published": false,
-        "linked": false
-      },
-      {
-        "node_id": "4.C.09",
-        "published": false,
-        "linked": false
-      }
-    ],
-    "concurrent_reconciliation": {
-      "baseline": "310f3eaec08933c97d1a7fe73553c0901a583c58",
-      "initial_to_baseline_commits": 3,
-      "existing_published_nodes_preserved": 158,
-      "atomic_non_force": true
-    }
-  },
-  "previous_last_qa": {
-    "node_id": "4.C.04",
-    "title": "Antigens, Epitopes, Antibody Structure and Antigen–Antibody Binding",
-    "unit": "04",
-    "subunit": "4.C",
-    "slug": "antigens-epitopes-antibody-structure-and-antigen-antibody-binding.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/antigens-epitopes-antibody-structure-and-antigen-antibody-binding.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "narrative_words": 14510,
-    "genuine_teaching_words": 14510,
-    "visible_article_words": 21338,
-    "teaching_paragraphs": 133,
-    "html_bytes": 238065,
-    "theory_sections": 15,
-    "sections": 22,
-    "figures": 14,
-    "tables": 4,
-    "worked_numerical_examples": 8,
-    "questions": 52,
-    "distribution": {
-      "part_b": 20,
-      "part_c": 24,
-      "mixed": 8,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      }
-    },
-    "references": 25,
-    "revision_traps": 18,
-    "active_recall": 15,
-    "mastery_checklist": 6,
-    "method": "Unicode lexical words in teaching-prose paragraphs only. Visible article excludes SVG and button content; UTF-8 byte count calculated separately. All 133 teaching paragraphs unique.",
-    "comparator": {
-      "node_id": "4.B.07",
-      "narrative_words": 14205,
-      "teaching_paragraphs": 165,
-      "review": "Actual published exemplar read; comparable long-form explanatory scope with 15 theory sections, mechanistic models, worked problems, original evidence and questions."
-    },
-    "syllabus_references": {
-      "merged": "Official revised CSIR–UGC–DBT LS&BT Unit 4.C, printed p.5, directly inspected",
-      "legacy": "Official CSIR–UGC NET Life Sciences Unit 4.E, printed p.3, directly inspected",
-      "state_set": "Archived MPPSC SET 2024 Life Sciences Paper II Unit 4.E, printed p.3, inspected; current official hosting not independently confirmed"
-    },
-    "microtopic_coverage": {
-      "antigenicity_immunogenicity": "sections 1–3",
-      "haptens_carriers_linked_recognition": "3",
-      "linear_conformational_B_T_epitopes": "4",
-      "historical_evidence": "5",
-      "antibody_domains_disulfides_CDR": "6–7",
-      "Fab_Fc_fragments_isotype_allotype_idiotype": "5,8",
-      "Ig_classes": "9–10",
-      "noncovalent_binding": "11",
-      "affinity_equilibrium_kinetics": "12",
-      "avidity_multivalency": "13",
-      "precipitation_agglutination_equivalence": "14",
-      "cross_reactivity_neutralization_effector_functions": "8,14–15"
-    },
-    "coverage_360": {
-      "foundations": "1–4",
-      "history": "5,14",
-      "structure": "6–10",
-      "mechanisms": "3–4,7–14",
-      "physical": "11–14",
-      "regulation": "2–3,8–10",
-      "quantitative": "12–14 and 8 worked examples",
-      "evidence": "5,12–15 with controls and hypothetical datasets identified",
-      "physiology": "8–10,15",
-      "comparative": "10,15 mammalian and vertebrate variation",
-      "perturbations": "3–4,8–10,12–15",
-      "exceptions": "2,4,8–10,12–15",
-      "applications": "8,14–15",
-      "integration": "15; connections to complement and antibody diversity",
-      "exam_reasoning": "52 explained questions, 18 traps, 15 recall prompts"
-    },
-    "review_pass_1": "Scientific/scope review of 15 sections against roadmap and textbook/primary sources; refined excess narrative, checked binding thermodynamics, stoichiometry, kinetics and problem calculations; distinguished modeled and historical evidence.",
-    "review_pass_2": "Separate teaching and static QA review; revised three diagrams (independent proteolysis, asymmetric IgM schematic, Fab/Fc contact), strengthened distractors and explanations in 23 questions, linked section references, re-fetched file and validated answer keys, anchors, IDs and narrative uniqueness.",
-    "arithmetic_checks": {
-      "site_concentration_uM": 4,
-      "theta": [
-        0.75,
-        0.9
-      ],
-      "ligand_depletion_complex_nM": 10,
-      "half_life_s": 173.2867951399863,
-      "bivalent_probability": [
-        0.16,
-        0.48,
-        0.64
-      ],
-      "delta_delta_G_kJ_mol": -11.409640708038888,
-      "competition": [
-        0.4,
-        0.4,
-        0.2
-      ],
-      "scatchard": [
-        5,
-        12,
-        2.4
-      ],
-      "part_c_depletion_nM": 4.876894374382339,
-      "part_c_Kd_M": 2e-8,
-      "part_c_washout": 0.36787944117144233,
-      "part_c_delta_G": 5.704820354019445
-    },
-    "academic_self_review": {
-      "syllabus_microtopic_completeness": 19,
-      "scientific_mechanistic_accuracy": 24,
-      "teaching_depth_progression": 20,
-      "experimental_quantitative_reasoning": 14,
-      "examination_practice_quality": 9,
-      "technical_accessibility": 9,
-      "total": 95,
-      "maximum": 100,
-      "deductions": [
-        "1 syllabus: current official MPPSC-hosted version not independently confirmed; archived copy inspected.",
-        "1 accuracy: some primary literature accessible only in abstract or source record.",
-        "1 experimental reasoning: hypothetical data not independently reproduced in a laboratory.",
-        "1 practice: original items not calibrated with students.",
-        "1 technical: no independent interactive browser/device/assistive-technology testing."
-      ],
-      "method": "Internal editorial self-review, not external peer review."
+      "method": "Two internal review passes; scope mapped to both roadmap microtopics; 145 unique coherent paragraphs, structure and quantitative examples checked. Deductions: incomplete full-text source access (1), hypothetical rather than independently reanalyzed primary experimental data (1), uncalibrated question difficulty and some straightforward distractors (1), no interactive browser/mobile or comprehensive accessibility testing (2)."
     },
     "static_checks": {
       "word_gate": true,
@@ -742,53 +823,58 @@
       "internal_anchors": true,
       "balanced_tags": true,
       "svg_title_desc_and_zoom_targets": true,
-      "aria_label_targets": true,
       "all_answer_keys_match": true,
       "no_duplicate_teaching_paragraphs": true,
       "canonical": true,
       "indexable": true,
-      "reader_controls": "Established Academy reader retained; static inspection.",
+      "reader_controls": true,
+      "responsive_table_classes": true,
+      "figure_gate": true,
+      "question_gate": true,
       "menu_link_once": true,
       "sitemap_entry_once": true,
-      "neighbor_navigation": "Dynamic lookup from published menu; both adjacent nodes now published."
+      "checkpoint_reconciled": true,
+      "neighbor_reciprocal_dynamic_navigation": true
     },
     "limitations": [
-      "Current official MPPSC-hosted syllabus not independently verified; archived 2024 copy inspected.",
-      "Internal review, not external expert peer review; selected primary literature full text unavailable.",
-      "Interactive browser/device/assistive-technology behavior not independently tested.",
-      "Deployment must be independently checked after commit."
+      "Internal academic self-review, not external expert peer review. Some textbook and article full texts unavailable; accessible excerpts, abstracts and verified bibliographic records used.",
+      "Current primary MPPSC-hosted syllabus not independently confirmed; archived 2024 syllabus visually checked.",
+      "Numerical and experimental datasets are explicitly hypothetical; original historical datasets not independently reanalyzed.",
+      "Questions are original and internally checked, not externally examiner-calibrated; some distractors are straightforward.",
+      "Static HTML, SVG and reader-control checks only; interactive mobile, keyboard and assistive technology tests not performed.",
+      "New title-based slug follows existing repository convention. Adjacent unpublished nodes remain disabled; dynamic navigation resolves published menu links."
     ],
     "initial_head_sha": "9336b51953ed8c36001be9648e49afcc08e7cf81",
-    "main_baseline_sha": "1f77ada52de6415cfb93651599d4d34bedaf3e7c",
-    "source_draft_branch": "draft/node-4c04-antigens-antibodies",
-    "draft_commit_sha": "642b0980ae64667f3a29d53066ed4481b64e0b9a",
-    "draft_blob_sha": "df4f054f86d7470207dd667927896f42f6a959ad",
-    "academy_published_count": 160,
-    "unit_04_published_count": 29,
+    "main_baseline_sha": "52c6e85ccd2150781599b75dbb42d77722a9cb20",
+    "source_draft_branch": "draft/node-4-c-10-hypersensitivity-autoimmunity",
+    "draft_commit_sha": "89fc44d9450449cc504950c60df9ba229be39652",
+    "draft_blob_sha": "d09a159419c03d8535d8e80e047c65b2ac0d6c1c",
+    "academy_published_count": 161,
+    "unit_04_published_count": 30,
     "unit_04_planned_count": 61,
-    "subunit_4c_published_count": 5,
+    "subunit_4c_published_count": 6,
     "subunit_4c_planned_count": 13,
     "next_pending_node_id": "4.C.02",
     "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
     "neighbors": [
       {
-        "node_id": "4.C.03",
-        "published": true,
-        "dynamic_navigation": true
+        "node_id": "4.C.09",
+        "published": false,
+        "reciprocal_link": "disabled until published"
       },
       {
-        "node_id": "4.C.05",
-        "published": true,
-        "dynamic_navigation": true
+        "node_id": "4.C.11",
+        "published": false,
+        "reciprocal_link": "disabled until published"
       }
     ],
     "concurrent_reconciliation": {
-      "baseline_published_count": 159,
+      "previous_published_count": 160,
       "all_previous_ids_preserved": true,
-      "initial_main_changed": true,
-      "concurrent_4c_nodes": [
+      "newly_published_node_ids": [
         "4.C.01",
         "4.C.03",
+        "4.C.04",
         "4.C.05",
         "4.C.08"
       ]
@@ -9324,199 +9410,135 @@
       "4.B.10",
       "4.B.11",
       "4.C.01",
+      "4.C.02",
       "4.C.03",
       "4.C.04",
       "4.C.05",
       "4.C.08",
       "4.C.10"
     ],
-    "published_node_count": 30,
+    "published_node_count": 31,
     "planned_node_count": 61,
-    "last_published_node_id": "4.C.10",
+    "last_published_node_id": "4.C.02",
     "updated_at": "2026-11-26",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "4.C.10",
-      "title": "Hypersensitivity and Autoimmunity: Immune-Mediated Damage",
+      "node_id": "4.C.02",
+      "title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
       "unit": "04",
       "subunit": "4.C",
-      "slug": "hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
+      "slug": "innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
       "status": "lesson_committed_pages_verification_pending",
-      "genuine_teaching_words": 13869,
-      "narrative_words": 13869,
-      "visible_article_words": 19775,
-      "teaching_paragraphs": 145,
-      "html_bytes": 231384,
-      "theory_sections": 12,
-      "sections": 20,
-      "figures": 14,
-      "tables": 3,
-      "worked_numerical_examples": 8,
-      "questions": 52,
+      "narrative_words": 14891,
+      "genuine_teaching_words": 14891,
+      "visible_article_words": 22475,
+      "article_words_excluding_svg_labels": 22159,
+      "teaching_paragraphs": 152,
+      "html_bytes": 271159,
+      "theory_sections": 19,
+      "sections": 26,
+      "figures": 15,
+      "tables": 6,
+      "worked_numerical_examples": 7,
+      "questions": 55,
       "distribution": {
         "part_b": 20,
-        "part_c": 24,
-        "mixed": 8,
+        "part_c": 25,
+        "mixed": 10,
         "answer_positions": {
-          "C": 13,
-          "A": 13,
-          "D": 13,
-          "B": 13
+          "A": 14,
+          "B": 14,
+          "C": 14,
+          "D": 13
         }
       },
-      "references": 20,
+      "references": 23,
       "revision_traps": 20,
-      "active_recall": 15,
-      "mastery_checklist": 6,
-      "method": "Unicode lexical word count of saved p.teaching-prose only (entities decoded); visible article count includes expanded practice answers and references but excludes SVG and buttons.",
-      "comparator": [
-        {
-          "node_id": "4.C.01",
-          "narrative_words": 13569,
-          "teaching_paragraphs": 157
-        },
-        {
-          "node_id": "4.C.03",
-          "narrative_words": 14838,
-          "teaching_paragraphs": 141
-        }
-      ],
-      "comparison": "Fetched actual published chapters; target uses comparable sustained explanatory depth with distinct tissue-injury and tolerance focus. Maximum paragraph trigram Jaccard against comparator chapters 0.1043; no within-draft pair above 0.35.",
+      "active_recall": 14,
+      "mastery_checklist": 7,
+      "method": "Re-fetched final saved HTML and counted Unicode lexical words in p.teaching-prose only; excluded headings, tables, practice, references, diagrams and revision. Visible article includes expanded answers, captions and visible SVG labels but excludes SVG title/desc and buttons. Zero exact duplicate teaching paragraphs. Published chapter differs only in robots metadata.",
+      "comparator": {
+        "node_id": "4.B.09",
+        "narrative_words": 14402,
+        "teaching_paragraphs": 127,
+        "review": "Fetched published HTML and used established Academy reader architecture; comparable narrative depth with independent topic-specific material."
+      },
       "syllabus_references": {
-        "merged": "CSIR–UGC–DBT revised Unit 4.C printed page 5, official PDF visually checked",
-        "legacy": "CSIR–UGC NET Unit 4.E printed page 3 official PDF visually checked",
-        "state_set": "MP SET 2024 archived Unit 4.E printed page 3 visually checked; current primary hosting unverified"
+        "merged": "Official revised CSIR–UGC–DBT Unit 4.C p.5",
+        "legacy": "Official CSIR Life Sciences Unit 4.E p.3",
+        "state_set": "Archived MP SET 2024 Unit 4.E p.3; current MPPSC hosting not independently confirmed"
+      },
+      "microtopic_matrix": {
+        "phagocytes": "3–8",
+        "natural_killer_cells": "9–10",
+        "microbial_killing": "4–8",
+        "inflammatory_mediators": "11–13",
+        "leukocyte_recruitment": "14–15",
+        "innate_adaptive_bridge": "17,19"
       },
       "coverage_360": {
-        "foundations": "1",
-        "historical": "2, Arthus, von Pirquet and Schick, Landsteiner and Chase, IgE, AIRE and Treg research",
-        "structure": "3–6 IgE-FcεRI, Fc recognition, fixed vs soluble antigen, peptide–MHC",
-        "mechanisms": "3–10 all four types and self-directed damage",
-        "physical": "binding saturation, aggregation, clearance, flow resistance",
-        "regulation": "7–10 central/peripheral tolerance, HLA and inflammatory feedback",
-        "quantitative": "11 and eight worked examples",
-        "evidence": "2 and 12, controls, transfer, depletion and rescue",
-        "physiology": "3–10 vascular, renal, endocrine and neuromuscular effects",
-        "comparative": "3 mast-cell-like cells and mammalian IgE; plants do not share vertebrate antibody machinery",
-        "perturbations": "3–12 receptor, complement, MHC, AIRE, FOXP3, regulation",
-        "exceptions": "non-IgE anaphylaxis, late type I, receptor dysfunction, dual complement roles, biomarker vs mediator, mixed lesions",
-        "applications": "antibody engineering and functional assay interpretation",
-        "integration": "complement, antigen presentation, cellular signaling, immunity to infections",
-        "exam_reasoning": "52 original questions, 20 traps, 15 recall prompts"
+        "foundations": "1,3",
+        "history": "2",
+        "structure": "3–7,9–10",
+        "mechanisms": "4–17",
+        "chemical_physical": "5–7,13–15",
+        "regulation": "9,12–17",
+        "quantitative": "18 and 7 worked examples",
+        "experimental": "2,8,19 and Part C",
+        "physiology": "3,11–17",
+        "comparative_evolution": "19",
+        "perturbations": "5–10,14–19",
+        "exceptions": "3,5–10,14–17",
+        "applications": "8,19",
+        "integration": "17,19",
+        "exam_reasoning": "55 original explained questions, 20 traps, 14 recall prompts"
       },
-      "review_pass_1": "Read roadmap and visually checked three syllabus pages; reviewed mechanisms and historical claims against accessible textbooks, reviews and primary records; expanded historical distinction and molecular FcεRI architecture; checked all quantitative assumptions and independently recomputed arithmetic.",
-      "review_pass_2": "Inspected saved teaching prose and original questions; compared actual 4.C.01 and 4.C.03, checked near-duplicate paragraph overlap, corrected fixed-target diagram orientation and figure-number references, applied established table styling, captions and column scopes; verified all keys, anchors, accessibility label targets and tag balance.",
-      "arithmetic_checks": [
-        {
-          "name": "occupancy",
-          "actual": 0.8,
-          "expected": 0.8,
-          "pass": true
-        },
-        {
-          "name": "complex steady",
-          "actual": 20,
-          "expected": 20,
-          "pass": true
-        },
-        {
-          "name": "complex half clearance",
-          "actual": 40,
-          "expected": 40,
-          "pass": true
-        },
-        {
-          "name": "mediator half-life",
-          "actual": 1.3862943611198906,
-          "expected": 1.3862943611198906,
-          "pass": true
-        },
-        {
-          "name": "radius ratio",
-          "actual": 3.160493827160493,
-          "expected": 3.160493827160493,
-          "pass": true
-        },
-        {
-          "name": "cell reserve",
-          "actual": 90,
-          "expected": 90,
-          "pass": true
-        },
-        {
-          "name": "odds ratio",
-          "actual": 3.5,
-          "expected": 3.5,
-          "pass": true
-        },
-        {
-          "name": "mediator steady",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "name": "clearance",
-          "actual": 10,
-          "expected": 10,
-          "pass": true
-        },
-        {
-          "name": "Part C occupancy",
-          "actual": 0.75,
-          "expected": 0.75,
-          "pass": true
-        },
-        {
-          "name": "Part C radius",
-          "actual": 2.4414062499999996,
-          "expected": 2.44140625,
-          "pass": true
-        },
-        {
-          "name": "Part C complex",
-          "actual": 30,
-          "expected": 30,
-          "pass": true
-        },
-        {
-          "name": "Part C odds",
-          "actual": 2.6666666666666665,
-          "expected": 2.6666666666666665,
-          "pass": true
-        },
-        {
-          "name": "Part C reserve",
-          "actual": 75,
-          "expected": 75,
-          "pass": true
-        },
-        {
-          "name": "mediator half release",
-          "actual": 30,
-          "expected": 30,
-          "pass": true
-        },
-        {
-          "name": "remaining quarter",
-          "actual": 0.25,
-          "expected": 0.25,
-          "pass": true
-        },
-        {
-          "name": "40 cells",
-          "actual": 48,
-          "expected": 48,
-          "pass": true
-        },
-        {
-          "name": "half occupancy",
-          "actual": 0.5,
-          "expected": 0.5,
-          "pass": true
-        }
-      ],
+      "review_pass_1": "Internal scientific/syllabus review: checked phagocytosis versus killing, Rab maturation, cell-specific phagosomal pH, NOX2/MPO stoichiometry, nonoxidative routes, missing-self conditionality, perforin/granzyme and Fas, adhesion cascade, tissue-specific exceptions, chemotaxis, efferocytosis, DC migration and naive T-cell priming. Separated hypothetical data from historical evidence and recomputed arithmetic.",
+      "review_pass_2": "Internal teaching/exam review: checked prose progression, added applied immunology and readout reasoning, corrected barrier drawing, expanded reasons for all 20 misconceptions, revised 16 analytical question distractors/explanations, checked all 55 keys against their options, shuffled answer positions and checked static tags, IDs, anchors, zoom targets, reader controls and comparator.",
+      "arithmetic_checks": {
+        "oxidase": [
+          18,
+          9
+        ],
+        "loss": [
+          0.8,
+          0.5
+        ],
+        "decay": 0.023104906018664842,
+        "half_life_min": 30,
+        "recruitment": [
+          0.6,
+          0.6,
+          0.36,
+          72
+        ],
+        "chemotaxis": [
+          30,
+          0.6,
+          -0.1
+        ],
+        "resolution": [
+          600,
+          1.732867951399863,
+          81.20116994196762
+        ],
+        "corrected_lysis": 0.5,
+        "practice": [
+          12,
+          6,
+          0.8,
+          0.4,
+          13.862943611198904,
+          0.5,
+          0.6,
+          0.15,
+          0.6,
+          -0.1,
+          -30,
+          0.30119421191220214
+        ]
+      },
       "academic_self_review": {
         "syllabus_microtopic_completeness": 20,
         "scientific_mechanistic_accuracy": 24,
@@ -9526,69 +9548,61 @@
         "technical_accessibility": 8,
         "total": 95,
         "maximum": 100,
-        "method": "Two internal review passes; scope mapped to both roadmap microtopics; 145 unique coherent paragraphs, structure and quantitative examples checked. Deductions: incomplete full-text source access (1), hypothetical rather than independently reanalyzed primary experimental data (1), uncalibrated question difficulty and some straightforward distractors (1), no interactive browser/mobile or comprehensive accessibility testing (2)."
+        "method": "Two internal review passes. Deductions: some full texts inaccessible (1); quantitative examples are illustrative rather than primary datasets (1); no external examiner calibration (1); no interactive browser/mobile or assistive-technology tests (2)."
       },
       "static_checks": {
         "word_gate": true,
         "unique_ids": true,
         "internal_anchors": true,
+        "aria_references": true,
         "balanced_tags": true,
         "svg_title_desc_and_zoom_targets": true,
         "all_answer_keys_match": true,
         "no_duplicate_teaching_paragraphs": true,
         "canonical": true,
         "indexable": true,
-        "reader_controls": true,
-        "responsive_table_classes": true,
-        "figure_gate": true,
-        "question_gate": true,
+        "reader_controls": "Existing reader source preserved; static verification only",
         "menu_link_once": true,
         "sitemap_entry_once": true,
-        "checkpoint_reconciled": true,
-        "neighbor_reciprocal_dynamic_navigation": true
+        "neighbor_dynamic_links": true,
+        "checkpoint_reconciled": true
       },
       "limitations": [
-        "Internal academic self-review, not external expert peer review. Some textbook and article full texts unavailable; accessible excerpts, abstracts and verified bibliographic records used.",
-        "Current primary MPPSC-hosted syllabus not independently confirmed; archived 2024 syllabus visually checked.",
-        "Numerical and experimental datasets are explicitly hypothetical; original historical datasets not independently reanalyzed.",
-        "Questions are original and internally checked, not externally examiner-calibrated; some distractors are straightforward.",
-        "Static HTML, SVG and reader-control checks only; interactive mobile, keyboard and assistive technology tests not performed.",
-        "New title-based slug follows existing repository convention. Adjacent unpublished nodes remain disabled; dynamic navigation resolves published menu links."
+        "Internal academic review, not independent expert peer review; some scientific full texts inaccessible.",
+        "Archived MP SET 2024 syllabus examined; current official MPPSC-hosted copy not confirmed.",
+        "Static markup and diagram review; no interactive browser, mobile or assistive-technology testing.",
+        "New title-based filename follows Academy convention; numerical data illustrative unless expressly cited as historical.",
+        "Pages deployment is separate from this commit."
       ],
       "initial_head_sha": "9336b51953ed8c36001be9648e49afcc08e7cf81",
-      "main_baseline_sha": "52c6e85ccd2150781599b75dbb42d77722a9cb20",
-      "source_draft_branch": "draft/node-4-c-10-hypersensitivity-autoimmunity",
-      "draft_commit_sha": "89fc44d9450449cc504950c60df9ba229be39652",
-      "draft_blob_sha": "d09a159419c03d8535d8e80e047c65b2ac0d6c1c",
-      "academy_published_count": 161,
-      "unit_04_published_count": 30,
+      "main_baseline_sha": "6e473c0926fca6e7e449a30c0d32430291a07f0f",
+      "source_draft_branch": "draft/node-4c02-innate-effectors-inflammation",
+      "draft_commit_sha": "3a9dbb628873d4e1e9fbca9a4c15d3d180e3b85d",
+      "draft_blob_sha": "e27f3fb7966c61a26388512729c3bcc9a42d1c37",
+      "academy_published_count": 162,
+      "unit_04_published_count": 31,
       "unit_04_planned_count": 61,
-      "subunit_4c_published_count": 6,
+      "subunit_4c_published_count": 7,
       "subunit_4c_planned_count": 13,
-      "next_pending_node_id": "4.C.02",
-      "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
+      "next_pending_node_id": "4.C.06",
+      "next_pending_node_title": "MHC Molecules, Antigen Processing and Presentation",
       "neighbors": [
         {
-          "node_id": "4.C.09",
-          "published": false,
-          "reciprocal_link": "disabled until published"
+          "node_id": "4.C.01",
+          "published": true,
+          "linked": true
         },
         {
-          "node_id": "4.C.11",
-          "published": false,
-          "reciprocal_link": "disabled until published"
+          "node_id": "4.C.03",
+          "published": true,
+          "linked": true
         }
       ],
       "concurrent_reconciliation": {
-        "previous_published_count": 160,
+        "previous_published_count": 161,
         "all_previous_ids_preserved": true,
-        "newly_published_node_ids": [
-          "4.C.01",
-          "4.C.03",
-          "4.C.04",
-          "4.C.05",
-          "4.C.08"
-        ]
+        "non_force": true,
+        "baseline_changed": true
       }
     },
     "qa_by_node": {
@@ -14088,27 +14102,210 @@
             "4.C.08"
           ]
         }
+      },
+      "4.C.02": {
+        "node_id": "4.C.02",
+        "title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
+        "unit": "04",
+        "subunit": "4.C",
+        "slug": "innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/innate-effector-cells-inflammation-and-the-innate-adaptive-bridge.html",
+        "status": "lesson_committed_pages_verification_pending",
+        "narrative_words": 14891,
+        "genuine_teaching_words": 14891,
+        "visible_article_words": 22475,
+        "article_words_excluding_svg_labels": 22159,
+        "teaching_paragraphs": 152,
+        "html_bytes": 271159,
+        "theory_sections": 19,
+        "sections": 26,
+        "figures": 15,
+        "tables": 6,
+        "worked_numerical_examples": 7,
+        "questions": 55,
+        "distribution": {
+          "part_b": 20,
+          "part_c": 25,
+          "mixed": 10,
+          "answer_positions": {
+            "A": 14,
+            "B": 14,
+            "C": 14,
+            "D": 13
+          }
+        },
+        "references": 23,
+        "revision_traps": 20,
+        "active_recall": 14,
+        "mastery_checklist": 7,
+        "method": "Re-fetched final saved HTML and counted Unicode lexical words in p.teaching-prose only; excluded headings, tables, practice, references, diagrams and revision. Visible article includes expanded answers, captions and visible SVG labels but excludes SVG title/desc and buttons. Zero exact duplicate teaching paragraphs. Published chapter differs only in robots metadata.",
+        "comparator": {
+          "node_id": "4.B.09",
+          "narrative_words": 14402,
+          "teaching_paragraphs": 127,
+          "review": "Fetched published HTML and used established Academy reader architecture; comparable narrative depth with independent topic-specific material."
+        },
+        "syllabus_references": {
+          "merged": "Official revised CSIR–UGC–DBT Unit 4.C p.5",
+          "legacy": "Official CSIR Life Sciences Unit 4.E p.3",
+          "state_set": "Archived MP SET 2024 Unit 4.E p.3; current MPPSC hosting not independently confirmed"
+        },
+        "microtopic_matrix": {
+          "phagocytes": "3–8",
+          "natural_killer_cells": "9–10",
+          "microbial_killing": "4–8",
+          "inflammatory_mediators": "11–13",
+          "leukocyte_recruitment": "14–15",
+          "innate_adaptive_bridge": "17,19"
+        },
+        "coverage_360": {
+          "foundations": "1,3",
+          "history": "2",
+          "structure": "3–7,9–10",
+          "mechanisms": "4–17",
+          "chemical_physical": "5–7,13–15",
+          "regulation": "9,12–17",
+          "quantitative": "18 and 7 worked examples",
+          "experimental": "2,8,19 and Part C",
+          "physiology": "3,11–17",
+          "comparative_evolution": "19",
+          "perturbations": "5–10,14–19",
+          "exceptions": "3,5–10,14–17",
+          "applications": "8,19",
+          "integration": "17,19",
+          "exam_reasoning": "55 original explained questions, 20 traps, 14 recall prompts"
+        },
+        "review_pass_1": "Internal scientific/syllabus review: checked phagocytosis versus killing, Rab maturation, cell-specific phagosomal pH, NOX2/MPO stoichiometry, nonoxidative routes, missing-self conditionality, perforin/granzyme and Fas, adhesion cascade, tissue-specific exceptions, chemotaxis, efferocytosis, DC migration and naive T-cell priming. Separated hypothetical data from historical evidence and recomputed arithmetic.",
+        "review_pass_2": "Internal teaching/exam review: checked prose progression, added applied immunology and readout reasoning, corrected barrier drawing, expanded reasons for all 20 misconceptions, revised 16 analytical question distractors/explanations, checked all 55 keys against their options, shuffled answer positions and checked static tags, IDs, anchors, zoom targets, reader controls and comparator.",
+        "arithmetic_checks": {
+          "oxidase": [
+            18,
+            9
+          ],
+          "loss": [
+            0.8,
+            0.5
+          ],
+          "decay": 0.023104906018664842,
+          "half_life_min": 30,
+          "recruitment": [
+            0.6,
+            0.6,
+            0.36,
+            72
+          ],
+          "chemotaxis": [
+            30,
+            0.6,
+            -0.1
+          ],
+          "resolution": [
+            600,
+            1.732867951399863,
+            81.20116994196762
+          ],
+          "corrected_lysis": 0.5,
+          "practice": [
+            12,
+            6,
+            0.8,
+            0.4,
+            13.862943611198904,
+            0.5,
+            0.6,
+            0.15,
+            0.6,
+            -0.1,
+            -30,
+            0.30119421191220214
+          ]
+        },
+        "academic_self_review": {
+          "syllabus_microtopic_completeness": 20,
+          "scientific_mechanistic_accuracy": 24,
+          "teaching_depth_progression": 20,
+          "experimental_quantitative_reasoning": 14,
+          "examination_practice_quality": 9,
+          "technical_accessibility": 8,
+          "total": 95,
+          "maximum": 100,
+          "method": "Two internal review passes. Deductions: some full texts inaccessible (1); quantitative examples are illustrative rather than primary datasets (1); no external examiner calibration (1); no interactive browser/mobile or assistive-technology tests (2)."
+        },
+        "static_checks": {
+          "word_gate": true,
+          "unique_ids": true,
+          "internal_anchors": true,
+          "aria_references": true,
+          "balanced_tags": true,
+          "svg_title_desc_and_zoom_targets": true,
+          "all_answer_keys_match": true,
+          "no_duplicate_teaching_paragraphs": true,
+          "canonical": true,
+          "indexable": true,
+          "reader_controls": "Existing reader source preserved; static verification only",
+          "menu_link_once": true,
+          "sitemap_entry_once": true,
+          "neighbor_dynamic_links": true,
+          "checkpoint_reconciled": true
+        },
+        "limitations": [
+          "Internal academic review, not independent expert peer review; some scientific full texts inaccessible.",
+          "Archived MP SET 2024 syllabus examined; current official MPPSC-hosted copy not confirmed.",
+          "Static markup and diagram review; no interactive browser, mobile or assistive-technology testing.",
+          "New title-based filename follows Academy convention; numerical data illustrative unless expressly cited as historical.",
+          "Pages deployment is separate from this commit."
+        ],
+        "initial_head_sha": "9336b51953ed8c36001be9648e49afcc08e7cf81",
+        "main_baseline_sha": "6e473c0926fca6e7e449a30c0d32430291a07f0f",
+        "source_draft_branch": "draft/node-4c02-innate-effectors-inflammation",
+        "draft_commit_sha": "3a9dbb628873d4e1e9fbca9a4c15d3d180e3b85d",
+        "draft_blob_sha": "e27f3fb7966c61a26388512729c3bcc9a42d1c37",
+        "academy_published_count": 162,
+        "unit_04_published_count": 31,
+        "unit_04_planned_count": 61,
+        "subunit_4c_published_count": 7,
+        "subunit_4c_planned_count": 13,
+        "next_pending_node_id": "4.C.06",
+        "next_pending_node_title": "MHC Molecules, Antigen Processing and Presentation",
+        "neighbors": [
+          {
+            "node_id": "4.C.01",
+            "published": true,
+            "linked": true
+          },
+          {
+            "node_id": "4.C.03",
+            "published": true,
+            "linked": true
+          }
+        ],
+        "concurrent_reconciliation": {
+          "previous_published_count": 161,
+          "all_previous_ids_preserved": true,
+          "non_force": true,
+          "baseline_changed": true
+        }
       }
     },
-    "next_pending_node_id": "4.C.02",
-    "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
+    "next_pending_node_id": "4.C.06",
+    "next_pending_node_title": "MHC Molecules, Antigen Processing and Presentation",
     "previous_last_qa": {
-      "node_id": "4.C.04",
-      "title": "Antigens, Epitopes, Antibody Structure and Antigen–Antibody Binding",
+      "node_id": "4.C.10",
+      "title": "Hypersensitivity and Autoimmunity: Immune-Mediated Damage",
       "unit": "04",
       "subunit": "4.C",
-      "slug": "antigens-epitopes-antibody-structure-and-antigen-antibody-binding.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/antigens-epitopes-antibody-structure-and-antigen-antibody-binding.html",
+      "slug": "hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/hypersensitivity-and-autoimmunity-immune-mediated-damage.html",
       "status": "lesson_committed_pages_verification_pending",
-      "narrative_words": 14510,
-      "genuine_teaching_words": 14510,
-      "visible_article_words": 21338,
-      "teaching_paragraphs": 133,
-      "html_bytes": 238065,
-      "theory_sections": 15,
-      "sections": 22,
+      "genuine_teaching_words": 13869,
+      "narrative_words": 13869,
+      "visible_article_words": 19775,
+      "teaching_paragraphs": 145,
+      "html_bytes": 231384,
+      "theory_sections": 12,
+      "sections": 20,
       "figures": 14,
-      "tables": 4,
+      "tables": 3,
       "worked_numerical_examples": 8,
       "questions": 52,
       "distribution": {
@@ -14116,107 +14313,174 @@
         "part_c": 24,
         "mixed": 8,
         "answer_positions": {
-          "A": 13,
-          "B": 13,
           "C": 13,
-          "D": 13
+          "A": 13,
+          "D": 13,
+          "B": 13
         }
       },
-      "references": 25,
-      "revision_traps": 18,
+      "references": 20,
+      "revision_traps": 20,
       "active_recall": 15,
       "mastery_checklist": 6,
-      "method": "Unicode lexical words in teaching-prose paragraphs only. Visible article excludes SVG and button content; UTF-8 byte count calculated separately. All 133 teaching paragraphs unique.",
-      "comparator": {
-        "node_id": "4.B.07",
-        "narrative_words": 14205,
-        "teaching_paragraphs": 165,
-        "review": "Actual published exemplar read; comparable long-form explanatory scope with 15 theory sections, mechanistic models, worked problems, original evidence and questions."
-      },
+      "method": "Unicode lexical word count of saved p.teaching-prose only (entities decoded); visible article count includes expanded practice answers and references but excludes SVG and buttons.",
+      "comparator": [
+        {
+          "node_id": "4.C.01",
+          "narrative_words": 13569,
+          "teaching_paragraphs": 157
+        },
+        {
+          "node_id": "4.C.03",
+          "narrative_words": 14838,
+          "teaching_paragraphs": 141
+        }
+      ],
+      "comparison": "Fetched actual published chapters; target uses comparable sustained explanatory depth with distinct tissue-injury and tolerance focus. Maximum paragraph trigram Jaccard against comparator chapters 0.1043; no within-draft pair above 0.35.",
       "syllabus_references": {
-        "merged": "Official revised CSIR–UGC–DBT LS&BT Unit 4.C, printed p.5, directly inspected",
-        "legacy": "Official CSIR–UGC NET Life Sciences Unit 4.E, printed p.3, directly inspected",
-        "state_set": "Archived MPPSC SET 2024 Life Sciences Paper II Unit 4.E, printed p.3, inspected; current official hosting not independently confirmed"
-      },
-      "microtopic_coverage": {
-        "antigenicity_immunogenicity": "sections 1–3",
-        "haptens_carriers_linked_recognition": "3",
-        "linear_conformational_B_T_epitopes": "4",
-        "historical_evidence": "5",
-        "antibody_domains_disulfides_CDR": "6–7",
-        "Fab_Fc_fragments_isotype_allotype_idiotype": "5,8",
-        "Ig_classes": "9–10",
-        "noncovalent_binding": "11",
-        "affinity_equilibrium_kinetics": "12",
-        "avidity_multivalency": "13",
-        "precipitation_agglutination_equivalence": "14",
-        "cross_reactivity_neutralization_effector_functions": "8,14–15"
+        "merged": "CSIR–UGC–DBT revised Unit 4.C printed page 5, official PDF visually checked",
+        "legacy": "CSIR–UGC NET Unit 4.E printed page 3 official PDF visually checked",
+        "state_set": "MP SET 2024 archived Unit 4.E printed page 3 visually checked; current primary hosting unverified"
       },
       "coverage_360": {
-        "foundations": "1–4",
-        "history": "5,14",
-        "structure": "6–10",
-        "mechanisms": "3–4,7–14",
-        "physical": "11–14",
-        "regulation": "2–3,8–10",
-        "quantitative": "12–14 and 8 worked examples",
-        "evidence": "5,12–15 with controls and hypothetical datasets identified",
-        "physiology": "8–10,15",
-        "comparative": "10,15 mammalian and vertebrate variation",
-        "perturbations": "3–4,8–10,12–15",
-        "exceptions": "2,4,8–10,12–15",
-        "applications": "8,14–15",
-        "integration": "15; connections to complement and antibody diversity",
-        "exam_reasoning": "52 explained questions, 18 traps, 15 recall prompts"
+        "foundations": "1",
+        "historical": "2, Arthus, von Pirquet and Schick, Landsteiner and Chase, IgE, AIRE and Treg research",
+        "structure": "3–6 IgE-FcεRI, Fc recognition, fixed vs soluble antigen, peptide–MHC",
+        "mechanisms": "3–10 all four types and self-directed damage",
+        "physical": "binding saturation, aggregation, clearance, flow resistance",
+        "regulation": "7–10 central/peripheral tolerance, HLA and inflammatory feedback",
+        "quantitative": "11 and eight worked examples",
+        "evidence": "2 and 12, controls, transfer, depletion and rescue",
+        "physiology": "3–10 vascular, renal, endocrine and neuromuscular effects",
+        "comparative": "3 mast-cell-like cells and mammalian IgE; plants do not share vertebrate antibody machinery",
+        "perturbations": "3–12 receptor, complement, MHC, AIRE, FOXP3, regulation",
+        "exceptions": "non-IgE anaphylaxis, late type I, receptor dysfunction, dual complement roles, biomarker vs mediator, mixed lesions",
+        "applications": "antibody engineering and functional assay interpretation",
+        "integration": "complement, antigen presentation, cellular signaling, immunity to infections",
+        "exam_reasoning": "52 original questions, 20 traps, 15 recall prompts"
       },
-      "review_pass_1": "Scientific/scope review of 15 sections against roadmap and textbook/primary sources; refined excess narrative, checked binding thermodynamics, stoichiometry, kinetics and problem calculations; distinguished modeled and historical evidence.",
-      "review_pass_2": "Separate teaching and static QA review; revised three diagrams (independent proteolysis, asymmetric IgM schematic, Fab/Fc contact), strengthened distractors and explanations in 23 questions, linked section references, re-fetched file and validated answer keys, anchors, IDs and narrative uniqueness.",
-      "arithmetic_checks": {
-        "site_concentration_uM": 4,
-        "theta": [
-          0.75,
-          0.9
-        ],
-        "ligand_depletion_complex_nM": 10,
-        "half_life_s": 173.2867951399863,
-        "bivalent_probability": [
-          0.16,
-          0.48,
-          0.64
-        ],
-        "delta_delta_G_kJ_mol": -11.409640708038888,
-        "competition": [
-          0.4,
-          0.4,
-          0.2
-        ],
-        "scatchard": [
-          5,
-          12,
-          2.4
-        ],
-        "part_c_depletion_nM": 4.876894374382339,
-        "part_c_Kd_M": 2e-8,
-        "part_c_washout": 0.36787944117144233,
-        "part_c_delta_G": 5.704820354019445
-      },
+      "review_pass_1": "Read roadmap and visually checked three syllabus pages; reviewed mechanisms and historical claims against accessible textbooks, reviews and primary records; expanded historical distinction and molecular FcεRI architecture; checked all quantitative assumptions and independently recomputed arithmetic.",
+      "review_pass_2": "Inspected saved teaching prose and original questions; compared actual 4.C.01 and 4.C.03, checked near-duplicate paragraph overlap, corrected fixed-target diagram orientation and figure-number references, applied established table styling, captions and column scopes; verified all keys, anchors, accessibility label targets and tag balance.",
+      "arithmetic_checks": [
+        {
+          "name": "occupancy",
+          "actual": 0.8,
+          "expected": 0.8,
+          "pass": true
+        },
+        {
+          "name": "complex steady",
+          "actual": 20,
+          "expected": 20,
+          "pass": true
+        },
+        {
+          "name": "complex half clearance",
+          "actual": 40,
+          "expected": 40,
+          "pass": true
+        },
+        {
+          "name": "mediator half-life",
+          "actual": 1.3862943611198906,
+          "expected": 1.3862943611198906,
+          "pass": true
+        },
+        {
+          "name": "radius ratio",
+          "actual": 3.160493827160493,
+          "expected": 3.160493827160493,
+          "pass": true
+        },
+        {
+          "name": "cell reserve",
+          "actual": 90,
+          "expected": 90,
+          "pass": true
+        },
+        {
+          "name": "odds ratio",
+          "actual": 3.5,
+          "expected": 3.5,
+          "pass": true
+        },
+        {
+          "name": "mediator steady",
+          "actual": 60,
+          "expected": 60,
+          "pass": true
+        },
+        {
+          "name": "clearance",
+          "actual": 10,
+          "expected": 10,
+          "pass": true
+        },
+        {
+          "name": "Part C occupancy",
+          "actual": 0.75,
+          "expected": 0.75,
+          "pass": true
+        },
+        {
+          "name": "Part C radius",
+          "actual": 2.4414062499999996,
+          "expected": 2.44140625,
+          "pass": true
+        },
+        {
+          "name": "Part C complex",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "name": "Part C odds",
+          "actual": 2.6666666666666665,
+          "expected": 2.6666666666666665,
+          "pass": true
+        },
+        {
+          "name": "Part C reserve",
+          "actual": 75,
+          "expected": 75,
+          "pass": true
+        },
+        {
+          "name": "mediator half release",
+          "actual": 30,
+          "expected": 30,
+          "pass": true
+        },
+        {
+          "name": "remaining quarter",
+          "actual": 0.25,
+          "expected": 0.25,
+          "pass": true
+        },
+        {
+          "name": "40 cells",
+          "actual": 48,
+          "expected": 48,
+          "pass": true
+        },
+        {
+          "name": "half occupancy",
+          "actual": 0.5,
+          "expected": 0.5,
+          "pass": true
+        }
+      ],
       "academic_self_review": {
-        "syllabus_microtopic_completeness": 19,
+        "syllabus_microtopic_completeness": 20,
         "scientific_mechanistic_accuracy": 24,
         "teaching_depth_progression": 20,
         "experimental_quantitative_reasoning": 14,
         "examination_practice_quality": 9,
-        "technical_accessibility": 9,
+        "technical_accessibility": 8,
         "total": 95,
         "maximum": 100,
-        "deductions": [
-          "1 syllabus: current official MPPSC-hosted version not independently confirmed; archived copy inspected.",
-          "1 accuracy: some primary literature accessible only in abstract or source record.",
-          "1 experimental reasoning: hypothetical data not independently reproduced in a laboratory.",
-          "1 practice: original items not calibrated with students.",
-          "1 technical: no independent interactive browser/device/assistive-technology testing."
-        ],
-        "method": "Internal editorial self-review, not external peer review."
+        "method": "Two internal review passes; scope mapped to both roadmap microtopics; 145 unique coherent paragraphs, structure and quantitative examples checked. Deductions: incomplete full-text source access (1), hypothetical rather than independently reanalyzed primary experimental data (1), uncalibrated question difficulty and some straightforward distractors (1), no interactive browser/mobile or comprehensive accessibility testing (2)."
       },
       "static_checks": {
         "word_gate": true,
@@ -14224,53 +14488,58 @@
         "internal_anchors": true,
         "balanced_tags": true,
         "svg_title_desc_and_zoom_targets": true,
-        "aria_label_targets": true,
         "all_answer_keys_match": true,
         "no_duplicate_teaching_paragraphs": true,
         "canonical": true,
         "indexable": true,
-        "reader_controls": "Established Academy reader retained; static inspection.",
+        "reader_controls": true,
+        "responsive_table_classes": true,
+        "figure_gate": true,
+        "question_gate": true,
         "menu_link_once": true,
         "sitemap_entry_once": true,
-        "neighbor_navigation": "Dynamic lookup from published menu; both adjacent nodes now published."
+        "checkpoint_reconciled": true,
+        "neighbor_reciprocal_dynamic_navigation": true
       },
       "limitations": [
-        "Current official MPPSC-hosted syllabus not independently verified; archived 2024 copy inspected.",
-        "Internal review, not external expert peer review; selected primary literature full text unavailable.",
-        "Interactive browser/device/assistive-technology behavior not independently tested.",
-        "Deployment must be independently checked after commit."
+        "Internal academic self-review, not external expert peer review. Some textbook and article full texts unavailable; accessible excerpts, abstracts and verified bibliographic records used.",
+        "Current primary MPPSC-hosted syllabus not independently confirmed; archived 2024 syllabus visually checked.",
+        "Numerical and experimental datasets are explicitly hypothetical; original historical datasets not independently reanalyzed.",
+        "Questions are original and internally checked, not externally examiner-calibrated; some distractors are straightforward.",
+        "Static HTML, SVG and reader-control checks only; interactive mobile, keyboard and assistive technology tests not performed.",
+        "New title-based slug follows existing repository convention. Adjacent unpublished nodes remain disabled; dynamic navigation resolves published menu links."
       ],
       "initial_head_sha": "9336b51953ed8c36001be9648e49afcc08e7cf81",
-      "main_baseline_sha": "1f77ada52de6415cfb93651599d4d34bedaf3e7c",
-      "source_draft_branch": "draft/node-4c04-antigens-antibodies",
-      "draft_commit_sha": "642b0980ae64667f3a29d53066ed4481b64e0b9a",
-      "draft_blob_sha": "df4f054f86d7470207dd667927896f42f6a959ad",
-      "academy_published_count": 160,
-      "unit_04_published_count": 29,
+      "main_baseline_sha": "52c6e85ccd2150781599b75dbb42d77722a9cb20",
+      "source_draft_branch": "draft/node-4-c-10-hypersensitivity-autoimmunity",
+      "draft_commit_sha": "89fc44d9450449cc504950c60df9ba229be39652",
+      "draft_blob_sha": "d09a159419c03d8535d8e80e047c65b2ac0d6c1c",
+      "academy_published_count": 161,
+      "unit_04_published_count": 30,
       "unit_04_planned_count": 61,
-      "subunit_4c_published_count": 5,
+      "subunit_4c_published_count": 6,
       "subunit_4c_planned_count": 13,
       "next_pending_node_id": "4.C.02",
       "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
       "neighbors": [
         {
-          "node_id": "4.C.03",
-          "published": true,
-          "dynamic_navigation": true
+          "node_id": "4.C.09",
+          "published": false,
+          "reciprocal_link": "disabled until published"
         },
         {
-          "node_id": "4.C.05",
-          "published": true,
-          "dynamic_navigation": true
+          "node_id": "4.C.11",
+          "published": false,
+          "reciprocal_link": "disabled until published"
         }
       ],
       "concurrent_reconciliation": {
-        "baseline_published_count": 159,
+        "previous_published_count": 160,
         "all_previous_ids_preserved": true,
-        "initial_main_changed": true,
-        "concurrent_4c_nodes": [
+        "newly_published_node_ids": [
           "4.C.01",
           "4.C.03",
+          "4.C.04",
           "4.C.05",
           "4.C.08"
         ]
@@ -14322,16 +14591,17 @@
     "subunit_4c": {
       "published_node_ids": [
         "4.C.01",
+        "4.C.02",
         "4.C.03",
         "4.C.04",
         "4.C.05",
         "4.C.08",
         "4.C.10"
       ],
-      "published_node_count": 6,
+      "published_node_count": 7,
       "planned_node_count": 13,
-      "next_pending_node_id": "4.C.02",
-      "next_pending_node_title": "Innate Effector Cells, Inflammation and the Innate–Adaptive Bridge",
+      "next_pending_node_id": "4.C.06",
+      "next_pending_node_title": "MHC Molecules, Antigen Processing and Presentation",
       "complete": false
     }
   },
@@ -14418,6 +14688,7 @@
   "unit4b_planned_node_count": 11,
   "unit4c_published_node_ids": [
     "4.C.01",
+    "4.C.02",
     "4.C.03",
     "4.C.04",
     "4.C.05",

@@ -1,0 +1,255 @@
+{
+  "node_id": "4.E.08",
+  "title": "Tumor Microenvironment: Interactions of Cancer and Normal Cells",
+  "unit": "04",
+  "subunit": "4.E",
+  "slug": "tumor-microenvironment-interactions-of-cancer-and-normal-cells.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/tumor-microenvironment-interactions-of-cancer-and-normal-cells.html",
+  "date": "2026-11-26",
+  "status": "academic_and_static_technical_qa_passed",
+  "publication_allowed": true,
+  "publication_eligible": true,
+  "source_draft_branch": "draft/node-4e08-tumor-microenvironment",
+  "source_draft_chapter_commit_sha": "f25865dd0ae32753bf6ee9badbb1cbbafe79e20a",
+  "chapter_blob_sha": "e1d3b6868b3980a6eb206859b1b8f7d6dc181630",
+  "metrics": {
+    "genuine_teaching_words": 13706,
+    "visible_article_words": 18557,
+    "teaching_paragraphs": 124,
+    "exact_duplicate_paragraphs": 0,
+    "theory_sections": 12,
+    "svg": 10,
+    "svg_accessible": 10,
+    "tables": 2,
+    "worked_examples": 8,
+    "part_b": 20,
+    "part_c": 20,
+    "mixed": 10,
+    "total_questions": 50,
+    "misconceptions": 17,
+    "active_recall": 18,
+    "references": 22,
+    "duplicate_ids": 0,
+    "broken_targets": [],
+    "answer_key_errors": [],
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 12,
+      "D": 12
+    },
+    "html_stack_errors": [],
+    "html_unclosed_tags": [],
+    "script_syntax": [
+      "parsed"
+    ],
+    "max_pairwise_lexical_jaccard": 0.21818181818181817,
+    "next_chapter_max_lexical_jaccard": 0.20535714285714285,
+    "relative_links": [
+      "extracellular-matrix-composition-organization-and-cellular-roles.html",
+      "local-invasion-cell-adhesion-epithelial-mesenchymal-changes-and-matrix-breakdown.html",
+      "integrins-cell-matrix-adhesion-and-bidirectional-communication.html",
+      "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html"
+    ],
+    "missing_relative_links": []
+  },
+  "word_count_method": "Unicode lexical tokens from p.teaching-prose only; visible article separately stripped SVG, button and HTML tags. No table/assessment counted as teaching narrative.",
+  "scope": {
+    "revised": "Official CSIR-HRDG revised LS&BT syllabus, dated 21 Jan 2026, printed p.5 (PDF index 4) visually checked: Unit 4.E interaction of cancer cells with normal cells. Unit 4.A/B/C provide signaling, matrix and immune prerequisites.",
+    "legacy": "Official separate CSIR-HRDG syllabus printed p.3 (PDF index 2) visually checked: Unit 4.D interaction of cancer cells with normal cells.",
+    "mp_set": "MPPSC SET-2024 archived scanned syllabus, printed p.3 (PDF index 2) visually checked; current MPPSC primary host not independently verified.",
+    "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+    "mapping": [
+      [
+        "Stroma, reciprocal signals and CAFs",
+        "4.E interaction with normal cells; 4.A/B prerequisites",
+        "foundations,history,communication,fibroblasts"
+      ],
+      [
+        "Matrix, integrins",
+        "4.E interaction with normal cells; 4.B prerequisites",
+        "matrix; linked to 4.B.04, 4.B.05; invasive motility remains 4.E.09"
+      ],
+      [
+        "Angiogenesis, VEGF and hypoxia",
+        "4.E interactions and growth; 4.A receptor signaling",
+        "vessels,hypoxia; normal vascular and biophysical principles"
+      ],
+      [
+        "Immune interactions",
+        "4.E interaction with normal cells; 4.C prerequisite",
+        "immunity; therapeutic detail deferred 4.E.12"
+      ],
+      [
+        "Selection, evidence, quantitative reasoning",
+        "4.E; Unit 14 methods and Unit 1 biophysics prerequisites",
+        "selection,evidence,quantitative,integration,assessment"
+      ]
+    ]
+  },
+  "coverage": {
+    "A": {
+      "status": "Pass",
+      "sections": "foundations",
+      "evidence": "Normal tissue organization; stroma, parenchyma, microenvironment, cell-autonomous and nonautonomous distinctions"
+    },
+    "B": {
+      "status": "Pass",
+      "sections": "history",
+      "evidence": "Folkman, Shweiki, Bissell/Radisky, Dvorak, immunoediting and contextual fibroblast/vascular evidence"
+    },
+    "C": {
+      "status": "Pass",
+      "sections": "foundations,matrix,vessels,hypoxia",
+      "evidence": "Cellular compartments, matrix structure, integrin heterodimer and endothelial architecture"
+    },
+    "D": {
+      "status": "Pass",
+      "sections": "communication,fibroblasts,matrix,vessels,hypoxia,immunity",
+      "evidence": "Reciprocal signaling; fibroblast state, integrin interfaces, VEGF/endothelial response, HIF/VHL, immune context"
+    },
+    "E": {
+      "status": "Pass",
+      "sections": "matrix,hypoxia,quantitative",
+      "evidence": "Remodeling vs synthesis, oxygen-dependent dioxygenase chemistry, transport dimensions"
+    },
+    "F": {
+      "status": "Pass",
+      "sections": "communication,fibroblasts,vessels,hypoxia,immunity",
+      "evidence": "Recipient dependence, signal availability, conditional feedback and response distinction"
+    },
+    "G": {
+      "status": "Pass",
+      "sections": "quantitative,worked",
+      "evidence": "Fick's first law, diffusion scaling, mass balance, weighted means, relative frequency and hypothetical additive delivery"
+    },
+    "H": {
+      "status": "Pass",
+      "sections": "history,evidence",
+      "evidence": "Published comparisons and limits: hypoxia/VEGF, fibroblast depletion, matrix crosslinking and normalization. Hypothetical readouts and causal limits"
+    },
+    "I": {
+      "status": "Pass",
+      "sections": "foundations,fibroblasts,vessels,immunity",
+      "evidence": "Normal repair, vascular development, tissue homeostasis and immune regulation"
+    },
+    "J": {
+      "status": "Pass",
+      "sections": "history,vessels,immunity",
+      "evidence": "Defined animal-model evidence and physiological comparisons; differences among tumor and tissue contexts"
+    },
+    "K": {
+      "status": "Pass",
+      "sections": "matrix,hypoxia,selection",
+      "evidence": "Environmental variation, altered regulatory pathways and lineage outcomes"
+    },
+    "L": {
+      "status": "Pass",
+      "sections": "fibroblasts,vessels,hypoxia,immunity,evidence",
+      "evidence": "Context-dependent effects, co-option, vessel function versus density, marker limits and denominator"
+    },
+    "M": {
+      "status": "Pass",
+      "sections": "integration",
+      "evidence": "Conceptual therapeutic rationale and limits, no procedural or clinical guidance"
+    },
+    "N": {
+      "status": "Pass",
+      "sections": "integration,selection,matrix",
+      "evidence": "Explicit 4.B.04, 4.B.05, 4.E.09 and 4.E.12 links; no repeat of detailed adhesion, immune or invasion pathways"
+    },
+    "O": {
+      "status": "Pass",
+      "sections": "worked,part-b,part-c,mixed,traps,revision",
+      "evidence": "50 explained questions, 8 worked examples, 17 misconceptions, 18 recall and mastery checklist"
+    }
+  },
+  "comparators": [
+    {
+      "node": "4.E.07",
+      "words": 13442,
+      "blob": "3cdeab2f903edaac09810be2c27a786c6a184197"
+    },
+    {
+      "node": "4.E.09",
+      "words": 14031,
+      "blob": "c5f1b5308cc3d33d6b73852d9795f84494b4cd8b"
+    }
+  ],
+  "review_pass_1": {
+    "status": "Completed internal scientific and scope review",
+    "changes": [
+      "Mapped all required microtopics to official revised, separate and archived SET syllabus pages; verified relevant adjacent 4.E.09 headings to constrain overlap.",
+      "Checked indexed source records and accessible abstracts/reviews for Folkman, Shweiki, Dvorak, Levental, Bissell/Radisky, CAF heterogeneity, Özdemir, Tong/Jain, HIF oxygen sensing, VEGF and co-option, and immunoediting. Distinguished source observation from inference and model limitations.",
+      "Removed four repetitive paragraphs; added focused endothelial specialization, HIF chemical reaction and regulatory levels, matrix and CAF evidence; linked ECM/integrin and invasion chapters. No clinical or procedural laboratory instruction.",
+      "Reviewed original SVG source: distinct tissue layout, communication, fibroblast outcomes, integrin, branching, vascular quantity/function, HIF, immune framework, enrichment and gradients. Verified numerical bar proportions and labels."
+    ]
+  },
+  "review_pass_2": {
+    "status": "Completed internal teaching/assessment and saved HTML audit",
+    "changes": [
+      "Original 20 Part B, 20 Part C, 10 mixed with all answers and explanations. Replaced two simpler analytical items with multi-variable delivery/consumption and oxygen/HIF interpretation. All option keys match saved answer strings.",
+      "Recomputed all worked examples and numerical questions. Verified 10 title/desc SVGs, two tables, TOC and anchor targets, HTML stack, syntax and local chapter links.",
+      "Compared narrative length and overlap with both adjacent chapters; no exact duplicate paragraphs; lexical similarity screen reported separately. Some purposeful repetition of core distinctions for practice."
+    ]
+  },
+  "quality": {
+    "scope": 20,
+    "accuracy": 24,
+    "depth": 19,
+    "experimental_quantitative": 14,
+    "practice": 9,
+    "technical": 9,
+    "total": 95,
+    "threshold": 95,
+    "eligible": true,
+    "reason": "Internal editorial assessment; comprehensive mapped scope and genuine narrative, grounded scientific explanation, distinct worked models, 50 explained questions and saved HTML audit. Deductions for partial primary full text access, selected examples, simplified hypothetical models, no external difficulty calibration and no interactive device/browser test."
+  },
+  "checks": {
+    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/tumor-microenvironment-interactions-of-cancer-and-normal-cells.html",
+    "robots": "noindex,nofollow",
+    "reader": "Existing Academy reader, syntax parsed, dynamic 4.E.07 and 4.E.09 neighbor resolution; actual browser not independently exercised.",
+    "numeric": [
+      0.0000010000000000000002,
+      5.000000000000001e-7,
+      4,
+      3.5,
+      5,
+      0.8888888888888888,
+      50,
+      54,
+      0.08,
+      20,
+      0.2,
+      0.1,
+      -4,
+      3.6,
+      6,
+      100,
+      120,
+      3,
+      9,
+      0.75,
+      0.25,
+      0.125,
+      52,
+      6,
+      15,
+      9,
+      -10,
+      10,
+      4.0000000000000003e-7,
+      1
+    ]
+  },
+  "limitations": [
+    "Internal editorial reviews, not external peer review.",
+    "MP SET 2024 archived scan, not independently verified from current official host.",
+    "Selected primary records and accessible abstracts/reviews checked; full text unavailable for some sources (browser challenge).",
+    "Static accessible SVG and HTML syntax/anchor checks; no independent rendered SVG, browser, mobile or assistive technology runtime test.",
+    "Original practice questions not externally calibrated; lexical screening is not formal semantic originality assessment. All numerical examples hypothetical.",
+    "Pages workflow completion and independent live rendering are distinct."
+  ],
+  "deployment": "Not yet published at draft QA time",
+  "main_mutated": false
+}

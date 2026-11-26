@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Lac operon regulation, allolactose induction, LacI, operator mutations and partial diploid reasoning for CSIR-NET and State SET.">
+  <meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-the-lac-operon-an-inducible-gene-system.html">
+  <title>Regulation of the Lac Operon: An Inducible Gene System | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 3</span><span>›</span><span>Sub-unit 3.D</span><span>›</span><strong>Node 3.D.02</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 3.D.02</span><span>Unit 3 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Regulation of the Lac Operon: An Inducible Gene System</h1><p class="subtitle">How lactose availability alters transcription through a reversible molecular switch.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#need">1. The biological problem: using lactose only when it is needed</a><a href="#discovery">2. From enzyme adaptation to the genetic switch</a><a href="#map">3. Reading the lactose control region</a><a href="#allostery">4. LacI structure, recognition and allosteric control</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Regulation of the Lac Operon: An Inducible Gene System study notes"><div class="article-content" id="article"><section id="need"><h2>1. The biological problem: using lactose only when it is needed</h2><p class="teaching-prose">A bacterium cannot carry out every possible biochemical reaction at the same rate simply because its genome contains the corresponding instructions. Making a protein requires amino acids, ribosomes, messenger RNA, chemical energy and time. These resources are also needed to reproduce the cell, maintain its membrane and repair damaged molecules. For a cell that encounters a changing food supply, the ability to alter the distribution of these resources is valuable. Escherichia coli provides a particularly clear example because it can exploit several different carbon compounds, including lactose. The lactose system demonstrates how a change outside the cell can produce a selective change in the amount of a particular group of proteins, without requiring any alteration in the inherited genome.</p>
+<p class="teaching-prose">Lactose is a disaccharide containing galactose and glucose joined through a beta-1,4 glycosidic linkage. Its presence in the extracellular environment does not automatically make either monosaccharide available to the cytoplasm. The inner membrane presents a barrier to the free movement of many hydrophilic solutes, and a suitable enzyme must cleave the glycosidic bond before the products can enter the relevant metabolic pathways. The bacterium therefore faces two coordinated requirements: bring lactose into the cell and catalyse its utilization. It would be inefficient to manufacture a large amount of a lactose transporter when no lactose is available, and increasing transport alone would not supply the enzymes needed to metabolize the imported sugar.</p>
+<p class="teaching-prose">A gene encoding a lactose-associated enzyme can remain present in a bacterium even when enzyme synthesis is strongly reduced. A change in enzyme abundance following the addition of lactose is thus a phenomenon of gene expression rather than a change in the genetic code. This distinction can be tested by withdrawing lactose. If the same cell lineage ceases to produce large amounts of the enzyme when lactose is removed and resumes production when lactose is restored, reversible regulation provides a plausible explanation. A mutation that permanently alters an enzyme's amino acid sequence cannot by itself account for repeated, reversible changes of this sort. Natural selection can change the composition of a culture over generations, however, so a population experiment must also consider whether the apparent response reflects changing cell types.</p>
+<p class="teaching-prose">In a growing bacterium, the amount of an enzyme per cell depends on both the rate at which it is made and the rate at which it is lost or diluted by growth. If the production of a lactose enzyme suddenly decreases, the enzyme molecules that already exist do not necessarily disappear at once. A biochemical assay might therefore detect activity even after transcription of the associated gene has returned to a low level. Conversely, a newly activated promoter may produce detectable messenger RNA before enough functional enzyme has accumulated to alter the growth of the organism. Throughout this chapter it is important to keep gene transcription, protein abundance, catalytic activity and bacterial growth separate as measurable outcomes.</p>
+<p class="teaching-prose">The lactose operon is an example of a negatively regulated inducible system. The word negative describes the effect of a regulatory protein when it occupies its relevant DNA target: transcription is reduced. The word inducible describes the overall response to an appropriate signal: expression increases. These terms describe different aspects of regulation and are not alternatives. An inducer can increase transcription by weakening an inhibitor rather than by directly stimulating RNA polymerase. This double relationship is the key to understanding why a protein called a repressor is central to a system that turns on in response to a nutrient.</p>
+<p class="teaching-prose">A second regulatory influence arises from the general carbon status of the bacterium. The cell may prefer another available carbon source even when lactose is present, so release of the lactose-specific repressor does not always guarantee maximal expression. This chapter isolates the lactose-sensitive component of the switch. Unless explicitly stated otherwise, comparisons between induced and uninduced conditions assume that the background carbon conditions permit transcription and are held constant. The detailed regulation involving cyclic AMP and CRP, also called CAP, is reserved for the subsequent chapter on positive control. Separating these two inputs is essential for identifying what a mutation has changed.</p>
+<p class="teaching-prose">The usefulness of the switch is not that the bacterium knows in advance whether a particular protein will be needed. A molecular arrangement that produces more transporter and enzyme under appropriate conditions and less under inappropriate conditions can confer a fitness advantage over many generations. The underlying process is the interaction of physical molecules: sugar, protein, DNA and RNA polymerase. No central decision-making organ directs the response. Understanding the behavior of these molecules, and how their interactions can be experimentally separated, explains the apparent coordination of the whole cell.</p></section>
+<section id="discovery"><h2>2. From enzyme adaptation to the genetic switch</h2><p class="teaching-prose">When early studies of bacterial metabolism compared cultures grown on different carbon sources, the amount of a particular enzyme was found to depend on the previous nutritional conditions. The phenomenon was historically described in terms of enzyme adaptation. This description did not specify whether the environment modified an enzyme already present, selected cells with greater enzymatic capacity, or caused the synthesis of new enzyme molecules. Those possibilities predict different responses when the environmental signal changes. The study of lactose utilization became a way of addressing this broader question about the relation between genes and proteins.</p>
+<p class="teaching-prose">The availability of mutants that could not efficiently metabolize lactose made it possible to examine the problem genetically. A mutant lacking functional beta-galactosidase could fail to use lactose even when its regulation was normal. Another mutant could contain normal enzyme-coding sequences but synthesize the enzyme in conditions in which a wild-type cell produced very little. The first kind of defect concerns the function of the metabolic machinery; the second suggests that the machinery is no longer subject to its usual control. The distinction between these classes led investigators to distinguish genes specifying metabolic proteins from genetic elements determining when those proteins were produced.</p>
+<p class="teaching-prose">In 1959, Arthur Pardee, François Jacob and Jacques Monod published a study of the genetic control of beta-galactosidase inducibility. The experiment is often referred to as PaJaMo. Bacterial conjugation provided a way to introduce particular genetic information into a recipient with a different regulatory history. The value of the approach was that an incoming functional enzyme gene could encounter cytoplasm that did not yet contain the regulatory product expected from the newly introduced genotype. The experiment thus separated the immediate availability of genetic information from the later accumulation of its product.</p>
+<p class="teaching-prose">In an important arrangement, the recipient lacked functional inducibility control and functional beta-galactosidase, whereas the donor could transfer functional genetic information for both. Following transfer, enzyme synthesis could initially occur without added inducer. Subsequently, synthesis declined as the functional regulatory system became established. The interpretation was that a wild-type regulatory gene gives rise to a product that can accumulate in the cell and inhibit expression when inducer is absent. The observation was particularly informative because the incoming enzyme gene could be expressed before the inhibitory influence of the incoming regulatory information was established. This explanation did not require the regulatory gene to be physically part of the enzyme molecule.</p>
+<p class="teaching-prose">Consider an alternative hypothesis in which the regulatory region is merely a fixed piece of DNA that changes the coding sequence of beta-galactosidase. Under that hypothesis, the transfer of a normal enzyme gene would restore the ability to make the normal enzyme but would not by itself explain delayed establishment of a diffusible inhibitory effect. Another hypothesis could propose that an inducer is a required chemical substrate of RNA polymerase. Such a proposal has difficulty explaining enzyme synthesis in the absence of inducer when the relevant negative regulator is missing. Genetic and physiological observations together favored a model in which removal of inhibition permits synthesis.</p>
+<p class="teaching-prose">This reasoning also helps explain why the rate of enzyme synthesis is more informative than total accumulated enzyme in such experiments. If existing enzyme is stable, its activity may remain high even after the formation of new enzyme slows. A curve of accumulated enzyme could continue to rise with a decreasing slope, or approach a plateau, rather than fall abruptly. The slope under conditions of comparable biomass gives information about the production of new active enzyme. Failure to distinguish the ordinate of a graph from its slope can lead to a mistaken reading of the classical evidence.</p>
+<p class="teaching-prose">Jacob and Monod formulated their influential operon model in 1961. Its explanatory power came from separating the coding regions that produce cellular machinery, the local DNA region that controls their transcription, and a regulatory gene whose product interacts with that region. A single regulatory protein could therefore affect several adjacent coding sequences together. Moreover, a substance in the environment could change the effectiveness of that protein. This framework gave a molecular interpretation to inducibility and constitutivity, properties previously described largely through enzyme activities and mutant phenotypes.</p>
+<p class="teaching-prose">The model predicted that the negative regulator was a molecule that could recognize both a specific chemical signal and a particular DNA site. Evidence for the protein itself came from the work of Walter Gilbert and Benno Müller-Hill, who reported isolation of the lac repressor in 1966. Binding to a labeled inducing compound provided a biochemical handle with which to distinguish a relevant protein fraction from many unrelated cellular proteins. The existence of an isolatable inducer-binding regulator supported a concrete molecular mechanism rather than an abstract genetic inhibitory property. Subsequent binding studies connected the repressor to operator DNA.</p>
+<p class="teaching-prose">A final important refinement concerned the identity of the natural inducer. Although lactose in the growth medium causes induction under suitable conditions, that observation alone cannot establish that lactose is the direct regulatory ligand. In 1972, Jobe and Bourgeois identified allolactose as the natural inducer produced in lactose-grown cells. This is a particularly useful example of the difference between an environmental input and the molecular species that interacts directly with a regulatory protein. When a question asks for the physiological inducer of the lac system, the correct mechanistic answer is allolactose.</p>
+<p class="teaching-prose">The historical progression is important because each kind of evidence answered a distinct question. Nutritional experiments established that enzyme production was responsive. Mutant analysis separated regulatory defects from defects in enzyme function. Transfer experiments supported a regulatory substance that acted within the common cell environment. Biochemical isolation supported a protein regulator, ligand binding established a chemical recognition event, and DNA binding studies identified the local regulatory target. A textbook diagram of a repressor on an operator summarizes this combined evidence; it is not simply an assumption invented to explain the presence or absence of an enzyme.</p></section>
+<section id="map"><h2>3. Reading the lactose control region</h2><p class="teaching-prose">The conventional representation of the lac region of the E. coli chromosome includes three structural genes, lacZ, lacY and lacA, arranged in that order. The term structural gene in this context means a coding sequence whose product performs a function associated with the lactose utilization system, as distinct from the nearby regulatory gene. The three structural genes are normally expressed together from the lac promoter. The regulatory gene lacI has its own transcriptional control region and is not a fourth cistron of the usual lacZYA messenger RNA. This independent expression is important: a cell must have a supply of the regulatory protein even when production of the structural gene products is strongly repressed.</p>
+<p class="teaching-prose">The lac promoter is a DNA region recognized by the bacterial transcription initiation machinery. It helps determine where RNA polymerase begins copying the genetic information. The operator is a specific DNA sequence recognized by the repressor. Although these regulatory elements occur close together and their functional regions can overlap, they perform different molecular roles. A promoter mutation can reduce transcription because polymerase can no longer initiate efficiently. An operator mutation can alter transcription by changing the ability of a regulator to bind. The two mutations therefore need not produce similar phenotypes even if both occur within a short stretch of DNA.</p>
+<p class="teaching-prose">A useful convention in a genetic map is to mark the first nucleotide transcribed as position +1. Positions upstream are designated negative numbers; positions farther along the transcription unit are positive. This coordinate system does not mark the first translated codon of lacZ, which is a separate feature. Regulatory sequences can extend into transcribed regions. The primary lac operator, O1, is positioned close to the beginning of the transcription unit, and the wild-type repressor's interaction with this site is central to the negative control mechanism. A diagram showing boxes for promoter and operator in a linear order should not be interpreted as a precisely scaled map or as proof that their sequences cannot overlap.</p>
+<p class="teaching-prose">Two auxiliary operators contribute to the strength of repression. O3 lies upstream of the primary operator and O2 lies downstream within lacZ. These additional sites help a tetrameric repressor form a DNA loop by binding two sites at once. The primary operator and its ability to interact with the repressor are sufficient for the simplest genetic predictions, but the auxiliary sites explain why physical repression in the intact chromosome can be much stronger than repression measured in a simplified system with only one operator. Later in this chapter we will distinguish the idealized operator-constitutive mutation used in examinations from a real change that weakens only one of several interacting sites.</p>
+<p class="teaching-prose">The product of lacZ is beta-galactosidase. The enzyme catalyses hydrolysis of lactose to glucose and galactose. It can also catalyse transgalactosylation reactions, which are important because they produce allolactose. An enzyme can thus participate both in nutrient processing and in generation of the signal that increases the production of the relevant machinery. The product of lacY is lactose permease, a membrane protein that couples galactoside transport to the proton electrochemical gradient. Its contribution concerns transport across the cell membrane rather than chemical hydrolysis of the sugar. Confusing lacY with lacZ obscures the distinction between entry of a signal and processing of that signal.</p>
+<p class="teaching-prose">The product of lacA is thiogalactoside transacetylase, which transfers an acetyl group from acetyl-CoA to certain galactosides. Its function is not equivalent to hydrolysis of lactose or transport of lactose. It is commonly associated with handling potentially problematic galactoside compounds, and it is not generally required for the core steps of lactose utilization in the same way as beta-galactosidase and permease. One must not infer that all three proteins are equally indispensable for growth on lactose simply because their genes are transcribed together. Coordination of gene expression does not imply equivalence of biochemical roles.</p>
+<p class="teaching-prose">A single polycistronic RNA can contain the coding information for several different proteins. Ribosomes initiate translation at the appropriate coding regions, so the gene products are not normally synthesized as one large fused protein that must be cut into the three enzymes. Each cistron specifies a separate protein. Translation efficiency and protein lifetime may differ among these products. Consequently, a change in promoter activity can influence the supply of all three coding regions while leaving differences in the abundance of their corresponding proteins. This is why a study measuring beta-galactosidase alone provides a useful proxy for lac expression but is not an exact measurement of every product of the operon.</p>
+<p class="teaching-prose">In genetic notation, lacI is often abbreviated I, the promoter P, the operator O, and the coding loci Z, Y and A. Superscript plus denotes the reference functional allele in a particular problem, whereas minus usually denotes a specified loss of function. The notation O superscript c indicates an operator mutation with constitutive behavior. The notation I superscript s denotes a superrepressor allele. These symbols describe different kinds of objects: I specifies a protein, O and P designate DNA control sites, and Z and Y specify metabolic proteins. Writing the symbols together on a line can hide these physical differences, so the first task in solving a genetic question is to translate each symbol into its molecular role.</p>
+<p class="teaching-prose">One can think of the DNA molecule as the address at which the regulatory event occurs. The operator remains part of that particular molecule even in a cell containing a second copy of the lac region. The repressor protein, by contrast, is released from the site at which it was synthesized and can interact with compatible operators elsewhere in the same cytoplasm. The difference between a fixed regulatory address and a movable regulatory product is the basis of cis and trans reasoning. It explains why a second functional copy of lacI can restore repression to an operon that lacks its own functional lacI product, but cannot repair an operator whose DNA sequence no longer supports appropriate repressor binding.</p></section>
+<section id="allostery"><h2>4. LacI structure, recognition and allosteric control</h2><p class="teaching-prose">The LacI protein has to recognize two very different molecular partners. One is a DNA sequence, whose bases and backbone form a negatively charged double helix. The other is a small galactoside molecule, whose chemical structure contains hydroxyl groups capable of forming specific interactions within a ligand-binding pocket. The two recognition processes occur in different functional regions of the protein and are coupled by changes in protein conformation. The regulatory consequence of ligand binding depends on the coupling between these regions, not merely on whether the protein can bind the ligand at all.</p>
+<p class="teaching-prose">The N-terminal DNA-binding region of LacI contains a helix-turn-helix arrangement. Its helices participate in recognition of operator DNA. A flexible connecting region and hinge helices contribute to contacts and geometry when the protein binds its operator. The core of the protein contributes to inducer recognition, dimerization and allosteric communication. A C-terminal region participates in tetramerization. A useful structural model treats the native tetramer as a pair of dimers; a dimer supplies the cooperating DNA-binding domains needed to recognize one operator, while the second dimer can contribute to simultaneous recognition of another operator.</p>
+<p class="teaching-prose">DNA sequence recognition involves more than attraction between a positive protein surface and a negatively charged nucleic acid. Such attraction could help association with DNA generally, but sequence specificity requires differences in the favorability of particular contacts and shapes. Amino acid side chains can recognize chemical groups presented in the grooves of DNA. DNA deformability and the orientation of protein domains also affect binding. Changing a base in an operator may therefore reduce repressor occupancy even though the overall negative charge of the DNA is essentially unchanged. It is the specific interaction pattern that is altered.</p>
+<p class="teaching-prose">The term affinity describes the favorability of a binding interaction under specified conditions. A protein with greater affinity for a DNA site tends to occupy that site more frequently when other factors, including protein concentration, remain the same. The uninduced form of LacI has a high affinity for its operator. Binding of an appropriate inducer shifts the protein toward conformational states in which association with the operator is less favorable. This is the essence of allostery: an interaction at one location in the protein modifies the behavior of a physically distinct functional region.</p>
+<p class="teaching-prose">Allolactose does not need to compete for the same physical site as DNA. Instead, it binds within the ligand-recognition region and changes the distribution of molecular conformations available to the repressor. The induced protein is not necessarily destroyed, nor does it have to leave the cell. It can remain present while spending less time associated with operator DNA. Removal of the inducer reverses the shift in conformational preference, allowing the repressor to recover effective operator binding. A reversible molecular switch of this type can respond more rapidly than a system that requires the complete degradation and subsequent resynthesis of a regulatory protein.</p>
+<p class="teaching-prose">Structural studies have helped connect this interpretation with the actual organization of the protein. In 1996, Lewis and colleagues reported structures of the lac repressor and complexes involving operator DNA or the inducing analogue IPTG. Such structures show how the DNA-binding portions and the ligand-recognition core are arranged. They also help explain the potential for a tetramer to organize two DNA contacts. A static structure does not show every motion of a protein in a living cell, however. Structural comparisons should be interpreted together with binding and genetic evidence when explaining how ligand recognition changes operator occupancy.</p>
+<p class="teaching-prose">An important implication of the separation between the functional regions is that mutations can disrupt one property without eliminating another. A mutation in a DNA-recognition region can produce a protein that recognizes inducer but cannot bind the operator effectively. A different mutation can preserve operator binding but prevent induction, for example by damaging inducer recognition or the communication of ligand binding to the DNA-binding domain. The latter kind of defect is a molecular basis for the superrepressor phenotype. Protein quantity alone cannot distinguish these variants because an abundant regulatory protein can be functionally defective.</p>
+<p class="teaching-prose">It is also possible for a mutation to disrupt protein folding or oligomerization. Such an alteration may reduce several activities simultaneously rather than isolate one functional region. The classical genetic symbols represent experimentally defined behaviors, not a complete list of possible amino acid changes. The designation I minus indicates loss of effective negative regulation in the model being used, but the precise molecular cause may be absence of protein, incorrect folding, defective recognition or another alteration. A question specifying an inducer-binding-defective protein that still binds the operator gives more information than a question that merely states that a substitution occurred in lacI.</p>
+<p class="teaching-prose">LacI-mediated control is a physical equilibrium coupled to ongoing transcription. Molecules bind and dissociate through thermal motion, and their probabilities of occupying the DNA depend on concentrations and binding free energies. The operator is not a permanent mechanical lid. The regulatory output arises because occupation reduces the opportunity for productive initiation by RNA polymerase. Accordingly, even a strongly repressed system can exhibit low but nonzero expression. This residual expression becomes biologically important when we consider how a cell begins responding to lactose in the first place.</p></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 3 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 3 · Fundamental Processes</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["3.D.01","previous-node","← "],["3.D.03","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

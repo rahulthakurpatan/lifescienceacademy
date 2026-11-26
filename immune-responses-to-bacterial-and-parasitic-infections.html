@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Compare extracellular and intracellular bacterial defense, tuberculosis, malaria and helminth immunity through stage-specific innate and adaptive mechanisms.">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/immune-responses-to-bacterial-and-parasitic-infections.html">
+  <title>Immune Responses to Bacterial and Parasitic Infections | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 4</span><span>›</span><span>Sub-unit 4.C</span><span>›</span><strong>Node 4.C.11</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 4.C.11</span><span>Unit 4 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Immune Responses to Bacterial and Parasitic Infections</h1><p class="subtitle">Compare extracellular and intracellular bacterial defense, tuberculosis, malaria and helminth immunity through stage-specific innate and adaptive mechanisms.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#location">1. The biological problem: immunity must match the location of infection</a><a href="#history">2. How experimental evidence established complementary forms of immunity</a><a href="#extracellular">3. Extracellular bacterial defense: from barrier to recruited phagocytes</a><a href="#opsonization">4. Complement, antibodies and the physics of opsonization</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Immune Responses to Bacterial and Parasitic Infections study notes"><div class="article-content" id="article"><section id="location"><h2>1. The biological problem: immunity must match the location of infection</h2><p class="teaching-prose">An immune response is successful only when its effectors can reach the biological target and alter the outcome of infection. A bacterium multiplying in the fluid between tissue cells is accessible to soluble antibodies and complement. A bacterium persisting within a macrophage is separated from those molecules by host membranes. A multicellular worm may be accessible to antibodies but too large for a phagocyte to engulf. The immune system therefore needs several kinds of defense rather than one universal antimicrobial reaction. This chapter develops that principle by comparing bacterial infection, tuberculosis, malaria and helminth infection. The central question throughout is not merely which immune cells are present, but which cellular or molecular action can actually control the relevant infectious stage.</p>
+<p class="teaching-prose">Infection is the establishment of an infectious organism in a host; disease is the disturbance of normal host function associated with infection. The two are not interchangeable. An infected person may remain without symptoms because the immune response constrains the organism or because the tissue tolerates the disturbance. Conversely, tissue damage may continue even when the number of organisms is falling. The immune system contributes to both outcomes. Its effector mechanisms can reduce the burden of infection, but they can also damage the very tissues they are intended to protect. The distinction between control of infection and protection against disease becomes particularly important in tuberculosis and malaria, where an organism may persist despite extensive immune activation.</p>
+<p class="teaching-prose">For the present discussion, an extracellular organism is one whose relevant stage lies outside host-cell membranes. The term includes microorganisms in blood, interstitial fluid and epithelial surface compartments. These spaces have different soluble proteins and different resident cells, so extracellular does not mean that every target is equally accessible. An intracellular organism occupies a compartment inside a host cell. That compartment may be a membrane-bound vacuole or the cytosol; the distinction changes antigen processing and the available microbicidal mechanisms. A pathogen may also move between locations during infection. An immune response directed to an extracellular stage can prevent dissemination without directly affecting a stage already enclosed within a host cell.</p>
+<p class="teaching-prose">A phagocyte is a cell specialized to take up particulate material. Neutrophils and macrophages can bind a small organism, surround it with plasma membrane and deliver it into an internal compartment called a phagosome. In a productive defense reaction, the phagosome matures and acquires antimicrobial properties. However, the presence of an organism inside a phagocyte does not prove that the organism is dead. The cell may have bound and internalized its target normally but failed to complete killing. These are separate stages of a process. An immune defect can affect uptake without affecting intracellular killing, or it can preserve uptake while impairing the ability to destroy the internalized organism. A careful interpretation of experimental evidence must distinguish these possibilities.</p>
+<p class="teaching-prose">The innate immune response detects characteristic microbial structures and signs of tissue disturbance using receptors encoded in the inherited genome. It also deploys effectors such as complement and phagocytes without first requiring expansion of a particular antigen-specific lymphocyte clone. Adaptive immunity instead depends on B and T cells bearing diverse antigen receptors. Their selective activation and proliferation produce large populations of cells with the appropriate specificity. Adaptive mechanisms are especially useful because they can direct innate effector functions toward previously encountered antigens. Antibody-mediated uptake by a macrophage is a particularly clear example: the antibody supplies selective recognition, whereas the macrophage executes engulfment and killing.</p>
+<p class="teaching-prose">The term humoral immunity refers principally to protection by antibodies in extracellular fluids. Cell-mediated immunity refers to protection in which cellular interactions and functions have a central role, especially T-cell-dependent responses. These definitions describe emphasis rather than mutually exclusive compartments of the immune system. Antibody protection often requires a phagocyte or complement protein to execute the response. T-cell-mediated protection usually includes cytokines, which are soluble signaling molecules. A strong T helper response can be essential for production of effective antibody, and a macrophage that has ingested an antibody-coated bacterium is participating in both kinds of immunity. The correct comparison is therefore between linked effector mechanisms, not independent armies.</p>
+<p class="teaching-prose">Antigens are recognized molecular structures, whereas pathogen-associated molecular patterns are recurrent molecular features detected by innate receptors. One organism presents many possible antigens and patterns. The immune system can detect danger before the antigen-specific response has developed, and the resulting innate signals influence which adaptive functions become prominent. The same antigen encountered in a different context can produce a different immune outcome because antigen recognition is not sufficient by itself to specify the nature of the response. For example, the cytokine environment and the type of antigen-presenting cell help determine whether activated CD4 T cells predominantly support macrophage activation, epithelial defense, antibody responses or tissue repair.</p>
+<p class="teaching-prose">A useful conceptual distinction is between resistance and tolerance of infection. Resistance reduces the number, replication or spread of the infectious organism. Disease tolerance reduces the damage associated with a given infectious burden, without necessarily reducing that burden. This use of tolerance is distinct from immunological self-tolerance, which prevents inappropriate responses to self antigens. A change that preserves tissue function at a fixed burden is evidence of improved disease tolerance, whereas reduced burden at the same time point indicates improved resistance if comparable measurements have been made. Both outcomes can be important; neither can be inferred reliably from a single measurement of an inflammatory cytokine.</p>
+<p class="teaching-prose">A simple prediction follows from the location principle. If antibodies bind a soluble bacterial toxin, blocking its interaction with host-cell receptors may protect tissue even though the toxin-producing organism has not yet been removed. If the principal infectious stage lies inside a macrophage, the same antibody concentration need not reproduce the protective effect of a macrophage-activating T cell. If the target is a large worm, phagocytic uptake of the entire organism is physically impossible for a single cell, so surface-directed attack, tissue responses and expulsion become relevant alternatives. The rest of the chapter examines the mechanisms underlying these differences.</p></section>
+<section id="history"><h2>2. How experimental evidence established complementary forms of immunity</h2><p class="teaching-prose">The discovery that immune protection could be transferred through blood serum provided a foundation for humoral immunity. Classical antitoxin studies associated with Emil von Behring and Shibasaburo Kitasato established that substances present in the blood of an immunized animal could neutralize certain bacterial toxins in another animal. The importance of this observation was not that all infectious agents could be eliminated by serum. It was that a soluble product could mediate a specific protective effect without transfer of the cells that had originally produced it. Modern knowledge identifies antibodies as the relevant antigen-binding molecules in this kind of antitoxin protection. The distinction between neutralizing a harmful product and destroying the organism itself remains essential when interpreting these experiments.</p>
+<p class="teaching-prose">The cellular side of immunity grew from observations of motile cells capable of surrounding and engulfing foreign material. Élie Metchnikoff recognized phagocytosis as part of host defense rather than merely a sign of injury. Modern cell biology explains the process through membrane receptors, actin rearrangement, vesicle trafficking and intracellular degradation. The original cellular concept and the soluble-antitoxin concept were not mutually exclusive. Antibodies that bind particulate targets can make them easier for phagocytes to recognize. In this cooperative system, a specific molecule identifies the target and a comparatively broadly acting cell provides the destructive mechanism. The phenomenon is called opsonization, and it explains why protection can depend on both soluble and cellular components.</p>
+<p class="teaching-prose">The realization that intracellular infections posed a separate biological problem arose from the observation that some bacteria remained inside host cells rather than being destroyed after engulfment. In his 1962 work on cellular resistance to infection, George B. Mackaness examined acquired protection associated with the ability of host macrophages to control intracellular organisms. His later studies further distinguished specific induction of acquired resistance from the broader antimicrobial state of activated macrophages. These observations helped establish that the cell-mediated component of immunity could not be adequately explained by serum antibodies alone. Historical explanations of the exact activating signals were incomplete at the time. The modern interpretation emphasizes cytokine-mediated communication between antigen-specific T cells and macrophages, rather than adopting every early hypothesis as established molecular fact.</p>
+<p class="teaching-prose">This distinction is especially informative because antigen specificity and killing specificity need not be identical. A T cell responds when its receptor recognizes an appropriate peptide presented by a major histocompatibility complex molecule. It can then deliver activating signals to a nearby macrophage. The activated macrophage uses antimicrobial chemistry that does not require a separate antigen receptor for each microorganism it encounters. A specific adaptive recognition event can thus induce a local, relatively broad effector state. The conceptual separation resembles antibody-assisted phagocytosis, but the mechanism is different: antibody binds the microbial surface directly, while helper T cells recognize antigen presentation and regulate the activity of another cell.</p>
+<p class="teaching-prose">Genetic studies later tested individual signaling molecules in this network. An important 1993 paper, An essential role for interferon gamma in resistance to Mycobacterium tuberculosis infection, investigated the role of IFN-gamma using mice lacking the cytokine. The increased susceptibility of the deficient animals supported a causal requirement for IFN-gamma in the tested model. Such evidence is stronger than an observation that IFN-gamma is abundant in infected tissue, because genetic deficiency disrupts the proposed protective pathway. It does not show that IFN-gamma is the only relevant signal, that its concentration directly predicts protection in every individual, or that the findings transfer quantitatively to human disease. Genetic intervention establishes a requirement in a defined experimental context.</p>
+<p class="teaching-prose">The development of malaria immunology provides another example of how transfer experiments can identify a protective arm. Historical human studies, summarized in modern reviews of acquired malaria immunity, found that immunoglobulins obtained from immune donors could reduce blood-stage parasitemia and clinical symptoms in recipients. These results supported a functional contribution of antibody to protection against blood-stage disease. The observation was particularly important because the parasite spends much of that stage within erythrocytes. A strict rule that antibodies cannot matter during any intracellular infection would have predicted the opposite. The experiments make sense once the accessible extracellular merozoite and exposed antigens on infected erythrocytes are distinguished from the inaccessible parasite enclosed within the cell.</p>
+<p class="teaching-prose">Each historical observation answers a different question. Passive transfer of antitoxin identifies a soluble mediator of neutralization. Phagocytosis reveals a cellular mechanism for disposal of particles. Acquired cellular resistance identifies an altered state of antimicrobial host cells. Cytokine-deficiency evidence tests the requirement for a molecular signal. Malaria antibody transfer establishes that a serum component can contribute to protection against an infection with alternating compartments. None of these observations alone defines the entire immune response. Together they support a framework in which anatomical access, selective recognition and execution of effector functions determine which form of protection is possible.</p>
+<p class="teaching-prose">Modern interpretation requires careful controls even for apparently straightforward experimental designs. A transfer of serum may carry several proteins, while purified antibody is more informative about the identity of the mediator. A transfer of lymphocytes can carry a mixture of cell types unless the population is characterized. A genetically deficient animal may develop compensatory changes, so the loss of a phenotype can reflect both the missing molecule and downstream developmental effects. These limitations do not invalidate the experiments. They identify the level of conclusion justified by the evidence and explain why converging observations from different methods are often needed. At examination level, this approach allows a student to distinguish direct evidence for an effector from indirect evidence for a correlated immune marker.</p></section>
+<section id="extracellular"><h2>3. Extracellular bacterial defense: from barrier to recruited phagocytes</h2><p class="teaching-prose">The intact epithelium is the first anatomical obstacle to many bacteria. Epithelial cells form a continuous surface, maintain junctions that restrict passage and produce substances that influence microbial survival. Mucus retains particles and limits contact with the cell surface. Antimicrobial peptides act in local environments, while movements such as mucociliary transport remove material physically. The existence of such defenses reduces the number of organisms that reach internal tissues. It also allows the host to coexist with many microbial communities without launching a damaging inflammatory response against every encounter. The barrier is therefore not simply a wall separating sterile and nonsterile worlds; it is an actively regulated interface.</p>
+<p class="teaching-prose">Once organisms reach a tissue compartment where they can multiply and cause injury, resident cells respond to microbial signals and tissue damage. Macrophages, epithelial cells and other sentinel cells possess pattern-recognition receptors that recognize microbial structures or products of injured host cells. The resulting signaling changes gene expression and can induce inflammatory cytokines and chemokines. Chemokines direct the migration of cells, whereas cytokines more broadly alter cellular behavior. These categories overlap functionally, but the distinction helps explain how a recognition event in one cell becomes a coordinated change in an entire tissue. The cell that detects a microorganism need not itself be the cell that ultimately removes it.</p>
+<p class="teaching-prose">A local inflammatory response alters the behavior of nearby blood vessels. Endothelial cells become more permissive to leukocyte adhesion and movement into tissues, and vascular permeability can increase. The result is greater delivery of plasma proteins and recruited immune cells to the site of infection. The adhesion mechanisms introduced in the previous subunit are now applied to a biological problem: selectins contribute to initial leukocyte rolling, while activated integrins support firm adhesion and passage across the vessel wall. Chemokine signals help activate the migrating cell and guide its movement. The sequence prevents indiscriminate arrest of every circulating leukocyte and concentrates cellular activity where local signals indicate a need.</p>
+<p class="teaching-prose">Neutrophils are rapidly recruited in many acute extracellular bacterial infections. Their cytoplasm contains granules rich in antimicrobial proteins, and their membranes possess receptors that recognize microbial structures or host molecules deposited on microbial surfaces. A neutrophil can encounter an organism, engulf it and activate antimicrobial systems within the resulting compartment. Because neutrophils are numerous and often short-lived at inflamed sites, their accumulation can produce a large localized cellular response. Their effectiveness depends on access to the tissue, receptor engagement and intracellular antimicrobial function. A normal circulating neutrophil count does not prove that recruitment or killing at the infected site is normal.</p>
+<p class="teaching-prose">Macrophages contribute at several time points. Tissue-resident macrophages can recognize organisms before many recruited cells have arrived. They ingest material and release signals that influence local inflammation. Monocytes recruited from the blood can differentiate into macrophage-like populations that participate in continued defense and cleanup. Later, macrophages can engulf dying neutrophils and contribute to resolution of inflammation. These roles show why it is misleading to assign macrophages to only one phase of infection. They participate in initiation, removal of organisms and eventual restoration of tissue homeostasis. Their functions depend on tissue origin and local signals rather than on a single permanently fixed activation state.</p>
+<p class="teaching-prose">Dendritic cells connect early recognition to adaptive specificity. When appropriately activated, they can present microbial peptides and express costimulatory molecules needed for productive activation of naive T cells. They may move from the tissue to a draining lymphoid organ, where large numbers of lymphocytes circulate through organized compartments. This arrangement solves a probability problem: the rare lymphocyte with a receptor suited to a particular microbial peptide is unlikely to be present precisely where the infection begins. Concentrating antigen-bearing cells and recirculating lymphocytes in lymphoid tissue increases the opportunity for recognition and clonal expansion. Effector cells and antibodies produced after activation can then influence the infected tissue.</p>
+<p class="teaching-prose">The early response is useful even when it fails to eliminate infection immediately. By limiting microbial expansion, it reduces the burden confronting the adaptive response. If the innate response is severely defective, the delay required for lymphocyte activation and differentiation becomes more consequential. Conversely, if innate mechanisms remove the challenge rapidly, the subsequent adaptive response may be modest. The magnitude of the final antibody response therefore cannot be interpreted independently of the amount and duration of antigen exposure. A high antibody concentration can accompany either successful immunity or a large persistent antigen burden; its meaning depends on the stage, specificity and function of those antibodies.</p>
+<p class="teaching-prose">The physical accessibility of a bacterium does not guarantee that phagocytes will bind it efficiently. A hydrated polysaccharide capsule, for instance, can reduce effective interaction between microbial surface structures and phagocyte receptors. Antibodies specific for accessible surface antigens and complement fragments deposited on the surface can provide alternative recognition handles. The host can thereby overcome some of the physical limitations of direct innate recognition. This is why capsule-specific antibodies are particularly informative when studying extracellular bacterial defense. It is also why removing complement or antibody in a conceptual comparison may affect uptake more dramatically for one target than for another.</p>
+<p class="teaching-prose">Inflammatory defense carries a cost. Molecules capable of damaging microbial membranes or proteins can also affect host structures if they are released or remain active in inappropriate locations. Increased vascular permeability brings protective proteins to tissue but can also contribute to edema. The biological objective is not unrestricted recruitment and activation of immune cells. It is a response of adequate magnitude, duration and localization to control the infectious challenge while preserving tissue function. Regulatory signals and removal of dying cells help bring an effective response to an end. This idea prepares us to understand chronic infection, in which the stimulus for inflammation may persist and the balance between protection and injury becomes more difficult to maintain.</p></section>
+<section id="opsonization"><h2>4. Complement, antibodies and the physics of opsonization</h2><p class="teaching-prose">Opsonization changes the probability that a target will be recognized and taken up by a phagocyte. The coating molecule is an opsonin. Two major examples are immunoglobulin G and complement component C3b or its derivatives. The first binds microbial antigens through its antigen-binding regions; the second is deposited through complement activation. A phagocyte carrying the appropriate receptors can recognize these host-derived molecular labels even when the underlying microbial surface is poorly recognized by its own pattern-recognition receptors. The coating does not itself prove that the target is dead. It increases the effectiveness of subsequent interactions that may lead to ingestion and elimination.</p>
+<p class="teaching-prose">An IgG molecule has two antigen-binding regions and a constant region that can interact with certain Fc receptors. The term Fc refers to the portion of the immunoglobulin that supplies effector interactions rather than the antigen-specific binding site. When several IgG molecules bind an organism, their Fc regions are presented in a spatially organized array. Activating Fc receptors on a phagocyte can engage that array and initiate signals associated with particle uptake. The geometry of the interaction matters: an isolated soluble antibody molecule is not equivalent to a surface covered with many correctly oriented antibodies. Binding of antibody to antigen and signaling through a phagocyte receptor are therefore separate molecular events linked by the structure of the immunoglobulin.</p>
+<p class="teaching-prose">Complement provides a different recognition mechanism. Its activation pathways converge on cleavage of C3, producing fragments with distinct functions. C3b attaches to susceptible surfaces and can be further processed to fragments recognized by complement receptors. C3a and C5a contribute to inflammatory signaling, while terminal complement components can assemble a membrane attack complex. For extracellular bacterial defense, the deposition of opsonic fragments is often as important as direct membrane damage. The final outcome depends on the microbial envelope, the availability of complement components and the ability of effector cells to recognize the deposited fragments. In particular, efficient terminal-complement-mediated lysis is not a universal property of every bacterial surface.</p>
+<p class="teaching-prose">The classical pathway illustrates cooperation between adaptive recognition and innate soluble effector mechanisms. Antibody bound to a surface can provide a platform for initiation of the complement cascade. The relevant antibodies must be of a suitable isotype and organized appropriately for complement activation. Not all antigen-binding antibodies activate complement efficiently. The lectin and alternative pathways provide means of complement activation independent of prior antigen-specific antibody, allowing complement to act before the adaptive response has matured. These routes share downstream components but differ in their initiation. If a question removes only a classical pathway component, it is not valid to assume that every complement-mediated function has disappeared.</p>
+<p class="teaching-prose">C3b deposition and antibody binding can act together because phagocytes carry more than one receptor class. The contribution of each opsonin depends on the density of coating molecules, receptor expression, receptor activation and physical accessibility. Consider a target that receives both IgG and C3 fragments. Blocking Fc receptor engagement may reduce uptake while leaving a complement receptor-dependent contribution. Conversely, loss of complement deposition need not abolish antibody-mediated uptake if Fc receptors remain functional. A large reduction only when both routes are disrupted suggests partial redundancy or cooperation, although formal demonstration of synergy requires comparison against an explicit null model. These distinctions are important in interpreting questions with combinations of immune defects.</p>
+<p class="teaching-prose">At the molecular scale, receptor-ligand interaction is reversible and depends on noncovalent forces. The fraction of occupied sites can increase with ligand concentration until receptors approach saturation. However, the probability of engulfment is not simply equal to the fractional occupancy of any one receptor. Cell responses often require clustering, signaling thresholds and changes in actin organization. Surface geometry introduces additional effects, because many bonds may collectively stabilize contact even when each individual bond is relatively weak. The resulting collective stability is related to multivalent avidity. A soluble monovalent affinity measurement therefore provides only part of the information required to predict phagocyte uptake of an intact microorganism.</p>
+<p class="teaching-prose">Antibody can also protect without facilitating phagocytosis. Neutralization occurs when an antibody prevents a target molecule or infectious stage from interacting productively with the host. An antibody that occupies the receptor-binding region of a toxin can reduce toxicity without requiring the destruction of the bacterium. Mucosal antibodies can help limit microbial attachment to epithelial surfaces. In both cases, preventing a molecular interaction is sufficient to affect a biological outcome. An Fc-independent antigen-binding fragment may retain some neutralizing activity but lack the Fc-dependent functions of the intact antibody. A comparison of fragments with intact antibody can therefore help separate mechanisms, provided differences in binding and distribution are taken into account.</p>
+<p class="teaching-prose">The distinction between complement-mediated lysis and opsonization explains why complement deficiencies can have different consequences. A loss of a component shared by several activation routes affects a broader set of downstream functions than a defect limited to terminal pore formation. In a conceptual example, an intact upstream cascade can still deposit C3 fragments even when the terminal complex cannot assemble. This preserves an important route of phagocytic recognition. By contrast, if the supply of C3-derived opsonins is profoundly impaired, multiple routes of complement initiation cannot compensate for the missing common effector. Such reasoning is more useful than memorizing a single list of complement components and associated organisms.</p>
+<p class="teaching-prose">Humoral defense also depends on where an antibody is found. Secretory IgA is suited to many mucosal environments, whereas circulating IgG has important roles in internal extracellular fluids. IgM can be highly effective in multivalent interactions and classical complement activation when bound to appropriate antigens. These differences reflect molecular architecture, distribution and effector interactions, not a universal ranking of antibody strength. A high serum concentration of an antibody directed to an antigen inaccessible at the site of infection may offer limited protection. Effective immunity requires the right specificity, functional properties and anatomical distribution at the time the target is accessible.</p></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 4 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 4 · Cell Communication and Signaling</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["4.C.10","previous-node","← "],["4.C.12","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

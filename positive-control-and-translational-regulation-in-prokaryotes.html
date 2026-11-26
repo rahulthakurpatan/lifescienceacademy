@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Bacterial carbon-status regulation, cAMP–CRP activation, sigma factors and translational control.">
+  <meta name="robots" content="noindex,follow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/positive-control-and-translational-regulation-in-prokaryotes.html">
+  <title>Positive Control and Translational Regulation in Prokaryotes | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 3</span><span>›</span><span>Sub-unit 3.D</span><span>›</span><strong>Node 3.D.04</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 3.D.04</span><span>Unit 3 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Positive Control and Translational Regulation in Prokaryotes</h1><p class="subtitle">Carbon availability, transcriptional activation and the control of bacterial translation.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#carbon">1. The problem of choosing a nutrient</a><a href="#cap">2. How a positive transcriptional regulator works</a><a href="#pts">3. From glucose uptake to a carbon-status signal</a><a href="#logic">4. Integrating lactose and glucose at one promoter</a><a href="#quant">5. Quantitative interpretation of activation and growth</a><a href="#references">References and further reading</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Positive Control and Translational Regulation in Prokaryotes study notes"><div class="article-content" id="article"><section id="carbon"><h2>1. The problem of choosing a nutrient</h2><p class="teaching-prose">A bacterial cell does not obtain an advantage merely by possessing a gene that encodes a useful enzyme. The enzyme has to be made at a time when its activity will support growth or survival. Consider an Escherichia coli cell that encounters two carbohydrates, glucose and lactose. Lactose can supply carbon and energy after it has been transported into the cell and hydrolysed. Glucose can enter familiar central metabolic reactions without first requiring the complete lactose-utilisation system. Producing large amounts of lactose permease and beta-galactosidase while an easily utilisable carbon source is already providing sufficient metabolic flux may consume resources without an equivalent immediate benefit. Conversely, suppressing those enzymes permanently would deprive the organism of a useful alternative carbon source. The regulatory challenge is therefore not simply to identify a sugar but to coordinate the use of different sugars with the existing metabolic state.</p>
+<p class="teaching-prose">The distinction between a substrate and a signal is important. Lactose is a substrate for beta-galactosidase. The related disaccharide allolactose is the physiological inducer that changes the DNA-binding behaviour of LacI. Glucose availability, meanwhile, influences an intracellular signalling system that includes cyclic AMP and the transcriptional regulator CRP. These signals do not carry identical information. The lactose-dependent branch of regulation tells the cell whether there is a reason to express the lactose-utilisation genes, whereas the carbon-status branch helps determine whether their promoter receives additional transcriptional stimulation. A single nutrient can influence more than one molecular event, so the two branches are a useful starting model rather than two perfectly independent switches in an intact cell.</p>
+<p class="teaching-prose">A useful way to recognise the physiological importance of the response is to imagine the experiment at two scales. In a culture flask, the investigator may observe an increase in turbidity, a change in extracellular sugar concentrations and a change in enzyme activity. In each cell, those observations depend on events such as transport across the membrane, phosphorylation of signalling proteins, binding of a regulatory protein to DNA, initiation of RNA synthesis and recruitment of ribosomes to the resulting RNA. The culture curve does not reveal which one of those events limits growth. A convincing mechanistic explanation must connect population measurements to molecular evidence and must allow for delays between a change in the medium and the appearance of new enzyme.</p>
+<p class="teaching-prose">In the early investigation of bacterial enzyme adaptation, Jacques Monod and other researchers observed that growth with mixtures of carbon sources could occur in distinct phases. In the classic diauxic pattern, growth on one substrate is followed by a transition interval and renewed growth supported by the alternative substrate. The pause is not a universal requirement of mixed-substrate metabolism: organisms, strains, substrates and experimental conditions differ. Its significance is that an organism may possess the genes needed to consume both substrates but nevertheless change its metabolic programme over time. The genetic framework developed by Jacob and Monod explained regulated enzyme synthesis through regulatory products acting on DNA. Recognition of the importance of cAMP and CAP added a further layer: release of repression alone need not produce the maximal rate of transcription.</p>
+<p class="teaching-prose">Consider why a simple explanation based only on LacI is insufficient. If lactose were the sole relevant input, the presence of lactose should produce the same lac promoter output whether glucose were present or absent, provided that inducer concentrations and all other cellular conditions were matched. Yet carbon status can influence lac expression even when the repressor has been relieved. The missing regulatory component is a positive contribution to transcription initiation. Removing a molecular obstacle and helping the transcription machinery proceed are different operations. A gene may have neither an active obstacle nor an effective activator; its output can then be intermediate rather than maximal. This distinction underlies much of the reasoning used to interpret carbon-control mutants.</p>
+<p class="teaching-prose">The term catabolite repression describes the decreased expression of certain pathways for alternative nutrient utilisation in the presence of preferred carbon sources. It is named after the observed phenotype, not after a requirement that a repressor protein directly bind each target gene. At the lac promoter in the conventional E. coli model, an important component of this reduction is the loss of CRP-dependent activation. It is therefore possible to describe the physiological effect as repression while describing the local molecular mechanism as positive control. There is no contradiction as long as one specifies which process is being discussed. Other bacteria can use different regulatory systems to achieve a comparable preference, so the terms catabolite repression and cAMP–CRP must not be treated as synonyms across all organisms.</p></section>
+<section id="cap"><h2>2. How a positive transcriptional regulator works</h2><p class="teaching-prose">A promoter is a DNA region at which RNA polymerase assembles in a configuration that permits transcription initiation. The fact that a DNA sequence is recognised by RNA polymerase does not mean that every binding event gives rise to a full transcript. The enzyme may bind reversibly, undergo structural transitions associated with DNA opening, initiate short RNA products or escape the promoter to become an elongating complex. For a regulated promoter, one or more of these steps can be sufficiently unfavourable that the basal rate of productive transcription is low. An activator changes the probability or rate of productive events. The activator is not the enzyme that joins nucleotides into RNA; it alters the behaviour of the transcription machinery.</p>
+<p class="teaching-prose">The catabolite activator protein, CAP, is also called the cyclic AMP receptor protein, CRP. The two names refer to the same regulatory protein in this E. coli example. CRP is a homodimer, meaning that two copies of the same protein subunit form the functional complex. Its molecular organisation permits interaction with a small signalling molecule and recognition of particular DNA sequences. Binding of cAMP changes the conformational distribution of the protein, favouring a form capable of effective sequence-specific DNA recognition under physiological conditions. The DNA-binding portions of the two subunits interact with related features of the recognition site. This is an example of allosteric regulation: binding at one region of a molecule modifies properties of a different region rather than simply occupying the site at which the final action takes place.</p>
+<p class="teaching-prose">The chemical identity of cyclic AMP helps prevent several errors. ATP is the precursor from which adenylyl cyclase forms 3′,5′-cyclic adenosine monophosphate. The product contains a cyclic phosphate linkage and is not equivalent to ordinary AMP. The reaction also releases pyrophosphate. Although the carbon atom numbering and chemistry matter to the identity of the molecule, its regulatory role here is not to transfer a phosphate to CRP. The protein binds the cyclic nucleotide noncovalently. cAMP is a signalling ligand, not a protein kinase, and CRP does not need to phosphorylate RNA polymerase to activate the lac promoter. Intracellular cAMP concentration reflects synthesis, degradation and export as well as the physiological condition of the cell.</p>
+<p class="teaching-prose">At the wild-type lac promoter, the classic CRP site is centred approximately 61.5 base pairs upstream of the transcription start site. The negative coordinate means upstream relative to the first transcribed nucleotide; it does not mean a position inside the RNA at a negative distance from its own beginning. A cAMP-bound CRP dimer can bind this upstream site and induce bending of the DNA. Its appropriately positioned activating surface contacts the C-terminal domain of an alpha subunit of RNA polymerase. This contact increases favourable interactions involved in promoter recruitment and productive initiation. In this standard class I activation example, the activator is not required to occupy the operator at which LacI acts. The separate spatial arrangement makes it possible for the promoter to receive positive and negative regulatory influences at the same time.</p>
+<p class="teaching-prose">Sequence-specific DNA recognition and transcriptional activation are experimentally separable functions. Imagine a CRP variant that binds its usual DNA site when cAMP is present but has a damaged surface needed to contact the alpha subunit of RNA polymerase. A DNA-binding assay could still show a protein–DNA complex. Yet transcription from the lac promoter might remain near the unactivated level because binding has not been converted into a productive interaction with polymerase. In a second variant, the activating surface may be functional but the DNA-binding portion may fail to recognise the site. In that case the activator is not correctly positioned and transcription again fails to receive normal stimulation. Similar phenotypes in enzyme-output measurements can therefore have distinct structural explanations.</p>
+<p class="teaching-prose">The position of the DNA site is also informative. DNA is helical, so a protein bound to one side of the helix may be placed unfavourably to interact with a second protein bound elsewhere. In a conceptual experiment, moving the CRP site by roughly half a helical turn while preserving its sequence could change the relative orientation of the activator and RNA polymerase. A full-turn displacement could restore a favourable orientation, although distance and local DNA structure also matter. This prediction illustrates why the presence of a binding-site sequence alone is not enough to guarantee function. Correct sequence recognition, local geometry and the chemical properties of the interacting surfaces all contribute to activation.</p>
+<p class="teaching-prose">Not all activators use the same promoter architecture. Depending on the site and regulatory context, an activator can assist recruitment, facilitate a transition after binding or counteract another inhibitory influence. Even a single regulatory protein can have different effects at different promoters. For example, a DNA-bound factor positioned where polymerase needs to bind can interfere with transcription instead of helping it. Calling CRP an activator in the lac system does not establish that every CRP–DNA interaction throughout the genome has an activating consequence. An examination question that changes the position of a recognition site must therefore be answered from the geometry and mechanism given, rather than from the historical name of the protein.</p>
+<p class="teaching-prose">The local regulatory effect is also distinct from positive feedback. A CRP complex promoting transcription of lacZYA does not, merely by doing so, establish a positive feedback loop in CRP production. Feedback requires a downstream consequence to influence an upstream part of the pathway. Lactose transport and the production of inducer can participate in a reinforcing circuit in the native lac system, but this is a separate relationship from the direct activating contact between CRP and polymerase. In a well-drawn regulatory diagram each arrow should connect named molecular variables, rather than attaching the word positive to an entire pathway without specifying what increases.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-cap" viewBox="0 0 700 323" role="img" aria-labelledby="fig-cap-t fig-cap-d"><title id="fig-cap-t">CRP-dependent recruitment</title><desc id="fig-cap-d">The regulatory ligand favours active CRP, which recognises DNA and contacts RNA polymerase.</desc><rect x="90" y="25" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="51" text-anchor="middle" font-size="17" fill="currentColor">cAMP binds CRP dimer</text><path d="M350 67v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="97" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="123" text-anchor="middle" font-size="17" fill="currentColor">CRP binds upstream recognition site</text><path d="M350 139v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="169" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="195" text-anchor="middle" font-size="17" fill="currentColor">CRP contacts RNA polymerase α domain</text><path d="M350 211v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="241" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="267" text-anchor="middle" font-size="17" fill="currentColor">Productive initiation becomes more frequent</text></svg><figcaption>At the lac promoter, cAMP-dependent activation acts through CRP and its interaction with the transcription machinery.</figcaption><button class="tool-btn" type="button" data-figure="fig-cap">Enlarge diagram</button></figure></section>
+<section id="pts"><h2>3. From glucose uptake to a carbon-status signal</h2><p class="teaching-prose">To understand why CRP changes activity in different media, it is necessary to connect the extracellular nutrient to an intracellular biochemical state. In E. coli, the phosphoenolpyruvate-dependent phosphotransferase system, abbreviated PTS, couples transport of many sugars to their phosphorylation. Phosphoenolpyruvate donates phosphoryl groups through a series of protein intermediates. In the glucose-specific route, the phosphorylation state of EIIA Glc is particularly relevant for gene regulation. It is not simply the presence of extracellular glucose that produces the response; phosphate transfer during sugar transport changes the distribution of phosphorylated and unphosphorylated forms of PTS components.</p>
+<p class="teaching-prose">When glucose transport through this pathway is substantial, the phosphoryl group is passed onwards through the glucose transport machinery and ultimately to the incoming sugar. Under the usual conditions used to explain this system, EIIA Glc tends towards its unphosphorylated form. When glucose transport falls, transfer of phosphoryl groups to glucose falls and the phosphorylated form can accumulate. This statement describes a balance of reactions, not a permanent assignment of one chemical state to each nutrient. The relative pools depend on phosphate supply, metabolic flux, transport substrates and cellular conditions. Such qualification is useful because the PTS is not an isolated measuring device: its components participate in metabolism and regulation simultaneously.</p>
+<p class="teaching-prose">Phosphorylated EIIA Glc promotes the activity of adenylyl cyclase in the conventional E. coli scheme. Consequently, when glucose uptake is low, cAMP can increase, and greater availability of cAMP favours formation of active CRP complexes. The causal sequence therefore runs from a change in the usage of the transport system to a change in protein phosphorylation, then to activity of a signalling enzyme, concentration of a diffusible nucleotide and finally the behaviour of a DNA-binding regulator. None of these intermediate steps requires glucose to attach directly to the lac promoter. The direction of the response is easily remembered once the intermediates are understood: active glucose uptake tends to reduce the pool of phosphorylated EIIA Glc, so the positive contribution to cAMP production is diminished.</p>
+<p class="teaching-prose">A second effect of the PTS is important because it prevents a mistaken interpretation of the two sugar inputs. The unphosphorylated form of EIIA Glc can interact with lactose permease, LacY, and inhibit lactose transport. This is called inducer exclusion. Less lactose entry may mean less allolactose formation, leaving LacI more active at its operator. The PTS can thus influence both the positive regulatory branch through cAMP and the negative regulatory branch through substrate entry. The two effects are not identical. Inducer exclusion can alter the activity of LacY already present in the membrane, whereas loss of CRP stimulation changes the rate at which new transcripts are produced. Their time courses and experimental signatures can differ.</p>
+<p class="teaching-prose">Imagine two cultures that are identical except that in one an experimental inducer can reach the intracellular repressor without relying substantially on native lactose transport. If glucose is then supplied, the direct activation effect mediated by CRP can be investigated while reducing the complication caused by inducer exclusion. IPTG, isopropyl beta-D-thiogalactoside, is commonly used as a relatively nonmetabolised lac inducer in experimental systems, but its uptake may still depend on permease under some conditions. A careful experiment should choose an appropriate concentration, transport background and measurement to justify its assumption of equivalent induction. Stating that IPTG always enters every bacterial cell independently of transport is not a valid simplification.</p>
+<p class="teaching-prose">One can distinguish the two glucose effects using separate readouts. A transcriptional reporter whose promoter requires CRP but whose expression does not depend on LacY-mediated inducer uptake can report a carbon-status change at transcription. A transport measurement on cells containing comparable amounts of LacY can reveal a rapid change in uptake. Measurements of cAMP help connect the first reporter response to the signalling intermediate, but cAMP concentration alone cannot establish that transcription changed through CRP. An additional strain lacking functional CRP or carrying a mutated recognition site tests that dependence. If both responses change in a native lac assay, the final enzyme activity cannot be assigned entirely to either route without these additional controls.</p>
+<p class="teaching-prose">This network also explains a common rescue experiment. A strain with an inactive adenylyl cyclase, encoded by cyaA, cannot produce its normal cAMP signal by that route. Supplying cAMP from outside the cell may restore a CRP-dependent response if enough nucleotide becomes available intracellularly, CRP and its recognition site are functional and other regulatory conditions permit expression. In contrast, providing cAMP does not replace a missing CRP protein. Even in the first strain, rescue of the promoter does not establish rescue of every glucose-dependent process, because cAMP need not correct inducer exclusion or other metabolic consequences. The ability to distinguish biochemical bypass from general physiological restoration is central to interpreting genetic evidence.</p>
+<p class="teaching-prose">The term low glucose is therefore shorthand for a defined carbon-status context in which the canonical response is observed. A cell growing on a different carbon source may display regulatory conditions that are not predictable from a binary statement about glucose alone. Likewise, intracellular cAMP does not necessarily reach zero in the presence of glucose. The textbook model is useful because it describes a causal direction and predicts robust changes in carefully controlled comparisons. Its boundaries become important whenever an examination problem provides measured cAMP concentrations, transport rates or altered PTS components instead of merely listing the sugars in the medium.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-pts" viewBox="0 0 700 395" role="img" aria-labelledby="fig-pts-t fig-pts-d"><title id="fig-pts-t">Carbon-status signalling with low glucose uptake</title><desc id="fig-pts-d">The phosphorylated EIIA Glc pool promotes cyclase activity in the canonical E. coli model.</desc><rect x="90" y="25" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="51" text-anchor="middle" font-size="17" fill="currentColor">Glucose uptake through PTS falls</text><path d="M350 67v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="97" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="123" text-anchor="middle" font-size="17" fill="currentColor">Phosphorylated EIIA Glc accumulates</text><path d="M350 139v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="169" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="195" text-anchor="middle" font-size="17" fill="currentColor">Adenylyl cyclase activity is promoted</text><path d="M350 211v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="241" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="267" text-anchor="middle" font-size="17" fill="currentColor">cAMP availability rises</text><path d="M350 283v23m-5 -6 5 6 5 -6" stroke="currentColor" fill="none" stroke-width="2"/><rect x="90" y="313" width="520" height="42" rx="8" fill="var(--surface)" stroke="currentColor"/><text x="350" y="339" text-anchor="middle" font-size="17" fill="currentColor">CRP-dependent activation becomes favourable</text></svg><figcaption>This qualitative pathway assumes the usual E. coli carbon-control context; the concentrations need not change as perfect binary switches.</figcaption><button class="tool-btn" type="button" data-figure="fig-pts">Enlarge diagram</button></figure></section>
+<section id="logic"><h2>4. Integrating lactose and glucose at one promoter</h2><p class="teaching-prose">A model of the lac promoter can now combine two molecular conditions. First, effective LacI repression must be sufficiently relieved for transcription to proceed. Second, CRP-dependent activation determines whether an available promoter operates at a stimulated rate. It is convenient to denote relief of repression by I and activation by A, assigning each a value of zero or one in an idealised binary model. The largest output occurs when I and A are both one. This resembles a logical AND requirement for high expression. It does not mean that transcription is exactly zero whenever one condition fails; a weak promoter may retain basal activity, and repression itself may be incomplete.</p>
+<p class="teaching-prose">With glucose available but lactose absent, the usual model predicts substantial LacI repression together with weak CRP activation. The cell has neither the inducer signal nor the favourable carbon-status signal for strong expression. With glucose absent and lactose absent, CRP may become active under appropriate carbon conditions, but the operator remains occupied frequently by LacI. The activator does not substitute for the inducer, because it does not remove the repressor from the operator. There can be rare productive events, but the usual expectation is low output. This condition is especially revealing when students assume that high cAMP is sufficient to turn on the operon regardless of lactose.</p>
+<p class="teaching-prose">With both glucose and lactose available, the textbook two-input table predicts that CRP activation remains weak and lactose may relieve LacI repression, permitting limited transcription. In the native cell, however, inducer exclusion can reduce lactose entry and prevent full relief of repression. Consequently the actual output can be lower than the simplified table suggests. The table must state that effective induction is assumed when lactose is marked present. With lactose available and glucose unavailable, lactose entry and conversion to allolactose can relieve the operator block, while the carbon-status pathway favours activation. The two permissive influences coincide and lac transcription is high relative to the other three conditions under the conventional assumptions.</p>
+<p class="teaching-prose">Consider a constitutive operator mutation that prevents normal LacI binding but leaves the promoter and CRP site intact. In such a mutant, lactose no longer controls the operator through LacI. Nevertheless, glucose can still influence transcription through CRP. The word constitutive therefore applies to the loss of dependence on a particular negative regulatory input, not automatically to a constant maximal expression rate across all environments. A related result is expected for a simple loss of functional LacI, although a diffusible wild-type LacI protein supplied by a second genetic copy could complement that mutation. The operator mutation affects its own linked promoter and cannot be corrected by supplying more wild-type repressor if the operator is unable to recognise it.</p>
+<p class="teaching-prose">A noninducible LacI superrepressor provides the opposite comparison. Assuming its operator recognition is retained, it fails to respond normally to inducer. Raising cAMP does not ordinarily remove this inhibitory constraint. A mutation that weakens the CRP recognition sequence without affecting the operator has a different effect: lactose-dependent relief remains possible, but the promoter cannot receive its usual stimulation from CRP. Supplying additional cAMP or wild-type CRP may fail to restore the particular linked promoter if the recognition sequence is destroyed. This comparison is a practical method for distinguishing cis-acting DNA alterations from trans-acting regulator deficiencies while retaining the carbon input as part of the reasoning.</p>
+<p class="teaching-prose">A genetically engineered CRP that functions independently of cAMP can be considered in an idealised problem if the mutation is explicitly described. Such a variant might maintain activation at a compatible promoter even when the usual carbon-status signal is low. It would not automatically restore lactose transport during glucose uptake, nor would it necessarily overcome LacI repression. It is important to specify whether a proposed mutation affects ligand binding, the allosteric transition, DNA recognition, interaction with polymerase or the expression of the regulator itself. A name such as crp mutant is insufficient to predict a unique phenotype without information about the type of molecular change.</p>
+<p class="teaching-prose">The combined model makes it possible to explain diauxic growth without reducing the phenomenon to a single gene switch. During the first growth phase, high glucose flux can support rapid proliferation and reduce the expression or activity of alternative utilisation systems. As glucose declines, the signalling and transport constraints can relax. If lactose remains, induction and activation allow accumulation of the required proteins. The cell then uses the alternative substrate more effectively and growth can resume at a different rate. The transition duration also depends on the pre-existing protein pool, the ability to synthesise new molecules, population heterogeneity and other physiological adjustments. A lag is consistent with induction of metabolic capacity but does not alone prove that lac regulation is the only cause.</p><table><thead><tr><th scope="col">Glucose</th><th scope="col">Lactose / effective induction</th><th scope="col">CRP activation</th><th scope="col">Expected lac output</th></tr></thead><tbody><tr><td>Present</td><td>Absent</td><td>Weak</td><td>Very low</td></tr><tr><td>Absent</td><td>Absent</td><td>Strong</td><td>Low; repressor active</td></tr><tr><td>Present</td><td>Present</td><td>Weak</td><td>Low or basal; inducer exclusion may further reduce output</td></tr><tr><td>Absent</td><td>Present</td><td>Strong</td><td>High</td></tr></tbody></table></section>
+<section id="quant"><h2>5. Quantitative interpretation of activation and growth</h2><p class="teaching-prose">Binary tables describe the direction of regulation, but biochemical molecules interact at finite concentrations. Suppose an active regulator A binds one DNA site D reversibly to produce a complex AD. Define the dissociation constant Kd as the product of the free concentrations of A and D divided by the concentration of AD at equilibrium. If the concentration of DNA sites is small compared with the free regulator pool, binding to this one site does not substantially change that pool. Under the additional assumption that binding equilibrates much faster than the process being measured, the fraction of sites occupied is theta = [A]/(Kd + [A]). This relationship follows by expressing total sites as [D] + [AD] and using the definition of Kd to replace [AD] with [A][D]/Kd.</p>
+<p class="teaching-prose">The quantity [A] in this expression represents free, DNA-binding competent regulator, not the total number of all CRP monomers and not the cAMP concentration itself. The actual relation between cAMP concentration, CRP conformation and DNA-site occupancy can be more complicated than a single binding equilibrium. Using this model for examination purposes requires that the active dimer be treated as one ligand for one DNA site. The equation then predicts that at [A] = Kd half the DNA sites are occupied. It also predicts saturation: doubling free activator when the site is already occupied most of the time produces much less additional occupancy than doubling it near the low-concentration part of the curve.</p>
+<p class="teaching-prose">To connect occupancy with an observable, suppose an unrepressed promoter initiates at rate r0 while unoccupied and at rate r1 while occupied. The weighted average initiation rate is r = r0(1 − theta) + r1 theta. This model treats each occupancy state as having a constant characteristic rate. It neglects intermediate complexes, interactions with other regulators and changes in RNA stability. If r1 exceeds r0, increasing the active regulator increases the predicted average rate. The maximal rate under this model is r1, not an arbitrarily large number. If the DNA-binding complex is present but cannot contact polymerase, r1 might instead approach r0, causing the activation curve to become almost flat even though the occupancy curve remains normal.</p>
+<p class="teaching-prose">As a hypothetical numerical example, let Kd be 20 nM, r0 be 2 transcripts per minute per promoter and r1 be 22 transcripts per minute per promoter. With 5 nM free active regulator, theta is 5/25 or 0.20 and the predicted output is 2 + 20 × 0.20 = 6 transcripts per minute. With 20 nM active regulator, theta is 0.50 and r is 12 transcripts per minute. With 80 nM activator, theta is 0.80 and r is 18 transcripts per minute. These values are constructed for teaching and are not measured lac promoter kinetics. They illustrate how a graded molecular response can underlie a qualitative classification into weak and strong activation.</p>
+<p class="teaching-prose">If a second mutation increases Kd from 20 to 80 nM while all other quantities remain equal, an active regulator concentration of 20 nM yields occupancy 20/100 = 0.20 rather than 0.50. The corresponding rate falls from 12 to 6 transcripts per minute. This reduction is consistent with weakened affinity. However, observing the same fall in RNA production would not by itself establish an affinity change, because a reduction in r1 can also lower the output. Independent binding data are needed to discriminate these models. An experiment that observes DNA binding and transcription simultaneously can reveal whether the defect precedes or follows formation of the DNA-bound complex.</p>
+<p class="teaching-prose">Population growth measurements introduce different mathematical variables. In an exponential phase, the increase in cell number N can be approximated by dN/dt = mu N, where mu is a specific growth rate with dimensions of inverse time. Separating the variables and integrating gives ln(N2/N1) = mu(t2 − t1). The doubling time is ln 2/mu. For a constructed culture that increases from one million to four million cells per millilitre in two hours during an exponential phase, mu = ln 4/2 = 0.693 per hour, and the doubling time is one hour. During a diauxic transition the assumption of constant exponential growth is not valid over the whole interval. A single fitted doubling time spanning both growth phases and the transition may obscure the underlying biology.</p>
+<p class="teaching-prose">A hypothetical culture may have a rapid first exponential phase and a slower second phase because its rates of nutrient uptake and metabolic conversion differ. The observation that a promoter reporter is strongly expressed during the slower phase is not a contradiction. Expression of an alternative pathway is beneficial relative to being unable to use the remaining nutrient, not necessarily relative to unrestricted growth on the preferred nutrient. In an exam graph, enzyme expression, substrate depletion and optical density can change at different times. A mechanistic inference should identify which variable is directly measured, whether it represents a concentration or a rate, and whether the observed delay is consistent with synthesis and turnover of the relevant molecules.</p><figure class="figure-panel"><svg xmlns="http://www.w3.org/2000/svg" id="fig-occupancy" viewBox="0 0 650 365" role="img" aria-labelledby="fig-occ-t fig-occ-d"><title id="fig-occ-t">Occupancy at a single DNA site</title><desc id="fig-occ-d">Saturating fraction occupied versus active regulator concentration for a dissociation constant of 20 nanomolar.</desc><path d="M90 30V290H600" stroke="currentColor" stroke-width="2" fill="none"/><text x="345" y="342" fill="currentColor" text-anchor="middle" font-size="16">Free active regulator (nM)</text><text x="20" y="160" fill="currentColor" text-anchor="middle" transform="rotate(-90 20 160)" font-size="16">Fraction occupied</text><text x="80" y="294" text-anchor="end" fill="currentColor" font-size="13">0</text><path d="M90 290h510" opacity=".18" stroke="currentColor"/><text x="80" y="229" text-anchor="end" fill="currentColor" font-size="13">0.25</text><path d="M90 225h510" opacity=".18" stroke="currentColor"/><text x="80" y="164" text-anchor="end" fill="currentColor" font-size="13">0.5</text><path d="M90 160h510" opacity=".18" stroke="currentColor"/><text x="80" y="99" text-anchor="end" fill="currentColor" font-size="13">0.75</text><path d="M90 95h510" opacity=".18" stroke="currentColor"/><text x="80" y="34" text-anchor="end" fill="currentColor" font-size="13">1</text><path d="M90 30h510" opacity=".18" stroke="currentColor"/><text x="90" y="312" text-anchor="middle" fill="currentColor" font-size="13">0</text><text x="192" y="312" text-anchor="middle" fill="currentColor" font-size="13">20</text><text x="294" y="312" text-anchor="middle" fill="currentColor" font-size="13">40</text><text x="396" y="312" text-anchor="middle" fill="currentColor" font-size="13">60</text><text x="498" y="312" text-anchor="middle" fill="currentColor" font-size="13">80</text><text x="600" y="312" text-anchor="middle" fill="currentColor" font-size="13">100</text><polyline points="90,290 95.1,277.6190476190476 100.2,266.3636363636364 105.3,256.0869565217391 110.4,246.66666666666666 115.5,238 120.6,230 125.69999999999999,222.5925925925926 130.8,215.71428571428572 135.9,209.31034482758622 141,203.33333333333331 146.1,197.74193548387098 151.2,192.5 156.3,187.57575757575756 161.39999999999998,182.94117647058823 166.5,178.57142857142856 171.6,174.44444444444446 176.7,170.54054054054055 181.8,166.8421052631579 186.89999999999998,163.33333333333331 192,160 197.1,156.82926829268294 202.2,153.8095238095238 207.3,150.93023255813952 212.39999999999998,148.1818181818182 217.5,145.55555555555554 222.6,143.04347826086956 227.7,140.63829787234042 232.79999999999998,138.33333333333334 237.89999999999998,136.12244897959184 243,134 248.1,131.9607843137255 253.2,130 258.29999999999995,128.11320754716982 263.4,126.2962962962963 268.5,124.54545454545453 273.6,122.85714285714286 278.7,121.2280701754386 283.79999999999995,119.65517241379311 288.9,118.13559322033899 294,116.66666666666666 299.1,115.24590163934425 304.2,113.87096774193549 309.29999999999995,112.53968253968253 314.4,111.25 319.5,110 324.6,108.78787878787878 329.7,107.61194029850745 334.79999999999995,106.47058823529412 339.9,105.36231884057972 345,104.28571428571428 350.09999999999997,103.2394366197183 355.2,102.22222222222223 360.29999999999995,101.23287671232876 365.4,100.27027027027026 370.5,99.33333333333334 375.59999999999997,98.42105263157896 380.7,97.53246753246754 385.79999999999995,96.66666666666666 390.9,95.82278481012659 396,95 401.09999999999997,94.19753086419752 406.2,93.41463414634146 411.29999999999995,92.65060240963857 416.4,91.9047619047619 421.5,91.1764705882353 426.59999999999997,90.46511627906978 431.7,89.77011494252875 436.79999999999995,89.0909090909091 441.9,88.42696629213484 447,87.77777777777777 452.09999999999997,87.14285714285714 457.2,86.52173913043478 462.29999999999995,85.91397849462365 467.4,85.31914893617022 472.5,84.73684210526315 477.59999999999997,84.16666666666666 482.7,83.60824742268042 487.79999999999995,83.0612244897959 492.9,82.52525252525251 498,82 503.09999999999997,81.48514851485149 508.2,80.98039215686273 513.3,80.48543689320388 518.4,80 523.5,79.52380952380952 528.5999999999999,79.0566037735849 533.7,78.5981308411215 538.8,78.14814814814815 543.9,77.70642201834863 549,77.27272727272728 554.0999999999999,76.84684684684686 559.2,76.42857142857142 564.3,76.01769911504425 569.4,75.61403508771929 574.5,75.21739130434781 579.5999999999999,74.82758620689654 584.7,74.44444444444446 589.8,74.0677966101695 594.9,73.69747899159663 600,73.33333333333334" stroke="var(--accent)" stroke-width="3" fill="none"/><circle cx="192" cy="160" r="5" fill="currentColor"/></svg><figcaption>Constructed equilibrium model, Kd = 20 nM. Half-occupancy occurs at 20 nM.</figcaption><button class="tool-btn" type="button" data-figure="fig-occupancy">Enlarge diagram</button></figure></section><section id="references"><h2>References and further reading</h2><ol><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26872/">Alberts et al., Molecular Biology of the Cell, How Genetic Switches Work.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK9850/">Cooper, The Cell: A Molecular Approach, Transcription in Prokaryotes.</a></li><li><a href="https://doi.org/10.1038/nrmicro.2016.103">Local and global regulation of transcription initiation in bacteria (2016).</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8346122/">The Role of RNA Secondary Structure in Regulation of Gene Expression in Bacteria (2021).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/15487940/">The small RNA regulators of Escherichia coli: roles and mechanisms (2004).</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10966952/">RpoS and the bacterial general stress response.</a></li></ol></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 3 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 3 · Fundamental Processes</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["3.D.03","previous-node","← "],["3.D.05","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

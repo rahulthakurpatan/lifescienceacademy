@@ -210,3 +210,8 @@
 - **5.A.08 — Cell Determination and Differentiation: From Stable Fate to Specialized Function**: chapter included in the publication tree at `cell-determination-and-differentiation.html`; live deployment must be checked separately.
 - **5.A.06 — Developmental Induction and Cellular Competence**: chapter included in the publication tree at `developmental-induction-and-cellular-competence.html`; live deployment must be checked separately.
 - Current published nodes in Unit 05: 3 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.
+
+### Publication checkpoint — 2026-11-26
+
+- **5.A.11 — Developmental Genetics: Mutants, Mosaic Analysis and Transgenic Models**: chapter included in the publication tree at `developmental-genetics-mutants-mosaic-analysis-and-transgenic-models.html`; live deployment must be checked separately.
+- Subunit 5.A: 4 / 11. Unit 05: 4 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.

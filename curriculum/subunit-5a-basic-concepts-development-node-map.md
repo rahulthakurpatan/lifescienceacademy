@@ -215,3 +215,8 @@
 
 - **5.A.11 — Developmental Genetics: Mutants, Mosaic Analysis and Transgenic Models**: chapter included in the publication tree at `developmental-genetics-mutants-mosaic-analysis-and-transgenic-models.html`; live deployment must be checked separately.
 - Subunit 5.A: 4 / 11. Unit 05: 4 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.
+
+### Publication checkpoint — 2026-11-26
+
+- **5.A.09 — Stem Cells, Asymmetric Division and Developmental Plasticity**: chapter included in the publication tree at `stem-cells-asymmetric-division-and-developmental-plasticity.html`; live deployment must be checked separately.
+- Subunit 5.A: 5 / 11. Unit 05: 5 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.

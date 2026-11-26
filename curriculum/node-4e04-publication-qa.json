@@ -1,0 +1,327 @@
+{
+  "node_id": "4.E.04",
+  "title": "Tumor-Suppressor Genes: Growth Restraints, p53, Rb and the Two-Hit Concept",
+  "unit": "04",
+  "subunit": "4.E",
+  "slug": "tumor-suppressor-genes-growth-restraints-p53-rb-and-two-hit-concept.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/tumor-suppressor-genes-growth-restraints-p53-rb-and-two-hit-concept.html",
+  "date": "2026-11-26",
+  "status": "lesson_committed_pages_verification_pending",
+  "source_draft_branch": "draft/4.E.04-tumor-suppressor-genes",
+  "source_draft_chapter_commit_sha": "bfc43f5c953c3abba9683411be76d178c3c253c8",
+  "draft_blob_sha": "5b95fd5815d1d854989a99978137638cf37548d4",
+  "initial_main_sha": "81c865515d6aeecdf1f22d56f853027d3cc27ee7",
+  "recovered_initial_draft_sha": "6558363c850dcbd909eb6c061cc043ed896462f5",
+  "metrics": {
+    "genuine_teaching_words": 14080,
+    "visible_article_words_excluding_svg_buttons": 19100,
+    "teaching_paragraphs": 134,
+    "exact_duplicate_paragraphs": 0,
+    "theory_sections": 8,
+    "total_sections": 16,
+    "svg": 11,
+    "tables": 2,
+    "worked_examples": 8,
+    "part_b": 20,
+    "part_c": 20,
+    "mixed": 12,
+    "total_questions": 52,
+    "misconceptions": 19,
+    "active_recall": 15,
+    "references": 16,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 13
+    }
+  },
+  "word_count_method": "Unicode lexical tokens from saved p.teaching-prose, with tags removed and common entities decoded. Headings, figure-reference paragraphs, tables, figures, questions, worked examples, revision, references, UI excluded. Visible article excludes SVG/buttons.",
+  "syllabus": {
+    "revised": "Official revised CSIR-UGC-DBT LS&BT Unit 4.E, printed page 5 visually inspected",
+    "legacy": "Separate CSIR LS Unit 4.D, printed page 3 visually inspected",
+    "mp_set": "Archived MP SET 2024 Unit 4.D, page 3 visually inspected; current MPPSC primary host not independently verified",
+    "academy": "curriculum/subunit-4e-cancer-node-map.md",
+    "matrix": [
+      [
+        "Tumor suppressor function and types",
+        "4.E cancer/tumor suppressor genes",
+        "Foundations; exceptions",
+        "Prerequisites alleles, proliferation, DNA repair; avoid detailed repair chemistry"
+      ],
+      [
+        "RB1 and restriction point",
+        "4.E tumor suppressor genes; cell cycle",
+        "rb",
+        "CDK and E2F concepts; detailed checkpoint integration 4.E.05"
+      ],
+      [
+        "TP53",
+        "4.E tumor suppressor genes; legacy apoptosis",
+        "p53",
+        "Stress-dependent transcription, p21, MDM2; detailed death pathways 4.E.06"
+      ],
+      [
+        "APC",
+        "4.E tumor suppressor genes",
+        "apc",
+        "Wnt and intestinal homeostasis; no detailed developmental pathway"
+      ],
+      [
+        "Knudson and LOH",
+        "4.E tumor suppressor genes; genetic rearrangements",
+        "history; alleles; reasoning",
+        "Allele and marker logic, copy-neutral LOH; no full pedigree course"
+      ],
+      [
+        "Haploinsufficiency, dominant negative, caretaker/gatekeeper",
+        "4.E tumor suppressor genes",
+        "exceptions; p53; reasoning",
+        "Dosage, complex formation and genome maintenance; no specialist genomics"
+      ]
+    ],
+    "scope": "Detailed tumor-suppressor gene mechanisms and classical inheritance; reserve full checkpoint integration for 4.E.05, apoptosis for 4.E.06, Wnt development and full pedigrees for appropriate units."
+  },
+  "coverage": {
+    "A": {
+      "status": "pass",
+      "sections": "foundations, alleles",
+      "evidence": "Gene and protein distinction, gain/loss, alleles, restraints and normal cellular prerequisites",
+      "assessment": "B1–20, mixed",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "B": {
+      "status": "pass",
+      "sections": "history",
+      "evidence": "Knudson statistical inference, chromosomal localization, Friend molecular identification, subsequent allele evidence and exceptions",
+      "assessment": "B7, C6, mixed",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "C": {
+      "status": "pass",
+      "sections": "rb, p53, apc",
+      "evidence": "pRB interaction pocket, E2F partners, p53 domains and tetramers, APC scaffold and substrate handling",
+      "assessment": "B, C, diagrams",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "D": {
+      "status": "pass",
+      "sections": "rb, p53, apc",
+      "evidence": "Kinase-dependent restraint, MDM2 turnover, damage-induced transcription and APC-dependent beta-catenin regulation",
+      "assessment": "B/C and pathway ordering",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "E": {
+      "status": "pass",
+      "sections": "rb, p53, apc",
+      "evidence": "Binding affinity, noncovalent interactions, ATP-dependent modification and turnover",
+      "assessment": "Worked 5–6, C7/10/11",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "F": {
+      "status": "pass",
+      "sections": "rb, p53",
+      "evidence": "p16 and CDKs, E2F feedback, MDM2 feedback, contextual response and recovery",
+      "assessment": "C8–9, mixed",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "G": {
+      "status": "pass",
+      "sections": "reasoning, worked",
+      "evidence": "Ordered events, pedigree probability, LOH mixture, binding equilibrium, turnover and tetramer binomial model",
+      "assessment": "Eight worked examples and quantitative C",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "H": {
+      "status": "pass",
+      "sections": "history, rb, reasoning",
+      "evidence": "Landmark clinical and molecular evidence, phosphoform evidence, controls, conditional inference, assay limits",
+      "assessment": "C and mixed",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "I": {
+      "status": "pass",
+      "sections": "foundations, history, rb, apc",
+      "evidence": "Retinal development, differentiation, intestinal renewal and tissue homeostasis",
+      "assessment": "Conceptual and comparative practice",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "J": {
+      "status": "pass",
+      "sections": "exceptions",
+      "evidence": "Conservation of pocket-protein regulation in animals/plants; distinct organismal phenotypes",
+      "assessment": "Comparative reasoning",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "K": {
+      "status": "pass",
+      "sections": "alleles, rb, p53, apc",
+      "evidence": "Deletion, silencing, null/missense, pathway bypass and stress-response failure",
+      "assessment": "C1–20",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "L": {
+      "status": "pass",
+      "sections": "history, alleles, exceptions, reasoning",
+      "evidence": "MYCN subset, mosaicism, non-universal recessivity, dose and dominant-negative context, model limits",
+      "assessment": "C, traps",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "M": {
+      "status": "pass",
+      "sections": "reasoning, alleles",
+      "evidence": "Research and diagnostic interpretation of matched samples, protein assays, pathway perturbations; nonclinical scope",
+      "assessment": "C and mixed",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "N": {
+      "status": "pass",
+      "sections": "foundations, rb, p53, exceptions, revision",
+      "evidence": "Integration with genetics, oncogenes, signaling, DNA repair, cell cycle and next node",
+      "assessment": "Mixed and recall",
+      "limitations": "Internal examination-scope review; not specialist research."
+    },
+    "O": {
+      "status": "pass",
+      "sections": "worked, practice, part-c, mixed, traps, revision",
+      "evidence": "52 explained original questions, 19 traps, 15 recall prompts and mastery checklist",
+      "assessment": "20 B, 20 C, 12 mixed",
+      "limitations": "Internal examination-scope review; not specialist research."
+    }
+  },
+  "reviews": [
+    {
+      "pass": 1,
+      "focus": "Scientific and syllabus",
+      "changes": [
+        "Preserved existing 3,155-word draft and expanded allele biology, historical evidence, RB1, TP53, APC and comparative context.",
+        "Verified source records: Knudson/Friend and RB1 history, pRB mono-phosphorylation paper, p53 domain/feedback and tetramer reviews, APC and retinoblastoma GeneReviews. Rechecked official syllabus screenshots.",
+        "Qualified MYCN-associated exception, phosphorylation model, p53 turnover and functional inference; corrected feedback graphic and explicit variant mechanisms.",
+        "Independently recalculated numerical examples and Part C results."
+      ]
+    },
+    {
+      "pass": 2,
+      "focus": "Teaching and examination",
+      "changes": [
+        "Reviewed saved HTML and refined overlapping p53-domain passage into distinct explanation of promoter output and co-regulator interaction.",
+        "Added eight SVG figures, two tables, five worked examples and 41 original assessment items, with 13 keys per position.",
+        "Strengthened initial misconception reasoning, added mastery checklist, source anchors and diagram references, fixed zoom clone ARIA references and question/table CSS.",
+        "Compared actual 4.E.03 and 4.E.05 teaching counts; no exact duplicates, lexical maximum Jaccard 0.20455; recurring concepts are distinct causal or evidentiary contexts, not mathematical proof of semantic originality."
+      ]
+    }
+  ],
+  "comparators": [
+    {
+      "node": "4.E.03",
+      "words": 14044,
+      "paragraphs": 150,
+      "blob": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550"
+    },
+    {
+      "node": "4.E.05",
+      "words": 14101,
+      "paragraphs": 138,
+      "blob": "110e03c08e506f7fd696c0c3fe2044e68a396a84"
+    }
+  ],
+  "quality": {
+    "scope": 20,
+    "accuracy": 24,
+    "depth": 19,
+    "experimental_analytical": 14,
+    "practice": 9,
+    "technical": 9,
+    "total": 95,
+    "threshold": 95,
+    "rationale": [
+      "Approved microtopics and boundaries fully mapped.",
+      "Scientific mechanisms and source records checked; not all primary texts independently read (-1).",
+      "14,080 words comparable to both neighbors; selected biological examples and purposeful recurrence of core pathway reasoning (-1).",
+      "Eight worked examples and historical evidence plus conditional inference; hypothetical datasets and simplified models (-1).",
+      "52 original explained questions with 20 analytical, internally reviewed only; no external calibration (-1).",
+      "Static saved HTML and reader controls/links verified; no browser/device/assistive technology runtime audit (-1)."
+    ]
+  },
+  "checks": {
+    "duplicate_ids": 0,
+    "broken_anchor_aria_zoom_targets": 0,
+    "html_tag_stack_errors": 0,
+    "svg_accessible_title_desc": 11,
+    "question_structural_errors": 0,
+    "question_number_sequence_valid": true,
+    "answer_positions_balanced": true,
+    "canonical": "correct intended production URL",
+    "draft_robots": "noindex,nofollow",
+    "reader_controls_present": true,
+    "neighbor_resolution_dynamic": true,
+    "local_links": "./ only; dynamic links resolved from published menu",
+    "lexical_max_jaccard": 0.20454545454545456,
+    "numerical_checks": [
+      0.1,
+      0.00005,
+      0.01,
+      0.0625,
+      0.31640625,
+      0.2,
+      0.125,
+      0.75,
+      0.5,
+      20,
+      60,
+      1.1552453,
+      3.4657359,
+      0.4,
+      0.421875,
+      0.73828125,
+      0.2,
+      0.2857142857142857,
+      0.3,
+      0.75,
+      20,
+      80,
+      0.86643398,
+      1.73286795,
+      0.1296,
+      0.25
+    ]
+  },
+  "limitations": [
+    "Internal editorial reviews, not external peer review.",
+    "Archived MP SET 2024 syllabus used; no current official-host copy independently confirmed.",
+    "Selected indexed abstracts/reviews and textbook material checked; not all primary full texts accessed.",
+    "Static HTML/reader audit; no independent interactive browser, mobile or assistive technology runtime test; no standalone JavaScript execution test.",
+    "Question difficulty not externally calibrated; lexical screening plus editorial review is not formal semantic originality proof.",
+    "Deployment and independent live verification are separate stages."
+  ],
+  "publication_eligible": true,
+  "previous_hold_resolved": "The former 3,155-word draft is preserved in branch history; all mandatory numerical counts and internal scope/quality gates now met.",
+  "source_draft_commit_sha": "007ce2ddbaca2aef1b62754a070c60c1b5c12d11",
+  "publication_base_sha": "81c865515d6aeecdf1f22d56f853027d3cc27ee7",
+  "main_baseline_sha": "81c865515d6aeecdf1f22d56f853027d3cc27ee7",
+  "chapter_blob_sha": "05989009cb26aa9e75c8ba617f8008bbcab74433",
+  "production_robots": "index,follow",
+  "academy_published_count": 189,
+  "academy_planned_count": 723,
+  "unit_04_published_count": 58,
+  "unit_04_planned_count": 61,
+  "subunit_4e_published_count": 9,
+  "subunit_4e_planned_count": 12,
+  "next_pending_node_id": "4.E.06",
+  "next_pending_node_title": "Apoptosis Escape, Senescence and Survival of Cancer Cells",
+  "neighbors": {
+    "previous": "4.E.03",
+    "previous_published": true,
+    "next": "4.E.05",
+    "next_published": true
+  },
+  "reconciliation": {
+    "initial_main": "81c865515d6aeecdf1f22d56f853027d3cc27ee7",
+    "publication_base": "81c865515d6aeecdf1f22d56f853027d3cc27ee7",
+    "concurrent_changes_preserved": true,
+    "prior_menu_links": 188,
+    "prior_sitemap_entries": 189,
+    "all_existing_linked_files_verified": true,
+    "conditional_nonforce_update": true
+  }
+}

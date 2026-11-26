@@ -1,0 +1,210 @@
+{
+  "node_id": "3.D.02",
+  "title": "Regulation of the Lac Operon: An Inducible Gene System",
+  "slug": "regulation-of-the-lac-operon-an-inducible-gene-system.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-the-lac-operon-an-inducible-gene-system.html",
+  "narrative_words": 14308,
+  "narrative_whitespace_words": 14307,
+  "visible_article_words": 20418,
+  "visible_article_words_excluding_svg": 20177,
+  "teaching_paragraphs": 140,
+  "html_bytes": 233073,
+  "theory_sections": 15,
+  "sections": 21,
+  "figures": 12,
+  "tables": 4,
+  "worked_numerical_examples": 8,
+  "questions": 54,
+  "distribution": {
+    "part_b": 20,
+    "part_c": 24,
+    "mixed": 10,
+    "correct_option_positions": {
+      "A": 14,
+      "B": 14,
+      "C": 13,
+      "D": 13
+    }
+  },
+  "references": 15,
+  "revision_traps": 17,
+  "active_recall": 12,
+  "mastery_checklist": 8,
+  "method": "Final draft saved HTML: Unicode lexical count of marked teaching-prose paragraphs only, after stripping markup and decoding entities; cross-check using whitespace. Supplementary components excluded; total article includes SVG visible labels, excludes controls and metadata.",
+  "scope_review": "Merged CSIR–UGC–DBT syllabus p4; separate CSIR-UGC NET Life Sciences syllabus p3; archived MP SET 2024 syllabus p3; Academy Unit 3.D roadmap. Detailed glucose/CAP regulation reserved for 3.D.04, trp for 3.D.03; architecture in 2.C.02 not duplicated.",
+  "coverage_audit": {
+    "A": "Need, prerequisites and definitions",
+    "B": "PaJaMo, operon model, repressor isolation and later evidence",
+    "C": "lacI, promoter, operator, ZYA, LacI tetramer and auxiliary operators",
+    "D": "Uninduced state, lactose conversion, allolactose, derepression and withdrawal",
+    "E": "Affinity, binding equilibrium and rates; energy and feedback",
+    "F": "Negative control, basal expression, looping, signal withdrawal, context",
+    "G": "Occupancy, dissociation constants, residence time, expression, RNA dynamics and genotype output",
+    "H": "PaJaMo, binding assays, operator tests, controls and hypothetical datasets",
+    "I": "Cellular resource allocation and carbon use",
+    "J": "Comparative bacterial regulation and conservation/variation; detailed cross-organism mechanisms belong to subsequent nodes",
+    "K": "I−, Is, Oc, P−, Z−, partial diploids and rescue",
+    "L": "Leakiness, saturating inducer, context, model limits, experimental ambiguity",
+    "M": "Reporter, IPTG, cloning and interpretation",
+    "N": "Connections to gene architecture, transcription, trp and global control",
+    "O": "54 original explained questions and quantitative/experimental reasoning; 17 traps"
+  },
+  "scientific_review": "Separate scientific pass checked historical chronology and evidence, lacI product versus cis operator, ligand specificity, negative regulation, repression/looping, occupancy and rates, partial-diploid allele predictions, controls and limits. Hypothetical values labelled. 18 arithmetic checks. Sources available as primary abstracts and textbooks, not every full paper.",
+  "teaching_review": "Separate teaching and examination pass reviewed progression and depth; revised first question distractors, shuffled correct option positions, checked all answer keys, improved responsive table styles and question blocks, added revision, references and accessibility. Static markup inspected; no interactive device test.",
+  "comparator": "3.D.01 publication QA: 13,957 whitespace teaching words. This node: 14,307 whitespace words, 140 paragraphs, quantitative and genetic inference at comparable depth.",
+  "arithmetic_checks": [
+    {
+      "test": "occupancy uninduced",
+      "value": 0.9523809523809523,
+      "expected": 0.9523809523809523,
+      "passed": true
+    },
+    {
+      "test": "occupancy induced",
+      "value": 0.16666666666666666,
+      "expected": 0.16666666666666666,
+      "passed": true
+    },
+    {
+      "test": "expression fold",
+      "value": 17.5,
+      "expected": 17.5,
+      "passed": true
+    },
+    {
+      "test": "occupancy",
+      "value": 0.9,
+      "expected": 0.9,
+      "passed": true
+    },
+    {
+      "test": "Kd 1",
+      "value": 1e-9,
+      "expected": 1e-9,
+      "passed": true
+    },
+    {
+      "test": "Kd 2",
+      "value": 1e-9,
+      "expected": 1e-9,
+      "passed": true
+    },
+    {
+      "test": "residence 1",
+      "value": 50,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "test": "residence 2",
+      "value": 500,
+      "expected": 500,
+      "passed": true
+    },
+    {
+      "test": "RNA 3 min",
+      "value": 22,
+      "expected": 22,
+      "passed": true
+    },
+    {
+      "test": "RNA 6 min",
+      "value": 12,
+      "expected": 12,
+      "passed": true
+    },
+    {
+      "test": "RNA 9 min",
+      "value": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "test": "basal sum",
+      "value": 33.5,
+      "expected": 33.5,
+      "passed": true
+    },
+    {
+      "test": "fold",
+      "value": 2.985074626865672,
+      "expected": 2.985074626865672,
+      "passed": true
+    },
+    {
+      "test": "complement",
+      "value": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "test": "mixed basal",
+      "value": 25,
+      "expected": 25,
+      "passed": true
+    },
+    {
+      "test": "mixed induced",
+      "value": 100,
+      "expected": 100,
+      "passed": true
+    },
+    {
+      "test": "ratio A",
+      "value": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "test": "ratio B",
+      "value": 2,
+      "expected": 2,
+      "passed": true
+    }
+  ],
+  "academic_self_review": {
+    "syllabus_and_microtopics": 20,
+    "scientific_mechanistic_accuracy": 24,
+    "teaching_depth": 19,
+    "experimental_quantitative": 14,
+    "practice_quality": 9,
+    "technical_accessibility": 9,
+    "total": 95,
+    "method": "Internal editorial rubric, not external peer review.",
+    "deductions": "One point each for limited full-paper access; some recurring RNA-output framing and deliberately brief comparative treatment; constructed rather than original raw datasets; some straightforward Part B distractors and no external calibration; no interactive browser/device accessibility test."
+  },
+  "technical_checks": {
+    "narrative_gate": true,
+    "svg_gate": true,
+    "questions_gate": true,
+    "duplicate_paragraphs": 0,
+    "duplicate_ids": 0,
+    "broken_anchors": 0,
+    "broken_zoom_targets": 0,
+    "answer_key_mismatches": 0,
+    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-the-lac-operon-an-inducible-gene-system.html",
+    "robots": "index,follow",
+    "reader_controls": "preserved; static source checked",
+    "adjacent_navigation": "3.D.01 and 3.D.03 dynamically resolve adjacent published menu links; existing source preserved",
+    "menu_sitemap_checkpoint": "reconciled with current main, all existing links retained"
+  },
+  "limitations": [
+    "Official current MPPSC-hosted syllabus not independently located; archived MP SET 2024 syllabus inspected.",
+    "Not every cited primary paper was accessible in full.",
+    "No independent expert peer review or interactive device accessibility test.",
+    "Live site verification separate from commit and Pages workflow.",
+    "Title-derived new filename, consistent with existing flat HTML paths."
+  ],
+  "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
+  "main_baseline_sha": "065c7d4dca14fc630a516c2c0afd1517db7038f6",
+  "source_draft_branch": "draft/node-3d02-lac-operon",
+  "draft_commit_sha": "c9257f98a0f31b9e802c531552c24747ac0a7772",
+  "academy_published_count": 141,
+  "unit_03_published_count": 49,
+  "unit_03_planned_count": 51,
+  "subunit_3d_published_count": 10,
+  "subunit_3d_planned_count": 12,
+  "next_pending_node_id": "3.D.09",
+  "next_pending_node_title": "Chromatin Remodeling and Histone-Based Gene Regulation",
+  "status": "lesson_committed_pages_verification_pending"
+}

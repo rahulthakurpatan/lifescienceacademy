@@ -4,25 +4,28 @@
   "status": "QUALITY HOLD",
   "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
   "draft_branch": "draft/node-4e06-apoptosis-senescence-20261126",
-  "chapter_commit_sha": "5a06f8f49d2d3fbb7541ce3b955c6830bf194029",
-  "chapter_blob_sha": "4bd4ae5797f861403464ad99eda2614dc49206a9",
+  "chapter_commit_sha": "690a4dafb4d3a3939c1cda6c8ff93b46bf264b36",
+  "chapter_blob_sha": "69ddd54ceec22a77b40253f4c7c0a9e01d3c5fe4",
   "metrics": {
-    "genuine_teaching_words": 5418,
-    "paragraphs": 63,
+    "genuine_teaching_words": 8254,
+    "total_article_words": 12445,
+    "paragraphs": 92,
     "duplicate_paragraphs": 0,
-    "total_article_words": 7261,
     "theory_sections": 13,
-    "svg": 7,
-    "questions": 20,
-    "part_b": 10,
-    "part_c": 10,
-    "mixed": 0,
-    "worked": 3,
+    "svg": 10,
+    "svg_accessible": 10,
+    "tables": 2,
+    "questions": 50,
+    "part_b": 20,
+    "part_c": 20,
+    "mixed": 10,
+    "answer_explanations": 50,
+    "worked": 6,
+    "misconceptions": 16,
     "active_recall": 15,
-    "misconceptions_standalone": 0,
-    "references": 10,
+    "references": 13,
     "duplicate_ids": 0,
-    "unresolved_anchor_zoom_targets": [],
+    "unresolved_targets": [],
     "robots_noindex": true
   },
   "method": "Fetched saved HTML; Unicode lexical tokens in p.teaching-prose, excluding supplementary material. Article total excludes SVG and button contents.",
@@ -51,12 +54,14 @@
   },
   "remaining": [
     "13,000–15,000 genuine teaching words unmet; no artificial expansion",
-    "Full evidence review and standalone 15 misconceptions absent",
-    "At least 10 diagrams, 50–60 questions, 20 each Part B and Part C, 6–10 worked examples not yet met",
-    "No full two-pass academic review, no 95/100 score assigned",
-    "Need strengthen quantitative graph calibration, source-to-section citations, semantic repetition review and full browser/technical QA",
-    "Do not publish, index, or modify main/menu/sitemap/checkpoint"
+    "Need stronger independent in-depth source and semantic repetition review, full question/distractor and illustration review, syllabus mapping microtopic matrix",
+    "Part C difficulty requires more substantive independent multi-step review, 95/100 score not assigned",
+    "No full browser or technical publication validation; no main publication"
   ],
   "source_access": "Official syllabus screenshots, selected abstracts, review excerpts and textbook summaries; not every primary full text.",
-  "main_mutated": false
+  "main_mutated": false,
+  "review_notes": {
+    "scientific": "Expanded original historical evidence (Serrano 1997), corrected BCL-2 bibliographic label, added explicit limits for senescence marker interpretation, telomere end polarity, and cell-population inference. Source records and reviews, not full primary texts in every case.",
+    "teaching": "Added original distinct morphology, telomerase, and marker-matrix diagrams, two comparisons, sixteen misconceptions, thirty new explained questions, and three worked examples; graph calibration clarified. Static checks and arithmetic only; full two-pass review and detailed Part C calibration still pending."
+  }
 }

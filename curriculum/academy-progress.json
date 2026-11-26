@@ -2,26 +2,554 @@
   "schema_version": 1,
   "updated_at": "2026-11-26",
   "unit": "04",
-  "status": "published",
+  "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "4.E.11",
-  "title": "Therapeutic Control I: Surgery, Radiation and Cytotoxic Chemotherapy Principles",
+  "node_id": "4.E.12",
+  "title": "Therapeutic Control II: Targeted Therapy, Immunotherapy and Resistance",
   "subunit": "4.E",
   "topic": "Cancer",
-  "slug": "therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
+  "slug": "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
   "next_pending_node_id": "4.E.01",
   "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-  "published_node_count": 185,
+  "published_node_count": 186,
   "publication_allowed": true,
-  "main_baseline_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+  "main_baseline_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
   "quality_hold": false,
-  "next_required_action": "Verify GitHub Pages deployment; develop next pending node.",
+  "next_required_action": "Verify GitHub Pages deployment and continue with 4.E.01 — Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
   "planned_node_count": 61,
   "planned_subunit_count": 5,
   "architecture_version": "unit-04-cell-communication-signaling-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-04-cell-communication-signaling-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
   "last_qa": {
+    "node_id": "4.E.12",
+    "title": "Therapeutic Control II: Targeted Therapy, Immunotherapy and Resistance",
+    "date": "2026-11-26",
+    "status": "lesson_committed_pages_verification_pending",
+    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+    "draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+    "draft_chapter_commit": "104f36c3d4b08964514a095fc5c0aeec3d226e39",
+    "draft_chapter_blob": "8e550633a1134a7418fb388e26c76700294fe6ab",
+    "metrics": {
+      "genuine_teaching_words": 13371,
+      "raw_teaching_class_words": 13539,
+      "substantive_paragraphs": 147,
+      "all_teaching_class_paragraphs": 159,
+      "short_figure_reference_words_excluded": 168,
+      "visible_article_words_excluding_svg_and_buttons": 19806,
+      "exact_duplicate_paragraphs": 0,
+      "max_pairwise_lexical_jaccard": 0.20930232558139536,
+      "theory_sections": 12,
+      "svg": 12,
+      "tables": 1,
+      "worked_examples": 8,
+      "part_b": 20,
+      "part_c": 24,
+      "mixed": 8,
+      "total_questions": 52,
+      "misconceptions": 18,
+      "active_recall": 18,
+      "references": 16,
+      "answer_positions": {
+        "A": 13,
+        "B": 13,
+        "C": 13,
+        "D": 13
+      }
+    },
+    "count_method": "Unicode word tokens from p.teaching-prose, excluding markup/entities and all 12 short figure-reference paragraphs (<30 words); assessment, tables, references, headings, revision and worked blocks excluded. Article total excludes SVG and buttons.",
+    "scope": {
+      "official": "Revised CSIR-UGC-DBT LS&BT Unit 4.E; separate CSIR LS Unit 4.D; archived MP SET Unit 4.D. Broad therapeutic interventions of uncontrolled cell growth; subdivisions are Academy's, not official exam headings.",
+      "limitations": "MP SET archived copy verified, current MPPSC-hosted version not independently located. Approved roadmap scope/mapping inspected before drafting; detailed matrix consolidated in this QA record afterward.",
+      "matrix": [
+        [
+          "Selective dependence",
+          "Cancer; signaling, growth control prerequisites",
+          "dependence; kinases",
+          "necessity vs association, inhibition vs occupancy",
+          "Avoid conventional therapy overlap"
+        ],
+        [
+          "Driver and receptor targeting",
+          "Cancer; kinases and receptors",
+          "bcr; receptors",
+          "fusion, receptor topology, signaling output",
+          "No regimen or dosing"
+        ],
+        [
+          "Endocrine and vascular intervention",
+          "Cancer; hormones and physiology",
+          "endocrine; angiogenesis",
+          "receptor vs ligand control, diffusion and vascular support",
+          "No clinical protocols"
+        ],
+        [
+          "Antibody and immune interventions",
+          "Cancer; antigen recognition, MHC, immune regulation",
+          "antibodies; checkpoints; cellular",
+          "Fab/Fc, CTLA-4/PD-1, direct vs MHC-dependent recognition",
+          "Conceptual mechanisms only"
+        ],
+        [
+          "Resistance, persistence and recurrence",
+          "Cancer; genetics and evolution",
+          "resistance; population",
+          "selection, network redundancy, net growth and residual disease",
+          "No actionable resistance engineering"
+        ],
+        [
+          "Integration and evidence",
+          "Cancer; experiments and quantitative biology",
+          "integration; compare; worked; assessments",
+          "causal inference and model assumptions",
+          "No unsupported clinical prediction"
+        ]
+      ]
+    },
+    "coverage": [
+      [
+        "A",
+        "pass",
+        "1–2",
+        "Target dependence, specificity, growth signals",
+        "B1–20"
+      ],
+      [
+        "B",
+        "pass",
+        "3,5,8",
+        "Philadelphia chromosome, imatinib, endocrine and CTLA-4 evidence",
+        "Historical evidence questions"
+      ],
+      [
+        "C",
+        "pass",
+        "2–9",
+        "Kinase pockets, receptor topology, Fab/Fc, immune recognition",
+        "Diagram and B/C practice"
+      ],
+      [
+        "D",
+        "pass",
+        "2–9",
+        "Binding, signaling, receptor regulation and immune activation",
+        "Mechanism questions"
+      ],
+      [
+        "E",
+        "pass",
+        "2,6,7,11",
+        "Binding equilibrium, ATP, diffusion, scaling and growth rates",
+        "Worked 1,2,4,7"
+      ],
+      [
+        "F",
+        "pass",
+        "4–10",
+        "Feedback, endocrine control, immune checkpoints, network responses",
+        "C perturbation questions"
+      ],
+      [
+        "G",
+        "pass",
+        "2,6,10–12",
+        "Occupancy, enrichment, growth, volume and independence",
+        "Eight worked examples and quantitative C"
+      ],
+      [
+        "H",
+        "pass",
+        "3,8,10,12",
+        "Published evidence and hypothetical inference, controls and limits",
+        "C evidence interpretation; primary full-text limits"
+      ],
+      [
+        "I",
+        "pass",
+        "4–9",
+        "Normal signaling, endocrine function, vasculature, immune tolerance",
+        "Conceptual and analytical practice"
+      ],
+      [
+        "J",
+        "pass",
+        "8–11",
+        "Mouse-to-human inference boundaries, somatic selection and cell-context differences",
+        "C selection and model interpretation"
+      ],
+      [
+        "K",
+        "pass",
+        "10–11",
+        "Intrinsic/acquired resistance, failure and relapse",
+        "C resistance questions"
+      ],
+      [
+        "L",
+        "pass",
+        "2–12",
+        "Occupancy, independence, biomarker and growth-model limitations",
+        "C conditional inference"
+      ],
+      [
+        "M",
+        "pass",
+        "3–9",
+        "Therapeutic targets and biomarker principles",
+        "B/C mechanisms"
+      ],
+      [
+        "N",
+        "pass",
+        "12 and revision",
+        "Signaling, immunology, evolution and developmental biology bridge",
+        "Mixed and recall"
+      ],
+      [
+        "O",
+        "pass",
+        "Worked, Part B/C, mixed, traps, revision",
+        "Original explained assessment and active recall",
+        "52 questions"
+      ]
+    ],
+    "reviews": [
+      {
+        "pass": 1,
+        "focus": "Science and scope",
+        "changes": [
+          "Expanded original 7,081-word draft with mechanism, structural context, normal physiology and evidence.",
+          "Added binding thermodynamics, feedback, historical evidence, sampling and population models.",
+          "Replotted schematic occupancy and exponential population curves from actual equations; clarified conditional inference and nonclinical scope."
+        ]
+      },
+      {
+        "pass": 2,
+        "focus": "Teaching and examination",
+        "changes": [
+          "Revised 30 assessment items for answer clarity, distractors and explanation, then strengthened seven numerical Part C items.",
+          "Expanded 18 misconceptions; added figure references, four sources, and responsive question-card styling.",
+          "Audited final saved HTML rather than initial text; compared actual neighboring chapter counts and inspected prose for conceptual overlap."
+        ]
+      }
+    ],
+    "comparators": [
+      {
+        "node": "4.E.02",
+        "words": 14077,
+        "paragraphs": 125
+      },
+      {
+        "node": "4.E.05",
+        "words": 14101,
+        "paragraphs": 138
+      },
+      {
+        "node": "4.D.12",
+        "words": 14124,
+        "paragraphs": 135
+      },
+      {
+        "node": "4.C.09",
+        "words": 14657,
+        "paragraphs": 145
+      }
+    ],
+    "quality": {
+      "scope": 20,
+      "accuracy": 24,
+      "depth": 19,
+      "experimental_analytical": 14,
+      "practice": 9,
+      "technical": 9,
+      "total": 95,
+      "threshold": 95,
+      "rationale": [
+        "All approved scope covered, syllabus mapping checked.",
+        "Mechanisms and equations reviewed; cited primary abstracts/reviews, not all full papers (-1).",
+        "13,371 conservative words; comparative depth acceptable, some purposeful recurring framing (-1).",
+        "Eight recalculated examples and experimental reasoning; model datasets hypothetical and historical evidence necessarily condensed (-1).",
+        "52 explained items, 24 analytical; internal assessment only, no psychometric calibration (-1).",
+        "Static HTML/JS and reader wiring passed; no interactive device/browser test (-1)."
+      ]
+    },
+    "static_checks": {
+      "duplicate_ids": 0,
+      "broken_anchors": 0,
+      "missing_aria_refs": 0,
+      "missing_zoom_targets": 0,
+      "svg_title_desc": 12,
+      "answer_key_mismatches": 0,
+      "html_stack_errors": 0,
+      "js_parse": "pass",
+      "canonical": "correct intended production URL",
+      "draft_robots": "noindex,nofollow",
+      "local_links": "./ only; dynamic neighboring links resolved through homepage",
+      "numerical_checks": {
+        "occupancy": 0.75,
+        "half_time": 9.902102579427789,
+        "enrichment": 0.47058823529411764,
+        "area_volume": [
+          6,
+          3
+        ],
+        "joint_survival": 0.27999999999999997,
+        "difference": 0.06999999999999995,
+        "volume_ratio": 0.421875,
+        "decline": 0.578125,
+        "net_rate": 0,
+        "part_c": [
+          0.75,
+          0.5,
+          8,
+          0.5025125628140703,
+          0.9901970395059309,
+          0.25,
+          0.02,
+          0.075,
+          -0.08,
+          8.664339756999317,
+          0.768,
+          0.3,
+          0.12
+        ]
+      }
+    },
+    "limitations": [
+      "Internal review, not external peer review.",
+      "Official MP SET archived copy rather than newly retrieved official host.",
+      "Evidence based on indexed abstracts, authoritative reviews and established textbook knowledge; not all primary full texts inspected.",
+      "No interactive browser/mobile/device/assistive-technology test. Static source checks only.",
+      "No formal semantic originality or student validation; lexical screen plus editorial review."
+    ],
+    "publication_eligible": true,
+    "unit": "04",
+    "subunit": "4.E",
+    "slug": "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+    "source_draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+    "source_draft_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+    "draft_qa_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+    "publication_base_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+    "main_baseline_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+    "chapter_blob_sha": "9d2c72ce5e9b0e6a2ba3af742f9bc16b587815e2",
+    "academy_published_count": 186,
+    "academy_planned_count": 723,
+    "unit_04_published_count": 55,
+    "unit_04_planned_count": 61,
+    "subunit_4e_published_count": 6,
+    "subunit_4e_planned_count": 12,
+    "next_pending_node_id": "4.E.01",
+    "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+    "neighbors": {
+      "previous": {
+        "id": "4.E.11",
+        "published": true
+      },
+      "next": {
+        "id": "5.A.01",
+        "published": false
+      },
+      "implementation": "Dynamic homepage resolution; disable missing lesson"
+    },
+    "reconciliation": {
+      "preserved_existing_links": 185,
+      "preserved_existing_sitemap_urls": 186,
+      "verified_existing_linked_files": 185,
+      "concurrent_main_changes": true,
+      "conditional_nonforce_update": true
+    },
+    "production_robots": "index,follow"
+  },
+  "published_node_ids": [
+    "1.A.01",
+    "1.A.02",
+    "1.A.03",
+    "1.A.04",
+    "1.A.05",
+    "1.B.01",
+    "1.B.02",
+    "1.B.03",
+    "1.B.04",
+    "1.B.05",
+    "1.C.01",
+    "1.C.02",
+    "1.C.03",
+    "1.C.04",
+    "1.C.05",
+    "1.D.01",
+    "1.D.02",
+    "1.D.03",
+    "1.D.04",
+    "1.D.05",
+    "1.E.01",
+    "1.E.02",
+    "1.E.03",
+    "1.E.04",
+    "1.E.05",
+    "1.F.01",
+    "1.F.02",
+    "1.F.03",
+    "1.F.04",
+    "1.F.05",
+    "2.A.01",
+    "2.A.02",
+    "2.A.03",
+    "2.A.04",
+    "2.A.05",
+    "2.A.06",
+    "2.A.07",
+    "2.A.08",
+    "2.A.09",
+    "2.A.10",
+    "2.B.01",
+    "2.B.02",
+    "2.B.03",
+    "2.B.04",
+    "2.B.05",
+    "2.B.06",
+    "2.B.07",
+    "2.B.08",
+    "2.B.09",
+    "2.B.10",
+    "2.C.01",
+    "2.C.02",
+    "2.C.03",
+    "2.C.04",
+    "2.C.05",
+    "2.C.06",
+    "2.C.07",
+    "2.C.08",
+    "2.C.09",
+    "2.C.10",
+    "2.D.01",
+    "2.D.02",
+    "2.D.03",
+    "2.D.04",
+    "2.D.05",
+    "2.D.06",
+    "2.D.07",
+    "2.D.08",
+    "2.D.09",
+    "2.D.10",
+    "2.E.01",
+    "2.E.02",
+    "2.E.03",
+    "2.E.04",
+    "2.E.05",
+    "2.E.06",
+    "2.E.07",
+    "2.E.08",
+    "2.E.09",
+    "2.E.10",
+    "3.A.01",
+    "3.A.02",
+    "3.A.03",
+    "3.A.04",
+    "3.A.05",
+    "3.A.06",
+    "3.A.07",
+    "3.A.08",
+    "3.A.09",
+    "3.A.10",
+    "3.A.11",
+    "3.A.12",
+    "3.B.01",
+    "3.B.02",
+    "3.B.03",
+    "3.B.04",
+    "3.B.05",
+    "3.B.06",
+    "3.B.07",
+    "3.B.08",
+    "3.B.09",
+    "3.B.10",
+    "3.B.11",
+    "3.B.12",
+    "3.B.13",
+    "3.C.01",
+    "3.C.02",
+    "3.C.03",
+    "3.C.04",
+    "3.C.05",
+    "3.C.06",
+    "3.C.07",
+    "3.C.08",
+    "3.C.09",
+    "3.C.10",
+    "3.C.11",
+    "3.C.12",
+    "3.C.13",
+    "3.C.14",
+    "3.D.01",
+    "3.D.02",
+    "3.D.03",
+    "3.D.04",
+    "3.D.05",
+    "3.D.06",
+    "3.D.07",
+    "3.D.08",
+    "3.D.09",
+    "3.D.10",
+    "3.D.11",
+    "3.D.12",
+    "4.A.01",
+    "4.A.02",
+    "4.A.03",
+    "4.A.04",
+    "4.A.05",
+    "4.A.06",
+    "4.A.07",
+    "4.A.08",
+    "4.A.09",
+    "4.A.10",
+    "4.A.11",
+    "4.A.12",
+    "4.A.13",
+    "4.B.01",
+    "4.B.02",
+    "4.B.03",
+    "4.B.04",
+    "4.B.05",
+    "4.B.06",
+    "4.B.07",
+    "4.B.08",
+    "4.B.09",
+    "4.B.10",
+    "4.B.11",
+    "4.C.01",
+    "4.C.02",
+    "4.C.03",
+    "4.C.04",
+    "4.C.05",
+    "4.C.06",
+    "4.C.07",
+    "4.C.08",
+    "4.C.09",
+    "4.C.10",
+    "4.C.11",
+    "4.C.12",
+    "4.C.13",
+    "4.D.01",
+    "4.D.02",
+    "4.D.03",
+    "4.D.04",
+    "4.D.05",
+    "4.D.06",
+    "4.D.07",
+    "4.D.08",
+    "4.D.09",
+    "4.D.10",
+    "4.D.11",
+    "4.D.12",
+    "4.E.02",
+    "4.E.03",
+    "4.E.05",
+    "4.E.10",
+    "4.E.11",
+    "4.E.12"
+  ],
+  "prior_publication_qa": {
     "node_id": "4.E.11",
     "unit": "04",
     "subunit": "4.E",
@@ -358,879 +886,341 @@
       "neighbor_next": null
     }
   },
-  "published_node_ids": [
-    "1.A.01",
-    "1.A.02",
-    "1.A.03",
-    "1.A.04",
-    "1.A.05",
-    "1.B.01",
-    "1.B.02",
-    "1.B.03",
-    "1.B.04",
-    "1.B.05",
-    "1.C.01",
-    "1.C.02",
-    "1.C.03",
-    "1.C.04",
-    "1.C.05",
-    "1.D.01",
-    "1.D.02",
-    "1.D.03",
-    "1.D.04",
-    "1.D.05",
-    "1.E.01",
-    "1.E.02",
-    "1.E.03",
-    "1.E.04",
-    "1.E.05",
-    "1.F.01",
-    "1.F.02",
-    "1.F.03",
-    "1.F.04",
-    "1.F.05",
-    "2.A.01",
-    "2.A.02",
-    "2.A.03",
-    "2.A.04",
-    "2.A.05",
-    "2.A.06",
-    "2.A.07",
-    "2.A.08",
-    "2.A.09",
-    "2.A.10",
-    "2.B.01",
-    "2.B.02",
-    "2.B.03",
-    "2.B.04",
-    "2.B.05",
-    "2.B.06",
-    "2.B.07",
-    "2.B.08",
-    "2.B.09",
-    "2.B.10",
-    "2.C.01",
-    "2.C.02",
-    "2.C.03",
-    "2.C.04",
-    "2.C.05",
-    "2.C.06",
-    "2.C.07",
-    "2.C.08",
-    "2.C.09",
-    "2.C.10",
-    "2.D.01",
-    "2.D.02",
-    "2.D.03",
-    "2.D.04",
-    "2.D.05",
-    "2.D.06",
-    "2.D.07",
-    "2.D.08",
-    "2.D.09",
-    "2.D.10",
-    "2.E.01",
-    "2.E.02",
-    "2.E.03",
-    "2.E.04",
-    "2.E.05",
-    "2.E.06",
-    "2.E.07",
-    "2.E.08",
-    "2.E.09",
-    "2.E.10",
-    "3.A.01",
-    "3.A.02",
-    "3.A.03",
-    "3.A.04",
-    "3.A.05",
-    "3.A.06",
-    "3.A.07",
-    "3.A.08",
-    "3.A.09",
-    "3.A.10",
-    "3.A.11",
-    "3.A.12",
-    "3.B.01",
-    "3.B.02",
-    "3.B.03",
-    "3.B.04",
-    "3.B.05",
-    "3.B.06",
-    "3.B.07",
-    "3.B.08",
-    "3.B.09",
-    "3.B.10",
-    "3.B.11",
-    "3.B.12",
-    "3.B.13",
-    "3.C.01",
-    "3.C.02",
-    "3.C.03",
-    "3.C.04",
-    "3.C.05",
-    "3.C.06",
-    "3.C.07",
-    "3.C.08",
-    "3.C.09",
-    "3.C.10",
-    "3.C.11",
-    "3.C.12",
-    "3.C.13",
-    "3.C.14",
-    "3.D.01",
-    "3.D.02",
-    "3.D.03",
-    "3.D.04",
-    "3.D.05",
-    "3.D.06",
-    "3.D.07",
-    "3.D.08",
-    "3.D.09",
-    "3.D.10",
-    "3.D.11",
-    "3.D.12",
-    "4.A.01",
-    "4.A.02",
-    "4.A.03",
-    "4.A.04",
-    "4.A.05",
-    "4.A.06",
-    "4.A.07",
-    "4.A.08",
-    "4.A.09",
-    "4.A.10",
-    "4.A.11",
-    "4.A.12",
-    "4.A.13",
-    "4.B.01",
-    "4.B.02",
-    "4.B.03",
-    "4.B.04",
-    "4.B.05",
-    "4.B.06",
-    "4.B.07",
-    "4.B.08",
-    "4.B.09",
-    "4.B.10",
-    "4.B.11",
-    "4.C.01",
-    "4.C.02",
-    "4.C.03",
-    "4.C.04",
-    "4.C.05",
-    "4.C.06",
-    "4.C.07",
-    "4.C.08",
-    "4.C.09",
-    "4.C.10",
-    "4.C.11",
-    "4.C.12",
-    "4.C.13",
-    "4.D.01",
-    "4.D.02",
-    "4.D.03",
-    "4.D.04",
-    "4.D.05",
-    "4.D.06",
-    "4.D.07",
-    "4.D.08",
-    "4.D.09",
-    "4.D.10",
-    "4.D.11",
-    "4.D.12",
-    "4.E.02",
-    "4.E.03",
-    "4.E.05",
-    "4.E.10",
-    "4.E.11"
-  ],
-  "prior_publication_qa": {
-    "node_id": "4.E.10",
-    "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
-    "unit": "04",
-    "subunit": "4.E",
-    "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "checked_date": "2026-11-26",
-    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-    "source_draft_branch": "draft/node-4e10-metastasis",
-    "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
-    "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
-    "metrics": {
-      "genuine_teaching_words": 13839,
-      "total_visible_article_words": 20666,
-      "teaching_paragraphs": 148,
-      "exact_duplicate_paragraphs": 0,
-      "theory_sections": 12,
-      "scientific_svg": 13,
-      "tables": 3,
-      "worked_examples": 8,
-      "part_b": 20,
-      "part_c": 20,
-      "mixed": 12,
-      "total_questions": 52,
-      "misconceptions": 18,
-      "active_recall": 18,
-      "scientific_references": 18
-    },
-    "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
-    "comparator": {
-      "node_id": "4.E.02",
-      "teaching_words": 14077,
-      "paragraphs": 125,
-      "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
-    },
-    "syllabus": {
-      "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
-      "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
-      "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
-      "academy": "curriculum/subunit-4e-cancer-node-map.md",
-      "scope_matrix": [
-        [
-          "Metastatic cascade and routes",
-          "Official metastasis; cancer and cell interaction",
-          "4.E.09 local invasion",
-          "identity,cascade,routes",
-          "Stage discrimination; no repeat invasion mechanisms"
-        ],
-        [
-          "Intravasation and vascular transport",
-          "Official metastasis",
-          "Cell adhesion, circulation",
-          "entry,survival",
-          "Endothelial topology, survival and evidence"
-        ],
-        [
-          "Arrest and extravasation",
-          "Official metastasis",
-          "Endothelium and ECM",
-          "arrest",
-          "Vascular versus tissue location and stage interpretation"
-        ],
-        [
-          "Organ tropism and tissue compatibility",
-          "Official metastasis; interaction with normal cells",
-          "4.E.08 microenvironment",
-          "history,soil",
-          "Historical models, tissue compatibility"
-        ],
-        [
-          "Dormancy and secondary outgrowth",
-          "Official metastasis",
-          "Cell cycle, apoptosis, angiogenesis",
-          "dormancy,colonization",
-          "Single-cell versus mass dormancy and viable outgrowth"
-        ],
-        [
-          "Experimental and quantitative interpretation",
-          "Academy educational extension of official metastasis",
-          "Probability, rates, experimental reasoning",
-          "quantitative,evidence,worked",
-          "Conditional endpoints, inference, not specialist protocols"
-        ]
-      ],
-      "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
-    },
-    "coverage": [
-      {
-        "dimension": "A",
-        "applicability": "Applicable",
-        "sections": "identity, cascade",
-        "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
-        "assessment": "Part B definitions and stage discrimination",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "B",
-        "applicability": "Applicable",
-        "sections": "history, soil",
-        "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
-        "assessment": "Historical evidence interpretation",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "C",
-        "applicability": "Applicable",
-        "sections": "routes, entry, survival, arrest",
-        "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
-        "assessment": "Topology and diagram questions",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "D",
-        "applicability": "Applicable",
-        "sections": "cascade, entry, survival, arrest, colonization",
-        "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
-        "assessment": "Sequence and stage-localization reasoning",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "E",
-        "applicability": "Applicable",
-        "sections": "survival, arrest, colonization, quantitative",
-        "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
-        "assessment": "Worked diffusion and geometry problems",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "F",
-        "applicability": "Applicable",
-        "sections": "survival, soil, dormancy, colonization",
-        "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
-        "assessment": "Perturbation and dormancy questions",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "G",
-        "applicability": "Applicable",
-        "sections": "quantitative, worked",
-        "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
-        "assessment": "Numerical worked examples and Part C",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "H",
-        "applicability": "Applicable",
-        "sections": "history, entry, survival, soil, evidence",
-        "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
-        "assessment": "Experimental evidence and supplied datasets",
-        "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
-        "status": "PASS"
-      },
-      {
-        "dimension": "I",
-        "applicability": "Applicable",
-        "sections": "routes, soil, colonization",
-        "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
-        "assessment": "Organ-specific reasoning",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "J",
-        "applicability": "Applicable",
-        "sections": "identity, survival, soil, evidence",
-        "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
-        "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "K",
-        "applicability": "Applicable",
-        "sections": "survival, arrest, dormancy, evidence",
-        "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
-        "assessment": "Part C stage-specific changes",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "L",
-        "applicability": "Applicable",
-        "sections": "routes, cascade, dormancy, evidence",
-        "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
-        "assessment": "Counterexample and interpretation questions",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "M",
-        "applicability": "Applicable",
-        "sections": "colonization, evidence",
-        "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
-        "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "N",
-        "applicability": "Applicable",
-        "sections": "identity, cascade, survival, soil, revision",
-        "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
-        "assessment": "Integrated mechanism problems",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "O",
-        "applicability": "Applicable",
-        "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
-        "evidence": "52 original explained problems, 18 recall prompts and traps",
-        "assessment": "20 Part B, 20 Part C, 12 mixed",
-        "remaining_gaps": "Difficulty not externally calibrated",
-        "status": "PASS"
-      }
-    ],
-    "review_pass_1": {
-      "method": "Internal science/scope review of saved narrative and cited records",
-      "corrections": [
-        "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
-        "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
-        "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
-      ]
-    },
-    "review_pass_2": {
-      "method": "Internal teaching and examination review of saved draft",
-      "corrections": [
-        "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
-        "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
-        "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
-      ]
-    },
-    "academic_self_review": {
-      "scope": 20,
-      "accuracy_mechanisms": 24,
-      "depth_narrative": 19,
-      "analytical_evidence": 14,
-      "practice_mastery": 9,
-      "technical_reader": 9,
-      "total": 95,
-      "threshold": 95,
-      "rationale": {
-        "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
-        "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
-        "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
-        "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
-        "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
-        "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
-      }
-    },
-    "static_checks": {
-      "duplicate_ids": 0,
-      "unresolved_internal_anchors": [],
-      "unresolved_js_ids": [],
-      "svg_accessible": 13,
-      "malformed_questions": 0,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      },
-      "answer_key_mismatches": 0,
-      "html_tag_stack_errors": 0,
-      "reader_script_syntax": "Parsed; not executed in browser DOM",
-      "exact_duplicate_teaching_paragraphs": 0,
-      "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
-      "robots": "index,follow (publication)",
-      "numerical_recalculation": {
-        "conditional_yield": 5,
-        "organ": [
-          0.4,
-          0.1,
-          0.8,
-          0.025,
-          0.04,
-          0.02
-        ],
-        "doubling": 13.862943611198904,
-        "growth": 1087.312731383618,
-        "independent": 0.4879999999999999,
-        "diffusion": [
-          2,
-          8
-        ],
-        "sphere": [
-          0.06,
-          0.03,
-          8,
-          4
-        ],
-        "outgrowth": [
-          0.1,
-          0.1
-        ]
-      },
-      "menu_target_count": 1,
-      "sitemap_target_count": 1,
-      "checkpoint_matches_linked_nodes": true,
-      "all_prior_linked_files_exist": true
-    },
-    "neighbors": {
-      "previous": "4.E.09",
-      "next": "4.E.11",
-      "policy": "Resolve links from current homepage; disable when unpublished."
-    },
-    "limitations": [
-      "Internal self-review only; no external peer/examiner validation.",
-      "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
-      "Current MP SET official-host copy not independently retrieved.",
-      "No browser rendering, real-device interaction or full assistive-technology testing."
-    ],
-    "publication_eligible": true,
-    "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
-    "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-    "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-    "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
-    "academy_published_count": 184,
-    "academy_planned_count": 723,
-    "unit_04_published_count": 53,
-    "unit_04_planned_count": 61,
-    "subunit_4e_published_count": 4,
-    "subunit_4e_planned_count": 12,
-    "next_pending_node_id": "4.E.01",
-    "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-    "reconciliation": {
-      "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-      "concurrent_main_changes": true,
-      "previous_links_preserved": 183,
-      "previous_sitemap_urls_preserved": 184,
-      "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
-    }
-  },
   "previous_last_qa": {
-    "node_id": "4.E.10",
-    "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
+    "node_id": "4.E.11",
     "unit": "04",
     "subunit": "4.E",
-    "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
-    "status": "lesson_committed_pages_verification_pending",
+    "title": "Therapeutic Control I: Surgery, Radiation and Cytotoxic Chemotherapy Principles",
+    "slug": "therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
     "checked_date": "2026-11-26",
+    "status": "COMMITTED TO MAIN; PAGES DEPLOYMENT PENDING",
     "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-    "source_draft_branch": "draft/node-4e10-metastasis",
-    "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
-    "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
+    "source_draft_branch": "draft/4.E.11-conventional-therapy",
+    "source_draft_commit_sha": "b6884c4bd9cc02d39bb9e7c6e1d5d401aa82e4b3",
+    "draft_blob_sha": "739bbc30426d10e619f040563b3078ec17d7ee68",
     "metrics": {
-      "genuine_teaching_words": 13839,
-      "total_visible_article_words": 20666,
-      "teaching_paragraphs": 148,
+      "genuine_teaching_words": 14093,
+      "visible_article_words_excluding_svg_buttons": 19314,
+      "teaching_paragraphs": 135,
       "exact_duplicate_paragraphs": 0,
-      "theory_sections": 12,
-      "scientific_svg": 13,
-      "tables": 3,
+      "theory_sections": 10,
+      "sections": 17,
+      "svg": 10,
+      "tables": 2,
       "worked_examples": 8,
+      "questions": 50,
       "part_b": 20,
       "part_c": 20,
-      "mixed": 12,
-      "total_questions": 52,
+      "mixed": 10,
+      "answer_positions": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
       "misconceptions": 18,
-      "active_recall": 18,
-      "scientific_references": 18
+      "active_recall": 16,
+      "references": 15
     },
-    "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
-    "comparator": {
-      "node_id": "4.E.02",
-      "teaching_words": 14077,
-      "paragraphs": 125,
-      "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
-    },
+    "word_count_method": "Unicode letter/number tokens with internal hyphens and apostrophes, from saved p.teaching-prose elements only; visible article excludes SVG and buttons. Both counts exclude markup; narrative count excludes supplementary materials.",
     "syllabus": {
-      "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
-      "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
-      "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
+      "revised": "CSIR–UGC–DBT LS&BT official 21 Jan 2026 PDF, Unit 4.E printed page 5 visually inspected",
+      "legacy": "CSIR Life Sciences official 29 Jan 2026 PDF, Unit 4.D printed page 3 visually inspected",
+      "state_set": "MPPSC SET 2024 syllabus third-party mirror, Unit 4.D printed page 3 visually inspected; current official MPPSC host not independently verified",
       "academy": "curriculum/subunit-4e-cancer-node-map.md",
-      "scope_matrix": [
-        [
-          "Metastatic cascade and routes",
-          "Official metastasis; cancer and cell interaction",
-          "4.E.09 local invasion",
-          "identity,cascade,routes",
-          "Stage discrimination; no repeat invasion mechanisms"
-        ],
-        [
-          "Intravasation and vascular transport",
-          "Official metastasis",
-          "Cell adhesion, circulation",
-          "entry,survival",
-          "Endothelial topology, survival and evidence"
-        ],
-        [
-          "Arrest and extravasation",
-          "Official metastasis",
-          "Endothelium and ECM",
-          "arrest",
-          "Vascular versus tissue location and stage interpretation"
-        ],
-        [
-          "Organ tropism and tissue compatibility",
-          "Official metastasis; interaction with normal cells",
-          "4.E.08 microenvironment",
-          "history,soil",
-          "Historical models, tissue compatibility"
-        ],
-        [
-          "Dormancy and secondary outgrowth",
-          "Official metastasis",
-          "Cell cycle, apoptosis, angiogenesis",
-          "dormancy,colonization",
-          "Single-cell versus mass dormancy and viable outgrowth"
-        ],
-        [
-          "Experimental and quantitative interpretation",
-          "Academy educational extension of official metastasis",
-          "Probability, rates, experimental reasoning",
-          "quantitative,evidence,worked",
-          "Conditional endpoints, inference, not specialist protocols"
-        ]
-      ],
-      "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
+      "scope": "Conventional therapy only; no individualized treatment, clinical regimen or specialist protocols; targeted and immune therapy reserved for 4.E.12."
     },
-    "coverage": [
+    "microtopic_matrix": [
       {
-        "dimension": "A",
-        "applicability": "Applicable",
-        "sections": "identity, cascade",
-        "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
-        "assessment": "Part B definitions and stage discrimination",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
+        "topic": "Local surgical removal and occult metastatic disease",
+        "official": "Therapeutic interventions of uncontrolled cell growth; metastasis",
+        "prerequisites": "4.E.09–10 invasion and metastasis",
+        "sections": [
+          "foundations",
+          "surgery"
+        ],
+        "assessment": "B3/B6, C8, mixed4/9",
+        "boundary": "No clinical staging or surgical technique"
       },
       {
-        "dimension": "B",
-        "applicability": "Applicable",
-        "sections": "history, soil",
-        "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
-        "assessment": "Historical evidence interpretation",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
+        "topic": "Radiation DNA injury, repair, death and senescence",
+        "official": "Therapeutic interventions; apoptosis in legacy/MP SET",
+        "prerequisites": "3.A DNA repair, 4.E.05–06 checkpoints and apoptosis",
+        "sections": [
+          "radiation",
+          "fates",
+          "quantitative"
+        ],
+        "assessment": "B2/4/11/16/17/19, C1/3/7/14, mixed5/7/8",
+        "boundary": "No treatment prescriptions"
       },
       {
-        "dimension": "C",
-        "applicability": "Applicable",
-        "sections": "routes, entry, survival, arrest",
-        "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
-        "assessment": "Topology and diagram questions",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
+        "topic": "DNA damaging/crosslinking cytotoxic agents",
+        "official": "Therapeutic interventions",
+        "prerequisites": "3.A DNA structure and replication",
+        "sections": [
+          "dna-drugs"
+        ],
+        "assessment": "B8/14/15, C9/15",
+        "boundary": "Representative classes only"
       },
       {
-        "dimension": "D",
-        "applicability": "Applicable",
-        "sections": "cascade, entry, survival, arrest, colonization",
-        "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
-        "assessment": "Sequence and stage-localization reasoning",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
+        "topic": "Antimetabolites and mitotic inhibitors",
+        "official": "Therapeutic interventions; cancer and cell cycle",
+        "prerequisites": "Unit 1 nucleotide metabolism, 2.D mitosis",
+        "sections": [
+          "antimetabolites",
+          "mitosis"
+        ],
+        "assessment": "B5/7/10/18/20, C5/6/12/20",
+        "boundary": "No drug catalogue, dosing or protocols"
       },
       {
-        "dimension": "E",
-        "applicability": "Applicable",
-        "sections": "survival, arrest, colonization, quantitative",
-        "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
-        "assessment": "Worked diffusion and geometry problems",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "F",
-        "applicability": "Applicable",
-        "sections": "survival, soil, dormancy, colonization",
-        "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
-        "assessment": "Perturbation and dormancy questions",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "G",
-        "applicability": "Applicable",
-        "sections": "quantitative, worked",
-        "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
-        "assessment": "Numerical worked examples and Part C",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "H",
-        "applicability": "Applicable",
-        "sections": "history, entry, survival, soil, evidence",
-        "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
-        "assessment": "Experimental evidence and supplied datasets",
-        "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
-        "status": "PASS"
-      },
-      {
-        "dimension": "I",
-        "applicability": "Applicable",
-        "sections": "routes, soil, colonization",
-        "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
-        "assessment": "Organ-specific reasoning",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "J",
-        "applicability": "Applicable",
-        "sections": "identity, survival, soil, evidence",
-        "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
-        "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "K",
-        "applicability": "Applicable",
-        "sections": "survival, arrest, dormancy, evidence",
-        "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
-        "assessment": "Part C stage-specific changes",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "L",
-        "applicability": "Applicable",
-        "sections": "routes, cascade, dormancy, evidence",
-        "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
-        "assessment": "Counterexample and interpretation questions",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "M",
-        "applicability": "Applicable",
-        "sections": "colonization, evidence",
-        "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
-        "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "N",
-        "applicability": "Applicable",
-        "sections": "identity, cascade, survival, soil, revision",
-        "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
-        "assessment": "Integrated mechanism problems",
-        "remaining_gaps": "No mandatory gap identified in internal review",
-        "status": "PASS"
-      },
-      {
-        "dimension": "O",
-        "applicability": "Applicable",
-        "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
-        "evidence": "52 original explained problems, 18 recall prompts and traps",
-        "assessment": "20 Part B, 20 Part C, 12 mixed",
-        "remaining_gaps": "Difficulty not externally calibrated",
-        "status": "PASS"
+        "topic": "Proliferative fraction, phase sensitivity, systemic adverse effects, combinations, resistance and prevention",
+        "official": "Therapeutic interventions; cancer and cell cycle; interaction with normal cells",
+        "prerequisites": "4.E.01–10; 4.C immunology",
+        "sections": [
+          "foundations",
+          "quantitative",
+          "selectivity"
+        ],
+        "assessment": "B9/12/13, C2/4/10/11/13/16–19, mixed1/2/10",
+        "boundary": "Resistance introduction only; 4.E.12 owns molecular and immune-directed approaches"
       }
     ],
+    "coverage_360": {
+      "A": {
+        "status": "pass",
+        "sections": "foundations, surgery",
+        "evidence": "Population and reproductive viability, local versus systemic, cytostasis versus cytotoxicity",
+        "assessment": "B1/B3/B9"
+      },
+      "B": {
+        "status": "pass",
+        "sections": "history",
+        "evidence": "Puck and Marcus 1956, Farber et al. 1948, historical limits of remission and fractional kill",
+        "assessment": "C1/C3/C11"
+      },
+      "C": {
+        "status": "pass",
+        "sections": "surgery, radiation, dna-drugs, antimetabolites, mitosis",
+        "evidence": "Anatomical boundary, duplex lesions, enzyme intermediates, tubulin/kinetochore",
+        "assessment": "B5/8/14/15"
+      },
+      "D": {
+        "status": "pass",
+        "sections": "radiation, fates, dna-drugs, antimetabolites, mitosis",
+        "evidence": "Energy deposition, lesions, checkpoint and repair, nucleotide limitation, dynamic spindle",
+        "assessment": "C5/6/9/12/15/19"
+      },
+      "E": {
+        "status": "pass",
+        "sections": "radiation, quantitative, dna-drugs, selectivity",
+        "evidence": "Gray, LET, radical chemistry, oxygen, coordination adducts, diffusion",
+        "assessment": "B2/4/16, C7"
+      },
+      "F": {
+        "status": "pass",
+        "sections": "fates, antimetabolites, mitosis, selectivity",
+        "evidence": "Checkpoint, repair, phase dynamics, metabolism, repopulation",
+        "assessment": "C5/6/14/16"
+      },
+      "G": {
+        "status": "pass",
+        "sections": "quantitative, worked",
+        "evidence": "LQ model, normalization, weighted survival, growth rate, geometry, independent reference; hypothetical examples",
+        "assessment": "C1/2/3/4/10/11/13/18"
+      },
+      "H": {
+        "status": "pass",
+        "sections": "history, fates, antimetabolites, selectivity",
+        "evidence": "Landmark studies, comparative controls, rescue and assay endpoints; source records and reviews",
+        "assessment": "C6/9/14/15/20"
+      },
+      "I": {
+        "status": "pass",
+        "sections": "surgery, fates, selectivity",
+        "evidence": "Normal tissue function, marrow and mucosal turnover, nonmitotic microtubules",
+        "assessment": "B12/18, C12/13"
+      },
+      "J": {
+        "status": "pass",
+        "sections": "selectivity",
+        "evidence": "Conserved eukaryotic machinery, model-system limits, clonal selection",
+        "assessment": "C2/4/16"
+      },
+      "K": {
+        "status": "pass",
+        "sections": "radiation, fates, dna-drugs, mitosis, selectivity",
+        "evidence": "Lesion processing, repair deficiency, checkpoint and p53 context, metabolic perturbation",
+        "assessment": "C5/9/14/15"
+      },
+      "L": {
+        "status": "pass",
+        "sections": "surgery, quantitative, selectivity",
+        "evidence": "Margins versus systemic disease, LQ limits, heterogeneous populations, endpoint limits",
+        "assessment": "C3/4/8/16"
+      },
+      "M": {
+        "status": "pass",
+        "sections": "surgery, history, selectivity",
+        "evidence": "Cancer interventions, research readouts, prevention distinction",
+        "assessment": "B3, mixed2/4/9"
+      },
+      "N": {
+        "status": "pass",
+        "sections": "foundations, fates, antimetabolites, mitosis, selectivity",
+        "evidence": "Cell cycle, DNA repair, metabolism, invasion, population selection; bridge to 4.E.12",
+        "assessment": "C6/8/12/19"
+      },
+      "O": {
+        "status": "pass",
+        "sections": "worked, part-b, part-c, mixed, traps, revision",
+        "evidence": "50 original questions, 8 worked examples, 18 traps, 16 active recall",
+        "assessment": "All 20 Part C questions"
+      }
+    },
     "review_pass_1": {
-      "method": "Internal science/scope review of saved narrative and cited records",
+      "method": "Internal scientific and syllabus review of saved HTML, official CSIR PDFs, SET mirror, NCI/IUPHAR, historical PubMed records and review excerpts; not external peer review.",
       "corrections": [
-        "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
-        "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
-        "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
+        "Clarified that cisplatin is not a literal alkyl donor, oxygen is not a requirement for all irradiation injury, checkpoint loss does not universally determine sensitivity, cytotoxicity includes delayed reproductive loss.",
+        "Expanded lesion complexity, repair/tissue recovery, historical evidence and study limitations, LQ model units and uncertainty, active metabolites, cell-cycle context and biological selectivity.",
+        "Verified Farber historical reference via PubMed PMID 18860765; distinguished aminopterin from methotrexate; verified Puck and Marcus PMID 13319584 and 13475608.",
+        "Recomputed examples and numerical answer keys after revisions."
       ]
     },
     "review_pass_2": {
-      "method": "Internal teaching and examination review of saved draft",
+      "method": "Internal teaching and assessment review of saved chapter, actual comparators and extracted questions, figures, anchors and answers.",
       "corrections": [
-        "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
-        "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
-        "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
+        "Expanded narrative from 5,885 to 14,093 words through specific mechanistic and evidence passages, not templated padding.",
+        "Replaced overlapping folate, microtubule and rescue discussions with branch-specific dependence, checkpoint escape and enzyme activity evidence.",
+        "Replaced or strengthened all 20 Part C items with normalized data, multistep reasoning, experimental alternatives or comparisons; improved misconceptions with plausible origin, correction and exam relevance.",
+        "Added 2 diagrams after first draft, adjusted figure order and arrows, added second comparison table, 8 worked examples, 16 recall prompts."
       ]
     },
-    "academic_self_review": {
-      "scope": 20,
-      "accuracy_mechanisms": 24,
-      "depth_narrative": 19,
-      "analytical_evidence": 14,
-      "practice_mastery": 9,
-      "technical_reader": 9,
+    "comparator": [
+      {
+        "node": "4.E.03",
+        "words": 14044,
+        "paragraphs": 150,
+        "scope": "Oncogene activation and signaling, actual saved page inspected"
+      },
+      {
+        "node": "4.E.05",
+        "words": 14101,
+        "paragraphs": 138,
+        "scope": "Cell-cycle checkpoint mechanisms, actual saved page inspected"
+      }
+    ],
+    "semantic_review": "Exact duplicates zero. Token-set Jaccard screening of earlier saved revision found highest overlap 0.182; qualitative inspection identified conceptual overlap in folate and spindle passages, replaced with distinct mechanisms. Recurring endpoint distinctions intentionally integrated in different scientific contexts. No claim of mathematically proven semantic originality.",
+    "academic_quality": {
+      "scope": {
+        "score": 20,
+        "max": 20,
+        "evidence": "All approved microtopics explicitly covered; scope matrix and official line verified."
+      },
+      "accuracy": {
+        "score": 24,
+        "max": 25,
+        "evidence": "Mechanistic corrections and verified references; no known critical error.",
+        "deduction": "Some historical and research records inspected only through abstracts or excerpts."
+      },
+      "depth": {
+        "score": 19,
+        "max": 20,
+        "evidence": "14,093 genuine words, 135 distinct paragraphs; comparator 14,044/14,101 words.",
+        "deduction": "Some comparative and historical treatment necessarily selective."
+      },
+      "evidence_quantitative": {
+        "score": 14,
+        "max": 15,
+        "evidence": "Classical studies and 8 worked examples; recalculated original questions, quantitative models and assumptions.",
+        "deduction": "Primary full-text access not comprehensive; numerical teaching data hypothetical."
+      },
+      "practice": {
+        "score": 9,
+        "max": 10,
+        "evidence": "20 Part B, 20 Part C, 10 mixed; all explained, balanced keys, revised Part C.",
+        "deduction": "No external examiner calibration; several conceptual distractors straightforward."
+      },
+      "technical": {
+        "score": 9,
+        "max": 10,
+        "evidence": "Saved HTML static audit, reader architecture copied from verified comparator, 10 title/desc SVGs, no bad anchor/zoom/ARIA targets or duplicate IDs.",
+        "deduction": "No interactive browser/device/assistive technology testing."
+      },
       "total": 95,
       "threshold": 95,
-      "rationale": {
-        "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
-        "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
-        "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
-        "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
-        "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
-        "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
-      }
+      "publication_eligible": true,
+      "assessment": "Internal editorial judgment following substantive revisions; not an independent external review."
     },
     "static_checks": {
+      "word_gate": true,
+      "exact_duplicate_paragraphs": 0,
       "duplicate_ids": 0,
-      "unresolved_internal_anchors": [],
-      "unresolved_js_ids": [],
-      "svg_accessible": 13,
-      "malformed_questions": 0,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      },
-      "answer_key_mismatches": 0,
-      "html_tag_stack_errors": 0,
-      "reader_script_syntax": "Parsed; not executed in browser DOM",
-      "exact_duplicate_teaching_paragraphs": 0,
-      "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
-      "robots": "index,follow (publication)",
-      "numerical_recalculation": {
-        "conditional_yield": 5,
-        "organ": [
-          0.4,
-          0.1,
-          0.8,
-          0.025,
-          0.04,
-          0.02
-        ],
-        "doubling": 13.862943611198904,
-        "growth": 1087.312731383618,
-        "independent": 0.4879999999999999,
-        "diffusion": [
-          2,
-          8
-        ],
-        "sphere": [
-          0.06,
-          0.03,
-          8,
-          4
-        ],
-        "outgrowth": [
-          0.1,
-          0.1
-        ]
-      },
-      "menu_target_count": 1,
-      "sitemap_target_count": 1,
-      "checkpoint_matches_linked_nodes": true,
-      "all_prior_linked_files_exist": true
-    },
-    "neighbors": {
-      "previous": "4.E.09",
-      "next": "4.E.11",
-      "policy": "Resolve links from current homepage; disable when unpublished."
+      "broken_anchor_zoom_aria_targets": 0,
+      "malformed_question_blocks": 0,
+      "svg_title_desc": 10,
+      "balanced_tag_stack": true,
+      "canonical_correct": true,
+      "draft_robots": "noindex,nofollow",
+      "reader_controls_source_present": true,
+      "dynamic_navigation_codes": [
+        "4.E.10",
+        "4.E.12"
+      ],
+      "arithmetic_checked": [
+        0.4,
+        10000,
+        0.3571428571,
+        0.5488116361,
+        0.2,
+        0.3333333333,
+        0.125,
+        0.0693147181,
+        0.3,
+        0.5,
+        0.5555555556,
+        0.15,
+        0.2,
+        0.5,
+        0.3,
+        0.02,
+        0.075,
+        100,
+        850,
+        975,
+        100,
+        150
+      ]
     },
     "limitations": [
-      "Internal self-review only; no external peer/examiner validation.",
-      "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
-      "Current MP SET official-host copy not independently retrieved.",
-      "No browser rendering, real-device interaction or full assistive-technology testing."
+      "No external peer/examiner review.",
+      "Some primary full-text endpoints blocked or unavailable; references verified through records, abstracts, excerpts and authoritative overview sources.",
+      "MP SET 2024 mirror, not independently verified newer primary host.",
+      "No browser/device/assistive technology interactive testing. Deployment and live verification separate."
     ],
     "publication_eligible": true,
-    "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
-    "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-    "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-    "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
-    "academy_published_count": 184,
+    "draft_qa_commit_sha": "612256d3be5cdb86019fc9f001f1aed39b12bb0c",
+    "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+    "main_baseline_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+    "chapter_blob_sha": "ab029e438bd112065397cc233fe2acafa274f4c9",
+    "academy_published_count": 185,
     "academy_planned_count": 723,
-    "unit_04_published_count": 53,
+    "unit_04_published_count": 54,
     "unit_04_planned_count": 61,
-    "subunit_4e_published_count": 4,
+    "subunit_4e_published_count": 5,
     "subunit_4e_planned_count": 12,
     "next_pending_node_id": "4.E.01",
     "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
     "reconciliation": {
-      "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-      "concurrent_main_changes": true,
-      "previous_links_preserved": 183,
-      "previous_sitemap_urls_preserved": 184,
-      "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
+      "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+      "concurrent_changes_preserved": 184,
+      "method": "Fresh tree, index, sitemap and checkpoint at baseline; conditional non-force update.",
+      "neighbor_previous": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+      "neighbor_next": null
     }
   },
   "unit_02": {
@@ -9791,349 +9781,353 @@
       "4.E.03",
       "4.E.05",
       "4.E.10",
-      "4.E.11"
+      "4.E.11",
+      "4.E.12"
     ],
-    "published_node_count": 54,
+    "published_node_count": 55,
     "planned_node_count": 61,
-    "last_published_node_id": "4.E.11",
+    "last_published_node_id": "4.E.12",
     "updated_at": "2026-11-26",
-    "status": "published",
+    "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "4.E.11",
-      "unit": "04",
-      "subunit": "4.E",
-      "title": "Therapeutic Control I: Surgery, Radiation and Cytotoxic Chemotherapy Principles",
-      "slug": "therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
-      "checked_date": "2026-11-26",
-      "status": "COMMITTED TO MAIN; PAGES DEPLOYMENT PENDING",
+      "node_id": "4.E.12",
+      "title": "Therapeutic Control II: Targeted Therapy, Immunotherapy and Resistance",
+      "date": "2026-11-26",
+      "status": "lesson_committed_pages_verification_pending",
       "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "source_draft_branch": "draft/4.E.11-conventional-therapy",
-      "source_draft_commit_sha": "b6884c4bd9cc02d39bb9e7c6e1d5d401aa82e4b3",
-      "draft_blob_sha": "739bbc30426d10e619f040563b3078ec17d7ee68",
+      "draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+      "draft_chapter_commit": "104f36c3d4b08964514a095fc5c0aeec3d226e39",
+      "draft_chapter_blob": "8e550633a1134a7418fb388e26c76700294fe6ab",
       "metrics": {
-        "genuine_teaching_words": 14093,
-        "visible_article_words_excluding_svg_buttons": 19314,
-        "teaching_paragraphs": 135,
+        "genuine_teaching_words": 13371,
+        "raw_teaching_class_words": 13539,
+        "substantive_paragraphs": 147,
+        "all_teaching_class_paragraphs": 159,
+        "short_figure_reference_words_excluded": 168,
+        "visible_article_words_excluding_svg_and_buttons": 19806,
         "exact_duplicate_paragraphs": 0,
-        "theory_sections": 10,
-        "sections": 17,
-        "svg": 10,
-        "tables": 2,
+        "max_pairwise_lexical_jaccard": 0.20930232558139536,
+        "theory_sections": 12,
+        "svg": 12,
+        "tables": 1,
         "worked_examples": 8,
-        "questions": 50,
         "part_b": 20,
-        "part_c": 20,
-        "mixed": 10,
+        "part_c": 24,
+        "mixed": 8,
+        "total_questions": 52,
+        "misconceptions": 18,
+        "active_recall": 18,
+        "references": 16,
         "answer_positions": {
           "A": 13,
-          "B": 12,
+          "B": 13,
           "C": 13,
-          "D": 12
-        },
-        "misconceptions": 18,
-        "active_recall": 16,
-        "references": 15
+          "D": 13
+        }
       },
-      "word_count_method": "Unicode letter/number tokens with internal hyphens and apostrophes, from saved p.teaching-prose elements only; visible article excludes SVG and buttons. Both counts exclude markup; narrative count excludes supplementary materials.",
-      "syllabus": {
-        "revised": "CSIR–UGC–DBT LS&BT official 21 Jan 2026 PDF, Unit 4.E printed page 5 visually inspected",
-        "legacy": "CSIR Life Sciences official 29 Jan 2026 PDF, Unit 4.D printed page 3 visually inspected",
-        "state_set": "MPPSC SET 2024 syllabus third-party mirror, Unit 4.D printed page 3 visually inspected; current official MPPSC host not independently verified",
-        "academy": "curriculum/subunit-4e-cancer-node-map.md",
-        "scope": "Conventional therapy only; no individualized treatment, clinical regimen or specialist protocols; targeted and immune therapy reserved for 4.E.12."
+      "count_method": "Unicode word tokens from p.teaching-prose, excluding markup/entities and all 12 short figure-reference paragraphs (<30 words); assessment, tables, references, headings, revision and worked blocks excluded. Article total excludes SVG and buttons.",
+      "scope": {
+        "official": "Revised CSIR-UGC-DBT LS&BT Unit 4.E; separate CSIR LS Unit 4.D; archived MP SET Unit 4.D. Broad therapeutic interventions of uncontrolled cell growth; subdivisions are Academy's, not official exam headings.",
+        "limitations": "MP SET archived copy verified, current MPPSC-hosted version not independently located. Approved roadmap scope/mapping inspected before drafting; detailed matrix consolidated in this QA record afterward.",
+        "matrix": [
+          [
+            "Selective dependence",
+            "Cancer; signaling, growth control prerequisites",
+            "dependence; kinases",
+            "necessity vs association, inhibition vs occupancy",
+            "Avoid conventional therapy overlap"
+          ],
+          [
+            "Driver and receptor targeting",
+            "Cancer; kinases and receptors",
+            "bcr; receptors",
+            "fusion, receptor topology, signaling output",
+            "No regimen or dosing"
+          ],
+          [
+            "Endocrine and vascular intervention",
+            "Cancer; hormones and physiology",
+            "endocrine; angiogenesis",
+            "receptor vs ligand control, diffusion and vascular support",
+            "No clinical protocols"
+          ],
+          [
+            "Antibody and immune interventions",
+            "Cancer; antigen recognition, MHC, immune regulation",
+            "antibodies; checkpoints; cellular",
+            "Fab/Fc, CTLA-4/PD-1, direct vs MHC-dependent recognition",
+            "Conceptual mechanisms only"
+          ],
+          [
+            "Resistance, persistence and recurrence",
+            "Cancer; genetics and evolution",
+            "resistance; population",
+            "selection, network redundancy, net growth and residual disease",
+            "No actionable resistance engineering"
+          ],
+          [
+            "Integration and evidence",
+            "Cancer; experiments and quantitative biology",
+            "integration; compare; worked; assessments",
+            "causal inference and model assumptions",
+            "No unsupported clinical prediction"
+          ]
+        ]
       },
-      "microtopic_matrix": [
+      "coverage": [
+        [
+          "A",
+          "pass",
+          "1–2",
+          "Target dependence, specificity, growth signals",
+          "B1–20"
+        ],
+        [
+          "B",
+          "pass",
+          "3,5,8",
+          "Philadelphia chromosome, imatinib, endocrine and CTLA-4 evidence",
+          "Historical evidence questions"
+        ],
+        [
+          "C",
+          "pass",
+          "2–9",
+          "Kinase pockets, receptor topology, Fab/Fc, immune recognition",
+          "Diagram and B/C practice"
+        ],
+        [
+          "D",
+          "pass",
+          "2–9",
+          "Binding, signaling, receptor regulation and immune activation",
+          "Mechanism questions"
+        ],
+        [
+          "E",
+          "pass",
+          "2,6,7,11",
+          "Binding equilibrium, ATP, diffusion, scaling and growth rates",
+          "Worked 1,2,4,7"
+        ],
+        [
+          "F",
+          "pass",
+          "4–10",
+          "Feedback, endocrine control, immune checkpoints, network responses",
+          "C perturbation questions"
+        ],
+        [
+          "G",
+          "pass",
+          "2,6,10–12",
+          "Occupancy, enrichment, growth, volume and independence",
+          "Eight worked examples and quantitative C"
+        ],
+        [
+          "H",
+          "pass",
+          "3,8,10,12",
+          "Published evidence and hypothetical inference, controls and limits",
+          "C evidence interpretation; primary full-text limits"
+        ],
+        [
+          "I",
+          "pass",
+          "4–9",
+          "Normal signaling, endocrine function, vasculature, immune tolerance",
+          "Conceptual and analytical practice"
+        ],
+        [
+          "J",
+          "pass",
+          "8–11",
+          "Mouse-to-human inference boundaries, somatic selection and cell-context differences",
+          "C selection and model interpretation"
+        ],
+        [
+          "K",
+          "pass",
+          "10–11",
+          "Intrinsic/acquired resistance, failure and relapse",
+          "C resistance questions"
+        ],
+        [
+          "L",
+          "pass",
+          "2–12",
+          "Occupancy, independence, biomarker and growth-model limitations",
+          "C conditional inference"
+        ],
+        [
+          "M",
+          "pass",
+          "3–9",
+          "Therapeutic targets and biomarker principles",
+          "B/C mechanisms"
+        ],
+        [
+          "N",
+          "pass",
+          "12 and revision",
+          "Signaling, immunology, evolution and developmental biology bridge",
+          "Mixed and recall"
+        ],
+        [
+          "O",
+          "pass",
+          "Worked, Part B/C, mixed, traps, revision",
+          "Original explained assessment and active recall",
+          "52 questions"
+        ]
+      ],
+      "reviews": [
         {
-          "topic": "Local surgical removal and occult metastatic disease",
-          "official": "Therapeutic interventions of uncontrolled cell growth; metastasis",
-          "prerequisites": "4.E.09–10 invasion and metastasis",
-          "sections": [
-            "foundations",
-            "surgery"
-          ],
-          "assessment": "B3/B6, C8, mixed4/9",
-          "boundary": "No clinical staging or surgical technique"
+          "pass": 1,
+          "focus": "Science and scope",
+          "changes": [
+            "Expanded original 7,081-word draft with mechanism, structural context, normal physiology and evidence.",
+            "Added binding thermodynamics, feedback, historical evidence, sampling and population models.",
+            "Replotted schematic occupancy and exponential population curves from actual equations; clarified conditional inference and nonclinical scope."
+          ]
         },
         {
-          "topic": "Radiation DNA injury, repair, death and senescence",
-          "official": "Therapeutic interventions; apoptosis in legacy/MP SET",
-          "prerequisites": "3.A DNA repair, 4.E.05–06 checkpoints and apoptosis",
-          "sections": [
-            "radiation",
-            "fates",
-            "quantitative"
-          ],
-          "assessment": "B2/4/11/16/17/19, C1/3/7/14, mixed5/7/8",
-          "boundary": "No treatment prescriptions"
-        },
-        {
-          "topic": "DNA damaging/crosslinking cytotoxic agents",
-          "official": "Therapeutic interventions",
-          "prerequisites": "3.A DNA structure and replication",
-          "sections": [
-            "dna-drugs"
-          ],
-          "assessment": "B8/14/15, C9/15",
-          "boundary": "Representative classes only"
-        },
-        {
-          "topic": "Antimetabolites and mitotic inhibitors",
-          "official": "Therapeutic interventions; cancer and cell cycle",
-          "prerequisites": "Unit 1 nucleotide metabolism, 2.D mitosis",
-          "sections": [
-            "antimetabolites",
-            "mitosis"
-          ],
-          "assessment": "B5/7/10/18/20, C5/6/12/20",
-          "boundary": "No drug catalogue, dosing or protocols"
-        },
-        {
-          "topic": "Proliferative fraction, phase sensitivity, systemic adverse effects, combinations, resistance and prevention",
-          "official": "Therapeutic interventions; cancer and cell cycle; interaction with normal cells",
-          "prerequisites": "4.E.01–10; 4.C immunology",
-          "sections": [
-            "foundations",
-            "quantitative",
-            "selectivity"
-          ],
-          "assessment": "B9/12/13, C2/4/10/11/13/16–19, mixed1/2/10",
-          "boundary": "Resistance introduction only; 4.E.12 owns molecular and immune-directed approaches"
+          "pass": 2,
+          "focus": "Teaching and examination",
+          "changes": [
+            "Revised 30 assessment items for answer clarity, distractors and explanation, then strengthened seven numerical Part C items.",
+            "Expanded 18 misconceptions; added figure references, four sources, and responsive question-card styling.",
+            "Audited final saved HTML rather than initial text; compared actual neighboring chapter counts and inspected prose for conceptual overlap."
+          ]
         }
       ],
-      "coverage_360": {
-        "A": {
-          "status": "pass",
-          "sections": "foundations, surgery",
-          "evidence": "Population and reproductive viability, local versus systemic, cytostasis versus cytotoxicity",
-          "assessment": "B1/B3/B9"
-        },
-        "B": {
-          "status": "pass",
-          "sections": "history",
-          "evidence": "Puck and Marcus 1956, Farber et al. 1948, historical limits of remission and fractional kill",
-          "assessment": "C1/C3/C11"
-        },
-        "C": {
-          "status": "pass",
-          "sections": "surgery, radiation, dna-drugs, antimetabolites, mitosis",
-          "evidence": "Anatomical boundary, duplex lesions, enzyme intermediates, tubulin/kinetochore",
-          "assessment": "B5/8/14/15"
-        },
-        "D": {
-          "status": "pass",
-          "sections": "radiation, fates, dna-drugs, antimetabolites, mitosis",
-          "evidence": "Energy deposition, lesions, checkpoint and repair, nucleotide limitation, dynamic spindle",
-          "assessment": "C5/6/9/12/15/19"
-        },
-        "E": {
-          "status": "pass",
-          "sections": "radiation, quantitative, dna-drugs, selectivity",
-          "evidence": "Gray, LET, radical chemistry, oxygen, coordination adducts, diffusion",
-          "assessment": "B2/4/16, C7"
-        },
-        "F": {
-          "status": "pass",
-          "sections": "fates, antimetabolites, mitosis, selectivity",
-          "evidence": "Checkpoint, repair, phase dynamics, metabolism, repopulation",
-          "assessment": "C5/6/14/16"
-        },
-        "G": {
-          "status": "pass",
-          "sections": "quantitative, worked",
-          "evidence": "LQ model, normalization, weighted survival, growth rate, geometry, independent reference; hypothetical examples",
-          "assessment": "C1/2/3/4/10/11/13/18"
-        },
-        "H": {
-          "status": "pass",
-          "sections": "history, fates, antimetabolites, selectivity",
-          "evidence": "Landmark studies, comparative controls, rescue and assay endpoints; source records and reviews",
-          "assessment": "C6/9/14/15/20"
-        },
-        "I": {
-          "status": "pass",
-          "sections": "surgery, fates, selectivity",
-          "evidence": "Normal tissue function, marrow and mucosal turnover, nonmitotic microtubules",
-          "assessment": "B12/18, C12/13"
-        },
-        "J": {
-          "status": "pass",
-          "sections": "selectivity",
-          "evidence": "Conserved eukaryotic machinery, model-system limits, clonal selection",
-          "assessment": "C2/4/16"
-        },
-        "K": {
-          "status": "pass",
-          "sections": "radiation, fates, dna-drugs, mitosis, selectivity",
-          "evidence": "Lesion processing, repair deficiency, checkpoint and p53 context, metabolic perturbation",
-          "assessment": "C5/9/14/15"
-        },
-        "L": {
-          "status": "pass",
-          "sections": "surgery, quantitative, selectivity",
-          "evidence": "Margins versus systemic disease, LQ limits, heterogeneous populations, endpoint limits",
-          "assessment": "C3/4/8/16"
-        },
-        "M": {
-          "status": "pass",
-          "sections": "surgery, history, selectivity",
-          "evidence": "Cancer interventions, research readouts, prevention distinction",
-          "assessment": "B3, mixed2/4/9"
-        },
-        "N": {
-          "status": "pass",
-          "sections": "foundations, fates, antimetabolites, mitosis, selectivity",
-          "evidence": "Cell cycle, DNA repair, metabolism, invasion, population selection; bridge to 4.E.12",
-          "assessment": "C6/8/12/19"
-        },
-        "O": {
-          "status": "pass",
-          "sections": "worked, part-b, part-c, mixed, traps, revision",
-          "evidence": "50 original questions, 8 worked examples, 18 traps, 16 active recall",
-          "assessment": "All 20 Part C questions"
-        }
-      },
-      "review_pass_1": {
-        "method": "Internal scientific and syllabus review of saved HTML, official CSIR PDFs, SET mirror, NCI/IUPHAR, historical PubMed records and review excerpts; not external peer review.",
-        "corrections": [
-          "Clarified that cisplatin is not a literal alkyl donor, oxygen is not a requirement for all irradiation injury, checkpoint loss does not universally determine sensitivity, cytotoxicity includes delayed reproductive loss.",
-          "Expanded lesion complexity, repair/tissue recovery, historical evidence and study limitations, LQ model units and uncertainty, active metabolites, cell-cycle context and biological selectivity.",
-          "Verified Farber historical reference via PubMed PMID 18860765; distinguished aminopterin from methotrexate; verified Puck and Marcus PMID 13319584 and 13475608.",
-          "Recomputed examples and numerical answer keys after revisions."
-        ]
-      },
-      "review_pass_2": {
-        "method": "Internal teaching and assessment review of saved chapter, actual comparators and extracted questions, figures, anchors and answers.",
-        "corrections": [
-          "Expanded narrative from 5,885 to 14,093 words through specific mechanistic and evidence passages, not templated padding.",
-          "Replaced overlapping folate, microtubule and rescue discussions with branch-specific dependence, checkpoint escape and enzyme activity evidence.",
-          "Replaced or strengthened all 20 Part C items with normalized data, multistep reasoning, experimental alternatives or comparisons; improved misconceptions with plausible origin, correction and exam relevance.",
-          "Added 2 diagrams after first draft, adjusted figure order and arrows, added second comparison table, 8 worked examples, 16 recall prompts."
-        ]
-      },
-      "comparator": [
+      "comparators": [
         {
-          "node": "4.E.03",
-          "words": 14044,
-          "paragraphs": 150,
-          "scope": "Oncogene activation and signaling, actual saved page inspected"
+          "node": "4.E.02",
+          "words": 14077,
+          "paragraphs": 125
         },
         {
           "node": "4.E.05",
           "words": 14101,
-          "paragraphs": 138,
-          "scope": "Cell-cycle checkpoint mechanisms, actual saved page inspected"
+          "paragraphs": 138
+        },
+        {
+          "node": "4.D.12",
+          "words": 14124,
+          "paragraphs": 135
+        },
+        {
+          "node": "4.C.09",
+          "words": 14657,
+          "paragraphs": 145
         }
       ],
-      "semantic_review": "Exact duplicates zero. Token-set Jaccard screening of earlier saved revision found highest overlap 0.182; qualitative inspection identified conceptual overlap in folate and spindle passages, replaced with distinct mechanisms. Recurring endpoint distinctions intentionally integrated in different scientific contexts. No claim of mathematically proven semantic originality.",
-      "academic_quality": {
-        "scope": {
-          "score": 20,
-          "max": 20,
-          "evidence": "All approved microtopics explicitly covered; scope matrix and official line verified."
-        },
-        "accuracy": {
-          "score": 24,
-          "max": 25,
-          "evidence": "Mechanistic corrections and verified references; no known critical error.",
-          "deduction": "Some historical and research records inspected only through abstracts or excerpts."
-        },
-        "depth": {
-          "score": 19,
-          "max": 20,
-          "evidence": "14,093 genuine words, 135 distinct paragraphs; comparator 14,044/14,101 words.",
-          "deduction": "Some comparative and historical treatment necessarily selective."
-        },
-        "evidence_quantitative": {
-          "score": 14,
-          "max": 15,
-          "evidence": "Classical studies and 8 worked examples; recalculated original questions, quantitative models and assumptions.",
-          "deduction": "Primary full-text access not comprehensive; numerical teaching data hypothetical."
-        },
-        "practice": {
-          "score": 9,
-          "max": 10,
-          "evidence": "20 Part B, 20 Part C, 10 mixed; all explained, balanced keys, revised Part C.",
-          "deduction": "No external examiner calibration; several conceptual distractors straightforward."
-        },
-        "technical": {
-          "score": 9,
-          "max": 10,
-          "evidence": "Saved HTML static audit, reader architecture copied from verified comparator, 10 title/desc SVGs, no bad anchor/zoom/ARIA targets or duplicate IDs.",
-          "deduction": "No interactive browser/device/assistive technology testing."
-        },
+      "quality": {
+        "scope": 20,
+        "accuracy": 24,
+        "depth": 19,
+        "experimental_analytical": 14,
+        "practice": 9,
+        "technical": 9,
         "total": 95,
         "threshold": 95,
-        "publication_eligible": true,
-        "assessment": "Internal editorial judgment following substantive revisions; not an independent external review."
-      },
-      "static_checks": {
-        "word_gate": true,
-        "exact_duplicate_paragraphs": 0,
-        "duplicate_ids": 0,
-        "broken_anchor_zoom_aria_targets": 0,
-        "malformed_question_blocks": 0,
-        "svg_title_desc": 10,
-        "balanced_tag_stack": true,
-        "canonical_correct": true,
-        "draft_robots": "noindex,nofollow",
-        "reader_controls_source_present": true,
-        "dynamic_navigation_codes": [
-          "4.E.10",
-          "4.E.12"
-        ],
-        "arithmetic_checked": [
-          0.4,
-          10000,
-          0.3571428571,
-          0.5488116361,
-          0.2,
-          0.3333333333,
-          0.125,
-          0.0693147181,
-          0.3,
-          0.5,
-          0.5555555556,
-          0.15,
-          0.2,
-          0.5,
-          0.3,
-          0.02,
-          0.075,
-          100,
-          850,
-          975,
-          100,
-          150
+        "rationale": [
+          "All approved scope covered, syllabus mapping checked.",
+          "Mechanisms and equations reviewed; cited primary abstracts/reviews, not all full papers (-1).",
+          "13,371 conservative words; comparative depth acceptable, some purposeful recurring framing (-1).",
+          "Eight recalculated examples and experimental reasoning; model datasets hypothetical and historical evidence necessarily condensed (-1).",
+          "52 explained items, 24 analytical; internal assessment only, no psychometric calibration (-1).",
+          "Static HTML/JS and reader wiring passed; no interactive device/browser test (-1)."
         ]
       },
+      "static_checks": {
+        "duplicate_ids": 0,
+        "broken_anchors": 0,
+        "missing_aria_refs": 0,
+        "missing_zoom_targets": 0,
+        "svg_title_desc": 12,
+        "answer_key_mismatches": 0,
+        "html_stack_errors": 0,
+        "js_parse": "pass",
+        "canonical": "correct intended production URL",
+        "draft_robots": "noindex,nofollow",
+        "local_links": "./ only; dynamic neighboring links resolved through homepage",
+        "numerical_checks": {
+          "occupancy": 0.75,
+          "half_time": 9.902102579427789,
+          "enrichment": 0.47058823529411764,
+          "area_volume": [
+            6,
+            3
+          ],
+          "joint_survival": 0.27999999999999997,
+          "difference": 0.06999999999999995,
+          "volume_ratio": 0.421875,
+          "decline": 0.578125,
+          "net_rate": 0,
+          "part_c": [
+            0.75,
+            0.5,
+            8,
+            0.5025125628140703,
+            0.9901970395059309,
+            0.25,
+            0.02,
+            0.075,
+            -0.08,
+            8.664339756999317,
+            0.768,
+            0.3,
+            0.12
+          ]
+        }
+      },
       "limitations": [
-        "No external peer/examiner review.",
-        "Some primary full-text endpoints blocked or unavailable; references verified through records, abstracts, excerpts and authoritative overview sources.",
-        "MP SET 2024 mirror, not independently verified newer primary host.",
-        "No browser/device/assistive technology interactive testing. Deployment and live verification separate."
+        "Internal review, not external peer review.",
+        "Official MP SET archived copy rather than newly retrieved official host.",
+        "Evidence based on indexed abstracts, authoritative reviews and established textbook knowledge; not all primary full texts inspected.",
+        "No interactive browser/mobile/device/assistive-technology test. Static source checks only.",
+        "No formal semantic originality or student validation; lexical screen plus editorial review."
       ],
       "publication_eligible": true,
-      "draft_qa_commit_sha": "612256d3be5cdb86019fc9f001f1aed39b12bb0c",
-      "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
-      "main_baseline_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
-      "chapter_blob_sha": "ab029e438bd112065397cc233fe2acafa274f4c9",
-      "academy_published_count": 185,
+      "unit": "04",
+      "subunit": "4.E",
+      "slug": "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+      "source_draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+      "source_draft_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+      "draft_qa_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+      "publication_base_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+      "main_baseline_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+      "chapter_blob_sha": "9d2c72ce5e9b0e6a2ba3af742f9bc16b587815e2",
+      "academy_published_count": 186,
       "academy_planned_count": 723,
-      "unit_04_published_count": 54,
+      "unit_04_published_count": 55,
       "unit_04_planned_count": 61,
-      "subunit_4e_published_count": 5,
+      "subunit_4e_published_count": 6,
       "subunit_4e_planned_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+      "neighbors": {
+        "previous": {
+          "id": "4.E.11",
+          "published": true
+        },
+        "next": {
+          "id": "5.A.01",
+          "published": false
+        },
+        "implementation": "Dynamic homepage resolution; disable missing lesson"
+      },
       "reconciliation": {
-        "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
-        "concurrent_changes_preserved": 184,
-        "method": "Fresh tree, index, sitemap and checkpoint at baseline; conditional non-force update.",
-        "neighbor_previous": "metastasis-intravasation-survival-extravasation-and-colonization.html",
-        "neighbor_next": null
-      }
+        "preserved_existing_links": 185,
+        "preserved_existing_sitemap_urls": 186,
+        "verified_existing_linked_files": 185,
+        "concurrent_main_changes": true,
+        "conditional_nonforce_update": true
+      },
+      "production_robots": "index,follow"
     },
     "qa_by_node": {
       "4.A.02": {
@@ -19401,352 +19395,685 @@
           "neighbor_previous": "metastasis-intravasation-survival-extravasation-and-colonization.html",
           "neighbor_next": null
         }
+      },
+      "4.E.12": {
+        "node_id": "4.E.12",
+        "title": "Therapeutic Control II: Targeted Therapy, Immunotherapy and Resistance",
+        "date": "2026-11-26",
+        "status": "lesson_committed_pages_verification_pending",
+        "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+        "draft_chapter_commit": "104f36c3d4b08964514a095fc5c0aeec3d226e39",
+        "draft_chapter_blob": "8e550633a1134a7418fb388e26c76700294fe6ab",
+        "metrics": {
+          "genuine_teaching_words": 13371,
+          "raw_teaching_class_words": 13539,
+          "substantive_paragraphs": 147,
+          "all_teaching_class_paragraphs": 159,
+          "short_figure_reference_words_excluded": 168,
+          "visible_article_words_excluding_svg_and_buttons": 19806,
+          "exact_duplicate_paragraphs": 0,
+          "max_pairwise_lexical_jaccard": 0.20930232558139536,
+          "theory_sections": 12,
+          "svg": 12,
+          "tables": 1,
+          "worked_examples": 8,
+          "part_b": 20,
+          "part_c": 24,
+          "mixed": 8,
+          "total_questions": 52,
+          "misconceptions": 18,
+          "active_recall": 18,
+          "references": 16,
+          "answer_positions": {
+            "A": 13,
+            "B": 13,
+            "C": 13,
+            "D": 13
+          }
+        },
+        "count_method": "Unicode word tokens from p.teaching-prose, excluding markup/entities and all 12 short figure-reference paragraphs (<30 words); assessment, tables, references, headings, revision and worked blocks excluded. Article total excludes SVG and buttons.",
+        "scope": {
+          "official": "Revised CSIR-UGC-DBT LS&BT Unit 4.E; separate CSIR LS Unit 4.D; archived MP SET Unit 4.D. Broad therapeutic interventions of uncontrolled cell growth; subdivisions are Academy's, not official exam headings.",
+          "limitations": "MP SET archived copy verified, current MPPSC-hosted version not independently located. Approved roadmap scope/mapping inspected before drafting; detailed matrix consolidated in this QA record afterward.",
+          "matrix": [
+            [
+              "Selective dependence",
+              "Cancer; signaling, growth control prerequisites",
+              "dependence; kinases",
+              "necessity vs association, inhibition vs occupancy",
+              "Avoid conventional therapy overlap"
+            ],
+            [
+              "Driver and receptor targeting",
+              "Cancer; kinases and receptors",
+              "bcr; receptors",
+              "fusion, receptor topology, signaling output",
+              "No regimen or dosing"
+            ],
+            [
+              "Endocrine and vascular intervention",
+              "Cancer; hormones and physiology",
+              "endocrine; angiogenesis",
+              "receptor vs ligand control, diffusion and vascular support",
+              "No clinical protocols"
+            ],
+            [
+              "Antibody and immune interventions",
+              "Cancer; antigen recognition, MHC, immune regulation",
+              "antibodies; checkpoints; cellular",
+              "Fab/Fc, CTLA-4/PD-1, direct vs MHC-dependent recognition",
+              "Conceptual mechanisms only"
+            ],
+            [
+              "Resistance, persistence and recurrence",
+              "Cancer; genetics and evolution",
+              "resistance; population",
+              "selection, network redundancy, net growth and residual disease",
+              "No actionable resistance engineering"
+            ],
+            [
+              "Integration and evidence",
+              "Cancer; experiments and quantitative biology",
+              "integration; compare; worked; assessments",
+              "causal inference and model assumptions",
+              "No unsupported clinical prediction"
+            ]
+          ]
+        },
+        "coverage": [
+          [
+            "A",
+            "pass",
+            "1–2",
+            "Target dependence, specificity, growth signals",
+            "B1–20"
+          ],
+          [
+            "B",
+            "pass",
+            "3,5,8",
+            "Philadelphia chromosome, imatinib, endocrine and CTLA-4 evidence",
+            "Historical evidence questions"
+          ],
+          [
+            "C",
+            "pass",
+            "2–9",
+            "Kinase pockets, receptor topology, Fab/Fc, immune recognition",
+            "Diagram and B/C practice"
+          ],
+          [
+            "D",
+            "pass",
+            "2–9",
+            "Binding, signaling, receptor regulation and immune activation",
+            "Mechanism questions"
+          ],
+          [
+            "E",
+            "pass",
+            "2,6,7,11",
+            "Binding equilibrium, ATP, diffusion, scaling and growth rates",
+            "Worked 1,2,4,7"
+          ],
+          [
+            "F",
+            "pass",
+            "4–10",
+            "Feedback, endocrine control, immune checkpoints, network responses",
+            "C perturbation questions"
+          ],
+          [
+            "G",
+            "pass",
+            "2,6,10–12",
+            "Occupancy, enrichment, growth, volume and independence",
+            "Eight worked examples and quantitative C"
+          ],
+          [
+            "H",
+            "pass",
+            "3,8,10,12",
+            "Published evidence and hypothetical inference, controls and limits",
+            "C evidence interpretation; primary full-text limits"
+          ],
+          [
+            "I",
+            "pass",
+            "4–9",
+            "Normal signaling, endocrine function, vasculature, immune tolerance",
+            "Conceptual and analytical practice"
+          ],
+          [
+            "J",
+            "pass",
+            "8–11",
+            "Mouse-to-human inference boundaries, somatic selection and cell-context differences",
+            "C selection and model interpretation"
+          ],
+          [
+            "K",
+            "pass",
+            "10–11",
+            "Intrinsic/acquired resistance, failure and relapse",
+            "C resistance questions"
+          ],
+          [
+            "L",
+            "pass",
+            "2–12",
+            "Occupancy, independence, biomarker and growth-model limitations",
+            "C conditional inference"
+          ],
+          [
+            "M",
+            "pass",
+            "3–9",
+            "Therapeutic targets and biomarker principles",
+            "B/C mechanisms"
+          ],
+          [
+            "N",
+            "pass",
+            "12 and revision",
+            "Signaling, immunology, evolution and developmental biology bridge",
+            "Mixed and recall"
+          ],
+          [
+            "O",
+            "pass",
+            "Worked, Part B/C, mixed, traps, revision",
+            "Original explained assessment and active recall",
+            "52 questions"
+          ]
+        ],
+        "reviews": [
+          {
+            "pass": 1,
+            "focus": "Science and scope",
+            "changes": [
+              "Expanded original 7,081-word draft with mechanism, structural context, normal physiology and evidence.",
+              "Added binding thermodynamics, feedback, historical evidence, sampling and population models.",
+              "Replotted schematic occupancy and exponential population curves from actual equations; clarified conditional inference and nonclinical scope."
+            ]
+          },
+          {
+            "pass": 2,
+            "focus": "Teaching and examination",
+            "changes": [
+              "Revised 30 assessment items for answer clarity, distractors and explanation, then strengthened seven numerical Part C items.",
+              "Expanded 18 misconceptions; added figure references, four sources, and responsive question-card styling.",
+              "Audited final saved HTML rather than initial text; compared actual neighboring chapter counts and inspected prose for conceptual overlap."
+            ]
+          }
+        ],
+        "comparators": [
+          {
+            "node": "4.E.02",
+            "words": 14077,
+            "paragraphs": 125
+          },
+          {
+            "node": "4.E.05",
+            "words": 14101,
+            "paragraphs": 138
+          },
+          {
+            "node": "4.D.12",
+            "words": 14124,
+            "paragraphs": 135
+          },
+          {
+            "node": "4.C.09",
+            "words": 14657,
+            "paragraphs": 145
+          }
+        ],
+        "quality": {
+          "scope": 20,
+          "accuracy": 24,
+          "depth": 19,
+          "experimental_analytical": 14,
+          "practice": 9,
+          "technical": 9,
+          "total": 95,
+          "threshold": 95,
+          "rationale": [
+            "All approved scope covered, syllabus mapping checked.",
+            "Mechanisms and equations reviewed; cited primary abstracts/reviews, not all full papers (-1).",
+            "13,371 conservative words; comparative depth acceptable, some purposeful recurring framing (-1).",
+            "Eight recalculated examples and experimental reasoning; model datasets hypothetical and historical evidence necessarily condensed (-1).",
+            "52 explained items, 24 analytical; internal assessment only, no psychometric calibration (-1).",
+            "Static HTML/JS and reader wiring passed; no interactive device/browser test (-1)."
+          ]
+        },
+        "static_checks": {
+          "duplicate_ids": 0,
+          "broken_anchors": 0,
+          "missing_aria_refs": 0,
+          "missing_zoom_targets": 0,
+          "svg_title_desc": 12,
+          "answer_key_mismatches": 0,
+          "html_stack_errors": 0,
+          "js_parse": "pass",
+          "canonical": "correct intended production URL",
+          "draft_robots": "noindex,nofollow",
+          "local_links": "./ only; dynamic neighboring links resolved through homepage",
+          "numerical_checks": {
+            "occupancy": 0.75,
+            "half_time": 9.902102579427789,
+            "enrichment": 0.47058823529411764,
+            "area_volume": [
+              6,
+              3
+            ],
+            "joint_survival": 0.27999999999999997,
+            "difference": 0.06999999999999995,
+            "volume_ratio": 0.421875,
+            "decline": 0.578125,
+            "net_rate": 0,
+            "part_c": [
+              0.75,
+              0.5,
+              8,
+              0.5025125628140703,
+              0.9901970395059309,
+              0.25,
+              0.02,
+              0.075,
+              -0.08,
+              8.664339756999317,
+              0.768,
+              0.3,
+              0.12
+            ]
+          }
+        },
+        "limitations": [
+          "Internal review, not external peer review.",
+          "Official MP SET archived copy rather than newly retrieved official host.",
+          "Evidence based on indexed abstracts, authoritative reviews and established textbook knowledge; not all primary full texts inspected.",
+          "No interactive browser/mobile/device/assistive-technology test. Static source checks only.",
+          "No formal semantic originality or student validation; lexical screen plus editorial review."
+        ],
+        "publication_eligible": true,
+        "unit": "04",
+        "subunit": "4.E",
+        "slug": "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+        "source_draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+        "source_draft_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+        "draft_qa_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+        "publication_base_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+        "main_baseline_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+        "chapter_blob_sha": "9d2c72ce5e9b0e6a2ba3af742f9bc16b587815e2",
+        "academy_published_count": 186,
+        "academy_planned_count": 723,
+        "unit_04_published_count": 55,
+        "unit_04_planned_count": 61,
+        "subunit_4e_published_count": 6,
+        "subunit_4e_planned_count": 12,
+        "next_pending_node_id": "4.E.01",
+        "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+        "neighbors": {
+          "previous": {
+            "id": "4.E.11",
+            "published": true
+          },
+          "next": {
+            "id": "5.A.01",
+            "published": false
+          },
+          "implementation": "Dynamic homepage resolution; disable missing lesson"
+        },
+        "reconciliation": {
+          "preserved_existing_links": 185,
+          "preserved_existing_sitemap_urls": 186,
+          "verified_existing_linked_files": 185,
+          "concurrent_main_changes": true,
+          "conditional_nonforce_update": true
+        },
+        "production_robots": "index,follow"
       }
     },
     "next_pending_node_id": "4.E.01",
     "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
     "previous_last_qa": {
-      "node_id": "4.E.10",
-      "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
+      "node_id": "4.E.11",
       "unit": "04",
       "subunit": "4.E",
-      "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
-      "status": "lesson_committed_pages_verification_pending",
+      "title": "Therapeutic Control I: Surgery, Radiation and Cytotoxic Chemotherapy Principles",
+      "slug": "therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
       "checked_date": "2026-11-26",
+      "status": "COMMITTED TO MAIN; PAGES DEPLOYMENT PENDING",
       "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "source_draft_branch": "draft/node-4e10-metastasis",
-      "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
-      "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
+      "source_draft_branch": "draft/4.E.11-conventional-therapy",
+      "source_draft_commit_sha": "b6884c4bd9cc02d39bb9e7c6e1d5d401aa82e4b3",
+      "draft_blob_sha": "739bbc30426d10e619f040563b3078ec17d7ee68",
       "metrics": {
-        "genuine_teaching_words": 13839,
-        "total_visible_article_words": 20666,
-        "teaching_paragraphs": 148,
+        "genuine_teaching_words": 14093,
+        "visible_article_words_excluding_svg_buttons": 19314,
+        "teaching_paragraphs": 135,
         "exact_duplicate_paragraphs": 0,
-        "theory_sections": 12,
-        "scientific_svg": 13,
-        "tables": 3,
+        "theory_sections": 10,
+        "sections": 17,
+        "svg": 10,
+        "tables": 2,
         "worked_examples": 8,
+        "questions": 50,
         "part_b": 20,
         "part_c": 20,
-        "mixed": 12,
-        "total_questions": 52,
+        "mixed": 10,
+        "answer_positions": {
+          "A": 13,
+          "B": 12,
+          "C": 13,
+          "D": 12
+        },
         "misconceptions": 18,
-        "active_recall": 18,
-        "scientific_references": 18
+        "active_recall": 16,
+        "references": 15
       },
-      "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
-      "comparator": {
-        "node_id": "4.E.02",
-        "teaching_words": 14077,
-        "paragraphs": 125,
-        "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
-      },
+      "word_count_method": "Unicode letter/number tokens with internal hyphens and apostrophes, from saved p.teaching-prose elements only; visible article excludes SVG and buttons. Both counts exclude markup; narrative count excludes supplementary materials.",
       "syllabus": {
-        "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
-        "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
-        "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
+        "revised": "CSIR–UGC–DBT LS&BT official 21 Jan 2026 PDF, Unit 4.E printed page 5 visually inspected",
+        "legacy": "CSIR Life Sciences official 29 Jan 2026 PDF, Unit 4.D printed page 3 visually inspected",
+        "state_set": "MPPSC SET 2024 syllabus third-party mirror, Unit 4.D printed page 3 visually inspected; current official MPPSC host not independently verified",
         "academy": "curriculum/subunit-4e-cancer-node-map.md",
-        "scope_matrix": [
-          [
-            "Metastatic cascade and routes",
-            "Official metastasis; cancer and cell interaction",
-            "4.E.09 local invasion",
-            "identity,cascade,routes",
-            "Stage discrimination; no repeat invasion mechanisms"
-          ],
-          [
-            "Intravasation and vascular transport",
-            "Official metastasis",
-            "Cell adhesion, circulation",
-            "entry,survival",
-            "Endothelial topology, survival and evidence"
-          ],
-          [
-            "Arrest and extravasation",
-            "Official metastasis",
-            "Endothelium and ECM",
-            "arrest",
-            "Vascular versus tissue location and stage interpretation"
-          ],
-          [
-            "Organ tropism and tissue compatibility",
-            "Official metastasis; interaction with normal cells",
-            "4.E.08 microenvironment",
-            "history,soil",
-            "Historical models, tissue compatibility"
-          ],
-          [
-            "Dormancy and secondary outgrowth",
-            "Official metastasis",
-            "Cell cycle, apoptosis, angiogenesis",
-            "dormancy,colonization",
-            "Single-cell versus mass dormancy and viable outgrowth"
-          ],
-          [
-            "Experimental and quantitative interpretation",
-            "Academy educational extension of official metastasis",
-            "Probability, rates, experimental reasoning",
-            "quantitative,evidence,worked",
-            "Conditional endpoints, inference, not specialist protocols"
-          ]
-        ],
-        "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
+        "scope": "Conventional therapy only; no individualized treatment, clinical regimen or specialist protocols; targeted and immune therapy reserved for 4.E.12."
       },
-      "coverage": [
+      "microtopic_matrix": [
         {
-          "dimension": "A",
-          "applicability": "Applicable",
-          "sections": "identity, cascade",
-          "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
-          "assessment": "Part B definitions and stage discrimination",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
+          "topic": "Local surgical removal and occult metastatic disease",
+          "official": "Therapeutic interventions of uncontrolled cell growth; metastasis",
+          "prerequisites": "4.E.09–10 invasion and metastasis",
+          "sections": [
+            "foundations",
+            "surgery"
+          ],
+          "assessment": "B3/B6, C8, mixed4/9",
+          "boundary": "No clinical staging or surgical technique"
         },
         {
-          "dimension": "B",
-          "applicability": "Applicable",
-          "sections": "history, soil",
-          "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
-          "assessment": "Historical evidence interpretation",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
+          "topic": "Radiation DNA injury, repair, death and senescence",
+          "official": "Therapeutic interventions; apoptosis in legacy/MP SET",
+          "prerequisites": "3.A DNA repair, 4.E.05–06 checkpoints and apoptosis",
+          "sections": [
+            "radiation",
+            "fates",
+            "quantitative"
+          ],
+          "assessment": "B2/4/11/16/17/19, C1/3/7/14, mixed5/7/8",
+          "boundary": "No treatment prescriptions"
         },
         {
-          "dimension": "C",
-          "applicability": "Applicable",
-          "sections": "routes, entry, survival, arrest",
-          "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
-          "assessment": "Topology and diagram questions",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
+          "topic": "DNA damaging/crosslinking cytotoxic agents",
+          "official": "Therapeutic interventions",
+          "prerequisites": "3.A DNA structure and replication",
+          "sections": [
+            "dna-drugs"
+          ],
+          "assessment": "B8/14/15, C9/15",
+          "boundary": "Representative classes only"
         },
         {
-          "dimension": "D",
-          "applicability": "Applicable",
-          "sections": "cascade, entry, survival, arrest, colonization",
-          "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
-          "assessment": "Sequence and stage-localization reasoning",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
+          "topic": "Antimetabolites and mitotic inhibitors",
+          "official": "Therapeutic interventions; cancer and cell cycle",
+          "prerequisites": "Unit 1 nucleotide metabolism, 2.D mitosis",
+          "sections": [
+            "antimetabolites",
+            "mitosis"
+          ],
+          "assessment": "B5/7/10/18/20, C5/6/12/20",
+          "boundary": "No drug catalogue, dosing or protocols"
         },
         {
-          "dimension": "E",
-          "applicability": "Applicable",
-          "sections": "survival, arrest, colonization, quantitative",
-          "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
-          "assessment": "Worked diffusion and geometry problems",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "F",
-          "applicability": "Applicable",
-          "sections": "survival, soil, dormancy, colonization",
-          "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
-          "assessment": "Perturbation and dormancy questions",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "G",
-          "applicability": "Applicable",
-          "sections": "quantitative, worked",
-          "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
-          "assessment": "Numerical worked examples and Part C",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "H",
-          "applicability": "Applicable",
-          "sections": "history, entry, survival, soil, evidence",
-          "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
-          "assessment": "Experimental evidence and supplied datasets",
-          "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
-          "status": "PASS"
-        },
-        {
-          "dimension": "I",
-          "applicability": "Applicable",
-          "sections": "routes, soil, colonization",
-          "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
-          "assessment": "Organ-specific reasoning",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "J",
-          "applicability": "Applicable",
-          "sections": "identity, survival, soil, evidence",
-          "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
-          "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "K",
-          "applicability": "Applicable",
-          "sections": "survival, arrest, dormancy, evidence",
-          "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
-          "assessment": "Part C stage-specific changes",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "L",
-          "applicability": "Applicable",
-          "sections": "routes, cascade, dormancy, evidence",
-          "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
-          "assessment": "Counterexample and interpretation questions",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "M",
-          "applicability": "Applicable",
-          "sections": "colonization, evidence",
-          "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
-          "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "N",
-          "applicability": "Applicable",
-          "sections": "identity, cascade, survival, soil, revision",
-          "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
-          "assessment": "Integrated mechanism problems",
-          "remaining_gaps": "No mandatory gap identified in internal review",
-          "status": "PASS"
-        },
-        {
-          "dimension": "O",
-          "applicability": "Applicable",
-          "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
-          "evidence": "52 original explained problems, 18 recall prompts and traps",
-          "assessment": "20 Part B, 20 Part C, 12 mixed",
-          "remaining_gaps": "Difficulty not externally calibrated",
-          "status": "PASS"
+          "topic": "Proliferative fraction, phase sensitivity, systemic adverse effects, combinations, resistance and prevention",
+          "official": "Therapeutic interventions; cancer and cell cycle; interaction with normal cells",
+          "prerequisites": "4.E.01–10; 4.C immunology",
+          "sections": [
+            "foundations",
+            "quantitative",
+            "selectivity"
+          ],
+          "assessment": "B9/12/13, C2/4/10/11/13/16–19, mixed1/2/10",
+          "boundary": "Resistance introduction only; 4.E.12 owns molecular and immune-directed approaches"
         }
       ],
+      "coverage_360": {
+        "A": {
+          "status": "pass",
+          "sections": "foundations, surgery",
+          "evidence": "Population and reproductive viability, local versus systemic, cytostasis versus cytotoxicity",
+          "assessment": "B1/B3/B9"
+        },
+        "B": {
+          "status": "pass",
+          "sections": "history",
+          "evidence": "Puck and Marcus 1956, Farber et al. 1948, historical limits of remission and fractional kill",
+          "assessment": "C1/C3/C11"
+        },
+        "C": {
+          "status": "pass",
+          "sections": "surgery, radiation, dna-drugs, antimetabolites, mitosis",
+          "evidence": "Anatomical boundary, duplex lesions, enzyme intermediates, tubulin/kinetochore",
+          "assessment": "B5/8/14/15"
+        },
+        "D": {
+          "status": "pass",
+          "sections": "radiation, fates, dna-drugs, antimetabolites, mitosis",
+          "evidence": "Energy deposition, lesions, checkpoint and repair, nucleotide limitation, dynamic spindle",
+          "assessment": "C5/6/9/12/15/19"
+        },
+        "E": {
+          "status": "pass",
+          "sections": "radiation, quantitative, dna-drugs, selectivity",
+          "evidence": "Gray, LET, radical chemistry, oxygen, coordination adducts, diffusion",
+          "assessment": "B2/4/16, C7"
+        },
+        "F": {
+          "status": "pass",
+          "sections": "fates, antimetabolites, mitosis, selectivity",
+          "evidence": "Checkpoint, repair, phase dynamics, metabolism, repopulation",
+          "assessment": "C5/6/14/16"
+        },
+        "G": {
+          "status": "pass",
+          "sections": "quantitative, worked",
+          "evidence": "LQ model, normalization, weighted survival, growth rate, geometry, independent reference; hypothetical examples",
+          "assessment": "C1/2/3/4/10/11/13/18"
+        },
+        "H": {
+          "status": "pass",
+          "sections": "history, fates, antimetabolites, selectivity",
+          "evidence": "Landmark studies, comparative controls, rescue and assay endpoints; source records and reviews",
+          "assessment": "C6/9/14/15/20"
+        },
+        "I": {
+          "status": "pass",
+          "sections": "surgery, fates, selectivity",
+          "evidence": "Normal tissue function, marrow and mucosal turnover, nonmitotic microtubules",
+          "assessment": "B12/18, C12/13"
+        },
+        "J": {
+          "status": "pass",
+          "sections": "selectivity",
+          "evidence": "Conserved eukaryotic machinery, model-system limits, clonal selection",
+          "assessment": "C2/4/16"
+        },
+        "K": {
+          "status": "pass",
+          "sections": "radiation, fates, dna-drugs, mitosis, selectivity",
+          "evidence": "Lesion processing, repair deficiency, checkpoint and p53 context, metabolic perturbation",
+          "assessment": "C5/9/14/15"
+        },
+        "L": {
+          "status": "pass",
+          "sections": "surgery, quantitative, selectivity",
+          "evidence": "Margins versus systemic disease, LQ limits, heterogeneous populations, endpoint limits",
+          "assessment": "C3/4/8/16"
+        },
+        "M": {
+          "status": "pass",
+          "sections": "surgery, history, selectivity",
+          "evidence": "Cancer interventions, research readouts, prevention distinction",
+          "assessment": "B3, mixed2/4/9"
+        },
+        "N": {
+          "status": "pass",
+          "sections": "foundations, fates, antimetabolites, mitosis, selectivity",
+          "evidence": "Cell cycle, DNA repair, metabolism, invasion, population selection; bridge to 4.E.12",
+          "assessment": "C6/8/12/19"
+        },
+        "O": {
+          "status": "pass",
+          "sections": "worked, part-b, part-c, mixed, traps, revision",
+          "evidence": "50 original questions, 8 worked examples, 18 traps, 16 active recall",
+          "assessment": "All 20 Part C questions"
+        }
+      },
       "review_pass_1": {
-        "method": "Internal science/scope review of saved narrative and cited records",
+        "method": "Internal scientific and syllabus review of saved HTML, official CSIR PDFs, SET mirror, NCI/IUPHAR, historical PubMed records and review excerpts; not external peer review.",
         "corrections": [
-          "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
-          "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
-          "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
+          "Clarified that cisplatin is not a literal alkyl donor, oxygen is not a requirement for all irradiation injury, checkpoint loss does not universally determine sensitivity, cytotoxicity includes delayed reproductive loss.",
+          "Expanded lesion complexity, repair/tissue recovery, historical evidence and study limitations, LQ model units and uncertainty, active metabolites, cell-cycle context and biological selectivity.",
+          "Verified Farber historical reference via PubMed PMID 18860765; distinguished aminopterin from methotrexate; verified Puck and Marcus PMID 13319584 and 13475608.",
+          "Recomputed examples and numerical answer keys after revisions."
         ]
       },
       "review_pass_2": {
-        "method": "Internal teaching and examination review of saved draft",
+        "method": "Internal teaching and assessment review of saved chapter, actual comparators and extracted questions, figures, anchors and answers.",
         "corrections": [
-          "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
-          "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
-          "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
+          "Expanded narrative from 5,885 to 14,093 words through specific mechanistic and evidence passages, not templated padding.",
+          "Replaced overlapping folate, microtubule and rescue discussions with branch-specific dependence, checkpoint escape and enzyme activity evidence.",
+          "Replaced or strengthened all 20 Part C items with normalized data, multistep reasoning, experimental alternatives or comparisons; improved misconceptions with plausible origin, correction and exam relevance.",
+          "Added 2 diagrams after first draft, adjusted figure order and arrows, added second comparison table, 8 worked examples, 16 recall prompts."
         ]
       },
-      "academic_self_review": {
-        "scope": 20,
-        "accuracy_mechanisms": 24,
-        "depth_narrative": 19,
-        "analytical_evidence": 14,
-        "practice_mastery": 9,
-        "technical_reader": 9,
+      "comparator": [
+        {
+          "node": "4.E.03",
+          "words": 14044,
+          "paragraphs": 150,
+          "scope": "Oncogene activation and signaling, actual saved page inspected"
+        },
+        {
+          "node": "4.E.05",
+          "words": 14101,
+          "paragraphs": 138,
+          "scope": "Cell-cycle checkpoint mechanisms, actual saved page inspected"
+        }
+      ],
+      "semantic_review": "Exact duplicates zero. Token-set Jaccard screening of earlier saved revision found highest overlap 0.182; qualitative inspection identified conceptual overlap in folate and spindle passages, replaced with distinct mechanisms. Recurring endpoint distinctions intentionally integrated in different scientific contexts. No claim of mathematically proven semantic originality.",
+      "academic_quality": {
+        "scope": {
+          "score": 20,
+          "max": 20,
+          "evidence": "All approved microtopics explicitly covered; scope matrix and official line verified."
+        },
+        "accuracy": {
+          "score": 24,
+          "max": 25,
+          "evidence": "Mechanistic corrections and verified references; no known critical error.",
+          "deduction": "Some historical and research records inspected only through abstracts or excerpts."
+        },
+        "depth": {
+          "score": 19,
+          "max": 20,
+          "evidence": "14,093 genuine words, 135 distinct paragraphs; comparator 14,044/14,101 words.",
+          "deduction": "Some comparative and historical treatment necessarily selective."
+        },
+        "evidence_quantitative": {
+          "score": 14,
+          "max": 15,
+          "evidence": "Classical studies and 8 worked examples; recalculated original questions, quantitative models and assumptions.",
+          "deduction": "Primary full-text access not comprehensive; numerical teaching data hypothetical."
+        },
+        "practice": {
+          "score": 9,
+          "max": 10,
+          "evidence": "20 Part B, 20 Part C, 10 mixed; all explained, balanced keys, revised Part C.",
+          "deduction": "No external examiner calibration; several conceptual distractors straightforward."
+        },
+        "technical": {
+          "score": 9,
+          "max": 10,
+          "evidence": "Saved HTML static audit, reader architecture copied from verified comparator, 10 title/desc SVGs, no bad anchor/zoom/ARIA targets or duplicate IDs.",
+          "deduction": "No interactive browser/device/assistive technology testing."
+        },
         "total": 95,
         "threshold": 95,
-        "rationale": {
-          "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
-          "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
-          "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
-          "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
-          "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
-          "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
-        }
+        "publication_eligible": true,
+        "assessment": "Internal editorial judgment following substantive revisions; not an independent external review."
       },
       "static_checks": {
+        "word_gate": true,
+        "exact_duplicate_paragraphs": 0,
         "duplicate_ids": 0,
-        "unresolved_internal_anchors": [],
-        "unresolved_js_ids": [],
-        "svg_accessible": 13,
-        "malformed_questions": 0,
-        "answer_positions": {
-          "A": 13,
-          "B": 13,
-          "C": 13,
-          "D": 13
-        },
-        "answer_key_mismatches": 0,
-        "html_tag_stack_errors": 0,
-        "reader_script_syntax": "Parsed; not executed in browser DOM",
-        "exact_duplicate_teaching_paragraphs": 0,
-        "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
-        "robots": "index,follow (publication)",
-        "numerical_recalculation": {
-          "conditional_yield": 5,
-          "organ": [
-            0.4,
-            0.1,
-            0.8,
-            0.025,
-            0.04,
-            0.02
-          ],
-          "doubling": 13.862943611198904,
-          "growth": 1087.312731383618,
-          "independent": 0.4879999999999999,
-          "diffusion": [
-            2,
-            8
-          ],
-          "sphere": [
-            0.06,
-            0.03,
-            8,
-            4
-          ],
-          "outgrowth": [
-            0.1,
-            0.1
-          ]
-        },
-        "menu_target_count": 1,
-        "sitemap_target_count": 1,
-        "checkpoint_matches_linked_nodes": true,
-        "all_prior_linked_files_exist": true
-      },
-      "neighbors": {
-        "previous": "4.E.09",
-        "next": "4.E.11",
-        "policy": "Resolve links from current homepage; disable when unpublished."
+        "broken_anchor_zoom_aria_targets": 0,
+        "malformed_question_blocks": 0,
+        "svg_title_desc": 10,
+        "balanced_tag_stack": true,
+        "canonical_correct": true,
+        "draft_robots": "noindex,nofollow",
+        "reader_controls_source_present": true,
+        "dynamic_navigation_codes": [
+          "4.E.10",
+          "4.E.12"
+        ],
+        "arithmetic_checked": [
+          0.4,
+          10000,
+          0.3571428571,
+          0.5488116361,
+          0.2,
+          0.3333333333,
+          0.125,
+          0.0693147181,
+          0.3,
+          0.5,
+          0.5555555556,
+          0.15,
+          0.2,
+          0.5,
+          0.3,
+          0.02,
+          0.075,
+          100,
+          850,
+          975,
+          100,
+          150
+        ]
       },
       "limitations": [
-        "Internal self-review only; no external peer/examiner validation.",
-        "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
-        "Current MP SET official-host copy not independently retrieved.",
-        "No browser rendering, real-device interaction or full assistive-technology testing."
+        "No external peer/examiner review.",
+        "Some primary full-text endpoints blocked or unavailable; references verified through records, abstracts, excerpts and authoritative overview sources.",
+        "MP SET 2024 mirror, not independently verified newer primary host.",
+        "No browser/device/assistive technology interactive testing. Deployment and live verification separate."
       ],
       "publication_eligible": true,
-      "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
-      "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-      "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-      "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
-      "academy_published_count": 184,
+      "draft_qa_commit_sha": "612256d3be5cdb86019fc9f001f1aed39b12bb0c",
+      "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+      "main_baseline_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+      "chapter_blob_sha": "ab029e438bd112065397cc233fe2acafa274f4c9",
+      "academy_published_count": 185,
       "academy_planned_count": 723,
-      "unit_04_published_count": 53,
+      "unit_04_published_count": 54,
       "unit_04_planned_count": 61,
-      "subunit_4e_published_count": 4,
+      "subunit_4e_published_count": 5,
       "subunit_4e_planned_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
       "reconciliation": {
-        "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
-        "concurrent_main_changes": true,
-        "previous_links_preserved": 183,
-        "previous_sitemap_urls_preserved": 184,
-        "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
+        "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+        "concurrent_changes_preserved": 184,
+        "method": "Fresh tree, index, sitemap and checkpoint at baseline; conditional non-force update.",
+        "neighbor_previous": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+        "neighbor_next": null
       }
     },
     "subunit_4a": {
@@ -19840,9 +20167,10 @@
         "4.E.03",
         "4.E.05",
         "4.E.10",
-        "4.E.11"
+        "4.E.11",
+        "4.E.12"
       ],
-      "published_node_count": 5,
+      "published_node_count": 6,
       "planned_node_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
@@ -19965,7 +20293,8 @@
     "4.E.03",
     "4.E.05",
     "4.E.10",
-    "4.E.11"
+    "4.E.11",
+    "4.E.12"
   ],
   "unit4e_planned_node_count": 12,
   "qa_history_by_node": {
@@ -21826,6 +22155,346 @@
         "neighbor_previous": "metastasis-intravasation-survival-extravasation-and-colonization.html",
         "neighbor_next": null
       }
+    },
+    "4.E.12": {
+      "node_id": "4.E.12",
+      "title": "Therapeutic Control II: Targeted Therapy, Immunotherapy and Resistance",
+      "date": "2026-11-26",
+      "status": "lesson_committed_pages_verification_pending",
+      "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+      "draft_chapter_commit": "104f36c3d4b08964514a095fc5c0aeec3d226e39",
+      "draft_chapter_blob": "8e550633a1134a7418fb388e26c76700294fe6ab",
+      "metrics": {
+        "genuine_teaching_words": 13371,
+        "raw_teaching_class_words": 13539,
+        "substantive_paragraphs": 147,
+        "all_teaching_class_paragraphs": 159,
+        "short_figure_reference_words_excluded": 168,
+        "visible_article_words_excluding_svg_and_buttons": 19806,
+        "exact_duplicate_paragraphs": 0,
+        "max_pairwise_lexical_jaccard": 0.20930232558139536,
+        "theory_sections": 12,
+        "svg": 12,
+        "tables": 1,
+        "worked_examples": 8,
+        "part_b": 20,
+        "part_c": 24,
+        "mixed": 8,
+        "total_questions": 52,
+        "misconceptions": 18,
+        "active_recall": 18,
+        "references": 16,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        }
+      },
+      "count_method": "Unicode word tokens from p.teaching-prose, excluding markup/entities and all 12 short figure-reference paragraphs (<30 words); assessment, tables, references, headings, revision and worked blocks excluded. Article total excludes SVG and buttons.",
+      "scope": {
+        "official": "Revised CSIR-UGC-DBT LS&BT Unit 4.E; separate CSIR LS Unit 4.D; archived MP SET Unit 4.D. Broad therapeutic interventions of uncontrolled cell growth; subdivisions are Academy's, not official exam headings.",
+        "limitations": "MP SET archived copy verified, current MPPSC-hosted version not independently located. Approved roadmap scope/mapping inspected before drafting; detailed matrix consolidated in this QA record afterward.",
+        "matrix": [
+          [
+            "Selective dependence",
+            "Cancer; signaling, growth control prerequisites",
+            "dependence; kinases",
+            "necessity vs association, inhibition vs occupancy",
+            "Avoid conventional therapy overlap"
+          ],
+          [
+            "Driver and receptor targeting",
+            "Cancer; kinases and receptors",
+            "bcr; receptors",
+            "fusion, receptor topology, signaling output",
+            "No regimen or dosing"
+          ],
+          [
+            "Endocrine and vascular intervention",
+            "Cancer; hormones and physiology",
+            "endocrine; angiogenesis",
+            "receptor vs ligand control, diffusion and vascular support",
+            "No clinical protocols"
+          ],
+          [
+            "Antibody and immune interventions",
+            "Cancer; antigen recognition, MHC, immune regulation",
+            "antibodies; checkpoints; cellular",
+            "Fab/Fc, CTLA-4/PD-1, direct vs MHC-dependent recognition",
+            "Conceptual mechanisms only"
+          ],
+          [
+            "Resistance, persistence and recurrence",
+            "Cancer; genetics and evolution",
+            "resistance; population",
+            "selection, network redundancy, net growth and residual disease",
+            "No actionable resistance engineering"
+          ],
+          [
+            "Integration and evidence",
+            "Cancer; experiments and quantitative biology",
+            "integration; compare; worked; assessments",
+            "causal inference and model assumptions",
+            "No unsupported clinical prediction"
+          ]
+        ]
+      },
+      "coverage": [
+        [
+          "A",
+          "pass",
+          "1–2",
+          "Target dependence, specificity, growth signals",
+          "B1–20"
+        ],
+        [
+          "B",
+          "pass",
+          "3,5,8",
+          "Philadelphia chromosome, imatinib, endocrine and CTLA-4 evidence",
+          "Historical evidence questions"
+        ],
+        [
+          "C",
+          "pass",
+          "2–9",
+          "Kinase pockets, receptor topology, Fab/Fc, immune recognition",
+          "Diagram and B/C practice"
+        ],
+        [
+          "D",
+          "pass",
+          "2–9",
+          "Binding, signaling, receptor regulation and immune activation",
+          "Mechanism questions"
+        ],
+        [
+          "E",
+          "pass",
+          "2,6,7,11",
+          "Binding equilibrium, ATP, diffusion, scaling and growth rates",
+          "Worked 1,2,4,7"
+        ],
+        [
+          "F",
+          "pass",
+          "4–10",
+          "Feedback, endocrine control, immune checkpoints, network responses",
+          "C perturbation questions"
+        ],
+        [
+          "G",
+          "pass",
+          "2,6,10–12",
+          "Occupancy, enrichment, growth, volume and independence",
+          "Eight worked examples and quantitative C"
+        ],
+        [
+          "H",
+          "pass",
+          "3,8,10,12",
+          "Published evidence and hypothetical inference, controls and limits",
+          "C evidence interpretation; primary full-text limits"
+        ],
+        [
+          "I",
+          "pass",
+          "4–9",
+          "Normal signaling, endocrine function, vasculature, immune tolerance",
+          "Conceptual and analytical practice"
+        ],
+        [
+          "J",
+          "pass",
+          "8–11",
+          "Mouse-to-human inference boundaries, somatic selection and cell-context differences",
+          "C selection and model interpretation"
+        ],
+        [
+          "K",
+          "pass",
+          "10–11",
+          "Intrinsic/acquired resistance, failure and relapse",
+          "C resistance questions"
+        ],
+        [
+          "L",
+          "pass",
+          "2–12",
+          "Occupancy, independence, biomarker and growth-model limitations",
+          "C conditional inference"
+        ],
+        [
+          "M",
+          "pass",
+          "3–9",
+          "Therapeutic targets and biomarker principles",
+          "B/C mechanisms"
+        ],
+        [
+          "N",
+          "pass",
+          "12 and revision",
+          "Signaling, immunology, evolution and developmental biology bridge",
+          "Mixed and recall"
+        ],
+        [
+          "O",
+          "pass",
+          "Worked, Part B/C, mixed, traps, revision",
+          "Original explained assessment and active recall",
+          "52 questions"
+        ]
+      ],
+      "reviews": [
+        {
+          "pass": 1,
+          "focus": "Science and scope",
+          "changes": [
+            "Expanded original 7,081-word draft with mechanism, structural context, normal physiology and evidence.",
+            "Added binding thermodynamics, feedback, historical evidence, sampling and population models.",
+            "Replotted schematic occupancy and exponential population curves from actual equations; clarified conditional inference and nonclinical scope."
+          ]
+        },
+        {
+          "pass": 2,
+          "focus": "Teaching and examination",
+          "changes": [
+            "Revised 30 assessment items for answer clarity, distractors and explanation, then strengthened seven numerical Part C items.",
+            "Expanded 18 misconceptions; added figure references, four sources, and responsive question-card styling.",
+            "Audited final saved HTML rather than initial text; compared actual neighboring chapter counts and inspected prose for conceptual overlap."
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "node": "4.E.02",
+          "words": 14077,
+          "paragraphs": 125
+        },
+        {
+          "node": "4.E.05",
+          "words": 14101,
+          "paragraphs": 138
+        },
+        {
+          "node": "4.D.12",
+          "words": 14124,
+          "paragraphs": 135
+        },
+        {
+          "node": "4.C.09",
+          "words": 14657,
+          "paragraphs": 145
+        }
+      ],
+      "quality": {
+        "scope": 20,
+        "accuracy": 24,
+        "depth": 19,
+        "experimental_analytical": 14,
+        "practice": 9,
+        "technical": 9,
+        "total": 95,
+        "threshold": 95,
+        "rationale": [
+          "All approved scope covered, syllabus mapping checked.",
+          "Mechanisms and equations reviewed; cited primary abstracts/reviews, not all full papers (-1).",
+          "13,371 conservative words; comparative depth acceptable, some purposeful recurring framing (-1).",
+          "Eight recalculated examples and experimental reasoning; model datasets hypothetical and historical evidence necessarily condensed (-1).",
+          "52 explained items, 24 analytical; internal assessment only, no psychometric calibration (-1).",
+          "Static HTML/JS and reader wiring passed; no interactive device/browser test (-1)."
+        ]
+      },
+      "static_checks": {
+        "duplicate_ids": 0,
+        "broken_anchors": 0,
+        "missing_aria_refs": 0,
+        "missing_zoom_targets": 0,
+        "svg_title_desc": 12,
+        "answer_key_mismatches": 0,
+        "html_stack_errors": 0,
+        "js_parse": "pass",
+        "canonical": "correct intended production URL",
+        "draft_robots": "noindex,nofollow",
+        "local_links": "./ only; dynamic neighboring links resolved through homepage",
+        "numerical_checks": {
+          "occupancy": 0.75,
+          "half_time": 9.902102579427789,
+          "enrichment": 0.47058823529411764,
+          "area_volume": [
+            6,
+            3
+          ],
+          "joint_survival": 0.27999999999999997,
+          "difference": 0.06999999999999995,
+          "volume_ratio": 0.421875,
+          "decline": 0.578125,
+          "net_rate": 0,
+          "part_c": [
+            0.75,
+            0.5,
+            8,
+            0.5025125628140703,
+            0.9901970395059309,
+            0.25,
+            0.02,
+            0.075,
+            -0.08,
+            8.664339756999317,
+            0.768,
+            0.3,
+            0.12
+          ]
+        }
+      },
+      "limitations": [
+        "Internal review, not external peer review.",
+        "Official MP SET archived copy rather than newly retrieved official host.",
+        "Evidence based on indexed abstracts, authoritative reviews and established textbook knowledge; not all primary full texts inspected.",
+        "No interactive browser/mobile/device/assistive-technology test. Static source checks only.",
+        "No formal semantic originality or student validation; lexical screen plus editorial review."
+      ],
+      "publication_eligible": true,
+      "unit": "04",
+      "subunit": "4.E",
+      "slug": "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+      "source_draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+      "source_draft_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+      "draft_qa_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+      "publication_base_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+      "main_baseline_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+      "chapter_blob_sha": "9d2c72ce5e9b0e6a2ba3af742f9bc16b587815e2",
+      "academy_published_count": 186,
+      "academy_planned_count": 723,
+      "unit_04_published_count": 55,
+      "unit_04_planned_count": 61,
+      "subunit_4e_published_count": 6,
+      "subunit_4e_planned_count": 12,
+      "next_pending_node_id": "4.E.01",
+      "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+      "neighbors": {
+        "previous": {
+          "id": "4.E.11",
+          "published": true
+        },
+        "next": {
+          "id": "5.A.01",
+          "published": false
+        },
+        "implementation": "Dynamic homepage resolution; disable missing lesson"
+      },
+      "reconciliation": {
+        "preserved_existing_links": 185,
+        "preserved_existing_sitemap_urls": 186,
+        "verified_existing_linked_files": 185,
+        "concurrent_main_changes": true,
+        "conditional_nonforce_update": true
+      },
+      "production_robots": "index,follow"
     }
   },
   "academy_planned_node_count": 723

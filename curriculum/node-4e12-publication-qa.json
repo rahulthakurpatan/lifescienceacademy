@@ -1,0 +1,340 @@
+{
+  "node_id": "4.E.12",
+  "title": "Therapeutic Control II: Targeted Therapy, Immunotherapy and Resistance",
+  "date": "2026-11-26",
+  "status": "lesson_committed_pages_verification_pending",
+  "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+  "draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+  "draft_chapter_commit": "104f36c3d4b08964514a095fc5c0aeec3d226e39",
+  "draft_chapter_blob": "8e550633a1134a7418fb388e26c76700294fe6ab",
+  "metrics": {
+    "genuine_teaching_words": 13371,
+    "raw_teaching_class_words": 13539,
+    "substantive_paragraphs": 147,
+    "all_teaching_class_paragraphs": 159,
+    "short_figure_reference_words_excluded": 168,
+    "visible_article_words_excluding_svg_and_buttons": 19806,
+    "exact_duplicate_paragraphs": 0,
+    "max_pairwise_lexical_jaccard": 0.20930232558139536,
+    "theory_sections": 12,
+    "svg": 12,
+    "tables": 1,
+    "worked_examples": 8,
+    "part_b": 20,
+    "part_c": 24,
+    "mixed": 8,
+    "total_questions": 52,
+    "misconceptions": 18,
+    "active_recall": 18,
+    "references": 16,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 13
+    }
+  },
+  "count_method": "Unicode word tokens from p.teaching-prose, excluding markup/entities and all 12 short figure-reference paragraphs (<30 words); assessment, tables, references, headings, revision and worked blocks excluded. Article total excludes SVG and buttons.",
+  "scope": {
+    "official": "Revised CSIR-UGC-DBT LS&BT Unit 4.E; separate CSIR LS Unit 4.D; archived MP SET Unit 4.D. Broad therapeutic interventions of uncontrolled cell growth; subdivisions are Academy's, not official exam headings.",
+    "limitations": "MP SET archived copy verified, current MPPSC-hosted version not independently located. Approved roadmap scope/mapping inspected before drafting; detailed matrix consolidated in this QA record afterward.",
+    "matrix": [
+      [
+        "Selective dependence",
+        "Cancer; signaling, growth control prerequisites",
+        "dependence; kinases",
+        "necessity vs association, inhibition vs occupancy",
+        "Avoid conventional therapy overlap"
+      ],
+      [
+        "Driver and receptor targeting",
+        "Cancer; kinases and receptors",
+        "bcr; receptors",
+        "fusion, receptor topology, signaling output",
+        "No regimen or dosing"
+      ],
+      [
+        "Endocrine and vascular intervention",
+        "Cancer; hormones and physiology",
+        "endocrine; angiogenesis",
+        "receptor vs ligand control, diffusion and vascular support",
+        "No clinical protocols"
+      ],
+      [
+        "Antibody and immune interventions",
+        "Cancer; antigen recognition, MHC, immune regulation",
+        "antibodies; checkpoints; cellular",
+        "Fab/Fc, CTLA-4/PD-1, direct vs MHC-dependent recognition",
+        "Conceptual mechanisms only"
+      ],
+      [
+        "Resistance, persistence and recurrence",
+        "Cancer; genetics and evolution",
+        "resistance; population",
+        "selection, network redundancy, net growth and residual disease",
+        "No actionable resistance engineering"
+      ],
+      [
+        "Integration and evidence",
+        "Cancer; experiments and quantitative biology",
+        "integration; compare; worked; assessments",
+        "causal inference and model assumptions",
+        "No unsupported clinical prediction"
+      ]
+    ]
+  },
+  "coverage": [
+    [
+      "A",
+      "pass",
+      "1–2",
+      "Target dependence, specificity, growth signals",
+      "B1–20"
+    ],
+    [
+      "B",
+      "pass",
+      "3,5,8",
+      "Philadelphia chromosome, imatinib, endocrine and CTLA-4 evidence",
+      "Historical evidence questions"
+    ],
+    [
+      "C",
+      "pass",
+      "2–9",
+      "Kinase pockets, receptor topology, Fab/Fc, immune recognition",
+      "Diagram and B/C practice"
+    ],
+    [
+      "D",
+      "pass",
+      "2–9",
+      "Binding, signaling, receptor regulation and immune activation",
+      "Mechanism questions"
+    ],
+    [
+      "E",
+      "pass",
+      "2,6,7,11",
+      "Binding equilibrium, ATP, diffusion, scaling and growth rates",
+      "Worked 1,2,4,7"
+    ],
+    [
+      "F",
+      "pass",
+      "4–10",
+      "Feedback, endocrine control, immune checkpoints, network responses",
+      "C perturbation questions"
+    ],
+    [
+      "G",
+      "pass",
+      "2,6,10–12",
+      "Occupancy, enrichment, growth, volume and independence",
+      "Eight worked examples and quantitative C"
+    ],
+    [
+      "H",
+      "pass",
+      "3,8,10,12",
+      "Published evidence and hypothetical inference, controls and limits",
+      "C evidence interpretation; primary full-text limits"
+    ],
+    [
+      "I",
+      "pass",
+      "4–9",
+      "Normal signaling, endocrine function, vasculature, immune tolerance",
+      "Conceptual and analytical practice"
+    ],
+    [
+      "J",
+      "pass",
+      "8–11",
+      "Mouse-to-human inference boundaries, somatic selection and cell-context differences",
+      "C selection and model interpretation"
+    ],
+    [
+      "K",
+      "pass",
+      "10–11",
+      "Intrinsic/acquired resistance, failure and relapse",
+      "C resistance questions"
+    ],
+    [
+      "L",
+      "pass",
+      "2–12",
+      "Occupancy, independence, biomarker and growth-model limitations",
+      "C conditional inference"
+    ],
+    [
+      "M",
+      "pass",
+      "3–9",
+      "Therapeutic targets and biomarker principles",
+      "B/C mechanisms"
+    ],
+    [
+      "N",
+      "pass",
+      "12 and revision",
+      "Signaling, immunology, evolution and developmental biology bridge",
+      "Mixed and recall"
+    ],
+    [
+      "O",
+      "pass",
+      "Worked, Part B/C, mixed, traps, revision",
+      "Original explained assessment and active recall",
+      "52 questions"
+    ]
+  ],
+  "reviews": [
+    {
+      "pass": 1,
+      "focus": "Science and scope",
+      "changes": [
+        "Expanded original 7,081-word draft with mechanism, structural context, normal physiology and evidence.",
+        "Added binding thermodynamics, feedback, historical evidence, sampling and population models.",
+        "Replotted schematic occupancy and exponential population curves from actual equations; clarified conditional inference and nonclinical scope."
+      ]
+    },
+    {
+      "pass": 2,
+      "focus": "Teaching and examination",
+      "changes": [
+        "Revised 30 assessment items for answer clarity, distractors and explanation, then strengthened seven numerical Part C items.",
+        "Expanded 18 misconceptions; added figure references, four sources, and responsive question-card styling.",
+        "Audited final saved HTML rather than initial text; compared actual neighboring chapter counts and inspected prose for conceptual overlap."
+      ]
+    }
+  ],
+  "comparators": [
+    {
+      "node": "4.E.02",
+      "words": 14077,
+      "paragraphs": 125
+    },
+    {
+      "node": "4.E.05",
+      "words": 14101,
+      "paragraphs": 138
+    },
+    {
+      "node": "4.D.12",
+      "words": 14124,
+      "paragraphs": 135
+    },
+    {
+      "node": "4.C.09",
+      "words": 14657,
+      "paragraphs": 145
+    }
+  ],
+  "quality": {
+    "scope": 20,
+    "accuracy": 24,
+    "depth": 19,
+    "experimental_analytical": 14,
+    "practice": 9,
+    "technical": 9,
+    "total": 95,
+    "threshold": 95,
+    "rationale": [
+      "All approved scope covered, syllabus mapping checked.",
+      "Mechanisms and equations reviewed; cited primary abstracts/reviews, not all full papers (-1).",
+      "13,371 conservative words; comparative depth acceptable, some purposeful recurring framing (-1).",
+      "Eight recalculated examples and experimental reasoning; model datasets hypothetical and historical evidence necessarily condensed (-1).",
+      "52 explained items, 24 analytical; internal assessment only, no psychometric calibration (-1).",
+      "Static HTML/JS and reader wiring passed; no interactive device/browser test (-1)."
+    ]
+  },
+  "static_checks": {
+    "duplicate_ids": 0,
+    "broken_anchors": 0,
+    "missing_aria_refs": 0,
+    "missing_zoom_targets": 0,
+    "svg_title_desc": 12,
+    "answer_key_mismatches": 0,
+    "html_stack_errors": 0,
+    "js_parse": "pass",
+    "canonical": "correct intended production URL",
+    "draft_robots": "noindex,nofollow",
+    "local_links": "./ only; dynamic neighboring links resolved through homepage",
+    "numerical_checks": {
+      "occupancy": 0.75,
+      "half_time": 9.902102579427789,
+      "enrichment": 0.47058823529411764,
+      "area_volume": [
+        6,
+        3
+      ],
+      "joint_survival": 0.27999999999999997,
+      "difference": 0.06999999999999995,
+      "volume_ratio": 0.421875,
+      "decline": 0.578125,
+      "net_rate": 0,
+      "part_c": [
+        0.75,
+        0.5,
+        8,
+        0.5025125628140703,
+        0.9901970395059309,
+        0.25,
+        0.02,
+        0.075,
+        -0.08,
+        8.664339756999317,
+        0.768,
+        0.3,
+        0.12
+      ]
+    }
+  },
+  "limitations": [
+    "Internal review, not external peer review.",
+    "Official MP SET archived copy rather than newly retrieved official host.",
+    "Evidence based on indexed abstracts, authoritative reviews and established textbook knowledge; not all primary full texts inspected.",
+    "No interactive browser/mobile/device/assistive-technology test. Static source checks only.",
+    "No formal semantic originality or student validation; lexical screen plus editorial review."
+  ],
+  "publication_eligible": true,
+  "unit": "04",
+  "subunit": "4.E",
+  "slug": "therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-ii-targeted-therapy-immunotherapy-and-resistance.html",
+  "source_draft_branch": "draft/4.E.12-targeted-therapy-immunotherapy",
+  "source_draft_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+  "draft_qa_commit_sha": "481b5f6cefe2344bc82f701519633a94a5f7df8a",
+  "publication_base_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+  "main_baseline_sha": "763881446e86a5942ccabfd6f3d41f2bd0183f39",
+  "chapter_blob_sha": "9d2c72ce5e9b0e6a2ba3af742f9bc16b587815e2",
+  "academy_published_count": 186,
+  "academy_planned_count": 723,
+  "unit_04_published_count": 55,
+  "unit_04_planned_count": 61,
+  "subunit_4e_published_count": 6,
+  "subunit_4e_planned_count": 12,
+  "next_pending_node_id": "4.E.01",
+  "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+  "neighbors": {
+    "previous": {
+      "id": "4.E.11",
+      "published": true
+    },
+    "next": {
+      "id": "5.A.01",
+      "published": false
+    },
+    "implementation": "Dynamic homepage resolution; disable missing lesson"
+  },
+  "reconciliation": {
+    "preserved_existing_links": 185,
+    "preserved_existing_sitemap_urls": 186,
+    "verified_existing_linked_files": 185,
+    "concurrent_main_changes": true,
+    "conditional_nonforce_update": true
+  },
+  "production_robots": "index,follow"
+}

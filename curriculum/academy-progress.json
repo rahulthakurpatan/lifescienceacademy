@@ -4,24 +4,557 @@
   "unit": "04",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "4.E.02",
-  "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
+  "node_id": "4.E.03",
+  "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
   "subunit": "4.E",
-  "topic": "Cancer",
-  "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
+  "topic": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+  "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
   "next_pending_node_id": "4.E.01",
   "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-  "published_node_count": 182,
+  "published_node_count": 183,
   "publication_allowed": true,
-  "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+  "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
   "quality_hold": false,
-  "next_required_action": "Verify GitHub Pages deployment and continue with 4.E.01 — Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+  "next_required_action": "Verify GitHub Pages deployment and live chapter; develop next pending node 4.E.01",
   "planned_node_count": 61,
   "planned_subunit_count": 5,
   "architecture_version": "unit-04-cell-communication-signaling-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-04-cell-communication-signaling-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
   "last_qa": {
+    "node_id": "4.E.03",
+    "unit": "04",
+    "subunit": "4.E",
+    "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+    "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+    "checked_date": "2026-11-26",
+    "status": "lesson_committed_pages_verification_pending",
+    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+    "source_draft_branch": "draft/node-4e03-oncogene-gain-of-function",
+    "source_draft_commit_sha": "ba2c4fbfefd2d991117dbb8e7980859ca96720e1",
+    "draft_blob_sha": "df60360e3bdf972f4d22bf25aa58743c5de3e690",
+    "metrics": {
+      "teaching_words": 14044,
+      "visible_article_words_excluding_svg_and_buttons": 21660,
+      "teaching_paragraphs": 150,
+      "exact_duplicate_paragraphs": 0,
+      "theory_sections": 28,
+      "total_sections": 36,
+      "svg": 14,
+      "tables": 2,
+      "worked_examples": 9,
+      "part_b": 22,
+      "part_c": 24,
+      "mixed": 8,
+      "total_questions": 54,
+      "misconceptions": 18,
+      "active_recall": 20,
+      "scientific_references": 19,
+      "syllabus_references": 3,
+      "answer_positions": {
+        "A": 14,
+        "B": 13,
+        "C": 13,
+        "D": 14
+      }
+    },
+    "word_count_method": "Unicode letter/number words with internal apostrophes or hyphens, actual saved p.teaching-prose only; headings, tables, SVG, questions, worked examples, revision and references excluded. Visible article count excludes SVG and button contents.",
+    "comparator": {
+      "node": "4.A.06",
+      "teaching_words": 13948,
+      "comparison": "Published saved HTML recount; comparable substantial signaling narrative, with target-specific genetic mechanisms. 4.E neighbors were unpublished at initial inspection."
+    },
+    "syllabus": {
+      "official_revised": "CSIR-HRDG merged Unit 4.E, printed p5, screenshot inspected",
+      "official_legacy": "CSIR-HRDG Unit 4.D, printed p3, screenshot inspected",
+      "mp_set": "MP SET 2024 archived scan Unit 4.D, printed p3, screenshot inspected; current official-host copy not confirmed",
+      "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+      "microtopic_matrix": [
+        [
+          "Proto-oncogene versus oncogene; cellular dominance",
+          "1–5,17",
+          "Cancer oncogenes; prerequisite normal signaling and alleles",
+          "Distinguish altered function, not inherited penetrance; B/C"
+        ],
+        [
+          "RAS mutation and switch termination",
+          "6–8,15",
+          "Oncogenes; RTK signaling prerequisite",
+          "GDP/GTP, GAP/GEF, kinetics, C23–29"
+        ],
+        [
+          "HER2 amplification and gene dosage",
+          "9,18,21",
+          "Oncogenes; receptor and transcription prerequisites",
+          "Dosage versus affinity/activity; C30–33"
+        ],
+        [
+          "MYC expression and regulatory rearrangement",
+          "10–11,13",
+          "Oncogenes and rearrangements; transcription prerequisite",
+          "MYC–MAX and regulatory juxtaposition; C34"
+        ],
+        [
+          "BCR::ABL1 fusion",
+          "12–13",
+          "Oncogenes and genetic rearrangements; kinase prerequisite",
+          "Fusion and altered regulation; C34–35; no detailed clinical therapy"
+        ],
+        [
+          "Cooperation and functional evidence",
+          "14–17,19–28",
+          "Cancer oncogenes and cell-cycle control",
+          "Controls, dependence, model limits, suppressor bridge; C36–46"
+        ]
+      ]
+    },
+    "coverage_360": [
+      {
+        "dimension": "A",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "1,3–5",
+        "evidence": "Normal growth, allele and proto-oncogene distinctions",
+        "assessment": "B1–22",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "B",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "2,19",
+        "evidence": "Src cellular origin, T24 transformation and landmark evidence",
+        "assessment": "Historical and interpretation questions",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "C",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "6,9–12,24",
+        "evidence": "RAS switch, HER2 architecture, MYC–MAX, BCR::ABL1 kinase fusion",
+        "assessment": "Diagrams and B/C",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "D",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "6–12,15–17",
+        "evidence": "Nucleotide cycle, dosage, regulatory relocation, fusion, cooperation",
+        "assessment": "C23–36",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "E",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "6,8,12,18",
+        "evidence": "Hydrolysis, ATP-dependent kinase output, binding, rate constants",
+        "assessment": "Worked 1–4",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "F",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "7,14–17,25",
+        "evidence": "Feedback, GAP/GEF, receptor dependence, signaling threshold",
+        "assessment": "C27–29,36,46",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "G",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "8,18,21–23",
+        "evidence": "Occupancy, decay, dosage, VAF and relative clonal growth",
+        "assessment": "Worked 1–9, C23–26,30–32,37–41",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "H",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "2,19–20,25–26",
+        "evidence": "Landmark studies, assay controls, correlation, matched perturbation and rescue",
+        "assessment": "C27–29,43–45",
+        "remaining_gaps": "Some primary full texts unavailable; abstract/review verification only."
+      },
+      {
+        "dimension": "I",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "1,16,27",
+        "evidence": "Physiological growth control, tissue constraints, apoptosis and senescence",
+        "assessment": "C42,45–46",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "J",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "23–24,27",
+        "evidence": "Conserved growth-control modules, somatic selection and comparative limits",
+        "assessment": "Integrated practice",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "K",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "5–17,25",
+        "evidence": "Activating lesions, feedback, context and altered regulation",
+        "assessment": "C23–36,42",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "L",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "8,13–16,20–23,26",
+        "evidence": "Model assumptions, mixed-cell samples, necessity versus sufficiency",
+        "assessment": "C31–41,43–46",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "M",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "20–21,25–26",
+        "evidence": "Molecular diagnostic interpretation and selective dependency principles",
+        "assessment": "C28,31,33–35,44",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "N",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "13,17,24–28",
+        "evidence": "Links to signaling, cell cycle, genetic alterations and suppressors",
+        "assessment": "Mixed and recall",
+        "remaining_gaps": "No mandatory scope gap identified in internal review."
+      },
+      {
+        "dimension": "O",
+        "applicable": true,
+        "status": "PASS",
+        "sections": "28,worked,part-b,part-c,mixed,traps,revision",
+        "evidence": "54 explained original items and active recall",
+        "assessment": "22 B,24 C,8 mixed",
+        "remaining_gaps": "Difficulty internally reviewed, no psychometric validation."
+      }
+    ],
+    "review_pass_1": {
+      "method": "Internal scientific and syllabus review of saved HTML, source records, reviews, abstracts and textbook knowledge.",
+      "corrections": [
+        "Separated cellular dominance from inheritance and malignant sufficiency.",
+        "Clarified GAP-mediated hydrolysis and receptor-independent output versus universal autonomy; HER2 has no known direct soluble ligand.",
+        "Distinguished MYC regulatory relocation from coding fusion, gene copy from activity, and VAF from cell prevalence.",
+        "Checked hypothetical numerical examples and diagrams; retained physiological and comparative boundaries."
+      ]
+    },
+    "review_pass_2": {
+      "method": "Internal teaching/exam review of saved chapter; not external peer review.",
+      "corrections": [
+        "Strengthened distractors/explanations in 25 questions, then revised six Part C items to multistep comparative analysis.",
+        "Added prerequisite internal links and measurement comparison table; corrected responsive table styling.",
+        "Checked 150 teaching paragraphs; zero exact duplicates, maximum pairwise lexical Jaccard 0.307; purposeful conceptual reinforcement, not proof of semantic originality.",
+        "Preserved existing reader and dynamic navigation."
+      ]
+    },
+    "academic_self_review": {
+      "scope": {
+        "score": 20,
+        "max": 20,
+        "evidence": "All Academy roadmap microtopics covered, aligned to official oncogene syllabus and archived SET."
+      },
+      "accuracy": {
+        "score": 24,
+        "max": 25,
+        "deduction": "Not all primary full texts accessible; reviewed abstract/review evidence and textbook mechanisms."
+      },
+      "depth": {
+        "score": 19,
+        "max": 20,
+        "deduction": "Some conceptual reinforcement across mechanism and reasoning sections; not independently learner-tested."
+      },
+      "analytical": {
+        "score": 14,
+        "max": 15,
+        "deduction": "Numerical datasets hypothetical rather than original research data; 9 worked examples."
+      },
+      "practice": {
+        "score": 9,
+        "max": 10,
+        "deduction": "54 explained original questions; difficulty not psychometrically calibrated and some analytical questions shorter than advanced Part C."
+      },
+      "technical": {
+        "score": 9,
+        "max": 10,
+        "deduction": "Static HTML/JS source checks only; no interactive browser/device test."
+      },
+      "total": 95,
+      "threshold": 95
+    },
+    "static_checks": {
+      "duplicate_ids": 0,
+      "broken_anchors": [],
+      "broken_aria_targets": [],
+      "svg_missing_title_desc": 0,
+      "html_stack_errors": 0,
+      "answer_key_mismatches": 0,
+      "script_syntax": "parsed; not executed in DOM",
+      "placeholders": false,
+      "canonical": true,
+      "robots": "index,follow",
+      "max_pairwise_lexical_jaccard": 0.3069306930693069,
+      "numerical_recalculation": [
+        0.2,
+        0.8,
+        0.8664339756999315,
+        13.862943611198904,
+        0.3,
+        0.3,
+        20,
+        80,
+        1,
+        4,
+        0.3,
+        0.5625,
+        2.718281828459045,
+        0.8125,
+        0.05555555555555555,
+        0.025,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "menu_target_count": 1,
+      "sitemap_target_count": 1,
+      "local_links_exist": true,
+      "checkpoint_matches_linked_nodes": true
+    },
+    "neighbors": {
+      "previous": "4.E.02",
+      "next": "4.E.04",
+      "policy": "Dynamic homepage resolution; unpublished node disabled"
+    },
+    "limitations": [
+      "Internal self-review, not external peer review.",
+      "MP SET archived scan, not verified against current MPPSC-hosted copy.",
+      "Some scientific sources checked via abstracts or review excerpts rather than full text.",
+      "No browser/device interaction, assistive technology or student testing."
+    ],
+    "publication_eligible": true,
+    "draft_qa_commit_sha": "470bb66b8da72798ff35b15c1d3a6fbb372442ff",
+    "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+    "publication_base_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+    "chapter_blob_sha": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550",
+    "academy_published_count": 183,
+    "academy_planned_count": 723,
+    "unit_04_published_count": 52,
+    "unit_04_planned_count": 61,
+    "subunit_4e_published_count": 3,
+    "subunit_4e_planned_count": 12,
+    "next_pending_node_id": "4.E.01",
+    "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+    "reconciliation": {
+      "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "concurrent_main_changes": true,
+      "previous_links_preserved": 182,
+      "previous_sitemap_urls_preserved": 183,
+      "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
+    }
+  },
+  "published_node_ids": [
+    "1.A.01",
+    "1.A.02",
+    "1.A.03",
+    "1.A.04",
+    "1.A.05",
+    "1.B.01",
+    "1.B.02",
+    "1.B.03",
+    "1.B.04",
+    "1.B.05",
+    "1.C.01",
+    "1.C.02",
+    "1.C.03",
+    "1.C.04",
+    "1.C.05",
+    "1.D.01",
+    "1.D.02",
+    "1.D.03",
+    "1.D.04",
+    "1.D.05",
+    "1.E.01",
+    "1.E.02",
+    "1.E.03",
+    "1.E.04",
+    "1.E.05",
+    "1.F.01",
+    "1.F.02",
+    "1.F.03",
+    "1.F.04",
+    "1.F.05",
+    "2.A.01",
+    "2.A.02",
+    "2.A.03",
+    "2.A.04",
+    "2.A.05",
+    "2.A.06",
+    "2.A.07",
+    "2.A.08",
+    "2.A.09",
+    "2.A.10",
+    "2.B.01",
+    "2.B.02",
+    "2.B.03",
+    "2.B.04",
+    "2.B.05",
+    "2.B.06",
+    "2.B.07",
+    "2.B.08",
+    "2.B.09",
+    "2.B.10",
+    "2.C.01",
+    "2.C.02",
+    "2.C.03",
+    "2.C.04",
+    "2.C.05",
+    "2.C.06",
+    "2.C.07",
+    "2.C.08",
+    "2.C.09",
+    "2.C.10",
+    "2.D.01",
+    "2.D.02",
+    "2.D.03",
+    "2.D.04",
+    "2.D.05",
+    "2.D.06",
+    "2.D.07",
+    "2.D.08",
+    "2.D.09",
+    "2.D.10",
+    "2.E.01",
+    "2.E.02",
+    "2.E.03",
+    "2.E.04",
+    "2.E.05",
+    "2.E.06",
+    "2.E.07",
+    "2.E.08",
+    "2.E.09",
+    "2.E.10",
+    "3.A.01",
+    "3.A.02",
+    "3.A.03",
+    "3.A.04",
+    "3.A.05",
+    "3.A.06",
+    "3.A.07",
+    "3.A.08",
+    "3.A.09",
+    "3.A.10",
+    "3.A.11",
+    "3.A.12",
+    "3.B.01",
+    "3.B.02",
+    "3.B.03",
+    "3.B.04",
+    "3.B.05",
+    "3.B.06",
+    "3.B.07",
+    "3.B.08",
+    "3.B.09",
+    "3.B.10",
+    "3.B.11",
+    "3.B.12",
+    "3.B.13",
+    "3.C.01",
+    "3.C.02",
+    "3.C.03",
+    "3.C.04",
+    "3.C.05",
+    "3.C.06",
+    "3.C.07",
+    "3.C.08",
+    "3.C.09",
+    "3.C.10",
+    "3.C.11",
+    "3.C.12",
+    "3.C.13",
+    "3.C.14",
+    "3.D.01",
+    "3.D.02",
+    "3.D.03",
+    "3.D.04",
+    "3.D.05",
+    "3.D.06",
+    "3.D.07",
+    "3.D.08",
+    "3.D.09",
+    "3.D.10",
+    "3.D.11",
+    "3.D.12",
+    "4.A.01",
+    "4.A.02",
+    "4.A.03",
+    "4.A.04",
+    "4.A.05",
+    "4.A.06",
+    "4.A.07",
+    "4.A.08",
+    "4.A.09",
+    "4.A.10",
+    "4.A.11",
+    "4.A.12",
+    "4.A.13",
+    "4.B.01",
+    "4.B.02",
+    "4.B.03",
+    "4.B.04",
+    "4.B.05",
+    "4.B.06",
+    "4.B.07",
+    "4.B.08",
+    "4.B.09",
+    "4.B.10",
+    "4.B.11",
+    "4.C.01",
+    "4.C.02",
+    "4.C.03",
+    "4.C.04",
+    "4.C.05",
+    "4.C.06",
+    "4.C.07",
+    "4.C.08",
+    "4.C.09",
+    "4.C.10",
+    "4.C.11",
+    "4.C.12",
+    "4.C.13",
+    "4.D.01",
+    "4.D.02",
+    "4.D.03",
+    "4.D.04",
+    "4.D.05",
+    "4.D.06",
+    "4.D.07",
+    "4.D.08",
+    "4.D.09",
+    "4.D.10",
+    "4.D.11",
+    "4.D.12",
+    "4.E.02",
+    "4.E.03",
+    "4.E.05"
+  ],
+  "prior_publication_qa": {
     "node_id": "4.E.02",
     "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
     "unit": "04",
@@ -284,654 +817,267 @@
       "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
     }
   },
-  "published_node_ids": [
-    "1.A.01",
-    "1.A.02",
-    "1.A.03",
-    "1.A.04",
-    "1.A.05",
-    "1.B.01",
-    "1.B.02",
-    "1.B.03",
-    "1.B.04",
-    "1.B.05",
-    "1.C.01",
-    "1.C.02",
-    "1.C.03",
-    "1.C.04",
-    "1.C.05",
-    "1.D.01",
-    "1.D.02",
-    "1.D.03",
-    "1.D.04",
-    "1.D.05",
-    "1.E.01",
-    "1.E.02",
-    "1.E.03",
-    "1.E.04",
-    "1.E.05",
-    "1.F.01",
-    "1.F.02",
-    "1.F.03",
-    "1.F.04",
-    "1.F.05",
-    "2.A.01",
-    "2.A.02",
-    "2.A.03",
-    "2.A.04",
-    "2.A.05",
-    "2.A.06",
-    "2.A.07",
-    "2.A.08",
-    "2.A.09",
-    "2.A.10",
-    "2.B.01",
-    "2.B.02",
-    "2.B.03",
-    "2.B.04",
-    "2.B.05",
-    "2.B.06",
-    "2.B.07",
-    "2.B.08",
-    "2.B.09",
-    "2.B.10",
-    "2.C.01",
-    "2.C.02",
-    "2.C.03",
-    "2.C.04",
-    "2.C.05",
-    "2.C.06",
-    "2.C.07",
-    "2.C.08",
-    "2.C.09",
-    "2.C.10",
-    "2.D.01",
-    "2.D.02",
-    "2.D.03",
-    "2.D.04",
-    "2.D.05",
-    "2.D.06",
-    "2.D.07",
-    "2.D.08",
-    "2.D.09",
-    "2.D.10",
-    "2.E.01",
-    "2.E.02",
-    "2.E.03",
-    "2.E.04",
-    "2.E.05",
-    "2.E.06",
-    "2.E.07",
-    "2.E.08",
-    "2.E.09",
-    "2.E.10",
-    "3.A.01",
-    "3.A.02",
-    "3.A.03",
-    "3.A.04",
-    "3.A.05",
-    "3.A.06",
-    "3.A.07",
-    "3.A.08",
-    "3.A.09",
-    "3.A.10",
-    "3.A.11",
-    "3.A.12",
-    "3.B.01",
-    "3.B.02",
-    "3.B.03",
-    "3.B.04",
-    "3.B.05",
-    "3.B.06",
-    "3.B.07",
-    "3.B.08",
-    "3.B.09",
-    "3.B.10",
-    "3.B.11",
-    "3.B.12",
-    "3.B.13",
-    "3.C.01",
-    "3.C.02",
-    "3.C.03",
-    "3.C.04",
-    "3.C.05",
-    "3.C.06",
-    "3.C.07",
-    "3.C.08",
-    "3.C.09",
-    "3.C.10",
-    "3.C.11",
-    "3.C.12",
-    "3.C.13",
-    "3.C.14",
-    "3.D.01",
-    "3.D.02",
-    "3.D.03",
-    "3.D.04",
-    "3.D.05",
-    "3.D.06",
-    "3.D.07",
-    "3.D.08",
-    "3.D.09",
-    "3.D.10",
-    "3.D.11",
-    "3.D.12",
-    "4.A.01",
-    "4.A.02",
-    "4.A.03",
-    "4.A.04",
-    "4.A.05",
-    "4.A.06",
-    "4.A.07",
-    "4.A.08",
-    "4.A.09",
-    "4.A.10",
-    "4.A.11",
-    "4.A.12",
-    "4.A.13",
-    "4.B.01",
-    "4.B.02",
-    "4.B.03",
-    "4.B.04",
-    "4.B.05",
-    "4.B.06",
-    "4.B.07",
-    "4.B.08",
-    "4.B.09",
-    "4.B.10",
-    "4.B.11",
-    "4.C.01",
-    "4.C.02",
-    "4.C.03",
-    "4.C.04",
-    "4.C.05",
-    "4.C.06",
-    "4.C.07",
-    "4.C.08",
-    "4.C.09",
-    "4.C.10",
-    "4.C.11",
-    "4.C.12",
-    "4.C.13",
-    "4.D.01",
-    "4.D.02",
-    "4.D.03",
-    "4.D.04",
-    "4.D.05",
-    "4.D.06",
-    "4.D.07",
-    "4.D.08",
-    "4.D.09",
-    "4.D.10",
-    "4.D.11",
-    "4.D.12",
-    "4.E.02",
-    "4.E.05"
-  ],
-  "prior_publication_qa": {
-    "node_id": "4.D.05",
-    "title": "Viral Host Recognition: Attachment Receptors, Coreceptors and Tropism",
+  "previous_last_qa": {
+    "node_id": "4.E.02",
+    "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
     "unit": "04",
-    "subunit": "4.D",
-    "slug": "viral-host-recognition-attachment-receptors-coreceptors-and-tropism.html",
-    "publication_status": "lesson_committed_pages_verification_pending",
-    "initial_main_sha": "72e93d9810c95570e72c60a1295aaa0f4ab409e0",
-    "publication_base_sha": "1a5d2dbfd537e55958eb8365f891009c0f500746",
-    "draft_branch": "draft/node-4d05-viral-host-recognition",
-    "draft_commit_sha": "3245a6be4c8a9587ad96a1053712c5dce27f4d6e",
-    "draft_blob_sha": "75bf942a07e60c330c8872afc95dd95832a77f21",
-    "chapter_blob_sha": "6257a6e4be3ca0c6186afd746e2b0ce77fd704b1",
-    "teaching_word_count": 13365,
-    "teaching_paragraph_count": 148,
-    "visible_article_word_count": 18743,
-    "article_word_count_method": "Whitespace token count after markup and entities removed; excludes SVG content, includes supplementary prose and questions.",
-    "html_bytes": 199094,
-    "theory_sections": 25,
-    "total_sections": 31,
-    "original_svg_count": 12,
-    "tables": 3,
-    "worked_examples": 5,
-    "questions": {
+    "subunit": "4.E",
+    "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
+    "status": "lesson_committed_pages_verification_pending",
+    "checked_date": "2026-11-26",
+    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+    "source_draft_branch": "draft/4.E.02-genetic-alterations",
+    "source_draft_commit_sha": "db43f8b715289bf024e8b9310f3728a1ed0ba84f",
+    "draft_blob_sha": "45e40e127d1a10f977529733e91cc8b4f455e592",
+    "metrics": {
+      "teaching_words": 14077,
+      "visible_article_words": 20596,
+      "teaching_paragraphs": 125,
+      "exact_duplicate_paragraphs": 0,
+      "theory_sections": 12,
+      "total_sections": 19,
+      "svg": 11,
+      "tables": 2,
+      "worked_examples": 9,
       "part_b": 20,
       "part_c": 20,
-      "additional": 13,
-      "total": 53,
+      "mixed": 12,
+      "total_questions": 52,
+      "misconceptions": 17,
+      "active_recall": 15,
+      "scientific_references": 15,
+      "syllabus_references": 3,
       "answer_positions": {
         "A": 13,
-        "B": 14,
+        "B": 13,
         "C": 13,
         "D": 13
       }
     },
-    "references": 16,
-    "misconceptions": 17,
-    "active_recall": 12,
-    "mastery_checklist": 6,
-    "syllabus": {
-      "revised_csir": "Official 2026 syllabus Unit 4.D p.5 inspected",
-      "separate_csir": "Official Life Sciences syllabus Unit 4.A p.3 inspected",
-      "state_set": "Archived MP SET syllabus mirror inspected; current MPPSC-hosted original not independently verified",
-      "academy": "curriculum/subunit-4d-host-pathogen-interaction-node-map.md"
-    },
-    "coverage": "Host recognition and attachment; surface architecture; protein and glycan receptors; coreceptors; influenza HA and sialylated glycans; HIV gp120 and CD4/chemokine coreceptors; tropism, range, permissiveness, avidity, evidence and quantitative reasoning; downstream entry reserved for 4.D.06.",
-    "review_pass_1": "Reviewed mechanisms, source evidence, historical attributions, receptor versus attachment and infection distinctions, quantitative assumptions, and corrected HIV figure; selected authoritative excerpts and records checked.",
-    "review_pass_2": "Removed 1,897 overlapping teaching words in two passes, replaced with independent evidence and comparison, rewrote analytical questions, checked narrative, misconceptions, answers and figure labels.",
-    "score": {
-      "scope": 20,
-      "accuracy": 24,
-      "depth": 19,
-      "experimental_quantitative": 14,
-      "practice": 9,
-      "technical": 9,
-      "total": 95
-    },
-    "deductions": "One mark each for source/full-text and external validation limitations; depth at lower end of adjacent exemplar range; simplified hypothetical evidence rather than primary datasets; no external exam calibration; static checks rather than interactive browser/device testing.",
-    "checks": {
-      "duplicate_ids": 0,
-      "duplicate_exact_teaching_paragraphs": 0,
-      "broken_anchors": 0,
-      "broken_aria_labelledby": 0,
-      "tag_stack_errors": 0,
-      "broken_zoom_targets": 0,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/viral-host-recognition-attachment-receptors-coreceptors-and-tropism.html",
-      "indexable": true,
-      "previous": "4.D.04",
-      "next": "4.D.06",
-      "next_published": true,
-      "reciprocal_navigation": "Existing reader navigation resolves live curriculum links; unpublished nodes remain disabled."
-    },
-    "counts": {
-      "academy": 176,
-      "unit_04": 45,
-      "subunit_4d": 8
-    },
-    "limitations": [
-      "Internal editorial review, not independent external peer review.",
-      "Not all cited primary full texts accessed.",
-      "Current MPPSC original not independently accessible.",
-      "Static source validation; interactive/mobile/assistive technology testing and live deployment verification separate."
-    ],
-    "date": "2026-11-26"
-  },
-  "previous_last_qa": {
-    "node_id": "4.E.05",
-    "title": "Cancer and the Cell Cycle: Cyclins, CDKs and Checkpoint Failure",
-    "unit": "04",
-    "subunit": "4.E",
-    "slug": "cancer-and-the-cell-cycle-cyclins-cdks-and-checkpoint-failure.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cancer-and-the-cell-cycle-cyclins-cdks-and-checkpoint-failure.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "date": "2026-11-26",
-    "initial_head_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-    "source_draft_branch": "draft/4.E.05-cancer-cell-cycle",
-    "source_draft_commit_sha": "f00068de458b2fad72861b6a3ad454683f27424b",
-    "draft_blob_sha": "4d83714783e344ab2e8226e07183be1b92317204",
-    "metrics": {
-      "genuine_teaching_words": 14082,
-      "visible_article_words_excluding_svg_buttons": 19162,
-      "teaching_paragraphs": 138,
-      "exact_duplicate_paragraphs": 0,
-      "theory_sections": 17,
-      "total_sections": 25,
-      "svg": 13,
-      "tables": 2,
-      "worked_examples": 8,
-      "part_b": 20,
-      "part_c": 20,
-      "mixed": 10,
-      "questions": 50,
-      "misconceptions": 16,
-      "active_recall": 17,
-      "references": 17,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 12,
-        "D": 12
-      }
-    },
-    "word_count_method": "Unicode lexical tokens in saved p.teaching-prose, tags/entities removed; visible article excludes SVG/button markup. Excludes headings, tables, questions, worked blocks, revision and references from narrative.",
+    "word_count_method": "Count Unicode letter/number words with internal apostrophes/hyphens in p.teaching-prose after removing HTML tags and entity tokens; figures, headings, worked examples, questions, summaries and references excluded. Visible article excludes SVG and button contents. Earlier alternate tokenization returned 14068 narrative and 20579 visible words; both satisfy gate.",
     "comparator": {
-      "node_id": "4.D.12",
-      "saved_html_teaching_words": 14107,
-      "paragraphs": 135,
-      "comment": "Direct saved HTML count by comparable lexical method; 4.E.05 has 14082 words and 138 paragraphs. Normal checkpoint chapter 2.D.03 inspected for boundaries and reader reuse."
+      "node": "4.D.03",
+      "words_same_method": 14017,
+      "paragraphs": 127,
+      "note": "Actual saved neighboring chapter fetched; comparable depth and paragraph volume. No published 4.E neighbor at initial inspection."
     },
     "syllabus": {
-      "revised": "Official CSIR-HRDG revised merged Unit 4.E printed p5 visually verified",
-      "separate": "Official CSIR Life Sciences Unit 4.D printed p3 visually verified",
-      "mp_set": "Archived MP SET 2024 Unit 4.D printed p3 visually verified; current official-host copy not located",
-      "academy": "curriculum/subunit-4e-cancer-node-map.md"
-    },
-    "microtopic_matrix": [
-      {
-        "microtopic": "Normal G0/G1/S/G2/M",
-        "official_relation": "Unit 2.D prerequisite; Unit 4 cancer and cell cycle",
-        "sections": "phase, measurement",
-        "boundary": "DNA amount versus chromosome count; avoid normal-cycle chapter duplication",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "Mitogen, D-CDK4/6, p16, Rb/E2F",
-        "official_relation": "Unit 4 cancer and cell cycle/oncogenes/suppressors",
-        "sections": "commitment, rb, molecular, epistasis",
-        "boundary": "Functional integration; reserve inherited RB1 genetics for 4.E.04",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "Cyclin E/CDK2",
-        "official_relation": "Unit 4 cancer and cell cycle",
-        "sections": "rb, feedback, commitment",
-        "boundary": "Late-G1 transition, feedback, heterogeneity",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "ATM/ATR, p53/p21",
-        "official_relation": "Unit 4 cancer and cell cycle; Unit 3 repair prerequisite",
-        "sections": "damage, genome, history",
-        "boundary": "Functional checkpoint overview; no specialist repair protocol",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "G2/M and spindle checkpoint",
-        "official_relation": "Unit 4 cancer and cell cycle; Unit 2.D prerequisite",
-        "sections": "g2, spindle",
-        "boundary": "CDK1 restraint, MCC and chromosome errors",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "Aneuploidy and instability",
-        "official_relation": "Unit 4 cancer and cell cycle",
-        "sections": "spindle, genome, interpretation",
-        "boundary": "State vs rate and biological consequences",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "Contact inhibition, mitogen independence",
-        "official_relation": "Unit 4 cancer and cell cycle; cell communication",
-        "sections": "commitment, tissue, homeostasis",
-        "boundary": "Separate proliferation from adhesion/invasion",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      },
-      {
-        "microtopic": "Positive activation vs negative loss",
-        "official_relation": "Unit 4 cancer, oncogenes and suppressors",
-        "sections": "rb, epistasis, application",
-        "boundary": "Functional perturbation, rescue and drug response; avoid clinical therapy detail",
-        "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-        "assessment": "Conceptual and analytical practice",
-        "status": "PASS"
-      }
-    ],
-    "coverage_360": [
-      {
-        "dimension": "A",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "homeostasis, phase, commitment",
-        "evidence": "Tissue-regulated proliferation; growth versus division; G0/G1/S/G2/M; checkpoint versus restriction point",
-        "assessment": "B conceptual; mixed assertion",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "B",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "history, commitment, damage, spindle",
-        "evidence": "Pardee 1974, Hartwell/Weinert 1989, Nobel 2001, Spencer 2013, el-Deiry 1993/94, Cimini 2001; abstract/review verification",
-        "assessment": "C causal and time-course questions",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "C",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "molecular, rb, genome, spindle",
-        "evidence": "CDK catalytic domain, regulatory complex, phosphorylation, Rb binding, kinetochore and spindle topology",
-        "assessment": "B identity and C perturbation",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "D",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "rb, damage, g2, spindle, molecular",
-        "evidence": "Mitogen to Rb/E2F; p53/p21; opposing Wee1/Cdc25; MCC/APC/C/securin/separase",
-        "assessment": "C pathway and mixed mechanism",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "E",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "molecular, feedback, quant",
-        "evidence": "ATP phosphate transfer, substrate selection, stoichiometry, turnover, enzyme saturation and nonequilibrium directionality",
-        "assessment": "Worked turnover, B catalysis",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "F",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "commitment, rb, feedback, epistasis, g2",
-        "evidence": "Positive and negative feedback; conditional inputs, checkpoint recovery; compensation",
-        "assessment": "C pathway bypass, recovery",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "G",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "quant, interpretation, feedback, worked",
-        "evidence": "Net exponential growth, conditional probability, age distribution derivation, first-order turnover, error fractions; units and limits",
-        "assessment": "Eight worked examples, C quantitative items",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "H",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "history, measurement, genome, interpretation",
-        "evidence": "Verified historical report/abstract/review evidence; matched controls, necessity, rescue, time course; hypothetical data explicitly labeled",
-        "assessment": "C experimental interpretation",
-        "remaining_gaps": "Not all primary full texts accessible; no invented datasets."
-      },
-      {
-        "dimension": "I",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "homeostasis, tissue, application",
-        "evidence": "Regenerative tissue, lineage and homeostasis; net turnover; malignant growth versus normal proliferation",
-        "assessment": "B/C population reasoning",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "J",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "phase, history, tissue",
-        "evidence": "Conserved eukaryotic CDK principle, yeast/animal comparisons, plant meristems, bacterial boundary",
-        "assessment": "Mixed comparative",
-        "remaining_gaps": "Comparative depth intentionally bounded to NET/SET."
-      },
-      {
-        "dimension": "K",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "rb, damage, genome, spindle, epistasis",
-        "evidence": "Cyclin dosage, p16/Rb loss, p53/p21 changes, replication stress and chromosome errors",
-        "assessment": "C genotype and segregation data",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "L",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "commitment, damage, spindle, tissue, interpretation",
-        "evidence": "Heterogeneous commitment, ATM/ATR overlap, merotely, state versus rate, age model limits",
-        "assessment": "C boundary and mixed assertion",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "M",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "application, measurement",
-        "evidence": "Concept-level CDK4/6 inhibition, cytostasis versus cytotoxicity, proliferation markers; no individual treatment advice",
-        "assessment": "C count and biomarker interpretation",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "N",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "homeostasis, genome, tissue, application",
-        "evidence": "Links Units 1–3, previous oncogene/suppressor nodes, next apoptosis node, later invasion and therapy",
-        "assessment": "C integrated and mixed",
-        "remaining_gaps": "No mandatory scope gap identified in internal review."
-      },
-      {
-        "dimension": "O",
-        "status": "PASS",
-        "applicable": true,
-        "sections": "interpretation, epistasis, quant, practice, revision",
-        "evidence": "Original B/C questions with explanations, conditional reasoning, controls, numerical and diagram interpretation",
-        "assessment": "20 B, 20 C, 10 mixed",
-        "remaining_gaps": "Difficulty self-reviewed, not empirically calibrated."
-      }
-    ],
-    "review_pass_1": {
-      "method": "Internal scientific and syllabus review of saved chapter; source search, original report abstract and review text/abstracts",
-      "corrections": [
-        "Separated Pardee nutritional restriction experiment from later mitogen withdrawal.",
-        "Added named primary evidence for checkpoints, p21, CDK2 commitment and merotely; no fabricated results.",
-        "Clarified predominant ATM/ATR inputs, p16 versus p21, Rb dependence and S-phase/mitotic distinction.",
-        "Recalculated net growth, conditional fractions, age distribution and protein turnover."
+      "official_revised": "CSIR-HRDG merged syllabus Unit 4.E, genetic rearrangements in progenitor cells",
+      "official_legacy": "CSIR-HRDG Unit 4.D",
+      "state_set": "MP SET 2024 archived syllabus scan, Unit 4.D; current official MPPSC host not independently retrieved",
+      "academy_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+      "scope_matrix": [
+        [
+          "Stem/progenitor origin and somatic/germline",
+          "origins, inheritance",
+          "cell division and inheritance prerequisite; cancer lineage context; not developmental stem-cell taxonomy"
+        ],
+        [
+          "Driver/passenger and multistep selection",
+          "selection, integration",
+          "selection and clonal inference; not full oncology"
+        ],
+        [
+          "Point mutations and DNA lesions/repair",
+          "sources, point",
+          "DNA replication and repair prerequisite; genetic outcomes; not detailed repair pathways"
+        ],
+        [
+          "Deletion, gain, amplification and LOH",
+          "dosage",
+          "chromosome dosage prerequisite; quantitative interpretation; not genome-wide profiling methods"
+        ],
+        [
+          "Translocation, inversion and fusion",
+          "rearrange",
+          "chromosomal structure prerequisite; mechanisms, balanced versus unbalanced; not cytogenetic laboratory protocol"
+        ],
+        [
+          "Philadelphia and BCR::ABL1",
+          "philadelphia",
+          "protein regulation prerequisite; causal and mechanistic evidence; detailed oncogene classes reserved for 4.E.03"
+        ],
+        [
+          "Genome instability and clonal evolution",
+          "instability, selection, quantitative",
+          "CIN versus aneuploidy, multistep progression; not specialist sequencing pipelines"
+        ]
       ]
     },
-    "review_pass_2": {
-      "method": "Internal teaching and examination review of saved revision; not external peer review",
-      "corrections": [
-        "Restored inherited toolbar that initial regex replacement removed.",
-        "Expanded narrative from 6924 to 14082 words via distinct molecular, historical, causal and quantitative sections.",
-        "Strengthened six Part C prompts, added three diagrams, revised 16 misconception explanations, balanced answer positions and installed dynamic published-neighbor navigation.",
-        "Checked exact uniqueness, lexical overlap screen and qualitative reading; recurring central concepts used in distinct explanatory contexts, not repeated verbatim."
+    "coverage": {
+      "A": [
+        "PASS",
+        "origins, inheritance",
+        "definitions and lineage distinctions",
+        "Part B, recall"
+      ],
+      "B": [
+        "PASS",
+        "philadelphia, selection",
+        "Nowell/Hungerford, Rowley, fusion evidence, clonal evolution",
+        "historical evidence questions"
+      ],
+      "C": [
+        "PASS",
+        "point, dosage, rearrange, philadelphia",
+        "chromosome and fusion domains, gene dosage",
+        "diagram questions"
+      ],
+      "D": [
+        "PASS",
+        "sources, philadelphia, selection",
+        "lesion fixation, rearrangement and kinase activity",
+        "mechanism problems"
+      ],
+      "E": [
+        "PASS",
+        "sources, philadelphia, quantitative",
+        "DNA damage, ATP-dependent phosphorylation, kinetics",
+        "numerical practice"
+      ],
+      "F": [
+        "PASS",
+        "dosage, philadelphia, instability",
+        "feedback context, kinase regulation, checkpoints",
+        "perturbation problems"
+      ],
+      "G": [
+        "PASS",
+        "dosage, quantitative, worked",
+        "VAF, growth, probability, phosphorylation",
+        "9 worked examples"
+      ],
+      "H": [
+        "PASS",
+        "philadelphia, evidence",
+        "observations versus causal inference, controls",
+        "experimental interpretation"
+      ],
+      "I": [
+        "PASS",
+        "origins, philadelphia, integration",
+        "tissue lineage and physiological growth control",
+        "integration questions"
+      ],
+      "J": [
+        "PASS",
+        "selection, integration",
+        "somatic evolution and limits of plant/microbial comparisons",
+        "selection questions"
+      ],
+      "K": [
+        "PASS",
+        "sources, dosage, instability, philadelphia",
+        "loss, gain, repair defects, abnormal signaling",
+        "perturbation questions"
+      ],
+      "L": [
+        "PASS",
+        "dosage, evidence, quantitative",
+        "purity, ploidy, sampling and model limits",
+        "conditional questions"
+      ],
+      "M": [
+        "PASS",
+        "philadelphia, evidence, integration",
+        "diagnostic interpretation and targeted therapy principles",
+        "application questions"
+      ],
+      "N": [
+        "PASS",
+        "integration",
+        "DNA, chromosome, cell cycle and signaling bridges",
+        "mixed questions"
+      ],
+      "O": [
+        "PASS",
+        "worked, assessment, revision",
+        "52 original explained questions, 15 recall prompts",
+        "20 B, 20 C, 12 mixed"
       ]
     },
+    "review_pass_1": "Reviewed actual saved narrative for syllabus, scientific mechanisms, definitions, quantities and reference metadata. Expanded repair, lineage, quantitative reasoning and fusion evidence; revised graph axes and calculated exponential curves; clarified historical association versus mechanistic causation; added explicit source links. Published references checked using abstracts, search excerpts and established textbook knowledge where full text inaccessible.",
+    "review_pass_2": "Reviewed saved narrative and assessments. Replaced all twenty Part C items with analytical multi-step reasoning; expanded seventeen traps and nine worked examples; balanced nonperiodic keys; excluded eleven short figure-reference paragraphs from narrative count; clarified independent clone labels in worked example. Editorial review found intentional reinforcement but no obvious artificial padding; pairwise lexical overlap is only a screen, not a semantic proof.",
     "academic_self_review": {
-      "scope": {
-        "score": 20,
-        "max": 20,
-        "evidence": "All eight roadmap groups mapped; official texts inspected"
-      },
-      "accuracy": {
-        "score": 24,
-        "max": 25,
-        "evidence": "Mechanisms and named evidence checked",
-        "deduction": "Not all primary full texts accessible; reliance on abstracts/reviews and standard textbook knowledge."
-      },
-      "depth": {
-        "score": 19,
-        "max": 20,
-        "evidence": "14082 narrative words, 138 paragraphs, comparator 14107 words",
-        "deduction": "Selected comparative/structural examples; core concepts intentionally revisited in reasoning."
-      },
-      "experimental_quantitative": {
-        "score": 14,
-        "max": 15,
-        "evidence": "Eight examples, derived age distribution and turnover, verified arithmetic, causal evidence",
-        "deduction": "Numerical data hypothetical; no replication of original research datasets."
-      },
-      "practice": {
-        "score": 9,
-        "max": 10,
-        "evidence": "20 B, 20 C, 10 mixed, balanced answer positions, explanations",
-        "deduction": "Difficulty internally assessed, not empirically calibrated; some analytical items shorter than advanced Part C."
-      },
-      "technical": {
-        "score": 9,
-        "max": 10,
-        "evidence": "Saved HTML static audit passes; dynamic navigation uses current menu and disabled default",
-        "deduction": "No interactive browser/device or assistive technology test."
-      },
+      "scope": 20,
+      "accuracy_mechanisms": 24,
+      "depth_narrative": 19,
+      "analytical_evidence": 14,
+      "practice_mastery": 9,
+      "technical_reader": 9,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal editorial assessment only; no external peer review."
+      "rationale": {
+        "scope": "All approved microtopics mapped to syllabus and covered; archived MP SET confirms topic.",
+        "accuracy": "Mechanisms and landmark metadata checked; deduct one for primary full-text access limitations.",
+        "depth": "Comparable teaching volume to 4.D.03; deduct one for some necessary conceptual reinforcement.",
+        "analytical": "Nine worked examples, quantitative and experimental reasoning; deduct one for hypothetical models and limited source full-text access.",
+        "practice": "52 original explained items including 20 revised Part C; deduct one because no student psychometric validation.",
+        "technical": "Static audit and existing reader preserved; deduct one because interactive browser/device testing unavailable."
+      }
     },
     "static_checks": {
       "duplicate_ids": 0,
-      "broken_anchors": 0,
-      "broken_aria_targets": 0,
-      "broken_zoom_targets": 0,
-      "missing_js_ids": 0,
-      "answer_key_mismatches": 0,
+      "unresolved_internal_anchors": [],
+      "exact_duplicate_teaching_paragraphs": 0,
+      "svg_accessible": 11,
+      "malformed_questions": 0,
+      "unique_questions": 52,
+      "unresolved_aria_or_zoom_targets": 0,
       "html_tag_stack_errors": 0,
-      "svg_title_desc": true,
-      "local_links_exist": true,
-      "canonical": true,
-      "robots": "index,follow",
-      "placeholders": false,
-      "interactive_browser": "not executed",
-      "arithmetic": [
-        0.028881132523331052,
-        17.328679513998633,
-        69.31471805599453,
-        0.4,
-        0.06,
-        0.03,
-        0.09,
-        0.5,
-        10,
-        0.1,
-        0.04,
-        0.5857864376269051,
-        0.02111886747666895,
-        0.05111886747666895
+      "placeholder_count": 0,
+      "reader_script_syntax": "parsed successfully, not executed in DOM",
+      "local_links": [
+        "./"
       ],
-      "menu_target_count": 1,
+      "canonical": "verified",
+      "robots": "index,follow (publication version)",
+      "numerical_recalculation": {
+        "event_100": 0.09520785288629108,
+        "event_200": 0.1813511705213644,
+        "zero_50": 0.36416968008711675,
+        "copy_vaf": 0.13636363636363635,
+        "growth_ratio": 2.718281828459045,
+        "growth_x": 271.8281828459045,
+        "growth_y": 738.905609893065
+      },
+      "semantic_repetition": "No exact duplicates or paragraph pairs above .45 lexical Jaccard; qualitative review of actual text found no obvious padding. Lexical overlap cannot establish semantic originality.",
       "sitemap_target_count": 1,
-      "prior_publications_preserved": true
+      "menu_target_count": 1,
+      "checkpoint_matches_linked_nodes": true
+    },
+    "neighbors": {
+      "previous": "4.E.01",
+      "next": "4.E.03",
+      "policy": "Resolve from current homepage; disable if not published."
     },
     "limitations": [
-      "Some primary papers verified from abstracts and reviews; NCBI access challenge on some full text pages.",
-      "Current MP SET official-host file not located; archived MPPSC-labelled copy verified.",
-      "Interactive browser/device/assistive technology test not executed.",
-      "No external peer review; assessment difficulty not empirically tested."
+      "Internal academic review, not independent external peer review.",
+      "Current MPPSC official host not independently retrieved; archived scan checked.",
+      "Primary article abstracts and excerpts rather than all full texts; no claim of full-text review.",
+      "No interactive browser, real device or student testing."
     ],
-    "chapter_blob_sha": "110e03c08e506f7fd696c0c3fe2044e68a396a84",
-    "main_baseline_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-    "draft_qa_commit_sha": "5dc51f6ae2a78486a2f25aa22cb31d24e50ed367",
-    "academy_published_count": 181,
+    "publication_eligible": true,
+    "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+    "publication_base_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+    "chapter_blob_sha": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c",
+    "draft_qa_commit_sha": "5c4e1d75283f2cf58e7b27f13bd906a191bd2757",
+    "academy_published_count": 182,
     "academy_planned_count": 723,
-    "unit_04_published_count": 50,
+    "unit_04_published_count": 51,
     "unit_04_planned_count": 61,
-    "subunit_4e_published_count": 1,
+    "subunit_4e_published_count": 2,
     "subunit_4e_planned_count": 12,
     "next_pending_node_id": "4.E.01",
     "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-    "neighbors": {
-      "4.E.04": null,
-      "4.E.06": null
-    },
-    "concurrent_reconciliation": {
-      "initial_head": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "publication_baseline": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "preserved_published_ids": 180,
-      "method": "Fresh main tree, menu, sitemap and checkpoint read at immutable SHA; targeted changes only; expected non-force ref update."
+    "reconciliation": {
+      "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+      "concurrent_main_changes": true,
+      "previous_links_preserved": 181,
+      "previous_sitemap_urls_preserved": 182,
+      "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
     }
   },
   "unit_02": {
@@ -9489,274 +9635,360 @@
       "4.D.11",
       "4.D.12",
       "4.E.02",
+      "4.E.03",
       "4.E.05"
     ],
-    "published_node_count": 51,
+    "published_node_count": 52,
     "planned_node_count": 61,
-    "last_published_node_id": "4.E.02",
+    "last_published_node_id": "4.E.03",
     "updated_at": "2026-11-26",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "4.E.02",
-      "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
+      "node_id": "4.E.03",
       "unit": "04",
       "subunit": "4.E",
-      "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
-      "status": "lesson_committed_pages_verification_pending",
+      "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+      "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
       "checked_date": "2026-11-26",
+      "status": "lesson_committed_pages_verification_pending",
       "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "source_draft_branch": "draft/4.E.02-genetic-alterations",
-      "source_draft_commit_sha": "db43f8b715289bf024e8b9310f3728a1ed0ba84f",
-      "draft_blob_sha": "45e40e127d1a10f977529733e91cc8b4f455e592",
+      "source_draft_branch": "draft/node-4e03-oncogene-gain-of-function",
+      "source_draft_commit_sha": "ba2c4fbfefd2d991117dbb8e7980859ca96720e1",
+      "draft_blob_sha": "df60360e3bdf972f4d22bf25aa58743c5de3e690",
       "metrics": {
-        "teaching_words": 14077,
-        "visible_article_words": 20596,
-        "teaching_paragraphs": 125,
+        "teaching_words": 14044,
+        "visible_article_words_excluding_svg_and_buttons": 21660,
+        "teaching_paragraphs": 150,
         "exact_duplicate_paragraphs": 0,
-        "theory_sections": 12,
-        "total_sections": 19,
-        "svg": 11,
+        "theory_sections": 28,
+        "total_sections": 36,
+        "svg": 14,
         "tables": 2,
         "worked_examples": 9,
-        "part_b": 20,
-        "part_c": 20,
-        "mixed": 12,
-        "total_questions": 52,
-        "misconceptions": 17,
-        "active_recall": 15,
-        "scientific_references": 15,
+        "part_b": 22,
+        "part_c": 24,
+        "mixed": 8,
+        "total_questions": 54,
+        "misconceptions": 18,
+        "active_recall": 20,
+        "scientific_references": 19,
         "syllabus_references": 3,
         "answer_positions": {
-          "A": 13,
+          "A": 14,
           "B": 13,
           "C": 13,
-          "D": 13
+          "D": 14
         }
       },
-      "word_count_method": "Count Unicode letter/number words with internal apostrophes/hyphens in p.teaching-prose after removing HTML tags and entity tokens; figures, headings, worked examples, questions, summaries and references excluded. Visible article excludes SVG and button contents. Earlier alternate tokenization returned 14068 narrative and 20579 visible words; both satisfy gate.",
+      "word_count_method": "Unicode letter/number words with internal apostrophes or hyphens, actual saved p.teaching-prose only; headings, tables, SVG, questions, worked examples, revision and references excluded. Visible article count excludes SVG and button contents.",
       "comparator": {
-        "node": "4.D.03",
-        "words_same_method": 14017,
-        "paragraphs": 127,
-        "note": "Actual saved neighboring chapter fetched; comparable depth and paragraph volume. No published 4.E neighbor at initial inspection."
+        "node": "4.A.06",
+        "teaching_words": 13948,
+        "comparison": "Published saved HTML recount; comparable substantial signaling narrative, with target-specific genetic mechanisms. 4.E neighbors were unpublished at initial inspection."
       },
       "syllabus": {
-        "official_revised": "CSIR-HRDG merged syllabus Unit 4.E, genetic rearrangements in progenitor cells",
-        "official_legacy": "CSIR-HRDG Unit 4.D",
-        "state_set": "MP SET 2024 archived syllabus scan, Unit 4.D; current official MPPSC host not independently retrieved",
-        "academy_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
-        "scope_matrix": [
+        "official_revised": "CSIR-HRDG merged Unit 4.E, printed p5, screenshot inspected",
+        "official_legacy": "CSIR-HRDG Unit 4.D, printed p3, screenshot inspected",
+        "mp_set": "MP SET 2024 archived scan Unit 4.D, printed p3, screenshot inspected; current official-host copy not confirmed",
+        "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+        "microtopic_matrix": [
           [
-            "Stem/progenitor origin and somatic/germline",
-            "origins, inheritance",
-            "cell division and inheritance prerequisite; cancer lineage context; not developmental stem-cell taxonomy"
+            "Proto-oncogene versus oncogene; cellular dominance",
+            "1–5,17",
+            "Cancer oncogenes; prerequisite normal signaling and alleles",
+            "Distinguish altered function, not inherited penetrance; B/C"
           ],
           [
-            "Driver/passenger and multistep selection",
-            "selection, integration",
-            "selection and clonal inference; not full oncology"
+            "RAS mutation and switch termination",
+            "6–8,15",
+            "Oncogenes; RTK signaling prerequisite",
+            "GDP/GTP, GAP/GEF, kinetics, C23–29"
           ],
           [
-            "Point mutations and DNA lesions/repair",
-            "sources, point",
-            "DNA replication and repair prerequisite; genetic outcomes; not detailed repair pathways"
+            "HER2 amplification and gene dosage",
+            "9,18,21",
+            "Oncogenes; receptor and transcription prerequisites",
+            "Dosage versus affinity/activity; C30–33"
           ],
           [
-            "Deletion, gain, amplification and LOH",
-            "dosage",
-            "chromosome dosage prerequisite; quantitative interpretation; not genome-wide profiling methods"
+            "MYC expression and regulatory rearrangement",
+            "10–11,13",
+            "Oncogenes and rearrangements; transcription prerequisite",
+            "MYC–MAX and regulatory juxtaposition; C34"
           ],
           [
-            "Translocation, inversion and fusion",
-            "rearrange",
-            "chromosomal structure prerequisite; mechanisms, balanced versus unbalanced; not cytogenetic laboratory protocol"
+            "BCR::ABL1 fusion",
+            "12–13",
+            "Oncogenes and genetic rearrangements; kinase prerequisite",
+            "Fusion and altered regulation; C34–35; no detailed clinical therapy"
           ],
           [
-            "Philadelphia and BCR::ABL1",
-            "philadelphia",
-            "protein regulation prerequisite; causal and mechanistic evidence; detailed oncogene classes reserved for 4.E.03"
-          ],
-          [
-            "Genome instability and clonal evolution",
-            "instability, selection, quantitative",
-            "CIN versus aneuploidy, multistep progression; not specialist sequencing pipelines"
+            "Cooperation and functional evidence",
+            "14–17,19–28",
+            "Cancer oncogenes and cell-cycle control",
+            "Controls, dependence, model limits, suppressor bridge; C36–46"
           ]
         ]
       },
-      "coverage": {
-        "A": [
-          "PASS",
-          "origins, inheritance",
-          "definitions and lineage distinctions",
-          "Part B, recall"
-        ],
-        "B": [
-          "PASS",
-          "philadelphia, selection",
-          "Nowell/Hungerford, Rowley, fusion evidence, clonal evolution",
-          "historical evidence questions"
-        ],
-        "C": [
-          "PASS",
-          "point, dosage, rearrange, philadelphia",
-          "chromosome and fusion domains, gene dosage",
-          "diagram questions"
-        ],
-        "D": [
-          "PASS",
-          "sources, philadelphia, selection",
-          "lesion fixation, rearrangement and kinase activity",
-          "mechanism problems"
-        ],
-        "E": [
-          "PASS",
-          "sources, philadelphia, quantitative",
-          "DNA damage, ATP-dependent phosphorylation, kinetics",
-          "numerical practice"
-        ],
-        "F": [
-          "PASS",
-          "dosage, philadelphia, instability",
-          "feedback context, kinase regulation, checkpoints",
-          "perturbation problems"
-        ],
-        "G": [
-          "PASS",
-          "dosage, quantitative, worked",
-          "VAF, growth, probability, phosphorylation",
-          "9 worked examples"
-        ],
-        "H": [
-          "PASS",
-          "philadelphia, evidence",
-          "observations versus causal inference, controls",
-          "experimental interpretation"
-        ],
-        "I": [
-          "PASS",
-          "origins, philadelphia, integration",
-          "tissue lineage and physiological growth control",
-          "integration questions"
-        ],
-        "J": [
-          "PASS",
-          "selection, integration",
-          "somatic evolution and limits of plant/microbial comparisons",
-          "selection questions"
-        ],
-        "K": [
-          "PASS",
-          "sources, dosage, instability, philadelphia",
-          "loss, gain, repair defects, abnormal signaling",
-          "perturbation questions"
-        ],
-        "L": [
-          "PASS",
-          "dosage, evidence, quantitative",
-          "purity, ploidy, sampling and model limits",
-          "conditional questions"
-        ],
-        "M": [
-          "PASS",
-          "philadelphia, evidence, integration",
-          "diagnostic interpretation and targeted therapy principles",
-          "application questions"
-        ],
-        "N": [
-          "PASS",
-          "integration",
-          "DNA, chromosome, cell cycle and signaling bridges",
-          "mixed questions"
-        ],
-        "O": [
-          "PASS",
-          "worked, assessment, revision",
-          "52 original explained questions, 15 recall prompts",
-          "20 B, 20 C, 12 mixed"
+      "coverage_360": [
+        {
+          "dimension": "A",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "1,3–5",
+          "evidence": "Normal growth, allele and proto-oncogene distinctions",
+          "assessment": "B1–22",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "B",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "2,19",
+          "evidence": "Src cellular origin, T24 transformation and landmark evidence",
+          "assessment": "Historical and interpretation questions",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "C",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6,9–12,24",
+          "evidence": "RAS switch, HER2 architecture, MYC–MAX, BCR::ABL1 kinase fusion",
+          "assessment": "Diagrams and B/C",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "D",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6–12,15–17",
+          "evidence": "Nucleotide cycle, dosage, regulatory relocation, fusion, cooperation",
+          "assessment": "C23–36",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "E",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6,8,12,18",
+          "evidence": "Hydrolysis, ATP-dependent kinase output, binding, rate constants",
+          "assessment": "Worked 1–4",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "F",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "7,14–17,25",
+          "evidence": "Feedback, GAP/GEF, receptor dependence, signaling threshold",
+          "assessment": "C27–29,36,46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "G",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "8,18,21–23",
+          "evidence": "Occupancy, decay, dosage, VAF and relative clonal growth",
+          "assessment": "Worked 1–9, C23–26,30–32,37–41",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "H",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "2,19–20,25–26",
+          "evidence": "Landmark studies, assay controls, correlation, matched perturbation and rescue",
+          "assessment": "C27–29,43–45",
+          "remaining_gaps": "Some primary full texts unavailable; abstract/review verification only."
+        },
+        {
+          "dimension": "I",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "1,16,27",
+          "evidence": "Physiological growth control, tissue constraints, apoptosis and senescence",
+          "assessment": "C42,45–46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "J",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "23–24,27",
+          "evidence": "Conserved growth-control modules, somatic selection and comparative limits",
+          "assessment": "Integrated practice",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "K",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "5–17,25",
+          "evidence": "Activating lesions, feedback, context and altered regulation",
+          "assessment": "C23–36,42",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "L",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "8,13–16,20–23,26",
+          "evidence": "Model assumptions, mixed-cell samples, necessity versus sufficiency",
+          "assessment": "C31–41,43–46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "M",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "20–21,25–26",
+          "evidence": "Molecular diagnostic interpretation and selective dependency principles",
+          "assessment": "C28,31,33–35,44",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "N",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "13,17,24–28",
+          "evidence": "Links to signaling, cell cycle, genetic alterations and suppressors",
+          "assessment": "Mixed and recall",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "O",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "28,worked,part-b,part-c,mixed,traps,revision",
+          "evidence": "54 explained original items and active recall",
+          "assessment": "22 B,24 C,8 mixed",
+          "remaining_gaps": "Difficulty internally reviewed, no psychometric validation."
+        }
+      ],
+      "review_pass_1": {
+        "method": "Internal scientific and syllabus review of saved HTML, source records, reviews, abstracts and textbook knowledge.",
+        "corrections": [
+          "Separated cellular dominance from inheritance and malignant sufficiency.",
+          "Clarified GAP-mediated hydrolysis and receptor-independent output versus universal autonomy; HER2 has no known direct soluble ligand.",
+          "Distinguished MYC regulatory relocation from coding fusion, gene copy from activity, and VAF from cell prevalence.",
+          "Checked hypothetical numerical examples and diagrams; retained physiological and comparative boundaries."
         ]
       },
-      "review_pass_1": "Reviewed actual saved narrative for syllabus, scientific mechanisms, definitions, quantities and reference metadata. Expanded repair, lineage, quantitative reasoning and fusion evidence; revised graph axes and calculated exponential curves; clarified historical association versus mechanistic causation; added explicit source links. Published references checked using abstracts, search excerpts and established textbook knowledge where full text inaccessible.",
-      "review_pass_2": "Reviewed saved narrative and assessments. Replaced all twenty Part C items with analytical multi-step reasoning; expanded seventeen traps and nine worked examples; balanced nonperiodic keys; excluded eleven short figure-reference paragraphs from narrative count; clarified independent clone labels in worked example. Editorial review found intentional reinforcement but no obvious artificial padding; pairwise lexical overlap is only a screen, not a semantic proof.",
+      "review_pass_2": {
+        "method": "Internal teaching/exam review of saved chapter; not external peer review.",
+        "corrections": [
+          "Strengthened distractors/explanations in 25 questions, then revised six Part C items to multistep comparative analysis.",
+          "Added prerequisite internal links and measurement comparison table; corrected responsive table styling.",
+          "Checked 150 teaching paragraphs; zero exact duplicates, maximum pairwise lexical Jaccard 0.307; purposeful conceptual reinforcement, not proof of semantic originality.",
+          "Preserved existing reader and dynamic navigation."
+        ]
+      },
       "academic_self_review": {
-        "scope": 20,
-        "accuracy_mechanisms": 24,
-        "depth_narrative": 19,
-        "analytical_evidence": 14,
-        "practice_mastery": 9,
-        "technical_reader": 9,
+        "scope": {
+          "score": 20,
+          "max": 20,
+          "evidence": "All Academy roadmap microtopics covered, aligned to official oncogene syllabus and archived SET."
+        },
+        "accuracy": {
+          "score": 24,
+          "max": 25,
+          "deduction": "Not all primary full texts accessible; reviewed abstract/review evidence and textbook mechanisms."
+        },
+        "depth": {
+          "score": 19,
+          "max": 20,
+          "deduction": "Some conceptual reinforcement across mechanism and reasoning sections; not independently learner-tested."
+        },
+        "analytical": {
+          "score": 14,
+          "max": 15,
+          "deduction": "Numerical datasets hypothetical rather than original research data; 9 worked examples."
+        },
+        "practice": {
+          "score": 9,
+          "max": 10,
+          "deduction": "54 explained original questions; difficulty not psychometrically calibrated and some analytical questions shorter than advanced Part C."
+        },
+        "technical": {
+          "score": 9,
+          "max": 10,
+          "deduction": "Static HTML/JS source checks only; no interactive browser/device test."
+        },
         "total": 95,
-        "threshold": 95,
-        "rationale": {
-          "scope": "All approved microtopics mapped to syllabus and covered; archived MP SET confirms topic.",
-          "accuracy": "Mechanisms and landmark metadata checked; deduct one for primary full-text access limitations.",
-          "depth": "Comparable teaching volume to 4.D.03; deduct one for some necessary conceptual reinforcement.",
-          "analytical": "Nine worked examples, quantitative and experimental reasoning; deduct one for hypothetical models and limited source full-text access.",
-          "practice": "52 original explained items including 20 revised Part C; deduct one because no student psychometric validation.",
-          "technical": "Static audit and existing reader preserved; deduct one because interactive browser/device testing unavailable."
-        }
+        "threshold": 95
       },
       "static_checks": {
         "duplicate_ids": 0,
-        "unresolved_internal_anchors": [],
-        "exact_duplicate_teaching_paragraphs": 0,
-        "svg_accessible": 11,
-        "malformed_questions": 0,
-        "unique_questions": 52,
-        "unresolved_aria_or_zoom_targets": 0,
-        "html_tag_stack_errors": 0,
-        "placeholder_count": 0,
-        "reader_script_syntax": "parsed successfully, not executed in DOM",
-        "local_links": [
-          "./"
+        "broken_anchors": [],
+        "broken_aria_targets": [],
+        "svg_missing_title_desc": 0,
+        "html_stack_errors": 0,
+        "answer_key_mismatches": 0,
+        "script_syntax": "parsed; not executed in DOM",
+        "placeholders": false,
+        "canonical": true,
+        "robots": "index,follow",
+        "max_pairwise_lexical_jaccard": 0.3069306930693069,
+        "numerical_recalculation": [
+          0.2,
+          0.8,
+          0.8664339756999315,
+          13.862943611198904,
+          0.3,
+          0.3,
+          20,
+          80,
+          1,
+          4,
+          0.3,
+          0.5625,
+          2.718281828459045,
+          0.8125,
+          0.05555555555555555,
+          0.025,
+          0.2,
+          0.2,
+          0.2
         ],
-        "canonical": "verified",
-        "robots": "index,follow (publication version)",
-        "numerical_recalculation": {
-          "event_100": 0.09520785288629108,
-          "event_200": 0.1813511705213644,
-          "zero_50": 0.36416968008711675,
-          "copy_vaf": 0.13636363636363635,
-          "growth_ratio": 2.718281828459045,
-          "growth_x": 271.8281828459045,
-          "growth_y": 738.905609893065
-        },
-        "semantic_repetition": "No exact duplicates or paragraph pairs above .45 lexical Jaccard; qualitative review of actual text found no obvious padding. Lexical overlap cannot establish semantic originality.",
-        "sitemap_target_count": 1,
         "menu_target_count": 1,
+        "sitemap_target_count": 1,
+        "local_links_exist": true,
         "checkpoint_matches_linked_nodes": true
       },
       "neighbors": {
-        "previous": "4.E.01",
-        "next": "4.E.03",
-        "policy": "Resolve from current homepage; disable if not published."
+        "previous": "4.E.02",
+        "next": "4.E.04",
+        "policy": "Dynamic homepage resolution; unpublished node disabled"
       },
       "limitations": [
-        "Internal academic review, not independent external peer review.",
-        "Current MPPSC official host not independently retrieved; archived scan checked.",
-        "Primary article abstracts and excerpts rather than all full texts; no claim of full-text review.",
-        "No interactive browser, real device or student testing."
+        "Internal self-review, not external peer review.",
+        "MP SET archived scan, not verified against current MPPSC-hosted copy.",
+        "Some scientific sources checked via abstracts or review excerpts rather than full text.",
+        "No browser/device interaction, assistive technology or student testing."
       ],
       "publication_eligible": true,
-      "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-      "publication_base_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-      "chapter_blob_sha": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c",
-      "draft_qa_commit_sha": "5c4e1d75283f2cf58e7b27f13bd906a191bd2757",
-      "academy_published_count": 182,
+      "draft_qa_commit_sha": "470bb66b8da72798ff35b15c1d3a6fbb372442ff",
+      "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "publication_base_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "chapter_blob_sha": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550",
+      "academy_published_count": 183,
       "academy_planned_count": 723,
-      "unit_04_published_count": 51,
+      "unit_04_published_count": 52,
       "unit_04_planned_count": 61,
-      "subunit_4e_published_count": 2,
+      "subunit_4e_published_count": 3,
       "subunit_4e_planned_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
       "reconciliation": {
         "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+        "baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
         "concurrent_main_changes": true,
-        "previous_links_preserved": 181,
-        "previous_sitemap_urls_preserved": 182,
-        "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
+        "previous_links_preserved": 182,
+        "previous_sitemap_urls_preserved": 183,
+        "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
       }
     },
     "qa_by_node": {
@@ -17996,389 +18228,619 @@
           "previous_sitemap_urls_preserved": 182,
           "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
         }
+      },
+      "4.E.03": {
+        "node_id": "4.E.03",
+        "unit": "04",
+        "subunit": "4.E",
+        "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+        "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+        "checked_date": "2026-11-26",
+        "status": "lesson_committed_pages_verification_pending",
+        "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "source_draft_branch": "draft/node-4e03-oncogene-gain-of-function",
+        "source_draft_commit_sha": "ba2c4fbfefd2d991117dbb8e7980859ca96720e1",
+        "draft_blob_sha": "df60360e3bdf972f4d22bf25aa58743c5de3e690",
+        "metrics": {
+          "teaching_words": 14044,
+          "visible_article_words_excluding_svg_and_buttons": 21660,
+          "teaching_paragraphs": 150,
+          "exact_duplicate_paragraphs": 0,
+          "theory_sections": 28,
+          "total_sections": 36,
+          "svg": 14,
+          "tables": 2,
+          "worked_examples": 9,
+          "part_b": 22,
+          "part_c": 24,
+          "mixed": 8,
+          "total_questions": 54,
+          "misconceptions": 18,
+          "active_recall": 20,
+          "scientific_references": 19,
+          "syllabus_references": 3,
+          "answer_positions": {
+            "A": 14,
+            "B": 13,
+            "C": 13,
+            "D": 14
+          }
+        },
+        "word_count_method": "Unicode letter/number words with internal apostrophes or hyphens, actual saved p.teaching-prose only; headings, tables, SVG, questions, worked examples, revision and references excluded. Visible article count excludes SVG and button contents.",
+        "comparator": {
+          "node": "4.A.06",
+          "teaching_words": 13948,
+          "comparison": "Published saved HTML recount; comparable substantial signaling narrative, with target-specific genetic mechanisms. 4.E neighbors were unpublished at initial inspection."
+        },
+        "syllabus": {
+          "official_revised": "CSIR-HRDG merged Unit 4.E, printed p5, screenshot inspected",
+          "official_legacy": "CSIR-HRDG Unit 4.D, printed p3, screenshot inspected",
+          "mp_set": "MP SET 2024 archived scan Unit 4.D, printed p3, screenshot inspected; current official-host copy not confirmed",
+          "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+          "microtopic_matrix": [
+            [
+              "Proto-oncogene versus oncogene; cellular dominance",
+              "1–5,17",
+              "Cancer oncogenes; prerequisite normal signaling and alleles",
+              "Distinguish altered function, not inherited penetrance; B/C"
+            ],
+            [
+              "RAS mutation and switch termination",
+              "6–8,15",
+              "Oncogenes; RTK signaling prerequisite",
+              "GDP/GTP, GAP/GEF, kinetics, C23–29"
+            ],
+            [
+              "HER2 amplification and gene dosage",
+              "9,18,21",
+              "Oncogenes; receptor and transcription prerequisites",
+              "Dosage versus affinity/activity; C30–33"
+            ],
+            [
+              "MYC expression and regulatory rearrangement",
+              "10–11,13",
+              "Oncogenes and rearrangements; transcription prerequisite",
+              "MYC–MAX and regulatory juxtaposition; C34"
+            ],
+            [
+              "BCR::ABL1 fusion",
+              "12–13",
+              "Oncogenes and genetic rearrangements; kinase prerequisite",
+              "Fusion and altered regulation; C34–35; no detailed clinical therapy"
+            ],
+            [
+              "Cooperation and functional evidence",
+              "14–17,19–28",
+              "Cancer oncogenes and cell-cycle control",
+              "Controls, dependence, model limits, suppressor bridge; C36–46"
+            ]
+          ]
+        },
+        "coverage_360": [
+          {
+            "dimension": "A",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "1,3–5",
+            "evidence": "Normal growth, allele and proto-oncogene distinctions",
+            "assessment": "B1–22",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "B",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "2,19",
+            "evidence": "Src cellular origin, T24 transformation and landmark evidence",
+            "assessment": "Historical and interpretation questions",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "C",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "6,9–12,24",
+            "evidence": "RAS switch, HER2 architecture, MYC–MAX, BCR::ABL1 kinase fusion",
+            "assessment": "Diagrams and B/C",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "D",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "6–12,15–17",
+            "evidence": "Nucleotide cycle, dosage, regulatory relocation, fusion, cooperation",
+            "assessment": "C23–36",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "E",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "6,8,12,18",
+            "evidence": "Hydrolysis, ATP-dependent kinase output, binding, rate constants",
+            "assessment": "Worked 1–4",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "F",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "7,14–17,25",
+            "evidence": "Feedback, GAP/GEF, receptor dependence, signaling threshold",
+            "assessment": "C27–29,36,46",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "G",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "8,18,21–23",
+            "evidence": "Occupancy, decay, dosage, VAF and relative clonal growth",
+            "assessment": "Worked 1–9, C23–26,30–32,37–41",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "H",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "2,19–20,25–26",
+            "evidence": "Landmark studies, assay controls, correlation, matched perturbation and rescue",
+            "assessment": "C27–29,43–45",
+            "remaining_gaps": "Some primary full texts unavailable; abstract/review verification only."
+          },
+          {
+            "dimension": "I",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "1,16,27",
+            "evidence": "Physiological growth control, tissue constraints, apoptosis and senescence",
+            "assessment": "C42,45–46",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "J",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "23–24,27",
+            "evidence": "Conserved growth-control modules, somatic selection and comparative limits",
+            "assessment": "Integrated practice",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "K",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "5–17,25",
+            "evidence": "Activating lesions, feedback, context and altered regulation",
+            "assessment": "C23–36,42",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "L",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "8,13–16,20–23,26",
+            "evidence": "Model assumptions, mixed-cell samples, necessity versus sufficiency",
+            "assessment": "C31–41,43–46",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "M",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "20–21,25–26",
+            "evidence": "Molecular diagnostic interpretation and selective dependency principles",
+            "assessment": "C28,31,33–35,44",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "N",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "13,17,24–28",
+            "evidence": "Links to signaling, cell cycle, genetic alterations and suppressors",
+            "assessment": "Mixed and recall",
+            "remaining_gaps": "No mandatory scope gap identified in internal review."
+          },
+          {
+            "dimension": "O",
+            "applicable": true,
+            "status": "PASS",
+            "sections": "28,worked,part-b,part-c,mixed,traps,revision",
+            "evidence": "54 explained original items and active recall",
+            "assessment": "22 B,24 C,8 mixed",
+            "remaining_gaps": "Difficulty internally reviewed, no psychometric validation."
+          }
+        ],
+        "review_pass_1": {
+          "method": "Internal scientific and syllabus review of saved HTML, source records, reviews, abstracts and textbook knowledge.",
+          "corrections": [
+            "Separated cellular dominance from inheritance and malignant sufficiency.",
+            "Clarified GAP-mediated hydrolysis and receptor-independent output versus universal autonomy; HER2 has no known direct soluble ligand.",
+            "Distinguished MYC regulatory relocation from coding fusion, gene copy from activity, and VAF from cell prevalence.",
+            "Checked hypothetical numerical examples and diagrams; retained physiological and comparative boundaries."
+          ]
+        },
+        "review_pass_2": {
+          "method": "Internal teaching/exam review of saved chapter; not external peer review.",
+          "corrections": [
+            "Strengthened distractors/explanations in 25 questions, then revised six Part C items to multistep comparative analysis.",
+            "Added prerequisite internal links and measurement comparison table; corrected responsive table styling.",
+            "Checked 150 teaching paragraphs; zero exact duplicates, maximum pairwise lexical Jaccard 0.307; purposeful conceptual reinforcement, not proof of semantic originality.",
+            "Preserved existing reader and dynamic navigation."
+          ]
+        },
+        "academic_self_review": {
+          "scope": {
+            "score": 20,
+            "max": 20,
+            "evidence": "All Academy roadmap microtopics covered, aligned to official oncogene syllabus and archived SET."
+          },
+          "accuracy": {
+            "score": 24,
+            "max": 25,
+            "deduction": "Not all primary full texts accessible; reviewed abstract/review evidence and textbook mechanisms."
+          },
+          "depth": {
+            "score": 19,
+            "max": 20,
+            "deduction": "Some conceptual reinforcement across mechanism and reasoning sections; not independently learner-tested."
+          },
+          "analytical": {
+            "score": 14,
+            "max": 15,
+            "deduction": "Numerical datasets hypothetical rather than original research data; 9 worked examples."
+          },
+          "practice": {
+            "score": 9,
+            "max": 10,
+            "deduction": "54 explained original questions; difficulty not psychometrically calibrated and some analytical questions shorter than advanced Part C."
+          },
+          "technical": {
+            "score": 9,
+            "max": 10,
+            "deduction": "Static HTML/JS source checks only; no interactive browser/device test."
+          },
+          "total": 95,
+          "threshold": 95
+        },
+        "static_checks": {
+          "duplicate_ids": 0,
+          "broken_anchors": [],
+          "broken_aria_targets": [],
+          "svg_missing_title_desc": 0,
+          "html_stack_errors": 0,
+          "answer_key_mismatches": 0,
+          "script_syntax": "parsed; not executed in DOM",
+          "placeholders": false,
+          "canonical": true,
+          "robots": "index,follow",
+          "max_pairwise_lexical_jaccard": 0.3069306930693069,
+          "numerical_recalculation": [
+            0.2,
+            0.8,
+            0.8664339756999315,
+            13.862943611198904,
+            0.3,
+            0.3,
+            20,
+            80,
+            1,
+            4,
+            0.3,
+            0.5625,
+            2.718281828459045,
+            0.8125,
+            0.05555555555555555,
+            0.025,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "menu_target_count": 1,
+          "sitemap_target_count": 1,
+          "local_links_exist": true,
+          "checkpoint_matches_linked_nodes": true
+        },
+        "neighbors": {
+          "previous": "4.E.02",
+          "next": "4.E.04",
+          "policy": "Dynamic homepage resolution; unpublished node disabled"
+        },
+        "limitations": [
+          "Internal self-review, not external peer review.",
+          "MP SET archived scan, not verified against current MPPSC-hosted copy.",
+          "Some scientific sources checked via abstracts or review excerpts rather than full text.",
+          "No browser/device interaction, assistive technology or student testing."
+        ],
+        "publication_eligible": true,
+        "draft_qa_commit_sha": "470bb66b8da72798ff35b15c1d3a6fbb372442ff",
+        "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+        "publication_base_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+        "chapter_blob_sha": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550",
+        "academy_published_count": 183,
+        "academy_planned_count": 723,
+        "unit_04_published_count": 52,
+        "unit_04_planned_count": 61,
+        "subunit_4e_published_count": 3,
+        "subunit_4e_planned_count": 12,
+        "next_pending_node_id": "4.E.01",
+        "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+        "reconciliation": {
+          "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+          "baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+          "concurrent_main_changes": true,
+          "previous_links_preserved": 182,
+          "previous_sitemap_urls_preserved": 183,
+          "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
+        }
       }
     },
     "next_pending_node_id": "4.E.01",
     "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
     "previous_last_qa": {
-      "node_id": "4.E.05",
-      "title": "Cancer and the Cell Cycle: Cyclins, CDKs and Checkpoint Failure",
+      "node_id": "4.E.02",
+      "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
       "unit": "04",
       "subunit": "4.E",
-      "slug": "cancer-and-the-cell-cycle-cyclins-cdks-and-checkpoint-failure.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cancer-and-the-cell-cycle-cyclins-cdks-and-checkpoint-failure.html",
+      "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
       "status": "lesson_committed_pages_verification_pending",
-      "date": "2026-11-26",
-      "initial_head_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "source_draft_branch": "draft/4.E.05-cancer-cell-cycle",
-      "source_draft_commit_sha": "f00068de458b2fad72861b6a3ad454683f27424b",
-      "draft_blob_sha": "4d83714783e344ab2e8226e07183be1b92317204",
+      "checked_date": "2026-11-26",
+      "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "source_draft_branch": "draft/4.E.02-genetic-alterations",
+      "source_draft_commit_sha": "db43f8b715289bf024e8b9310f3728a1ed0ba84f",
+      "draft_blob_sha": "45e40e127d1a10f977529733e91cc8b4f455e592",
       "metrics": {
-        "genuine_teaching_words": 14082,
-        "visible_article_words_excluding_svg_buttons": 19162,
-        "teaching_paragraphs": 138,
+        "teaching_words": 14077,
+        "visible_article_words": 20596,
+        "teaching_paragraphs": 125,
         "exact_duplicate_paragraphs": 0,
-        "theory_sections": 17,
-        "total_sections": 25,
-        "svg": 13,
+        "theory_sections": 12,
+        "total_sections": 19,
+        "svg": 11,
         "tables": 2,
-        "worked_examples": 8,
+        "worked_examples": 9,
         "part_b": 20,
         "part_c": 20,
-        "mixed": 10,
-        "questions": 50,
-        "misconceptions": 16,
-        "active_recall": 17,
-        "references": 17,
+        "mixed": 12,
+        "total_questions": 52,
+        "misconceptions": 17,
+        "active_recall": 15,
+        "scientific_references": 15,
+        "syllabus_references": 3,
         "answer_positions": {
           "A": 13,
           "B": 13,
-          "C": 12,
-          "D": 12
+          "C": 13,
+          "D": 13
         }
       },
-      "word_count_method": "Unicode lexical tokens in saved p.teaching-prose, tags/entities removed; visible article excludes SVG/button markup. Excludes headings, tables, questions, worked blocks, revision and references from narrative.",
+      "word_count_method": "Count Unicode letter/number words with internal apostrophes/hyphens in p.teaching-prose after removing HTML tags and entity tokens; figures, headings, worked examples, questions, summaries and references excluded. Visible article excludes SVG and button contents. Earlier alternate tokenization returned 14068 narrative and 20579 visible words; both satisfy gate.",
       "comparator": {
-        "node_id": "4.D.12",
-        "saved_html_teaching_words": 14107,
-        "paragraphs": 135,
-        "comment": "Direct saved HTML count by comparable lexical method; 4.E.05 has 14082 words and 138 paragraphs. Normal checkpoint chapter 2.D.03 inspected for boundaries and reader reuse."
+        "node": "4.D.03",
+        "words_same_method": 14017,
+        "paragraphs": 127,
+        "note": "Actual saved neighboring chapter fetched; comparable depth and paragraph volume. No published 4.E neighbor at initial inspection."
       },
       "syllabus": {
-        "revised": "Official CSIR-HRDG revised merged Unit 4.E printed p5 visually verified",
-        "separate": "Official CSIR Life Sciences Unit 4.D printed p3 visually verified",
-        "mp_set": "Archived MP SET 2024 Unit 4.D printed p3 visually verified; current official-host copy not located",
-        "academy": "curriculum/subunit-4e-cancer-node-map.md"
-      },
-      "microtopic_matrix": [
-        {
-          "microtopic": "Normal G0/G1/S/G2/M",
-          "official_relation": "Unit 2.D prerequisite; Unit 4 cancer and cell cycle",
-          "sections": "phase, measurement",
-          "boundary": "DNA amount versus chromosome count; avoid normal-cycle chapter duplication",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "Mitogen, D-CDK4/6, p16, Rb/E2F",
-          "official_relation": "Unit 4 cancer and cell cycle/oncogenes/suppressors",
-          "sections": "commitment, rb, molecular, epistasis",
-          "boundary": "Functional integration; reserve inherited RB1 genetics for 4.E.04",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "Cyclin E/CDK2",
-          "official_relation": "Unit 4 cancer and cell cycle",
-          "sections": "rb, feedback, commitment",
-          "boundary": "Late-G1 transition, feedback, heterogeneity",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "ATM/ATR, p53/p21",
-          "official_relation": "Unit 4 cancer and cell cycle; Unit 3 repair prerequisite",
-          "sections": "damage, genome, history",
-          "boundary": "Functional checkpoint overview; no specialist repair protocol",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "G2/M and spindle checkpoint",
-          "official_relation": "Unit 4 cancer and cell cycle; Unit 2.D prerequisite",
-          "sections": "g2, spindle",
-          "boundary": "CDK1 restraint, MCC and chromosome errors",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "Aneuploidy and instability",
-          "official_relation": "Unit 4 cancer and cell cycle",
-          "sections": "spindle, genome, interpretation",
-          "boundary": "State vs rate and biological consequences",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "Contact inhibition, mitogen independence",
-          "official_relation": "Unit 4 cancer and cell cycle; cell communication",
-          "sections": "commitment, tissue, homeostasis",
-          "boundary": "Separate proliferation from adhesion/invasion",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        },
-        {
-          "microtopic": "Positive activation vs negative loss",
-          "official_relation": "Unit 4 cancer, oncogenes and suppressors",
-          "sections": "rb, epistasis, application",
-          "boundary": "Functional perturbation, rescue and drug response; avoid clinical therapy detail",
-          "depth": "Postgraduate NET/SET conceptual, mechanistic and data interpretation",
-          "assessment": "Conceptual and analytical practice",
-          "status": "PASS"
-        }
-      ],
-      "coverage_360": [
-        {
-          "dimension": "A",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "homeostasis, phase, commitment",
-          "evidence": "Tissue-regulated proliferation; growth versus division; G0/G1/S/G2/M; checkpoint versus restriction point",
-          "assessment": "B conceptual; mixed assertion",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "B",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "history, commitment, damage, spindle",
-          "evidence": "Pardee 1974, Hartwell/Weinert 1989, Nobel 2001, Spencer 2013, el-Deiry 1993/94, Cimini 2001; abstract/review verification",
-          "assessment": "C causal and time-course questions",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "C",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "molecular, rb, genome, spindle",
-          "evidence": "CDK catalytic domain, regulatory complex, phosphorylation, Rb binding, kinetochore and spindle topology",
-          "assessment": "B identity and C perturbation",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "D",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "rb, damage, g2, spindle, molecular",
-          "evidence": "Mitogen to Rb/E2F; p53/p21; opposing Wee1/Cdc25; MCC/APC/C/securin/separase",
-          "assessment": "C pathway and mixed mechanism",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "E",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "molecular, feedback, quant",
-          "evidence": "ATP phosphate transfer, substrate selection, stoichiometry, turnover, enzyme saturation and nonequilibrium directionality",
-          "assessment": "Worked turnover, B catalysis",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "F",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "commitment, rb, feedback, epistasis, g2",
-          "evidence": "Positive and negative feedback; conditional inputs, checkpoint recovery; compensation",
-          "assessment": "C pathway bypass, recovery",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "G",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "quant, interpretation, feedback, worked",
-          "evidence": "Net exponential growth, conditional probability, age distribution derivation, first-order turnover, error fractions; units and limits",
-          "assessment": "Eight worked examples, C quantitative items",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "H",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "history, measurement, genome, interpretation",
-          "evidence": "Verified historical report/abstract/review evidence; matched controls, necessity, rescue, time course; hypothetical data explicitly labeled",
-          "assessment": "C experimental interpretation",
-          "remaining_gaps": "Not all primary full texts accessible; no invented datasets."
-        },
-        {
-          "dimension": "I",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "homeostasis, tissue, application",
-          "evidence": "Regenerative tissue, lineage and homeostasis; net turnover; malignant growth versus normal proliferation",
-          "assessment": "B/C population reasoning",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "J",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "phase, history, tissue",
-          "evidence": "Conserved eukaryotic CDK principle, yeast/animal comparisons, plant meristems, bacterial boundary",
-          "assessment": "Mixed comparative",
-          "remaining_gaps": "Comparative depth intentionally bounded to NET/SET."
-        },
-        {
-          "dimension": "K",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "rb, damage, genome, spindle, epistasis",
-          "evidence": "Cyclin dosage, p16/Rb loss, p53/p21 changes, replication stress and chromosome errors",
-          "assessment": "C genotype and segregation data",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "L",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "commitment, damage, spindle, tissue, interpretation",
-          "evidence": "Heterogeneous commitment, ATM/ATR overlap, merotely, state versus rate, age model limits",
-          "assessment": "C boundary and mixed assertion",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "M",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "application, measurement",
-          "evidence": "Concept-level CDK4/6 inhibition, cytostasis versus cytotoxicity, proliferation markers; no individual treatment advice",
-          "assessment": "C count and biomarker interpretation",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "N",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "homeostasis, genome, tissue, application",
-          "evidence": "Links Units 1–3, previous oncogene/suppressor nodes, next apoptosis node, later invasion and therapy",
-          "assessment": "C integrated and mixed",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
-        },
-        {
-          "dimension": "O",
-          "status": "PASS",
-          "applicable": true,
-          "sections": "interpretation, epistasis, quant, practice, revision",
-          "evidence": "Original B/C questions with explanations, conditional reasoning, controls, numerical and diagram interpretation",
-          "assessment": "20 B, 20 C, 10 mixed",
-          "remaining_gaps": "Difficulty self-reviewed, not empirically calibrated."
-        }
-      ],
-      "review_pass_1": {
-        "method": "Internal scientific and syllabus review of saved chapter; source search, original report abstract and review text/abstracts",
-        "corrections": [
-          "Separated Pardee nutritional restriction experiment from later mitogen withdrawal.",
-          "Added named primary evidence for checkpoints, p21, CDK2 commitment and merotely; no fabricated results.",
-          "Clarified predominant ATM/ATR inputs, p16 versus p21, Rb dependence and S-phase/mitotic distinction.",
-          "Recalculated net growth, conditional fractions, age distribution and protein turnover."
+        "official_revised": "CSIR-HRDG merged syllabus Unit 4.E, genetic rearrangements in progenitor cells",
+        "official_legacy": "CSIR-HRDG Unit 4.D",
+        "state_set": "MP SET 2024 archived syllabus scan, Unit 4.D; current official MPPSC host not independently retrieved",
+        "academy_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+        "scope_matrix": [
+          [
+            "Stem/progenitor origin and somatic/germline",
+            "origins, inheritance",
+            "cell division and inheritance prerequisite; cancer lineage context; not developmental stem-cell taxonomy"
+          ],
+          [
+            "Driver/passenger and multistep selection",
+            "selection, integration",
+            "selection and clonal inference; not full oncology"
+          ],
+          [
+            "Point mutations and DNA lesions/repair",
+            "sources, point",
+            "DNA replication and repair prerequisite; genetic outcomes; not detailed repair pathways"
+          ],
+          [
+            "Deletion, gain, amplification and LOH",
+            "dosage",
+            "chromosome dosage prerequisite; quantitative interpretation; not genome-wide profiling methods"
+          ],
+          [
+            "Translocation, inversion and fusion",
+            "rearrange",
+            "chromosomal structure prerequisite; mechanisms, balanced versus unbalanced; not cytogenetic laboratory protocol"
+          ],
+          [
+            "Philadelphia and BCR::ABL1",
+            "philadelphia",
+            "protein regulation prerequisite; causal and mechanistic evidence; detailed oncogene classes reserved for 4.E.03"
+          ],
+          [
+            "Genome instability and clonal evolution",
+            "instability, selection, quantitative",
+            "CIN versus aneuploidy, multistep progression; not specialist sequencing pipelines"
+          ]
         ]
       },
-      "review_pass_2": {
-        "method": "Internal teaching and examination review of saved revision; not external peer review",
-        "corrections": [
-          "Restored inherited toolbar that initial regex replacement removed.",
-          "Expanded narrative from 6924 to 14082 words via distinct molecular, historical, causal and quantitative sections.",
-          "Strengthened six Part C prompts, added three diagrams, revised 16 misconception explanations, balanced answer positions and installed dynamic published-neighbor navigation.",
-          "Checked exact uniqueness, lexical overlap screen and qualitative reading; recurring central concepts used in distinct explanatory contexts, not repeated verbatim."
+      "coverage": {
+        "A": [
+          "PASS",
+          "origins, inheritance",
+          "definitions and lineage distinctions",
+          "Part B, recall"
+        ],
+        "B": [
+          "PASS",
+          "philadelphia, selection",
+          "Nowell/Hungerford, Rowley, fusion evidence, clonal evolution",
+          "historical evidence questions"
+        ],
+        "C": [
+          "PASS",
+          "point, dosage, rearrange, philadelphia",
+          "chromosome and fusion domains, gene dosage",
+          "diagram questions"
+        ],
+        "D": [
+          "PASS",
+          "sources, philadelphia, selection",
+          "lesion fixation, rearrangement and kinase activity",
+          "mechanism problems"
+        ],
+        "E": [
+          "PASS",
+          "sources, philadelphia, quantitative",
+          "DNA damage, ATP-dependent phosphorylation, kinetics",
+          "numerical practice"
+        ],
+        "F": [
+          "PASS",
+          "dosage, philadelphia, instability",
+          "feedback context, kinase regulation, checkpoints",
+          "perturbation problems"
+        ],
+        "G": [
+          "PASS",
+          "dosage, quantitative, worked",
+          "VAF, growth, probability, phosphorylation",
+          "9 worked examples"
+        ],
+        "H": [
+          "PASS",
+          "philadelphia, evidence",
+          "observations versus causal inference, controls",
+          "experimental interpretation"
+        ],
+        "I": [
+          "PASS",
+          "origins, philadelphia, integration",
+          "tissue lineage and physiological growth control",
+          "integration questions"
+        ],
+        "J": [
+          "PASS",
+          "selection, integration",
+          "somatic evolution and limits of plant/microbial comparisons",
+          "selection questions"
+        ],
+        "K": [
+          "PASS",
+          "sources, dosage, instability, philadelphia",
+          "loss, gain, repair defects, abnormal signaling",
+          "perturbation questions"
+        ],
+        "L": [
+          "PASS",
+          "dosage, evidence, quantitative",
+          "purity, ploidy, sampling and model limits",
+          "conditional questions"
+        ],
+        "M": [
+          "PASS",
+          "philadelphia, evidence, integration",
+          "diagnostic interpretation and targeted therapy principles",
+          "application questions"
+        ],
+        "N": [
+          "PASS",
+          "integration",
+          "DNA, chromosome, cell cycle and signaling bridges",
+          "mixed questions"
+        ],
+        "O": [
+          "PASS",
+          "worked, assessment, revision",
+          "52 original explained questions, 15 recall prompts",
+          "20 B, 20 C, 12 mixed"
         ]
       },
+      "review_pass_1": "Reviewed actual saved narrative for syllabus, scientific mechanisms, definitions, quantities and reference metadata. Expanded repair, lineage, quantitative reasoning and fusion evidence; revised graph axes and calculated exponential curves; clarified historical association versus mechanistic causation; added explicit source links. Published references checked using abstracts, search excerpts and established textbook knowledge where full text inaccessible.",
+      "review_pass_2": "Reviewed saved narrative and assessments. Replaced all twenty Part C items with analytical multi-step reasoning; expanded seventeen traps and nine worked examples; balanced nonperiodic keys; excluded eleven short figure-reference paragraphs from narrative count; clarified independent clone labels in worked example. Editorial review found intentional reinforcement but no obvious artificial padding; pairwise lexical overlap is only a screen, not a semantic proof.",
       "academic_self_review": {
-        "scope": {
-          "score": 20,
-          "max": 20,
-          "evidence": "All eight roadmap groups mapped; official texts inspected"
-        },
-        "accuracy": {
-          "score": 24,
-          "max": 25,
-          "evidence": "Mechanisms and named evidence checked",
-          "deduction": "Not all primary full texts accessible; reliance on abstracts/reviews and standard textbook knowledge."
-        },
-        "depth": {
-          "score": 19,
-          "max": 20,
-          "evidence": "14082 narrative words, 138 paragraphs, comparator 14107 words",
-          "deduction": "Selected comparative/structural examples; core concepts intentionally revisited in reasoning."
-        },
-        "experimental_quantitative": {
-          "score": 14,
-          "max": 15,
-          "evidence": "Eight examples, derived age distribution and turnover, verified arithmetic, causal evidence",
-          "deduction": "Numerical data hypothetical; no replication of original research datasets."
-        },
-        "practice": {
-          "score": 9,
-          "max": 10,
-          "evidence": "20 B, 20 C, 10 mixed, balanced answer positions, explanations",
-          "deduction": "Difficulty internally assessed, not empirically calibrated; some analytical items shorter than advanced Part C."
-        },
-        "technical": {
-          "score": 9,
-          "max": 10,
-          "evidence": "Saved HTML static audit passes; dynamic navigation uses current menu and disabled default",
-          "deduction": "No interactive browser/device or assistive technology test."
-        },
+        "scope": 20,
+        "accuracy_mechanisms": 24,
+        "depth_narrative": 19,
+        "analytical_evidence": 14,
+        "practice_mastery": 9,
+        "technical_reader": 9,
         "total": 95,
         "threshold": 95,
-        "assessment": "Internal editorial assessment only; no external peer review."
+        "rationale": {
+          "scope": "All approved microtopics mapped to syllabus and covered; archived MP SET confirms topic.",
+          "accuracy": "Mechanisms and landmark metadata checked; deduct one for primary full-text access limitations.",
+          "depth": "Comparable teaching volume to 4.D.03; deduct one for some necessary conceptual reinforcement.",
+          "analytical": "Nine worked examples, quantitative and experimental reasoning; deduct one for hypothetical models and limited source full-text access.",
+          "practice": "52 original explained items including 20 revised Part C; deduct one because no student psychometric validation.",
+          "technical": "Static audit and existing reader preserved; deduct one because interactive browser/device testing unavailable."
+        }
       },
       "static_checks": {
         "duplicate_ids": 0,
-        "broken_anchors": 0,
-        "broken_aria_targets": 0,
-        "broken_zoom_targets": 0,
-        "missing_js_ids": 0,
-        "answer_key_mismatches": 0,
+        "unresolved_internal_anchors": [],
+        "exact_duplicate_teaching_paragraphs": 0,
+        "svg_accessible": 11,
+        "malformed_questions": 0,
+        "unique_questions": 52,
+        "unresolved_aria_or_zoom_targets": 0,
         "html_tag_stack_errors": 0,
-        "svg_title_desc": true,
-        "local_links_exist": true,
-        "canonical": true,
-        "robots": "index,follow",
-        "placeholders": false,
-        "interactive_browser": "not executed",
-        "arithmetic": [
-          0.028881132523331052,
-          17.328679513998633,
-          69.31471805599453,
-          0.4,
-          0.06,
-          0.03,
-          0.09,
-          0.5,
-          10,
-          0.1,
-          0.04,
-          0.5857864376269051,
-          0.02111886747666895,
-          0.05111886747666895
+        "placeholder_count": 0,
+        "reader_script_syntax": "parsed successfully, not executed in DOM",
+        "local_links": [
+          "./"
         ],
-        "menu_target_count": 1,
+        "canonical": "verified",
+        "robots": "index,follow (publication version)",
+        "numerical_recalculation": {
+          "event_100": 0.09520785288629108,
+          "event_200": 0.1813511705213644,
+          "zero_50": 0.36416968008711675,
+          "copy_vaf": 0.13636363636363635,
+          "growth_ratio": 2.718281828459045,
+          "growth_x": 271.8281828459045,
+          "growth_y": 738.905609893065
+        },
+        "semantic_repetition": "No exact duplicates or paragraph pairs above .45 lexical Jaccard; qualitative review of actual text found no obvious padding. Lexical overlap cannot establish semantic originality.",
         "sitemap_target_count": 1,
-        "prior_publications_preserved": true
+        "menu_target_count": 1,
+        "checkpoint_matches_linked_nodes": true
+      },
+      "neighbors": {
+        "previous": "4.E.01",
+        "next": "4.E.03",
+        "policy": "Resolve from current homepage; disable if not published."
       },
       "limitations": [
-        "Some primary papers verified from abstracts and reviews; NCBI access challenge on some full text pages.",
-        "Current MP SET official-host file not located; archived MPPSC-labelled copy verified.",
-        "Interactive browser/device/assistive technology test not executed.",
-        "No external peer review; assessment difficulty not empirically tested."
+        "Internal academic review, not independent external peer review.",
+        "Current MPPSC official host not independently retrieved; archived scan checked.",
+        "Primary article abstracts and excerpts rather than all full texts; no claim of full-text review.",
+        "No interactive browser, real device or student testing."
       ],
-      "chapter_blob_sha": "110e03c08e506f7fd696c0c3fe2044e68a396a84",
-      "main_baseline_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "draft_qa_commit_sha": "5dc51f6ae2a78486a2f25aa22cb31d24e50ed367",
-      "academy_published_count": 181,
+      "publication_eligible": true,
+      "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+      "publication_base_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+      "chapter_blob_sha": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c",
+      "draft_qa_commit_sha": "5c4e1d75283f2cf58e7b27f13bd906a191bd2757",
+      "academy_published_count": 182,
       "academy_planned_count": 723,
-      "unit_04_published_count": 50,
+      "unit_04_published_count": 51,
       "unit_04_planned_count": 61,
-      "subunit_4e_published_count": 1,
+      "subunit_4e_published_count": 2,
       "subunit_4e_planned_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-      "neighbors": {
-        "4.E.04": null,
-        "4.E.06": null
-      },
-      "concurrent_reconciliation": {
-        "initial_head": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "publication_baseline": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "preserved_published_ids": 180,
-        "method": "Fresh main tree, menu, sitemap and checkpoint read at immutable SHA; targeted changes only; expected non-force ref update."
+      "reconciliation": {
+        "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+        "concurrent_main_changes": true,
+        "previous_links_preserved": 181,
+        "previous_sitemap_urls_preserved": 182,
+        "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
       }
     },
     "subunit_4a": {
@@ -18469,9 +18931,10 @@
     "subunit_4e": {
       "published_node_ids": [
         "4.E.02",
+        "4.E.03",
         "4.E.05"
       ],
-      "published_node_count": 2,
+      "published_node_count": 3,
       "planned_node_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
@@ -18591,6 +19054,7 @@
   "unit4d_planned_node_count": 12,
   "unit4e_published_node_ids": [
     "4.E.02",
+    "4.E.03",
     "4.E.05"
   ],
   "unit4e_planned_node_count": 12,
@@ -19160,6 +19624,617 @@
         "Static source validation; interactive/mobile/assistive technology testing and live deployment verification separate."
       ],
       "date": "2026-11-26"
+    },
+    "4.E.02": {
+      "node_id": "4.E.02",
+      "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
+      "unit": "04",
+      "subunit": "4.E",
+      "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
+      "status": "lesson_committed_pages_verification_pending",
+      "checked_date": "2026-11-26",
+      "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "source_draft_branch": "draft/4.E.02-genetic-alterations",
+      "source_draft_commit_sha": "db43f8b715289bf024e8b9310f3728a1ed0ba84f",
+      "draft_blob_sha": "45e40e127d1a10f977529733e91cc8b4f455e592",
+      "metrics": {
+        "teaching_words": 14077,
+        "visible_article_words": 20596,
+        "teaching_paragraphs": 125,
+        "exact_duplicate_paragraphs": 0,
+        "theory_sections": 12,
+        "total_sections": 19,
+        "svg": 11,
+        "tables": 2,
+        "worked_examples": 9,
+        "part_b": 20,
+        "part_c": 20,
+        "mixed": 12,
+        "total_questions": 52,
+        "misconceptions": 17,
+        "active_recall": 15,
+        "scientific_references": 15,
+        "syllabus_references": 3,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        }
+      },
+      "word_count_method": "Count Unicode letter/number words with internal apostrophes/hyphens in p.teaching-prose after removing HTML tags and entity tokens; figures, headings, worked examples, questions, summaries and references excluded. Visible article excludes SVG and button contents. Earlier alternate tokenization returned 14068 narrative and 20579 visible words; both satisfy gate.",
+      "comparator": {
+        "node": "4.D.03",
+        "words_same_method": 14017,
+        "paragraphs": 127,
+        "note": "Actual saved neighboring chapter fetched; comparable depth and paragraph volume. No published 4.E neighbor at initial inspection."
+      },
+      "syllabus": {
+        "official_revised": "CSIR-HRDG merged syllabus Unit 4.E, genetic rearrangements in progenitor cells",
+        "official_legacy": "CSIR-HRDG Unit 4.D",
+        "state_set": "MP SET 2024 archived syllabus scan, Unit 4.D; current official MPPSC host not independently retrieved",
+        "academy_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+        "scope_matrix": [
+          [
+            "Stem/progenitor origin and somatic/germline",
+            "origins, inheritance",
+            "cell division and inheritance prerequisite; cancer lineage context; not developmental stem-cell taxonomy"
+          ],
+          [
+            "Driver/passenger and multistep selection",
+            "selection, integration",
+            "selection and clonal inference; not full oncology"
+          ],
+          [
+            "Point mutations and DNA lesions/repair",
+            "sources, point",
+            "DNA replication and repair prerequisite; genetic outcomes; not detailed repair pathways"
+          ],
+          [
+            "Deletion, gain, amplification and LOH",
+            "dosage",
+            "chromosome dosage prerequisite; quantitative interpretation; not genome-wide profiling methods"
+          ],
+          [
+            "Translocation, inversion and fusion",
+            "rearrange",
+            "chromosomal structure prerequisite; mechanisms, balanced versus unbalanced; not cytogenetic laboratory protocol"
+          ],
+          [
+            "Philadelphia and BCR::ABL1",
+            "philadelphia",
+            "protein regulation prerequisite; causal and mechanistic evidence; detailed oncogene classes reserved for 4.E.03"
+          ],
+          [
+            "Genome instability and clonal evolution",
+            "instability, selection, quantitative",
+            "CIN versus aneuploidy, multistep progression; not specialist sequencing pipelines"
+          ]
+        ]
+      },
+      "coverage": {
+        "A": [
+          "PASS",
+          "origins, inheritance",
+          "definitions and lineage distinctions",
+          "Part B, recall"
+        ],
+        "B": [
+          "PASS",
+          "philadelphia, selection",
+          "Nowell/Hungerford, Rowley, fusion evidence, clonal evolution",
+          "historical evidence questions"
+        ],
+        "C": [
+          "PASS",
+          "point, dosage, rearrange, philadelphia",
+          "chromosome and fusion domains, gene dosage",
+          "diagram questions"
+        ],
+        "D": [
+          "PASS",
+          "sources, philadelphia, selection",
+          "lesion fixation, rearrangement and kinase activity",
+          "mechanism problems"
+        ],
+        "E": [
+          "PASS",
+          "sources, philadelphia, quantitative",
+          "DNA damage, ATP-dependent phosphorylation, kinetics",
+          "numerical practice"
+        ],
+        "F": [
+          "PASS",
+          "dosage, philadelphia, instability",
+          "feedback context, kinase regulation, checkpoints",
+          "perturbation problems"
+        ],
+        "G": [
+          "PASS",
+          "dosage, quantitative, worked",
+          "VAF, growth, probability, phosphorylation",
+          "9 worked examples"
+        ],
+        "H": [
+          "PASS",
+          "philadelphia, evidence",
+          "observations versus causal inference, controls",
+          "experimental interpretation"
+        ],
+        "I": [
+          "PASS",
+          "origins, philadelphia, integration",
+          "tissue lineage and physiological growth control",
+          "integration questions"
+        ],
+        "J": [
+          "PASS",
+          "selection, integration",
+          "somatic evolution and limits of plant/microbial comparisons",
+          "selection questions"
+        ],
+        "K": [
+          "PASS",
+          "sources, dosage, instability, philadelphia",
+          "loss, gain, repair defects, abnormal signaling",
+          "perturbation questions"
+        ],
+        "L": [
+          "PASS",
+          "dosage, evidence, quantitative",
+          "purity, ploidy, sampling and model limits",
+          "conditional questions"
+        ],
+        "M": [
+          "PASS",
+          "philadelphia, evidence, integration",
+          "diagnostic interpretation and targeted therapy principles",
+          "application questions"
+        ],
+        "N": [
+          "PASS",
+          "integration",
+          "DNA, chromosome, cell cycle and signaling bridges",
+          "mixed questions"
+        ],
+        "O": [
+          "PASS",
+          "worked, assessment, revision",
+          "52 original explained questions, 15 recall prompts",
+          "20 B, 20 C, 12 mixed"
+        ]
+      },
+      "review_pass_1": "Reviewed actual saved narrative for syllabus, scientific mechanisms, definitions, quantities and reference metadata. Expanded repair, lineage, quantitative reasoning and fusion evidence; revised graph axes and calculated exponential curves; clarified historical association versus mechanistic causation; added explicit source links. Published references checked using abstracts, search excerpts and established textbook knowledge where full text inaccessible.",
+      "review_pass_2": "Reviewed saved narrative and assessments. Replaced all twenty Part C items with analytical multi-step reasoning; expanded seventeen traps and nine worked examples; balanced nonperiodic keys; excluded eleven short figure-reference paragraphs from narrative count; clarified independent clone labels in worked example. Editorial review found intentional reinforcement but no obvious artificial padding; pairwise lexical overlap is only a screen, not a semantic proof.",
+      "academic_self_review": {
+        "scope": 20,
+        "accuracy_mechanisms": 24,
+        "depth_narrative": 19,
+        "analytical_evidence": 14,
+        "practice_mastery": 9,
+        "technical_reader": 9,
+        "total": 95,
+        "threshold": 95,
+        "rationale": {
+          "scope": "All approved microtopics mapped to syllabus and covered; archived MP SET confirms topic.",
+          "accuracy": "Mechanisms and landmark metadata checked; deduct one for primary full-text access limitations.",
+          "depth": "Comparable teaching volume to 4.D.03; deduct one for some necessary conceptual reinforcement.",
+          "analytical": "Nine worked examples, quantitative and experimental reasoning; deduct one for hypothetical models and limited source full-text access.",
+          "practice": "52 original explained items including 20 revised Part C; deduct one because no student psychometric validation.",
+          "technical": "Static audit and existing reader preserved; deduct one because interactive browser/device testing unavailable."
+        }
+      },
+      "static_checks": {
+        "duplicate_ids": 0,
+        "unresolved_internal_anchors": [],
+        "exact_duplicate_teaching_paragraphs": 0,
+        "svg_accessible": 11,
+        "malformed_questions": 0,
+        "unique_questions": 52,
+        "unresolved_aria_or_zoom_targets": 0,
+        "html_tag_stack_errors": 0,
+        "placeholder_count": 0,
+        "reader_script_syntax": "parsed successfully, not executed in DOM",
+        "local_links": [
+          "./"
+        ],
+        "canonical": "verified",
+        "robots": "index,follow (publication version)",
+        "numerical_recalculation": {
+          "event_100": 0.09520785288629108,
+          "event_200": 0.1813511705213644,
+          "zero_50": 0.36416968008711675,
+          "copy_vaf": 0.13636363636363635,
+          "growth_ratio": 2.718281828459045,
+          "growth_x": 271.8281828459045,
+          "growth_y": 738.905609893065
+        },
+        "semantic_repetition": "No exact duplicates or paragraph pairs above .45 lexical Jaccard; qualitative review of actual text found no obvious padding. Lexical overlap cannot establish semantic originality.",
+        "sitemap_target_count": 1,
+        "menu_target_count": 1,
+        "checkpoint_matches_linked_nodes": true
+      },
+      "neighbors": {
+        "previous": "4.E.01",
+        "next": "4.E.03",
+        "policy": "Resolve from current homepage; disable if not published."
+      },
+      "limitations": [
+        "Internal academic review, not independent external peer review.",
+        "Current MPPSC official host not independently retrieved; archived scan checked.",
+        "Primary article abstracts and excerpts rather than all full texts; no claim of full-text review.",
+        "No interactive browser, real device or student testing."
+      ],
+      "publication_eligible": true,
+      "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+      "publication_base_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+      "chapter_blob_sha": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c",
+      "draft_qa_commit_sha": "5c4e1d75283f2cf58e7b27f13bd906a191bd2757",
+      "academy_published_count": 182,
+      "academy_planned_count": 723,
+      "unit_04_published_count": 51,
+      "unit_04_planned_count": 61,
+      "subunit_4e_published_count": 2,
+      "subunit_4e_planned_count": 12,
+      "next_pending_node_id": "4.E.01",
+      "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+      "reconciliation": {
+        "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+        "concurrent_main_changes": true,
+        "previous_links_preserved": 181,
+        "previous_sitemap_urls_preserved": 182,
+        "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
+      }
+    },
+    "4.E.03": {
+      "node_id": "4.E.03",
+      "unit": "04",
+      "subunit": "4.E",
+      "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+      "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+      "checked_date": "2026-11-26",
+      "status": "lesson_committed_pages_verification_pending",
+      "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "source_draft_branch": "draft/node-4e03-oncogene-gain-of-function",
+      "source_draft_commit_sha": "ba2c4fbfefd2d991117dbb8e7980859ca96720e1",
+      "draft_blob_sha": "df60360e3bdf972f4d22bf25aa58743c5de3e690",
+      "metrics": {
+        "teaching_words": 14044,
+        "visible_article_words_excluding_svg_and_buttons": 21660,
+        "teaching_paragraphs": 150,
+        "exact_duplicate_paragraphs": 0,
+        "theory_sections": 28,
+        "total_sections": 36,
+        "svg": 14,
+        "tables": 2,
+        "worked_examples": 9,
+        "part_b": 22,
+        "part_c": 24,
+        "mixed": 8,
+        "total_questions": 54,
+        "misconceptions": 18,
+        "active_recall": 20,
+        "scientific_references": 19,
+        "syllabus_references": 3,
+        "answer_positions": {
+          "A": 14,
+          "B": 13,
+          "C": 13,
+          "D": 14
+        }
+      },
+      "word_count_method": "Unicode letter/number words with internal apostrophes or hyphens, actual saved p.teaching-prose only; headings, tables, SVG, questions, worked examples, revision and references excluded. Visible article count excludes SVG and button contents.",
+      "comparator": {
+        "node": "4.A.06",
+        "teaching_words": 13948,
+        "comparison": "Published saved HTML recount; comparable substantial signaling narrative, with target-specific genetic mechanisms. 4.E neighbors were unpublished at initial inspection."
+      },
+      "syllabus": {
+        "official_revised": "CSIR-HRDG merged Unit 4.E, printed p5, screenshot inspected",
+        "official_legacy": "CSIR-HRDG Unit 4.D, printed p3, screenshot inspected",
+        "mp_set": "MP SET 2024 archived scan Unit 4.D, printed p3, screenshot inspected; current official-host copy not confirmed",
+        "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+        "microtopic_matrix": [
+          [
+            "Proto-oncogene versus oncogene; cellular dominance",
+            "1–5,17",
+            "Cancer oncogenes; prerequisite normal signaling and alleles",
+            "Distinguish altered function, not inherited penetrance; B/C"
+          ],
+          [
+            "RAS mutation and switch termination",
+            "6–8,15",
+            "Oncogenes; RTK signaling prerequisite",
+            "GDP/GTP, GAP/GEF, kinetics, C23–29"
+          ],
+          [
+            "HER2 amplification and gene dosage",
+            "9,18,21",
+            "Oncogenes; receptor and transcription prerequisites",
+            "Dosage versus affinity/activity; C30–33"
+          ],
+          [
+            "MYC expression and regulatory rearrangement",
+            "10–11,13",
+            "Oncogenes and rearrangements; transcription prerequisite",
+            "MYC–MAX and regulatory juxtaposition; C34"
+          ],
+          [
+            "BCR::ABL1 fusion",
+            "12–13",
+            "Oncogenes and genetic rearrangements; kinase prerequisite",
+            "Fusion and altered regulation; C34–35; no detailed clinical therapy"
+          ],
+          [
+            "Cooperation and functional evidence",
+            "14–17,19–28",
+            "Cancer oncogenes and cell-cycle control",
+            "Controls, dependence, model limits, suppressor bridge; C36–46"
+          ]
+        ]
+      },
+      "coverage_360": [
+        {
+          "dimension": "A",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "1,3–5",
+          "evidence": "Normal growth, allele and proto-oncogene distinctions",
+          "assessment": "B1–22",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "B",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "2,19",
+          "evidence": "Src cellular origin, T24 transformation and landmark evidence",
+          "assessment": "Historical and interpretation questions",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "C",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6,9–12,24",
+          "evidence": "RAS switch, HER2 architecture, MYC–MAX, BCR::ABL1 kinase fusion",
+          "assessment": "Diagrams and B/C",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "D",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6–12,15–17",
+          "evidence": "Nucleotide cycle, dosage, regulatory relocation, fusion, cooperation",
+          "assessment": "C23–36",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "E",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6,8,12,18",
+          "evidence": "Hydrolysis, ATP-dependent kinase output, binding, rate constants",
+          "assessment": "Worked 1–4",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "F",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "7,14–17,25",
+          "evidence": "Feedback, GAP/GEF, receptor dependence, signaling threshold",
+          "assessment": "C27–29,36,46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "G",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "8,18,21–23",
+          "evidence": "Occupancy, decay, dosage, VAF and relative clonal growth",
+          "assessment": "Worked 1–9, C23–26,30–32,37–41",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "H",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "2,19–20,25–26",
+          "evidence": "Landmark studies, assay controls, correlation, matched perturbation and rescue",
+          "assessment": "C27–29,43–45",
+          "remaining_gaps": "Some primary full texts unavailable; abstract/review verification only."
+        },
+        {
+          "dimension": "I",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "1,16,27",
+          "evidence": "Physiological growth control, tissue constraints, apoptosis and senescence",
+          "assessment": "C42,45–46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "J",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "23–24,27",
+          "evidence": "Conserved growth-control modules, somatic selection and comparative limits",
+          "assessment": "Integrated practice",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "K",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "5–17,25",
+          "evidence": "Activating lesions, feedback, context and altered regulation",
+          "assessment": "C23–36,42",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "L",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "8,13–16,20–23,26",
+          "evidence": "Model assumptions, mixed-cell samples, necessity versus sufficiency",
+          "assessment": "C31–41,43–46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "M",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "20–21,25–26",
+          "evidence": "Molecular diagnostic interpretation and selective dependency principles",
+          "assessment": "C28,31,33–35,44",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "N",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "13,17,24–28",
+          "evidence": "Links to signaling, cell cycle, genetic alterations and suppressors",
+          "assessment": "Mixed and recall",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "O",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "28,worked,part-b,part-c,mixed,traps,revision",
+          "evidence": "54 explained original items and active recall",
+          "assessment": "22 B,24 C,8 mixed",
+          "remaining_gaps": "Difficulty internally reviewed, no psychometric validation."
+        }
+      ],
+      "review_pass_1": {
+        "method": "Internal scientific and syllabus review of saved HTML, source records, reviews, abstracts and textbook knowledge.",
+        "corrections": [
+          "Separated cellular dominance from inheritance and malignant sufficiency.",
+          "Clarified GAP-mediated hydrolysis and receptor-independent output versus universal autonomy; HER2 has no known direct soluble ligand.",
+          "Distinguished MYC regulatory relocation from coding fusion, gene copy from activity, and VAF from cell prevalence.",
+          "Checked hypothetical numerical examples and diagrams; retained physiological and comparative boundaries."
+        ]
+      },
+      "review_pass_2": {
+        "method": "Internal teaching/exam review of saved chapter; not external peer review.",
+        "corrections": [
+          "Strengthened distractors/explanations in 25 questions, then revised six Part C items to multistep comparative analysis.",
+          "Added prerequisite internal links and measurement comparison table; corrected responsive table styling.",
+          "Checked 150 teaching paragraphs; zero exact duplicates, maximum pairwise lexical Jaccard 0.307; purposeful conceptual reinforcement, not proof of semantic originality.",
+          "Preserved existing reader and dynamic navigation."
+        ]
+      },
+      "academic_self_review": {
+        "scope": {
+          "score": 20,
+          "max": 20,
+          "evidence": "All Academy roadmap microtopics covered, aligned to official oncogene syllabus and archived SET."
+        },
+        "accuracy": {
+          "score": 24,
+          "max": 25,
+          "deduction": "Not all primary full texts accessible; reviewed abstract/review evidence and textbook mechanisms."
+        },
+        "depth": {
+          "score": 19,
+          "max": 20,
+          "deduction": "Some conceptual reinforcement across mechanism and reasoning sections; not independently learner-tested."
+        },
+        "analytical": {
+          "score": 14,
+          "max": 15,
+          "deduction": "Numerical datasets hypothetical rather than original research data; 9 worked examples."
+        },
+        "practice": {
+          "score": 9,
+          "max": 10,
+          "deduction": "54 explained original questions; difficulty not psychometrically calibrated and some analytical questions shorter than advanced Part C."
+        },
+        "technical": {
+          "score": 9,
+          "max": 10,
+          "deduction": "Static HTML/JS source checks only; no interactive browser/device test."
+        },
+        "total": 95,
+        "threshold": 95
+      },
+      "static_checks": {
+        "duplicate_ids": 0,
+        "broken_anchors": [],
+        "broken_aria_targets": [],
+        "svg_missing_title_desc": 0,
+        "html_stack_errors": 0,
+        "answer_key_mismatches": 0,
+        "script_syntax": "parsed; not executed in DOM",
+        "placeholders": false,
+        "canonical": true,
+        "robots": "index,follow",
+        "max_pairwise_lexical_jaccard": 0.3069306930693069,
+        "numerical_recalculation": [
+          0.2,
+          0.8,
+          0.8664339756999315,
+          13.862943611198904,
+          0.3,
+          0.3,
+          20,
+          80,
+          1,
+          4,
+          0.3,
+          0.5625,
+          2.718281828459045,
+          0.8125,
+          0.05555555555555555,
+          0.025,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "menu_target_count": 1,
+        "sitemap_target_count": 1,
+        "local_links_exist": true,
+        "checkpoint_matches_linked_nodes": true
+      },
+      "neighbors": {
+        "previous": "4.E.02",
+        "next": "4.E.04",
+        "policy": "Dynamic homepage resolution; unpublished node disabled"
+      },
+      "limitations": [
+        "Internal self-review, not external peer review.",
+        "MP SET archived scan, not verified against current MPPSC-hosted copy.",
+        "Some scientific sources checked via abstracts or review excerpts rather than full text.",
+        "No browser/device interaction, assistive technology or student testing."
+      ],
+      "publication_eligible": true,
+      "draft_qa_commit_sha": "470bb66b8da72798ff35b15c1d3a6fbb372442ff",
+      "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "publication_base_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "chapter_blob_sha": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550",
+      "academy_published_count": 183,
+      "academy_planned_count": 723,
+      "unit_04_published_count": 52,
+      "unit_04_planned_count": 61,
+      "subunit_4e_published_count": 3,
+      "subunit_4e_planned_count": 12,
+      "next_pending_node_id": "4.E.01",
+      "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+      "reconciliation": {
+        "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+        "concurrent_main_changes": true,
+        "previous_links_preserved": 182,
+        "previous_sitemap_urls_preserved": 183,
+        "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
+      }
     }
   },
   "academy_planned_node_count": 723

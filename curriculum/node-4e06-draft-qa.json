@@ -4,29 +4,46 @@
   "status": "QUALITY HOLD",
   "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
   "draft_branch": "draft/node-4e06-apoptosis-senescence-20261126",
-  "chapter_commit_sha": "690a4dafb4d3a3939c1cda6c8ff93b46bf264b36",
-  "chapter_blob_sha": "69ddd54ceec22a77b40253f4c7c0a9e01d3c5fe4",
+  "chapter_commit_sha": "4b16505b82a64c8c0238da5f881a6bd18f1837a8",
+  "chapter_blob_sha": "6448fb7ce846016bf2015f3edf5bf4016c065c88",
   "metrics": {
-    "genuine_teaching_words": 8254,
-    "total_article_words": 12445,
-    "paragraphs": 92,
-    "duplicate_paragraphs": 0,
-    "theory_sections": 13,
+    "genuine_teaching_words": 14085,
+    "visible_article_words": 19346,
+    "teaching_paragraphs": 146,
+    "exact_duplicate_paragraphs": 0,
+    "theory_sections": 20,
     "svg": 10,
-    "svg_accessible": 10,
+    "svg_accessibility_failures": 0,
     "tables": 2,
     "questions": 50,
-    "part_b": 20,
-    "part_c": 20,
-    "mixed": 10,
+    "questionCounts": {
+      "part-b": 20,
+      "part-c": 20,
+      "mixed": 10
+    },
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 11
+    },
+    "question_errors": [],
     "answer_explanations": 50,
     "worked": 6,
     "misconceptions": 16,
     "active_recall": 15,
-    "references": 13,
+    "references": 19,
     "duplicate_ids": 0,
     "unresolved_targets": [],
-    "robots_noindex": true
+    "html_stack_errors": [],
+    "inline_script_syntax": [
+      "parsed"
+    ],
+    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/apoptosis-escape-senescence-and-survival-of-cancer-cells.html",
+    "noindex": true,
+    "relative_links": [
+      "./"
+    ]
   },
   "method": "Fetched saved HTML; Unicode lexical tokens in p.teaching-prose, excluding supplementary material. Article total excludes SVG and button contents.",
   "syllabus": {
@@ -36,32 +53,142 @@
     "roadmap": "curriculum/subunit-4e-cancer-node-map.md"
   },
   "coverage": {
-    "A": "partial: balance and fates",
-    "B": "partial: Kerr, Vaux, Hayflick, Bodnar",
-    "C": "partial: mitochondrial topology, telomeres",
-    "D": "partial: intrinsic/extrinsic, BCL family",
-    "E": "partial: binding, nucleotides, hydrolysis",
-    "F": "partial: p53, RB, survival threshold",
-    "G": "partial: net growth and telomere loss models",
-    "H": "partial: published records and hypothetical endpoints",
-    "I": "partial: tissue homeostasis",
-    "J": "partial: animal/plant and nematode comparisons",
-    "K": "partial: cancer-associated dysfunction",
-    "L": "partial: context dependence",
-    "M": "partial: general therapeutic rationale",
-    "N": "partial: prior checkpoint, next viral cancer",
-    "O": "partial: 20 original questions"
+    "A": {
+      "status": "Pass",
+      "sections": "1,3",
+      "evidence": "Population balance, distinct cell fates"
+    },
+    "B": {
+      "status": "Pass",
+      "sections": "2,17",
+      "evidence": "Kerr, Vaux, Hayflick, Serrano, Bodnar and nematode genetic studies"
+    },
+    "C": {
+      "status": "Pass",
+      "sections": "4,6,13–15",
+      "evidence": "Mitochondrial topology and chromosome-end architecture"
+    },
+    "D": {
+      "status": "Pass",
+      "sections": "4–10,13–15",
+      "evidence": "Intrinsic/extrinsic, apoptosome, p53, telomerase"
+    },
+    "E": {
+      "status": "Pass",
+      "sections": "5,7,15",
+      "evidence": "Proteolysis, equilibrium and nucleic-acid chemistry"
+    },
+    "F": {
+      "status": "Pass",
+      "sections": "6–12",
+      "evidence": "Pro-survival restraint, feedback, durable arrest"
+    },
+    "G": {
+      "status": "Pass",
+      "sections": "7,18–19",
+      "evidence": "Derivations and hypothetical examples"
+    },
+    "H": {
+      "status": "Fail",
+      "sections": "2,16–17",
+      "evidence": "Source-linked landmark studies and hypothetical data",
+      "remaining": "Detailed control/result/limitations review not complete for each landmark"
+    },
+    "I": {
+      "status": "Pass",
+      "sections": "1,12,20",
+      "evidence": "Tissue turnover, immune homeostasis, tumor survival"
+    },
+    "J": {
+      "status": "Pass",
+      "sections": "17,20",
+      "evidence": "Nematode/mammal and plant comparison with limits"
+    },
+    "K": {
+      "status": "Pass",
+      "sections": "6,9–15",
+      "evidence": "Cancer-associated BCL2, p53, end dysfunction"
+    },
+    "L": {
+      "status": "Pass",
+      "sections": "3,11,16–19",
+      "evidence": "Marker specificity, heterogeneity, model limits"
+    },
+    "M": {
+      "status": "Pass",
+      "sections": "6,20",
+      "evidence": "General therapeutic rationale, without clinical instructions"
+    },
+    "N": {
+      "status": "Fail",
+      "sections": "4–5,16–18,20",
+      "evidence": "Prerequisite and next chapter connections",
+      "remaining": "Excessive overlap with normal apoptosis in 2.D.08"
+    },
+    "O": {
+      "status": "Pass",
+      "sections": "18–19 and assessment",
+      "evidence": "50 original questions; Part C data and calculations",
+      "remaining": "Some questions moderate; no examiner calibration"
+    }
   },
   "remaining": [
-    "13,000–15,000 genuine teaching words unmet; no artificial expansion",
-    "Need stronger independent in-depth source and semantic repetition review, full question/distractor and illustration review, syllabus mapping microtopic matrix",
-    "Part C difficulty requires more substantive independent multi-step review, 95/100 score not assigned",
-    "No full browser or technical publication validation; no main publication"
+    "Reduce overlap with prerequisite node 2.D.08 without dropping below 13,000 genuine words or inflating prose.",
+    "Strengthen experimental controls, observation, conclusion and limitations for landmark studies; independently review semantic repetition and Part C challenge.",
+    "Verify current official MP SET primary source if available; run actual browser/interactive checks and review SVG renderings.",
+    "Repeat academic gate before any main publication."
   ],
   "source_access": "Official syllabus screenshots, selected abstracts, review excerpts and textbook summaries; not every primary full text.",
   "main_mutated": false,
   "review_notes": {
     "scientific": "Expanded original historical evidence (Serrano 1997), corrected BCL-2 bibliographic label, added explicit limits for senescence marker interpretation, telomere end polarity, and cell-population inference. Source records and reviews, not full primary texts in every case.",
     "teaching": "Added original distinct morphology, telomerase, and marker-matrix diagrams, two comparisons, sixteen misconceptions, thirty new explained questions, and three worked examples; graph calibration clarified. Static checks and arithmetic only; full two-pass review and detailed Part C calibration still pending."
-  }
+  },
+  "final_main_head": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+  "counts": {
+    "academy_planned": 723,
+    "academy_linked": 181,
+    "unit4_planned": 61,
+    "unit4_linked": 50,
+    "subunit_planned": 12,
+    "subunit_linked": 1,
+    "sitemap_urls": 182,
+    "checkpoint_published": 181,
+    "next_unlinked": [
+      "4.E.01",
+      "Fundamentals of Cancer Biology: From Normal Growth to Malignancy"
+    ],
+    "menu_target": 0,
+    "sitemap_target": 0,
+    "menu_sitemap_missing": 0
+  },
+  "review_pass_1": {
+    "status": "internal scientific review completed with unresolved scope issue",
+    "changes": "Expanded mechanism and evidence, corrected bibliographic entry, connected literature to sections, distinguished apoptosis from senescence, added BCL2 cancer context, corrected mitochondrial diagram and calibrated graph.",
+    "remaining": "Normal caspase, clearance and assay descriptions still overlap extensively with prerequisite 2.D.08. Archived MP SET syllabus checked; current official MPPSC source not independently located. Not all primary studies read in full."
+  },
+  "review_pass_2": {
+    "status": "internal teaching/examination review completed with remaining limitations",
+    "changes": "Replaced all 20 Part C questions with data, quantitative and temporal analysis; added 16 misconceptions, six worked examples, original figures, 15 active recall prompts; repaired table and question styles.",
+    "remaining": "Some Part C items remain moderate rather than advanced; semantic review found recurring endpoint interpretation and normal death-mechanism material. No rendered browser, device or accessibility testing."
+  },
+  "academic_score": {
+    "scope": 17,
+    "accuracy": 24,
+    "depth": 18,
+    "experimental_quantitative": 13,
+    "practice": 9,
+    "technical": 9,
+    "total": 90,
+    "threshold": 95,
+    "eligible": false,
+    "reason": "Internal provisional editorial judgement; scope overlap, incomplete detailed historical control review, semantic recurrence, Part C calibration and no interactive rendering. Mechanical metrics do not override failed A–O dimensions."
+  },
+  "comparison": {
+    "node_id": "2.D.08",
+    "published_qa_narrative_words": 8439,
+    "source": "curriculum/node-2d08-publication-qa.json",
+    "conclusion": "Actual prerequisite headings and QA examined. Current node exceeds length but includes too much normal apoptosis and assay exposition. Restructure those sections toward cancer-specific reasoning."
+  },
+  "deployment": "No publication or Pages deployment initiated for target; target remains unlinked on main at audit."
 }

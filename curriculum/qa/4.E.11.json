@@ -1,0 +1,337 @@
+{
+  "node_id": "4.E.11",
+  "unit": "04",
+  "subunit": "4.E",
+  "title": "Therapeutic Control I: Surgery, Radiation and Cytotoxic Chemotherapy Principles",
+  "slug": "therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/therapeutic-control-i-surgery-radiation-and-cytotoxic-chemotherapy-principles.html",
+  "checked_date": "2026-11-26",
+  "status": "COMMITTED TO MAIN; PAGES DEPLOYMENT PENDING",
+  "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+  "source_draft_branch": "draft/4.E.11-conventional-therapy",
+  "source_draft_commit_sha": "b6884c4bd9cc02d39bb9e7c6e1d5d401aa82e4b3",
+  "draft_blob_sha": "739bbc30426d10e619f040563b3078ec17d7ee68",
+  "metrics": {
+    "genuine_teaching_words": 14093,
+    "visible_article_words_excluding_svg_buttons": 19314,
+    "teaching_paragraphs": 135,
+    "exact_duplicate_paragraphs": 0,
+    "theory_sections": 10,
+    "sections": 17,
+    "svg": 10,
+    "tables": 2,
+    "worked_examples": 8,
+    "questions": 50,
+    "part_b": 20,
+    "part_c": 20,
+    "mixed": 10,
+    "answer_positions": {
+      "A": 13,
+      "B": 12,
+      "C": 13,
+      "D": 12
+    },
+    "misconceptions": 18,
+    "active_recall": 16,
+    "references": 15
+  },
+  "word_count_method": "Unicode letter/number tokens with internal hyphens and apostrophes, from saved p.teaching-prose elements only; visible article excludes SVG and buttons. Both counts exclude markup; narrative count excludes supplementary materials.",
+  "syllabus": {
+    "revised": "CSIR–UGC–DBT LS&BT official 21 Jan 2026 PDF, Unit 4.E printed page 5 visually inspected",
+    "legacy": "CSIR Life Sciences official 29 Jan 2026 PDF, Unit 4.D printed page 3 visually inspected",
+    "state_set": "MPPSC SET 2024 syllabus third-party mirror, Unit 4.D printed page 3 visually inspected; current official MPPSC host not independently verified",
+    "academy": "curriculum/subunit-4e-cancer-node-map.md",
+    "scope": "Conventional therapy only; no individualized treatment, clinical regimen or specialist protocols; targeted and immune therapy reserved for 4.E.12."
+  },
+  "microtopic_matrix": [
+    {
+      "topic": "Local surgical removal and occult metastatic disease",
+      "official": "Therapeutic interventions of uncontrolled cell growth; metastasis",
+      "prerequisites": "4.E.09–10 invasion and metastasis",
+      "sections": [
+        "foundations",
+        "surgery"
+      ],
+      "assessment": "B3/B6, C8, mixed4/9",
+      "boundary": "No clinical staging or surgical technique"
+    },
+    {
+      "topic": "Radiation DNA injury, repair, death and senescence",
+      "official": "Therapeutic interventions; apoptosis in legacy/MP SET",
+      "prerequisites": "3.A DNA repair, 4.E.05–06 checkpoints and apoptosis",
+      "sections": [
+        "radiation",
+        "fates",
+        "quantitative"
+      ],
+      "assessment": "B2/4/11/16/17/19, C1/3/7/14, mixed5/7/8",
+      "boundary": "No treatment prescriptions"
+    },
+    {
+      "topic": "DNA damaging/crosslinking cytotoxic agents",
+      "official": "Therapeutic interventions",
+      "prerequisites": "3.A DNA structure and replication",
+      "sections": [
+        "dna-drugs"
+      ],
+      "assessment": "B8/14/15, C9/15",
+      "boundary": "Representative classes only"
+    },
+    {
+      "topic": "Antimetabolites and mitotic inhibitors",
+      "official": "Therapeutic interventions; cancer and cell cycle",
+      "prerequisites": "Unit 1 nucleotide metabolism, 2.D mitosis",
+      "sections": [
+        "antimetabolites",
+        "mitosis"
+      ],
+      "assessment": "B5/7/10/18/20, C5/6/12/20",
+      "boundary": "No drug catalogue, dosing or protocols"
+    },
+    {
+      "topic": "Proliferative fraction, phase sensitivity, systemic adverse effects, combinations, resistance and prevention",
+      "official": "Therapeutic interventions; cancer and cell cycle; interaction with normal cells",
+      "prerequisites": "4.E.01–10; 4.C immunology",
+      "sections": [
+        "foundations",
+        "quantitative",
+        "selectivity"
+      ],
+      "assessment": "B9/12/13, C2/4/10/11/13/16–19, mixed1/2/10",
+      "boundary": "Resistance introduction only; 4.E.12 owns molecular and immune-directed approaches"
+    }
+  ],
+  "coverage_360": {
+    "A": {
+      "status": "pass",
+      "sections": "foundations, surgery",
+      "evidence": "Population and reproductive viability, local versus systemic, cytostasis versus cytotoxicity",
+      "assessment": "B1/B3/B9"
+    },
+    "B": {
+      "status": "pass",
+      "sections": "history",
+      "evidence": "Puck and Marcus 1956, Farber et al. 1948, historical limits of remission and fractional kill",
+      "assessment": "C1/C3/C11"
+    },
+    "C": {
+      "status": "pass",
+      "sections": "surgery, radiation, dna-drugs, antimetabolites, mitosis",
+      "evidence": "Anatomical boundary, duplex lesions, enzyme intermediates, tubulin/kinetochore",
+      "assessment": "B5/8/14/15"
+    },
+    "D": {
+      "status": "pass",
+      "sections": "radiation, fates, dna-drugs, antimetabolites, mitosis",
+      "evidence": "Energy deposition, lesions, checkpoint and repair, nucleotide limitation, dynamic spindle",
+      "assessment": "C5/6/9/12/15/19"
+    },
+    "E": {
+      "status": "pass",
+      "sections": "radiation, quantitative, dna-drugs, selectivity",
+      "evidence": "Gray, LET, radical chemistry, oxygen, coordination adducts, diffusion",
+      "assessment": "B2/4/16, C7"
+    },
+    "F": {
+      "status": "pass",
+      "sections": "fates, antimetabolites, mitosis, selectivity",
+      "evidence": "Checkpoint, repair, phase dynamics, metabolism, repopulation",
+      "assessment": "C5/6/14/16"
+    },
+    "G": {
+      "status": "pass",
+      "sections": "quantitative, worked",
+      "evidence": "LQ model, normalization, weighted survival, growth rate, geometry, independent reference; hypothetical examples",
+      "assessment": "C1/2/3/4/10/11/13/18"
+    },
+    "H": {
+      "status": "pass",
+      "sections": "history, fates, antimetabolites, selectivity",
+      "evidence": "Landmark studies, comparative controls, rescue and assay endpoints; source records and reviews",
+      "assessment": "C6/9/14/15/20"
+    },
+    "I": {
+      "status": "pass",
+      "sections": "surgery, fates, selectivity",
+      "evidence": "Normal tissue function, marrow and mucosal turnover, nonmitotic microtubules",
+      "assessment": "B12/18, C12/13"
+    },
+    "J": {
+      "status": "pass",
+      "sections": "selectivity",
+      "evidence": "Conserved eukaryotic machinery, model-system limits, clonal selection",
+      "assessment": "C2/4/16"
+    },
+    "K": {
+      "status": "pass",
+      "sections": "radiation, fates, dna-drugs, mitosis, selectivity",
+      "evidence": "Lesion processing, repair deficiency, checkpoint and p53 context, metabolic perturbation",
+      "assessment": "C5/9/14/15"
+    },
+    "L": {
+      "status": "pass",
+      "sections": "surgery, quantitative, selectivity",
+      "evidence": "Margins versus systemic disease, LQ limits, heterogeneous populations, endpoint limits",
+      "assessment": "C3/4/8/16"
+    },
+    "M": {
+      "status": "pass",
+      "sections": "surgery, history, selectivity",
+      "evidence": "Cancer interventions, research readouts, prevention distinction",
+      "assessment": "B3, mixed2/4/9"
+    },
+    "N": {
+      "status": "pass",
+      "sections": "foundations, fates, antimetabolites, mitosis, selectivity",
+      "evidence": "Cell cycle, DNA repair, metabolism, invasion, population selection; bridge to 4.E.12",
+      "assessment": "C6/8/12/19"
+    },
+    "O": {
+      "status": "pass",
+      "sections": "worked, part-b, part-c, mixed, traps, revision",
+      "evidence": "50 original questions, 8 worked examples, 18 traps, 16 active recall",
+      "assessment": "All 20 Part C questions"
+    }
+  },
+  "review_pass_1": {
+    "method": "Internal scientific and syllabus review of saved HTML, official CSIR PDFs, SET mirror, NCI/IUPHAR, historical PubMed records and review excerpts; not external peer review.",
+    "corrections": [
+      "Clarified that cisplatin is not a literal alkyl donor, oxygen is not a requirement for all irradiation injury, checkpoint loss does not universally determine sensitivity, cytotoxicity includes delayed reproductive loss.",
+      "Expanded lesion complexity, repair/tissue recovery, historical evidence and study limitations, LQ model units and uncertainty, active metabolites, cell-cycle context and biological selectivity.",
+      "Verified Farber historical reference via PubMed PMID 18860765; distinguished aminopterin from methotrexate; verified Puck and Marcus PMID 13319584 and 13475608.",
+      "Recomputed examples and numerical answer keys after revisions."
+    ]
+  },
+  "review_pass_2": {
+    "method": "Internal teaching and assessment review of saved chapter, actual comparators and extracted questions, figures, anchors and answers.",
+    "corrections": [
+      "Expanded narrative from 5,885 to 14,093 words through specific mechanistic and evidence passages, not templated padding.",
+      "Replaced overlapping folate, microtubule and rescue discussions with branch-specific dependence, checkpoint escape and enzyme activity evidence.",
+      "Replaced or strengthened all 20 Part C items with normalized data, multistep reasoning, experimental alternatives or comparisons; improved misconceptions with plausible origin, correction and exam relevance.",
+      "Added 2 diagrams after first draft, adjusted figure order and arrows, added second comparison table, 8 worked examples, 16 recall prompts."
+    ]
+  },
+  "comparator": [
+    {
+      "node": "4.E.03",
+      "words": 14044,
+      "paragraphs": 150,
+      "scope": "Oncogene activation and signaling, actual saved page inspected"
+    },
+    {
+      "node": "4.E.05",
+      "words": 14101,
+      "paragraphs": 138,
+      "scope": "Cell-cycle checkpoint mechanisms, actual saved page inspected"
+    }
+  ],
+  "semantic_review": "Exact duplicates zero. Token-set Jaccard screening of earlier saved revision found highest overlap 0.182; qualitative inspection identified conceptual overlap in folate and spindle passages, replaced with distinct mechanisms. Recurring endpoint distinctions intentionally integrated in different scientific contexts. No claim of mathematically proven semantic originality.",
+  "academic_quality": {
+    "scope": {
+      "score": 20,
+      "max": 20,
+      "evidence": "All approved microtopics explicitly covered; scope matrix and official line verified."
+    },
+    "accuracy": {
+      "score": 24,
+      "max": 25,
+      "evidence": "Mechanistic corrections and verified references; no known critical error.",
+      "deduction": "Some historical and research records inspected only through abstracts or excerpts."
+    },
+    "depth": {
+      "score": 19,
+      "max": 20,
+      "evidence": "14,093 genuine words, 135 distinct paragraphs; comparator 14,044/14,101 words.",
+      "deduction": "Some comparative and historical treatment necessarily selective."
+    },
+    "evidence_quantitative": {
+      "score": 14,
+      "max": 15,
+      "evidence": "Classical studies and 8 worked examples; recalculated original questions, quantitative models and assumptions.",
+      "deduction": "Primary full-text access not comprehensive; numerical teaching data hypothetical."
+    },
+    "practice": {
+      "score": 9,
+      "max": 10,
+      "evidence": "20 Part B, 20 Part C, 10 mixed; all explained, balanced keys, revised Part C.",
+      "deduction": "No external examiner calibration; several conceptual distractors straightforward."
+    },
+    "technical": {
+      "score": 9,
+      "max": 10,
+      "evidence": "Saved HTML static audit, reader architecture copied from verified comparator, 10 title/desc SVGs, no bad anchor/zoom/ARIA targets or duplicate IDs.",
+      "deduction": "No interactive browser/device/assistive technology testing."
+    },
+    "total": 95,
+    "threshold": 95,
+    "publication_eligible": true,
+    "assessment": "Internal editorial judgment following substantive revisions; not an independent external review."
+  },
+  "static_checks": {
+    "word_gate": true,
+    "exact_duplicate_paragraphs": 0,
+    "duplicate_ids": 0,
+    "broken_anchor_zoom_aria_targets": 0,
+    "malformed_question_blocks": 0,
+    "svg_title_desc": 10,
+    "balanced_tag_stack": true,
+    "canonical_correct": true,
+    "draft_robots": "noindex,nofollow",
+    "reader_controls_source_present": true,
+    "dynamic_navigation_codes": [
+      "4.E.10",
+      "4.E.12"
+    ],
+    "arithmetic_checked": [
+      0.4,
+      10000,
+      0.3571428571,
+      0.5488116361,
+      0.2,
+      0.3333333333,
+      0.125,
+      0.0693147181,
+      0.3,
+      0.5,
+      0.5555555556,
+      0.15,
+      0.2,
+      0.5,
+      0.3,
+      0.02,
+      0.075,
+      100,
+      850,
+      975,
+      100,
+      150
+    ]
+  },
+  "limitations": [
+    "No external peer/examiner review.",
+    "Some primary full-text endpoints blocked or unavailable; references verified through records, abstracts, excerpts and authoritative overview sources.",
+    "MP SET 2024 mirror, not independently verified newer primary host.",
+    "No browser/device/assistive technology interactive testing. Deployment and live verification separate."
+  ],
+  "publication_eligible": true,
+  "draft_qa_commit_sha": "612256d3be5cdb86019fc9f001f1aed39b12bb0c",
+  "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+  "main_baseline_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+  "chapter_blob_sha": "ab029e438bd112065397cc233fe2acafa274f4c9",
+  "academy_published_count": 185,
+  "academy_planned_count": 723,
+  "unit_04_published_count": 54,
+  "unit_04_planned_count": 61,
+  "subunit_4e_published_count": 5,
+  "subunit_4e_planned_count": 12,
+  "next_pending_node_id": "4.E.01",
+  "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+  "reconciliation": {
+    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+    "publication_base_sha": "705d8740b6dc8e6cc5dd685b7b8f17a320520b1b",
+    "concurrent_changes_preserved": 184,
+    "method": "Fresh tree, index, sitemap and checkpoint at baseline; conditional non-force update.",
+    "neighbor_previous": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+    "neighbor_next": null
+  }
+}

@@ -109,3 +109,8 @@ Compare programmed cell death and developmental tissue remodeling in animals and
 Revised 2026 official syllabus: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf
 Separate CSIR 2026 syllabus: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf
 MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf
+
+### Publication checkpoint — 2026-11-26
+
+- **5.A.02 — Cell Fate Maps, Cell Lineages and Classical Lineage Tracing**: chapter included in the publication tree at `cell-fate-maps-cell-lineages-and-classical-lineage-tracing.html`; live deployment must be checked separately.
+- Current published nodes in Unit 05: 1 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.

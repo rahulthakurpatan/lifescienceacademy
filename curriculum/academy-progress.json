@@ -4,24 +4,554 @@
   "unit": "04",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "4.E.03",
-  "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+  "node_id": "4.E.10",
+  "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
   "subunit": "4.E",
-  "topic": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
-  "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+  "topic": "Cancer",
+  "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
   "next_pending_node_id": "4.E.01",
   "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-  "published_node_count": 183,
+  "published_node_count": 184,
   "publication_allowed": true,
-  "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+  "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
   "quality_hold": false,
-  "next_required_action": "Verify GitHub Pages deployment and live chapter; develop next pending node 4.E.01",
+  "next_required_action": "Verify GitHub Pages deployment and continue with 4.E.01 — Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
   "planned_node_count": 61,
   "planned_subunit_count": 5,
   "architecture_version": "unit-04-cell-communication-signaling-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-04-cell-communication-signaling-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
   "last_qa": {
+    "node_id": "4.E.10",
+    "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
+    "unit": "04",
+    "subunit": "4.E",
+    "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+    "status": "lesson_committed_pages_verification_pending",
+    "checked_date": "2026-11-26",
+    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+    "source_draft_branch": "draft/node-4e10-metastasis",
+    "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
+    "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
+    "metrics": {
+      "genuine_teaching_words": 13839,
+      "total_visible_article_words": 20666,
+      "teaching_paragraphs": 148,
+      "exact_duplicate_paragraphs": 0,
+      "theory_sections": 12,
+      "scientific_svg": 13,
+      "tables": 3,
+      "worked_examples": 8,
+      "part_b": 20,
+      "part_c": 20,
+      "mixed": 12,
+      "total_questions": 52,
+      "misconceptions": 18,
+      "active_recall": 18,
+      "scientific_references": 18
+    },
+    "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
+    "comparator": {
+      "node_id": "4.E.02",
+      "teaching_words": 14077,
+      "paragraphs": 125,
+      "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
+    },
+    "syllabus": {
+      "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
+      "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
+      "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
+      "academy": "curriculum/subunit-4e-cancer-node-map.md",
+      "scope_matrix": [
+        [
+          "Metastatic cascade and routes",
+          "Official metastasis; cancer and cell interaction",
+          "4.E.09 local invasion",
+          "identity,cascade,routes",
+          "Stage discrimination; no repeat invasion mechanisms"
+        ],
+        [
+          "Intravasation and vascular transport",
+          "Official metastasis",
+          "Cell adhesion, circulation",
+          "entry,survival",
+          "Endothelial topology, survival and evidence"
+        ],
+        [
+          "Arrest and extravasation",
+          "Official metastasis",
+          "Endothelium and ECM",
+          "arrest",
+          "Vascular versus tissue location and stage interpretation"
+        ],
+        [
+          "Organ tropism and tissue compatibility",
+          "Official metastasis; interaction with normal cells",
+          "4.E.08 microenvironment",
+          "history,soil",
+          "Historical models, tissue compatibility"
+        ],
+        [
+          "Dormancy and secondary outgrowth",
+          "Official metastasis",
+          "Cell cycle, apoptosis, angiogenesis",
+          "dormancy,colonization",
+          "Single-cell versus mass dormancy and viable outgrowth"
+        ],
+        [
+          "Experimental and quantitative interpretation",
+          "Academy educational extension of official metastasis",
+          "Probability, rates, experimental reasoning",
+          "quantitative,evidence,worked",
+          "Conditional endpoints, inference, not specialist protocols"
+        ]
+      ],
+      "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
+    },
+    "coverage": [
+      {
+        "dimension": "A",
+        "applicability": "Applicable",
+        "sections": "identity, cascade",
+        "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
+        "assessment": "Part B definitions and stage discrimination",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "B",
+        "applicability": "Applicable",
+        "sections": "history, soil",
+        "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
+        "assessment": "Historical evidence interpretation",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "C",
+        "applicability": "Applicable",
+        "sections": "routes, entry, survival, arrest",
+        "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
+        "assessment": "Topology and diagram questions",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "D",
+        "applicability": "Applicable",
+        "sections": "cascade, entry, survival, arrest, colonization",
+        "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
+        "assessment": "Sequence and stage-localization reasoning",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "E",
+        "applicability": "Applicable",
+        "sections": "survival, arrest, colonization, quantitative",
+        "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
+        "assessment": "Worked diffusion and geometry problems",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "F",
+        "applicability": "Applicable",
+        "sections": "survival, soil, dormancy, colonization",
+        "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
+        "assessment": "Perturbation and dormancy questions",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "G",
+        "applicability": "Applicable",
+        "sections": "quantitative, worked",
+        "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
+        "assessment": "Numerical worked examples and Part C",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "H",
+        "applicability": "Applicable",
+        "sections": "history, entry, survival, soil, evidence",
+        "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
+        "assessment": "Experimental evidence and supplied datasets",
+        "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
+        "status": "PASS"
+      },
+      {
+        "dimension": "I",
+        "applicability": "Applicable",
+        "sections": "routes, soil, colonization",
+        "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
+        "assessment": "Organ-specific reasoning",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "J",
+        "applicability": "Applicable",
+        "sections": "identity, survival, soil, evidence",
+        "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
+        "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "K",
+        "applicability": "Applicable",
+        "sections": "survival, arrest, dormancy, evidence",
+        "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
+        "assessment": "Part C stage-specific changes",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "L",
+        "applicability": "Applicable",
+        "sections": "routes, cascade, dormancy, evidence",
+        "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
+        "assessment": "Counterexample and interpretation questions",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "M",
+        "applicability": "Applicable",
+        "sections": "colonization, evidence",
+        "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
+        "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "N",
+        "applicability": "Applicable",
+        "sections": "identity, cascade, survival, soil, revision",
+        "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
+        "assessment": "Integrated mechanism problems",
+        "remaining_gaps": "No mandatory gap identified in internal review",
+        "status": "PASS"
+      },
+      {
+        "dimension": "O",
+        "applicability": "Applicable",
+        "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
+        "evidence": "52 original explained problems, 18 recall prompts and traps",
+        "assessment": "20 Part B, 20 Part C, 12 mixed",
+        "remaining_gaps": "Difficulty not externally calibrated",
+        "status": "PASS"
+      }
+    ],
+    "review_pass_1": {
+      "method": "Internal science/scope review of saved narrative and cited records",
+      "corrections": [
+        "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
+        "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
+        "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
+      ]
+    },
+    "review_pass_2": {
+      "method": "Internal teaching and examination review of saved draft",
+      "corrections": [
+        "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
+        "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
+        "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
+      ]
+    },
+    "academic_self_review": {
+      "scope": 20,
+      "accuracy_mechanisms": 24,
+      "depth_narrative": 19,
+      "analytical_evidence": 14,
+      "practice_mastery": 9,
+      "technical_reader": 9,
+      "total": 95,
+      "threshold": 95,
+      "rationale": {
+        "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
+        "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
+        "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
+        "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
+        "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
+        "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
+      }
+    },
+    "static_checks": {
+      "duplicate_ids": 0,
+      "unresolved_internal_anchors": [],
+      "unresolved_js_ids": [],
+      "svg_accessible": 13,
+      "malformed_questions": 0,
+      "answer_positions": {
+        "A": 13,
+        "B": 13,
+        "C": 13,
+        "D": 13
+      },
+      "answer_key_mismatches": 0,
+      "html_tag_stack_errors": 0,
+      "reader_script_syntax": "Parsed; not executed in browser DOM",
+      "exact_duplicate_teaching_paragraphs": 0,
+      "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+      "robots": "index,follow (publication)",
+      "numerical_recalculation": {
+        "conditional_yield": 5,
+        "organ": [
+          0.4,
+          0.1,
+          0.8,
+          0.025,
+          0.04,
+          0.02
+        ],
+        "doubling": 13.862943611198904,
+        "growth": 1087.312731383618,
+        "independent": 0.4879999999999999,
+        "diffusion": [
+          2,
+          8
+        ],
+        "sphere": [
+          0.06,
+          0.03,
+          8,
+          4
+        ],
+        "outgrowth": [
+          0.1,
+          0.1
+        ]
+      },
+      "menu_target_count": 1,
+      "sitemap_target_count": 1,
+      "checkpoint_matches_linked_nodes": true,
+      "all_prior_linked_files_exist": true
+    },
+    "neighbors": {
+      "previous": "4.E.09",
+      "next": "4.E.11",
+      "policy": "Resolve links from current homepage; disable when unpublished."
+    },
+    "limitations": [
+      "Internal self-review only; no external peer/examiner validation.",
+      "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
+      "Current MP SET official-host copy not independently retrieved.",
+      "No browser rendering, real-device interaction or full assistive-technology testing."
+    ],
+    "publication_eligible": true,
+    "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
+    "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+    "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+    "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
+    "academy_published_count": 184,
+    "academy_planned_count": 723,
+    "unit_04_published_count": 53,
+    "unit_04_planned_count": 61,
+    "subunit_4e_published_count": 4,
+    "subunit_4e_planned_count": 12,
+    "next_pending_node_id": "4.E.01",
+    "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+    "reconciliation": {
+      "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+      "concurrent_main_changes": true,
+      "previous_links_preserved": 183,
+      "previous_sitemap_urls_preserved": 184,
+      "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
+    }
+  },
+  "published_node_ids": [
+    "1.A.01",
+    "1.A.02",
+    "1.A.03",
+    "1.A.04",
+    "1.A.05",
+    "1.B.01",
+    "1.B.02",
+    "1.B.03",
+    "1.B.04",
+    "1.B.05",
+    "1.C.01",
+    "1.C.02",
+    "1.C.03",
+    "1.C.04",
+    "1.C.05",
+    "1.D.01",
+    "1.D.02",
+    "1.D.03",
+    "1.D.04",
+    "1.D.05",
+    "1.E.01",
+    "1.E.02",
+    "1.E.03",
+    "1.E.04",
+    "1.E.05",
+    "1.F.01",
+    "1.F.02",
+    "1.F.03",
+    "1.F.04",
+    "1.F.05",
+    "2.A.01",
+    "2.A.02",
+    "2.A.03",
+    "2.A.04",
+    "2.A.05",
+    "2.A.06",
+    "2.A.07",
+    "2.A.08",
+    "2.A.09",
+    "2.A.10",
+    "2.B.01",
+    "2.B.02",
+    "2.B.03",
+    "2.B.04",
+    "2.B.05",
+    "2.B.06",
+    "2.B.07",
+    "2.B.08",
+    "2.B.09",
+    "2.B.10",
+    "2.C.01",
+    "2.C.02",
+    "2.C.03",
+    "2.C.04",
+    "2.C.05",
+    "2.C.06",
+    "2.C.07",
+    "2.C.08",
+    "2.C.09",
+    "2.C.10",
+    "2.D.01",
+    "2.D.02",
+    "2.D.03",
+    "2.D.04",
+    "2.D.05",
+    "2.D.06",
+    "2.D.07",
+    "2.D.08",
+    "2.D.09",
+    "2.D.10",
+    "2.E.01",
+    "2.E.02",
+    "2.E.03",
+    "2.E.04",
+    "2.E.05",
+    "2.E.06",
+    "2.E.07",
+    "2.E.08",
+    "2.E.09",
+    "2.E.10",
+    "3.A.01",
+    "3.A.02",
+    "3.A.03",
+    "3.A.04",
+    "3.A.05",
+    "3.A.06",
+    "3.A.07",
+    "3.A.08",
+    "3.A.09",
+    "3.A.10",
+    "3.A.11",
+    "3.A.12",
+    "3.B.01",
+    "3.B.02",
+    "3.B.03",
+    "3.B.04",
+    "3.B.05",
+    "3.B.06",
+    "3.B.07",
+    "3.B.08",
+    "3.B.09",
+    "3.B.10",
+    "3.B.11",
+    "3.B.12",
+    "3.B.13",
+    "3.C.01",
+    "3.C.02",
+    "3.C.03",
+    "3.C.04",
+    "3.C.05",
+    "3.C.06",
+    "3.C.07",
+    "3.C.08",
+    "3.C.09",
+    "3.C.10",
+    "3.C.11",
+    "3.C.12",
+    "3.C.13",
+    "3.C.14",
+    "3.D.01",
+    "3.D.02",
+    "3.D.03",
+    "3.D.04",
+    "3.D.05",
+    "3.D.06",
+    "3.D.07",
+    "3.D.08",
+    "3.D.09",
+    "3.D.10",
+    "3.D.11",
+    "3.D.12",
+    "4.A.01",
+    "4.A.02",
+    "4.A.03",
+    "4.A.04",
+    "4.A.05",
+    "4.A.06",
+    "4.A.07",
+    "4.A.08",
+    "4.A.09",
+    "4.A.10",
+    "4.A.11",
+    "4.A.12",
+    "4.A.13",
+    "4.B.01",
+    "4.B.02",
+    "4.B.03",
+    "4.B.04",
+    "4.B.05",
+    "4.B.06",
+    "4.B.07",
+    "4.B.08",
+    "4.B.09",
+    "4.B.10",
+    "4.B.11",
+    "4.C.01",
+    "4.C.02",
+    "4.C.03",
+    "4.C.04",
+    "4.C.05",
+    "4.C.06",
+    "4.C.07",
+    "4.C.08",
+    "4.C.09",
+    "4.C.10",
+    "4.C.11",
+    "4.C.12",
+    "4.C.13",
+    "4.D.01",
+    "4.D.02",
+    "4.D.03",
+    "4.D.04",
+    "4.D.05",
+    "4.D.06",
+    "4.D.07",
+    "4.D.08",
+    "4.D.09",
+    "4.D.10",
+    "4.D.11",
+    "4.D.12",
+    "4.E.02",
+    "4.E.03",
+    "4.E.05",
+    "4.E.10"
+  ],
+  "prior_publication_qa": {
     "node_id": "4.E.03",
     "unit": "04",
     "subunit": "4.E",
@@ -367,454 +897,6 @@
       "previous_links_preserved": 182,
       "previous_sitemap_urls_preserved": 183,
       "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
-    }
-  },
-  "published_node_ids": [
-    "1.A.01",
-    "1.A.02",
-    "1.A.03",
-    "1.A.04",
-    "1.A.05",
-    "1.B.01",
-    "1.B.02",
-    "1.B.03",
-    "1.B.04",
-    "1.B.05",
-    "1.C.01",
-    "1.C.02",
-    "1.C.03",
-    "1.C.04",
-    "1.C.05",
-    "1.D.01",
-    "1.D.02",
-    "1.D.03",
-    "1.D.04",
-    "1.D.05",
-    "1.E.01",
-    "1.E.02",
-    "1.E.03",
-    "1.E.04",
-    "1.E.05",
-    "1.F.01",
-    "1.F.02",
-    "1.F.03",
-    "1.F.04",
-    "1.F.05",
-    "2.A.01",
-    "2.A.02",
-    "2.A.03",
-    "2.A.04",
-    "2.A.05",
-    "2.A.06",
-    "2.A.07",
-    "2.A.08",
-    "2.A.09",
-    "2.A.10",
-    "2.B.01",
-    "2.B.02",
-    "2.B.03",
-    "2.B.04",
-    "2.B.05",
-    "2.B.06",
-    "2.B.07",
-    "2.B.08",
-    "2.B.09",
-    "2.B.10",
-    "2.C.01",
-    "2.C.02",
-    "2.C.03",
-    "2.C.04",
-    "2.C.05",
-    "2.C.06",
-    "2.C.07",
-    "2.C.08",
-    "2.C.09",
-    "2.C.10",
-    "2.D.01",
-    "2.D.02",
-    "2.D.03",
-    "2.D.04",
-    "2.D.05",
-    "2.D.06",
-    "2.D.07",
-    "2.D.08",
-    "2.D.09",
-    "2.D.10",
-    "2.E.01",
-    "2.E.02",
-    "2.E.03",
-    "2.E.04",
-    "2.E.05",
-    "2.E.06",
-    "2.E.07",
-    "2.E.08",
-    "2.E.09",
-    "2.E.10",
-    "3.A.01",
-    "3.A.02",
-    "3.A.03",
-    "3.A.04",
-    "3.A.05",
-    "3.A.06",
-    "3.A.07",
-    "3.A.08",
-    "3.A.09",
-    "3.A.10",
-    "3.A.11",
-    "3.A.12",
-    "3.B.01",
-    "3.B.02",
-    "3.B.03",
-    "3.B.04",
-    "3.B.05",
-    "3.B.06",
-    "3.B.07",
-    "3.B.08",
-    "3.B.09",
-    "3.B.10",
-    "3.B.11",
-    "3.B.12",
-    "3.B.13",
-    "3.C.01",
-    "3.C.02",
-    "3.C.03",
-    "3.C.04",
-    "3.C.05",
-    "3.C.06",
-    "3.C.07",
-    "3.C.08",
-    "3.C.09",
-    "3.C.10",
-    "3.C.11",
-    "3.C.12",
-    "3.C.13",
-    "3.C.14",
-    "3.D.01",
-    "3.D.02",
-    "3.D.03",
-    "3.D.04",
-    "3.D.05",
-    "3.D.06",
-    "3.D.07",
-    "3.D.08",
-    "3.D.09",
-    "3.D.10",
-    "3.D.11",
-    "3.D.12",
-    "4.A.01",
-    "4.A.02",
-    "4.A.03",
-    "4.A.04",
-    "4.A.05",
-    "4.A.06",
-    "4.A.07",
-    "4.A.08",
-    "4.A.09",
-    "4.A.10",
-    "4.A.11",
-    "4.A.12",
-    "4.A.13",
-    "4.B.01",
-    "4.B.02",
-    "4.B.03",
-    "4.B.04",
-    "4.B.05",
-    "4.B.06",
-    "4.B.07",
-    "4.B.08",
-    "4.B.09",
-    "4.B.10",
-    "4.B.11",
-    "4.C.01",
-    "4.C.02",
-    "4.C.03",
-    "4.C.04",
-    "4.C.05",
-    "4.C.06",
-    "4.C.07",
-    "4.C.08",
-    "4.C.09",
-    "4.C.10",
-    "4.C.11",
-    "4.C.12",
-    "4.C.13",
-    "4.D.01",
-    "4.D.02",
-    "4.D.03",
-    "4.D.04",
-    "4.D.05",
-    "4.D.06",
-    "4.D.07",
-    "4.D.08",
-    "4.D.09",
-    "4.D.10",
-    "4.D.11",
-    "4.D.12",
-    "4.E.02",
-    "4.E.03",
-    "4.E.05"
-  ],
-  "prior_publication_qa": {
-    "node_id": "4.E.02",
-    "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
-    "unit": "04",
-    "subunit": "4.E",
-    "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "checked_date": "2026-11-26",
-    "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-    "source_draft_branch": "draft/4.E.02-genetic-alterations",
-    "source_draft_commit_sha": "db43f8b715289bf024e8b9310f3728a1ed0ba84f",
-    "draft_blob_sha": "45e40e127d1a10f977529733e91cc8b4f455e592",
-    "metrics": {
-      "teaching_words": 14077,
-      "visible_article_words": 20596,
-      "teaching_paragraphs": 125,
-      "exact_duplicate_paragraphs": 0,
-      "theory_sections": 12,
-      "total_sections": 19,
-      "svg": 11,
-      "tables": 2,
-      "worked_examples": 9,
-      "part_b": 20,
-      "part_c": 20,
-      "mixed": 12,
-      "total_questions": 52,
-      "misconceptions": 17,
-      "active_recall": 15,
-      "scientific_references": 15,
-      "syllabus_references": 3,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      }
-    },
-    "word_count_method": "Count Unicode letter/number words with internal apostrophes/hyphens in p.teaching-prose after removing HTML tags and entity tokens; figures, headings, worked examples, questions, summaries and references excluded. Visible article excludes SVG and button contents. Earlier alternate tokenization returned 14068 narrative and 20579 visible words; both satisfy gate.",
-    "comparator": {
-      "node": "4.D.03",
-      "words_same_method": 14017,
-      "paragraphs": 127,
-      "note": "Actual saved neighboring chapter fetched; comparable depth and paragraph volume. No published 4.E neighbor at initial inspection."
-    },
-    "syllabus": {
-      "official_revised": "CSIR-HRDG merged syllabus Unit 4.E, genetic rearrangements in progenitor cells",
-      "official_legacy": "CSIR-HRDG Unit 4.D",
-      "state_set": "MP SET 2024 archived syllabus scan, Unit 4.D; current official MPPSC host not independently retrieved",
-      "academy_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
-      "scope_matrix": [
-        [
-          "Stem/progenitor origin and somatic/germline",
-          "origins, inheritance",
-          "cell division and inheritance prerequisite; cancer lineage context; not developmental stem-cell taxonomy"
-        ],
-        [
-          "Driver/passenger and multistep selection",
-          "selection, integration",
-          "selection and clonal inference; not full oncology"
-        ],
-        [
-          "Point mutations and DNA lesions/repair",
-          "sources, point",
-          "DNA replication and repair prerequisite; genetic outcomes; not detailed repair pathways"
-        ],
-        [
-          "Deletion, gain, amplification and LOH",
-          "dosage",
-          "chromosome dosage prerequisite; quantitative interpretation; not genome-wide profiling methods"
-        ],
-        [
-          "Translocation, inversion and fusion",
-          "rearrange",
-          "chromosomal structure prerequisite; mechanisms, balanced versus unbalanced; not cytogenetic laboratory protocol"
-        ],
-        [
-          "Philadelphia and BCR::ABL1",
-          "philadelphia",
-          "protein regulation prerequisite; causal and mechanistic evidence; detailed oncogene classes reserved for 4.E.03"
-        ],
-        [
-          "Genome instability and clonal evolution",
-          "instability, selection, quantitative",
-          "CIN versus aneuploidy, multistep progression; not specialist sequencing pipelines"
-        ]
-      ]
-    },
-    "coverage": {
-      "A": [
-        "PASS",
-        "origins, inheritance",
-        "definitions and lineage distinctions",
-        "Part B, recall"
-      ],
-      "B": [
-        "PASS",
-        "philadelphia, selection",
-        "Nowell/Hungerford, Rowley, fusion evidence, clonal evolution",
-        "historical evidence questions"
-      ],
-      "C": [
-        "PASS",
-        "point, dosage, rearrange, philadelphia",
-        "chromosome and fusion domains, gene dosage",
-        "diagram questions"
-      ],
-      "D": [
-        "PASS",
-        "sources, philadelphia, selection",
-        "lesion fixation, rearrangement and kinase activity",
-        "mechanism problems"
-      ],
-      "E": [
-        "PASS",
-        "sources, philadelphia, quantitative",
-        "DNA damage, ATP-dependent phosphorylation, kinetics",
-        "numerical practice"
-      ],
-      "F": [
-        "PASS",
-        "dosage, philadelphia, instability",
-        "feedback context, kinase regulation, checkpoints",
-        "perturbation problems"
-      ],
-      "G": [
-        "PASS",
-        "dosage, quantitative, worked",
-        "VAF, growth, probability, phosphorylation",
-        "9 worked examples"
-      ],
-      "H": [
-        "PASS",
-        "philadelphia, evidence",
-        "observations versus causal inference, controls",
-        "experimental interpretation"
-      ],
-      "I": [
-        "PASS",
-        "origins, philadelphia, integration",
-        "tissue lineage and physiological growth control",
-        "integration questions"
-      ],
-      "J": [
-        "PASS",
-        "selection, integration",
-        "somatic evolution and limits of plant/microbial comparisons",
-        "selection questions"
-      ],
-      "K": [
-        "PASS",
-        "sources, dosage, instability, philadelphia",
-        "loss, gain, repair defects, abnormal signaling",
-        "perturbation questions"
-      ],
-      "L": [
-        "PASS",
-        "dosage, evidence, quantitative",
-        "purity, ploidy, sampling and model limits",
-        "conditional questions"
-      ],
-      "M": [
-        "PASS",
-        "philadelphia, evidence, integration",
-        "diagnostic interpretation and targeted therapy principles",
-        "application questions"
-      ],
-      "N": [
-        "PASS",
-        "integration",
-        "DNA, chromosome, cell cycle and signaling bridges",
-        "mixed questions"
-      ],
-      "O": [
-        "PASS",
-        "worked, assessment, revision",
-        "52 original explained questions, 15 recall prompts",
-        "20 B, 20 C, 12 mixed"
-      ]
-    },
-    "review_pass_1": "Reviewed actual saved narrative for syllabus, scientific mechanisms, definitions, quantities and reference metadata. Expanded repair, lineage, quantitative reasoning and fusion evidence; revised graph axes and calculated exponential curves; clarified historical association versus mechanistic causation; added explicit source links. Published references checked using abstracts, search excerpts and established textbook knowledge where full text inaccessible.",
-    "review_pass_2": "Reviewed saved narrative and assessments. Replaced all twenty Part C items with analytical multi-step reasoning; expanded seventeen traps and nine worked examples; balanced nonperiodic keys; excluded eleven short figure-reference paragraphs from narrative count; clarified independent clone labels in worked example. Editorial review found intentional reinforcement but no obvious artificial padding; pairwise lexical overlap is only a screen, not a semantic proof.",
-    "academic_self_review": {
-      "scope": 20,
-      "accuracy_mechanisms": 24,
-      "depth_narrative": 19,
-      "analytical_evidence": 14,
-      "practice_mastery": 9,
-      "technical_reader": 9,
-      "total": 95,
-      "threshold": 95,
-      "rationale": {
-        "scope": "All approved microtopics mapped to syllabus and covered; archived MP SET confirms topic.",
-        "accuracy": "Mechanisms and landmark metadata checked; deduct one for primary full-text access limitations.",
-        "depth": "Comparable teaching volume to 4.D.03; deduct one for some necessary conceptual reinforcement.",
-        "analytical": "Nine worked examples, quantitative and experimental reasoning; deduct one for hypothetical models and limited source full-text access.",
-        "practice": "52 original explained items including 20 revised Part C; deduct one because no student psychometric validation.",
-        "technical": "Static audit and existing reader preserved; deduct one because interactive browser/device testing unavailable."
-      }
-    },
-    "static_checks": {
-      "duplicate_ids": 0,
-      "unresolved_internal_anchors": [],
-      "exact_duplicate_teaching_paragraphs": 0,
-      "svg_accessible": 11,
-      "malformed_questions": 0,
-      "unique_questions": 52,
-      "unresolved_aria_or_zoom_targets": 0,
-      "html_tag_stack_errors": 0,
-      "placeholder_count": 0,
-      "reader_script_syntax": "parsed successfully, not executed in DOM",
-      "local_links": [
-        "./"
-      ],
-      "canonical": "verified",
-      "robots": "index,follow (publication version)",
-      "numerical_recalculation": {
-        "event_100": 0.09520785288629108,
-        "event_200": 0.1813511705213644,
-        "zero_50": 0.36416968008711675,
-        "copy_vaf": 0.13636363636363635,
-        "growth_ratio": 2.718281828459045,
-        "growth_x": 271.8281828459045,
-        "growth_y": 738.905609893065
-      },
-      "semantic_repetition": "No exact duplicates or paragraph pairs above .45 lexical Jaccard; qualitative review of actual text found no obvious padding. Lexical overlap cannot establish semantic originality.",
-      "sitemap_target_count": 1,
-      "menu_target_count": 1,
-      "checkpoint_matches_linked_nodes": true
-    },
-    "neighbors": {
-      "previous": "4.E.01",
-      "next": "4.E.03",
-      "policy": "Resolve from current homepage; disable if not published."
-    },
-    "limitations": [
-      "Internal academic review, not independent external peer review.",
-      "Current MPPSC official host not independently retrieved; archived scan checked.",
-      "Primary article abstracts and excerpts rather than all full texts; no claim of full-text review.",
-      "No interactive browser, real device or student testing."
-    ],
-    "publication_eligible": true,
-    "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-    "publication_base_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-    "chapter_blob_sha": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c",
-    "draft_qa_commit_sha": "5c4e1d75283f2cf58e7b27f13bd906a191bd2757",
-    "academy_published_count": 182,
-    "academy_planned_count": 723,
-    "unit_04_published_count": 51,
-    "unit_04_planned_count": 61,
-    "subunit_4e_published_count": 2,
-    "subunit_4e_planned_count": 12,
-    "next_pending_node_id": "4.E.01",
-    "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
-    "reconciliation": {
-      "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-      "concurrent_main_changes": true,
-      "previous_links_preserved": 181,
-      "previous_sitemap_urls_preserved": 182,
-      "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
     }
   },
   "previous_last_qa": {
@@ -9636,359 +9718,356 @@
       "4.D.12",
       "4.E.02",
       "4.E.03",
-      "4.E.05"
+      "4.E.05",
+      "4.E.10"
     ],
-    "published_node_count": 52,
+    "published_node_count": 53,
     "planned_node_count": 61,
-    "last_published_node_id": "4.E.03",
+    "last_published_node_id": "4.E.10",
     "updated_at": "2026-11-26",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "4.E.03",
+      "node_id": "4.E.10",
+      "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
       "unit": "04",
       "subunit": "4.E",
-      "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
-      "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
-      "checked_date": "2026-11-26",
+      "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
       "status": "lesson_committed_pages_verification_pending",
+      "checked_date": "2026-11-26",
       "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "source_draft_branch": "draft/node-4e03-oncogene-gain-of-function",
-      "source_draft_commit_sha": "ba2c4fbfefd2d991117dbb8e7980859ca96720e1",
-      "draft_blob_sha": "df60360e3bdf972f4d22bf25aa58743c5de3e690",
+      "source_draft_branch": "draft/node-4e10-metastasis",
+      "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
+      "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
       "metrics": {
-        "teaching_words": 14044,
-        "visible_article_words_excluding_svg_and_buttons": 21660,
-        "teaching_paragraphs": 150,
+        "genuine_teaching_words": 13839,
+        "total_visible_article_words": 20666,
+        "teaching_paragraphs": 148,
         "exact_duplicate_paragraphs": 0,
-        "theory_sections": 28,
-        "total_sections": 36,
-        "svg": 14,
-        "tables": 2,
-        "worked_examples": 9,
-        "part_b": 22,
-        "part_c": 24,
-        "mixed": 8,
-        "total_questions": 54,
+        "theory_sections": 12,
+        "scientific_svg": 13,
+        "tables": 3,
+        "worked_examples": 8,
+        "part_b": 20,
+        "part_c": 20,
+        "mixed": 12,
+        "total_questions": 52,
         "misconceptions": 18,
-        "active_recall": 20,
-        "scientific_references": 19,
-        "syllabus_references": 3,
-        "answer_positions": {
-          "A": 14,
-          "B": 13,
-          "C": 13,
-          "D": 14
-        }
+        "active_recall": 18,
+        "scientific_references": 18
       },
-      "word_count_method": "Unicode letter/number words with internal apostrophes or hyphens, actual saved p.teaching-prose only; headings, tables, SVG, questions, worked examples, revision and references excluded. Visible article count excludes SVG and button contents.",
+      "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
       "comparator": {
-        "node": "4.A.06",
-        "teaching_words": 13948,
-        "comparison": "Published saved HTML recount; comparable substantial signaling narrative, with target-specific genetic mechanisms. 4.E neighbors were unpublished at initial inspection."
+        "node_id": "4.E.02",
+        "teaching_words": 14077,
+        "paragraphs": 125,
+        "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
       },
       "syllabus": {
-        "official_revised": "CSIR-HRDG merged Unit 4.E, printed p5, screenshot inspected",
-        "official_legacy": "CSIR-HRDG Unit 4.D, printed p3, screenshot inspected",
-        "mp_set": "MP SET 2024 archived scan Unit 4.D, printed p3, screenshot inspected; current official-host copy not confirmed",
-        "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
-        "microtopic_matrix": [
+        "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
+        "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
+        "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
+        "academy": "curriculum/subunit-4e-cancer-node-map.md",
+        "scope_matrix": [
           [
-            "Proto-oncogene versus oncogene; cellular dominance",
-            "1–5,17",
-            "Cancer oncogenes; prerequisite normal signaling and alleles",
-            "Distinguish altered function, not inherited penetrance; B/C"
+            "Metastatic cascade and routes",
+            "Official metastasis; cancer and cell interaction",
+            "4.E.09 local invasion",
+            "identity,cascade,routes",
+            "Stage discrimination; no repeat invasion mechanisms"
           ],
           [
-            "RAS mutation and switch termination",
-            "6–8,15",
-            "Oncogenes; RTK signaling prerequisite",
-            "GDP/GTP, GAP/GEF, kinetics, C23–29"
+            "Intravasation and vascular transport",
+            "Official metastasis",
+            "Cell adhesion, circulation",
+            "entry,survival",
+            "Endothelial topology, survival and evidence"
           ],
           [
-            "HER2 amplification and gene dosage",
-            "9,18,21",
-            "Oncogenes; receptor and transcription prerequisites",
-            "Dosage versus affinity/activity; C30–33"
+            "Arrest and extravasation",
+            "Official metastasis",
+            "Endothelium and ECM",
+            "arrest",
+            "Vascular versus tissue location and stage interpretation"
           ],
           [
-            "MYC expression and regulatory rearrangement",
-            "10–11,13",
-            "Oncogenes and rearrangements; transcription prerequisite",
-            "MYC–MAX and regulatory juxtaposition; C34"
+            "Organ tropism and tissue compatibility",
+            "Official metastasis; interaction with normal cells",
+            "4.E.08 microenvironment",
+            "history,soil",
+            "Historical models, tissue compatibility"
           ],
           [
-            "BCR::ABL1 fusion",
-            "12–13",
-            "Oncogenes and genetic rearrangements; kinase prerequisite",
-            "Fusion and altered regulation; C34–35; no detailed clinical therapy"
+            "Dormancy and secondary outgrowth",
+            "Official metastasis",
+            "Cell cycle, apoptosis, angiogenesis",
+            "dormancy,colonization",
+            "Single-cell versus mass dormancy and viable outgrowth"
           ],
           [
-            "Cooperation and functional evidence",
-            "14–17,19–28",
-            "Cancer oncogenes and cell-cycle control",
-            "Controls, dependence, model limits, suppressor bridge; C36–46"
+            "Experimental and quantitative interpretation",
+            "Academy educational extension of official metastasis",
+            "Probability, rates, experimental reasoning",
+            "quantitative,evidence,worked",
+            "Conditional endpoints, inference, not specialist protocols"
           ]
-        ]
+        ],
+        "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
       },
-      "coverage_360": [
+      "coverage": [
         {
           "dimension": "A",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "1,3–5",
-          "evidence": "Normal growth, allele and proto-oncogene distinctions",
-          "assessment": "B1–22",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "identity, cascade",
+          "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
+          "assessment": "Part B definitions and stage discrimination",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "B",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "2,19",
-          "evidence": "Src cellular origin, T24 transformation and landmark evidence",
-          "assessment": "Historical and interpretation questions",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "history, soil",
+          "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
+          "assessment": "Historical evidence interpretation",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "C",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "6,9–12,24",
-          "evidence": "RAS switch, HER2 architecture, MYC–MAX, BCR::ABL1 kinase fusion",
-          "assessment": "Diagrams and B/C",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "routes, entry, survival, arrest",
+          "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
+          "assessment": "Topology and diagram questions",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "D",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "6–12,15–17",
-          "evidence": "Nucleotide cycle, dosage, regulatory relocation, fusion, cooperation",
-          "assessment": "C23–36",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "cascade, entry, survival, arrest, colonization",
+          "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
+          "assessment": "Sequence and stage-localization reasoning",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "E",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "6,8,12,18",
-          "evidence": "Hydrolysis, ATP-dependent kinase output, binding, rate constants",
-          "assessment": "Worked 1–4",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "survival, arrest, colonization, quantitative",
+          "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
+          "assessment": "Worked diffusion and geometry problems",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "F",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "7,14–17,25",
-          "evidence": "Feedback, GAP/GEF, receptor dependence, signaling threshold",
-          "assessment": "C27–29,36,46",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "survival, soil, dormancy, colonization",
+          "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
+          "assessment": "Perturbation and dormancy questions",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "G",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "8,18,21–23",
-          "evidence": "Occupancy, decay, dosage, VAF and relative clonal growth",
-          "assessment": "Worked 1–9, C23–26,30–32,37–41",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "quantitative, worked",
+          "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
+          "assessment": "Numerical worked examples and Part C",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "H",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "2,19–20,25–26",
-          "evidence": "Landmark studies, assay controls, correlation, matched perturbation and rescue",
-          "assessment": "C27–29,43–45",
-          "remaining_gaps": "Some primary full texts unavailable; abstract/review verification only."
+          "applicability": "Applicable",
+          "sections": "history, entry, survival, soil, evidence",
+          "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
+          "assessment": "Experimental evidence and supplied datasets",
+          "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
+          "status": "PASS"
         },
         {
           "dimension": "I",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "1,16,27",
-          "evidence": "Physiological growth control, tissue constraints, apoptosis and senescence",
-          "assessment": "C42,45–46",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "routes, soil, colonization",
+          "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
+          "assessment": "Organ-specific reasoning",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "J",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "23–24,27",
-          "evidence": "Conserved growth-control modules, somatic selection and comparative limits",
-          "assessment": "Integrated practice",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "identity, survival, soil, evidence",
+          "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
+          "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "K",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "5–17,25",
-          "evidence": "Activating lesions, feedback, context and altered regulation",
-          "assessment": "C23–36,42",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "survival, arrest, dormancy, evidence",
+          "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
+          "assessment": "Part C stage-specific changes",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "L",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "8,13–16,20–23,26",
-          "evidence": "Model assumptions, mixed-cell samples, necessity versus sufficiency",
-          "assessment": "C31–41,43–46",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "routes, cascade, dormancy, evidence",
+          "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
+          "assessment": "Counterexample and interpretation questions",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "M",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "20–21,25–26",
-          "evidence": "Molecular diagnostic interpretation and selective dependency principles",
-          "assessment": "C28,31,33–35,44",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "colonization, evidence",
+          "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
+          "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "N",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "13,17,24–28",
-          "evidence": "Links to signaling, cell cycle, genetic alterations and suppressors",
-          "assessment": "Mixed and recall",
-          "remaining_gaps": "No mandatory scope gap identified in internal review."
+          "applicability": "Applicable",
+          "sections": "identity, cascade, survival, soil, revision",
+          "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
+          "assessment": "Integrated mechanism problems",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
         },
         {
           "dimension": "O",
-          "applicable": true,
-          "status": "PASS",
-          "sections": "28,worked,part-b,part-c,mixed,traps,revision",
-          "evidence": "54 explained original items and active recall",
-          "assessment": "22 B,24 C,8 mixed",
-          "remaining_gaps": "Difficulty internally reviewed, no psychometric validation."
+          "applicability": "Applicable",
+          "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
+          "evidence": "52 original explained problems, 18 recall prompts and traps",
+          "assessment": "20 Part B, 20 Part C, 12 mixed",
+          "remaining_gaps": "Difficulty not externally calibrated",
+          "status": "PASS"
         }
       ],
       "review_pass_1": {
-        "method": "Internal scientific and syllabus review of saved HTML, source records, reviews, abstracts and textbook knowledge.",
+        "method": "Internal science/scope review of saved narrative and cited records",
         "corrections": [
-          "Separated cellular dominance from inheritance and malignant sufficiency.",
-          "Clarified GAP-mediated hydrolysis and receptor-independent output versus universal autonomy; HER2 has no known direct soluble ligand.",
-          "Distinguished MYC regulatory relocation from coding fusion, gene copy from activity, and VAF from cell prevalence.",
-          "Checked hypothetical numerical examples and diagrams; retained physiological and comparative boundaries."
+          "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
+          "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
+          "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
         ]
       },
       "review_pass_2": {
-        "method": "Internal teaching/exam review of saved chapter; not external peer review.",
+        "method": "Internal teaching and examination review of saved draft",
         "corrections": [
-          "Strengthened distractors/explanations in 25 questions, then revised six Part C items to multistep comparative analysis.",
-          "Added prerequisite internal links and measurement comparison table; corrected responsive table styling.",
-          "Checked 150 teaching paragraphs; zero exact duplicates, maximum pairwise lexical Jaccard 0.307; purposeful conceptual reinforcement, not proof of semantic originality.",
-          "Preserved existing reader and dynamic navigation."
+          "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
+          "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
+          "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
         ]
       },
       "academic_self_review": {
-        "scope": {
-          "score": 20,
-          "max": 20,
-          "evidence": "All Academy roadmap microtopics covered, aligned to official oncogene syllabus and archived SET."
-        },
-        "accuracy": {
-          "score": 24,
-          "max": 25,
-          "deduction": "Not all primary full texts accessible; reviewed abstract/review evidence and textbook mechanisms."
-        },
-        "depth": {
-          "score": 19,
-          "max": 20,
-          "deduction": "Some conceptual reinforcement across mechanism and reasoning sections; not independently learner-tested."
-        },
-        "analytical": {
-          "score": 14,
-          "max": 15,
-          "deduction": "Numerical datasets hypothetical rather than original research data; 9 worked examples."
-        },
-        "practice": {
-          "score": 9,
-          "max": 10,
-          "deduction": "54 explained original questions; difficulty not psychometrically calibrated and some analytical questions shorter than advanced Part C."
-        },
-        "technical": {
-          "score": 9,
-          "max": 10,
-          "deduction": "Static HTML/JS source checks only; no interactive browser/device test."
-        },
+        "scope": 20,
+        "accuracy_mechanisms": 24,
+        "depth_narrative": 19,
+        "analytical_evidence": 14,
+        "practice_mastery": 9,
+        "technical_reader": 9,
         "total": 95,
-        "threshold": 95
+        "threshold": 95,
+        "rationale": {
+          "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
+          "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
+          "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
+          "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
+          "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
+          "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
+        }
       },
       "static_checks": {
         "duplicate_ids": 0,
-        "broken_anchors": [],
-        "broken_aria_targets": [],
-        "svg_missing_title_desc": 0,
-        "html_stack_errors": 0,
+        "unresolved_internal_anchors": [],
+        "unresolved_js_ids": [],
+        "svg_accessible": 13,
+        "malformed_questions": 0,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        },
         "answer_key_mismatches": 0,
-        "script_syntax": "parsed; not executed in DOM",
-        "placeholders": false,
-        "canonical": true,
-        "robots": "index,follow",
-        "max_pairwise_lexical_jaccard": 0.3069306930693069,
-        "numerical_recalculation": [
-          0.2,
-          0.8,
-          0.8664339756999315,
-          13.862943611198904,
-          0.3,
-          0.3,
-          20,
-          80,
-          1,
-          4,
-          0.3,
-          0.5625,
-          2.718281828459045,
-          0.8125,
-          0.05555555555555555,
-          0.025,
-          0.2,
-          0.2,
-          0.2
-        ],
+        "html_tag_stack_errors": 0,
+        "reader_script_syntax": "Parsed; not executed in browser DOM",
+        "exact_duplicate_teaching_paragraphs": 0,
+        "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+        "robots": "index,follow (publication)",
+        "numerical_recalculation": {
+          "conditional_yield": 5,
+          "organ": [
+            0.4,
+            0.1,
+            0.8,
+            0.025,
+            0.04,
+            0.02
+          ],
+          "doubling": 13.862943611198904,
+          "growth": 1087.312731383618,
+          "independent": 0.4879999999999999,
+          "diffusion": [
+            2,
+            8
+          ],
+          "sphere": [
+            0.06,
+            0.03,
+            8,
+            4
+          ],
+          "outgrowth": [
+            0.1,
+            0.1
+          ]
+        },
         "menu_target_count": 1,
         "sitemap_target_count": 1,
-        "local_links_exist": true,
-        "checkpoint_matches_linked_nodes": true
+        "checkpoint_matches_linked_nodes": true,
+        "all_prior_linked_files_exist": true
       },
       "neighbors": {
-        "previous": "4.E.02",
-        "next": "4.E.04",
-        "policy": "Dynamic homepage resolution; unpublished node disabled"
+        "previous": "4.E.09",
+        "next": "4.E.11",
+        "policy": "Resolve links from current homepage; disable when unpublished."
       },
       "limitations": [
-        "Internal self-review, not external peer review.",
-        "MP SET archived scan, not verified against current MPPSC-hosted copy.",
-        "Some scientific sources checked via abstracts or review excerpts rather than full text.",
-        "No browser/device interaction, assistive technology or student testing."
+        "Internal self-review only; no external peer/examiner validation.",
+        "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
+        "Current MP SET official-host copy not independently retrieved.",
+        "No browser rendering, real-device interaction or full assistive-technology testing."
       ],
       "publication_eligible": true,
-      "draft_qa_commit_sha": "470bb66b8da72798ff35b15c1d3a6fbb372442ff",
-      "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
-      "publication_base_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
-      "chapter_blob_sha": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550",
-      "academy_published_count": 183,
+      "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
+      "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+      "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+      "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
+      "academy_published_count": 184,
       "academy_planned_count": 723,
-      "unit_04_published_count": 52,
+      "unit_04_published_count": 53,
       "unit_04_planned_count": 61,
-      "subunit_4e_published_count": 3,
+      "subunit_4e_published_count": 4,
       "subunit_4e_planned_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
       "reconciliation": {
         "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+        "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
         "concurrent_main_changes": true,
-        "previous_links_preserved": 182,
-        "previous_sitemap_urls_preserved": 183,
-        "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
+        "previous_links_preserved": 183,
+        "previous_sitemap_urls_preserved": 184,
+        "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
       }
     },
     "qa_by_node": {
@@ -18576,271 +18655,700 @@
           "previous_sitemap_urls_preserved": 183,
           "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
         }
+      },
+      "4.E.10": {
+        "node_id": "4.E.10",
+        "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
+        "unit": "04",
+        "subunit": "4.E",
+        "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+        "status": "lesson_committed_pages_verification_pending",
+        "checked_date": "2026-11-26",
+        "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "source_draft_branch": "draft/node-4e10-metastasis",
+        "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
+        "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
+        "metrics": {
+          "genuine_teaching_words": 13839,
+          "total_visible_article_words": 20666,
+          "teaching_paragraphs": 148,
+          "exact_duplicate_paragraphs": 0,
+          "theory_sections": 12,
+          "scientific_svg": 13,
+          "tables": 3,
+          "worked_examples": 8,
+          "part_b": 20,
+          "part_c": 20,
+          "mixed": 12,
+          "total_questions": 52,
+          "misconceptions": 18,
+          "active_recall": 18,
+          "scientific_references": 18
+        },
+        "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
+        "comparator": {
+          "node_id": "4.E.02",
+          "teaching_words": 14077,
+          "paragraphs": 125,
+          "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
+        },
+        "syllabus": {
+          "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
+          "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
+          "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
+          "academy": "curriculum/subunit-4e-cancer-node-map.md",
+          "scope_matrix": [
+            [
+              "Metastatic cascade and routes",
+              "Official metastasis; cancer and cell interaction",
+              "4.E.09 local invasion",
+              "identity,cascade,routes",
+              "Stage discrimination; no repeat invasion mechanisms"
+            ],
+            [
+              "Intravasation and vascular transport",
+              "Official metastasis",
+              "Cell adhesion, circulation",
+              "entry,survival",
+              "Endothelial topology, survival and evidence"
+            ],
+            [
+              "Arrest and extravasation",
+              "Official metastasis",
+              "Endothelium and ECM",
+              "arrest",
+              "Vascular versus tissue location and stage interpretation"
+            ],
+            [
+              "Organ tropism and tissue compatibility",
+              "Official metastasis; interaction with normal cells",
+              "4.E.08 microenvironment",
+              "history,soil",
+              "Historical models, tissue compatibility"
+            ],
+            [
+              "Dormancy and secondary outgrowth",
+              "Official metastasis",
+              "Cell cycle, apoptosis, angiogenesis",
+              "dormancy,colonization",
+              "Single-cell versus mass dormancy and viable outgrowth"
+            ],
+            [
+              "Experimental and quantitative interpretation",
+              "Academy educational extension of official metastasis",
+              "Probability, rates, experimental reasoning",
+              "quantitative,evidence,worked",
+              "Conditional endpoints, inference, not specialist protocols"
+            ]
+          ],
+          "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
+        },
+        "coverage": [
+          {
+            "dimension": "A",
+            "applicability": "Applicable",
+            "sections": "identity, cascade",
+            "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
+            "assessment": "Part B definitions and stage discrimination",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "B",
+            "applicability": "Applicable",
+            "sections": "history, soil",
+            "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
+            "assessment": "Historical evidence interpretation",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "C",
+            "applicability": "Applicable",
+            "sections": "routes, entry, survival, arrest",
+            "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
+            "assessment": "Topology and diagram questions",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "D",
+            "applicability": "Applicable",
+            "sections": "cascade, entry, survival, arrest, colonization",
+            "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
+            "assessment": "Sequence and stage-localization reasoning",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "E",
+            "applicability": "Applicable",
+            "sections": "survival, arrest, colonization, quantitative",
+            "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
+            "assessment": "Worked diffusion and geometry problems",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "F",
+            "applicability": "Applicable",
+            "sections": "survival, soil, dormancy, colonization",
+            "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
+            "assessment": "Perturbation and dormancy questions",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "G",
+            "applicability": "Applicable",
+            "sections": "quantitative, worked",
+            "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
+            "assessment": "Numerical worked examples and Part C",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "H",
+            "applicability": "Applicable",
+            "sections": "history, entry, survival, soil, evidence",
+            "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
+            "assessment": "Experimental evidence and supplied datasets",
+            "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
+            "status": "PASS"
+          },
+          {
+            "dimension": "I",
+            "applicability": "Applicable",
+            "sections": "routes, soil, colonization",
+            "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
+            "assessment": "Organ-specific reasoning",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "J",
+            "applicability": "Applicable",
+            "sections": "identity, survival, soil, evidence",
+            "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
+            "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "K",
+            "applicability": "Applicable",
+            "sections": "survival, arrest, dormancy, evidence",
+            "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
+            "assessment": "Part C stage-specific changes",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "L",
+            "applicability": "Applicable",
+            "sections": "routes, cascade, dormancy, evidence",
+            "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
+            "assessment": "Counterexample and interpretation questions",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "M",
+            "applicability": "Applicable",
+            "sections": "colonization, evidence",
+            "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
+            "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "N",
+            "applicability": "Applicable",
+            "sections": "identity, cascade, survival, soil, revision",
+            "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
+            "assessment": "Integrated mechanism problems",
+            "remaining_gaps": "No mandatory gap identified in internal review",
+            "status": "PASS"
+          },
+          {
+            "dimension": "O",
+            "applicability": "Applicable",
+            "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
+            "evidence": "52 original explained problems, 18 recall prompts and traps",
+            "assessment": "20 Part B, 20 Part C, 12 mixed",
+            "remaining_gaps": "Difficulty not externally calibrated",
+            "status": "PASS"
+          }
+        ],
+        "review_pass_1": {
+          "method": "Internal science/scope review of saved narrative and cited records",
+          "corrections": [
+            "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
+            "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
+            "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
+          ]
+        },
+        "review_pass_2": {
+          "method": "Internal teaching and examination review of saved draft",
+          "corrections": [
+            "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
+            "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
+            "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
+          ]
+        },
+        "academic_self_review": {
+          "scope": 20,
+          "accuracy_mechanisms": 24,
+          "depth_narrative": 19,
+          "analytical_evidence": 14,
+          "practice_mastery": 9,
+          "technical_reader": 9,
+          "total": 95,
+          "threshold": 95,
+          "rationale": {
+            "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
+            "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
+            "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
+            "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
+            "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
+            "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
+          }
+        },
+        "static_checks": {
+          "duplicate_ids": 0,
+          "unresolved_internal_anchors": [],
+          "unresolved_js_ids": [],
+          "svg_accessible": 13,
+          "malformed_questions": 0,
+          "answer_positions": {
+            "A": 13,
+            "B": 13,
+            "C": 13,
+            "D": 13
+          },
+          "answer_key_mismatches": 0,
+          "html_tag_stack_errors": 0,
+          "reader_script_syntax": "Parsed; not executed in browser DOM",
+          "exact_duplicate_teaching_paragraphs": 0,
+          "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+          "robots": "index,follow (publication)",
+          "numerical_recalculation": {
+            "conditional_yield": 5,
+            "organ": [
+              0.4,
+              0.1,
+              0.8,
+              0.025,
+              0.04,
+              0.02
+            ],
+            "doubling": 13.862943611198904,
+            "growth": 1087.312731383618,
+            "independent": 0.4879999999999999,
+            "diffusion": [
+              2,
+              8
+            ],
+            "sphere": [
+              0.06,
+              0.03,
+              8,
+              4
+            ],
+            "outgrowth": [
+              0.1,
+              0.1
+            ]
+          },
+          "menu_target_count": 1,
+          "sitemap_target_count": 1,
+          "checkpoint_matches_linked_nodes": true,
+          "all_prior_linked_files_exist": true
+        },
+        "neighbors": {
+          "previous": "4.E.09",
+          "next": "4.E.11",
+          "policy": "Resolve links from current homepage; disable when unpublished."
+        },
+        "limitations": [
+          "Internal self-review only; no external peer/examiner validation.",
+          "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
+          "Current MP SET official-host copy not independently retrieved.",
+          "No browser rendering, real-device interaction or full assistive-technology testing."
+        ],
+        "publication_eligible": true,
+        "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
+        "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+        "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+        "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
+        "academy_published_count": 184,
+        "academy_planned_count": 723,
+        "unit_04_published_count": 53,
+        "unit_04_planned_count": 61,
+        "subunit_4e_published_count": 4,
+        "subunit_4e_planned_count": 12,
+        "next_pending_node_id": "4.E.01",
+        "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+        "reconciliation": {
+          "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+          "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+          "concurrent_main_changes": true,
+          "previous_links_preserved": 183,
+          "previous_sitemap_urls_preserved": 184,
+          "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
+        }
       }
     },
     "next_pending_node_id": "4.E.01",
     "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
     "previous_last_qa": {
-      "node_id": "4.E.02",
-      "title": "Genetic Alterations and Rearrangements in Cancer Progenitor Cells",
+      "node_id": "4.E.03",
       "unit": "04",
       "subunit": "4.E",
-      "slug": "genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-alterations-and-rearrangements-in-cancer-progenitor-cells.html",
-      "status": "lesson_committed_pages_verification_pending",
+      "title": "Proto-Oncogenes and Oncogenes: Mechanisms of Gain-of-Function",
+      "slug": "proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/proto-oncogenes-and-oncogenes-mechanisms-of-gain-of-function.html",
       "checked_date": "2026-11-26",
+      "status": "lesson_committed_pages_verification_pending",
       "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-      "source_draft_branch": "draft/4.E.02-genetic-alterations",
-      "source_draft_commit_sha": "db43f8b715289bf024e8b9310f3728a1ed0ba84f",
-      "draft_blob_sha": "45e40e127d1a10f977529733e91cc8b4f455e592",
+      "source_draft_branch": "draft/node-4e03-oncogene-gain-of-function",
+      "source_draft_commit_sha": "ba2c4fbfefd2d991117dbb8e7980859ca96720e1",
+      "draft_blob_sha": "df60360e3bdf972f4d22bf25aa58743c5de3e690",
       "metrics": {
-        "teaching_words": 14077,
-        "visible_article_words": 20596,
-        "teaching_paragraphs": 125,
+        "teaching_words": 14044,
+        "visible_article_words_excluding_svg_and_buttons": 21660,
+        "teaching_paragraphs": 150,
         "exact_duplicate_paragraphs": 0,
-        "theory_sections": 12,
-        "total_sections": 19,
-        "svg": 11,
+        "theory_sections": 28,
+        "total_sections": 36,
+        "svg": 14,
         "tables": 2,
         "worked_examples": 9,
-        "part_b": 20,
-        "part_c": 20,
-        "mixed": 12,
-        "total_questions": 52,
-        "misconceptions": 17,
-        "active_recall": 15,
-        "scientific_references": 15,
+        "part_b": 22,
+        "part_c": 24,
+        "mixed": 8,
+        "total_questions": 54,
+        "misconceptions": 18,
+        "active_recall": 20,
+        "scientific_references": 19,
         "syllabus_references": 3,
         "answer_positions": {
-          "A": 13,
+          "A": 14,
           "B": 13,
           "C": 13,
-          "D": 13
+          "D": 14
         }
       },
-      "word_count_method": "Count Unicode letter/number words with internal apostrophes/hyphens in p.teaching-prose after removing HTML tags and entity tokens; figures, headings, worked examples, questions, summaries and references excluded. Visible article excludes SVG and button contents. Earlier alternate tokenization returned 14068 narrative and 20579 visible words; both satisfy gate.",
+      "word_count_method": "Unicode letter/number words with internal apostrophes or hyphens, actual saved p.teaching-prose only; headings, tables, SVG, questions, worked examples, revision and references excluded. Visible article count excludes SVG and button contents.",
       "comparator": {
-        "node": "4.D.03",
-        "words_same_method": 14017,
-        "paragraphs": 127,
-        "note": "Actual saved neighboring chapter fetched; comparable depth and paragraph volume. No published 4.E neighbor at initial inspection."
+        "node": "4.A.06",
+        "teaching_words": 13948,
+        "comparison": "Published saved HTML recount; comparable substantial signaling narrative, with target-specific genetic mechanisms. 4.E neighbors were unpublished at initial inspection."
       },
       "syllabus": {
-        "official_revised": "CSIR-HRDG merged syllabus Unit 4.E, genetic rearrangements in progenitor cells",
-        "official_legacy": "CSIR-HRDG Unit 4.D",
-        "state_set": "MP SET 2024 archived syllabus scan, Unit 4.D; current official MPPSC host not independently retrieved",
-        "academy_roadmap": "curriculum/subunit-4e-cancer-node-map.md",
-        "scope_matrix": [
+        "official_revised": "CSIR-HRDG merged Unit 4.E, printed p5, screenshot inspected",
+        "official_legacy": "CSIR-HRDG Unit 4.D, printed p3, screenshot inspected",
+        "mp_set": "MP SET 2024 archived scan Unit 4.D, printed p3, screenshot inspected; current official-host copy not confirmed",
+        "roadmap": "curriculum/subunit-4e-cancer-node-map.md",
+        "microtopic_matrix": [
           [
-            "Stem/progenitor origin and somatic/germline",
-            "origins, inheritance",
-            "cell division and inheritance prerequisite; cancer lineage context; not developmental stem-cell taxonomy"
+            "Proto-oncogene versus oncogene; cellular dominance",
+            "1–5,17",
+            "Cancer oncogenes; prerequisite normal signaling and alleles",
+            "Distinguish altered function, not inherited penetrance; B/C"
           ],
           [
-            "Driver/passenger and multistep selection",
-            "selection, integration",
-            "selection and clonal inference; not full oncology"
+            "RAS mutation and switch termination",
+            "6–8,15",
+            "Oncogenes; RTK signaling prerequisite",
+            "GDP/GTP, GAP/GEF, kinetics, C23–29"
           ],
           [
-            "Point mutations and DNA lesions/repair",
-            "sources, point",
-            "DNA replication and repair prerequisite; genetic outcomes; not detailed repair pathways"
+            "HER2 amplification and gene dosage",
+            "9,18,21",
+            "Oncogenes; receptor and transcription prerequisites",
+            "Dosage versus affinity/activity; C30–33"
           ],
           [
-            "Deletion, gain, amplification and LOH",
-            "dosage",
-            "chromosome dosage prerequisite; quantitative interpretation; not genome-wide profiling methods"
+            "MYC expression and regulatory rearrangement",
+            "10–11,13",
+            "Oncogenes and rearrangements; transcription prerequisite",
+            "MYC–MAX and regulatory juxtaposition; C34"
           ],
           [
-            "Translocation, inversion and fusion",
-            "rearrange",
-            "chromosomal structure prerequisite; mechanisms, balanced versus unbalanced; not cytogenetic laboratory protocol"
+            "BCR::ABL1 fusion",
+            "12–13",
+            "Oncogenes and genetic rearrangements; kinase prerequisite",
+            "Fusion and altered regulation; C34–35; no detailed clinical therapy"
           ],
           [
-            "Philadelphia and BCR::ABL1",
-            "philadelphia",
-            "protein regulation prerequisite; causal and mechanistic evidence; detailed oncogene classes reserved for 4.E.03"
-          ],
-          [
-            "Genome instability and clonal evolution",
-            "instability, selection, quantitative",
-            "CIN versus aneuploidy, multistep progression; not specialist sequencing pipelines"
+            "Cooperation and functional evidence",
+            "14–17,19–28",
+            "Cancer oncogenes and cell-cycle control",
+            "Controls, dependence, model limits, suppressor bridge; C36–46"
           ]
         ]
       },
-      "coverage": {
-        "A": [
-          "PASS",
-          "origins, inheritance",
-          "definitions and lineage distinctions",
-          "Part B, recall"
-        ],
-        "B": [
-          "PASS",
-          "philadelphia, selection",
-          "Nowell/Hungerford, Rowley, fusion evidence, clonal evolution",
-          "historical evidence questions"
-        ],
-        "C": [
-          "PASS",
-          "point, dosage, rearrange, philadelphia",
-          "chromosome and fusion domains, gene dosage",
-          "diagram questions"
-        ],
-        "D": [
-          "PASS",
-          "sources, philadelphia, selection",
-          "lesion fixation, rearrangement and kinase activity",
-          "mechanism problems"
-        ],
-        "E": [
-          "PASS",
-          "sources, philadelphia, quantitative",
-          "DNA damage, ATP-dependent phosphorylation, kinetics",
-          "numerical practice"
-        ],
-        "F": [
-          "PASS",
-          "dosage, philadelphia, instability",
-          "feedback context, kinase regulation, checkpoints",
-          "perturbation problems"
-        ],
-        "G": [
-          "PASS",
-          "dosage, quantitative, worked",
-          "VAF, growth, probability, phosphorylation",
-          "9 worked examples"
-        ],
-        "H": [
-          "PASS",
-          "philadelphia, evidence",
-          "observations versus causal inference, controls",
-          "experimental interpretation"
-        ],
-        "I": [
-          "PASS",
-          "origins, philadelphia, integration",
-          "tissue lineage and physiological growth control",
-          "integration questions"
-        ],
-        "J": [
-          "PASS",
-          "selection, integration",
-          "somatic evolution and limits of plant/microbial comparisons",
-          "selection questions"
-        ],
-        "K": [
-          "PASS",
-          "sources, dosage, instability, philadelphia",
-          "loss, gain, repair defects, abnormal signaling",
-          "perturbation questions"
-        ],
-        "L": [
-          "PASS",
-          "dosage, evidence, quantitative",
-          "purity, ploidy, sampling and model limits",
-          "conditional questions"
-        ],
-        "M": [
-          "PASS",
-          "philadelphia, evidence, integration",
-          "diagnostic interpretation and targeted therapy principles",
-          "application questions"
-        ],
-        "N": [
-          "PASS",
-          "integration",
-          "DNA, chromosome, cell cycle and signaling bridges",
-          "mixed questions"
-        ],
-        "O": [
-          "PASS",
-          "worked, assessment, revision",
-          "52 original explained questions, 15 recall prompts",
-          "20 B, 20 C, 12 mixed"
+      "coverage_360": [
+        {
+          "dimension": "A",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "1,3–5",
+          "evidence": "Normal growth, allele and proto-oncogene distinctions",
+          "assessment": "B1–22",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "B",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "2,19",
+          "evidence": "Src cellular origin, T24 transformation and landmark evidence",
+          "assessment": "Historical and interpretation questions",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "C",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6,9–12,24",
+          "evidence": "RAS switch, HER2 architecture, MYC–MAX, BCR::ABL1 kinase fusion",
+          "assessment": "Diagrams and B/C",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "D",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6–12,15–17",
+          "evidence": "Nucleotide cycle, dosage, regulatory relocation, fusion, cooperation",
+          "assessment": "C23–36",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "E",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "6,8,12,18",
+          "evidence": "Hydrolysis, ATP-dependent kinase output, binding, rate constants",
+          "assessment": "Worked 1–4",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "F",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "7,14–17,25",
+          "evidence": "Feedback, GAP/GEF, receptor dependence, signaling threshold",
+          "assessment": "C27–29,36,46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "G",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "8,18,21–23",
+          "evidence": "Occupancy, decay, dosage, VAF and relative clonal growth",
+          "assessment": "Worked 1–9, C23–26,30–32,37–41",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "H",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "2,19–20,25–26",
+          "evidence": "Landmark studies, assay controls, correlation, matched perturbation and rescue",
+          "assessment": "C27–29,43–45",
+          "remaining_gaps": "Some primary full texts unavailable; abstract/review verification only."
+        },
+        {
+          "dimension": "I",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "1,16,27",
+          "evidence": "Physiological growth control, tissue constraints, apoptosis and senescence",
+          "assessment": "C42,45–46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "J",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "23–24,27",
+          "evidence": "Conserved growth-control modules, somatic selection and comparative limits",
+          "assessment": "Integrated practice",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "K",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "5–17,25",
+          "evidence": "Activating lesions, feedback, context and altered regulation",
+          "assessment": "C23–36,42",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "L",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "8,13–16,20–23,26",
+          "evidence": "Model assumptions, mixed-cell samples, necessity versus sufficiency",
+          "assessment": "C31–41,43–46",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "M",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "20–21,25–26",
+          "evidence": "Molecular diagnostic interpretation and selective dependency principles",
+          "assessment": "C28,31,33–35,44",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "N",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "13,17,24–28",
+          "evidence": "Links to signaling, cell cycle, genetic alterations and suppressors",
+          "assessment": "Mixed and recall",
+          "remaining_gaps": "No mandatory scope gap identified in internal review."
+        },
+        {
+          "dimension": "O",
+          "applicable": true,
+          "status": "PASS",
+          "sections": "28,worked,part-b,part-c,mixed,traps,revision",
+          "evidence": "54 explained original items and active recall",
+          "assessment": "22 B,24 C,8 mixed",
+          "remaining_gaps": "Difficulty internally reviewed, no psychometric validation."
+        }
+      ],
+      "review_pass_1": {
+        "method": "Internal scientific and syllabus review of saved HTML, source records, reviews, abstracts and textbook knowledge.",
+        "corrections": [
+          "Separated cellular dominance from inheritance and malignant sufficiency.",
+          "Clarified GAP-mediated hydrolysis and receptor-independent output versus universal autonomy; HER2 has no known direct soluble ligand.",
+          "Distinguished MYC regulatory relocation from coding fusion, gene copy from activity, and VAF from cell prevalence.",
+          "Checked hypothetical numerical examples and diagrams; retained physiological and comparative boundaries."
         ]
       },
-      "review_pass_1": "Reviewed actual saved narrative for syllabus, scientific mechanisms, definitions, quantities and reference metadata. Expanded repair, lineage, quantitative reasoning and fusion evidence; revised graph axes and calculated exponential curves; clarified historical association versus mechanistic causation; added explicit source links. Published references checked using abstracts, search excerpts and established textbook knowledge where full text inaccessible.",
-      "review_pass_2": "Reviewed saved narrative and assessments. Replaced all twenty Part C items with analytical multi-step reasoning; expanded seventeen traps and nine worked examples; balanced nonperiodic keys; excluded eleven short figure-reference paragraphs from narrative count; clarified independent clone labels in worked example. Editorial review found intentional reinforcement but no obvious artificial padding; pairwise lexical overlap is only a screen, not a semantic proof.",
+      "review_pass_2": {
+        "method": "Internal teaching/exam review of saved chapter; not external peer review.",
+        "corrections": [
+          "Strengthened distractors/explanations in 25 questions, then revised six Part C items to multistep comparative analysis.",
+          "Added prerequisite internal links and measurement comparison table; corrected responsive table styling.",
+          "Checked 150 teaching paragraphs; zero exact duplicates, maximum pairwise lexical Jaccard 0.307; purposeful conceptual reinforcement, not proof of semantic originality.",
+          "Preserved existing reader and dynamic navigation."
+        ]
+      },
       "academic_self_review": {
-        "scope": 20,
-        "accuracy_mechanisms": 24,
-        "depth_narrative": 19,
-        "analytical_evidence": 14,
-        "practice_mastery": 9,
-        "technical_reader": 9,
+        "scope": {
+          "score": 20,
+          "max": 20,
+          "evidence": "All Academy roadmap microtopics covered, aligned to official oncogene syllabus and archived SET."
+        },
+        "accuracy": {
+          "score": 24,
+          "max": 25,
+          "deduction": "Not all primary full texts accessible; reviewed abstract/review evidence and textbook mechanisms."
+        },
+        "depth": {
+          "score": 19,
+          "max": 20,
+          "deduction": "Some conceptual reinforcement across mechanism and reasoning sections; not independently learner-tested."
+        },
+        "analytical": {
+          "score": 14,
+          "max": 15,
+          "deduction": "Numerical datasets hypothetical rather than original research data; 9 worked examples."
+        },
+        "practice": {
+          "score": 9,
+          "max": 10,
+          "deduction": "54 explained original questions; difficulty not psychometrically calibrated and some analytical questions shorter than advanced Part C."
+        },
+        "technical": {
+          "score": 9,
+          "max": 10,
+          "deduction": "Static HTML/JS source checks only; no interactive browser/device test."
+        },
         "total": 95,
-        "threshold": 95,
-        "rationale": {
-          "scope": "All approved microtopics mapped to syllabus and covered; archived MP SET confirms topic.",
-          "accuracy": "Mechanisms and landmark metadata checked; deduct one for primary full-text access limitations.",
-          "depth": "Comparable teaching volume to 4.D.03; deduct one for some necessary conceptual reinforcement.",
-          "analytical": "Nine worked examples, quantitative and experimental reasoning; deduct one for hypothetical models and limited source full-text access.",
-          "practice": "52 original explained items including 20 revised Part C; deduct one because no student psychometric validation.",
-          "technical": "Static audit and existing reader preserved; deduct one because interactive browser/device testing unavailable."
-        }
+        "threshold": 95
       },
       "static_checks": {
         "duplicate_ids": 0,
-        "unresolved_internal_anchors": [],
-        "exact_duplicate_teaching_paragraphs": 0,
-        "svg_accessible": 11,
-        "malformed_questions": 0,
-        "unique_questions": 52,
-        "unresolved_aria_or_zoom_targets": 0,
-        "html_tag_stack_errors": 0,
-        "placeholder_count": 0,
-        "reader_script_syntax": "parsed successfully, not executed in DOM",
-        "local_links": [
-          "./"
+        "broken_anchors": [],
+        "broken_aria_targets": [],
+        "svg_missing_title_desc": 0,
+        "html_stack_errors": 0,
+        "answer_key_mismatches": 0,
+        "script_syntax": "parsed; not executed in DOM",
+        "placeholders": false,
+        "canonical": true,
+        "robots": "index,follow",
+        "max_pairwise_lexical_jaccard": 0.3069306930693069,
+        "numerical_recalculation": [
+          0.2,
+          0.8,
+          0.8664339756999315,
+          13.862943611198904,
+          0.3,
+          0.3,
+          20,
+          80,
+          1,
+          4,
+          0.3,
+          0.5625,
+          2.718281828459045,
+          0.8125,
+          0.05555555555555555,
+          0.025,
+          0.2,
+          0.2,
+          0.2
         ],
-        "canonical": "verified",
-        "robots": "index,follow (publication version)",
-        "numerical_recalculation": {
-          "event_100": 0.09520785288629108,
-          "event_200": 0.1813511705213644,
-          "zero_50": 0.36416968008711675,
-          "copy_vaf": 0.13636363636363635,
-          "growth_ratio": 2.718281828459045,
-          "growth_x": 271.8281828459045,
-          "growth_y": 738.905609893065
-        },
-        "semantic_repetition": "No exact duplicates or paragraph pairs above .45 lexical Jaccard; qualitative review of actual text found no obvious padding. Lexical overlap cannot establish semantic originality.",
-        "sitemap_target_count": 1,
         "menu_target_count": 1,
+        "sitemap_target_count": 1,
+        "local_links_exist": true,
         "checkpoint_matches_linked_nodes": true
       },
       "neighbors": {
-        "previous": "4.E.01",
-        "next": "4.E.03",
-        "policy": "Resolve from current homepage; disable if not published."
+        "previous": "4.E.02",
+        "next": "4.E.04",
+        "policy": "Dynamic homepage resolution; unpublished node disabled"
       },
       "limitations": [
-        "Internal academic review, not independent external peer review.",
-        "Current MPPSC official host not independently retrieved; archived scan checked.",
-        "Primary article abstracts and excerpts rather than all full texts; no claim of full-text review.",
-        "No interactive browser, real device or student testing."
+        "Internal self-review, not external peer review.",
+        "MP SET archived scan, not verified against current MPPSC-hosted copy.",
+        "Some scientific sources checked via abstracts or review excerpts rather than full text.",
+        "No browser/device interaction, assistive technology or student testing."
       ],
       "publication_eligible": true,
-      "main_baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-      "publication_base_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
-      "chapter_blob_sha": "cf7c6d5dbae72ae78ccd703eac660d1d55395b7c",
-      "draft_qa_commit_sha": "5c4e1d75283f2cf58e7b27f13bd906a191bd2757",
-      "academy_published_count": 182,
+      "draft_qa_commit_sha": "470bb66b8da72798ff35b15c1d3a6fbb372442ff",
+      "main_baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "publication_base_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
+      "chapter_blob_sha": "d2f9d6e54920664b6de1c40a58e0ee0192bcd550",
+      "academy_published_count": 183,
       "academy_planned_count": 723,
-      "unit_04_published_count": 51,
+      "unit_04_published_count": 52,
       "unit_04_planned_count": 61,
-      "subunit_4e_published_count": 2,
+      "subunit_4e_published_count": 3,
       "subunit_4e_planned_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
       "reconciliation": {
         "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
-        "baseline_sha": "d952114f7efb78ff8131fb670a984a8ff4e46f88",
+        "baseline_sha": "8c6e3f4ce221f7ac0eb61731ca1ef8950e17296b",
         "concurrent_main_changes": true,
-        "previous_links_preserved": 181,
-        "previous_sitemap_urls_preserved": 182,
-        "publication_strategy": "single tree/commit based on current main with expected SHA and non-force update"
+        "previous_links_preserved": 182,
+        "previous_sitemap_urls_preserved": 183,
+        "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
       }
     },
     "subunit_4a": {
@@ -18932,9 +19440,10 @@
       "published_node_ids": [
         "4.E.02",
         "4.E.03",
-        "4.E.05"
+        "4.E.05",
+        "4.E.10"
       ],
-      "published_node_count": 3,
+      "published_node_count": 4,
       "planned_node_count": 12,
       "next_pending_node_id": "4.E.01",
       "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
@@ -19055,7 +19564,8 @@
   "unit4e_published_node_ids": [
     "4.E.02",
     "4.E.03",
-    "4.E.05"
+    "4.E.05",
+    "4.E.10"
   ],
   "unit4e_planned_node_count": 12,
   "qa_history_by_node": {
@@ -20234,6 +20744,350 @@
         "previous_links_preserved": 182,
         "previous_sitemap_urls_preserved": 183,
         "publication_strategy": "Single atomic commit based on latest main; expected SHA non-force update"
+      }
+    },
+    "4.E.10": {
+      "node_id": "4.E.10",
+      "title": "Metastasis: Intravasation, Survival, Extravasation and Colonization",
+      "unit": "04",
+      "subunit": "4.E",
+      "slug": "metastasis-intravasation-survival-extravasation-and-colonization.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+      "status": "lesson_committed_pages_verification_pending",
+      "checked_date": "2026-11-26",
+      "initial_main_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+      "source_draft_branch": "draft/node-4e10-metastasis",
+      "source_draft_commit_sha": "fea2dff7854c72bc0e3f4d64dcdeff8b5100e152",
+      "draft_blob_sha": "ece19f83b8b9b86e2c6833f0417d2d460555714c",
+      "metrics": {
+        "genuine_teaching_words": 13839,
+        "total_visible_article_words": 20666,
+        "teaching_paragraphs": 148,
+        "exact_duplicate_paragraphs": 0,
+        "theory_sections": 12,
+        "scientific_svg": 13,
+        "tables": 3,
+        "worked_examples": 8,
+        "part_b": 20,
+        "part_c": 20,
+        "mixed": 12,
+        "total_questions": 52,
+        "misconceptions": 18,
+        "active_recall": 18,
+        "scientific_references": 18
+      },
+      "word_count_method": "Unicode letter/number tokens with internal hyphens/apostrophes, counted only in saved p.teaching-prose. Eleven short diagram cross-references (185 words) explicitly excluded along with headings, SVG, tables, worked blocks, questions, summaries and bibliography. Article count excludes SVG/buttons.",
+      "comparator": {
+        "node_id": "4.E.02",
+        "teaching_words": 14077,
+        "paragraphs": 125,
+        "note": "Actual saved comparator fetched from concurrent main; comparable narrative size, different scope. Earlier 4.D.12 reader also inspected."
+      },
+      "syllabus": {
+        "revised": "Official CSIR-HRDG merged syllabus Unit 4.E p5, visually inspected",
+        "legacy": "Official separate CSIR Life Sciences Unit 4.D p3, visually inspected",
+        "state_set": "Archived MP SET 2024 Unit 4.D p3 inspected; current official-host copy not independently located",
+        "academy": "curriculum/subunit-4e-cancer-node-map.md",
+        "scope_matrix": [
+          [
+            "Metastatic cascade and routes",
+            "Official metastasis; cancer and cell interaction",
+            "4.E.09 local invasion",
+            "identity,cascade,routes",
+            "Stage discrimination; no repeat invasion mechanisms"
+          ],
+          [
+            "Intravasation and vascular transport",
+            "Official metastasis",
+            "Cell adhesion, circulation",
+            "entry,survival",
+            "Endothelial topology, survival and evidence"
+          ],
+          [
+            "Arrest and extravasation",
+            "Official metastasis",
+            "Endothelium and ECM",
+            "arrest",
+            "Vascular versus tissue location and stage interpretation"
+          ],
+          [
+            "Organ tropism and tissue compatibility",
+            "Official metastasis; interaction with normal cells",
+            "4.E.08 microenvironment",
+            "history,soil",
+            "Historical models, tissue compatibility"
+          ],
+          [
+            "Dormancy and secondary outgrowth",
+            "Official metastasis",
+            "Cell cycle, apoptosis, angiogenesis",
+            "dormancy,colonization",
+            "Single-cell versus mass dormancy and viable outgrowth"
+          ],
+          [
+            "Experimental and quantitative interpretation",
+            "Academy educational extension of official metastasis",
+            "Probability, rates, experimental reasoning",
+            "quantitative,evidence,worked",
+            "Conditional endpoints, inference, not specialist protocols"
+          ]
+        ],
+        "matrix_recording": "Official and Academy scope inspected before drafting; formal matrix persisted at QA stage."
+      },
+      "coverage": [
+        {
+          "dimension": "A",
+          "applicability": "Applicable",
+          "sections": "identity, cascade",
+          "evidence": "Definition, primary lineage, contiguous invasion versus distant lesion, prerequisites",
+          "assessment": "Part B definitions and stage discrimination",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "B",
+          "applicability": "Applicable",
+          "sections": "history, soil",
+          "evidence": "Paget and circulatory explanations; development of tissue compatibility models",
+          "assessment": "Historical evidence interpretation",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "C",
+          "applicability": "Applicable",
+          "sections": "routes, entry, survival, arrest",
+          "evidence": "Vascular anatomy, endothelial junctions, matrix, integrins, cluster organization",
+          "assessment": "Topology and diagram questions",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "D",
+          "applicability": "Applicable",
+          "sections": "cascade, entry, survival, arrest, colonization",
+          "evidence": "Ordered vascular crossing, adhesion, survival, arrest, exit and outgrowth; alternate fates",
+          "assessment": "Sequence and stage-localization reasoning",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "E",
+          "applicability": "Applicable",
+          "sections": "survival, arrest, colonization, quantitative",
+          "evidence": "Fluid shear, diffusion, geometry, attachment and resource constraints",
+          "assessment": "Worked diffusion and geometry problems",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "F",
+          "applicability": "Applicable",
+          "sections": "survival, soil, dormancy, colonization",
+          "evidence": "Adhesion-linked survival, immune restraint, hypoxia responses, osteolytic feedback",
+          "assessment": "Perturbation and dormancy questions",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "G",
+          "applicability": "Applicable",
+          "sections": "quantitative, worked",
+          "evidence": "Conditional probability, exponential growth, log slopes, geometry, diffusion, rates and assumptions",
+          "assessment": "Numerical worked examples and Part C",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "H",
+          "applicability": "Applicable",
+          "sections": "history, entry, survival, soil, evidence",
+          "evidence": "Paget, Harney, Aceto, Luzzi, Fidler and Müller; endpoints, causal limits and comparisons",
+          "assessment": "Experimental evidence and supplied datasets",
+          "remaining_gaps": "Some primary records reviewed through abstracts rather than full text",
+          "status": "PASS"
+        },
+        {
+          "dimension": "I",
+          "applicability": "Applicable",
+          "sections": "routes, soil, colonization",
+          "evidence": "Tissue homeostasis, perfusion, immune surveillance, bone remodeling",
+          "assessment": "Organ-specific reasoning",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "J",
+          "applicability": "Applicable",
+          "sections": "identity, survival, soil, evidence",
+          "evidence": "Normal leukocyte trafficking versus malignant movement; animal tissue context, clonal selection",
+          "assessment": "Comparative questions; prokaryote/plant comparison not a direct analogue",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "K",
+          "applicability": "Applicable",
+          "sections": "survival, arrest, dormancy, evidence",
+          "evidence": "Adhesion loss, cell death, immune effects, stage-specific perturbations",
+          "assessment": "Part C stage-specific changes",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "L",
+          "applicability": "Applicable",
+          "sections": "routes, cascade, dormancy, evidence",
+          "evidence": "Nonvascular routes, variable order, alternative states, observational confounding",
+          "assessment": "Counterexample and interpretation questions",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "M",
+          "applicability": "Applicable",
+          "sections": "colonization, evidence",
+          "evidence": "Biological interpretation of metastatic lesions, experimental endpoints and conceptual intervention classes",
+          "assessment": "Diagnostic and interpretation questions, not clinical algorithms",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "N",
+          "applicability": "Applicable",
+          "sections": "identity, cascade, survival, soil, revision",
+          "evidence": "Links to local invasion, signaling, adhesion, tumor microenvironment and therapy",
+          "assessment": "Integrated mechanism problems",
+          "remaining_gaps": "No mandatory gap identified in internal review",
+          "status": "PASS"
+        },
+        {
+          "dimension": "O",
+          "applicability": "Applicable",
+          "sections": "quantitative, evidence, worked, part-b, part-c, mixed, traps, revision",
+          "evidence": "52 original explained problems, 18 recall prompts and traps",
+          "assessment": "20 Part B, 20 Part C, 12 mixed",
+          "remaining_gaps": "Difficulty not externally calibrated",
+          "status": "PASS"
+        }
+      ],
+      "review_pass_1": {
+        "method": "Internal science/scope review of saved narrative and cited records",
+        "corrections": [
+          "Clarified vascular crossing and actin/endothelial topology, adhesion-linked survival, fluid shear, immune restraint, hypoxia-linked vascular responses and bone feedback.",
+          "Added Harney, Luzzi, Aceto and other primary/review records and contextual limits; no fabricated experimental values.",
+          "Added bone feedback and logarithmic growth illustrations; independently recalculated worked numerical results."
+        ]
+      },
+      "review_pass_2": {
+        "method": "Internal teaching and examination review of saved draft",
+        "corrections": [
+          "Added 52 original explained questions and 18 traps/recall prompts; nonperiodic balanced answer positions.",
+          "Improved section and assessment presentation using existing reader, answer details and diagram enlargement.",
+          "Excluded standalone diagram references from narrative metric; reviewed distinct section functions and necessary reinforcement."
+        ]
+      },
+      "academic_self_review": {
+        "scope": 20,
+        "accuracy_mechanisms": 24,
+        "depth_narrative": 19,
+        "analytical_evidence": 14,
+        "practice_mastery": 9,
+        "technical_reader": 9,
+        "total": 95,
+        "threshold": 95,
+        "rationale": {
+          "scope": "Approved roadmap coverage and official cancer/metastasis topic checked.",
+          "accuracy": "Mechanisms and named evidence reviewed; one deduction for incomplete primary full-text access.",
+          "depth": "13839 substantive words, 148 paragraphs, comparable to 4.E.02; one deduction for necessary recurring stage distinctions.",
+          "analytical": "Eight worked examples, historical and contemporary evidence and independent arithmetic checks; one deduction for hypothetical datasets and limited full-text access.",
+          "practice": "52 explained original items, including 20 analytical; one deduction for uncalibrated difficulty and some shorter numerical items.",
+          "technical": "Saved HTML static tests and reader architecture pass; one deduction for no browser/device/assistive testing."
+        }
+      },
+      "static_checks": {
+        "duplicate_ids": 0,
+        "unresolved_internal_anchors": [],
+        "unresolved_js_ids": [],
+        "svg_accessible": 13,
+        "malformed_questions": 0,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        },
+        "answer_key_mismatches": 0,
+        "html_tag_stack_errors": 0,
+        "reader_script_syntax": "Parsed; not executed in browser DOM",
+        "exact_duplicate_teaching_paragraphs": 0,
+        "semantic_repetition": "No paragraph five-gram Jaccard pair exceeded .12 in earlier saved-draft screen; distinct causal contexts, some deliberate reinforcement; lexical screening is not proof of semantic uniqueness.",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/metastasis-intravasation-survival-extravasation-and-colonization.html",
+        "robots": "index,follow (publication)",
+        "numerical_recalculation": {
+          "conditional_yield": 5,
+          "organ": [
+            0.4,
+            0.1,
+            0.8,
+            0.025,
+            0.04,
+            0.02
+          ],
+          "doubling": 13.862943611198904,
+          "growth": 1087.312731383618,
+          "independent": 0.4879999999999999,
+          "diffusion": [
+            2,
+            8
+          ],
+          "sphere": [
+            0.06,
+            0.03,
+            8,
+            4
+          ],
+          "outgrowth": [
+            0.1,
+            0.1
+          ]
+        },
+        "menu_target_count": 1,
+        "sitemap_target_count": 1,
+        "checkpoint_matches_linked_nodes": true,
+        "all_prior_linked_files_exist": true
+      },
+      "neighbors": {
+        "previous": "4.E.09",
+        "next": "4.E.11",
+        "policy": "Resolve links from current homepage; disable when unpublished."
+      },
+      "limitations": [
+        "Internal self-review only; no external peer/examiner validation.",
+        "Some papers verified from abstracts, reviews and bibliographic records rather than complete primary texts.",
+        "Current MP SET official-host copy not independently retrieved.",
+        "No browser rendering, real-device interaction or full assistive-technology testing."
+      ],
+      "publication_eligible": true,
+      "draft_qa_commit_sha": "37376807a0cf965082fbe19bf6e6411f25437553",
+      "publication_base_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+      "main_baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+      "chapter_blob_sha": "8493b360760727b21b5fb6708ed279f380ecfb2e",
+      "academy_published_count": 184,
+      "academy_planned_count": 723,
+      "unit_04_published_count": 53,
+      "unit_04_planned_count": 61,
+      "subunit_4e_published_count": 4,
+      "subunit_4e_planned_count": 12,
+      "next_pending_node_id": "4.E.01",
+      "next_pending_node_title": "Fundamentals of Cancer Biology: From Normal Growth to Malignancy",
+      "reconciliation": {
+        "initial_sha": "e28795f3ab3c4bc228b1da009b54987d5f9363a2",
+        "baseline_sha": "a7599f130f48ce50206217f861b7bba37cf4e672",
+        "concurrent_main_changes": true,
+        "previous_links_preserved": 183,
+        "previous_sitemap_urls_preserved": 184,
+        "publication_strategy": "Single tree and commit based on immutable current main, conditional non-force ref update."
       }
     }
   },

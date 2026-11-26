@@ -113,4 +113,5 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 ### Publication checkpoint — 2026-11-26
 
 - **5.A.02 — Cell Fate Maps, Cell Lineages and Classical Lineage Tracing**: chapter included in the publication tree at `cell-fate-maps-cell-lineages-and-classical-lineage-tracing.html`; live deployment must be checked separately.
-- Current published nodes in Unit 05: 1 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.
+- **5.A.08 — Cell Determination and Differentiation: From Stable Fate to Specialized Function**: chapter included in the publication tree at `cell-determination-and-differentiation.html`; live deployment must be checked separately.
+- Current published nodes in Unit 05: 2 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.

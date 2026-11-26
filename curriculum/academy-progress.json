@@ -4,130 +4,174 @@
   "unit": "03",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "3.D.04",
-  "title": "Positive Control and Translational Regulation in Prokaryotes",
+  "node_id": "3.D.08",
+  "title": "Post-transcriptional and Translational Regulation in Eukaryotes",
   "subunit": "3.D",
   "topic": "Control of Gene Expression at Transcription and Translation Level",
-  "slug": "positive-control-and-translational-regulation-in-prokaryotes.html",
+  "slug": "post-transcriptional-and-translational-regulation-in-eukaryotes.html",
   "next_pending_node_id": "3.D.02",
   "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
-  "published_node_count": 136,
+  "published_node_count": 137,
   "publication_allowed": true,
-  "main_baseline_sha": "def9d4dcf0d5d3c910d108c56942da312733775c",
+  "main_baseline_sha": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
   "quality_hold": {
     "active": false,
     "status": "retired_with_prior_curriculum",
     "reason": "Owner explicitly removed all old Unit 1 lessons and architecture; this is retirement, not completion of the old repair."
   },
-  "next_required_action": "Verify Pages for 3.D.04; earliest pending in 3.D: 3.D.02 Regulation of the Lac Operon: An Inducible Gene System",
+  "next_required_action": "Verify Pages for 3.D.08; next unpublished 3.D.02. Preserve all parallel publications.",
   "planned_node_count": 51,
   "planned_subunit_count": 4,
   "architecture_version": "unit-03-fundamental-processes-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-03-fundamental-processes-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-3d-gene-expression-regulation-node-map.md",
   "last_qa": {
-    "node_id": "3.D.04",
-    "title": "Positive Control and Translational Regulation in Prokaryotes",
-    "slug": "positive-control-and-translational-regulation-in-prokaryotes.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/positive-control-and-translational-regulation-in-prokaryotes.html",
-    "narrative_words": 14463,
-    "lexical_teaching_words": 14521,
-    "visible_article_words": 20160,
-    "teaching_paragraphs": 127,
-    "html_bytes": 222704,
-    "theory_sections": 12,
-    "sections": 19,
-    "figures": 13,
-    "tables": 4,
-    "worked_numerical_examples": 9,
-    "questions": 52,
+    "node_id": "3.D.08",
+    "title": "Post-transcriptional and Translational Regulation in Eukaryotes",
+    "slug": "post-transcriptional-and-translational-regulation-in-eukaryotes.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/post-transcriptional-and-translational-regulation-in-eukaryotes.html",
+    "unit": "03",
+    "subunit": "3.D",
+    "status": "lesson_committed_pages_verification_pending",
+    "narrative_words": 14267,
+    "visible_article_words": 19281,
+    "teaching_paragraphs": 135,
+    "html_bytes": 231699,
+    "html_characters": 231231,
+    "theory_sections": 15,
+    "sections": 21,
+    "figures": 14,
+    "tables": 3,
+    "worked_numerical_examples": 10,
+    "worked_example_locations": [
+      "RNA stability and half-life",
+      "RNA step response",
+      "ferritin and TfR1 comparison",
+      "productive isoform mixture",
+      "localized RNA production",
+      "ribosome occupancy",
+      "cap recruitment proportional model",
+      "two protein steady states",
+      "protein step response",
+      "combined RNA and translation regulation"
+    ],
+    "questions": 50,
     "distribution": {
       "part_b": 20,
       "part_c": 20,
-      "mixed": 12,
+      "assertion_reason": 4,
+      "multiple_statement": 2,
+      "matching": 2,
+      "diagram_or_graph": 2,
       "answer_positions": {
-        "A": 13,
+        "A": 12,
         "B": 13,
-        "C": 13,
+        "C": 12,
         "D": 13
       }
     },
-    "references": 17,
-    "revision_traps": 18,
+    "references": 22,
+    "revision_traps": 16,
     "active_recall": 12,
     "mastery_checklist": 6,
-    "method": "Re-read saved HTML. Whitespace count of teaching-prose paragraphs only, cross-checked with Unicode lexical count. Article count excludes SVG markup/content and zoom buttons but includes supplemental reading, practice, captions, tables and reference titles.",
+    "method": "Actual saved HTML p.teaching-prose whitespace-delimited visible words; excludes tables, headings, captions, figures, question answers, references, revision and UI. Article count excludes SVG and buttons.",
     "comparator": {
-      "node_id": "3.D.01",
-      "narrative_words": 13957,
-      "notes": "Comparable teaching length; current chapter has explicit carbon-control and translation mechanisms, separate calculations, source-supported case examples, and independent experimental reasoning."
+      "path": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+      "narrative_words": 14266,
+      "method": "Recounted marked paragraphs from main; this node extends integrated RNA fate and output instead of reproducing initiation mechanics."
     },
-    "scope_review": "Visually checked revised merged CSIR–UGC–DBT Unit 3.D p.4, separate CSIR NET p.3, archived MP SET 2024 p.3. Roadmap topics: CRP and positive control (sections 1–5), glucose/lactose and PTS/inducer exclusion (3–4), alternative sigma factors (6), SD and secondary structure (7), riboswitches (8), sRNAs/Hfq/DsrA/RyhB (9), experiments and quantitative reasoning (10–11), comparative and applications (12). Core mechanism, structure, regulatory context, energy/kinetics, evidence, perturbation, exceptions, integration and original examination practice covered. Clinical and advanced specialist protocols omitted as outside scope; historical findings distinguished from constructed datasets.",
-    "scientific_reviews": [
-      "Pass 1: source-supported CRP class I mechanism, EIIA Glc and cAMP, inducer exclusion and two-input assumptions; alternative sigma recognition and stress switching; RNA accessibility, riboswitch states, Hfq, DsrA, Fur/RyhB; reviewed classical Zubay, Shine–Dalgarno and Massé–Gottesman evidence. Mathematically recomputed occupancy, rates, growth, sigma allocation, Boltzmann probabilities, RNA turnover and question values.",
-      "Pass 2: added promoter architecture and diauxic illustrations; corrected zoom class; made SD pairing orientation explicit; specified HPr Ser46 in Bacillus; strengthened distractors; added references; checked narrative flow, scope, all 52 answer keys, unique IDs, anchors, diagram labels, zoom target consistency, lack of identical paragraphs and balanced answer positions."
+    "scope_review": "Visually checked merged January 2026 CSIR–UGC–DBT Unit 3 p.4, separate CSIR syllabus Unit 3 p.3 and archived MP SET 2024 p.3; aligned with approved 3.D.08 roadmap. RNAi mechanisms reserved for 3.D.11; detailed splicing and initiation chemistry remain in 3.B/3.C.",
+    "coverage": {
+      "rna_stability": "3–5",
+      "UTRs": "2,5–8,10",
+      "RBPs": "5–6,9",
+      "localization": "9",
+      "splicing_context": "7–8",
+      "translation_efficiency": "10,14",
+      "eIF2": "11–12",
+      "eIF4E": "10,13",
+      "nutrient_stress": "11–13",
+      "uORFs": "12",
+      "experimental_discrimination": "4,14–15",
+      "comparative_and_applications": "15"
+    },
+    "scientific_review": [
+      "Pass 1: reviewed source records for deadenylation, XRN1/exosome direction, AU-rich elements and TTP/HuR, IRP positional effects, EJC-dependent NMD and exceptions, alternative RNA processing, ZBP1 and maternal polyadenylation, eIF2B and four mammalian kinases, ATF4/GCN4, 4E-BP and LARP1, plant limitations, ribosome profiling interpretation. Added comparison, maternal control and applications to address coverage gaps.",
+      "Pass 2: checked learning progression from RNA anatomy to experiment discrimination, examined 50 questions and answers, expanded 16 traps with reasons and test cues, randomized balanced answer positions, added landmark links and corrected diagram-label spacing. Static re-audit verified prose, anchors, SVG labels, local navigation and question answer alignment."
     ],
     "arithmetic_checks": {
-      "count": 29,
-      "passed": 29,
+      "count": 35,
+      "passed": 35,
       "examples": [
-        "CRP rates 6/12/18 transcripts/min",
-        "sigma fraction 0.1 to 0.5",
-        "RNA open fraction 0.1192; 4.1945-fold",
-        "steady state 50 RNA and 2000 protein; inhibited 25 RNA and 250 protein",
-        "half-lives 3.4657/1.7329 min",
-        "practice calculations independently recalculated"
+        "12/0.2=60;12/0.05=240",
+        "ln2/0.2=3.4657;ln2/0.05=13.8629",
+        "step response 150,195",
+        "ferritin 50→200; TfR1 RNA 200→50",
+        "isoform outputs 160 and 60, ratio .375",
+        "3×2=6;3×4=12",
+        "120×1.5/.03=6000;120×.75/.015=6000",
+        "protein step 750",
+        "Q21–28, Q37–40, Q49 calculations checked"
       ]
-    },
-    "academic_self_review": {
-      "syllabus_microtopic_completeness_20": 20,
-      "scientific_mechanistic_accuracy_25": 24,
-      "teaching_depth_progression_20": 19,
-      "experimental_quantitative_reasoning_15": 14,
-      "practice_quality_10": 9,
-      "technical_accessibility_10": 9,
-      "total": 95,
-      "maximum": 100,
-      "method": "Two separate internal author/editor passes. Deductions: available scientific sources checked but not full primary literature for every mechanism (1); some global control examples deliberately brief within syllabus boundary (1); experimental examples mostly constructed, not original raw datasets (1); a subset of Part B distractors remains relatively straightforward (1); no rendered device/browser or full accessibility audit (1). Not independent external peer review."
     },
     "static_checks": {
       "word_gate": true,
+      "unique_paragraphs": true,
       "unique_ids": true,
-      "anchors": true,
-      "svg_labels": true,
+      "valid_anchors": true,
+      "diagram_count": true,
       "zoom_targets": true,
+      "svg_accessibility": true,
       "question_keys": true,
-      "no_duplicate_paragraphs": true,
-      "arithmetic": true,
       "canonical": true,
-      "published_indexable": true,
+      "published_indexing": true,
+      "reader_controls": true,
       "menu_unique": true,
       "sitemap_unique": true,
-      "reader_controls_present": true,
-      "previous_navigation": true,
-      "next_unpublished_disabled": true,
-      "reciprocal_navigation": "3.D.03 already dynamically links to 3.D.04 from current index; no stale neighbor rewrite needed."
+      "adjacent_navigation": true
+    },
+    "academic_self_review": {
+      "scope_20": 20,
+      "accuracy_25": 24,
+      "depth_20": 19,
+      "evidence_quantitative_15": 14,
+      "practice_10": 9,
+      "technical_10": 9,
+      "total": 95,
+      "maximum": 100,
+      "method": "Two separate internal editorial passes; not external peer review. Deductions: selected source access via abstracts/reviews; some examples and diagrams intentionally simplified; some Part B distractors straightforward; no full interactive browser/mobile accessibility test."
     },
     "limitations": [
-      "Internal review, not external peer review.",
-      "MP SET comparator is archived 2024 copy, not independently verified current MPPSC-hosted original.",
-      "Accessible scientific source records/excerpts reviewed, not all full papers.",
-      "Static HTML/SVG checks; rendered browser interactions, device testing and independent accessibility audit not performed.",
-      "Pages and live URL verification separate."
+      "MP SET comparison is an archived 2024 syllabus copy, not a verified current MPPSC-hosted original.",
+      "Reference records and accessible reviews/abstracts were checked; not every complete paper was read.",
+      "Static source and arithmetic validation, not a full interactive browser/device/accessibility audit.",
+      "Immediate unpublished adjacent chapter remains unlinked until published.",
+      "GitHub Pages workflow and live availability need separate verification."
     ],
     "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
-    "main_baseline_sha": "def9d4dcf0d5d3c910d108c56942da312733775c",
-    "source_draft_branch": "draft/node-3d04-positive-control-translational-regulation",
-    "draft_commit_sha": "d7ba4f7c21c437fabbde7564e79cb866c8ccf043",
-    "status": "lesson_committed_pages_verification_pending",
-    "academy_published_count": 136,
-    "unit_03_published_count": 44,
+    "main_baseline_sha": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
+    "source_draft_branch": "draft/node-3d08-post-transcriptional-regulation",
+    "draft_commit_sha": "729d7d3e5509ca9e1a1563f3f50190a8ba00e9dc",
+    "academy_published_count": 137,
+    "unit_03_published_count": 45,
     "unit_03_planned_count": 51,
-    "subunit_3d_published_count": 5,
+    "subunit_3d_published_count": 6,
     "subunit_3d_planned_count": 12,
     "next_pending_node_id": "3.D.02",
     "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
-    "concurrent_reconciliation": "Reconciled latest main def9d4dcf0d5d3c910d108c56942da312733775c; preserved all 135 previous published nodes and 136 sitemap URLs, added only 3.D.04 after two detected concurrent updates."
+    "concurrent_reconciliation": {
+      "initial_head": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
+      "reconciled_head": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
+      "preserved_nodes": [
+        "3.D.01",
+        "3.D.03",
+        "3.D.04",
+        "3.D.06",
+        "3.D.07"
+      ],
+      "previous": "eukaryotic-transcriptional-regulation-enhancers-silencers-and-transcription-factors.html",
+      "next": null
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -254,6 +298,7 @@
     "3.D.04",
     "3.D.06",
     "3.D.07",
+    "3.D.08",
     "4.A.02",
     "4.A.03",
     "4.A.04",
@@ -268,606 +313,212 @@
     "4.A.13"
   ],
   "prior_publication_qa": {
-    "node_id": "4.A.13",
-    "title": "Quorum Sensing: Autoinducers and Population-Dependent Responses",
-    "unit": "04",
-    "subunit": "4.A",
-    "slug": "quorum-sensing-autoinducers-and-population-dependent-responses.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/quorum-sensing-autoinducers-and-population-dependent-responses.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "narrative_words": 14306,
-    "visible_article_words": 20212,
-    "teaching_paragraphs": 144,
-    "theory_sections": 16,
-    "sections": 24,
+    "node_id": "3.D.04",
+    "title": "Positive Control and Translational Regulation in Prokaryotes",
+    "slug": "positive-control-and-translational-regulation-in-prokaryotes.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/positive-control-and-translational-regulation-in-prokaryotes.html",
+    "narrative_words": 14463,
+    "lexical_teaching_words": 14521,
+    "visible_article_words": 20160,
+    "teaching_paragraphs": 127,
+    "html_bytes": 222704,
+    "theory_sections": 12,
+    "sections": 19,
     "figures": 13,
     "tables": 4,
+    "worked_numerical_examples": 9,
     "questions": 52,
-    "references": 28,
-    "html_bytes": 238970,
-    "revision_traps": 15,
-    "active_recall": 10,
-    "mastery_checklist": 6,
-    "distribution": {
-      "Part B": 20,
-      "Part C": 20,
-      "Assertion–Reason": 3,
-      "Multiple statements": 3,
-      "Matching": 2,
-      "Additional numerical": 2,
-      "Experimental interpretation": 1,
-      "Integrative reasoning": 1
-    },
-    "answer_positions": {
-      "A": 13,
-      "B": 13,
-      "C": 13,
-      "D": 13
-    },
-    "count_method": "Unicode lexical count from final saved p.teaching-prose text excluding headings, figures, tables, questions, references, revision and reader UI. Visible article count includes expandable answers and visible SVG text but excludes SVG title/desc and buttons.",
-    "comparator": {
-      "node_id": "4.A.07",
-      "narrative_words": 14453,
-      "teaching_paragraphs": 158,
-      "method": "Fetched published HTML at 8f7bcb45811d275bde044b710733ef0f0c187beb and counted teaching prose using the same lexical regex (entity treatment may differ slightly from its own QA). Also inspected 3.C.14 reader and narrative."
-    },
-    "scientific_checks": [
-      "Verified official merged CSIR-UGC-DBT Unit 4.A printed p.5 and separate CSIR NET Unit 4.B p.3; archived MP SET 2024 Unit 4.B p.3 visually checked.",
-      "Mapped every 4.A.13 roadmap requirement: signal production, release, accumulation and thresholds; LuxI–LuxR and bioluminescence; peptide sensing and agr; AI-2 with receptor diversity; organism-specific outputs; distinction from chemotaxis and non-population two-component inputs.",
-      "Reviewed signal balance with fixed and growing density, effective removal, receptor occupancy vs reporter response, Hill model, feedback equilibria, reporter delay, normalization, diffusion estimate, and limitations.",
-      "Checked LuxI precursor chemistry, AHL connectivity and transport, LuxR promoter/feedback, luciferase and LuxG, AgrD/AgrB/AgrC/AgrA/P2/P3, LuxS/Pfs/DPD and LuxP/LsrB structural findings, LuxPQ sign and distinct V. harveyi LuxR, Lsr uptake and metabolic confounding.",
-      "Landmark paper records and accessible text checked for 1970 luminescence, 1981 AHL chemistry, 1983/1984 genetics, 1996 purified LuxI, 2002/2004 AI-2 structure, and signal quenching/agr dispersal. Hypothetical examples distinguished from actual evidence.",
-      "Second review replaced 15 distractors, strengthened historical biochemical and structural evidence and flavin energetics, added three verified references and reviewed SVG coordinates, graph axes and feedback annotation."
-    ],
-    "experimental_reasoning_cases": [
-      "conditioned medium and matched controls",
-      "purified LuxI evidence",
-      "LuxI signal supplementation",
-      "LuxR feedback loss",
-      "luciferase output defect",
-      "peptide precursor and maturation defects",
-      "AgrC kinase defect",
-      "LuxS metabolic vs signaling rescue",
-      "AI-2 uptake vs extracellular decline",
-      "signal retention and exchange",
-      "biofilm attachment vs dispersal",
-      "quenching vs viability",
-      "mixed producer/receiver populations",
-      "dose-response sensitivity vs affinity",
-      "reporter normalization and persistence"
-    ],
-    "arithmetic_checks": {
-      "total": 30,
-      "passed": 30,
-      "details": [
-        {
-          "name": "signal at 2 h",
-          "actual": 25.284822353142307,
-          "expected": 25.3,
-          "pass": true
-        },
-        {
-          "name": "threshold time",
-          "actual": 2.772588722239781,
-          "expected": 2.77,
-          "pass": true
-        },
-        {
-          "name": "half-time",
-          "actual": 1.3862943611198906,
-          "expected": 1.39,
-          "pass": true
-        },
-        {
-          "name": "theta 2.5",
-          "actual": 0.2,
-          "expected": 0.2,
-          "pass": true
-        },
-        {
-          "name": "theta 10",
-          "actual": 0.5,
-          "expected": 0.5,
-          "pass": true
-        },
-        {
-          "name": "theta 40",
-          "actual": 0.8,
-          "expected": 0.8,
-          "pass": true
-        },
-        {
-          "name": "hill low h1",
-          "actual": 0.3333333333333333,
-          "expected": 0.3333333333333333,
-          "pass": true
-        },
-        {
-          "name": "hill low h3",
-          "actual": 0.1111111111111111,
-          "expected": 0.1111111111111111,
-          "pass": true
-        },
-        {
-          "name": "hill high h1",
-          "actual": 0.6666666666666666,
-          "expected": 0.6666666666666666,
-          "pass": true
-        },
-        {
-          "name": "hill high h3",
-          "actual": 0.8888888888888888,
-          "expected": 0.8888888888888888,
-          "pass": true
-        },
-        {
-          "name": "diffusion 60",
-          "actual": 2,
-          "expected": 2,
-          "pass": true
-        },
-        {
-          "name": "diffusion 120",
-          "actual": 8,
-          "expected": 8,
-          "pass": true
-        },
-        {
-          "name": "steady no exchange",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "name": "steady exchange",
-          "actual": 20,
-          "expected": 20,
-          "pass": true
-        },
-        {
-          "name": "protein one hour",
-          "actual": 90.48374180359595,
-          "expected": 90.5,
-          "pass": true
-        },
-        {
-          "name": "protein ten hours",
-          "actual": 36.787944117144235,
-          "expected": 36.8,
-          "pass": true
-        },
-        {
-          "name": "WT normalization",
-          "actual": 4,
-          "expected": 4,
-          "pass": true
-        },
-        {
-          "name": "mutant normalization",
-          "actual": 6,
-          "expected": 6,
-          "pass": true
-        },
-        {
-          "name": "Q25 ratio",
-          "actual": 0.25,
-          "expected": 0.25,
-          "pass": true
-        },
-        {
-          "name": "Q26 steady",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "name": "Q27 half time",
-          "actual": 1.3862943611198906,
-          "expected": 1.39,
-          "pass": true
-        },
-        {
-          "name": "Q28 occupancy",
-          "actual": 0.75,
-          "expected": 0.75,
-          "pass": true
-        },
-        {
-          "name": "Q29 hill h1",
-          "actual": 0.3333333333333333,
-          "expected": 0.3333333333333333,
-          "pass": true
-        },
-        {
-          "name": "Q29 hill h2",
-          "actual": 0.2,
-          "expected": 0.2,
-          "pass": true
-        },
-        {
-          "name": "Q36 steady",
-          "actual": 20,
-          "expected": 20,
-          "pass": true
-        },
-        {
-          "name": "Q37 protein",
-          "actual": 36.787944117144235,
-          "expected": 36.8,
-          "pass": true
-        },
-        {
-          "name": "Q38 producer fraction",
-          "actual": 0.25,
-          "expected": 0.25,
-          "pass": true
-        },
-        {
-          "name": "Q49 exchange",
-          "actual": 39.99999999999999,
-          "expected": 40,
-          "pass": true
-        },
-        {
-          "name": "Q50 diffusion",
-          "actual": 12,
-          "expected": 12,
-          "pass": true
-        },
-        {
-          "name": "Q51 normalization",
-          "actual": 1.5,
-          "expected": 1.5,
-          "pass": true
-        }
-      ]
-    },
-    "technical_checks": {
-      "word_gate": true,
-      "duplicate_paragraphs": true,
-      "unique_ids": true,
-      "anchors": true,
-      "svg_accessible_labels": true,
-      "zoom_targets": true,
-      "question_keys": true,
-      "balanced_html": true,
-      "local_published_links": true,
-      "reader_controls": true,
-      "dynamic_neighbors": true,
-      "canonical": true,
-      "no_stale_title": true,
-      "arithmetic": true
-    },
-    "academic_self_review": {
-      "scope_20": 20,
-      "accuracy_25": 24,
-      "depth_20": 20,
-      "evidence_quantitative_15": 14,
-      "practice_10": 9,
-      "technical_10": 8,
-      "total": 95,
-      "maximum": 100,
-      "method": "Internal second-pass review, not external peer review. Scope: roadmap responsibilities and boundaries all developed. Accuracy: named-system qualifications and equations reviewed, but not all primary full texts read. Depth: 144 substantive distinct paragraphs, comparative and mechanism-based progression with no observed essential gap. Evidence/quantitative: 30 arithmetic checks; historical experimental context partly constrained by source access. Practice: 52 explained items with reviewed distractors, but not independently examiner-calibrated. Technical: static saved source and coordinate/label checks pass; interactive mobile/browser and full accessibility testing not performed."
-    },
-    "limitations": [
-      "Available peer-reviewed records, accessible abstracts/text and OpenStax sections reviewed; no claim that every primary paper or named textbook edition was fully read.",
-      "MP SET source is an archived 2024 copy, not a current primary MPPSC-hosted version.",
-      "Static source checks only, not independent interactive browser/mobile or comprehensive accessibility testing.",
-      "New URL follows established title-based slug pattern because no target file was present at initial baseline.",
-      "Neighbor links resolve from current published curriculum menu only; unpublished neighbors remain unavailable.",
-      "Draft robots metadata is noindex; public candidate changes to index,follow only."
-    ],
-    "initial_head_sha": "2115d9ca26fe839c9590b9cd16756516caac2641",
-    "source_draft_branch": "draft/node-4a13-quorum-sensing",
-    "draft_commit_sha": "bcd3d70998968fcc101eaca94863cfefe8178327",
-    "draft_blob_sha": "8b9cddf8974ae0676e4f9bc354d360e4e69de597",
-    "qa_main_head": "c73deb7e7c1d3acf3627ac9582db388ab28f0d69",
-    "main_baseline_sha": "08e615ff091f74d4dd3af91eca288d77836cc123",
-    "chapter_blob_sha": "15def3c812aebc05286c8833d6f95122f8d9788c",
-    "concurrent_reconciliation": {
-      "global_published_before": 127,
-      "global_published_after": 128,
-      "unit_04_published_after": 10,
-      "subunit_4a_published_after": 10,
-      "subunit_4a_planned": 13,
-      "next_pending_unit_04": "4.A.01",
-      "next_pending_global": "1.A.03",
-      "previous_neighbor": "4.A.12",
-      "next_neighbor": "4.B.01",
-      "reciprocal_navigation": "Existing dynamic index-based navigation; 4.A.12 points to 4.A.13; unpublished 4.B.01 remains disabled."
-    }
-  },
-  "previous_last_qa": {
-    "node_id": "3.D.06",
-    "title": "Regulation of Gene Expression in Animal and Plant Viruses",
-    "unit": "03",
-    "subunit": "3.D",
-    "slug": "regulation-of-gene-expression-in-animal-and-plant-viruses.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-gene-expression-in-animal-and-plant-viruses.html",
-    "status": "lesson_committed_pages_verification_pending",
-    "narrative_words": 14509,
-    "visible_article_words": 19958,
-    "teaching_paragraphs": 160,
-    "html_bytes": 225709,
-    "theory_sections": 24,
-    "sections": 30,
-    "figures": 12,
-    "tables": 3,
-    "questions": 54,
     "distribution": {
       "part_b": 20,
       "part_c": 20,
-      "other": 14,
+      "mixed": 12,
       "answer_positions": {
-        "A": 14,
-        "B": 14,
+        "A": 13,
+        "B": 13,
         "C": 13,
         "D": 13
       }
     },
-    "references": 18,
-    "scientific_references": 18,
-    "syllabus_references": [
-      "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf",
-      "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf",
-      "https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf"
-    ],
+    "references": 17,
     "revision_traps": 18,
     "active_recall": 12,
     "mastery_checklist": 6,
-    "worked_numerical_reasoning_cases": 7,
-    "method": "Whitespace count from actual p.teaching-prose elements only, stripping inline markup and decoding &amp;; article count includes supplemental text but excludes SVG and button contents.",
+    "method": "Re-read saved HTML. Whitespace count of teaching-prose paragraphs only, cross-checked with Unicode lexical count. Article count excludes SVG markup/content and zoom buttons but includes supplemental reading, practice, captions, tables and reference titles.",
     "comparator": {
       "node_id": "3.D.01",
-      "recounted_narrative_words": 13957,
-      "comparison": "Same reader shell, connected explanatory paragraphs, distinct concepts and quantitative inference; exact duplicates absent and no pair exceeded 0.65 Jaccard word-set similarity in pre-final draft."
+      "narrative_words": 13957,
+      "notes": "Comparable teaching length; current chapter has explicit carbon-control and translation mechanisms, separate calculations, source-supported case examples, and independent experimental reasoning."
     },
-    "scope_review": "Revised merged CSIR Unit 3.D printed page 4, separate CSIR printed page 3 and archived MP SET 2024 printed page 3 visually checked. Academy 3.D.06 scope mapped to 24 theory sections. No procedural virus engineering or detailed pathogenesis, taxonomy or replication chapter duplication.",
-    "coverage_audit": {
-      "foundations": "problem, polarity, physical",
-      "history": "history, baltimore, splicing",
-      "structure": "physical, nuclear, processing-choices",
-      "mechanisms": "dna, nuclear, splicing, rna, reverse, plant, protein-processing, initiation",
-      "chemistry": "energy, physical",
-      "regulation": "dna, translation, initiation, expression-model",
-      "quantitative": "quantitative, expression-model, assumptions, measurement",
-      "evidence": "history, splicing, evidence, measurement",
-      "biology": "problem, plant, comparison",
-      "comparative_evolution": "baltimore, comparison",
-      "perturbation": "perturbation, practice",
-      "exceptions": "reverse, nuclear, assumptions",
-      "applications": "comparison, historical evidence and conceptual research interpretation",
-      "integration": "integration and examination practice",
-      "exam_reasoning": "54 explained original questions"
-    },
-    "review_pass_1": "Separate internal scientific review checked genome-to-message routes, RNA charge versus polarity, adenovirus early/late and splicing evidence, poxvirus exception, retroviral and DNA-RT distinction, host-dependent translation, TMV subgenomic messages, Potyviridae polyprotein and equations; clarified simple pathway interruption, corrected rate notation, added primary references and avoided real-virus intervention recipes.",
-    "review_pass_2": "Separate internal teaching review reordered 24 theory sections into conceptual progression; replaced ten preliminary repetitive box figures with twelve distinct schematics/graphs; clarified figure 4 arbitrary relative scale; added why-and-exam framing to all 18 traps, four integrated/figure questions, explicit worked examples, six mastery criteria and source links. Verified 54 keys and 29 arithmetic checks.",
-    "arithmetic_checks": [
-      {
-        "label": "A steady RNA",
-        "actual": 100,
-        "expected": 100,
-        "pass": true
-      },
-      {
-        "label": "B steady RNA",
-        "actual": 100,
-        "expected": 100,
-        "pass": true
-      },
-      {
-        "label": "A half-life",
-        "actual": 2.3104906018664844,
-        "expected": 2.3104906019,
-        "pass": true
-      },
-      {
-        "label": "B half-life",
-        "actual": 4.620981203732969,
-        "expected": 4.6209812037,
-        "pass": true
-      },
-      {
-        "label": "template group 1",
-        "actual": 3,
-        "expected": 3,
-        "pass": true
-      },
-      {
-        "label": "template group 2",
-        "actual": 3,
-        "expected": 3,
-        "pass": true
-      },
-      {
-        "label": "splice outcome X",
-        "actual": 0.75,
-        "expected": 0.75,
-        "pass": true
-      },
-      {
-        "label": "splice outcome Y",
-        "actual": 0.25,
-        "expected": 0.25,
-        "pass": true
-      },
-      {
-        "label": "polyprotein yield each",
-        "actual": 100,
-        "expected": 100,
-        "pass": true
-      },
-      {
-        "label": "ten by four",
-        "actual": 40,
-        "expected": 40,
-        "pass": true
-      },
-      {
-        "label": "twenty by two",
-        "actual": 40,
-        "expected": 40,
-        "pass": true
-      },
-      {
-        "label": "relative reference first",
-        "actual": 2,
-        "expected": 2,
-        "pass": true
-      },
-      {
-        "label": "relative reference second",
-        "actual": 2,
-        "expected": 2,
-        "pass": true
-      },
-      {
-        "label": "Q21",
-        "actual": 120,
-        "expected": 120,
-        "pass": true
-      },
-      {
-        "label": "Q22 ratios",
-        "actual": 2,
-        "expected": 2,
-        "pass": true
-      },
-      {
-        "label": "Q23",
-        "actual": 40,
-        "expected": 40,
-        "pass": true
-      },
-      {
-        "label": "Q24",
-        "actual": 5,
-        "expected": 5,
-        "pass": true
-      },
-      {
-        "label": "Q25",
-        "actual": 0.75,
-        "expected": 0.75,
-        "pass": true
-      },
-      {
-        "label": "Q26 A",
-        "actual": 60,
-        "expected": 60,
-        "pass": true
-      },
-      {
-        "label": "Q26 B",
-        "actual": 60,
-        "expected": 60,
-        "pass": true
-      },
-      {
-        "label": "Q27 codons",
-        "actual": 4,
-        "expected": 4,
-        "pass": true
-      },
-      {
-        "label": "Q28 each",
-        "actual": 75,
-        "expected": 75,
-        "pass": true
-      },
-      {
-        "label": "Q28 total",
-        "actual": 225,
-        "expected": 225,
-        "pass": true
-      },
-      {
-        "label": "Q31 first",
-        "actual": 60,
-        "expected": 60,
-        "pass": true
-      },
-      {
-        "label": "Q31 second",
-        "actual": 60,
-        "expected": 60,
-        "pass": true
-      },
-      {
-        "label": "Q33",
-        "actual": 120,
-        "expected": 120,
-        "pass": true
-      },
-      {
-        "label": "Q35",
-        "actual": 2,
-        "expected": 2,
-        "pass": true
-      },
-      {
-        "label": "Q38",
-        "actual": 100,
-        "expected": 100,
-        "pass": true
-      },
-      {
-        "label": "Q53",
-        "actual": 20,
-        "expected": 20,
-        "pass": true
-      }
+    "scope_review": "Visually checked revised merged CSIR–UGC–DBT Unit 3.D p.4, separate CSIR NET p.3, archived MP SET 2024 p.3. Roadmap topics: CRP and positive control (sections 1–5), glucose/lactose and PTS/inducer exclusion (3–4), alternative sigma factors (6), SD and secondary structure (7), riboswitches (8), sRNAs/Hfq/DsrA/RyhB (9), experiments and quantitative reasoning (10–11), comparative and applications (12). Core mechanism, structure, regulatory context, energy/kinetics, evidence, perturbation, exceptions, integration and original examination practice covered. Clinical and advanced specialist protocols omitted as outside scope; historical findings distinguished from constructed datasets.",
+    "scientific_reviews": [
+      "Pass 1: source-supported CRP class I mechanism, EIIA Glc and cAMP, inducer exclusion and two-input assumptions; alternative sigma recognition and stress switching; RNA accessibility, riboswitch states, Hfq, DsrA, Fur/RyhB; reviewed classical Zubay, Shine–Dalgarno and Massé–Gottesman evidence. Mathematically recomputed occupancy, rates, growth, sigma allocation, Boltzmann probabilities, RNA turnover and question values.",
+      "Pass 2: added promoter architecture and diauxic illustrations; corrected zoom class; made SD pairing orientation explicit; specified HPr Ser46 in Bacillus; strengthened distractors; added references; checked narrative flow, scope, all 52 answer keys, unique IDs, anchors, diagram labels, zoom target consistency, lack of identical paragraphs and balanced answer positions."
     ],
-    "technical_checks": {
-      "wordGate": true,
-      "uniqueParagraphs": true,
-      "uniqueIds": true,
-      "anchors": true,
-      "zoomTargets": true,
-      "svgAccessibility": true,
-      "questionKeys": true,
-      "questionDistribution": true,
-      "arithmetic": true,
-      "canonical": true,
-      "readerControls": true,
-      "localLinks": true,
-      "adjacentNavigation": true,
-      "indexable": true,
-      "menuUnique": true,
-      "sitemapUnique": true,
-      "traps": true
+    "arithmetic_checks": {
+      "count": 29,
+      "passed": 29,
+      "examples": [
+        "CRP rates 6/12/18 transcripts/min",
+        "sigma fraction 0.1 to 0.5",
+        "RNA open fraction 0.1192; 4.1945-fold",
+        "steady state 50 RNA and 2000 protein; inhibited 25 RNA and 250 protein",
+        "half-lives 3.4657/1.7329 min",
+        "practice calculations independently recalculated"
+      ]
     },
     "academic_self_review": {
-      "scope_20": 20,
-      "accuracy_25": 24,
-      "depth_20": 19,
-      "experimental_quantitative_15": 14,
-      "practice_10": 9,
-      "technical_10": 9,
+      "syllabus_microtopic_completeness_20": 20,
+      "scientific_mechanistic_accuracy_25": 24,
+      "teaching_depth_progression_20": 19,
+      "experimental_quantitative_reasoning_15": 14,
+      "practice_quality_10": 9,
+      "technical_accessibility_10": 9,
       "total": 95,
-      "max": 100,
-      "method": "Internal rubric judgment based on saved-file review; deductions for representative rather than exhaustive source reading, some recurring rate-versus-stock framing, hypothetical rather than primary quantitative datasets, assessment distractors not externally calibrated, and static rather than device-level reader testing. This is not independent expert peer review."
+      "maximum": 100,
+      "method": "Two separate internal author/editor passes. Deductions: available scientific sources checked but not full primary literature for every mechanism (1); some global control examples deliberately brief within syllabus boundary (1); experimental examples mostly constructed, not original raw datasets (1); a subset of Part B distractors remains relatively straightforward (1); no rendered device/browser or full accessibility audit (1). Not independent external peer review."
+    },
+    "static_checks": {
+      "word_gate": true,
+      "unique_ids": true,
+      "anchors": true,
+      "svg_labels": true,
+      "zoom_targets": true,
+      "question_keys": true,
+      "no_duplicate_paragraphs": true,
+      "arithmetic": true,
+      "canonical": true,
+      "published_indexable": true,
+      "menu_unique": true,
+      "sitemap_unique": true,
+      "reader_controls_present": true,
+      "previous_navigation": true,
+      "next_unpublished_disabled": true,
+      "reciprocal_navigation": "3.D.03 already dynamically links to 3.D.04 from current index; no stale neighbor rewrite needed."
     },
     "limitations": [
-      "MP SET comparator archived, not verified against an official current MPPSC-hosted edition.",
-      "Selected scientific abstracts, institutional sources and accessible reviews checked; not all full papers read.",
-      "Static HTML/SVG source checks, not complete interactive browser/mobile or independent accessibility testing.",
-      "At the publication baseline, 3.D.05 was unpublished and 3.D.07 was concurrently published. Verified 3.D.06 next and 3.D.07 previous source navigation resolve reciprocal links from the current published menu; 3.D.05 stays unlinked until published. Browser interaction was not exercised.",
-      "New title-derived slug chosen because no pre-existing target path was found.",
-      "Live availability must be verified separately."
+      "Internal review, not external peer review.",
+      "MP SET comparator is archived 2024 copy, not independently verified current MPPSC-hosted original.",
+      "Accessible scientific source records/excerpts reviewed, not all full papers.",
+      "Static HTML/SVG checks; rendered browser interactions, device testing and independent accessibility audit not performed.",
+      "Pages and live URL verification separate."
     ],
     "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
-    "main_baseline_sha": "d4da51ddc37640aaca962b18dc2e39905063b30e",
-    "source_draft_branch": "draft/node-3d06-viral-gene-expression",
-    "draft_commit_sha": "d48c8818b472568bac9de5991cb5ebb8eb280b65",
-    "draft_blob_sha": "91c8322c3b19fa3d7e6654518b43123022bcc318",
-    "academy_published_count": 135,
-    "unit_03_published_count": 43,
+    "main_baseline_sha": "def9d4dcf0d5d3c910d108c56942da312733775c",
+    "source_draft_branch": "draft/node-3d04-positive-control-translational-regulation",
+    "draft_commit_sha": "d7ba4f7c21c437fabbde7564e79cb866c8ccf043",
+    "status": "lesson_committed_pages_verification_pending",
+    "academy_published_count": 136,
+    "unit_03_published_count": 44,
     "unit_03_planned_count": 51,
-    "subunit_3d_published_count": 4,
+    "subunit_3d_published_count": 5,
     "subunit_3d_planned_count": 12,
     "next_pending_node_id": "3.D.02",
-    "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System"
+    "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
+    "concurrent_reconciliation": "Reconciled latest main def9d4dcf0d5d3c910d108c56942da312733775c; preserved all 135 previous published nodes and 136 sitemap URLs, added only 3.D.04 after two detected concurrent updates."
+  },
+  "previous_last_qa": {
+    "node_id": "3.D.04",
+    "title": "Positive Control and Translational Regulation in Prokaryotes",
+    "slug": "positive-control-and-translational-regulation-in-prokaryotes.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/positive-control-and-translational-regulation-in-prokaryotes.html",
+    "narrative_words": 14463,
+    "lexical_teaching_words": 14521,
+    "visible_article_words": 20160,
+    "teaching_paragraphs": 127,
+    "html_bytes": 222704,
+    "theory_sections": 12,
+    "sections": 19,
+    "figures": 13,
+    "tables": 4,
+    "worked_numerical_examples": 9,
+    "questions": 52,
+    "distribution": {
+      "part_b": 20,
+      "part_c": 20,
+      "mixed": 12,
+      "answer_positions": {
+        "A": 13,
+        "B": 13,
+        "C": 13,
+        "D": 13
+      }
+    },
+    "references": 17,
+    "revision_traps": 18,
+    "active_recall": 12,
+    "mastery_checklist": 6,
+    "method": "Re-read saved HTML. Whitespace count of teaching-prose paragraphs only, cross-checked with Unicode lexical count. Article count excludes SVG markup/content and zoom buttons but includes supplemental reading, practice, captions, tables and reference titles.",
+    "comparator": {
+      "node_id": "3.D.01",
+      "narrative_words": 13957,
+      "notes": "Comparable teaching length; current chapter has explicit carbon-control and translation mechanisms, separate calculations, source-supported case examples, and independent experimental reasoning."
+    },
+    "scope_review": "Visually checked revised merged CSIR–UGC–DBT Unit 3.D p.4, separate CSIR NET p.3, archived MP SET 2024 p.3. Roadmap topics: CRP and positive control (sections 1–5), glucose/lactose and PTS/inducer exclusion (3–4), alternative sigma factors (6), SD and secondary structure (7), riboswitches (8), sRNAs/Hfq/DsrA/RyhB (9), experiments and quantitative reasoning (10–11), comparative and applications (12). Core mechanism, structure, regulatory context, energy/kinetics, evidence, perturbation, exceptions, integration and original examination practice covered. Clinical and advanced specialist protocols omitted as outside scope; historical findings distinguished from constructed datasets.",
+    "scientific_reviews": [
+      "Pass 1: source-supported CRP class I mechanism, EIIA Glc and cAMP, inducer exclusion and two-input assumptions; alternative sigma recognition and stress switching; RNA accessibility, riboswitch states, Hfq, DsrA, Fur/RyhB; reviewed classical Zubay, Shine–Dalgarno and Massé–Gottesman evidence. Mathematically recomputed occupancy, rates, growth, sigma allocation, Boltzmann probabilities, RNA turnover and question values.",
+      "Pass 2: added promoter architecture and diauxic illustrations; corrected zoom class; made SD pairing orientation explicit; specified HPr Ser46 in Bacillus; strengthened distractors; added references; checked narrative flow, scope, all 52 answer keys, unique IDs, anchors, diagram labels, zoom target consistency, lack of identical paragraphs and balanced answer positions."
+    ],
+    "arithmetic_checks": {
+      "count": 29,
+      "passed": 29,
+      "examples": [
+        "CRP rates 6/12/18 transcripts/min",
+        "sigma fraction 0.1 to 0.5",
+        "RNA open fraction 0.1192; 4.1945-fold",
+        "steady state 50 RNA and 2000 protein; inhibited 25 RNA and 250 protein",
+        "half-lives 3.4657/1.7329 min",
+        "practice calculations independently recalculated"
+      ]
+    },
+    "academic_self_review": {
+      "syllabus_microtopic_completeness_20": 20,
+      "scientific_mechanistic_accuracy_25": 24,
+      "teaching_depth_progression_20": 19,
+      "experimental_quantitative_reasoning_15": 14,
+      "practice_quality_10": 9,
+      "technical_accessibility_10": 9,
+      "total": 95,
+      "maximum": 100,
+      "method": "Two separate internal author/editor passes. Deductions: available scientific sources checked but not full primary literature for every mechanism (1); some global control examples deliberately brief within syllabus boundary (1); experimental examples mostly constructed, not original raw datasets (1); a subset of Part B distractors remains relatively straightforward (1); no rendered device/browser or full accessibility audit (1). Not independent external peer review."
+    },
+    "static_checks": {
+      "word_gate": true,
+      "unique_ids": true,
+      "anchors": true,
+      "svg_labels": true,
+      "zoom_targets": true,
+      "question_keys": true,
+      "no_duplicate_paragraphs": true,
+      "arithmetic": true,
+      "canonical": true,
+      "published_indexable": true,
+      "menu_unique": true,
+      "sitemap_unique": true,
+      "reader_controls_present": true,
+      "previous_navigation": true,
+      "next_unpublished_disabled": true,
+      "reciprocal_navigation": "3.D.03 already dynamically links to 3.D.04 from current index; no stale neighbor rewrite needed."
+    },
+    "limitations": [
+      "Internal review, not external peer review.",
+      "MP SET comparator is archived 2024 copy, not independently verified current MPPSC-hosted original.",
+      "Accessible scientific source records/excerpts reviewed, not all full papers.",
+      "Static HTML/SVG checks; rendered browser interactions, device testing and independent accessibility audit not performed.",
+      "Pages and live URL verification separate."
+    ],
+    "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
+    "main_baseline_sha": "def9d4dcf0d5d3c910d108c56942da312733775c",
+    "source_draft_branch": "draft/node-3d04-positive-control-translational-regulation",
+    "draft_commit_sha": "d7ba4f7c21c437fabbde7564e79cb866c8ccf043",
+    "status": "lesson_committed_pages_verification_pending",
+    "academy_published_count": 136,
+    "unit_03_published_count": 44,
+    "unit_03_planned_count": 51,
+    "subunit_3d_published_count": 5,
+    "subunit_3d_planned_count": 12,
+    "next_pending_node_id": "3.D.02",
+    "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
+    "concurrent_reconciliation": "Reconciled latest main def9d4dcf0d5d3c910d108c56942da312733775c; preserved all 135 previous published nodes and 136 sitemap URLs, added only 3.D.04 after two detected concurrent updates."
   },
   "unit_02": {
     "published_node_ids": [
@@ -2501,115 +2152,160 @@
       "3.D.03",
       "3.D.04",
       "3.D.06",
-      "3.D.07"
+      "3.D.07",
+      "3.D.08"
     ],
-    "published_node_count": 44,
-    "last_published_node_id": "3.D.04",
+    "published_node_count": 45,
+    "last_published_node_id": "3.D.08",
     "updated_at": "2026-11-26",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "3.D.04",
-      "title": "Positive Control and Translational Regulation in Prokaryotes",
-      "slug": "positive-control-and-translational-regulation-in-prokaryotes.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/positive-control-and-translational-regulation-in-prokaryotes.html",
-      "narrative_words": 14463,
-      "lexical_teaching_words": 14521,
-      "visible_article_words": 20160,
-      "teaching_paragraphs": 127,
-      "html_bytes": 222704,
-      "theory_sections": 12,
-      "sections": 19,
-      "figures": 13,
-      "tables": 4,
-      "worked_numerical_examples": 9,
-      "questions": 52,
+      "node_id": "3.D.08",
+      "title": "Post-transcriptional and Translational Regulation in Eukaryotes",
+      "slug": "post-transcriptional-and-translational-regulation-in-eukaryotes.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/post-transcriptional-and-translational-regulation-in-eukaryotes.html",
+      "unit": "03",
+      "subunit": "3.D",
+      "status": "lesson_committed_pages_verification_pending",
+      "narrative_words": 14267,
+      "visible_article_words": 19281,
+      "teaching_paragraphs": 135,
+      "html_bytes": 231699,
+      "html_characters": 231231,
+      "theory_sections": 15,
+      "sections": 21,
+      "figures": 14,
+      "tables": 3,
+      "worked_numerical_examples": 10,
+      "worked_example_locations": [
+        "RNA stability and half-life",
+        "RNA step response",
+        "ferritin and TfR1 comparison",
+        "productive isoform mixture",
+        "localized RNA production",
+        "ribosome occupancy",
+        "cap recruitment proportional model",
+        "two protein steady states",
+        "protein step response",
+        "combined RNA and translation regulation"
+      ],
+      "questions": 50,
       "distribution": {
         "part_b": 20,
         "part_c": 20,
-        "mixed": 12,
+        "assertion_reason": 4,
+        "multiple_statement": 2,
+        "matching": 2,
+        "diagram_or_graph": 2,
         "answer_positions": {
-          "A": 13,
+          "A": 12,
           "B": 13,
-          "C": 13,
+          "C": 12,
           "D": 13
         }
       },
-      "references": 17,
-      "revision_traps": 18,
+      "references": 22,
+      "revision_traps": 16,
       "active_recall": 12,
       "mastery_checklist": 6,
-      "method": "Re-read saved HTML. Whitespace count of teaching-prose paragraphs only, cross-checked with Unicode lexical count. Article count excludes SVG markup/content and zoom buttons but includes supplemental reading, practice, captions, tables and reference titles.",
+      "method": "Actual saved HTML p.teaching-prose whitespace-delimited visible words; excludes tables, headings, captions, figures, question answers, references, revision and UI. Article count excludes SVG and buttons.",
       "comparator": {
-        "node_id": "3.D.01",
-        "narrative_words": 13957,
-        "notes": "Comparable teaching length; current chapter has explicit carbon-control and translation mechanisms, separate calculations, source-supported case examples, and independent experimental reasoning."
+        "path": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+        "narrative_words": 14266,
+        "method": "Recounted marked paragraphs from main; this node extends integrated RNA fate and output instead of reproducing initiation mechanics."
       },
-      "scope_review": "Visually checked revised merged CSIR–UGC–DBT Unit 3.D p.4, separate CSIR NET p.3, archived MP SET 2024 p.3. Roadmap topics: CRP and positive control (sections 1–5), glucose/lactose and PTS/inducer exclusion (3–4), alternative sigma factors (6), SD and secondary structure (7), riboswitches (8), sRNAs/Hfq/DsrA/RyhB (9), experiments and quantitative reasoning (10–11), comparative and applications (12). Core mechanism, structure, regulatory context, energy/kinetics, evidence, perturbation, exceptions, integration and original examination practice covered. Clinical and advanced specialist protocols omitted as outside scope; historical findings distinguished from constructed datasets.",
-      "scientific_reviews": [
-        "Pass 1: source-supported CRP class I mechanism, EIIA Glc and cAMP, inducer exclusion and two-input assumptions; alternative sigma recognition and stress switching; RNA accessibility, riboswitch states, Hfq, DsrA, Fur/RyhB; reviewed classical Zubay, Shine–Dalgarno and Massé–Gottesman evidence. Mathematically recomputed occupancy, rates, growth, sigma allocation, Boltzmann probabilities, RNA turnover and question values.",
-        "Pass 2: added promoter architecture and diauxic illustrations; corrected zoom class; made SD pairing orientation explicit; specified HPr Ser46 in Bacillus; strengthened distractors; added references; checked narrative flow, scope, all 52 answer keys, unique IDs, anchors, diagram labels, zoom target consistency, lack of identical paragraphs and balanced answer positions."
+      "scope_review": "Visually checked merged January 2026 CSIR–UGC–DBT Unit 3 p.4, separate CSIR syllabus Unit 3 p.3 and archived MP SET 2024 p.3; aligned with approved 3.D.08 roadmap. RNAi mechanisms reserved for 3.D.11; detailed splicing and initiation chemistry remain in 3.B/3.C.",
+      "coverage": {
+        "rna_stability": "3–5",
+        "UTRs": "2,5–8,10",
+        "RBPs": "5–6,9",
+        "localization": "9",
+        "splicing_context": "7–8",
+        "translation_efficiency": "10,14",
+        "eIF2": "11–12",
+        "eIF4E": "10,13",
+        "nutrient_stress": "11–13",
+        "uORFs": "12",
+        "experimental_discrimination": "4,14–15",
+        "comparative_and_applications": "15"
+      },
+      "scientific_review": [
+        "Pass 1: reviewed source records for deadenylation, XRN1/exosome direction, AU-rich elements and TTP/HuR, IRP positional effects, EJC-dependent NMD and exceptions, alternative RNA processing, ZBP1 and maternal polyadenylation, eIF2B and four mammalian kinases, ATF4/GCN4, 4E-BP and LARP1, plant limitations, ribosome profiling interpretation. Added comparison, maternal control and applications to address coverage gaps.",
+        "Pass 2: checked learning progression from RNA anatomy to experiment discrimination, examined 50 questions and answers, expanded 16 traps with reasons and test cues, randomized balanced answer positions, added landmark links and corrected diagram-label spacing. Static re-audit verified prose, anchors, SVG labels, local navigation and question answer alignment."
       ],
       "arithmetic_checks": {
-        "count": 29,
-        "passed": 29,
+        "count": 35,
+        "passed": 35,
         "examples": [
-          "CRP rates 6/12/18 transcripts/min",
-          "sigma fraction 0.1 to 0.5",
-          "RNA open fraction 0.1192; 4.1945-fold",
-          "steady state 50 RNA and 2000 protein; inhibited 25 RNA and 250 protein",
-          "half-lives 3.4657/1.7329 min",
-          "practice calculations independently recalculated"
+          "12/0.2=60;12/0.05=240",
+          "ln2/0.2=3.4657;ln2/0.05=13.8629",
+          "step response 150,195",
+          "ferritin 50→200; TfR1 RNA 200→50",
+          "isoform outputs 160 and 60, ratio .375",
+          "3×2=6;3×4=12",
+          "120×1.5/.03=6000;120×.75/.015=6000",
+          "protein step 750",
+          "Q21–28, Q37–40, Q49 calculations checked"
         ]
-      },
-      "academic_self_review": {
-        "syllabus_microtopic_completeness_20": 20,
-        "scientific_mechanistic_accuracy_25": 24,
-        "teaching_depth_progression_20": 19,
-        "experimental_quantitative_reasoning_15": 14,
-        "practice_quality_10": 9,
-        "technical_accessibility_10": 9,
-        "total": 95,
-        "maximum": 100,
-        "method": "Two separate internal author/editor passes. Deductions: available scientific sources checked but not full primary literature for every mechanism (1); some global control examples deliberately brief within syllabus boundary (1); experimental examples mostly constructed, not original raw datasets (1); a subset of Part B distractors remains relatively straightforward (1); no rendered device/browser or full accessibility audit (1). Not independent external peer review."
       },
       "static_checks": {
         "word_gate": true,
+        "unique_paragraphs": true,
         "unique_ids": true,
-        "anchors": true,
-        "svg_labels": true,
+        "valid_anchors": true,
+        "diagram_count": true,
         "zoom_targets": true,
+        "svg_accessibility": true,
         "question_keys": true,
-        "no_duplicate_paragraphs": true,
-        "arithmetic": true,
         "canonical": true,
-        "published_indexable": true,
+        "published_indexing": true,
+        "reader_controls": true,
         "menu_unique": true,
         "sitemap_unique": true,
-        "reader_controls_present": true,
-        "previous_navigation": true,
-        "next_unpublished_disabled": true,
-        "reciprocal_navigation": "3.D.03 already dynamically links to 3.D.04 from current index; no stale neighbor rewrite needed."
+        "adjacent_navigation": true
+      },
+      "academic_self_review": {
+        "scope_20": 20,
+        "accuracy_25": 24,
+        "depth_20": 19,
+        "evidence_quantitative_15": 14,
+        "practice_10": 9,
+        "technical_10": 9,
+        "total": 95,
+        "maximum": 100,
+        "method": "Two separate internal editorial passes; not external peer review. Deductions: selected source access via abstracts/reviews; some examples and diagrams intentionally simplified; some Part B distractors straightforward; no full interactive browser/mobile accessibility test."
       },
       "limitations": [
-        "Internal review, not external peer review.",
-        "MP SET comparator is archived 2024 copy, not independently verified current MPPSC-hosted original.",
-        "Accessible scientific source records/excerpts reviewed, not all full papers.",
-        "Static HTML/SVG checks; rendered browser interactions, device testing and independent accessibility audit not performed.",
-        "Pages and live URL verification separate."
+        "MP SET comparison is an archived 2024 syllabus copy, not a verified current MPPSC-hosted original.",
+        "Reference records and accessible reviews/abstracts were checked; not every complete paper was read.",
+        "Static source and arithmetic validation, not a full interactive browser/device/accessibility audit.",
+        "Immediate unpublished adjacent chapter remains unlinked until published.",
+        "GitHub Pages workflow and live availability need separate verification."
       ],
       "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
-      "main_baseline_sha": "def9d4dcf0d5d3c910d108c56942da312733775c",
-      "source_draft_branch": "draft/node-3d04-positive-control-translational-regulation",
-      "draft_commit_sha": "d7ba4f7c21c437fabbde7564e79cb866c8ccf043",
-      "status": "lesson_committed_pages_verification_pending",
-      "academy_published_count": 136,
-      "unit_03_published_count": 44,
+      "main_baseline_sha": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
+      "source_draft_branch": "draft/node-3d08-post-transcriptional-regulation",
+      "draft_commit_sha": "729d7d3e5509ca9e1a1563f3f50190a8ba00e9dc",
+      "academy_published_count": 137,
+      "unit_03_published_count": 45,
       "unit_03_planned_count": 51,
-      "subunit_3d_published_count": 5,
+      "subunit_3d_published_count": 6,
       "subunit_3d_planned_count": 12,
       "next_pending_node_id": "3.D.02",
       "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
-      "concurrent_reconciliation": "Reconciled latest main def9d4dcf0d5d3c910d108c56942da312733775c; preserved all 135 previous published nodes and 136 sitemap URLs, added only 3.D.04 after two detected concurrent updates."
+      "concurrent_reconciliation": {
+        "initial_head": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
+        "reconciled_head": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
+        "preserved_nodes": [
+          "3.D.01",
+          "3.D.03",
+          "3.D.04",
+          "3.D.06",
+          "3.D.07"
+        ],
+        "previous": "eukaryotic-transcriptional-regulation-enhancers-silencers-and-transcription-factors.html",
+        "next": null
+      }
     },
     "qa_by_node": {
       "3.A.01": {
@@ -7722,301 +7418,261 @@
         "next_pending_node_id": "3.D.02",
         "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
         "concurrent_reconciliation": "Reconciled latest main def9d4dcf0d5d3c910d108c56942da312733775c; preserved all 135 previous published nodes and 136 sitemap URLs, added only 3.D.04 after two detected concurrent updates."
+      },
+      "3.D.08": {
+        "node_id": "3.D.08",
+        "title": "Post-transcriptional and Translational Regulation in Eukaryotes",
+        "slug": "post-transcriptional-and-translational-regulation-in-eukaryotes.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/post-transcriptional-and-translational-regulation-in-eukaryotes.html",
+        "unit": "03",
+        "subunit": "3.D",
+        "status": "lesson_committed_pages_verification_pending",
+        "narrative_words": 14267,
+        "visible_article_words": 19281,
+        "teaching_paragraphs": 135,
+        "html_bytes": 231699,
+        "html_characters": 231231,
+        "theory_sections": 15,
+        "sections": 21,
+        "figures": 14,
+        "tables": 3,
+        "worked_numerical_examples": 10,
+        "worked_example_locations": [
+          "RNA stability and half-life",
+          "RNA step response",
+          "ferritin and TfR1 comparison",
+          "productive isoform mixture",
+          "localized RNA production",
+          "ribosome occupancy",
+          "cap recruitment proportional model",
+          "two protein steady states",
+          "protein step response",
+          "combined RNA and translation regulation"
+        ],
+        "questions": 50,
+        "distribution": {
+          "part_b": 20,
+          "part_c": 20,
+          "assertion_reason": 4,
+          "multiple_statement": 2,
+          "matching": 2,
+          "diagram_or_graph": 2,
+          "answer_positions": {
+            "A": 12,
+            "B": 13,
+            "C": 12,
+            "D": 13
+          }
+        },
+        "references": 22,
+        "revision_traps": 16,
+        "active_recall": 12,
+        "mastery_checklist": 6,
+        "method": "Actual saved HTML p.teaching-prose whitespace-delimited visible words; excludes tables, headings, captions, figures, question answers, references, revision and UI. Article count excludes SVG and buttons.",
+        "comparator": {
+          "path": "regulation-of-translation-in-prokaryotic-and-eukaryotic-cells.html",
+          "narrative_words": 14266,
+          "method": "Recounted marked paragraphs from main; this node extends integrated RNA fate and output instead of reproducing initiation mechanics."
+        },
+        "scope_review": "Visually checked merged January 2026 CSIR–UGC–DBT Unit 3 p.4, separate CSIR syllabus Unit 3 p.3 and archived MP SET 2024 p.3; aligned with approved 3.D.08 roadmap. RNAi mechanisms reserved for 3.D.11; detailed splicing and initiation chemistry remain in 3.B/3.C.",
+        "coverage": {
+          "rna_stability": "3–5",
+          "UTRs": "2,5–8,10",
+          "RBPs": "5–6,9",
+          "localization": "9",
+          "splicing_context": "7–8",
+          "translation_efficiency": "10,14",
+          "eIF2": "11–12",
+          "eIF4E": "10,13",
+          "nutrient_stress": "11–13",
+          "uORFs": "12",
+          "experimental_discrimination": "4,14–15",
+          "comparative_and_applications": "15"
+        },
+        "scientific_review": [
+          "Pass 1: reviewed source records for deadenylation, XRN1/exosome direction, AU-rich elements and TTP/HuR, IRP positional effects, EJC-dependent NMD and exceptions, alternative RNA processing, ZBP1 and maternal polyadenylation, eIF2B and four mammalian kinases, ATF4/GCN4, 4E-BP and LARP1, plant limitations, ribosome profiling interpretation. Added comparison, maternal control and applications to address coverage gaps.",
+          "Pass 2: checked learning progression from RNA anatomy to experiment discrimination, examined 50 questions and answers, expanded 16 traps with reasons and test cues, randomized balanced answer positions, added landmark links and corrected diagram-label spacing. Static re-audit verified prose, anchors, SVG labels, local navigation and question answer alignment."
+        ],
+        "arithmetic_checks": {
+          "count": 35,
+          "passed": 35,
+          "examples": [
+            "12/0.2=60;12/0.05=240",
+            "ln2/0.2=3.4657;ln2/0.05=13.8629",
+            "step response 150,195",
+            "ferritin 50→200; TfR1 RNA 200→50",
+            "isoform outputs 160 and 60, ratio .375",
+            "3×2=6;3×4=12",
+            "120×1.5/.03=6000;120×.75/.015=6000",
+            "protein step 750",
+            "Q21–28, Q37–40, Q49 calculations checked"
+          ]
+        },
+        "static_checks": {
+          "word_gate": true,
+          "unique_paragraphs": true,
+          "unique_ids": true,
+          "valid_anchors": true,
+          "diagram_count": true,
+          "zoom_targets": true,
+          "svg_accessibility": true,
+          "question_keys": true,
+          "canonical": true,
+          "published_indexing": true,
+          "reader_controls": true,
+          "menu_unique": true,
+          "sitemap_unique": true,
+          "adjacent_navigation": true
+        },
+        "academic_self_review": {
+          "scope_20": 20,
+          "accuracy_25": 24,
+          "depth_20": 19,
+          "evidence_quantitative_15": 14,
+          "practice_10": 9,
+          "technical_10": 9,
+          "total": 95,
+          "maximum": 100,
+          "method": "Two separate internal editorial passes; not external peer review. Deductions: selected source access via abstracts/reviews; some examples and diagrams intentionally simplified; some Part B distractors straightforward; no full interactive browser/mobile accessibility test."
+        },
+        "limitations": [
+          "MP SET comparison is an archived 2024 syllabus copy, not a verified current MPPSC-hosted original.",
+          "Reference records and accessible reviews/abstracts were checked; not every complete paper was read.",
+          "Static source and arithmetic validation, not a full interactive browser/device/accessibility audit.",
+          "Immediate unpublished adjacent chapter remains unlinked until published.",
+          "GitHub Pages workflow and live availability need separate verification."
+        ],
+        "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
+        "main_baseline_sha": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
+        "source_draft_branch": "draft/node-3d08-post-transcriptional-regulation",
+        "draft_commit_sha": "729d7d3e5509ca9e1a1563f3f50190a8ba00e9dc",
+        "academy_published_count": 137,
+        "unit_03_published_count": 45,
+        "unit_03_planned_count": 51,
+        "subunit_3d_published_count": 6,
+        "subunit_3d_planned_count": 12,
+        "next_pending_node_id": "3.D.02",
+        "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
+        "concurrent_reconciliation": {
+          "initial_head": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
+          "reconciled_head": "7f8bd913f8015d69cc6d966db7b46d49f6c84142",
+          "preserved_nodes": [
+            "3.D.01",
+            "3.D.03",
+            "3.D.04",
+            "3.D.06",
+            "3.D.07"
+          ],
+          "previous": "eukaryotic-transcriptional-regulation-enhancers-silencers-and-transcription-factors.html",
+          "next": null
+        }
       }
     },
     "next_pending_node_id": "3.D.02",
     "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
     "previous_last_qa": {
-      "node_id": "3.D.06",
-      "title": "Regulation of Gene Expression in Animal and Plant Viruses",
-      "unit": "03",
-      "subunit": "3.D",
-      "slug": "regulation-of-gene-expression-in-animal-and-plant-viruses.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/regulation-of-gene-expression-in-animal-and-plant-viruses.html",
-      "status": "lesson_committed_pages_verification_pending",
-      "narrative_words": 14509,
-      "visible_article_words": 19958,
-      "teaching_paragraphs": 160,
-      "html_bytes": 225709,
-      "theory_sections": 24,
-      "sections": 30,
-      "figures": 12,
-      "tables": 3,
-      "questions": 54,
+      "node_id": "3.D.04",
+      "title": "Positive Control and Translational Regulation in Prokaryotes",
+      "slug": "positive-control-and-translational-regulation-in-prokaryotes.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/positive-control-and-translational-regulation-in-prokaryotes.html",
+      "narrative_words": 14463,
+      "lexical_teaching_words": 14521,
+      "visible_article_words": 20160,
+      "teaching_paragraphs": 127,
+      "html_bytes": 222704,
+      "theory_sections": 12,
+      "sections": 19,
+      "figures": 13,
+      "tables": 4,
+      "worked_numerical_examples": 9,
+      "questions": 52,
       "distribution": {
         "part_b": 20,
         "part_c": 20,
-        "other": 14,
+        "mixed": 12,
         "answer_positions": {
-          "A": 14,
-          "B": 14,
+          "A": 13,
+          "B": 13,
           "C": 13,
           "D": 13
         }
       },
-      "references": 18,
-      "scientific_references": 18,
-      "syllabus_references": [
-        "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf",
-        "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf",
-        "https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf"
-      ],
+      "references": 17,
       "revision_traps": 18,
       "active_recall": 12,
       "mastery_checklist": 6,
-      "worked_numerical_reasoning_cases": 7,
-      "method": "Whitespace count from actual p.teaching-prose elements only, stripping inline markup and decoding &amp;; article count includes supplemental text but excludes SVG and button contents.",
+      "method": "Re-read saved HTML. Whitespace count of teaching-prose paragraphs only, cross-checked with Unicode lexical count. Article count excludes SVG markup/content and zoom buttons but includes supplemental reading, practice, captions, tables and reference titles.",
       "comparator": {
         "node_id": "3.D.01",
-        "recounted_narrative_words": 13957,
-        "comparison": "Same reader shell, connected explanatory paragraphs, distinct concepts and quantitative inference; exact duplicates absent and no pair exceeded 0.65 Jaccard word-set similarity in pre-final draft."
+        "narrative_words": 13957,
+        "notes": "Comparable teaching length; current chapter has explicit carbon-control and translation mechanisms, separate calculations, source-supported case examples, and independent experimental reasoning."
       },
-      "scope_review": "Revised merged CSIR Unit 3.D printed page 4, separate CSIR printed page 3 and archived MP SET 2024 printed page 3 visually checked. Academy 3.D.06 scope mapped to 24 theory sections. No procedural virus engineering or detailed pathogenesis, taxonomy or replication chapter duplication.",
-      "coverage_audit": {
-        "foundations": "problem, polarity, physical",
-        "history": "history, baltimore, splicing",
-        "structure": "physical, nuclear, processing-choices",
-        "mechanisms": "dna, nuclear, splicing, rna, reverse, plant, protein-processing, initiation",
-        "chemistry": "energy, physical",
-        "regulation": "dna, translation, initiation, expression-model",
-        "quantitative": "quantitative, expression-model, assumptions, measurement",
-        "evidence": "history, splicing, evidence, measurement",
-        "biology": "problem, plant, comparison",
-        "comparative_evolution": "baltimore, comparison",
-        "perturbation": "perturbation, practice",
-        "exceptions": "reverse, nuclear, assumptions",
-        "applications": "comparison, historical evidence and conceptual research interpretation",
-        "integration": "integration and examination practice",
-        "exam_reasoning": "54 explained original questions"
-      },
-      "review_pass_1": "Separate internal scientific review checked genome-to-message routes, RNA charge versus polarity, adenovirus early/late and splicing evidence, poxvirus exception, retroviral and DNA-RT distinction, host-dependent translation, TMV subgenomic messages, Potyviridae polyprotein and equations; clarified simple pathway interruption, corrected rate notation, added primary references and avoided real-virus intervention recipes.",
-      "review_pass_2": "Separate internal teaching review reordered 24 theory sections into conceptual progression; replaced ten preliminary repetitive box figures with twelve distinct schematics/graphs; clarified figure 4 arbitrary relative scale; added why-and-exam framing to all 18 traps, four integrated/figure questions, explicit worked examples, six mastery criteria and source links. Verified 54 keys and 29 arithmetic checks.",
-      "arithmetic_checks": [
-        {
-          "label": "A steady RNA",
-          "actual": 100,
-          "expected": 100,
-          "pass": true
-        },
-        {
-          "label": "B steady RNA",
-          "actual": 100,
-          "expected": 100,
-          "pass": true
-        },
-        {
-          "label": "A half-life",
-          "actual": 2.3104906018664844,
-          "expected": 2.3104906019,
-          "pass": true
-        },
-        {
-          "label": "B half-life",
-          "actual": 4.620981203732969,
-          "expected": 4.6209812037,
-          "pass": true
-        },
-        {
-          "label": "template group 1",
-          "actual": 3,
-          "expected": 3,
-          "pass": true
-        },
-        {
-          "label": "template group 2",
-          "actual": 3,
-          "expected": 3,
-          "pass": true
-        },
-        {
-          "label": "splice outcome X",
-          "actual": 0.75,
-          "expected": 0.75,
-          "pass": true
-        },
-        {
-          "label": "splice outcome Y",
-          "actual": 0.25,
-          "expected": 0.25,
-          "pass": true
-        },
-        {
-          "label": "polyprotein yield each",
-          "actual": 100,
-          "expected": 100,
-          "pass": true
-        },
-        {
-          "label": "ten by four",
-          "actual": 40,
-          "expected": 40,
-          "pass": true
-        },
-        {
-          "label": "twenty by two",
-          "actual": 40,
-          "expected": 40,
-          "pass": true
-        },
-        {
-          "label": "relative reference first",
-          "actual": 2,
-          "expected": 2,
-          "pass": true
-        },
-        {
-          "label": "relative reference second",
-          "actual": 2,
-          "expected": 2,
-          "pass": true
-        },
-        {
-          "label": "Q21",
-          "actual": 120,
-          "expected": 120,
-          "pass": true
-        },
-        {
-          "label": "Q22 ratios",
-          "actual": 2,
-          "expected": 2,
-          "pass": true
-        },
-        {
-          "label": "Q23",
-          "actual": 40,
-          "expected": 40,
-          "pass": true
-        },
-        {
-          "label": "Q24",
-          "actual": 5,
-          "expected": 5,
-          "pass": true
-        },
-        {
-          "label": "Q25",
-          "actual": 0.75,
-          "expected": 0.75,
-          "pass": true
-        },
-        {
-          "label": "Q26 A",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "label": "Q26 B",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "label": "Q27 codons",
-          "actual": 4,
-          "expected": 4,
-          "pass": true
-        },
-        {
-          "label": "Q28 each",
-          "actual": 75,
-          "expected": 75,
-          "pass": true
-        },
-        {
-          "label": "Q28 total",
-          "actual": 225,
-          "expected": 225,
-          "pass": true
-        },
-        {
-          "label": "Q31 first",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "label": "Q31 second",
-          "actual": 60,
-          "expected": 60,
-          "pass": true
-        },
-        {
-          "label": "Q33",
-          "actual": 120,
-          "expected": 120,
-          "pass": true
-        },
-        {
-          "label": "Q35",
-          "actual": 2,
-          "expected": 2,
-          "pass": true
-        },
-        {
-          "label": "Q38",
-          "actual": 100,
-          "expected": 100,
-          "pass": true
-        },
-        {
-          "label": "Q53",
-          "actual": 20,
-          "expected": 20,
-          "pass": true
-        }
+      "scope_review": "Visually checked revised merged CSIR–UGC–DBT Unit 3.D p.4, separate CSIR NET p.3, archived MP SET 2024 p.3. Roadmap topics: CRP and positive control (sections 1–5), glucose/lactose and PTS/inducer exclusion (3–4), alternative sigma factors (6), SD and secondary structure (7), riboswitches (8), sRNAs/Hfq/DsrA/RyhB (9), experiments and quantitative reasoning (10–11), comparative and applications (12). Core mechanism, structure, regulatory context, energy/kinetics, evidence, perturbation, exceptions, integration and original examination practice covered. Clinical and advanced specialist protocols omitted as outside scope; historical findings distinguished from constructed datasets.",
+      "scientific_reviews": [
+        "Pass 1: source-supported CRP class I mechanism, EIIA Glc and cAMP, inducer exclusion and two-input assumptions; alternative sigma recognition and stress switching; RNA accessibility, riboswitch states, Hfq, DsrA, Fur/RyhB; reviewed classical Zubay, Shine–Dalgarno and Massé–Gottesman evidence. Mathematically recomputed occupancy, rates, growth, sigma allocation, Boltzmann probabilities, RNA turnover and question values.",
+        "Pass 2: added promoter architecture and diauxic illustrations; corrected zoom class; made SD pairing orientation explicit; specified HPr Ser46 in Bacillus; strengthened distractors; added references; checked narrative flow, scope, all 52 answer keys, unique IDs, anchors, diagram labels, zoom target consistency, lack of identical paragraphs and balanced answer positions."
       ],
-      "technical_checks": {
-        "wordGate": true,
-        "uniqueParagraphs": true,
-        "uniqueIds": true,
-        "anchors": true,
-        "zoomTargets": true,
-        "svgAccessibility": true,
-        "questionKeys": true,
-        "questionDistribution": true,
-        "arithmetic": true,
-        "canonical": true,
-        "readerControls": true,
-        "localLinks": true,
-        "adjacentNavigation": true,
-        "indexable": true,
-        "menuUnique": true,
-        "sitemapUnique": true,
-        "traps": true
+      "arithmetic_checks": {
+        "count": 29,
+        "passed": 29,
+        "examples": [
+          "CRP rates 6/12/18 transcripts/min",
+          "sigma fraction 0.1 to 0.5",
+          "RNA open fraction 0.1192; 4.1945-fold",
+          "steady state 50 RNA and 2000 protein; inhibited 25 RNA and 250 protein",
+          "half-lives 3.4657/1.7329 min",
+          "practice calculations independently recalculated"
+        ]
       },
       "academic_self_review": {
-        "scope_20": 20,
-        "accuracy_25": 24,
-        "depth_20": 19,
-        "experimental_quantitative_15": 14,
-        "practice_10": 9,
-        "technical_10": 9,
+        "syllabus_microtopic_completeness_20": 20,
+        "scientific_mechanistic_accuracy_25": 24,
+        "teaching_depth_progression_20": 19,
+        "experimental_quantitative_reasoning_15": 14,
+        "practice_quality_10": 9,
+        "technical_accessibility_10": 9,
         "total": 95,
-        "max": 100,
-        "method": "Internal rubric judgment based on saved-file review; deductions for representative rather than exhaustive source reading, some recurring rate-versus-stock framing, hypothetical rather than primary quantitative datasets, assessment distractors not externally calibrated, and static rather than device-level reader testing. This is not independent expert peer review."
+        "maximum": 100,
+        "method": "Two separate internal author/editor passes. Deductions: available scientific sources checked but not full primary literature for every mechanism (1); some global control examples deliberately brief within syllabus boundary (1); experimental examples mostly constructed, not original raw datasets (1); a subset of Part B distractors remains relatively straightforward (1); no rendered device/browser or full accessibility audit (1). Not independent external peer review."
+      },
+      "static_checks": {
+        "word_gate": true,
+        "unique_ids": true,
+        "anchors": true,
+        "svg_labels": true,
+        "zoom_targets": true,
+        "question_keys": true,
+        "no_duplicate_paragraphs": true,
+        "arithmetic": true,
+        "canonical": true,
+        "published_indexable": true,
+        "menu_unique": true,
+        "sitemap_unique": true,
+        "reader_controls_present": true,
+        "previous_navigation": true,
+        "next_unpublished_disabled": true,
+        "reciprocal_navigation": "3.D.03 already dynamically links to 3.D.04 from current index; no stale neighbor rewrite needed."
       },
       "limitations": [
-        "MP SET comparator archived, not verified against an official current MPPSC-hosted edition.",
-        "Selected scientific abstracts, institutional sources and accessible reviews checked; not all full papers read.",
-        "Static HTML/SVG source checks, not complete interactive browser/mobile or independent accessibility testing.",
-        "At the publication baseline, 3.D.05 was unpublished and 3.D.07 was concurrently published. Verified 3.D.06 next and 3.D.07 previous source navigation resolve reciprocal links from the current published menu; 3.D.05 stays unlinked until published. Browser interaction was not exercised.",
-        "New title-derived slug chosen because no pre-existing target path was found.",
-        "Live availability must be verified separately."
+        "Internal review, not external peer review.",
+        "MP SET comparator is archived 2024 copy, not independently verified current MPPSC-hosted original.",
+        "Accessible scientific source records/excerpts reviewed, not all full papers.",
+        "Static HTML/SVG checks; rendered browser interactions, device testing and independent accessibility audit not performed.",
+        "Pages and live URL verification separate."
       ],
       "initial_head_sha": "7d57f8ed80531d53194ee567ecfc7d0ae5decaf5",
-      "main_baseline_sha": "d4da51ddc37640aaca962b18dc2e39905063b30e",
-      "source_draft_branch": "draft/node-3d06-viral-gene-expression",
-      "draft_commit_sha": "d48c8818b472568bac9de5991cb5ebb8eb280b65",
-      "draft_blob_sha": "91c8322c3b19fa3d7e6654518b43123022bcc318",
-      "academy_published_count": 135,
-      "unit_03_published_count": 43,
+      "main_baseline_sha": "def9d4dcf0d5d3c910d108c56942da312733775c",
+      "source_draft_branch": "draft/node-3d04-positive-control-translational-regulation",
+      "draft_commit_sha": "d7ba4f7c21c437fabbde7564e79cb866c8ccf043",
+      "status": "lesson_committed_pages_verification_pending",
+      "academy_published_count": 136,
+      "unit_03_published_count": 44,
       "unit_03_planned_count": 51,
-      "subunit_3d_published_count": 4,
+      "subunit_3d_published_count": 5,
       "subunit_3d_planned_count": 12,
       "next_pending_node_id": "3.D.02",
-      "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System"
+      "next_pending_node_title": "Regulation of the Lac Operon: An Inducible Gene System",
+      "concurrent_reconciliation": "Reconciled latest main def9d4dcf0d5d3c910d108c56942da312733775c; preserved all 135 previous published nodes and 136 sitemap URLs, added only 3.D.04 after two detected concurrent updates."
     }
   },
   "unit3a_published_node_ids": [
@@ -10156,7 +9812,8 @@
     "3.D.03",
     "3.D.04",
     "3.D.06",
-    "3.D.07"
+    "3.D.07",
+    "3.D.08"
   ],
   "unit3d_planned_node_count": 12
 }

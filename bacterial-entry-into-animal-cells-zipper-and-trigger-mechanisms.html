@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Receptor-mediated uptake, actin-dependent membrane remodeling, phagocytic entry and the immediate intracellular fate of bacteria.">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/bacterial-entry-into-animal-cells-zipper-and-trigger-mechanisms.html">
+  <title>Bacterial Entry into Animal Cells: Zipper and Trigger Mechanisms | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 4</span><span>›</span><span>Sub-unit 4.D</span><span>›</span><strong>Node 4.D.03</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 4.D.03</span><span>Unit 4 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Bacterial Entry into Animal Cells: Zipper and Trigger Mechanisms</h1><p class="subtitle">Receptor-mediated uptake, actin-dependent membrane remodeling, phagocytic entry and the immediate intracellular fate of bacteria.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#problem">1. Why an animal cell can engulf a bacterium</a><a href="#foundations">2. Cell-surface recognition and the logic of membrane enclosure</a><a href="#actin">3. Actin dynamics as a general cellular mechanism</a><a href="#history">4. Scientific evidence and the emergence of two classical models</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Bacterial Entry into Animal Cells: Zipper and Trigger Mechanisms study notes"><div class="article-content" id="article"><section id="problem"><h2>1. Why an animal cell can engulf a bacterium</h2><p class="teaching-prose">A bacterium at the surface of an intestinal epithelium is outside the host cell even when the bacterium is already inside the animal. This distinction is essential. An epithelium is a sheet of cells joined to form a selective boundary between two environments. Many of its normal functions depend on restricting the passage of large particles. Small nutrients may be carried across by membrane transport proteins, and certain extracellular molecules may enter vesicles, but a bacterial cell cannot simply pass through a nutrient transporter. Its physical dimensions exceed those of the channels and carriers that handle individual ions and small molecules. If an intact bacterium enters an epithelial cell, another cellular process must account for the movement of the much larger object. The relevant process is a reorganization of the host membrane around the particle, rather than ordinary transport through the membrane.</p>
+<p class="teaching-prose">A useful starting point is to distinguish three questions about the location of a bacterium. First, is the bacterium associated with the host tissue or free in the surrounding environment? Second, is it attached to the outer surface of a host cell or enclosed by a host membrane? Third, if it is enclosed, does it remain in a membrane-bounded compartment or reach the host cytosol? These questions describe different physical boundaries. Attachment is a change in association, internalization is a change in membrane enclosure, and access to the cytosol is a change in compartment. The three changes need not occur together. A bacterium held tightly against a cell may remain extracellular, and a bacterium surrounded by a complete intracellular membrane may never enter the cytosol. Confusing these states obscures both the biology and the interpretation of experimental observations.</p>
+<p class="teaching-prose">The plasma membrane is a lipid bilayer with a nonpolar interior. Its stability depends on the collective organization of amphipathic lipids in water. Membrane proteins provide selective communication and transport functions, while connections to the underlying cytoskeleton influence the shape and mechanical behavior of the membrane. A bilayer can bend without breaking, as happens during ordinary vesicle formation. Because bending the membrane can enclose a portion of extracellular material, the cell can bring large cargo into its interior without requiring that the cargo cross the hydrophobic interior of the bilayer. The membrane surface that originally faced the external medium becomes the luminal face of the internal compartment. This topological principle will remain true irrespective of which receptor or signaling pathway initiated engulfment.</p>
+<p class="teaching-prose">Internalization therefore does not automatically require a permanent hole in the plasma membrane. An external particle may become partly surrounded by a membrane cup, the rim of the cup may advance, and closure can separate the resulting compartment from the external medium. The immediate product is an intracellular membrane-bounded compartment. Its subsequent behavior is governed by the host trafficking machinery and the biological properties of the cargo. If the cargo is an ordinary nutrient or an inert particle, the compartment may enter a degradative pathway. If the cargo is a microorganism, the outcome can include destruction of the microorganism, continued residence or another change in location. These are alternative outcomes, not necessary components of the definition of entry.</p>
+<p class="teaching-prose">In a professional phagocyte, uptake of relatively large particles is an established cellular function. Macrophages and neutrophils use receptor-dependent responses to capture and remove microorganisms and cellular debris. A nonprofessional phagocyte, such as an epithelial cell, has a different normal repertoire of functions. It may be quite capable of endocytosis and dynamic changes in its surface, yet it is not specialized for routinely engulfing intact microorganisms. The important observation in bacterial cell invasion is that the second type of cell can sometimes display a particle-enclosing response. This is not evidence that the cell has permanently changed into a macrophage. It demonstrates that the same fundamental materials of the eukaryotic cell, particularly membrane and actin, can participate in an unusual response.</p>
+<p class="teaching-prose">The words zipper and trigger describe two classical models of induced bacterial entry. In the zipper model, an interaction between a bacterial surface ligand and a host surface receptor couples recognition to a relatively localized engulfment response. In the trigger model, the initiating influence is delivered into the host cell by the bacterium and alters signaling associated with membrane shape. Although the resulting morphologies often differ, both models depend on host cellular capabilities. Both are best understood as examples of biological communication with an abnormal source or context. They are not different laws of membrane physics. They are different ways of engaging the host's own membrane-remodeling system.</p>
+<p class="teaching-prose">The term invasion sometimes refers broadly to penetration of a tissue, while in a cell-biological description it may refer specifically to internalization. A useful reading habit is to identify the boundary under discussion whenever the term appears. A bacterium between two epithelial cells has passed neither of their plasma membranes simply because it has moved deeper into a tissue. An internalized bacterium, conversely, may never spread beyond the first cell. A chapter focused on bacterial entry must establish the membrane event before discussing the broader consequences of infection. The next chapter will consider how bacteria alter host-cell functions after reaching a tissue or intracellular compartment.</p><figure class="figure-panel"><svg id="topology" viewBox="0 0 520 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="topology-title topology-desc"><title id="topology-title">Three different locations of a bacterial particle</title><desc id="topology-desc">Attachment, enclosure in a vacuole and cytosolic localization are distinct states. The green curves represent host membrane.</desc><text x="90" y="25" text-anchor="middle" fill="currentColor" font-size="14">Surface bound</text><text x="260" y="25" text-anchor="middle" fill="currentColor" font-size="14">Vacuolar</text><text x="430" y="25" text-anchor="middle" fill="currentColor" font-size="14">Cytosolic</text><path d="M15 105 H165 M185 105 H335 M355 105 H505" stroke="var(--accent)" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="68" y="81" width="44" height="20" rx="10" fill="#c67b30" stroke="currentColor"/><ellipse cx="260" cy="161" rx="39" ry="28" fill="none" stroke="var(--accent)" stroke-width="4"/><rect x="238" y="151" width="44" height="20" rx="10" fill="#c67b30" stroke="currentColor"/><rect x="408" y="151" width="44" height="20" rx="10" fill="#c67b30" stroke="currentColor"/><text x="260" y="233" text-anchor="middle" fill="currentColor" font-size="14">Cytoplasm lies below the plasma membrane</text></svg><figcaption>Attachment, enclosure in a vacuole and cytosolic localization are distinct states. The green curves represent host membrane.</figcaption><button class="tool-btn diagram-zoom" type="button" data-figure="topology" aria-label="Enlarge Three different locations of a bacterial particle">⊕ Enlarge diagram</button></figure></section><section id="foundations"><h2>2. Cell-surface recognition and the logic of membrane enclosure</h2><p class="teaching-prose">Cellular recognition begins with molecular contact. A ligand is a molecule or molecular region that binds a particular partner. A receptor is a cellular molecule that recognizes a ligand and may transmit information or change cellular behavior. The words describe roles rather than chemical categories: a protein can be a receptor in one context and a ligand in another interaction. At the interface between a bacterium and an animal cell, a molecule on the bacterial surface can associate with the extracellular portion of a host membrane protein. The interaction may be sufficiently selective that differences in the structure or accessibility of the host protein change how the two surfaces associate. This specificity is conceptually related to other receptor systems studied in cell signaling, even when the normal biological purpose of the receptor has nothing to do with infection.</p>
+<p class="teaching-prose">Binding is a physical event, not by itself an instruction with a guaranteed result. The two partners can be held together by noncovalent interactions, yet remain at the original location. Whether the interaction has a cellular consequence depends on the organization of the receptor and its surrounding molecules. A receptor linked to intracellular signaling or the cytoskeleton can participate in a response that a receptor lacking these connections cannot support. Conversely, a receptor that is capable of signaling under its normal physiological conditions need not generate the same response to every possible ligand. In the context of bacterial entry, attachment and internalization should be regarded as related but separable phenotypes. This distinction is particularly important when a study reports that a bacterium is cell-associated without resolving which side of the membrane it occupies.</p>
+<p class="teaching-prose">Normal receptor-mediated endocytosis often concerns individual macromolecules or much smaller particles. Bacterial engulfment involves a much larger object, so the cell has to coordinate membrane shape over a correspondingly greater distance. The difference is not simply a matter of the size of an endocytic vesicle. An extended region of membrane must be repositioned while the surface maintains its integrity. The membrane is also mechanically coupled to a cortex of actin and associated proteins. As a consequence, the behavior of one receptor cannot always be understood independently of its neighboring receptors or the local mechanical condition of the cortex. The geometry of the cell surface and the distribution of molecules are part of the biological explanation.</p>
+<p class="teaching-prose">The term membrane cup describes an intermediate configuration in which the plasma membrane surrounds only part of an external object. Before closure, the fluid in the cup remains continuous with the extracellular fluid. A complete intracellular compartment has a different topology because its lumen is no longer freely continuous with the environment. A two-dimensional view of a cup can misleadingly suggest a closed vesicle when the actual opening lies outside the plane of the image. The difference between a cup and a sealed compartment is therefore a useful example of why morphology alone must be interpreted with care. A picture of membrane around a particle is not sufficient proof that the entire particle has completed internalization.</p>
+<p class="teaching-prose">A lipid bilayer has both material and geometric constraints. Lipids can move laterally, and membrane domains can change position, but the area of a membrane does not increase indefinitely without additional membrane being supplied or existing folds being unfolded. Cells possess surface folds and membrane reservoirs that can contribute to deformation. The underlying cortex also resists and transmits mechanical forces. When membrane protrusions form, the observed shape reflects the interplay of cytoskeletal force, local membrane properties and cell geometry. A useful general model is that membrane shape is actively controlled rather than that the membrane is a passive bag into which a particle falls. This model explains why viable cells can display organized protrusions in contexts where passive lipid material could not reproduce the same behavior.</p>
+<p class="teaching-prose">A receptor can also have different functions at different locations within a cell. In a polarized epithelium the apical surface faces the lumen, whereas lateral and basal surfaces interact with neighboring cells and the supporting tissue. The molecular composition of these regions differs. A whole-cell measurement of the amount of a receptor therefore does not reveal its accessibility to a particle outside the apical surface. This principle applies broadly to epithelial biology: anatomical orientation affects which molecular interactions are physically possible. It is important to separate the concept of molecular recognition from the geometry of a multicellular tissue. A receptor that exists somewhere in a cell is not necessarily exposed at the surface under consideration.</p>
+<p class="teaching-prose">A host-cell response may be temporary. A membrane protrusion can emerge and recede, a cytoskeletal structure can assemble and disassemble, and a receptor can move to another compartment. A single observation may thus represent an intermediate state rather than an endpoint. The same apparent morphology can also arise during different normal activities of a cell. A membrane ruffle, for example, may accompany migration or extracellular fluid uptake in the absence of bacteria. Observing a ruffle in a bacterial interaction is consistent with remodeling but does not identify the mechanism on its own. The molecular origin of the response, the sequence of cellular events and the final location of the particle must be considered together.</p><figure class="figure-panel"><svg id="cup-topology" viewBox="0 0 520 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cup-topology-title cup-topology-desc"><title id="cup-topology-title">Open cup and closed compartment</title><desc id="cup-topology-desc">The lumen of an open cup remains connected to extracellular space. A closed compartment is topologically separated.</desc><text x="135" y="26" text-anchor="middle" fill="currentColor" font-size="14">Open cup</text><text x="395" y="26" text-anchor="middle" fill="currentColor" font-size="14">Closed compartment</text><path d="M15 85 H75 C94 85 85 168 135 168 S176 85 195 85 H245 M275 85 H505" stroke="var(--accent)" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="113" y="113" width="44" height="20" rx="10" fill="#c67b30" stroke="currentColor"/><ellipse cx="390" cy="153" rx="45" ry="35" fill="none" stroke="var(--accent)" stroke-width="5"/><rect x="368" y="143" width="44" height="20" rx="10" fill="#c67b30" stroke="currentColor"/><text x="135" y="209" text-anchor="middle" fill="currentColor" font-size="14">Open to outside</text><text x="390" y="209" text-anchor="middle" fill="currentColor" font-size="14">Separate lumen</text></svg><figcaption>The lumen of an open cup remains connected to extracellular space. A closed compartment is topologically separated.</figcaption><button class="tool-btn diagram-zoom" type="button" data-figure="cup-topology" aria-label="Enlarge Open cup and closed compartment">⊕ Enlarge diagram</button></figure></section><section id="actin"><h2>3. Actin dynamics as a general cellular mechanism</h2><p class="teaching-prose">The actin cytoskeleton is central to understanding the physical response of the host cell. Actin is a protein that can exist as a soluble globular subunit, called G-actin, or as part of a filament, called F-actin. An actin filament is a polarized polymer whose ends differ in their structural arrangement and kinetic behavior. The growing and shrinking of such filaments allows the cell to reorganize its internal architecture. Beneath the plasma membrane, actin contributes to the cortical network that influences cell shape. In motile cells it also supports protrusions that explore the environment, provide new contacts and participate in particle uptake.</p>
+<p class="teaching-prose">Assembly of actin does not create a rigid permanent framework. The network is continually renewed by addition and removal of subunits and by proteins that control filament organization. In many protrusive structures the assembly of filaments near the membrane contributes to a force directed against it. The growth of a sufficiently organized network can move the membrane outward, while changes in network connectivity and contractility can help reshape it. These events use chemical energy in cellular nucleotide cycles and are influenced by the mechanical load on the network. The membrane does not move merely because actin is present: the spatial organization and dynamics of actin are what matter.</p>
+<p class="teaching-prose">An elementary distinction is that actin polymerization and actin concentration are not the same measurement. A cell with a fixed total quantity of actin can redistribute it from soluble pools into filaments, or shift filament-rich regions from one location to another. The total amount of actin protein can remain unchanged while the shape of the cell changes substantially. A fluorescence image of filamentous actin is primarily a description of the location and relative abundance of the labeled polymer under the conditions represented. It is not a direct measurement of the rate of polymerization, of mechanical force, or of all actin protein. Those quantities require different kinds of evidence. Students who understand this distinction can avoid interpreting a bright actin-rich region as direct proof of a particular biochemical reaction.</p>
+<p class="teaching-prose">Actin-related proteins organize filament assembly, branching, bundling and turnover. The Arp2/3 complex is a well-known example of a host protein complex that supports branched actin networks. Branching allows a collection of filaments to spread over a surface rather than all growing in a single parallel direction. This geometry is useful in broad membrane protrusions. Other actin structures contain more nearly parallel bundles and serve different mechanical functions. The same actin protein can therefore participate in several different architectures. A protrusion is not defined solely by its molecular composition; it also depends on how the polymers are arranged.</p>
+<p class="teaching-prose">Small GTP-binding proteins are another important general component of cellular shape control. Members of the Rho family participate in regulation of actin organization. A GTPase can cycle between nucleotide-bound states with different capacities to interact with downstream partners. This provides a mechanism through which local cellular information can influence an actin structure. GTPases are not motors that physically drag the membrane, and they do not themselves constitute the actin filament. Rather, they participate in regulatory networks connecting molecular recognition to structural responses. In a normal cell these networks are controlled spatially and temporally so that a protrusion forms in an appropriate region and does not persist indefinitely.</p>
+<p class="teaching-prose">The separation of signal, regulator and structural output is a valuable way to analyze cellular mechanisms. A receptor can provide an input, an intracellular signaling network can interpret that input, and an actin network can provide a physical response. Failure at any one of these levels may reduce the final shape change. However, similar final appearances need not imply the same initial event. A cell with impaired receptor recognition and a cell with impaired general membrane remodeling might both show little engulfment while differing in their ability to bind an external particle. This is why examination questions often give more than one observation: the combination of observations allows the affected stage to be distinguished.</p>
+<p class="teaching-prose">Actin also participates in normal phagocytosis, cell migration, cytokinesis and the organization of cell junctions. Bacterial entry illustrates how a general cellular module can be recruited in an unusual context. It would be misleading to describe the presence of actin near a bacterial particle as a structure that is uniquely microbial. The bacterial cell and the surrounding host actin are different structures; the cortical filaments in these examples belong to the host. Moreover, although bacteria themselves possess cytoskeletal proteins of their own, those proteins are not the host actin network under discussion. Keeping the cellular origin of each component clear prevents confusion when interpreting diagrams of the interface.</p><figure class="figure-panel"><svg id="actin-network" viewBox="0 0 520 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="actin-network-title actin-network-desc"><title id="actin-network-title">Actin network and the membrane cortex</title><desc id="actin-network-desc">The actin cortex is a host structure. Branched filaments support membrane shape changes, while soluble actin provides a pool of subunits.</desc><path d="M20 52 C130 52 150 25 260 25 S390 52 500 52" stroke="var(--accent)" stroke-width="5" fill="none" stroke-linecap="round"/><g stroke="var(--accent)" stroke-width="4" stroke-linecap="round"><path d="M90 154 L155 65 M155 65 L210 135 M137 90 L84 75 M210 135 L263 63 M263 63 L326 140 M302 108 L368 75 M326 140 L410 82"/></g><g fill="#c67b30"><circle cx="110" cy="203" r="6"/><circle cx="140" cy="217" r="6"/><circle cx="185" cy="192" r="6"/><circle cx="340" cy="203" r="6"/><circle cx="380" cy="218" r="6"/></g><text x="260" y="175" text-anchor="middle" fill="currentColor" font-size="14">Filament network</text><text x="260" y="236" text-anchor="middle" fill="currentColor" font-size="14">Soluble actin subunits</text></svg><figcaption>The actin cortex is a host structure. Branched filaments support membrane shape changes, while soluble actin provides a pool of subunits.</figcaption><button class="tool-btn diagram-zoom" type="button" data-figure="actin-network" aria-label="Enlarge Actin network and the membrane cortex">⊕ Enlarge diagram</button></figure></section><section id="history"><h2>4. Scientific evidence and the emergence of two classical models</h2><p class="teaching-prose">The study of particle uptake began long before the molecular identity of its receptors was known. The concept of phagocytosis established that cells can internalize relatively large objects as an active biological process. Work on animal cells later connected surface movement with the actin cytoskeleton. These developments made it possible to interpret the interaction between an invasive bacterium and an epithelial cell as a problem in cell biology rather than solely a problem in microbiology. A scientist could ask whether the host membrane was rearranged, whether the surrounding actin was reorganized and whether a specific recognition event preceded the changes.</p>
+<p class="teaching-prose">Electron microscopy was particularly useful because it could resolve relationships between the outline of a bacterium and the surrounding host membrane. Classical studies found that not all entering bacteria were associated with the same surface morphology. Some appeared to be enclosed by a membrane that closely followed the contour of the bacterial body. Others were associated with much larger, irregular membrane protrusions. The names zipper and trigger reflect these contrasting observations and their later mechanistic interpretation. The terms should not be taken literally: there is no zipper-shaped molecule pulling the membrane together, and a trigger is not a single universal bacterial protein. They are models that organize a set of observations.</p>
+<p class="teaching-prose">An important advance was reported in 1996 by Mengaud and colleagues, who identified E-cadherin as a receptor for Listeria internalin in epithelial cell entry. E-cadherin was already recognized as an animal cell adhesion molecule, so the finding linked an established host biological function to a new context. The investigators also described the contrast between the closely associated membrane during Listeria uptake and the conspicuous surface remodeling associated with Salmonella. The receptor identification gave the zipper model a molecular basis rather than only a descriptive name. It was possible to connect a particular extracellular interaction with the physical event visible at the membrane.</p>
+<p class="teaching-prose">Evidence of receptor identity should be distinguished from evidence of receptor localization or from a correlation between expression and cellular behavior. A correlation can suggest that a receptor participates, but alternative explanations include changes in the general state of the cells. Molecular recognition evidence narrows the inference by showing that defined molecular partners interact. Cellular observations are then needed to establish whether the interaction is associated with internalization. The strength of a scientific explanation comes from convergence of these complementary findings. A historical result should not be generalized from the particular model to every species, every epithelial surface or every bacterium that is described as invasive.</p>
+<p class="teaching-prose">Further work brought host signaling and membrane trafficking into the explanation of receptor-dependent entry. A review by Cossart and colleagues described internalin-mediated uptake in terms of the host receptor, endocytic machinery and actin remodeling. This progression illustrates how biological explanations often develop: an initially visible phenomenon is linked to molecular recognition, then to the cellular response, and finally to the broader fate of the internalized compartment. The examination-level model is a condensed account of that progression. Its purpose is not to list every protein reported in the specialist literature but to preserve the causal logic connecting recognition to movement of a membrane.</p>
+<p class="teaching-prose">Studies of Salmonella and related enteroinvasive bacteria provided a contrasting paradigm in which the bacterium delivers proteins into the host cell through a secretion system and the host responds with prominent surface remodeling. A major review by Cossart and Sansonetti in 2004 synthesized the comparison between receptor-driven and effector-driven models. The scientific lesson is that two distinct classes of initial interaction can converge on the same broad structural requirement: a host membrane must enclose the bacterium. Because both mechanisms use host cellular processes, an observation of actin involvement is not a sufficient discriminator between them. The origin and position of the initial signal are more informative.</p>
+<p class="teaching-prose">Classical models are deliberately simplified descriptions of biological systems. A localized cup or an extensive ruffle is characteristic of particular situations, not an immutable morphological law that applies under every imaging condition. Cells differ in polarity, shape, signaling state and mechanical properties. The same underlying process may also appear differently at different moments. A robust classification uses several independent features: the initiating interaction, the relationship of the receptor or delivered factor to the host, the location and scale of remodeling, and the topology of the resulting compartment. These features are the foundation for the detailed comparison developed below.</p></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 4 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 4 · Cell Communication and Signaling</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["4.D.02","previous-node","← "],["4.D.04","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -297,3 +297,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.F.04 — [Xylem Transport and Ascent of Sap: Cohesion–Tension and Hydraulic Limits](https://rahulthakurpatan.github.io/lifescienceacademy/xylem-transport-and-ascent-of-sap-cohesion-tension-and-hydraulic-limits.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.F: 2/8; Unit 06: 30/66; Academy: 279/723.
 - Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.F.05 — [Transpiration, Stomatal Regulation and Whole-Plant Water Balance](https://rahulthakurpatan.github.io/lifescienceacademy/transpiration-stomatal-regulation-and-whole-plant-water-balance.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.F: 3/8; Unit 06: 31/66; Academy: 280/723.
+- Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

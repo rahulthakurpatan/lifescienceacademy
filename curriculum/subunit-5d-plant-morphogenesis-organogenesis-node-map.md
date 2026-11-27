@@ -204,3 +204,9 @@
 
 - **5.D.03 — Shoot Development: Stem Elongation, Nodes, Buds and Branching**: `shoot-development-stem-elongation-nodes-buds-and-branching.html`, academically reviewed and included in the publication tree. Pages deployment is verified separately.
 - Subunit 5.D: 1 / 11; Unit 05: 37 / 57. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.04 — Root Apical Meristem: Quiescent Center, Stem-Cell Niche and Radial Patterning**: academic QA passed; chapter included in the publication tree at `root-apical-meristem-quiescent-center-stem-cell-niche-and-radial-patterning.html`. Pages and live availability require separate verification.
+- Subunit 5.D: 3/11. Unit 05: 39/57. Academy: 231/723. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.

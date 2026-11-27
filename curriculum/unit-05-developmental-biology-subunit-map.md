@@ -148,3 +148,9 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.D.08 — Vegetative-to-Reproductive Transition: Developmental Timing of Flowering**: `vegetative-to-reproductive-transition-developmental-timing-of-flowering.html`, included in the academic publication tree; Pages verification is separate.
 - Reconciled current published 5.D nodes: 5.D.02, 5.D.03, 5.D.04, 5.D.06, 5.D.08, 5.D.09. Subunit 5.D: 6 / 11; Unit 05: 42 / 57; Academy: 234 published nodes. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.11 — Arabidopsis and Antirrhinum: Floral Mutants and Comparative Development**: academically reviewed and included in the publication tree at `arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html`. Pages deployment and live availability must be verified separately.
+- Subunit 5.D: 7/11; Unit 05: 43/57; Academy: 235/723. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.

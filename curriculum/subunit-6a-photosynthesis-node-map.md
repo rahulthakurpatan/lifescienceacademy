@@ -10,7 +10,7 @@
 - **Student narrative:** photon/pigment energy capture → PSII accepts water-derived electrons → PQ/b6f/PC→PSI transfers and boosts electrons → proton-driven ATP, linear/cyclic flexibility → protection/repair of machinery under intense light → stromal Calvin cycle using ATP/NADPH → C4 spatial CO2 concentration → CAM temporal CO2 concentration and integrated comparison.
 - **Important chronology caveat:** The order is **pedagogical causal dependency**, not an assertion that plants first finish all photoprotection and only then fix CO2. Light reactions, photoprotection, carbon fixation and energy balancing run simultaneously; the chapter sequence lets a learner build one mechanism on the preceding one.
 - **Biological scope:** Plant oxygenic photosynthesis at BSc/MSc/CSIR-NET/MP SET level with correct redox, compartment, carbon/energy accounting, anatomy and experimental inference; do not detour into specialist cryo-EM, PhD-only photosystem reaction kinetics, full ecological modeling or research protocols.
-- **Publication stage:** 6.A.01, 6.A.03, 6.A.06 have validated chapters; remaining nodes retain unlinked roadmap titles until independently approved.
+- **Publication stage:** Validated chapters are linked individually; all remaining nodes retain unlinked roadmap titles until independently approved.
 - **Student-facing English:** Interconnected academic prose, observation→question→mechanism→evidence→biological interpretation→worked exam reasoning, accurate qualifications and diagrams when later authored; no thin pages or table/MCQ padding.
 
 ## Eight chapter briefs in teaching order
@@ -172,5 +172,6 @@
 - 6.A.06 — [Calvin–Benson Cycle and C3 Carbon Fixation](https://rahulthakurpatan.github.io/lifescienceacademy/calvin-benson-cycle-and-c3-carbon-fixation.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.05 — [Photoprotection, Nonphotochemical Quenching and Photosystem Repair](https://rahulthakurpatan.github.io/lifescienceacademy/photoprotection-nonphotochemical-quenching-and-photosystem-repair.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.02 — [Photosystem II and Photolysis of Water](https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.A: 5/8; Unit 06: 5/66; Academy: 254/723.
+- 6.A.07 — [C4 Photosynthesis and the Carbon-Concentrating Mechanism](https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 6/8; Unit 06: 6/66; Academy: 255/723.
 - Next unpublished: 6.A.04 — Photophosphorylation, Chemiosmosis and Cyclic Electron Flow.

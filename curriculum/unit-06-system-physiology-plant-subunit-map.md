@@ -221,5 +221,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.A.06 — [Calvin–Benson Cycle and C3 Carbon Fixation](https://rahulthakurpatan.github.io/lifescienceacademy/calvin-benson-cycle-and-c3-carbon-fixation.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.05 — [Photoprotection, Nonphotochemical Quenching and Photosystem Repair](https://rahulthakurpatan.github.io/lifescienceacademy/photoprotection-nonphotochemical-quenching-and-photosystem-repair.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.02 — [Photosystem II and Photolysis of Water](https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.A: 5/8; Unit 06: 5/66; Academy: 254/723.
+- 6.A.07 — [C4 Photosynthesis and the Carbon-Concentrating Mechanism](https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 6/8; Unit 06: 6/66; Academy: 255/723.
 - Next unpublished: 6.A.04 — Photophosphorylation, Chemiosmosis and Cyclic Electron Flow.

@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.C.01",
-  "title": "Nitrogen Nutrition: Sources, Uptake and Metabolic Entry",
+  "node_id": "6.C.02",
+  "title": "Nitrate and Nitrite Reduction in Plants",
   "subunit": "6.C",
   "topic": "Nitrogen Metabolism",
-  "slug": "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+  "slug": "nitrate-and-nitrite-reduction-in-plants.html",
   "next_pending_node_id": "6.B.01",
   "next_pending_node_title": "Plant Respiration and the Citric Acid Cycle",
-  "published_node_count": 260,
+  "published_node_count": 261,
   "publication_allowed": true,
-  "main_baseline_sha": "7563db8416b85e06575b881cedacf8eb7e0f088a",
+  "main_baseline_sha": "991b10ecc8b34519250d9da95100c44d8b407e2f",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue with 6.B.01",
   "planned_node_count": 66,
@@ -21,129 +21,53 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.C.01",
-    "title": "Nitrogen Nutrition: Sources, Uptake and Metabolic Entry",
-    "slug": "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+    "node_id": "6.C.02",
+    "title": "Nitrate and Nitrite Reduction in Plants",
+    "slug": "nitrate-and-nitrite-reduction-in-plants.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html",
     "unit": "06",
     "subunit": "6.C",
     "topic": "Nitrogen Metabolism",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6-c-01-nitrogen-nutrition",
-    "source_draft_commit_sha": "8db6926b5483065c67be42a09e7fe77070f63fd8",
-    "source_draft_blob_sha": "8582ae80b8453409d40f049a1cfd3fe763912f5b",
-    "production_chapter_blob_sha": "c00e552290b17b042a815180102c4391dcbe0d7d",
-    "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
-    "publication_base_sha": "7563db8416b85e06575b881cedacf8eb7e0f088a",
-    "production_robots": "index,follow",
+    "source_draft_branch": "draft/6c02-nitrate-nitrite-reduction-20261127",
+    "source_draft_commit_sha": "4783dccdd6c80afb746a63d078b13e8499e15796",
+    "source_draft_blob_sha": "f63a668bd0322ab7cf6078fa227b393327d1d60d",
+    "publication_base_sha": "991b10ecc8b34519250d9da95100c44d8b407e2f",
     "metrics": {
-      "genuine_teaching_words": 13442,
-      "teaching_paragraphs": 142,
-      "svg": 12,
-      "tables": 4,
-      "graph_and_chart_figures": 3,
+      "genuine_teaching_words": 13318,
+      "svg": 10,
+      "tables": 1,
       "total_questions": 50,
       "part_b": 20,
-      "part_c": 22,
-      "other_questions": 8,
+      "part_c": 20,
+      "other_questions": 10,
       "answer_positions": {
-        "A": 11,
-        "B": 11,
-        "C": 10,
-        "D": 10
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
       },
-      "misconceptions": 17,
-      "active_recall": 14,
-      "references": 13
+      "misconceptions": 15,
+      "active_recall": 10,
+      "references": 14
     },
-    "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after removing inline tags; excludes figures, tables, questions, references, revision and navigation.",
-    "scope": {
-      "official": "Revised CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C; mirrored MP SET 2024 Life Sciences Paper II",
-      "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
-      "boundaries": "Detailed nitrate reductase, GS–GOGAT, amino acid synthesis and fixation reserved for subsequent 6.C nodes; bulk solute transport reserved for later subunit."
-    },
-    "coverage_matrix": [
-      {
-        "microtopic": "Need and nitrogen forms",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "need, forms",
-        "depth": "Biological need; molecular N, ammonium, nitrate, nitrite and oxidation states",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Soil nitrogen supply and transformations",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "soil, soil-compare",
-        "depth": "Mineralization, immobilization, nitrification, denitrification and soil transport",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Membrane energetics",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "membrane",
-        "depth": "Electrochemical work, H+-ATPase, proton-coupled nitrate acquisition",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Nitrate acquisition and regulation",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "systems",
-        "depth": "NPF/NRT2 systems, affinity, kinetics, signaling and feedback",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Ammonium acquisition and regulation",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "ammonium, ion-compare",
-        "depth": "AMT, pH speciation, feedback and nitrate comparison",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Storage and long-distance distribution",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "distribution",
-        "depth": "Vacuolar pools, xylem, phloem, redistribution",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Metabolic entry",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "entry",
-        "depth": "Nitrate reduction, glutamine/glutamate and carbon-energy link; detailed enzymes reserved for subsequent chapters",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Microbial fixation",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "fixation",
-        "depth": "Parallel supply route, nitrogenase introduction and symbiotic transfer",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Experimental evidence",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "history, measure, data-compare",
-        "depth": "Culture experiments, mutants, isotope and flux measurements",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Integration and application",
-        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-        "sections": "integration",
-        "depth": "Nitrogen budgets, root allocation and efficiency",
-        "status": "covered"
-      }
+    "word_count_method": "Whitespace-separated words in saved teaching-prose paragraphs only.",
+    "scope": "Revised 2026 merged CSIR–UGC–DBT Unit 6.C, separate CSIR Life Sciences syllabus Unit 6.C, MP SET 2022 mirrored syllabus; repository 6.C.02 roadmap.",
+    "coverage": [
+      "Nitrate and nitrite reduction: cytosolic NR and plastid NiR",
+      "FAD, heme, Mo cofactor and ferredoxin",
+      "Electron and proton balances",
+      "Regulation, compartmentation, nitrite toxicity and isotope tracing",
+      "Root and leaf coordination, connection to GS–GOGAT, analytical reasoning"
     ],
     "review_pass_1": {
-      "type": "Internal scientific and syllabus review",
-      "result": "pass with disclosed limitations",
-      "findings": "Checked N oxidation states and separate uptake/reduction/assimilation/fixation, mineralization and microbial pathways, negative cytosolic voltage sign, proton symport free energy, NPF and NRT2 context, AMT regulation, ammonium speciation, nitrate pools and redistribution, carbon/energy requirements, isotope inference and nitrogen budgets. Recomputed signed membrane energy, pH fractions, rate, electron and mass balances and checked question answers. Revised schematics and references."
+      "result": "pass with limitations",
+      "evidence": "Checked official CSIR syllabus scope and mirrored MP SET document; reviewed redox balances, enzyme cofactor assignments, locations, regulation and distinction between nitrate assimilation and fixation; checked question options and explanations."
     },
     "review_pass_2": {
-      "type": "Separate internal editorial and static reader review",
-      "result": "pass with disclosed limitations",
-      "findings": "Compared with 6.A.04 exemplar; 13,442 words in 142 unique teaching paragraphs; progressive sections, glossary, 12 labeled SVGs and zoom targets, 50 explained questions, 17 traps and 14 recall prompts; answer positions balanced; canonical, anchors and IDs checked. Existing reader controls and adjacent navigation retained. Browser runtime not tested."
+      "result": "pass with limitations",
+      "evidence": "Checked saved HTML teaching count, diagram count, all 50 answer mappings and option positions, expanded 15 misconception explanations, 10 recall prompts, revision section, JS compilation, unique IDs, anchors and ARIA references; added SVG zoom controls."
     },
     "quality": {
       "score": 95,
@@ -152,19 +76,19 @@
         "scientific_accuracy": 19,
         "syllabus_coverage": 15,
         "teaching_depth": 15,
-        "pedagogy": 10,
+        "pedagogy": 9,
         "illustrations": 9,
         "questions": 9,
         "experimental_reasoning": 5,
         "revision": 5,
         "reader_accessibility": 4,
-        "technical_seo": 4
+        "technical_seo": 5
       },
-      "basis": "Internal rubric, not independent certification; deductions for limited independent review, schematic SVGs not visually rendered, some concise distractor explanations, no interactive accessibility test and no browser runtime test."
+      "basis": "Internal editorial assessment. Deductions reflect schematic simplifications, concise explanations for some distractors, and lack of rendered browser and independent exam calibration."
     },
     "validation": {
-      "word_count_pass": true,
-      "svg_count_pass": true,
+      "words_pass": true,
+      "svg_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
       "duplicate_ids": 0,
@@ -172,44 +96,45 @@
       "unresolved_aria_references": 0,
       "unresolved_zoom_targets": 0,
       "duplicate_teaching_paragraphs": 0,
-      "canonical_pass": true,
-      "reference_verification": "Official CSIR revised and separate syllabus; MP SET mirror; bibliographic retrieval for academic references.",
+      "placeholder_markers": 0,
+      "js_syntax_compiled": true,
       "interactive_browser_test": false
     },
-    "navigation": {
-      "previous": "6.B.05",
-      "next": "6.C.02",
-      "reciprocal": "Dynamic reader uses homepage menu; unavailable neighbors disabled until published."
+    "limitations": [
+      "Internal assessment, not independent peer review.",
+      "MP SET verified against mirrored 2022 syllabus, not live official MPPSC source.",
+      "No interactive browser or screen-reader test; static markup and JavaScript review only.",
+      "Pages deployment not yet verified."
+    ],
+    "publication": {
+      "strategy": "Atomic tree/commit and conditional non-force update",
+      "deployment": "pending",
+      "live_verified": false
     },
+    "production_chapter_blob_sha": "7767f0677c5f8914e8817fc9ff37b1d7e7f728fd",
     "progress": {
-      "subunit_published": 1,
+      "subunit_published": 2,
       "subunit_planned": 6,
-      "unit_published": 11,
+      "unit_published": 12,
       "unit_planned": 66,
-      "academy_published": 260,
+      "academy_published": 261,
       "academy_planned": 723,
       "next_pending_node_id": "6.B.01"
     },
-    "limitations": [
-      "No external independent scientific reviewer.",
-      "Static checks, no interactive browser, mobile or screen-reader verification.",
-      "MP SET syllabus mirror, not verified from MPPSC host.",
-      "GitHub Pages and live HTTP/content verification pending."
-    ],
+    "navigation": {
+      "previous": "6.C.01",
+      "next": "6.C.03",
+      "mechanism": "Existing dynamic reader links resolve only published nodes from menu."
+    },
     "changed_files": [
-      "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+      "nitrate-and-nitrite-reduction-in-plants.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
       "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6c01-publication-qa.json"
-    ],
-    "publication": {
-      "strategy": "Atomic tree/commit; conditional non-force main ref",
-      "deployment": "pending",
-      "live_verified": false
-    }
+      "curriculum/node-6c02-publication-qa.json"
+    ]
   },
   "published_node_ids": [
     "1.A.01",
@@ -471,7 +396,8 @@
     "6.A.08",
     "6.B.02",
     "6.B.03",
-    "6.C.01"
+    "6.C.01",
+    "6.C.02"
   ],
   "prior_publication_qa": {
     "node_id": "6.B.02",
@@ -593,122 +519,194 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "6.B.02",
-    "title": "Plant Mitochondrial Electron Transport Chain",
-    "slug": "plant-mitochondrial-electron-transport-chain.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html",
+    "node_id": "6.C.01",
+    "title": "Nitrogen Nutrition: Sources, Uptake and Metabolic Entry",
+    "slug": "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
     "unit": "06",
-    "subunit": "6.B",
-    "topic": "Respiration and Photorespiration",
+    "subunit": "6.C",
+    "topic": "Nitrogen Metabolism",
     "date": "2026-11-27",
-    "source_draft_branch": "draft/node-6b02-plant-mitochondrial-electron-transport",
-    "source_draft_commit_sha": "f760df3837e62916bc37a3df86e11d1abc0baa94",
-    "chapter_blob_sha": "9950f402d790e33d3406f5796a6e4b1f05e146da",
-    "publication_base_sha": "ab1366691858cf135feb674e0432fa86a68833f9",
     "status": "academic_qa_passed_deployment_verification_pending",
+    "source_draft_branch": "draft/6-c-01-nitrogen-nutrition",
+    "source_draft_commit_sha": "8db6926b5483065c67be42a09e7fe77070f63fd8",
+    "source_draft_blob_sha": "8582ae80b8453409d40f049a1cfd3fe763912f5b",
+    "production_chapter_blob_sha": "c00e552290b17b042a815180102c4391dcbe0d7d",
+    "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+    "publication_base_sha": "7563db8416b85e06575b881cedacf8eb7e0f088a",
+    "production_robots": "index,follow",
     "metrics": {
-      "teaching_prose_words": 13918,
-      "teaching_paragraphs": 123,
-      "visible_article_words": 18974,
-      "teaching_sections": 12,
-      "svg": 13,
+      "genuine_teaching_words": 13442,
+      "teaching_paragraphs": 142,
+      "svg": 12,
       "tables": 4,
-      "graphs": 3,
-      "questions": 55,
-      "part_b": 25,
-      "part_c": 25,
-      "other": 5,
+      "graph_and_chart_figures": 3,
+      "total_questions": 50,
+      "part_b": 20,
+      "part_c": 22,
+      "other_questions": 8,
+      "answer_positions": {
+        "A": 11,
+        "B": 11,
+        "C": 10,
+        "D": 10
+      },
       "misconceptions": 17,
-      "active_recall": 13,
-      "references": 11
+      "active_recall": 14,
+      "references": 13
     },
-    "word_count_method": "Whitespace-separated visible text of p.teaching-prose only; excludes questions, captions, tables, references, headings and navigation. Re-fetched saved HTML.",
-    "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 9,
-      "scientific_illustrations": 9,
-      "assessment": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "technical_integrity": 5
+    "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after removing inline tags; excludes figures, tables, questions, references, revision and navigation.",
+    "scope": {
+      "official": "Revised CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C; mirrored MP SET 2024 Life Sciences Paper II",
+      "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+      "boundaries": "Detailed nitrate reductase, GS–GOGAT, amino acid synthesis and fixation reserved for subsequent 6.C nodes; bulk solute transport reserved for later subunit."
     },
-    "score": 95,
     "coverage_matrix": [
-      [
-        "Plant mitochondria, respiratory membrane",
-        "problem; topology"
-      ],
-      [
-        "Redox energetics and carriers",
-        "redox; pool"
-      ],
-      [
-        "Complex I and II",
-        "complex-i; complex-ii"
-      ],
-      [
-        "Complex III Q cycle",
-        "complex-iii"
-      ],
-      [
-        "Complex IV oxygen reduction",
-        "complex-iv"
-      ],
-      [
-        "Plant-specific alternative dehydrogenases and oxidase",
-        "alternative-entry; proton-accounting"
-      ],
-      [
-        "Proton stoichiometry and mixed paths",
-        "proton-accounting"
-      ],
-      [
-        "Experiments, inhibitors and oxygen measurements",
-        "evidence"
-      ],
-      [
-        "Regulation and reactive oxygen species",
-        "regulation-ros"
-      ]
+      {
+        "microtopic": "Need and nitrogen forms",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "need, forms",
+        "depth": "Biological need; molecular N, ammonium, nitrate, nitrite and oxidation states",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Soil nitrogen supply and transformations",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "soil, soil-compare",
+        "depth": "Mineralization, immobilization, nitrification, denitrification and soil transport",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Membrane energetics",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "membrane",
+        "depth": "Electrochemical work, H+-ATPase, proton-coupled nitrate acquisition",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Nitrate acquisition and regulation",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "systems",
+        "depth": "NPF/NRT2 systems, affinity, kinetics, signaling and feedback",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Ammonium acquisition and regulation",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "ammonium, ion-compare",
+        "depth": "AMT, pH speciation, feedback and nitrate comparison",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Storage and long-distance distribution",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "distribution",
+        "depth": "Vacuolar pools, xylem, phloem, redistribution",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Metabolic entry",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "entry",
+        "depth": "Nitrate reduction, glutamine/glutamate and carbon-energy link; detailed enzymes reserved for subsequent chapters",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Microbial fixation",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "fixation",
+        "depth": "Parallel supply route, nitrogenase introduction and symbiotic transfer",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Experimental evidence",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "history, measure, data-compare",
+        "depth": "Culture experiments, mutants, isotope and flux measurements",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Integration and application",
+        "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+        "sections": "integration",
+        "depth": "Nitrogen budgets, root allocation and efficiency",
+        "status": "covered"
+      }
     ],
-    "scientific_review": "Checked electron/proton stoichiometry, Q cycle, matrix/P-side topology, alternative pathway distinctions, inhibitor caveats and AtNDB2 experimental evidence against authoritative literature. Recalculated worked examples. Distinguishes conventional assumptions from plant variability.",
-    "editorial_review": "Compared teaching depth with 6.A.04 (13,601 words); checked beginner-to-Part-C progression, corrected SVG membrane topology, balanced answer distribution (A15 B14 C13 D13), checked explanations, recall and misconceptions.",
-    "deductions": "Selected source cross-checks and schematic simplifications (1); some repeated caution (1); SVG static rather than rendered review (1); questions not externally calibrated (1); no browser/assistive-technology interactive test (1).",
-    "static_checks": {
-      "duplicate_ids": 0,
-      "unresolved_internal_anchors": 0,
-      "unresolved_aria_ids": 0,
-      "unresolved_zoom_targets": 0,
-      "tag_nesting_errors": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "question_answer_option_mismatches": 0,
-      "empty_question_explanations": 0,
-      "placeholder_markers": 0,
-      "svg_title_desc_viewbox": 13,
-      "javascript_syntax": "pass",
-      "canonical": "pass",
-      "robots": "index,follow",
-      "saved_candidate_match": true
+    "review_pass_1": {
+      "type": "Internal scientific and syllabus review",
+      "result": "pass with disclosed limitations",
+      "findings": "Checked N oxidation states and separate uptake/reduction/assimilation/fixation, mineralization and microbial pathways, negative cytosolic voltage sign, proton symport free energy, NPF and NRT2 context, AMT regulation, ammonium speciation, nitrate pools and redistribution, carbon/energy requirements, isotope inference and nitrogen budgets. Recomputed signed membrane energy, pH fractions, rate, electron and mass balances and checked question answers. Revised schematics and references."
     },
-    "source_checks": {
-      "official": "CSIR-UGC NET Life Sciences and Biotechnology merged January 2026 syllabus, Unit 6B; existing separate Life Sciences syllabus; MP SET 2024 syllabus mirror",
-      "references": "11 entries including plant OXPHOS review, alternative NADH dehydrogenases, AtNDB2 experimental paper, Q-cycle, chemiosmosis and ROS"
+    "review_pass_2": {
+      "type": "Separate internal editorial and static reader review",
+      "result": "pass with disclosed limitations",
+      "findings": "Compared with 6.A.04 exemplar; 13,442 words in 142 unique teaching paragraphs; progressive sections, glossary, 12 labeled SVGs and zoom targets, 50 explained questions, 17 traps and 14 recall prompts; answer positions balanced; canonical, anchors and IDs checked. Existing reader controls and adjacent navigation retained. Browser runtime not tested."
+    },
+    "quality": {
+      "score": 95,
+      "threshold": 95,
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "questions": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "basis": "Internal rubric, not independent certification; deductions for limited independent review, schematic SVGs not visually rendered, some concise distractor explanations, no interactive accessibility test and no browser runtime test."
+    },
+    "validation": {
+      "word_count_pass": true,
+      "svg_count_pass": true,
+      "question_count_pass": true,
+      "answer_mapping_pass": true,
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_references": 0,
+      "unresolved_zoom_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "canonical_pass": true,
+      "reference_verification": "Official CSIR revised and separate syllabus; MP SET mirror; bibliographic retrieval for academic references.",
+      "interactive_browser_test": false
+    },
+    "navigation": {
+      "previous": "6.B.05",
+      "next": "6.C.02",
+      "reciprocal": "Dynamic reader uses homepage menu; unavailable neighbors disabled until published."
+    },
+    "progress": {
+      "subunit_published": 1,
+      "subunit_planned": 6,
+      "unit_published": 11,
+      "unit_planned": 66,
+      "academy_published": 260,
+      "academy_planned": 723,
+      "next_pending_node_id": "6.B.01"
     },
     "limitations": [
-      "Internal two-pass review, not external peer review.",
-      "Interactive browser rendering and assistive-technology checks unavailable; static inspection only.",
-      "MP SET syllabus checked through a mirror.",
-      "Pages deployment and live HTTP/content checks pending at commit time."
+      "No external independent scientific reviewer.",
+      "Static checks, no interactive browser, mobile or screen-reader verification.",
+      "MP SET syllabus mirror, not verified from MPPSC host.",
+      "GitHub Pages and live HTTP/content verification pending."
+    ],
+    "changed_files": [
+      "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+      "index.html",
+      "sitemap.xml",
+      "curriculum/academy-progress.json",
+      "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+      "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+      "curriculum/node-6c01-publication-qa.json"
     ],
     "publication": {
-      "prior_count": 258,
-      "new_count": 259,
-      "unit_published": 10,
-      "subunit_published": 2,
-      "next_pending_node_id": "6.B.01"
+      "strategy": "Atomic tree/commit; conditional non-force main ref",
+      "deployment": "pending",
+      "live_verified": false
     }
   },
   "unit_02": {
@@ -35293,6 +35291,122 @@
         "deployment": "pending",
         "live_verified": false
       }
+    },
+    "6.C.02": {
+      "node_id": "6.C.02",
+      "title": "Nitrate and Nitrite Reduction in Plants",
+      "slug": "nitrate-and-nitrite-reduction-in-plants.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html",
+      "unit": "06",
+      "subunit": "6.C",
+      "topic": "Nitrogen Metabolism",
+      "date": "2026-11-27",
+      "status": "academic_qa_passed_deployment_verification_pending",
+      "source_draft_branch": "draft/6c02-nitrate-nitrite-reduction-20261127",
+      "source_draft_commit_sha": "4783dccdd6c80afb746a63d078b13e8499e15796",
+      "source_draft_blob_sha": "f63a668bd0322ab7cf6078fa227b393327d1d60d",
+      "publication_base_sha": "991b10ecc8b34519250d9da95100c44d8b407e2f",
+      "metrics": {
+        "genuine_teaching_words": 13318,
+        "svg": 10,
+        "tables": 1,
+        "total_questions": 50,
+        "part_b": 20,
+        "part_c": 20,
+        "other_questions": 10,
+        "answer_positions": {
+          "A": 13,
+          "B": 12,
+          "C": 13,
+          "D": 12
+        },
+        "misconceptions": 15,
+        "active_recall": 10,
+        "references": 14
+      },
+      "word_count_method": "Whitespace-separated words in saved teaching-prose paragraphs only.",
+      "scope": "Revised 2026 merged CSIR–UGC–DBT Unit 6.C, separate CSIR Life Sciences syllabus Unit 6.C, MP SET 2022 mirrored syllabus; repository 6.C.02 roadmap.",
+      "coverage": [
+        "Nitrate and nitrite reduction: cytosolic NR and plastid NiR",
+        "FAD, heme, Mo cofactor and ferredoxin",
+        "Electron and proton balances",
+        "Regulation, compartmentation, nitrite toxicity and isotope tracing",
+        "Root and leaf coordination, connection to GS–GOGAT, analytical reasoning"
+      ],
+      "review_pass_1": {
+        "result": "pass with limitations",
+        "evidence": "Checked official CSIR syllabus scope and mirrored MP SET document; reviewed redox balances, enzyme cofactor assignments, locations, regulation and distinction between nitrate assimilation and fixation; checked question options and explanations."
+      },
+      "review_pass_2": {
+        "result": "pass with limitations",
+        "evidence": "Checked saved HTML teaching count, diagram count, all 50 answer mappings and option positions, expanded 15 misconception explanations, 10 recall prompts, revision section, JS compilation, unique IDs, anchors and ARIA references; added SVG zoom controls."
+      },
+      "quality": {
+        "score": 95,
+        "threshold": 95,
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "questions": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 5
+        },
+        "basis": "Internal editorial assessment. Deductions reflect schematic simplifications, concise explanations for some distractors, and lack of rendered browser and independent exam calibration."
+      },
+      "validation": {
+        "words_pass": true,
+        "svg_pass": true,
+        "question_count_pass": true,
+        "answer_mapping_pass": true,
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_references": 0,
+        "unresolved_zoom_targets": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "placeholder_markers": 0,
+        "js_syntax_compiled": true,
+        "interactive_browser_test": false
+      },
+      "limitations": [
+        "Internal assessment, not independent peer review.",
+        "MP SET verified against mirrored 2022 syllabus, not live official MPPSC source.",
+        "No interactive browser or screen-reader test; static markup and JavaScript review only.",
+        "Pages deployment not yet verified."
+      ],
+      "publication": {
+        "strategy": "Atomic tree/commit and conditional non-force update",
+        "deployment": "pending",
+        "live_verified": false
+      },
+      "production_chapter_blob_sha": "7767f0677c5f8914e8817fc9ff37b1d7e7f728fd",
+      "progress": {
+        "subunit_published": 2,
+        "subunit_planned": 6,
+        "unit_published": 12,
+        "unit_planned": 66,
+        "academy_published": 261,
+        "academy_planned": 723,
+        "next_pending_node_id": "6.B.01"
+      },
+      "navigation": {
+        "previous": "6.C.01",
+        "next": "6.C.03",
+        "mechanism": "Existing dynamic reader links resolve only published nodes from menu."
+      },
+      "changed_files": [
+        "nitrate-and-nitrite-reduction-in-plants.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+        "curriculum/node-6c02-publication-qa.json"
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -43717,137 +43831,62 @@
       "6.A.08",
       "6.B.02",
       "6.B.03",
-      "6.C.01"
+      "6.C.01",
+      "6.C.02"
     ],
-    "published_node_count": 11,
+    "published_node_count": 12,
     "planned_node_count": 66,
-    "last_published_node_id": "6.C.01",
+    "last_published_node_id": "6.C.02",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.C.01",
-      "title": "Nitrogen Nutrition: Sources, Uptake and Metabolic Entry",
-      "slug": "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+      "node_id": "6.C.02",
+      "title": "Nitrate and Nitrite Reduction in Plants",
+      "slug": "nitrate-and-nitrite-reduction-in-plants.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html",
       "unit": "06",
       "subunit": "6.C",
       "topic": "Nitrogen Metabolism",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6-c-01-nitrogen-nutrition",
-      "source_draft_commit_sha": "8db6926b5483065c67be42a09e7fe77070f63fd8",
-      "source_draft_blob_sha": "8582ae80b8453409d40f049a1cfd3fe763912f5b",
-      "production_chapter_blob_sha": "c00e552290b17b042a815180102c4391dcbe0d7d",
-      "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
-      "publication_base_sha": "7563db8416b85e06575b881cedacf8eb7e0f088a",
-      "production_robots": "index,follow",
+      "source_draft_branch": "draft/6c02-nitrate-nitrite-reduction-20261127",
+      "source_draft_commit_sha": "4783dccdd6c80afb746a63d078b13e8499e15796",
+      "source_draft_blob_sha": "f63a668bd0322ab7cf6078fa227b393327d1d60d",
+      "publication_base_sha": "991b10ecc8b34519250d9da95100c44d8b407e2f",
       "metrics": {
-        "genuine_teaching_words": 13442,
-        "teaching_paragraphs": 142,
-        "svg": 12,
-        "tables": 4,
-        "graph_and_chart_figures": 3,
+        "genuine_teaching_words": 13318,
+        "svg": 10,
+        "tables": 1,
         "total_questions": 50,
         "part_b": 20,
-        "part_c": 22,
-        "other_questions": 8,
+        "part_c": 20,
+        "other_questions": 10,
         "answer_positions": {
-          "A": 11,
-          "B": 11,
-          "C": 10,
-          "D": 10
+          "A": 13,
+          "B": 12,
+          "C": 13,
+          "D": 12
         },
-        "misconceptions": 17,
-        "active_recall": 14,
-        "references": 13
+        "misconceptions": 15,
+        "active_recall": 10,
+        "references": 14
       },
-      "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after removing inline tags; excludes figures, tables, questions, references, revision and navigation.",
-      "scope": {
-        "official": "Revised CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C; mirrored MP SET 2024 Life Sciences Paper II",
-        "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
-        "boundaries": "Detailed nitrate reductase, GS–GOGAT, amino acid synthesis and fixation reserved for subsequent 6.C nodes; bulk solute transport reserved for later subunit."
-      },
-      "coverage_matrix": [
-        {
-          "microtopic": "Need and nitrogen forms",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "need, forms",
-          "depth": "Biological need; molecular N, ammonium, nitrate, nitrite and oxidation states",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Soil nitrogen supply and transformations",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "soil, soil-compare",
-          "depth": "Mineralization, immobilization, nitrification, denitrification and soil transport",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Membrane energetics",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "membrane",
-          "depth": "Electrochemical work, H+-ATPase, proton-coupled nitrate acquisition",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Nitrate acquisition and regulation",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "systems",
-          "depth": "NPF/NRT2 systems, affinity, kinetics, signaling and feedback",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Ammonium acquisition and regulation",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "ammonium, ion-compare",
-          "depth": "AMT, pH speciation, feedback and nitrate comparison",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Storage and long-distance distribution",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "distribution",
-          "depth": "Vacuolar pools, xylem, phloem, redistribution",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Metabolic entry",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "entry",
-          "depth": "Nitrate reduction, glutamine/glutamate and carbon-energy link; detailed enzymes reserved for subsequent chapters",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Microbial fixation",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "fixation",
-          "depth": "Parallel supply route, nitrogenase introduction and symbiotic transfer",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Experimental evidence",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "history, measure, data-compare",
-          "depth": "Culture experiments, mutants, isotope and flux measurements",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Integration and application",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "integration",
-          "depth": "Nitrogen budgets, root allocation and efficiency",
-          "status": "covered"
-        }
+      "word_count_method": "Whitespace-separated words in saved teaching-prose paragraphs only.",
+      "scope": "Revised 2026 merged CSIR–UGC–DBT Unit 6.C, separate CSIR Life Sciences syllabus Unit 6.C, MP SET 2022 mirrored syllabus; repository 6.C.02 roadmap.",
+      "coverage": [
+        "Nitrate and nitrite reduction: cytosolic NR and plastid NiR",
+        "FAD, heme, Mo cofactor and ferredoxin",
+        "Electron and proton balances",
+        "Regulation, compartmentation, nitrite toxicity and isotope tracing",
+        "Root and leaf coordination, connection to GS–GOGAT, analytical reasoning"
       ],
       "review_pass_1": {
-        "type": "Internal scientific and syllabus review",
-        "result": "pass with disclosed limitations",
-        "findings": "Checked N oxidation states and separate uptake/reduction/assimilation/fixation, mineralization and microbial pathways, negative cytosolic voltage sign, proton symport free energy, NPF and NRT2 context, AMT regulation, ammonium speciation, nitrate pools and redistribution, carbon/energy requirements, isotope inference and nitrogen budgets. Recomputed signed membrane energy, pH fractions, rate, electron and mass balances and checked question answers. Revised schematics and references."
+        "result": "pass with limitations",
+        "evidence": "Checked official CSIR syllabus scope and mirrored MP SET document; reviewed redox balances, enzyme cofactor assignments, locations, regulation and distinction between nitrate assimilation and fixation; checked question options and explanations."
       },
       "review_pass_2": {
-        "type": "Separate internal editorial and static reader review",
-        "result": "pass with disclosed limitations",
-        "findings": "Compared with 6.A.04 exemplar; 13,442 words in 142 unique teaching paragraphs; progressive sections, glossary, 12 labeled SVGs and zoom targets, 50 explained questions, 17 traps and 14 recall prompts; answer positions balanced; canonical, anchors and IDs checked. Existing reader controls and adjacent navigation retained. Browser runtime not tested."
+        "result": "pass with limitations",
+        "evidence": "Checked saved HTML teaching count, diagram count, all 50 answer mappings and option positions, expanded 15 misconception explanations, 10 recall prompts, revision section, JS compilation, unique IDs, anchors and ARIA references; added SVG zoom controls."
       },
       "quality": {
         "score": 95,
@@ -43856,19 +43895,19 @@
           "scientific_accuracy": 19,
           "syllabus_coverage": 15,
           "teaching_depth": 15,
-          "pedagogy": 10,
+          "pedagogy": 9,
           "illustrations": 9,
           "questions": 9,
           "experimental_reasoning": 5,
           "revision": 5,
           "reader_accessibility": 4,
-          "technical_seo": 4
+          "technical_seo": 5
         },
-        "basis": "Internal rubric, not independent certification; deductions for limited independent review, schematic SVGs not visually rendered, some concise distractor explanations, no interactive accessibility test and no browser runtime test."
+        "basis": "Internal editorial assessment. Deductions reflect schematic simplifications, concise explanations for some distractors, and lack of rendered browser and independent exam calibration."
       },
       "validation": {
-        "word_count_pass": true,
-        "svg_count_pass": true,
+        "words_pass": true,
+        "svg_pass": true,
         "question_count_pass": true,
         "answer_mapping_pass": true,
         "duplicate_ids": 0,
@@ -43876,44 +43915,45 @@
         "unresolved_aria_references": 0,
         "unresolved_zoom_targets": 0,
         "duplicate_teaching_paragraphs": 0,
-        "canonical_pass": true,
-        "reference_verification": "Official CSIR revised and separate syllabus; MP SET mirror; bibliographic retrieval for academic references.",
+        "placeholder_markers": 0,
+        "js_syntax_compiled": true,
         "interactive_browser_test": false
       },
-      "navigation": {
-        "previous": "6.B.05",
-        "next": "6.C.02",
-        "reciprocal": "Dynamic reader uses homepage menu; unavailable neighbors disabled until published."
+      "limitations": [
+        "Internal assessment, not independent peer review.",
+        "MP SET verified against mirrored 2022 syllabus, not live official MPPSC source.",
+        "No interactive browser or screen-reader test; static markup and JavaScript review only.",
+        "Pages deployment not yet verified."
+      ],
+      "publication": {
+        "strategy": "Atomic tree/commit and conditional non-force update",
+        "deployment": "pending",
+        "live_verified": false
       },
+      "production_chapter_blob_sha": "7767f0677c5f8914e8817fc9ff37b1d7e7f728fd",
       "progress": {
-        "subunit_published": 1,
+        "subunit_published": 2,
         "subunit_planned": 6,
-        "unit_published": 11,
+        "unit_published": 12,
         "unit_planned": 66,
-        "academy_published": 260,
+        "academy_published": 261,
         "academy_planned": 723,
         "next_pending_node_id": "6.B.01"
       },
-      "limitations": [
-        "No external independent scientific reviewer.",
-        "Static checks, no interactive browser, mobile or screen-reader verification.",
-        "MP SET syllabus mirror, not verified from MPPSC host.",
-        "GitHub Pages and live HTTP/content verification pending."
-      ],
+      "navigation": {
+        "previous": "6.C.01",
+        "next": "6.C.03",
+        "mechanism": "Existing dynamic reader links resolve only published nodes from menu."
+      },
       "changed_files": [
-        "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+        "nitrate-and-nitrite-reduction-in-plants.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
         "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6c01-publication-qa.json"
-      ],
-      "publication": {
-        "strategy": "Atomic tree/commit; conditional non-force main ref",
-        "deployment": "pending",
-        "live_verified": false
-      }
+        "curriculum/node-6c02-publication-qa.json"
+      ]
     },
     "qa_by_node": {
       "6.A.01": {
@@ -45882,6 +45922,122 @@
           "deployment": "pending",
           "live_verified": false
         }
+      },
+      "6.C.02": {
+        "node_id": "6.C.02",
+        "title": "Nitrate and Nitrite Reduction in Plants",
+        "slug": "nitrate-and-nitrite-reduction-in-plants.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html",
+        "unit": "06",
+        "subunit": "6.C",
+        "topic": "Nitrogen Metabolism",
+        "date": "2026-11-27",
+        "status": "academic_qa_passed_deployment_verification_pending",
+        "source_draft_branch": "draft/6c02-nitrate-nitrite-reduction-20261127",
+        "source_draft_commit_sha": "4783dccdd6c80afb746a63d078b13e8499e15796",
+        "source_draft_blob_sha": "f63a668bd0322ab7cf6078fa227b393327d1d60d",
+        "publication_base_sha": "991b10ecc8b34519250d9da95100c44d8b407e2f",
+        "metrics": {
+          "genuine_teaching_words": 13318,
+          "svg": 10,
+          "tables": 1,
+          "total_questions": 50,
+          "part_b": 20,
+          "part_c": 20,
+          "other_questions": 10,
+          "answer_positions": {
+            "A": 13,
+            "B": 12,
+            "C": 13,
+            "D": 12
+          },
+          "misconceptions": 15,
+          "active_recall": 10,
+          "references": 14
+        },
+        "word_count_method": "Whitespace-separated words in saved teaching-prose paragraphs only.",
+        "scope": "Revised 2026 merged CSIR–UGC–DBT Unit 6.C, separate CSIR Life Sciences syllabus Unit 6.C, MP SET 2022 mirrored syllabus; repository 6.C.02 roadmap.",
+        "coverage": [
+          "Nitrate and nitrite reduction: cytosolic NR and plastid NiR",
+          "FAD, heme, Mo cofactor and ferredoxin",
+          "Electron and proton balances",
+          "Regulation, compartmentation, nitrite toxicity and isotope tracing",
+          "Root and leaf coordination, connection to GS–GOGAT, analytical reasoning"
+        ],
+        "review_pass_1": {
+          "result": "pass with limitations",
+          "evidence": "Checked official CSIR syllabus scope and mirrored MP SET document; reviewed redox balances, enzyme cofactor assignments, locations, regulation and distinction between nitrate assimilation and fixation; checked question options and explanations."
+        },
+        "review_pass_2": {
+          "result": "pass with limitations",
+          "evidence": "Checked saved HTML teaching count, diagram count, all 50 answer mappings and option positions, expanded 15 misconception explanations, 10 recall prompts, revision section, JS compilation, unique IDs, anchors and ARIA references; added SVG zoom controls."
+        },
+        "quality": {
+          "score": 95,
+          "threshold": 95,
+          "rubric": {
+            "scientific_accuracy": 19,
+            "syllabus_coverage": 15,
+            "teaching_depth": 15,
+            "pedagogy": 9,
+            "illustrations": 9,
+            "questions": 9,
+            "experimental_reasoning": 5,
+            "revision": 5,
+            "reader_accessibility": 4,
+            "technical_seo": 5
+          },
+          "basis": "Internal editorial assessment. Deductions reflect schematic simplifications, concise explanations for some distractors, and lack of rendered browser and independent exam calibration."
+        },
+        "validation": {
+          "words_pass": true,
+          "svg_pass": true,
+          "question_count_pass": true,
+          "answer_mapping_pass": true,
+          "duplicate_ids": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria_references": 0,
+          "unresolved_zoom_targets": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "placeholder_markers": 0,
+          "js_syntax_compiled": true,
+          "interactive_browser_test": false
+        },
+        "limitations": [
+          "Internal assessment, not independent peer review.",
+          "MP SET verified against mirrored 2022 syllabus, not live official MPPSC source.",
+          "No interactive browser or screen-reader test; static markup and JavaScript review only.",
+          "Pages deployment not yet verified."
+        ],
+        "publication": {
+          "strategy": "Atomic tree/commit and conditional non-force update",
+          "deployment": "pending",
+          "live_verified": false
+        },
+        "production_chapter_blob_sha": "7767f0677c5f8914e8817fc9ff37b1d7e7f728fd",
+        "progress": {
+          "subunit_published": 2,
+          "subunit_planned": 6,
+          "unit_published": 12,
+          "unit_planned": 66,
+          "academy_published": 261,
+          "academy_planned": 723,
+          "next_pending_node_id": "6.B.01"
+        },
+        "navigation": {
+          "previous": "6.C.01",
+          "next": "6.C.03",
+          "mechanism": "Existing dynamic reader links resolve only published nodes from menu."
+        },
+        "changed_files": [
+          "nitrate-and-nitrite-reduction-in-plants.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+          "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+          "curriculum/node-6c02-publication-qa.json"
+        ]
       }
     },
     "next_pending_node_id": "6.B.01",
@@ -45903,122 +46059,194 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.B.02",
-      "title": "Plant Mitochondrial Electron Transport Chain",
-      "slug": "plant-mitochondrial-electron-transport-chain.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html",
+      "node_id": "6.C.01",
+      "title": "Nitrogen Nutrition: Sources, Uptake and Metabolic Entry",
+      "slug": "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
       "unit": "06",
-      "subunit": "6.B",
-      "topic": "Respiration and Photorespiration",
+      "subunit": "6.C",
+      "topic": "Nitrogen Metabolism",
       "date": "2026-11-27",
-      "source_draft_branch": "draft/node-6b02-plant-mitochondrial-electron-transport",
-      "source_draft_commit_sha": "f760df3837e62916bc37a3df86e11d1abc0baa94",
-      "chapter_blob_sha": "9950f402d790e33d3406f5796a6e4b1f05e146da",
-      "publication_base_sha": "ab1366691858cf135feb674e0432fa86a68833f9",
       "status": "academic_qa_passed_deployment_verification_pending",
+      "source_draft_branch": "draft/6-c-01-nitrogen-nutrition",
+      "source_draft_commit_sha": "8db6926b5483065c67be42a09e7fe77070f63fd8",
+      "source_draft_blob_sha": "8582ae80b8453409d40f049a1cfd3fe763912f5b",
+      "production_chapter_blob_sha": "c00e552290b17b042a815180102c4391dcbe0d7d",
+      "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+      "publication_base_sha": "7563db8416b85e06575b881cedacf8eb7e0f088a",
+      "production_robots": "index,follow",
       "metrics": {
-        "teaching_prose_words": 13918,
-        "teaching_paragraphs": 123,
-        "visible_article_words": 18974,
-        "teaching_sections": 12,
-        "svg": 13,
+        "genuine_teaching_words": 13442,
+        "teaching_paragraphs": 142,
+        "svg": 12,
         "tables": 4,
-        "graphs": 3,
-        "questions": 55,
-        "part_b": 25,
-        "part_c": 25,
-        "other": 5,
+        "graph_and_chart_figures": 3,
+        "total_questions": 50,
+        "part_b": 20,
+        "part_c": 22,
+        "other_questions": 8,
+        "answer_positions": {
+          "A": 11,
+          "B": 11,
+          "C": 10,
+          "D": 10
+        },
         "misconceptions": 17,
-        "active_recall": 13,
-        "references": 11
+        "active_recall": 14,
+        "references": 13
       },
-      "word_count_method": "Whitespace-separated visible text of p.teaching-prose only; excludes questions, captions, tables, references, headings and navigation. Re-fetched saved HTML.",
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogy": 9,
-        "scientific_illustrations": 9,
-        "assessment": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "technical_integrity": 5
+      "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after removing inline tags; excludes figures, tables, questions, references, revision and navigation.",
+      "scope": {
+        "official": "Revised CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C; mirrored MP SET 2024 Life Sciences Paper II",
+        "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "boundaries": "Detailed nitrate reductase, GS–GOGAT, amino acid synthesis and fixation reserved for subsequent 6.C nodes; bulk solute transport reserved for later subunit."
       },
-      "score": 95,
       "coverage_matrix": [
-        [
-          "Plant mitochondria, respiratory membrane",
-          "problem; topology"
-        ],
-        [
-          "Redox energetics and carriers",
-          "redox; pool"
-        ],
-        [
-          "Complex I and II",
-          "complex-i; complex-ii"
-        ],
-        [
-          "Complex III Q cycle",
-          "complex-iii"
-        ],
-        [
-          "Complex IV oxygen reduction",
-          "complex-iv"
-        ],
-        [
-          "Plant-specific alternative dehydrogenases and oxidase",
-          "alternative-entry; proton-accounting"
-        ],
-        [
-          "Proton stoichiometry and mixed paths",
-          "proton-accounting"
-        ],
-        [
-          "Experiments, inhibitors and oxygen measurements",
-          "evidence"
-        ],
-        [
-          "Regulation and reactive oxygen species",
-          "regulation-ros"
-        ]
+        {
+          "microtopic": "Need and nitrogen forms",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "need, forms",
+          "depth": "Biological need; molecular N, ammonium, nitrate, nitrite and oxidation states",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Soil nitrogen supply and transformations",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "soil, soil-compare",
+          "depth": "Mineralization, immobilization, nitrification, denitrification and soil transport",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Membrane energetics",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "membrane",
+          "depth": "Electrochemical work, H+-ATPase, proton-coupled nitrate acquisition",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Nitrate acquisition and regulation",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "systems",
+          "depth": "NPF/NRT2 systems, affinity, kinetics, signaling and feedback",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Ammonium acquisition and regulation",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "ammonium, ion-compare",
+          "depth": "AMT, pH speciation, feedback and nitrate comparison",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Storage and long-distance distribution",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "distribution",
+          "depth": "Vacuolar pools, xylem, phloem, redistribution",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Metabolic entry",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "entry",
+          "depth": "Nitrate reduction, glutamine/glutamate and carbon-energy link; detailed enzymes reserved for subsequent chapters",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Microbial fixation",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "fixation",
+          "depth": "Parallel supply route, nitrogenase introduction and symbiotic transfer",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Experimental evidence",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "history, measure, data-compare",
+          "depth": "Culture experiments, mutants, isotope and flux measurements",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Integration and application",
+          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "sections": "integration",
+          "depth": "Nitrogen budgets, root allocation and efficiency",
+          "status": "covered"
+        }
       ],
-      "scientific_review": "Checked electron/proton stoichiometry, Q cycle, matrix/P-side topology, alternative pathway distinctions, inhibitor caveats and AtNDB2 experimental evidence against authoritative literature. Recalculated worked examples. Distinguishes conventional assumptions from plant variability.",
-      "editorial_review": "Compared teaching depth with 6.A.04 (13,601 words); checked beginner-to-Part-C progression, corrected SVG membrane topology, balanced answer distribution (A15 B14 C13 D13), checked explanations, recall and misconceptions.",
-      "deductions": "Selected source cross-checks and schematic simplifications (1); some repeated caution (1); SVG static rather than rendered review (1); questions not externally calibrated (1); no browser/assistive-technology interactive test (1).",
-      "static_checks": {
-        "duplicate_ids": 0,
-        "unresolved_internal_anchors": 0,
-        "unresolved_aria_ids": 0,
-        "unresolved_zoom_targets": 0,
-        "tag_nesting_errors": 0,
-        "duplicate_teaching_paragraphs": 0,
-        "question_answer_option_mismatches": 0,
-        "empty_question_explanations": 0,
-        "placeholder_markers": 0,
-        "svg_title_desc_viewbox": 13,
-        "javascript_syntax": "pass",
-        "canonical": "pass",
-        "robots": "index,follow",
-        "saved_candidate_match": true
+      "review_pass_1": {
+        "type": "Internal scientific and syllabus review",
+        "result": "pass with disclosed limitations",
+        "findings": "Checked N oxidation states and separate uptake/reduction/assimilation/fixation, mineralization and microbial pathways, negative cytosolic voltage sign, proton symport free energy, NPF and NRT2 context, AMT regulation, ammonium speciation, nitrate pools and redistribution, carbon/energy requirements, isotope inference and nitrogen budgets. Recomputed signed membrane energy, pH fractions, rate, electron and mass balances and checked question answers. Revised schematics and references."
       },
-      "source_checks": {
-        "official": "CSIR-UGC NET Life Sciences and Biotechnology merged January 2026 syllabus, Unit 6B; existing separate Life Sciences syllabus; MP SET 2024 syllabus mirror",
-        "references": "11 entries including plant OXPHOS review, alternative NADH dehydrogenases, AtNDB2 experimental paper, Q-cycle, chemiosmosis and ROS"
+      "review_pass_2": {
+        "type": "Separate internal editorial and static reader review",
+        "result": "pass with disclosed limitations",
+        "findings": "Compared with 6.A.04 exemplar; 13,442 words in 142 unique teaching paragraphs; progressive sections, glossary, 12 labeled SVGs and zoom targets, 50 explained questions, 17 traps and 14 recall prompts; answer positions balanced; canonical, anchors and IDs checked. Existing reader controls and adjacent navigation retained. Browser runtime not tested."
+      },
+      "quality": {
+        "score": 95,
+        "threshold": 95,
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "questions": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "basis": "Internal rubric, not independent certification; deductions for limited independent review, schematic SVGs not visually rendered, some concise distractor explanations, no interactive accessibility test and no browser runtime test."
+      },
+      "validation": {
+        "word_count_pass": true,
+        "svg_count_pass": true,
+        "question_count_pass": true,
+        "answer_mapping_pass": true,
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_references": 0,
+        "unresolved_zoom_targets": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "canonical_pass": true,
+        "reference_verification": "Official CSIR revised and separate syllabus; MP SET mirror; bibliographic retrieval for academic references.",
+        "interactive_browser_test": false
+      },
+      "navigation": {
+        "previous": "6.B.05",
+        "next": "6.C.02",
+        "reciprocal": "Dynamic reader uses homepage menu; unavailable neighbors disabled until published."
+      },
+      "progress": {
+        "subunit_published": 1,
+        "subunit_planned": 6,
+        "unit_published": 11,
+        "unit_planned": 66,
+        "academy_published": 260,
+        "academy_planned": 723,
+        "next_pending_node_id": "6.B.01"
       },
       "limitations": [
-        "Internal two-pass review, not external peer review.",
-        "Interactive browser rendering and assistive-technology checks unavailable; static inspection only.",
-        "MP SET syllabus checked through a mirror.",
-        "Pages deployment and live HTTP/content checks pending at commit time."
+        "No external independent scientific reviewer.",
+        "Static checks, no interactive browser, mobile or screen-reader verification.",
+        "MP SET syllabus mirror, not verified from MPPSC host.",
+        "GitHub Pages and live HTTP/content verification pending."
+      ],
+      "changed_files": [
+        "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+        "curriculum/node-6c01-publication-qa.json"
       ],
       "publication": {
-        "prior_count": 258,
-        "new_count": 259,
-        "unit_published": 10,
-        "subunit_published": 2,
-        "next_pending_node_id": "6.B.01"
+        "strategy": "Atomic tree/commit; conditional non-force main ref",
+        "deployment": "pending",
+        "live_verified": false
       }
     },
     "subunit_6b": {
@@ -46032,9 +46260,10 @@
     },
     "subunit_6c": {
       "published_node_ids": [
-        "6.C.01"
+        "6.C.01",
+        "6.C.02"
       ],
-      "published_node_count": 1,
+      "published_node_count": 2,
       "planned_node_count": 6,
       "complete": false
     }
@@ -46045,7 +46274,8 @@
   ],
   "unit6b_planned_node_count": 5,
   "unit6c_published_node_ids": [
-    "6.C.01"
+    "6.C.01",
+    "6.C.02"
   ],
   "unit6c_planned_node_count": 6
 }

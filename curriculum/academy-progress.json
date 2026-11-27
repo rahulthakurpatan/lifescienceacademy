@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.A.07",
-  "title": "C4 Photosynthesis and the Carbon-Concentrating Mechanism",
+  "node_id": "6.A.08",
+  "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
   "subunit": "6.A",
   "topic": "Photosynthesis",
-  "slug": "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+  "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
   "next_pending_node_id": "6.A.04",
   "next_pending_node_title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
-  "published_node_count": 255,
+  "published_node_count": 256,
   "publication_allowed": true,
-  "main_baseline_sha": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
+  "main_baseline_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue with 6.A.04",
   "planned_node_count": 66,
@@ -21,198 +21,147 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.A.07",
-    "title": "C4 Photosynthesis and the Carbon-Concentrating Mechanism",
-    "slug": "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+    "node_id": "6.A.08",
+    "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
+    "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
     "unit": "06",
     "subunit": "6.A",
     "topic": "Photosynthesis",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6-a-07-c4-photosynthesis",
-    "source_draft_commit_sha": "72ddbcc38fb2bf5769897dc8e83042043eb29f33",
-    "source_draft_blob_sha": "ef9dbb4abdc67ac79ca4cc556a1e2605879ecf31",
-    "production_chapter_blob_sha": "127d06e554c6882beb19a006e4ac4fa3c695286a",
-    "initial_main_head": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
-    "publication_base_sha": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
+    "source_draft_branch": "draft/6a08-cam-photosynthesis",
+    "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
+    "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
+    "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+    "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+    "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 14260,
-      "teaching_paragraphs": 141,
-      "visible_article_words_excluding_svg_and_buttons": 18787,
-      "svg": 12,
-      "tables": 3,
-      "graph_and_chart_figures": 4,
+      "genuine_teaching_words": 13337,
+      "teaching_paragraphs": 131,
+      "svg": 11,
+      "tables": 4,
+      "graph_and_chart_figures": 3,
       "worked_numerical_examples": 10,
-      "total_questions": 52,
+      "total_questions": 50,
       "part_b": 20,
-      "part_c": 22,
+      "part_c": 20,
       "other_questions": 10,
       "answer_positions": {
         "A": 13,
-        "B": 13,
+        "B": 12,
         "C": 13,
-        "D": 13
+        "D": 12
       },
-      "misconceptions": 17,
+      "misconceptions": 15,
       "active_recall": 12,
-      "references": 14,
-      "teaching_sections": 19,
-      "total_sections": 26
+      "references": 9
     },
-    "word_count_method": "Whitespace-separated tokens inside saved p.teaching-prose only; excludes questions, references, captions, tables, navigation and revision.",
+    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
     "scope": {
-      "official": "2026 revised CSIR–UGC–DBT Unit 6.A, separate CSIR Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
+      "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
       "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-      "boundaries": "Full photorespiratory pathway reserved for 6.B; CAM temporal mechanism detailed in 6.A.08; stomatal transport in 6.F."
+      "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
     },
     "coverage_matrix": [
       {
-        "microtopic": "Rubisco oxygenation and C4 motivation",
+        "microtopic": "CAM motivation and discovery",
         "sections": [
-          "problem",
-          "physiology"
+          "problem"
         ],
-        "depth": "Competition and energy tradeoff",
-        "reasoning": "Oxygen response and local substrate ratio",
+        "depth": "History, gas exchange, VPD and transpiration",
+        "reasoning": "Interpret equal-conductance VPD comparison",
         "status": "covered"
       },
       {
-        "microtopic": "Kranz anatomy, mesophyll/bundle sheath and single-cell exception",
+        "microtopic": "Nocturnal PEPC fixation",
         "sections": [
-          "anatomy",
-          "transport",
-          "evolution"
+          "night"
         ],
-        "depth": "Cell specialization, diffusion and contact",
-        "reasoning": "Structure versus functional flux",
+        "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
+        "reasoning": "Predict defects and tracer ordering",
         "status": "covered"
       },
       {
-        "microtopic": "CA, PEPC, bicarbonate and OAA",
+        "microtopic": "Vacuolar malate",
         "sections": [
-          "capture",
-          "chemistry"
+          "storage"
         ],
-        "depth": "Substrates, carbon conservation, regulation",
-        "reasoning": "Early tracer and CA/PEPC lesions",
+        "depth": "Proton gradients, tonoplast transport, acidity and volume",
+        "reasoning": "Capacity and retention reasoning",
         "status": "covered"
       },
       {
-        "microtopic": "Malate/aspartate movement and decarboxylation",
+        "microtopic": "Daytime decarboxylation",
         "sections": [
-          "cycle",
-          "subtypes",
-          "transport"
+          "day"
         ],
-        "depth": "Organelle-specific route and carbon return",
-        "reasoning": "Transport block and enzyme localization",
+        "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
+        "reasoning": "Carbon accounting and energy balance",
         "status": "covered"
       },
       {
-        "microtopic": "NADP-ME, NAD-ME and PEPCK subtype differences",
+        "microtopic": "Four phases and regulation",
         "sections": [
-          "subtypes",
+          "phases"
+        ],
+        "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
+        "reasoning": "Interpret acid pool and conductance curves",
+        "status": "covered"
+      },
+      {
+        "microtopic": "CAM variants",
+        "sections": [
+          "variants"
+        ],
+        "depth": "Constitutive, facultative, cycling and idling",
+        "reasoning": "Stress and rewatering controls",
+        "status": "covered"
+      },
+      {
+        "microtopic": "C3/C4/CAM comparison",
+        "sections": [
           "comparison"
         ],
-        "depth": "Enzymes, direct substrates and products, mixed routes",
-        "reasoning": "Classify based on evidence",
+        "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
+        "reasoning": "Compare water-use and gross retention",
         "status": "covered"
       },
       {
-        "microtopic": "PPDK-dependent PEP regeneration",
+        "microtopic": "Experimental evidence",
         "sections": [
-          "cycle",
-          "chemistry",
-          "control"
+          "evidence"
         ],
-        "depth": "ATP→AMP accounting and reversible regulation",
-        "reasoning": "Mutant and energetic constraints",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Calvin cycle and energy cost, leakiness",
-        "sections": [
-          "energy",
-          "physical",
-          "lightbalance",
-          "integration"
-        ],
-        "depth": "Ideal 5 ATP equivalents and 2 NADPH; explicit assumptions",
-        "reasoning": "Recomputed flux, diffusion, cost examples",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Hatch–Slack radiolabel evidence",
-        "sections": [
-          "evidence",
-          "labeldesign"
-        ],
-        "depth": "Pulse–chase, controls, compartment assays",
-        "reasoning": "Tracer counts versus percentages and competing hypotheses",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Water/nitrogen use, environmental advantages, representative crops",
-        "sections": [
-          "physiology",
-          "efficiency",
-          "gasexchange"
-        ],
-        "depth": "Conditional benefits and physiological limits",
-        "reasoning": "iWUE and gas exchange examples",
-        "status": "covered"
-      },
-      {
-        "microtopic": "C3/C4/CAM comparison and scope boundaries",
-        "sections": [
-          "physiology",
-          "comparison",
-          "integration",
-          "revision"
-        ],
-        "depth": "First products, spatial/temporal mechanisms and shared Calvin cycle",
-        "reasoning": "Comparative question bank",
+        "depth": "Tracer, isotope, titration and gas exchange",
+        "reasoning": "Quantitative interpretation",
         "status": "covered"
       }
     ],
     "review_pass_1": {
       "type": "Internal scientific and syllabus review",
-      "findings": "Cross-checked syllabus and roadmap, Hatch–Slack original paper, subtype and transport reviews, energy model and regulation papers; checked carbon and cofactor accounting, decarboxylase localization, ATP-to-AMP stoichiometry and limitations. Recomputed sample leakiness, ATP budgets, conductance, carbon concentration, tracer recovery and water-use ratio; checked key answers.",
-      "recomputed": {
-        "leakiness": 0.2,
-        "ATP_at_phi_0_25": 5.666666666666666,
-        "hexose_equivalent_ATP": 30,
-        "conductance_flux": 5,
-        "sheath_CO2": 700,
-        "water_efficiency_ratio": 2,
-        "chase_counts": 16,
-        "limited_ATP_assimilation": 15,
-        "net_assimilation_cost": 6.071428571428571
-      },
-      "result": "pass within stated source limitations"
+      "result": "pass within stated limitations",
+      "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
     },
     "review_pass_2": {
       "type": "Separate internal editorial and static reader review",
-      "findings": "Compared with verified neighboring 5.E.10 teaching prose (13,707 words), reviewed learning progression and repeated concept applications; added responsive tables, SVG zoom controls and corrected shuttle arrows; balanced question keys and checked exact option/answer correspondence. Re-read final saved chapter, counted teaching prose, validated IDs, anchors, ARIA and zoom targets, and compiled reader JS syntax.",
-      "result": "pass with static testing limitation"
+      "result": "pass with limitations",
+      "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
     },
     "quality": {
       "scientific_accuracy": 19,
       "syllabus_microtopic_coverage": 15,
       "genuine_teaching_depth": 15,
-      "pedagogical_quality": 9,
+      "pedagogical_quality": 10,
       "scientific_illustrations": 9,
-      "examination_questions_answers": 10,
+      "examination_questions_answers": 9,
       "experimental_analytical_reasoning": 5,
       "revision_mastery": 5,
       "reader_accessibility": 4,
       "technical_integrity_SEO": 4,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal rubric judgment; not external expert certification.",
-      "deductions": "Selected claim verification rather than external peer review; advanced sections revisit concepts in progressively harder contexts; schematic figures not visually browser-tested; no interactive/assistive-technology test; official MP SET source only mirrored."
+      "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
     },
     "validation": {
       "teaching_words_pass": true,
@@ -227,51 +176,43 @@
       "placeholder_markers": 0,
       "js_syntax_compiled": true,
       "interactive_browser_test": false,
-      "reference_verification": "retrieved official revised syllabus, landmark paper and selected academic review links; mirror for MP SET"
+      "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
     },
     "navigation": {
-      "previous": "6.A.06",
+      "previous": "6.A.07",
       "previous_link_enabled": true,
-      "next_planned": "6.A.08",
+      "next_planned": "6.B.01",
       "next_link_enabled": false,
-      "reciprocal": "Existing dynamic chapter navigation resolves published links from latest homepage"
+      "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
     },
     "progress": {
-      "subunit_published": 6,
+      "subunit_published": 7,
       "subunit_planned": 8,
-      "unit_published": 6,
+      "unit_published": 7,
       "unit_planned": 66,
-      "academy_published": 255,
+      "academy_published": 256,
       "academy_planned": 723,
       "next_pending_node_id": "6.A.04"
     },
     "limitations": [
-      "No independent external reviewer or exam calibration.",
+      "No independent external academic review or exam calibration.",
       "No browser rendering or screen-reader interaction test; static checks only.",
-      "MP SET 2024 mirrored syllabus, not independently verified on official MPPSC host.",
-      "Official syllabus PDF screenshot attempt was unavailable; parsed official content verified.",
-      "Deployment and actual live content not yet verified."
+      "MP SET syllabus mirror, not verified on official MPPSC host.",
+      "Deployment and live verification pending."
     ],
     "changed_files": [
-      "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+      "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
       "curriculum/subunit-6a-photosynthesis-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6a07-publication-qa.json"
+      "curriculum/node-6a08-publication-qa.json"
     ],
     "publication": {
-      "strategy": "atomic tree and single commit, conditional non-force main ref",
+      "strategy": "Atomic tree/commit, conditional non-force main ref",
       "deployment": "pending",
       "live_verified": false
-    },
-    "concurrency": {
-      "initial_main": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
-      "abandoned_prepared_commit": "f02909f1f2e24d769d0b89989f4aebd20ee6d26b",
-      "latest_base": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
-      "preserved_prior_menu_entries": 254,
-      "prior_progress_preserved": true
     }
   },
   "published_node_ids": [
@@ -529,268 +470,515 @@
     "6.A.03",
     "6.A.05",
     "6.A.06",
-    "6.A.07"
+    "6.A.07",
+    "6.A.08"
   ],
   "prior_publication_qa": {
-    "node_id": "6.A.02",
-    "title": "Photosystem II and Photolysis of Water",
-    "slug": "photosystem-ii-and-photolysis-of-water.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html",
+    "node_id": "6.A.07",
+    "title": "C4 Photosynthesis and the Carbon-Concentrating Mechanism",
+    "slug": "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
     "unit": "06",
     "subunit": "6.A",
     "topic": "Photosynthesis",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/node-6a02-photosystem-ii-20261127",
-    "source_draft_commit_sha": "c70879528c850aaf9a51ce7ec75025c5e6a208ec",
-    "source_draft_blob_sha": "b72dde57d48db3ffeec59bc851793c4374abbd90",
-    "production_chapter_blob_sha": "53de96af02ffac2235faa2471f7d3bcbefa29115",
-    "publication_base_sha": "bb03c1fa01317a6ddf455f75a94f188965ba065d",
+    "source_draft_branch": "draft/6-a-07-c4-photosynthesis",
+    "source_draft_commit_sha": "72ddbcc38fb2bf5769897dc8e83042043eb29f33",
+    "source_draft_blob_sha": "ef9dbb4abdc67ac79ca4cc556a1e2605879ecf31",
+    "production_chapter_blob_sha": "127d06e554c6882beb19a006e4ac4fa3c695286a",
+    "initial_main_head": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
+    "publication_base_sha": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13560,
-      "teaching_paragraphs": 140,
-      "theory_sections": 12,
+      "genuine_teaching_words": 14260,
+      "teaching_paragraphs": 141,
+      "visible_article_words_excluding_svg_and_buttons": 18787,
       "svg": 12,
-      "tables": 6,
-      "graphs": 2,
+      "tables": 3,
+      "graph_and_chart_figures": 4,
+      "worked_numerical_examples": 10,
+      "total_questions": 52,
       "part_b": 20,
-      "part_c": 20,
+      "part_c": 22,
       "other_questions": 10,
-      "total_questions": 50,
       "answer_positions": {
         "A": 13,
         "B": 13,
-        "C": 12,
-        "D": 12
+        "C": 13,
+        "D": 13
       },
-      "references": 14,
       "misconceptions": 17,
-      "active_recall": 14
+      "active_recall": 12,
+      "references": 14,
+      "teaching_sections": 19,
+      "total_sections": 26
     },
-    "word_count_method": "Saved p.teaching-prose whitespace tokens only, excluding headings, questions, captions, tables, SVG, revision and references.",
+    "word_count_method": "Whitespace-separated tokens inside saved p.teaching-prose only; excludes questions, references, captions, tables, navigation and revision.",
     "scope": {
-      "official": "CSIR June 2026 and revised 2026 CSIR–UGC–DBT Unit 6.A; MP SET 2024 mirror",
+      "official": "2026 revised CSIR–UGC–DBT Unit 6.A, separate CSIR Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
       "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-      "boundary": "Antenna 6.A.01; downstream chain 6.A.03; ATP 6.A.04; photoprotection 6.A.05."
+      "boundaries": "Full photorespiratory pathway reserved for 6.B; CAM temporal mechanism detailed in 6.A.08; stomatal transport in 6.F."
     },
-    "coverage_matrix": {
-      "architecture": "PSII core, LHCII, D1/D2, CP43/47 and membrane topology",
-      "excitation": "P680, excitation, charge separation and pheophytin",
-      "donor": "P680+, TyrZ, donor regeneration",
-      "water": "Mn4CaO5, water oxidation, proton release and oxygen origin",
-      "kok": "S-state cycle and period-four flash patterns",
-      "quinones": "QA/QB, PQ pool and stromal protons",
-      "accounting": "Four-electron balance, ideal vs observed yield and photon energy",
-      "history": "Hill reaction, isotopes and flash evidence",
-      "inhibitors": "DCMU and controlled predictions",
-      "fluorescence": "QA reduction and fluorescence limitations",
-      "integration": "Linear flow, gross/net oxygen, physiological relevance"
-    },
+    "coverage_matrix": [
+      {
+        "microtopic": "Rubisco oxygenation and C4 motivation",
+        "sections": [
+          "problem",
+          "physiology"
+        ],
+        "depth": "Competition and energy tradeoff",
+        "reasoning": "Oxygen response and local substrate ratio",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Kranz anatomy, mesophyll/bundle sheath and single-cell exception",
+        "sections": [
+          "anatomy",
+          "transport",
+          "evolution"
+        ],
+        "depth": "Cell specialization, diffusion and contact",
+        "reasoning": "Structure versus functional flux",
+        "status": "covered"
+      },
+      {
+        "microtopic": "CA, PEPC, bicarbonate and OAA",
+        "sections": [
+          "capture",
+          "chemistry"
+        ],
+        "depth": "Substrates, carbon conservation, regulation",
+        "reasoning": "Early tracer and CA/PEPC lesions",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Malate/aspartate movement and decarboxylation",
+        "sections": [
+          "cycle",
+          "subtypes",
+          "transport"
+        ],
+        "depth": "Organelle-specific route and carbon return",
+        "reasoning": "Transport block and enzyme localization",
+        "status": "covered"
+      },
+      {
+        "microtopic": "NADP-ME, NAD-ME and PEPCK subtype differences",
+        "sections": [
+          "subtypes",
+          "comparison"
+        ],
+        "depth": "Enzymes, direct substrates and products, mixed routes",
+        "reasoning": "Classify based on evidence",
+        "status": "covered"
+      },
+      {
+        "microtopic": "PPDK-dependent PEP regeneration",
+        "sections": [
+          "cycle",
+          "chemistry",
+          "control"
+        ],
+        "depth": "ATP→AMP accounting and reversible regulation",
+        "reasoning": "Mutant and energetic constraints",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Calvin cycle and energy cost, leakiness",
+        "sections": [
+          "energy",
+          "physical",
+          "lightbalance",
+          "integration"
+        ],
+        "depth": "Ideal 5 ATP equivalents and 2 NADPH; explicit assumptions",
+        "reasoning": "Recomputed flux, diffusion, cost examples",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Hatch–Slack radiolabel evidence",
+        "sections": [
+          "evidence",
+          "labeldesign"
+        ],
+        "depth": "Pulse–chase, controls, compartment assays",
+        "reasoning": "Tracer counts versus percentages and competing hypotheses",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Water/nitrogen use, environmental advantages, representative crops",
+        "sections": [
+          "physiology",
+          "efficiency",
+          "gasexchange"
+        ],
+        "depth": "Conditional benefits and physiological limits",
+        "reasoning": "iWUE and gas exchange examples",
+        "status": "covered"
+      },
+      {
+        "microtopic": "C3/C4/CAM comparison and scope boundaries",
+        "sections": [
+          "physiology",
+          "comparison",
+          "integration",
+          "revision"
+        ],
+        "depth": "First products, spatial/temporal mechanisms and shared Calvin cycle",
+        "reasoning": "Comparative question bank",
+        "status": "covered"
+      }
+    ],
     "review_pass_1": {
       "type": "Internal scientific and syllabus review",
-      "result": "pass within source limits",
-      "findings": "Checked donor/acceptor roles, water and proton stoichiometry, isotope logic, Kok cycle, DCMU and fluorescence against syllabus and selected sources; independently recalculated photon energies, yields, isotope probabilities, oxygen/quinol and fluorescence examples."
+      "findings": "Cross-checked syllabus and roadmap, Hatch–Slack original paper, subtype and transport reviews, energy model and regulation papers; checked carbon and cofactor accounting, decarboxylase localization, ATP-to-AMP stoichiometry and limitations. Recomputed sample leakiness, ATP budgets, conductance, carbon concentration, tracer recovery and water-use ratio; checked key answers.",
+      "recomputed": {
+        "leakiness": 0.2,
+        "ATP_at_phi_0_25": 5.666666666666666,
+        "hexose_equivalent_ATP": 30,
+        "conductance_flux": 5,
+        "sheath_CO2": 700,
+        "water_efficiency_ratio": 2,
+        "chase_counts": 16,
+        "limited_ATP_assimilation": 15,
+        "net_assimilation_cost": 6.071428571428571
+      },
+      "result": "pass within stated source limitations"
     },
     "review_pass_2": {
-      "type": "Separate internal teaching and static technical review",
-      "result": "pass with static-test limits",
-      "findings": "Benchmarked adjacent chapters (13,511–14,503 words), reviewed 140 unique teaching paragraphs, original SVGs, all answer mappings, balanced answer positions, misconceptions and recall; corrected OEC schematic and reference links; re-fetched saved HTML and validated nesting, IDs, anchors, ARIA and JS syntax."
+      "type": "Separate internal editorial and static reader review",
+      "findings": "Compared with verified neighboring 5.E.10 teaching prose (13,707 words), reviewed learning progression and repeated concept applications; added responsive tables, SVG zoom controls and corrected shuttle arrows; balanced question keys and checked exact option/answer correspondence. Re-read final saved chapter, counted teaching prose, validated IDs, anchors, ARIA and zoom targets, and compiled reader JS syntax.",
+      "result": "pass with static testing limitation"
     },
     "quality": {
       "scientific_accuracy": 19,
-      "syllabus_and_microtopic_coverage": 15,
+      "syllabus_microtopic_coverage": 15,
       "genuine_teaching_depth": 15,
-      "pedagogical_quality": 10,
+      "pedagogical_quality": 9,
       "scientific_illustrations": 9,
-      "examination_questions_and_answers": 9,
-      "experimental_and_analytical_reasoning": 5,
-      "revision_and_mastery": 5,
-      "reader_architecture_and_accessibility": 4,
-      "technical_integrity_and_seo": 4,
+      "examination_questions_answers": 10,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
+      "reader_accessibility": 4,
+      "technical_integrity_SEO": 4,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal owner-rubric assessment, not external certification",
-      "deductions": "Selective literature verification, schematic simplification, no externally calibrated questions, interactive browser/assistive technology or live SEO tests."
+      "assessment": "Internal rubric judgment; not external expert certification.",
+      "deductions": "Selected claim verification rather than external peer review; advanced sections revisit concepts in progressively harder contexts; schematic figures not visually browser-tested; no interactive/assistive-technology test; official MP SET source only mirrored."
     },
     "validation": {
-      "words_pass": true,
+      "teaching_words_pass": true,
       "svg_count_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
+      "unique_ids": true,
+      "anchors_pass": true,
+      "aria_references_pass": true,
+      "zoom_targets_pass": true,
       "duplicate_paragraphs": 0,
-      "duplicate_ids": 0,
-      "broken_anchors": 0,
-      "broken_aria": 0,
-      "html_tag_nesting_pass": true,
-      "javascript_syntax_pass": true,
-      "reader_browser_test": false,
-      "assistive_technology_test": false
+      "placeholder_markers": 0,
+      "js_syntax_compiled": true,
+      "interactive_browser_test": false,
+      "reference_verification": "retrieved official revised syllabus, landmark paper and selected academic review links; mirror for MP SET"
     },
     "navigation": {
-      "previous": "6.A.01",
-      "next": "6.A.03",
-      "mechanism": "Dynamic latest index links; adjacent concurrent publications preserved"
+      "previous": "6.A.06",
+      "previous_link_enabled": true,
+      "next_planned": "6.A.08",
+      "next_link_enabled": false,
+      "reciprocal": "Existing dynamic chapter navigation resolves published links from latest homepage"
     },
     "progress": {
-      "subunit_published": 5,
+      "subunit_published": 6,
       "subunit_planned": 8,
-      "unit_published": 5,
+      "unit_published": 6,
       "unit_planned": 66,
-      "academy_published": 254,
+      "academy_published": 255,
       "academy_planned": 723,
       "next_pending_node_id": "6.A.04"
     },
     "limitations": [
-      "MP SET 2024 mirror, current official MPPSC host not verified.",
-      "No external expert review or question calibration.",
-      "Static rather than interactive browser and assistive technology tests.",
-      "Deployment and live verification pending."
+      "No independent external reviewer or exam calibration.",
+      "No browser rendering or screen-reader interaction test; static checks only.",
+      "MP SET 2024 mirrored syllabus, not independently verified on official MPPSC host.",
+      "Official syllabus PDF screenshot attempt was unavailable; parsed official content verified.",
+      "Deployment and actual live content not yet verified."
     ],
     "changed_files": [
+      "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
       "index.html",
       "sitemap.xml",
+      "curriculum/academy-progress.json",
       "curriculum/subunit-6a-photosynthesis-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/academy-progress.json",
-      "curriculum/node-6a02-publication-qa.json",
-      "photosystem-ii-and-photolysis-of-water.html"
+      "curriculum/node-6a07-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Atomic tree/commit; conditional non-force update",
+      "strategy": "atomic tree and single commit, conditional non-force main ref",
       "deployment": "pending",
       "live_verified": false
+    },
+    "concurrency": {
+      "initial_main": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
+      "abandoned_prepared_commit": "f02909f1f2e24d769d0b89989f4aebd20ee6d26b",
+      "latest_base": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
+      "preserved_prior_menu_entries": 254,
+      "prior_progress_preserved": true
     }
   },
   "previous_last_qa": {
-    "node_id": "6.A.02",
-    "title": "Photosystem II and Photolysis of Water",
-    "slug": "photosystem-ii-and-photolysis-of-water.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html",
+    "node_id": "6.A.07",
+    "title": "C4 Photosynthesis and the Carbon-Concentrating Mechanism",
+    "slug": "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
     "unit": "06",
     "subunit": "6.A",
     "topic": "Photosynthesis",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/node-6a02-photosystem-ii-20261127",
-    "source_draft_commit_sha": "c70879528c850aaf9a51ce7ec75025c5e6a208ec",
-    "source_draft_blob_sha": "b72dde57d48db3ffeec59bc851793c4374abbd90",
-    "production_chapter_blob_sha": "53de96af02ffac2235faa2471f7d3bcbefa29115",
-    "publication_base_sha": "bb03c1fa01317a6ddf455f75a94f188965ba065d",
+    "source_draft_branch": "draft/6-a-07-c4-photosynthesis",
+    "source_draft_commit_sha": "72ddbcc38fb2bf5769897dc8e83042043eb29f33",
+    "source_draft_blob_sha": "ef9dbb4abdc67ac79ca4cc556a1e2605879ecf31",
+    "production_chapter_blob_sha": "127d06e554c6882beb19a006e4ac4fa3c695286a",
+    "initial_main_head": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
+    "publication_base_sha": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13560,
-      "teaching_paragraphs": 140,
-      "theory_sections": 12,
+      "genuine_teaching_words": 14260,
+      "teaching_paragraphs": 141,
+      "visible_article_words_excluding_svg_and_buttons": 18787,
       "svg": 12,
-      "tables": 6,
-      "graphs": 2,
+      "tables": 3,
+      "graph_and_chart_figures": 4,
+      "worked_numerical_examples": 10,
+      "total_questions": 52,
       "part_b": 20,
-      "part_c": 20,
+      "part_c": 22,
       "other_questions": 10,
-      "total_questions": 50,
       "answer_positions": {
         "A": 13,
         "B": 13,
-        "C": 12,
-        "D": 12
+        "C": 13,
+        "D": 13
       },
-      "references": 14,
       "misconceptions": 17,
-      "active_recall": 14
+      "active_recall": 12,
+      "references": 14,
+      "teaching_sections": 19,
+      "total_sections": 26
     },
-    "word_count_method": "Saved p.teaching-prose whitespace tokens only, excluding headings, questions, captions, tables, SVG, revision and references.",
+    "word_count_method": "Whitespace-separated tokens inside saved p.teaching-prose only; excludes questions, references, captions, tables, navigation and revision.",
     "scope": {
-      "official": "CSIR June 2026 and revised 2026 CSIR–UGC–DBT Unit 6.A; MP SET 2024 mirror",
+      "official": "2026 revised CSIR–UGC–DBT Unit 6.A, separate CSIR Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
       "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-      "boundary": "Antenna 6.A.01; downstream chain 6.A.03; ATP 6.A.04; photoprotection 6.A.05."
+      "boundaries": "Full photorespiratory pathway reserved for 6.B; CAM temporal mechanism detailed in 6.A.08; stomatal transport in 6.F."
     },
-    "coverage_matrix": {
-      "architecture": "PSII core, LHCII, D1/D2, CP43/47 and membrane topology",
-      "excitation": "P680, excitation, charge separation and pheophytin",
-      "donor": "P680+, TyrZ, donor regeneration",
-      "water": "Mn4CaO5, water oxidation, proton release and oxygen origin",
-      "kok": "S-state cycle and period-four flash patterns",
-      "quinones": "QA/QB, PQ pool and stromal protons",
-      "accounting": "Four-electron balance, ideal vs observed yield and photon energy",
-      "history": "Hill reaction, isotopes and flash evidence",
-      "inhibitors": "DCMU and controlled predictions",
-      "fluorescence": "QA reduction and fluorescence limitations",
-      "integration": "Linear flow, gross/net oxygen, physiological relevance"
-    },
+    "coverage_matrix": [
+      {
+        "microtopic": "Rubisco oxygenation and C4 motivation",
+        "sections": [
+          "problem",
+          "physiology"
+        ],
+        "depth": "Competition and energy tradeoff",
+        "reasoning": "Oxygen response and local substrate ratio",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Kranz anatomy, mesophyll/bundle sheath and single-cell exception",
+        "sections": [
+          "anatomy",
+          "transport",
+          "evolution"
+        ],
+        "depth": "Cell specialization, diffusion and contact",
+        "reasoning": "Structure versus functional flux",
+        "status": "covered"
+      },
+      {
+        "microtopic": "CA, PEPC, bicarbonate and OAA",
+        "sections": [
+          "capture",
+          "chemistry"
+        ],
+        "depth": "Substrates, carbon conservation, regulation",
+        "reasoning": "Early tracer and CA/PEPC lesions",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Malate/aspartate movement and decarboxylation",
+        "sections": [
+          "cycle",
+          "subtypes",
+          "transport"
+        ],
+        "depth": "Organelle-specific route and carbon return",
+        "reasoning": "Transport block and enzyme localization",
+        "status": "covered"
+      },
+      {
+        "microtopic": "NADP-ME, NAD-ME and PEPCK subtype differences",
+        "sections": [
+          "subtypes",
+          "comparison"
+        ],
+        "depth": "Enzymes, direct substrates and products, mixed routes",
+        "reasoning": "Classify based on evidence",
+        "status": "covered"
+      },
+      {
+        "microtopic": "PPDK-dependent PEP regeneration",
+        "sections": [
+          "cycle",
+          "chemistry",
+          "control"
+        ],
+        "depth": "ATP→AMP accounting and reversible regulation",
+        "reasoning": "Mutant and energetic constraints",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Calvin cycle and energy cost, leakiness",
+        "sections": [
+          "energy",
+          "physical",
+          "lightbalance",
+          "integration"
+        ],
+        "depth": "Ideal 5 ATP equivalents and 2 NADPH; explicit assumptions",
+        "reasoning": "Recomputed flux, diffusion, cost examples",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Hatch–Slack radiolabel evidence",
+        "sections": [
+          "evidence",
+          "labeldesign"
+        ],
+        "depth": "Pulse–chase, controls, compartment assays",
+        "reasoning": "Tracer counts versus percentages and competing hypotheses",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Water/nitrogen use, environmental advantages, representative crops",
+        "sections": [
+          "physiology",
+          "efficiency",
+          "gasexchange"
+        ],
+        "depth": "Conditional benefits and physiological limits",
+        "reasoning": "iWUE and gas exchange examples",
+        "status": "covered"
+      },
+      {
+        "microtopic": "C3/C4/CAM comparison and scope boundaries",
+        "sections": [
+          "physiology",
+          "comparison",
+          "integration",
+          "revision"
+        ],
+        "depth": "First products, spatial/temporal mechanisms and shared Calvin cycle",
+        "reasoning": "Comparative question bank",
+        "status": "covered"
+      }
+    ],
     "review_pass_1": {
       "type": "Internal scientific and syllabus review",
-      "result": "pass within source limits",
-      "findings": "Checked donor/acceptor roles, water and proton stoichiometry, isotope logic, Kok cycle, DCMU and fluorescence against syllabus and selected sources; independently recalculated photon energies, yields, isotope probabilities, oxygen/quinol and fluorescence examples."
+      "findings": "Cross-checked syllabus and roadmap, Hatch–Slack original paper, subtype and transport reviews, energy model and regulation papers; checked carbon and cofactor accounting, decarboxylase localization, ATP-to-AMP stoichiometry and limitations. Recomputed sample leakiness, ATP budgets, conductance, carbon concentration, tracer recovery and water-use ratio; checked key answers.",
+      "recomputed": {
+        "leakiness": 0.2,
+        "ATP_at_phi_0_25": 5.666666666666666,
+        "hexose_equivalent_ATP": 30,
+        "conductance_flux": 5,
+        "sheath_CO2": 700,
+        "water_efficiency_ratio": 2,
+        "chase_counts": 16,
+        "limited_ATP_assimilation": 15,
+        "net_assimilation_cost": 6.071428571428571
+      },
+      "result": "pass within stated source limitations"
     },
     "review_pass_2": {
-      "type": "Separate internal teaching and static technical review",
-      "result": "pass with static-test limits",
-      "findings": "Benchmarked adjacent chapters (13,511–14,503 words), reviewed 140 unique teaching paragraphs, original SVGs, all answer mappings, balanced answer positions, misconceptions and recall; corrected OEC schematic and reference links; re-fetched saved HTML and validated nesting, IDs, anchors, ARIA and JS syntax."
+      "type": "Separate internal editorial and static reader review",
+      "findings": "Compared with verified neighboring 5.E.10 teaching prose (13,707 words), reviewed learning progression and repeated concept applications; added responsive tables, SVG zoom controls and corrected shuttle arrows; balanced question keys and checked exact option/answer correspondence. Re-read final saved chapter, counted teaching prose, validated IDs, anchors, ARIA and zoom targets, and compiled reader JS syntax.",
+      "result": "pass with static testing limitation"
     },
     "quality": {
       "scientific_accuracy": 19,
-      "syllabus_and_microtopic_coverage": 15,
+      "syllabus_microtopic_coverage": 15,
       "genuine_teaching_depth": 15,
-      "pedagogical_quality": 10,
+      "pedagogical_quality": 9,
       "scientific_illustrations": 9,
-      "examination_questions_and_answers": 9,
-      "experimental_and_analytical_reasoning": 5,
-      "revision_and_mastery": 5,
-      "reader_architecture_and_accessibility": 4,
-      "technical_integrity_and_seo": 4,
+      "examination_questions_answers": 10,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
+      "reader_accessibility": 4,
+      "technical_integrity_SEO": 4,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal owner-rubric assessment, not external certification",
-      "deductions": "Selective literature verification, schematic simplification, no externally calibrated questions, interactive browser/assistive technology or live SEO tests."
+      "assessment": "Internal rubric judgment; not external expert certification.",
+      "deductions": "Selected claim verification rather than external peer review; advanced sections revisit concepts in progressively harder contexts; schematic figures not visually browser-tested; no interactive/assistive-technology test; official MP SET source only mirrored."
     },
     "validation": {
-      "words_pass": true,
+      "teaching_words_pass": true,
       "svg_count_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
+      "unique_ids": true,
+      "anchors_pass": true,
+      "aria_references_pass": true,
+      "zoom_targets_pass": true,
       "duplicate_paragraphs": 0,
-      "duplicate_ids": 0,
-      "broken_anchors": 0,
-      "broken_aria": 0,
-      "html_tag_nesting_pass": true,
-      "javascript_syntax_pass": true,
-      "reader_browser_test": false,
-      "assistive_technology_test": false
+      "placeholder_markers": 0,
+      "js_syntax_compiled": true,
+      "interactive_browser_test": false,
+      "reference_verification": "retrieved official revised syllabus, landmark paper and selected academic review links; mirror for MP SET"
     },
     "navigation": {
-      "previous": "6.A.01",
-      "next": "6.A.03",
-      "mechanism": "Dynamic latest index links; adjacent concurrent publications preserved"
+      "previous": "6.A.06",
+      "previous_link_enabled": true,
+      "next_planned": "6.A.08",
+      "next_link_enabled": false,
+      "reciprocal": "Existing dynamic chapter navigation resolves published links from latest homepage"
     },
     "progress": {
-      "subunit_published": 5,
+      "subunit_published": 6,
       "subunit_planned": 8,
-      "unit_published": 5,
+      "unit_published": 6,
       "unit_planned": 66,
-      "academy_published": 254,
+      "academy_published": 255,
       "academy_planned": 723,
       "next_pending_node_id": "6.A.04"
     },
     "limitations": [
-      "MP SET 2024 mirror, current official MPPSC host not verified.",
-      "No external expert review or question calibration.",
-      "Static rather than interactive browser and assistive technology tests.",
-      "Deployment and live verification pending."
+      "No independent external reviewer or exam calibration.",
+      "No browser rendering or screen-reader interaction test; static checks only.",
+      "MP SET 2024 mirrored syllabus, not independently verified on official MPPSC host.",
+      "Official syllabus PDF screenshot attempt was unavailable; parsed official content verified.",
+      "Deployment and actual live content not yet verified."
     ],
     "changed_files": [
+      "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
       "index.html",
       "sitemap.xml",
+      "curriculum/academy-progress.json",
       "curriculum/subunit-6a-photosynthesis-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/academy-progress.json",
-      "curriculum/node-6a02-publication-qa.json",
-      "photosystem-ii-and-photolysis-of-water.html"
+      "curriculum/node-6a07-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Atomic tree/commit; conditional non-force update",
+      "strategy": "atomic tree and single commit, conditional non-force main ref",
       "deployment": "pending",
       "live_verified": false
+    },
+    "concurrency": {
+      "initial_main": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
+      "abandoned_prepared_commit": "f02909f1f2e24d769d0b89989f4aebd20ee6d26b",
+      "latest_base": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
+      "preserved_prior_menu_entries": 254,
+      "prior_progress_preserved": true
     }
   },
   "unit_02": {
@@ -34524,6 +34712,201 @@
         "preserved_prior_menu_entries": 254,
         "prior_progress_preserved": true
       }
+    },
+    "6.A.08": {
+      "node_id": "6.A.08",
+      "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
+      "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+      "unit": "06",
+      "subunit": "6.A",
+      "topic": "Photosynthesis",
+      "date": "2026-11-27",
+      "status": "academic_qa_passed_deployment_verification_pending",
+      "source_draft_branch": "draft/6a08-cam-photosynthesis",
+      "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
+      "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
+      "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+      "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+      "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+      "production_robots": "index,follow",
+      "metrics": {
+        "genuine_teaching_words": 13337,
+        "teaching_paragraphs": 131,
+        "svg": 11,
+        "tables": 4,
+        "graph_and_chart_figures": 3,
+        "worked_numerical_examples": 10,
+        "total_questions": 50,
+        "part_b": 20,
+        "part_c": 20,
+        "other_questions": 10,
+        "answer_positions": {
+          "A": 13,
+          "B": 12,
+          "C": 13,
+          "D": 12
+        },
+        "misconceptions": 15,
+        "active_recall": 12,
+        "references": 9
+      },
+      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
+      "scope": {
+        "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
+        "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
+        "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
+      },
+      "coverage_matrix": [
+        {
+          "microtopic": "CAM motivation and discovery",
+          "sections": [
+            "problem"
+          ],
+          "depth": "History, gas exchange, VPD and transpiration",
+          "reasoning": "Interpret equal-conductance VPD comparison",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Nocturnal PEPC fixation",
+          "sections": [
+            "night"
+          ],
+          "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
+          "reasoning": "Predict defects and tracer ordering",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Vacuolar malate",
+          "sections": [
+            "storage"
+          ],
+          "depth": "Proton gradients, tonoplast transport, acidity and volume",
+          "reasoning": "Capacity and retention reasoning",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Daytime decarboxylation",
+          "sections": [
+            "day"
+          ],
+          "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
+          "reasoning": "Carbon accounting and energy balance",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Four phases and regulation",
+          "sections": [
+            "phases"
+          ],
+          "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
+          "reasoning": "Interpret acid pool and conductance curves",
+          "status": "covered"
+        },
+        {
+          "microtopic": "CAM variants",
+          "sections": [
+            "variants"
+          ],
+          "depth": "Constitutive, facultative, cycling and idling",
+          "reasoning": "Stress and rewatering controls",
+          "status": "covered"
+        },
+        {
+          "microtopic": "C3/C4/CAM comparison",
+          "sections": [
+            "comparison"
+          ],
+          "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
+          "reasoning": "Compare water-use and gross retention",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Experimental evidence",
+          "sections": [
+            "evidence"
+          ],
+          "depth": "Tracer, isotope, titration and gas exchange",
+          "reasoning": "Quantitative interpretation",
+          "status": "covered"
+        }
+      ],
+      "review_pass_1": {
+        "type": "Internal scientific and syllabus review",
+        "result": "pass within stated limitations",
+        "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
+      },
+      "review_pass_2": {
+        "type": "Separate internal editorial and static reader review",
+        "result": "pass with limitations",
+        "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
+      },
+      "quality": {
+        "scientific_accuracy": 19,
+        "syllabus_microtopic_coverage": 15,
+        "genuine_teaching_depth": 15,
+        "pedagogical_quality": 10,
+        "scientific_illustrations": 9,
+        "examination_questions_answers": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_integrity_SEO": 4,
+        "total": 95,
+        "threshold": 95,
+        "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
+      },
+      "validation": {
+        "teaching_words_pass": true,
+        "svg_count_pass": true,
+        "question_count_pass": true,
+        "answer_mapping_pass": true,
+        "unique_ids": true,
+        "anchors_pass": true,
+        "aria_references_pass": true,
+        "zoom_targets_pass": true,
+        "duplicate_paragraphs": 0,
+        "placeholder_markers": 0,
+        "js_syntax_compiled": true,
+        "interactive_browser_test": false,
+        "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
+      },
+      "navigation": {
+        "previous": "6.A.07",
+        "previous_link_enabled": true,
+        "next_planned": "6.B.01",
+        "next_link_enabled": false,
+        "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
+      },
+      "progress": {
+        "subunit_published": 7,
+        "subunit_planned": 8,
+        "unit_published": 7,
+        "unit_planned": 66,
+        "academy_published": 256,
+        "academy_planned": 723,
+        "next_pending_node_id": "6.A.04"
+      },
+      "limitations": [
+        "No independent external academic review or exam calibration.",
+        "No browser rendering or screen-reader interaction test; static checks only.",
+        "MP SET syllabus mirror, not verified on official MPPSC host.",
+        "Deployment and live verification pending."
+      ],
+      "changed_files": [
+        "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/subunit-6a-photosynthesis-node-map.md",
+        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+        "curriculum/node-6a08-publication-qa.json"
+      ],
+      "publication": {
+        "strategy": "Atomic tree/commit, conditional non-force main ref",
+        "deployment": "pending",
+        "live_verified": false
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -42931,7 +43314,8 @@
     "6.A.03",
     "6.A.05",
     "6.A.06",
-    "6.A.07"
+    "6.A.07",
+    "6.A.08"
   ],
   "unit6a_planned_node_count": 8,
   "unit_06": {
@@ -42941,206 +43325,156 @@
       "6.A.03",
       "6.A.05",
       "6.A.06",
-      "6.A.07"
+      "6.A.07",
+      "6.A.08"
     ],
-    "published_node_count": 6,
+    "published_node_count": 7,
     "planned_node_count": 66,
-    "last_published_node_id": "6.A.07",
+    "last_published_node_id": "6.A.08",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.A.07",
-      "title": "C4 Photosynthesis and the Carbon-Concentrating Mechanism",
-      "slug": "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+      "node_id": "6.A.08",
+      "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
+      "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
       "unit": "06",
       "subunit": "6.A",
       "topic": "Photosynthesis",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6-a-07-c4-photosynthesis",
-      "source_draft_commit_sha": "72ddbcc38fb2bf5769897dc8e83042043eb29f33",
-      "source_draft_blob_sha": "ef9dbb4abdc67ac79ca4cc556a1e2605879ecf31",
-      "production_chapter_blob_sha": "127d06e554c6882beb19a006e4ac4fa3c695286a",
-      "initial_main_head": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
-      "publication_base_sha": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
+      "source_draft_branch": "draft/6a08-cam-photosynthesis",
+      "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
+      "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
+      "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+      "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+      "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 14260,
-        "teaching_paragraphs": 141,
-        "visible_article_words_excluding_svg_and_buttons": 18787,
-        "svg": 12,
-        "tables": 3,
-        "graph_and_chart_figures": 4,
+        "genuine_teaching_words": 13337,
+        "teaching_paragraphs": 131,
+        "svg": 11,
+        "tables": 4,
+        "graph_and_chart_figures": 3,
         "worked_numerical_examples": 10,
-        "total_questions": 52,
+        "total_questions": 50,
         "part_b": 20,
-        "part_c": 22,
+        "part_c": 20,
         "other_questions": 10,
         "answer_positions": {
           "A": 13,
-          "B": 13,
+          "B": 12,
           "C": 13,
-          "D": 13
+          "D": 12
         },
-        "misconceptions": 17,
+        "misconceptions": 15,
         "active_recall": 12,
-        "references": 14,
-        "teaching_sections": 19,
-        "total_sections": 26
+        "references": 9
       },
-      "word_count_method": "Whitespace-separated tokens inside saved p.teaching-prose only; excludes questions, references, captions, tables, navigation and revision.",
+      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
       "scope": {
-        "official": "2026 revised CSIR–UGC–DBT Unit 6.A, separate CSIR Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
+        "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
         "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-        "boundaries": "Full photorespiratory pathway reserved for 6.B; CAM temporal mechanism detailed in 6.A.08; stomatal transport in 6.F."
+        "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
       },
       "coverage_matrix": [
         {
-          "microtopic": "Rubisco oxygenation and C4 motivation",
+          "microtopic": "CAM motivation and discovery",
           "sections": [
-            "problem",
-            "physiology"
+            "problem"
           ],
-          "depth": "Competition and energy tradeoff",
-          "reasoning": "Oxygen response and local substrate ratio",
+          "depth": "History, gas exchange, VPD and transpiration",
+          "reasoning": "Interpret equal-conductance VPD comparison",
           "status": "covered"
         },
         {
-          "microtopic": "Kranz anatomy, mesophyll/bundle sheath and single-cell exception",
+          "microtopic": "Nocturnal PEPC fixation",
           "sections": [
-            "anatomy",
-            "transport",
-            "evolution"
+            "night"
           ],
-          "depth": "Cell specialization, diffusion and contact",
-          "reasoning": "Structure versus functional flux",
+          "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
+          "reasoning": "Predict defects and tracer ordering",
           "status": "covered"
         },
         {
-          "microtopic": "CA, PEPC, bicarbonate and OAA",
+          "microtopic": "Vacuolar malate",
           "sections": [
-            "capture",
-            "chemistry"
+            "storage"
           ],
-          "depth": "Substrates, carbon conservation, regulation",
-          "reasoning": "Early tracer and CA/PEPC lesions",
+          "depth": "Proton gradients, tonoplast transport, acidity and volume",
+          "reasoning": "Capacity and retention reasoning",
           "status": "covered"
         },
         {
-          "microtopic": "Malate/aspartate movement and decarboxylation",
+          "microtopic": "Daytime decarboxylation",
           "sections": [
-            "cycle",
-            "subtypes",
-            "transport"
+            "day"
           ],
-          "depth": "Organelle-specific route and carbon return",
-          "reasoning": "Transport block and enzyme localization",
+          "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
+          "reasoning": "Carbon accounting and energy balance",
           "status": "covered"
         },
         {
-          "microtopic": "NADP-ME, NAD-ME and PEPCK subtype differences",
+          "microtopic": "Four phases and regulation",
           "sections": [
-            "subtypes",
+            "phases"
+          ],
+          "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
+          "reasoning": "Interpret acid pool and conductance curves",
+          "status": "covered"
+        },
+        {
+          "microtopic": "CAM variants",
+          "sections": [
+            "variants"
+          ],
+          "depth": "Constitutive, facultative, cycling and idling",
+          "reasoning": "Stress and rewatering controls",
+          "status": "covered"
+        },
+        {
+          "microtopic": "C3/C4/CAM comparison",
+          "sections": [
             "comparison"
           ],
-          "depth": "Enzymes, direct substrates and products, mixed routes",
-          "reasoning": "Classify based on evidence",
+          "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
+          "reasoning": "Compare water-use and gross retention",
           "status": "covered"
         },
         {
-          "microtopic": "PPDK-dependent PEP regeneration",
+          "microtopic": "Experimental evidence",
           "sections": [
-            "cycle",
-            "chemistry",
-            "control"
+            "evidence"
           ],
-          "depth": "ATP→AMP accounting and reversible regulation",
-          "reasoning": "Mutant and energetic constraints",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Calvin cycle and energy cost, leakiness",
-          "sections": [
-            "energy",
-            "physical",
-            "lightbalance",
-            "integration"
-          ],
-          "depth": "Ideal 5 ATP equivalents and 2 NADPH; explicit assumptions",
-          "reasoning": "Recomputed flux, diffusion, cost examples",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Hatch–Slack radiolabel evidence",
-          "sections": [
-            "evidence",
-            "labeldesign"
-          ],
-          "depth": "Pulse–chase, controls, compartment assays",
-          "reasoning": "Tracer counts versus percentages and competing hypotheses",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Water/nitrogen use, environmental advantages, representative crops",
-          "sections": [
-            "physiology",
-            "efficiency",
-            "gasexchange"
-          ],
-          "depth": "Conditional benefits and physiological limits",
-          "reasoning": "iWUE and gas exchange examples",
-          "status": "covered"
-        },
-        {
-          "microtopic": "C3/C4/CAM comparison and scope boundaries",
-          "sections": [
-            "physiology",
-            "comparison",
-            "integration",
-            "revision"
-          ],
-          "depth": "First products, spatial/temporal mechanisms and shared Calvin cycle",
-          "reasoning": "Comparative question bank",
+          "depth": "Tracer, isotope, titration and gas exchange",
+          "reasoning": "Quantitative interpretation",
           "status": "covered"
         }
       ],
       "review_pass_1": {
         "type": "Internal scientific and syllabus review",
-        "findings": "Cross-checked syllabus and roadmap, Hatch–Slack original paper, subtype and transport reviews, energy model and regulation papers; checked carbon and cofactor accounting, decarboxylase localization, ATP-to-AMP stoichiometry and limitations. Recomputed sample leakiness, ATP budgets, conductance, carbon concentration, tracer recovery and water-use ratio; checked key answers.",
-        "recomputed": {
-          "leakiness": 0.2,
-          "ATP_at_phi_0_25": 5.666666666666666,
-          "hexose_equivalent_ATP": 30,
-          "conductance_flux": 5,
-          "sheath_CO2": 700,
-          "water_efficiency_ratio": 2,
-          "chase_counts": 16,
-          "limited_ATP_assimilation": 15,
-          "net_assimilation_cost": 6.071428571428571
-        },
-        "result": "pass within stated source limitations"
+        "result": "pass within stated limitations",
+        "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
       },
       "review_pass_2": {
         "type": "Separate internal editorial and static reader review",
-        "findings": "Compared with verified neighboring 5.E.10 teaching prose (13,707 words), reviewed learning progression and repeated concept applications; added responsive tables, SVG zoom controls and corrected shuttle arrows; balanced question keys and checked exact option/answer correspondence. Re-read final saved chapter, counted teaching prose, validated IDs, anchors, ARIA and zoom targets, and compiled reader JS syntax.",
-        "result": "pass with static testing limitation"
+        "result": "pass with limitations",
+        "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
       },
       "quality": {
         "scientific_accuracy": 19,
         "syllabus_microtopic_coverage": 15,
         "genuine_teaching_depth": 15,
-        "pedagogical_quality": 9,
+        "pedagogical_quality": 10,
         "scientific_illustrations": 9,
-        "examination_questions_answers": 10,
+        "examination_questions_answers": 9,
         "experimental_analytical_reasoning": 5,
         "revision_mastery": 5,
         "reader_accessibility": 4,
         "technical_integrity_SEO": 4,
         "total": 95,
         "threshold": 95,
-        "assessment": "Internal rubric judgment; not external expert certification.",
-        "deductions": "Selected claim verification rather than external peer review; advanced sections revisit concepts in progressively harder contexts; schematic figures not visually browser-tested; no interactive/assistive-technology test; official MP SET source only mirrored."
+        "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
       },
       "validation": {
         "teaching_words_pass": true,
@@ -43155,51 +43489,43 @@
         "placeholder_markers": 0,
         "js_syntax_compiled": true,
         "interactive_browser_test": false,
-        "reference_verification": "retrieved official revised syllabus, landmark paper and selected academic review links; mirror for MP SET"
+        "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
       },
       "navigation": {
-        "previous": "6.A.06",
+        "previous": "6.A.07",
         "previous_link_enabled": true,
-        "next_planned": "6.A.08",
+        "next_planned": "6.B.01",
         "next_link_enabled": false,
-        "reciprocal": "Existing dynamic chapter navigation resolves published links from latest homepage"
+        "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
       },
       "progress": {
-        "subunit_published": 6,
+        "subunit_published": 7,
         "subunit_planned": 8,
-        "unit_published": 6,
+        "unit_published": 7,
         "unit_planned": 66,
-        "academy_published": 255,
+        "academy_published": 256,
         "academy_planned": 723,
         "next_pending_node_id": "6.A.04"
       },
       "limitations": [
-        "No independent external reviewer or exam calibration.",
+        "No independent external academic review or exam calibration.",
         "No browser rendering or screen-reader interaction test; static checks only.",
-        "MP SET 2024 mirrored syllabus, not independently verified on official MPPSC host.",
-        "Official syllabus PDF screenshot attempt was unavailable; parsed official content verified.",
-        "Deployment and actual live content not yet verified."
+        "MP SET syllabus mirror, not verified on official MPPSC host.",
+        "Deployment and live verification pending."
       ],
       "changed_files": [
-        "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+        "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
         "curriculum/subunit-6a-photosynthesis-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6a07-publication-qa.json"
+        "curriculum/node-6a08-publication-qa.json"
       ],
       "publication": {
-        "strategy": "atomic tree and single commit, conditional non-force main ref",
+        "strategy": "Atomic tree/commit, conditional non-force main ref",
         "deployment": "pending",
         "live_verified": false
-      },
-      "concurrency": {
-        "initial_main": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
-        "abandoned_prepared_commit": "f02909f1f2e24d769d0b89989f4aebd20ee6d26b",
-        "latest_base": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
-        "preserved_prior_menu_entries": 254,
-        "prior_progress_preserved": true
       }
     },
     "qa_by_node": {
@@ -44318,6 +44644,201 @@
           "preserved_prior_menu_entries": 254,
           "prior_progress_preserved": true
         }
+      },
+      "6.A.08": {
+        "node_id": "6.A.08",
+        "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
+        "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+        "unit": "06",
+        "subunit": "6.A",
+        "topic": "Photosynthesis",
+        "date": "2026-11-27",
+        "status": "academic_qa_passed_deployment_verification_pending",
+        "source_draft_branch": "draft/6a08-cam-photosynthesis",
+        "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
+        "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
+        "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+        "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+        "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+        "production_robots": "index,follow",
+        "metrics": {
+          "genuine_teaching_words": 13337,
+          "teaching_paragraphs": 131,
+          "svg": 11,
+          "tables": 4,
+          "graph_and_chart_figures": 3,
+          "worked_numerical_examples": 10,
+          "total_questions": 50,
+          "part_b": 20,
+          "part_c": 20,
+          "other_questions": 10,
+          "answer_positions": {
+            "A": 13,
+            "B": 12,
+            "C": 13,
+            "D": 12
+          },
+          "misconceptions": 15,
+          "active_recall": 12,
+          "references": 9
+        },
+        "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
+        "scope": {
+          "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
+          "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
+          "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
+        },
+        "coverage_matrix": [
+          {
+            "microtopic": "CAM motivation and discovery",
+            "sections": [
+              "problem"
+            ],
+            "depth": "History, gas exchange, VPD and transpiration",
+            "reasoning": "Interpret equal-conductance VPD comparison",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Nocturnal PEPC fixation",
+            "sections": [
+              "night"
+            ],
+            "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
+            "reasoning": "Predict defects and tracer ordering",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Vacuolar malate",
+            "sections": [
+              "storage"
+            ],
+            "depth": "Proton gradients, tonoplast transport, acidity and volume",
+            "reasoning": "Capacity and retention reasoning",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Daytime decarboxylation",
+            "sections": [
+              "day"
+            ],
+            "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
+            "reasoning": "Carbon accounting and energy balance",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Four phases and regulation",
+            "sections": [
+              "phases"
+            ],
+            "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
+            "reasoning": "Interpret acid pool and conductance curves",
+            "status": "covered"
+          },
+          {
+            "microtopic": "CAM variants",
+            "sections": [
+              "variants"
+            ],
+            "depth": "Constitutive, facultative, cycling and idling",
+            "reasoning": "Stress and rewatering controls",
+            "status": "covered"
+          },
+          {
+            "microtopic": "C3/C4/CAM comparison",
+            "sections": [
+              "comparison"
+            ],
+            "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
+            "reasoning": "Compare water-use and gross retention",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Experimental evidence",
+            "sections": [
+              "evidence"
+            ],
+            "depth": "Tracer, isotope, titration and gas exchange",
+            "reasoning": "Quantitative interpretation",
+            "status": "covered"
+          }
+        ],
+        "review_pass_1": {
+          "type": "Internal scientific and syllabus review",
+          "result": "pass within stated limitations",
+          "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
+        },
+        "review_pass_2": {
+          "type": "Separate internal editorial and static reader review",
+          "result": "pass with limitations",
+          "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
+        },
+        "quality": {
+          "scientific_accuracy": 19,
+          "syllabus_microtopic_coverage": 15,
+          "genuine_teaching_depth": 15,
+          "pedagogical_quality": 10,
+          "scientific_illustrations": 9,
+          "examination_questions_answers": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_accessibility": 4,
+          "technical_integrity_SEO": 4,
+          "total": 95,
+          "threshold": 95,
+          "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
+        },
+        "validation": {
+          "teaching_words_pass": true,
+          "svg_count_pass": true,
+          "question_count_pass": true,
+          "answer_mapping_pass": true,
+          "unique_ids": true,
+          "anchors_pass": true,
+          "aria_references_pass": true,
+          "zoom_targets_pass": true,
+          "duplicate_paragraphs": 0,
+          "placeholder_markers": 0,
+          "js_syntax_compiled": true,
+          "interactive_browser_test": false,
+          "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
+        },
+        "navigation": {
+          "previous": "6.A.07",
+          "previous_link_enabled": true,
+          "next_planned": "6.B.01",
+          "next_link_enabled": false,
+          "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
+        },
+        "progress": {
+          "subunit_published": 7,
+          "subunit_planned": 8,
+          "unit_published": 7,
+          "unit_planned": 66,
+          "academy_published": 256,
+          "academy_planned": 723,
+          "next_pending_node_id": "6.A.04"
+        },
+        "limitations": [
+          "No independent external academic review or exam calibration.",
+          "No browser rendering or screen-reader interaction test; static checks only.",
+          "MP SET syllabus mirror, not verified on official MPPSC host.",
+          "Deployment and live verification pending."
+        ],
+        "changed_files": [
+          "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/subunit-6a-photosynthesis-node-map.md",
+          "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+          "curriculum/node-6a08-publication-qa.json"
+        ],
+        "publication": {
+          "strategy": "Atomic tree/commit, conditional non-force main ref",
+          "deployment": "pending",
+          "live_verified": false
+        }
       }
     },
     "next_pending_node_id": "6.A.04",
@@ -44330,141 +44851,265 @@
         "6.A.03",
         "6.A.05",
         "6.A.06",
-        "6.A.07"
+        "6.A.07",
+        "6.A.08"
       ],
-      "published_node_count": 6,
+      "published_node_count": 7,
       "planned_node_count": 8,
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "6.A.02",
-      "title": "Photosystem II and Photolysis of Water",
-      "slug": "photosystem-ii-and-photolysis-of-water.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html",
+      "node_id": "6.A.07",
+      "title": "C4 Photosynthesis and the Carbon-Concentrating Mechanism",
+      "slug": "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
       "unit": "06",
       "subunit": "6.A",
       "topic": "Photosynthesis",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/node-6a02-photosystem-ii-20261127",
-      "source_draft_commit_sha": "c70879528c850aaf9a51ce7ec75025c5e6a208ec",
-      "source_draft_blob_sha": "b72dde57d48db3ffeec59bc851793c4374abbd90",
-      "production_chapter_blob_sha": "53de96af02ffac2235faa2471f7d3bcbefa29115",
-      "publication_base_sha": "bb03c1fa01317a6ddf455f75a94f188965ba065d",
+      "source_draft_branch": "draft/6-a-07-c4-photosynthesis",
+      "source_draft_commit_sha": "72ddbcc38fb2bf5769897dc8e83042043eb29f33",
+      "source_draft_blob_sha": "ef9dbb4abdc67ac79ca4cc556a1e2605879ecf31",
+      "production_chapter_blob_sha": "127d06e554c6882beb19a006e4ac4fa3c695286a",
+      "initial_main_head": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
+      "publication_base_sha": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 13560,
-        "teaching_paragraphs": 140,
-        "theory_sections": 12,
+        "genuine_teaching_words": 14260,
+        "teaching_paragraphs": 141,
+        "visible_article_words_excluding_svg_and_buttons": 18787,
         "svg": 12,
-        "tables": 6,
-        "graphs": 2,
+        "tables": 3,
+        "graph_and_chart_figures": 4,
+        "worked_numerical_examples": 10,
+        "total_questions": 52,
         "part_b": 20,
-        "part_c": 20,
+        "part_c": 22,
         "other_questions": 10,
-        "total_questions": 50,
         "answer_positions": {
           "A": 13,
           "B": 13,
-          "C": 12,
-          "D": 12
+          "C": 13,
+          "D": 13
         },
-        "references": 14,
         "misconceptions": 17,
-        "active_recall": 14
+        "active_recall": 12,
+        "references": 14,
+        "teaching_sections": 19,
+        "total_sections": 26
       },
-      "word_count_method": "Saved p.teaching-prose whitespace tokens only, excluding headings, questions, captions, tables, SVG, revision and references.",
+      "word_count_method": "Whitespace-separated tokens inside saved p.teaching-prose only; excludes questions, references, captions, tables, navigation and revision.",
       "scope": {
-        "official": "CSIR June 2026 and revised 2026 CSIR–UGC–DBT Unit 6.A; MP SET 2024 mirror",
+        "official": "2026 revised CSIR–UGC–DBT Unit 6.A, separate CSIR Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
         "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-        "boundary": "Antenna 6.A.01; downstream chain 6.A.03; ATP 6.A.04; photoprotection 6.A.05."
+        "boundaries": "Full photorespiratory pathway reserved for 6.B; CAM temporal mechanism detailed in 6.A.08; stomatal transport in 6.F."
       },
-      "coverage_matrix": {
-        "architecture": "PSII core, LHCII, D1/D2, CP43/47 and membrane topology",
-        "excitation": "P680, excitation, charge separation and pheophytin",
-        "donor": "P680+, TyrZ, donor regeneration",
-        "water": "Mn4CaO5, water oxidation, proton release and oxygen origin",
-        "kok": "S-state cycle and period-four flash patterns",
-        "quinones": "QA/QB, PQ pool and stromal protons",
-        "accounting": "Four-electron balance, ideal vs observed yield and photon energy",
-        "history": "Hill reaction, isotopes and flash evidence",
-        "inhibitors": "DCMU and controlled predictions",
-        "fluorescence": "QA reduction and fluorescence limitations",
-        "integration": "Linear flow, gross/net oxygen, physiological relevance"
-      },
+      "coverage_matrix": [
+        {
+          "microtopic": "Rubisco oxygenation and C4 motivation",
+          "sections": [
+            "problem",
+            "physiology"
+          ],
+          "depth": "Competition and energy tradeoff",
+          "reasoning": "Oxygen response and local substrate ratio",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Kranz anatomy, mesophyll/bundle sheath and single-cell exception",
+          "sections": [
+            "anatomy",
+            "transport",
+            "evolution"
+          ],
+          "depth": "Cell specialization, diffusion and contact",
+          "reasoning": "Structure versus functional flux",
+          "status": "covered"
+        },
+        {
+          "microtopic": "CA, PEPC, bicarbonate and OAA",
+          "sections": [
+            "capture",
+            "chemistry"
+          ],
+          "depth": "Substrates, carbon conservation, regulation",
+          "reasoning": "Early tracer and CA/PEPC lesions",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Malate/aspartate movement and decarboxylation",
+          "sections": [
+            "cycle",
+            "subtypes",
+            "transport"
+          ],
+          "depth": "Organelle-specific route and carbon return",
+          "reasoning": "Transport block and enzyme localization",
+          "status": "covered"
+        },
+        {
+          "microtopic": "NADP-ME, NAD-ME and PEPCK subtype differences",
+          "sections": [
+            "subtypes",
+            "comparison"
+          ],
+          "depth": "Enzymes, direct substrates and products, mixed routes",
+          "reasoning": "Classify based on evidence",
+          "status": "covered"
+        },
+        {
+          "microtopic": "PPDK-dependent PEP regeneration",
+          "sections": [
+            "cycle",
+            "chemistry",
+            "control"
+          ],
+          "depth": "ATP→AMP accounting and reversible regulation",
+          "reasoning": "Mutant and energetic constraints",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Calvin cycle and energy cost, leakiness",
+          "sections": [
+            "energy",
+            "physical",
+            "lightbalance",
+            "integration"
+          ],
+          "depth": "Ideal 5 ATP equivalents and 2 NADPH; explicit assumptions",
+          "reasoning": "Recomputed flux, diffusion, cost examples",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Hatch–Slack radiolabel evidence",
+          "sections": [
+            "evidence",
+            "labeldesign"
+          ],
+          "depth": "Pulse–chase, controls, compartment assays",
+          "reasoning": "Tracer counts versus percentages and competing hypotheses",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Water/nitrogen use, environmental advantages, representative crops",
+          "sections": [
+            "physiology",
+            "efficiency",
+            "gasexchange"
+          ],
+          "depth": "Conditional benefits and physiological limits",
+          "reasoning": "iWUE and gas exchange examples",
+          "status": "covered"
+        },
+        {
+          "microtopic": "C3/C4/CAM comparison and scope boundaries",
+          "sections": [
+            "physiology",
+            "comparison",
+            "integration",
+            "revision"
+          ],
+          "depth": "First products, spatial/temporal mechanisms and shared Calvin cycle",
+          "reasoning": "Comparative question bank",
+          "status": "covered"
+        }
+      ],
       "review_pass_1": {
         "type": "Internal scientific and syllabus review",
-        "result": "pass within source limits",
-        "findings": "Checked donor/acceptor roles, water and proton stoichiometry, isotope logic, Kok cycle, DCMU and fluorescence against syllabus and selected sources; independently recalculated photon energies, yields, isotope probabilities, oxygen/quinol and fluorescence examples."
+        "findings": "Cross-checked syllabus and roadmap, Hatch–Slack original paper, subtype and transport reviews, energy model and regulation papers; checked carbon and cofactor accounting, decarboxylase localization, ATP-to-AMP stoichiometry and limitations. Recomputed sample leakiness, ATP budgets, conductance, carbon concentration, tracer recovery and water-use ratio; checked key answers.",
+        "recomputed": {
+          "leakiness": 0.2,
+          "ATP_at_phi_0_25": 5.666666666666666,
+          "hexose_equivalent_ATP": 30,
+          "conductance_flux": 5,
+          "sheath_CO2": 700,
+          "water_efficiency_ratio": 2,
+          "chase_counts": 16,
+          "limited_ATP_assimilation": 15,
+          "net_assimilation_cost": 6.071428571428571
+        },
+        "result": "pass within stated source limitations"
       },
       "review_pass_2": {
-        "type": "Separate internal teaching and static technical review",
-        "result": "pass with static-test limits",
-        "findings": "Benchmarked adjacent chapters (13,511–14,503 words), reviewed 140 unique teaching paragraphs, original SVGs, all answer mappings, balanced answer positions, misconceptions and recall; corrected OEC schematic and reference links; re-fetched saved HTML and validated nesting, IDs, anchors, ARIA and JS syntax."
+        "type": "Separate internal editorial and static reader review",
+        "findings": "Compared with verified neighboring 5.E.10 teaching prose (13,707 words), reviewed learning progression and repeated concept applications; added responsive tables, SVG zoom controls and corrected shuttle arrows; balanced question keys and checked exact option/answer correspondence. Re-read final saved chapter, counted teaching prose, validated IDs, anchors, ARIA and zoom targets, and compiled reader JS syntax.",
+        "result": "pass with static testing limitation"
       },
       "quality": {
         "scientific_accuracy": 19,
-        "syllabus_and_microtopic_coverage": 15,
+        "syllabus_microtopic_coverage": 15,
         "genuine_teaching_depth": 15,
-        "pedagogical_quality": 10,
+        "pedagogical_quality": 9,
         "scientific_illustrations": 9,
-        "examination_questions_and_answers": 9,
-        "experimental_and_analytical_reasoning": 5,
-        "revision_and_mastery": 5,
-        "reader_architecture_and_accessibility": 4,
-        "technical_integrity_and_seo": 4,
+        "examination_questions_answers": 10,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_integrity_SEO": 4,
         "total": 95,
         "threshold": 95,
-        "assessment": "Internal owner-rubric assessment, not external certification",
-        "deductions": "Selective literature verification, schematic simplification, no externally calibrated questions, interactive browser/assistive technology or live SEO tests."
+        "assessment": "Internal rubric judgment; not external expert certification.",
+        "deductions": "Selected claim verification rather than external peer review; advanced sections revisit concepts in progressively harder contexts; schematic figures not visually browser-tested; no interactive/assistive-technology test; official MP SET source only mirrored."
       },
       "validation": {
-        "words_pass": true,
+        "teaching_words_pass": true,
         "svg_count_pass": true,
         "question_count_pass": true,
         "answer_mapping_pass": true,
+        "unique_ids": true,
+        "anchors_pass": true,
+        "aria_references_pass": true,
+        "zoom_targets_pass": true,
         "duplicate_paragraphs": 0,
-        "duplicate_ids": 0,
-        "broken_anchors": 0,
-        "broken_aria": 0,
-        "html_tag_nesting_pass": true,
-        "javascript_syntax_pass": true,
-        "reader_browser_test": false,
-        "assistive_technology_test": false
+        "placeholder_markers": 0,
+        "js_syntax_compiled": true,
+        "interactive_browser_test": false,
+        "reference_verification": "retrieved official revised syllabus, landmark paper and selected academic review links; mirror for MP SET"
       },
       "navigation": {
-        "previous": "6.A.01",
-        "next": "6.A.03",
-        "mechanism": "Dynamic latest index links; adjacent concurrent publications preserved"
+        "previous": "6.A.06",
+        "previous_link_enabled": true,
+        "next_planned": "6.A.08",
+        "next_link_enabled": false,
+        "reciprocal": "Existing dynamic chapter navigation resolves published links from latest homepage"
       },
       "progress": {
-        "subunit_published": 5,
+        "subunit_published": 6,
         "subunit_planned": 8,
-        "unit_published": 5,
+        "unit_published": 6,
         "unit_planned": 66,
-        "academy_published": 254,
+        "academy_published": 255,
         "academy_planned": 723,
         "next_pending_node_id": "6.A.04"
       },
       "limitations": [
-        "MP SET 2024 mirror, current official MPPSC host not verified.",
-        "No external expert review or question calibration.",
-        "Static rather than interactive browser and assistive technology tests.",
-        "Deployment and live verification pending."
+        "No independent external reviewer or exam calibration.",
+        "No browser rendering or screen-reader interaction test; static checks only.",
+        "MP SET 2024 mirrored syllabus, not independently verified on official MPPSC host.",
+        "Official syllabus PDF screenshot attempt was unavailable; parsed official content verified.",
+        "Deployment and actual live content not yet verified."
       ],
       "changed_files": [
+        "c4-photosynthesis-and-the-carbon-concentrating-mechanism.html",
         "index.html",
         "sitemap.xml",
+        "curriculum/academy-progress.json",
         "curriculum/subunit-6a-photosynthesis-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/academy-progress.json",
-        "curriculum/node-6a02-publication-qa.json",
-        "photosystem-ii-and-photolysis-of-water.html"
+        "curriculum/node-6a07-publication-qa.json"
       ],
       "publication": {
-        "strategy": "Atomic tree/commit; conditional non-force update",
+        "strategy": "atomic tree and single commit, conditional non-force main ref",
         "deployment": "pending",
         "live_verified": false
+      },
+      "concurrency": {
+        "initial_main": "b57c0e7e91cc6550ad25a1bc6ec5371ae450e819",
+        "abandoned_prepared_commit": "f02909f1f2e24d769d0b89989f4aebd20ee6d26b",
+        "latest_base": "0e0b387e9e65bc2e330b6d0a45b3532c3825b937",
+        "preserved_prior_menu_entries": 254,
+        "prior_progress_preserved": true
       }
     }
   }

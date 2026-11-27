@@ -1,0 +1,392 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Understand carbon dioxide carriage, chloride shift, Haldane effect, pulmonary waste elimination and respiratory acid–base balance."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html"><title>Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 7</span><span>›</span><span>Sub-unit 7.C</span><span>›</span><strong>Node 07</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 7.C.07</span><span>Unit 7 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance</h1><p class="subtitle">From cellular carbon dioxide production to pulmonary elimination and the regulation of blood pH.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Oxygen Transport and Respiratory Pigments">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Neural and Chemical Regulation of Respiration">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#s1">1. Carbon dioxide as a product of living metabolism</a><a href="#s2">2. Partial pressure, solubility and content</a><a href="#s3">3. Three routes of carbon dioxide carriage</a><a href="#s4">4. Carbonic anhydrase and red-cell reaction kinetics</a><a href="#s5">5. Haemoglobin buffering and the chloride shift</a><a href="#s6">6. Pulmonary reversal and exhalation</a><a href="#s7">7. The Haldane effect and its experimental meaning</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article class="reading-paper" aria-label="Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance study notes"><div class="article-content" id="article"><section id="s1"><h2>1. Carbon dioxide as a product of living metabolism</h2><p class="teaching-prose">An animal can survive only while its cells continually exchange matter with their surroundings. Nutrients provide carbon-containing molecules from which cells extract usable energy. In aerobic metabolism, much of the carbon eventually leaves the cell as carbon dioxide. An adult mammal at rest produces carbon dioxide every minute, including between breaths. Yet the concentration of carbon dioxide in arterial blood remains within a relatively narrow range. This apparent contradiction is resolved by treating the body as an open system: continuous production is normally balanced by continuous removal. The purpose of respiratory carbon dioxide transport is therefore not merely to move a gas. It is to connect metabolic activity, tissue perfusion, chemical buffering and gas exchange in a way that prevents progressive accumulation of acid.</p><p class="teaching-prose">Carbon dioxide is produced when carbon atoms are removed from metabolic intermediates in decarboxylation reactions. Pyruvate dehydrogenase converts pyruvate into an acetyl group attached to coenzyme A and releases carbon dioxide. Within the citric acid cycle, oxidative decarboxylations at isocitrate dehydrogenase and α-ketoglutarate dehydrogenase provide additional carbon dioxide. Molecular oxygen is consumed mainly at the end of the mitochondrial electron transport chain, where it is reduced to water; it is not simply combined directly with all the carbon atoms of glucose to form carbon dioxide in one reaction. Distinguishing these biochemical processes prevents the common error of assuming that oxygen uptake and carbon dioxide output must always be numerically identical.</p><p class="teaching-prose">For complete oxidation of glucose the overall equation is C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O. The ratio of carbon dioxide production to oxygen consumption under these conditions is one. Complete oxidation of palmitic acid gives 16 molecules of carbon dioxide for every 23 molecules of oxygen consumed, yielding approximately 0.70. This difference occurs because the fatty acid is more reduced than carbohydrate. The respiratory quotient, RQ, is a ratio of metabolic gas fluxes under defined conditions. A respiratory exchange ratio measured at the mouth is equal to the metabolic quotient only when relevant body gas stores are stable. During transient changes in ventilation or buffering, carbon dioxide output at the mouth can differ from current metabolic carbon dioxide generation. This distinction is useful for interpreting exercise experiments without assuming that every transient rise in expired gas represents a change in substrate oxidation.</p><p class="teaching-prose">Carbon dioxide is sometimes described solely as a waste product. The word waste refers to the need to remove the net metabolic excess, not to the biological uselessness of the molecule. Bicarbonate derived from carbon dioxide participates in buffering, epithelial transport and metabolic reactions. Carbon dioxide itself contributes to control of breathing through changes in hydrogen ion concentration. A physiological system must therefore maintain an appropriate amount rather than eliminate every molecule. The normal arterial partial pressure is a regulated outcome of the balance between metabolism and alveolar ventilation. In a steady state, a higher rate of production can coexist with an unchanged arterial partial pressure if ventilation rises proportionally.</p><p class="teaching-prose">Carbon dioxide leaving a cell enters interstitial fluid and then a nearby capillary. It is an uncharged molecule and can diffuse across lipid membranes; the direction of net diffusion follows its chemical potential gradient, conveniently represented by partial pressure for dissolved gas under comparable conditions. Carbon dioxide may also be converted into bicarbonate inside tissues. This chapter follows the dominant blood transport mechanisms in mammals; a cell need not wait for carbon dioxide to be carried away in its original molecular form. By coupling diffusion to chemical conversion, blood can receive far more carbon dioxide than would be accommodated as dissolved molecular gas at the same pressure.</p><p class="teaching-prose">A useful conceptual distinction is between production, transport and elimination. Production is an intracellular chemical flux. Transport is a circulatory flux between organs, with chemical transformations along the path. Elimination is a gas flux across the respiratory surface and eventually to the environment. At steady state, whole-body production and elimination are equal even though the quantities stored in each intermediate compartment can differ greatly. A brief obstruction to removal initially increases stores rather than instantly preventing production. When ventilation resumes, elimination can temporarily exceed production as the excess stored carbon dioxide is cleared. Thus a gas measurement at one moment cannot reveal the entire metabolic history without information about storage and flow.</p></section>
+<section id="s2"><h2>2. Partial pressure, solubility and content</h2><p class="teaching-prose">Three quantities must be kept separate in any discussion of gas carriage. Partial pressure expresses the tendency of a gas to move between phases at equilibrium. Concentration of dissolved molecular carbon dioxide describes the quantity of unreacted gas per unit volume of fluid. Total carbon dioxide content includes carbon present in chemically transformed forms as well as molecular gas. Unlike partial pressure, content depends strongly on the chemical composition of the blood. Two blood samples at identical carbon dioxide partial pressure can therefore contain unequal amounts of total carbon dioxide. The difference is fundamental to understanding the Haldane effect.</p><p class="teaching-prose">At a fixed temperature, Henry's law relates the dissolved concentration of molecular carbon dioxide to its partial pressure: C = αP. For plasma near 37 °C, a commonly used approximation is α = 0.030 mmol L⁻¹ mmHg⁻¹. If PCO₂ is 40 mmHg, the dissolved concentration is approximately 1.20 mmol L⁻¹. At 46 mmHg it is approximately 1.38 mmol L⁻¹. The six millimetre increase in pressure therefore adds only 0.18 mmol of dissolved molecular gas per litre under the same conditions. This calculation applies to the dissolved component, not to the total carbon dioxide transported in plasma and erythrocytes. Temperature, solvent and conventions for defining dissolved carbon dioxide influence the coefficient.</p><p class="teaching-prose">The carbon dioxide gradient from mixed venous blood to alveolar gas is small in pressure units compared with the gradient that oxygen initially experiences in the opposite direction. Nevertheless, healthy lungs remove carbon dioxide effectively. Carbon dioxide is appreciably more soluble than oxygen in biological fluids; its permeability through the respiratory membrane is consequently high. Fick's diffusion principle relates transport rate to exchange area, barrier thickness, diffusivity and the appropriate gradient. A small pressure difference can produce adequate flux when the effective diffusibility is large. This explains why diffusion limitation of carbon dioxide is usually less prominent than oxygen diffusion limitation across the same lung barrier, although severe abnormalities can compromise both gases.</p><p class="teaching-prose">Partial pressure is an intensive variable, whereas total quantity depends on volume. If two equal-pressure samples at the same temperature differ only in volume, their dissolved concentration is the same but their dissolved amounts differ. If the samples differ in haemoglobin or bicarbonate concentration, their total carbon dioxide concentration can also differ. Consider a thought experiment in which a solution containing no buffer and a blood sample are equilibrated with gas at PCO₂ = 40 mmHg. Both have a molecular gas concentration determined approximately by their solubility coefficients. Blood additionally binds carbon dioxide to protein groups and converts carbon dioxide to bicarbonate. Gas continues entering until chemical and physical equilibrium is reached. The gas source supplies the extra carbon; the conversions do not create carbon out of nothing.</p><p class="teaching-prose">A resting human's arterial PCO₂ is often represented as 40 mmHg and mixed venous PCO₂ as about 46 mmHg. These are illustrative values, not constants for every person or tissue. The blood leaving a highly active muscle can have a different pressure from the mixed venous blood entering the lungs, because venous samples from different organs combine. Local tissue gradients are determined by metabolic production, capillary supply and interstitial diffusion. An organ with high carbon dioxide generation relative to blood flow can require a larger increase in blood carbon dioxide content per unit volume. If perfusion rises at the same time as metabolic activity, the local gradient need not increase in the same proportion.</p><p class="teaching-prose">Gas volume units require explicit conventions. A volume of carbon dioxide at standard temperature and pressure is not numerically identical to the volume occupied by the same molecules in warm humid gas. For chemical concentrations, millimoles express the number of molecules without requiring a gas reference temperature or pressure. Classical blood gas content is often expressed as millilitres of gas per decilitre of blood under specified reference conditions. At standard dry conditions, one millimole of ideal gas occupies about 22.4 mL; hence 1 mmol L⁻¹ corresponds to approximately 2.24 mL dL⁻¹. One should not insert mmol L⁻¹ values into an equation expecting mL dL⁻¹ without conversion. The same caution applies to the alveolar ventilation relationship developed later.</p></section>
+<section id="s3"><h2>3. Three routes of carbon dioxide carriage</h2><p class="teaching-prose">In blood, carbon dioxide is distributed among three major forms: physically dissolved molecular CO₂, bicarbonate ion and carbamino compounds. These pools exchange carbon with one another and are not independent transport circuits. A carbon atom that enters an erythrocyte as molecular carbon dioxide may spend most of its circulatory journey in plasma as bicarbonate and become molecular carbon dioxide again in the pulmonary capillaries. The name of the transport form describes the chemical state at a particular point, not an irreversible destination.</p><p class="teaching-prose">The dissolved fraction is small relative to total content but is indispensable. Molecular carbon dioxide is the form that establishes the partial pressure gradient across the exchange surface. Bicarbonate is charged and cannot leave the blood by simple diffusion as a gas. Carbamino groups are attached to protein and likewise must release molecular carbon dioxide before that carbon can be exhaled. Chemical conversion in tissue and reversal in the lungs allow a relatively small molecular gas pool to communicate with much larger reservoirs.</p><p class="teaching-prose">Bicarbonate is the major carbon dioxide carrying form in ordinary mammalian blood. Erythrocytes contain carbonic anhydrase, which makes interconversion of carbon dioxide and bicarbonate fast enough for capillary passage. Much of the bicarbonate subsequently enters plasma. This division of labour is important: the red cell is a reaction compartment rich in enzyme and haemoglobin, while the extracellular fluid offers additional volume for carrying the reaction product. A plasma bicarbonate measurement thus reflects a pool generated and regulated by several organs and compartments, not an indication that all bicarbonate was originally made in plasma.</p><p class="teaching-prose">Carbamino compounds are formed when carbon dioxide reacts reversibly with suitable amino groups on proteins. Haemoglobin contributes prominently because it is abundant within red cells, and its ability to form carbamino groups is modified by oxygenation. Some carbon dioxide also reacts with plasma proteins. The carbamino linkage is not an attachment to the ferrous iron of the haem group. Oxygen binds at haem iron, whereas carbamino formation uses amino groups, particularly globin amino termini. Carbon monoxide, an entirely different molecule, can compete at haem iron with oxygen; it must not be confused with carbon dioxide or with carbaminohaemoglobin.</p><p class="teaching-prose">Introductory descriptions often allocate approximately 70% of transported carbon dioxide to bicarbonate and the rest to dissolved gas and carbamino compounds, commonly with values around 7–10% and 20–23% respectively. Such partitions are useful orientation but are not universal stoichiometric rules. A percentage can describe the distribution of the additional carbon dioxide acquired during a systemic circulation or the distribution of the total carbon dioxide pool at a particular sampling site. Those denominators are different. Changes in oxygen saturation, haemoglobin concentration, pH and the sampled pressure modify the proportions. The secure examination conclusion is that bicarbonate provides the predominant transport pathway in normal mammalian physiology, with molecular gas and carbamino forms contributing smaller but functionally essential shares.</p><p class="teaching-prose">To understand why bicarbonate predominates, consider an unbuffered aqueous solution receiving carbon dioxide. Hydration and dissociation generate hydrogen ions together with bicarbonate. As hydrogen ions accumulate, their increased activity favours the reverse reaction, limiting further conversion. Blood differs because its proteins and other buffers take up a portion of the newly generated hydrogen ions. Removal of bicarbonate from the red cell into plasma also changes the local concentration of a reaction product. Neither process violates chemical equilibrium; both change the conditions under which a new equilibrium is approached. The combination of enzyme-catalysed equilibration, proton buffering and ion transport gives whole blood an impressive capacity for carrying carbon dioxide at modest partial pressures.</p></section>
+<section id="s4"><h2>4. Carbonic anhydrase and red-cell reaction kinetics</h2><p class="teaching-prose">The principal chemical transformations can be written in two stages. CO₂ + H₂O ⇌ H₂CO₃ describes reversible hydration, followed by H₂CO₃ ⇌ H⁺ + HCO₃⁻. Carbonic acid is a weak acid and can dissociate into its conjugate base, bicarbonate. For most physiological calculations, dissolved carbon dioxide and the small associated carbonic acid pool are treated together. The net reaction CO₂ + H₂O ⇌ H⁺ + HCO₃⁻ is especially useful for tracking carbon and acid equivalents. It preserves atoms and charge. The hydrogen ion on the right is not itself carbon dioxide; it arises because hydration and dissociation couple carbon transport to acid–base chemistry.</p><p class="teaching-prose">An enzyme accelerates a chemical reaction by providing a lower activation-energy pathway. It does not change the equilibrium constant of the overall reaction. Carbonic anhydrase is a zinc-containing enzyme; in the common red-cell isoenzyme CA II the metal supports formation of a reactive hydroxide that attacks carbon dioxide. Bicarbonate is produced and released, water replenishes the metal-bound ligand, and proton transfer allows the catalytic state to be regenerated. The detailed geometry of the active site is less important for physiology than the consequence: reversible hydration and dehydration approach equilibrium very rapidly. CA I also contributes to erythrocyte carbonic anhydrase activity, but CA II has high catalytic activity.</p><p class="teaching-prose">The same enzyme supports carbon dioxide uptake in systemic capillaries and release in pulmonary capillaries. It does not require a separate tissue-specific and lung-specific catalytic reaction. A catalyst accelerates both directions; the net direction is determined by concentrations, hydrogen ion activity, gas partial pressure and the continual removal or addition of products. At the tissue, carbon dioxide entry raises the available substrate and haemoglobin buffers protons. At the lung, molecular carbon dioxide leaves for alveolar gas, and oxygenation favours proton release. These changing conditions make the reverse reaction useful. Thinking of the enzyme as a one-way bicarbonate pump would give an incorrect prediction in the pulmonary capillary.</p><p class="teaching-prose">The importance of reaction speed can be investigated without changing the final equilibrium. Imagine equal samples of a bicarbonate-containing solution, one with active carbonic anhydrase and one without it, initially equilibrated with gas at the same PCO₂. Suddenly change the gas pressure while maintaining temperature. Measure pH continuously. The solution containing enzyme approaches the new pH more rapidly. Given sufficient time and identical final conditions, both should approach the same equilibrium pH. If final pH values differ, one must examine other changes introduced by the experiment, such as protein buffering or ionic composition. A kinetic experiment distinguishes time required to reach equilibrium from the equilibrium position itself.</p><p class="teaching-prose">Blood spends a finite interval in systemic and pulmonary capillaries. A reaction that occurs eventually in a test tube may be too slow to support rapid physiological exchange. Carbonic anhydrase solves this timing problem. Inhibition of erythrocyte carbonic anhydrase would be predicted to delay bicarbonate formation during tissue passage and reconversion during lung passage. The size of the observed effect depends on transit time, enzyme reserve, circulation and external conditions. Systemic administration of a carbonic anhydrase inhibitor has additional effects, notably in renal bicarbonate handling. A whole-animal pH change therefore cannot be attributed to red-cell enzyme inhibition alone unless the experimental design separates those mechanisms.</p><p class="teaching-prose">Enzyme activity and diffusion also interact. If hydration in a red cell consumes freely dissolved molecular carbon dioxide, the intracellular partial pressure rises more slowly than it would without conversion. A gradient from the surrounding plasma is then maintained for longer. The enzyme does not directly transport carbon dioxide through a membrane; it couples membrane diffusion to a chemical sink. In the lungs, rapid conversion in the opposite direction replenishes molecular gas as it diffuses out. The same general strategy appears elsewhere in physiology: binding or metabolism in one compartment sustains a concentration gradient and thereby indirectly promotes exchange across a membrane.</p></section>
+<section id="s5"><h2>5. Haemoglobin buffering and the chloride shift</h2><p class="teaching-prose">Conversion of carbon dioxide into bicarbonate generates one hydrogen ion for each bicarbonate ion formed in the net reaction. If both products accumulated freely inside an erythrocyte, the rise in hydrogen ion activity and bicarbonate concentration would oppose continued hydration. In a functioning erythrocyte, much of the hydrogen ion is accepted by titratable groups on haemoglobin. Deoxygenated haemoglobin binds protons more readily than oxygenated haemoglobin under comparable conditions. Protein buffering therefore limits the increase in free hydrogen ion activity as carbon dioxide is taken up. The protons are not destroyed; they become reversibly associated with buffer groups.</p><p class="teaching-prose">Bicarbonate generated in the erythrocyte can exchange with chloride across its plasma membrane. The major protein responsible is anion exchanger 1, abbreviated AE1, also called band 3 and encoded by SLC4A1. During systemic passage the usual net direction is bicarbonate out of the red cell and chloride into it. Both ions carry one negative charge, so exchange of one for one is electroneutral. No net charge is transferred in one exchange cycle, and the mechanism does not hydrolyse ATP directly. The net direction depends on the relative activities of exchangeable anions on the two sides of the membrane. Calling this process an ATP-dependent chloride pump obscures the thermodynamic basis of the transport.</p><p class="teaching-prose">The name chloride shift, or Hamburger shift, refers to this redistribution during changes in gas carriage. Chloride entering the cell replaces much of the negative charge associated with bicarbonate leaving. In the absence of a counterion movement, sustained uncompensated movement of negatively charged bicarbonate across the membrane would rapidly establish an electrical opposition to further movement. AE1 permits bicarbonate transport without such net electrogenic separation. The term shift does not mean that blood chloride is generated or consumed. Chloride moves between plasma and red cells; its total amount in a closed blood sample is conserved. Water redistribution can accompany altered intracellular solute and protein charge conditions, so red-cell volume may also change modestly with oxygenation and carbon dioxide loading.</p><p class="teaching-prose">This system illustrates compartmental cooperation. Enzyme activity in the red cell rapidly makes bicarbonate; haemoglobin binds a fraction of the associated protons; AE1 redistributes bicarbonate into plasma; circulation carries plasma and red cells together. Removing bicarbonate from the reaction compartment makes extracellular volume available to the carbon dioxide reservoir. The two products of the reaction are thus handled by different physical processes. One is buffered by proteins and the other is transferred by an electroneutral exchanger. Neither the protein buffer nor the transporter is a substitute for the carbonic anhydrase reaction.</p><p class="teaching-prose">Consider two otherwise comparable suspensions of intact erythrocytes in a chloride-containing medium. In one, AE1 is functional; in the other, an experimental intervention specifically reduces anion exchange. Expose both to the same increase in PCO₂ for a short interval. Carbon dioxide can still enter both cell populations, and intracellular carbonic anhydrase can still catalyse hydration. In the impaired suspension, newly formed bicarbonate cannot leave as rapidly through AE1. Its retention, in conjunction with buffer conditions, alters the response and reduces the rate at which plasma receives bicarbonate from the red cells. A useful measurement is the time course of extracellular bicarbonate or chloride redistribution. In interpreting the result, one must control cell volume, haemoglobin concentration, pH and any off-target influence of the intervention. It would be incorrect to predict that blocking AE1 abolishes all molecular carbon dioxide diffusion or all carbamino formation.</p><p class="teaching-prose">AE1 is also an important structural membrane protein and has a related form in renal acid-secreting epithelial cells. Those roles explain why genetic disturbances of SLC4A1 can produce different combinations of red-cell and renal phenotypes. They do not make the normal erythrocyte chloride shift a mechanism of net urinary acid excretion. Red cells transiently exchange anions within the circulating blood. Renal epithelial transport, covered separately, transfers acid–base equivalents between body fluid and tubular fluid. A physiological explanation should always identify both compartments before interpreting the consequence of a transporter.</p></section>
+<section id="s6"><h2>6. Pulmonary reversal and exhalation</h2><p class="teaching-prose">When venous blood arrives at the pulmonary capillary, its molecular carbon dioxide partial pressure ordinarily exceeds that in ventilated alveolar gas. Carbon dioxide diffuses from blood toward the alveolar space. This loss lowers the local dissolved gas pool. Reactions that had supported uptake in peripheral tissues now replenish the departing molecular gas. At the same time, oxygen diffuses in the opposite direction and binds haemoglobin. Oxygenation modifies haemoglobin's ability to bind hydrogen ions and carbamino groups. The chemistry of oxygen uptake thus facilitates the elimination of carbon dioxide.</p><p class="teaching-prose">During pulmonary passage bicarbonate in plasma enters red cells through AE1 in exchange for chloride leaving the cells. This is the reverse chloride shift. As haemoglobin becomes oxygenated, hydrogen ions are released from some of its buffer groups. The hydrogen ions combine with bicarbonate, and carbonic anhydrase accelerates conversion toward molecular carbon dioxide and water. Newly produced molecular gas can leave the red cell, enter plasma and cross the thin alveolar barrier. Carbamino groups also dissociate, adding carbon dioxide to the pool available for exhalation. The net events conserve carbon, hydrogen and electrical charge even though the chemical forms differ from those in incoming mixed venous blood.</p><p class="teaching-prose">It is helpful to trace a single carbon atom rather than imagine the lung eliminating bicarbonate directly. Suppose that carbon entered blood in exercising muscle as CO₂, was converted in an erythrocyte and crossed into plasma as bicarbonate. In a pulmonary capillary it can return to an erythrocyte through AE1. Following protonation and dehydration, it becomes molecular carbon dioxide. It diffuses into alveolar gas and is carried out during expiration. Other carbon atoms remain in the blood as part of the normal bicarbonate and dissolved pools. Only the net difference between venous and arterial content must be removed on each circulation. The lung does not strip the blood of its buffering capacity with every breath.</p><p class="teaching-prose">Ventilation is necessary to maintain the receiving compartment. If an alveolus were perfused but not ventilated, gas exchange would initially bring alveolar gas toward equilibrium with incoming venous blood. Subsequent removal would become limited because the external sink is not refreshed. Chemical conversion in blood alone cannot maintain a sustained gradient under such circumstances. Similarly, an alveolus that receives fresh air but no blood cannot receive carbon dioxide generated in distant tissues. Efficient removal requires both convective flows and a functioning exchange barrier. This connection revisits ventilation–perfusion matching without repeating its entire treatment.</p><p class="teaching-prose">Exhaled air contains carbon dioxide and water vapour. Air passing through moist respiratory surfaces approaches body temperature and high humidity; water molecules evaporate into the gas. Some heat and moisture are recovered in the upper airway during expiration, depending on conditions. The net water loss through breathing depends on inspired humidity, ventilation and temperature. Unlike carbon dioxide, much of this water is not specifically generated in the moment by the carbonic anhydrase reaction. It comes from the water lining the respiratory tract and ultimately from body fluid. At a respiratory rate and depth sufficient to increase gas throughput, respiratory water loss generally rises if other conditions are unchanged. Aquatic respiratory exchange and water conservation in other species follow different physical circumstances.</p><p class="teaching-prose">Nitrogenous wastes require other elimination pathways. The lung's ordinary role in carbon dioxide elimination must not be confused with renal clearance of urea or ammonia excretion in fish. Carbon dioxide is a volatile acid precursor because molecular gas can be transported into the atmosphere. Fixed acid loads arising from metabolism cannot generally be removed simply by exhaling their anions. Respiratory compensation can modify dissolved carbon dioxide and thereby change pH, but sustained correction of a fixed acid load requires its metabolism or excretion and restoration of buffering capacity. This division of labour explains why the lungs and kidneys are complementary rather than interchangeable regulators.</p></section>
+<section id="s7"><h2>7. The Haldane effect and its experimental meaning</h2><p class="teaching-prose">The dependence of carbon dioxide carrying capacity on haemoglobin oxygenation is called the Haldane effect. At a given carbon dioxide partial pressure, deoxygenated blood can generally carry more total carbon dioxide than oxygenated blood under otherwise comparable conditions. This property favours uptake in tissues, where oxygen is unloaded, and release in lungs, where oxygen is loaded. The definition must explicitly state the quantity being compared and what is held constant. A description that merely says oxygen and carbon dioxide exchange in opposite directions is insufficient, because independent diffusion gradients could produce opposite fluxes even without allosteric coupling in haemoglobin.</p><p class="teaching-prose">The molecular explanation has two closely related components. First, oxygenation alters the conformational and electrostatic properties of haemoglobin, affecting the ability of amino groups to form carbamino compounds. Deoxygenated haemoglobin generally forms such compounds more readily. Second, deoxygenated haemoglobin is a stronger proton buffer than oxygenated haemoglobin. It can accept protons generated during bicarbonate formation, thereby favouring additional bicarbonate carriage. Oxygenation releases protons, which can participate in the conversion of bicarbonate back toward molecular carbon dioxide. Both direct carbamino binding and the indirect effect through bicarbonate contribute to the total change in content. Treating the Haldane effect as exclusively the displacement of carbon dioxide from a carbamino site omits the important buffering contribution.</p><p class="teaching-prose">The classical work of Christiansen, Douglas and Haldane, published in the Journal of Physiology in 1914, examined carbon dioxide uptake and dissociation in human blood. The relevant scientific question was whether blood carbon dioxide capacity could be described solely by carbon dioxide pressure or whether oxygenation modified the relationship. A controlled comparison of equilibrated blood at differing oxygenation states and specified carbon dioxide pressures allows the effect to be distinguished from differences in exposure to carbon dioxide. Total carbon dioxide content, rather than pressure alone, is the dependent variable of interest. Temperature and blood composition must be controlled because both influence gas carriage. The observed oxygenation dependence established a physiological coupling of the two respiratory gases. Modern mechanistic interpretation includes haemoglobin proton buffering and carbamino chemistry; it should not be assumed that all modern molecular details were directly demonstrated in the original experiments.</p><p class="teaching-prose">A carbon dioxide dissociation graph places PCO₂ on the horizontal axis and total carbon dioxide content on the vertical axis. Curves are drawn for different oxygenation conditions. Over a limited physiological range the curves are often approximately linear, unlike the strongly sigmoid oxygen saturation curve. At the same horizontal coordinate, the deoxygenated-blood curve lies above the oxygenated-blood curve. At the same vertical coordinate, oxygenated blood has a higher PCO₂ than deoxygenated blood, provided the curves rise monotonically and are being compared within their common range. These two statements are equivalent readings of the same graphical relationship. In the lungs, the rise in oxygenation can raise the tendency of a fixed total carbon dioxide load to escape as molecular gas, complementing the pre-existing gradient into the alveolus.</p><p class="teaching-prose">The Bohr effect, covered with oxygen transport, is a different observation. A rise in carbon dioxide or hydrogen ion activity decreases haemoglobin oxygen affinity, so at a given PO₂ haemoglobin is less oxygen saturated. On a graph of oxygen saturation versus PO₂ this is represented by a rightward shift under the usual conditions. For the Haldane effect, oxygenation is changed and carbon dioxide content is measured at a given PCO₂. These two effects are linked through haemoglobin chemistry but answer distinct experimental questions. In metabolically active tissue, carbon dioxide loading assists oxygen unloading through the Bohr effect, while oxygen unloading assists carbon dioxide carriage through the Haldane effect. In lungs, the reverse changes favour both oxygen uptake and carbon dioxide release.</p><p class="teaching-prose">If two samples have identical carbon dioxide pressure but different haemoglobin concentrations, their content may differ independently of oxygenation. A valid demonstration of the Haldane effect therefore compares oxygenation at matched haemoglobin concentration and other relevant conditions. Similarly, changes in pH may be a consequence of the oxygenation-linked buffer reaction rather than a variable that should always be clamped in the same way. The experimental interpretation must specify whether pH or acid–base composition is independently controlled. Simplified examination curves usually depict whole blood equilibrated under comparable conditions; they should not be applied indiscriminately to a purified haemoglobin solution or a saline sample containing no haemoglobin.</p></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 7 · System Physiology – Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.C.06","previous-node","← "],["7.C.08","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

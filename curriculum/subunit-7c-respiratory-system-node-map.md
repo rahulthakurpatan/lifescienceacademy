@@ -106,3 +106,10 @@
 | Chemical regulation | 7.C.08 |
 
 Ventilatory mechanics and measurement (7.C.03–04) form the explanatory bridge between anatomy and gas exchange. All explicit official topic groups have a substantive assigned home; representative examples serve examinable physiology rather than an exhaustive clinical respiratory medicine curriculum.
+
+
+### Publication checkpoint — 2026-11-27 — 7.C.04
+
+- 7.C.04 — [Lung Volumes, Capacities and Respiratory Measurements](https://rahulthakurpatan.github.io/lifescienceacademy/lung-volumes-capacities-and-respiratory-measurements.html); internal academic/editorial QA 95/100, saved HTML audited; Pages and live verification pending.
+- Teaching prose: 13,684 words; 11 original SVGs; 56 explained questions (20 Part B, 30 Part C, 6 SET-style); 15 misconceptions; 10 active recall prompts.
+- Subunit 7.C: 1/8; Unit 07: 17/90; Academy: 332/723. Next global unpublished node: 7.C.01 — Foundations and Comparative Physiology of Respiration.

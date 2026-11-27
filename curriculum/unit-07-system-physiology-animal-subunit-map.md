@@ -228,3 +228,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.B.08 — [Chemical Regulation and Integrated Cardiovascular Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/chemical-regulation-and-integrated-cardiovascular-homeostasis.html); internal academic/editorial QA 95/100, saved HTML audited; Pages and live verification pending.
 - Teaching prose: 14,018 words; 15 original SVGs; 53 explained questions (20 Part B, 27 Part C, 6 SET-style); 17 misconceptions; 14 active recall prompts.
 - Subunit 7.B: 8/8; Unit 07: 16/90; Academy: 331/723. Next global unpublished node: 7.C.01 — Foundations and Comparative Physiology of Respiration.
+
+
+### Publication checkpoint — 2026-11-27 — 7.C.04
+
+- 7.C.04 — [Lung Volumes, Capacities and Respiratory Measurements](https://rahulthakurpatan.github.io/lifescienceacademy/lung-volumes-capacities-and-respiratory-measurements.html); internal academic/editorial QA 95/100, saved HTML audited; Pages and live verification pending.
+- Teaching prose: 13,684 words; 11 original SVGs; 56 explained questions (20 Part B, 30 Part C, 6 SET-style); 15 misconceptions; 10 active recall prompts.
+- Subunit 7.C: 1/8; Unit 07: 17/90; Academy: 332/723. Next global unpublished node: 7.C.01 — Foundations and Comparative Physiology of Respiration.

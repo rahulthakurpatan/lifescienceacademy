@@ -354,3 +354,10 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.G.07 — [Alkaloids: Classification, Biosynthesis and Functions](https://rahulthakurpatan.github.io/lifescienceacademy/alkaloids-classification-biosynthesis-and-functions.html); academic and static review completed; Pages verification pending.
 - Teaching prose: 13,690 words, 135 paragraphs; 12 SVGs, 3 tables and 52 explained questions.
 - Subunit 6.G: 10/10; Unit 06: 49/66; Academy: 298/723. Next unpublished in 6.G: complete. Next global pending: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.D.07 — [Abscisic Acid: Seed Dormancy and Water-Stress Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html); internal content and anchor review completed; Pages verification pending.
+- Teaching prose: 9068 words; 10 SVGs and 45 explained questions.
+- Subunit 6.D: 9/10; Unit 06: 52/66; Academy: 301/723. Next unpublished in 6.D: 6.D.05 — Brassinosteroids (subject to concurrent publication).

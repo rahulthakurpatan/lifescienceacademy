@@ -218,3 +218,10 @@
 
 - 6.D.08 — [Ethylene: Gaseous Signaling, Ripening and Senescence](https://rahulthakurpatan.github.io/lifescienceacademy/ethylene-gaseous-signaling-ripening-and-senescence.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 8/10; next unpublished in this subunit: 6.D.05.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.D.07 — [Abscisic Acid: Seed Dormancy and Water-Stress Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html); internal content and anchor review completed; Pages verification pending.
+- Teaching prose: 9068 words; 10 SVGs and 45 explained questions.
+- Subunit 6.D: 9/10; Unit 06: 52/66; Academy: 301/723. Next unpublished in 6.D: 6.D.05 — Brassinosteroids (subject to concurrent publication).

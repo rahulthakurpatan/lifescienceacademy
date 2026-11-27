@@ -196,3 +196,10 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.E.08 — Senescence of Plant Organs: Leaves, Flowers and Nutrient Recycling**: internal academic QA 95/100, 14,064 teaching words, 13 accessible SVGs and 52 explained original questions. [Chapter](../senescence-of-plant-organs-leaves-flowers-and-nutrient-recycling.html) · [QA record](node-5e08-publication-qa.json). Pages deployment and live availability require separate verification.
 - Subunit 5.E: 8/10. Unit 05: 55/57. Academy: 247/723. Next pending: 5.E.07 — Plant Developmental Cell Death: Xylem, Tapetum and Tissue Remodeling.
+
+### Publication checkpoint — 2026-11-27 — 5.E.07
+
+- **Published:** [Plant Developmental Cell Death: Xylem, Tapetum and Tissue Remodeling](../plant-developmental-cell-death-xylem-tapetum-and-tissue-remodeling.html).
+- Internal QA 95/100; 13,521 teaching words; 13 SVGs; 54 explained questions. Deployment verification pending.
+- Progress: 5.E 9/10; Unit 05 56/57; Academy 248/723.
+- First unpublished: 5.E.10 — Plant Aging and Lifespan Strategies: Annuals, Perennials and Meristem Renewal.

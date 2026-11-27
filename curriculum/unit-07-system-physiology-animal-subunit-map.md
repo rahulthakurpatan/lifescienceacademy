@@ -267,3 +267,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 
 - 7.C.06 — [Oxygen Transport and Respiratory Pigments](../oxygen-transport-and-respiratory-pigments.html); 14,248 genuine teaching words, 16 SVGs, 56 explained questions (20 Part B, 26 Part C, 10 SET), 18 misconceptions and 14 active recall prompts. Internal academic/editorial QA: 95/100; deployment and live verification tracked separately.
 - Subunit 7.C: 7/8; Unit 07: 23/90; Academy: 338/723. Next unpublished node: 7.C.08 — Neural and Chemical Regulation of Respiration.
+
+### Publication checkpoint — 2026-11-27 — 7.C.08
+
+- 7.C.08 — [Neural and Chemical Regulation of Respiration](https://rahulthakurpatan.github.io/lifescienceacademy/neural-and-chemical-regulation-of-respiration.html); internal QA 95/100; saved HTML static audit complete; Pages and live verification pending.
+- Teaching prose: 13,524 words in 133 paragraphs; 14 original SVGs, 3 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 17 misconceptions, 12 recall prompts.
+- Subunit 7.C: 8/8; Unit 07: 24/90; Academy: 339/723. Next global unpublished node: 7.D.01 — Foundations of Nervous System and Cellular Organisation.

@@ -327,3 +327,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 
 - 6.E.02 — [Phytochromes: Red/Far-Red Perception, Photoconversion and Developmental Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/phytochromes-red-far-red-perception-photoconversion-and-developmental-signaling.html); internal academic/static QA 95/100; browser and live deployment verification pending.
 - Subunit 6.E: 5/7; Unit 06: 38/66; Academy: 287/723. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.03 — [Cryptochromes: Blue-Light Sensing and Photomorphogenesis](https://rahulthakurpatan.github.io/lifescienceacademy/cryptochromes-blue-light-sensing-and-photomorphogenesis.html); internal academic/static QA 95/100; browser and live deployment verification pending.
+- Subunit 6.E: 6/7; Unit 06: 39/66; Academy: 288/723. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

@@ -142,3 +142,9 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.D.04 — Root Apical Meristem: Quiescent Center, Stem-Cell Niche and Radial Patterning**: academic QA passed; chapter included in the publication tree at `root-apical-meristem-quiescent-center-stem-cell-niche-and-radial-patterning.html`. Pages and live availability require separate verification.
 - Subunit 5.D: 3/11. Unit 05: 39/57. Academy: 231/723. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.08 — Vegetative-to-Reproductive Transition: Developmental Timing of Flowering**: `vegetative-to-reproductive-transition-developmental-timing-of-flowering.html`, included in the academic publication tree; Pages verification is separate.
+- Reconciled current published 5.D nodes: 5.D.02, 5.D.03, 5.D.04, 5.D.06, 5.D.08, 5.D.09. Subunit 5.D: 6 / 11; Unit 05: 42 / 57; Academy: 234 published nodes. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.

@@ -161,3 +161,9 @@ All explicit official topic groups have an assigned substantive home. Synaptic i
 - 7.D.09 — [Proprioception and Neural Control of Muscle Tone](https://rahulthakurpatan.github.io/lifescienceacademy/proprioception-and-neural-control-of-muscle-tone.html); internal academic/editorial QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 13,775 words, 147 distinct paragraphs; 15 original SVGs (3 graphs), 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 18 misconceptions, 14 recall prompts and 14 references.
 - Subunit 7.D: 7/10; Unit 07: 31/90; Academy: 346/723. Next global unpublished node: 7.D.05 — Gross Neuroanatomy and Functional Organisation of the Brain.
+
+### Publication checkpoint — 2026-11-27 — 7.D.05
+
+- 7.D.05 — [Gross Neuroanatomy and Functional Organisation of the Brain](https://rahulthakurpatan.github.io/lifescienceacademy/gross-neuroanatomy-and-functional-organisation-of-the-brain.html); internal QA 95/100, static audit passed, Pages and live verification pending.
+- Teaching prose: 14,924 lexical words, 161 paragraphs; 17 original SVGs, 4 tables, 52 explained questions (22 Part B, 22 Part C, 8 SET/integrated), 20 misconceptions and 16 recall prompts.
+- Subunit 7.D: 8/10; Unit 07: 32/90; Academy: 347/723. Next global unpublished node: 7.D.06 — Spinal Cord, Neural Pathways and Reflex Integration.

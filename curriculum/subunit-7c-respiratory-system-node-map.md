@@ -113,3 +113,10 @@ Ventilatory mechanics and measurement (7.C.03–04) form the explanatory bridge 
 - 7.C.04 — [Lung Volumes, Capacities and Respiratory Measurements](https://rahulthakurpatan.github.io/lifescienceacademy/lung-volumes-capacities-and-respiratory-measurements.html); internal academic/editorial QA 95/100, saved HTML audited; Pages and live verification pending.
 - Teaching prose: 13,684 words; 11 original SVGs; 56 explained questions (20 Part B, 30 Part C, 6 SET-style); 15 misconceptions; 10 active recall prompts.
 - Subunit 7.C: 1/8; Unit 07: 17/90; Academy: 332/723. Next global unpublished node: 7.C.01 — Foundations and Comparative Physiology of Respiration.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 7.C.01 — [Foundations and Comparative Physiology of Respiration](../foundations-and-comparative-physiology-of-respiration.html): internal QA 95/100; 14,610 genuine teaching words, 12 original SVGs, 55 explained questions (22 Part B, 26 Part C, 7 other), 18 misconception checks and 14 active recall prompts.
+- Respiratory System: 2/8; Unit 07: 18/90; Academy: 333/723. Production integration prepared; Pages/live verification is separate.
+- Next unpublished node: 7.C.02 — Mammalian Respiratory Anatomy and Functional Organisation.

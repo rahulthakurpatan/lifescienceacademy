@@ -249,3 +249,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.D.01 — [Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 1/10; Unit 06: 18/66; Academy: 267/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.D.04 — [Gibberellins: Stem Growth, Seed Germination and DELLA Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/gibberellins-stem-growth-seed-germination-and-della-signaling.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 2/10; Unit 06: 19/66; Academy: 268/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

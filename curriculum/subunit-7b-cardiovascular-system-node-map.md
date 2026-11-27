@@ -127,3 +127,9 @@ All explicit topic groups have a substantive assigned home. Vascular haemodynami
 - 7.B.07 — [Blood Pressure and Neural Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/blood-pressure-and-neural-regulation.html); internal QA 95/100; static saved-HTML audit complete, Pages verification pending.
 - 13,786 genuine teaching words in 133 distinct paragraphs; 13 original SVGs including 3 schematic plots, 2 tables, 54 explained questions (20 Part B, 23 Part C, 11 mixed), 15 misconceptions, 12 recall prompts, 17 reference entries.
 - Subunit 7.B: 4/8; Unit 07: 12/90; Academy: 327/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.B.06 — [Vascular Physiology and Haemodynamics](https://rahulthakurpatan.github.io/lifescienceacademy/vascular-physiology-and-haemodynamics.html); internal QA 95/100, saved HTML static checks complete; Pages/live verification pending.
+- 14,376 teaching words in 148 distinct paragraphs; 15 original SVGs (4 graphs), 6 tables, 52 explained questions (22 Part B, 24 Part C, 6 SET/integrated), 18 misconceptions, 14 recall prompts, 15 reference entries.
+- Subunit 7.B: 5/8; Unit 07: 13/90; Academy: 328/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.

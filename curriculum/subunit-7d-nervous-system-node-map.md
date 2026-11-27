@@ -148,3 +148,10 @@ All explicit official topic groups have an assigned substantive home. Synaptic i
 - 7.D.02 — [Resting Membrane Potential and Neuronal Excitability](https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html); internal academic/editorial QA 96/100, saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 14,632 words, 124 paragraphs; 12 original SVGs (6 graphs), 3 tables, 25 worked examples, 56 explained questions (20 Part B, 26 Part C, 10 SET), 17 misconceptions, 14 recall prompts, 14 references.
 - Subunit 7.D: 4/10; Unit 07: 28/90; Academy: 343/723. Next global unpublished node: 7.D.05 — Gross Neuroanatomy and Functional Organisation of the Brain.
+
+
+### Publication checkpoint — 2026-11-27 — 7.D.10
+
+- 7.D.10 — [Central Motor Control, Posture and Coordinated Movement](https://rahulthakurpatan.github.io/lifescienceacademy/central-motor-control-posture-and-coordinated-movement.html); internal QA 95/100, saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 14,805 words, 149 paragraphs; 14 original SVGs, 4 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 18 misconceptions and 14 recall prompts.
+- Subunit 7.D: 6/10; Unit 07: 30/90; Academy: 345/723. Next global unpublished node: 7.D.05 — Gross Neuroanatomy and Functional Organisation of the Brain.

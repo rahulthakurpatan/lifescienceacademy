@@ -133,3 +133,9 @@ All explicit topic groups have a substantive assigned home. Vascular haemodynami
 - 7.B.06 — [Vascular Physiology and Haemodynamics](https://rahulthakurpatan.github.io/lifescienceacademy/vascular-physiology-and-haemodynamics.html); internal QA 95/100, saved HTML static checks complete; Pages/live verification pending.
 - 14,376 teaching words in 148 distinct paragraphs; 15 original SVGs (4 graphs), 6 tables, 52 explained questions (22 Part B, 24 Part C, 6 SET/integrated), 18 misconceptions, 14 recall prompts, 15 reference entries.
 - Subunit 7.B: 5/8; Unit 07: 13/90; Academy: 328/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.
+
+
+### 2026-11-27 — 7.B.02 publication
+
+- 7.B.02 — [Myogenic Heart and Cardiac Electrophysiology](https://rahulthakurpatan.github.io/lifescienceacademy/myogenic-heart-and-cardiac-electrophysiology.html); internal academic QA 95/100; saved HTML static checks complete, Pages verification pending.
+- Subunit 7.B: 6/8; Unit 07: 14/90; Academy: 329/723. Existing concurrent publications preserved. Next global unpublished node: 7.B.04 — Cardiac Cycle and Pressure–Volume Relationships.

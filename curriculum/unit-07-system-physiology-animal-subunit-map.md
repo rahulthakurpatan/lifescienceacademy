@@ -221,3 +221,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 
 - 7.B.02 — [Myogenic Heart and Cardiac Electrophysiology](https://rahulthakurpatan.github.io/lifescienceacademy/myogenic-heart-and-cardiac-electrophysiology.html); internal academic QA 95/100; saved HTML static checks complete, Pages verification pending.
 - Subunit 7.B: 6/8; Unit 07: 14/90; Academy: 329/723. Existing concurrent publications preserved. Next global unpublished node: 7.B.04 — Cardiac Cycle and Pressure–Volume Relationships.
+
+
+### Publication checkpoint — 2026-11-27 — 7.B.08
+
+- 7.B.08 — [Chemical Regulation and Integrated Cardiovascular Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/chemical-regulation-and-integrated-cardiovascular-homeostasis.html); internal academic/editorial QA 95/100, saved HTML audited; Pages and live verification pending.
+- Teaching prose: 14,018 words; 15 original SVGs; 53 explained questions (20 Part B, 27 Part C, 6 SET-style); 17 misconceptions; 14 active recall prompts.
+- Subunit 7.B: 8/8; Unit 07: 16/90; Academy: 331/723. Next global unpublished node: 7.C.01 — Foundations and Comparative Physiology of Respiration.

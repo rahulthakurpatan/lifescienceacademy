@@ -234,3 +234,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 
 - 6.C.02 — [Nitrate and Nitrite Reduction in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 2/6; Unit 06: 12/66; Academy: 261/723.
+- 6.C.03 — [Ammonium Assimilation: The GS–GOGAT Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/ammonium-assimilation-the-gs-gogat-cycle.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.C: 4/6; Unit 06: 15/66; Academy: 264/723.
+- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.

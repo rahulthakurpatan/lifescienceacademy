@@ -150,3 +150,5 @@
 - 6.C.06 — [Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange](https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 3/6.
 - Next unpublished in 6.C: 6.C.03 — Ammonium Assimilation: The GS–GOGAT Cycle.
+- 6.C.03 — [Ammonium Assimilation: The GS–GOGAT Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/ammonium-assimilation-the-gs-gogat-cycle.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.C: 4/6; next unpublished in this subunit: 6.C.04 — Amino Acid Biosynthesis and Carbon–Nitrogen Integration.

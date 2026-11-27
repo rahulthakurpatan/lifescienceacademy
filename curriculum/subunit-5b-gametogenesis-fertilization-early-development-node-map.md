@@ -231,3 +231,8 @@
 - Female gametophyte development: https://pmc.ncbi.nlm.nih.gov/articles/PMC6013762/
 - Seed embryo/endosperm developmental dynamics: https://pmc.ncbi.nlm.nih.gov/articles/PMC4160995/
 
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.B.06 — Blastula Formation and Embryonic Fields in Animals**: included in the publication tree at `blastula-formation-and-embryonic-fields-in-animals.html`; Pages deployment verification is separate.

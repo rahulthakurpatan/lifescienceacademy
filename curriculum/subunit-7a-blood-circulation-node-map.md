@@ -110,3 +110,8 @@
 | Haemostasis | 7.A.05–06 |
 
 All explicit official topic groups have a substantive assigned home; examples support the syllabus and are not claims of exhaustive clinical haematology coverage.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.A.01: [Blood Composition and Plasma Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/blood-composition-and-plasma-physiology.html) — 14,636 teaching words; 15 scientific SVGs; 58 explained questions; internal QA 95/100. Production integration prepared; Pages verification pending.
+- Published nodes: 1/8. Next pending: 7.A.02 — Haematopoiesis and Blood Cell Differentiation.

@@ -160,3 +160,7 @@
 ## Quality checks
 
 Every explicit official topic is represented in the corresponding subunit scope. Preserve all preceding and following units. No placeholder language within Unit 7, no fabricated reading links, no sitemap change. Individual node planning remains a separate stage.
+
+## Publication checkpoint — 2026-11-27
+
+- Unit 07: 1/90 published nodes; 7.A: 1/8. First chapter 7.A.01 — Blood Composition and Plasma Physiology; next pending 7.A.02. Pages verification pending.

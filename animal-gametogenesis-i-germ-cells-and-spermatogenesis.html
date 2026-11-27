@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Explore animal germ-cell origins, spermatogonial renewal, meiosis, spermiogenesis and sperm structure for CSIR-NET and SET.">
+  <meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/animal-gametogenesis-i-germ-cells-and-spermatogenesis.html">
+  <title>Animal Gametogenesis I: Germ Cells and Spermatogenesis | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.exam-question{margin:1.2em 0;padding:0 0 1em;border-bottom:1px solid var(--border)}.exam-question h3{font-size:1em}.source-note{font-size:.82em;color:var(--muted)}.figure-panel svg{width:100%;height:auto;display:block}.table-scroll{overflow-x:auto}.article-content dd{margin:0 0 .7em 1em}</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 5</span><span>›</span><span>Subunit 5.B</span><span>›</span><strong>Node 01</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 5.B.01</span><span>Unit 5 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Animal Gametogenesis I: Germ Cells and Spermatogenesis</h1><p class="subtitle">Follow the male germ lineage from primordial germ cells to haploid sperm and distinguish testicular differentiation from later maturation.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled>← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled>Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc"><h2>Contents</h2><a href="#problem">The problem of producing a male gamete</a><a href="#germline">Germ cells, somatic cells and the origin of the reproductive lineage</a><a href="#niche">The seminiferous tubule as a developmental environment</a><a href="#renewal">Spermatogonial renewal and commitment</a><a href="#barrier">The blood–testis barrier and coordinated movement</a><a href="#counting">Chromosome sets, chromosome number and DNA content</a><a href="#meiosis">Meiosis and the production of haploid spermatids</a><a href="#bridges">Cytoplasmic bridges and coordinated cohorts</a><a href="#remodel">Spermiogenesis: transforming a round spermatid into a sperm</a><a href="#sperm">Functional organization of a typical mammalian sperm</a><a href="#release">Spermiation, epididymal maturation and capacitation</a><a href="#references">References</a></aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Animal Gametogenesis I: Germ Cells and Spermatogenesis"><div class="article-content" id="article"><section id="problem" class="theory-section"><h2>The problem of producing a male gamete</h2><p class="teaching-prose">A sexually reproducing animal begins a new generation by joining two cells that each carry a single chromosome set. The cells of the adult animal usually carry two sets, so an ordinary cell division cannot produce the correct genetic starting material for fertilization. Nor would a small cell carrying one chromosome set necessarily function as a sperm. It must also protect that set, travel or otherwise reach the egg, and present the structures needed for recognition and delivery. Spermatogenesis is the developmental solution to these distinct requirements. It combines the persistence of a reproductive lineage, the regulated reduction of chromosome number and the structural transformation of a cell into a highly specialized gamete. These events are related, but they are not interchangeable. A cell may have the correct number of chromosomes and still fail to acquire the architecture of a functional sperm.</p>
+<p class="teaching-prose">Consider a mammal that produces sperm throughout much of its reproductive life. If every precursor cell were to enter meiosis at once, a brief period of sperm production would exhaust the supply of precursors. If no precursor ever entered meiosis, the testis could maintain a large cell population without producing any haploid gametes. If both processes occurred but postmeiotic cells failed to remodel their nuclei and cytoplasm, the output would be round spermatids rather than correctly shaped sperm. Continuous reproduction therefore requires three coordinated tasks: renewing a precursor population, committing part of its descendants to meiosis, and supporting the differentiated products of meiosis until release. The relative contribution of each task can be inferred from the kinds of cells that remain in a tissue when spermatogenesis is interrupted.</p>
+<p class="teaching-prose">A useful distinction is between the genetic and cellular definitions of a gamete. The usual genetic property of the sperm is haploidy: it has one representative chromosome from each homologous pair. The cellular property is specialization for its reproductive role. A round spermatid has acquired the first property after completing meiosis, but it has not acquired the full second property. Similarly, the elongated cell released from a mammalian seminiferous tubule possesses recognizable sperm architecture but has not yet undergone all the changes that make sperm competent to fertilize an egg. Gametogenesis, sperm maturation in the epididymis and capacitation must therefore be treated as consecutive but distinct developmental contexts. The details of the last context belong to the following chapter on gamete recognition.</p>
+<p class="teaching-prose">The biological significance of the reduction division becomes especially clear across generations. If an animal with two chromosome sets formed gametes by ordinary mitosis, each gamete would normally retain both sets. Joining two such gametes would produce a cell with four sets, and repeating the same scheme would increase the number again. Meiosis avoids this progressive doubling in the usual diploid life cycle. It also allows parental genetic variants to be reorganized, so successive sperm need not carry the same combinations of alleles. These are two separate benefits: preserving the number of chromosome sets and generating genetic diversity. Neither benefit depends on the sperm having an elongated tail, which is a later structural adaptation.</p>
+<p class="teaching-prose">This chapter uses the mammalian testis as the principal anatomical example because the organization of its germ cells, supporting cells and stages of differentiation can be connected to many standard examination questions. The underlying logic of germline maintenance and haploid gamete production is shared more broadly, but details of sperm shape, timing, movement and supporting tissue vary across animals. A statement about a human or mouse seminiferous tubule should not automatically be applied to an insect or a marine invertebrate. The comparison with other organisms is most informative when it identifies which cellular tasks are conserved and which anatomical solutions have changed.</p>
+<p class="teaching-prose">The previous developmental chapters introduced cell fate, competence and commitment. These concepts now become concrete. A germ cell maintains a reproductive identity even while its shape and activity change profoundly; a stem cell supplies descendants that adopt a more restricted developmental pathway; and a haploid spermatid differentiates without another nuclear division. In this way spermatogenesis provides an unusually clear example of how changes in developmental fate, cell cycle status, tissue location and cell architecture must be analyzed independently before being combined into a complete explanation.</p></section>
+<section id="germline" class="theory-section"><h2>Germ cells, somatic cells and the origin of the reproductive lineage</h2><p class="teaching-prose">The first important distinction is between the germ line and the soma. Germ cells belong to the cellular lineage that ultimately produces gametes; somatic cells form the other tissues and generally do not transmit their nuclear genomes directly through fertilization. The distinction concerns lineage and reproductive function, not the amount of DNA in a cell at a given moment. A diploid primordial germ cell is a germ cell even though it has not entered meiosis. A diploid Sertoli cell is somatic even though it is indispensable to the formation of sperm. A haploid sperm is the differentiated product of the germline pathway, rather than the only cell that qualifies as part of that pathway.</p>
+<p class="teaching-prose">Primordial germ cells are early embryonic precursors of gametes. In many animals, germline identity appears well before the cells become part of a functional gonad. In some organisms maternal cytoplasmic material helps specify the germ line; in others, extracellular signals during embryogenesis induce particular cells to acquire germ-cell identity. These alternative modes are commonly called preformation and induction. Drosophila provides a familiar example of germ plasm inheritance, whereas the mouse exemplifies inductive specification. The contrast does not mean that one lineage receives all information from the mother and the other receives none. Every embryo contains maternal contributions, and both strategies ultimately require appropriate gene activity and a cellular environment.</p>
+<p class="teaching-prose">After specification, primordial germ cells must reach or become associated with the developing gonad. In vertebrate models this may involve migration through embryonic tissues, regulated adhesion and directed movement. The destination is a developing gonadal environment that contains somatic cells capable of supporting the germ line. A population of correctly specified germ cells that fails to reach this environment may be insufficient to establish a functional germinal population. Conversely, normal formation of the gonadal soma does not guarantee that it will receive a normal number of germ cells. Thus germline specification, survival, migration and gonadal colonization are distinguishable steps. An experiment that finds few germ cells in a fetal gonad should investigate which step has failed rather than assuming that germ cells were never specified.</p>
+<p class="teaching-prose">Lineage labeling illustrates how these steps can be separated experimentally. Imagine an embryo in which an early germ-cell population is marked with a stable fluorescent lineage label. The number and positions of labeled cells can be examined at sequential developmental stages. If initial numbers are normal but labeled cells accumulate outside the gonad, a migration or retention problem becomes plausible. If initial numbers are already reduced, specification or very early survival deserves attention. If labeled cells reach the gonad normally but disappear later, post-colonization survival or proliferation is implicated. The experimental observation must be compared with embryos of the same developmental age and labeled using the same method; differences in reporter activity can otherwise mimic a loss of the cells themselves.</p>
+<p class="teaching-prose">Once associated with the embryonic mammalian testis, germ cells interact with the surrounding somatic cells. Their early developmental state is different from that of adult spermatogonia, and the transition from embryonic or neonatal precursors to the adult renewing population is not a single universal event at one fixed age. In mice, fetal male germ cells undergo a period of mitotic quiescence, then resume proliferation in the neonatal period. Some descendants contribute to the initial wave of spermatogenesis, while others establish the long-term germline population. Mammalian species differ in developmental timing, so the mouse schedule is best used to understand the sequence of decisions rather than memorized as a human timetable.</p>
+<p class="teaching-prose">The germline identity itself does not specify every later property of the sperm. A primordial germ cell does not have an acrosome, a compact sperm nucleus or a mature flagellum. Those features appear later as descendants change gene expression and interact with the testicular environment. The distinction resembles the difference between a lineage map and a map of cell structure. A lineage map tells us where cells come from and which descendants they contribute; structural differentiation tells us what biological tasks those descendants become able to perform. Both are needed to understand a reproductive tissue.</p>
+<p class="teaching-prose">A germ cell can also be distinguished from its environment through genetic reasoning. If a mutation is carried by germ cells but the somatic gonad is normal, the developmental defect may follow the germ lineage. If genetically normal germ cells fail in a mutant somatic environment, the defect may instead reside in support functions. These possibilities are not mutually exclusive: some genes function in both populations, and an abnormal germ cell can change the behavior of nearby somatic cells. The appropriate conclusion from a simple tissue phenotype is therefore a statement about the affected stage, not automatically a statement about the cell type in which the gene acts.</p></section>
+<section id="niche" class="theory-section"><h2>The seminiferous tubule as a developmental environment</h2><p class="teaching-prose">In the mammalian testis, sperm formation takes place in seminiferous tubules. A tubule is not simply a hollow pipe that transports sperm. Its wall contains a multilayered seminiferous epithelium in which germ cells progress through proliferation, meiosis and differentiation while associated with somatic Sertoli cells. A basement membrane outlines the epithelium. The central space, called the lumen, receives released spermatozoa. Outside the tubules lies interstitial tissue containing blood vessels and Leydig cells, among other cell types. The distinction between a tubular compartment and the interstitial compartment immediately helps explain why sperm production and androgen secretion are anatomically connected but not performed by the same cells.</p>
+<p class="teaching-prose">A typical histological section shows several generations of germ cells. Spermatogonia are found at the basal side of the epithelium near the basement membrane. Primary spermatocytes generally occupy a more internal position, and round or elongated spermatids lie closer to the lumen. This radial pattern is a spatial representation of developmental progress, but it is not a simple arrangement of independent flat cell layers. Sertoli cells extend from the basal region toward the lumen, and developing germ cells sit in close association with their cytoplasm. Different stages coexist and the cellular associations change along the length of a tubule. A particular cross section may therefore lack a stage that is present elsewhere in a healthy testis.</p>
+<p class="teaching-prose">Sertoli cells are somatic organizers of the germ-cell environment. Their extensive surfaces accommodate developing germ cells and provide physical, nutritional and regulatory support. The support is not limited to a single molecule. The epithelium must regulate the composition of the extracellular environment, hold developing cells at appropriate positions, provide metabolites, accommodate movements of cell cohorts and remove material discarded during differentiation. A Sertoli cell can influence germ cells without contributing a chromosome directly to the resulting sperm. This is one reason why reproductive phenotypes cannot be understood by examining the germ-cell genome alone.</p>
+<p class="teaching-prose">Leydig cells occupy the interstitial region rather than the central lumen or the basal germ-cell layer. Their major contribution in this chapter is androgen production. Testosterone acts on the testicular environment and is necessary for normal mammalian spermatogenesis, especially through somatic support systems. The distinction between Leydig and Sertoli cells can be tested by asking what occurs when androgen production is interrupted while the germ cells themselves retain a normal chromosome complement. Normal ploidy does not guarantee that development proceeds if the supporting hormonal environment is disrupted. Equally, normal circulating hormone measurements do not prove that every step of germ-cell differentiation is normal.</p>
+<p class="teaching-prose">The term stem-cell niche describes the local environment that helps maintain stem-cell behavior. In the seminiferous epithelium, spermatogonial stem cells are associated with the basal compartment and respond to signals from surrounding cells. Their location provides access to a particular extracellular and cellular environment. A niche is not a permanent protective container; it is a functional relationship. Its signals help balance self-renewal with the production of differentiating progeny. If the balance changes toward excessive differentiation, the stem-cell population can decline. If it shifts toward maintenance without productive differentiation, early germ cells may remain while the output of later stages falls.</p>
+<p class="teaching-prose">The architecture of the tubule places an additional requirement on differentiation: newly formed germ cells must be moved or repositioned without destroying the epithelial organization needed by those behind them. In mammalian testes, the changing relationships between Sertoli cells and germ cells enable movement toward the lumen. Cell adhesion must be strong enough to sustain tissue organization yet sufficiently adjustable to allow successive developmental stages to pass. An excessively rigid attachment can obstruct movement just as an excessively weak attachment can cause premature loss. The correct question is not whether adhesion should always increase or decrease, but when, where and between which cells it should change.</p>
+<p class="teaching-prose">A diagram of a transverse tubule should accordingly show at least the basement membrane, the lumen, basal spermatogonia, internal spermatocytes, spermatids near the lumen, Sertoli cells and interstitial Leydig cells. Such a diagram should distinguish location from fate: although a spermatogonium is typically basal, a cell is not identified as a spermatogonium solely because it lies near the basement membrane. Nuclear morphology, chromosome status and suitable markers can support the identification. In an examination, a drawing that places Leydig cells inside the germinal epithelium or depicts sperm formation in the interstitial space confuses different functional compartments.</p></section>
+<section id="renewal" class="theory-section"><h2>Spermatogonial renewal and commitment</h2><p class="teaching-prose">The earliest postnatal germ-cell population capable of sustaining sperm production consists of spermatogonia, including a functional stem-cell subset. Spermatogonia are diploid cells that undergo mitotic division. Not every spermatogonium is a long-term stem cell. Some are already committed to differentiation and undergo additional proliferative divisions before entering meiosis. The practical distinction is that a true renewing population can persist and repeatedly generate differentiating descendants, whereas a transient amplifying population primarily increases the number of cells available for the next developmental step.</p>
+<p class="teaching-prose">It is useful to distinguish three outcomes at the population level. A division can ultimately contribute two renewing daughters, two daughters destined to differentiate, or one daughter to each category. Actual stem-cell behavior is more flexible than a diagram of obligatorily asymmetric cell division suggests. The identity and fate of descendants can be influenced by their position, signaling environment and interactions with other cells. What matters for a stable tissue is that, averaged over time, enough renewing cells are maintained to replace those lost to differentiation and other causes. Individual cell divisions need not all exhibit one identical pattern.</p>
+<p class="teaching-prose">Suppose a simplified population contains one hundred stem cells, each of which produces two daughters during a specified observation interval. If, on average, one daughter per original stem cell retains stem-cell capacity, the expected pool size remains one hundred. The remaining descendants can enter the amplifying pathway. If the mean number of renewing daughters falls below one, the population tends to decline over successive intervals. If it rises above one, the population can expand until constraints or feedback change the balance. This model deliberately ignores cell death, differences in division timing and transitions between states. Its purpose is to distinguish a rate of production of differentiating cells from a rate of replacement of stem cells.</p>
+<p class="teaching-prose">A useful comparison is a transient increase in sperm output following a large commitment of early cells. The increase does not necessarily imply a healthier stem-cell compartment. If the increased commitment occurs at the expense of long-term renewal, future output may fall after a delay. Conversely, an intervention that temporarily increases stem-cell self-renewal may produce fewer differentiating descendants in the short term without eliminating the long-term germline capacity. When interpreting an experiment, the timing of observations and the duration of follow-up are therefore important. A single measurement of mature sperm output is not enough to establish what happened to the stem-cell population.</p>
+<p class="teaching-prose">Spermatogonial classification varies by species and by the criteria used. Histological descriptions of human spermatogonia often distinguish dark and pale type A cells and type B cells, whereas rodent descriptions commonly use categories based on single cells, paired cells, aligned chains and differentiating forms. The labels describe observations and model-specific developmental organization; they should not be treated as an exact universal map of equivalent stem-cell functions. The essential exam distinction remains that a renewing and amplifying diploid population produces descendants that become primary spermatocytes. A histological label alone does not prove long-term stem-cell capacity.</p>
+<p class="teaching-prose">The value of functional evidence is illustrated by transplantation experiments in mice. In 1994, Brinster and Zimmermann reported that transplanted male germ cells could establish spermatogenesis in recipient testes. Complementary work by Brinster and Avarbock demonstrated germline transmission from donor-derived cells. The scientific significance is not merely that donor cells were visible in the recipient. A donor population could populate a suitable environment and produce descendants that completed the sperm-forming pathway. The demonstration of donor genetic transmission provides evidence beyond cell morphology alone. This makes transplantation an important conceptual example of testing stem-cell function rather than inferring it solely from a surface marker.</p>
+<p class="teaching-prose">Several controls make such an interpretation stronger. A recipient lacking normal endogenous germ-cell output provides a way to examine whether transferred cells restore developmental activity. Donor-specific genetic markers can distinguish donor-derived descendants from residual recipient cells. Comparison with a non-transplanted recipient helps exclude spontaneous recovery as the sole explanation. Finding donor-derived sperm or progeny adds a functional endpoint. Nevertheless, transplantation does not establish that every transplanted cell is a stem cell or that every aspect of the recipient environment is identical to an intact testis. The ability to colonize after transfer is one operational measure of stem-cell function and must be interpreted in the experimental context.</p>
+<p class="teaching-prose">Local signals influence the renewing population. In rodent studies, glial cell line-derived neurotrophic factor, usually abbreviated GDNF, has an established role in regulating spermatogonial stem-cell behavior. Differentiation signals, including retinoic acid signaling in mammalian models, help coordinate the transition toward later stages. These signals are not interchangeable: maintaining a population and instructing a developmental transition are different tasks. A change in the abundance of early cells following perturbation can arise from changes in renewal, differentiation, survival or cell division. The most informative experiment measures several of these variables rather than assigning a mechanism from cell abundance alone.</p></section>
+<section id="barrier" class="theory-section"><h2>The blood–testis barrier and coordinated movement</h2><p class="teaching-prose">The mammalian seminiferous epithelium contains a specialized junctional system between adjacent Sertoli cells known as the blood–testis barrier. Despite its name, the principal epithelial barrier is not simply a wall formed by the endothelial cells of blood vessels. It lies within the tubule near its basal region and divides the seminiferous epithelium into a basal compartment and an adluminal compartment. Spermatogonia and early preleptotene spermatocytes are associated with the basal side; later meiotic and postmeiotic development proceeds in the adluminal environment. This distinction explains how germ-cell populations at different stages can experience different local conditions in the same tissue.</p>
+<p class="teaching-prose">Tight junctions restrict the uncontrolled passage of substances between adjacent Sertoli cells. Other junctional structures contribute to the organization and regulation of the epithelial interface. The barrier helps maintain a specialized environment for later germ-cell differentiation and contributes to the protection of developing germ cells from potentially damaging immune exposure. It is not an absolute seal against every molecule, and immunological protection is not its only function. Transport across cells, local metabolism and regulated secretion continue to influence the composition of the adluminal compartment. A diagram that shows the barrier as a continuous impermeable plate would therefore obscure its biological role as a selectively regulated interface.</p>
+<p class="teaching-prose">The barrier creates an apparent developmental problem. A preleptotene spermatocyte beginning on the basal side must move into the compartment in which later meiosis occurs. If the junctions never changed, the cell could not proceed normally. If all junctions opened at the same time, the distinction between compartments would be lost. A useful model of the solution is the formation of new junctional contacts on one side of a transiting group of germ cells while older contacts are remodeled on the other side. The exact organization is coordinated in space and time, allowing germ-cell transit while maintaining the overall protective environment. It is a tissue-level example of regulation through dynamic organization rather than a static barrier.</p>
+<p class="teaching-prose">An experimental way to distinguish barrier integrity from cell survival is to examine the penetration of a normally restricted extracellular tracer while separately identifying germ-cell stages. In a hypothetical control, the tracer remains outside the adluminal compartment and later germ cells are present. In an affected testis, tracer penetration into the adluminal compartment may occur before loss of spermatocytes or spermatids becomes prominent. That observation supports disruption of the barrier as an early event, but it does not prove that the barrier is the only target of the perturbation. To strengthen causal inference, researchers would also examine Sertoli-cell junction organization, temporal order of defects and whether a specific restoration of barrier function improves later development.</p>
+<p class="teaching-prose">The opposite problem is possible. If a mutation makes particular junctional structures resistant to normal remodeling, a barrier may appear well sealed while germ-cell transit is defective. A tracer assay alone might classify the barrier as intact even though it fails its developmental task. Histological identification of cells accumulating near the transition zone would add information. The two hypothetical outcomes illustrate why biological function cannot always be inferred from the strongest possible physical barrier. A reproductive epithelium needs controlled permeability and controlled rearrangement together.</p>
+<p class="teaching-prose">Sertoli-cell support also interacts with metabolism. Germ-cell stages differ in their metabolic requirements and in the ability to obtain substrates directly. Sertoli cells help supply a suitable environment, including metabolic substrates such as lactate used by developing germ cells. This illustrates a division of cellular labor. A cell with intact chromosomes and normal meiotic machinery can still fail if its metabolic support is lost. Conversely, a normal supply of metabolites cannot substitute for a chromosome segregation system that is defective. Developmental outcomes depend on both the internal state of the germ cell and the environment provided by the supporting tissue.</p></section>
+<section id="counting" class="theory-section"><h2>Chromosome sets, chromosome number and DNA content</h2><p class="teaching-prose">A central examination skill in spermatogenesis is keeping chromosome number separate from DNA content. The symbol n denotes the number of chromosomes in one complete haploid set for a species. The symbol C is used for the amount of nuclear DNA in one unreplicated haploid genome. A diploid germ cell before DNA replication has two chromosome sets and two units of DNA, written 2n, 2C. Following DNA synthesis it still has two homologous sets, but each chromosome contains two sister chromatids. Its DNA content is now 4C. Replication doubles the number of chromatids and the mass of DNA, not the number of homologous sets.</p>
+<p class="teaching-prose">Chromosomes are conventionally counted using centromeres while sister chromatids remain joined. A human spermatogonium in G1 has forty-six chromosomes and forty-six chromatids. Following premeiotic replication, a primary spermatocyte has forty-six chromosomes and ninety-two chromatids. The chromosomes are organized into homologous pairs during the first meiotic prophase. Each pair contains two chromosomes and four chromatids. The term bivalent emphasizes the two homologous chromosomes, whereas tetrad emphasizes the four chromatids of the paired unit. The terms are not alternative ways of saying that the cell has four chromosome sets.</p>
+<p class="teaching-prose">At the first meiotic division, homologous chromosomes normally segregate to different daughter cells. Each daughter receives one chromosome from each homologous pair. Sister chromatids remain associated at this stage. A secondary spermatocyte therefore has one chromosome set but two DNA units, expressed as n, 2C. In the human example it contains twenty-three chromosomes and forty-six chromatids. It is haploid because it carries one set, not diploid merely because its DNA content resembles that of a diploid G1 cell. Confusing the two meanings is particularly common when interpreting histograms of DNA fluorescence.</p>
+<p class="teaching-prose">There is no normal new round of genome replication between the two meiotic divisions. The second division separates sister chromatids, yielding spermatids with n chromosomes and C nuclear DNA. In a human spermatid this means twenty-three chromosomes and twenty-three chromatids. The total number of nuclear DNA units across the four normal products equals the number present in their postreplication primary spermatocyte precursor, assuming no abnormal loss. Each individual cell contains only one quarter of that precursor's nuclear DNA. Spermiogenesis then alters the packing and shape of the nucleus without performing another reduction division.</p>
+<p class="teaching-prose">The bookkeeping is easiest when it is performed per cell and at well-defined stages. Statements about chromosomes during anaphase require more care because separated sister chromatids become daughter chromosomes before cytokinesis has finished. A count across an undivided anaphase II cell can differ from the count in either completed daughter nucleus. Most introductory problems ask about completed stages or resting nuclei; if a question instead specifies anaphase, follow the precise cellular boundary and timing in the question. Do not apply a memorized count without checking which nucleus or cell is being measured.</p>
+<p class="teaching-prose">Consider a diploid animal with 2n equal to twelve. In a G1 spermatogonium there are twelve chromosomes and twelve chromatids. A primary spermatocyte after premeiotic S phase contains twelve chromosomes and twenty-four chromatids, with six bivalents if homolog pairing is complete. After meiosis I, each secondary spermatocyte has six chromosomes and twelve chromatids. After meiosis II, each spermatid has six chromosomes and six chromatids. If the mass of nuclear DNA in a spermatid is three picograms, the expected postreplication primary spermatocyte DNA mass is twelve picograms. These quantities are consistent because three picograms correspond to one C in this example.</p>
+<p class="teaching-prose">Flow cytometry offers a way to examine nuclear DNA content experimentally. A fluorescent DNA-binding stain can yield peaks corresponding approximately to 1C, 2C and 4C populations under appropriate measurement conditions. In testicular material the 1C population is enriched in postmeiotic haploid cells, while the 4C population includes primary spermatocytes after replication and may also include other replicated cells. The 2C population can contain diploid G1 somatic or germ cells as well as haploid secondary spermatocytes. DNA fluorescence alone cannot identify the latter populations unambiguously. Combining DNA content with stage-specific labeling, morphology or other independent evidence is necessary when a question asks which cell type accounts for a given peak.</p>
+<p class="teaching-prose">The phrase genetic reduction also has a biological meaning beyond the physical division of the nucleus. The two homologous chromosomes in a diploid cell need not carry identical alleles. Separating homologues reorganizes the genetic contribution that each gamete can transmit. The separation of chromatids at the second division completes the formation of individual chromosome complements. A chromosome set in a spermatid is not a miniature duplicate of the diploid cell's two sets; it represents one chromosome from each pair, potentially containing segments from both homologues because of recombination.</p></section>
+<section id="meiosis" class="theory-section"><h2>Meiosis and the production of haploid spermatids</h2><p class="teaching-prose">A differentiating spermatogonial descendant enters a premeiotic S phase before undergoing the two meiotic divisions. This transition changes the purpose of the cell cycle. In the mitotic pathway, sister chromatids normally separate and the daughter cells retain the parental ploidy. In the meiotic pathway, the first division separates homologues and the second separates sister chromatids. Successful reduction therefore depends on establishing a special relationship between homologous chromosomes before the first division. The core molecular machinery is covered in the cell division unit; the developmental consequence here is the conversion of a renewing diploid lineage into haploid reproductive cells.</p>
+<p class="teaching-prose">During meiotic prophase I, chromosomes undergo recognizable changes that are commonly divided into leptotene, zygotene, pachytene, diplotene and diakinesis. The early stages organize homologous chromosomes and establish pairing interactions. In a typical meiotic program, the synaptonemal complex forms between homologues as synapsis proceeds. Recombination between homologous chromatids can produce exchange products, and chiasmata provide visible indications of the connections formed by crossovers. By the later stages, paired homologues remain connected in a manner that helps their proper orientation on the first meiotic spindle. A sequence of microscopic appearances is therefore meaningful because it reflects changes in the chromosome relationships required for the first division.</p>
+<p class="teaching-prose">Recombination is valuable in two related ways. Exchanges between homologous chromosomes can create combinations of alleles not present together on the original parental chromosomes. In many meiotic systems, crossovers also help maintain physical connections that promote accurate segregation of homologues. A failure of appropriate pairing or recombination can therefore disrupt developmental progression, not simply reduce the diversity of the resulting gametes. A defective primary spermatocyte may arrest or be eliminated rather than produce an obviously abnormal sperm. The presence of many early cells with few later cells can be a sign of failure at a meiotic checkpoint.</p>
+<p class="teaching-prose">The genetic contribution of independent assortment can be expressed by a simple model. If a diploid cell has n homologous pairs, each pair can contribute either homologue to a given gamete. Under independent orientation of all pairs and ignoring recombination, there are two raised to the power n possible parental-homologue combinations across many meiotic events. In a species with three pairs the idealized number is eight. This expression does not mean that one primary spermatocyte produces eight sperm. It produces four meiotic products under the normal four-cell outcome. The number of possible combinations describes a population of meioses, not the number of cells produced by one division series.</p>
+<p class="teaching-prose">Nondisjunction illustrates why the two divisions must be distinguished. If one homologous pair fails to separate in meiosis I but the second division otherwise proceeds normally, two products receive an extra chromosome and two lack that chromosome. If meiosis I is normal but the sister chromatids of one chromosome fail to separate in one of the two secondary spermatocytes, the products of that secondary cell are abnormal in opposite directions while the other secondary cell produces two normal products. These idealized patterns presume no rescue, no additional errors and no selective cell death. They provide a useful starting point for understanding stage-specific segregation defects in problems that give the resulting gamete classes.</p>
+<p class="teaching-prose">The production of four spermatids also has to be interpreted as a potential rather than a guarantee. A primary spermatocyte that completes both divisions normally produces four haploid nuclei, usually in four spermatid compartments. Incomplete cytokinesis may leave the cells connected by cytoplasmic bridges, and germ-cell loss can reduce the number that become mature sperm. Real tissue output depends on the survival and differentiation of the products. An examination that asks for the maximum number of sperm from a fixed number of primary spermatocytes generally assumes complete survival, whereas a question that specifies stage-specific loss requires adjusting the theoretical number at each stage.</p>
+<p class="teaching-prose">Secondary spermatocytes are often difficult to find in a histological preparation because the interval between the two divisions is relatively short compared with the extended first meiotic prophase. This is a matter of residence time rather than proof that the secondary stage has been skipped. In a steady developmental system, a stage with a short duration can contain relatively few cells even when many cells pass through it. An interpretation that compares absolute cell counts between stages should accordingly account for both the number entering a stage and the time for which cells remain recognizable in it.</p></section>
+<section id="bridges" class="theory-section"><h2>Cytoplasmic bridges and coordinated cohorts</h2><p class="teaching-prose">Mammalian differentiating male germ cells frequently remain connected by cytoplasmic bridges after divisions. Nuclear division and chromosome segregation occur, but cytokinesis does not completely isolate every descendant. The resulting group consists of distinct nuclei and cell compartments that retain communication through shared cytoplasm. This organization begins during proliferative development and can persist through meiotic and postmeiotic stages. It contributes to the coordinated behavior of cell cohorts and allows some materials to pass between developing cells.</p>
+<p class="teaching-prose">The consequences are especially interesting after meiosis. In a typical mammalian male, some spermatids carry an X chromosome and others a Y chromosome. Autosomal alleles can also segregate into different haploid cells. If some gene products are exchanged through cytoplasmic bridges, genetically distinct spermatids may share certain cellular resources. This can reduce the extent to which each haploid genome independently determines the immediate composition of the cell. It does not abolish genetic differences, does not make the nuclei diploid and does not imply that all transcripts or proteins are shared equally. The actual degree of sharing varies with the product and the biological context.</p>
+<p class="teaching-prose">A simple thought experiment helps distinguish genotype from phenotype. Imagine a heterozygous precursor carrying a functional allele and a nonfunctional allele of a gene whose product is needed during spermiogenesis. The resulting spermatids may inherit different alleles. If the functional product is synthesized in the cohort and efficiently shared, cells carrying the nonfunctional allele may still acquire some of that product. If the product remains confined to the cell that synthesizes it, a stronger association between the individual haploid genotype and the phenotype may appear. The two predictions depend on a defined assumption about product sharing. Without evidence about sharing, the genotype ratio alone is insufficient to predict the phenotype ratio.</p>
+<p class="teaching-prose">An experiment might use a fluorescent product expressed in only one genetically identifiable class of haploid cells and ask whether neighboring genetically distinct cells contain the product. Detecting fluorescence in both classes supports transfer or an alternative source of fluorescence, but the interpretation needs controls for promoter activity before meiosis, persistence of pre-existing protein and nonspecific staining. The ideal demonstration of sharing would distinguish a product newly synthesized after meiosis from a product made earlier and inherited by all descendants. It is the difference between two causal explanations for the same final pattern of fluorescence.</p>
+<p class="teaching-prose">The maintenance of cytoplasmic connections also helps explain why cohorts may progress in a coordinated way, although bridges are not the only source of synchrony. Germ cells share a local environment and are exposed to coordinated somatic signals. A defect in bridge formation can disturb development even when the initial number of nuclei and chromosome sets is normal. For a question that describes loss of coordination among genetically related developing cells, one should distinguish a communication defect from a primary failure of DNA replication or chromosome segregation.</p></section>
+<section id="remodel" class="theory-section"><h2>Spermiogenesis: transforming a round spermatid into a sperm</h2><p class="teaching-prose">After the second meiotic division, the new spermatid is haploid, but its architecture remains unsuitable for the specialized role of a sperm. It has a relatively rounded nucleus and substantial cytoplasm. Spermiogenesis describes the subsequent remodeling without further nuclear division. In a mammalian example, the most prominent changes are the formation of an acrosome, condensation and shaping of the nucleus, development of the flagellum, organization of mitochondria and reduction of excess cytoplasm. These changes overlap in time rather than occurring as completely independent events in an invariant order.</p>
+<p class="teaching-prose">The acrosome is a specialized membrane-bound structure associated with the anterior region of the sperm head in many animals. During mammalian spermiogenesis, Golgi-derived vesicles contribute to an enlarging acrosomal compartment that attaches to the nuclear surface and spreads over a portion of the nucleus. The developing acrosome has a defined relationship to the nucleus and sperm polarity. It is not a cluster of mitochondria or a structure produced by chromosomal condensation. It provides components used during later interaction with egg-associated structures, but formation of the acrosome inside the testis must be distinguished from acrosomal exocytosis during fertilization-related events.</p>
+<p class="teaching-prose">The development of the acrosome illustrates how organelle trafficking becomes part of developmental differentiation. Vesicles must be formed, transported and assembled in a defined part of the cell rather than randomly distributed. The position of the developing cap contributes to the organization of the anterior end of the sperm. A trafficking defect can therefore produce a sperm with an abnormal or absent acrosome even if the nucleus has the correct haploid chromosome number. An experiment that finds an altered distribution of an acrosomal marker should assess whether the structure is absent, misplaced or merely lacking that particular marker.</p>
+<p class="teaching-prose">Nuclear remodeling is another major transformation. In typical mammalian sperm, much of the histone-based chromatin is replaced during spermiogenesis through intermediate changes involving transition proteins and protamines. Protamines are small, strongly basic proteins that facilitate exceptionally compact DNA packaging. Their interaction with negatively charged DNA contributes to condensation. Some histones remain in mammalian sperm, and the balance of chromatin proteins varies across species. It is therefore incorrect to describe every animal sperm as having all histones replaced by the same set of protamines.</p>
+<p class="teaching-prose">The purpose of compaction is not to reduce the number of chromosomes. DNA can occupy a smaller volume without a reduction in the amount of nuclear DNA. If equal quantities of DNA are packaged into different nuclear volumes, the mean DNA concentration per unit volume changes. A spermatid nucleus that condenses from an idealized volume of sixty cubic micrometres to twenty cubic micrometres while retaining the same DNA mass would have three times the mean DNA concentration. This is a geometric illustration, not a universal measured value for sperm nuclei. The cell remains n, C throughout the remodeling. Compaction and ploidy answer different questions.</p>
+<p class="teaching-prose">The temporary manchette, a microtubule-associated structure prominent in many mammalian elongating spermatids, contributes to nuclear shaping and the organization of material during differentiation. Other interactions with Sertoli cells and the cytoskeleton also help shape the developing cell. A defect in these processes can cause unusual head morphology without necessarily changing DNA amount. Conversely, a sperm with apparently normal external shape can carry genomic damage or a chromosome abnormality that cannot be inferred from a drawing of its outline. Structural appearance and genetic integrity must be assessed with different evidence.</p>
+<p class="teaching-prose">The flagellum begins to develop from structures associated with the centrosomal region of the spermatid. The axoneme extends to form the core of the developing tail. Its typical motile organization includes nine peripheral microtubule doublets surrounding a central pair. Associated motor proteins contribute to bending, while mammalian sperm also possess accessory structures that support mechanical function. The tail is assembled as the rest of the spermatid undergoes remodeling. It is not a pre-existing appendage inherited unchanged from the spermatogonium.</p>
+<p class="teaching-prose">Mitochondria become arranged around the proximal flagellar region to form the mitochondrial sheath of the midpiece in typical mammalian sperm. Their location links cellular energy metabolism to the motile machinery, but they are not themselves the structures that generate axonemal bending. The role of ATP is shared with other motile cells: motor proteins convert chemical energy into mechanical work. Mammalian sperm can use both oxidative metabolism and glycolysis, with their relative contributions varying across species and environmental conditions. A blanket statement that all sperm ATP is produced exclusively in the mitochondrial sheath is not justified.</p>
+<p class="teaching-prose">As the spermatid elongates, much of its excess cytoplasm is removed. Sertoli cells participate in the handling of residual material. Reduction of cytoplasmic volume produces a specialized compact cell while retaining the structures necessary for its reproductive role. It does not mean that every molecule of cytoplasm is removed or that sperm contain only nuclear DNA and a tail. A highly differentiated sperm retains a plasma membrane, organelles or organelle derivatives, proteins and other molecular components that support its subsequent behavior. The developmental challenge is selective retention rather than complete elimination of cellular contents.</p>
+<p class="teaching-prose">The several processes of spermiogenesis can fail independently or together. A haploid population with abnormal head shape suggests a postmeiotic remodeling problem, although earlier defects may contribute indirectly. A population with apparently normal heads but immotile or absent tails calls attention to flagellar assembly or function. Acrosomal defects can compromise later gamete interaction without necessarily preventing flagellar movement. Such distinctions guide experimental interpretation because each phenotype identifies a different cellular task that should be examined. They also explain why a single measurement of sperm number cannot establish the full functional quality of spermatogenesis.</p></section>
+<section id="sperm" class="theory-section"><h2>Functional organization of a typical mammalian sperm</h2><p class="teaching-prose">The mature-looking sperm is a polarized cell. The head contains the compact nucleus and an anterior acrosomal region; the connecting region links the head to the flagellar system; the midpiece contains the axoneme and a mitochondrial sheath; the principal piece contains a long portion of the flagellum with characteristic accessory structures; and the end piece has a simpler organization. These are regions of one cell, not separate units generated by separate meiotic divisions. Their arrangement reflects the need to protect the genetic material, interact with extracellular structures and generate controlled motion.</p>
+<p class="teaching-prose">The nucleus is the principal carrier of the haploid paternal chromosome complement. Its compact packaging helps produce the characteristic head architecture, but the sperm head is not synonymous with the nucleus. The acrosomal compartment and the surrounding plasma membrane contribute distinct functions. In many standard examination diagrams, the acrosome appears as a cap over the anterior nuclear region. In a real comparative study the cap's extent and shape differ among species. A schematic should therefore identify the structure and its position without suggesting that one head outline represents the sperm of every animal.</p>
+<p class="teaching-prose">The flagellar axoneme contains microtubules and associated proteins. In the common nine-plus-two arrangement, axonemal dyneins generate relative sliding between neighboring microtubule doublets using ATP. Connections and mechanical constraints within the axoneme convert sliding into bending. If doublets were free to slide without appropriate constraints, their movement would not necessarily produce a coordinated beat. Thus ATP hydrolysis supplies energy, the dynein system converts energy into relative movement, and the structural organization translates that movement into deformation of the flagellum.</p>
+<p class="teaching-prose">The distinction between motor and energy supply can be examined experimentally. Suppose two sperm populations are immotile. In one, axonemal structure is normal but ATP availability is severely reduced. In the other, ATP is abundant but a necessary motor component does not function. Restoring energy availability could improve movement in the first population under suitable conditions but would not directly replace the missing motor in the second. Real sperm may have multiple interacting abnormalities, so such a comparison is an idealized way of isolating causal factors rather than a complete diagnostic scheme.</p>
+<p class="teaching-prose">Movement also depends on the physical context in which the sperm operates. The resistance experienced by a small swimming cell in a fluid is different from the inertia-dominated motion familiar from large moving objects. Continued flagellar activity is needed to maintain swimming; a sperm does not coast for a long distance after its motor stops. Beat shape, frequency and interaction with the surrounding fluid contribute to progression. Forward movement is not identical to the presence of any flagellar activity: a cell may beat its flagellum while making little net forward progress. These distinctions are useful for interpreting motility measurements without needing a specialist mathematical theory of fluid mechanics.</p>
+<p class="teaching-prose">Not every animal sperm depends on the standard flagellar solution. Nematodes such as Caenorhabditis elegans provide a striking contrast: their sperm move using an amoeboid mechanism based on a major sperm protein cytoskeleton rather than a conventional motile flagellum. This exception shows why a sperm is defined by its reproductive role and developmental origin rather than by the presence of a particular appendage. For the mammalian model the head, midpiece and flagellum are valid structural categories; for a nematode the same labels cannot be imposed unchanged. Comparative questions often test exactly this distinction between a common pattern and a universal requirement.</p></section>
+<section id="release" class="theory-section"><h2>Spermiation, epididymal maturation and capacitation</h2><p class="teaching-prose">Spermiation is the release of differentiated elongated spermatids or spermatozoa from Sertoli-cell association into the seminiferous tubule lumen. It marks the transition from development within the epithelium to transport through the reproductive tract. The release requires remodeling of cell adhesion and disposal of residual cytoplasmic material. It is not another meiotic division. A cell that is correctly shaped but remains abnormally attached to the supporting epithelium can fail to contribute to the sperm population in the lumen despite completing much of spermiogenesis.</p>
+<p class="teaching-prose">In mammals, released sperm move through the testicular outflow pathways toward the epididymis. During epididymal transit, sperm undergo further changes in their membrane composition, protein interactions and functional properties. They acquire the capacity for effective progressive motility and other aspects of reproductive competence. The epididymis also contributes to sperm storage. These changes occur in sperm that already possess the haploid nuclear complement and basic differentiated structure. The distinction is therefore one of functional maturation after testicular formation, not a further reduction of chromosome number.</p>
+<p class="teaching-prose">Capacitation is a later set of functional changes in mammalian sperm, normally associated with the female reproductive tract or an appropriate experimental medium. It involves changes in membrane and signaling properties that prepare the sperm for subsequent fertilization-related responses. Capacitation is distinct from epididymal maturation, and both are distinct from spermiogenesis. The molecular mechanisms of gamete recognition, acrosomal exocytosis and membrane fusion are addressed in later chapters. At this stage it is sufficient to understand why morphological appearance is not equivalent to full fertilizing competence.</p>
+<p class="teaching-prose">The sequence provides a powerful interpretation framework. If the seminiferous tubules contain normally differentiated sperm but few reach the epididymis, transport or release may be impaired. If sperm reach the epididymis but have deficient progressive motility, maturation or the motile apparatus may be affected. If structurally normal motile sperm fail a later assay of fertilization competence, the relevant defect may concern capacitation, recognition or fusion. Each interpretation requires appropriate controls and does not exclude overlapping causes, but the sequence prevents the error of describing every reproductive defect as failure of meiosis.</p>
+<p class="teaching-prose">The concept also clarifies terms that appear similar in examination questions. Spermatogenesis refers to the broad developmental pathway producing sperm from the male germ line. Spermiogenesis is the postmeiotic morphological differentiation of spermatids. Spermiation is release from the supporting epithelium. Epididymal maturation and capacitation describe subsequent functional changes in mammals. A question may refer to the endpoint of testicular spermatogenesis as sperm production even though the released sperm require further maturation. The precise endpoint depends on the process being discussed, not on a contradiction between textbooks.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK10095/">Gilbert SF. Developmental Biology, 6th edition. Spermatogenesis.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK279031/">Endotext. Endocrinology of the Testis and Spermatogenesis.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/7972053/">Brinster RL and Zimmermann JW (1994). Spermatogenesis following male germ-cell transplantation. PNAS 91:11298–11302.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/7972054/">Brinster RL and Avarbock MR (1994). Germline transmission of donor haplotype following spermatogonial transplantation. PNAS 91:11303–11307.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2871929/">Spermatogonial stem cell regulation and spermatogenesis.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4591527/">The Mammalian Blood-Testis Barrier: Its Biology and Regulation.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK553142/">Histology, Spermatogenesis. NCBI Bookshelf.</a></li></ol></section></div></article>
+        <nav class="node-navigation" id="chapter-navigation" aria-label="Curriculum navigation"></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 5 · Developmental Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["5.A.11","previous-node","← "],["5.B.02","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

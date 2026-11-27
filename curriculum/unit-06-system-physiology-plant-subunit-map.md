@@ -418,3 +418,9 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.H.09 — [Plant Innate Immunity: Pattern-Triggered Immunity](https://rahulthakurpatan.github.io/lifescienceacademy/plant-innate-immunity-pattern-triggered-immunity.html); internal academic QA 95/100, static audit completed; Pages/live verification pending.
 - Teaching prose: 14,946 words in 163 paragraphs; 13 scientific SVGs, 3 graphs, 6 tables, 52 explained questions (22 Part B, 25 Part C, 5 other), 15 misconception checks, 12 recall prompts, 19 references.
 - Subunit 6.H: 9/12; Unit 06: 63/66; Academy: 312/723. Next unpublished in subunit: 6.H.08 — Biotic Stress and Plant Defense Barriers. Next global pending: 6.H.08 — Biotic Stress and Plant Defense Barriers.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.12 — [Systemic Resistance and Integrated Stress Adaptation](https://rahulthakurpatan.github.io/lifescienceacademy/systemic-resistance-and-integrated-stress-adaptation.html); internal academic QA 95/100, static audit completed; Pages/live verification pending.
+- Teaching prose: 14,498 words in 134 paragraphs; 13 scientific SVGs, 3 graphs, 7 tables, 52 explained questions (22 Part B, 24 Part C, 6 other), 18 misconceptions, 14 recall prompts, 16 reference links.
+- Subunit 6.H: 10/12; Unit 06: 64/66; Academy: 313/723. Next global pending: 6.H.08 — Biotic Stress and Plant Defense Barriers.

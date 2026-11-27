@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Compare Arabidopsis and Antirrhinum floral homeotic genes, organ transformations, genetic evidence and developmental reasoning.">
+  <meta name="robots" content="noindex,follow">
+  <title>Arabidopsis and Antirrhinum: Floral Mutants and Comparative Development — Life Science Academy</title>
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html">
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 05</span><span>›</span><span>Sub-unit 5.D</span><span>›</span><strong>Node 5.D.11</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">5.D.11</span><span>Developmental Biology</span></div><h1>Arabidopsis and Antirrhinum: Floral Mutants and Comparative Development</h1><p class="subtitle">Morphogenesis and organogenesis in plants · CSIR-NET and State SET</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node not yet available">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node is not yet published">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#problem">1. The developmental problem: organ identity in a flower</a><a href="#models">2. Two model plants and their normal flowers</a><a href="#evidence">3. From visible homeosis to the genetic model</a><a href="#apetala">4. Arabidopsis outer-whorl mutants: APETALA1 and APETALA2</a><a href="#bclass">5. Arabidopsis B-class mutants: APETALA3 and PISTILLATA</a><a href="#ag">6. AGAMOUS: reproductive fate and termination of floral growth</a><a href="#references">References</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Chapter reading material">
+          <div class="article-content" id="article"><section id="problem"><h2>1. The developmental problem: organ identity in a flower</h2><p class="teaching-prose">A young flower begins as a small mound of dividing cells. At this stage the floral apex has neither mature pollen-bearing anthers nor conspicuous petals, yet it will generate structures with very different shapes, cellular compositions and reproductive functions. The outer structures protect the bud, the next group often contributes to attraction of pollinators, the stamens produce pollen, and the central carpels contain the ovules. Development must therefore coordinate both the location of each primordium and the kind of organ that it becomes. The challenge is not simply to make a large number of cells. It is to assign different developmental programmes to neighbouring cell populations that contain essentially the same inherited genome.</p>
+<p class="teaching-prose">A primordium is the early group of cells from which a particular organ develops. In plants, most cells are immobilized relative to their neighbours by cell walls, so the conversion of a primordium into a petal or a stamen involves coordinated changes in growth, division orientation, differentiation and tissue organization rather than migration of the cells to a distant anatomical location. The primary decision about identity can be studied independently of the later process of making a correctly shaped organ. A primordium in a position normally occupied by a stamen can instead make a petal-like structure. The position may be approximately normal even though the fate is abnormal. This type of change is called a homeotic transformation. The distinction between position and fate is the essential starting point for reading floral mutant experiments.</p>
+<p class="teaching-prose">Consider a flower in which a normally green sepal becomes larger and white. This observation alone does not prove that the organ has become a petal. A mutation in chlorophyll biosynthesis might make a sepal pale without changing its fundamental identity. A mutation that affects the distribution of cell divisions might enlarge it. A stronger claim requires the comparison of multiple features, such as epidermal cell morphology, vascular and tissue organization, the pattern of expression of organ-specific genes and the developmental history of the primordium. Similarly, a stamen that fails to produce viable pollen can still be recognizably a stamen. Male sterility is not a synonym for replacement of stamens by petals or carpels.</p>
+<p class="teaching-prose">The most informative mutants change the identity of several organs in a coherent spatial pattern. When the second and third groups of floral primordia are repeatedly affected while the first remains comparatively normal, the common effect points toward a regulator that acts in a shared region. An explanation based on a separate defective structural protein for each organ would require two independent changes. A single mutation affecting two adjacent organ types instead suggests that they share part of their regulatory machinery. This is the conceptual insight behind the classical genetic analysis of Arabidopsis and Antirrhinum. The repeated combinations of organ changes allow a student to reconstruct the normal developmental system from abnormal outcomes.</p>
+<p class="teaching-prose">A developmental regulator differs from an ordinary structural component in the scope of its effects. A protein needed to form a cell wall in one tissue may influence the final mechanical properties of that tissue. A regulatory protein that controls the expression of many genes can redirect a cell population into a substantially different programme. In practice the distinction is not absolute, because growth and fate influence one another, but the patterns observed in classical floral homeotic mutants strongly support an upstream role for specific transcriptional regulators. The molecular identities of several of these regulators were subsequently established, connecting the genetic argument to biochemical evidence.</p>
+<p class="teaching-prose">This chapter treats the flower as an experimental system. The question to ask of each example is not simply which gene name belongs to which organ. Instead, determine what the normal region of activity is, what the mutation changes, what developmental programmes remain possible, what the resulting organ resembles and which parts of the explanation require additional evidence. The general model of floral identity introduced in the preceding curriculum node is used as a predictive framework. Its application to two independently studied flowering plants will show both why it works and why a textbook model should not be treated as a universal description of every allele and every species.</p></section>
+<section id="models"><h2>2. Two model plants and their normal flowers</h2><p class="teaching-prose">Arabidopsis thaliana is a small flowering plant of the mustard family, Brassicaceae. Its suitability for genetic study reflects a combination of practical properties: it is small enough to grow many individuals in limited space, it has a relatively short generation interval under favourable conditions, and self-fertilization permits the maintenance of genetically defined lines. Controlled crosses are also possible. Recessive mutations can therefore be recovered in selfed progeny, maintained in heterozygotes when the homozygous mutant is sterile, and combined with other mutations to investigate genetic interactions. The usefulness of Arabidopsis is not that every feature of its flower is universal, but that observations can be linked to heritable changes with unusual clarity.</p>
+<p class="teaching-prose">A typical Arabidopsis flower has four sepals, four petals, six stamens and a central gynoecium formed from two fused carpels. Four of the stamens are longer than the other two. The gynoecium is the female reproductive organ system, and the carpels form the structures that enclose ovules. These numbers provide a useful baseline, but the four whorls refer to four positional and developmental domains, not to four individual organs. The fused central structure must not be scored as though it represented only one carpel. Similarly, the six stamens form the third whorl even though they differ in length. An organ count and a whorl count are measurements of different properties.</p>
+<p class="teaching-prose">Antirrhinum majus, the garden snapdragon, belongs to Plantaginaceae. Its mature flower is visually striking because the corolla is bilaterally symmetric rather than radially symmetric. A bilateral flower has a plane of reflection symmetry, whereas a radially symmetric flower can be divided into similar sectors through more than one plane. Snapdragon petals are fused into a corolla with distinct upper and lower regions. The typical flower has five sepals, five petals in the fused corolla, four fertile stamens and a reduced fifth stamen position, together with a central gynoecium of two fused carpels. These differences make Antirrhinum valuable for separating the conserved identity of an organ from the species-specific rules that govern its shape, number and symmetry.</p>
+<p class="teaching-prose">A petal in Arabidopsis and a petal in Antirrhinum are related developmental structures even though the mature organs differ greatly in shape and architecture. Petal identity can be specified by related regulatory mechanisms while other regulators determine whether the primordia grow separately or produce a fused corolla, whether upper and lower regions grow differently, and which epidermal cell types differentiate in particular regions. In the same way, stamens may differ in length or fertility without losing their identity as stamens. The genetic comparison is meaningful precisely because the mature flowers are not identical.</p>
+<p class="teaching-prose">Both plants allow a geneticist to ask whether a change in a gene has a reproducible effect on particular positions in the developing flower. In an experiment based on mature flowers, the researcher first needs a wild-type reference with a clearly established arrangement. In a study of immature buds, the developmental stage must also be considered. A small third-whorl primordium sampled too early may have none of the mature characteristics of a stamen; comparison with a mature wild-type flower would create a misleading impression of developmental arrest. Comparisons should therefore be made between equivalent stages, as far as the mutation permits. For mutants that alter the developmental schedule itself, a time series and independently recognizable landmarks are more informative than a single chronological age.</p>
+<p class="teaching-prose">The wild-type arrangement can be represented as a sequence from outside to centre: sepal, petal, stamen, carpel. This sequence is common to the two model plants at the level of identity classes. It does not mean that all organs arise simultaneously, that every primordium has an equivalent rate of growth, or that the geometry of the whorls can be ignored. A flower with displaced or missing primordia cannot always be divided into four simple visible rings. The experimenter then uses early microscopy and the position of neighbouring organs to establish the original developmental region before assigning a transformed identity.</p></section>
+<section id="evidence"><h2>3. From visible homeosis to the genetic model</h2><p class="teaching-prose">The historical importance of floral homeotic mutations lies in the way they connected an observable anatomical change to a general theory of developmental patterning. Before molecular cloning of the responsible regulators, systematic mutant analysis in the two plants had already suggested that organ identities depended on combinations of activities. The 1989 work of Bowman, Smyth and Meyerowitz described recessive Arabidopsis mutations affecting floral organ development. Their 1991 genetic analysis compared single and combined mutant phenotypes. Independent work in Antirrhinum provided parallel evidence. The influential synthesis by Coen and Meyerowitz in 1991 brought these genetic patterns together into what became known as the ABC model.</p>
+<p class="teaching-prose">A useful starting observation is that loss of the B activity has two consequences rather than one: the petal position can develop a sepal-like organ, and the stamen position can develop a carpel-like organ. If B were simply a petal construction gene, the third-whorl effect would be unexplained. If B were simply a stamen construction gene, the second-whorl effect would be unexplained. A more economical explanation is that B is required in both regions but cooperates with different activities in each. In the second whorl it acts alongside the outer-domain programme; in the third whorl it acts alongside an inner-domain programme. Removal of B then reveals the different programmes that remain in the two positions.</p>
+<p class="teaching-prose">This reasoning is based on the comparison of phenotypes rather than an assumption that transcription factors are already known. At the stage of genetic model building, an activity can represent one gene, several genes, or interacting proteins. Calling a gene a B-class gene is a statement about its role in the flower, not a statement that it belongs to a particular biochemical family by definition. Molecular identification is a separate result. The flower thereby offers an elegant example of how a genetic model can precede a biochemical explanation.</p>
+<p class="teaching-prose">The classical framework gives A activity to the outer two whorls, B to the middle two and C to the inner two. A without B specifies a sepal, A with B a petal, B with C a stamen, and C without B a carpel. Classical A and C activities are treated as antagonistic, so removal of one may allow the other to act in an expanded domain. For a strong C-class loss mutant, the second-whorl petal programme can consequently appear in the third whorl, where B activity is retained and A expands. The fourth region no longer executes normal carpel development. This four-region prediction alone is insufficient to explain the continued initiation of organs in some C mutants; floral meristem termination must also be considered.</p>
+<p class="teaching-prose">The use of double mutants tests whether these explanations are consistent when two regulatory functions are removed. For example, removing both B and C in the simplified model, while allowing A to expand, predicts sepal-like identities instead of petals and stamens. If the centre also lacks normal meristem termination, additional organs may form. The point of the double mutant is that it distinguishes the loss of B from the retention of C. A single B mutant develops a carpel-like organ in the third whorl because C remains. A B C double mutant lacks that remaining activity. Memorizing the single-mutant phenotype without considering what remains would lead to a wrong double-mutant prediction.</p>
+<p class="teaching-prose">Real flowers need not behave as ideal Boolean diagrams. Individual genes may have partially overlapping functions, and a mutation may reduce rather than eliminate a protein's activity. Organ primordia can be absent or reduced in number, particularly in strong or complex mutant backgrounds. Some regions may form intermediate structures, with features of more than one identity. These observations do not invalidate the genetic logic. Instead they reveal developmental roles and dependencies that a minimal model intentionally leaves out. The 1991 Arabidopsis study explicitly described organ-number and organ-loss phenotypes in addition to transformations. Therefore an examination question that specifies a complete class loss and an idealized ABC model can have a simpler answer than a question that asks for the phenotype of a particular allele in an actual plant.</p>
+<p class="teaching-prose">The general experimental strategy is to develop a model that explains the largest number of observations with a small set of causal assumptions, derive predictions, and then test those predictions with new genotypes or expression experiments. A model is stronger when it predicts what has not yet been observed. Simply assigning an activity retrospectively to every abnormal organ would be much less informative. The comparison with Antirrhinum helps because genes discovered in another species can reveal whether the same patterning logic is present beyond the original genetic system.</p></section>
+<section id="apetala"><h2>4. Arabidopsis outer-whorl mutants: APETALA1 and APETALA2</h2><p class="teaching-prose">The word APETALA in a gene name reflects a historically conspicuous mutant phenotype, but the name is not a precise description of its full developmental function. APETALA1, abbreviated AP1, has an important role in establishing floral meristem identity as well as in the normal development of the outer floral organs. A strong ap1 mutant can produce bract-like structures in place of ordinary sepals, lose or reduce petals, and initiate secondary flowers in the axils of abnormal outer organs. The appearance of secondary flowers is a valuable clue. An ordinary floral meristem is committed to making a flower; a structure that repeatedly initiates additional floral meristems instead retains or regains aspects of shoot-like developmental organization.</p>
+<p class="teaching-prose">If all that a student knew about AP1 were that it belonged to a classical A-class list, the expected phenotype might be the ideal A-loss sequence of carpels and stamens in the two outer whorls. The actual ap1 phenotype is not adequately explained by that sequence. Removing one member of a functional class does not necessarily remove all class activity, and AP1 also participates in specifying the developmental context within which the whorl model operates. Thus AP1 illustrates two independent cautions: a single gene need not equal an entire functional class, and a gene that contributes to organ identity may also affect meristem identity. In experimental data these roles can be partially separated by comparing alleles, developmental stages and combined genotypes.</p>
+<p class="teaching-prose">APETALA2, or AP2, is the other standard Arabidopsis A-function example. Unlike AP1, AP2 belongs to the AP2/ERF transcription factor family, not the MADS-box family. This molecular distinction is useful in an examination because most canonical Arabidopsis floral organ identity factors commonly listed together are MADS-domain proteins. AP2 is the major exception to that generalization. Its function also extends beyond a simple description of outer organ development. The proper restriction of reproductive C activity is influenced by AP2, and changes in AP2 function can allow inappropriate AGAMOUS expression in outer floral positions.</p>
+<p class="teaching-prose">In an idealized strong loss of A activity with C expanded outward, the first whorl becomes carpel-like, the second stamen-like, the third remains stamen-like and the fourth remains carpel-like. This pattern follows directly from the remaining combinations: C, B plus C, B plus C, C. Strong ap2 alleles can display related outer-whorl homeosis, but exact numbers, organ absence and intermediate phenotypes vary. In a real ap2 mutant a position with no organ cannot literally be classified as a stamen just because a model would predict stamen identity if a primordium were present. The underlying distinction is between the failure to initiate or maintain an organ and a transformation of an organ that develops.</p>
+<p class="teaching-prose">The spatial restriction of AG has been examined by locating its RNA in developing flowers. Early AG transcript is normally detected in the primordia of the third and fourth whorls, not throughout the young flower. Ectopic AG expression in an ap2 background supports the idea that AP2 contributes to establishing the outer boundary of C activity. The evidence should be interpreted at the developmental stage examined. The distribution of AG expression can change as tissues differentiate, so an RNA pattern from a later stage does not automatically describe the original identity-specification domain. The absence of an early transcript from a region is also not proof of permanent absence throughout that organ's life.</p>
+<p class="teaching-prose">AP2 activity is regulated by microRNA172, a small RNA that can suppress the expression of AP2-like targets at a post-transcriptional level. Consequently, the distribution of AP2 RNA should not be treated as identical to the distribution of functional AP2 protein. This is one reason that the two-band A and C model is best understood as a diagram of functional activities rather than a literal picture of every transcript. A reporter that measures transcription may show a broader expression pattern than the active protein if post-transcriptional regulation differs spatially. Distinguishing RNA, protein abundance and functional activity is a useful connection to the earlier curriculum on gene expression.</p>
+<p class="teaching-prose">Consider two abnormal flowers with reduced petals. In the first, the outer organs become bract-like and secondary floral structures appear; in the second, outer reproductive-like organs appear and the expression boundary of AG moves outward. These observations suggest different primary developmental defects even though both flowers have fewer normal petals. The first points toward the combined floral meristem and outer-organ functions of AP1, whereas the second is consistent with disruption of outer-domain regulation by AP2. Phenotype descriptions are therefore much more informative than the statement that a plant is apetalous. A student should name the affected region, the identity of the replacement organ and any change in meristem behaviour before selecting a candidate regulatory gene.</p></section>
+<section id="bclass"><h2>5. Arabidopsis B-class mutants: APETALA3 and PISTILLATA</h2><p class="teaching-prose">APETALA3 (AP3) and PISTILLATA (PI) are two well-established Arabidopsis B-class genes. Their encoded proteins contain a MADS DNA-binding domain. The normal combined activity of the two proteins is essential for the correct development of petals in the second whorl and stamens in the third whorl. In strong loss-of-function mutants of either gene, petals are replaced by sepal-like structures and stamens by carpel-like structures. The central carpel region is not converted into petals merely because the flower has lost its normal B activity. B function is not normally the principal identity activity of that central domain.</p>
+<p class="teaching-prose">Why do mutations of two separate genes generate similar homeotic transformations? One plausible explanation is that the products of the two genes are needed together for a common regulatory function. If the active unit is a protein complex containing AP3 and PI, eliminating either subunit prevents the formation of that unit even when the other subunit remains present. The functional activity of the pair can then be represented as a logical conjunction: both partners must contribute. Such a pattern is distinct from complete functional redundancy, in which either of two genes acting alone can maintain a process and the phenotype appears only when both are lost.</p>
+<p class="teaching-prose">The genetic evidence is compatible with the partnership hypothesis, but similar phenotypes alone cannot establish a physical interaction. Two enzymes that act in successive steps of a biochemical pathway may produce similar loss phenotypes without forming a stable complex. To show that two transcription factors physically cooperate, researchers need independent biochemical or molecular evidence, such as detection of protein interaction and sequence-specific binding by the complex. Studies of related B-class proteins in Antirrhinum supplied particularly clear evidence for a heterodimer with DNA-binding activity. Later work on Arabidopsis floral MADS proteins identified their associations in larger organ-identity complexes.</p>
+<p class="teaching-prose">The consequence of losing B in the second whorl is different from that in the third because the remaining positional context is different. In the second region A-class activity remains, and with E-class support the programme favours sepal identity rather than petal identity. In the third region C activity remains, and with E-class support the programme favours carpel identity rather than stamen identity. The same molecular defect therefore leads to two anatomically distinct outcomes. This is a general property of combinatorial regulation: the function of a regulator depends on the other factors present in a cell population.</p>
+<p class="teaching-prose">The timing of B activity matters as well. In classical temperature-sensitive allele experiments, a plant with a condition-dependent defective protein can be shifted between temperatures at different stages. If an early shift alters the final identity while a late shift has little influence on the gross identity, the result identifies a time window during which normal activity is essential for the measured outcome. However, an unaffected gross organ type after a late shift does not exclude subtle late roles in differentiation. The method detects the time sensitivity of a chosen phenotype and a particular mutant allele. It does not establish that every downstream target is switched simultaneously or that a normal protein has identical behaviour under every environmental condition.</p>
+<p class="teaching-prose">Loss of B function also has reproductive consequences. Replacement of stamens by carpel-like structures eliminates or disrupts the tissues that normally support pollen formation. The absence of functional pollen is therefore expected as a downstream consequence, rather than evidence that AP3 or PI must act solely in the male gametophyte. A defect restricted to pollen differentiation could leave the anther and filament architecture largely intact, whereas an identity defect changes the organ in which pollen would otherwise develop. These alternative explanations can be distinguished by examining early floral anatomy, mature organ morphology and the later presence of gametophytic cells. This links organogenesis to reproduction without confusing the developmental identity of the sporophytic organ with the subsequent formation of the haploid gametophyte.</p></section>
+<section id="ag"><h2>6. AGAMOUS: reproductive fate and termination of floral growth</h2><p class="teaching-prose">AGAMOUS (AG) is the canonical Arabidopsis C-function gene. In a normal flower its early activity is concentrated in the inner regions, where the combination with B contributes to stamen identity and the activity without B contributes to carpel identity. AG encodes a MADS-domain transcription factor, and its expression is regulated in space and time. A strong ag mutant lacks normal stamens and carpels. Stamens are replaced by petals, and the central region continues to generate floral organs in a reiterated pattern. This last phenotype demonstrates that AG does more than determine the type of tissue differentiated in a fixed number of pre-existing primordia.</p>
+<p class="teaching-prose">A normal inflorescence meristem can continue to produce new flowers on its flanks. In contrast, a floral meristem is normally determinate: its central stem-cell system eventually ceases to maintain a self-renewing population. The central reproductive structure can then complete its development rather than being replaced by further rounds of floral primordia. The continued growth of the ag floral centre is a failure of this termination process. Meristem identity and meristem determinacy are related but not identical. A floral meristem can retain enough floral character to keep producing floral organs while failing to stop at the normal time.</p>
+<p class="teaching-prose">The relationship between AG and WUSCHEL (WUS) helps explain the abnormal centre. WUS is a regulator of stem-cell maintenance in shoot and floral meristems. Early in floral development, stem-cell activity is necessary because sufficient cells must be generated to establish the floral organs. WUS contributes to activation of AG in the developing flower, together with other floral regulators. Later AG contributes to repression of WUS, thereby limiting continued stem-cell activity. A regulatory arrangement in which an early maintenance system helps initiate its own eventual shutdown allows the growing meristem to terminate after the appropriate developmental programme has been established.</p>
+<p class="teaching-prose">One experimentally supported route involves KNUCKLES (KNU), a transcriptional repressor activated downstream of AG. The activation of KNU is temporally controlled; its later activity helps reduce WUS expression. Other AG-dependent repression routes also contribute, so the pathway AG to KNU to WUS is a useful core mechanism rather than an exhaustive network. A timed reduction of WUS is different from the complete absence of WUS at the beginning of flower formation. If stem-cell maintenance ended too soon, too few cells would remain to support normal organ initiation. If it persisted too long, the centre could continue producing tissue and organs. The required outcome is therefore temporal control rather than a permanent instruction to suppress all stem-cell activity.</p>
+<p class="teaching-prose">Sun and colleagues reported experimental evidence linking KNU to floral determinacy in 2009. Prolonged WUS expression in knu flowers and the response to manipulated KNU expression helped place KNU downstream in the termination pathway. Particularly informative is the conceptual possibility of separating a determinacy defect from an organ-identity defect. Restoring termination in a C-class mutant does not by itself provide the missing combinations of factors needed to restore stamens and carpels. A rescued stem-cell phenotype can therefore coexist with persistent abnormalities in reproductive-organ identity. Conversely, restoration of one reproductive organ marker does not demonstrate that the entire centre has become determinate.</p>
+<p class="teaching-prose">The mature ag flower is often drawn as a sequence of sepals, petals, more petals and a further internal flower. This is a schematic representation of reiteration, not a fixed numerical formula for the number of organs formed. Additional rounds vary with developmental conditions, allele and the amount of residual meristem activity. An examination answer should distinguish the third-whorl homeosis, which follows from the remaining B and expanded A activities, from the repeated central growth, which follows from loss of the C-dependent termination programme. Both derive from mutation of AG, but they arise through distinguishable biological consequences.</p>
+<p class="teaching-prose">It is also important to recognize that a flower with extra petals does not necessarily carry an AG mutation. A meristem-size mutation may generate additional primordia without changing their identities; a mutation in growth regulation may make petal-like structures larger or more conspicuous; and mutations in other floral regulators may alter identity or termination. A compelling genetic diagnosis requires evidence from the inner organ identities, the centre's behaviour and, when available, expression or complementation results. Counting petals is a useful observation, not a sufficient molecular test.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://pubmed.ncbi.nlm.nih.gov/2535466/">Bowman, Smyth &amp; Meyerowitz (1989). Genes directing flower development in Arabidopsis.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/1685111/">Bowman, Smyth &amp; Meyerowitz (1991). Genetic interactions among floral homeotic genes of Arabidopsis.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10600569/">Historical analysis of the 1991 Coen and Meyerowitz ABC model (2023).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/1726485/">Bowman, Drews &amp; Meyerowitz (1991). Spatial expression of AGAMOUS.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11440722/">Lenhard et al. (2001). Termination of stem cell maintenance by WUSCHEL and AGAMOUS.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/19651987/">Sun et al. (2009). Timing mechanism of floral meristem determinacy.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11207604/">‘Organ’ising Floral Organ Development (2024 review).</a></li></ol></section>
+</div></article>
+        
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Developmental Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged scientific illustration</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog"); document.querySelectorAll("[data-zoom]").forEach(button=>button.addEventListener("click",()=>{const figure=byId(button.dataset.zoom);if(!figure||typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable.");return;}const clone=figure.cloneNode(true);const map=new Map();[clone,...clone.querySelectorAll("[id]")].forEach(el=>{if(el.id){const old=el.id;el.id="enlarged-"+old;map.set(old,el.id);}});clone.querySelectorAll("[aria-labelledby]").forEach(el=>el.setAttribute("aria-labelledby",el.getAttribute("aria-labelledby").split(/\s+/).map(id=>map.get(id)||id).join(" ")));if(clone.hasAttribute("aria-labelledby"))clone.setAttribute("aria-labelledby",clone.getAttribute("aria-labelledby").split(/\s+/).map(id=>map.get(id)||id).join(" "));byId("zoom-art").replaceChildren(clone);dialog.showModal();}));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

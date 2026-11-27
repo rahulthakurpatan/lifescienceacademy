@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Compare active apoplastic loading, passive symplastic loading and raffinose-family polymer trapping for CSIR-NET and SET.">
+  <meta name="robots" content="index,follow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/phloem-loading-apoplastic-symplastic-and-polymer-trapping-mechanisms.html">
+  <title>Phloem Loading: Apoplastic, Symplastic and Polymer-Trapping Mechanisms | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+
+    .figure-panel svg { width:640px; max-width:100%; height:auto; }
+    .question { margin:1.2em 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .question h4 { margin:0 0 .5em; font-size:1em; }
+    .question .answer { margin-bottom:0; }
+    .question .answer p + p { margin-top:.6em; }
+    .article-content dt { font-weight:700; color:var(--ink); }
+    .article-content dd { margin:0 0 .8em 1em; }
+  </style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 06</span><span>›</span><span>6.F</span><span>›</span><strong>6.F.07</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">6.F.07</span><span>System Physiology – Plant</span></div><h1>Phloem Loading: Apoplastic, Symplastic and Polymer-Trapping Mechanisms</h1><p class="subtitle">From source-leaf sugar export to membrane transport, plasmodesmata and metabolic trapping</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node not yet available">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node is not yet published">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#foundations">1. The carbon distribution problem</a><a href="#anatomy">2. Cellular geography of a minor vein</a><a href="#apoplastic">3. Apoplastic loading: two membrane crossings</a><a href="#energetics">4. Chemiosmotic energetics and quantitative predictions</a><a href="#passive">5. Passive symplastic loading</a><a href="#polymer">6. Polymer trapping: metabolic conversion and selective connectivity</a><a href="#pressure">7. Connecting loading with pressure-driven translocation</a><a href="#evidence">8. Experimental evidence: distinguishing the three pathways</a><a href="#regulation">9. Regulation, diversity and integrated predictions</a><a href="#references">10. Scientific references</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Phloem Loading: Apoplastic, Symplastic and Polymer-Trapping Mechanisms"><div class="article-content" id="article"><section id="foundations"><h2>1. The carbon distribution problem</h2><p class="teaching-prose">A mature illuminated leaf can produce more organic carbon than it needs for its own immediate growth. A root tip, an enclosed young leaf and a developing seed, by contrast, may require carbon before they are able to manufacture enough through photosynthesis. The separation between production and consumption is a consequence of the specialization of plant organs. To sustain the whole organism, the photosynthetic leaf must transfer a portion of its carbon to the conducting tissue. The movement of photoassimilates into the collecting phloem of a source is called phloem loading. It is distinct from the longitudinal movement of sap and from the subsequent delivery of solutes to a sink.</p>
+<p class="teaching-prose">Carbon dioxide enters the Calvin–Benson cycle in the chloroplast, where carbon is incorporated into organic molecules. A fraction of triose phosphate can leave the chloroplast in exchange for inorganic phosphate through a transporter of the inner envelope. In the cytosol, the pathways of carbohydrate metabolism produce sucrose. Sucrose-phosphate synthase transfers a glucosyl group from UDP-glucose to fructose-6-phosphate, generating sucrose-6-phosphate; sucrose-phosphate phosphatase hydrolyses the phosphate ester. This sequence produces free sucrose that can be used by the cell, stored temporarily or exported. Not all fixed carbon immediately becomes exportable sucrose. Some is retained in chloroplast starch, some enters biosynthetic pathways and some is consumed through respiration. At night, starch mobilization can supply carbohydrate for sucrose production after photosynthetic carbon fixation has stopped.</p>
+<p class="teaching-prose">Sucrose is a nonreducing disaccharide composed of glucose and fructose whose anomeric carbons participate in the glycosidic linkage. Compared with a free reducing hexose, it is less reactive in reactions involving an exposed carbonyl group. It is water soluble and can carry substantial carbon in a single dissolved particle. These characteristics are compatible with transport, but they do not by themselves explain why every species uses a particular transport sugar. Some plants export significant quantities of raffinose-family oligosaccharides and others transport sugar alcohols in addition to sucrose. The biochemical identity of the transported carbohydrate must therefore be measured rather than assumed from the presence of photosynthesis.</p>
+<p class="teaching-prose">A source is defined by net export, not by the anatomical name of an organ. An immature leaf can import assimilate while a mature leaf of the same plant exports it. A storage organ may become a source when reserves are mobilized. Within a source leaf, the collecting phloem of the minor veins receives sugars across relatively short radial distances from surrounding photosynthetic tissue. The conducting phloem carries the loaded sap over long distances. Loading is thus a local transfer process that establishes conditions for a different physical process, pressure-driven mass flow.</p>
+<p class="teaching-prose">A source leaf must solve two related problems. First, carbohydrate must cross a series of interfaces between mesophyll cells and the sieve element–companion cell complex. Second, loading must sustain a sufficient osmotic and hydrostatic driving force for export while the source itself remains metabolically viable. A pathway that accumulates carbohydrate in the phloem but excessively depletes the surrounding cells would not be sustainable. Conversely, very high carbon fixation is not enough if the transfer pathway into the conducting system has become limiting. These distinctions help explain why a transport-defective plant may accumulate carbohydrate in leaves while growing poorly elsewhere.</p><figure class="figure-panel"><svg id="fig-carbon" viewBox="0 0 620 180" role="img" aria-labelledby="fig-carbon-title fig-carbon-desc" xmlns="http://www.w3.org/2000/svg"><title id="fig-carbon-title">Carbon supply and export</title><desc id="fig-carbon-desc">Loading moves assimilate into collecting phloem; longitudinal transport then supplies receiving tissues.</desc><rect x="10" y="60" width="135" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="77.5" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Mesophyll</text><rect x="245" y="60" width="130" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="310" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Minor vein</text><rect x="475" y="60" width="135" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="542.5" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Sink tissue</text><defs><marker id="fig-carbon-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="var(--accent)"/></marker></defs><path d="M145 87L245 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-carbon-arrow)"/><text x="195" y="79" text-anchor="middle" font-size="12" fill="currentColor">Loading</text><path d="M375 87L475 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-carbon-arrow)"/><text x="425" y="79" text-anchor="middle" font-size="12" fill="currentColor">Mass flow</text></svg><figcaption>Loading moves assimilate into collecting phloem; longitudinal transport then supplies receiving tissues.</figcaption></figure></section>
+<section id="anatomy"><h2>2. Cellular geography of a minor vein</h2><p class="teaching-prose">The first requirement for interpreting a loading mechanism is to locate the relevant cell boundaries. Mesophyll cells synthesize carbohydrate and are separated from one another by walls and plasma membranes. Bundle sheath cells surround vascular tissues in many leaves. Phloem parenchyma lies within the vascular region and can act as an intermediary in radial transfer. Sieve elements form the longitudinal conduits of the angiosperm phloem and are joined end to end by sieve plates. A mature conducting sieve element lacks a functional nucleus, and its maintenance depends substantially on a closely associated nucleated companion cell. Specialized plasmodesmatal connections allow communication between the two.</p>
+<p class="teaching-prose">The sieve element and its companion cell are best regarded as a functional pair, often called the SE–CC complex. This expression does not imply that their membranes have identical transporter distributions. A transport protein may be expressed predominantly in the companion cell, the sieve element or another cell in a vein. To understand its role, identify the membrane on which it resides and the direction of the physiological gradient. A protein located in phloem parenchyma that releases sucrose outside its plasma membrane performs a different task from a protein in the companion cell that absorbs sucrose from that extracellular space.</p>
+<p class="teaching-prose">The apoplast includes interconnected cell walls and extracellular spaces outside plasma membranes. The symplast consists of living cytoplasmic domains connected through plasmodesmata. A solute following a symplastic route can move from cytoplasm to cytoplasm without repeatedly crossing lipid bilayers. When the route contains an apoplastic interval, the solute must cross a membrane to enter that interval and another membrane to re-enter the symplast. These crossings are significant because sucrose, a polar molecule, does not freely permeate an intact hydrophobic lipid bilayer at the rates required for physiological loading.</p>
+<p class="teaching-prose">Companion cell anatomy varies. Ordinary companion cells are associated with many apoplastic loading systems; some transfer cells develop wall ingrowths that increase the surface area available for membrane transport. Intermediary cells, characteristic of many polymer-trapping species, have dense cytoplasm and abundant specialized plasmodesmata at the interface with bundle sheath cells. A large membrane area can accommodate more transport proteins, and a high plasmodesmatal connectivity can support substantial intercellular flux. These are plausible functional relationships, not a rule that microscopic appearance alone identifies every plant's loading strategy.</p>
+<p class="teaching-prose">It is particularly important to distinguish a connection linking a companion cell to its own sieve element from a connection linking the complex to neighboring mesophyll-associated cells. All functional complexes need internal communication, including those that load through the apoplast. The observation of plasmodesmata between a sieve element and its companion cell therefore does not demonstrate that the source-to-complex entry is symplastic. It is the connectivity and transport properties of the external interface that discriminate between the competing routes.</p><figure class="figure-panel"><svg id="fig-interfaces" viewBox="0 0 620 180" role="img" aria-labelledby="fig-interfaces-title fig-interfaces-desc" xmlns="http://www.w3.org/2000/svg"><title id="fig-interfaces-title">Two distinct cell interfaces</title><desc id="fig-interfaces-desc">The external entry interface differs from the companion cell–sieve element connection.</desc><rect x="10" y="62" width="175" height="50" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="97.5" y="92" text-anchor="middle" font-size="15" fill="currentColor">Bundle sheath</text><rect x="230" y="62" width="150" height="50" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="305" y="92" text-anchor="middle" font-size="15" fill="currentColor">Companion cell</text><rect x="430" y="62" width="175" height="50" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="517.5" y="92" text-anchor="middle" font-size="15" fill="currentColor">Sieve element</text><defs><marker id="fig-interfaces-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="var(--accent)"/></marker></defs><path d="M185 87L230 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-interfaces-arrow)"/><text x="207.5" y="79" text-anchor="middle" font-size="12" fill="currentColor">Entry</text><path d="M380 87L430 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-interfaces-arrow)"/><text x="405" y="79" text-anchor="middle" font-size="12" fill="currentColor">PD</text></svg><figcaption>The external entry interface differs from the companion cell–sieve element connection.</figcaption></figure></section>
+<section id="apoplastic"><h2>3. Apoplastic loading: two membrane crossings</h2><p class="teaching-prose">In the well-studied apoplastic pathway of Arabidopsis thaliana, sucrose can reach the phloem parenchyma through symplastic connections from surrounding tissues. It then exits those cells into the extracellular compartment and is recovered into the sieve element–companion cell complex. This arrangement explains why the name apoplastic loading does not mean that the complete journey from photosynthetic mesophyll to sieve tube occurs outside cells. It refers to a decisive extracellular step on the final approach to the conducting complex.</p>
+<p class="teaching-prose">SWEET11 and SWEET12 are sucrose transport facilitators that contribute to efflux from Arabidopsis phloem parenchyma. A facilitator changes the permeability of a membrane to a solute. It provides a route for movement down an appropriate chemical potential difference rather than directly coupling movement to ATP hydrolysis. For a neutral sugar in the simplified case of dilute solutions, net flux through a facilitator is toward lower concentration. If the gradient reverses, the net flux may reverse too. The observed physiological role of SWEET11 and SWEET12 is thus not equivalent to a chemically irreversible export pump.</p>
+<p class="teaching-prose">Why does sucrose not simply equilibrate between the phloem parenchyma and the apoplast until net export ceases? The second transport step continuously removes sucrose from the extracellular compartment. The plasma membrane H⁺-ATPase uses energy released by ATP hydrolysis to move protons from the cytoplasm to the apoplast, generating an outward proton concentration gradient and an inside-negative electrical potential. Protons therefore have a favorable electrochemical gradient for re-entry into the cytoplasm. A sucrose–proton symporter such as Arabidopsis SUC2 couples proton entry to sucrose uptake. This allows the transporter to accumulate sugar even when its cytosolic concentration exceeds that of the surrounding extracellular solution.</p>
+<p class="teaching-prose">The distinction between primary and secondary active transport follows directly from the energy coupling. The ATPase is a primary active transporter because ATP hydrolysis directly powers proton export. SUC2 is a secondary active transporter: it exploits the gradient created by the ATPase. SWEET-mediated efflux is facilitated diffusion. If a question describes the complete sequence as active phloem loading, it is referring to the capacity of the pathway to accumulate sugar by an energy-dependent mechanism. It does not mean that each membrane crossing is itself active.</p>
+<p class="teaching-prose">The two steps are functionally coupled even though the transporters are not necessarily physically associated. Increasing symporter activity can lower the extracellular sucrose concentration and favor further facilitated efflux, provided there is adequate sucrose in the parenchyma. Reducing symporter activity may initially increase extracellular sucrose and weaken the gradient for further efflux. At a later time, altered sugar metabolism and signaling may produce additional changes. Predictions about immediate transporter function should therefore be separated from longer-term phenotypes involving compensatory responses.</p>
+<p class="teaching-prose">High sucrose concentration within the conducting complex is compatible with this arrangement because the external interface has relatively restricted symplastic permeability. If the loading cells were freely connected to an extensive lower-concentration cytoplasm, an accumulated sugar pool could leak back down its gradient. Limited back-diffusion helps maintain accumulation. This does not require total absence of plasmodesmata at every relevant interface. Effective permeability, transporter capacities and the local geometry of the route together determine the flux.</p><figure class="figure-panel"><svg id="fig-apo" viewBox="0 0 620 180" role="img" aria-labelledby="fig-apo-title fig-apo-desc" xmlns="http://www.w3.org/2000/svg"><title id="fig-apo-title">Two-step apoplastic loading</title><desc id="fig-apo-desc">SWEET releases sucrose; SUC/SUT uses the inward proton gradient to recover sucrose into the conducting complex.</desc><rect x="10" y="60" width="150" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="85" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Parenchyma</text><rect x="235" y="60" width="150" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="310" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Apoplast</text><rect x="460" y="60" width="150" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="535" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">SE–CC complex</text><defs><marker id="fig-apo-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="var(--accent)"/></marker></defs><path d="M160 87L235 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-apo-arrow)"/><text x="197.5" y="79" text-anchor="middle" font-size="12" fill="currentColor">SWEET</text><path d="M385 87L460 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-apo-arrow)"/><text x="422.5" y="79" text-anchor="middle" font-size="12" fill="currentColor">SUC + H⁺</text></svg><figcaption>SWEET releases sucrose; SUC/SUT uses the inward proton gradient to recover sucrose into the conducting complex.</figcaption></figure></section>
+<section id="energetics"><h2>4. Chemiosmotic energetics and quantitative predictions</h2><p class="teaching-prose">The energy cost of moving a charged solute across a membrane has both a chemical and an electrical contribution. For transfer of one mole of protons from the apoplast to the cytoplasm, a simplified electrochemical free-energy change is ΔG(H⁺) = RT ln(a_in/a_out) + F(ψ_in − ψ_out). R is the gas constant, T the absolute temperature, a is the effective activity of protons, F the Faraday constant and ψ the electrical potential. The charge number for the proton is positive one. A negative result indicates that inward movement is thermodynamically favorable. Because pH is the negative base-ten logarithm of proton activity, the chemical term may also be written as −2.303RT(pH_in − pH_out).</p>
+<p class="teaching-prose">Consider an illustrative cell whose apoplastic pH is 5.5, cytosolic pH is 7.0 and inside-negative membrane potential is −120 mV at 298 K. The proton activity ratio inside to outside is 10^(−1.5), or about 0.0316. The chemical contribution is approximately −8.56 kJ mol⁻¹. The electrical contribution is 96,485 C mol⁻¹ multiplied by −0.120 V, or −11.58 kJ mol⁻¹. The total free-energy change is about −20.14 kJ mol⁻¹ for inward proton movement. The negative signs of the two terms reflect independent favorable gradients, not two separate ATP molecules consumed for each incoming proton.</p>
+<p class="teaching-prose">For neutral sucrose, the idealized free-energy change of inward transfer is RT ln(C_in/C_out). Suppose one proton is coupled to one sucrose molecule, and the transporter operates reversibly without losses. The net free-energy change of the coupled process is the sum of the proton term and the sucrose term. At equilibrium, this sum is zero. The ideal limiting concentration ratio is therefore exp(20,140/(8.314 × 298)), approximately 3.4 × 10³. This is a thermodynamic upper bound under the chosen assumptions, not a prediction that the companion cell actually accumulates sucrose to thousands of times its extracellular concentration. Osmotic constraints, leakage, nonideal solute behavior, imperfect coupling and the metabolic use of sucrose reduce or otherwise constrain attainable concentrations.</p>
+<p class="teaching-prose">Now imagine that the apoplastic pH rises from 5.5 to 6.5 but membrane potential and cytosolic pH remain unchanged. The chemical contribution becomes about −2.85 kJ mol⁻¹, a loss of approximately 5.71 kJ mol⁻¹ of driving force. In the reversible one-to-one model, the limiting accumulation ratio decreases by a factor of ten, because the external proton activity has decreased tenfold. A change in membrane potential also changes the accumulation limit. Depolarization from −120 to −60 mV makes inward proton movement less favorable by about 5.79 kJ mol⁻¹. Both effects demonstrate why the electrical and pH components of the gradient must be included.</p>
+<p class="teaching-prose">Thermodynamics tells us whether the coupled transfer is possible and defines an equilibrium limit; it does not specify how rapidly a transporter operates. A transporter with a very favorable free-energy change can still be slow if there are few transporters, if the substrate concentration is low or if the turnover rate is small. A saturable rate relationship may be represented schematically by v = Vmax C/(Km + C), with C the external substrate concentration. For an illustrative transporter with Vmax of 12 arbitrary flux units and Km of 2 mM, an external sucrose concentration of 2 mM gives a rate of 6 units; 6 mM gives 9 units. This equation assumes other relevant variables are fixed. A proton-coupled carrier in a living membrane is not fully described by external sucrose concentration alone.</p>
+<p class="teaching-prose">An exam experiment may compare uptake at several pH values while maintaining the same external sucrose concentration. If uptake decreases when the outside becomes less acidic, the result is consistent with proton coupling, but it could also reflect pH-dependent changes in transporter conformation or membrane integrity. Measuring membrane potential, proton flux, substrate uptake and cell viability together provides a stronger mechanistic test. An inhibitor that dissipates both proton gradients can reveal their importance, but its effects on the many other proton-dependent processes in the cell must be considered.</p></section>
+<section id="passive"><h2>5. Passive symplastic loading</h2><p class="teaching-prose">In passive symplastic loading, sucrose enters the collecting phloem through plasmodesmata, without a required apoplastic uptake step or conversion into larger transport sugars. A source mesophyll can maintain a high cytosolic concentration of sucrose through photosynthesis and carbohydrate metabolism. Continuous removal of sugar through the conducting phloem and consumption at sinks can help maintain a net inward gradient toward the sieve element–companion cell complex. The word passive refers to the local transfer mechanism: no dedicated metabolic or membrane energy-coupling event is required to move sucrose uphill at the loading interface.</p>
+<p class="teaching-prose">Passive loading still depends on living metabolism. Carbon fixation is required to replenish the sucrose exported by a photosynthetic source, and cells need ATP for homeostasis. Sink metabolism helps maintain net transport. The absence of a proton-coupled loading step is not equivalent to absence of ATP use anywhere in the leaf or plant. The most useful classification asks which process drives sucrose across the decisive local interface.</p>
+<p class="teaching-prose">In a simplified diffusion model, net molar transfer per unit time is J = PA(C_donor − C_receiver), where P denotes effective permeability, A the relevant interfacial area and the concentrations are expressed in consistent units. If P has units of metres per second, A square metres and concentration moles per cubic metre, J is moles per second. The equation predicts no net diffusive transfer at equal concentrations, although individual molecules may still exchange in both directions. Increasing effective permeability increases the magnitude of flux at a fixed concentration difference. Real plasmodesmata have complex geometry, and pressure-driven solvent motion may contribute, so the expression should be treated as a simplified concentration-driven component.</p>
+<p class="teaching-prose">Suppose the donor cytosol contains 80 mM sucrose and the receiving complex contains 50 mM. Their difference is 30 mM. If the receiving concentration increases to 70 mM, without any other change, the difference falls to 10 mM and the simplified diffusive flux falls to one third of its initial value. If the receiving concentration exceeds the donor concentration, the predicted diffusive component reverses. A high total sugar concentration measured in a whole-leaf extract cannot be substituted automatically for the donor cytosolic concentration because the leaf contains several compartments and cell types.</p>
+<p class="teaching-prose">Vacuoles often occupy a large fraction of the mesophyll cell volume. Sugar stored within the vacuole is not at the plasmodesmatal entry unless it first crosses the tonoplast into the cytosol. The concentration relevant to diffusion is therefore local cytosolic activity, not a bulk measurement divided by total leaf volume. A leaf with moderate bulk sugar content may still sustain a high cytosolic concentration. This compartment distinction is one reason why studies of loading mechanisms combine anatomy, compartment-sensitive estimates and transport observations.</p><figure class="figure-panel"><svg id="fig-passive" viewBox="0 0 620 180" role="img" aria-labelledby="fig-passive-title fig-passive-desc" xmlns="http://www.w3.org/2000/svg"><title id="fig-passive-title">Passive symplastic loading</title><desc id="fig-passive-desc">Illustrative donor and receiver concentrations support a net diffusional component toward the phloem.</desc><rect x="10" y="60" width="165" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="92.5" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">80 mM sucrose</text><rect x="230" y="60" width="160" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="310" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Plasmodesmata</text><rect x="445" y="60" width="165" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="527.5" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">50 mM sucrose</text><defs><marker id="fig-passive-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="var(--accent)"/></marker></defs><path d="M175 87L230 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-passive-arrow)"/><text x="202.5" y="79" text-anchor="middle" font-size="12" fill="currentColor"></text><path d="M390 87L445 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-passive-arrow)"/><text x="417.5" y="79" text-anchor="middle" font-size="12" fill="currentColor"></text></svg><figcaption>Illustrative donor and receiver concentrations support a net diffusional component toward the phloem.</figcaption></figure></section>
+<section id="polymer"><h2>6. Polymer trapping: metabolic conversion and selective connectivity</h2><p class="teaching-prose">Polymer trapping solves the accumulation problem by changing the chemical identity of incoming sucrose. Sucrose enters an intermediary companion cell through specialized plasmodesmata from neighboring bundle sheath cells. Inside the intermediary cell, enzymes convert part of the imported sucrose into larger raffinose-family oligosaccharides. These products have restricted movement back toward the bundle sheath through the relevant plasmodesmatal interfaces, yet they can enter the adjacent sieve elements. The model therefore couples a diffusional entry step to an energy-dependent metabolic transformation and asymmetric effective permeability.</p>
+<p class="teaching-prose">Galactinol synthase catalyzes the production of galactinol from UDP-galactose and myo-inositol, releasing UDP. Galactinol then acts as a galactosyl donor. Raffinose synthase transfers a galactosyl group from galactinol to sucrose, forming raffinose and releasing myo-inositol. Stachyose synthase adds a further galactosyl group from galactinol to raffinose, producing stachyose and releasing myo-inositol. The pathway consumes activated sugar donors; although raffinose synthesis does not directly use a plasma membrane proton gradient, the generation and turnover of the substrates depend on metabolism. Polymer trapping is accordingly classified as active symplastic loading.</p>
+<p class="teaching-prose">Raffinose contains three monosaccharide residues and stachyose four. Their larger molecular sizes can reduce their permeability through the bundle sheath–intermediary cell interface relative to sucrose. The term polymer is conventional in the name polymer trapping; the principal products are soluble oligosaccharides rather than long insoluble polymers like cellulose. They remain available for osmotically driven water relations and for export. A trap based on conversion of carbohydrate into insoluble starch would not operate in the same way because starch granules cannot enter the conducting sap as freely dissolved sugars.</p>
+<p class="teaching-prose">The concentration of sucrose alone in an intermediary cell can remain low enough to favor further sucrose entry while the total concentration of transport carbohydrates becomes high. In a simplified example, assume donor cytosolic sucrose is 70 mM while the intermediary cell contains 40 mM sucrose and 90 mM combined raffinose and stachyose. The sucrose gradient favors movement into the intermediary cell, while the total concentration of dissolved transport sugars is greater there. This is not a violation of diffusion because the gradient of one chemical species does not determine the diffusion of a different species. The increased sugar pool can contribute to a more negative osmotic potential, favoring water entry when hydrostatic pressure permits.</p>
+<p class="teaching-prose">The often-used description of the plasmodesmata as molecular sieves is helpful but incomplete. They are regulated cellular structures, not rigid filters with a universally fixed pore diameter. Molecular shape, hydration, effective channel dimensions, pressure and other structural factors can influence transport. Polymer trapping requires effective retention of the products relative to sucrose, not absolute proof that every larger molecule is permanently unable to move back. Leakage may occur, and species can use more than one loading route. The core prediction is that metabolic conversion plus selective intercellular transfer contributes to net sugar accumulation and export.</p>
+<p class="teaching-prose">The biochemical carbon accounting must also be kept distinct from osmotic accounting. One mole of raffinose contains 18 moles of carbon atoms, compared with 12 in one mole of sucrose. One mole of stachyose contains 24 moles of carbon atoms. Each dissolved molecule nonetheless counts approximately as one osmotically active particle in an ideal dilute solution. Adding galactose increases carbon carried per molecule but does not create extra solute particles simply by combining two solutes. The complete metabolic and transport system determines the resulting osmotic concentration. The polymer trap explanation should not be reduced to the false idea that larger molecules inherently exert greater osmotic pressure at equal molarity.</p><figure class="figure-panel"><svg id="fig-polymer" viewBox="0 0 620 180" role="img" aria-labelledby="fig-polymer-title fig-polymer-desc" xmlns="http://www.w3.org/2000/svg"><title id="fig-polymer-title">Polymer trapping mechanism</title><desc id="fig-polymer-desc">Conversion of sucrose to RFOs within an intermediary cell and restricted return permeability support carbohydrate accumulation.</desc><rect x="10" y="60" width="145" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="82.5" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Sucrose donor</text><rect x="215" y="60" width="180" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="305" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Intermediary cell</text><rect x="455" y="60" width="155" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="532.5" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Sieve element</text><defs><marker id="fig-polymer-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="var(--accent)"/></marker></defs><path d="M155 87L215 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-polymer-arrow)"/><text x="185" y="79" text-anchor="middle" font-size="12" fill="currentColor">Sucrose</text><path d="M395 87L455 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-polymer-arrow)"/><text x="425" y="79" text-anchor="middle" font-size="12" fill="currentColor">RFOs</text></svg><figcaption>Conversion of sucrose to RFOs within an intermediary cell and restricted return permeability support carbohydrate accumulation.</figcaption></figure></section>
+<section id="pressure"><h2>7. Connecting loading with pressure-driven translocation</h2><p class="teaching-prose">All three loading strategies must be interpreted in the context of water potential and bulk flow. In a simplified cell or sieve tube, water potential is the sum of solute potential and pressure potential when gravitational and matric terms are negligible. The ideal van't Hoff approximation for a nonionizing solute is Ψs = −CRT, using a consistent unit system. Solute accumulation reduces water potential at a given hydrostatic pressure, and water can enter from neighboring tissues including xylem if their water potential is higher. Entry of water into a constrained volume increases hydrostatic pressure until water potential differences are reduced or maintained by continuing flux.</p>
+<p class="teaching-prose">For a hypothetical sap at 298 K containing 0.30 mol L⁻¹ sucrose and no other osmotically significant solutes, Ψs is approximately −0.743 MPa using R = 0.008314 MPa L mol⁻¹ K⁻¹. If local xylem water potential is −0.20 MPa and the sap comes into local water-potential equilibrium, the required sieve tube pressure potential is approximately +0.543 MPa, because −0.743 + 0.543 = −0.200 MPa. This is an illustrative equilibrium calculation, not a claim about actual sieve tube pressure in a specific plant. In a flowing system, water exchange, other solutes, resistance and changes in volume affect the pressure.</p>
+<p class="teaching-prose">A pressure difference between the source and sink regions can drive bulk sap movement. The local transfer of sugar into the collecting phloem is a different transport event from longitudinal movement. Sucrose can move uphill in concentration across a companion cell membrane while the sap subsequently moves down a hydrostatic pressure gradient. The concentration of sucrose along the tube may change relatively little over some distances, and pressure-driven flow can transport multiple solutes together. It is incorrect to describe the entire source-to-sink route as diffusion or to imagine a series of ATP-driven pumps pushing each sucrose molecule through every sieve plate.</p>
+<p class="teaching-prose">The net export rate of a source depends on both local loading and downstream hydraulic transport. If a sink becomes less active, or flow resistance increases, carbohydrate may accumulate in the source even when its loading transporters are functional. Conversely, enhanced loading may not improve export if the conducting system or unloading process becomes limiting. This is why whole-plant growth data alone rarely establish which molecular component of the transport system is defective. A sound investigation measures several steps and relates each observation to a specific mechanistic prediction.</p><figure class="figure-panel"><svg id="fig-pressure" viewBox="0 0 620 180" role="img" aria-labelledby="fig-pressure-title fig-pressure-desc" xmlns="http://www.w3.org/2000/svg"><title id="fig-pressure-title">Loading and pressure flow</title><desc id="fig-pressure-desc">Osmotic water entry contributes to source pressure; the longitudinal pressure difference drives sap flow.</desc><rect x="10" y="60" width="150" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="85" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Source loading</text><rect x="235" y="60" width="150" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="310" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">High pressure</text><rect x="460" y="60" width="150" height="55" rx="10" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="535" y="92.5" text-anchor="middle" font-size="15" fill="currentColor">Lower pressure</text><defs><marker id="fig-pressure-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="var(--accent)"/></marker></defs><path d="M160 87L235 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-pressure-arrow)"/><text x="197.5" y="79" text-anchor="middle" font-size="12" fill="currentColor">Water entry</text><path d="M385 87L460 87" stroke="var(--accent)" stroke-width="2.5" fill="none" marker-end="url(#fig-pressure-arrow)"/><text x="422.5" y="79" text-anchor="middle" font-size="12" fill="currentColor">Bulk flow</text></svg><figcaption>Osmotic water entry contributes to source pressure; the longitudinal pressure difference drives sap flow.</figcaption></figure></section>
+<section id="evidence"><h2>8. Experimental evidence: distinguishing the three pathways</h2><p class="teaching-prose">The physiological existence of a transporter is not established solely by the detection of its messenger RNA in a leaf. An informative study links the location of the protein, its capacity to transport the relevant solute and the consequences of changing its activity in the intact plant. In Arabidopsis, Gottwald and colleagues investigated SUC2 through insertion mutants. The developmental and assimilate-export defects of those mutants support a physiological role for the sucrose transporter in phloem loading. Source carbohydrate accumulation combined with impaired growth of receiving tissues is consistent with a bottleneck in distribution, but the interpretation is particularly strong when connected to the known transport activity and cell-specific expression of SUC2.</p>
+<p class="teaching-prose">Chen and colleagues identified the contribution of SWEET11 and SWEET12 to sucrose efflux in Arabidopsis and examined plants defective in these transporters. Their work supports the model in which facilitated export into the apoplast supplies substrate to a proton-coupled uptake step. The two proteins have overlapping functions, which illustrates why a single-gene mutant with only a modest phenotype does not establish that the corresponding step is dispensable. A double mutant can reveal redundancy. Expression in the relevant cells and sugar transport assays are needed to connect genetic phenotypes to a direction of transfer.</p>
+<p class="teaching-prose">Polymer trapping was tested in Verbascum phoeniceum by McCaskill and Turgeon, who suppressed the expression of galactinol synthase genes. Reduced production of raffinose-family sugars was associated with impaired carbohydrate export and growth. This intervention differs from inhibiting a sucrose symporter: it interferes with metabolic conversion in the intermediary cell. The experiment supplies evidence that the conversion has functional significance, rather than the large oligosaccharides being merely incidental components of sap. A complete causal interpretation nevertheless considers the possibility that changing carbohydrate metabolism affects other physiological processes. Measuring the expected biochemical intermediates and the actual export phenotype connects the molecular perturbation more closely to the loading model.</p>
+<p class="teaching-prose">Rennie and Turgeon compared transport strategies across diverse species using combinations of anatomical, physiological and carbohydrate observations. Their analysis supports the existence of passive loading in a substantial range of plants, particularly woody species. This matters because a theory inferred from one model organism cannot be imposed on every leaf. Plasmodesmatal abundance, sugar concentrations in cellular compartments and tracer accumulation patterns can contribute to classification. Each method has limitations, and convergence of evidence is more useful than a single observation.</p>
+<p class="teaching-prose">A radioactive carbon dioxide pulse can label photosynthetically fixed carbon in a source leaf. During the chase period, researchers may follow redistribution into veins and sinks. Reduced label export can indicate impaired assimilate movement, but the total amount of label fixed must also be compared between treatments. If a mutant has reduced photosynthesis, it may deliver less label even with intact loading. A useful normalization expresses exported label as a fraction of the initial fixed label under comparable conditions. Additional measurements of total sucrose and other labeled products can reveal changes in metabolism rather than simple transfer.</p>
+<p class="teaching-prose">A membrane-impermeant inhibitor applied to extracellular spaces may inhibit accessible sucrose carriers while leaving some symplastic pathways relatively unaffected. Sensitivity to such a treatment can support a contribution from an apoplastic step. The inhibitor must reach its intended target, and tissue integrity, respiration and photosynthesis must be monitored. Lack of inhibition may mean that the plant uses a symplastic route, but it may also mean that the compound fails to reach the relevant cells or does not inhibit a particular transporter. A negative result is interpretable only in relation to a validated positive control.</p>
+<p class="teaching-prose">Fluorescent tracers can test symplastic continuity. A tracer introduced into one cell may pass through plasmodesmata into neighboring cells depending on its molecular properties and the physiological condition of the channels. Tracer movement demonstrates permeability to that tracer under the conditions of the experiment. It does not directly measure sucrose flux. Conversely, absence of movement could result from a tracer being too large or having chemical interactions different from those of sucrose. Combining tracer measurements with sugar analysis, genetic perturbation and anatomical observations helps distinguish possible mechanisms.</p></section>
+<section id="regulation"><h2>9. Regulation, diversity and integrated predictions</h2><p class="teaching-prose">The three loading mechanisms are idealized strategies that help organize physiological observations. A single leaf may contain multiple companion cell types, and a species can operate parallel apoplastic and symplastic routes. An anatomical classification should therefore be treated as a prediction about the predominant pathway rather than proof of exclusivity. A transport inhibitor that reduces export by half might reveal one route among several, or it might simply inhibit a single route incompletely. Discriminating those possibilities requires information about target engagement, dose dependence and the composition of transported carbohydrates.</p>
+<p class="teaching-prose">Environmental conditions affect the supply of substrate and the capacity for export. Reduced light decreases the immediate production of photoassimilate, but mobilized starch may partly sustain sucrose export during darkness. Water deficit changes leaf and xylem water potential, turgor, stomatal conductance and carbon fixation. If long-distance export declines during water deficit, the change may arise from reduced loading substrate, altered membrane energetics, increased sap viscosity, a smaller hydraulic driving force or altered sink demand. The observation alone does not identify a single cause. A source-to-sink analysis therefore asks whether the perturbation primarily affects production, loading, longitudinal movement or sink delivery.</p>
+<p class="teaching-prose">An increase in source carbohydrate can itself alter gene expression and metabolism. Plants experiencing an export limitation may accumulate sucrose and starch and downregulate aspects of photosynthesis through feedback. In that case, lower carbon fixation observed at a late time can be a consequence rather than the initial cause of transport impairment. To establish temporal order, measure early changes after a defined perturbation and compare them with later physiological responses. Genetic rescue that restores export before other traits recover supplies stronger causal evidence than a static comparison of healthy and impaired plants.</p>
+<p class="teaching-prose">In applied physiology, improving a loading transporter is sometimes proposed as a route to enhanced crop productivity. The underlying reasoning is sound only if transport through that step is a substantial limitation to the whole system. Increasing one protein may fail to improve yield when sink capacity, nitrogen availability or hydraulic transport is limiting. An intervention may also alter carbohydrate availability in the apoplast, which can affect other biological interactions. The appropriate examination-level conclusion is that carbon partitioning is a system property rather than a direct function of one gene's expression. The next chapter considers how arriving assimilates are released and utilized in receiving organs.</p><div class="table-wrap"><table class="compare-table"><caption>Comparison of predominant loading strategies</caption><thead><tr><th>Property</th><th>Apoplastic</th><th>Passive symplastic</th><th>Polymer trapping</th></tr></thead><tbody><tr><th scope="row">Final entry</th><td>Membrane uptake</td><td>Plasmodesmata</td><td>Plasmodesmata</td></tr><tr><th scope="row">Energy coupling</th><td>Proton gradient</td><td>Down sucrose gradient</td><td>RFO synthesis</td></tr><tr><th scope="row">Key proteins</th><td>SWEET, SUC/SUT, H⁺-ATPase</td><td>Regulated PD</td><td>Galactinol, raffinose and stachyose synthases</td></tr><tr><th scope="row">Evidence example</th><td>Arabidopsis SUC2 mutants</td><td>Comparative studies in woody plants</td><td>Verbascum galactinol synthase suppression</td></tr></tbody></table></div></section><section id="references"><h2>10. Scientific references</h2><ol><li><a href="https://csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115255869Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR-HRDG (January 2026). Life Sciences and Biotechnology syllabus, Unit 6.F.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/22157085/">Chen et al. (2012). Sucrose efflux mediated by SWEET proteins as a key step for phloem transport.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11087840/">Gottwald et al. (2000). Genetic evidence for the in planta role of phloem-specific plasma membrane sucrose transporters.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/18048337/">McCaskill and Turgeon (2007). Phloem loading in Verbascum phoeniceum L. depends on the synthesis of raffinose-family oligosaccharides.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/19666555/">Rennie and Turgeon (2009). A comprehensive picture of phloem loading strategies.</a></li><li><a href="https://doi.org/10.1093/jxb/ert302">Phloem transport: a review of mechanisms and controls.</a></li><li><a href="https://doi.org/10.1111/tpj.14224">Phloem loading in cucumber: combined symplastic and apoplastic strategies.</a></li></ol></section></div></article>
+        <nav class="node-navigation" id="chapter-navigation" aria-label="Adjacent published chapters"><a href="./">Academy curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology – Plant</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog"); document.querySelectorAll("[data-zoom]").forEach(btn=>btn.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return; const clone=byId(btn.dataset.zoom).cloneNode(true); const elements=[clone,...clone.querySelectorAll("[id]")]; elements.forEach(el=>{el.id="enlarged-"+el.id}); clone.setAttribute("aria-labelledby",clone.getAttribute("aria-labelledby").split(" ").map(x=>"enlarged-"+x).join(" ")); [clone,...clone.querySelectorAll("*")].forEach(el=>{for(const attr of [...el.attributes]){if(attr.value.includes("url(#")) el.setAttribute(attr.name,attr.value.replace(/url\(#([^)]*)\)/g,"url(#enlarged-$1)"));}}); byId("zoom-art").replaceChildren(clone);dialog.showModal();})); dialog.addEventListener("close",()=>byId("zoom-art").replaceChildren()); byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");for(const[code,id]of[["6.F.06","previous-node"],["6.F.08","next-node"]]){const entry=[...menu.querySelectorAll(".topic-code")].find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.onclick=()=>location.href=href;const a=document.createElement("a");a.href=href;a.textContent=(id==="previous-node"?"← ":"")+code+" "+link.textContent+(id==="next-node"?" →":"");byId("chapter-navigation").append(a)}}).catch(()=>{});
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Explore neuronal ion gradients, Nernst and Goldman equations, resting conductances, membrane capacitance and graded electrical responses.">
+  <meta name="robots" content="index,follow">
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html">
+  <title>Resting Membrane Potential and Neuronal Excitability (7.D.02) | CSIR-NET Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 7</span><span>›</span><span>7.D Nervous System</span><span>›</span><strong>7.D.02</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">7.D.02</span><span>System Physiology: Animal</span></div><h1>Resting Membrane Potential and Neuronal Excitability</h1><p class="subtitle">Ionic asymmetry, equilibrium potentials, resting conductances and the electrical properties of excitable membranes.</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Foundations of Nervous System and Cellular Organisation">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Action Potential and Nerve Impulse Conduction">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#problem">1. The biological problem: a neuron poised to respond</a><a href="#ions">2. Ionic asymmetry and the electrically insulating membrane</a><a href="#forces">3. Electrochemical gradients: from diffusion to electrical equilibrium</a><a href="#nernst">4. Deriving and applying the Nernst equation</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Resting Membrane Potential and Neuronal Excitability">
+          <div class="article-content" id="article">
+<section id="problem"><h2>1. The biological problem: a neuron poised to respond</h2><p class="teaching-prose">A neuron must solve a particular problem of communication. Its dendrites and soma receive signals that vary in size and timing, yet the cell can convert an appropriate combination of those signals into an electrical impulse. The conversion requires a stable starting condition. Before a sensory stimulus opens a channel, before a transmitter binds a receptor, and before a voltage-sensitive sodium channel enters its rapidly activating state, the neuron already possesses a potential difference across its surface. That difference is the resting membrane potential. It is not the consequence of the next signal; it is part of the physical preparation that makes the signal possible.</p>
+<p class="teaching-prose">A voltmeter does not measure an absolute voltage at one point in space. It compares the electric potential at two points. Neurophysiologists ordinarily define the membrane voltage as the intracellular electric potential minus the extracellular electric potential, with the external reference taken as zero. A reading of −70 mV therefore means that the interior has an electric potential seventy thousandths of a volt below the local extracellular solution. If a second neuron rests at −55 mV, its interior remains negative relative to its exterior, but its membrane is more depolarized than the first. The word depolarization describes a change toward a less negative or more positive voltage, not an obligation to reach zero. A change from −70 to −60 mV is depolarization; a change from −70 to −80 mV is hyperpolarization.</p>
+<p class="teaching-prose">The resting value is an operating condition, not an immutable electrical identity of all neurons. Different neuronal classes express different mixtures of channels, transporters and receptors. A cell's recent activity, extracellular environment and metabolic state also affect its baseline. Some neurons fluctuate continually because of spontaneous channel openings and incoming synaptic signals. Others undergo spontaneous oscillations or rhythmic discharge, so a particular stable resting potential may be difficult to identify under physiological conditions. In a controlled preparation, an investigator usually defines the baseline during an interval without deliberately applied current or a strong imposed stimulus. This definition makes it possible to quantify responses relative to the starting voltage.</p>
+<p class="teaching-prose">An excitable cell can change its membrane potential rapidly in response to a stimulus, often using voltage-dependent positive feedback to generate a regenerative event. However, a membrane potential itself does not establish that a cell produces an action potential. Many non-neuronal cells maintain a potential difference and use electrochemical gradients for transport without generating an ordinary fast neuronal impulse. Likewise, a neuron can respond electrically below its firing threshold. The amplitude of a small response may encode stimulus strength, while the subsequent regenerative signal may encode strength through firing frequency or timing. The distinction separates the present chapter, which concerns the baseline and passive responses, from the next chapter, which concerns the dynamics of impulse generation.</p>
+<p class="teaching-prose">A helpful first experiment in thought is to imagine a membrane that encloses a potassium-rich solution and sits in a sodium-rich bath. If the membrane were completely impermeable to ions, the concentration differences would not automatically produce a predictable negative voltage. Concentration gradients provide potential free energy, but an electrical separation requires some route for charges to redistribute. Now introduce a channel that allows potassium to cross. Potassium can leave the interior, and impermeant negatively charged material cannot follow through that channel. The resulting charge separation creates an electrical force opposing further outward movement. The final voltage depends on how these forces balance. If another pathway admits sodium, the balance changes again. This sequence, rather than a memorized claim that potassium is negative or that sodium is positive, explains why the composition and properties of a membrane must be considered together.</p>
+<p class="teaching-prose">The rest of this chapter develops three layers of explanation. The first is the thermodynamic prediction of the voltage at which one ion has no net passive movement. The second is the steady voltage produced when several passive ionic pathways operate simultaneously and active transport maintains the concentration differences. The third is the way membrane capacitance, resistance and cell geometry determine how quickly and how far a local signal travels. A student who can move between these layers can analyze a problem whether it is expressed as a table of concentrations, a current–voltage graph, a drug experiment or a voltage recording. In each case the key is to identify which quantities are fixed and which are permitted to change.</p></section>
+<section id="ions"><h2>2. Ionic asymmetry and the electrically insulating membrane</h2><p class="teaching-prose">The aqueous environment of a mammalian neuron is divided by a lipid bilayer into cytosol and extracellular fluid. Both compartments contain water, dissolved salts, proteins and other molecules. A dissolved salt such as potassium chloride dissociates into oppositely charged ions. Because the central portion of a lipid bilayer is hydrophobic, a hydrated ion cannot ordinarily pass through it at a substantial rate unless a protein supplies a suitable pathway. Ion channels provide such pathways. Some have a narrow selectivity filter that favors particular ionic species; some allow several cations through; others preferentially conduct chloride. Their presence converts a highly resistive lipid surface into a selectively permeable membrane.</p>
+<p class="teaching-prose">A useful representative set of concentrations for calculations in a mature mammalian neuron is 140 mM potassium inside and 4 mM outside, 12 mM sodium inside and 145 mM outside, and 10 mM chloride inside and 120 mM outside. These are illustrative values, not measurements from a universal neuron. The actual intracellular chloride concentration, in particular, can differ markedly among cell types and developmental stages. Free cytosolic calcium is usually around a tenth of a micromolar in a resting cell, whereas extracellular free calcium is commonly around one to two millimolar. Calcium is an especially instructive case because a large concentration difference can exist despite the small contribution of its closed channels to resting voltage. A concentration gradient becomes an electrical influence only when a corresponding transport pathway permits charge movement.</p>
+<p class="teaching-prose">Concentration describes an amount per volume rather than a total amount. A small extracellular compartment can contain fewer potassium ions than a large cytoplasm even if both have the same concentration. The distinction matters when neurons fire repeatedly into a confined extracellular space. A modest absolute release of potassium may noticeably raise its local external concentration, altering the gradient for subsequent potassium movement. In contrast, an experimental bath of large volume, continuously perfused with fresh solution, can hold the external concentration close to a chosen value. A model that assumes fixed concentrations can be excellent for one preparation and misleading for another. The assumptions must be stated before numerical predictions are interpreted.</p>
+<p class="teaching-prose">The major ionic asymmetries have biochemical causes. The sodium–potassium ATPase transports sodium out and potassium in, using ATP to perform movement against the prevailing electrochemical gradients. Other transporters use gradients established by this pump to move solutes. In mature neurons, chloride may be kept relatively low by potassium–chloride cotransport; in developing neurons or particular neuronal compartments, other transport processes can support a higher chloride concentration. Calcium pumps, sodium–calcium exchangers and intracellular stores maintain low free cytosolic calcium. Negatively charged intracellular proteins and metabolites also influence ionic composition and osmotic balance, but they cannot by themselves explain the exact value of a neuronal resting potential.</p>
+<p class="teaching-prose">The interior and exterior of a resting neuron are each approximately electroneutral in bulk. The statement that a cell is negative inside refers to the potential difference and the tiny excess of charge near the inner membrane surface, not to a cytoplasm containing large amounts of uncompensated negative charge. Nearly every intracellular positive charge is balanced by a negative charge elsewhere in the intracellular fluid. The electrical separation required to charge a membrane is minuscule compared with the total number of dissolved ions. This distinction is fundamental: membrane voltage can change by tens of millivolts while the bulk sodium and potassium concentrations barely change over a single brief event.</p>
+<p class="teaching-prose">The amount of charge needed for a voltage change can be estimated by treating the membrane as a capacitor. Consider a spherical soma of radius ten micrometres. The area is four times pi times the radius squared, approximately 1,257 square micrometres or 1.257 × 10⁻⁵ square centimetres. A specific capacitance of one microfarad per square centimetre gives a total capacitance near 12.6 picofarads. Changing its voltage by 70 mV corresponds to approximately 8.8 × 10⁻¹³ coulombs of separated charge. Dividing by the elementary charge, 1.602 × 10⁻¹⁹ coulombs, gives roughly 5.5 million elementary charges. Yet the same sphere contains about 3.5 × 10¹¹ potassium ions if its potassium concentration is 140 mM. The charge change is equivalent to a minute fraction of that inventory. This is an idealized geometric estimate; actual dendrites increase surface area, and multiple ionic species contribute to the charge displacement. Its importance is conceptual rather than anatomical: a substantial electrical change does not require wholesale replacement of the cell's ions.</p>
+<p class="teaching-prose">An ion channel is not the same as a pump. A channel permits passive flux in the direction favored by electrochemical free energy, regardless of whether the channel was opened by voltage, a ligand or mechanical force. Energy may be required to regulate a channel, but ions traversing its passive pore are not actively transported uphill. A pump couples a transport cycle to an energy source such as ATP hydrolysis and can sustain transport against a gradient. Cotransporters occupy a related but distinct category, coupling one solute's downhill movement to another solute's uphill movement. When an examination question describes a pathway opening, it is essential to identify the electrochemical force before choosing the direction of ionic flow. When it describes a pump or coupled transporter, the stoichiometry and source of energy must also be considered.</p>
+<p class="teaching-prose">Permeability must be distinguished from concentration and conductance. A membrane can contain a very high extracellular sodium concentration while exhibiting low resting sodium permeability. A permeability coefficient describes the ease with which a species crosses a specified barrier under a concentration and electrical gradient. Conductance relates current to voltage and reflects channel availability as well as the properties of the permeant ions. For a simple linear channel, its conductance is the reciprocal of its resistance. The numerical relationship between permeability and conductance is not generally a fixed unit conversion; conductance can depend on concentrations, membrane voltage and channel gating. This distinction will matter when comparing the Goldman equation, which uses permeability, with a circuit approximation, which uses conductance.</p>
+<p class="teaching-prose">The selective nature of the resting membrane is especially important in an environment that continually changes. Neural activity transfers some potassium into extracellular spaces. Astrocytes and other cellular processes help manage this potassium, and the blood and extracellular fluid provide additional buffering and exchange. A neuron embedded in living tissue therefore does not behave like a sealed container with a permanent ion recipe. Its baseline is the outcome of cell-autonomous transport, membrane pathways and tissue-level homeostasis. We can begin with fixed concentrations for tractable calculations, then relax that assumption when predicting slower changes during sustained activity or metabolic stress.</p></section>
+<section id="forces"><h2>3. Electrochemical gradients: from diffusion to electrical equilibrium</h2><p class="teaching-prose">A concentration gradient gives rise to diffusion because random molecular movement tends, in the absence of other influences, to reduce differences in concentration. If a selective channel connects a region containing more potassium with a region containing less potassium, potassium ions cross in both directions, but initially more ions cross from the high concentration side. The term net flux refers to the difference between the two opposing fluxes. It is not a claim that every particle travels in one direction. Even at equilibrium, microscopic motion continues; the time-averaged difference between the opposing movements becomes zero.</p>
+<p class="teaching-prose">Charged particles experience an additional influence from the electric field. Positive ions tend to move toward lower electric potential; negative ions tend to move toward higher electric potential. For a neuron that is negative inside, the electrical influence on potassium is inward while its concentration influence is ordinarily outward. Both influences on sodium are usually inward at rest because sodium is abundant outside and positive. For chloride, the concentration influence is often inward but the electrical influence is outward, because the negative interior repels chloride. Calcium typically has both a large inward concentration influence and an inward electrical influence. These qualitative predictions are the first step, but opposing forces cannot be ranked reliably from concentrations alone.</p>
+<p class="teaching-prose">Thermodynamics expresses these influences using electrochemical potential. For an ionic species with activity a, charge number z and electric potential φ, the electrochemical potential per mole is the reference chemical potential plus RT ln a plus zFφ. The gas constant R is measured in joules per mole per kelvin, T is absolute temperature in kelvin, and F is the Faraday constant, approximately 96,485 coulombs per mole of elementary charge. Multiplying F by electric potential gives joules per mole because one volt is one joule per coulomb. The charge number is +1 for sodium and potassium, −1 for chloride and +2 for calcium. The logarithm contains a dimensionless activity relative to a standard state. In elementary calculations, the activity ratio is approximated by the ratio of concentrations in matching units. This is an approximation because interactions between ions can modify their effective activities.</p>
+<p class="teaching-prose">For transfer of one mole of an ion from outside to inside, the electrochemical free-energy change is RT ln(a_in/a_out) + zF(V_in − V_out). This expression is negative when inward movement is thermodynamically favored and positive when outward movement is favored. It is zero when neither direction is favored overall. Notice that the expression includes the sign of z. A negative membrane voltage lowers the electrical part of the free energy for inward movement of a cation but raises it for inward movement of an anion. Treating all ions as if they were positively charged reverses the prediction for chloride and is a frequent source of mistakes.</p>
+<p class="teaching-prose">Imagine potassium with a concentration ratio of thirty-five inside to one outside. At zero membrane voltage, its chemical free-energy contribution for entering the cell is positive, so net passive movement is outward if a potassium-selective pore is available. As the inside becomes more negative, inward movement becomes increasingly favorable electrically. At a sufficiently negative voltage, the inward electrical tendency exactly counteracts the outward chemical tendency. That voltage is the potassium equilibrium potential. If the interior becomes still more negative, potassium will enter the cell through open potassium channels even though the concentration inside is higher. This result is not a violation of diffusion; it is movement down the total electrochemical potential.</p>
+<p class="teaching-prose">The same reasoning explains how two ions with the same charge number can favor opposite directions across one resting membrane. If potassium has an equilibrium potential near −95 mV and sodium has one near +67 mV, a membrane at −70 mV lies above the potassium equilibrium potential but below the sodium equilibrium potential. Passive potassium tends to leave and passive sodium tends to enter. The membrane has only one actual voltage at a given point, but it has multiple ion-specific equilibrium potentials. Each of these is a hypothetical voltage at which the corresponding ion would be in electrochemical equilibrium with the present concentration gradient. It is perfectly possible, indeed typical, for the actual voltage to be different from all of them.</p>
+<p class="teaching-prose">For equilibrium to matter experimentally, the ion must have an available pathway. If all sodium channels are closed and sodium leakage is negligible, sodium may remain far from equilibrium without producing a measurable passive sodium current. A large driving force is analogous to a large pressure difference across a closed valve: it predicts a potential movement, not an actual flow rate. The analogy is limited because electrical currents depend on charge, and channels may alter their gating in response to voltage. Nevertheless, the distinction between driving force and pathway availability is an essential guide to experimental prediction.</p>
+<p class="teaching-prose">An equilibrium potential is thermodynamic; a reversal potential is operationally measured as the voltage at which current through a specified channel or population of channels reverses direction. For a truly selective passive channel conducting only one ionic species, the reversal potential matches that ion's equilibrium potential under the given conditions. For a channel that conducts both sodium and potassium, the reversal potential is instead a combined balance. At that voltage the total channel current is zero, while individual ions may still move in opposing charge-current directions. A zero-current point should therefore never be interpreted as proof that every permeant ion has reached electrochemical equilibrium. This distinction becomes particularly important for postsynaptic channels, whose full treatment is reserved for the synaptic transmission chapter.</p>
+<p class="teaching-prose">One final distinction is between flux of particles and electric current. Conventional positive current represents movement of positive charge in the stated direction or negative charge in the opposite direction. Neurophysiology commonly defines outward transmembrane current as positive. Potassium leaving the cell contributes a positive outward current. Sodium entering contributes a negative inward current. Chloride entering is physically inward movement of negatively charged particles, but its conventional electrical current is positive outward. The free-energy method predicts ion movement directly; a current equation predicts movement of electrical charge. To pass from one description to the other, remember the valence of the transported species.</p></section>
+<section id="nernst"><h2>4. Deriving and applying the Nernst equation</h2><p class="teaching-prose">At equilibrium for one permeant species, the free-energy change for passive transfer from outside to inside vanishes. Setting RT ln(a_in/a_out) + zFE_ion equal to zero and rearranging gives E_ion = (RT/zF) ln(a_out/a_in). This is the Nernst equation using the convention of intracellular voltage relative to extracellular voltage. The minus sign created in rearrangement is absorbed by reversing the activity ratio inside the logarithm. The result predicts a voltage, not a current or a rate of approach to equilibrium. It requires a nonzero valence and a specified concentration ratio, and its physical derivation assumes thermodynamic equilibrium for that species.</p>
+<p class="teaching-prose">Many examination calculations use base-ten logarithms because common ratios are easier to evaluate mentally. Since the natural logarithm of x equals approximately 2.303 times log₁₀ x, the equation becomes E_ion = (2.303RT/zF) log₁₀([ion]_out/[ion]_in) in the ideal concentration approximation. At 37 °C, T is approximately 310 K. Substituting R = 8.314 J mol⁻¹ K⁻¹ and F = 96,485 C mol⁻¹ yields 0.0615 V for 2.303RT/F, or 61.5 mV. Therefore the convenient mammalian-temperature form is E_ion = (61.5 mV/z) log₁₀(out/in). At 25 °C the coefficient is approximately 59.2 mV, and at 20 °C it is about 58.2 mV. Use the specified temperature rather than automatically inserting 61.5 mV for every animal or isolated preparation.</p>
+<p class="teaching-prose">A tenfold gradient is a useful reference. For a monovalent cation at 37 °C, an outside-to-inside concentration ratio of ten corresponds to +61.5 mV; a ratio of one tenth corresponds to −61.5 mV. For chloride the signs reverse because z is negative. A divalent cation gives half the voltage for the same ratio because the electrical work per mole is doubled. This does not mean calcium necessarily has a smaller equilibrium potential than sodium. Its physiological concentration ratio may be thousands to tens of thousands, and the logarithm of that ratio can outweigh the factor of one half.</p>
+<p class="teaching-prose">Using the representative concentrations in the previous section, the potassium equilibrium potential is 61.5 log₁₀(4/140) mV. The ratio is approximately 0.02857, and its common logarithm is −1.544. Multiplication gives approximately −95.0 mV. Sodium gives 61.5 log₁₀(145/12) mV, or approximately +66.6 mV. Chloride gives −61.5 log₁₀(120/10) mV, approximately −66.4 mV. For calcium, choose outside free calcium of 1.2 mM and inside free calcium of 0.0001 mM; the ratio is 12,000. Its logarithm is 4.079, and multiplication by 30.75 mV yields approximately +125.4 mV. Concentrations must first be converted into the same units. Confusing nanomolar calcium with millimolar calcium can change the calculated result by tens of millivolts.</p>
+<p class="teaching-prose">Suppose extracellular potassium rises from 4 to 8 mM, with intracellular potassium initially fixed at 140 mM and temperature unchanged. The new potassium equilibrium potential is 61.5 log₁₀(8/140), approximately −76.4 mV. The change is +18.5 mV, which is exactly the coefficient multiplied by log₁₀ 2 within rounding. A doubling of the external concentration produces the same change in equilibrium potential regardless of the starting external concentration if the other quantities are fixed. This is a logarithmic relationship. Adding 4 mM to a solution initially containing 4 mM is a doubling, while adding 4 mM to a solution containing 40 mM is only a ten percent increase. The two additions do not produce equal changes in equilibrium voltage. Exam questions often test this distinction using graphs of membrane potential against either potassium concentration or its logarithm.</p>
+<p class="teaching-prose">A reversible calculation can infer a concentration ratio from an ion equilibrium potential. If a monovalent potassium-selective pathway reverses at −90 mV at 37 °C, then log₁₀(out/in) is approximately −90/61.5 = −1.463. The outside-to-inside ratio is 10 raised to that power, approximately 0.0344. If intracellular potassium is known to be 140 mM, the external concentration inferred under the assumptions is about 4.8 mM. However, if the measured current comes from a mixed-selectivity channel, this inference is not valid. The investigator would need independent selectivity information before treating the zero-current point as the potassium equilibrium potential. A mathematical calculation cannot compensate for a wrongly identified biological pathway.</p>
+<p class="teaching-prose">Another way to use the Nernst equation is to hold a concentration ratio fixed and vary temperature. Increasing absolute temperature increases the equilibrium voltage magnitude because the chemical contribution of the concentration difference is proportional to RT. The sign does not change unless the concentration ratio or valence changes. The thermal dependence of a living neuron's resting potential is more complex because permeability, transporter activity and concentrations may themselves change with temperature. A question that specifies fixed concentrations and a purely selective membrane is isolating the Nernst prediction. A question describing an intact animal undergoing a temperature change may require additional physiological reasoning.</p>
+<p class="teaching-prose">Consider the limit of equal activities inside and outside. The logarithm is zero and the equilibrium potential is zero regardless of valence. If the actual membrane voltage is −70 mV, however, an ion with equal concentrations is not necessarily at equilibrium; the electrical gradient remains. For a cation, opening the channel can generate an inward current despite the absence of a concentration difference. Conversely, unequal concentrations can coexist with zero net passive flux if an opposing voltage is established. Equilibrium is not a synonym for equal concentration. This is a particularly important idea for students who have learned diffusion using uncharged solutes.</p>
+<p class="teaching-prose">The Nernst equation should not be used to conclude that resting voltage equals the equilibrium potential of the most abundant ion. The equation contains a single concentration ratio and no membrane permeability or conductance terms. When the membrane is permeable almost exclusively to potassium, the resting potential may approximate the potassium equilibrium voltage. When sodium and chloride pathways are appreciable, their currents modify the actual voltage. When the pump exports net charge, it can make an additional contribution. The equation remains useful in the more complex case because it supplies the reversal potential for each individual selective pathway, but a further current-balance model is needed to obtain the steady membrane voltage.</p></section>
+</div>
+        </article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology: Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged scientific diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // Resolve adjacent chapters from published curriculum links, including later publications.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.D.01","previous-node","← "],["7.D.03","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      document.querySelectorAll(".figure-panel svg").forEach(figure=>{const button=document.createElement("button");button.type="button";button.className="tool-btn";button.textContent="Enlarge diagram";figure.parentNode.append(button);button.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return;const clone=figure.cloneNode(true);clone.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);const refs=clone.getAttribute("aria-labelledby");if(refs)clone.setAttribute("aria-labelledby",refs.split(" ").map(id=>"zoom-"+id).join(" "));byId("zoom-art").replaceChildren(clone);dialog.showModal();});});
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

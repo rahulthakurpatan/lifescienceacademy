@@ -197,3 +197,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.B.03 — [Electrocardiography: Principles and Physiological Significance](https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html); internal QA 95/100; saved HTML static checks complete, Pages verification pending.
 - 13,718 teaching words in 141 distinct paragraphs; 14 original SVGs, 4 tables, 52 explained questions (20 Part B, 20 Part C, 12 integrated), 17 misconceptions, 12 recall prompts, 13 reference entries.
 - Subunit 7.B: 2/8; Unit 07: 10/90; Academy: 325/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.B.05 — [Heart as a Pump and Cardiac Output](https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
+- Teaching prose: 13,758 words in 137 distinct paragraphs; 12 original scientific SVGs including 6 graphs, 5 tables, 52 explained questions (20 Part B, 24 Part C, 8 mixed NET/SET), 18 misconceptions, 12 recall prompts and 20 references.
+- Subunit 7.B: 3/8; Unit 07: 11/90; Academy: 326/723. Next global unpublished: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.

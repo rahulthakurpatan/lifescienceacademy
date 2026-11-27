@@ -4,16 +4,16 @@
   "unit": "07",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "7.B.03",
-  "title": "Electrocardiography: Principles and Physiological Significance",
+  "node_id": "7.B.05",
+  "title": "Heart as a Pump and Cardiac Output",
   "subunit": "7.B",
   "topic": "Cardiovascular System",
-  "slug": "electrocardiography-principles-and-physiological-significance.html",
+  "slug": "heart-as-a-pump-and-cardiac-output.html",
   "next_pending_node_id": "7.B.02",
   "next_pending_node_title": "Myogenic Heart and Cardiac Electrophysiology",
-  "published_node_count": 325,
+  "published_node_count": 326,
   "publication_allowed": true,
-  "main_baseline_sha": "e58de46e8a44a660c9f048f5204c3cfbeefdb25d",
+  "main_baseline_sha": "4451212cec71d163e227ba9618d22180bf8bbd8d",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; then develop 7.B.02",
   "planned_node_count": 90,
@@ -21,105 +21,83 @@
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.B.03",
-    "title": "Electrocardiography: Principles and Physiological Significance",
-    "slug": "electrocardiography-principles-and-physiological-significance.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html",
+    "node_id": "7.B.05",
+    "title": "Heart as a Pump and Cardiac Output",
+    "slug": "heart-as-a-pump-and-cardiac-output.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html",
     "unit": "07",
     "subunit": "7.B",
     "topic": "Cardiovascular System",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "source_draft_branch": "draft/7-b-03-ecg-academic-recovery",
-    "source_draft_commit_sha": "bacc6ebfa5661f8162e71c93652eff3e7c7a8c32",
-    "source_draft_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
+    "source_draft_branch": "develop/7b05-heart-pump-cardiac-output",
+    "source_draft_commit_sha": "5387fb5b1e8759de46f5541be2d6e3a5a13e5bc5",
+    "source_draft_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+    "production_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+    "publication_base_sha": "4451212cec71d163e227ba9618d22180bf8bbd8d",
     "metrics": {
-      "genuine_teaching_words": 13718,
-      "unicode_word_count": 13920,
-      "teaching_paragraphs": 141,
-      "teaching_sections": 22,
-      "scientific_svgs": 14,
-      "tables": 4,
-      "graphs_and_timing_plots": 7,
+      "genuine_teaching_words": 13758,
+      "teaching_paragraphs": 137,
+      "teaching_sections": 19,
+      "scientific_svgs": 12,
+      "graphs": 6,
+      "tables": 5,
       "total_questions": 52,
       "part_b": 20,
-      "part_c": 20,
-      "set": 12,
-      "answer_explanations": 52,
-      "misconceptions": 17,
+      "part_c": 24,
+      "mixed_set": 8,
+      "misconceptions": 18,
       "active_recall": 12,
-      "references_listed": 13,
-      "total_article_visible_word_estimate": 18758,
-      "table_word_estimate": 194
+      "references_listed": 20
     },
-    "word_count_method": "Final saved HTML reread; whitespace-delimited narrative tokens containing letters or numbers in p.teaching-prose, excluding assessments, standalone symbols, figures, tables, revision and references.",
-    "comparison": "Adjacent 7.B.01 saved HTML approximately 14231 whitespace teaching tokens before stricter filtering; 7.B.03 contains 13718 strict counted tokens, with substantial independent explanation, 141 distinct paragraphs and low table share.",
+    "word_count_method": "Saved HTML p.teaching-prose only; Unicode alphanumeric words with internal hyphen/apostrophe; excludes diagrams, tables, headings, questions, revision and references.",
+    "comparison": "7.B.01 checkpoint: 14,211 teaching words; 7.B.05 has 13,758 across 137 distinct substantive paragraphs with controlled experiments and quantitative examples.",
     "syllabus": {
-      "official": "January 2026 separate CSIR NET Life Sciences and revised merged CSIR–UGC–DBT syllabus, Unit 7.B",
-      "set": "MP SET 2024 Life Sciences syllabus scan p.5, official current host not authenticated",
+      "official": "CSIR-HRDG revised joint Life Sciences and Biotechnology syllabus January 2026, Unit 7.B p.8; December 2026 cycle.",
+      "set": "MPPSC SET 2024 Life Sciences syllabus scan, p.5; mirror verified, latest official-host version not independently authenticated.",
       "roadmap": "curriculum/subunit-7b-cardiovascular-system-node-map.md"
     },
     "coverage_matrix": [
       {
-        "scope": "Surface electrical potentials and historical evidence",
-        "sections": "1–3,15,22",
-        "evidence": "membrane vs extracellular, controlled recordings and instrument fidelity",
-        "depth": "NET/SET foundation through analytical reasoning",
+        "concept": "Pump, stroke volume, ejection fraction, cardiac output and conservation",
+        "sections": "1–2, 19",
+        "evidence": "Chamber volumes, effective forward flow, worked comparisons",
         "status": "covered"
       },
       {
-        "scope": "Dipole/vector projections",
-        "sections": "4,11,16",
-        "evidence": "cosine projection and inverse geometry, signed components",
-        "depth": "NET/SET foundation through analytical reasoning",
+        "concept": "Preload and afterload",
+        "sections": "3, 5, 7, 14, 18–19",
+        "evidence": "Compliance, transmural pressure, wall stress, controlled PV shifts",
         "status": "covered"
       },
       {
-        "scope": "Standard, augmented and precordial leads",
-        "sections": "5–6,16",
-        "evidence": "Einthoven identity, electrode reference and transformations",
-        "depth": "NET/SET foundation through analytical reasoning",
+        "concept": "Frank–Starling versus inotropy",
+        "sections": "4, 6, 12–14",
+        "evidence": "Heart–lung preparation, calcium-controlled force–length, adrenergic signaling, ESPVR",
         "status": "covered"
       },
       {
-        "scope": "Calibration, rate and rhythm",
-        "sections": "7,11,21",
-        "evidence": "time/gain, RR and irregular rates, resolution",
-        "depth": "NET/SET foundation through analytical reasoning",
+        "concept": "Venous return and coupled steady state",
+        "sections": "8–9, 15, 18",
+        "evidence": "Skeletal/respiratory pumps, stressed volume, curve slope/intercept and equilibrium",
         "status": "covered"
       },
       {
-        "scope": "P and PR, QRS, ST, T, QT",
-        "sections": "8–10,17–18,21",
-        "evidence": "activation/recovery, timing, rate corrections, regional recovery examples",
-        "depth": "NET/SET foundation through analytical reasoning",
+        "concept": "Fick oxygen mass balance",
+        "sections": "10, 16, 19",
+        "evidence": "Content units, weighted venous mixing, direct and estimated Fick, Doppler comparison",
         "status": "covered"
       },
       {
-        "scope": "Frontal axis",
-        "sections": "12,16",
-        "evidence": "quadrants, perpendicular lead and exact ideal model",
-        "depth": "NET/SET foundation through analytical reasoning",
-        "status": "covered"
-      },
-      {
-        "scope": "Sinus rate and AV conduction patterns",
-        "sections": "13",
-        "evidence": "one-to-one, intermittent, dissociated rhythms",
-        "depth": "NET/SET foundation through analytical reasoning",
-        "status": "covered"
-      },
-      {
-        "scope": "Electrical/mechanical connection, comparative and experimental interpretation",
-        "sections": "14–15,19–22",
-        "evidence": "pressure and electrical timing, species variation, artefacts and controlled datasets",
-        "depth": "NET/SET foundation through analytical reasoning",
+        "concept": "Cardiac reserve and rate limitation",
+        "sections": "11, 17–19",
+        "evidence": "Rate × SV comparisons, exercise, posture, perturbation and limiting assumptions",
         "status": "covered"
       }
     ],
     "review": {
-      "scientific": "Internal review of original prose, lead algebra, polarity and recovery models, timing and rate calculations, reference ranges and animal caveats, 52 question keys and examples. Corrected calibration grid and confirmed recovery-order examples, ideal aVF scaling, QT correction and phase distinctions. Indexed references checked; no clinical diagnosis/treatment claims.",
-      "editorial": "Separate review of chapter progression, reader structure, headings and anchors, graph question, responsive styling, misconception and recall coverage. Added full-cycle trace, calibrated graph, explicit multiple-statement item and research evidence. No duplicate teaching paragraphs or unfinished markers."
+      "scientific": "Internal review of mechanisms, controlled variables, oxygen content units, numerical solutions, sources and figure geometry; corrected schematic intersection markers, passive-plus-active force sums and plotted comparisons; references linked to relevant research.",
+      "editorial": "Separate internal review of foundation-to-advanced progression, reader shell, anchors, assessment wording, answer order, revision; no duplicate paragraphs or unfinished markers; all original question answers present."
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -135,53 +113,60 @@
     },
     "score": 95,
     "threshold": 95,
-    "score_basis": "Internal assessment only. Deductions for limited full-text reference verification (1), unrendered SVGs (1), uneven distractor detail/limited graph question diversity (1), no interactive browser accessibility test (1), no prepublication browser/mobile/Pages test (1). Depth, roadmap coverage, experimental reasoning and revision supported by saved prose and structural checks.",
+    "score_basis": "Internal assessment: 137 distinct narrative paragraphs, all roadmap scope mapped, source-backed mechanisms, original accessible diagrams, verified calculations, 52 explained questions and robust revision. Deductions: some research verified via abstracts rather than full text; SVGs not browser-rendered; some straightforward question distractors; inherited interactive reader/mobile behavior and live accessibility not tested.",
     "static_checks": {
       "html_tag_stack": "pass",
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
       "unresolved_anchors": 0,
       "unresolved_aria_references": 0,
+      "unresolved_svg_marker_references": 0,
+      "unresolved_zoom_targets": 0,
       "question_answer_option_matches": 52,
+      "answer_position_counts": {
+        "A": 13,
+        "B": 13,
+        "C": 13,
+        "D": 13
+      },
       "explanations_present": 52,
-      "svg_accessible_labels": 14,
-      "zoom_buttons": 14,
       "canonical": "pass",
       "unfinished_markers": 0,
-      "computed_numeric_checks": "Rate 75, axis 23.413°, magnitude 0.87178 mV, Bazett 0.45 s, Fridericia 0.41774 s; other examples manually recalculated.",
-      "menu_reconciliation": "324 prior linked nodes preserved; one added",
-      "sitemap_reconciliation": "325 prior URLs preserved; one added"
+      "menu_reconciliation": "325 prior linked nodes preserved; one added",
+      "sitemap_reconciliation": "326 prior URLs preserved; one added"
     },
     "limitations": [
-      "Two internal reviews, no independent external reviewer.",
-      "Current MP SET official host not authenticated; archived scan inspected.",
-      "Some references checked via indexed abstracts/metadata; no full text verification for every citation.",
-      "Browser rendering, keyboard interaction, responsive visual inspection and live Pages deployment not tested before production."
+      "Internal scientific/editorial review; not external peer review.",
+      "Some references checked using published abstracts/metadata; MP SET syllabus mirror, not latest official host.",
+      "Browser rendering, mobile testing, interactive reader and live accessibility not exercised; static inspection only.",
+      "GitHub Pages configuration endpoint unavailable; deployment and live checks separate."
     ],
     "navigation": {
-      "previous": "7.B.02",
-      "next": "7.B.04",
-      "mode": "runtime lookup in current published curriculum; unpublished links disabled"
+      "previous": "7.B.04",
+      "next": "7.B.06",
+      "previous_link": "disabled until published",
+      "next_link": "disabled until published",
+      "reciprocal": "Reader resolves published adjacent menu links dynamically."
     },
     "publication": {
-      "mode": "single atomic non-force conditional main ref update",
+      "mode": "single atomic conditional non-force main update",
       "changed_files": [
-        "electrocardiography-principles-and-physiological-significance.html",
+        "heart-as-a-pump-and-cardiac-output.html",
         "index.html",
         "sitemap.xml",
-        "curriculum/academy-progress.json",
-        "curriculum/qa/7-b-03-publication-qa.json",
         "curriculum/subunit-7b-cardiovascular-system-node-map.md",
-        "curriculum/unit-07-system-physiology-animal-subunit-map.md"
+        "curriculum/unit-07-system-physiology-animal-subunit-map.md",
+        "curriculum/academy-progress.json",
+        "curriculum/node-7b05-publication-qa.json"
       ]
     },
-    "production_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
-    "publication_base_sha": "e58de46e8a44a660c9f048f5204c3cfbeefdb25d",
     "checkpoint_reconciliation": {
-      "previous_total": 324,
-      "new_total": 325,
-      "unit_07_new": 10,
-      "subunit_7b_new": 2,
+      "previous_total": 325,
+      "new_total": 326,
+      "unit_07_previous": 10,
+      "unit_07_new": 11,
+      "subunit_7b_previous": 2,
+      "subunit_7b_new": 3,
       "existing_ids_preserved": true,
       "next": "7.B.02"
     }
@@ -511,7 +496,8 @@
     "7.A.07",
     "7.A.08",
     "7.B.01",
-    "7.B.03"
+    "7.B.03",
+    "7.B.05"
   ],
   "prior_publication_qa": {
     "node_id": "7.A.03",
@@ -663,97 +649,105 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "7.B.01",
-    "title": "Comparative Anatomy and Evolution of the Cardiovascular System",
-    "slug": "comparative-anatomy-and-evolution-of-the-cardiovascular-system.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/comparative-anatomy-and-evolution-of-the-cardiovascular-system.html",
+    "node_id": "7.B.03",
+    "title": "Electrocardiography: Principles and Physiological Significance",
+    "slug": "electrocardiography-principles-and-physiological-significance.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html",
     "unit": "07",
     "subunit": "7.B",
     "topic": "Cardiovascular System",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "source_draft_branch": "draft/7-b-01-comparative-cardiovascular",
-    "source_draft_commit_sha": "4ac1e57e83fdcfd0ec59b884522ed867b6414e4d",
-    "source_draft_blob_sha": "49e8d1561337391b9a63995ae7364f6ece5d8f44",
-    "production_blob_sha": "49e8d1561337391b9a63995ae7364f6ece5d8f44",
-    "publication_base_sha": "fb917ebd4064a7789ba0ec30f748cbbe9afc5cfc",
+    "source_draft_branch": "draft/7-b-03-ecg-academic-recovery",
+    "source_draft_commit_sha": "bacc6ebfa5661f8162e71c93652eff3e7c7a8c32",
+    "source_draft_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
     "metrics": {
-      "genuine_teaching_words": 14211,
-      "unicode_word_count": 14246,
-      "teaching_paragraphs": 145,
-      "teaching_sections": 20,
-      "scientific_svgs": 17,
-      "tables": 2,
-      "graphs": 1,
-      "total_questions": 50,
+      "genuine_teaching_words": 13718,
+      "unicode_word_count": 13920,
+      "teaching_paragraphs": 141,
+      "teaching_sections": 22,
+      "scientific_svgs": 14,
+      "tables": 4,
+      "graphs_and_timing_plots": 7,
+      "total_questions": 52,
       "part_b": 20,
       "part_c": 20,
-      "set": 10,
-      "misconceptions": 18,
-      "active_recall": 14,
-      "references_listed": 20
+      "set": 12,
+      "answer_explanations": 52,
+      "misconceptions": 17,
+      "active_recall": 12,
+      "references_listed": 13,
+      "total_article_visible_word_estimate": 18758,
+      "table_word_estimate": 194
     },
-    "word_count_method": "Whitespace-delimited p.teaching-prose narrative tokens containing letters or digits after stripping inline markup and entities. Excludes assessments, figures, tables, references, navigation and revision. Final committed draft reread.",
-    "comparison": "7.A.08 checkpoint reports 13268 words; 7.B.01 meets required 13000–15000 range with original substantive teaching.",
+    "word_count_method": "Final saved HTML reread; whitespace-delimited narrative tokens containing letters or numbers in p.teaching-prose, excluding assessments, standalone symbols, figures, tables, revision and references.",
+    "comparison": "Adjacent 7.B.01 saved HTML approximately 14231 whitespace teaching tokens before stricter filtering; 7.B.03 contains 13718 strict counted tokens, with substantial independent explanation, 141 distinct paragraphs and low table share.",
     "syllabus": {
-      "official": "CSIR-HRDG revised Life Sciences & Biotechnology, January 2026, Unit 7.B p.8; separate Life Sciences syllabus Unit 7.B",
-      "set": "MPPSC SET Life Sciences syllabus archived 2022 scan, p.5; current official version not independently authenticated",
+      "official": "January 2026 separate CSIR NET Life Sciences and revised merged CSIR–UGC–DBT syllabus, Unit 7.B",
+      "set": "MP SET 2024 Life Sciences syllabus scan p.5, official current host not authenticated",
       "roadmap": "curriculum/subunit-7b-cardiovascular-system-node-map.md"
     },
     "coverage_matrix": [
       {
-        "scope": "transport and historical evidence",
-        "sections": "1–2",
-        "evidence": "diffusion scaling, Harvey recirculation reasoning",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "Surface electrical potentials and historical evidence",
+        "sections": "1–3,15,22",
+        "evidence": "membrane vs extracellular, controlled recordings and instrument fidelity",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       },
       {
-        "scope": "open/closed and invertebrates",
-        "sections": "3–6",
-        "evidence": "tracer boundaries, insect, coleoid, annelid",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "Dipole/vector projections",
+        "sections": "4,11,16",
+        "evidence": "cosine projection and inverse geometry, signed components",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       },
       {
-        "scope": "vertebrate comparative anatomy",
-        "sections": "7–12",
-        "evidence": "fish, amphibian, reptile, crocodilian shunts, bird and mammal",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "Standard, augmented and precordial leads",
+        "sections": "5–6,16",
+        "evidence": "Einthoven identity, electrode reference and transformations",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       },
       {
-        "scope": "mammalian heart structure",
-        "sections": "13–15",
-        "evidence": "position, wall, atria, ventricles, septa",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "Calibration, rate and rhythm",
+        "sections": "7,11,21",
+        "evidence": "time/gain, RR and irregular rates, resolution",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       },
       {
-        "scope": "valves",
-        "sections": "16–17",
-        "evidence": "AV and semilunar supporting anatomy, pressure logic",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "P and PR, QRS, ST, T, QT",
+        "sections": "8–10,17–18,21",
+        "evidence": "activation/recovery, timing, rate corrections, regional recovery examples",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       },
       {
-        "scope": "coronary circulation",
-        "sections": "18",
-        "evidence": "arterial origin, perfusion, venous return",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "Frontal axis",
+        "sections": "12,16",
+        "evidence": "quadrants, perpendicular lead and exact ideal model",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       },
       {
-        "scope": "quantitative and evolutionary reasoning",
-        "sections": "19–20",
-        "evidence": "pressure, resistance, oxygen mixing, development, homology",
-        "depth": "foundational through analytical NET/SET",
+        "scope": "Sinus rate and AV conduction patterns",
+        "sections": "13",
+        "evidence": "one-to-one, intermittent, dissociated rhythms",
+        "depth": "NET/SET foundation through analytical reasoning",
+        "status": "covered"
+      },
+      {
+        "scope": "Electrical/mechanical connection, comparative and experimental interpretation",
+        "sections": "14–15,19–22",
+        "evidence": "pressure and electrical timing, species variation, artefacts and controlled datasets",
+        "depth": "NET/SET foundation through analytical reasoning",
         "status": "covered"
       }
     ],
     "review": {
-      "scientific": "Internal review against syllabus, textbook and comparative research; corrected teleost outflow nuance, reptilian pressure separation, and graph question; independently recalculated numerical question answers; labelled hypothetical values.",
-      "editorial": "Separate review of sequence, prose continuity, navigation, SVG labeling, original assessment and revision; improved diagram showing major mammalian chambers and valves and multiple-statement item. No duplicate prose or unfinished markers found."
+      "scientific": "Internal review of original prose, lead algebra, polarity and recovery models, timing and rate calculations, reference ranges and animal caveats, 52 question keys and examples. Corrected calibration grid and confirmed recovery-order examples, ideal aVF scaling, QT correction and phase distinctions. Indexed references checked; no clinical diagnosis/treatment claims.",
+      "editorial": "Separate review of chapter progression, reader structure, headings and anchors, graph question, responsive styling, misconception and recall coverage. Added full-cycle trace, calibrated graph, explicit multiple-statement item and research evidence. No duplicate teaching paragraphs or unfinished markers."
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -769,51 +763,53 @@
     },
     "score": 95,
     "threshold": 95,
-    "score_basis": "Internal evidence-based assessment: deductions for incomplete full-text source verification, no rendered SVG inspection, some straightforward distractors, untested browser controls and live/mobile rendering. All content-count and static integrity requirements met.",
+    "score_basis": "Internal assessment only. Deductions for limited full-text reference verification (1), unrendered SVGs (1), uneven distractor detail/limited graph question diversity (1), no interactive browser accessibility test (1), no prepublication browser/mobile/Pages test (1). Depth, roadmap coverage, experimental reasoning and revision supported by saved prose and structural checks.",
     "static_checks": {
       "html_tag_stack": "pass",
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
       "unresolved_anchors": 0,
       "unresolved_aria_references": 0,
-      "unresolved_svg_marker_references": 0,
-      "unresolved_zoom_targets": 0,
-      "question_answer_option_matches": 50,
-      "explanations_present": 50,
+      "question_answer_option_matches": 52,
+      "explanations_present": 52,
+      "svg_accessible_labels": 14,
+      "zoom_buttons": 14,
       "canonical": "pass",
       "unfinished_markers": 0,
-      "menu_reconciliation": "323 prior linked nodes preserved; one added",
-      "sitemap_reconciliation": "324 prior URLs preserved; one added"
+      "computed_numeric_checks": "Rate 75, axis 23.413°, magnitude 0.87178 mV, Bazett 0.45 s, Fridericia 0.41774 s; other examples manually recalculated.",
+      "menu_reconciliation": "324 prior linked nodes preserved; one added",
+      "sitemap_reconciliation": "325 prior URLs preserved; one added"
     },
     "limitations": [
-      "No independent external peer review; two internal passes.",
-      "Some research references verified via indexed abstracts/metadata rather than full text; current official MP SET version not authenticated.",
-      "Responsive rendering, interactive browser behaviour and live accessibility not exercised before publication; inherited reader architecture static inspection only.",
-      "Pages deployment and live content verification pending."
+      "Two internal reviews, no independent external reviewer.",
+      "Current MP SET official host not authenticated; archived scan inspected.",
+      "Some references checked via indexed abstracts/metadata; no full text verification for every citation.",
+      "Browser rendering, keyboard interaction, responsive visual inspection and live Pages deployment not tested before production."
     ],
     "navigation": {
-      "previous": "7.A.08",
-      "next": "7.B.02",
-      "next_link": "disabled until published",
-      "reciprocal": "existing previous chapter resolves current menu dynamically"
+      "previous": "7.B.02",
+      "next": "7.B.04",
+      "mode": "runtime lookup in current published curriculum; unpublished links disabled"
     },
     "publication": {
-      "mode": "single atomic non-force main ref update with expected SHA",
+      "mode": "single atomic non-force conditional main ref update",
       "changed_files": [
-        "comparative-anatomy-and-evolution-of-the-cardiovascular-system.html",
+        "electrocardiography-principles-and-physiological-significance.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
-        "curriculum/qa/7-b-01-publication-qa.json"
+        "curriculum/qa/7-b-03-publication-qa.json",
+        "curriculum/subunit-7b-cardiovascular-system-node-map.md",
+        "curriculum/unit-07-system-physiology-animal-subunit-map.md"
       ]
     },
+    "production_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
+    "publication_base_sha": "e58de46e8a44a660c9f048f5204c3cfbeefdb25d",
     "checkpoint_reconciliation": {
-      "previous_total": 323,
-      "new_total": 324,
-      "unit_07_previous": 8,
-      "unit_07_new": 9,
-      "subunit_7b_previous": 0,
-      "subunit_7b_new": 1,
+      "previous_total": 324,
+      "new_total": 325,
+      "unit_07_new": 10,
+      "subunit_7b_new": 2,
       "existing_ids_preserved": true,
       "next": "7.B.02"
     }
@@ -43830,6 +43826,157 @@
         "existing_ids_preserved": true,
         "next": "7.B.02"
       }
+    },
+    "7.B.05": {
+      "node_id": "7.B.05",
+      "title": "Heart as a Pump and Cardiac Output",
+      "slug": "heart-as-a-pump-and-cardiac-output.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html",
+      "unit": "07",
+      "subunit": "7.B",
+      "topic": "Cardiovascular System",
+      "date": "2026-11-27",
+      "status": "lesson_committed_pages_verification_pending",
+      "source_draft_branch": "develop/7b05-heart-pump-cardiac-output",
+      "source_draft_commit_sha": "5387fb5b1e8759de46f5541be2d6e3a5a13e5bc5",
+      "source_draft_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+      "production_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+      "publication_base_sha": "4451212cec71d163e227ba9618d22180bf8bbd8d",
+      "metrics": {
+        "genuine_teaching_words": 13758,
+        "teaching_paragraphs": 137,
+        "teaching_sections": 19,
+        "scientific_svgs": 12,
+        "graphs": 6,
+        "tables": 5,
+        "total_questions": 52,
+        "part_b": 20,
+        "part_c": 24,
+        "mixed_set": 8,
+        "misconceptions": 18,
+        "active_recall": 12,
+        "references_listed": 20
+      },
+      "word_count_method": "Saved HTML p.teaching-prose only; Unicode alphanumeric words with internal hyphen/apostrophe; excludes diagrams, tables, headings, questions, revision and references.",
+      "comparison": "7.B.01 checkpoint: 14,211 teaching words; 7.B.05 has 13,758 across 137 distinct substantive paragraphs with controlled experiments and quantitative examples.",
+      "syllabus": {
+        "official": "CSIR-HRDG revised joint Life Sciences and Biotechnology syllabus January 2026, Unit 7.B p.8; December 2026 cycle.",
+        "set": "MPPSC SET 2024 Life Sciences syllabus scan, p.5; mirror verified, latest official-host version not independently authenticated.",
+        "roadmap": "curriculum/subunit-7b-cardiovascular-system-node-map.md"
+      },
+      "coverage_matrix": [
+        {
+          "concept": "Pump, stroke volume, ejection fraction, cardiac output and conservation",
+          "sections": "1–2, 19",
+          "evidence": "Chamber volumes, effective forward flow, worked comparisons",
+          "status": "covered"
+        },
+        {
+          "concept": "Preload and afterload",
+          "sections": "3, 5, 7, 14, 18–19",
+          "evidence": "Compliance, transmural pressure, wall stress, controlled PV shifts",
+          "status": "covered"
+        },
+        {
+          "concept": "Frank–Starling versus inotropy",
+          "sections": "4, 6, 12–14",
+          "evidence": "Heart–lung preparation, calcium-controlled force–length, adrenergic signaling, ESPVR",
+          "status": "covered"
+        },
+        {
+          "concept": "Venous return and coupled steady state",
+          "sections": "8–9, 15, 18",
+          "evidence": "Skeletal/respiratory pumps, stressed volume, curve slope/intercept and equilibrium",
+          "status": "covered"
+        },
+        {
+          "concept": "Fick oxygen mass balance",
+          "sections": "10, 16, 19",
+          "evidence": "Content units, weighted venous mixing, direct and estimated Fick, Doppler comparison",
+          "status": "covered"
+        },
+        {
+          "concept": "Cardiac reserve and rate limitation",
+          "sections": "11, 17–19",
+          "evidence": "Rate × SV comparisons, exercise, posture, perturbation and limiting assumptions",
+          "status": "covered"
+        }
+      ],
+      "review": {
+        "scientific": "Internal review of mechanisms, controlled variables, oxygen content units, numerical solutions, sources and figure geometry; corrected schematic intersection markers, passive-plus-active force sums and plotted comparisons; references linked to relevant research.",
+        "editorial": "Separate internal review of foundation-to-advanced progression, reader shell, anchors, assessment wording, answer order, revision; no duplicate paragraphs or unfinished markers; all original question answers present."
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogical_quality": 10,
+        "scientific_illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_integrity_seo": 4
+      },
+      "score": 95,
+      "threshold": 95,
+      "score_basis": "Internal assessment: 137 distinct narrative paragraphs, all roadmap scope mapped, source-backed mechanisms, original accessible diagrams, verified calculations, 52 explained questions and robust revision. Deductions: some research verified via abstracts rather than full text; SVGs not browser-rendered; some straightforward question distractors; inherited interactive reader/mobile behavior and live accessibility not tested.",
+      "static_checks": {
+        "html_tag_stack": "pass",
+        "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_references": 0,
+        "unresolved_svg_marker_references": 0,
+        "unresolved_zoom_targets": 0,
+        "question_answer_option_matches": 52,
+        "answer_position_counts": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        },
+        "explanations_present": 52,
+        "canonical": "pass",
+        "unfinished_markers": 0,
+        "menu_reconciliation": "325 prior linked nodes preserved; one added",
+        "sitemap_reconciliation": "326 prior URLs preserved; one added"
+      },
+      "limitations": [
+        "Internal scientific/editorial review; not external peer review.",
+        "Some references checked using published abstracts/metadata; MP SET syllabus mirror, not latest official host.",
+        "Browser rendering, mobile testing, interactive reader and live accessibility not exercised; static inspection only.",
+        "GitHub Pages configuration endpoint unavailable; deployment and live checks separate."
+      ],
+      "navigation": {
+        "previous": "7.B.04",
+        "next": "7.B.06",
+        "previous_link": "disabled until published",
+        "next_link": "disabled until published",
+        "reciprocal": "Reader resolves published adjacent menu links dynamically."
+      },
+      "publication": {
+        "mode": "single atomic conditional non-force main update",
+        "changed_files": [
+          "heart-as-a-pump-and-cardiac-output.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/subunit-7b-cardiovascular-system-node-map.md",
+          "curriculum/unit-07-system-physiology-animal-subunit-map.md",
+          "curriculum/academy-progress.json",
+          "curriculum/node-7b05-publication-qa.json"
+        ]
+      },
+      "checkpoint_reconciliation": {
+        "previous_total": 325,
+        "new_total": 326,
+        "unit_07_previous": 10,
+        "unit_07_new": 11,
+        "subunit_7b_previous": 2,
+        "subunit_7b_new": 3,
+        "existing_ids_preserved": true,
+        "next": "7.B.02"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -61637,7 +61784,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -61709,113 +61856,92 @@
       "7.A.07",
       "7.A.08",
       "7.B.01",
-      "7.B.03"
+      "7.B.03",
+      "7.B.05"
     ],
-    "published_node_count": 10,
+    "published_node_count": 11,
     "planned_node_count": 90,
-    "last_published_node_id": "7.B.03",
+    "last_published_node_id": "7.B.05",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "7.B.03",
-      "title": "Electrocardiography: Principles and Physiological Significance",
-      "slug": "electrocardiography-principles-and-physiological-significance.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html",
+      "node_id": "7.B.05",
+      "title": "Heart as a Pump and Cardiac Output",
+      "slug": "heart-as-a-pump-and-cardiac-output.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html",
       "unit": "07",
       "subunit": "7.B",
       "topic": "Cardiovascular System",
       "date": "2026-11-27",
       "status": "lesson_committed_pages_verification_pending",
-      "source_draft_branch": "draft/7-b-03-ecg-academic-recovery",
-      "source_draft_commit_sha": "bacc6ebfa5661f8162e71c93652eff3e7c7a8c32",
-      "source_draft_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
+      "source_draft_branch": "develop/7b05-heart-pump-cardiac-output",
+      "source_draft_commit_sha": "5387fb5b1e8759de46f5541be2d6e3a5a13e5bc5",
+      "source_draft_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+      "production_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+      "publication_base_sha": "4451212cec71d163e227ba9618d22180bf8bbd8d",
       "metrics": {
-        "genuine_teaching_words": 13718,
-        "unicode_word_count": 13920,
-        "teaching_paragraphs": 141,
-        "teaching_sections": 22,
-        "scientific_svgs": 14,
-        "tables": 4,
-        "graphs_and_timing_plots": 7,
+        "genuine_teaching_words": 13758,
+        "teaching_paragraphs": 137,
+        "teaching_sections": 19,
+        "scientific_svgs": 12,
+        "graphs": 6,
+        "tables": 5,
         "total_questions": 52,
         "part_b": 20,
-        "part_c": 20,
-        "set": 12,
-        "answer_explanations": 52,
-        "misconceptions": 17,
+        "part_c": 24,
+        "mixed_set": 8,
+        "misconceptions": 18,
         "active_recall": 12,
-        "references_listed": 13,
-        "total_article_visible_word_estimate": 18758,
-        "table_word_estimate": 194
+        "references_listed": 20
       },
-      "word_count_method": "Final saved HTML reread; whitespace-delimited narrative tokens containing letters or numbers in p.teaching-prose, excluding assessments, standalone symbols, figures, tables, revision and references.",
-      "comparison": "Adjacent 7.B.01 saved HTML approximately 14231 whitespace teaching tokens before stricter filtering; 7.B.03 contains 13718 strict counted tokens, with substantial independent explanation, 141 distinct paragraphs and low table share.",
+      "word_count_method": "Saved HTML p.teaching-prose only; Unicode alphanumeric words with internal hyphen/apostrophe; excludes diagrams, tables, headings, questions, revision and references.",
+      "comparison": "7.B.01 checkpoint: 14,211 teaching words; 7.B.05 has 13,758 across 137 distinct substantive paragraphs with controlled experiments and quantitative examples.",
       "syllabus": {
-        "official": "January 2026 separate CSIR NET Life Sciences and revised merged CSIR–UGC–DBT syllabus, Unit 7.B",
-        "set": "MP SET 2024 Life Sciences syllabus scan p.5, official current host not authenticated",
+        "official": "CSIR-HRDG revised joint Life Sciences and Biotechnology syllabus January 2026, Unit 7.B p.8; December 2026 cycle.",
+        "set": "MPPSC SET 2024 Life Sciences syllabus scan, p.5; mirror verified, latest official-host version not independently authenticated.",
         "roadmap": "curriculum/subunit-7b-cardiovascular-system-node-map.md"
       },
       "coverage_matrix": [
         {
-          "scope": "Surface electrical potentials and historical evidence",
-          "sections": "1–3,15,22",
-          "evidence": "membrane vs extracellular, controlled recordings and instrument fidelity",
-          "depth": "NET/SET foundation through analytical reasoning",
+          "concept": "Pump, stroke volume, ejection fraction, cardiac output and conservation",
+          "sections": "1–2, 19",
+          "evidence": "Chamber volumes, effective forward flow, worked comparisons",
           "status": "covered"
         },
         {
-          "scope": "Dipole/vector projections",
-          "sections": "4,11,16",
-          "evidence": "cosine projection and inverse geometry, signed components",
-          "depth": "NET/SET foundation through analytical reasoning",
+          "concept": "Preload and afterload",
+          "sections": "3, 5, 7, 14, 18–19",
+          "evidence": "Compliance, transmural pressure, wall stress, controlled PV shifts",
           "status": "covered"
         },
         {
-          "scope": "Standard, augmented and precordial leads",
-          "sections": "5–6,16",
-          "evidence": "Einthoven identity, electrode reference and transformations",
-          "depth": "NET/SET foundation through analytical reasoning",
+          "concept": "Frank–Starling versus inotropy",
+          "sections": "4, 6, 12–14",
+          "evidence": "Heart–lung preparation, calcium-controlled force–length, adrenergic signaling, ESPVR",
           "status": "covered"
         },
         {
-          "scope": "Calibration, rate and rhythm",
-          "sections": "7,11,21",
-          "evidence": "time/gain, RR and irregular rates, resolution",
-          "depth": "NET/SET foundation through analytical reasoning",
+          "concept": "Venous return and coupled steady state",
+          "sections": "8–9, 15, 18",
+          "evidence": "Skeletal/respiratory pumps, stressed volume, curve slope/intercept and equilibrium",
           "status": "covered"
         },
         {
-          "scope": "P and PR, QRS, ST, T, QT",
-          "sections": "8–10,17–18,21",
-          "evidence": "activation/recovery, timing, rate corrections, regional recovery examples",
-          "depth": "NET/SET foundation through analytical reasoning",
+          "concept": "Fick oxygen mass balance",
+          "sections": "10, 16, 19",
+          "evidence": "Content units, weighted venous mixing, direct and estimated Fick, Doppler comparison",
           "status": "covered"
         },
         {
-          "scope": "Frontal axis",
-          "sections": "12,16",
-          "evidence": "quadrants, perpendicular lead and exact ideal model",
-          "depth": "NET/SET foundation through analytical reasoning",
-          "status": "covered"
-        },
-        {
-          "scope": "Sinus rate and AV conduction patterns",
-          "sections": "13",
-          "evidence": "one-to-one, intermittent, dissociated rhythms",
-          "depth": "NET/SET foundation through analytical reasoning",
-          "status": "covered"
-        },
-        {
-          "scope": "Electrical/mechanical connection, comparative and experimental interpretation",
-          "sections": "14–15,19–22",
-          "evidence": "pressure and electrical timing, species variation, artefacts and controlled datasets",
-          "depth": "NET/SET foundation through analytical reasoning",
+          "concept": "Cardiac reserve and rate limitation",
+          "sections": "11, 17–19",
+          "evidence": "Rate × SV comparisons, exercise, posture, perturbation and limiting assumptions",
           "status": "covered"
         }
       ],
       "review": {
-        "scientific": "Internal review of original prose, lead algebra, polarity and recovery models, timing and rate calculations, reference ranges and animal caveats, 52 question keys and examples. Corrected calibration grid and confirmed recovery-order examples, ideal aVF scaling, QT correction and phase distinctions. Indexed references checked; no clinical diagnosis/treatment claims.",
-        "editorial": "Separate review of chapter progression, reader structure, headings and anchors, graph question, responsive styling, misconception and recall coverage. Added full-cycle trace, calibrated graph, explicit multiple-statement item and research evidence. No duplicate teaching paragraphs or unfinished markers."
+        "scientific": "Internal review of mechanisms, controlled variables, oxygen content units, numerical solutions, sources and figure geometry; corrected schematic intersection markers, passive-plus-active force sums and plotted comparisons; references linked to relevant research.",
+        "editorial": "Separate internal review of foundation-to-advanced progression, reader shell, anchors, assessment wording, answer order, revision; no duplicate paragraphs or unfinished markers; all original question answers present."
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -61831,53 +61957,60 @@
       },
       "score": 95,
       "threshold": 95,
-      "score_basis": "Internal assessment only. Deductions for limited full-text reference verification (1), unrendered SVGs (1), uneven distractor detail/limited graph question diversity (1), no interactive browser accessibility test (1), no prepublication browser/mobile/Pages test (1). Depth, roadmap coverage, experimental reasoning and revision supported by saved prose and structural checks.",
+      "score_basis": "Internal assessment: 137 distinct narrative paragraphs, all roadmap scope mapped, source-backed mechanisms, original accessible diagrams, verified calculations, 52 explained questions and robust revision. Deductions: some research verified via abstracts rather than full text; SVGs not browser-rendered; some straightforward question distractors; inherited interactive reader/mobile behavior and live accessibility not tested.",
       "static_checks": {
         "html_tag_stack": "pass",
         "duplicate_ids": 0,
         "duplicate_teaching_paragraphs": 0,
         "unresolved_anchors": 0,
         "unresolved_aria_references": 0,
+        "unresolved_svg_marker_references": 0,
+        "unresolved_zoom_targets": 0,
         "question_answer_option_matches": 52,
+        "answer_position_counts": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        },
         "explanations_present": 52,
-        "svg_accessible_labels": 14,
-        "zoom_buttons": 14,
         "canonical": "pass",
         "unfinished_markers": 0,
-        "computed_numeric_checks": "Rate 75, axis 23.413°, magnitude 0.87178 mV, Bazett 0.45 s, Fridericia 0.41774 s; other examples manually recalculated.",
-        "menu_reconciliation": "324 prior linked nodes preserved; one added",
-        "sitemap_reconciliation": "325 prior URLs preserved; one added"
+        "menu_reconciliation": "325 prior linked nodes preserved; one added",
+        "sitemap_reconciliation": "326 prior URLs preserved; one added"
       },
       "limitations": [
-        "Two internal reviews, no independent external reviewer.",
-        "Current MP SET official host not authenticated; archived scan inspected.",
-        "Some references checked via indexed abstracts/metadata; no full text verification for every citation.",
-        "Browser rendering, keyboard interaction, responsive visual inspection and live Pages deployment not tested before production."
+        "Internal scientific/editorial review; not external peer review.",
+        "Some references checked using published abstracts/metadata; MP SET syllabus mirror, not latest official host.",
+        "Browser rendering, mobile testing, interactive reader and live accessibility not exercised; static inspection only.",
+        "GitHub Pages configuration endpoint unavailable; deployment and live checks separate."
       ],
       "navigation": {
-        "previous": "7.B.02",
-        "next": "7.B.04",
-        "mode": "runtime lookup in current published curriculum; unpublished links disabled"
+        "previous": "7.B.04",
+        "next": "7.B.06",
+        "previous_link": "disabled until published",
+        "next_link": "disabled until published",
+        "reciprocal": "Reader resolves published adjacent menu links dynamically."
       },
       "publication": {
-        "mode": "single atomic non-force conditional main ref update",
+        "mode": "single atomic conditional non-force main update",
         "changed_files": [
-          "electrocardiography-principles-and-physiological-significance.html",
+          "heart-as-a-pump-and-cardiac-output.html",
           "index.html",
           "sitemap.xml",
-          "curriculum/academy-progress.json",
-          "curriculum/qa/7-b-03-publication-qa.json",
           "curriculum/subunit-7b-cardiovascular-system-node-map.md",
-          "curriculum/unit-07-system-physiology-animal-subunit-map.md"
+          "curriculum/unit-07-system-physiology-animal-subunit-map.md",
+          "curriculum/academy-progress.json",
+          "curriculum/node-7b05-publication-qa.json"
         ]
       },
-      "production_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
-      "publication_base_sha": "e58de46e8a44a660c9f048f5204c3cfbeefdb25d",
       "checkpoint_reconciliation": {
-        "previous_total": 324,
-        "new_total": 325,
-        "unit_07_new": 10,
-        "subunit_7b_new": 2,
+        "previous_total": 325,
+        "new_total": 326,
+        "unit_07_previous": 10,
+        "unit_07_new": 11,
+        "subunit_7b_previous": 2,
+        "subunit_7b_new": 3,
         "existing_ids_preserved": true,
         "next": "7.B.02"
       }
@@ -63358,6 +63491,157 @@
           "existing_ids_preserved": true,
           "next": "7.B.02"
         }
+      },
+      "7.B.05": {
+        "node_id": "7.B.05",
+        "title": "Heart as a Pump and Cardiac Output",
+        "slug": "heart-as-a-pump-and-cardiac-output.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html",
+        "unit": "07",
+        "subunit": "7.B",
+        "topic": "Cardiovascular System",
+        "date": "2026-11-27",
+        "status": "lesson_committed_pages_verification_pending",
+        "source_draft_branch": "develop/7b05-heart-pump-cardiac-output",
+        "source_draft_commit_sha": "5387fb5b1e8759de46f5541be2d6e3a5a13e5bc5",
+        "source_draft_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+        "production_blob_sha": "44ed3c6721de137895e80e7466bc0b3dbbe63bca",
+        "publication_base_sha": "4451212cec71d163e227ba9618d22180bf8bbd8d",
+        "metrics": {
+          "genuine_teaching_words": 13758,
+          "teaching_paragraphs": 137,
+          "teaching_sections": 19,
+          "scientific_svgs": 12,
+          "graphs": 6,
+          "tables": 5,
+          "total_questions": 52,
+          "part_b": 20,
+          "part_c": 24,
+          "mixed_set": 8,
+          "misconceptions": 18,
+          "active_recall": 12,
+          "references_listed": 20
+        },
+        "word_count_method": "Saved HTML p.teaching-prose only; Unicode alphanumeric words with internal hyphen/apostrophe; excludes diagrams, tables, headings, questions, revision and references.",
+        "comparison": "7.B.01 checkpoint: 14,211 teaching words; 7.B.05 has 13,758 across 137 distinct substantive paragraphs with controlled experiments and quantitative examples.",
+        "syllabus": {
+          "official": "CSIR-HRDG revised joint Life Sciences and Biotechnology syllabus January 2026, Unit 7.B p.8; December 2026 cycle.",
+          "set": "MPPSC SET 2024 Life Sciences syllabus scan, p.5; mirror verified, latest official-host version not independently authenticated.",
+          "roadmap": "curriculum/subunit-7b-cardiovascular-system-node-map.md"
+        },
+        "coverage_matrix": [
+          {
+            "concept": "Pump, stroke volume, ejection fraction, cardiac output and conservation",
+            "sections": "1–2, 19",
+            "evidence": "Chamber volumes, effective forward flow, worked comparisons",
+            "status": "covered"
+          },
+          {
+            "concept": "Preload and afterload",
+            "sections": "3, 5, 7, 14, 18–19",
+            "evidence": "Compliance, transmural pressure, wall stress, controlled PV shifts",
+            "status": "covered"
+          },
+          {
+            "concept": "Frank–Starling versus inotropy",
+            "sections": "4, 6, 12–14",
+            "evidence": "Heart–lung preparation, calcium-controlled force–length, adrenergic signaling, ESPVR",
+            "status": "covered"
+          },
+          {
+            "concept": "Venous return and coupled steady state",
+            "sections": "8–9, 15, 18",
+            "evidence": "Skeletal/respiratory pumps, stressed volume, curve slope/intercept and equilibrium",
+            "status": "covered"
+          },
+          {
+            "concept": "Fick oxygen mass balance",
+            "sections": "10, 16, 19",
+            "evidence": "Content units, weighted venous mixing, direct and estimated Fick, Doppler comparison",
+            "status": "covered"
+          },
+          {
+            "concept": "Cardiac reserve and rate limitation",
+            "sections": "11, 17–19",
+            "evidence": "Rate × SV comparisons, exercise, posture, perturbation and limiting assumptions",
+            "status": "covered"
+          }
+        ],
+        "review": {
+          "scientific": "Internal review of mechanisms, controlled variables, oxygen content units, numerical solutions, sources and figure geometry; corrected schematic intersection markers, passive-plus-active force sums and plotted comparisons; references linked to relevant research.",
+          "editorial": "Separate internal review of foundation-to-advanced progression, reader shell, anchors, assessment wording, answer order, revision; no duplicate paragraphs or unfinished markers; all original question answers present."
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogical_quality": 10,
+          "scientific_illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_accessibility": 4,
+          "technical_integrity_seo": 4
+        },
+        "score": 95,
+        "threshold": 95,
+        "score_basis": "Internal assessment: 137 distinct narrative paragraphs, all roadmap scope mapped, source-backed mechanisms, original accessible diagrams, verified calculations, 52 explained questions and robust revision. Deductions: some research verified via abstracts rather than full text; SVGs not browser-rendered; some straightforward question distractors; inherited interactive reader/mobile behavior and live accessibility not tested.",
+        "static_checks": {
+          "html_tag_stack": "pass",
+          "duplicate_ids": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria_references": 0,
+          "unresolved_svg_marker_references": 0,
+          "unresolved_zoom_targets": 0,
+          "question_answer_option_matches": 52,
+          "answer_position_counts": {
+            "A": 13,
+            "B": 13,
+            "C": 13,
+            "D": 13
+          },
+          "explanations_present": 52,
+          "canonical": "pass",
+          "unfinished_markers": 0,
+          "menu_reconciliation": "325 prior linked nodes preserved; one added",
+          "sitemap_reconciliation": "326 prior URLs preserved; one added"
+        },
+        "limitations": [
+          "Internal scientific/editorial review; not external peer review.",
+          "Some references checked using published abstracts/metadata; MP SET syllabus mirror, not latest official host.",
+          "Browser rendering, mobile testing, interactive reader and live accessibility not exercised; static inspection only.",
+          "GitHub Pages configuration endpoint unavailable; deployment and live checks separate."
+        ],
+        "navigation": {
+          "previous": "7.B.04",
+          "next": "7.B.06",
+          "previous_link": "disabled until published",
+          "next_link": "disabled until published",
+          "reciprocal": "Reader resolves published adjacent menu links dynamically."
+        },
+        "publication": {
+          "mode": "single atomic conditional non-force main update",
+          "changed_files": [
+            "heart-as-a-pump-and-cardiac-output.html",
+            "index.html",
+            "sitemap.xml",
+            "curriculum/subunit-7b-cardiovascular-system-node-map.md",
+            "curriculum/unit-07-system-physiology-animal-subunit-map.md",
+            "curriculum/academy-progress.json",
+            "curriculum/node-7b05-publication-qa.json"
+          ]
+        },
+        "checkpoint_reconciliation": {
+          "previous_total": 325,
+          "new_total": 326,
+          "unit_07_previous": 10,
+          "unit_07_new": 11,
+          "subunit_7b_previous": 2,
+          "subunit_7b_new": 3,
+          "existing_ids_preserved": true,
+          "next": "7.B.02"
+        }
       }
     },
     "next_pending_node_id": "7.B.02",
@@ -63379,97 +63663,105 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.B.01",
-      "title": "Comparative Anatomy and Evolution of the Cardiovascular System",
-      "slug": "comparative-anatomy-and-evolution-of-the-cardiovascular-system.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/comparative-anatomy-and-evolution-of-the-cardiovascular-system.html",
+      "node_id": "7.B.03",
+      "title": "Electrocardiography: Principles and Physiological Significance",
+      "slug": "electrocardiography-principles-and-physiological-significance.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html",
       "unit": "07",
       "subunit": "7.B",
       "topic": "Cardiovascular System",
       "date": "2026-11-27",
       "status": "lesson_committed_pages_verification_pending",
-      "source_draft_branch": "draft/7-b-01-comparative-cardiovascular",
-      "source_draft_commit_sha": "4ac1e57e83fdcfd0ec59b884522ed867b6414e4d",
-      "source_draft_blob_sha": "49e8d1561337391b9a63995ae7364f6ece5d8f44",
-      "production_blob_sha": "49e8d1561337391b9a63995ae7364f6ece5d8f44",
-      "publication_base_sha": "fb917ebd4064a7789ba0ec30f748cbbe9afc5cfc",
+      "source_draft_branch": "draft/7-b-03-ecg-academic-recovery",
+      "source_draft_commit_sha": "bacc6ebfa5661f8162e71c93652eff3e7c7a8c32",
+      "source_draft_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
       "metrics": {
-        "genuine_teaching_words": 14211,
-        "unicode_word_count": 14246,
-        "teaching_paragraphs": 145,
-        "teaching_sections": 20,
-        "scientific_svgs": 17,
-        "tables": 2,
-        "graphs": 1,
-        "total_questions": 50,
+        "genuine_teaching_words": 13718,
+        "unicode_word_count": 13920,
+        "teaching_paragraphs": 141,
+        "teaching_sections": 22,
+        "scientific_svgs": 14,
+        "tables": 4,
+        "graphs_and_timing_plots": 7,
+        "total_questions": 52,
         "part_b": 20,
         "part_c": 20,
-        "set": 10,
-        "misconceptions": 18,
-        "active_recall": 14,
-        "references_listed": 20
+        "set": 12,
+        "answer_explanations": 52,
+        "misconceptions": 17,
+        "active_recall": 12,
+        "references_listed": 13,
+        "total_article_visible_word_estimate": 18758,
+        "table_word_estimate": 194
       },
-      "word_count_method": "Whitespace-delimited p.teaching-prose narrative tokens containing letters or digits after stripping inline markup and entities. Excludes assessments, figures, tables, references, navigation and revision. Final committed draft reread.",
-      "comparison": "7.A.08 checkpoint reports 13268 words; 7.B.01 meets required 13000–15000 range with original substantive teaching.",
+      "word_count_method": "Final saved HTML reread; whitespace-delimited narrative tokens containing letters or numbers in p.teaching-prose, excluding assessments, standalone symbols, figures, tables, revision and references.",
+      "comparison": "Adjacent 7.B.01 saved HTML approximately 14231 whitespace teaching tokens before stricter filtering; 7.B.03 contains 13718 strict counted tokens, with substantial independent explanation, 141 distinct paragraphs and low table share.",
       "syllabus": {
-        "official": "CSIR-HRDG revised Life Sciences & Biotechnology, January 2026, Unit 7.B p.8; separate Life Sciences syllabus Unit 7.B",
-        "set": "MPPSC SET Life Sciences syllabus archived 2022 scan, p.5; current official version not independently authenticated",
+        "official": "January 2026 separate CSIR NET Life Sciences and revised merged CSIR–UGC–DBT syllabus, Unit 7.B",
+        "set": "MP SET 2024 Life Sciences syllabus scan p.5, official current host not authenticated",
         "roadmap": "curriculum/subunit-7b-cardiovascular-system-node-map.md"
       },
       "coverage_matrix": [
         {
-          "scope": "transport and historical evidence",
-          "sections": "1–2",
-          "evidence": "diffusion scaling, Harvey recirculation reasoning",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "Surface electrical potentials and historical evidence",
+          "sections": "1–3,15,22",
+          "evidence": "membrane vs extracellular, controlled recordings and instrument fidelity",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         },
         {
-          "scope": "open/closed and invertebrates",
-          "sections": "3–6",
-          "evidence": "tracer boundaries, insect, coleoid, annelid",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "Dipole/vector projections",
+          "sections": "4,11,16",
+          "evidence": "cosine projection and inverse geometry, signed components",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         },
         {
-          "scope": "vertebrate comparative anatomy",
-          "sections": "7–12",
-          "evidence": "fish, amphibian, reptile, crocodilian shunts, bird and mammal",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "Standard, augmented and precordial leads",
+          "sections": "5–6,16",
+          "evidence": "Einthoven identity, electrode reference and transformations",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         },
         {
-          "scope": "mammalian heart structure",
-          "sections": "13–15",
-          "evidence": "position, wall, atria, ventricles, septa",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "Calibration, rate and rhythm",
+          "sections": "7,11,21",
+          "evidence": "time/gain, RR and irregular rates, resolution",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         },
         {
-          "scope": "valves",
-          "sections": "16–17",
-          "evidence": "AV and semilunar supporting anatomy, pressure logic",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "P and PR, QRS, ST, T, QT",
+          "sections": "8–10,17–18,21",
+          "evidence": "activation/recovery, timing, rate corrections, regional recovery examples",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         },
         {
-          "scope": "coronary circulation",
-          "sections": "18",
-          "evidence": "arterial origin, perfusion, venous return",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "Frontal axis",
+          "sections": "12,16",
+          "evidence": "quadrants, perpendicular lead and exact ideal model",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         },
         {
-          "scope": "quantitative and evolutionary reasoning",
-          "sections": "19–20",
-          "evidence": "pressure, resistance, oxygen mixing, development, homology",
-          "depth": "foundational through analytical NET/SET",
+          "scope": "Sinus rate and AV conduction patterns",
+          "sections": "13",
+          "evidence": "one-to-one, intermittent, dissociated rhythms",
+          "depth": "NET/SET foundation through analytical reasoning",
+          "status": "covered"
+        },
+        {
+          "scope": "Electrical/mechanical connection, comparative and experimental interpretation",
+          "sections": "14–15,19–22",
+          "evidence": "pressure and electrical timing, species variation, artefacts and controlled datasets",
+          "depth": "NET/SET foundation through analytical reasoning",
           "status": "covered"
         }
       ],
       "review": {
-        "scientific": "Internal review against syllabus, textbook and comparative research; corrected teleost outflow nuance, reptilian pressure separation, and graph question; independently recalculated numerical question answers; labelled hypothetical values.",
-        "editorial": "Separate review of sequence, prose continuity, navigation, SVG labeling, original assessment and revision; improved diagram showing major mammalian chambers and valves and multiple-statement item. No duplicate prose or unfinished markers found."
+        "scientific": "Internal review of original prose, lead algebra, polarity and recovery models, timing and rate calculations, reference ranges and animal caveats, 52 question keys and examples. Corrected calibration grid and confirmed recovery-order examples, ideal aVF scaling, QT correction and phase distinctions. Indexed references checked; no clinical diagnosis/treatment claims.",
+        "editorial": "Separate review of chapter progression, reader structure, headings and anchors, graph question, responsive styling, misconception and recall coverage. Added full-cycle trace, calibrated graph, explicit multiple-statement item and research evidence. No duplicate teaching paragraphs or unfinished markers."
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -63485,51 +63777,53 @@
       },
       "score": 95,
       "threshold": 95,
-      "score_basis": "Internal evidence-based assessment: deductions for incomplete full-text source verification, no rendered SVG inspection, some straightforward distractors, untested browser controls and live/mobile rendering. All content-count and static integrity requirements met.",
+      "score_basis": "Internal assessment only. Deductions for limited full-text reference verification (1), unrendered SVGs (1), uneven distractor detail/limited graph question diversity (1), no interactive browser accessibility test (1), no prepublication browser/mobile/Pages test (1). Depth, roadmap coverage, experimental reasoning and revision supported by saved prose and structural checks.",
       "static_checks": {
         "html_tag_stack": "pass",
         "duplicate_ids": 0,
         "duplicate_teaching_paragraphs": 0,
         "unresolved_anchors": 0,
         "unresolved_aria_references": 0,
-        "unresolved_svg_marker_references": 0,
-        "unresolved_zoom_targets": 0,
-        "question_answer_option_matches": 50,
-        "explanations_present": 50,
+        "question_answer_option_matches": 52,
+        "explanations_present": 52,
+        "svg_accessible_labels": 14,
+        "zoom_buttons": 14,
         "canonical": "pass",
         "unfinished_markers": 0,
-        "menu_reconciliation": "323 prior linked nodes preserved; one added",
-        "sitemap_reconciliation": "324 prior URLs preserved; one added"
+        "computed_numeric_checks": "Rate 75, axis 23.413°, magnitude 0.87178 mV, Bazett 0.45 s, Fridericia 0.41774 s; other examples manually recalculated.",
+        "menu_reconciliation": "324 prior linked nodes preserved; one added",
+        "sitemap_reconciliation": "325 prior URLs preserved; one added"
       },
       "limitations": [
-        "No independent external peer review; two internal passes.",
-        "Some research references verified via indexed abstracts/metadata rather than full text; current official MP SET version not authenticated.",
-        "Responsive rendering, interactive browser behaviour and live accessibility not exercised before publication; inherited reader architecture static inspection only.",
-        "Pages deployment and live content verification pending."
+        "Two internal reviews, no independent external reviewer.",
+        "Current MP SET official host not authenticated; archived scan inspected.",
+        "Some references checked via indexed abstracts/metadata; no full text verification for every citation.",
+        "Browser rendering, keyboard interaction, responsive visual inspection and live Pages deployment not tested before production."
       ],
       "navigation": {
-        "previous": "7.A.08",
-        "next": "7.B.02",
-        "next_link": "disabled until published",
-        "reciprocal": "existing previous chapter resolves current menu dynamically"
+        "previous": "7.B.02",
+        "next": "7.B.04",
+        "mode": "runtime lookup in current published curriculum; unpublished links disabled"
       },
       "publication": {
-        "mode": "single atomic non-force main ref update with expected SHA",
+        "mode": "single atomic non-force conditional main ref update",
         "changed_files": [
-          "comparative-anatomy-and-evolution-of-the-cardiovascular-system.html",
+          "electrocardiography-principles-and-physiological-significance.html",
           "index.html",
           "sitemap.xml",
           "curriculum/academy-progress.json",
-          "curriculum/qa/7-b-01-publication-qa.json"
+          "curriculum/qa/7-b-03-publication-qa.json",
+          "curriculum/subunit-7b-cardiovascular-system-node-map.md",
+          "curriculum/unit-07-system-physiology-animal-subunit-map.md"
         ]
       },
+      "production_blob_sha": "5d7fe910f43b2a0ec07f099c22407b13f403651a",
+      "publication_base_sha": "e58de46e8a44a660c9f048f5204c3cfbeefdb25d",
       "checkpoint_reconciliation": {
-        "previous_total": 323,
-        "new_total": 324,
-        "unit_07_previous": 8,
-        "unit_07_new": 9,
-        "subunit_7b_previous": 0,
-        "subunit_7b_new": 1,
+        "previous_total": 324,
+        "new_total": 325,
+        "unit_07_new": 10,
+        "subunit_7b_new": 2,
         "existing_ids_preserved": true,
         "next": "7.B.02"
       }
@@ -63537,16 +63831,18 @@
     "subunit_7b": {
       "published_node_ids": [
         "7.B.01",
-        "7.B.03"
+        "7.B.03",
+        "7.B.05"
       ],
-      "published_node_count": 2,
+      "published_node_count": 3,
       "planned_node_count": 8,
       "complete": false
     }
   },
   "unit7b_published_node_ids": [
     "7.B.01",
-    "7.B.03"
+    "7.B.03",
+    "7.B.05"
   ],
   "unit7b_planned_node_count": 8
 }

@@ -1,0 +1,128 @@
+{
+  "node_id": "6.D.08",
+  "title": "Ethylene: Gaseous Signaling, Ripening and Senescence",
+  "date": "2026-11-27",
+  "status": "COMMITTED TO WORKING BRANCH",
+  "publication_allowed": false,
+  "source_draft_branch": "draft/6-d-08-ethylene-20261127",
+  "source_draft_commit_sha": "39ef41d95c89b8a783f2e9b3d9162abdb30187ab",
+  "chapter_blob_sha": "7df2c7002b8c2480b91a1eaa1a8f891510f68f79",
+  "slug": "ethylene-gaseous-signaling-ripening-and-senescence.html",
+  "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+  "latest_observed_main": "a90351a7ebe6c2a049678f5b912ffc06bfa3e149",
+  "metrics": {
+    "teaching_words": 13718,
+    "teaching_paragraphs": 139,
+    "teaching_sections": 18,
+    "svgs": 11,
+    "graphs": 2,
+    "tables": 5,
+    "questions": 50,
+    "part_b": 20,
+    "part_c": 20,
+    "other": 10,
+    "answer_explanations": 50,
+    "misconceptions": 20,
+    "active_recall": 14,
+    "bibliography_entries": 21
+  },
+  "word_count_method": "Whitespace tokens in p.teaching-prose only; excludes headings, practice, revision, diagrams, references and UI.",
+  "rubric": {
+    "scientific_accuracy": {
+      "score": 19,
+      "max": 20,
+      "evidence": "Reviewed canonical negative-regulator logic, biosynthesis and tissue response boundaries against sources; not every claim independently cross-checked."
+    },
+    "coverage": {
+      "score": 15,
+      "max": 15,
+      "evidence": "Mapped all required roadmap themes and evidence to 18 sections."
+    },
+    "teaching_depth": {
+      "score": 15,
+      "max": 15,
+      "evidence": "13718 genuine teaching words, 139 distinct teaching paragraphs."
+    },
+    "pedagogy": {
+      "score": 9,
+      "max": 10,
+      "evidence": "Reordered foundations before applications and expanded diagnostic misconceptions; some compact explanations remain."
+    },
+    "illustrations": {
+      "score": 9,
+      "max": 10,
+      "evidence": "11 original semantic SVGs, including two graphs; corrected biosynthesis branch and receptor signs; visual rendering not tested."
+    },
+    "examination": {
+      "score": 9,
+      "max": 10,
+      "evidence": "50 questions, all with four options and explanation; numerical and causal keys reviewed, six analytical distractor sets strengthened; some items remain less challenging."
+    },
+    "experimental_reasoning": {
+      "score": 5,
+      "max": 5,
+      "evidence": "Mutant epistasis, labeled ACC, chamber mass balance, dose and time-course controls, explicit interaction nulls."
+    },
+    "revision": {
+      "score": 5,
+      "max": 5,
+      "evidence": "Summary, comparison table, equations, 14 active-recall prompts and mastery checklist."
+    },
+    "reader_architecture": {
+      "score": 4,
+      "max": 5,
+      "evidence": "Existing reader shell, labeled controls, zoom targets, dynamic neighbor navigation; device and keyboard interactions not executed."
+    },
+    "technical": {
+      "score": 4,
+      "max": 5,
+      "evidence": "Static ID, anchor, canonical, JavaScript syntax, closure and placeholder checks passed; end-to-end DOM and external link reachability not fully verified."
+    }
+  },
+  "score": 94,
+  "threshold": 95,
+  "coverage_matrix": {
+    "gas": "gas, history, homeostasis",
+    "biosynthesis": "biosynthesis, flux",
+    "salvage": "biosynthesis, homeostasis",
+    "conjugation_transport": "homeostasis, stress",
+    "receptor_signaling": "receptors, evidence",
+    "feedback_and_regulation": "flux, receptors, ripening",
+    "triple_response": "genetics, dose",
+    "fruit": "ripening, fruit",
+    "senescence_abscission": "senescence, aging",
+    "flooding": "stress, adaptation",
+    "auxin_JA": "crosstalk",
+    "experiments": "genetics, evidence, dose, design"
+  },
+  "scientific_review": "Internal pass performed and corrections made; not external peer review.",
+  "editorial_review": "Internal pass performed; learning sequence, diagram semantics, misconceptions, and question distractors improved.",
+  "static_audit": {
+    "duplicate_paragraphs": 0,
+    "duplicate_ids": 0,
+    "unresolved_anchors": 0,
+    "broken_zoom_targets": 0,
+    "broken_aria_label_references": 0,
+    "heading_level_jumps": 0,
+    "placeholder_markers": 0,
+    "js_syntax": "pass",
+    "html_closing_tag": "present",
+    "answered_questions": 50
+  },
+  "not_performed": [
+    "Full browser rendering on mobile and desktop",
+    "Interactive reader and keyboard smoke test",
+    "Complete reference URL reachability test",
+    "Production integration and deployment tests"
+  ],
+  "blockers": [
+    "Strict 95 threshold not certified: conservative internal review 94/100",
+    "Public site verification inaccessible via web; local network DNS to raw.githubusercontent.com failed, so draft cannot be loaded in local browser"
+  ],
+  "production": "No changes to main; target absent at observed main, menu and sitemap unlinked. Concurrent nodes preserved. Draft noindex,nofollow.",
+  "next_pending_observed": {
+    "id": "6.B.04",
+    "title": "Alternative Oxidase and Alternative Respiratory Pathways"
+  },
+  "required_next_action": "Finish rendering/accessibility/reference and examination quality review, recalculate quality; only if at least 95 and required gates pass, reconcile latest main, integrate atomically, verify deployment/live."
+}

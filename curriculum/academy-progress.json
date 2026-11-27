@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.H.03",
-  "title": "Oxidative Stress and Cellular Protection",
+  "node_id": "6.H.06",
+  "title": "Heat, Chilling and Freezing Stress",
   "subunit": "6.H",
   "topic": "Stress Physiology",
-  "slug": "oxidative-stress-and-cellular-protection.html",
+  "slug": "heat-chilling-and-freezing-stress.html",
   "next_pending_node_id": "6.H.02",
   "next_pending_node_title": "Stress Perception and Molecular Signaling",
-  "published_node_count": 307,
+  "published_node_count": 308,
   "publication_allowed": true,
-  "main_baseline_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
+  "main_baseline_sha": "05e7468d041a460b73f138a0065dbc9b21c4bc8e",
   "quality_hold": false,
   "next_required_action": "Verify GitHub Pages and live chapter.",
   "planned_node_count": 66,
@@ -21,162 +21,193 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.H.03",
-    "title": "Oxidative Stress and Cellular Protection",
-    "slug": "oxidative-stress-and-cellular-protection.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
+    "node_id": "6.H.06",
+    "title": "Heat, Chilling and Freezing Stress",
+    "slug": "heat-chilling-and-freezing-stress.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
     "unit": "06",
     "subunit": "6.H",
     "topic": "Stress Physiology",
     "date": "2026-11-27",
-    "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "draft/6-h-03-oxidative-stress",
-    "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
-    "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
-    "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
-    "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
+    "status": "lesson_committed_pages_verification_pending",
+    "source_draft_branch": "draft/node-6h06-thermal-stress-v10",
+    "source_draft_commit_sha": "2652a8aa1fd833a305ae02306f16bb2a136fbf3e",
+    "source_draft_blob_sha": "9f7338b418f2c122dc5b97ede749122baa9162e0",
+    "production_blob_sha": "b3c6983fca73dc481b1f41221d37222b118f6919",
+    "publication_base_sha": "05e7468d041a460b73f138a0065dbc9b21c4bc8e",
     "metrics": {
-      "genuine_teaching_words": 14077,
-      "teaching_paragraphs": 157,
-      "teaching_sections": 11,
-      "scientific_svg_count": 11,
-      "graph_count": 1,
-      "table_count": 4,
-      "question_count": 56,
-      "part_b": 25,
-      "part_c": 27,
-      "other_questions": 4,
-      "answer_explanations": 56,
-      "misconceptions": 18,
-      "active_recall": 15,
-      "references": 15
+      "teaching_words": 14042,
+      "teaching_paragraphs": 145,
+      "teaching_sections": 10,
+      "svg": 12,
+      "tables": 8,
+      "graphs": 3,
+      "questions": 54,
+      "part_b": 24,
+      "part_c": 24,
+      "other_questions": 6,
+      "answer_explanations": 54,
+      "misconceptions": 20,
+      "active_recall": 14,
+      "references": 21,
+      "part_b_key_distribution": {
+        "A": 6,
+        "B": 6,
+        "C": 6,
+        "D": 6
+      }
     },
-    "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
-    "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
-    "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
+    "word_count_method": "Whitespace-delimited visible text in p.teaching-prose; headings, questions, revision, tables, SVG and references excluded.",
+    "comparison": "6.C.04: 13,056 teaching words; target 14,042.",
+    "coverage": "Revised Joint CSIR–UGC–DBT NET 2026 Unit 6.H; legacy CSIR NET Life Sciences; MP SET 2024 mirrored syllabus p.5; repository scope.",
     "coverage_matrix": [
-      [
-        "ROS species and properties",
-        "1–2",
-        "Electron transfer, radicals, ROS reaction stoichiometry",
-        "Source/sink and species distinctions",
-        "covered"
-      ],
-      [
-        "Chloroplast and mitochondrial ROS",
-        "3–4",
-        "PSI electron leakage, PSII excitation, respiratory chain",
-        "Fluorescence, inhibitors, controls",
-        "covered"
-      ],
-      [
-        "Peroxisomes and RBOHs",
-        "4",
-        "Glycolate oxidase, compartmentation, apoplastic electron transfer",
-        "cat2 conditional phenotype; oxidase mutants",
-        "covered"
-      ],
-      [
-        "Oxidative injury",
-        "5",
-        "Lipid, protein, DNA damage and repair",
-        "Leakage, oxidation markers, recovery",
-        "covered"
-      ],
-      [
-        "Enzymatic antioxidants",
-        "6",
-        "SOD, catalase, APX, peroxidases",
-        "Stoichiometry and activity assays",
-        "covered"
-      ],
-      [
-        "Ascorbate glutathione cycle",
-        "7",
-        "MDHAR/DHAR/GR, NADPH and redox potential",
-        "Recycling flux, Nernst reasoning",
-        "covered"
-      ],
-      [
-        "Nonenzymatic protection",
-        "8",
-        "Ascorbate, GSH, tocopherol, carotenoids",
-        "Vitamin E mutant seed evidence",
-        "covered"
-      ],
-      [
-        "Redox signaling",
-        "9",
-        "Local and systemic ROS, calcium and feedback",
-        "RBOHD evidence and time course",
-        "covered"
-      ],
-      [
-        "Measurement and integrated protection",
-        "10–11",
-        "Source, clearance, injury, repair, acclimation",
-        "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
-        "covered"
-      ]
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Temperature and organismal limits",
+        "section": "thermal-foundations",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Thresholds, acclimation, recovery",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Heat protein and membrane injury",
+        "section": "heat-damage",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Aggregation, fluidity and causal tests",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Photosynthesis, water and reproduction",
+        "section": "heat-physiology",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Photoinhibition and pollination controls",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "HSFs, HSPs, thermotolerance",
+        "section": "heat-response",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Chaperone cycles, factorial conditioning and heat memory",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Chilling injury",
+        "section": "chilling",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Lipid phase behavior and rewarming",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Freezing, supercooling and water loss",
+        "section": "freezing",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Ice nucleation and extracellular dehydration",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Cold acclimation and CBF–COR",
+        "section": "cold-signaling",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Genetics and limitations of ICE1 model",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Cryoprotective systems",
+        "section": "cryoprotection",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Solutes, LEA/dehydrins, desaturation, ice-binding proteins",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Quantitative physiology",
+        "section": "quantitative",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Q10, freezing depression, ice potential, leakage, fluorescence",
+        "status": "covered"
+      },
+      {
+        "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+        "microtopic": "Experimental design and recovery",
+        "section": "experimental",
+        "depth": "CSIR NET Part B/C and SET",
+        "experimental_analytical_exam_relevance": "Matched controls and causal reasoning",
+        "status": "covered"
+      }
     ],
     "review": {
-      "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
-      "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
+      "scientific": "Separate internal mechanism review including HSF/HSP, extracellular ice dehydration, CBF/COR and ICE1 reporter caveat; illustrative datasets labeled; numerical rechecks.",
+      "editorial": "Separate internal review of progression, subheadings, diagrams, questions and explanations; balanced Part B positions, unique prose and revision.",
+      "numerical_rechecks": {
+        "q10": 2.25,
+        "freezing_depression_02": 0.372,
+        "freezing_depression_03": 0.558,
+        "ice_potential_coefficient": 1.220940874977119,
+        "leakage_a": 33.33333333333333,
+        "leakage_b": 30,
+        "injury": 50,
+        "fluorescence_relative_decline": 25,
+        "ice_potential_at_minus5": -6.1,
+        "relative_gain": 133.33333333333331
+      }
     },
     "rubric": {
       "scientific_accuracy": 19,
-      "syllabus_microtopic_coverage": 15,
-      "genuine_teaching_depth": 15,
-      "pedagogical_quality": 9,
-      "scientific_illustrations": 9,
-      "examination_questions_answers": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision_mastery": 5,
-      "reader_architecture_accessibility": 4,
-      "technical_integrity_seo": 5
+      "syllabus_coverage": 15,
+      "teaching_depth": 15,
+      "pedagogical_quality": 10,
+      "illustrations": 9,
+      "questions_and_answers": 9,
+      "experimental_reasoning": 5,
+      "revision": 5,
+      "reader_accessibility": 4,
+      "technical_seo": 4
     },
     "score": 95,
     "threshold": 95,
-    "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
+    "score_basis": "Internal self-assessment; deductions for limited exhaustive source rechecking, static-only illustration review, no external exam calibration, no runtime reader accessibility or live rendering. Full pedagogical credit for structured progressive teaching and evidence-based explanations.",
     "static_checks": {
-      "duplicate_prose": 0,
       "duplicate_ids": 0,
-      "broken_local_anchors": 0,
-      "broken_zoom_targets": 0,
-      "broken_aria_labelledby": 0,
-      "svg_accessible_labels": 11,
-      "answer_positions": {
-        "A": 14,
-        "B": 14,
-        "C": 13,
-        "D": 15
-      },
-      "canonical_pass": true,
-      "javascript_syntax_pass": true,
-      "answer_mapping_pass": true,
-      "teaching_words_pass": true,
-      "question_distribution_pass": true
+      "duplicate_teaching_paragraphs": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria": 0,
+      "unresolved_zoom": 0,
+      "unresolved_prerequisite_links": 0,
+      "missing_answer_explanations": 0,
+      "answer_mapping_errors": 0,
+      "html_nesting_errors": 0,
+      "javascript_syntax": "compiled",
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
+      "placeholder_matches": 0,
+      "menu_sitemap_chapter_crosscheck": 308
     },
     "limitations": [
-      "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
-      "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
-      "GitHub Pages and live content require separate verification."
+      "No independent external peer review or exam calibration.",
+      "No rendered browser/mobile, keyboard or assistive-technology test; local DNS inaccessible, static checks only.",
+      "MP SET 2024 source mirrored; primary MPPSC host unavailable.",
+      "Deployment and HTTP/live verification pending; references not exhaustively retested."
     ],
     "navigation": {
-      "previous": "6.H.02",
-      "next": "6.H.04",
-      "previous_active": false,
-      "next_active": true,
-      "dynamic_menu": true
+      "previous_node": "6.H.05",
+      "next_node": "6.H.07",
+      "dynamic_index_lookup": true,
+      "previous_link_available": true,
+      "next_link_available": false
     },
     "publication": {
-      "main_verified": false,
-      "pages_verified": false,
-      "live_verified": false,
-      "academy_published_count": 307,
-      "unit_published_count": 58,
-      "subunit_published_count": 4,
-      "next_pending_node_id": "6.H.02"
+      "academy_published": 308,
+      "unit_published": 59,
+      "subunit_published": 5,
+      "next_pending_node_id": "6.H.02",
+      "next_pending_subunit_node_id": "6.H.02",
+      "method": "Atomic git tree; non-force expected-head update"
     }
   },
   "published_node_ids": [
@@ -486,195 +517,111 @@
     "6.H.01",
     "6.H.03",
     "6.H.04",
-    "6.H.05"
+    "6.H.05",
+    "6.H.06"
   ],
   "prior_publication_qa": {
-    "node_id": "6.C.04",
-    "title": "Amino Acid Biosynthesis and Carbon–Nitrogen Integration",
-    "slug": "amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
-    "unit": "06",
-    "subunit": "6.C",
-    "topic": "Nitrogen Metabolism",
-    "date": "2026-11-27",
-    "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "draft/6-c-04-amino-acid-biosynthesis",
-    "source_draft_commit_sha": "a242484307216d743a4c06297425b69fefb3f437",
-    "source_draft_blob_sha": "dbbd9d2a8e5fe5d6a23d18af7c719e64c43d8cc5",
-    "publication_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
-    "metrics": {
-      "genuine_teaching_words": 13056,
-      "teaching_paragraphs": 141,
-      "teaching_sections": 10,
-      "article_visible_words_estimate": 17455,
-      "scientific_svgs": 10,
-      "graphs": 2,
-      "scientific_tables": 4,
-      "part_b": 25,
-      "part_c": 23,
-      "assertion_reason": 2,
-      "total_questions": 50,
-      "answer_explanations": 50,
-      "misconceptions": 18,
-      "active_recall": 14,
-      "references": 16
-    },
-    "word_count_method": "Whitespace tokens in p.teaching-prose, excluding markup, questions, tables and diagrams.",
-    "comparison": "Adjacent 6.C.03 has approximately 13,823 teaching-prose words by the same method; the revised 6.C.04 has comparable substantive narrative length and coverage.",
-    "coverage": "Glutamate/glutamine and position-specific N donation; PLP reaction and equilibrium; Asp/Asn synthesis and transport economics; aspartate, BCAA, glutamate, aromatic, serine/glycine/cysteine and histidine families; feedback and compartmentation; ATP/electron costs; carbon skeleton replenishment; source/sink and seed filling; isotope tracing and enzyme/rescue experiments.",
-    "review": "Expanded substantive teaching from roughly 6,200 to 13,056 words, 20 to 50 questions and 4 to 10 diagrams. Checked pathway overview and feedback against Galili et al. 2016 PMID 26735064, Arabidopsis aspartate-derived pathways PMC3243338, amino acid regulation PMID25114014, nitrogen remobilization PMC2887065, plant amino acid transport PMC7466100 and C/N balance PMC12018728. Reviewed calculations and answer mappings; corrected mislabeled adjacent chapter, improved zoom accessibility and focus return. Original examples and graphs are explicitly illustrative.",
-    "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 9,
-      "illustrations": 9,
-      "assessment": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "seo_technical": 5
-    },
-    "score": 95,
-    "score_basis": "Internal editorial self-assessment, not independent peer review; deductions for limited exhaustive source review, visual rendering, some simple distractors, and lack of runtime/accessibility testing.",
-    "static_checks": {
-      "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria_references": 0,
-      "unresolved_zoom_targets": 0,
-      "javascript_syntax": "compiled",
-      "question_blocks": 50,
-      "answer_mapping": "50/50 four-option answer blocks",
-      "duplicate_teaching_paragraphs": 0,
-      "robots": "index,follow",
-      "menu_entry": 1,
-      "sitemap_entry": 1
-    },
-    "limitations": [
-      "No independent peer review.",
-      "No browser/mobile/keyboard runtime or all-reference URL verification.",
-      "GitHub Pages deployment and live availability pending."
-    ],
-    "navigation": {
-      "previous": "6.C.03",
-      "next": "6.C.05"
-    },
-    "publication": {
-      "state": "lesson_committed_pages_verification_pending",
-      "strategy": "Atomic tree, non-force main ref update",
-      "expected_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
-      "subunit_published_after": 6,
-      "unit_published_after": 54,
-      "academy_published_after": 303,
-      "live_verification": "pending"
-    },
-    "checkpoint_reconciliation": {
-      "basis": "All linked curriculum IDs verified against chapter paths and sitemap",
-      "previous_checkpoint_missing": [
-        "6.D.05"
-      ],
-      "next": "6.H.01"
-    }
-  },
-  "previous_last_qa": {
-    "node_id": "6.H.05",
-    "title": "Salinity and Ionic Stress",
-    "slug": "salinity-and-ionic-stress.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
+    "node_id": "6.H.03",
+    "title": "Oxidative Stress and Cellular Protection",
+    "slug": "oxidative-stress-and-cellular-protection.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
     "unit": "06",
     "subunit": "6.H",
     "topic": "Stress Physiology",
     "date": "2026-11-27",
     "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "chapter/6-h-05-salinity-ionic-stress",
-    "source_draft_commit_sha": "71e7a105f39b05b234ecc151eca04b0b8e0fa6f5",
-    "source_draft_blob_sha": "9219594a9e77d43100a705dbe6dd150dbf88e65d",
-    "production_blob_sha": "af777993646725a3851650ecdfdc34cd766b0239",
-    "publication_base_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
+    "source_draft_branch": "draft/6-h-03-oxidative-stress",
+    "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+    "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+    "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+    "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
     "metrics": {
-      "genuine_teaching_words": 14017,
-      "teaching_paragraphs": 134,
-      "teaching_sections": 16,
-      "scientific_svg_count": 12,
-      "graph_count": 3,
-      "table_count": 3,
-      "question_count": 52,
-      "part_b": 22,
-      "part_c": 24,
-      "other_questions": 6,
-      "answer_explanations": 52,
+      "genuine_teaching_words": 14077,
+      "teaching_paragraphs": 157,
+      "teaching_sections": 11,
+      "scientific_svg_count": 11,
+      "graph_count": 1,
+      "table_count": 4,
+      "question_count": 56,
+      "part_b": 25,
+      "part_c": 27,
+      "other_questions": 4,
+      "answer_explanations": 56,
       "misconceptions": 18,
-      "active_recall": 12,
-      "references": 11
+      "active_recall": 15,
+      "references": 15
     },
-    "word_count_method": "Whitespace-separated tokens in p.teaching-prose after markup removal; excludes headings, questions, tables, figures, bibliography, revision, navigation and metadata.",
-    "comparison": "6.C.04 Amino Acid Biosynthesis and Carbon-Nitrogen Integration: 13,056 words under identical extraction; 6.H.05: 14,017 words.",
-    "coverage": "Osmotic and ionic phases; Na and Cl toxicity; potassium homeostasis; SOS signaling; HKT retrieval; NHX and proton gradients; osmolytes; halophyte strategies and salt glands; glycophytes; saline/sodic soils; Na/K data and iso-osmotic controls. Revised CSIR-UGC-DBT Unit 6.H and older CSIR/MP SET explicit salt stress.",
+    "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+    "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+    "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
     "coverage_matrix": [
       [
-        "Salinity and osmotic stress",
-        "Osmotic phase and water potential",
-        "quantitative water relations; iso-osmotic controls",
+        "ROS species and properties",
+        "1–2",
+        "Electron transfer, radicals, ROS reaction stoichiometry",
+        "Source/sink and species distinctions",
         "covered"
       ],
       [
-        "Ionic toxicity",
-        "Ionic phase, Na+ and Cl−",
-        "time course and compartment comparisons",
+        "Chloroplast and mitochondrial ROS",
+        "3–4",
+        "PSI electron leakage, PSII excitation, respiratory chain",
+        "Fluorescence, inhibitors, controls",
         "covered"
       ],
       [
-        "Potassium homeostasis",
-        "K+ competition and membrane potential",
-        "electrochemical calculations and Na/K ratios",
+        "Peroxisomes and RBOHs",
+        "4",
+        "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+        "cat2 conditional phenotype; oxidase mutants",
         "covered"
       ],
       [
-        "SOS signaling",
-        "CBL4/CIPK24/SOS1",
-        "mutant and complementation inference",
+        "Oxidative injury",
+        "5",
+        "Lipid, protein, DNA damage and repair",
+        "Leakage, oxidation markers, recovery",
         "covered"
       ],
       [
-        "HKT transport",
-        "Xylem retrieval",
-        "tissue-specific transport and flux",
+        "Enzymatic antioxidants",
+        "6",
+        "SOD, catalase, APX, peroxidases",
+        "Stoichiometry and activity assays",
         "covered"
       ],
       [
-        "NHX and proton gradients",
-        "Vacuole, NHX, proton pumps",
-        "pH gradient and vesicle reasoning",
+        "Ascorbate glutathione cycle",
+        "7",
+        "MDHAR/DHAR/GR, NADPH and redox potential",
+        "Recycling flux, Nernst reasoning",
         "covered"
       ],
       [
-        "Osmotic adjustment",
-        "Compatible solutes",
-        "dilution, osmotic potential",
+        "Nonenzymatic protection",
+        "8",
+        "Ascorbate, GSH, tocopherol, carotenoids",
+        "Vitamin E mutant seed evidence",
         "covered"
       ],
       [
-        "Halophytes, glycophytes, glands",
-        "Adaptation and secretion",
-        "salt excretion and growth tradeoffs",
+        "Redox signaling",
+        "9",
+        "Local and systemic ROS, calcium and feedback",
+        "RBOHD evidence and time course",
         "covered"
       ],
       [
-        "Saline vs sodic soil",
-        "Soil EC, SAR, ESP",
-        "soil data classification and remediation principles",
-        "covered"
-      ],
-      [
-        "Experimental interpretation",
-        "Controls and quantitative reasoning",
-        "Na/K data, iso-osmotic comparisons, genotype effects, recovery",
+        "Measurement and integrated protection",
+        "10–11",
+        "Source, clearance, injury, repair, acclimation",
+        "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
         "covered"
       ]
     ],
     "review": {
-      "scientific": "Reviewed selected syllabus and source records (Munns & Tester; Qiu et al.; Bassil et al.; wheat HKT Nax2; halophyte reviews; van Zelm et al.; FAO). Distinguished tissue-specific HKT and vacuolar K/pH roles of NHX from blanket sodium-exclusion claims. Recomputed osmotic potentials -0.4955144 and -0.2477572 MPa, Na inward free energy -17.283 kJ/mol, EK -118.253 mV, H+ chemical energy -11.40964 kJ/mol, mass ratio 2.00087, RWC 75%, leakage 20%, Fv/Fm .65, SAR 8, ESP 15 and efflux 6; reviewed answer logic and illustrative data labeling.",
-      "editorial": "Separate review of 16-section learning progression, 134 distinct teaching paragraphs, captions, question wording and explanations, revision resources and reader compatibility. Revised 26 question sets, distributed correct positions equally, retained reader controls, checked SVG/ARIA/anchor targets and improved zoom focus return."
+      "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+      "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -690,48 +637,204 @@
     },
     "score": 95,
     "threshold": 95,
-    "score_basis": "Internal evidence-based self-assessment; deductions for selective source verification, complexity of some passages, static-only figure inspection, some simpler distractors and lack of interactive/accessibility runtime testing. Not external peer review.",
+    "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
     "static_checks": {
-      "teaching_words_pass": true,
-      "question_distribution_pass": true,
-      "answer_mapping_52_of_52": true,
-      "balanced_answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      },
       "duplicate_prose": 0,
       "duplicate_ids": 0,
       "broken_local_anchors": 0,
       "broken_zoom_targets": 0,
       "broken_aria_labelledby": 0,
-      "html_tag_stack_errors": 0,
-      "javascript_syntax_pass": true,
+      "svg_accessible_labels": 11,
+      "answer_positions": {
+        "A": 14,
+        "B": 14,
+        "C": 13,
+        "D": 15
+      },
       "canonical_pass": true,
-      "production_blob_roundtrip_exact": true,
-      "existing_menu_links_preserved": 305,
-      "existing_sitemap_entries_preserved": true
+      "javascript_syntax_pass": true,
+      "answer_mapping_pass": true,
+      "teaching_words_pass": true,
+      "question_distribution_pass": true
     },
     "limitations": [
-      "Desktop/mobile interactive rendering, keyboard and screen-reader runtime not tested.",
-      "Selected source records and syllabus checked; exhaustive full-text source verification and independent peer review not performed. MP SET checked through reproduced 2024 PDF, latest official MPPSC copy not independently confirmed.",
-      "Pages deployment and live content must be verified separately."
+      "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+      "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+      "GitHub Pages and live content require separate verification."
     ],
     "navigation": {
-      "previous": "6.H.04",
-      "previous_active": true,
-      "next": "6.H.06",
-      "next_active": false,
-      "method": "Reader resolves adjacent published menu links dynamically; unpublished links stay disabled."
+      "previous": "6.H.02",
+      "next": "6.H.04",
+      "previous_active": false,
+      "next_active": true,
+      "dynamic_menu": true
     },
     "publication": {
       "main_verified": false,
       "pages_verified": false,
       "live_verified": false,
-      "academy_published_count": 306,
-      "unit_published_count": 57,
-      "subunit_published_count": 3,
+      "academy_published_count": 307,
+      "unit_published_count": 58,
+      "subunit_published_count": 4,
+      "next_pending_node_id": "6.H.02"
+    }
+  },
+  "previous_last_qa": {
+    "node_id": "6.H.03",
+    "title": "Oxidative Stress and Cellular Protection",
+    "slug": "oxidative-stress-and-cellular-protection.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
+    "unit": "06",
+    "subunit": "6.H",
+    "topic": "Stress Physiology",
+    "date": "2026-11-27",
+    "status": "internal_academic_qa_passed_static_checks_complete",
+    "source_draft_branch": "draft/6-h-03-oxidative-stress",
+    "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+    "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+    "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+    "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
+    "metrics": {
+      "genuine_teaching_words": 14077,
+      "teaching_paragraphs": 157,
+      "teaching_sections": 11,
+      "scientific_svg_count": 11,
+      "graph_count": 1,
+      "table_count": 4,
+      "question_count": 56,
+      "part_b": 25,
+      "part_c": 27,
+      "other_questions": 4,
+      "answer_explanations": 56,
+      "misconceptions": 18,
+      "active_recall": 15,
+      "references": 15
+    },
+    "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+    "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+    "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
+    "coverage_matrix": [
+      [
+        "ROS species and properties",
+        "1–2",
+        "Electron transfer, radicals, ROS reaction stoichiometry",
+        "Source/sink and species distinctions",
+        "covered"
+      ],
+      [
+        "Chloroplast and mitochondrial ROS",
+        "3–4",
+        "PSI electron leakage, PSII excitation, respiratory chain",
+        "Fluorescence, inhibitors, controls",
+        "covered"
+      ],
+      [
+        "Peroxisomes and RBOHs",
+        "4",
+        "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+        "cat2 conditional phenotype; oxidase mutants",
+        "covered"
+      ],
+      [
+        "Oxidative injury",
+        "5",
+        "Lipid, protein, DNA damage and repair",
+        "Leakage, oxidation markers, recovery",
+        "covered"
+      ],
+      [
+        "Enzymatic antioxidants",
+        "6",
+        "SOD, catalase, APX, peroxidases",
+        "Stoichiometry and activity assays",
+        "covered"
+      ],
+      [
+        "Ascorbate glutathione cycle",
+        "7",
+        "MDHAR/DHAR/GR, NADPH and redox potential",
+        "Recycling flux, Nernst reasoning",
+        "covered"
+      ],
+      [
+        "Nonenzymatic protection",
+        "8",
+        "Ascorbate, GSH, tocopherol, carotenoids",
+        "Vitamin E mutant seed evidence",
+        "covered"
+      ],
+      [
+        "Redox signaling",
+        "9",
+        "Local and systemic ROS, calcium and feedback",
+        "RBOHD evidence and time course",
+        "covered"
+      ],
+      [
+        "Measurement and integrated protection",
+        "10–11",
+        "Source, clearance, injury, repair, acclimation",
+        "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
+        "covered"
+      ]
+    ],
+    "review": {
+      "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+      "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
+    },
+    "rubric": {
+      "scientific_accuracy": 19,
+      "syllabus_microtopic_coverage": 15,
+      "genuine_teaching_depth": 15,
+      "pedagogical_quality": 9,
+      "scientific_illustrations": 9,
+      "examination_questions_answers": 9,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
+      "reader_architecture_accessibility": 4,
+      "technical_integrity_seo": 5
+    },
+    "score": 95,
+    "threshold": 95,
+    "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
+    "static_checks": {
+      "duplicate_prose": 0,
+      "duplicate_ids": 0,
+      "broken_local_anchors": 0,
+      "broken_zoom_targets": 0,
+      "broken_aria_labelledby": 0,
+      "svg_accessible_labels": 11,
+      "answer_positions": {
+        "A": 14,
+        "B": 14,
+        "C": 13,
+        "D": 15
+      },
+      "canonical_pass": true,
+      "javascript_syntax_pass": true,
+      "answer_mapping_pass": true,
+      "teaching_words_pass": true,
+      "question_distribution_pass": true
+    },
+    "limitations": [
+      "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+      "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+      "GitHub Pages and live content require separate verification."
+    ],
+    "navigation": {
+      "previous": "6.H.02",
+      "next": "6.H.04",
+      "previous_active": false,
+      "next_active": true,
+      "dynamic_menu": true
+    },
+    "publication": {
+      "main_verified": false,
+      "pages_verified": false,
+      "live_verified": false,
+      "academy_published_count": 307,
+      "unit_published_count": 58,
+      "subunit_published_count": 4,
       "next_pending_node_id": "6.H.02"
     }
   },
@@ -40666,6 +40769,196 @@
         "subunit_published_count": 4,
         "next_pending_node_id": "6.H.02"
       }
+    },
+    "6.H.06": {
+      "node_id": "6.H.06",
+      "title": "Heat, Chilling and Freezing Stress",
+      "slug": "heat-chilling-and-freezing-stress.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
+      "unit": "06",
+      "subunit": "6.H",
+      "topic": "Stress Physiology",
+      "date": "2026-11-27",
+      "status": "lesson_committed_pages_verification_pending",
+      "source_draft_branch": "draft/node-6h06-thermal-stress-v10",
+      "source_draft_commit_sha": "2652a8aa1fd833a305ae02306f16bb2a136fbf3e",
+      "source_draft_blob_sha": "9f7338b418f2c122dc5b97ede749122baa9162e0",
+      "production_blob_sha": "b3c6983fca73dc481b1f41221d37222b118f6919",
+      "publication_base_sha": "05e7468d041a460b73f138a0065dbc9b21c4bc8e",
+      "metrics": {
+        "teaching_words": 14042,
+        "teaching_paragraphs": 145,
+        "teaching_sections": 10,
+        "svg": 12,
+        "tables": 8,
+        "graphs": 3,
+        "questions": 54,
+        "part_b": 24,
+        "part_c": 24,
+        "other_questions": 6,
+        "answer_explanations": 54,
+        "misconceptions": 20,
+        "active_recall": 14,
+        "references": 21,
+        "part_b_key_distribution": {
+          "A": 6,
+          "B": 6,
+          "C": 6,
+          "D": 6
+        }
+      },
+      "word_count_method": "Whitespace-delimited visible text in p.teaching-prose; headings, questions, revision, tables, SVG and references excluded.",
+      "comparison": "6.C.04: 13,056 teaching words; target 14,042.",
+      "coverage": "Revised Joint CSIR–UGC–DBT NET 2026 Unit 6.H; legacy CSIR NET Life Sciences; MP SET 2024 mirrored syllabus p.5; repository scope.",
+      "coverage_matrix": [
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Temperature and organismal limits",
+          "section": "thermal-foundations",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Thresholds, acclimation, recovery",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Heat protein and membrane injury",
+          "section": "heat-damage",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Aggregation, fluidity and causal tests",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Photosynthesis, water and reproduction",
+          "section": "heat-physiology",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Photoinhibition and pollination controls",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "HSFs, HSPs, thermotolerance",
+          "section": "heat-response",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Chaperone cycles, factorial conditioning and heat memory",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Chilling injury",
+          "section": "chilling",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Lipid phase behavior and rewarming",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Freezing, supercooling and water loss",
+          "section": "freezing",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Ice nucleation and extracellular dehydration",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Cold acclimation and CBF–COR",
+          "section": "cold-signaling",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Genetics and limitations of ICE1 model",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Cryoprotective systems",
+          "section": "cryoprotection",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Solutes, LEA/dehydrins, desaturation, ice-binding proteins",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Quantitative physiology",
+          "section": "quantitative",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Q10, freezing depression, ice potential, leakage, fluorescence",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Experimental design and recovery",
+          "section": "experimental",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Matched controls and causal reasoning",
+          "status": "covered"
+        }
+      ],
+      "review": {
+        "scientific": "Separate internal mechanism review including HSF/HSP, extracellular ice dehydration, CBF/COR and ICE1 reporter caveat; illustrative datasets labeled; numerical rechecks.",
+        "editorial": "Separate internal review of progression, subheadings, diagrams, questions and explanations; balanced Part B positions, unique prose and revision.",
+        "numerical_rechecks": {
+          "q10": 2.25,
+          "freezing_depression_02": 0.372,
+          "freezing_depression_03": 0.558,
+          "ice_potential_coefficient": 1.220940874977119,
+          "leakage_a": 33.33333333333333,
+          "leakage_b": 30,
+          "injury": 50,
+          "fluorescence_relative_decline": 25,
+          "ice_potential_at_minus5": -6.1,
+          "relative_gain": 133.33333333333331
+        }
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogical_quality": 10,
+        "illustrations": 9,
+        "questions_and_answers": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "score": 95,
+      "threshold": 95,
+      "score_basis": "Internal self-assessment; deductions for limited exhaustive source rechecking, static-only illustration review, no external exam calibration, no runtime reader accessibility or live rendering. Full pedagogical credit for structured progressive teaching and evidence-based explanations.",
+      "static_checks": {
+        "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "unresolved_zoom": 0,
+        "unresolved_prerequisite_links": 0,
+        "missing_answer_explanations": 0,
+        "answer_mapping_errors": 0,
+        "html_nesting_errors": 0,
+        "javascript_syntax": "compiled",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
+        "placeholder_matches": 0,
+        "menu_sitemap_chapter_crosscheck": 308
+      },
+      "limitations": [
+        "No independent external peer review or exam calibration.",
+        "No rendered browser/mobile, keyboard or assistive-technology test; local DNS inaccessible, static checks only.",
+        "MP SET 2024 source mirrored; primary MPPSC host unavailable.",
+        "Deployment and HTTP/live verification pending; references not exhaustively retested."
+      ],
+      "navigation": {
+        "previous_node": "6.H.05",
+        "next_node": "6.H.07",
+        "dynamic_index_lookup": true,
+        "previous_link_available": true,
+        "next_link_available": false
+      },
+      "publication": {
+        "academy_published": 308,
+        "unit_published": 59,
+        "subunit_published": 5,
+        "next_pending_node_id": "6.H.02",
+        "next_pending_subunit_node_id": "6.H.02",
+        "method": "Atomic git tree; non-force expected-head update"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -49137,170 +49430,202 @@
       "6.H.01",
       "6.H.03",
       "6.H.04",
-      "6.H.05"
+      "6.H.05",
+      "6.H.06"
     ],
-    "published_node_count": 58,
+    "published_node_count": 59,
     "planned_node_count": 66,
-    "last_published_node_id": "6.H.03",
+    "last_published_node_id": "6.H.06",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.H.03",
-      "title": "Oxidative Stress and Cellular Protection",
-      "slug": "oxidative-stress-and-cellular-protection.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
+      "node_id": "6.H.06",
+      "title": "Heat, Chilling and Freezing Stress",
+      "slug": "heat-chilling-and-freezing-stress.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
       "unit": "06",
       "subunit": "6.H",
       "topic": "Stress Physiology",
       "date": "2026-11-27",
-      "status": "internal_academic_qa_passed_static_checks_complete",
-      "source_draft_branch": "draft/6-h-03-oxidative-stress",
-      "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
-      "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
-      "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
-      "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
+      "status": "lesson_committed_pages_verification_pending",
+      "source_draft_branch": "draft/node-6h06-thermal-stress-v10",
+      "source_draft_commit_sha": "2652a8aa1fd833a305ae02306f16bb2a136fbf3e",
+      "source_draft_blob_sha": "9f7338b418f2c122dc5b97ede749122baa9162e0",
+      "production_blob_sha": "b3c6983fca73dc481b1f41221d37222b118f6919",
+      "publication_base_sha": "05e7468d041a460b73f138a0065dbc9b21c4bc8e",
       "metrics": {
-        "genuine_teaching_words": 14077,
-        "teaching_paragraphs": 157,
-        "teaching_sections": 11,
-        "scientific_svg_count": 11,
-        "graph_count": 1,
-        "table_count": 4,
-        "question_count": 56,
-        "part_b": 25,
-        "part_c": 27,
-        "other_questions": 4,
-        "answer_explanations": 56,
-        "misconceptions": 18,
-        "active_recall": 15,
-        "references": 15
+        "teaching_words": 14042,
+        "teaching_paragraphs": 145,
+        "teaching_sections": 10,
+        "svg": 12,
+        "tables": 8,
+        "graphs": 3,
+        "questions": 54,
+        "part_b": 24,
+        "part_c": 24,
+        "other_questions": 6,
+        "answer_explanations": 54,
+        "misconceptions": 20,
+        "active_recall": 14,
+        "references": 21,
+        "part_b_key_distribution": {
+          "A": 6,
+          "B": 6,
+          "C": 6,
+          "D": 6
+        }
       },
-      "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
-      "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
-      "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
+      "word_count_method": "Whitespace-delimited visible text in p.teaching-prose; headings, questions, revision, tables, SVG and references excluded.",
+      "comparison": "6.C.04: 13,056 teaching words; target 14,042.",
+      "coverage": "Revised Joint CSIR–UGC–DBT NET 2026 Unit 6.H; legacy CSIR NET Life Sciences; MP SET 2024 mirrored syllabus p.5; repository scope.",
       "coverage_matrix": [
-        [
-          "ROS species and properties",
-          "1–2",
-          "Electron transfer, radicals, ROS reaction stoichiometry",
-          "Source/sink and species distinctions",
-          "covered"
-        ],
-        [
-          "Chloroplast and mitochondrial ROS",
-          "3–4",
-          "PSI electron leakage, PSII excitation, respiratory chain",
-          "Fluorescence, inhibitors, controls",
-          "covered"
-        ],
-        [
-          "Peroxisomes and RBOHs",
-          "4",
-          "Glycolate oxidase, compartmentation, apoplastic electron transfer",
-          "cat2 conditional phenotype; oxidase mutants",
-          "covered"
-        ],
-        [
-          "Oxidative injury",
-          "5",
-          "Lipid, protein, DNA damage and repair",
-          "Leakage, oxidation markers, recovery",
-          "covered"
-        ],
-        [
-          "Enzymatic antioxidants",
-          "6",
-          "SOD, catalase, APX, peroxidases",
-          "Stoichiometry and activity assays",
-          "covered"
-        ],
-        [
-          "Ascorbate glutathione cycle",
-          "7",
-          "MDHAR/DHAR/GR, NADPH and redox potential",
-          "Recycling flux, Nernst reasoning",
-          "covered"
-        ],
-        [
-          "Nonenzymatic protection",
-          "8",
-          "Ascorbate, GSH, tocopherol, carotenoids",
-          "Vitamin E mutant seed evidence",
-          "covered"
-        ],
-        [
-          "Redox signaling",
-          "9",
-          "Local and systemic ROS, calcium and feedback",
-          "RBOHD evidence and time course",
-          "covered"
-        ],
-        [
-          "Measurement and integrated protection",
-          "10–11",
-          "Source, clearance, injury, repair, acclimation",
-          "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
-          "covered"
-        ]
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Temperature and organismal limits",
+          "section": "thermal-foundations",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Thresholds, acclimation, recovery",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Heat protein and membrane injury",
+          "section": "heat-damage",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Aggregation, fluidity and causal tests",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Photosynthesis, water and reproduction",
+          "section": "heat-physiology",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Photoinhibition and pollination controls",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "HSFs, HSPs, thermotolerance",
+          "section": "heat-response",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Chaperone cycles, factorial conditioning and heat memory",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Chilling injury",
+          "section": "chilling",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Lipid phase behavior and rewarming",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Freezing, supercooling and water loss",
+          "section": "freezing",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Ice nucleation and extracellular dehydration",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Cold acclimation and CBF–COR",
+          "section": "cold-signaling",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Genetics and limitations of ICE1 model",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Cryoprotective systems",
+          "section": "cryoprotection",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Solutes, LEA/dehydrins, desaturation, ice-binding proteins",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Quantitative physiology",
+          "section": "quantitative",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Q10, freezing depression, ice potential, leakage, fluorescence",
+          "status": "covered"
+        },
+        {
+          "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+          "microtopic": "Experimental design and recovery",
+          "section": "experimental",
+          "depth": "CSIR NET Part B/C and SET",
+          "experimental_analytical_exam_relevance": "Matched controls and causal reasoning",
+          "status": "covered"
+        }
       ],
       "review": {
-        "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
-        "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
+        "scientific": "Separate internal mechanism review including HSF/HSP, extracellular ice dehydration, CBF/COR and ICE1 reporter caveat; illustrative datasets labeled; numerical rechecks.",
+        "editorial": "Separate internal review of progression, subheadings, diagrams, questions and explanations; balanced Part B positions, unique prose and revision.",
+        "numerical_rechecks": {
+          "q10": 2.25,
+          "freezing_depression_02": 0.372,
+          "freezing_depression_03": 0.558,
+          "ice_potential_coefficient": 1.220940874977119,
+          "leakage_a": 33.33333333333333,
+          "leakage_b": 30,
+          "injury": 50,
+          "fluorescence_relative_decline": 25,
+          "ice_potential_at_minus5": -6.1,
+          "relative_gain": 133.33333333333331
+        }
       },
       "rubric": {
         "scientific_accuracy": 19,
-        "syllabus_microtopic_coverage": 15,
-        "genuine_teaching_depth": 15,
-        "pedagogical_quality": 9,
-        "scientific_illustrations": 9,
-        "examination_questions_answers": 9,
-        "experimental_analytical_reasoning": 5,
-        "revision_mastery": 5,
-        "reader_architecture_accessibility": 4,
-        "technical_integrity_seo": 5
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogical_quality": 10,
+        "illustrations": 9,
+        "questions_and_answers": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
       },
       "score": 95,
       "threshold": 95,
-      "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
+      "score_basis": "Internal self-assessment; deductions for limited exhaustive source rechecking, static-only illustration review, no external exam calibration, no runtime reader accessibility or live rendering. Full pedagogical credit for structured progressive teaching and evidence-based explanations.",
       "static_checks": {
-        "duplicate_prose": 0,
         "duplicate_ids": 0,
-        "broken_local_anchors": 0,
-        "broken_zoom_targets": 0,
-        "broken_aria_labelledby": 0,
-        "svg_accessible_labels": 11,
-        "answer_positions": {
-          "A": 14,
-          "B": 14,
-          "C": 13,
-          "D": 15
-        },
-        "canonical_pass": true,
-        "javascript_syntax_pass": true,
-        "answer_mapping_pass": true,
-        "teaching_words_pass": true,
-        "question_distribution_pass": true
+        "duplicate_teaching_paragraphs": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "unresolved_zoom": 0,
+        "unresolved_prerequisite_links": 0,
+        "missing_answer_explanations": 0,
+        "answer_mapping_errors": 0,
+        "html_nesting_errors": 0,
+        "javascript_syntax": "compiled",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
+        "placeholder_matches": 0,
+        "menu_sitemap_chapter_crosscheck": 308
       },
       "limitations": [
-        "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
-        "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
-        "GitHub Pages and live content require separate verification."
+        "No independent external peer review or exam calibration.",
+        "No rendered browser/mobile, keyboard or assistive-technology test; local DNS inaccessible, static checks only.",
+        "MP SET 2024 source mirrored; primary MPPSC host unavailable.",
+        "Deployment and HTTP/live verification pending; references not exhaustively retested."
       ],
       "navigation": {
-        "previous": "6.H.02",
-        "next": "6.H.04",
-        "previous_active": false,
-        "next_active": true,
-        "dynamic_menu": true
+        "previous_node": "6.H.05",
+        "next_node": "6.H.07",
+        "dynamic_index_lookup": true,
+        "previous_link_available": true,
+        "next_link_available": false
       },
       "publication": {
-        "main_verified": false,
-        "pages_verified": false,
-        "live_verified": false,
-        "academy_published_count": 307,
-        "unit_published_count": 58,
-        "subunit_published_count": 4,
-        "next_pending_node_id": "6.H.02"
+        "academy_published": 308,
+        "unit_published": 59,
+        "subunit_published": 5,
+        "next_pending_node_id": "6.H.02",
+        "next_pending_subunit_node_id": "6.H.02",
+        "method": "Atomic git tree; non-force expected-head update"
       }
     },
     "qa_by_node": {
@@ -56676,6 +57001,196 @@
           "subunit_published_count": 4,
           "next_pending_node_id": "6.H.02"
         }
+      },
+      "6.H.06": {
+        "node_id": "6.H.06",
+        "title": "Heat, Chilling and Freezing Stress",
+        "slug": "heat-chilling-and-freezing-stress.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
+        "unit": "06",
+        "subunit": "6.H",
+        "topic": "Stress Physiology",
+        "date": "2026-11-27",
+        "status": "lesson_committed_pages_verification_pending",
+        "source_draft_branch": "draft/node-6h06-thermal-stress-v10",
+        "source_draft_commit_sha": "2652a8aa1fd833a305ae02306f16bb2a136fbf3e",
+        "source_draft_blob_sha": "9f7338b418f2c122dc5b97ede749122baa9162e0",
+        "production_blob_sha": "b3c6983fca73dc481b1f41221d37222b118f6919",
+        "publication_base_sha": "05e7468d041a460b73f138a0065dbc9b21c4bc8e",
+        "metrics": {
+          "teaching_words": 14042,
+          "teaching_paragraphs": 145,
+          "teaching_sections": 10,
+          "svg": 12,
+          "tables": 8,
+          "graphs": 3,
+          "questions": 54,
+          "part_b": 24,
+          "part_c": 24,
+          "other_questions": 6,
+          "answer_explanations": 54,
+          "misconceptions": 20,
+          "active_recall": 14,
+          "references": 21,
+          "part_b_key_distribution": {
+            "A": 6,
+            "B": 6,
+            "C": 6,
+            "D": 6
+          }
+        },
+        "word_count_method": "Whitespace-delimited visible text in p.teaching-prose; headings, questions, revision, tables, SVG and references excluded.",
+        "comparison": "6.C.04: 13,056 teaching words; target 14,042.",
+        "coverage": "Revised Joint CSIR–UGC–DBT NET 2026 Unit 6.H; legacy CSIR NET Life Sciences; MP SET 2024 mirrored syllabus p.5; repository scope.",
+        "coverage_matrix": [
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Temperature and organismal limits",
+            "section": "thermal-foundations",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Thresholds, acclimation, recovery",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Heat protein and membrane injury",
+            "section": "heat-damage",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Aggregation, fluidity and causal tests",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Photosynthesis, water and reproduction",
+            "section": "heat-physiology",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Photoinhibition and pollination controls",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "HSFs, HSPs, thermotolerance",
+            "section": "heat-response",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Chaperone cycles, factorial conditioning and heat memory",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Chilling injury",
+            "section": "chilling",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Lipid phase behavior and rewarming",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Freezing, supercooling and water loss",
+            "section": "freezing",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Ice nucleation and extracellular dehydration",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Cold acclimation and CBF–COR",
+            "section": "cold-signaling",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Genetics and limitations of ICE1 model",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Cryoprotective systems",
+            "section": "cryoprotection",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Solutes, LEA/dehydrins, desaturation, ice-binding proteins",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Quantitative physiology",
+            "section": "quantitative",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Q10, freezing depression, ice potential, leakage, fluorescence",
+            "status": "covered"
+          },
+          {
+            "official_requirement": "Unit 6.H abiotic temperature stress; physiological and molecular responses",
+            "microtopic": "Experimental design and recovery",
+            "section": "experimental",
+            "depth": "CSIR NET Part B/C and SET",
+            "experimental_analytical_exam_relevance": "Matched controls and causal reasoning",
+            "status": "covered"
+          }
+        ],
+        "review": {
+          "scientific": "Separate internal mechanism review including HSF/HSP, extracellular ice dehydration, CBF/COR and ICE1 reporter caveat; illustrative datasets labeled; numerical rechecks.",
+          "editorial": "Separate internal review of progression, subheadings, diagrams, questions and explanations; balanced Part B positions, unique prose and revision.",
+          "numerical_rechecks": {
+            "q10": 2.25,
+            "freezing_depression_02": 0.372,
+            "freezing_depression_03": 0.558,
+            "ice_potential_coefficient": 1.220940874977119,
+            "leakage_a": 33.33333333333333,
+            "leakage_b": 30,
+            "injury": 50,
+            "fluorescence_relative_decline": 25,
+            "ice_potential_at_minus5": -6.1,
+            "relative_gain": 133.33333333333331
+          }
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogical_quality": 10,
+          "illustrations": 9,
+          "questions_and_answers": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "score": 95,
+        "threshold": 95,
+        "score_basis": "Internal self-assessment; deductions for limited exhaustive source rechecking, static-only illustration review, no external exam calibration, no runtime reader accessibility or live rendering. Full pedagogical credit for structured progressive teaching and evidence-based explanations.",
+        "static_checks": {
+          "duplicate_ids": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria": 0,
+          "unresolved_zoom": 0,
+          "unresolved_prerequisite_links": 0,
+          "missing_answer_explanations": 0,
+          "answer_mapping_errors": 0,
+          "html_nesting_errors": 0,
+          "javascript_syntax": "compiled",
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
+          "placeholder_matches": 0,
+          "menu_sitemap_chapter_crosscheck": 308
+        },
+        "limitations": [
+          "No independent external peer review or exam calibration.",
+          "No rendered browser/mobile, keyboard or assistive-technology test; local DNS inaccessible, static checks only.",
+          "MP SET 2024 source mirrored; primary MPPSC host unavailable.",
+          "Deployment and HTTP/live verification pending; references not exhaustively retested."
+        ],
+        "navigation": {
+          "previous_node": "6.H.05",
+          "next_node": "6.H.07",
+          "dynamic_index_lookup": true,
+          "previous_link_available": true,
+          "next_link_available": false
+        },
+        "publication": {
+          "academy_published": 308,
+          "unit_published": 59,
+          "subunit_published": 5,
+          "next_pending_node_id": "6.H.02",
+          "next_pending_subunit_node_id": "6.H.02",
+          "method": "Atomic git tree; non-force expected-head update"
+        }
       }
     },
     "next_pending_node_id": "6.H.02",
@@ -56697,104 +57212,107 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.H.05",
-      "title": "Salinity and Ionic Stress",
-      "slug": "salinity-and-ionic-stress.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
+      "node_id": "6.H.03",
+      "title": "Oxidative Stress and Cellular Protection",
+      "slug": "oxidative-stress-and-cellular-protection.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
       "unit": "06",
       "subunit": "6.H",
       "topic": "Stress Physiology",
       "date": "2026-11-27",
       "status": "internal_academic_qa_passed_static_checks_complete",
-      "source_draft_branch": "chapter/6-h-05-salinity-ionic-stress",
-      "source_draft_commit_sha": "71e7a105f39b05b234ecc151eca04b0b8e0fa6f5",
-      "source_draft_blob_sha": "9219594a9e77d43100a705dbe6dd150dbf88e65d",
-      "production_blob_sha": "af777993646725a3851650ecdfdc34cd766b0239",
-      "publication_base_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
+      "source_draft_branch": "draft/6-h-03-oxidative-stress",
+      "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+      "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+      "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+      "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
       "metrics": {
-        "genuine_teaching_words": 14017,
-        "teaching_paragraphs": 134,
-        "teaching_sections": 16,
-        "scientific_svg_count": 12,
-        "graph_count": 3,
-        "table_count": 3,
-        "question_count": 52,
-        "part_b": 22,
-        "part_c": 24,
-        "other_questions": 6,
-        "answer_explanations": 52,
+        "genuine_teaching_words": 14077,
+        "teaching_paragraphs": 157,
+        "teaching_sections": 11,
+        "scientific_svg_count": 11,
+        "graph_count": 1,
+        "table_count": 4,
+        "question_count": 56,
+        "part_b": 25,
+        "part_c": 27,
+        "other_questions": 4,
+        "answer_explanations": 56,
         "misconceptions": 18,
-        "active_recall": 12,
-        "references": 11
+        "active_recall": 15,
+        "references": 15
       },
-      "word_count_method": "Whitespace-separated tokens in p.teaching-prose after markup removal; excludes headings, questions, tables, figures, bibliography, revision, navigation and metadata.",
-      "comparison": "6.C.04 Amino Acid Biosynthesis and Carbon-Nitrogen Integration: 13,056 words under identical extraction; 6.H.05: 14,017 words.",
-      "coverage": "Osmotic and ionic phases; Na and Cl toxicity; potassium homeostasis; SOS signaling; HKT retrieval; NHX and proton gradients; osmolytes; halophyte strategies and salt glands; glycophytes; saline/sodic soils; Na/K data and iso-osmotic controls. Revised CSIR-UGC-DBT Unit 6.H and older CSIR/MP SET explicit salt stress.",
+      "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+      "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+      "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
       "coverage_matrix": [
         [
-          "Salinity and osmotic stress",
-          "Osmotic phase and water potential",
-          "quantitative water relations; iso-osmotic controls",
+          "ROS species and properties",
+          "1–2",
+          "Electron transfer, radicals, ROS reaction stoichiometry",
+          "Source/sink and species distinctions",
           "covered"
         ],
         [
-          "Ionic toxicity",
-          "Ionic phase, Na+ and Cl−",
-          "time course and compartment comparisons",
+          "Chloroplast and mitochondrial ROS",
+          "3–4",
+          "PSI electron leakage, PSII excitation, respiratory chain",
+          "Fluorescence, inhibitors, controls",
           "covered"
         ],
         [
-          "Potassium homeostasis",
-          "K+ competition and membrane potential",
-          "electrochemical calculations and Na/K ratios",
+          "Peroxisomes and RBOHs",
+          "4",
+          "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+          "cat2 conditional phenotype; oxidase mutants",
           "covered"
         ],
         [
-          "SOS signaling",
-          "CBL4/CIPK24/SOS1",
-          "mutant and complementation inference",
+          "Oxidative injury",
+          "5",
+          "Lipid, protein, DNA damage and repair",
+          "Leakage, oxidation markers, recovery",
           "covered"
         ],
         [
-          "HKT transport",
-          "Xylem retrieval",
-          "tissue-specific transport and flux",
+          "Enzymatic antioxidants",
+          "6",
+          "SOD, catalase, APX, peroxidases",
+          "Stoichiometry and activity assays",
           "covered"
         ],
         [
-          "NHX and proton gradients",
-          "Vacuole, NHX, proton pumps",
-          "pH gradient and vesicle reasoning",
+          "Ascorbate glutathione cycle",
+          "7",
+          "MDHAR/DHAR/GR, NADPH and redox potential",
+          "Recycling flux, Nernst reasoning",
           "covered"
         ],
         [
-          "Osmotic adjustment",
-          "Compatible solutes",
-          "dilution, osmotic potential",
+          "Nonenzymatic protection",
+          "8",
+          "Ascorbate, GSH, tocopherol, carotenoids",
+          "Vitamin E mutant seed evidence",
           "covered"
         ],
         [
-          "Halophytes, glycophytes, glands",
-          "Adaptation and secretion",
-          "salt excretion and growth tradeoffs",
+          "Redox signaling",
+          "9",
+          "Local and systemic ROS, calcium and feedback",
+          "RBOHD evidence and time course",
           "covered"
         ],
         [
-          "Saline vs sodic soil",
-          "Soil EC, SAR, ESP",
-          "soil data classification and remediation principles",
-          "covered"
-        ],
-        [
-          "Experimental interpretation",
-          "Controls and quantitative reasoning",
-          "Na/K data, iso-osmotic comparisons, genotype effects, recovery",
+          "Measurement and integrated protection",
+          "10–11",
+          "Source, clearance, injury, repair, acclimation",
+          "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
           "covered"
         ]
       ],
       "review": {
-        "scientific": "Reviewed selected syllabus and source records (Munns & Tester; Qiu et al.; Bassil et al.; wheat HKT Nax2; halophyte reviews; van Zelm et al.; FAO). Distinguished tissue-specific HKT and vacuolar K/pH roles of NHX from blanket sodium-exclusion claims. Recomputed osmotic potentials -0.4955144 and -0.2477572 MPa, Na inward free energy -17.283 kJ/mol, EK -118.253 mV, H+ chemical energy -11.40964 kJ/mol, mass ratio 2.00087, RWC 75%, leakage 20%, Fv/Fm .65, SAR 8, ESP 15 and efflux 6; reviewed answer logic and illustrative data labeling.",
-        "editorial": "Separate review of 16-section learning progression, 134 distinct teaching paragraphs, captions, question wording and explanations, revision resources and reader compatibility. Revised 26 question sets, distributed correct positions equally, retained reader controls, checked SVG/ARIA/anchor targets and improved zoom focus return."
+        "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+        "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -56810,48 +57328,45 @@
       },
       "score": 95,
       "threshold": 95,
-      "score_basis": "Internal evidence-based self-assessment; deductions for selective source verification, complexity of some passages, static-only figure inspection, some simpler distractors and lack of interactive/accessibility runtime testing. Not external peer review.",
+      "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
       "static_checks": {
-        "teaching_words_pass": true,
-        "question_distribution_pass": true,
-        "answer_mapping_52_of_52": true,
-        "balanced_answer_positions": {
-          "A": 13,
-          "B": 13,
-          "C": 13,
-          "D": 13
-        },
         "duplicate_prose": 0,
         "duplicate_ids": 0,
         "broken_local_anchors": 0,
         "broken_zoom_targets": 0,
         "broken_aria_labelledby": 0,
-        "html_tag_stack_errors": 0,
-        "javascript_syntax_pass": true,
+        "svg_accessible_labels": 11,
+        "answer_positions": {
+          "A": 14,
+          "B": 14,
+          "C": 13,
+          "D": 15
+        },
         "canonical_pass": true,
-        "production_blob_roundtrip_exact": true,
-        "existing_menu_links_preserved": 305,
-        "existing_sitemap_entries_preserved": true
+        "javascript_syntax_pass": true,
+        "answer_mapping_pass": true,
+        "teaching_words_pass": true,
+        "question_distribution_pass": true
       },
       "limitations": [
-        "Desktop/mobile interactive rendering, keyboard and screen-reader runtime not tested.",
-        "Selected source records and syllabus checked; exhaustive full-text source verification and independent peer review not performed. MP SET checked through reproduced 2024 PDF, latest official MPPSC copy not independently confirmed.",
-        "Pages deployment and live content must be verified separately."
+        "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+        "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+        "GitHub Pages and live content require separate verification."
       ],
       "navigation": {
-        "previous": "6.H.04",
-        "previous_active": true,
-        "next": "6.H.06",
-        "next_active": false,
-        "method": "Reader resolves adjacent published menu links dynamically; unpublished links stay disabled."
+        "previous": "6.H.02",
+        "next": "6.H.04",
+        "previous_active": false,
+        "next_active": true,
+        "dynamic_menu": true
       },
       "publication": {
         "main_verified": false,
         "pages_verified": false,
         "live_verified": false,
-        "academy_published_count": 306,
-        "unit_published_count": 57,
-        "subunit_published_count": 3,
+        "academy_published_count": 307,
+        "unit_published_count": 58,
+        "subunit_published_count": 4,
         "next_pending_node_id": "6.H.02"
       }
     },
@@ -56948,9 +57463,10 @@
         "6.H.01",
         "6.H.03",
         "6.H.04",
-        "6.H.05"
+        "6.H.05",
+        "6.H.06"
       ],
-      "published_node_count": 4,
+      "published_node_count": 5,
       "planned_node_count": 12,
       "complete": false
     }
@@ -56985,7 +57501,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -57024,7 +57540,8 @@
     "6.H.01",
     "6.H.03",
     "6.H.04",
-    "6.H.05"
+    "6.H.05",
+    "6.H.06"
   ],
   "unit6h_planned_node_count": 12
 }

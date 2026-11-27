@@ -335,3 +335,10 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - Subunit 6.E: 7/7 (complete); Unit 06: 41/66; Academy: 290/723. Reconciled concurrent index publication(s): 6.F.02. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
 
 - 6.G.01 — [Foundations of Plant Specialized Metabolism](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-specialized-metabolism.html); editorial/static checks completed; Subunit 6.G: 9/10 linked at registration; live verification pending.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.F.06 — [Phloem Architecture, Source–Sink Relations and the Pressure-Flow Hypothesis](https://rahulthakurpatan.github.io/lifescienceacademy/phloem-architecture-source-sink-relations-and-the-pressure-flow-hypothesis.html); internal academic and static review completed; Pages verification pending.
+- Teaching prose: 10877 words, 124 paragraphs, 7 SVGs and 34 explained questions; no browser test.
+- Subunit 6.F: 7/8; Unit 06: 47/66; Academy: 296/723. Next unpublished in 6.F: 6.F.01. Next global pending: 6.B.04. Reconciled concurrent menu/sitemap/file records: 6.G.01, 6.G.05, 6.G.06, 6.G.09.

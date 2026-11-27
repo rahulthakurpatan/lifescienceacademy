@@ -6,7 +6,7 @@
 - Separate official CSIR Life Sciences syllabus, Unit 06.B: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf
 - MP SET Life Sciences Paper II, Unit 06.B: https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf
 - Official 6.B scope: “Citric acid cycle, plant mitochondrial electron transport and ATP synthesis, alternate oxidase, photorespiratory pathway.”
-- Architecture: **5 future full textbook chapters**, `6.B.01` through `6.B.05`, rather than artificial microchapters. The chapter count is editorial, not official syllabus numbering.
+- Architecture: **5 full textbook chapters**, `6.B.01` through `6.B.05`, rather than artificial microchapters. The chapter count is editorial, not official syllabus numbering.
 - **Scientific progression:** respiration sources → TCA reducing equivalents → mitochondrial electron transfer to oxygen → gradient-coupled ATP synthesis → AOX alternative terminal pathway → distinct photorespiratory carbon salvage circuit originating from Rubisco oxygenation. This is a causal **learning order**, not a claim that C2 photorespiration happens after mitochondrial ATP synthesis in living plants; plant pathways operate simultaneously and interact.
 - **Learning contract:** Conceptual understanding from basic definitions through NET/SET evidence, accurate biochemical stoichiometry with caveats, compartment diagrams and explained analytical questions. Write future content in connected chronological, natural scientific English, with no thin textbook pages, fabricated sources or question banks used as filler.
 - **Current publication distinction:** The roadmap describes five full reading chapters. Only validated and committed chapters are linked in the student-facing menu; unpublished nodes remain nonclickable.
@@ -121,5 +121,6 @@
 ## Publication checkpoint — 2026-11-27
 
 - 6.B.03 — [Oxidative Phosphorylation and ATP Synthesis in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html); internal academic QA 95/100; deployment verification pending.
-- Subunit 6.B: 1/5; Unit 06: 9/66; Academy: 258/723.
+- 6.B.02 — [Plant Mitochondrial Electron Transport Chain](https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.B: 2/5; Unit 06: 10/66; Academy: 259/723.
 - Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.

@@ -203,3 +203,6 @@
 
 - 6.D.06 — [Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 3/10; next unpublished in this subunit: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.
+
+- 6.D.09 — [Jasmonates: Wound Signaling and Herbivore Defense](https://rahulthakurpatan.github.io/lifescienceacademy/jasmonates-wound-signaling-and-herbivore-defense.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 4/10; next unpublished in 6.D: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.

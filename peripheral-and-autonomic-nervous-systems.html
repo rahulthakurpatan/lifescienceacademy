@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Peripheral nerves, autonomic pathways, neurotransmitters, receptor mechanisms, enteric networks and visceral reflex integration.">
+  <meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/peripheral-and-autonomic-nervous-systems.html">
+  <title>Peripheral and Autonomic Nervous Systems (7.D.07) | CSIR-NET Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 7</span><span>›</span><span>7.D Nervous System</span><span>›</span><strong>7.D.07</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">7.D.07</span><span>System Physiology: Animal</span></div><h1>Peripheral and Autonomic Nervous Systems</h1><p class="subtitle">Peripheral neural pathways, chemical transmission and autonomic integration of organ function.</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Spinal Cord, Neural Pathways and Reflex Integration">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Neuromuscular Transmission and Motor Unit Physiology">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#organisation">1. Peripheral communication and the problem of homeostasis</a><a href="#nerves">2. Cranial nerves, spinal nerves and peripheral ganglia</a><a href="#motor">3. Somatic output versus the autonomic relay</a><a href="#sympathetic">4. Thoracolumbar sympathetic organisation</a><a href="#parasympathetic">5. Craniosacral parasympathetic organisation</a><a href="#transmission">6. Chemical transmission and receptor-dependent responses</a><a href="#tone">7. Autonomic tone and organ-specific integration</a><a href="#enteric">8. Enteric networks and local visceral reflexes</a><a href="#evidence">9. Evidence: chemical transmission and experimental localisation</a><a href="#quantitative">10. Quantitative reasoning and illustrative data</a><a href="#references">References and further reading</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Peripheral and Autonomic Nervous Systems">
+          <div class="article-content" id="article">
+<section id="organisation"><h2>1. Peripheral communication and the problem of homeostasis</h2><p class="teaching-prose">A mammal that stands after lying down must simultaneously activate skeletal muscles, prevent an excessive fall in arterial pressure, and continue exchanging gases and moving food through the intestine. A single motor pathway cannot accomplish all these tasks in the same way. Skeletal muscles need commands that can change rapidly with intended movement, while the heart and blood vessels need adjustments that take place even when the animal is asleep. The peripheral nervous system provides the communication routes through which the central nervous system receives information and sends commands to tissues. Its autonomic component specialises in regulating internal organs, coordinating processes that support the organism rather than directly producing locomotion.</p>
+<p class="teaching-prose">The distinction between central and peripheral is primarily anatomical. The brain and spinal cord form the central nervous system, whereas most nerves, peripheral ganglia and nerve endings belong to the peripheral nervous system. A nerve consists of axons together with supporting cells and connective tissue; it is not a single neuron. Some of its axons may originate in the central nervous system, so the fact that a nerve is peripheral does not mean that every cell body associated with it lies outside the brain or spinal cord. A lower motor neuron provides a particularly clear example: the cell body is within the spinal cord, but much of its axon travels through a peripheral nerve to skeletal muscle.</p>
+<p class="teaching-prose">The distinction between sensory and motor is functional. An afferent pathway carries information towards the central nervous system; an efferent pathway carries commands away from it. In a typical spinal sensory neuron, a stimulus changes the electrical activity of a peripheral ending, and action potentials travel along an axon toward the cord. An efferent neuron may instead begin within the cord and conduct action potentials outwards. These terms describe the usual direction of information transfer in a functioning circuit, not an intrinsic property of action potentials that makes propagation in the opposite direction physically impossible. Artificial electrical stimulation of the middle of an axon can generate impulses in both directions.</p>
+<p class="teaching-prose">Somatic and visceral provide another functional classification. Somatic sensation includes signals from skin, joints and skeletal muscles; visceral sensation samples conditions in internal organs, such as distension of a hollow organ or deformation of an arterial wall. Somatic motor output supplies skeletal muscle. Visceral motor output supplies cardiac muscle, smooth muscle and glands and is generally called autonomic motor output. An autonomic reflex requires visceral sensory input in many circumstances, but sensory neurons must not be mistaken for the postganglionic motor neurons that execute the response. A mixed nerve may carry both afferent and efferent traffic, including somatic and visceral components.</p>
+<p class="teaching-prose">The word autonomic therefore does not mean that the system is completely independent of the brain. Autonomic output is closely regulated by the brainstem, spinal cord and hypothalamus. Emotional state, exercise, body temperature, eating and sleep can all alter autonomic activity. Some processes, especially enteric reflexes, have extensive local circuitry, but the activity of these circuits can still be adjusted by central signals. This combination of local operation and central coordination makes the physiological response both flexible and robust.</p></section>
+<section id="nerves"><h2>2. Cranial nerves, spinal nerves and peripheral ganglia</h2><p class="teaching-prose">A peripheral nerve is organised for both conduction and protection. Individual nerve fibres lie within delicate connective tissue called endoneurium. Groups of fibres form fascicles bounded by perineurium, which helps maintain the local chemical environment around the fibres. Epineurium surrounds and connects fascicles and carries larger blood vessels. Schwann cells support peripheral axons, forming myelin around many larger fibres and enclosing groups of smaller unmyelinated fibres. These arrangements allow different axons to conduct their own signals within a common cable without electrically merging into one continuous pathway.</p>
+<p class="teaching-prose">In humans, twelve pairs of cranial nerves are conventionally distinguished. The olfactory and optic pathways carry sensory information related to smell and vision respectively; the optic nerve is developmentally a central tract despite its traditional cranial nerve designation. The oculomotor, trochlear and abducens nerves control extraocular muscles, with the oculomotor nerve additionally carrying parasympathetic fibres for pupillary constriction and accommodation. The trigeminal nerve is the principal somatic sensory pathway for the face and also supplies muscles of mastication. The facial nerve controls facial expression, conveys taste from much of the anterior tongue and carries parasympathetic fibres associated with lacrimal and selected salivary glands. The vestibulocochlear nerve carries information about hearing and balance. The glossopharyngeal nerve contributes taste and pharyngeal sensation, carries important cardiovascular sensory fibres and supplies the parasympathetic pathway to the parotid gland. The vagus has extensive visceral sensory and motor connections and supplies parasympathetic pathways to thoracic and much of the abdominal viscera. The accessory and hypoglossal nerves supply selected neck and tongue muscles respectively.</p>
+<p class="teaching-prose">The useful way to learn this overview is not to memorise twelve disconnected names. Classify the fibres by the direction and kind of information they carry, and ask which effectors or receptors are linked to the brain. For example, the vagus nerve carries sensory information from internal organs as well as motor commands to them. A change recorded in an intact vagus cannot automatically be called a change in parasympathetic efferent discharge. A recording method or anatomical preparation must distinguish the fibre populations.</p>
+<p class="teaching-prose">There are thirty-one pairs of spinal nerves in humans: eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal. Each is connected to the spinal cord by dorsal and ventral roots. The dorsal root conveys sensory fibres and has an associated dorsal root ganglion containing the cell bodies of sensory neurons. Most spinal sensory neurons are pseudounipolar, with a single process that branches into peripheral and central processes. The ventral root conveys motor axons, including somatic motor axons and, at appropriate spinal levels, preganglionic autonomic axons. The roots join to form a mixed spinal nerve that divides into dorsal and ventral rami. Both rami generally contain sensory and motor fibres. Thus dorsal ramus and dorsal root are not interchangeable anatomical terms.</p>
+<p class="teaching-prose">A peripheral ganglion is a collection of neuronal cell bodies outside the central nervous system. The dorsal root ganglion differs fundamentally from an autonomic motor ganglion. In the former, the sensory neuron does not ordinarily need to communicate with a second neuron to transmit its signal into the spinal cord. Its cell body is attached to the conducting axonal branch. In an autonomic ganglion, a preganglionic neuron communicates chemically with a postganglionic neuron, creating a genuine relay in the motor pathway. Consequently, a drug that blocks transmission at ganglionic nicotinic receptors is expected to inhibit conventional autonomic motor relays, not to interrupt all sensory signals passing through dorsal root ganglia.</p>
+<p class="teaching-prose">A plexus is a network in which nerve fibres are redistributed into different named branches. The brachial plexus, for instance, distributes fibres from several spinal levels to the upper limb. Redistribution means that a lesion of one spinal root has a different anatomical pattern from a lesion of one distal peripheral nerve. This is an important experimental distinction: impairment of sensation and contraction in the same region may indicate disruption of a mixed nerve rather than independent disorders of sensory receptors and muscle.</p></section>
+<section id="motor"><h2>3. Somatic output versus the autonomic relay</h2><p class="teaching-prose">The simplest somatic motor pathway is formed by a lower motor neuron with its cell body in the brainstem or ventral horn of the spinal cord and its axon ending directly on skeletal muscle fibres. An action potential arrives at the nerve terminal, calcium enters, and acetylcholine is released. Acetylcholine activates muscle-type nicotinic receptors at the neuromuscular junction. The resulting depolarisation normally triggers a muscle action potential. Later chapters explain how this electrical event recruits calcium from the sarcoplasmic reticulum and initiates force production. Here the important principle is that the peripheral efferent route contains one motor neuron rather than a chain of two.</p>
+<p class="teaching-prose">Most autonomic motor routes contain two neurons arranged in series. A preganglionic neuron has its cell body in the central nervous system and sends its axon to a peripheral autonomic ganglion. There acetylcholine released from the preganglionic ending activates neuronal nicotinic receptors on a postganglionic neuron. If the postsynaptic cell reaches threshold, it sends action potentials through its own axon to the effector. The transmitter released at the effector depends on the division and particular tissue. Cardiac muscle, smooth muscle and glandular cells respond according to their receptor complement and intracellular machinery.</p>
+<p class="teaching-prose">The relay introduces an opportunity for convergence and divergence. Several preganglionic neurons may influence the same postganglionic neuron, whereas a single preganglionic axon can branch to influence several ganglion cells. Divergence can coordinate a response across a region of tissue without requiring a distinct central axon for each effector cell. Convergence permits several central signals to influence the likelihood of postganglionic firing. It would nevertheless be incorrect to assume that all ganglia amplify every incoming signal in a fixed ratio. Synaptic strength, timing and the excitability of ganglion cells determine the actual transformation of input into output.</p>
+<p class="teaching-prose">The difference between a somatic junction and an autonomic neuroeffector junction is also spatial. A skeletal muscle fibre usually receives its motor input at a highly organised end plate. Many postganglionic autonomic axons, by contrast, contain varicosities, swellings distributed along branches. Transmitter released from these sites can act over short distances on multiple effector cells rather than across a single narrowly defined synaptic cleft. In electrically coupled smooth muscle, the response may spread between neighbouring cells. Local transmitter diffusion, uptake, receptor abundance and tissue coupling therefore shape the spatial reach of autonomic commands.</p>
+<p class="teaching-prose">There is no universal rule that somatic responses are voluntary and autonomic responses unconscious. The withdrawal reflex is an involuntary somatic motor response; the effector is skeletal muscle. Changes in autonomic activity may follow voluntary behaviour, such as exercise or controlled breathing, despite the fact that the visceral efferent pathway remains autonomic. The criterion that resolves ambiguous examples is the type of effector and motor organisation, not whether a conscious decision preceded the response.</p></section>
+<section id="sympathetic"><h2>4. Thoracolumbar sympathetic organisation</h2><p class="teaching-prose">In the conventional mammalian description, sympathetic preganglionic cell bodies occupy the intermediolateral region of the thoracic and upper lumbar spinal cord, approximately T1 to L2 in humans. The name thoracolumbar describes where the central neurons originate rather than limiting the geographical distribution of sympathetic targets. Sympathetic fibres reach tissues throughout the head, trunk and limbs. The paired sympathetic trunks, which are chains of paravertebral ganglia connected by axons, make this extensive distribution possible.</p>
+<p class="teaching-prose">A preganglionic axon leaves the spinal cord via a ventral root, joins the spinal nerve briefly and then enters the sympathetic trunk through a white ramus communicans. The pale appearance of white rami reflects the myelination of many fibres. In the trunk, it may synapse on a ganglion cell at the same level, travel upwards or downwards to a ganglion at a different level, or pass through the trunk without synapsing. These alternatives explain why tracing the spinal segment from which a nerve first emerges is not sufficient to locate its peripheral ganglion.</p>
+<p class="teaching-prose">Postganglionic fibres destined for the body wall commonly return to a spinal nerve through a gray ramus communicans. They distribute with peripheral nerves to structures such as eccrine sweat glands, arrector pili and blood vessels. Gray rami contain predominantly unmyelinated postganglionic axons and occur at spinal levels beyond the restricted region of white rami. The distinction between white and gray rami is especially useful in examination problems involving selective interruption of sympathetic pathways.</p>
+<p class="teaching-prose">Some sympathetic preganglionic fibres pass through the sympathetic trunk into abdominal splanchnic nerves and synapse in prevertebral ganglia, for example those associated with the coeliac or mesenteric arteries. Postganglionic fibres then reach abdominal viscera, often travelling with blood vessels. This arrangement places the relay closer to particular organ territories than a paravertebral route would. Not every splanchnic nerve contains the same kind of fibre: cardiopulmonary splanchnic nerves commonly carry postganglionic sympathetic fibres, whereas pelvic splanchnic nerves carry sacral parasympathetic preganglionic fibres. Names alone are insufficient to infer neurotransmission.</p>
+<p class="teaching-prose">An important route goes to chromaffin cells in the adrenal medulla. These cells share developmental and functional characteristics with sympathetic postganglionic neurons. Preganglionic acetylcholine activates nicotinic receptors on chromaffin cells, leading to secretion of catecholamines into the bloodstream. Thus the relay does not continue through a conventional postganglionic axon to each individual target. Circulating epinephrine and norepinephrine can reach receptor-bearing cells at a distance. Their temporal distribution differs from transmitter released at local nerve terminals: secretion, blood transport and clearance determine the endocrine response.</p>
+<p class="teaching-prose">The anatomical distribution of sympathetic ganglia provides a basis for coordinated responses but does not imply that the whole sympathetic system always fires as a unit. During thermal stress, sympathetic activity to sweat glands can change differently from activity to vascular smooth muscle in another territory. During exercise, sympathetic support of circulation is combined with local metabolic vasodilation in active tissues. The relevant physiological question is which population of sympathetic neurons is being recruited, at which target, and against which background of local and endocrine regulation.</p></section>
+<section id="parasympathetic"><h2>5. Craniosacral parasympathetic organisation</h2><p class="teaching-prose">Parasympathetic preganglionic neurons are conventionally described as forming a craniosacral outflow. Cranial components arise from the brainstem and travel in cranial nerves III, VII, IX and X. Sacral components arise from the sacral spinal cord, particularly S2 to S4 in the conventional human description, and travel in pelvic splanchnic nerves. Most parasympathetic ganglia are close to or within the target organ. Therefore the preganglionic axon is often long and the postganglionic axon short, in contrast to many sympathetic pathways. These are typical anatomical relationships rather than mathematical definitions of the divisions.</p>
+<p class="teaching-prose">The oculomotor parasympathetic pathway relays through the ciliary ganglion. Its postganglionic fibres influence the circular sphincter of the iris and ciliary muscle. Contraction of the sphincter narrows the pupil, changing the quantity of light entering the eye. The facial nerve carries pathways associated with the pterygopalatine and submandibular ganglia, whereas the glossopharyngeal nerve carries the pathway relaying in the otic ganglion to the parotid gland. These connections show that parasympathetic control is not confined to the digestive tract and heart.</p>
+<p class="teaching-prose">The vagus connects the brainstem to the heart, respiratory tract and substantial portions of the gastrointestinal system. It is a mixed cranial nerve, with many sensory fibres and several kinds of motor fibres. The vagal parasympathetic output to the heart influences pacemaker rate and atrioventricular conduction, while gastrointestinal vagal output frequently acts through enteric neural networks. The sacral parasympathetic outflow contributes to regulation of the distal bowel, urinary bladder and reproductive structures. No inference about the exact target should be made merely because a fibre is called vagal or pelvic.</p>
+<p class="teaching-prose">A near-organ ganglion can organise responses in a specific region rather than distributing a message across the entire body. This local selectivity is particularly useful when one digestive segment needs adjustment without identical responses in every organ. The same anatomical principle explains why parasympathetic denervation of a particular target need not abolish parasympathetic activity elsewhere.</p>
+<p class="teaching-prose">Cranial and sacral parasympathetic pathways are described together because of their conventional anatomical and physiological organisation. They share the common use of cholinergic preganglionic transmission and predominantly cholinergic postganglionic transmission. Their functions are not identical, however. The effect of salivary parasympathetic activity differs from the effect of cardiac vagal activity because the gland and heart express different receptor subtypes and downstream mechanisms. The next section therefore follows the transmitter from the neural ending to the receiving tissue.</p></section>
+<section id="transmission"><h2>6. Chemical transmission and receptor-dependent responses</h2><p class="teaching-prose">Acetylcholine is the characteristic fast transmitter at both sympathetic and parasympathetic ganglia. It is synthesised from choline and acetyl coenzyme A by choline acetyltransferase and loaded into vesicles. A presynaptic action potential opens voltage-gated calcium channels; calcium entry promotes vesicle fusion. At the ganglion, acetylcholine binds neuronal nicotinic receptors, which are ligand-gated cation channels. Opening of these channels usually depolarises the receiving cell because the combined reversal potential lies above its resting membrane potential. Acetylcholinesterase hydrolyses extracellular acetylcholine, restricting the duration of the signal, and choline can be taken back up for reuse.</p>
+<p class="teaching-prose">Most parasympathetic postganglionic neurons also release acetylcholine, but the characteristic receptors at the visceral effector are muscarinic receptors. These belong to the G protein-coupled receptor family rather than the ionotropic nicotinic family. The distinction has a powerful experimental implication: blocking a muscarinic receptor can suppress a response at a target organ while leaving fast nicotinic transmission through the corresponding ganglion functional. Conversely, a ganglionic nicotinic blocker interrupts the upstream relay even if muscarinic receptors remain fully capable of responding to acetylcholine applied directly to the organ.</p>
+<p class="teaching-prose">Two major muscarinic examples illustrate why the identity of a transmitter cannot predict the sign of a physiological response. M2 receptors in the heart couple principally to Gi/o proteins, reducing adenylyl cyclase activity and cyclic AMP signalling. G protein subunits also activate a potassium conductance in relevant cardiac cells. Together these actions reduce pacemaker depolarisation and can hyperpolarise the membrane, increasing the time required to reach threshold. M3 receptors on many glandular and smooth muscle cells instead couple principally to Gq/11 proteins. Phospholipase C activation generates inositol trisphosphate and diacylglycerol. The increase in intracellular calcium promotes processes such as secretion or contraction in appropriate tissues. Both responses begin with acetylcholine, yet one slows a pacemaker and the other stimulates a cellular activity.</p>
+<p class="teaching-prose">Most sympathetic postganglionic neurons release norepinephrine. Its synthesis starts with tyrosine, proceeds through DOPA and dopamine, and culminates in norepinephrine production through dopamine beta-hydroxylase in secretory vesicles. Released norepinephrine activates adrenergic receptors. Removal from the vicinity of nerve endings occurs importantly through neuronal uptake; intracellular metabolism and other clearance pathways also contribute. This termination mechanism differs from the rapid extracellular enzymatic hydrolysis of acetylcholine.</p>
+<p class="teaching-prose">Adrenergic alpha and beta receptors are metabotropic. Alpha1 receptors generally couple to Gq/11, increasing phospholipase C signalling and cytosolic calcium. In vascular smooth muscle this tends to increase contractile activity. Alpha2 receptors typically couple to Gi/o; presynaptic alpha2 receptors can restrain additional norepinephrine release, providing local negative feedback. Beta receptors generally couple to Gs and promote cyclic AMP formation. Beta1 activation in cardiac pacemaker and contractile cells increases the rate or strength of cardiac activity. Beta2 activation in selected smooth muscles often promotes relaxation, partly through cyclic AMP-dependent regulation of contractile machinery. The same rise in cyclic AMP therefore does not imply the same mechanical response in every tissue.</p>
+<p class="teaching-prose">The beta2 receptor is especially important for understanding the difference between sympathetic nerve activity and circulating catecholamine activity. Bronchial smooth muscle can respond to beta2 stimulation with relaxation, and circulating epinephrine is an important physiological adrenergic signal. Direct sympathetic innervation of human airway smooth muscle is relatively sparse, so a simplistic diagram showing abundant sympathetic nerve endings directly dilating every human airway would be misleading.</p>
+<p class="teaching-prose">An exception to the usual sympathetic adrenergic rule is the innervation of most human eccrine sweat glands. The postganglionic neurons are sympathetic by their anatomical origin, but release acetylcholine acting chiefly on muscarinic receptors to stimulate sweating. The adrenal medulla represents a different exception: the preganglionic neuron releases acetylcholine onto chromaffin cells, which secrete catecholamines into blood. Neither exception changes the definition of sympathetic outflow. Division identity follows anatomy and circuit organisation, not the transmitter found at every terminal.</p>
+<p class="teaching-prose">Autonomic terminals may also release cotransmitters. ATP, neuropeptide Y, vasoactive intestinal peptide and nitric oxide-associated pathways provide examples in appropriate tissues. Cotransmission can modify the amplitude, duration or character of a response, particularly when stimulation frequency changes. A simple acetylcholine versus norepinephrine classification remains a useful starting framework, but it is not an exhaustive description of each autonomic synapse. In experimental interpretation, a residual response after receptor blockade may reflect parallel transmitters, incomplete blockade or local effector activity; these possibilities need to be distinguished before assigning a mechanism.</p></section>
+<section id="tone"><h2>7. Autonomic tone and organ-specific integration</h2><p class="teaching-prose">An organ's resting activity is rarely identical to its activity in the complete absence of neural input. Autonomic tone refers to ongoing neural activity that adjusts the operating state of a target. If an autonomic pathway continuously causes a partial contraction or slowing, its withdrawal can produce a response in the opposite direction without activation of an antagonistic pathway. Many systemic resistance vessels have ongoing sympathetic vasoconstrictor tone. Reducing that tone allows vascular smooth muscle to relax, even though the vessel may receive little or no direct parasympathetic innervation.</p>
+<p class="teaching-prose">The sinoatrial node generates spontaneous activity through intrinsic pacemaker mechanisms. Both sympathetic and parasympathetic nerves adjust this activity. At rest in many healthy adult humans, vagal influence contributes to a heart rate below the intrinsic rate measured when both autonomic influences are blocked. An increase in heart rate during the onset of exercise can involve removal of vagal inhibition before large increases in sympathetic drive develop. At greater workloads, increased sympathetic activity adds to the chronotropic and inotropic response. This illustrates how reciprocal and independent changes in two pathways can produce a graded physiological adjustment.</p>
+<p class="teaching-prose">Dual innervation does not guarantee an antagonistic effect at every target. Both divisions can promote salivary secretion, but the amount and composition of secretion depend on the receptors and glandular responses involved. In the iris, the sympathetic pathway promotes contraction of radial dilator muscle, whereas parasympathetic activity contracts circular sphincter muscle. In this case antagonism at the organ level arises because two distinct muscles act mechanically in opposite directions. It is not necessary for sympathetic and parasympathetic neurons to act on the same individual cell.</p>
+<p class="teaching-prose">The urinary bladder provides an example in which several effector systems must be coordinated. During storage, sympathetic pathways favour detrusor relaxation and outlet resistance, while somatic pudendal motor activity supports the external urethral sphincter. During voiding, sacral parasympathetic output promotes detrusor contraction and coordinated changes in outlet activity permit flow. The somatic sphincter must relax appropriately. A strong detrusor contraction without a corresponding decrease in outlet resistance does not necessarily yield effective voiding. This functional interpretation is more useful than memorising one autonomic division as excitatory and the other inhibitory.</p>
+<p class="teaching-prose">During an acute fall in arterial pressure, a reduction in stretch of arterial baroreceptors decreases their afferent discharge. Central cardiovascular circuits respond by increasing sympathetic drive and reducing cardiac parasympathetic drive. The resulting changes in heart activity, venous capacitance and arteriolar resistance help restore pressure. The efferent mechanism has to be distinguished from the sensory event that initiates it. A damaged afferent pathway could prevent an appropriate response even if all peripheral autonomic motor axons and receptors remain functional.</p>
+<p class="teaching-prose">The familiar labels fight or flight and rest and digest are useful summaries of some coordinated patterns, not laws of simultaneous activation and inactivity. A resting individual still requires sympathetic vascular tone, and an exercising individual still retains autonomic regulation of multiple organ systems. The patterns change with the challenge, the tissue and the time course. An examination question that specifies the organ and receptor should be answered from those mechanisms rather than from the slogan alone.</p></section>
+<section id="enteric"><h2>8. Enteric networks and local visceral reflexes</h2><p class="teaching-prose">The gastrointestinal wall contains an extensive nervous system organised into ganglia and connecting fibres. The myenteric plexus lies between the main circular and longitudinal smooth muscle layers, while the submucosal plexus is located closer to the mucosal surface. The myenteric network contributes especially to the organisation of motility; the submucosal network contributes especially to secretion and local regulation associated with the mucosa. These are predominant functional associations, not impermeable boundaries between two independent networks.</p>
+<p class="teaching-prose">An enteric circuit can contain sensory neurons, interneurons and excitatory or inhibitory motor neurons. This organisation allows a local stimulus to be converted into an organised response without first travelling to the brain. Consider distension caused by a bolus in a segment of intestine. Local mechanosensitive neural elements detect deformation, and enteric circuitry can organise contraction on the oral side and relaxation on the anal side. Excitatory motor pathways commonly use acetylcholine and tachykinins, whereas inhibitory motor pathways can use nitric oxide and other transmitters. The resulting gradient of pressure and resistance helps propel luminal contents in the aboral direction.</p>
+<p class="teaching-prose">Relaxation ahead of a bolus is not passive absence of neural activity in all cases. Inhibitory motor neurons can actively reduce smooth muscle contraction. If an experimental manipulation suppresses inhibitory transmission while leaving excitation intact, the segment ahead may fail to relax normally. Contraction may still occur behind the bolus, yet coordinated propulsion can be impaired. Measuring total force alone could therefore lead to the wrong conclusion about the effectiveness of motility.</p>
+<p class="teaching-prose">Interstitial cells of Cajal contribute to rhythmic electrical activity and coordination of gut smooth muscle. They are not a substitute for enteric neurons: a basic electrical rhythm does not by itself establish the full spatial organisation of a peristaltic response. Smooth muscle excitability, pacemaker activity and neural excitation or inhibition interact to determine whether a region contracts, relaxes or remains relatively quiescent. The distinction matters in isolated-organ experiments, where neural and myogenic components can survive removal of central connections.</p>
+<p class="teaching-prose">Extrinsic sympathetic and parasympathetic pathways modulate enteric function. Parasympathetic activity often supports digestive motility and secretion through enteric circuits, while sympathetic activity often suppresses these functions and adjusts vascular supply. The precise action depends on the digestive region and physiological state. An isolated segment of intestine can retain local reflex activity when its extrinsic nerves are severed, but this does not mean the intact animal's digestive regulation is independent of central signals, hormones or luminal conditions.</p>
+<p class="teaching-prose">A short visceral reflex is completed locally, whereas a long reflex involves the central nervous system. A vagovagal reflex, for example, can send sensory information from a digestive organ to the brainstem and return motor commands through vagal pathways. Both the local and central routes may operate during a meal. The local network rapidly adjusts regional responses while the long reflex coordinates distant regions and whole-body state. The broader digestive consequences belong to digestive physiology; the central lesson here is that the peripheral nervous system contains not only cables and relays but also integrative circuits.</p></section>
+<section id="evidence"><h2>9. Evidence: chemical transmission and experimental localisation</h2><p class="teaching-prose">Otto Loewi's 1921 frog-heart experiments provided a classical way to distinguish direct electrical transmission from a transferable chemical signal. Stimulation of the vagus attached to one beating heart slowed that heart. Fluid from the first preparation was then transferred to a second heart, which also slowed despite not receiving the original electrical stimulation. Loewi's Nobel lecture describes this transferable activity and the subsequent evidence linking it to acetylcholine. The observation is especially significant because electrical continuity between the nerves of the two hearts was unnecessary.</p>
+<p class="teaching-prose">The logic of the experiment can be expressed as a comparison between two hypotheses. If the first heart's slowing depended entirely on an electrical signal that could only travel through the stimulated nerve, transfer of the bathing fluid should not reproduce the response in a separate heart. If stimulation instead released a biologically active chemical into the fluid, the recipient heart might respond. A modern teaching control would transfer fluid obtained without nerve stimulation and compare the recipient response under matched conditions of temperature, volume and ionic composition. The transfer observation supports chemical mediation; identifying the molecule requires additional chemical and pharmacological evidence.</p>
+<p class="teaching-prose">A modern isolated preparation can distinguish receptor location from pathway identity. Imagine stimulating a preganglionic sympathetic fibre supplying a vascular preparation and measuring smooth muscle force. Blocking neuronal nicotinic receptors at the ganglion can suppress the response to preganglionic stimulation. If the postganglionic fibre is then stimulated downstream from the ganglion, the vascular response may return. The downstream stimulation bypasses the blocked synapse. Direct application of an adrenergic agonist to the vascular preparation provides a further test of effector receptor function.</p>
+<p class="teaching-prose">The reverse experiment helps distinguish a ganglionic defect from an effector receptor defect. Blocking alpha1 receptors on smooth muscle may reduce the contraction elicited by either preganglionic or postganglionic sympathetic stimulation. Direct alpha1 agonist stimulation is also impaired if the relevant receptors remain blocked. An investigator should nevertheless consider whether alternative receptors, cotransmission or incomplete drug selectivity contribute to the remaining signal. Measuring the electrical firing of the postganglionic axon independently of the contractile response separates conduction from tissue activation.</p>
+<p class="teaching-prose">This experimental framework applies equally to the parasympathetic pathway. A muscarinic antagonist acting at the heart can prevent vagal slowing without abolishing all action potentials conducted in the vagus. A ganglionic nicotinic antagonist, by contrast, interferes with the relay from preganglionic to postganglionic neurons. Because these interventions affect different sites, the pattern of responses to stimulation at several levels carries more information than a single response to a drug.</p>
+<p class="teaching-prose">The enteric system provides another form of causal evidence. If a bowel segment still produces organised responses to local distension after isolation from extrinsic nerves, central input is not necessary for that particular response under the tested conditions. If the response disappears when local neural transmission is suppressed, this supports a role for local circuits rather than a purely mechanical effect of the bolus. Neither result proves that extrinsic innervation is irrelevant in an intact animal, because an isolated tissue cannot reproduce all endocrine, behavioural and circulatory interactions. The strength of the conclusion must match the experimental preparation.</p></section>
+<section id="quantitative"><h2>10. Quantitative reasoning and illustrative data</h2><p class="teaching-prose">The length and conduction velocity of peripheral fibres influence the timing of autonomic responses. For an axon of length L measured in metres and a constant conduction speed v measured in metres per second, the idealised propagation time is L divided by v, in seconds. In a two-neuron pathway the total latency includes propagation along both axons, a ganglionic synaptic delay and the time required for transmission and response at the effector. An estimate based only on axonal velocity ignores these additional processes. It also assumes that the fibres conduct at approximately constant speed under the conditions examined.</p>
+<p class="teaching-prose">Consider an illustrative sympathetic pathway with a preganglionic length of 0.10 m and a conduction speed of 10 m/s. Its propagation time is 0.010 s, or 10 ms. A postganglionic length of 0.30 m and speed of 1 m/s give a propagation time of 0.30 s, or 300 ms. If a ganglionic delay of 2 ms is assumed, the estimated arrival at the final nerve ending is 312 ms after initiation of the preganglionic impulse. This is not a measured human reflex latency. It omits sensory conduction, central processing and the kinetics of the neuroeffector response.</p>
+<p class="teaching-prose">A second illustrative calculation concerns heart rate. The interval between successive beats is approximately 60 divided by heart rate in beats per minute, when expressed in seconds. A rate of 75 beats/min corresponds to a cycle length of 0.80 s. Slowing to 60 beats/min extends the interval to 1.00 s, an increase of 0.20 s. The two values describe a change in rhythmic timing but do not by themselves establish whether the cause was increased vagal activity, reduced sympathetic activity, intrinsic pacemaker changes or an alteration in conduction. To determine the mechanism, experiments must measure or manipulate relevant pathways.</p>
+<p class="teaching-prose">Receptor occupancy offers a simple connection between chemical signals and responses. In an ideal equilibrium model for a single receptor population, fractional occupancy is C divided by the sum of C and KD, where C is the free ligand concentration and KD is the equilibrium dissociation constant in the same concentration units. If C equals KD, half the receptors are occupied. If C is nine times KD, occupancy is 0.90. This relationship assumes an independent binding population at equilibrium, without cooperativity, and describes binding rather than physiological effect. Receptor reserve, signal amplification, desensitisation and competing pathways can cause the concentration-response curve to differ from the occupancy curve. Students should not equate fifty percent receptor occupancy with exactly fifty percent change in heart rate or smooth muscle force.</p>
+<p class="teaching-prose">These three examples show why a numerical result is most useful when accompanied by a statement of what has been measured or modelled. A conduction delay describes arrival of a nerve signal, not necessarily onset of an organ response. A heart-rate change describes the organ, not the division responsible. An occupancy calculation describes binding, not the full downstream biological response. The distinction between these levels is central to interpreting autonomic experiments.</p></section><section id="references"><h2>References and further reading</h2><ol><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system">OpenStax Anatomy and Physiology 2e — Structure and function of the nervous system</a></li><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system">OpenStax Anatomy and Physiology 2e — Autonomic divisions</a></li><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/15-2-autonomic-reflexes-and-homeostasis">OpenStax Anatomy and Physiology 2e — Autonomic reflexes</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK11023/">Purves and colleagues, Neuroscience, 2nd ed. — The visceral motor system</a></li><li><a href="https://www.nobelprize.org/prizes/medicine/1936/loewi/lecture/">Loewi, Nobel Lecture (1936) — Chemical transmission of nerve action</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/32152479/">Enteric nervous system: sensory transduction, neural circuits and gastrointestinal motility</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK539845/">Anatomy, Autonomic Nervous System — NCBI Bookshelf</a></li></ol></section>
+</div>
+        </article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology: Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged scientific diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // Resolve adjacent chapters from published curriculum links, including later publications.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.D.06","previous-node","← "],["7.D.08","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      document.querySelectorAll(".figure-panel svg").forEach(figure=>{const button=document.createElement("button");button.type="button";button.className="tool-btn";button.textContent="Enlarge diagram";figure.parentNode.append(button);button.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return;const clone=figure.cloneNode(true);clone.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);const refs=clone.getAttribute("aria-labelledby");if(refs)clone.setAttribute("aria-labelledby",refs.split(" ").map(id=>"zoom-"+id).join(" "));byId("zoom-art").replaceChildren(clone);dialog.showModal();});});
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

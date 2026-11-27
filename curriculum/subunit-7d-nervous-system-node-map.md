@@ -167,3 +167,10 @@ All explicit official topic groups have an assigned substantive home. Synaptic i
 - 7.D.05 — [Gross Neuroanatomy and Functional Organisation of the Brain](https://rahulthakurpatan.github.io/lifescienceacademy/gross-neuroanatomy-and-functional-organisation-of-the-brain.html); internal QA 95/100, static audit passed, Pages and live verification pending.
 - Teaching prose: 14,924 lexical words, 161 paragraphs; 17 original SVGs, 4 tables, 52 explained questions (22 Part B, 22 Part C, 8 SET/integrated), 20 misconceptions and 16 recall prompts.
 - Subunit 7.D: 8/10; Unit 07: 32/90; Academy: 347/723. Next global unpublished node: 7.D.06 — Spinal Cord, Neural Pathways and Reflex Integration.
+
+
+### Publication checkpoint — 2026-11-27 — 7.D.06 and 7.D.08 recovery
+
+- 7.D.06 — [Spinal Cord, Neural Pathways and Reflex Integration](https://rahulthakurpatan.github.io/lifescienceacademy/spinal-cord-neural-pathways-and-reflex-integration.html); internal QA 95/100; 14,695 genuine teaching words, 12 original SVGs, 52 explained questions. Recovery audit: `curriculum/qa/7.D.06-publication-audit.md`. Pages and direct live verification pending.
+- 7.D.08 — [Neuromuscular Transmission and Motor Unit Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/neuromuscular-transmission-and-motor-unit-physiology.html); internal QA 95/100; 13,793 genuine teaching words, 12 original SVGs, 54 explained questions. Recovery audit: `curriculum/qa/7.D.08-publication-audit.md`. Pages and direct live verification pending.
+- Subunit 7.D: 10/10, complete; Unit 07: 34/90; Academy: 349/723. Next global unpublished node: 7.E.01 — Foundations of Sensory Physiology and Signal Transduction.

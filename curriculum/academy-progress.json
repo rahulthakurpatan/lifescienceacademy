@@ -4,16 +4,16 @@
   "unit": "05",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "5.B.01",
-  "title": "Animal Gametogenesis I: Germ Cells and Spermatogenesis",
+  "node_id": "5.B.03",
+  "title": "Sperm–Egg Recognition in Animals: Surface Molecules and Species Specificity",
   "subunit": "5.B",
   "topic": "Gametogenesis, Fertilization and Early Development",
-  "slug": "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
+  "slug": "sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
   "next_pending_node_id": "5.B.02",
   "next_pending_node_title": "Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
-  "published_node_count": 204,
+  "published_node_count": 205,
   "publication_allowed": true,
-  "main_baseline_sha": "849e78e5f4c21ddce5de22033afab58345e11e21",
+  "main_baseline_sha": "152e533885a0081556da2ab0cb1feaabd0645495",
   "quality_hold": false,
   "next_required_action": "Verify GitHub Pages deployment; next pending 5.B.02 — Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
   "planned_node_count": 57,
@@ -22,98 +22,140 @@
   "curriculum_roadmap": "curriculum/unit-05-developmental-biology-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-5b-gametogenesis-fertilization-early-development-node-map.md",
   "last_qa": {
-    "node_id": "5.B.01",
-    "title": "Animal Gametogenesis I: Germ Cells and Spermatogenesis",
-    "slug": "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
+    "node_id": "5.B.03",
+    "title": "Sperm–Egg Recognition in Animals: Surface Molecules and Species Specificity",
+    "slug": "sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
     "unit": "05",
     "subunit": "5.B",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "source_draft_branch": "draft/5-b-01-spermatogenesis",
-    "source_draft_commit_sha": "f0fe6c1843630e797dc294bd3c52239c7873966f",
-    "publication_base_sha": "849e78e5f4c21ddce5de22033afab58345e11e21",
-    "production_chapter_blob_sha": "103dd240bb2bf1d8de8e7d04f1557e49a3174005",
+    "source_draft_commit_sha": "e233c2dd6adabf73722f8d9669af6a4bbaf66176",
+    "initial_main_head": "849e78e5f4c21ddce5de22033afab58345e11e21",
+    "publication_base_sha": "152e533885a0081556da2ab0cb1feaabd0645495",
+    "production_chapter_blob_sha": "74861678ec28e1602ef9c20df3b2dedeeec29cb9",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 14428,
-      "visible_article_words": 19497,
-      "teaching_paragraphs": 139,
-      "html_bytes": 219575,
-      "theory_sections": 19,
+      "genuine_teaching_words": 14777,
+      "visible_article_words": 21245,
+      "teaching_paragraphs": 136,
+      "html_bytes": 210336,
+      "theory_sections": 15,
       "svg": 12,
       "accessible_svg": 12,
-      "tables": 2,
+      "tables": 3,
+      "worked_examples": 5,
       "part_b": 20,
-      "part_c": 22,
-      "other_questions": 12,
-      "total_questions": 54,
-      "explained_answers": 54,
-      "references": 12,
-      "misconceptions": 18,
-      "active_recall": 14,
+      "part_c": 20,
+      "other_questions": 10,
+      "total_questions": 50,
+      "explained_answers": 50,
+      "references": 15,
+      "misconceptions": 17,
+      "active_recall": 15,
       "answer_positions": {
         "A": 13,
-        "B": 14,
-        "C": 13,
-        "D": 14
+        "B": 13,
+        "C": 12,
+        "D": 12
       },
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
       "broken_internal_anchors": [],
-      "broken_zoom_targets": []
+      "broken_zoom_targets": [],
+      "broken_aria_targets": []
     },
-    "word_count_method": "Unicode lexical tokens counted from actual saved p.teaching-prose paragraphs, excluding headings, tables, illustrations, questions, answers, revision, navigation and references.",
-    "coverage_matrix": {
-      "germline": "Sections 2–3",
-      "gonadal_support_and_stem_cells": "Sections 4–8",
-      "ploidy_and_meiosis": "Sections 9–11",
-      "cytoplasmic_bridges": "Section 12",
-      "spermiogenesis_and_sperm_structure": "Sections 13–15",
-      "release_maturation_capacitation": "Section 16",
-      "quantitative_and_experimental_reasoning": "Sections 17–18",
-      "comparative_biology": "Section 19"
+    "word_count_method": "Unicode letter/number tokens with internal hyphen/apostrophe from saved p.teaching-prose only; article text count includes SVG labels and collapsed answers after expansion, excludes script/style.",
+    "scope": {
+      "verified_syllabi": [
+        "Revised CSIR–UGC–DBT LS&BT Unit 5.B p.6",
+        "Separate CSIR-NET LS Unit 5.B p.4",
+        "MP SET 2024 Unit 5.B mirrored syllabus; official MPPSC-hosted copy not verified"
+      ],
+      "roadmap": "curriculum/subunit-5b-gametogenesis-fertilization-early-development-node-map.md",
+      "microtopics": [
+        "Encounter and species specificity: sections 1,4,13",
+        "Sea urchin jelly and vitelline layer: 3–6",
+        "Mammalian cumulus and zona: 3,8–10",
+        "Capacitation: 7",
+        "Acrosomal exocytosis: 5,8",
+        "Bindin and egg receptor evidence: 6",
+        "IZUMO1–JUNO, CD9 and additional factors: 10–12",
+        "Distinct adhesion, penetration, fusion: 1,9–12,15",
+        "Quantitative and experimental reasoning: 14–15"
+      ],
+      "excluded": [
+        "5.B.04 egg activation and polyspermy mechanisms",
+        "Detailed IVF and research protocols",
+        "Detailed gametogenesis and reproductive endocrinology"
+      ],
+      "dimensions": {
+        "A": "1,3",
+        "B": "2,6,8,9,11",
+        "C": "3,5,9,11,12",
+        "D": "4–12",
+        "E": "3,4,7,10,14",
+        "F": "4,5,7,8",
+        "G": "14, worked examples",
+        "H": "2,6,8,9,11,15",
+        "I": "1,3,7–13",
+        "J": "3–13",
+        "K": "6,7,11,12,15",
+        "L": "4,8,9,11,13,14",
+        "M": "13,15: mechanistic infertility research, no clinical protocols",
+        "N": "1,7,13,15",
+        "O": "14,15, practice"
+      }
     },
-    "syllabus": "Approved 5.B roadmap; official revised CSIR-UGC-DBT and separate CSIR Life Sciences Unit 5.B; archived MP SET comparator.",
-    "review_pass_1": "Internal scientific review of germline continuity and stem-cell evidence, seminiferous epithelial organization, meiosis/ploidy bookkeeping, intercellular bridges, Sertoli and Leydig support, spermiogenesis, sperm structures, maturation and capacitation. Rechecked quantitative scenarios including 96 products, 1280 amplification, 64 stem cells, 750 occupancy, equal 400 counts, swimming counts 320 and 300 and overlap 45–60; illustrative data distinguished from experiments.",
-    "review_pass_2": "Internal teaching and exam review of progressive sections, 54 explained questions, answer position balance, 18 traps and 14 recall prompts. Fixed duplicate bridge SVG identifier; saved draft re-fetched and verified, with no identical teaching paragraphs.",
+    "review_pass_1": {
+      "result": "pass",
+      "checks": [
+        "Compared approved roadmap with both official CSIR syllabi and MP SET mirror",
+        "Reviewed species labels and separate coat versus membrane location",
+        "Reviewed classical versus updated acrosome and ZP2 models",
+        "Cross-checked bindin loss-of-function, IZUMO1–JUNO necessity not sufficiency, CD9 organization",
+        "Verified equations and worked numbers independently: 40/50, 40/130, 900/910, 900/990, 8.314*298*ln(10), ln(2)/0.2, ln(2)/0.02, stage conditional fractions"
+      ],
+      "limitations": "Internal scientific review, not external expert review. Hypothetical datasets explicitly labeled."
+    },
+    "review_pass_2": {
+      "result": "pass",
+      "checks": [
+        "15 connected sections and 136 distinct paragraphs; compared 5.B.01 (14,428 teaching words and 139 paragraphs) and 5.A.04 (14,080 teaching words, 129 paragraphs)",
+        "Checked every question key against its listed option and reviewed reasoning; 20 Part B, 20 Part C, 10 mixed formats",
+        "12 scientific diagrams with unique titles/descriptions and zoom targets",
+        "Corrected inherited TOC, structured data, source links, reader navigation codes",
+        "17 misconceptions and 15 active recall prompts"
+      ],
+      "limitations": "No independent human/editorial reviewer; no full graphical browser test."
+    },
     "quality": {
-      "assessment": "Internal editorial rubric estimate, not external peer review",
       "syllabus_microtopic_completeness": 20,
       "scientific_mechanistic_accuracy": 24,
       "teaching_depth_progression": 19,
       "experimental_quantitative_reasoning": 14,
-      "examination_practice": 9,
+      "examination_practice_quality": 10,
       "technical_accessibility": 9,
-      "total": 95,
+      "total": 96,
       "threshold": 95,
-      "deductions": "Some model-specific mechanisms necessarily simplified to syllabus level; hypothetical quantitative examples rather than extensive empirical datasets; some distractors are less demanding than real NET Part C; static technical validation rather than interactive browser audit."
+      "assessment": "Internal editorial assessment, not external peer review.",
+      "deductions": [
+        "Scientific: species-dependent models and unresolved final mammalian fusion mechanism explicitly limited; reference coverage is selective.",
+        "Teaching: several topics could benefit from further model-specific illustrations.",
+        "Experimental: worked datasets are pedagogical rather than direct published raw data.",
+        "Technical: static audit passed; interactive browser behavior not independently exercised."
+      ]
     },
-    "runtime_test": {
-      "static": "passed",
-      "browser": "not independently tested"
-    },
-    "limitations": [
-      "Internal editorial review only; not external expert certification.",
-      "Archived MP SET source rather than independently verified current MPPSC-hosted PDF.",
-      "Static source and SVG label/zoom checks only; no interactive mobile/desktop or fullscreen verification performed.",
-      "Public deployment not yet verified."
-    ],
+    "runtime_test": "Static source validation of controls and navigation only; live browser interactivity not exercised.",
     "deployment_status": "pending",
-    "next_pending_node_id": "5.B.02",
-    "next_pending_node_title": "Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
-    "previous_published_node_id": "5.A.11",
-    "next_node_available": false,
-    "published_node_count": 204,
-    "unit05_published_count": 12,
-    "subunit5b_published_count": 1,
-    "changed_files": [
-      "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
-      "index.html",
-      "sitemap.xml",
-      "curriculum/academy-progress.json",
-      "curriculum/node-5b01-publication-qa.json"
-    ]
+    "published_node_count": 205,
+    "unit_published_node_count": 13,
+    "subunit_published_node_count": 2,
+    "navigation": {
+      "previous_node": "5.B.02",
+      "next_node": "5.B.04",
+      "reason": "Both immediate neighboring nodes unpublished in publication baseline. Reader resolves available adjacent links from current index and otherwise keeps buttons disabled. No nonexistent links or changes to non-adjacent 5.B.01."
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -319,150 +361,196 @@
     "5.A.09",
     "5.A.10",
     "5.A.11",
-    "5.B.01"
+    "5.B.01",
+    "5.B.03"
   ],
   "prior_publication_qa": {
-    "node_id": "5.A.10",
-    "title": "Genomic Imprinting and Epigenetic Memory in Development",
-    "slug": "genomic-imprinting-and-epigenetic-memory-in-development.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/genomic-imprinting-and-epigenetic-memory-in-development.html",
+    "node_id": "5.B.01",
+    "title": "Animal Gametogenesis I: Germ Cells and Spermatogenesis",
+    "slug": "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
     "unit": "05",
-    "subunit": "5.A",
-    "date": "2026-11-26",
+    "subunit": "5.B",
+    "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "publication_base_sha": "9b03b3d0aa586a692f639840e06d676d8fe16e09",
-    "production_chapter_blob_sha": "2fd680b6d2e3fd888e61071480d382fe3075c8c0",
+    "source_draft_branch": "draft/5-b-01-spermatogenesis",
+    "source_draft_commit_sha": "f0fe6c1843630e797dc294bd3c52239c7873966f",
+    "publication_base_sha": "849e78e5f4c21ddce5de22033afab58345e11e21",
+    "production_chapter_blob_sha": "103dd240bb2bf1d8de8e7d04f1557e49a3174005",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13529,
-      "production_alphabetic_token_count": 13548,
-      "visible_article_words_including_expanded_answers": 17973,
-      "teaching_paragraphs": 115,
-      "theory_sections": 15,
-      "svg": 15,
-      "svg_accessible": 15,
-      "tables": 5,
-      "part_b": 25,
-      "part_c": 27,
-      "total_questions": 52,
-      "explained_answers": 52,
-      "misconceptions": 19,
-      "active_recall": 28,
-      "references": 20,
-      "duplicate_ids": 0,
-      "broken_internal_anchors": 0,
-      "exact_duplicate_teaching_paragraphs": 0,
+      "genuine_teaching_words": 14428,
+      "visible_article_words": 19497,
+      "teaching_paragraphs": 139,
+      "html_bytes": 219575,
+      "theory_sections": 19,
+      "svg": 12,
+      "accessible_svg": 12,
+      "tables": 2,
+      "part_b": 20,
+      "part_c": 22,
+      "other_questions": 12,
+      "total_questions": 54,
+      "explained_answers": 54,
+      "references": 12,
+      "misconceptions": 18,
+      "active_recall": 14,
       "answer_positions": {
         "A": 13,
-        "B": 13,
+        "B": 14,
         "C": 13,
-        "D": 13
-      }
-    },
-    "word_count_method": "Conservative original saved HTML teaching-only count, separately confirmed 13,548 alphabetic tokens in the production blob using slightly different tokenization; the article was transferred intact.",
-    "scope": "Approved 5.A.10 node map, revised and separate CSIR syllabus, MP SET syllabus copy; parent-of-origin expression, establishment, maintenance, reset, Igf2/H19, epigenetic memory, reciprocal crosses, developmental dosage, distinctions and comparative exceptions.",
-    "review_pass_1": "Internal scientific review of teaching sections, 52 question answers and primary/review references; checked canonical mouse allele direction, pronuclear controls, CTCF, methylation, germline resetting, UPD and plant endosperm dosage; no identified substantive error.",
-    "review_pass_2": "Internal pedagogical review: 15 progressive sections, examples, allele-specific data reasoning, 19 traps, 28 recall prompts and 52 explained questions. No identical teaching paragraphs. No external certification.",
-    "quality": {
-      "score": 96,
-      "internal_only": true,
-      "breakdown": {
-        "scientific_accuracy": 15,
-        "syllabus": 10,
-        "teaching_depth": 19,
-        "coverage_360": 9,
-        "pedagogy": 10,
-        "analytical_reasoning": 9,
-        "illustrations": 5,
-        "questions": 10,
-        "revision": 5,
-        "technical_quality": 4
+        "D": 14
       },
-      "limitations": "Internal rubric judgment; local standalone reader tested on desktop/mobile; production uses existing 5.A.09 shell and dynamic navigation, with production browser and public deployment verification outstanding."
+      "duplicate_ids": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "broken_internal_anchors": [],
+      "broken_zoom_targets": []
+    },
+    "word_count_method": "Unicode lexical tokens counted from actual saved p.teaching-prose paragraphs, excluding headings, tables, illustrations, questions, answers, revision, navigation and references.",
+    "coverage_matrix": {
+      "germline": "Sections 2–3",
+      "gonadal_support_and_stem_cells": "Sections 4–8",
+      "ploidy_and_meiosis": "Sections 9–11",
+      "cytoplasmic_bridges": "Section 12",
+      "spermiogenesis_and_sperm_structure": "Sections 13–15",
+      "release_maturation_capacitation": "Section 16",
+      "quantitative_and_experimental_reasoning": "Sections 17–18",
+      "comparative_biology": "Section 19"
+    },
+    "syllabus": "Approved 5.B roadmap; official revised CSIR-UGC-DBT and separate CSIR Life Sciences Unit 5.B; archived MP SET comparator.",
+    "review_pass_1": "Internal scientific review of germline continuity and stem-cell evidence, seminiferous epithelial organization, meiosis/ploidy bookkeeping, intercellular bridges, Sertoli and Leydig support, spermiogenesis, sperm structures, maturation and capacitation. Rechecked quantitative scenarios including 96 products, 1280 amplification, 64 stem cells, 750 occupancy, equal 400 counts, swimming counts 320 and 300 and overlap 45–60; illustrative data distinguished from experiments.",
+    "review_pass_2": "Internal teaching and exam review of progressive sections, 54 explained questions, answer position balance, 18 traps and 14 recall prompts. Fixed duplicate bridge SVG identifier; saved draft re-fetched and verified, with no identical teaching paragraphs.",
+    "quality": {
+      "assessment": "Internal editorial rubric estimate, not external peer review",
+      "syllabus_microtopic_completeness": 20,
+      "scientific_mechanistic_accuracy": 24,
+      "teaching_depth_progression": 19,
+      "experimental_quantitative_reasoning": 14,
+      "examination_practice": 9,
+      "technical_accessibility": 9,
+      "total": 95,
+      "threshold": 95,
+      "deductions": "Some model-specific mechanisms necessarily simplified to syllabus level; hypothetical quantitative examples rather than extensive empirical datasets; some distractors are less demanding than real NET Part C; static technical validation rather than interactive browser audit."
     },
     "runtime_test": {
-      "local_draft_desktop": "passed",
-      "local_draft_mobile": "passed",
-      "production_static": "passed teaching article preservation, IDs, anchors, figures, questions, canonical and neighbor resolver",
-      "production_browser": "not yet independently tested"
+      "static": "passed",
+      "browser": "not independently tested"
     },
+    "limitations": [
+      "Internal editorial review only; not external expert certification.",
+      "Archived MP SET source rather than independently verified current MPPSC-hosted PDF.",
+      "Static source and SVG label/zoom checks only; no interactive mobile/desktop or fullscreen verification performed.",
+      "Public deployment not yet verified."
+    ],
     "deployment_status": "pending",
-    "published_node_count": 202,
-    "unit05_published_count": 10,
-    "subunit5a_published_count": 10,
-    "next_pending_node_id": "5.A.04",
-    "previous_node_available": true,
-    "next_node_available": true,
+    "next_pending_node_id": "5.B.02",
+    "next_pending_node_title": "Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
+    "previous_published_node_id": "5.A.11",
+    "next_node_available": false,
+    "published_node_count": 204,
+    "unit05_published_count": 12,
+    "subunit5b_published_count": 1,
     "changed_files": [
-      "genomic-imprinting-and-epigenetic-memory-in-development.html",
+      "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/node-5a10-publication-qa.json"
-    ],
-    "shared_file_baselines": {
-      "index.html": "240dffb0142c6069c826a76c05b2eec23d027de7",
-      "sitemap.xml": "1299785a4660f9d5a446b67689104a49c84f9a4c",
-      "curriculum/academy-progress.json": "0c5d19b15e4a376a168a8b2bdd74b162d6a48cd8"
-    }
+      "curriculum/node-5b01-publication-qa.json"
+    ]
   },
   "previous_last_qa": {
-    "node_id": "5.A.04",
-    "title": "Cytoplasmic Determinants and Early Embryonic Asymmetry",
-    "slug": "cytoplasmic-determinants-and-early-embryonic-asymmetry.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cytoplasmic-determinants-and-early-embryonic-asymmetry.html",
+    "node_id": "5.B.01",
+    "title": "Animal Gametogenesis I: Germ Cells and Spermatogenesis",
+    "slug": "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
     "unit": "05",
-    "subunit": "5.A",
-    "date": "2026-11-26",
+    "subunit": "5.B",
+    "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "source_draft_commit_sha": "bec56c1411d0ec533c34670138bdfca379e33e4b",
-    "publication_base_sha": "16429eab70b319f795cde0cd8a86f4ee0e8a9d98",
-    "production_chapter_blob_sha": "6c6148c8e50e7a0984a9848e649415c3b1b4488e",
+    "source_draft_branch": "draft/5-b-01-spermatogenesis",
+    "source_draft_commit_sha": "f0fe6c1843630e797dc294bd3c52239c7873966f",
+    "publication_base_sha": "849e78e5f4c21ddce5de22033afab58345e11e21",
+    "production_chapter_blob_sha": "103dd240bb2bf1d8de8e7d04f1557e49a3174005",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 14080,
-      "teaching_paragraphs": 129,
-      "theory_sections": 16,
-      "svg": 15,
-      "svg_accessible": 15,
-      "tables": 6,
-      "part_b": 25,
-      "part_c": 25,
-      "explained_answers": 50,
-      "references": 18,
+      "genuine_teaching_words": 14428,
+      "visible_article_words": 19497,
+      "teaching_paragraphs": 139,
+      "html_bytes": 219575,
+      "theory_sections": 19,
+      "svg": 12,
+      "accessible_svg": 12,
+      "tables": 2,
+      "part_b": 20,
+      "part_c": 22,
+      "other_questions": 12,
+      "total_questions": 54,
+      "explained_answers": 54,
+      "references": 12,
+      "misconceptions": 18,
+      "active_recall": 14,
+      "answer_positions": {
+        "A": 13,
+        "B": 14,
+        "C": 13,
+        "D": 14
+      },
       "duplicate_ids": 0,
-      "broken_internal_anchors": [],
       "duplicate_teaching_paragraphs": 0,
-      "total_questions": 50
+      "broken_internal_anchors": [],
+      "broken_zoom_targets": []
     },
-    "word_count_method": "Unicode lexical tokens in 129 p.teaching paragraphs only, excluding headings, questions, diagrams, references and tables.",
-    "scope": "Approved 5.A.04 roadmap: maternal cytoplasmic products, polarity, localization and partition, downstream gene expression, ascidian myoplasm and macho-1, C. elegans PAR polarity and P-lineage, P granule segregation caveat, causal tests and quantitative interpretation.",
-    "review_pass_1": "Prior draft development reported scientific review and 96/100 internal score; current reconciliation verified the unchanged chapter blob and inspected its section scope, canonical, experimental examples and selected practice explanations.",
-    "review_pass_2": "Current structural audit confirms teaching depth, 15 accessible diagrams, 50 explained questions, no duplicate IDs or teaching paragraphs, and no broken internal anchors. Prior draft report stated 17 misconceptions and 28 recall prompts.",
+    "word_count_method": "Unicode lexical tokens counted from actual saved p.teaching-prose paragraphs, excluding headings, tables, illustrations, questions, answers, revision, navigation and references.",
+    "coverage_matrix": {
+      "germline": "Sections 2–3",
+      "gonadal_support_and_stem_cells": "Sections 4–8",
+      "ploidy_and_meiosis": "Sections 9–11",
+      "cytoplasmic_bridges": "Section 12",
+      "spermiogenesis_and_sperm_structure": "Sections 13–15",
+      "release_maturation_capacitation": "Section 16",
+      "quantitative_and_experimental_reasoning": "Sections 17–18",
+      "comparative_biology": "Section 19"
+    },
+    "syllabus": "Approved 5.B roadmap; official revised CSIR-UGC-DBT and separate CSIR Life Sciences Unit 5.B; archived MP SET comparator.",
+    "review_pass_1": "Internal scientific review of germline continuity and stem-cell evidence, seminiferous epithelial organization, meiosis/ploidy bookkeeping, intercellular bridges, Sertoli and Leydig support, spermiogenesis, sperm structures, maturation and capacitation. Rechecked quantitative scenarios including 96 products, 1280 amplification, 64 stem cells, 750 occupancy, equal 400 counts, swimming counts 320 and 300 and overlap 45–60; illustrative data distinguished from experiments.",
+    "review_pass_2": "Internal teaching and exam review of progressive sections, 54 explained questions, answer position balance, 18 traps and 14 recall prompts. Fixed duplicate bridge SVG identifier; saved draft re-fetched and verified, with no identical teaching paragraphs.",
     "quality": {
-      "score": 96,
-      "internal_only": true,
-      "source": "Prior draft audit reported in development session; not independently rescored during reconciliation."
+      "assessment": "Internal editorial rubric estimate, not external peer review",
+      "syllabus_microtopic_completeness": 20,
+      "scientific_mechanistic_accuracy": 24,
+      "teaching_depth_progression": 19,
+      "experimental_quantitative_reasoning": 14,
+      "examination_practice": 9,
+      "technical_accessibility": 9,
+      "total": 95,
+      "threshold": 95,
+      "deductions": "Some model-specific mechanisms necessarily simplified to syllabus level; hypothetical quantitative examples rather than extensive empirical datasets; some distractors are less demanding than real NET Part C; static technical validation rather than interactive browser audit."
     },
     "runtime_test": {
-      "production_static": "passed",
-      "production_browser": "not independently tested"
+      "static": "passed",
+      "browser": "not independently tested"
     },
-    "deployment_status": "pending",
-    "next_pending_node_id": "5.B.01",
     "limitations": [
-      "Public live rendering and external review not certified. Prior internal academic score preserved as reported, rather than representing a new independent review."
+      "Internal editorial review only; not external expert certification.",
+      "Archived MP SET source rather than independently verified current MPPSC-hosted PDF.",
+      "Static source and SVG label/zoom checks only; no interactive mobile/desktop or fullscreen verification performed.",
+      "Public deployment not yet verified."
     ],
+    "deployment_status": "pending",
+    "next_pending_node_id": "5.B.02",
+    "next_pending_node_title": "Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
+    "previous_published_node_id": "5.A.11",
+    "next_node_available": false,
+    "published_node_count": 204,
+    "unit05_published_count": 12,
+    "subunit5b_published_count": 1,
     "changed_files": [
-      "cytoplasmic-determinants-and-early-embryonic-asymmetry.html",
+      "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/node-5a04-publication-qa.json"
-    ],
-    "published_node_count": 203,
-    "unit05_published_count": 11,
-    "subunit5a_published_count": 11
+      "curriculum/node-5b01-publication-qa.json"
+    ]
   },
   "unit_02": {
     "published_node_ids": [
@@ -26428,6 +26516,142 @@
         "curriculum/academy-progress.json",
         "curriculum/node-5b01-publication-qa.json"
       ]
+    },
+    "5.B.03": {
+      "node_id": "5.B.03",
+      "title": "Sperm–Egg Recognition in Animals: Surface Molecules and Species Specificity",
+      "slug": "sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
+      "unit": "05",
+      "subunit": "5.B",
+      "date": "2026-11-27",
+      "status": "lesson_committed_pages_verification_pending",
+      "source_draft_commit_sha": "e233c2dd6adabf73722f8d9669af6a4bbaf66176",
+      "initial_main_head": "849e78e5f4c21ddce5de22033afab58345e11e21",
+      "publication_base_sha": "152e533885a0081556da2ab0cb1feaabd0645495",
+      "production_chapter_blob_sha": "74861678ec28e1602ef9c20df3b2dedeeec29cb9",
+      "production_robots": "index,follow",
+      "metrics": {
+        "genuine_teaching_words": 14777,
+        "visible_article_words": 21245,
+        "teaching_paragraphs": 136,
+        "html_bytes": 210336,
+        "theory_sections": 15,
+        "svg": 12,
+        "accessible_svg": 12,
+        "tables": 3,
+        "worked_examples": 5,
+        "part_b": 20,
+        "part_c": 20,
+        "other_questions": 10,
+        "total_questions": 50,
+        "explained_answers": 50,
+        "references": 15,
+        "misconceptions": 17,
+        "active_recall": 15,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 12,
+          "D": 12
+        },
+        "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "broken_internal_anchors": [],
+        "broken_zoom_targets": [],
+        "broken_aria_targets": []
+      },
+      "word_count_method": "Unicode letter/number tokens with internal hyphen/apostrophe from saved p.teaching-prose only; article text count includes SVG labels and collapsed answers after expansion, excludes script/style.",
+      "scope": {
+        "verified_syllabi": [
+          "Revised CSIR–UGC–DBT LS&BT Unit 5.B p.6",
+          "Separate CSIR-NET LS Unit 5.B p.4",
+          "MP SET 2024 Unit 5.B mirrored syllabus; official MPPSC-hosted copy not verified"
+        ],
+        "roadmap": "curriculum/subunit-5b-gametogenesis-fertilization-early-development-node-map.md",
+        "microtopics": [
+          "Encounter and species specificity: sections 1,4,13",
+          "Sea urchin jelly and vitelline layer: 3–6",
+          "Mammalian cumulus and zona: 3,8–10",
+          "Capacitation: 7",
+          "Acrosomal exocytosis: 5,8",
+          "Bindin and egg receptor evidence: 6",
+          "IZUMO1–JUNO, CD9 and additional factors: 10–12",
+          "Distinct adhesion, penetration, fusion: 1,9–12,15",
+          "Quantitative and experimental reasoning: 14–15"
+        ],
+        "excluded": [
+          "5.B.04 egg activation and polyspermy mechanisms",
+          "Detailed IVF and research protocols",
+          "Detailed gametogenesis and reproductive endocrinology"
+        ],
+        "dimensions": {
+          "A": "1,3",
+          "B": "2,6,8,9,11",
+          "C": "3,5,9,11,12",
+          "D": "4–12",
+          "E": "3,4,7,10,14",
+          "F": "4,5,7,8",
+          "G": "14, worked examples",
+          "H": "2,6,8,9,11,15",
+          "I": "1,3,7–13",
+          "J": "3–13",
+          "K": "6,7,11,12,15",
+          "L": "4,8,9,11,13,14",
+          "M": "13,15: mechanistic infertility research, no clinical protocols",
+          "N": "1,7,13,15",
+          "O": "14,15, practice"
+        }
+      },
+      "review_pass_1": {
+        "result": "pass",
+        "checks": [
+          "Compared approved roadmap with both official CSIR syllabi and MP SET mirror",
+          "Reviewed species labels and separate coat versus membrane location",
+          "Reviewed classical versus updated acrosome and ZP2 models",
+          "Cross-checked bindin loss-of-function, IZUMO1–JUNO necessity not sufficiency, CD9 organization",
+          "Verified equations and worked numbers independently: 40/50, 40/130, 900/910, 900/990, 8.314*298*ln(10), ln(2)/0.2, ln(2)/0.02, stage conditional fractions"
+        ],
+        "limitations": "Internal scientific review, not external expert review. Hypothetical datasets explicitly labeled."
+      },
+      "review_pass_2": {
+        "result": "pass",
+        "checks": [
+          "15 connected sections and 136 distinct paragraphs; compared 5.B.01 (14,428 teaching words and 139 paragraphs) and 5.A.04 (14,080 teaching words, 129 paragraphs)",
+          "Checked every question key against its listed option and reviewed reasoning; 20 Part B, 20 Part C, 10 mixed formats",
+          "12 scientific diagrams with unique titles/descriptions and zoom targets",
+          "Corrected inherited TOC, structured data, source links, reader navigation codes",
+          "17 misconceptions and 15 active recall prompts"
+        ],
+        "limitations": "No independent human/editorial reviewer; no full graphical browser test."
+      },
+      "quality": {
+        "syllabus_microtopic_completeness": 20,
+        "scientific_mechanistic_accuracy": 24,
+        "teaching_depth_progression": 19,
+        "experimental_quantitative_reasoning": 14,
+        "examination_practice_quality": 10,
+        "technical_accessibility": 9,
+        "total": 96,
+        "threshold": 95,
+        "assessment": "Internal editorial assessment, not external peer review.",
+        "deductions": [
+          "Scientific: species-dependent models and unresolved final mammalian fusion mechanism explicitly limited; reference coverage is selective.",
+          "Teaching: several topics could benefit from further model-specific illustrations.",
+          "Experimental: worked datasets are pedagogical rather than direct published raw data.",
+          "Technical: static audit passed; interactive browser behavior not independently exercised."
+        ]
+      },
+      "runtime_test": "Static source validation of controls and navigation only; live browser interactivity not exercised.",
+      "deployment_status": "pending",
+      "published_node_count": 205,
+      "unit_published_node_count": 13,
+      "subunit_published_node_count": 2,
+      "navigation": {
+        "previous_node": "5.B.02",
+        "next_node": "5.B.04",
+        "reason": "Both immediate neighboring nodes unpublished in publication baseline. Reader resolves available adjacent links from current index and otherwise keeps buttons disabled. No nonexistent links or changes to non-adjacent 5.B.01."
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -26446,7 +26670,8 @@
   ],
   "unit5a_planned_node_count": 11,
   "unit5b_published_node_ids": [
-    "5.B.01"
+    "5.B.01",
+    "5.B.03"
   ],
   "unit5b_planned_node_count": 13,
   "unit5c_published_node_ids": [],
@@ -26468,106 +26693,149 @@
       "5.A.09",
       "5.A.10",
       "5.A.11",
-      "5.B.01"
+      "5.B.01",
+      "5.B.03"
     ],
-    "published_node_count": 12,
+    "published_node_count": 13,
     "planned_node_count": 57,
-    "last_published_node_id": "5.B.01",
+    "last_published_node_id": "5.B.03",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "5.B.01",
-      "title": "Animal Gametogenesis I: Germ Cells and Spermatogenesis",
-      "slug": "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
+      "node_id": "5.B.03",
+      "title": "Sperm–Egg Recognition in Animals: Surface Molecules and Species Specificity",
+      "slug": "sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
       "unit": "05",
       "subunit": "5.B",
       "date": "2026-11-27",
       "status": "lesson_committed_pages_verification_pending",
-      "source_draft_branch": "draft/5-b-01-spermatogenesis",
-      "source_draft_commit_sha": "f0fe6c1843630e797dc294bd3c52239c7873966f",
-      "publication_base_sha": "849e78e5f4c21ddce5de22033afab58345e11e21",
-      "production_chapter_blob_sha": "103dd240bb2bf1d8de8e7d04f1557e49a3174005",
+      "source_draft_commit_sha": "e233c2dd6adabf73722f8d9669af6a4bbaf66176",
+      "initial_main_head": "849e78e5f4c21ddce5de22033afab58345e11e21",
+      "publication_base_sha": "152e533885a0081556da2ab0cb1feaabd0645495",
+      "production_chapter_blob_sha": "74861678ec28e1602ef9c20df3b2dedeeec29cb9",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 14428,
-        "visible_article_words": 19497,
-        "teaching_paragraphs": 139,
-        "html_bytes": 219575,
-        "theory_sections": 19,
+        "genuine_teaching_words": 14777,
+        "visible_article_words": 21245,
+        "teaching_paragraphs": 136,
+        "html_bytes": 210336,
+        "theory_sections": 15,
         "svg": 12,
         "accessible_svg": 12,
-        "tables": 2,
+        "tables": 3,
+        "worked_examples": 5,
         "part_b": 20,
-        "part_c": 22,
-        "other_questions": 12,
-        "total_questions": 54,
-        "explained_answers": 54,
-        "references": 12,
-        "misconceptions": 18,
-        "active_recall": 14,
+        "part_c": 20,
+        "other_questions": 10,
+        "total_questions": 50,
+        "explained_answers": 50,
+        "references": 15,
+        "misconceptions": 17,
+        "active_recall": 15,
         "answer_positions": {
           "A": 13,
-          "B": 14,
-          "C": 13,
-          "D": 14
+          "B": 13,
+          "C": 12,
+          "D": 12
         },
         "duplicate_ids": 0,
         "duplicate_teaching_paragraphs": 0,
         "broken_internal_anchors": [],
-        "broken_zoom_targets": []
+        "broken_zoom_targets": [],
+        "broken_aria_targets": []
       },
-      "word_count_method": "Unicode lexical tokens counted from actual saved p.teaching-prose paragraphs, excluding headings, tables, illustrations, questions, answers, revision, navigation and references.",
-      "coverage_matrix": {
-        "germline": "Sections 2–3",
-        "gonadal_support_and_stem_cells": "Sections 4–8",
-        "ploidy_and_meiosis": "Sections 9–11",
-        "cytoplasmic_bridges": "Section 12",
-        "spermiogenesis_and_sperm_structure": "Sections 13–15",
-        "release_maturation_capacitation": "Section 16",
-        "quantitative_and_experimental_reasoning": "Sections 17–18",
-        "comparative_biology": "Section 19"
+      "word_count_method": "Unicode letter/number tokens with internal hyphen/apostrophe from saved p.teaching-prose only; article text count includes SVG labels and collapsed answers after expansion, excludes script/style.",
+      "scope": {
+        "verified_syllabi": [
+          "Revised CSIR–UGC–DBT LS&BT Unit 5.B p.6",
+          "Separate CSIR-NET LS Unit 5.B p.4",
+          "MP SET 2024 Unit 5.B mirrored syllabus; official MPPSC-hosted copy not verified"
+        ],
+        "roadmap": "curriculum/subunit-5b-gametogenesis-fertilization-early-development-node-map.md",
+        "microtopics": [
+          "Encounter and species specificity: sections 1,4,13",
+          "Sea urchin jelly and vitelline layer: 3–6",
+          "Mammalian cumulus and zona: 3,8–10",
+          "Capacitation: 7",
+          "Acrosomal exocytosis: 5,8",
+          "Bindin and egg receptor evidence: 6",
+          "IZUMO1–JUNO, CD9 and additional factors: 10–12",
+          "Distinct adhesion, penetration, fusion: 1,9–12,15",
+          "Quantitative and experimental reasoning: 14–15"
+        ],
+        "excluded": [
+          "5.B.04 egg activation and polyspermy mechanisms",
+          "Detailed IVF and research protocols",
+          "Detailed gametogenesis and reproductive endocrinology"
+        ],
+        "dimensions": {
+          "A": "1,3",
+          "B": "2,6,8,9,11",
+          "C": "3,5,9,11,12",
+          "D": "4–12",
+          "E": "3,4,7,10,14",
+          "F": "4,5,7,8",
+          "G": "14, worked examples",
+          "H": "2,6,8,9,11,15",
+          "I": "1,3,7–13",
+          "J": "3–13",
+          "K": "6,7,11,12,15",
+          "L": "4,8,9,11,13,14",
+          "M": "13,15: mechanistic infertility research, no clinical protocols",
+          "N": "1,7,13,15",
+          "O": "14,15, practice"
+        }
       },
-      "syllabus": "Approved 5.B roadmap; official revised CSIR-UGC-DBT and separate CSIR Life Sciences Unit 5.B; archived MP SET comparator.",
-      "review_pass_1": "Internal scientific review of germline continuity and stem-cell evidence, seminiferous epithelial organization, meiosis/ploidy bookkeeping, intercellular bridges, Sertoli and Leydig support, spermiogenesis, sperm structures, maturation and capacitation. Rechecked quantitative scenarios including 96 products, 1280 amplification, 64 stem cells, 750 occupancy, equal 400 counts, swimming counts 320 and 300 and overlap 45–60; illustrative data distinguished from experiments.",
-      "review_pass_2": "Internal teaching and exam review of progressive sections, 54 explained questions, answer position balance, 18 traps and 14 recall prompts. Fixed duplicate bridge SVG identifier; saved draft re-fetched and verified, with no identical teaching paragraphs.",
+      "review_pass_1": {
+        "result": "pass",
+        "checks": [
+          "Compared approved roadmap with both official CSIR syllabi and MP SET mirror",
+          "Reviewed species labels and separate coat versus membrane location",
+          "Reviewed classical versus updated acrosome and ZP2 models",
+          "Cross-checked bindin loss-of-function, IZUMO1–JUNO necessity not sufficiency, CD9 organization",
+          "Verified equations and worked numbers independently: 40/50, 40/130, 900/910, 900/990, 8.314*298*ln(10), ln(2)/0.2, ln(2)/0.02, stage conditional fractions"
+        ],
+        "limitations": "Internal scientific review, not external expert review. Hypothetical datasets explicitly labeled."
+      },
+      "review_pass_2": {
+        "result": "pass",
+        "checks": [
+          "15 connected sections and 136 distinct paragraphs; compared 5.B.01 (14,428 teaching words and 139 paragraphs) and 5.A.04 (14,080 teaching words, 129 paragraphs)",
+          "Checked every question key against its listed option and reviewed reasoning; 20 Part B, 20 Part C, 10 mixed formats",
+          "12 scientific diagrams with unique titles/descriptions and zoom targets",
+          "Corrected inherited TOC, structured data, source links, reader navigation codes",
+          "17 misconceptions and 15 active recall prompts"
+        ],
+        "limitations": "No independent human/editorial reviewer; no full graphical browser test."
+      },
       "quality": {
-        "assessment": "Internal editorial rubric estimate, not external peer review",
         "syllabus_microtopic_completeness": 20,
         "scientific_mechanistic_accuracy": 24,
         "teaching_depth_progression": 19,
         "experimental_quantitative_reasoning": 14,
-        "examination_practice": 9,
+        "examination_practice_quality": 10,
         "technical_accessibility": 9,
-        "total": 95,
+        "total": 96,
         "threshold": 95,
-        "deductions": "Some model-specific mechanisms necessarily simplified to syllabus level; hypothetical quantitative examples rather than extensive empirical datasets; some distractors are less demanding than real NET Part C; static technical validation rather than interactive browser audit."
+        "assessment": "Internal editorial assessment, not external peer review.",
+        "deductions": [
+          "Scientific: species-dependent models and unresolved final mammalian fusion mechanism explicitly limited; reference coverage is selective.",
+          "Teaching: several topics could benefit from further model-specific illustrations.",
+          "Experimental: worked datasets are pedagogical rather than direct published raw data.",
+          "Technical: static audit passed; interactive browser behavior not independently exercised."
+        ]
       },
-      "runtime_test": {
-        "static": "passed",
-        "browser": "not independently tested"
-      },
-      "limitations": [
-        "Internal editorial review only; not external expert certification.",
-        "Archived MP SET source rather than independently verified current MPPSC-hosted PDF.",
-        "Static source and SVG label/zoom checks only; no interactive mobile/desktop or fullscreen verification performed.",
-        "Public deployment not yet verified."
-      ],
+      "runtime_test": "Static source validation of controls and navigation only; live browser interactivity not exercised.",
       "deployment_status": "pending",
-      "next_pending_node_id": "5.B.02",
-      "next_pending_node_title": "Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
-      "previous_published_node_id": "5.A.11",
-      "next_node_available": false,
-      "published_node_count": 204,
-      "unit05_published_count": 12,
-      "subunit5b_published_count": 1,
-      "changed_files": [
-        "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
-        "index.html",
-        "sitemap.xml",
-        "curriculum/academy-progress.json",
-        "curriculum/node-5b01-publication-qa.json"
-      ]
+      "published_node_count": 205,
+      "unit_published_node_count": 13,
+      "subunit_published_node_count": 2,
+      "navigation": {
+        "previous_node": "5.B.02",
+        "next_node": "5.B.04",
+        "reason": "Both immediate neighboring nodes unpublished in publication baseline. Reader resolves available adjacent links from current index and otherwise keeps buttons disabled. No nonexistent links or changes to non-adjacent 5.B.01."
+      }
     },
     "qa_by_node": {
       "5.A.02": {
@@ -27786,6 +28054,142 @@
           "curriculum/academy-progress.json",
           "curriculum/node-5b01-publication-qa.json"
         ]
+      },
+      "5.B.03": {
+        "node_id": "5.B.03",
+        "title": "Sperm–Egg Recognition in Animals: Surface Molecules and Species Specificity",
+        "slug": "sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/sperm-egg-recognition-in-animals-surface-molecules-and-species-specificity.html",
+        "unit": "05",
+        "subunit": "5.B",
+        "date": "2026-11-27",
+        "status": "lesson_committed_pages_verification_pending",
+        "source_draft_commit_sha": "e233c2dd6adabf73722f8d9669af6a4bbaf66176",
+        "initial_main_head": "849e78e5f4c21ddce5de22033afab58345e11e21",
+        "publication_base_sha": "152e533885a0081556da2ab0cb1feaabd0645495",
+        "production_chapter_blob_sha": "74861678ec28e1602ef9c20df3b2dedeeec29cb9",
+        "production_robots": "index,follow",
+        "metrics": {
+          "genuine_teaching_words": 14777,
+          "visible_article_words": 21245,
+          "teaching_paragraphs": 136,
+          "html_bytes": 210336,
+          "theory_sections": 15,
+          "svg": 12,
+          "accessible_svg": 12,
+          "tables": 3,
+          "worked_examples": 5,
+          "part_b": 20,
+          "part_c": 20,
+          "other_questions": 10,
+          "total_questions": 50,
+          "explained_answers": 50,
+          "references": 15,
+          "misconceptions": 17,
+          "active_recall": 15,
+          "answer_positions": {
+            "A": 13,
+            "B": 13,
+            "C": 12,
+            "D": 12
+          },
+          "duplicate_ids": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "broken_internal_anchors": [],
+          "broken_zoom_targets": [],
+          "broken_aria_targets": []
+        },
+        "word_count_method": "Unicode letter/number tokens with internal hyphen/apostrophe from saved p.teaching-prose only; article text count includes SVG labels and collapsed answers after expansion, excludes script/style.",
+        "scope": {
+          "verified_syllabi": [
+            "Revised CSIR–UGC–DBT LS&BT Unit 5.B p.6",
+            "Separate CSIR-NET LS Unit 5.B p.4",
+            "MP SET 2024 Unit 5.B mirrored syllabus; official MPPSC-hosted copy not verified"
+          ],
+          "roadmap": "curriculum/subunit-5b-gametogenesis-fertilization-early-development-node-map.md",
+          "microtopics": [
+            "Encounter and species specificity: sections 1,4,13",
+            "Sea urchin jelly and vitelline layer: 3–6",
+            "Mammalian cumulus and zona: 3,8–10",
+            "Capacitation: 7",
+            "Acrosomal exocytosis: 5,8",
+            "Bindin and egg receptor evidence: 6",
+            "IZUMO1–JUNO, CD9 and additional factors: 10–12",
+            "Distinct adhesion, penetration, fusion: 1,9–12,15",
+            "Quantitative and experimental reasoning: 14–15"
+          ],
+          "excluded": [
+            "5.B.04 egg activation and polyspermy mechanisms",
+            "Detailed IVF and research protocols",
+            "Detailed gametogenesis and reproductive endocrinology"
+          ],
+          "dimensions": {
+            "A": "1,3",
+            "B": "2,6,8,9,11",
+            "C": "3,5,9,11,12",
+            "D": "4–12",
+            "E": "3,4,7,10,14",
+            "F": "4,5,7,8",
+            "G": "14, worked examples",
+            "H": "2,6,8,9,11,15",
+            "I": "1,3,7–13",
+            "J": "3–13",
+            "K": "6,7,11,12,15",
+            "L": "4,8,9,11,13,14",
+            "M": "13,15: mechanistic infertility research, no clinical protocols",
+            "N": "1,7,13,15",
+            "O": "14,15, practice"
+          }
+        },
+        "review_pass_1": {
+          "result": "pass",
+          "checks": [
+            "Compared approved roadmap with both official CSIR syllabi and MP SET mirror",
+            "Reviewed species labels and separate coat versus membrane location",
+            "Reviewed classical versus updated acrosome and ZP2 models",
+            "Cross-checked bindin loss-of-function, IZUMO1–JUNO necessity not sufficiency, CD9 organization",
+            "Verified equations and worked numbers independently: 40/50, 40/130, 900/910, 900/990, 8.314*298*ln(10), ln(2)/0.2, ln(2)/0.02, stage conditional fractions"
+          ],
+          "limitations": "Internal scientific review, not external expert review. Hypothetical datasets explicitly labeled."
+        },
+        "review_pass_2": {
+          "result": "pass",
+          "checks": [
+            "15 connected sections and 136 distinct paragraphs; compared 5.B.01 (14,428 teaching words and 139 paragraphs) and 5.A.04 (14,080 teaching words, 129 paragraphs)",
+            "Checked every question key against its listed option and reviewed reasoning; 20 Part B, 20 Part C, 10 mixed formats",
+            "12 scientific diagrams with unique titles/descriptions and zoom targets",
+            "Corrected inherited TOC, structured data, source links, reader navigation codes",
+            "17 misconceptions and 15 active recall prompts"
+          ],
+          "limitations": "No independent human/editorial reviewer; no full graphical browser test."
+        },
+        "quality": {
+          "syllabus_microtopic_completeness": 20,
+          "scientific_mechanistic_accuracy": 24,
+          "teaching_depth_progression": 19,
+          "experimental_quantitative_reasoning": 14,
+          "examination_practice_quality": 10,
+          "technical_accessibility": 9,
+          "total": 96,
+          "threshold": 95,
+          "assessment": "Internal editorial assessment, not external peer review.",
+          "deductions": [
+            "Scientific: species-dependent models and unresolved final mammalian fusion mechanism explicitly limited; reference coverage is selective.",
+            "Teaching: several topics could benefit from further model-specific illustrations.",
+            "Experimental: worked datasets are pedagogical rather than direct published raw data.",
+            "Technical: static audit passed; interactive browser behavior not independently exercised."
+          ]
+        },
+        "runtime_test": "Static source validation of controls and navigation only; live browser interactivity not exercised.",
+        "deployment_status": "pending",
+        "published_node_count": 205,
+        "unit_published_node_count": 13,
+        "subunit_published_node_count": 2,
+        "navigation": {
+          "previous_node": "5.B.02",
+          "next_node": "5.B.04",
+          "reason": "Both immediate neighboring nodes unpublished in publication baseline. Reader resolves available adjacent links from current index and otherwise keeps buttons disabled. No nonexistent links or changes to non-adjacent 5.B.01."
+        }
       }
     },
     "next_pending_node_id": "5.B.02",
@@ -27811,9 +28215,10 @@
     },
     "subunit_5b": {
       "published_node_ids": [
-        "5.B.01"
+        "5.B.01",
+        "5.B.03"
       ],
-      "published_node_count": 1,
+      "published_node_count": 2,
       "planned_node_count": 13,
       "complete": false
     },
@@ -27836,62 +28241,98 @@
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "5.A.04",
-      "title": "Cytoplasmic Determinants and Early Embryonic Asymmetry",
-      "slug": "cytoplasmic-determinants-and-early-embryonic-asymmetry.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cytoplasmic-determinants-and-early-embryonic-asymmetry.html",
+      "node_id": "5.B.01",
+      "title": "Animal Gametogenesis I: Germ Cells and Spermatogenesis",
+      "slug": "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
       "unit": "05",
-      "subunit": "5.A",
-      "date": "2026-11-26",
+      "subunit": "5.B",
+      "date": "2026-11-27",
       "status": "lesson_committed_pages_verification_pending",
-      "source_draft_commit_sha": "bec56c1411d0ec533c34670138bdfca379e33e4b",
-      "publication_base_sha": "16429eab70b319f795cde0cd8a86f4ee0e8a9d98",
-      "production_chapter_blob_sha": "6c6148c8e50e7a0984a9848e649415c3b1b4488e",
+      "source_draft_branch": "draft/5-b-01-spermatogenesis",
+      "source_draft_commit_sha": "f0fe6c1843630e797dc294bd3c52239c7873966f",
+      "publication_base_sha": "849e78e5f4c21ddce5de22033afab58345e11e21",
+      "production_chapter_blob_sha": "103dd240bb2bf1d8de8e7d04f1557e49a3174005",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 14080,
-        "teaching_paragraphs": 129,
-        "theory_sections": 16,
-        "svg": 15,
-        "svg_accessible": 15,
-        "tables": 6,
-        "part_b": 25,
-        "part_c": 25,
-        "explained_answers": 50,
-        "references": 18,
+        "genuine_teaching_words": 14428,
+        "visible_article_words": 19497,
+        "teaching_paragraphs": 139,
+        "html_bytes": 219575,
+        "theory_sections": 19,
+        "svg": 12,
+        "accessible_svg": 12,
+        "tables": 2,
+        "part_b": 20,
+        "part_c": 22,
+        "other_questions": 12,
+        "total_questions": 54,
+        "explained_answers": 54,
+        "references": 12,
+        "misconceptions": 18,
+        "active_recall": 14,
+        "answer_positions": {
+          "A": 13,
+          "B": 14,
+          "C": 13,
+          "D": 14
+        },
         "duplicate_ids": 0,
-        "broken_internal_anchors": [],
         "duplicate_teaching_paragraphs": 0,
-        "total_questions": 50
+        "broken_internal_anchors": [],
+        "broken_zoom_targets": []
       },
-      "word_count_method": "Unicode lexical tokens in 129 p.teaching paragraphs only, excluding headings, questions, diagrams, references and tables.",
-      "scope": "Approved 5.A.04 roadmap: maternal cytoplasmic products, polarity, localization and partition, downstream gene expression, ascidian myoplasm and macho-1, C. elegans PAR polarity and P-lineage, P granule segregation caveat, causal tests and quantitative interpretation.",
-      "review_pass_1": "Prior draft development reported scientific review and 96/100 internal score; current reconciliation verified the unchanged chapter blob and inspected its section scope, canonical, experimental examples and selected practice explanations.",
-      "review_pass_2": "Current structural audit confirms teaching depth, 15 accessible diagrams, 50 explained questions, no duplicate IDs or teaching paragraphs, and no broken internal anchors. Prior draft report stated 17 misconceptions and 28 recall prompts.",
+      "word_count_method": "Unicode lexical tokens counted from actual saved p.teaching-prose paragraphs, excluding headings, tables, illustrations, questions, answers, revision, navigation and references.",
+      "coverage_matrix": {
+        "germline": "Sections 2–3",
+        "gonadal_support_and_stem_cells": "Sections 4–8",
+        "ploidy_and_meiosis": "Sections 9–11",
+        "cytoplasmic_bridges": "Section 12",
+        "spermiogenesis_and_sperm_structure": "Sections 13–15",
+        "release_maturation_capacitation": "Section 16",
+        "quantitative_and_experimental_reasoning": "Sections 17–18",
+        "comparative_biology": "Section 19"
+      },
+      "syllabus": "Approved 5.B roadmap; official revised CSIR-UGC-DBT and separate CSIR Life Sciences Unit 5.B; archived MP SET comparator.",
+      "review_pass_1": "Internal scientific review of germline continuity and stem-cell evidence, seminiferous epithelial organization, meiosis/ploidy bookkeeping, intercellular bridges, Sertoli and Leydig support, spermiogenesis, sperm structures, maturation and capacitation. Rechecked quantitative scenarios including 96 products, 1280 amplification, 64 stem cells, 750 occupancy, equal 400 counts, swimming counts 320 and 300 and overlap 45–60; illustrative data distinguished from experiments.",
+      "review_pass_2": "Internal teaching and exam review of progressive sections, 54 explained questions, answer position balance, 18 traps and 14 recall prompts. Fixed duplicate bridge SVG identifier; saved draft re-fetched and verified, with no identical teaching paragraphs.",
       "quality": {
-        "score": 96,
-        "internal_only": true,
-        "source": "Prior draft audit reported in development session; not independently rescored during reconciliation."
+        "assessment": "Internal editorial rubric estimate, not external peer review",
+        "syllabus_microtopic_completeness": 20,
+        "scientific_mechanistic_accuracy": 24,
+        "teaching_depth_progression": 19,
+        "experimental_quantitative_reasoning": 14,
+        "examination_practice": 9,
+        "technical_accessibility": 9,
+        "total": 95,
+        "threshold": 95,
+        "deductions": "Some model-specific mechanisms necessarily simplified to syllabus level; hypothetical quantitative examples rather than extensive empirical datasets; some distractors are less demanding than real NET Part C; static technical validation rather than interactive browser audit."
       },
       "runtime_test": {
-        "production_static": "passed",
-        "production_browser": "not independently tested"
+        "static": "passed",
+        "browser": "not independently tested"
       },
-      "deployment_status": "pending",
-      "next_pending_node_id": "5.B.01",
       "limitations": [
-        "Public live rendering and external review not certified. Prior internal academic score preserved as reported, rather than representing a new independent review."
+        "Internal editorial review only; not external expert certification.",
+        "Archived MP SET source rather than independently verified current MPPSC-hosted PDF.",
+        "Static source and SVG label/zoom checks only; no interactive mobile/desktop or fullscreen verification performed.",
+        "Public deployment not yet verified."
       ],
+      "deployment_status": "pending",
+      "next_pending_node_id": "5.B.02",
+      "next_pending_node_title": "Animal Gametogenesis II: Oogenesis and Oocyte Maturation",
+      "previous_published_node_id": "5.A.11",
+      "next_node_available": false,
+      "published_node_count": 204,
+      "unit05_published_count": 12,
+      "subunit5b_published_count": 1,
       "changed_files": [
-        "cytoplasmic-determinants-and-early-embryonic-asymmetry.html",
+        "animal-gametogenesis-i-germ-cells-and-spermatogenesis.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
-        "curriculum/node-5a04-publication-qa.json"
-      ],
-      "published_node_count": 203,
-      "unit05_published_count": 11,
-      "subunit5a_published_count": 11
+        "curriculum/node-5b01-publication-qa.json"
+      ]
     }
   }
 }

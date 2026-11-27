@@ -183,3 +183,9 @@
 
 - 6.F.08 — [Phloem Unloading, Sink Strength and Whole-Plant Assimilate Partitioning](https://rahulthakurpatan.github.io/lifescienceacademy/phloem-unloading-sink-strength-and-whole-plant-assimilate-partitioning.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.F: 4/8. Unit 06: 32/66. Academy: 281/723. Next unpublished in subunit: 6.F.01. Next global pending: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.F.03 — [Soil-to-Root Water and Mineral Uptake: Apoplast, Symplast and Endodermis](https://rahulthakurpatan.github.io/lifescienceacademy/soil-to-root-water-and-mineral-uptake-apoplast-symplast-and-endodermis.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.F: 5/8. Unit 06: 35/66. Academy: 284/723. Next unpublished in subunit: 6.F.01 — Water Potential, Osmosis and the Driving Forces of Plant Transport. Next global pending: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

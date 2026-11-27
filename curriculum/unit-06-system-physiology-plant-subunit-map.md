@@ -333,3 +333,5 @@ How do plants recognize environmental threats and coordinate rapid local protect
 
 - 6.E.07 — [Photoperiodism: Day-Length Sensing, CO–FT Signaling and Flowering Time](https://rahulthakurpatan.github.io/lifescienceacademy/photoperiodism-day-length-sensing-co-ft-signaling-and-flowering-time.html); internal academic/static QA 95/100; browser and live deployment verification pending.
 - Subunit 6.E: 7/7 (complete); Unit 06: 41/66; Academy: 290/723. Reconciled concurrent index publication(s): 6.F.02. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.G.01 — [Foundations of Plant Specialized Metabolism](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-specialized-metabolism.html); editorial/static checks completed; Subunit 6.G: 9/10 linked at registration; live verification pending.

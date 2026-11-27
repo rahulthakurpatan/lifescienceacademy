@@ -218,3 +218,10 @@ All explicit syllabus requirements are mapped; representative stress examples do
 - 6.H.08 — [Biotic Stress and Plant Defense Barriers](https://rahulthakurpatan.github.io/lifescienceacademy/biotic-stress-and-plant-defense-barriers.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
 - Teaching prose: 13,486 words in 171 paragraphs; 13 scientific SVGs, 5 tables, 52 explained questions (22 Part B, 24 Part C, 6 other), 18 misconceptions, 14 recall prompts and 15 references.
 - Subunit 6.H: 11/12; Unit 06: 65/66; Academy: 314/723. Next unpublished: 6.H.11 — Herbivory, Wounding and Insect Resistance. Next global pending: 6.H.11 — Herbivory, Wounding and Insect Resistance.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.11 — [Herbivory, Wounding and Insect Resistance](https://rahulthakurpatan.github.io/lifescienceacademy/herbivory-wounding-and-insect-resistance.html); internal academic QA 95/100, static checks complete; Pages verification pending.
+- Teaching prose: 14,293 words; 11 scientific SVGs, 4 tables and 54 explained questions (24 Part B, 26 Part C, 4 SET), 15 misconception checks and 12 recall prompts.
+- Subunit 6.H: 12/12; Unit 06: 66/66; Academy: 315/723.
+- Next global pending: 7.A.01 — Blood Composition and Plasma Physiology.

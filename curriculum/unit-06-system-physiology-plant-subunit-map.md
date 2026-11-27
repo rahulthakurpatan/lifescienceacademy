@@ -249,3 +249,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.D.01 — [Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 1/10; Unit 06: 18/66; Academy: 267/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 2/10; Unit 06: 19/66; Academy: 268/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

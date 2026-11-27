@@ -199,3 +199,9 @@ All explicit syllabus requirements are mapped; representative stress examples do
 - 6.H.07 — [Flooding, Hypoxia and Other Abiotic Stresses](https://rahulthakurpatan.github.io/lifescienceacademy/flooding-hypoxia-and-other-abiotic-stresses.html); internal academic QA 95/100, static checks complete; Pages verification pending.
 - Teaching prose: 14,159 words; 12 scientific SVGs, 6 tables and 55 explained questions. Subunit 6.H: 8/12; Unit 06: 62/66; Academy: 311/723.
 - Next unpublished in 6.H: 6.H.08 — Biotic Stress and Plant Defense Barriers. Next global pending: 6.H.08 — Biotic Stress and Plant Defense Barriers.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.09 — [Plant Innate Immunity: Pattern-Triggered Immunity](https://rahulthakurpatan.github.io/lifescienceacademy/plant-innate-immunity-pattern-triggered-immunity.html); internal academic QA 95/100, static audit completed; Pages/live verification pending.
+- Teaching prose: 14,946 words in 163 paragraphs; 13 scientific SVGs, 3 graphs, 6 tables, 52 explained questions (22 Part B, 25 Part C, 5 other), 15 misconception checks, 12 recall prompts, 19 references.
+- Subunit 6.H: 9/12; Unit 06: 63/66; Academy: 312/723. Next unpublished in subunit: 6.H.08 — Biotic Stress and Plant Defense Barriers. Next global pending: 6.H.08 — Biotic Stress and Plant Defense Barriers.

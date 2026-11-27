@@ -238,3 +238,7 @@
 - **5.B.06 — Blastula Formation and Embryonic Fields in Animals**: included in the publication tree at `blastula-formation-and-embryonic-fields-in-animals.html`; Pages deployment verification is separate.
 
 - 2026-11-27: 5.B.02 — Animal Gametogenesis II: Oogenesis and Oocyte Maturation. Published chapter: [animal-gametogenesis-ii-oogenesis-and-oocyte-maturation.html](../animal-gametogenesis-ii-oogenesis-and-oocyte-maturation.html). Teaching words: 14,093; internal quality gate: 95/100. Live deployment verification is separate.
+
+### Publication checkpoint — 2026-11-27
+
+- **5.B.08 — Plant Gametogenesis I: Microsporogenesis and Male Gametophyte Development**: included in the publication tree at `plant-gametogenesis-microsporogenesis-and-male-gametophyte-development.html`; Pages deployment verification is separate.

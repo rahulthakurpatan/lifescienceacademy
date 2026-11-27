@@ -237,3 +237,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.C.03 — [Ammonium Assimilation: The GS–GOGAT Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/ammonium-assimilation-the-gs-gogat-cycle.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 4/6; Unit 06: 15/66; Academy: 264/723.
 - Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.
+
+- 6.C.05 — [Biological Nitrogen Fixation: Nitrogenase and Energy Requirements](https://rahulthakurpatan.github.io/lifescienceacademy/biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 8/8; Subunit 6.B: 3/5; Subunit 6.C: 5/6; Unit 06: 16/66; Academy: 265/723.
+- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.

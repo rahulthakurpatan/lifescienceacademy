@@ -152,3 +152,8 @@
 - Next unpublished in 6.C: 6.C.03 — Ammonium Assimilation: The GS–GOGAT Cycle.
 - 6.C.03 — [Ammonium Assimilation: The GS–GOGAT Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/ammonium-assimilation-the-gs-gogat-cycle.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 4/6; next unpublished in this subunit: 6.C.04 — Amino Acid Biosynthesis and Carbon–Nitrogen Integration.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.C.05 — [Biological Nitrogen Fixation: Nitrogenase and Energy Requirements](https://rahulthakurpatan.github.io/lifescienceacademy/biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.C: 5/6; next unpublished in this subunit: 6.C.04 — Amino Acid Biosynthesis and Carbon–Nitrogen Integration.

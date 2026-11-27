@@ -10,7 +10,7 @@
 - **Chronological / causal learning story:** Why light is information → phytochrome red/far-red perception → cryptochrome blue perception → phototropin blue perception for direction/movement → guard-cell stomatal ion movement as integrated output → endogenous timekeeping to track environmental cycles → seasonal photoperiod sensing integrating receptor and oscillator outputs.
 - **Scientific chronology caveat:** These receptors and biological clocks operate **simultaneously**, not in a literal evolutionary, cell-biological or seasonal order. The sequence is an educational prerequisite chain; photoperiodic flowering depends on clock timing, so clock precedes photoperiodism in the lessons.
 - **Quality target:** substantial MSc/CSIR NET/MP SET-level connected explanatory prose and experiments; realistic diagrams and action spectra; fully reasoned evidence-interpretation and mutant questions. Avoid thin chapters, misleading oversimplification, forced equality of word counts, specialist research-only gene inventories and fake chapter URLs.
-- **Current publication type:** 6.E.01 has a validated textbook chapter and menu link; nodes 6.E.02–6.E.07 remain non-clickable until validated publication.
+- **Current publication type:** 6.E.04 is an authored textbook chapter; its menu link and sitemap entry are included in the publication commit. Remaining nodes are nonclickable until individually published.
 - **Cross-unit boundaries:** Photosynthetic energy capture and pigment photoprotection belong to 6.A, hormone biosynthesis and downstream hormone pathways to 6.D, water potential/transpiration to 6.F, whole-plant stresses to 6.H, floral organ identity to 5.D and general receptor/kinase signaling principles to Unit 4.A. Here the focus remains **photoreception, signaling outputs, endogenous timing and photoperiodic integration**.
 
 ## Seven complete teaching-node contracts
@@ -137,7 +137,7 @@
 - **Photoperiodism:** Long-day and short-day are relative flowering classes, not guaranteed every species; many short-day plants respond to **night duration**, and night interruption can alter response. Light timing plus clock phase matters, not simply total daily photosynthetic carbon gain.
 - **FT/florigen:** For Arabidopsis long-day induction, CO-dependent FT is often expressed in leaf vascular tissues, and FT protein can travel to shoot apex; full floral-meristem initiation and flower-whorl organ identity are in 5.D. Rice and other short-day crops differ in photoperiodic mechanisms.
 - **No duplication:** Reuse prerequisite concepts briefly, while comprehensive auxin mechanism remains 6.D.02, ABA mechanism 6.D.07, transpiration and water potential 6.F, C3/C4/CAM stomatal strategies 6.A.08, and flowering-meristem patterning 5.D.
-- **Deployment scope:** Re-read current main, preserve all existing menus and published URLs, and add only validated chapter links and corresponding sitemap entries.
+- **Deployment scope:** Only academically approved published chapters receive menu links and sitemap entries; other node entries remain nonclickable.
 
 ## Scholarly references for actual textbook chapters
 
@@ -155,3 +155,9 @@
 
 - 6.E.01 — [Foundations of Plant Light Perception: Signals, Spectra and Responses](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-light-perception-signals-spectra-and-responses.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 1/7. Next unpublished in this subunit: 6.E.02 — Phytochromes: Red/Far-Red Perception, Photoconversion and Developmental Signaling.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.E.04 — [Phototropins: LOV Kinase Signaling, Phototropism and Chloroplast Movement](https://rahulthakurpatan.github.io/lifescienceacademy/phototropins-lov-kinase-signaling-phototropism-and-chloroplast-movement.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 2/7. Next unpublished in this subunit: 6.E.01 — Foundations of Plant Light Perception: Signals, Spectra and Responses.

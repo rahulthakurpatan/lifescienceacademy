@@ -277,3 +277,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.E.01 — [Foundations of Plant Light Perception: Signals, Spectra and Responses](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-light-perception-signals-spectra-and-responses.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 1/7; Unit 06: 25/66; Academy: 274/723. Subunit 6.D reconciled to 7/10 from actual published menu.
 - Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.04 — [Phototropins: LOV Kinase Signaling, Phototropism and Chloroplast Movement](https://rahulthakurpatan.github.io/lifescienceacademy/phototropins-lov-kinase-signaling-phototropism-and-chloroplast-movement.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 2/7; Unit 06: 26/66; Academy: 275/723. Reconciled older 6.D count to 7/10 from actual menu links.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

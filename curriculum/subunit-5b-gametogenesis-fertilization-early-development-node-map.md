@@ -245,3 +245,5 @@
 
 - 2026-11-27: 5.B.10 — Pollination, Pollen-Tube Guidance and Double Fertilization in Flowering Plants. Published chapter: [pollination-pollen-tube-guidance-and-double-fertilization.html](../pollination-pollen-tube-guidance-and-double-fertilization.html). Teaching words: 14,082; internal quality gate: 95/100. Live deployment verification is separate.
 - **5.B.05 — Animal Cleavage: Blastomeres, Cleavage Patterns and Developmental Determinants**: included in the publication tree at `animal-cleavage-blastomeres-cleavage-patterns-and-developmental-determinants.html`; Pages deployment verification is separate.
+
+- 2026-11-27: 5.B.13 — Seed Maturation, Dormancy Release and Germination. Published chapter: [seed-maturation-dormancy-release-and-germination.html](../seed-maturation-dormancy-release-and-germination.html). Teaching words: 14,098; internal quality gate: 95/100. Live deployment verification is separate.

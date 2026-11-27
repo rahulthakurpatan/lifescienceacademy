@@ -2,164 +2,224 @@
   "schema_version": 1,
   "updated_at": "2026-11-27",
   "unit": "07",
-  "status": "lesson_committed_pages_verification_pending",
+  "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.C.07",
-  "title": "Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance",
+  "node_id": "7.C.05",
+  "title": "Gas Exchange and Ventilation–Perfusion Relationships",
   "subunit": "7.C",
   "topic": "Respiratory System",
-  "slug": "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
-  "next_pending_node_id": "7.C.05",
-  "next_pending_node_title": "Gas Exchange and Ventilation–Perfusion Relationships",
-  "published_node_count": 336,
+  "slug": "gas-exchange-and-ventilation-perfusion-relationships.html",
+  "next_pending_node_id": "7.C.06",
+  "next_pending_node_title": "Oxygen Transport and Respiratory Pigments",
+  "published_node_count": 337,
   "publication_allowed": true,
-  "main_baseline_sha": "47f58ed0fe82237d8424965f5b5e9d19ec04bf11",
+  "main_baseline_sha": "a8ce819f4e44005cc182de03341383ac3975f67b",
   "quality_hold": false,
-  "next_required_action": "Verify Pages/live deployment of 7.C.07; continue earliest unpublished node 7.C.05",
+  "next_required_action": "Verify GitHub Pages and live chapter content; then develop 7.C.06 — Oxygen Transport and Respiratory Pigments",
   "planned_node_count": 90,
   "planned_subunit_count": 12,
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.C.07",
-    "title": "Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance",
+    "node_id": "7.C.05",
+    "title": "Gas Exchange and Ventilation–Perfusion Relationships",
     "unit": "07",
     "subunit": "7.C",
     "date": "2026-11-27",
-    "status": "lesson_committed_pages_verification_pending",
-    "chapter_path": "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
-    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+    "status": "committed_pages_verification_pending",
+    "chapter_path": "gas-exchange-and-ventilation-perfusion-relationships.html",
+    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/gas-exchange-and-ventilation-perfusion-relationships.html",
     "initial_main_sha": "37923842ffd0f8f4ad70c79b7e077b9e76c69a0f",
-    "reconciled_main_sha": "47f58ed0fe82237d8424965f5b5e9d19ec04bf11",
-    "draft_branch": "draft/node-7c07-carbon-dioxide-transport-20261127",
-    "draft_commit": "92801110134ad7ca86497fcc15eed4a7d532b677",
-    "chapter_blob": "d0247ea277cfbcfe14ee62302c6b36366dbf84dd",
+    "reconciled_main_sha": "a8ce819f4e44005cc182de03341383ac3975f67b",
+    "draft_branch": "draft/7-c-05-gas-exchange",
+    "draft_commit": "47d3b429c2b369951c257a164ecb3f0b263ec25a",
+    "chapter_blob": "997b20eb4179085fa65e44e107008e937c180615",
     "syllabus": {
-      "official": "January 2026 CSIR-HRDG separate Life Sciences and merged Life Sciences & Biotechnology Unit 7.C; official MPPSC SET 2025 Life Sciences Unit 7.C; PDF relevant pages inspected",
-      "roadmap": "curriculum/subunit-7c-respiratory-system-node-map.md",
+      "versions": [
+        "CSIR Life Sciences Jan 29 2026",
+        "CSIR-UGC-DBT merged Jan 21 2026",
+        "MP SET Life Sciences 2024"
+      ],
       "coverage_matrix": [
         {
-          "concept": "Metabolic CO₂ production, tissue gradient and transport",
-          "sections": "1–3",
-          "depth": "Foundations and molecular carriage",
-          "evidence": "Partial pressure/content calculations",
-          "examination_relevance": "NET Part B/C and SET",
-          "status": "covered"
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Dalton law; humidification and partial pressures",
+          "section": "s2",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Gas mixture pressure budgets and calculations",
+          "coverage": "covered"
         },
         {
-          "concept": "Carbonic anhydrase, intracellular buffering and AE1 chloride shift",
-          "sections": "4–6",
-          "depth": "Reversible chemistry, electroneutral exchange",
-          "evidence": "Inhibition/time-course and counterfactual",
-          "examination_relevance": "NET Part B/C and SET",
-          "status": "covered"
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Henry law and gas solubility",
+          "section": "s3",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Dissolved concentration vs content; pressure relation",
+          "coverage": "covered"
         },
         {
-          "concept": "Haldane effect and pulmonary elimination",
-          "sections": "6–7",
-          "depth": "Oxygen-linked binding and reverse shift",
-          "evidence": "Matched PCO₂ curves and Bohr contrast",
-          "examination_relevance": "NET Part B/C and SET",
-          "status": "covered"
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Fick diffusion; area, thickness and gas properties",
+          "section": "s4",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Barrier mechanism, equations and changed-variable predictions",
+          "coverage": "covered"
         },
         {
-          "concept": "Circulatory flux and alveolar ventilation",
-          "sections": "8–10",
-          "depth": "Fick mass balance, ventilation and storage",
-          "evidence": "Unit conversions, hyperbolic ventilation curve, dead space",
-          "examination_relevance": "NET Part B/C and SET",
-          "status": "covered"
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Alveolar gas equation and assumptions",
+          "section": "s5",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Partial-pressure calculations; steady-state assumptions",
+          "coverage": "covered"
         },
         {
-          "concept": "Bicarbonate buffering and respiratory acid–base",
-          "sections": "11–13",
-          "depth": "Logarithmic ratio, acute and sustained responses",
-          "evidence": "Henderson–Hasselbalch derivation and numerical cases",
-          "examination_relevance": "NET Part B/C and SET",
-          "status": "covered"
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Pulmonary and tissue gradients",
+          "section": "s6",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Gas exchange direction, tissue mass balance",
+          "coverage": "covered"
         },
         {
-          "concept": "Evidence, limitations and integrated perturbations",
-          "sections": "14–16",
-          "depth": "Controls, system integration, renal/neural chapter boundaries",
-          "evidence": "Experimental discrimination and Part C predictions",
-          "examination_relevance": "NET Part B/C and SET",
-          "status": "covered"
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Diffusing capacity",
+          "section": "s7",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "CO tracer, serial resistance and measurement interpretation",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Perfusion and diffusion limitation",
+          "section": "s8",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Capillary equilibration and transit-time reasoning",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "V/Q local steady state and regional variation",
+          "section": "s9–s10",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Ratios, distributions, West zone pressure relationships",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Hypoxic pulmonary vasoconstriction",
+          "section": "s11",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Mechanism and local experimental controls",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "High/low V/Q; shunt/dead-space limits",
+          "section": "s12",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Boundary conditions, gas tensions and oxygen response",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Physiological admixture and shunt mixing",
+          "section": "s13",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Content mass balance; shunt fraction",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Alveolar–arterial difference",
+          "section": "s14",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Mechanism differentiation and calculation",
+          "coverage": "covered"
+        },
+        {
+          "official_topic": "Unit 7.C gas exchange",
+          "concept": "Experimental integration",
+          "section": "s15",
+          "depth": "NET Part B/C",
+          "experimental_analytical_exam_evidence": "Controlled design, interpretation, limitations",
+          "coverage": "covered"
         }
       ]
     },
     "metrics": {
-      "genuine_teaching_words": 13461,
-      "whitespace_words": 13315,
-      "teaching_paragraphs": 120,
-      "teaching_sections": 16,
-      "scientific_svgs": 12,
+      "teaching_words": 14585,
+      "lexical_tokens": 14199,
+      "teaching_paragraphs": 149,
+      "scientific_svgs": 14,
+      "graphs_included_in_svg_count": 7,
       "tables": 6,
-      "questions": 56,
-      "part_b": 20,
-      "part_c": 29,
-      "other": 7,
-      "explanations": 56,
-      "misconceptions": 17,
-      "active_recall": 12,
-      "references": 13
+      "questions": 55,
+      "part_b": 22,
+      "part_c": 25,
+      "other_questions": 8,
+      "misconceptions": 19,
+      "active_recall": 16,
+      "references": 9
     },
-    "word_count_method": "Final saved HTML only; Unicode letter/digit tokens with internal apostrophe, period or hyphen in p.teaching-prose; markup and entities removed. Whitespace token cross-check excludes tokens without letters/digits. Excludes assessment, figures, tables, references and revision.",
-    "comparison": "Compared with 7.B.08: approximately 14,126 words, 147 teaching paragraphs under prior count convention; this chapter 13,461 words, 120 teaching paragraphs, 16 theory sections.",
+    "method": "Count whitespace-delimited visible text only in 149 p.teaching-prose elements of saved chapter; excludes questions, references, headings, navigation, revision, SVG and tables. 14,199 tokens contain letters.",
     "reviews": {
-      "scientific": "Separate internal review of CO₂ transport forms, reversible CA reaction, AE1 directions, Haldane versus Bohr, Fick mass balance, ventilation units, respiratory pH, experimental controls and numerical results. Sources inspected at official syllabus and indexed article or accessible text level.",
-      "editorial": "Separate internal review of progression, graph labels and captions, original explanatory prose, answer order and explanations, TOC and reader shell; corrected acute/sustained figure baseline, positional distractor wording, question distribution and graph questions; final saved audit."
+      "scientific": "Internal pass: mechanisms, assumptions, scope, original sources, independently recomputed numerical answers, all 55 answer texts; corrected historical evidence and answer distribution.",
+      "editorial": "Internal pass: gradual progression, connected prose, teaching diagrams/captions, revision, accessibility markup and inherited controls. No external reviewer."
     },
     "quality": {
-      "score": 95,
+      "scientific_accuracy": 19,
+      "syllabus_coverage": 15,
+      "teaching_depth": 15,
+      "pedagogy": 9,
+      "illustrations": 9,
+      "questions": 10,
+      "experimental_reasoning": 5,
+      "revision": 5,
+      "reader_accessibility": 4,
+      "technical_seo": 4,
+      "total": 95,
       "threshold": 95,
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "genuine_teaching_depth": 15,
-        "pedagogical_quality": 10,
-        "scientific_illustrations": 9,
-        "examination_questions": 9,
-        "experimental_analytical_reasoning": 5,
-        "revision_mastery": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 4
-      },
-      "deductions": "Scientific source full text not uniformly accessible; figures not visually rendered; some distractor explanations less extensive; browser interaction and live SEO verification not performed."
+      "basis": "Internal content and static markup review, not external peer review. Deducted for incomplete full-text availability of some original sources, limits of editorial refinement, lack of rendered SVG inspection, browser interaction testing and independent live verification."
     },
     "tests": {
-      "tag_stack": "pass",
-      "duplicate_ids": 0,
+      "teaching_word_count": 14585,
       "duplicate_teaching_paragraphs": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria_labels": 0,
-      "answer_option_mismatches": 0,
-      "unfinished_markers": 0,
-      "canonical": "pass",
-      "prior_menu_links_preserved": 335,
-      "prior_sitemap_entries_preserved": 336,
-      "previous_next": "7.C.06 and 7.C.08 resolved dynamically from latest menu; unavailable nodes not linked"
+      "duplicate_ids": 0,
+      "broken_internal_fragments": 0,
+      "unbalanced_html_tags": 0,
+      "accessible_svg_titles_descriptions": 14,
+      "broken_svg_marker_references": 0,
+      "question_answer_explanations": 55,
+      "correct_option_distribution": {
+        "B": {
+          "A": 6,
+          "B": 5,
+          "C": 5,
+          "D": 6
+        },
+        "C": {
+          "A": 6,
+          "B": 6,
+          "C": 6,
+          "D": 7
+        }
+      },
+      "numeric_crosschecks": "Independent recalculations of question quantities: 76.13, 53.33, 0.50, 20 and 15, 26.67, 77.93, 0.3 and 1.133, 0.8, 7, 1.75 and 0.7, 0.2 and 0.5, 196, 0.25, 195 and 190, 9.23, 9.73 and 49.73, 20. All correspond to the saved answers.",
+      "reader": "Existing chapter architecture retained; controls and dynamic published-neighbor resolution statically inspected.",
+      "placeholders": "None found",
+      "reference_identifiers": "9 source identities confirmed by syllabus/publication/book records; some source access limited to abstracts/indexed records."
     },
     "not_performed": [
-      "External peer review",
-      "Actual browser/mobile SVG rendering and keyboard interaction; local raw host DNS inaccessible",
-      "Full-text inspection of all cited papers",
-      "Pages/live verification before publication"
+      "Browser rendering at mobile/desktop widths and interactive testing (network access from browser runtime unavailable)",
+      "Full-text inspection of every original study",
+      "Live Pages HTTP and content verification prior to production commit"
     ],
     "publication": {
-      "mode": "single atomic non-force main update conditional on current HEAD",
-      "changed_files": [
-        "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
-        "index.html",
-        "sitemap.xml",
-        "curriculum/academy-progress.json",
-        "curriculum/qa/7-c-07-publication-qa.json"
-      ],
-      "count_before": 335,
-      "count_after": 336,
-      "unit_count": 21,
-      "subunit_count": 5,
-      "next_pending": "7.C.05"
+      "method": "Atomic tree update based on current main, conditional non-force ref update",
+      "previous_nodes_preserved": 336,
+      "previous_next": "7.C.04 and 7.C.06 are resolved from current menu; planned neighbors remain disabled",
+      "next_unpublished_node": "7.C.06"
     }
   },
   "published_node_ids": [
@@ -498,6 +558,7 @@
     "7.C.02",
     "7.C.03",
     "7.C.04",
+    "7.C.05",
     "7.C.07"
   ],
   "prior_publication_qa": {
@@ -650,165 +711,145 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "7.C.02",
-    "title": "Mammalian Respiratory Anatomy and Functional Organisation",
+    "node_id": "7.C.07",
+    "title": "Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance",
     "unit": "07",
     "subunit": "7.C",
-    "topic": "Respiratory System",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "chapter_path": "mammalian-respiratory-anatomy-and-functional-organisation.html",
-    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/mammalian-respiratory-anatomy-and-functional-organisation.html",
+    "chapter_path": "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+    "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
     "initial_main_sha": "37923842ffd0f8f4ad70c79b7e077b9e76c69a0f",
-    "reconciled_main_sha": "46ea2a88f3a934fe11b43c96d468162120732204",
-    "draft_branch": "draft/node-7c02-mammalian-respiratory-anatomy-20261127",
-    "draft_commit": "65649c72be26bfa11c99a40d35cd8467b1ec6a34",
-    "chapter_blob": "e6d24fd10dc9cb18f0ef894452d67bd7d7a5d9f4",
-    "production_blob_sha": "e6d24fd10dc9cb18f0ef894452d67bd7d7a5d9f4",
+    "reconciled_main_sha": "47f58ed0fe82237d8424965f5b5e9d19ec04bf11",
+    "draft_branch": "draft/node-7c07-carbon-dioxide-transport-20261127",
+    "draft_commit": "92801110134ad7ca86497fcc15eed4a7d532b677",
+    "chapter_blob": "d0247ea277cfbcfe14ee62302c6b36366dbf84dd",
     "syllabus": {
-      "csir": "Official January 2026 separate Life Sciences and merged Life Sciences & Biotechnology Unit 7.C inspected; merged syllabus applicable December 2026 onwards.",
-      "set": "MP SET syllabus reproduction, Unit 7.C; not independently authenticated from MPPSC host.",
+      "official": "January 2026 CSIR-HRDG separate Life Sciences and merged Life Sciences & Biotechnology Unit 7.C; official MPPSC SET 2025 Life Sciences Unit 7.C; PDF relevant pages inspected",
       "roadmap": "curriculum/subunit-7c-respiratory-system-node-map.md",
       "coverage_matrix": [
         {
-          "concept": "Upper airway conditioning",
-          "section": "1–2",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
+          "concept": "Metabolic CO₂ production, tissue gradient and transport",
+          "sections": "1–3",
+          "depth": "Foundations and molecular carriage",
+          "evidence": "Partial pressure/content calculations",
+          "examination_relevance": "NET Part B/C and SET",
+          "status": "covered"
         },
         {
-          "concept": "Tracheobronchial organisation and acinus",
-          "section": "3–4",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
+          "concept": "Carbonic anhydrase, intracellular buffering and AE1 chloride shift",
+          "sections": "4–6",
+          "depth": "Reversible chemistry, electroneutral exchange",
+          "evidence": "Inhibition/time-course and counterfactual",
+          "examination_relevance": "NET Part B/C and SET",
+          "status": "covered"
         },
         {
-          "concept": "Mucociliary and macrophage protection",
-          "section": "5",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
+          "concept": "Haldane effect and pulmonary elimination",
+          "sections": "6–7",
+          "depth": "Oxygen-linked binding and reverse shift",
+          "evidence": "Matched PCO₂ curves and Bohr contrast",
+          "examination_relevance": "NET Part B/C and SET",
+          "status": "covered"
         },
         {
-          "concept": "Lungs, hilum and pleura",
-          "section": "6",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
+          "concept": "Circulatory flux and alveolar ventilation",
+          "sections": "8–10",
+          "depth": "Fick mass balance, ventilation and storage",
+          "evidence": "Unit conversions, hyperbolic ventilation curve, dead space",
+          "examination_relevance": "NET Part B/C and SET",
+          "status": "covered"
         },
         {
-          "concept": "Alveoli and type I/II cells",
-          "section": "7",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
+          "concept": "Bicarbonate buffering and respiratory acid–base",
+          "sections": "11–13",
+          "depth": "Logarithmic ratio, acute and sustained responses",
+          "evidence": "Henderson–Hasselbalch derivation and numerical cases",
+          "examination_relevance": "NET Part B/C and SET",
+          "status": "covered"
         },
         {
-          "concept": "Surfactant and stability",
-          "section": "8",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
-        },
-        {
-          "concept": "Blood–air barrier",
-          "section": "9",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
-        },
-        {
-          "concept": "Pulmonary and bronchial circulation",
-          "section": "10",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
-        },
-        {
-          "concept": "Integrated experimental reasoning",
-          "section": "11",
-          "depth": "Structure–function mechanisms, evidence, prediction and examination practice",
-          "coverage": "source reviewed"
+          "concept": "Evidence, limitations and integrated perturbations",
+          "sections": "14–16",
+          "depth": "Controls, system integration, renal/neural chapter boundaries",
+          "evidence": "Experimental discrimination and Part C predictions",
+          "examination_relevance": "NET Part B/C and SET",
+          "status": "covered"
         }
       ]
     },
     "metrics": {
-      "genuine_teaching_words": 13776,
-      "teaching_paragraphs": 142,
-      "teaching_sections": 11,
-      "scientific_svgs": 14,
-      "scientific_tables": 3,
-      "graphs": 1,
-      "total_questions": 60,
-      "part_b": 26,
-      "part_c": 28,
-      "other_questions": 6,
-      "answer_explanations": 60,
-      "misconceptions": 15,
-      "active_recall": 11,
-      "references": 14
+      "genuine_teaching_words": 13461,
+      "whitespace_words": 13315,
+      "teaching_paragraphs": 120,
+      "teaching_sections": 16,
+      "scientific_svgs": 12,
+      "tables": 6,
+      "questions": 56,
+      "part_b": 20,
+      "part_c": 29,
+      "other": 7,
+      "explanations": 56,
+      "misconceptions": 17,
+      "active_recall": 12,
+      "references": 13
     },
-    "word_count_method": "Count Unicode letter/digit words in final saved p.teaching-prose only, stripping HTML; exclude all UI, captions, tables, questions, revision and references.",
-    "comparison": "7.B.08 contains 14,129 teaching words by same method; target contains 13,776 across 142 unique paragraphs.",
-    "quality_rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_and_microtopic_coverage": 15,
-      "genuine_teaching_depth": 15,
-      "pedagogical_quality": 9,
-      "scientific_illustrations": 9,
-      "examination_questions_and_answers": 10,
-      "experimental_and_analytical_reasoning": 5,
-      "revision_and_mastery": 5,
-      "reader_architecture_and_accessibility": 4,
-      "technical_integrity_and_seo": 4,
-      "total": 95
+    "word_count_method": "Final saved HTML only; Unicode letter/digit tokens with internal apostrophe, period or hyphen in p.teaching-prose; markup and entities removed. Whitespace token cross-check excludes tokens without letters/digits. Excludes assessment, figures, tables, references and revision.",
+    "comparison": "Compared with 7.B.08: approximately 14,126 words, 147 teaching paragraphs under prior count convention; this chapter 13,461 words, 120 teaching paragraphs, 16 theory sections.",
+    "reviews": {
+      "scientific": "Separate internal review of CO₂ transport forms, reversible CA reaction, AE1 directions, Haldane versus Bohr, Fick mass balance, ventilation units, respiratory pH, experimental controls and numerical results. Sources inspected at official syllabus and indexed article or accessible text level.",
+      "editorial": "Separate internal review of progression, graph labels and captions, original explanatory prose, answer order and explanations, TOC and reader shell; corrected acute/sustained figure baseline, positional distractor wording, question distribution and graph questions; final saved audit."
     },
-    "review": {
-      "scientific": "Internal review of anatomy, airway functional boundaries, pneumocytes, surfactant models, barrier compartments, vascular routes and 60 question explanations. Checked numerical relationships and landmark evidence; corrected bronchial venous connection diagram routing.",
-      "editorial": "Separate review of reading progression, original prose, heading structure, figure descriptions, answer clarity, misconception correction and exam approach, recall, revision comparison and mastery checklist; added accessible zoom and table headers.",
-      "deductions": "One point each for limited primary-evidence verification, scope for further signposting in long sections, SVG pixel rendering not tested, reader interaction not browser-tested, and unavailable browser/live HTTP tests. No external peer review."
+    "quality": {
+      "score": 95,
+      "threshold": 95,
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "genuine_teaching_depth": 15,
+        "pedagogical_quality": 10,
+        "scientific_illustrations": 9,
+        "examination_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "deductions": "Scientific source full text not uniformly accessible; figures not visually rendered; some distractor explanations less extensive; browser interaction and live SEO verification not performed."
     },
-    "static_audit": {
+    "tests": {
+      "tag_stack": "pass",
       "duplicate_ids": 0,
-      "missing_anchors": 0,
       "duplicate_teaching_paragraphs": 0,
-      "placeholders": 0,
-      "accessible_svgs": 14,
-      "diagram_zoom_controls": 14,
-      "answers_present": 60,
-      "canonical_verified": true,
-      "adjacent_navigation": "Menu-resolved 7.C.01 and 7.C.03; current publication state verified from reconciled main menu.",
-      "numerical_checks": "64/16=4, 2γ/r examples 500 and 100 Pa, relative diffusion 1/4, resistance 10/5=2, type I area 800/920=0.869565, series 2/3, parallel resistance 2, practice 8/4=2; 9/6=1.5, 2/4=0.5, 8/4=2, +6 to +3, 0.020/0.0002=100 Pa."
+      "unresolved_anchors": 0,
+      "unresolved_aria_labels": 0,
+      "answer_option_mismatches": 0,
+      "unfinished_markers": 0,
+      "canonical": "pass",
+      "prior_menu_links_preserved": 335,
+      "prior_sitemap_entries_preserved": 336,
+      "previous_next": "7.C.06 and 7.C.08 resolved dynamically from latest menu; unavailable nodes not linked"
     },
-    "tests_not_performed": [
-      "Browser interaction and mobile pixel rendering: public DNS unavailable in local environment",
-      "Live HTTP/content verification pending",
-      "Pages settings endpoint not accessible; use Actions workflow status",
-      "No separate shared assets or dashboard files in repository; existing homepage and inline template preserved"
+    "not_performed": [
+      "External peer review",
+      "Actual browser/mobile SVG rendering and keyboard interaction; local raw host DNS inaccessible",
+      "Full-text inspection of all cited papers",
+      "Pages/live verification before publication"
     ],
-    "references": [
-      "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
-      "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
-      "https://www.ncbi.nlm.nih.gov/books/NBK541061/",
-      "https://www.ncbi.nlm.nih.gov/sites/books/NBK459258/",
-      "https://pubmed.ncbi.nlm.nih.gov/13649082/",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213971/",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6267411/",
-      "https://pubmed.ncbi.nlm.nih.gov/11369548/",
-      "https://pubmed.ncbi.nlm.nih.gov/14512270/",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3696553/",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3633213/",
-      "https://www.ncbi.nlm.nih.gov/sites/books/NBK513353/",
-      "https://www.ncbi.nlm.nih.gov/sites/books/NBK554380/",
-      "https://www.ncbi.nlm.nih.gov/sites/books/NBK525948/"
-    ],
-    "production": {
-      "publication_base_sha": "46ea2a88f3a934fe11b43c96d468162120732204",
-      "published_node_count": 335,
-      "unit_published_node_count": 20,
-      "subunit_published_node_count": 4,
-      "next_unpublished_node_id": "7.C.05",
-      "next_unpublished_node_title": "Gas Exchange and Ventilation–Perfusion Relationships",
-      "live_verification": "pending",
-      "concurrent_publications_preserved": [
-        "7.C.01",
-        "7.C.03",
-        "7.C.04"
-      ]
+    "publication": {
+      "mode": "single atomic non-force main update conditional on current HEAD",
+      "changed_files": [
+        "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/qa/7-c-07-publication-qa.json"
+      ],
+      "count_before": 335,
+      "count_after": 336,
+      "unit_count": 21,
+      "subunit_count": 5,
+      "next_pending": "7.C.05"
     }
   },
   "unit_02": {
@@ -45702,6 +45743,208 @@
         "subunit_count": 5,
         "next_pending": "7.C.05"
       }
+    },
+    "7.C.05": {
+      "node_id": "7.C.05",
+      "title": "Gas Exchange and Ventilation–Perfusion Relationships",
+      "unit": "07",
+      "subunit": "7.C",
+      "date": "2026-11-27",
+      "status": "committed_pages_verification_pending",
+      "chapter_path": "gas-exchange-and-ventilation-perfusion-relationships.html",
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/gas-exchange-and-ventilation-perfusion-relationships.html",
+      "initial_main_sha": "37923842ffd0f8f4ad70c79b7e077b9e76c69a0f",
+      "reconciled_main_sha": "a8ce819f4e44005cc182de03341383ac3975f67b",
+      "draft_branch": "draft/7-c-05-gas-exchange",
+      "draft_commit": "47d3b429c2b369951c257a164ecb3f0b263ec25a",
+      "chapter_blob": "997b20eb4179085fa65e44e107008e937c180615",
+      "syllabus": {
+        "versions": [
+          "CSIR Life Sciences Jan 29 2026",
+          "CSIR-UGC-DBT merged Jan 21 2026",
+          "MP SET Life Sciences 2024"
+        ],
+        "coverage_matrix": [
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Dalton law; humidification and partial pressures",
+            "section": "s2",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Gas mixture pressure budgets and calculations",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Henry law and gas solubility",
+            "section": "s3",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Dissolved concentration vs content; pressure relation",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Fick diffusion; area, thickness and gas properties",
+            "section": "s4",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Barrier mechanism, equations and changed-variable predictions",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Alveolar gas equation and assumptions",
+            "section": "s5",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Partial-pressure calculations; steady-state assumptions",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Pulmonary and tissue gradients",
+            "section": "s6",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Gas exchange direction, tissue mass balance",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Diffusing capacity",
+            "section": "s7",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "CO tracer, serial resistance and measurement interpretation",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Perfusion and diffusion limitation",
+            "section": "s8",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Capillary equilibration and transit-time reasoning",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "V/Q local steady state and regional variation",
+            "section": "s9–s10",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Ratios, distributions, West zone pressure relationships",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Hypoxic pulmonary vasoconstriction",
+            "section": "s11",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Mechanism and local experimental controls",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "High/low V/Q; shunt/dead-space limits",
+            "section": "s12",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Boundary conditions, gas tensions and oxygen response",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Physiological admixture and shunt mixing",
+            "section": "s13",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Content mass balance; shunt fraction",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Alveolar–arterial difference",
+            "section": "s14",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Mechanism differentiation and calculation",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Experimental integration",
+            "section": "s15",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Controlled design, interpretation, limitations",
+            "coverage": "covered"
+          }
+        ]
+      },
+      "metrics": {
+        "teaching_words": 14585,
+        "lexical_tokens": 14199,
+        "teaching_paragraphs": 149,
+        "scientific_svgs": 14,
+        "graphs_included_in_svg_count": 7,
+        "tables": 6,
+        "questions": 55,
+        "part_b": 22,
+        "part_c": 25,
+        "other_questions": 8,
+        "misconceptions": 19,
+        "active_recall": 16,
+        "references": 9
+      },
+      "method": "Count whitespace-delimited visible text only in 149 p.teaching-prose elements of saved chapter; excludes questions, references, headings, navigation, revision, SVG and tables. 14,199 tokens contain letters.",
+      "reviews": {
+        "scientific": "Internal pass: mechanisms, assumptions, scope, original sources, independently recomputed numerical answers, all 55 answer texts; corrected historical evidence and answer distribution.",
+        "editorial": "Internal pass: gradual progression, connected prose, teaching diagrams/captions, revision, accessibility markup and inherited controls. No external reviewer."
+      },
+      "quality": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "questions": 10,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95,
+        "threshold": 95,
+        "basis": "Internal content and static markup review, not external peer review. Deducted for incomplete full-text availability of some original sources, limits of editorial refinement, lack of rendered SVG inspection, browser interaction testing and independent live verification."
+      },
+      "tests": {
+        "teaching_word_count": 14585,
+        "duplicate_teaching_paragraphs": 0,
+        "duplicate_ids": 0,
+        "broken_internal_fragments": 0,
+        "unbalanced_html_tags": 0,
+        "accessible_svg_titles_descriptions": 14,
+        "broken_svg_marker_references": 0,
+        "question_answer_explanations": 55,
+        "correct_option_distribution": {
+          "B": {
+            "A": 6,
+            "B": 5,
+            "C": 5,
+            "D": 6
+          },
+          "C": {
+            "A": 6,
+            "B": 6,
+            "C": 6,
+            "D": 7
+          }
+        },
+        "numeric_crosschecks": "Independent recalculations of question quantities: 76.13, 53.33, 0.50, 20 and 15, 26.67, 77.93, 0.3 and 1.133, 0.8, 7, 1.75 and 0.7, 0.2 and 0.5, 196, 0.25, 195 and 190, 9.23, 9.73 and 49.73, 20. All correspond to the saved answers.",
+        "reader": "Existing chapter architecture retained; controls and dynamic published-neighbor resolution statically inspected.",
+        "placeholders": "None found",
+        "reference_identifiers": "9 source identities confirmed by syllabus/publication/book records; some source access limited to abstracts/indexed records."
+      },
+      "not_performed": [
+        "Browser rendering at mobile/desktop widths and interactive testing (network access from browser runtime unavailable)",
+        "Full-text inspection of every original study",
+        "Live Pages HTTP and content verification prior to production commit"
+      ],
+      "publication": {
+        "method": "Atomic tree update based on current main, conditional non-force ref update",
+        "previous_nodes_preserved": 336,
+        "previous_next": "7.C.04 and 7.C.06 are resolved from current menu; planned neighbors remain disabled",
+        "next_unpublished_node": "7.C.06"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -63509,7 +63752,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/gas-exchange-and-ventilation-perfusion-relationships.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -63592,153 +63835,214 @@
       "7.C.02",
       "7.C.03",
       "7.C.04",
+      "7.C.05",
       "7.C.07"
     ],
-    "published_node_count": 21,
+    "published_node_count": 22,
     "planned_node_count": 90,
-    "last_published_node_id": "7.C.07",
+    "last_published_node_id": "7.C.05",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "7.C.07",
-      "title": "Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance",
+      "node_id": "7.C.05",
+      "title": "Gas Exchange and Ventilation–Perfusion Relationships",
       "unit": "07",
       "subunit": "7.C",
       "date": "2026-11-27",
-      "status": "lesson_committed_pages_verification_pending",
-      "chapter_path": "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+      "status": "committed_pages_verification_pending",
+      "chapter_path": "gas-exchange-and-ventilation-perfusion-relationships.html",
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/gas-exchange-and-ventilation-perfusion-relationships.html",
       "initial_main_sha": "37923842ffd0f8f4ad70c79b7e077b9e76c69a0f",
-      "reconciled_main_sha": "47f58ed0fe82237d8424965f5b5e9d19ec04bf11",
-      "draft_branch": "draft/node-7c07-carbon-dioxide-transport-20261127",
-      "draft_commit": "92801110134ad7ca86497fcc15eed4a7d532b677",
-      "chapter_blob": "d0247ea277cfbcfe14ee62302c6b36366dbf84dd",
+      "reconciled_main_sha": "a8ce819f4e44005cc182de03341383ac3975f67b",
+      "draft_branch": "draft/7-c-05-gas-exchange",
+      "draft_commit": "47d3b429c2b369951c257a164ecb3f0b263ec25a",
+      "chapter_blob": "997b20eb4179085fa65e44e107008e937c180615",
       "syllabus": {
-        "official": "January 2026 CSIR-HRDG separate Life Sciences and merged Life Sciences & Biotechnology Unit 7.C; official MPPSC SET 2025 Life Sciences Unit 7.C; PDF relevant pages inspected",
-        "roadmap": "curriculum/subunit-7c-respiratory-system-node-map.md",
+        "versions": [
+          "CSIR Life Sciences Jan 29 2026",
+          "CSIR-UGC-DBT merged Jan 21 2026",
+          "MP SET Life Sciences 2024"
+        ],
         "coverage_matrix": [
           {
-            "concept": "Metabolic CO₂ production, tissue gradient and transport",
-            "sections": "1–3",
-            "depth": "Foundations and molecular carriage",
-            "evidence": "Partial pressure/content calculations",
-            "examination_relevance": "NET Part B/C and SET",
-            "status": "covered"
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Dalton law; humidification and partial pressures",
+            "section": "s2",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Gas mixture pressure budgets and calculations",
+            "coverage": "covered"
           },
           {
-            "concept": "Carbonic anhydrase, intracellular buffering and AE1 chloride shift",
-            "sections": "4–6",
-            "depth": "Reversible chemistry, electroneutral exchange",
-            "evidence": "Inhibition/time-course and counterfactual",
-            "examination_relevance": "NET Part B/C and SET",
-            "status": "covered"
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Henry law and gas solubility",
+            "section": "s3",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Dissolved concentration vs content; pressure relation",
+            "coverage": "covered"
           },
           {
-            "concept": "Haldane effect and pulmonary elimination",
-            "sections": "6–7",
-            "depth": "Oxygen-linked binding and reverse shift",
-            "evidence": "Matched PCO₂ curves and Bohr contrast",
-            "examination_relevance": "NET Part B/C and SET",
-            "status": "covered"
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Fick diffusion; area, thickness and gas properties",
+            "section": "s4",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Barrier mechanism, equations and changed-variable predictions",
+            "coverage": "covered"
           },
           {
-            "concept": "Circulatory flux and alveolar ventilation",
-            "sections": "8–10",
-            "depth": "Fick mass balance, ventilation and storage",
-            "evidence": "Unit conversions, hyperbolic ventilation curve, dead space",
-            "examination_relevance": "NET Part B/C and SET",
-            "status": "covered"
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Alveolar gas equation and assumptions",
+            "section": "s5",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Partial-pressure calculations; steady-state assumptions",
+            "coverage": "covered"
           },
           {
-            "concept": "Bicarbonate buffering and respiratory acid–base",
-            "sections": "11–13",
-            "depth": "Logarithmic ratio, acute and sustained responses",
-            "evidence": "Henderson–Hasselbalch derivation and numerical cases",
-            "examination_relevance": "NET Part B/C and SET",
-            "status": "covered"
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Pulmonary and tissue gradients",
+            "section": "s6",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Gas exchange direction, tissue mass balance",
+            "coverage": "covered"
           },
           {
-            "concept": "Evidence, limitations and integrated perturbations",
-            "sections": "14–16",
-            "depth": "Controls, system integration, renal/neural chapter boundaries",
-            "evidence": "Experimental discrimination and Part C predictions",
-            "examination_relevance": "NET Part B/C and SET",
-            "status": "covered"
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Diffusing capacity",
+            "section": "s7",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "CO tracer, serial resistance and measurement interpretation",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Perfusion and diffusion limitation",
+            "section": "s8",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Capillary equilibration and transit-time reasoning",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "V/Q local steady state and regional variation",
+            "section": "s9–s10",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Ratios, distributions, West zone pressure relationships",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Hypoxic pulmonary vasoconstriction",
+            "section": "s11",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Mechanism and local experimental controls",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "High/low V/Q; shunt/dead-space limits",
+            "section": "s12",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Boundary conditions, gas tensions and oxygen response",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Physiological admixture and shunt mixing",
+            "section": "s13",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Content mass balance; shunt fraction",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Alveolar–arterial difference",
+            "section": "s14",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Mechanism differentiation and calculation",
+            "coverage": "covered"
+          },
+          {
+            "official_topic": "Unit 7.C gas exchange",
+            "concept": "Experimental integration",
+            "section": "s15",
+            "depth": "NET Part B/C",
+            "experimental_analytical_exam_evidence": "Controlled design, interpretation, limitations",
+            "coverage": "covered"
           }
         ]
       },
       "metrics": {
-        "genuine_teaching_words": 13461,
-        "whitespace_words": 13315,
-        "teaching_paragraphs": 120,
-        "teaching_sections": 16,
-        "scientific_svgs": 12,
+        "teaching_words": 14585,
+        "lexical_tokens": 14199,
+        "teaching_paragraphs": 149,
+        "scientific_svgs": 14,
+        "graphs_included_in_svg_count": 7,
         "tables": 6,
-        "questions": 56,
-        "part_b": 20,
-        "part_c": 29,
-        "other": 7,
-        "explanations": 56,
-        "misconceptions": 17,
-        "active_recall": 12,
-        "references": 13
+        "questions": 55,
+        "part_b": 22,
+        "part_c": 25,
+        "other_questions": 8,
+        "misconceptions": 19,
+        "active_recall": 16,
+        "references": 9
       },
-      "word_count_method": "Final saved HTML only; Unicode letter/digit tokens with internal apostrophe, period or hyphen in p.teaching-prose; markup and entities removed. Whitespace token cross-check excludes tokens without letters/digits. Excludes assessment, figures, tables, references and revision.",
-      "comparison": "Compared with 7.B.08: approximately 14,126 words, 147 teaching paragraphs under prior count convention; this chapter 13,461 words, 120 teaching paragraphs, 16 theory sections.",
+      "method": "Count whitespace-delimited visible text only in 149 p.teaching-prose elements of saved chapter; excludes questions, references, headings, navigation, revision, SVG and tables. 14,199 tokens contain letters.",
       "reviews": {
-        "scientific": "Separate internal review of CO₂ transport forms, reversible CA reaction, AE1 directions, Haldane versus Bohr, Fick mass balance, ventilation units, respiratory pH, experimental controls and numerical results. Sources inspected at official syllabus and indexed article or accessible text level.",
-        "editorial": "Separate internal review of progression, graph labels and captions, original explanatory prose, answer order and explanations, TOC and reader shell; corrected acute/sustained figure baseline, positional distractor wording, question distribution and graph questions; final saved audit."
+        "scientific": "Internal pass: mechanisms, assumptions, scope, original sources, independently recomputed numerical answers, all 55 answer texts; corrected historical evidence and answer distribution.",
+        "editorial": "Internal pass: gradual progression, connected prose, teaching diagrams/captions, revision, accessibility markup and inherited controls. No external reviewer."
       },
       "quality": {
-        "score": 95,
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "questions": 10,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95,
         "threshold": 95,
-        "rubric": {
-          "scientific_accuracy": 19,
-          "syllabus_coverage": 15,
-          "genuine_teaching_depth": 15,
-          "pedagogical_quality": 10,
-          "scientific_illustrations": 9,
-          "examination_questions": 9,
-          "experimental_analytical_reasoning": 5,
-          "revision_mastery": 5,
-          "reader_accessibility": 4,
-          "technical_seo": 4
-        },
-        "deductions": "Scientific source full text not uniformly accessible; figures not visually rendered; some distractor explanations less extensive; browser interaction and live SEO verification not performed."
+        "basis": "Internal content and static markup review, not external peer review. Deducted for incomplete full-text availability of some original sources, limits of editorial refinement, lack of rendered SVG inspection, browser interaction testing and independent live verification."
       },
       "tests": {
-        "tag_stack": "pass",
-        "duplicate_ids": 0,
+        "teaching_word_count": 14585,
         "duplicate_teaching_paragraphs": 0,
-        "unresolved_anchors": 0,
-        "unresolved_aria_labels": 0,
-        "answer_option_mismatches": 0,
-        "unfinished_markers": 0,
-        "canonical": "pass",
-        "prior_menu_links_preserved": 335,
-        "prior_sitemap_entries_preserved": 336,
-        "previous_next": "7.C.06 and 7.C.08 resolved dynamically from latest menu; unavailable nodes not linked"
+        "duplicate_ids": 0,
+        "broken_internal_fragments": 0,
+        "unbalanced_html_tags": 0,
+        "accessible_svg_titles_descriptions": 14,
+        "broken_svg_marker_references": 0,
+        "question_answer_explanations": 55,
+        "correct_option_distribution": {
+          "B": {
+            "A": 6,
+            "B": 5,
+            "C": 5,
+            "D": 6
+          },
+          "C": {
+            "A": 6,
+            "B": 6,
+            "C": 6,
+            "D": 7
+          }
+        },
+        "numeric_crosschecks": "Independent recalculations of question quantities: 76.13, 53.33, 0.50, 20 and 15, 26.67, 77.93, 0.3 and 1.133, 0.8, 7, 1.75 and 0.7, 0.2 and 0.5, 196, 0.25, 195 and 190, 9.23, 9.73 and 49.73, 20. All correspond to the saved answers.",
+        "reader": "Existing chapter architecture retained; controls and dynamic published-neighbor resolution statically inspected.",
+        "placeholders": "None found",
+        "reference_identifiers": "9 source identities confirmed by syllabus/publication/book records; some source access limited to abstracts/indexed records."
       },
       "not_performed": [
-        "External peer review",
-        "Actual browser/mobile SVG rendering and keyboard interaction; local raw host DNS inaccessible",
-        "Full-text inspection of all cited papers",
-        "Pages/live verification before publication"
+        "Browser rendering at mobile/desktop widths and interactive testing (network access from browser runtime unavailable)",
+        "Full-text inspection of every original study",
+        "Live Pages HTTP and content verification prior to production commit"
       ],
       "publication": {
-        "mode": "single atomic non-force main update conditional on current HEAD",
-        "changed_files": [
-          "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
-          "index.html",
-          "sitemap.xml",
-          "curriculum/academy-progress.json",
-          "curriculum/qa/7-c-07-publication-qa.json"
-        ],
-        "count_before": 335,
-        "count_after": 336,
-        "unit_count": 21,
-        "subunit_count": 5,
-        "next_pending": "7.C.05"
+        "method": "Atomic tree update based on current main, conditional non-force ref update",
+        "previous_nodes_preserved": 336,
+        "previous_next": "7.C.04 and 7.C.06 are resolved from current menu; planned neighbors remain disabled",
+        "next_unpublished_node": "7.C.06"
       }
     },
     "qa_by_node": {
@@ -66952,10 +67256,212 @@
           "subunit_count": 5,
           "next_pending": "7.C.05"
         }
+      },
+      "7.C.05": {
+        "node_id": "7.C.05",
+        "title": "Gas Exchange and Ventilation–Perfusion Relationships",
+        "unit": "07",
+        "subunit": "7.C",
+        "date": "2026-11-27",
+        "status": "committed_pages_verification_pending",
+        "chapter_path": "gas-exchange-and-ventilation-perfusion-relationships.html",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/gas-exchange-and-ventilation-perfusion-relationships.html",
+        "initial_main_sha": "37923842ffd0f8f4ad70c79b7e077b9e76c69a0f",
+        "reconciled_main_sha": "a8ce819f4e44005cc182de03341383ac3975f67b",
+        "draft_branch": "draft/7-c-05-gas-exchange",
+        "draft_commit": "47d3b429c2b369951c257a164ecb3f0b263ec25a",
+        "chapter_blob": "997b20eb4179085fa65e44e107008e937c180615",
+        "syllabus": {
+          "versions": [
+            "CSIR Life Sciences Jan 29 2026",
+            "CSIR-UGC-DBT merged Jan 21 2026",
+            "MP SET Life Sciences 2024"
+          ],
+          "coverage_matrix": [
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Dalton law; humidification and partial pressures",
+              "section": "s2",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Gas mixture pressure budgets and calculations",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Henry law and gas solubility",
+              "section": "s3",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Dissolved concentration vs content; pressure relation",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Fick diffusion; area, thickness and gas properties",
+              "section": "s4",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Barrier mechanism, equations and changed-variable predictions",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Alveolar gas equation and assumptions",
+              "section": "s5",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Partial-pressure calculations; steady-state assumptions",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Pulmonary and tissue gradients",
+              "section": "s6",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Gas exchange direction, tissue mass balance",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Diffusing capacity",
+              "section": "s7",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "CO tracer, serial resistance and measurement interpretation",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Perfusion and diffusion limitation",
+              "section": "s8",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Capillary equilibration and transit-time reasoning",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "V/Q local steady state and regional variation",
+              "section": "s9–s10",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Ratios, distributions, West zone pressure relationships",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Hypoxic pulmonary vasoconstriction",
+              "section": "s11",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Mechanism and local experimental controls",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "High/low V/Q; shunt/dead-space limits",
+              "section": "s12",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Boundary conditions, gas tensions and oxygen response",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Physiological admixture and shunt mixing",
+              "section": "s13",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Content mass balance; shunt fraction",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Alveolar–arterial difference",
+              "section": "s14",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Mechanism differentiation and calculation",
+              "coverage": "covered"
+            },
+            {
+              "official_topic": "Unit 7.C gas exchange",
+              "concept": "Experimental integration",
+              "section": "s15",
+              "depth": "NET Part B/C",
+              "experimental_analytical_exam_evidence": "Controlled design, interpretation, limitations",
+              "coverage": "covered"
+            }
+          ]
+        },
+        "metrics": {
+          "teaching_words": 14585,
+          "lexical_tokens": 14199,
+          "teaching_paragraphs": 149,
+          "scientific_svgs": 14,
+          "graphs_included_in_svg_count": 7,
+          "tables": 6,
+          "questions": 55,
+          "part_b": 22,
+          "part_c": 25,
+          "other_questions": 8,
+          "misconceptions": 19,
+          "active_recall": 16,
+          "references": 9
+        },
+        "method": "Count whitespace-delimited visible text only in 149 p.teaching-prose elements of saved chapter; excludes questions, references, headings, navigation, revision, SVG and tables. 14,199 tokens contain letters.",
+        "reviews": {
+          "scientific": "Internal pass: mechanisms, assumptions, scope, original sources, independently recomputed numerical answers, all 55 answer texts; corrected historical evidence and answer distribution.",
+          "editorial": "Internal pass: gradual progression, connected prose, teaching diagrams/captions, revision, accessibility markup and inherited controls. No external reviewer."
+        },
+        "quality": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "questions": 10,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4,
+          "total": 95,
+          "threshold": 95,
+          "basis": "Internal content and static markup review, not external peer review. Deducted for incomplete full-text availability of some original sources, limits of editorial refinement, lack of rendered SVG inspection, browser interaction testing and independent live verification."
+        },
+        "tests": {
+          "teaching_word_count": 14585,
+          "duplicate_teaching_paragraphs": 0,
+          "duplicate_ids": 0,
+          "broken_internal_fragments": 0,
+          "unbalanced_html_tags": 0,
+          "accessible_svg_titles_descriptions": 14,
+          "broken_svg_marker_references": 0,
+          "question_answer_explanations": 55,
+          "correct_option_distribution": {
+            "B": {
+              "A": 6,
+              "B": 5,
+              "C": 5,
+              "D": 6
+            },
+            "C": {
+              "A": 6,
+              "B": 6,
+              "C": 6,
+              "D": 7
+            }
+          },
+          "numeric_crosschecks": "Independent recalculations of question quantities: 76.13, 53.33, 0.50, 20 and 15, 26.67, 77.93, 0.3 and 1.133, 0.8, 7, 1.75 and 0.7, 0.2 and 0.5, 196, 0.25, 195 and 190, 9.23, 9.73 and 49.73, 20. All correspond to the saved answers.",
+          "reader": "Existing chapter architecture retained; controls and dynamic published-neighbor resolution statically inspected.",
+          "placeholders": "None found",
+          "reference_identifiers": "9 source identities confirmed by syllabus/publication/book records; some source access limited to abstracts/indexed records."
+        },
+        "not_performed": [
+          "Browser rendering at mobile/desktop widths and interactive testing (network access from browser runtime unavailable)",
+          "Full-text inspection of every original study",
+          "Live Pages HTTP and content verification prior to production commit"
+        ],
+        "publication": {
+          "method": "Atomic tree update based on current main, conditional non-force ref update",
+          "previous_nodes_preserved": 336,
+          "previous_next": "7.C.04 and 7.C.06 are resolved from current menu; planned neighbors remain disabled",
+          "next_unpublished_node": "7.C.06"
+        }
       }
     },
-    "next_pending_node_id": "7.C.05",
-    "next_pending_node_title": "Gas Exchange and Ventilation–Perfusion Relationships",
+    "next_pending_node_id": "7.C.06",
+    "next_pending_node_title": "Oxygen Transport and Respiratory Pigments",
     "complete": false,
     "subunit_7a": {
       "published_node_ids": [
@@ -66973,114 +67479,146 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.C.03",
-      "title": "Mechanics of Breathing and Pulmonary Ventilation",
-      "chapter_path": "mechanics-of-breathing-and-pulmonary-ventilation.html",
-      "chapter_blob_sha": "7ff873fb43d98be6c772af2504157f24fd284a23",
-      "working_branch": "draft/node-7c03-breathing-mechanics-20261127",
-      "working_commit_sha": "9c705d64d06efd66d55ce979943c562b73c5968f",
+      "node_id": "7.C.07",
+      "title": "Carbon Dioxide Transport, Waste Elimination and Acid–Base Balance",
+      "unit": "07",
+      "subunit": "7.C",
+      "date": "2026-11-27",
+      "status": "lesson_committed_pages_verification_pending",
+      "chapter_path": "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
       "initial_main_sha": "37923842ffd0f8f4ad70c79b7e077b9e76c69a0f",
-      "publication_base_sha": "ba11e082ffae0e4232b2285917563e3303616395",
-      "review_date": "2026-11-27",
-      "status": "qa_passed_main_publication_pending_deployment_verification",
+      "reconciled_main_sha": "47f58ed0fe82237d8424965f5b5e9d19ec04bf11",
+      "draft_branch": "draft/node-7c07-carbon-dioxide-transport-20261127",
+      "draft_commit": "92801110134ad7ca86497fcc15eed4a7d532b677",
+      "chapter_blob": "d0247ea277cfbcfe14ee62302c6b36366dbf84dd",
+      "syllabus": {
+        "official": "January 2026 CSIR-HRDG separate Life Sciences and merged Life Sciences & Biotechnology Unit 7.C; official MPPSC SET 2025 Life Sciences Unit 7.C; PDF relevant pages inspected",
+        "roadmap": "curriculum/subunit-7c-respiratory-system-node-map.md",
+        "coverage_matrix": [
+          {
+            "concept": "Metabolic CO₂ production, tissue gradient and transport",
+            "sections": "1–3",
+            "depth": "Foundations and molecular carriage",
+            "evidence": "Partial pressure/content calculations",
+            "examination_relevance": "NET Part B/C and SET",
+            "status": "covered"
+          },
+          {
+            "concept": "Carbonic anhydrase, intracellular buffering and AE1 chloride shift",
+            "sections": "4–6",
+            "depth": "Reversible chemistry, electroneutral exchange",
+            "evidence": "Inhibition/time-course and counterfactual",
+            "examination_relevance": "NET Part B/C and SET",
+            "status": "covered"
+          },
+          {
+            "concept": "Haldane effect and pulmonary elimination",
+            "sections": "6–7",
+            "depth": "Oxygen-linked binding and reverse shift",
+            "evidence": "Matched PCO₂ curves and Bohr contrast",
+            "examination_relevance": "NET Part B/C and SET",
+            "status": "covered"
+          },
+          {
+            "concept": "Circulatory flux and alveolar ventilation",
+            "sections": "8–10",
+            "depth": "Fick mass balance, ventilation and storage",
+            "evidence": "Unit conversions, hyperbolic ventilation curve, dead space",
+            "examination_relevance": "NET Part B/C and SET",
+            "status": "covered"
+          },
+          {
+            "concept": "Bicarbonate buffering and respiratory acid–base",
+            "sections": "11–13",
+            "depth": "Logarithmic ratio, acute and sustained responses",
+            "evidence": "Henderson–Hasselbalch derivation and numerical cases",
+            "examination_relevance": "NET Part B/C and SET",
+            "status": "covered"
+          },
+          {
+            "concept": "Evidence, limitations and integrated perturbations",
+            "sections": "14–16",
+            "depth": "Controls, system integration, renal/neural chapter boundaries",
+            "evidence": "Experimental discrimination and Part C predictions",
+            "examination_relevance": "NET Part B/C and SET",
+            "status": "covered"
+          }
+        ]
+      },
       "metrics": {
-        "genuine_teaching_words": 13414,
-        "teaching_paragraphs": 147,
-        "teaching_sections": 17,
-        "svg": 14,
-        "graphs": 8,
-        "tables": 4,
-        "questions": 52,
+        "genuine_teaching_words": 13461,
+        "whitespace_words": 13315,
+        "teaching_paragraphs": 120,
+        "teaching_sections": 16,
+        "scientific_svgs": 12,
+        "tables": 6,
+        "questions": 56,
         "part_b": 20,
-        "part_c": 25,
-        "set": 7,
-        "misconceptions": 18,
-        "active_recall": 14,
-        "references": 15
+        "part_c": 29,
+        "other": 7,
+        "explanations": 56,
+        "misconceptions": 17,
+        "active_recall": 12,
+        "references": 13
       },
-      "syllabus_coverage": [
-        [
-          "Quiet and forced respiratory muscle action",
-          2,
-          3,
-          14
-        ],
-        [
-          "Pressure gradients and Boyle law",
-          3,
-          4,
-          10
-        ],
-        [
-          "Compliance, recoil, hysteresis",
-          5,
-          6,
-          13
-        ],
-        [
-          "Surface tension and surfactant",
-          7,
-          15
-        ],
-        [
-          "Resistance, flow and dynamic compression",
-          8,
-          9,
-          11
-        ],
-        [
-          "Work, experimental interpretation and ventilation patterns",
-          12,
-          13,
-          16,
-          17
-        ]
-      ],
-      "scientific_review": "Reviewed pressure definitions, signs and absolute/gauge distinction; series elastance and parallel resistance; Laplace single-interface limits and surfactant film dynamics; flow limitation assumptions; RC and energy calculations; checked all 52 scientific answer explanations. Corrected linear pressure-axis scale and a bypass in the parallel network drawing. Sources include textbook, reviews and original Avery–Mead study; some primary evidence checked through abstracts/reviews.",
-      "editorial_review": "Checked progression and scope; 147 distinct explanatory paragraphs; retained established reader template, corrected answer-position bias, added all 14 enlargement controls, checked heading sequence and links; no placeholders in target chapter. Adjacent node links resolve when published. No browser visual/runtime test available.",
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogical_quality": 10,
-        "scientific_illustrations": 9,
-        "exam_questions": 9,
-        "experimental_analytical": 5,
-        "revision_mastery": 5,
-        "reader_accessibility": 4,
-        "technical_integrity_seo": 4,
-        "total": 95
+      "word_count_method": "Final saved HTML only; Unicode letter/digit tokens with internal apostrophe, period or hyphen in p.teaching-prose; markup and entities removed. Whitespace token cross-check excludes tokens without letters/digits. Excludes assessment, figures, tables, references and revision.",
+      "comparison": "Compared with 7.B.08: approximately 14,126 words, 147 teaching paragraphs under prior count convention; this chapter 13,461 words, 120 teaching paragraphs, 16 theory sections.",
+      "reviews": {
+        "scientific": "Separate internal review of CO₂ transport forms, reversible CA reaction, AE1 directions, Haldane versus Bohr, Fick mass balance, ventilation units, respiratory pH, experimental controls and numerical results. Sources inspected at official syllabus and indexed article or accessible text level.",
+        "editorial": "Separate internal review of progression, graph labels and captions, original explanatory prose, answer order and explanations, TOC and reader shell; corrected acute/sustained figure baseline, positional distractor wording, question distribution and graph questions; final saved audit."
       },
-      "audit": {
-        "word_count_method": "Unicode lexical tokens within p.teaching-prose only",
-        "duplicate_teaching_paragraphs": 0,
+      "quality": {
+        "score": 95,
+        "threshold": 95,
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "genuine_teaching_depth": 15,
+          "pedagogical_quality": 10,
+          "scientific_illustrations": 9,
+          "examination_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "deductions": "Scientific source full text not uniformly accessible; figures not visually rendered; some distractor explanations less extensive; browser interaction and live SEO verification not performed."
+      },
+      "tests": {
+        "tag_stack": "pass",
         "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
         "unresolved_anchors": 0,
-        "unresolved_aria_references": 0,
-        "unresolved_zoom_targets": 0,
+        "unresolved_aria_labels": 0,
         "answer_option_mismatches": 0,
-        "tag_nesting": "checked",
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/mechanics-of-breathing-and-pulmonary-ventilation.html",
-        "preexisting_menu_links_preserved": 333,
-        "preexisting_sitemap_urls_preserved": 334
+        "unfinished_markers": 0,
+        "canonical": "pass",
+        "prior_menu_links_preserved": 335,
+        "prior_sitemap_entries_preserved": 336,
+        "previous_next": "7.C.06 and 7.C.08 resolved dynamically from latest menu; unavailable nodes not linked"
       },
-      "limitations": [
-        "Internal reviews, not independent peer review",
-        "No real browser rendering, interactive or assistive-technology tests",
-        "MP SET archived syllabus comparison; latest official-host version not verified",
-        "Production and live verification separate from QA"
+      "not_performed": [
+        "External peer review",
+        "Actual browser/mobile SVG rendering and keyboard interaction; local raw host DNS inaccessible",
+        "Full-text inspection of all cited papers",
+        "Pages/live verification before publication"
       ],
-      "next_unpublished_node_id": "7.C.02",
-      "concurrent_changes_reconciled": [
-        [
-          "7.C.01",
-          "foundations-and-comparative-physiology-of-respiration.html"
+      "publication": {
+        "mode": "single atomic non-force main update conditional on current HEAD",
+        "changed_files": [
+          "carbon-dioxide-transport-waste-elimination-and-acid-base-balance.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/qa/7-c-07-publication-qa.json"
         ],
-        [
-          "7.C.04",
-          "lung-volumes-capacities-and-respiratory-measurements.html"
-        ]
-      ]
+        "count_before": 335,
+        "count_after": 336,
+        "unit_count": 21,
+        "subunit_count": 5,
+        "next_pending": "7.C.05"
+      }
     },
     "subunit_7b": {
       "published_node_ids": [
@@ -67103,9 +67641,10 @@
         "7.C.02",
         "7.C.03",
         "7.C.04",
+        "7.C.05",
         "7.C.07"
       ],
-      "published_node_count": 5,
+      "published_node_count": 6,
       "planned_node_count": 8,
       "complete": false
     }
@@ -67126,6 +67665,7 @@
     "7.C.02",
     "7.C.03",
     "7.C.04",
+    "7.C.05",
     "7.C.07"
   ],
   "unit7c_planned_node_count": 8

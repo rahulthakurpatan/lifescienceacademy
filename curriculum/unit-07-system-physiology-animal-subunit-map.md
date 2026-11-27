@@ -255,3 +255,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.C.02 — [Mammalian Respiratory Anatomy and Functional Organisation](https://rahulthakurpatan.github.io/lifescienceacademy/mammalian-respiratory-anatomy-and-functional-organisation.html); internal academic/editorial QA 95/100, saved HTML audited; Pages and live verification pending.
 - Teaching prose: 13,776 words; 14 original SVGs; 60 explained questions (26 Part B, 28 Part C, 6 SET/application); 15 misconceptions; 11 active recall prompts.
 - Subunit 7.C: 4/8; Unit 07: 20/90; Academy: 335/723. Concurrent nodes retained: 7.C.01, 7.C.03, 7.C.04. Next global unpublished node: 7.C.05 — Gas Exchange and Ventilation–Perfusion Relationships.
+
+
+### Publication checkpoint — 2026-11-27 — 7.C.05
+
+- 7.C.05 — [Gas Exchange and Ventilation–Perfusion Relationships](../gas-exchange-and-ventilation-perfusion-relationships.html): 14,585 teaching words, 14 original SVGs, 55 explained questions (22 Part B, 25 Part C, 8 SET/other), 19 misconceptions and 16 active recall prompts. Internal QA: 95/100, static checks passed; browser rendering not tested. Pages and live verification separate.
+- Subunit 7.C: 6/8; Unit 07: 22/90; Academy: 337/723. Next unpublished node: 7.C.06 — Oxygen Transport and Respiratory Pigments.

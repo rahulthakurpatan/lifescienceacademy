@@ -215,3 +215,6 @@
 
 - 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 6/10; next unpublished in this subunit: 6.D.05 — Brassinosteroids: Steroid Hormones and Cell Expansion.
+
+- 6.D.08 — [Ethylene: Gaseous Signaling, Ripening and Senescence](https://rahulthakurpatan.github.io/lifescienceacademy/ethylene-gaseous-signaling-ripening-and-senescence.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 8/10; next unpublished in this subunit: 6.D.05.

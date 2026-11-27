@@ -4,16 +4,16 @@
   "unit": "07",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.D.04",
-  "title": "Synaptic Transmission and Neural Integration",
+  "node_id": "7.D.03",
+  "title": "Action Potential and Nerve Impulse Conduction",
   "subunit": "7.D",
   "topic": "Nervous System",
-  "slug": "synaptic-transmission-and-neural-integration.html",
+  "slug": "action-potential-and-nerve-impulse-conduction.html",
   "next_pending_node_id": "7.D.02",
   "next_pending_node_title": "Resting Membrane Potential and Neuronal Excitability",
-  "published_node_count": 341,
+  "published_node_count": 342,
   "publication_allowed": true,
-  "main_baseline_sha": "7b4d259ed7b384383cc154c3dee9811588e41e33",
+  "main_baseline_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
   "quality_hold": false,
   "next_required_action": "Verify production deployment and live chapter; then develop next unpublished node.",
   "planned_node_count": 90,
@@ -21,32 +21,30 @@
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.D.04",
-    "title": "Synaptic Transmission and Neural Integration",
-    "chapter_path": "synaptic-transmission-and-neural-integration.html",
-    "chapter_blob_sha": "2dedcdddbd2e0fb83703060d2e12fe78a66e6fdf",
-    "working_branch": "development/7.D.04-synaptic-integration",
-    "working_commit_sha": "b2014f6ee15814e7f8d78262368c3a2c6db9b9f8",
-    "draft_blob_sha": "9b0bb179f31098f913c0b99693ce9a5ba88ec8dd",
+    "node_id": "7.D.03",
+    "title": "Action Potential and Nerve Impulse Conduction",
+    "chapter_path": "action-potential-and-nerve-impulse-conduction.html",
+    "chapter_blob_sha": "ee0e86461fc9ccede425e863c059af8cc0b67a2d",
+    "working_branch": "draft/node-7d03-action-potential-20261127",
+    "working_commit_sha": "943c40785aa4a82c4eceafb05911ec6c1b392681",
     "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-    "publication_base_sha": "7b4d259ed7b384383cc154c3dee9811588e41e33",
+    "publication_base_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
     "review_date": "2026-11-27",
     "status": "qa_passed_main_publication_pending_deployment_verification",
     "metrics": {
-      "genuine_teaching_words": 13492,
-      "alternate_lexical_words": 13536,
-      "teaching_paragraphs": 134,
-      "teaching_sections": 19,
-      "svg": 14,
+      "genuine_teaching_words": 14416,
+      "teaching_paragraphs": 147,
+      "teaching_sections": 13,
+      "svg": 12,
       "graphs_and_traces": 8,
-      "tables": 4,
-      "questions": 50,
+      "tables": 6,
+      "questions": 54,
       "part_b": 20,
-      "part_c": 24,
-      "set": 6,
+      "part_c": 26,
+      "set": 8,
       "misconceptions": 17,
       "active_recall": 12,
-      "references": 16
+      "references": 12
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -61,111 +59,26 @@
       "technical_seo": 4,
       "total": 95
     },
-    "syllabus_coverage": "Official January 21 2026 merged and January 29 2026 separate CSIR syllabi, Unit 7.D; archived MP SET 2024 Paper II scan compared; all Academy roadmap core concepts covered. No specialist clinical material; Unit 4 general signalling and 7.D.08 detailed NMJ reserved.",
-    "coverage_matrix": [
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Electrical synapses and gap junctions",
-        "sections": "electrical, historical, integrated-analysis",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Passive current, coupling coefficient, rectification, paired recordings",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Chemical synapse and calcium entry",
-        "sections": "chemical, calcium, historical",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Active zone, voltage dependence, local calcium, causal controls",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Docking, SNARE-mediated fusion",
-        "sections": "chemical, transmitter-economy",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "VAMP, syntaxin, SNAP-25, synaptotagmin, recycling",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Quantal release",
-        "sections": "quantal, recording",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Miniature events, binomial and Poisson models, failure controls",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Neurotransmitter classes and clearance",
-        "sections": "receptors, transmitter-economy",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Small molecules, peptides, co-release, uptake, hydrolysis, diffusion",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Ionotropic and metabotropic receptors",
-        "sections": "receptors, receptor-logic",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "AMPA/NMDA, GABA-A/B, acetylcholine, selective perturbations",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "EPSPs, IPSPs, reversal potential and shunting",
-        "sections": "integration, conductance, chloride",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Conductance model, I-V, Nernst, depolarising inhibition",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Spatial and temporal summation, axon initial segment",
-        "sections": "integration, dendrites, network",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Time and length constants, nonlinear integration, threshold, timing",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Presynaptic inhibition",
-        "sections": "plasticity, calcium, recording",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Calcium-channel modulation, paired pulse, agonist controls",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-        "microtopic": "Facilitation, depression, LTP and LTD",
-        "sections": "plasticity, short-term, long-term",
-        "depth": "BSc foundation to NET Part C/SET",
-        "experimental_analytical_exam_relevance": "Vesicle pool/recovery, NMDA coincidence, induction and expression, control pathway",
-        "status": "covered"
-      }
-    ],
-    "scientific_review": "Separate internal review: corrected historical source references, checked release/vesicle/SNARE sequence, ion reversal and chloride, calcium dependence, quantal assumptions, receptor logic and LTP/LTD limitations. Recomputed key numerical answers independently: 2.286 mV, -24 pA, -53 mV, 16 pA before/after, 0.0625 and 0.3164 failures, 0.104 detected success, 1.386/2.303 Poisson, 5.6 vesicles, 0.933 PPR, -63.16 mV, 1.083 mV cable, -37.03 mV chloride, 0.4096 relative calcium model. Reviewed all 50 answer mappings and scientific explanations; examples hypothetical.",
-    "editorial_review": "Separate internal review: progressively reordered 19 theory sections; 134 distinct teaching paragraphs, refined transitions and removed redundant closure; 14 titled SVGs with accessible labels and captions, 4 tables, 50 explained questions (11 Part C improved to multistep or controlled experimental interpretation), answer positions A13 B13 C12 D12, 17 misconceptions, 12 recall prompts, revision glossary, equations and mastery checklist. Retained established reader template and dynamic adjacent navigation; compared with 7.C.08 (13,524 teaching words, 133 paragraphs, 14 SVGs).",
-    "audit": "Final saved draft: whitespace-delimited p.teaching-prose 13,492 words; alternate lexical count 13,536. No duplicate paragraphs/IDs, unresolved anchors or ARIA, unbalanced HTML tags, invalid answer mappings, unfinished markers. All 14 SVGs have accessible labels/viewBox; script syntax parsed. Canonical and dynamic menu-based 7.D.03/7.D.05 verified statically. Production content differs only by robots index,follow.",
+    "audit_record": "curriculum/qa/7.D.03-publication-audit.md",
+    "scientific_review": "Internal pass: mechanisms, source identities, numerical crosschecks and all 54 answer mappings.",
+    "editorial_review": "Internal pass: progressive narrative, distinct prose, diagrams, assessment balance and revision.",
+    "audit": "Final saved file: 14,416 lexical teaching words; zero duplicate IDs, teaching paragraphs, unresolved anchors/ARIA, tag balance mismatches; JavaScript syntax passed.",
     "limitations": [
-      "Internal review, not external peer review; not all referenced full texts independently examined (scientific -1).",
-      "Archived MP SET 2024 scan, not current official-host authentication; scope directly compared with CSIR.",
-      "SVG layout not browser-rendered (illustrations -1).",
-      "Some foundational distractors straightforward (assessment -1).",
-      "Browser/mobile keyboard and assistive technology tests unavailable; runtime DNS failed (reader -1).",
-      "Production/live external-link and SEO runtime not yet verified (technical -1).",
-      "No separate dashboard markup identified; index menu and existing reader progress preserved."
+      "No external peer review or exhaustive full-text review",
+      "Archived MP SET comparison; latest official-host version not independently authenticated",
+      "No rendered SVG/mobile/keyboard/assistive-technology runtime test",
+      "Production deployment and live verification separate"
     ],
     "next_unpublished_node_id": "7.D.02",
     "concurrent_changes_reconciled": true,
     "publication": {
       "mode": "single atomic conditional non-force main update",
-      "academy_published_before": 340,
-      "academy_published_after": 341,
-      "unit7_published_after": 26,
-      "subunit7d_published_after": 2,
-      "prior_menu_links_preserved": 340,
-      "prior_sitemap_entries_preserved": 341,
+      "academy_published_before": 341,
+      "academy_published_after": 342,
+      "unit7_published_after": 27,
+      "subunit7d_published_after": 3,
+      "prior_menu_links_preserved": 341,
+      "prior_sitemap_entries_preserved": 342,
       "next_unpublished": "7.D.02"
     }
   },
@@ -510,6 +423,7 @@
     "7.C.07",
     "7.C.08",
     "7.D.01",
+    "7.D.03",
     "7.D.04"
   ],
   "prior_publication_qa": {
@@ -662,30 +576,32 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "7.D.01",
-    "title": "Foundations of Nervous System and Cellular Organisation",
-    "chapter_path": "foundations-of-nervous-system-and-cellular-organisation.html",
-    "chapter_blob_sha": "883b672c909ff79675d679a35f1c4bf746a0c7b9",
-    "working_branch": "draft/node-7d01-nervous-system-20261127",
-    "working_commit_sha": "13c102c9c08fbd888325d98665fddc7519fcc096",
+    "node_id": "7.D.04",
+    "title": "Synaptic Transmission and Neural Integration",
+    "chapter_path": "synaptic-transmission-and-neural-integration.html",
+    "chapter_blob_sha": "2dedcdddbd2e0fb83703060d2e12fe78a66e6fdf",
+    "working_branch": "development/7.D.04-synaptic-integration",
+    "working_commit_sha": "b2014f6ee15814e7f8d78262368c3a2c6db9b9f8",
+    "draft_blob_sha": "9b0bb179f31098f913c0b99693ce9a5ba88ec8dd",
     "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-    "publication_base_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+    "publication_base_sha": "7b4d259ed7b384383cc154c3dee9811588e41e33",
     "review_date": "2026-11-27",
-    "status": "published_deployment_verification_pending",
+    "status": "qa_passed_main_publication_pending_deployment_verification",
     "metrics": {
-      "genuine_teaching_words": 13509,
-      "teaching_paragraphs": 140,
-      "teaching_sections": 18,
-      "svg": 12,
-      "graphs_and_traces": 2,
-      "tables": 6,
-      "questions": 52,
+      "genuine_teaching_words": 13492,
+      "alternate_lexical_words": 13536,
+      "teaching_paragraphs": 134,
+      "teaching_sections": 19,
+      "svg": 14,
+      "graphs_and_traces": 8,
+      "tables": 4,
+      "questions": 50,
       "part_b": 20,
       "part_c": 24,
-      "set": 8,
-      "misconceptions": 18,
-      "active_recall": 15,
-      "references": 13
+      "set": 6,
+      "misconceptions": 17,
+      "active_recall": 12,
+      "references": 16
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -700,13 +616,113 @@
       "technical_seo": 4,
       "total": 95
     },
-    "syllabus_coverage": "All roadmap microtopics mapped; 2026 revised merged and separate CSIR syllabi, MP SET 2024 Paper II archived syllabus comparison.",
-    "scientific_review": "Internal pass: comparative layouts, neural polarity, morphology, glial identity and functions, myelin domains, transport mechanisms and classical evidence, equations and answer reasoning checked; illustrative values distinguished from empirical studies.",
-    "editorial_review": "Separate internal pass: progressive narrative, figure numbering and myelin line layering corrected, answer positions varied, no duplicate teaching paragraphs, shared reader shell and revision resources retained.",
-    "audit": "Saved draft reread, 13509 lexical teaching words (13492 whitespace words), 140 distinct paragraphs, 12 sequential figures, 52 four-option explained questions; no duplicate IDs, unresolved fragment anchors, placeholder markers or unbalanced tags; JavaScript syntax passed. Production differs only by robots directive.",
-    "limitations": "Internal review, not external peer review; selected reference identities and available text verified, not every full paper; MP SET archival scan rather than current commission-hosted copy; browser/mobile/keyboard rendering and live HTTP not independently tested.",
+    "syllabus_coverage": "Official January 21 2026 merged and January 29 2026 separate CSIR syllabi, Unit 7.D; archived MP SET 2024 Paper II scan compared; all Academy roadmap core concepts covered. No specialist clinical material; Unit 4 general signalling and 7.D.08 detailed NMJ reserved.",
+    "coverage_matrix": [
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Electrical synapses and gap junctions",
+        "sections": "electrical, historical, integrated-analysis",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Passive current, coupling coefficient, rectification, paired recordings",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Chemical synapse and calcium entry",
+        "sections": "chemical, calcium, historical",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Active zone, voltage dependence, local calcium, causal controls",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Docking, SNARE-mediated fusion",
+        "sections": "chemical, transmitter-economy",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "VAMP, syntaxin, SNAP-25, synaptotagmin, recycling",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Quantal release",
+        "sections": "quantal, recording",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Miniature events, binomial and Poisson models, failure controls",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Neurotransmitter classes and clearance",
+        "sections": "receptors, transmitter-economy",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Small molecules, peptides, co-release, uptake, hydrolysis, diffusion",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Ionotropic and metabotropic receptors",
+        "sections": "receptors, receptor-logic",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "AMPA/NMDA, GABA-A/B, acetylcholine, selective perturbations",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "EPSPs, IPSPs, reversal potential and shunting",
+        "sections": "integration, conductance, chloride",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Conductance model, I-V, Nernst, depolarising inhibition",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Spatial and temporal summation, axon initial segment",
+        "sections": "integration, dendrites, network",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Time and length constants, nonlinear integration, threshold, timing",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Presynaptic inhibition",
+        "sections": "plasticity, calcium, recording",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Calcium-channel modulation, paired pulse, agonist controls",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+        "microtopic": "Facilitation, depression, LTP and LTD",
+        "sections": "plasticity, short-term, long-term",
+        "depth": "BSc foundation to NET Part C/SET",
+        "experimental_analytical_exam_relevance": "Vesicle pool/recovery, NMDA coincidence, induction and expression, control pathway",
+        "status": "covered"
+      }
+    ],
+    "scientific_review": "Separate internal review: corrected historical source references, checked release/vesicle/SNARE sequence, ion reversal and chloride, calcium dependence, quantal assumptions, receptor logic and LTP/LTD limitations. Recomputed key numerical answers independently: 2.286 mV, -24 pA, -53 mV, 16 pA before/after, 0.0625 and 0.3164 failures, 0.104 detected success, 1.386/2.303 Poisson, 5.6 vesicles, 0.933 PPR, -63.16 mV, 1.083 mV cable, -37.03 mV chloride, 0.4096 relative calcium model. Reviewed all 50 answer mappings and scientific explanations; examples hypothetical.",
+    "editorial_review": "Separate internal review: progressively reordered 19 theory sections; 134 distinct teaching paragraphs, refined transitions and removed redundant closure; 14 titled SVGs with accessible labels and captions, 4 tables, 50 explained questions (11 Part C improved to multistep or controlled experimental interpretation), answer positions A13 B13 C12 D12, 17 misconceptions, 12 recall prompts, revision glossary, equations and mastery checklist. Retained established reader template and dynamic adjacent navigation; compared with 7.C.08 (13,524 teaching words, 133 paragraphs, 14 SVGs).",
+    "audit": "Final saved draft: whitespace-delimited p.teaching-prose 13,492 words; alternate lexical count 13,536. No duplicate paragraphs/IDs, unresolved anchors or ARIA, unbalanced HTML tags, invalid answer mappings, unfinished markers. All 14 SVGs have accessible labels/viewBox; script syntax parsed. Canonical and dynamic menu-based 7.D.03/7.D.05 verified statically. Production content differs only by robots index,follow.",
+    "limitations": [
+      "Internal review, not external peer review; not all referenced full texts independently examined (scientific -1).",
+      "Archived MP SET 2024 scan, not current official-host authentication; scope directly compared with CSIR.",
+      "SVG layout not browser-rendered (illustrations -1).",
+      "Some foundational distractors straightforward (assessment -1).",
+      "Browser/mobile keyboard and assistive technology tests unavailable; runtime DNS failed (reader -1).",
+      "Production/live external-link and SEO runtime not yet verified (technical -1).",
+      "No separate dashboard markup identified; index menu and existing reader progress preserved."
+    ],
     "next_unpublished_node_id": "7.D.02",
-    "concurrent_changes_reconciled": true
+    "concurrent_changes_reconciled": true,
+    "publication": {
+      "mode": "single atomic conditional non-force main update",
+      "academy_published_before": 340,
+      "academy_published_after": 341,
+      "unit7_published_after": 26,
+      "subunit7d_published_after": 2,
+      "prior_menu_links_preserved": 340,
+      "prior_sitemap_entries_preserved": 341,
+      "next_unpublished": "7.D.02"
+    }
   },
   "unit_02": {
     "published_node_ids": [
@@ -46135,6 +46151,68 @@
         "prior_sitemap_entries_preserved": 341,
         "next_unpublished": "7.D.02"
       }
+    },
+    "7.D.03": {
+      "node_id": "7.D.03",
+      "title": "Action Potential and Nerve Impulse Conduction",
+      "chapter_path": "action-potential-and-nerve-impulse-conduction.html",
+      "chapter_blob_sha": "ee0e86461fc9ccede425e863c059af8cc0b67a2d",
+      "working_branch": "draft/node-7d03-action-potential-20261127",
+      "working_commit_sha": "943c40785aa4a82c4eceafb05911ec6c1b392681",
+      "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+      "publication_base_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
+      "review_date": "2026-11-27",
+      "status": "qa_passed_main_publication_pending_deployment_verification",
+      "metrics": {
+        "genuine_teaching_words": 14416,
+        "teaching_paragraphs": 147,
+        "teaching_sections": 13,
+        "svg": 12,
+        "graphs_and_traces": 8,
+        "tables": 6,
+        "questions": 54,
+        "part_b": 20,
+        "part_c": 26,
+        "set": 8,
+        "misconceptions": 17,
+        "active_recall": 12,
+        "references": 12
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95
+      },
+      "audit_record": "curriculum/qa/7.D.03-publication-audit.md",
+      "scientific_review": "Internal pass: mechanisms, source identities, numerical crosschecks and all 54 answer mappings.",
+      "editorial_review": "Internal pass: progressive narrative, distinct prose, diagrams, assessment balance and revision.",
+      "audit": "Final saved file: 14,416 lexical teaching words; zero duplicate IDs, teaching paragraphs, unresolved anchors/ARIA, tag balance mismatches; JavaScript syntax passed.",
+      "limitations": [
+        "No external peer review or exhaustive full-text review",
+        "Archived MP SET comparison; latest official-host version not independently authenticated",
+        "No rendered SVG/mobile/keyboard/assistive-technology runtime test",
+        "Production deployment and live verification separate"
+      ],
+      "next_unpublished_node_id": "7.D.02",
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "mode": "single atomic conditional non-force main update",
+        "academy_published_before": 341,
+        "academy_published_after": 342,
+        "unit7_published_after": 27,
+        "subunit7d_published_after": 3,
+        "prior_menu_links_preserved": 341,
+        "prior_sitemap_entries_preserved": 342,
+        "next_unpublished": "7.D.02"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -64030,40 +64108,39 @@
       "7.C.07",
       "7.C.08",
       "7.D.01",
+      "7.D.03",
       "7.D.04"
     ],
-    "published_node_count": 26,
+    "published_node_count": 27,
     "planned_node_count": 90,
-    "last_published_node_id": "7.D.04",
+    "last_published_node_id": "7.D.03",
     "updated_at": "2026-11-27",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "7.D.04",
-      "title": "Synaptic Transmission and Neural Integration",
-      "chapter_path": "synaptic-transmission-and-neural-integration.html",
-      "chapter_blob_sha": "2dedcdddbd2e0fb83703060d2e12fe78a66e6fdf",
-      "working_branch": "development/7.D.04-synaptic-integration",
-      "working_commit_sha": "b2014f6ee15814e7f8d78262368c3a2c6db9b9f8",
-      "draft_blob_sha": "9b0bb179f31098f913c0b99693ce9a5ba88ec8dd",
+      "node_id": "7.D.03",
+      "title": "Action Potential and Nerve Impulse Conduction",
+      "chapter_path": "action-potential-and-nerve-impulse-conduction.html",
+      "chapter_blob_sha": "ee0e86461fc9ccede425e863c059af8cc0b67a2d",
+      "working_branch": "draft/node-7d03-action-potential-20261127",
+      "working_commit_sha": "943c40785aa4a82c4eceafb05911ec6c1b392681",
       "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-      "publication_base_sha": "7b4d259ed7b384383cc154c3dee9811588e41e33",
+      "publication_base_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
       "review_date": "2026-11-27",
       "status": "qa_passed_main_publication_pending_deployment_verification",
       "metrics": {
-        "genuine_teaching_words": 13492,
-        "alternate_lexical_words": 13536,
-        "teaching_paragraphs": 134,
-        "teaching_sections": 19,
-        "svg": 14,
+        "genuine_teaching_words": 14416,
+        "teaching_paragraphs": 147,
+        "teaching_sections": 13,
+        "svg": 12,
         "graphs_and_traces": 8,
-        "tables": 4,
-        "questions": 50,
+        "tables": 6,
+        "questions": 54,
         "part_b": 20,
-        "part_c": 24,
-        "set": 6,
+        "part_c": 26,
+        "set": 8,
         "misconceptions": 17,
         "active_recall": 12,
-        "references": 16
+        "references": 12
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -64078,111 +64155,26 @@
         "technical_seo": 4,
         "total": 95
       },
-      "syllabus_coverage": "Official January 21 2026 merged and January 29 2026 separate CSIR syllabi, Unit 7.D; archived MP SET 2024 Paper II scan compared; all Academy roadmap core concepts covered. No specialist clinical material; Unit 4 general signalling and 7.D.08 detailed NMJ reserved.",
-      "coverage_matrix": [
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Electrical synapses and gap junctions",
-          "sections": "electrical, historical, integrated-analysis",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Passive current, coupling coefficient, rectification, paired recordings",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Chemical synapse and calcium entry",
-          "sections": "chemical, calcium, historical",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Active zone, voltage dependence, local calcium, causal controls",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Docking, SNARE-mediated fusion",
-          "sections": "chemical, transmitter-economy",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "VAMP, syntaxin, SNAP-25, synaptotagmin, recycling",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Quantal release",
-          "sections": "quantal, recording",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Miniature events, binomial and Poisson models, failure controls",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Neurotransmitter classes and clearance",
-          "sections": "receptors, transmitter-economy",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Small molecules, peptides, co-release, uptake, hydrolysis, diffusion",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Ionotropic and metabotropic receptors",
-          "sections": "receptors, receptor-logic",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "AMPA/NMDA, GABA-A/B, acetylcholine, selective perturbations",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "EPSPs, IPSPs, reversal potential and shunting",
-          "sections": "integration, conductance, chloride",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Conductance model, I-V, Nernst, depolarising inhibition",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Spatial and temporal summation, axon initial segment",
-          "sections": "integration, dendrites, network",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Time and length constants, nonlinear integration, threshold, timing",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Presynaptic inhibition",
-          "sections": "plasticity, calcium, recording",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Calcium-channel modulation, paired pulse, agonist controls",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
-          "microtopic": "Facilitation, depression, LTP and LTD",
-          "sections": "plasticity, short-term, long-term",
-          "depth": "BSc foundation to NET Part C/SET",
-          "experimental_analytical_exam_relevance": "Vesicle pool/recovery, NMDA coincidence, induction and expression, control pathway",
-          "status": "covered"
-        }
-      ],
-      "scientific_review": "Separate internal review: corrected historical source references, checked release/vesicle/SNARE sequence, ion reversal and chloride, calcium dependence, quantal assumptions, receptor logic and LTP/LTD limitations. Recomputed key numerical answers independently: 2.286 mV, -24 pA, -53 mV, 16 pA before/after, 0.0625 and 0.3164 failures, 0.104 detected success, 1.386/2.303 Poisson, 5.6 vesicles, 0.933 PPR, -63.16 mV, 1.083 mV cable, -37.03 mV chloride, 0.4096 relative calcium model. Reviewed all 50 answer mappings and scientific explanations; examples hypothetical.",
-      "editorial_review": "Separate internal review: progressively reordered 19 theory sections; 134 distinct teaching paragraphs, refined transitions and removed redundant closure; 14 titled SVGs with accessible labels and captions, 4 tables, 50 explained questions (11 Part C improved to multistep or controlled experimental interpretation), answer positions A13 B13 C12 D12, 17 misconceptions, 12 recall prompts, revision glossary, equations and mastery checklist. Retained established reader template and dynamic adjacent navigation; compared with 7.C.08 (13,524 teaching words, 133 paragraphs, 14 SVGs).",
-      "audit": "Final saved draft: whitespace-delimited p.teaching-prose 13,492 words; alternate lexical count 13,536. No duplicate paragraphs/IDs, unresolved anchors or ARIA, unbalanced HTML tags, invalid answer mappings, unfinished markers. All 14 SVGs have accessible labels/viewBox; script syntax parsed. Canonical and dynamic menu-based 7.D.03/7.D.05 verified statically. Production content differs only by robots index,follow.",
+      "audit_record": "curriculum/qa/7.D.03-publication-audit.md",
+      "scientific_review": "Internal pass: mechanisms, source identities, numerical crosschecks and all 54 answer mappings.",
+      "editorial_review": "Internal pass: progressive narrative, distinct prose, diagrams, assessment balance and revision.",
+      "audit": "Final saved file: 14,416 lexical teaching words; zero duplicate IDs, teaching paragraphs, unresolved anchors/ARIA, tag balance mismatches; JavaScript syntax passed.",
       "limitations": [
-        "Internal review, not external peer review; not all referenced full texts independently examined (scientific -1).",
-        "Archived MP SET 2024 scan, not current official-host authentication; scope directly compared with CSIR.",
-        "SVG layout not browser-rendered (illustrations -1).",
-        "Some foundational distractors straightforward (assessment -1).",
-        "Browser/mobile keyboard and assistive technology tests unavailable; runtime DNS failed (reader -1).",
-        "Production/live external-link and SEO runtime not yet verified (technical -1).",
-        "No separate dashboard markup identified; index menu and existing reader progress preserved."
+        "No external peer review or exhaustive full-text review",
+        "Archived MP SET comparison; latest official-host version not independently authenticated",
+        "No rendered SVG/mobile/keyboard/assistive-technology runtime test",
+        "Production deployment and live verification separate"
       ],
       "next_unpublished_node_id": "7.D.02",
       "concurrent_changes_reconciled": true,
       "publication": {
         "mode": "single atomic conditional non-force main update",
-        "academy_published_before": 340,
-        "academy_published_after": 341,
-        "unit7_published_after": 26,
-        "subunit7d_published_after": 2,
-        "prior_menu_links_preserved": 340,
-        "prior_sitemap_entries_preserved": 341,
+        "academy_published_before": 341,
+        "academy_published_after": 342,
+        "unit7_published_after": 27,
+        "subunit7d_published_after": 3,
+        "prior_menu_links_preserved": 341,
+        "prior_sitemap_entries_preserved": 342,
         "next_unpublished": "7.D.02"
       }
     },
@@ -67933,6 +67925,68 @@
           "prior_sitemap_entries_preserved": 341,
           "next_unpublished": "7.D.02"
         }
+      },
+      "7.D.03": {
+        "node_id": "7.D.03",
+        "title": "Action Potential and Nerve Impulse Conduction",
+        "chapter_path": "action-potential-and-nerve-impulse-conduction.html",
+        "chapter_blob_sha": "ee0e86461fc9ccede425e863c059af8cc0b67a2d",
+        "working_branch": "draft/node-7d03-action-potential-20261127",
+        "working_commit_sha": "943c40785aa4a82c4eceafb05911ec6c1b392681",
+        "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+        "publication_base_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
+        "review_date": "2026-11-27",
+        "status": "qa_passed_main_publication_pending_deployment_verification",
+        "metrics": {
+          "genuine_teaching_words": 14416,
+          "teaching_paragraphs": 147,
+          "teaching_sections": 13,
+          "svg": 12,
+          "graphs_and_traces": 8,
+          "tables": 6,
+          "questions": 54,
+          "part_b": 20,
+          "part_c": 26,
+          "set": 8,
+          "misconceptions": 17,
+          "active_recall": 12,
+          "references": 12
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4,
+          "total": 95
+        },
+        "audit_record": "curriculum/qa/7.D.03-publication-audit.md",
+        "scientific_review": "Internal pass: mechanisms, source identities, numerical crosschecks and all 54 answer mappings.",
+        "editorial_review": "Internal pass: progressive narrative, distinct prose, diagrams, assessment balance and revision.",
+        "audit": "Final saved file: 14,416 lexical teaching words; zero duplicate IDs, teaching paragraphs, unresolved anchors/ARIA, tag balance mismatches; JavaScript syntax passed.",
+        "limitations": [
+          "No external peer review or exhaustive full-text review",
+          "Archived MP SET comparison; latest official-host version not independently authenticated",
+          "No rendered SVG/mobile/keyboard/assistive-technology runtime test",
+          "Production deployment and live verification separate"
+        ],
+        "next_unpublished_node_id": "7.D.02",
+        "concurrent_changes_reconciled": true,
+        "publication": {
+          "mode": "single atomic conditional non-force main update",
+          "academy_published_before": 341,
+          "academy_published_after": 342,
+          "unit7_published_after": 27,
+          "subunit7d_published_after": 3,
+          "prior_menu_links_preserved": 341,
+          "prior_sitemap_entries_preserved": 342,
+          "next_unpublished": "7.D.02"
+        }
       }
     },
     "next_pending_node_id": "7.D.02",
@@ -67954,30 +68008,32 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.D.01",
-      "title": "Foundations of Nervous System and Cellular Organisation",
-      "chapter_path": "foundations-of-nervous-system-and-cellular-organisation.html",
-      "chapter_blob_sha": "883b672c909ff79675d679a35f1c4bf746a0c7b9",
-      "working_branch": "draft/node-7d01-nervous-system-20261127",
-      "working_commit_sha": "13c102c9c08fbd888325d98665fddc7519fcc096",
+      "node_id": "7.D.04",
+      "title": "Synaptic Transmission and Neural Integration",
+      "chapter_path": "synaptic-transmission-and-neural-integration.html",
+      "chapter_blob_sha": "2dedcdddbd2e0fb83703060d2e12fe78a66e6fdf",
+      "working_branch": "development/7.D.04-synaptic-integration",
+      "working_commit_sha": "b2014f6ee15814e7f8d78262368c3a2c6db9b9f8",
+      "draft_blob_sha": "9b0bb179f31098f913c0b99693ce9a5ba88ec8dd",
       "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-      "publication_base_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+      "publication_base_sha": "7b4d259ed7b384383cc154c3dee9811588e41e33",
       "review_date": "2026-11-27",
-      "status": "published_deployment_verification_pending",
+      "status": "qa_passed_main_publication_pending_deployment_verification",
       "metrics": {
-        "genuine_teaching_words": 13509,
-        "teaching_paragraphs": 140,
-        "teaching_sections": 18,
-        "svg": 12,
-        "graphs_and_traces": 2,
-        "tables": 6,
-        "questions": 52,
+        "genuine_teaching_words": 13492,
+        "alternate_lexical_words": 13536,
+        "teaching_paragraphs": 134,
+        "teaching_sections": 19,
+        "svg": 14,
+        "graphs_and_traces": 8,
+        "tables": 4,
+        "questions": 50,
         "part_b": 20,
         "part_c": 24,
-        "set": 8,
-        "misconceptions": 18,
-        "active_recall": 15,
-        "references": 13
+        "set": 6,
+        "misconceptions": 17,
+        "active_recall": 12,
+        "references": 16
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -67992,13 +68048,113 @@
         "technical_seo": 4,
         "total": 95
       },
-      "syllabus_coverage": "All roadmap microtopics mapped; 2026 revised merged and separate CSIR syllabi, MP SET 2024 Paper II archived syllabus comparison.",
-      "scientific_review": "Internal pass: comparative layouts, neural polarity, morphology, glial identity and functions, myelin domains, transport mechanisms and classical evidence, equations and answer reasoning checked; illustrative values distinguished from empirical studies.",
-      "editorial_review": "Separate internal pass: progressive narrative, figure numbering and myelin line layering corrected, answer positions varied, no duplicate teaching paragraphs, shared reader shell and revision resources retained.",
-      "audit": "Saved draft reread, 13509 lexical teaching words (13492 whitespace words), 140 distinct paragraphs, 12 sequential figures, 52 four-option explained questions; no duplicate IDs, unresolved fragment anchors, placeholder markers or unbalanced tags; JavaScript syntax passed. Production differs only by robots directive.",
-      "limitations": "Internal review, not external peer review; selected reference identities and available text verified, not every full paper; MP SET archival scan rather than current commission-hosted copy; browser/mobile/keyboard rendering and live HTTP not independently tested.",
+      "syllabus_coverage": "Official January 21 2026 merged and January 29 2026 separate CSIR syllabi, Unit 7.D; archived MP SET 2024 Paper II scan compared; all Academy roadmap core concepts covered. No specialist clinical material; Unit 4 general signalling and 7.D.08 detailed NMJ reserved.",
+      "coverage_matrix": [
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Electrical synapses and gap junctions",
+          "sections": "electrical, historical, integrated-analysis",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Passive current, coupling coefficient, rectification, paired recordings",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Chemical synapse and calcium entry",
+          "sections": "chemical, calcium, historical",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Active zone, voltage dependence, local calcium, causal controls",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Docking, SNARE-mediated fusion",
+          "sections": "chemical, transmitter-economy",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "VAMP, syntaxin, SNAP-25, synaptotagmin, recycling",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Quantal release",
+          "sections": "quantal, recording",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Miniature events, binomial and Poisson models, failure controls",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Neurotransmitter classes and clearance",
+          "sections": "receptors, transmitter-economy",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Small molecules, peptides, co-release, uptake, hydrolysis, diffusion",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Ionotropic and metabotropic receptors",
+          "sections": "receptors, receptor-logic",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "AMPA/NMDA, GABA-A/B, acetylcholine, selective perturbations",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "EPSPs, IPSPs, reversal potential and shunting",
+          "sections": "integration, conductance, chloride",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Conductance model, I-V, Nernst, depolarising inhibition",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Spatial and temporal summation, axon initial segment",
+          "sections": "integration, dendrites, network",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Time and length constants, nonlinear integration, threshold, timing",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Presynaptic inhibition",
+          "sections": "plasticity, calcium, recording",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Calcium-channel modulation, paired pulse, agonist controls",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.D neurons and neural function; Unit 4 neurotransmission and regulation as prerequisite",
+          "microtopic": "Facilitation, depression, LTP and LTD",
+          "sections": "plasticity, short-term, long-term",
+          "depth": "BSc foundation to NET Part C/SET",
+          "experimental_analytical_exam_relevance": "Vesicle pool/recovery, NMDA coincidence, induction and expression, control pathway",
+          "status": "covered"
+        }
+      ],
+      "scientific_review": "Separate internal review: corrected historical source references, checked release/vesicle/SNARE sequence, ion reversal and chloride, calcium dependence, quantal assumptions, receptor logic and LTP/LTD limitations. Recomputed key numerical answers independently: 2.286 mV, -24 pA, -53 mV, 16 pA before/after, 0.0625 and 0.3164 failures, 0.104 detected success, 1.386/2.303 Poisson, 5.6 vesicles, 0.933 PPR, -63.16 mV, 1.083 mV cable, -37.03 mV chloride, 0.4096 relative calcium model. Reviewed all 50 answer mappings and scientific explanations; examples hypothetical.",
+      "editorial_review": "Separate internal review: progressively reordered 19 theory sections; 134 distinct teaching paragraphs, refined transitions and removed redundant closure; 14 titled SVGs with accessible labels and captions, 4 tables, 50 explained questions (11 Part C improved to multistep or controlled experimental interpretation), answer positions A13 B13 C12 D12, 17 misconceptions, 12 recall prompts, revision glossary, equations and mastery checklist. Retained established reader template and dynamic adjacent navigation; compared with 7.C.08 (13,524 teaching words, 133 paragraphs, 14 SVGs).",
+      "audit": "Final saved draft: whitespace-delimited p.teaching-prose 13,492 words; alternate lexical count 13,536. No duplicate paragraphs/IDs, unresolved anchors or ARIA, unbalanced HTML tags, invalid answer mappings, unfinished markers. All 14 SVGs have accessible labels/viewBox; script syntax parsed. Canonical and dynamic menu-based 7.D.03/7.D.05 verified statically. Production content differs only by robots index,follow.",
+      "limitations": [
+        "Internal review, not external peer review; not all referenced full texts independently examined (scientific -1).",
+        "Archived MP SET 2024 scan, not current official-host authentication; scope directly compared with CSIR.",
+        "SVG layout not browser-rendered (illustrations -1).",
+        "Some foundational distractors straightforward (assessment -1).",
+        "Browser/mobile keyboard and assistive technology tests unavailable; runtime DNS failed (reader -1).",
+        "Production/live external-link and SEO runtime not yet verified (technical -1).",
+        "No separate dashboard markup identified; index menu and existing reader progress preserved."
+      ],
       "next_unpublished_node_id": "7.D.02",
-      "concurrent_changes_reconciled": true
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "mode": "single atomic conditional non-force main update",
+        "academy_published_before": 340,
+        "academy_published_after": 341,
+        "unit7_published_after": 26,
+        "subunit7d_published_after": 2,
+        "prior_menu_links_preserved": 340,
+        "prior_sitemap_entries_preserved": 341,
+        "next_unpublished": "7.D.02"
+      }
     },
     "subunit_7b": {
       "published_node_ids": [
@@ -68033,9 +68189,10 @@
     "subunit_7d": {
       "published_node_ids": [
         "7.D.01",
+        "7.D.03",
         "7.D.04"
       ],
-      "published_node_count": 2,
+      "published_node_count": 3,
       "planned_node_count": 10,
       "complete": false
     }
@@ -68064,6 +68221,7 @@
   "unit7c_planned_node_count": 8,
   "unit7d_published_node_ids": [
     "7.D.01",
+    "7.D.03",
     "7.D.04"
   ],
   "unit7d_planned_node_count": 10

@@ -280,3 +280,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.D.01 — [Foundations of Nervous System and Cellular Organisation](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-nervous-system-and-cellular-organisation.html); internal QA 95/100, static audit passed, Pages and live verification pending.
 - Teaching prose: 13,509 words, 140 paragraphs; 12 original SVGs, 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 18 misconceptions and 15 recall prompts.
 - Subunit 7.D: 1/10; Unit 07: 25/90; Academy: 340/723. Next global unpublished node: 7.D.02 — Resting Membrane Potential and Neuronal Excitability.
+
+
+### Publication checkpoint — 2026-11-27 — 7.D.03
+
+- 7.D.03 — [Action Potential and Nerve Impulse Conduction](https://rahulthakurpatan.github.io/lifescienceacademy/action-potential-and-nerve-impulse-conduction.html); internal QA 95/100, static audit passed, Pages and live verification pending.
+- Teaching prose: 14,416 words, 147 paragraphs; 12 original SVGs, 6 tables, 54 explained questions (20 Part B, 26 Part C, 8 SET), 17 misconceptions and 12 active recall prompts.
+- Subunit 7.D: 3/10; Unit 07: 27/90; Academy: 342/723. Next global unpublished node: 7.D.02 — Resting Membrane Potential and Neuronal Excitability.

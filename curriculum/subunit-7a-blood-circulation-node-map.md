@@ -141,3 +141,11 @@ All explicit official topic groups have a substantive assigned home; examples su
 - Teaching prose: 13,733 words in 147 paragraphs; 12 scientific SVGs, 2 plotted graphs, 4 tables, 54 explained questions (20 Part B, 28 Part C, 6 SET), 15 misconception checks, 12 recall prompts, 14 references.
 - Subunit 7.A: 5/8; Unit 07: 5/90; Academy: 320/723.
 - Next global unpublished: 7.A.03 — Erythrocytes and Haemoglobin.
+
+
+## Verification checkpoint — 7.A.08 — 2026-11-27 (proposed reconciliation)
+
+- Production commit `fb917ebd4064a7789ba0ec30f748cbbe9afc5cfc` added `blood-volume-and-its-regulation.html` and modified the main menu, sitemap and academy progress JSON. Pages workflow run 46020378761 reports successful build and deployment for that exact commit.
+- Main-menu enumeration at that commit: Subunit 7.A 8/8 linked; Unit 07 8/90 linked; Academy 323/723 linked. Next unlinked node within Unit 07: 7.B.01 — Comparative Anatomy and Evolution of the Cardiovascular System. These are menu-link counts, not independent academic certification of every chapter.
+- Committed 7.A.08 HTML static audit: 13,307 teaching-prose words (whitespace token count after removing markup), 121 distinct teaching paragraphs, 11 SVGs including two quantitative plots, 3 tables, 50 questions with answer explanations (20 B, 20 C, 10 other), 16 traps, 12 recall prompts, 16 reference entries; no duplicate IDs or missing fragment links detected.
+- Direct live access, browser rendering, complete academic/editorial review, MP SET-specific alignment and the full progress JSON could not be verified in this audit. No 95/100 certification is claimed. See `node-7a08-publication-qa.json` for the audit and outstanding work. This checkpoint is on an isolated QA branch, not a production update.

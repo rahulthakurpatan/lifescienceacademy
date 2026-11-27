@@ -242,3 +242,5 @@
 ### Publication checkpoint — 2026-11-27
 
 - **5.B.08 — Plant Gametogenesis I: Microsporogenesis and Male Gametophyte Development**: included in the publication tree at `plant-gametogenesis-microsporogenesis-and-male-gametophyte-development.html`; Pages deployment verification is separate.
+
+- 2026-11-27: 5.B.10 — Pollination, Pollen-Tube Guidance and Double Fertilization in Flowering Plants. Published chapter: [pollination-pollen-tube-guidance-and-double-fertilization.html](../pollination-pollen-tube-guidance-and-double-fertilization.html). Teaching words: 14,082; internal quality gate: 95/100. Live deployment verification is separate.

@@ -227,7 +227,8 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.B.03 — [Oxidative Phosphorylation and ATP Synthesis in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.B.02 — [Plant Mitochondrial Electron Transport Chain](https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.C.01 — [Nitrogen Nutrition: Sources, Uptake and Metabolic Entry](https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.A: 8/8 (complete); Subunit 6.B: 2/5; Subunit 6.C: 1/6; Unit 06: 11/66; Academy: 260/723.
+- 6.B.05 — [Photorespiration: The C2 Glycolate Pathway](https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 8/8 (complete); Subunit 6.B: 3/5; Subunit 6.C: 1/6; Unit 06: 13/66; Academy: 262/723.
 - Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.
 
 - 6.C.02 — [Nitrate and Nitrite Reduction in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html); academic QA 95/100 (internal); deployment verification pending.

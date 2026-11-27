@@ -122,5 +122,6 @@
 
 - 6.B.03 — [Oxidative Phosphorylation and ATP Synthesis in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html); internal academic QA 95/100; deployment verification pending.
 - 6.B.02 — [Plant Mitochondrial Electron Transport Chain](https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.B: 2/5; Unit 06: 10/66; Academy: 259/723.
+- 6.B.05 — [Photorespiration: The C2 Glycolate Pathway](https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.B: 3/5; Unit 06: 13/66; Academy: 262/723.
 - Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.

@@ -179,3 +179,9 @@ All explicit syllabus requirements are mapped; representative stress examples do
 - 6.H.06 — [Heat, Chilling and Freezing Stress](https://rahulthakurpatan.github.io/lifescienceacademy/heat-chilling-and-freezing-stress.html); internal academic QA 95/100; static audit completed; Pages/live verification pending.
 - Teaching prose: 14,042 words in 145 paragraphs; 12 original SVGs, 8 tables, 54 explained questions (24 Part B, 24 Part C, 6 other), 20 misconception checks and 14 recall prompts.
 - Subunit 6.H: 5/12; Unit 06: 59/66; Academy: 308/723. Next unpublished in subunit: 6.H.02 — Stress Perception and Molecular Signaling. Next global unpublished: 6.H.02 — Stress Perception and Molecular Signaling.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.02 — [Stress Perception and Molecular Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/stress-perception-and-molecular-signaling.html); internal academic QA 95/100, static checks complete; Pages verification pending.
+- Teaching prose: 13,504 words; 12 scientific SVGs, 5 tables and 50 explained questions. Subunit 6.H: 6/12; Unit 06: 60/66; Academy: 309/723.
+- Next unpublished in 6.H: 6.H.07 — Flooding, Hypoxia and Other Abiotic Stresses. Next global pending: 6.H.07 — Flooding, Hypoxia and Other Abiotic Stresses.

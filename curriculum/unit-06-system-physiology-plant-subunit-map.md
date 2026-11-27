@@ -330,3 +330,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 
 - 6.E.03 — [Cryptochromes: Blue-Light Sensing and Photomorphogenesis](https://rahulthakurpatan.github.io/lifescienceacademy/cryptochromes-blue-light-sensing-and-photomorphogenesis.html); internal academic/static QA 95/100; browser and live deployment verification pending.
 - Subunit 6.E: 6/7; Unit 06: 39/66; Academy: 288/723. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.07 — [Photoperiodism: Day-Length Sensing, CO–FT Signaling and Flowering Time](https://rahulthakurpatan.github.io/lifescienceacademy/photoperiodism-day-length-sensing-co-ft-signaling-and-flowering-time.html); internal academic/static QA 95/100; browser and live deployment verification pending.
+- Subunit 6.E: 7/7 (complete); Unit 06: 41/66; Academy: 290/723. Reconciled concurrent index publication(s): 6.F.02. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

@@ -176,3 +176,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.A.02 — [Haematopoiesis and Blood Cell Differentiation](https://rahulthakurpatan.github.io/lifescienceacademy/haematopoiesis-and-blood-cell-differentiation.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
 - Teaching prose: 14,322 words in 126 distinct paragraphs; 16 original scientific SVGs (2 graphs), 7 tables, 54 explained questions (20 Part B, 24 Part C, 10 mixed), 18 misconceptions, 15 active-recall prompts, 26 references.
 - Subunit 7.A: 3/8; Unit 07: 3/90; Academy: 318/723. Next global pending: 7.A.03 — Erythrocytes and Haemoglobin.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.A.06 — [Blood Coagulation and Fibrinolysis](https://rahulthakurpatan.github.io/lifescienceacademy/blood-coagulation-and-fibrinolysis.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
+- Teaching prose: 14,176 words in 134 distinct paragraphs; 15 original scientific SVGs including 2 graphs; 6 tables; 55 explained questions (20 Part B, 25 Part C, 10 mixed NET/SET), 16 misconceptions, 12 active-recall prompts and 20 reference entries.
+- Subunit 7.A: 4/8; Unit 07: 4/90; Academy: 319/723. Next global pending: 7.A.03 — Erythrocytes and Haemoglobin.

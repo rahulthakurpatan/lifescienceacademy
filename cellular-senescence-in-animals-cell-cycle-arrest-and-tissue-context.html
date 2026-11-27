@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="How viable cells establish durable growth arrest, communicate with their surroundings and influence development, tissue repair and aging.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/cellular-senescence-in-animals-cell-cycle-arrest-and-tissue-context.html">
+  <title>Cellular Senescence in Animals: Cell-Cycle Arrest and Tissue Context | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 5</span><span>›</span><span>Sub-unit 5.E</span><span>›</span><strong>Node 5.E.04</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 5.E.04</span><span>Unit 5 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Cellular Senescence in Animals: Cell-Cycle Arrest and Tissue Context</h1><p class="subtitle">How viable cells establish durable growth arrest, communicate with their surroundings and influence development, tissue repair and aging.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#living">1. A living cell that stops producing descendants</a><a href="#fates">2. Distinguishing arrest, differentiation and cell death</a><a href="#history">3. How a finite proliferative lifespan became a biological concept</a><a href="#telomeres">4. Chromosome ends, telomeres and replicative history</a><a href="#checkpoints">5. How a DNA-damage signal becomes a proliferation block</a><a href="#p16">6. The p16-RB pathway and stabilization of the arrest</a><a href="#references">References and further reading</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Cellular Senescence in Animals: Cell-Cycle Arrest and Tissue Context study notes"><div class="article-content" id="article"><section id="living"><h2>1. A living cell that stops producing descendants</h2><p class="teaching-prose">Imagine a fibroblast in a connective tissue. It produces components of the extracellular matrix, receives signals from nearby cells and exchanges nutrients with the surrounding fluid. If that tissue is injured, some fibroblasts multiply and help rebuild its structure. Once repair is sufficiently advanced, continued multiplication is no longer necessarily useful. A cell that continues dividing despite severe genetic damage may even threaten the organization of the tissue. The organism therefore needs mechanisms that separate the ability to remain alive from permission to produce descendants. Cellular senescence is one important mechanism through which these two properties become uncoupled.</p>
+<p class="teaching-prose">A senescent cell is a viable cell that has entered a durable state of proliferation arrest and typically exhibits other changes in its physiology. Proliferation arrest means that the cell no longer completes repeated cycles of DNA replication and division under conditions that ordinarily permit that cell type to multiply. Durability means that simply replacing nutrients or restoring a normal growth signal does not generally cause an immediate return to proliferation. The qualification is important because particular experimentally induced senescent states can be bypassed or reversed, especially following major changes in their regulatory machinery. It is more accurate to speak of a stable or persistent arrest than to claim that every senescent cell can never divide again under any conceivable condition.</p>
+<p class="teaching-prose">The cell has not ceased to be a biological system. It needs a functioning plasma membrane, adequate energy production, intracellular transport and protein turnover. It can synthesize messenger RNA, translate proteins and release selected molecules to its environment. Some senescent cells acquire a larger, flatter appearance when grown on a culture surface, but size and shape depend on the type of cell and its environment. An enlarged cell in a microscope image cannot be identified as senescent on shape alone. Similarly, a metabolically active cell does not have to be actively cycling. The capacity to maintain molecular functions and the capacity to generate progeny are distinct physiological variables.</p>
+<p class="teaching-prose">The developmental question is why a multicellular animal would maintain such a cell instead of either replacing it with a normal proliferating cell or eliminating it by apoptosis. There are several possible advantages. Persistent arrest can prevent the transmission of damaged DNA. A temporary population of arrested cells may contribute to a local tissue-remodeling signal. A cell may help organize the timing of a developmental event by ceasing proliferation and changing its interaction with surrounding cells. None of these advantages requires senescent cells to persist forever. Indeed, a state that benefits an embryo for a short period can have very different consequences when comparable cells accumulate in an adult tissue for months or years.</p>
+<p class="teaching-prose">Think of a tissue as containing multiple cell states, not merely a collection of dividing and dead cells. A progenitor can be cycling, resting reversibly, differentiating toward a specialized identity, dying or entering senescence. Those states can have similar instantaneous measurements while having different futures. An experiment that reports only the fraction of cells entering DNA synthesis at a single time cannot distinguish all of them. The defining biological problem involves future behavior, so the best evidence combines observations over time with measurements of cell viability and molecular function.</p>
+<p class="teaching-prose">This chapter therefore treats senescence first as a cellular fate and then as a source of tissue-level effects. The distinction between cell fate and organismal aging is fundamental. An embryo can contain developmentally senescent cells without being an aged organism; an old animal can contain cells that are healthy, quiescent, proliferating or differentiated without each one being senescent. Age increases the opportunity for some triggers and for failures of tissue maintenance, but elapsed time is neither a necessary nor a sufficient criterion for the identity of a particular cell.</p></section>
+<section id="fates"><h2>2. Distinguishing arrest, differentiation and cell death</h2><p class="teaching-prose">An actively cycling animal cell ordinarily alternates between intervals of growth, DNA replication and chromosome segregation. The first gap, G1, provides time for interpreting growth signals and preparing for DNA synthesis in S phase. A second gap, G2, precedes mitosis. A cell that leaves the cycle may enter a noncycling state commonly designated G0. This description records the absence of progression through the cycle; it does not by itself explain the cause, durability or biological meaning of the exit.</p>
+<p class="teaching-prose">Quiescence is a regulated resting state in which proliferation is suppressed but can often resume when appropriate conditions are restored. A healthy fibroblast deprived of mitogenic signals may reduce its expression of cell-cycle proteins and cease incorporating a nucleotide analogue during a short labeling period. If the cells remain healthy, addition of suitable growth factors may restore cyclin activity and lead to DNA synthesis followed by mitosis. An experiment that records only the period without mitogens could mistakenly classify these fibroblasts as senescent. The recovery experiment is what reveals the difference between the two states.</p>
+<p class="teaching-prose">Terminal differentiation is a different route toward a lasting noncycling condition. A skeletal muscle fiber has a specialized contractile organization, and a mature neuron can use extensive cellular resources to maintain its electrical and signaling functions without completing ordinary mitotic cycles. Their lack of proliferation is associated with a developmental identity rather than necessarily with a stress-induced senescence program. Some proteins involved in controlling the cell cycle are shared among quiescent, differentiated and senescent states. The presence of a shared inhibitor therefore cannot establish that every instance of arrest is biologically equivalent. The appropriate comparison for a mature neuron is its normal differentiation state, not a rapidly dividing embryonic fibroblast.</p>
+<p class="teaching-prose">Apoptosis provides a more direct contrast. During canonical apoptosis, the cell is dismantled by regulated molecular processes and eventually loses the capacity to maintain itself as a living unit. An early apoptotic cell may still exclude a membrane-impermeant dye, so a single viability measurement may miss its commitment to death. A senescent fibroblast may retain membrane integrity for a prolonged period and continue producing secreted proteins. To distinguish these fates, a researcher can follow cell survival and morphology over time, assess markers of apoptotic execution, and determine whether the viable population has a durable proliferation defect. A reduction in cell number alone is not adequate evidence of senescence because death, detachment and slower division can all produce that result.</p>
+<p class="teaching-prose">A transient checkpoint response also needs separate consideration. If a cell detects a lesion in its DNA, slowing progression into S phase may be useful because the lesion can be repaired before replication. After successful repair, checkpoint activity may decrease and cycling resume. This reversible response is an example of protective arrest without necessarily being senescence. If the damage persists or the cellular regulatory state changes, the same checkpoint pathways may contribute to a more durable arrest. Consequently, p21 induction a few hours after irradiation cannot establish that senescence has occurred. The subsequent time course is part of the definition.</p>
+<p class="teaching-prose">A useful way to reason about a cell is to ask three independent questions. Is it still alive? Can it complete a division when physiological conditions permit? Has it acquired a molecular and functional phenotype consistent with senescence rather than another kind of cell-cycle exit? Answering these questions requires different measurements. A dye that reports membrane permeability addresses a part of the first question. Incorporation of a DNA precursor and subsequent cell tracking address parts of the second. Measurements of lysosomal activity, checkpoint proteins and secreted factors contribute to the third.</p>
+<p class="teaching-prose">Suppose two dishes have equally low DNA synthesis and equally high viability. One is a culture of fibroblasts deprived of serum for two days, while the other consists of late-passage fibroblasts supplied with adequate mitogens. Adding mitogens to both is informative only if the growth conditions are suitable for the cell strain, the cells are not overcrowded and enough time is allowed for a response. If the first population re-enters the cell cycle and the second does not, the result supports a durable arrest in the second. But even this comparison benefits from independent markers and the exclusion of other persistent injuries. The strength of a conclusion grows when several logically different measurements agree.</p>
+<p class="teaching-prose">Cell identity matters especially in tissues. A population containing both mature postmitotic cells and proliferating progenitors should not be judged solely on average proliferation. If the fraction of mature neurons rises, average Ki-67 expression can fall even if no cell has newly become senescent. Conversely, a small subpopulation of altered cells may affect many neighbors without causing a dramatic change in average tissue proliferation. Identifying the lineage of the cells under study prevents a normal property of differentiation from being mistaken for a pathological fate.</p></section>
+<section id="history"><h2>3. How a finite proliferative lifespan became a biological concept</h2><p class="teaching-prose">For much of the early history of animal cell culture, the difficulty of maintaining cells outside an organism complicated interpretation of their survival. When a culture ceased expanding, one possible explanation was simply that the artificial environment lacked a necessary nutrient or contained an unfavorable condition. A different possibility was that a normal cell lineage possessed an intrinsic limit on its ability to continue proliferation. Distinguishing these explanations required cultures that could grow reproducibly and a record of their history over repeated transfers.</p>
+<p class="teaching-prose">Leonard Hayflick and Paul Moorhead reported their studies of normal human diploid cell strains in 1961. Diploid here means that the cells retained the ordinary two sets of chromosomes rather than being selected as transformed continuous cell lines. Fibroblast cultures could be propagated for a substantial period, but their proliferative capacity was finite. The work challenged the assumption that appropriate culture conditions were sufficient for indefinite multiplication of every normal cell strain. The observation was the starting point for asking whether previous divisions were related to future proliferative capacity. It did not imply that every animal cell divides a fixed number of times.</p>
+<p class="teaching-prose">Consider the reasoning behind a serial culture. A culture begins with a population of cells. As it grows, the investigator transfers a portion of its cells into fresh culture space, providing nutrients and room for further multiplication. A transfer is often called a passage. Passage number is a convenient laboratory record, but it is not an exact count of cell divisions. If one transfer expands the population twofold and another expands it eightfold, those transfers represent very different amounts of multiplication. The biologically relevant history is better approximated by the number of population doublings accumulated through the series.</p>
+<p class="teaching-prose">Hayflick and Moorhead also found that cells could retain their properties through storage at very low temperature. This is conceptually useful because storage time and multiplication history can be separated. A frozen population is not dividing while stored under conditions that preserve it. Its age measured in calendar time increases, but its replicative history does not increase in the same way. Finite proliferative lifespan is thus not simply a clock measuring days since a culture was established. It reflects the cell strain, the environment and biological changes associated with its history.</p>
+<p class="teaching-prose">The phrase Hayflick limit is often used to refer to the finite division capacity of normal human fibroblast strains. It should never be treated as a universal numerical rule for all species or tissues. Cultures differ in donor history, oxygen exposure, growth conditions, genotype and the details of the counting method. Even within one culture, not every lineage experiences the same number of divisions or responds to stress at precisely the same time. When the bulk culture slows, some cells may still divide while others have stopped. A limit estimated from population behavior is not a direct count of all individual cell cycles.</p>
+<p class="teaching-prose">The next major question concerned the molecular basis of this limit. The ends of linear chromosomes presented an obvious candidate because normal DNA replication cannot preserve every terminal nucleotide indefinitely without specialized mechanisms. In 1990, Harley, Futcher and Greider documented a decrease in telomeric DNA in human fibroblasts during serial culture. This work connected replicative history with a measurable chromosome property. The correlation by itself did not prove that shortening was the sole cause of growth arrest. Nevertheless, it offered a clear molecular hypothesis: if terminal chromosome protection deteriorates, a cell may interpret the affected end as damaged DNA.</p>
+<p class="teaching-prose">A stronger causal test became possible by manipulating the system responsible for telomere extension. In 1998, Bodnar and colleagues reported that introducing the catalytic component of telomerase into two human cell types that lacked detectable telomerase activity extended their proliferative lifespan. The significance of the result was not that every biological form of senescence had been abolished. It was that maintaining telomeres could alter the replicative behavior of particular normal human cell populations. This gave functional support to the connection suggested by earlier observations.</p>
+<p class="teaching-prose">A separate line of evidence showed that prolonged replicative history was not essential for every senescent state. In 1997, Serrano and colleagues demonstrated premature growth arrest associated with oncogenic RAS expression in primary cells. The finding was surprising because RAS is usually discussed as a promoter of mitogenic signaling. The observation helped establish a broader model in which an excessively strong or inappropriate growth signal can activate restraints rather than simply accelerate proliferation. The normal tissue is protected not only by limiting the total number of divisions but also by responding to suspicious patterns of signaling.</p>
+<p class="teaching-prose">These discoveries illustrate how a scientific model becomes stronger. Serial cultivation established the phenotype, chromosome measurements suggested a molecular correlate, intervention in telomere maintenance tested causality in specific cells, and premature arrest under abnormal signaling widened the definition. The resulting concept does not require that all cells share one initiating mechanism. Rather, diverse signals can converge on a common biological outcome of durable arrest, accompanied by changes whose details depend on the context.</p><figure class="figure-panel"><svg id="discovery-sequence" viewBox="0 0 600 116" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="discovery-sequence-title discovery-sequence-desc" fill="currentColor"><title id="discovery-sequence-title">Evidence for replicative senescence</title><desc id="discovery-sequence-desc">The culture observation preceded the telomere correlation and an intervention in telomere maintenance.</desc><rect x="15" y="45" width="145" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="87.5" y="70" text-anchor="middle" font-size="12">Finite growth</text><path d="M160 67 H202 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="205" y="45" width="145" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="277.5" y="70" text-anchor="middle" font-size="12">Telomere loss</text><path d="M350 67 H392 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="395" y="45" width="145" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="467.5" y="70" text-anchor="middle" font-size="12">Telomerase test</text></svg><figcaption>The culture observation preceded the telomere correlation and an intervention in telomere maintenance.</figcaption><button class="tool-btn diagram-zoom" type="button" data-figure="discovery-sequence" aria-label="Enlarge Evidence for replicative senescence">⊕ Enlarge diagram</button></figure></section>
+<section id="telomeres"><h2>4. Chromosome ends, telomeres and replicative history</h2><p class="teaching-prose">A chromosome consists of a long DNA molecule associated with proteins. Unlike a circular DNA molecule, a linear chromosome has two physical ends. Those ends require special protection because a DNA repair system must distinguish a normal chromosome terminus from an accidental DNA break. If a normal end is mistakenly treated as broken DNA, repair enzymes may join it to another chromosome end, creating a structure that cannot segregate normally during later mitosis. Telomeres are specialized DNA-protein structures that help prevent this problem.</p>
+<p class="teaching-prose">Human telomeric DNA contains tandem repeats of the sequence TTAGGG on its G-rich strand. At the very end of a telomere, a short single-stranded G-rich extension can project beyond the complementary strand. Telomeres are associated with a protein complex known as shelterin. Its components include proteins that recognize the double-stranded repeats and others that associate with the single-stranded terminal region. These interactions help organize a protected end configuration and suppress inappropriate checkpoint and repair activities. A long repeat tract without appropriate protection is not necessarily a functional chromosome cap.</p>
+<p class="teaching-prose">DNA polymerases extend a pre-existing nucleic acid end by adding nucleotides to its 3-prime hydroxyl group. Because the two template strands run in opposite directions, synthesis at a replication fork proceeds continuously on one strand and discontinuously on the other. The discontinuous strand is initiated repeatedly using primers. When a primer is removed at an internal position, a neighboring DNA fragment provides a suitable end from which the gap can be filled. At a chromosome terminus there may be no upstream DNA segment in the required orientation. Terminal processing of replicated ends also contributes to telomere changes. As a result, ordinary replication and end processing can produce a net loss of repeats in the absence of adequate extension.</p>
+<p class="teaching-prose">Telomerase is a ribonucleoprotein enzyme. Its catalytic protein is a reverse transcriptase, and its RNA contains a template used to extend the G-rich DNA strand. Once additional repeats have been synthesized, complementary strand synthesis and processing can restore the appropriate chromosome-end organization. This reaction does not directly copy arbitrary damaged genes throughout the genome. Telomerase acts in a specialized end-maintenance system and cannot be regarded as a general DNA repair enzyme.</p>
+<p class="teaching-prose">The amount of telomerase activity differs across cell types. Germ-line cells, some stem and progenitor populations and activated lymphocytes can express telomerase under relevant conditions. Many differentiated human somatic populations have little activity. The term somatic means that a cell belongs to the non-germ-line portion of the organism; it does not imply that every such cell has identical telomere regulation. Some cancer cell populations maintain telomeres through telomerase or alternative mechanisms, but cancer-specific escape from proliferation restraints is a separate problem.</p>
+<p class="teaching-prose">What matters at the point of arrest is not merely the average length of the telomeres measured in a culture. Each chromosome has its own terminal repeat lengths and protein organization. A small number of dysfunctional ends can initiate checkpoint signaling even when the average repeat length remains relatively large. Damage to the protective complex can also render a telomere dysfunctional independently of an exceptionally short repeat tract. Thus the structural state of the least protected ends is often more informative about damage signaling than a single bulk average.</p>
+<p class="teaching-prose">The end-replication explanation provides a molecular bridge from earlier cell culture experiments to checkpoint signaling. Successive cell divisions can make terminal DNA maintenance increasingly demanding. When end protection fails, a DNA-damage response can develop at affected chromosome termini. The response can inhibit the cell-cycle machinery, thereby reducing the probability that damaged chromosomes will be passed to daughter cells. This is a protective consequence of arrest rather than a guarantee that all DNA damage has been removed.</p>
+<p class="teaching-prose">There is no universal shortening rate that can be applied to all tissues. Oxygen-dependent damage, replication-associated stress, telomerase activity and the initial lengths of individual telomeres all influence the relationship between cell divisions and telomere state. In standard culture, atmospheric oxygen can be high relative to the environment experienced by some cells in vivo. A culture may therefore show stress-associated arrest before its average telomere length would suggest a simple length threshold. Comparing identical cell strains under different environments helps to separate replicative and environmental contributions.</p>
+<p class="teaching-prose">Comparative biology reinforces this caution. Laboratory mice and humans differ substantially in typical telomere lengths and patterns of telomerase expression. Primary mouse fibroblasts under ordinary culture conditions can encounter stress-associated proliferation barriers that cannot be interpreted by mechanically applying the human fibroblast replicative lifespan model. Conserved regulatory systems such as p53 and RB can respond to different relative contributions of chromosome damage and culture stress. The core principle is a protective response to inappropriate conditions, not a fixed number of divisions shared across mammals.</p></section>
+<section id="checkpoints"><h2>5. How a DNA-damage signal becomes a proliferation block</h2><p class="teaching-prose">A cell-cycle checkpoint is a control mechanism that links progression through the cycle to the state of cellular processes. It allows a cell to delay an event when proceeding would be dangerous. DNA damage responses are especially important before genome duplication and before chromosome segregation. If damaged DNA were replicated or divided among daughters without restraint, a local molecular lesion could become a heritable defect in a larger population.</p>
+<p class="teaching-prose">When double-strand breaks or dysfunctional chromosome ends are recognized, the protein kinase ATM can participate in transmitting the damage signal. ATR is particularly important in signaling associated with single-stranded DNA at stressed replication forks, although the two pathways can overlap and the precise response depends on lesion processing. A protein kinase modifies substrates by transferring a phosphate group from ATP. Phosphorylation can change the activity, stability, interactions or localization of a protein. The energy required for this covalent reaction is coupled to ATP utilization; it is not created by the DNA lesion itself.</p>
+<p class="teaching-prose">Damage-associated phosphorylation of histone H2AX produces a form known as gamma-H2AX. The modified chromatin helps organize a local response involving additional signaling and repair proteins, and can be detected microscopically as nuclear foci. The existence of such foci tells an investigator that chromatin-associated damage signaling has occurred. It does not, on its own, identify a cell as senescent. A normal cell repairing a recent double-strand break may contain many foci and subsequently recover.</p>
+<p class="teaching-prose">The protein p53 is a transcription factor whose cellular abundance and activity are tightly controlled. Under unstressed conditions, its interaction with the ubiquitin ligase MDM2 contributes to limiting its stability. Damage signaling can alter this regulatory balance and allow p53 activity to increase. Among the genes whose expression p53 can stimulate is CDKN1A, encoding the cyclin-dependent kinase inhibitor p21. As p21 accumulates, particular cyclin-CDK complexes become less effective at driving progression through the cell cycle.</p>
+<p class="teaching-prose">CDKs are enzymes that regulate cell-cycle transitions through phosphorylation of selected proteins. Their activity depends on association with cyclin partners and on additional activating and inhibitory interactions. During G1, cyclin D-associated CDK4 and CDK6 and cyclin E-associated CDK2 contribute to progression toward S phase. p21 can inhibit cyclin E-CDK2 and other CDK complexes, with effects determined in part by its concentration and interaction partners. A simplified examination-level pathway describes p53 activating p21, which reduces CDK activity and inhibits progression toward DNA synthesis.</p>
+<p class="teaching-prose">The reduction of CDK activity has consequences for the retinoblastoma protein RB. In a growth-restrained G1 cell, active RB can interact with E2F transcription factors and suppress the expression of genes that support S-phase entry. Phosphorylation associated with cyclin-CDK activity normally weakens this repression during cell-cycle progression. When CDK activity is curtailed, RB-dependent repression can be maintained. An extracellular growth signal may therefore be present without producing its usual downstream effect on the expression of DNA replication genes.</p>
+<p class="teaching-prose">It is important not to reverse the signs of these regulatory relationships. p53 can increase the synthesis of an inhibitor, p21. The inhibitor decreases the activity of selected CDKs. Reduced CDK activity favors an RB state that restricts E2F-dependent transcription. E2F normally supports expression of many genes required for proliferation, so this chain produces a net inhibitory effect on cell-cycle progression. The pathway contains both positive and negative molecular steps; its biological outcome cannot be inferred solely from the fact that p53 expression has increased.</p>
+<p class="teaching-prose">A transient version of this pathway can protect an ordinary cycling cell during repair. If damage signaling disappears and checkpoint inhibition falls, cyclin-CDK activity may rise again. Persistent signals can instead help maintain growth arrest. Senescence involves stabilization of the nonproliferating state, often through additional mechanisms. This is why the initial pathway should not be drawn as a switch that inevitably converts every damaged cell into a senescent cell. The stability and context of the response are what determine its eventual identity.</p><figure class="figure-panel"><svg id="damage-p53" viewBox="0 0 600 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="damage-p53-title damage-p53-desc" fill="currentColor"><title id="damage-p53-title">Damage checkpoint sequence</title><desc id="damage-p53-desc">Damage signaling can increase p53 and p21, reducing CDK activity and favoring arrest.</desc><rect x="15" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="78.5" y="70" text-anchor="middle" font-size="12">DNA damage</text><path d="M142 67 H154.5 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="157.5" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="221" y="70" text-anchor="middle" font-size="12">p53 activation</text><path d="M284.5 67 H297 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="300" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="363.5" y="70" text-anchor="middle" font-size="12">p21 increase</text><path d="M427 67 H439.5 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="442.5" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="506" y="70" text-anchor="middle" font-size="12">CDK inhibition</text></svg><figcaption>Damage signaling can increase p53 and p21, reducing CDK activity and favoring arrest.</figcaption><button class="tool-btn diagram-zoom" type="button" data-figure="damage-p53" aria-label="Enlarge Damage checkpoint sequence">⊕ Enlarge diagram</button></figure></section>
+<section id="p16"><h2>6. The p16-RB pathway and stabilization of the arrest</h2><p class="teaching-prose">The protein p16INK4a is a cyclin-dependent kinase inhibitor encoded by the CDKN2A locus. It belongs to the INK4 family, whose members bind CDK4 or CDK6 and oppose their productive interaction with D-type cyclins. This specificity distinguishes p16 from the broader range of cyclin-CDK complexes regulated by p21. Both inhibitors can ultimately favor RB-mediated growth restraint, but they do not act by exactly the same biochemical mechanism.</p>
+<p class="teaching-prose">When p16 accumulates in a cell with functional RB, the activity of cyclin D-CDK4/6 complexes is reduced. The ability of a mitogenic signal to inactivate RB-mediated restraint is therefore limited. If RB remains functionally active, E2F-dependent transcription associated with S-phase entry remains inhibited. The pathway provides a means of maintaining arrest even if a cell is exposed to extracellular growth signals that would ordinarily increase cyclin D expression.</p>
+<p class="teaching-prose">There is a difference between establishing an arrest and maintaining it. A rapid p53-p21 response may reduce cell-cycle progression following damage. A later increase in p16 can strengthen a durable state in certain cell populations. This sequence is a useful example, not a universal timetable. Some cells rely predominantly on one checkpoint axis, some use both, and some examples of developmental senescence are p21-dependent without substantial p16 induction. A student's answer should therefore explain the two axes as possible cooperating mechanisms rather than claiming that every senescent cell must express both inhibitors at high levels.</p>
+<p class="teaching-prose">Stable changes in the accessibility of genes associated with proliferation can contribute to maintaining the state. In some senescent cell types, reorganized chromatin contains conspicuous regions of densely packed material described as senescence-associated heterochromatin foci. Such changes may reinforce repression of selected proliferation-related genes, but these foci are neither universal nor sufficient evidence by themselves. A cell with no obvious foci can still be senescent. Chromatin remodeling is one possible source of persistence, not a substitute for the functional criterion.</p>
+<p class="teaching-prose">The genetic distinction between an inhibitor and its downstream target is particularly valuable in experimental reasoning. Suppose p16 expression is artificially increased in two matched cell lines. In one, RB remains functional; in the other, RB is absent. A strong RB-dependent arrest is expected in the first line. In the second, the direct target of p16, CDK4/6, may still be inhibited, but the usual downstream restraint imposed by RB is missing. Proliferation may therefore continue more readily. The precise outcome depends on other RB-family proteins, p21 and additional control systems. Failure of one branch is not equivalent to failure of every cell-cycle restraint.</p>
+<p class="teaching-prose">Similarly, loss of p53 can reduce the induction of p21 following damage without necessarily preventing every senescent response. A p16-dependent pathway may remain intact, and other signals can contribute to arrest. Conversely, loss of p16 does not automatically make p53 inactive. In a hypothetical genetic experiment where neither checkpoint branch can function, a damaged cell may be more likely to re-enter the cycle; however, severe damage can still activate death or other barriers. These distinctions prevent the erroneous conclusion that one mutation creates immortality.</p>
+<p class="teaching-prose">RB is a downstream integrator of proliferative restraint, not the enzyme that repairs the DNA lesion or replenishes telomeric repeats. Restoring functional RB may suppress division without restoring chromosome-end integrity. Likewise, inhibiting CDK activity may delay cell-cycle progression without addressing the initiating cause of cellular stress. The signaling diagram must be read at two levels: the pathway controls whether the cell divides, whereas DNA repair and telomere maintenance determine the underlying structural problem that may have triggered the response.</p><figure class="figure-panel"><svg id="p16-arrest" viewBox="0 0 600 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="p16-arrest-title p16-arrest-desc" fill="currentColor"><title id="p16-arrest-title">p16-dependent restraint</title><desc id="p16-arrest-desc">p16 inhibits CDK4/6, favoring active RB and repression of E2F-dependent genes.</desc><rect x="15" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="78.5" y="70" text-anchor="middle" font-size="12">p16 increase</text><path d="M142 67 H154.5 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="157.5" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="221" y="70" text-anchor="middle" font-size="12">CDK4/6 inhibited</text><path d="M284.5 67 H297 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="300" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="363.5" y="70" text-anchor="middle" font-size="12">RB restraint</text><path d="M427 67 H439.5 m-6 -5 l6 5 -6 5" stroke="currentColor" fill="none"/><rect x="442.5" y="45" width="127" height="44" rx="8" fill="var(--panel)" stroke="currentColor"/><text x="506" y="70" text-anchor="middle" font-size="12">E2F repressed</text></svg><figcaption>p16 inhibits CDK4/6, favoring active RB and repression of E2F-dependent genes.</figcaption><button class="tool-btn diagram-zoom" type="button" data-figure="p16-arrest" aria-label="Enlarge p16-dependent restraint">⊕ Enlarge diagram</button></figure></section><section id="references"><h2>References and further reading</h2><ol><li><a href="https://doi.org/10.1016/0014-4827(61)90192-6">Hayflick L, Moorhead PS (1961). The serial cultivation of human diploid cell strains.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/2342578/">Harley CB, Futcher AB, Greider CW (1990). Telomeres shorten during ageing of human fibroblasts.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/9454332/">Bodnar AG et al. (1998). Extension of life-span by introduction of telomerase into normal human cells.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/9054499/">Serrano M et al. (1997). Oncogenic ras provokes premature cell senescence associated with accumulation of p53 and p16INK4a.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/31675495/">Gorgoulis V et al. (2019). Cellular Senescence: Defining a Path Forward.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11578798/">SenNet recommendations for detecting senescent cells in different tissues (2024).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/7568133/">Dimri GP et al. (1995). A biomarker that identifies senescent human cells in culture and in aging skin in vivo.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/24238962/">Muñoz-Espín D et al. (2013). Programmed cell senescence during mammalian embryonic development.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/25499914/">Demaria M et al. (2014). An essential role for senescent cells in optimal wound healing through secretion of PDGF-AA.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/19053174/">Coppé JP et al. (2008). Senescence-associated secretory phenotypes reveal cell-nonautonomous functions of oncogenic RAS and the p53 tumor suppressor.</a></li></ol></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 5 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 5 · Developmental Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["5.E.03","previous-node","← "],["5.E.05","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

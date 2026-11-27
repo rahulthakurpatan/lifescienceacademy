@@ -6,7 +6,7 @@
 - Separate CSIR-UGC NET Life Sciences syllabus, Unit 06: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf
 - MP SET-2024 Life Sciences Paper II, Unit 06: https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf
 - **Official subunit headings (exact order and wording):** 6.A Photosynthesis; 6.B Respiration and photorespiration; 6.C Nitrogen metabolism; 6.D Plant hormones; 6.E Sensory photobiology; 6.F Solute transport and photoassimilate translocation; 6.G Secondary metabolites; 6.H Stress physiology.
-- **Current deployment stage:** Exactly eight complete subunit descriptions go into the site syllabus menu. There are no individual node/reading page codes, placeholder links, sitemap additions, or forced chapter counts in this release.
+- **Current deployment stage:** Eight subunit roadmaps are established. Approved chapters are linked individually; unpublished nodes remain unlinked.
 - **Curriculum aim:** Connected chronological/causal life-science explanation from light energy and carbon metabolism through respiration/nitrogen metabolism, regulatory hormones/light, whole-plant transport, specialized biochemistry and stress protection. The syllabus order remains official 6.A–6.H; in real plants these processes run together, not as one literal timeline.
 - **2026 changes not to miss:** Biological nitrogen fixation explicitly in 6.C; alkaloids, phenylpropanoids and plant metabolic engineering explicitly in 6.G; physiological AND molecular biotic/abiotic responses plus plant innate immunity explicitly in 6.H; 'light perception' in 6.E. The older syllabus and MP SET retain useful explicit water, temperature, salt, pathogen and insect stress examples.
 - **Depth requirements:** Suitable for BSc foundations through MSc/CSIR-NET and MP SET; no thin content or unrelated PhD-only lab/research tangents. Reading nodes will be separately research-mapped later and must feature connected narrative and explained reasoning.
@@ -212,3 +212,10 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - Revised official syllabus: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf
 - Separate official CSIR: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf
 - MP SET syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.A.01 — [Photosynthetic Pigments and Light-Harvesting Complexes](https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-pigments-and-light-harvesting-complexes.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 1/8; Unit 06: 1/66; Academy: 250/723.
+- Next unpublished: 6.A.02 — Photosystem II and Photolysis of Water.

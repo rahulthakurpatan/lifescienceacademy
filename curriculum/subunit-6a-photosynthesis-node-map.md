@@ -10,7 +10,7 @@
 - **Student narrative:** photon/pigment energy capture → PSII accepts water-derived electrons → PQ/b6f/PC→PSI transfers and boosts electrons → proton-driven ATP, linear/cyclic flexibility → protection/repair of machinery under intense light → stromal Calvin cycle using ATP/NADPH → C4 spatial CO2 concentration → CAM temporal CO2 concentration and integrated comparison.
 - **Important chronology caveat:** The order is **pedagogical causal dependency**, not an assertion that plants first finish all photoprotection and only then fix CO2. Light reactions, photoprotection, carbon fixation and energy balancing run simultaneously; the chapter sequence lets a learner build one mechanism on the preceding one.
 - **Biological scope:** Plant oxygenic photosynthesis at BSc/MSc/CSIR-NET/MP SET level with correct redox, compartment, carbon/energy accounting, anatomy and experimental inference; do not detour into specialist cryo-EM, PhD-only photosystem reaction kinetics, full ecological modeling or research protocols.
-- **Publication stage:** This file is a detailed curriculum **roadmap**, and the menu will show titles/descriptions only. No full chapter HTML has been authored or validated; do not insert hypothetical links, fake student-ready chapter pages or sitemap references for these menu nodes.
+- **Publication stage:** 6.A.01 has a validated chapter; remaining nodes retain unlinked roadmap titles until independently approved.
 - **Student-facing English:** Interconnected academic prose, observation→question→mechanism→evidence→biological interpretation→worked exam reasoning, accurate qualifications and diagrams when later authored; no thin pages or table/MCQ padding.
 
 ## Eight chapter briefs in teaching order
@@ -163,3 +163,10 @@
 - Plant NPQ and xanthophyll mechanisms: https://pmc.ncbi.nlm.nih.gov/articles/PMC12619064/
 - High-light response and PSII repair: https://pmc.ncbi.nlm.nih.gov/articles/PMC11399379/
 - C4/CAM biological separation and mechanisms: https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15851
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.A.01 — [Photosynthetic Pigments and Light-Harvesting Complexes](https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-pigments-and-light-harvesting-complexes.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 1/8; Unit 06: 1/66; Academy: 250/723.
+- Next unpublished: 6.A.02 — Photosystem II and Photolysis of Water.

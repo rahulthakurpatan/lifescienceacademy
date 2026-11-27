@@ -190,3 +190,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Teaching prose: 13,733 words in 147 paragraphs; 12 scientific SVGs, 2 plotted graphs, 4 tables, 54 explained questions (20 Part B, 28 Part C, 6 SET), 15 misconception checks, 12 recall prompts, 14 references.
 - Subunit 7.A: 5/8; Unit 07: 5/90; Academy: 320/723.
 - Next global unpublished: 7.A.03 — Erythrocytes and Haemoglobin.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 7.B.03 — [Electrocardiography: Principles and Physiological Significance](https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html); internal QA 95/100; saved HTML static checks complete, Pages verification pending.
+- 13,718 teaching words in 141 distinct paragraphs; 14 original SVGs, 4 tables, 52 explained questions (20 Part B, 20 Part C, 12 integrated), 17 misconceptions, 12 recall prompts, 13 reference entries.
+- Subunit 7.B: 2/8; Unit 07: 10/90; Academy: 325/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.

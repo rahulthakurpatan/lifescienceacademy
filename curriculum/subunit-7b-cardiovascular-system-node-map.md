@@ -108,3 +108,10 @@
 | Chemical regulation | 7.B.08 |
 
 All explicit topic groups have a substantive assigned home. Vascular haemodynamics connects cardiac output to arterial pressure and tissue perfusion; it is not a separate official subunit. Examples support examinable physiology rather than exhaustive clinical cardiology.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 7.B.03 — [Electrocardiography: Principles and Physiological Significance](https://rahulthakurpatan.github.io/lifescienceacademy/electrocardiography-principles-and-physiological-significance.html); internal QA 95/100; saved HTML static checks complete, Pages verification pending.
+- 13,718 teaching words in 141 distinct paragraphs; 14 original SVGs, 4 tables, 52 explained questions (20 Part B, 20 Part C, 12 integrated), 17 misconceptions, 12 recall prompts, 13 reference entries.
+- Subunit 7.B: 2/8; Unit 07: 10/90; Academy: 325/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.

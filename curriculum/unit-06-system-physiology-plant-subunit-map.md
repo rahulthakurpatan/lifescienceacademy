@@ -324,3 +324,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.G.08 — [Other Nitrogenous Specialized Metabolites](https://rahulthakurpatan.github.io/lifescienceacademy/other-nitrogenous-specialized-metabolites.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.G: 3/10; Unit 06: 36/66; Academy: 285/723.
 - Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.02 — [Phytochromes: Red/Far-Red Perception, Photoconversion and Developmental Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/phytochromes-red-far-red-perception-photoconversion-and-developmental-signaling.html); internal academic/static QA 95/100; browser and live deployment verification pending.
+- Subunit 6.E: 5/7; Unit 06: 38/66; Academy: 287/723. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

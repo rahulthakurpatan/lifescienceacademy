@@ -155,3 +155,9 @@ All explicit official topic groups have an assigned substantive home. Synaptic i
 - 7.D.10 — [Central Motor Control, Posture and Coordinated Movement](https://rahulthakurpatan.github.io/lifescienceacademy/central-motor-control-posture-and-coordinated-movement.html); internal QA 95/100, saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 14,805 words, 149 paragraphs; 14 original SVGs, 4 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 18 misconceptions and 14 recall prompts.
 - Subunit 7.D: 6/10; Unit 07: 30/90; Academy: 345/723. Next global unpublished node: 7.D.05 — Gross Neuroanatomy and Functional Organisation of the Brain.
+
+### Publication checkpoint — 2026-11-27 — 7.D.09
+
+- 7.D.09 — [Proprioception and Neural Control of Muscle Tone](https://rahulthakurpatan.github.io/lifescienceacademy/proprioception-and-neural-control-of-muscle-tone.html); internal academic/editorial QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 13,775 words, 147 distinct paragraphs; 15 original SVGs (3 graphs), 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 18 misconceptions, 14 recall prompts and 14 references.
+- Subunit 7.D: 7/10; Unit 07: 31/90; Academy: 346/723. Next global unpublished node: 7.D.05 — Gross Neuroanatomy and Functional Organisation of the Brain.

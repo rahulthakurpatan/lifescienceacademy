@@ -156,3 +156,9 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 - Subunit 5.D: 7/11; Unit 05: 43/57; Academy: 235/723. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.
 
 - 2026-11-27 — **5.D.05 — Root Development: Tissue Differentiation, Root Hairs and Lateral Roots**: academic QA 95/100 (internal), 13,959 teaching words, 50 explained questions; deployment verification pending. [Chapter](../root-development-tissue-differentiation-root-hairs-and-lateral-roots.html) · [QA record](node-5d05-publication-qa.json).
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth**: academic QA 95/100 (internal), 14,651 teaching words, 50 explained questions, 10 accessible SVG diagrams; [chapter](../foundations-of-plant-organogenesis.html) and [QA record](node-5d01-publication-qa.json) included in the publication tree. Pages verification is separate.
+- Subunit 5.D: **11/11 complete**. Unit 05: 47/57. Academy: 239/723. Next pending: 5.E.01 — Foundations of Programmed Cell Death, Senescence and Aging.

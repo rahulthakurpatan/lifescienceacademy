@@ -1,0 +1,131 @@
+{
+  "node_id": "6.A.02",
+  "title": "Photosystem II and Photolysis of Water",
+  "slug": "photosystem-ii-and-photolysis-of-water.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html",
+  "unit": "06",
+  "subunit": "6.A",
+  "topic": "Photosynthesis",
+  "date": "2026-11-27",
+  "status": "academic_qa_passed_deployment_verification_pending",
+  "source_draft_branch": "draft/node-6a02-photosystem-ii-20261127",
+  "source_draft_commit_sha": "c70879528c850aaf9a51ce7ec75025c5e6a208ec",
+  "source_draft_blob_sha": "b72dde57d48db3ffeec59bc851793c4374abbd90",
+  "production_chapter_blob_sha": "53de96af02ffac2235faa2471f7d3bcbefa29115",
+  "publication_base_sha": "bb03c1fa01317a6ddf455f75a94f188965ba065d",
+  "production_robots": "index,follow",
+  "metrics": {
+    "genuine_teaching_words": 13560,
+    "teaching_paragraphs": 140,
+    "theory_sections": 12,
+    "svg": 12,
+    "tables": 6,
+    "graphs": 2,
+    "part_b": 20,
+    "part_c": 20,
+    "other_questions": 10,
+    "total_questions": 50,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 12,
+      "D": 12
+    },
+    "references": 14,
+    "misconceptions": 17,
+    "active_recall": 14
+  },
+  "word_count_method": "Saved p.teaching-prose whitespace tokens only, excluding headings, questions, captions, tables, SVG, revision and references.",
+  "scope": {
+    "official": "CSIR June 2026 and revised 2026 CSIR–UGC–DBT Unit 6.A; MP SET 2024 mirror",
+    "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
+    "boundary": "Antenna 6.A.01; downstream chain 6.A.03; ATP 6.A.04; photoprotection 6.A.05."
+  },
+  "coverage_matrix": {
+    "architecture": "PSII core, LHCII, D1/D2, CP43/47 and membrane topology",
+    "excitation": "P680, excitation, charge separation and pheophytin",
+    "donor": "P680+, TyrZ, donor regeneration",
+    "water": "Mn4CaO5, water oxidation, proton release and oxygen origin",
+    "kok": "S-state cycle and period-four flash patterns",
+    "quinones": "QA/QB, PQ pool and stromal protons",
+    "accounting": "Four-electron balance, ideal vs observed yield and photon energy",
+    "history": "Hill reaction, isotopes and flash evidence",
+    "inhibitors": "DCMU and controlled predictions",
+    "fluorescence": "QA reduction and fluorescence limitations",
+    "integration": "Linear flow, gross/net oxygen, physiological relevance"
+  },
+  "review_pass_1": {
+    "type": "Internal scientific and syllabus review",
+    "result": "pass within source limits",
+    "findings": "Checked donor/acceptor roles, water and proton stoichiometry, isotope logic, Kok cycle, DCMU and fluorescence against syllabus and selected sources; independently recalculated photon energies, yields, isotope probabilities, oxygen/quinol and fluorescence examples."
+  },
+  "review_pass_2": {
+    "type": "Separate internal teaching and static technical review",
+    "result": "pass with static-test limits",
+    "findings": "Benchmarked adjacent chapters (13,511–14,503 words), reviewed 140 unique teaching paragraphs, original SVGs, all answer mappings, balanced answer positions, misconceptions and recall; corrected OEC schematic and reference links; re-fetched saved HTML and validated nesting, IDs, anchors, ARIA and JS syntax."
+  },
+  "quality": {
+    "scientific_accuracy": 19,
+    "syllabus_and_microtopic_coverage": 15,
+    "genuine_teaching_depth": 15,
+    "pedagogical_quality": 10,
+    "scientific_illustrations": 9,
+    "examination_questions_and_answers": 9,
+    "experimental_and_analytical_reasoning": 5,
+    "revision_and_mastery": 5,
+    "reader_architecture_and_accessibility": 4,
+    "technical_integrity_and_seo": 4,
+    "total": 95,
+    "threshold": 95,
+    "assessment": "Internal owner-rubric assessment, not external certification",
+    "deductions": "Selective literature verification, schematic simplification, no externally calibrated questions, interactive browser/assistive technology or live SEO tests."
+  },
+  "validation": {
+    "words_pass": true,
+    "svg_count_pass": true,
+    "question_count_pass": true,
+    "answer_mapping_pass": true,
+    "duplicate_paragraphs": 0,
+    "duplicate_ids": 0,
+    "broken_anchors": 0,
+    "broken_aria": 0,
+    "html_tag_nesting_pass": true,
+    "javascript_syntax_pass": true,
+    "reader_browser_test": false,
+    "assistive_technology_test": false
+  },
+  "navigation": {
+    "previous": "6.A.01",
+    "next": "6.A.03",
+    "mechanism": "Dynamic latest index links; adjacent concurrent publications preserved"
+  },
+  "progress": {
+    "subunit_published": 5,
+    "subunit_planned": 8,
+    "unit_published": 5,
+    "unit_planned": 66,
+    "academy_published": 254,
+    "academy_planned": 723,
+    "next_pending_node_id": "6.A.04"
+  },
+  "limitations": [
+    "MP SET 2024 mirror, current official MPPSC host not verified.",
+    "No external expert review or question calibration.",
+    "Static rather than interactive browser and assistive technology tests.",
+    "Deployment and live verification pending."
+  ],
+  "changed_files": [
+    "index.html",
+    "sitemap.xml",
+    "curriculum/subunit-6a-photosynthesis-node-map.md",
+    "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+    "curriculum/academy-progress.json",
+    "curriculum/node-6a02-publication-qa.json",
+    "photosystem-ii-and-photolysis-of-water.html"
+  ],
+  "publication": {
+    "strategy": "Atomic tree/commit; conditional non-force update",
+    "deployment": "pending",
+    "live_verified": false
+  }
+}

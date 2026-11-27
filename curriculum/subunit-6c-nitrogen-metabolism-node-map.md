@@ -147,3 +147,6 @@
 
 - 6.C.02 — [Nitrate and Nitrite Reduction in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 2/6.
+- 6.C.06 — [Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange](https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.C: 3/6.
+- Next unpublished in 6.C: 6.C.03 — Ammonium Assimilation: The GS–GOGAT Cycle.

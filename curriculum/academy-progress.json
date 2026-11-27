@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.B.05",
-  "title": "Photorespiration: The C2 Glycolate Pathway",
-  "subunit": "6.B",
-  "topic": "Respiration and Photorespiration",
-  "slug": "photorespiration-the-c2-glycolate-pathway.html",
+  "node_id": "6.C.06",
+  "title": "Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange",
+  "subunit": "6.C",
+  "topic": "Nitrogen Metabolism",
+  "slug": "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
   "next_pending_node_id": "6.B.01",
   "next_pending_node_title": "Plant Respiration and the Citric Acid Cycle",
-  "published_node_count": 262,
+  "published_node_count": 263,
   "publication_allowed": true,
-  "main_baseline_sha": "dd386d494042b8ae7c88a76c22a9278d023d96d2",
+  "main_baseline_sha": "c46f264e50f0b68590a2786f0a3b11c45ca98c65",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue with 6.B.01",
   "planned_node_count": 66,
@@ -21,169 +21,222 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.B.05",
-    "title": "Photorespiration: The C2 Glycolate Pathway",
-    "slug": "photorespiration-the-c2-glycolate-pathway.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html",
+    "node_id": "6.C.06",
+    "title": "Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange",
+    "slug": "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
     "unit": "06",
-    "subunit": "6.B",
-    "topic": "Respiration and Photorespiration",
+    "subunit": "6.C",
+    "topic": "Nitrogen Metabolism",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6b05-photorespiration-20261127",
-    "source_draft_commit_sha": "44804d6cee8ac7115ead73ad4daf9137eb923b1e",
-    "source_draft_blob_sha": "618f8919e46fd04b5d4e3a7798b283c287a43b20",
-    "production_chapter_blob_sha": "586ea3651d80bf5a1895bd3b76610c3f4dd9ece7",
+    "source_draft_branch": "draft/node-6c06-symbiotic-nitrogen-fixation-20261127",
+    "source_draft_commit_sha": "acbe4baa9a5f39766e14ddba7eb3a96a1f5487b6",
+    "source_draft_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
+    "production_chapter_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
     "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
-    "publication_base_sha": "dd386d494042b8ae7c88a76c22a9278d023d96d2",
+    "publication_base_sha": "c46f264e50f0b68590a2786f0a3b11c45ca98c65",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13384,
-      "teaching_paragraphs": 141,
+      "genuine_teaching_words": 13568,
+      "teaching_paragraphs": 156,
       "svg": 12,
-      "tables": 3,
-      "graphs": 1,
-      "total_questions": 52,
-      "part_b": 24,
-      "part_c": 24,
-      "other_questions": 4,
-      "misconceptions": 16,
-      "active_recall": 12,
-      "references": 16
+      "tables": 4,
+      "graph_and_chart_figures": 1,
+      "worked_numerical_examples": 13,
+      "total_questions": 50,
+      "part_b": 20,
+      "part_c": 20,
+      "other_questions": 10,
+      "answer_positions": {
+        "A": 10,
+        "B": 11,
+        "C": 17,
+        "D": 12
+      },
+      "misconceptions": 18,
+      "active_recall": 15,
+      "references": 14
     },
-    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
+    "word_count_method": "Unicode word tokens from actual saved p.teaching-prose only; inline HTML removed; exclude diagrams, tables, questions, references and revision.",
     "scope": {
-      "official": "Revised 2026 and separate CSIR NET syllabi Unit 6.B; MP SET 2024 syllabus reproduction",
-      "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md"
+      "official": "Revised 2026 UGC–CSIR–DBT Unit 6.C explicitly includes biological nitrogen fixation; separate CSIR and MP SET 2024 mirror explicitly list ammonium/nitrate assimilation and amino acid biosynthesis.",
+      "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+      "boundaries": "Nodule physiology, not full nitrogenase electron chemistry, specialist proteomics, or microbial genetics."
     },
     "coverage_matrix": [
       {
-        "concept": "Historical evidence and physiological problem",
-        "sections": "problem",
-        "status": "covered"
+        "microtopic": "Recognition and NodD/Nod factor signaling",
+        "section": "recognition, signaling",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Host/bacterial signal-rescue analysis",
+        "covered": true
       },
       {
-        "concept": "Rubisco competition and kinetics",
-        "sections": "rubisco",
-        "status": "covered"
+        "microtopic": "Root hair curling and infection",
+        "section": "infection",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Topological distinction; microscopy and stage arrest",
+        "covered": true
       },
       {
-        "concept": "Chloroplast 2-PG detoxification and transport",
-        "sections": "chloroplast",
-        "status": "covered"
+        "microtopic": "Nodule organogenesis and types",
+        "section": "organ",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Indeterminate vs determinate; tissue age",
+        "covered": true
       },
       {
-        "concept": "Peroxisomal GOX, catalase and aminotransferases",
-        "sections": "peroxisome",
-        "status": "covered"
+        "microtopic": "Symbiosomes and bacteroid differentiation",
+        "section": "symbiosome",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Plant/bacterial membranes; differentiation exceptions",
+        "covered": true
       },
       {
-        "concept": "Mitochondrial GDC, SHMT and cofactors",
-        "sections": "mitochondrion",
-        "status": "covered"
+        "microtopic": "Leghemoglobin and oxygen control",
+        "section": "oxygen",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Binding, respiratory flux, Ott RNAi",
+        "covered": true
       },
       {
-        "concept": "HPR, redox shuttles and glycerate kinase",
-        "sections": "return",
-        "status": "covered"
+        "microtopic": "Carbon provisioning and nitrogenase energetic costs",
+        "section": "carbon",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Dicarboxylates and ATP accounting",
+        "covered": true
       },
       {
-        "concept": "GS–GOGAT nitrogen recovery",
-        "sections": "nitrogen",
-        "status": "covered"
+        "microtopic": "Fixed N and host GS–GOGAT",
+        "section": "exchange",
+        "official_scope": "Ammonium assimilation",
+        "analytical_and_exam_relevance": "Compartment-specific transfer, pH, assimilation",
+        "covered": true
       },
       {
-        "concept": "Carbon, ATP, redox, oxygen and assimilation accounting",
-        "sections": "accounting",
-        "status": "covered"
+        "microtopic": "Amide and ureide export",
+        "section": "export",
+        "official_scope": "Amino acid biosynthesis",
+        "analytical_and_exam_relevance": "N atom and flux calculations",
+        "covered": true
       },
       {
-        "concept": "Environmental effects and C4/CAM",
-        "sections": "environment",
-        "status": "covered"
+        "microtopic": "Nodulation regulation and mineral constraints",
+        "section": "regulation, environment",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Split root, grafting, nitrate and mineral limitations",
+        "covered": true
       },
       {
-        "concept": "Mutants, isotope tracing and controls",
-        "sections": "experiments",
-        "status": "covered"
+        "microtopic": "Alternative microbial strategies",
+        "section": "comparison",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Heterocyst, Frankia, associative and free-living",
+        "covered": true
       },
       {
-        "concept": "Biological significance and limits",
-        "sections": "integration",
-        "status": "covered"
+        "microtopic": "Experimental evidence and isotope calculations",
+        "section": "history, measure",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "Tracer, isotope dilution, ARA and controls",
+        "covered": true
+      },
+      {
+        "microtopic": "Whole-plant nitrogen economy",
+        "section": "economy",
+        "official_scope": "Biological N fixation",
+        "analytical_and_exam_relevance": "C/N costs, mass balance, field boundary",
+        "covered": true
       }
     ],
     "review_pass_1": {
+      "type": "internal scientific and academic",
       "result": "pass",
-      "evidence": "Reviewed pathway compartments, carbon/nitrogen balance, cofactors, conditional ATP/redox costs, Rubisco kinetics and net assimilation; corrected question wording and answer explanations; checked academic sources."
+      "findings": [
+        "Checked distinction between fixation and assimilation, nod signaling and infection topology, nitrogenase equation and ATP accounting, O2 concentration versus flux, amide/ureide elemental counts, isotope-dilution assumptions and field boundary.",
+        "Verified published reviews and Ott et al. RNAi primary article; numerical examples identified as illustrative.",
+        "Reviewed all answer mappings and worked arithmetic. Some historical and physiological evidence is supported by review sources rather than direct original reports."
+      ]
     },
     "review_pass_2": {
+      "type": "internal editorial and student experience",
       "result": "pass",
-      "evidence": "Reorganized and shuffled questions, added explanation depth, revised figure numbering, comparison table, recall prompts and checklist; compared depth with published C3 chapter."
+      "findings": [
+        "Sixteen progressive teaching sections; 156 nonduplicate explanatory paragraphs; 13,568 teaching words compared with CAM exemplar at 13,360 using same tokenizer.",
+        "Varied answer positions, fixed duplicate SVG font-size attributes, verified caption/ARIA/zoom targets and estimated SVG text boundaries.",
+        "Preserved established reader shell and dynamic adjacent-node lookup. Browser rendering not tested."
+      ]
     },
     "quality": {
       "score": 95,
       "threshold": 95,
       "rubric": {
-        "scientific_accuracy": 20,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
+        "scientific_accuracy": 19,
+        "syllabus_and_microtopic_coverage": 15,
+        "genuine_teaching_depth": 15,
         "pedagogy": 9,
-        "illustrations": 9,
-        "questions": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 4
+        "scientific_illustrations": 9,
+        "examination_practice": 9,
+        "experimental_and_analytical_reasoning": 5,
+        "revision_and_mastery": 5,
+        "reader_architecture_and_accessibility": 4,
+        "technical_integrity_and_seo": 5
       },
-      "basis": "Internal assessment only; deductions for dense kinetics passages, simplified schematics, lack of independent exam calibration, and unperformed browser/accessibility testing."
+      "basis": "Internal evidence-based rubric: deduct for reliance on some review-level rather than primary historical evidence, dense passages, SVG visual rendering not tested, some Part B distractors are straightforward, and interactive accessibility not browser-tested. Static technical checks pass."
     },
     "validation": {
       "word_count_pass": true,
       "svg_count_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
-      "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria_references": 0,
-      "unresolved_zoom_targets": 0,
+      "duplicate_ids": [],
+      "unresolved_anchors": [],
+      "unresolved_aria_references": [],
+      "unresolved_zoom_targets": [],
       "duplicate_teaching_paragraphs": 0,
       "placeholder_markers": 0,
+      "balanced_html_tag_counts": true,
+      "js_syntax_compiled": true,
       "canonical_pass": true,
-      "reference_verification": "Official syllabi and academic bibliographic sources retrieved; MP SET syllabus mirror",
-      "interactive_browser_test": false
+      "interactive_browser_test": "not performed: local container cannot resolve GitHub; static markup and script checks completed"
     },
     "navigation": {
-      "previous": "6.B.04",
-      "next": "6.C.01",
-      "reciprocal": "Dynamic links resolve from homepage as nodes become published; unpublished adjacent nodes remain disabled"
+      "previous": {
+        "id": "6.C.05",
+        "published": false
+      },
+      "next": {
+        "id": "6.D.01",
+        "published": false
+      },
+      "reciprocal": "Existing reader resolves neighbor links dynamically from current index. Unpublished neighbors stay disabled."
     },
     "progress": {
       "subunit_published": 3,
-      "subunit_planned": 5,
-      "unit_published": 13,
+      "subunit_planned": 6,
+      "unit_published": 14,
       "unit_planned": 66,
-      "academy_published": 262,
+      "academy_published": 263,
       "academy_planned": 723,
       "next_pending_node_id": "6.B.01"
     },
     "limitations": [
-      "Internal review only; no independent reviewer or exam calibration.",
-      "Static checks only; browser rendering and screen-reader interaction not verified.",
-      "MP SET syllabus source is a reproduction.",
-      "Deployment and live content pending."
+      "No external peer review; both passes internal.",
+      "No live browser or mobile rendering test; static inspection only.",
+      "MP SET source is a mirror of 2024 syllabus, not a direct MPPSC-hosted current version."
     ],
     "changed_files": [
-      "photorespiration-the-c2-glycolate-pathway.html",
+      "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
       "index.html",
       "sitemap.xml",
-      "curriculum/academy-progress.json",
-      "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+      "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6b05-publication-qa.json"
+      "curriculum/academy-progress.json",
+      "curriculum/node-6c06-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Atomic commit and conditional non-force main update",
+      "strategy": "Single conditional non-force ref update against freshly inspected main; prior files preserved",
       "deployment": "pending",
       "live_verified": false
     }
@@ -448,183 +501,117 @@
     "6.A.08",
     "6.B.02",
     "6.B.03",
+    "6.B.05",
     "6.C.01",
     "6.C.02",
-    "6.B.05"
+    "6.C.06"
   ],
   "prior_publication_qa": {
-    "node_id": "6.B.02",
-    "title": "Plant Mitochondrial Electron Transport Chain",
-    "slug": "plant-mitochondrial-electron-transport-chain.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html",
+    "node_id": "6.B.05",
+    "title": "Photorespiration: The C2 Glycolate Pathway",
+    "slug": "photorespiration-the-c2-glycolate-pathway.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html",
     "unit": "06",
     "subunit": "6.B",
     "topic": "Respiration and Photorespiration",
     "date": "2026-11-27",
-    "source_draft_branch": "draft/node-6b02-plant-mitochondrial-electron-transport",
-    "source_draft_commit_sha": "f760df3837e62916bc37a3df86e11d1abc0baa94",
-    "chapter_blob_sha": "9950f402d790e33d3406f5796a6e4b1f05e146da",
-    "publication_base_sha": "ab1366691858cf135feb674e0432fa86a68833f9",
     "status": "academic_qa_passed_deployment_verification_pending",
+    "source_draft_branch": "draft/6b05-photorespiration-20261127",
+    "source_draft_commit_sha": "44804d6cee8ac7115ead73ad4daf9137eb923b1e",
+    "source_draft_blob_sha": "618f8919e46fd04b5d4e3a7798b283c287a43b20",
+    "production_chapter_blob_sha": "586ea3651d80bf5a1895bd3b76610c3f4dd9ece7",
+    "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+    "publication_base_sha": "dd386d494042b8ae7c88a76c22a9278d023d96d2",
+    "production_robots": "index,follow",
     "metrics": {
-      "teaching_prose_words": 13918,
-      "teaching_paragraphs": 123,
-      "visible_article_words": 18974,
-      "teaching_sections": 12,
-      "svg": 13,
-      "tables": 4,
-      "graphs": 3,
-      "questions": 55,
-      "part_b": 25,
-      "part_c": 25,
-      "other": 5,
-      "misconceptions": 17,
-      "active_recall": 13,
-      "references": 11
+      "genuine_teaching_words": 13384,
+      "teaching_paragraphs": 141,
+      "svg": 12,
+      "tables": 3,
+      "graphs": 1,
+      "total_questions": 52,
+      "part_b": 24,
+      "part_c": 24,
+      "other_questions": 4,
+      "misconceptions": 16,
+      "active_recall": 12,
+      "references": 16
     },
-    "word_count_method": "Whitespace-separated visible text of p.teaching-prose only; excludes questions, captions, tables, references, headings and navigation. Re-fetched saved HTML.",
-    "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 9,
-      "scientific_illustrations": 9,
-      "assessment": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "technical_integrity": 5
+    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
+    "scope": {
+      "official": "Revised 2026 and separate CSIR NET syllabi Unit 6.B; MP SET 2024 syllabus reproduction",
+      "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md"
     },
-    "score": 95,
     "coverage_matrix": [
-      [
-        "Plant mitochondria, respiratory membrane",
-        "problem; topology"
-      ],
-      [
-        "Redox energetics and carriers",
-        "redox; pool"
-      ],
-      [
-        "Complex I and II",
-        "complex-i; complex-ii"
-      ],
-      [
-        "Complex III Q cycle",
-        "complex-iii"
-      ],
-      [
-        "Complex IV oxygen reduction",
-        "complex-iv"
-      ],
-      [
-        "Plant-specific alternative dehydrogenases and oxidase",
-        "alternative-entry; proton-accounting"
-      ],
-      [
-        "Proton stoichiometry and mixed paths",
-        "proton-accounting"
-      ],
-      [
-        "Experiments, inhibitors and oxygen measurements",
-        "evidence"
-      ],
-      [
-        "Regulation and reactive oxygen species",
-        "regulation-ros"
-      ]
-    ],
-    "scientific_review": "Checked electron/proton stoichiometry, Q cycle, matrix/P-side topology, alternative pathway distinctions, inhibitor caveats and AtNDB2 experimental evidence against authoritative literature. Recalculated worked examples. Distinguishes conventional assumptions from plant variability.",
-    "editorial_review": "Compared teaching depth with 6.A.04 (13,601 words); checked beginner-to-Part-C progression, corrected SVG membrane topology, balanced answer distribution (A15 B14 C13 D13), checked explanations, recall and misconceptions.",
-    "deductions": "Selected source cross-checks and schematic simplifications (1); some repeated caution (1); SVG static rather than rendered review (1); questions not externally calibrated (1); no browser/assistive-technology interactive test (1).",
-    "static_checks": {
-      "duplicate_ids": 0,
-      "unresolved_internal_anchors": 0,
-      "unresolved_aria_ids": 0,
-      "unresolved_zoom_targets": 0,
-      "tag_nesting_errors": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "question_answer_option_mismatches": 0,
-      "empty_question_explanations": 0,
-      "placeholder_markers": 0,
-      "svg_title_desc_viewbox": 13,
-      "javascript_syntax": "pass",
-      "canonical": "pass",
-      "robots": "index,follow",
-      "saved_candidate_match": true
-    },
-    "source_checks": {
-      "official": "CSIR-UGC NET Life Sciences and Biotechnology merged January 2026 syllabus, Unit 6B; existing separate Life Sciences syllabus; MP SET 2024 syllabus mirror",
-      "references": "11 entries including plant OXPHOS review, alternative NADH dehydrogenases, AtNDB2 experimental paper, Q-cycle, chemiosmosis and ROS"
-    },
-    "limitations": [
-      "Internal two-pass review, not external peer review.",
-      "Interactive browser rendering and assistive-technology checks unavailable; static inspection only.",
-      "MP SET syllabus checked through a mirror.",
-      "Pages deployment and live HTTP/content checks pending at commit time."
-    ],
-    "publication": {
-      "prior_count": 258,
-      "new_count": 259,
-      "unit_published": 10,
-      "subunit_published": 2,
-      "next_pending_node_id": "6.B.01"
-    }
-  },
-  "previous_last_qa": {
-    "node_id": "6.C.02",
-    "title": "Nitrate and Nitrite Reduction in Plants",
-    "slug": "nitrate-and-nitrite-reduction-in-plants.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html",
-    "unit": "06",
-    "subunit": "6.C",
-    "topic": "Nitrogen Metabolism",
-    "date": "2026-11-27",
-    "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6c02-nitrate-nitrite-reduction-20261127",
-    "source_draft_commit_sha": "4783dccdd6c80afb746a63d078b13e8499e15796",
-    "source_draft_blob_sha": "f63a668bd0322ab7cf6078fa227b393327d1d60d",
-    "publication_base_sha": "991b10ecc8b34519250d9da95100c44d8b407e2f",
-    "metrics": {
-      "genuine_teaching_words": 13318,
-      "svg": 10,
-      "tables": 1,
-      "total_questions": 50,
-      "part_b": 20,
-      "part_c": 20,
-      "other_questions": 10,
-      "answer_positions": {
-        "A": 13,
-        "B": 12,
-        "C": 13,
-        "D": 12
+      {
+        "concept": "Historical evidence and physiological problem",
+        "sections": "problem",
+        "status": "covered"
       },
-      "misconceptions": 15,
-      "active_recall": 10,
-      "references": 14
-    },
-    "word_count_method": "Whitespace-separated words in saved teaching-prose paragraphs only.",
-    "scope": "Revised 2026 merged CSIR–UGC–DBT Unit 6.C, separate CSIR Life Sciences syllabus Unit 6.C, MP SET 2022 mirrored syllabus; repository 6.C.02 roadmap.",
-    "coverage": [
-      "Nitrate and nitrite reduction: cytosolic NR and plastid NiR",
-      "FAD, heme, Mo cofactor and ferredoxin",
-      "Electron and proton balances",
-      "Regulation, compartmentation, nitrite toxicity and isotope tracing",
-      "Root and leaf coordination, connection to GS–GOGAT, analytical reasoning"
+      {
+        "concept": "Rubisco competition and kinetics",
+        "sections": "rubisco",
+        "status": "covered"
+      },
+      {
+        "concept": "Chloroplast 2-PG detoxification and transport",
+        "sections": "chloroplast",
+        "status": "covered"
+      },
+      {
+        "concept": "Peroxisomal GOX, catalase and aminotransferases",
+        "sections": "peroxisome",
+        "status": "covered"
+      },
+      {
+        "concept": "Mitochondrial GDC, SHMT and cofactors",
+        "sections": "mitochondrion",
+        "status": "covered"
+      },
+      {
+        "concept": "HPR, redox shuttles and glycerate kinase",
+        "sections": "return",
+        "status": "covered"
+      },
+      {
+        "concept": "GS–GOGAT nitrogen recovery",
+        "sections": "nitrogen",
+        "status": "covered"
+      },
+      {
+        "concept": "Carbon, ATP, redox, oxygen and assimilation accounting",
+        "sections": "accounting",
+        "status": "covered"
+      },
+      {
+        "concept": "Environmental effects and C4/CAM",
+        "sections": "environment",
+        "status": "covered"
+      },
+      {
+        "concept": "Mutants, isotope tracing and controls",
+        "sections": "experiments",
+        "status": "covered"
+      },
+      {
+        "concept": "Biological significance and limits",
+        "sections": "integration",
+        "status": "covered"
+      }
     ],
     "review_pass_1": {
-      "result": "pass with limitations",
-      "evidence": "Checked official CSIR syllabus scope and mirrored MP SET document; reviewed redox balances, enzyme cofactor assignments, locations, regulation and distinction between nitrate assimilation and fixation; checked question options and explanations."
+      "result": "pass",
+      "evidence": "Reviewed pathway compartments, carbon/nitrogen balance, cofactors, conditional ATP/redox costs, Rubisco kinetics and net assimilation; corrected question wording and answer explanations; checked academic sources."
     },
     "review_pass_2": {
-      "result": "pass with limitations",
-      "evidence": "Checked saved HTML teaching count, diagram count, all 50 answer mappings and option positions, expanded 15 misconception explanations, 10 recall prompts, revision section, JS compilation, unique IDs, anchors and ARIA references; added SVG zoom controls."
+      "result": "pass",
+      "evidence": "Reorganized and shuffled questions, added explanation depth, revised figure numbering, comparison table, recall prompts and checklist; compared depth with published C3 chapter."
     },
     "quality": {
       "score": 95,
       "threshold": 95,
       "rubric": {
-        "scientific_accuracy": 19,
+        "scientific_accuracy": 20,
         "syllabus_coverage": 15,
         "teaching_depth": 15,
         "pedagogy": 9,
@@ -633,13 +620,13 @@
         "experimental_reasoning": 5,
         "revision": 5,
         "reader_accessibility": 4,
-        "technical_seo": 5
+        "technical_seo": 4
       },
-      "basis": "Internal editorial assessment. Deductions reflect schematic simplifications, concise explanations for some distractors, and lack of rendered browser and independent exam calibration."
+      "basis": "Internal assessment only; deductions for dense kinetics passages, simplified schematics, lack of independent exam calibration, and unperformed browser/accessibility testing."
     },
     "validation": {
-      "words_pass": true,
-      "svg_pass": true,
+      "word_count_pass": true,
+      "svg_count_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
       "duplicate_ids": 0,
@@ -648,44 +635,212 @@
       "unresolved_zoom_targets": 0,
       "duplicate_teaching_paragraphs": 0,
       "placeholder_markers": 0,
-      "js_syntax_compiled": true,
+      "canonical_pass": true,
+      "reference_verification": "Official syllabi and academic bibliographic sources retrieved; MP SET syllabus mirror",
       "interactive_browser_test": false
     },
-    "limitations": [
-      "Internal assessment, not independent peer review.",
-      "MP SET verified against mirrored 2022 syllabus, not live official MPPSC source.",
-      "No interactive browser or screen-reader test; static markup and JavaScript review only.",
-      "Pages deployment not yet verified."
-    ],
-    "publication": {
-      "strategy": "Atomic tree/commit and conditional non-force update",
-      "deployment": "pending",
-      "live_verified": false
+    "navigation": {
+      "previous": "6.B.04",
+      "next": "6.C.01",
+      "reciprocal": "Dynamic links resolve from homepage as nodes become published; unpublished adjacent nodes remain disabled"
     },
-    "production_chapter_blob_sha": "7767f0677c5f8914e8817fc9ff37b1d7e7f728fd",
     "progress": {
-      "subunit_published": 2,
-      "subunit_planned": 6,
-      "unit_published": 12,
+      "subunit_published": 3,
+      "subunit_planned": 5,
+      "unit_published": 13,
       "unit_planned": 66,
-      "academy_published": 261,
+      "academy_published": 262,
       "academy_planned": 723,
       "next_pending_node_id": "6.B.01"
     },
-    "navigation": {
-      "previous": "6.C.01",
-      "next": "6.C.03",
-      "mechanism": "Existing dynamic reader links resolve only published nodes from menu."
-    },
+    "limitations": [
+      "Internal review only; no independent reviewer or exam calibration.",
+      "Static checks only; browser rendering and screen-reader interaction not verified.",
+      "MP SET syllabus source is a reproduction.",
+      "Deployment and live content pending."
+    ],
     "changed_files": [
-      "nitrate-and-nitrite-reduction-in-plants.html",
+      "photorespiration-the-c2-glycolate-pathway.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+      "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6c02-publication-qa.json"
-    ]
+      "curriculum/node-6b05-publication-qa.json"
+    ],
+    "publication": {
+      "strategy": "Atomic commit and conditional non-force main update",
+      "deployment": "pending",
+      "live_verified": false
+    }
+  },
+  "previous_last_qa": {
+    "node_id": "6.B.05",
+    "title": "Photorespiration: The C2 Glycolate Pathway",
+    "slug": "photorespiration-the-c2-glycolate-pathway.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html",
+    "unit": "06",
+    "subunit": "6.B",
+    "topic": "Respiration and Photorespiration",
+    "date": "2026-11-27",
+    "status": "academic_qa_passed_deployment_verification_pending",
+    "source_draft_branch": "draft/6b05-photorespiration-20261127",
+    "source_draft_commit_sha": "44804d6cee8ac7115ead73ad4daf9137eb923b1e",
+    "source_draft_blob_sha": "618f8919e46fd04b5d4e3a7798b283c287a43b20",
+    "production_chapter_blob_sha": "586ea3651d80bf5a1895bd3b76610c3f4dd9ece7",
+    "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+    "publication_base_sha": "dd386d494042b8ae7c88a76c22a9278d023d96d2",
+    "production_robots": "index,follow",
+    "metrics": {
+      "genuine_teaching_words": 13384,
+      "teaching_paragraphs": 141,
+      "svg": 12,
+      "tables": 3,
+      "graphs": 1,
+      "total_questions": 52,
+      "part_b": 24,
+      "part_c": 24,
+      "other_questions": 4,
+      "misconceptions": 16,
+      "active_recall": 12,
+      "references": 16
+    },
+    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
+    "scope": {
+      "official": "Revised 2026 and separate CSIR NET syllabi Unit 6.B; MP SET 2024 syllabus reproduction",
+      "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md"
+    },
+    "coverage_matrix": [
+      {
+        "concept": "Historical evidence and physiological problem",
+        "sections": "problem",
+        "status": "covered"
+      },
+      {
+        "concept": "Rubisco competition and kinetics",
+        "sections": "rubisco",
+        "status": "covered"
+      },
+      {
+        "concept": "Chloroplast 2-PG detoxification and transport",
+        "sections": "chloroplast",
+        "status": "covered"
+      },
+      {
+        "concept": "Peroxisomal GOX, catalase and aminotransferases",
+        "sections": "peroxisome",
+        "status": "covered"
+      },
+      {
+        "concept": "Mitochondrial GDC, SHMT and cofactors",
+        "sections": "mitochondrion",
+        "status": "covered"
+      },
+      {
+        "concept": "HPR, redox shuttles and glycerate kinase",
+        "sections": "return",
+        "status": "covered"
+      },
+      {
+        "concept": "GS–GOGAT nitrogen recovery",
+        "sections": "nitrogen",
+        "status": "covered"
+      },
+      {
+        "concept": "Carbon, ATP, redox, oxygen and assimilation accounting",
+        "sections": "accounting",
+        "status": "covered"
+      },
+      {
+        "concept": "Environmental effects and C4/CAM",
+        "sections": "environment",
+        "status": "covered"
+      },
+      {
+        "concept": "Mutants, isotope tracing and controls",
+        "sections": "experiments",
+        "status": "covered"
+      },
+      {
+        "concept": "Biological significance and limits",
+        "sections": "integration",
+        "status": "covered"
+      }
+    ],
+    "review_pass_1": {
+      "result": "pass",
+      "evidence": "Reviewed pathway compartments, carbon/nitrogen balance, cofactors, conditional ATP/redox costs, Rubisco kinetics and net assimilation; corrected question wording and answer explanations; checked academic sources."
+    },
+    "review_pass_2": {
+      "result": "pass",
+      "evidence": "Reorganized and shuffled questions, added explanation depth, revised figure numbering, comparison table, recall prompts and checklist; compared depth with published C3 chapter."
+    },
+    "quality": {
+      "score": 95,
+      "threshold": 95,
+      "rubric": {
+        "scientific_accuracy": 20,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "questions": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "basis": "Internal assessment only; deductions for dense kinetics passages, simplified schematics, lack of independent exam calibration, and unperformed browser/accessibility testing."
+    },
+    "validation": {
+      "word_count_pass": true,
+      "svg_count_pass": true,
+      "question_count_pass": true,
+      "answer_mapping_pass": true,
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_references": 0,
+      "unresolved_zoom_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "placeholder_markers": 0,
+      "canonical_pass": true,
+      "reference_verification": "Official syllabi and academic bibliographic sources retrieved; MP SET syllabus mirror",
+      "interactive_browser_test": false
+    },
+    "navigation": {
+      "previous": "6.B.04",
+      "next": "6.C.01",
+      "reciprocal": "Dynamic links resolve from homepage as nodes become published; unpublished adjacent nodes remain disabled"
+    },
+    "progress": {
+      "subunit_published": 3,
+      "subunit_planned": 5,
+      "unit_published": 13,
+      "unit_planned": 66,
+      "academy_published": 262,
+      "academy_planned": 723,
+      "next_pending_node_id": "6.B.01"
+    },
+    "limitations": [
+      "Internal review only; no independent reviewer or exam calibration.",
+      "Static checks only; browser rendering and screen-reader interaction not verified.",
+      "MP SET syllabus source is a reproduction.",
+      "Deployment and live content pending."
+    ],
+    "changed_files": [
+      "photorespiration-the-c2-glycolate-pathway.html",
+      "index.html",
+      "sitemap.xml",
+      "curriculum/academy-progress.json",
+      "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+      "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+      "curriculum/node-6b05-publication-qa.json"
+    ],
+    "publication": {
+      "strategy": "Atomic commit and conditional non-force main update",
+      "deployment": "pending",
+      "live_verified": false
+    }
   },
   "unit_02": {
     "published_node_ids": [
@@ -2204,7 +2359,7 @@
     "last_published_node_id": "5.E.10",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -35553,6 +35708,227 @@
         "deployment": "pending",
         "live_verified": false
       }
+    },
+    "6.C.06": {
+      "node_id": "6.C.06",
+      "title": "Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange",
+      "slug": "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+      "unit": "06",
+      "subunit": "6.C",
+      "topic": "Nitrogen Metabolism",
+      "date": "2026-11-27",
+      "status": "academic_qa_passed_deployment_verification_pending",
+      "source_draft_branch": "draft/node-6c06-symbiotic-nitrogen-fixation-20261127",
+      "source_draft_commit_sha": "acbe4baa9a5f39766e14ddba7eb3a96a1f5487b6",
+      "source_draft_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
+      "production_chapter_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
+      "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+      "publication_base_sha": "c46f264e50f0b68590a2786f0a3b11c45ca98c65",
+      "production_robots": "index,follow",
+      "metrics": {
+        "genuine_teaching_words": 13568,
+        "teaching_paragraphs": 156,
+        "svg": 12,
+        "tables": 4,
+        "graph_and_chart_figures": 1,
+        "worked_numerical_examples": 13,
+        "total_questions": 50,
+        "part_b": 20,
+        "part_c": 20,
+        "other_questions": 10,
+        "answer_positions": {
+          "A": 10,
+          "B": 11,
+          "C": 17,
+          "D": 12
+        },
+        "misconceptions": 18,
+        "active_recall": 15,
+        "references": 14
+      },
+      "word_count_method": "Unicode word tokens from actual saved p.teaching-prose only; inline HTML removed; exclude diagrams, tables, questions, references and revision.",
+      "scope": {
+        "official": "Revised 2026 UGC–CSIR–DBT Unit 6.C explicitly includes biological nitrogen fixation; separate CSIR and MP SET 2024 mirror explicitly list ammonium/nitrate assimilation and amino acid biosynthesis.",
+        "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "boundaries": "Nodule physiology, not full nitrogenase electron chemistry, specialist proteomics, or microbial genetics."
+      },
+      "coverage_matrix": [
+        {
+          "microtopic": "Recognition and NodD/Nod factor signaling",
+          "section": "recognition, signaling",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Host/bacterial signal-rescue analysis",
+          "covered": true
+        },
+        {
+          "microtopic": "Root hair curling and infection",
+          "section": "infection",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Topological distinction; microscopy and stage arrest",
+          "covered": true
+        },
+        {
+          "microtopic": "Nodule organogenesis and types",
+          "section": "organ",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Indeterminate vs determinate; tissue age",
+          "covered": true
+        },
+        {
+          "microtopic": "Symbiosomes and bacteroid differentiation",
+          "section": "symbiosome",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Plant/bacterial membranes; differentiation exceptions",
+          "covered": true
+        },
+        {
+          "microtopic": "Leghemoglobin and oxygen control",
+          "section": "oxygen",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Binding, respiratory flux, Ott RNAi",
+          "covered": true
+        },
+        {
+          "microtopic": "Carbon provisioning and nitrogenase energetic costs",
+          "section": "carbon",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Dicarboxylates and ATP accounting",
+          "covered": true
+        },
+        {
+          "microtopic": "Fixed N and host GS–GOGAT",
+          "section": "exchange",
+          "official_scope": "Ammonium assimilation",
+          "analytical_and_exam_relevance": "Compartment-specific transfer, pH, assimilation",
+          "covered": true
+        },
+        {
+          "microtopic": "Amide and ureide export",
+          "section": "export",
+          "official_scope": "Amino acid biosynthesis",
+          "analytical_and_exam_relevance": "N atom and flux calculations",
+          "covered": true
+        },
+        {
+          "microtopic": "Nodulation regulation and mineral constraints",
+          "section": "regulation, environment",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Split root, grafting, nitrate and mineral limitations",
+          "covered": true
+        },
+        {
+          "microtopic": "Alternative microbial strategies",
+          "section": "comparison",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Heterocyst, Frankia, associative and free-living",
+          "covered": true
+        },
+        {
+          "microtopic": "Experimental evidence and isotope calculations",
+          "section": "history, measure",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Tracer, isotope dilution, ARA and controls",
+          "covered": true
+        },
+        {
+          "microtopic": "Whole-plant nitrogen economy",
+          "section": "economy",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "C/N costs, mass balance, field boundary",
+          "covered": true
+        }
+      ],
+      "review_pass_1": {
+        "type": "internal scientific and academic",
+        "result": "pass",
+        "findings": [
+          "Checked distinction between fixation and assimilation, nod signaling and infection topology, nitrogenase equation and ATP accounting, O2 concentration versus flux, amide/ureide elemental counts, isotope-dilution assumptions and field boundary.",
+          "Verified published reviews and Ott et al. RNAi primary article; numerical examples identified as illustrative.",
+          "Reviewed all answer mappings and worked arithmetic. Some historical and physiological evidence is supported by review sources rather than direct original reports."
+        ]
+      },
+      "review_pass_2": {
+        "type": "internal editorial and student experience",
+        "result": "pass",
+        "findings": [
+          "Sixteen progressive teaching sections; 156 nonduplicate explanatory paragraphs; 13,568 teaching words compared with CAM exemplar at 13,360 using same tokenizer.",
+          "Varied answer positions, fixed duplicate SVG font-size attributes, verified caption/ARIA/zoom targets and estimated SVG text boundaries.",
+          "Preserved established reader shell and dynamic adjacent-node lookup. Browser rendering not tested."
+        ]
+      },
+      "quality": {
+        "score": 95,
+        "threshold": 95,
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_and_microtopic_coverage": 15,
+          "genuine_teaching_depth": 15,
+          "pedagogy": 9,
+          "scientific_illustrations": 9,
+          "examination_practice": 9,
+          "experimental_and_analytical_reasoning": 5,
+          "revision_and_mastery": 5,
+          "reader_architecture_and_accessibility": 4,
+          "technical_integrity_and_seo": 5
+        },
+        "basis": "Internal evidence-based rubric: deduct for reliance on some review-level rather than primary historical evidence, dense passages, SVG visual rendering not tested, some Part B distractors are straightforward, and interactive accessibility not browser-tested. Static technical checks pass."
+      },
+      "validation": {
+        "word_count_pass": true,
+        "svg_count_pass": true,
+        "question_count_pass": true,
+        "answer_mapping_pass": true,
+        "duplicate_ids": [],
+        "unresolved_anchors": [],
+        "unresolved_aria_references": [],
+        "unresolved_zoom_targets": [],
+        "duplicate_teaching_paragraphs": 0,
+        "placeholder_markers": 0,
+        "balanced_html_tag_counts": true,
+        "js_syntax_compiled": true,
+        "canonical_pass": true,
+        "interactive_browser_test": "not performed: local container cannot resolve GitHub; static markup and script checks completed"
+      },
+      "navigation": {
+        "previous": {
+          "id": "6.C.05",
+          "published": false
+        },
+        "next": {
+          "id": "6.D.01",
+          "published": false
+        },
+        "reciprocal": "Existing reader resolves neighbor links dynamically from current index. Unpublished neighbors stay disabled."
+      },
+      "progress": {
+        "subunit_published": 3,
+        "subunit_planned": 6,
+        "unit_published": 14,
+        "unit_planned": 66,
+        "academy_published": 263,
+        "academy_planned": 723,
+        "next_pending_node_id": "6.B.01"
+      },
+      "limitations": [
+        "No external peer review; both passes internal.",
+        "No live browser or mobile rendering test; static inspection only.",
+        "MP SET source is a mirror of 2024 syllabus, not a direct MPPSC-hosted current version."
+      ],
+      "changed_files": [
+        "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+        "curriculum/academy-progress.json",
+        "curriculum/node-6c06-publication-qa.json"
+      ],
+      "publication": {
+        "strategy": "Single conditional non-force ref update against freshly inspected main; prior files preserved",
+        "deployment": "pending",
+        "live_verified": false
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -43979,177 +44355,231 @@
       "6.B.03",
       "6.B.05",
       "6.C.01",
-      "6.C.02"
+      "6.C.02",
+      "6.C.06"
     ],
-    "published_node_count": 13,
+    "published_node_count": 14,
     "planned_node_count": 66,
-    "last_published_node_id": "6.B.05",
+    "last_published_node_id": "6.C.06",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.B.05",
-      "title": "Photorespiration: The C2 Glycolate Pathway",
-      "slug": "photorespiration-the-c2-glycolate-pathway.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html",
+      "node_id": "6.C.06",
+      "title": "Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange",
+      "slug": "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
       "unit": "06",
-      "subunit": "6.B",
-      "topic": "Respiration and Photorespiration",
+      "subunit": "6.C",
+      "topic": "Nitrogen Metabolism",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6b05-photorespiration-20261127",
-      "source_draft_commit_sha": "44804d6cee8ac7115ead73ad4daf9137eb923b1e",
-      "source_draft_blob_sha": "618f8919e46fd04b5d4e3a7798b283c287a43b20",
-      "production_chapter_blob_sha": "586ea3651d80bf5a1895bd3b76610c3f4dd9ece7",
+      "source_draft_branch": "draft/node-6c06-symbiotic-nitrogen-fixation-20261127",
+      "source_draft_commit_sha": "acbe4baa9a5f39766e14ddba7eb3a96a1f5487b6",
+      "source_draft_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
+      "production_chapter_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
       "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
-      "publication_base_sha": "dd386d494042b8ae7c88a76c22a9278d023d96d2",
+      "publication_base_sha": "c46f264e50f0b68590a2786f0a3b11c45ca98c65",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 13384,
-        "teaching_paragraphs": 141,
+        "genuine_teaching_words": 13568,
+        "teaching_paragraphs": 156,
         "svg": 12,
-        "tables": 3,
-        "graphs": 1,
-        "total_questions": 52,
-        "part_b": 24,
-        "part_c": 24,
-        "other_questions": 4,
-        "misconceptions": 16,
-        "active_recall": 12,
-        "references": 16
+        "tables": 4,
+        "graph_and_chart_figures": 1,
+        "worked_numerical_examples": 13,
+        "total_questions": 50,
+        "part_b": 20,
+        "part_c": 20,
+        "other_questions": 10,
+        "answer_positions": {
+          "A": 10,
+          "B": 11,
+          "C": 17,
+          "D": 12
+        },
+        "misconceptions": 18,
+        "active_recall": 15,
+        "references": 14
       },
-      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
+      "word_count_method": "Unicode word tokens from actual saved p.teaching-prose only; inline HTML removed; exclude diagrams, tables, questions, references and revision.",
       "scope": {
-        "official": "Revised 2026 and separate CSIR NET syllabi Unit 6.B; MP SET 2024 syllabus reproduction",
-        "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md"
+        "official": "Revised 2026 UGC–CSIR–DBT Unit 6.C explicitly includes biological nitrogen fixation; separate CSIR and MP SET 2024 mirror explicitly list ammonium/nitrate assimilation and amino acid biosynthesis.",
+        "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "boundaries": "Nodule physiology, not full nitrogenase electron chemistry, specialist proteomics, or microbial genetics."
       },
       "coverage_matrix": [
         {
-          "concept": "Historical evidence and physiological problem",
-          "sections": "problem",
-          "status": "covered"
+          "microtopic": "Recognition and NodD/Nod factor signaling",
+          "section": "recognition, signaling",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Host/bacterial signal-rescue analysis",
+          "covered": true
         },
         {
-          "concept": "Rubisco competition and kinetics",
-          "sections": "rubisco",
-          "status": "covered"
+          "microtopic": "Root hair curling and infection",
+          "section": "infection",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Topological distinction; microscopy and stage arrest",
+          "covered": true
         },
         {
-          "concept": "Chloroplast 2-PG detoxification and transport",
-          "sections": "chloroplast",
-          "status": "covered"
+          "microtopic": "Nodule organogenesis and types",
+          "section": "organ",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Indeterminate vs determinate; tissue age",
+          "covered": true
         },
         {
-          "concept": "Peroxisomal GOX, catalase and aminotransferases",
-          "sections": "peroxisome",
-          "status": "covered"
+          "microtopic": "Symbiosomes and bacteroid differentiation",
+          "section": "symbiosome",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Plant/bacterial membranes; differentiation exceptions",
+          "covered": true
         },
         {
-          "concept": "Mitochondrial GDC, SHMT and cofactors",
-          "sections": "mitochondrion",
-          "status": "covered"
+          "microtopic": "Leghemoglobin and oxygen control",
+          "section": "oxygen",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Binding, respiratory flux, Ott RNAi",
+          "covered": true
         },
         {
-          "concept": "HPR, redox shuttles and glycerate kinase",
-          "sections": "return",
-          "status": "covered"
+          "microtopic": "Carbon provisioning and nitrogenase energetic costs",
+          "section": "carbon",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Dicarboxylates and ATP accounting",
+          "covered": true
         },
         {
-          "concept": "GS–GOGAT nitrogen recovery",
-          "sections": "nitrogen",
-          "status": "covered"
+          "microtopic": "Fixed N and host GS–GOGAT",
+          "section": "exchange",
+          "official_scope": "Ammonium assimilation",
+          "analytical_and_exam_relevance": "Compartment-specific transfer, pH, assimilation",
+          "covered": true
         },
         {
-          "concept": "Carbon, ATP, redox, oxygen and assimilation accounting",
-          "sections": "accounting",
-          "status": "covered"
+          "microtopic": "Amide and ureide export",
+          "section": "export",
+          "official_scope": "Amino acid biosynthesis",
+          "analytical_and_exam_relevance": "N atom and flux calculations",
+          "covered": true
         },
         {
-          "concept": "Environmental effects and C4/CAM",
-          "sections": "environment",
-          "status": "covered"
+          "microtopic": "Nodulation regulation and mineral constraints",
+          "section": "regulation, environment",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Split root, grafting, nitrate and mineral limitations",
+          "covered": true
         },
         {
-          "concept": "Mutants, isotope tracing and controls",
-          "sections": "experiments",
-          "status": "covered"
+          "microtopic": "Alternative microbial strategies",
+          "section": "comparison",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Heterocyst, Frankia, associative and free-living",
+          "covered": true
         },
         {
-          "concept": "Biological significance and limits",
-          "sections": "integration",
-          "status": "covered"
+          "microtopic": "Experimental evidence and isotope calculations",
+          "section": "history, measure",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "Tracer, isotope dilution, ARA and controls",
+          "covered": true
+        },
+        {
+          "microtopic": "Whole-plant nitrogen economy",
+          "section": "economy",
+          "official_scope": "Biological N fixation",
+          "analytical_and_exam_relevance": "C/N costs, mass balance, field boundary",
+          "covered": true
         }
       ],
       "review_pass_1": {
+        "type": "internal scientific and academic",
         "result": "pass",
-        "evidence": "Reviewed pathway compartments, carbon/nitrogen balance, cofactors, conditional ATP/redox costs, Rubisco kinetics and net assimilation; corrected question wording and answer explanations; checked academic sources."
+        "findings": [
+          "Checked distinction between fixation and assimilation, nod signaling and infection topology, nitrogenase equation and ATP accounting, O2 concentration versus flux, amide/ureide elemental counts, isotope-dilution assumptions and field boundary.",
+          "Verified published reviews and Ott et al. RNAi primary article; numerical examples identified as illustrative.",
+          "Reviewed all answer mappings and worked arithmetic. Some historical and physiological evidence is supported by review sources rather than direct original reports."
+        ]
       },
       "review_pass_2": {
+        "type": "internal editorial and student experience",
         "result": "pass",
-        "evidence": "Reorganized and shuffled questions, added explanation depth, revised figure numbering, comparison table, recall prompts and checklist; compared depth with published C3 chapter."
+        "findings": [
+          "Sixteen progressive teaching sections; 156 nonduplicate explanatory paragraphs; 13,568 teaching words compared with CAM exemplar at 13,360 using same tokenizer.",
+          "Varied answer positions, fixed duplicate SVG font-size attributes, verified caption/ARIA/zoom targets and estimated SVG text boundaries.",
+          "Preserved established reader shell and dynamic adjacent-node lookup. Browser rendering not tested."
+        ]
       },
       "quality": {
         "score": 95,
         "threshold": 95,
         "rubric": {
-          "scientific_accuracy": 20,
-          "syllabus_coverage": 15,
-          "teaching_depth": 15,
+          "scientific_accuracy": 19,
+          "syllabus_and_microtopic_coverage": 15,
+          "genuine_teaching_depth": 15,
           "pedagogy": 9,
-          "illustrations": 9,
-          "questions": 9,
-          "experimental_reasoning": 5,
-          "revision": 5,
-          "reader_accessibility": 4,
-          "technical_seo": 4
+          "scientific_illustrations": 9,
+          "examination_practice": 9,
+          "experimental_and_analytical_reasoning": 5,
+          "revision_and_mastery": 5,
+          "reader_architecture_and_accessibility": 4,
+          "technical_integrity_and_seo": 5
         },
-        "basis": "Internal assessment only; deductions for dense kinetics passages, simplified schematics, lack of independent exam calibration, and unperformed browser/accessibility testing."
+        "basis": "Internal evidence-based rubric: deduct for reliance on some review-level rather than primary historical evidence, dense passages, SVG visual rendering not tested, some Part B distractors are straightforward, and interactive accessibility not browser-tested. Static technical checks pass."
       },
       "validation": {
         "word_count_pass": true,
         "svg_count_pass": true,
         "question_count_pass": true,
         "answer_mapping_pass": true,
-        "duplicate_ids": 0,
-        "unresolved_anchors": 0,
-        "unresolved_aria_references": 0,
-        "unresolved_zoom_targets": 0,
+        "duplicate_ids": [],
+        "unresolved_anchors": [],
+        "unresolved_aria_references": [],
+        "unresolved_zoom_targets": [],
         "duplicate_teaching_paragraphs": 0,
         "placeholder_markers": 0,
+        "balanced_html_tag_counts": true,
+        "js_syntax_compiled": true,
         "canonical_pass": true,
-        "reference_verification": "Official syllabi and academic bibliographic sources retrieved; MP SET syllabus mirror",
-        "interactive_browser_test": false
+        "interactive_browser_test": "not performed: local container cannot resolve GitHub; static markup and script checks completed"
       },
       "navigation": {
-        "previous": "6.B.04",
-        "next": "6.C.01",
-        "reciprocal": "Dynamic links resolve from homepage as nodes become published; unpublished adjacent nodes remain disabled"
+        "previous": {
+          "id": "6.C.05",
+          "published": false
+        },
+        "next": {
+          "id": "6.D.01",
+          "published": false
+        },
+        "reciprocal": "Existing reader resolves neighbor links dynamically from current index. Unpublished neighbors stay disabled."
       },
       "progress": {
         "subunit_published": 3,
-        "subunit_planned": 5,
-        "unit_published": 13,
+        "subunit_planned": 6,
+        "unit_published": 14,
         "unit_planned": 66,
-        "academy_published": 262,
+        "academy_published": 263,
         "academy_planned": 723,
         "next_pending_node_id": "6.B.01"
       },
       "limitations": [
-        "Internal review only; no independent reviewer or exam calibration.",
-        "Static checks only; browser rendering and screen-reader interaction not verified.",
-        "MP SET syllabus source is a reproduction.",
-        "Deployment and live content pending."
+        "No external peer review; both passes internal.",
+        "No live browser or mobile rendering test; static inspection only.",
+        "MP SET source is a mirror of 2024 syllabus, not a direct MPPSC-hosted current version."
       ],
       "changed_files": [
-        "photorespiration-the-c2-glycolate-pathway.html",
+        "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
         "index.html",
         "sitemap.xml",
-        "curriculum/academy-progress.json",
-        "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+        "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6b05-publication-qa.json"
+        "curriculum/academy-progress.json",
+        "curriculum/node-6c06-publication-qa.json"
       ],
       "publication": {
-        "strategy": "Atomic commit and conditional non-force main update",
+        "strategy": "Single conditional non-force ref update against freshly inspected main; prior files preserved",
         "deployment": "pending",
         "live_verified": false
       }
@@ -46405,6 +46835,227 @@
           "deployment": "pending",
           "live_verified": false
         }
+      },
+      "6.C.06": {
+        "node_id": "6.C.06",
+        "title": "Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange",
+        "slug": "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+        "unit": "06",
+        "subunit": "6.C",
+        "topic": "Nitrogen Metabolism",
+        "date": "2026-11-27",
+        "status": "academic_qa_passed_deployment_verification_pending",
+        "source_draft_branch": "draft/node-6c06-symbiotic-nitrogen-fixation-20261127",
+        "source_draft_commit_sha": "acbe4baa9a5f39766e14ddba7eb3a96a1f5487b6",
+        "source_draft_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
+        "production_chapter_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
+        "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+        "publication_base_sha": "c46f264e50f0b68590a2786f0a3b11c45ca98c65",
+        "production_robots": "index,follow",
+        "metrics": {
+          "genuine_teaching_words": 13568,
+          "teaching_paragraphs": 156,
+          "svg": 12,
+          "tables": 4,
+          "graph_and_chart_figures": 1,
+          "worked_numerical_examples": 13,
+          "total_questions": 50,
+          "part_b": 20,
+          "part_c": 20,
+          "other_questions": 10,
+          "answer_positions": {
+            "A": 10,
+            "B": 11,
+            "C": 17,
+            "D": 12
+          },
+          "misconceptions": 18,
+          "active_recall": 15,
+          "references": 14
+        },
+        "word_count_method": "Unicode word tokens from actual saved p.teaching-prose only; inline HTML removed; exclude diagrams, tables, questions, references and revision.",
+        "scope": {
+          "official": "Revised 2026 UGC–CSIR–DBT Unit 6.C explicitly includes biological nitrogen fixation; separate CSIR and MP SET 2024 mirror explicitly list ammonium/nitrate assimilation and amino acid biosynthesis.",
+          "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+          "boundaries": "Nodule physiology, not full nitrogenase electron chemistry, specialist proteomics, or microbial genetics."
+        },
+        "coverage_matrix": [
+          {
+            "microtopic": "Recognition and NodD/Nod factor signaling",
+            "section": "recognition, signaling",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Host/bacterial signal-rescue analysis",
+            "covered": true
+          },
+          {
+            "microtopic": "Root hair curling and infection",
+            "section": "infection",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Topological distinction; microscopy and stage arrest",
+            "covered": true
+          },
+          {
+            "microtopic": "Nodule organogenesis and types",
+            "section": "organ",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Indeterminate vs determinate; tissue age",
+            "covered": true
+          },
+          {
+            "microtopic": "Symbiosomes and bacteroid differentiation",
+            "section": "symbiosome",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Plant/bacterial membranes; differentiation exceptions",
+            "covered": true
+          },
+          {
+            "microtopic": "Leghemoglobin and oxygen control",
+            "section": "oxygen",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Binding, respiratory flux, Ott RNAi",
+            "covered": true
+          },
+          {
+            "microtopic": "Carbon provisioning and nitrogenase energetic costs",
+            "section": "carbon",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Dicarboxylates and ATP accounting",
+            "covered": true
+          },
+          {
+            "microtopic": "Fixed N and host GS–GOGAT",
+            "section": "exchange",
+            "official_scope": "Ammonium assimilation",
+            "analytical_and_exam_relevance": "Compartment-specific transfer, pH, assimilation",
+            "covered": true
+          },
+          {
+            "microtopic": "Amide and ureide export",
+            "section": "export",
+            "official_scope": "Amino acid biosynthesis",
+            "analytical_and_exam_relevance": "N atom and flux calculations",
+            "covered": true
+          },
+          {
+            "microtopic": "Nodulation regulation and mineral constraints",
+            "section": "regulation, environment",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Split root, grafting, nitrate and mineral limitations",
+            "covered": true
+          },
+          {
+            "microtopic": "Alternative microbial strategies",
+            "section": "comparison",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Heterocyst, Frankia, associative and free-living",
+            "covered": true
+          },
+          {
+            "microtopic": "Experimental evidence and isotope calculations",
+            "section": "history, measure",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "Tracer, isotope dilution, ARA and controls",
+            "covered": true
+          },
+          {
+            "microtopic": "Whole-plant nitrogen economy",
+            "section": "economy",
+            "official_scope": "Biological N fixation",
+            "analytical_and_exam_relevance": "C/N costs, mass balance, field boundary",
+            "covered": true
+          }
+        ],
+        "review_pass_1": {
+          "type": "internal scientific and academic",
+          "result": "pass",
+          "findings": [
+            "Checked distinction between fixation and assimilation, nod signaling and infection topology, nitrogenase equation and ATP accounting, O2 concentration versus flux, amide/ureide elemental counts, isotope-dilution assumptions and field boundary.",
+            "Verified published reviews and Ott et al. RNAi primary article; numerical examples identified as illustrative.",
+            "Reviewed all answer mappings and worked arithmetic. Some historical and physiological evidence is supported by review sources rather than direct original reports."
+          ]
+        },
+        "review_pass_2": {
+          "type": "internal editorial and student experience",
+          "result": "pass",
+          "findings": [
+            "Sixteen progressive teaching sections; 156 nonduplicate explanatory paragraphs; 13,568 teaching words compared with CAM exemplar at 13,360 using same tokenizer.",
+            "Varied answer positions, fixed duplicate SVG font-size attributes, verified caption/ARIA/zoom targets and estimated SVG text boundaries.",
+            "Preserved established reader shell and dynamic adjacent-node lookup. Browser rendering not tested."
+          ]
+        },
+        "quality": {
+          "score": 95,
+          "threshold": 95,
+          "rubric": {
+            "scientific_accuracy": 19,
+            "syllabus_and_microtopic_coverage": 15,
+            "genuine_teaching_depth": 15,
+            "pedagogy": 9,
+            "scientific_illustrations": 9,
+            "examination_practice": 9,
+            "experimental_and_analytical_reasoning": 5,
+            "revision_and_mastery": 5,
+            "reader_architecture_and_accessibility": 4,
+            "technical_integrity_and_seo": 5
+          },
+          "basis": "Internal evidence-based rubric: deduct for reliance on some review-level rather than primary historical evidence, dense passages, SVG visual rendering not tested, some Part B distractors are straightforward, and interactive accessibility not browser-tested. Static technical checks pass."
+        },
+        "validation": {
+          "word_count_pass": true,
+          "svg_count_pass": true,
+          "question_count_pass": true,
+          "answer_mapping_pass": true,
+          "duplicate_ids": [],
+          "unresolved_anchors": [],
+          "unresolved_aria_references": [],
+          "unresolved_zoom_targets": [],
+          "duplicate_teaching_paragraphs": 0,
+          "placeholder_markers": 0,
+          "balanced_html_tag_counts": true,
+          "js_syntax_compiled": true,
+          "canonical_pass": true,
+          "interactive_browser_test": "not performed: local container cannot resolve GitHub; static markup and script checks completed"
+        },
+        "navigation": {
+          "previous": {
+            "id": "6.C.05",
+            "published": false
+          },
+          "next": {
+            "id": "6.D.01",
+            "published": false
+          },
+          "reciprocal": "Existing reader resolves neighbor links dynamically from current index. Unpublished neighbors stay disabled."
+        },
+        "progress": {
+          "subunit_published": 3,
+          "subunit_planned": 6,
+          "unit_published": 14,
+          "unit_planned": 66,
+          "academy_published": 263,
+          "academy_planned": 723,
+          "next_pending_node_id": "6.B.01"
+        },
+        "limitations": [
+          "No external peer review; both passes internal.",
+          "No live browser or mobile rendering test; static inspection only.",
+          "MP SET source is a mirror of 2024 syllabus, not a direct MPPSC-hosted current version."
+        ],
+        "changed_files": [
+          "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+          "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+          "curriculum/academy-progress.json",
+          "curriculum/node-6c06-publication-qa.json"
+        ],
+        "publication": {
+          "strategy": "Single conditional non-force ref update against freshly inspected main; prior files preserved",
+          "deployment": "pending",
+          "live_verified": false
+        }
       }
     },
     "next_pending_node_id": "6.B.01",
@@ -46426,138 +47077,114 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.C.01",
-      "title": "Nitrogen Nutrition: Sources, Uptake and Metabolic Entry",
-      "slug": "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+      "node_id": "6.B.05",
+      "title": "Photorespiration: The C2 Glycolate Pathway",
+      "slug": "photorespiration-the-c2-glycolate-pathway.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html",
       "unit": "06",
-      "subunit": "6.C",
-      "topic": "Nitrogen Metabolism",
+      "subunit": "6.B",
+      "topic": "Respiration and Photorespiration",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6-c-01-nitrogen-nutrition",
-      "source_draft_commit_sha": "8db6926b5483065c67be42a09e7fe77070f63fd8",
-      "source_draft_blob_sha": "8582ae80b8453409d40f049a1cfd3fe763912f5b",
-      "production_chapter_blob_sha": "c00e552290b17b042a815180102c4391dcbe0d7d",
+      "source_draft_branch": "draft/6b05-photorespiration-20261127",
+      "source_draft_commit_sha": "44804d6cee8ac7115ead73ad4daf9137eb923b1e",
+      "source_draft_blob_sha": "618f8919e46fd04b5d4e3a7798b283c287a43b20",
+      "production_chapter_blob_sha": "586ea3651d80bf5a1895bd3b76610c3f4dd9ece7",
       "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
-      "publication_base_sha": "7563db8416b85e06575b881cedacf8eb7e0f088a",
+      "publication_base_sha": "dd386d494042b8ae7c88a76c22a9278d023d96d2",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 13442,
-        "teaching_paragraphs": 142,
+        "genuine_teaching_words": 13384,
+        "teaching_paragraphs": 141,
         "svg": 12,
-        "tables": 4,
-        "graph_and_chart_figures": 3,
-        "total_questions": 50,
-        "part_b": 20,
-        "part_c": 22,
-        "other_questions": 8,
-        "answer_positions": {
-          "A": 11,
-          "B": 11,
-          "C": 10,
-          "D": 10
-        },
-        "misconceptions": 17,
-        "active_recall": 14,
-        "references": 13
+        "tables": 3,
+        "graphs": 1,
+        "total_questions": 52,
+        "part_b": 24,
+        "part_c": 24,
+        "other_questions": 4,
+        "misconceptions": 16,
+        "active_recall": 12,
+        "references": 16
       },
-      "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after removing inline tags; excludes figures, tables, questions, references, revision and navigation.",
+      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
       "scope": {
-        "official": "Revised CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C; mirrored MP SET 2024 Life Sciences Paper II",
-        "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
-        "boundaries": "Detailed nitrate reductase, GS–GOGAT, amino acid synthesis and fixation reserved for subsequent 6.C nodes; bulk solute transport reserved for later subunit."
+        "official": "Revised 2026 and separate CSIR NET syllabi Unit 6.B; MP SET 2024 syllabus reproduction",
+        "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md"
       },
       "coverage_matrix": [
         {
-          "microtopic": "Need and nitrogen forms",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "need, forms",
-          "depth": "Biological need; molecular N, ammonium, nitrate, nitrite and oxidation states",
+          "concept": "Historical evidence and physiological problem",
+          "sections": "problem",
           "status": "covered"
         },
         {
-          "microtopic": "Soil nitrogen supply and transformations",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "soil, soil-compare",
-          "depth": "Mineralization, immobilization, nitrification, denitrification and soil transport",
+          "concept": "Rubisco competition and kinetics",
+          "sections": "rubisco",
           "status": "covered"
         },
         {
-          "microtopic": "Membrane energetics",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "membrane",
-          "depth": "Electrochemical work, H+-ATPase, proton-coupled nitrate acquisition",
+          "concept": "Chloroplast 2-PG detoxification and transport",
+          "sections": "chloroplast",
           "status": "covered"
         },
         {
-          "microtopic": "Nitrate acquisition and regulation",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "systems",
-          "depth": "NPF/NRT2 systems, affinity, kinetics, signaling and feedback",
+          "concept": "Peroxisomal GOX, catalase and aminotransferases",
+          "sections": "peroxisome",
           "status": "covered"
         },
         {
-          "microtopic": "Ammonium acquisition and regulation",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "ammonium, ion-compare",
-          "depth": "AMT, pH speciation, feedback and nitrate comparison",
+          "concept": "Mitochondrial GDC, SHMT and cofactors",
+          "sections": "mitochondrion",
           "status": "covered"
         },
         {
-          "microtopic": "Storage and long-distance distribution",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "distribution",
-          "depth": "Vacuolar pools, xylem, phloem, redistribution",
+          "concept": "HPR, redox shuttles and glycerate kinase",
+          "sections": "return",
           "status": "covered"
         },
         {
-          "microtopic": "Metabolic entry",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "entry",
-          "depth": "Nitrate reduction, glutamine/glutamate and carbon-energy link; detailed enzymes reserved for subsequent chapters",
+          "concept": "GS–GOGAT nitrogen recovery",
+          "sections": "nitrogen",
           "status": "covered"
         },
         {
-          "microtopic": "Microbial fixation",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "fixation",
-          "depth": "Parallel supply route, nitrogenase introduction and symbiotic transfer",
+          "concept": "Carbon, ATP, redox, oxygen and assimilation accounting",
+          "sections": "accounting",
           "status": "covered"
         },
         {
-          "microtopic": "Experimental evidence",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
-          "sections": "history, measure, data-compare",
-          "depth": "Culture experiments, mutants, isotope and flux measurements",
+          "concept": "Environmental effects and C4/CAM",
+          "sections": "environment",
           "status": "covered"
         },
         {
-          "microtopic": "Integration and application",
-          "official_scope": "Unit 6.C nitrogen metabolism and prerequisite nitrogen supply",
+          "concept": "Mutants, isotope tracing and controls",
+          "sections": "experiments",
+          "status": "covered"
+        },
+        {
+          "concept": "Biological significance and limits",
           "sections": "integration",
-          "depth": "Nitrogen budgets, root allocation and efficiency",
           "status": "covered"
         }
       ],
       "review_pass_1": {
-        "type": "Internal scientific and syllabus review",
-        "result": "pass with disclosed limitations",
-        "findings": "Checked N oxidation states and separate uptake/reduction/assimilation/fixation, mineralization and microbial pathways, negative cytosolic voltage sign, proton symport free energy, NPF and NRT2 context, AMT regulation, ammonium speciation, nitrate pools and redistribution, carbon/energy requirements, isotope inference and nitrogen budgets. Recomputed signed membrane energy, pH fractions, rate, electron and mass balances and checked question answers. Revised schematics and references."
+        "result": "pass",
+        "evidence": "Reviewed pathway compartments, carbon/nitrogen balance, cofactors, conditional ATP/redox costs, Rubisco kinetics and net assimilation; corrected question wording and answer explanations; checked academic sources."
       },
       "review_pass_2": {
-        "type": "Separate internal editorial and static reader review",
-        "result": "pass with disclosed limitations",
-        "findings": "Compared with 6.A.04 exemplar; 13,442 words in 142 unique teaching paragraphs; progressive sections, glossary, 12 labeled SVGs and zoom targets, 50 explained questions, 17 traps and 14 recall prompts; answer positions balanced; canonical, anchors and IDs checked. Existing reader controls and adjacent navigation retained. Browser runtime not tested."
+        "result": "pass",
+        "evidence": "Reorganized and shuffled questions, added explanation depth, revised figure numbering, comparison table, recall prompts and checklist; compared depth with published C3 chapter."
       },
       "quality": {
         "score": 95,
         "threshold": 95,
         "rubric": {
-          "scientific_accuracy": 19,
+          "scientific_accuracy": 20,
           "syllabus_coverage": 15,
           "teaching_depth": 15,
-          "pedagogy": 10,
+          "pedagogy": 9,
           "illustrations": 9,
           "questions": 9,
           "experimental_reasoning": 5,
@@ -46565,7 +47192,7 @@
           "reader_accessibility": 4,
           "technical_seo": 4
         },
-        "basis": "Internal rubric, not independent certification; deductions for limited independent review, schematic SVGs not visually rendered, some concise distractor explanations, no interactive accessibility test and no browser runtime test."
+        "basis": "Internal assessment only; deductions for dense kinetics passages, simplified schematics, lack of independent exam calibration, and unperformed browser/accessibility testing."
       },
       "validation": {
         "word_count_pass": true,
@@ -46577,41 +47204,42 @@
         "unresolved_aria_references": 0,
         "unresolved_zoom_targets": 0,
         "duplicate_teaching_paragraphs": 0,
+        "placeholder_markers": 0,
         "canonical_pass": true,
-        "reference_verification": "Official CSIR revised and separate syllabus; MP SET mirror; bibliographic retrieval for academic references.",
+        "reference_verification": "Official syllabi and academic bibliographic sources retrieved; MP SET syllabus mirror",
         "interactive_browser_test": false
       },
       "navigation": {
-        "previous": "6.B.05",
-        "next": "6.C.02",
-        "reciprocal": "Dynamic reader uses homepage menu; unavailable neighbors disabled until published."
+        "previous": "6.B.04",
+        "next": "6.C.01",
+        "reciprocal": "Dynamic links resolve from homepage as nodes become published; unpublished adjacent nodes remain disabled"
       },
       "progress": {
-        "subunit_published": 1,
-        "subunit_planned": 6,
-        "unit_published": 11,
+        "subunit_published": 3,
+        "subunit_planned": 5,
+        "unit_published": 13,
         "unit_planned": 66,
-        "academy_published": 260,
+        "academy_published": 262,
         "academy_planned": 723,
         "next_pending_node_id": "6.B.01"
       },
       "limitations": [
-        "No external independent scientific reviewer.",
-        "Static checks, no interactive browser, mobile or screen-reader verification.",
-        "MP SET syllabus mirror, not verified from MPPSC host.",
-        "GitHub Pages and live HTTP/content verification pending."
+        "Internal review only; no independent reviewer or exam calibration.",
+        "Static checks only; browser rendering and screen-reader interaction not verified.",
+        "MP SET syllabus source is a reproduction.",
+        "Deployment and live content pending."
       ],
       "changed_files": [
-        "nitrogen-nutrition-sources-uptake-and-metabolic-entry.html",
+        "photorespiration-the-c2-glycolate-pathway.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
-        "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+        "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6c01-publication-qa.json"
+        "curriculum/node-6b05-publication-qa.json"
       ],
       "publication": {
-        "strategy": "Atomic tree/commit; conditional non-force main ref",
+        "strategy": "Atomic commit and conditional non-force main update",
         "deployment": "pending",
         "live_verified": false
       }
@@ -46629,9 +47257,10 @@
     "subunit_6c": {
       "published_node_ids": [
         "6.C.01",
-        "6.C.02"
+        "6.C.02",
+        "6.C.06"
       ],
-      "published_node_count": 2,
+      "published_node_count": 3,
       "planned_node_count": 6,
       "complete": false
     }
@@ -46644,7 +47273,8 @@
   "unit6b_planned_node_count": 5,
   "unit6c_published_node_ids": [
     "6.C.01",
-    "6.C.02"
+    "6.C.02",
+    "6.C.06"
   ],
   "unit6c_planned_node_count": 6
 }

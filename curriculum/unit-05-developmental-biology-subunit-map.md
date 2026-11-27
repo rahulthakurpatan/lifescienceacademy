@@ -185,3 +185,9 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.E.09 — Regulation of Plant Senescence: Age, Hormones and Environment**: internal academic QA 95/100, 14,104 teaching words, 13 SVGs and 52 explained original questions. [Chapter](../regulation-of-plant-senescence-age-hormones-and-environment.html) · [QA record](node-5e09-publication-qa.json). Pages deployment and live availability require separate verification.
 - Subunit 5.E: 5/10. Unit 05: 52/57. Academy: 244/723. Next pending: 5.E.03 — Programmed Cell Death in Animal Development: Sculpting and Cell Selection.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.E.03 — Programmed Cell Death in Animal Development: Sculpting and Cell Selection**: internal academic QA 95/100, 14,070 teaching words, 12 SVGs and 50 explained original questions. [Chapter](../programmed-cell-death-in-animal-development-sculpting-and-cell-selection.html) · [QA record](node-5e03-publication-qa.json). Pages deployment and live availability require separate verification.
+- Concurrent publications preserved. Subunit 5.E: 6/10. Unit 05: 53/57. Academy: 245/723. Next pending: 5.E.06 — Plant Programmed Cell Death: Vacuoles, Proteases and Controlled Dismantling.

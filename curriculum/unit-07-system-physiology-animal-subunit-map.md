@@ -203,3 +203,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.B.05 — [Heart as a Pump and Cardiac Output](https://rahulthakurpatan.github.io/lifescienceacademy/heart-as-a-pump-and-cardiac-output.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
 - Teaching prose: 13,758 words in 137 distinct paragraphs; 12 original scientific SVGs including 6 graphs, 5 tables, 52 explained questions (20 Part B, 24 Part C, 8 mixed NET/SET), 18 misconceptions, 12 recall prompts and 20 references.
 - Subunit 7.B: 3/8; Unit 07: 11/90; Academy: 326/723. Next global unpublished: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.B.07 — [Blood Pressure and Neural Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/blood-pressure-and-neural-regulation.html); internal QA 95/100; static saved-HTML audit complete, Pages verification pending.
+- 13,786 genuine teaching words in 133 distinct paragraphs; 13 original SVGs including 3 schematic plots, 2 tables, 54 explained questions (20 Part B, 23 Part C, 11 mixed), 15 misconceptions, 12 recall prompts, 17 reference entries.
+- Subunit 7.B: 4/8; Unit 07: 12/90; Academy: 327/723. Next global unpublished node: 7.B.02 — Myogenic Heart and Cardiac Electrophysiology.

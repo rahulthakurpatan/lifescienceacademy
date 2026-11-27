@@ -289,3 +289,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.E.05 — [Light-Regulated Stomatal Movement: Guard Cells, Ion Flux and Turgor](https://rahulthakurpatan.github.io/lifescienceacademy/light-regulated-stomatal-movement-guard-cells-ion-flux-and-turgor.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 4/7; Unit 06: 28/66; Academy: 277/723.
 - Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.F.07 — [Phloem Loading: Apoplastic, Symplastic and Polymer-Trapping Mechanisms](https://rahulthakurpatan.github.io/lifescienceacademy/phloem-loading-apoplastic-symplastic-and-polymer-trapping-mechanisms.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.F: 1/8; Unit 06: 29/66; Academy: 278/723.
+- Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

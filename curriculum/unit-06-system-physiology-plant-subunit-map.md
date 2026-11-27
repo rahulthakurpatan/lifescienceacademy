@@ -306,3 +306,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 
 - 6.F.08 — [Phloem Unloading, Sink Strength and Whole-Plant Assimilate Partitioning](https://rahulthakurpatan.github.io/lifescienceacademy/phloem-unloading-sink-strength-and-whole-plant-assimilate-partitioning.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.F: 4/8. Unit 06: 32/66. Academy: 281/723. Next unpublished in subunit: 6.F.01. Next global pending: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.G.03 — [Terpenoid Diversity and Biological Functions](https://rahulthakurpatan.github.io/lifescienceacademy/terpenoid-diversity-and-biological-functions.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.G: 1/10; Unit 06: 33/66; Academy: 282/723.
+- Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

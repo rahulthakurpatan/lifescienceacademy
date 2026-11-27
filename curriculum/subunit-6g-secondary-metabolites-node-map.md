@@ -124,3 +124,8 @@
 | Metabolic engineering in plants | 6.G.10 |
 
 No official topic is intentionally omitted. Examples are illustrative, not a claim to enumerate every plant specialized metabolite.
+
+## Publication record
+
+- 6.G.03 — [Terpenoid Diversity and Biological Functions](https://rahulthakurpatan.github.io/lifescienceacademy/terpenoid-diversity-and-biological-functions.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.G: 1/10; next unpublished in this subunit: 6.G.01 — Foundations of Plant Specialized Metabolism.

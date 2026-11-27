@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Plant specialized metabolite regulation, transport, storage, jasmonates, defenses, allelopathy and ecological interactions for CSIR-NET and SET.">
+  <meta name="robots" content="index,follow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/regulation-and-ecological-roles-of-specialized-metabolites.html">
+  <title>Regulation and Ecological Roles of Specialized Metabolites | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 6</span><span>›</span><span>Sub-unit 6.G</span><span>›</span><strong>Node 09</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 6.G.09</span><span>Unit 6 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Regulation and Ecological Roles of Specialized Metabolites</h1><p class="subtitle">From tissue-specific biosynthesis and hormone signaling to defense, mutualism and allelopathy.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node not yet published">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node not yet published">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#foundation">1. From pathways to ecological function</a><a href="#spatial">2. Tissue-specific synthesis, storage and transport</a><a href="#regulation">3. Environmental and developmental regulation</a><a href="#defense">4. Constitutive, induced and damage-activated defense</a><a href="#signaling">5. Jasmonate, salicylate and hormonal crosstalk</a><a href="#interactions">6. Plant interactions with herbivores, pollinators and microbes</a><a href="#allelopathy">7. Allelopathy and chemical interactions between plants</a><a href="#tradeoffs">8. Resource allocation, growth–defense trade-offs and evolution</a><a href="#methods">9. Experimental evidence and data interpretation</a><a href="#misconceptions">10. Common misconceptions</a><a href="#part-b">11. CSIR-NET Part B: conceptual MCQs</a><a href="#part-c">12. CSIR-NET Part C: analytical MCQs</a><a href="#practice">13. Assertion–reason and application practice</a><a href="#revision">14. Revision and mastery</a><a href="#references">15. References and further reading</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Regulation and Ecological Roles of Specialized Metabolites study notes"><div class="article-content" id="article"><section id="foundation"><h2>1. From pathways to ecological function</h2><p>A leaf may contain hundreds of specialized metabolites, yet their abundance changes as the leaf ages, encounters an insect or receives sunlight. Earlier chapters traced the biosynthetic origins of terpenoids, phenolics, alkaloids and other nitrogen-containing compounds. Here the question is why particular compounds are made in particular places and at particular times, and what happens when another organism encounters them.</p><p>Specialized metabolites are not simply metabolic waste. Chemical traits can influence survival and reproduction, but finding a molecule in a plant does not establish that it evolved for defense. A compound may contribute to multiple functions: anthocyanins, for example, can influence visual signaling and responses to environmental stress. The effects depend on the species, tissue, developmental stage and ecological context.</p><h3>Historical perspective and evidence</h3><p>Natural-product chemistry initially emphasized isolation, structure and medicinal properties. Chemical ecology instead examines interactions among organisms. Ehrlich and Raven's 1964 work on butterflies and plants provided an influential framework for considering how plant chemistry and herbivore adaptation might shape diversification. Modern experiments employ biosynthetic mutants, chemical complementation, isotope tracers and behavioral assays to test causal connections rather than assume an ecological function from chemical structure.</p><p>Three levels of explanation are essential. Regulation determines pathway activity. Deployment determines the chemical form and site of accumulation or release. Ecological function concerns effects on the plant or an interacting organism. A high transcript level does not guarantee a large metabolite pool, and a large pool does not guarantee exposure of a target organism.</p><figure class="figure-panel"><svg id="f1" viewBox="0 0 520 360" role="img" aria-labelledby="f1-title f1-desc"><title id="f1-title">Metabolism and ecological function</title><desc id="f1-desc">Primary metabolic resources; Regulated pathway enzymes; Transport, storage and release; Exposure of interacting organism; Potential fitness consequence</desc><rect x="20" y="5" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="33" text-anchor="middle" font-size="15" fill="#18392a">Primary metabolic resources</text><path d="M260 50 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="77" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="105" text-anchor="middle" font-size="15" fill="#18392a">Regulated pathway enzymes</text><path d="M260 122 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="149" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="177" text-anchor="middle" font-size="15" fill="#18392a">Transport, storage and release</text><path d="M260 194 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="221" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="249" text-anchor="middle" font-size="15" fill="#18392a">Exposure of interacting organism</text><path d="M260 266 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="293" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="321" text-anchor="middle" font-size="15" fill="#18392a">Potential fitness consequence</text></svg><figcaption>Figure 1. Each step must be established independently to connect a metabolic phenotype to an ecological role.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="f1">Enlarge diagram</button></figure><div class="keybox"><h3>Learning objectives</h3><p>Explain spatial and temporal regulation, distinguish constitutive and induced defenses, interpret JA signaling and flux data, compare antagonism and mutualism, and design experiments that test allelopathy and chemical ecological hypotheses.</p></div></section>
+<section id="spatial"><h2>2. Tissue-specific synthesis, storage and transport</h2><p>Specialized products are distributed unevenly. Epidermal tissues are well positioned to accumulate UV-absorbing flavonoids. Glandular trichomes on leaves or flowers produce or store lipophilic and volatile compounds. Roots release metabolites into the rhizosphere. Young leaves, reproductive tissues and developing seeds may receive substantial protection, although distributions differ with species and environment.</p><h3>Cellular division of labor</h3><p>Plastidial MEP and cytosolic mevalonate pathways provide precursors for different terpenoid branches. Many phenylpropanoid reactions occur in the cytosol or involve enzymes associated with the endoplasmic reticulum, including cytochrome P450s. Final products may accumulate in vacuoles, cell walls, secretory cavities or external secretions rather than at the site of synthesis. Compartmentation creates distinct substrate concentrations, pH conditions and enzyme access, and can reduce damage to the producing cell.</p><p>Nicotine is predominantly synthesized in tobacco roots, transported through the xylem and accumulated in aerial tissues. Mint glandular trichomes contain specialized cells that synthesize essential oils, which accumulate in a space beneath the cuticle. Anthocyanins commonly accumulate as glycosides in vacuoles. Lignin is deposited into cell walls where it provides structural reinforcement. These examples separate biosynthesis from deployment.</p><h3>Membrane transport and chemical modification</h3><p>ABC transporters couple transport to ATP hydrolysis. MATE family transporters commonly exploit electrochemical gradients. Substrate specificity and direction depend on the particular protein and membrane. Some glutathione S-transferase proteins assist anthocyanin trafficking without necessarily forming a permanent glutathione conjugate. Glycosylation can change solubility, reactivity and transport; it is not universally a detoxification mechanism. A stored glycoside may subsequently be hydrolyzed by an appropriate enzyme.</p><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Site or process</th><th scope="col">Example</th><th scope="col">Significance</th></tr></thead><tbody><tr><td>Vacuole</td><td>Anthocyanin glycosides</td><td>Pigmentation and sequestration</td></tr><tr><td>Glandular trichome</td><td>Mint oil</td><td>Concentrated surface secretion</td></tr><tr><td>Cell wall</td><td>Lignin</td><td>Reinforcement and barrier</td></tr><tr><td>Xylem</td><td>Nicotine</td><td>Delivery from roots to shoots</td></tr><tr><td>Root exudation</td><td>Flavonoids</td><td>Rhizosphere communication</td></tr></tbody></table></div><h3>Experimental demonstration</h3><p>Label a root-supplied precursor and monitor labeled product in roots and shoots over time. Controls must distinguish transport of the product from transport of its precursor followed by local synthesis. Compare a transporter mutant with wild type and a complemented line. If total plant content remains similar but the mutant accumulates more product in roots and less in shoots, a distribution defect is more plausible than complete abolition of synthesis. Promoter reporters locate gene expression, whereas mass spectrometry and chemical imaging locate metabolites. Neither alone establishes all steps.</p></section>
+<section id="regulation"><h2>3. Environmental and developmental regulation</h2><h3>Transcription and metabolic flux</h3><p>Transcription factors activate or repress genes encoding pathway enzymes. The MYB–bHLH–WD40 complex controls many anthocyanin biosynthesis genes; different MYB proteins can favor different flavonoid branches. Enzyme activity also depends on substrate, cofactors, feedback, redox conditions and protein turnover. Increasing one enzyme at a branch point may redirect precursor from a competing pathway, but it may have little effect if another reaction limits flux.</p><p>For metabolite M, dM/dt = v<sub>synthesis</sub> + v<sub>import</sub> − v<sub>degradation</sub> − v<sub>export</sub>. With a fixed tissue mass, terms can be expressed in nmol g<sup>−1</sup> h<sup>−1</sup>. If tissue grows, dilution also matters for concentration. At steady state net accumulation is zero, not necessarily the individual reaction rates.</p><p>Worked example: a pool increases from 40 to 70 nmol/g in three hours. Average net accumulation is 10 nmol/g/h. If degradation plus export is 6 nmol/g/h and import is negligible, average synthesis is 16 nmol/g/h. This estimate is not a direct measurement of the activity of a single enzyme.</p><h3>Light and UV-B</h3><p>UV-B perception by UVR8 initiates signaling involving COP1 and transcriptional regulators including HY5. Increased expression of selected flavonoid biosynthetic genes can enhance accumulation of UV-screening flavonols in exposed tissues. Visible light also influences anthocyanin production through photoreceptor-dependent signaling. A UV-protection function can be tested using flavonoid-deficient and complemented lines exposed to controlled UV-B, with equivalent visible light and developmental conditions.</p><figure class="figure-panel"><svg id="f2" viewBox="0 0 520 288" role="img" aria-labelledby="f2-title f2-desc"><title id="f2-title">UV-B regulation</title><desc id="f2-desc">UV-B perception by UVR8; COP1-associated signaling and HY5; Flavonoid biosynthetic gene expression; Protective flavonol accumulation</desc><rect x="20" y="5" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="33" text-anchor="middle" font-size="15" fill="#18392a">UV-B perception by UVR8</text><path d="M260 50 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="77" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="105" text-anchor="middle" font-size="15" fill="#18392a">COP1-associated signaling and HY5</text><path d="M260 122 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="149" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="177" text-anchor="middle" font-size="15" fill="#18392a">Flavonoid biosynthetic gene expression</text><path d="M260 194 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="221" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="249" text-anchor="middle" font-size="15" fill="#18392a">Protective flavonol accumulation</text></svg><figcaption>Figure 2. Light regulates biosynthetic gene expression; it does not convert precursor directly into a flavonoid.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="f2">Enlarge diagram</button></figure><h3>Temperature, water and nutrients</h3><p>Stress may stimulate a particular pathway at moderate intensity but suppress it at severe intensity when photosynthesis and cell integrity decline. Nitrogen availability can alter allocation between nitrogen-containing metabolites and carbon-rich phenolics. Carbon–nutrient balance is a conditional hypothesis, not a universal law. Reduced biomass can increase concentration even if total production does not rise. Measure content per organ, concentration per dry mass and new synthesis independently.</p><h3>Developmental and circadian control</h3><p>Flower scent can be timed to pollinator activity; ripening fruits alter pigmentation, aromas and deterrent compounds as their ecological roles change. A scent rhythm persisting under constant environmental conditions supports an endogenous timing mechanism, whereas a rhythm measured only under day/night cycles could be a direct response to illumination. A developmental time course should compare equivalent organs and sampling times.</p></section>
+<section id="defense"><h2>4. Constitutive, induced and damage-activated defense</h2><p>Constitutive defenses are available before attack. Induced defenses increase or are newly synthesized after a stimulus. Both strategies may coexist in a plant. Pre-existing tannins or lignin provide immediate barriers, whereas inducible antimicrobial compounds allow flexible allocation. Induction can take time, and constitutive defenses may carry maintenance or opportunity costs.</p><h3>Stored precursors activated on damage</h3><p>Glucosinolates and myrosinase form a classic damage-activated system. Tissue disruption can bring enzyme and substrate together, producing hydrolysis products such as isothiocyanates or nitriles, depending on the chemical context. Cyanogenic glycosides may similarly release hydrogen cyanide after enzyme-mediated breakdown. These systems illustrate the distinction between preformed precursor, rapid activation and new biosynthesis. An active product appearing seconds after injury does not demonstrate that its precursor was synthesized after injury.</p><h3>Phytoalexins and phytoanticipins</h3><p>Phytoalexins are antimicrobial compounds produced or accumulated de novo following challenge. Camalexin in Arabidopsis and resveratrol in grapevine are representative examples. Phytoanticipins are present before challenge or are produced from pre-existing constituents following infection. Classification depends on the history of production, not solely on structure. Pathogens may tolerate or detoxify defensive compounds, so a phytoalexin-deficient plant may be more susceptible to one pathogen but not another.</p><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Feature</th><th scope="col">Constitutive</th><th scope="col">Induced</th><th scope="col">Damage-activated</th></tr></thead><tbody><tr><td>Timing</td><td>Before attack</td><td>After perception</td><td>Rapidly after injury</td></tr><tr><td>Example</td><td>Stored tannins</td><td>Camalexin</td><td>Glucosinolate hydrolysis</td></tr><tr><td>Advantage</td><td>Immediately available</td><td>Flexible allocation</td><td>Fast activation</td></tr><tr><td>Limitation</td><td>Potential standing cost</td><td>Delay</td><td>Requires precursor and enzyme</td></tr></tbody></table></div><h3>Priming</h3><p>Priming is an altered physiological state that enables a faster or stronger response to a subsequent challenge. Basal concentrations may remain unchanged. Compare treated and untreated plants before and after a standardized challenge. A greater challenge-dependent increase in the pretreated group supports priming, whereas a consistently elevated prechallenge pool supports constitutive elevation. These patterns may coexist.</p></section>
+<section id="signaling"><h2>5. Jasmonate, salicylate and hormonal crosstalk</h2><p>Plants perceive damage-associated cues, herbivore-associated elicitors and microbial molecules. Calcium signals, reactive oxygen species and kinase cascades help initiate defense responses. The resulting chemical profile varies according to cue, genotype, tissue and developmental stage.</p><h3>Core jasmonate pathway</h3><p>Jasmonate biosynthesis begins with fatty acid-derived precursors in chloroplasts, includes OPDA and continues through peroxisomal reactions leading to jasmonic acid (JA). Conjugation with isoleucine generates JA-Ile, a major active signal. JA-Ile promotes interaction between the F-box protein COI1 and JAZ repressors. The SCF<sup>COI1</sup> ubiquitin ligase complex targets JAZ proteins for proteasomal degradation. This releases transcription factors such as MYC2 from repression and changes expression of defense-related genes.</p><figure class="figure-panel"><svg id="f3" viewBox="0 0 520 360" role="img" aria-labelledby="f3-title f3-desc"><title id="f3-title">JA-Ile signaling</title><desc id="f3-desc">Herbivory or wounding; JA synthesis and JA-Ile formation; COI1-JAZ interaction; JAZ degradation by proteasome; MYC-dependent defense gene expression</desc><rect x="20" y="5" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="33" text-anchor="middle" font-size="15" fill="#18392a">Herbivory or wounding</text><path d="M260 50 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="77" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="105" text-anchor="middle" font-size="15" fill="#18392a">JA synthesis and JA-Ile formation</text><path d="M260 122 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="149" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="177" text-anchor="middle" font-size="15" fill="#18392a">COI1-JAZ interaction</text><path d="M260 194 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="221" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="249" text-anchor="middle" font-size="15" fill="#18392a">JAZ degradation by proteasome</text><path d="M260 266 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="293" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="321" text-anchor="middle" font-size="15" fill="#18392a">MYC-dependent defense gene expression</text></svg><figcaption>Figure 3. Jasmonate-induced expression results from removal of repression rather than direct activation of every metabolic enzyme.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="f3">Enlarge diagram</button></figure><p>Jasmonate signaling can regulate nicotine production in tobacco and numerous other alkaloid, terpene and phenolic pathways in other species. An exogenous methyl jasmonate treatment can serve as an elicitor, but the compound may be converted into other jasmonates. Effects depend on dose and treatment. A COI1-deficient mutant may produce JA-Ile normally but cannot efficiently transduce the canonical signal. Adding additional ligand does not repair a missing functional receptor component; a biosynthesis-deficient plant with intact perception may respond to a downstream active hormone.</p><h3>SA and ethylene</h3><p>Salicylic acid (SA), with regulators including NPR1, is important in many responses against biotrophic pathogens and in systemic acquired resistance. JA and ethylene are commonly involved in responses to herbivores and necrotrophs. These are tendencies rather than exclusive assignments. Crosstalk can be antagonistic, additive or synergistic. Ethylene can alter the relative contribution of different JA-regulated transcriptional programs. Concurrent insect and pathogen attack may therefore produce a chemical response different from the sum of single challenges.</p><h3>Local and systemic signaling</h3><p>A wounded leaf can influence other leaves and roots through electrical, calcium and vascular chemical signaling. Increased defense expression in a distant leaf does not identify the transported molecule: hormone synthesis at the destination may be triggered by a different mobile signal. Reciprocal grafting, isotope tracing and tissue-specific mutations can separate signal production, movement and perception.</p></section>
+<section id="interactions"><h2>6. Plant interactions with herbivores, pollinators and microbes</h2><h3>Direct herbivore defense</h3><p>Alkaloids can interfere with physiological targets in susceptible insects. Tannins may affect feeding or digestion, while terpenoids may alter behavior or physiology. Choice assays measure preference; no-choice assays measure performance under forced exposure. A feeding deterrent need not be toxic, and a toxic compound may not be recognized before ingestion. Measure consumption, growth and survival separately.</p><p>Specialists can evolve detoxification, target-site tolerance, excretion or sequestration. Monarch caterpillars can tolerate and sequester certain milkweed cardenolides, which inhibit Na<sup>+</sup>/K<sup>+</sup>-ATPase in susceptible animals. The same compound may deter generalists while providing a cue or protective resource to adapted specialists. Ecological function therefore depends on properties of both the producer and receiver.</p><h3>Indirect defense and volatile signals</h3><p>Herbivore-induced plant volatiles include green-leaf volatiles and terpenoids. They can influence parasitoids and predators that locate herbivores. In a tritrophic interaction, plant, herbivore and natural enemy are linked by chemical cues. Attraction in an olfactometer shows a behavioral preference but does not alone prove that the plant benefits. To show indirect defense, test whether natural enemies reduce herbivore damage and improve an appropriate fitness measure under ecologically relevant conditions.</p><figure class="figure-panel"><svg id="f4" viewBox="0 0 520 288" role="img" aria-labelledby="f4-title f4-desc"><title id="f4-title">Tritrophic interaction</title><desc id="f4-desc">Herbivore damages plant; Plant emits volatile blend; Natural enemy detects blend; Potential reduction in herbivory</desc><rect x="20" y="5" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="33" text-anchor="middle" font-size="15" fill="#18392a">Herbivore damages plant</text><path d="M260 50 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="77" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="105" text-anchor="middle" font-size="15" fill="#18392a">Plant emits volatile blend</text><path d="M260 122 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="149" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="177" text-anchor="middle" font-size="15" fill="#18392a">Natural enemy detects blend</text><path d="M260 194 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="221" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="249" text-anchor="middle" font-size="15" fill="#18392a">Potential reduction in herbivory</text></svg><figcaption>Figure 4. A volatile can function indirectly by influencing a third trophic level.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="f4">Enlarge diagram</button></figure><h3>Pollination and seed dispersal</h3><p>Anthocyanins and carotenoids contribute to flower colors; flavonoids may create UV patterns visible to certain insects. Floral scent can help pollinators locate flowers. Fruit pigments and odors can signal ripeness to dispersers. The identity, timing and concentration of chemicals matter more than a universal measure of attractiveness. Demonstrate a reproductive role by controlling for flower size, nectar availability and other cues while measuring visitation and seed production.</p><h3>Root–microbe communication</h3><p>Legume root flavonoids can activate compatible rhizobial NodD regulatory proteins, inducing bacterial nod gene expression. The resulting bacterial Nod factors are lipochitooligosaccharide signals that trigger host responses involved in nodulation. The plant-derived flavonoid and bacterial Nod factor are distinct signals. Root-exuded strigolactones stimulate hyphal branching of arbuscular mycorrhizal fungi, facilitating contact, but can also stimulate germination of certain parasitic plants. A signal beneficial in one interaction can be exploited in another.</p><figure class="figure-panel"><svg id="f5" viewBox="0 0 520 360" role="img" aria-labelledby="f5-title f5-desc"><title id="f5-title">Legume-rhizobial signaling</title><desc id="f5-desc">Root releases flavonoids; Compatible bacterial NodD activation; Bacterial nod gene expression; Nod factor perceived by plant; Host responses leading to nodulation</desc><rect x="20" y="5" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="33" text-anchor="middle" font-size="15" fill="#18392a">Root releases flavonoids</text><path d="M260 50 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="77" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="105" text-anchor="middle" font-size="15" fill="#18392a">Compatible bacterial NodD activation</text><path d="M260 122 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="149" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="177" text-anchor="middle" font-size="15" fill="#18392a">Bacterial nod gene expression</text><path d="M260 194 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="221" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="249" text-anchor="middle" font-size="15" fill="#18392a">Nod factor perceived by plant</text><path d="M260 266 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="293" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="321" text-anchor="middle" font-size="15" fill="#18392a">Host responses leading to nodulation</text></svg><figcaption>Figure 5. Reciprocal chemical recognition links root metabolism to a mutualistic association.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="f5">Enlarge diagram</button></figure><p>Root exudates can also influence microbial community composition, nutrient mobilization and disease resistance. Microorganisms may degrade or transform exuded molecules, so profiles obtained in sterile culture may not persist in natural soil. To demonstrate an effect on microbiome-mediated plant performance, compare defined microbial communities and sterile controls, measure candidate compounds and restore missing chemical or microbial components.</p></section>
+<section id="allelopathy"><h2>7. Allelopathy and chemical interactions between plants</h2><p>Allelopathy describes chemical effects of one organism on another in its environment; plant examples include inhibitory or stimulatory effects mediated by released compounds. It differs from competition for light, water and mineral nutrients, although both mechanisms may coexist. Suppressed growth near a donor plant is insufficient evidence of chemical interference.</p><h3>Environmental fate and examples</h3><p>Compounds may be released by root exudation, leaf leaching, volatilization or decomposing residues. Concentration at the receiver depends on release, dilution, diffusion, soil adsorption, microbial transformation and chemical degradation. Juglone associated with walnut is a traditional example of a potentially phytotoxic naphthoquinone. Sorghum produces sorgoleone, a hydrophobic root-associated compound capable of interfering with photosynthetic electron transport in experimental systems. Rice momilactones are associated with inhibition of some neighboring plants. Effects depend on exposure and environmental conditions.</p><figure class="figure-panel"><svg id="f6" viewBox="0 0 520 360" role="img" aria-labelledby="f6-title f6-desc"><title id="f6-title">Evidence for allelopathy</title><desc id="f6-desc">Donor releases candidate compound; Environmental movement and transformation; Receiver exposed to relevant concentration; Physiological response measured; Alternative resource effects controlled</desc><rect x="20" y="5" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="33" text-anchor="middle" font-size="15" fill="#18392a">Donor releases candidate compound</text><path d="M260 50 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="77" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="105" text-anchor="middle" font-size="15" fill="#18392a">Environmental movement and transformation</text><path d="M260 122 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="149" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="177" text-anchor="middle" font-size="15" fill="#18392a">Receiver exposed to relevant concentration</text><path d="M260 194 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="221" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="249" text-anchor="middle" font-size="15" fill="#18392a">Physiological response measured</text><path d="M260 266 v21 m-6 -7 l6 7 6 -7" fill="none" stroke="#367a55" stroke-width="2"/><rect x="20" y="293" width="480" height="45" rx="8" fill="#e3f1e7" stroke="#367a55"/><text x="260" y="321" text-anchor="middle" font-size="15" fill="#18392a">Alternative resource effects controlled</text></svg><figcaption>Figure 6. Laboratory toxicity is not equivalent to chemical interference in the field.</figcaption><button type="button" class="tool-btn diagram-zoom" data-figure="f6">Enlarge diagram</button></figure><h3>Experimental controls</h3><p>Compare receiver growth with and without a donor while matching nutrients, water, pH, light and osmotic conditions. Conditioned medium or a suitable root barrier can help distinguish chemical transfer from resource competition. Identify molecules using chromatography and mass spectrometry, then use realistic concentration series and solvent controls. A biosynthetic donor mutant and chemical rescue provide stronger causal evidence. Activated carbon may adsorb organics but also alters nutrient availability or microbial communities; carbon alone is not definitive proof.</p><p>If control root length is 8 cm and treated length is 5 cm, relative inhibition = (8 − 5)/8 × 100 = 37.5%. The calculation demonstrates inhibition in the tested conditions, not that a naturally occurring concentration produces this effect. Replication and uncertainty estimates are needed to assess reproducibility.</p></section>
+<section id="tradeoffs"><h2>8. Resource allocation, growth–defense trade-offs and evolution</h2><p>Specialized metabolism draws on fixed carbon, nitrogen, ATP, reducing equivalents and enzyme synthesis. Allocating resources to one process can limit another, but there is no universal fixed growth–defense budget. A protective trait can preserve leaf area and increase lifetime carbon fixation. Some products have several physiological roles. Evaluate costs and benefits under relevant conditions rather than assuming all defense reduces growth.</p><p>Optimal defense theory predicts relatively greater protection where tissues have high fitness value and probability of attack, conditional on defense effectiveness and cost. Young leaves and reproductive tissues may be valuable, but replacement rates, herbivore preferences and resource availability affect the prediction. Constitutive and inducible defenses can complement each other. Coevolution can generate escalating chemical defenses and counteradaptations but does not imply that each species will always evolve stronger defenses.</p><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Hypothetical seed yield</th><th scope="col">No attack</th><th scope="col">Attack</th></tr></thead><tbody><tr><td>Defended genotype</td><td>90</td><td>75</td></tr><tr><td>Defense-deficient genotype</td><td>100</td><td>40</td></tr></tbody></table></div><p>In this simplified example the defended genotype produces 10 fewer seeds without herbivory but 35 more seeds with herbivory. If attack occurs with probability p, expected defended yield = 90 − 15p; expected deficient yield = 100 − 60p. Equality occurs at p = 10/45 ≈ 0.222. The defense is favored by this model above an attack probability of approximately 22%. Real populations experience variable attack intensity, multiple traits and environmental interactions, so the threshold is illustrative rather than universal.</p><p>To test defense costs, compare isogenic or complemented lines under both attack and no-attack conditions. Measure reproductive output or another appropriate fitness proxy rather than only biomass. A slow-growing mutant may carry unrelated developmental defects; chemical or genetic restoration strengthens causal inference.</p></section>
+<section id="methods"><h2>9. Experimental evidence and data interpretation</h2><h3>Metabolomics and isotope tracing</h3><p>LC–MS is widely used for nonvolatile compounds; GC–MS can analyze volatiles and appropriately derivatized molecules. Peak areas cannot automatically be compared as molar concentrations because detection responses differ. Internal standards, calibration curves and extraction controls help quantify abundance. Isotope incorporation into newly produced molecules can distinguish new synthesis from pre-existing stores, subject to precursor labeling and appropriate kinetic interpretation.</p><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Hours after treatment</th><th scope="col">Relative transcript</th><th scope="col">Metabolite nmol/g</th></tr></thead><tbody><tr><td>0</td><td>1</td><td>20</td></tr><tr><td>2</td><td>8</td><td>21</td></tr><tr><td>8</td><td>5</td><td>55</td></tr><tr><td>24</td><td>2</td><td>80</td></tr></tbody></table></div><p>The transcript peaks before the metabolite, consistent with a delay between transcription, enzyme production and accumulation. However, temporal ordering alone does not prove causation. Measure enzyme abundance, activity, precursor labeling and metabolite turnover; compare a loss-of-function mutant and a complemented line. Include untreated time-matched controls, since circadian and developmental processes can alter the chemical profile.</p><h3>Factorial elicitor experiment</h3><p>To distinguish mechanical injury from herbivore-associated elicitors, include untreated plants, standardized mechanical wounds, wounds treated with insect oral secretion and secretion without wounds where feasible. Use matched solvents and equivalent injury, then quantify metabolites, transcription and insect performance. A larger response to wounded-plus-secretion plants than wounded plants supports an additional elicitor effect. Randomize samples, use independent biological replicates and normalize to appropriate biomass.</p><h3>Causal reasoning</h3><p>A biosynthetic mutant may reduce the total product pool; a transporter mutant may redistribute it; a receiver insensitive to the compound may lose the ecological response despite unchanged plant chemistry. Complementation or chemical rescue must restore relevant form, location and concentration. Distinguish rescue of a biochemical phenotype, rescue of an interacting organism's behavior and restoration of plant fitness. A single assay rarely establishes all three.</p><div class="keybox"><h3>Evidence ladder</h3><p>Association → controlled perturbation → phenotype restoration → realistic exposure → fitness consequence.</p></div></section>
+<section id="misconceptions"><h2>10. Common misconceptions</h2><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Misconception</th><th scope="col">Correct interpretation</th></tr></thead><tbody><tr><td>Specialized metabolites are all waste.</td><td>Many have ecological or physiological roles; some roles remain unknown.</td></tr><tr><td>High pool size proves high flux.</td><td>Synthesis, transport, turnover and dilution all affect pool size.</td></tr><tr><td>Leaf accumulation proves leaf synthesis.</td><td>Products can be transported from roots.</td></tr><tr><td>Constitutive defense cannot be activated.</td><td>Preformed precursors can undergo rapid activation.</td></tr><tr><td>JA is exclusively for herbivores.</td><td>Defense hormones participate in overlapping networks.</td></tr><tr><td>Crude extract inhibition proves allelopathy.</td><td>Realistic exposure and alternative explanations must be tested.</td></tr><tr><td>All volatiles repel insects.</td><td>Volatiles may also attract pollinators, herbivores or natural enemies.</td></tr></tbody></table></div></section>
+<section id="part-b"><h2>11. CSIR-NET Part B: conceptual MCQs</h2><div class="keybox"><h3>1. Which protein is degraded following canonical JA-Ile perception?</h3><ol type="A"><li>JAZ</li><li>COI1</li><li>HY5</li><li>NodD</li></ol><details><summary>Answer and explanation</summary><p><strong>A.</strong> COI1-dependent ubiquitination targets JAZ repressors.</p></details></div><div class="keybox"><h3>2. Camalexin produced after infection is a:</h3><ol type="A"><li>Phytoalexin</li><li>Nod factor</li><li>Structural polysaccharide</li><li>Primary photosynthate</li></ol><details><summary>Answer and explanation</summary><p><strong>A.</strong> It is an induced antimicrobial compound.</p></details></div><div class="keybox"><h3>3. Which is damage-activated?</h3><ol type="A"><li>UVR8 activation</li><li>Glucosinolate hydrolysis by myrosinase</li><li>Pollinator attraction</li><li>Nod factor perception</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Injury can bring preformed enzyme and substrate together.</p></details></div><div class="keybox"><h3>4. Which pair is correctly matched?</h3><ol type="A"><li>MATE—always ATP hydrolysis</li><li>ABC—ATP-coupled transport</li><li>JAZ—UV-B receptor</li><li>NodD—plant pigment</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> ABC transporters couple transport to ATP.</p></details></div><div class="keybox"><h3>5. Which plant signal activates compatible rhizobial NodD?</h3><ol type="A"><li>Nod factor</li><li>Flavonoid</li><li>Cellulose</li><li>Peptidoglycan</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Flavonoids are plant signals; Nod factors are bacterial.</p></details></div><div class="keybox"><h3>6. Which describes priming?</h3><ol type="A"><li>Permanent maximum defense</li><li>Enhanced response to subsequent challenge</li><li>Absence of signaling</li><li>Unchanged challenge response</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Priming is assessed by responsiveness.</p></details></div><div class="keybox"><h3>7. Floral scent attracting pollinators exemplifies:</h3><ol type="A"><li>Allelopathy in every case</li><li>Nutrient competition</li><li>Reproductive chemical signaling</li><li>Only direct defense</li></ol><details><summary>Answer and explanation</summary><p><strong>C.</strong> Chemical communication can support mutualism.</p></details></div><div class="keybox"><h3>8. Which statement about steady state is correct?</h3><ol type="A"><li>Synthesis always ceases</li><li>All losses cease</li><li>Inputs can balance losses</li><li>Concentration must increase</li></ol><details><summary>Answer and explanation</summary><p><strong>C.</strong> Zero net accumulation does not mean zero turnover.</p></details></div><div class="keybox"><h3>9. Which receptor is central to UV-B perception?</h3><ol type="A"><li>COI1</li><li>UVR8</li><li>NPR1</li><li>MYC2</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> UVR8 mediates UV-B responses.</p></details></div><div class="keybox"><h3>10. Which is strongest evidence for allelopathy?</h3><ol type="A"><li>Donor proximity</li><li>High-dose extract only</li><li>Controlled exposure and chemical rescue</li><li>Different shading</li></ol><details><summary>Answer and explanation</summary><p><strong>C.</strong> Chemical causation requires appropriate environmental and resource controls.</p></details></div></section>
+<section id="part-c"><h2>12. CSIR-NET Part C: analytical MCQs</h2><div class="keybox"><h3>1. A COI1 mutant accumulates normal JA-Ile but fails to induce nicotine. What is the likely defect?</h3><ol type="A"><li>JA precursor supply</li><li>Signal perception or transmission</li><li>Universal absence of respiration</li><li>All transport ceases</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Hormone abundance is intact; transduction may be defective.</p></details></div><div class="keybox"><h3>2. A pool rises from 30 to 54 nmol/g in 4 h. Loss rate is 3 nmol/g/h, no import. Synthesis rate?</h3><ol type="A"><li>3</li><li>6</li><li>9</li><li>24 nmol/g/h</li></ol><details><summary>Answer and explanation</summary><p><strong>C.</strong> Net accumulation = 6; add loss 3.</p></details></div><div class="keybox"><h3>3. Wild type has 20 units in roots and 40 in shoots; a mutant has 50 and 10. Which inference is best?</h3><ol type="A"><li>Total synthesis abolished</li><li>Distribution changed</li><li>All export permanently stopped</li><li>No shoot product</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Equal total content and altered distribution support a deployment defect.</p></details></div><div class="keybox"><h3>4. Parasitoids prefer attacked plant odor. What further evidence best supports indirect defense?</h3><ol type="A"><li>Odor is detectable</li><li>Plant is green</li><li>Natural enemies reduce damage and improve reproductive output</li><li>More volatile peaks only</li></ol><details><summary>Answer and explanation</summary><p><strong>C.</strong> Attraction must translate to a plant benefit.</p></details></div><div class="keybox"><h3>5. Root length is 10 cm in control and 7 cm in treatment. Relative inhibition?</h3><ol type="A"><li>3%</li><li>30%</li><li>70%</li><li>143%</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> (10 − 7)/10 × 100 = 30%.</p></details></div><div class="keybox"><h3>6. Both groups have baseline metabolite 5. Following challenge, pretreated plants reach 60 and controls 20. This supports:</h3><ol type="A"><li>Permanent basal elevation</li><li>Priming</li><li>No perception</li><li>No response</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Enhanced challenge-dependent response with equal baseline fits priming.</p></details></div><div class="keybox"><h3>7. A defense mutant is fed upon more but seed yield does not change. Which is justified?</h3><ol type="A"><li>No feeding effect</li><li>Feeding effect, fitness benefit not demonstrated</li><li>Defense universally improves fitness</li><li>Controls unnecessary</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Feeding and fitness are separate outcomes.</p></details></div><div class="keybox"><h3>8. Transcript rises at 2 h, product at 12 h. Which inference is defensible?</h3><ol type="A"><li>Delay between expression and accumulation possible</li><li>Gene must encode a transporter</li><li>Pathway permanently inactive</li><li>Product necessarily a hormone</li></ol><details><summary>Answer and explanation</summary><p><strong>A.</strong> Translation, activity and substrate supply can cause delays.</p></details></div><div class="keybox"><h3>9. Activated carbon restores receiver growth in donor-conditioned soil. Essential control?</h3><ol type="A"><li>Flower color</li><li>Nutrients and pH with carbon alone</li><li>Extra shade</li><li>No replicates</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Carbon can change soil conditions independently.</p></details></div><div class="keybox"><h3>10. Scent rhythm persists under constant light and temperature. This supports:</h3><ol type="A"><li>Immediate UV injury only</li><li>Endogenous timing</li><li>No genetic regulation</li><li>Metabolic cessation</li></ol><details><summary>Answer and explanation</summary><p><strong>B.</strong> Persistence under constant conditions supports circadian control.</p></details></div></section>
+<section id="practice"><h2>13. Assertion–reason and application practice</h2><p>For each assertion–reason pair: A = both true and reason explains assertion; B = both true but reason does not explain assertion; C = assertion true, reason false; D = assertion false, reason true.</p><div class="keybox"><h3>1. A: Stored glucosinolates support rapid defense after damage. R: Injury can bring glucosinolates into contact with myrosinase.</h3><details><summary>Solution</summary><p>A. Rapid enzyme-mediated activation explains the response.</p></details></div><div class="keybox"><h3>2. A: Constant metabolite content proves synthesis has stopped. R: Inputs can balance losses at steady state.</h3><details><summary>Solution</summary><p>D. Net zero accumulation does not imply zero flux.</p></details></div><div class="keybox"><h3>3. A: A compound may deter a generalist but attract a specialist. R: Receivers differ in perception and detoxification.</h3><details><summary>Solution</summary><p>A. Receiver-specific traits explain distinct ecological effects.</p></details></div><div class="keybox"><h3>4. Numerical: in the seed yield model, calculate expected yields when p = 0.4.</h3><details><summary>Solution</summary><p>Defended = 84; deficient = 76. The modeled advantage is 8 seeds.</p></details></div><div class="keybox"><h3>5. A leaf concentration doubles from 20 to 40 nmol/g while dry mass falls from 2 to 1 g. What happens to total content?</h3><details><summary>Solution</summary><p>Both totals are 40 nmol. Concentration doubled without net increase in content.</p></details></div><div class="keybox"><h3>6. Design an experiment testing whether a flavonoid stimulates rhizobial nod expression rather than simply bacterial growth.</h3><details><summary>Solution</summary><p>Use a nod-promoter reporter and normalize activity per bacterial cell; compare solvent control, NodD-deficient and complemented strains across concentrations. Measure growth independently.</p></details></div></section>
+<section id="revision"><h2>14. Revision and mastery</h2><p>Recall the causal chain: perception → signaling → pathway regulation → flux → deployment → exposure → response. Keep biosynthesis, storage, emission and ecological function distinct.</p><div class="table-scroll"><table class="compare-table"><thead><tr><th scope="col">Term</th><th scope="col">Recall cue</th></tr></thead><tbody><tr><td>JA-Ile</td><td>COI1–JAZ interaction releases repression</td></tr><tr><td>UV-B</td><td>UVR8 and HY5 regulate protective flavonoids</td></tr><tr><td>Phytoalexin</td><td>Induced antimicrobial</td></tr><tr><td>Phytoanticipin</td><td>Preformed or derived from pre-existing constituents</td></tr><tr><td>Priming</td><td>Enhanced response to future challenge</td></tr><tr><td>Indirect defense</td><td>Natural enemy mediates benefit</td></tr><tr><td>Allelopathy</td><td>Chemical effect distinct from resource competition</td></tr><tr><td>Flux</td><td>Rate rather than concentration</td></tr><tr><td>Nodulation</td><td>Root flavonoid → NodD → bacterial Nod factor</td></tr></tbody></table></div><p>Before proceeding, explain a transporter mutant, predict a JA-perception mutant phenotype, distinguish constitutive storage from induction, and calculate synthesis from mass balance. The next node applies these principles to engineering precursor supply and product accumulation.</p><p>Related chapters: <a href="other-nitrogenous-specialized-metabolites.html">6.G.08 Other Nitrogenous Specialized Metabolites</a> · <a href="metabolic-engineering-in-plants.html">6.G.10 Metabolic Engineering in Plants</a>.</p></section>
+<section id="references"><h2>15. References and further reading</h2><ol><li>Taiz et al. <em>Plant Physiology and Development</em>. Oxford University Press.</li><li>Ehrlich PR and Raven PH (1964). Butterflies and plants: a study in coevolution. <em>Evolution</em> 18:586–608.</li><li><a href="https://doi.org/10.1093/pcp/pcz161">Plant Specialized Metabolism Regulated by Jasmonate Signaling</a> (2019).</li><li><a href="https://pubmed.ncbi.nlm.nih.gov/34746762/">Metabolism, signaling, and transport of jasmonates</a> (2021).</li><li><a href="https://pubmed.ncbi.nlm.nih.gov/28333395/">Small molecules below-ground: the role of specialized metabolites in the rhizosphere</a> (2017).</li><li><a href="https://pubmed.ncbi.nlm.nih.gov/38475470/">Chemically Mediated Plant–Plant Interactions: Allelopathy and Allelobiosis</a> (2024).</li><li><a href="https://doi.org/10.1093/plphys/kiae045">Phytohormones in a universe of regulatory metabolites: lessons from jasmonate</a> (2024).</li></ol><p>Numerical examples and questions use original hypothetical teaching data, not published experimental measurements.</p></section></div></article>
+        <nav class="node-navigation" id="chapter-navigation" aria-label="Curriculum navigation"><span id="previous-footer" class="disabled-nav">6.G.08 — previous chapter</span><span id="next-footer" class="disabled-nav">6.G.10 — next chapter</span></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 6 · System Physiology – Plant</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.id="zoom-"+copy.id;
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        [copy,...copy.querySelectorAll("*")].forEach(el=>{for(const attr of [...el.attributes])if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^)]*)\)/g,"url(#zoom-$1)"));});
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      dialog.addEventListener("close",()=>byId("zoom-art").replaceChildren());
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");for(const [code,id,footer] of [["6.G.08","previous-node","previous-footer"],["6.G.10","next-node","next-footer"]]){const entry=[...menu.querySelectorAll(".topic-code")].find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const button=byId(id);button.disabled=false;button.setAttribute("aria-label",link.textContent);button.onclick=()=>location.href=href;const a=document.createElement("a");a.href=href;a.textContent=(id==="previous-node"?"← ":"")+code+" "+link.textContent+(id==="next-node"?" →":"");byId(footer).replaceWith(a)}}).catch(()=>{});
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

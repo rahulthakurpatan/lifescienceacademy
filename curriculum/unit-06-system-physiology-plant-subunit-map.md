@@ -223,5 +223,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.A.02 — [Photosystem II and Photolysis of Water](https://rahulthakurpatan.github.io/lifescienceacademy/photosystem-ii-and-photolysis-of-water.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.07 — [C4 Photosynthesis and the Carbon-Concentrating Mechanism](https://rahulthakurpatan.github.io/lifescienceacademy/c4-photosynthesis-and-the-carbon-concentrating-mechanism.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.08 — [CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.A: 7/8; Unit 06: 7/66; Academy: 256/723.
-- Next unpublished: 6.A.04 — Photophosphorylation, Chemiosmosis and Cyclic Electron Flow.
+- 6.A.04 — [Photophosphorylation, Chemiosmosis and Cyclic Electron Flow](https://rahulthakurpatan.github.io/lifescienceacademy/photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 8/8 (complete); Unit 06: 8/66; Academy: 257/723.
+- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.

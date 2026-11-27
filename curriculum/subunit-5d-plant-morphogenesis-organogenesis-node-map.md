@@ -210,3 +210,9 @@
 
 - **5.D.04 — Root Apical Meristem: Quiescent Center, Stem-Cell Niche and Radial Patterning**: academic QA passed; chapter included in the publication tree at `root-apical-meristem-quiescent-center-stem-cell-niche-and-radial-patterning.html`. Pages and live availability require separate verification.
 - Subunit 5.D: 3/11. Unit 05: 39/57. Academy: 231/723. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.09 — Inflorescence and Floral Meristems: Identity, Position and Determinacy**: chapter included in publication tree at `inflorescence-and-floral-meristems-identity-position-and-determinacy.html`; deployment must be verified separately.
+- Subunit 5.D: 5/11. Unit 05: 41/57. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.

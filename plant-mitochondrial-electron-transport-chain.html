@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Follow respiratory electrons through mitochondrial Complexes I–IV, ubiquinone, cytochrome c and alternative plant NAD(P)H dehydrogenases.">
+  <meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html">
+  <title>Plant Mitochondrial Electron Transport Chain | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 06</span><span>›</span><span>6.B</span><span>›</span><strong>6.B.02</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">6.B.02</span><span>System Physiology – Plant</span></div><h1>Plant Mitochondrial Electron Transport Chain</h1><p class="subtitle">Redox carriers, membrane topology, respiratory proton translocation and alternative electron entry</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous node not yet available">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next node is not yet published">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#problem">1. The problem of continuing respiratory oxidation</a><a href="#topology">2. Membrane organization and compartment identity</a><a href="#redox">3. Redox chemistry and the direction of electron transfer</a><a href="#complex-i">4. Complex I: NADH oxidation, quinone reduction and proton pumping</a><a href="#complex-ii">5. Complex II: a connection between carbon metabolism and the quinone pool</a><a href="#pool">6. Ubiquinone and cytochrome c: mobile carriers</a><a href="#references">References</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Plant Mitochondrial Electron Transport Chain"><div class="article-content" id="article"><section id="problem"><h2>1. The problem of continuing respiratory oxidation</h2><p class="teaching-prose">A germinating seed may grow for several days without any effective photosynthesis. Its stored carbon supports elongation of the root, synthesis of membranes, protein turnover and uptake of mineral ions. These activities consume ATP even though the seed has not yet developed a photosynthetically competent leaf. A mature leaf faces the same energetic problem at night, and its nonphotosynthetic cells face it during the day as well. The energy contained in organic molecules is not itself ATP. Cells must transfer a controlled portion of that energy to a form that can support work, while maintaining a supply of oxidized cofactors for subsequent reactions. The mitochondrial electron transport chain connects these two requirements. It allows reducing equivalents from respiratory metabolism to be oxidized and uses the energy released during electron transfer to establish an electrochemical difference across a membrane.</p>
+<p class="teaching-prose">The preceding chapter follows respiratory carbon into acetyl-CoA and the citric acid cycle. The cycle generates reduced nicotinamide adenine dinucleotide, NADH, through several different reactions. Succinate oxidation also reduces the flavin cofactor of succinate dehydrogenase. To understand the problem posed by these products, imagine a matrix in which NADH is produced continuously but never oxidized. The available pool of NAD+ would become progressively depleted. Reactions requiring NAD+ would eventually slow even if organic substrate remained abundant. The fact that ATP is needed does not by itself restore the missing cofactor. NADH must lose its reducing equivalents to an acceptor, and the resulting NAD+ must return to metabolism. The electron transport chain performs this regeneration through a succession of carriers that terminate, under aerobic conditions, in the reduction of molecular oxygen.</p>
+<p class="teaching-prose">Respiration in a green plant is often misunderstood because photosynthesis and mitochondrial respiration have opposite overall gas-exchange signatures. A chloroplast can release oxygen during water oxidation while a mitochondrion in the same cell consumes oxygen at cytochrome c oxidase. There is no contradiction: the processes occur in distinct membrane systems, and the source of energy for each differs. Chloroplast photochemistry raises the energy of electrons using absorbed light. Mitochondria capture some of the energy already available when reduced substrates transfer electrons toward oxygen. In illuminated leaves, the oxygen production of photosynthesis can exceed respiratory oxygen consumption, so the net oxygen signal is positive despite ongoing consumption. Net gas exchange is therefore not equivalent to the mitochondrial respiratory rate. In roots, tubers and many seed tissues, the photosynthetic contribution is absent, making mitochondrial energy metabolism particularly apparent.</p>
+<p class="teaching-prose">The term respiratory chain denotes electron-transfer reactions organized around proteins and mobile carriers in the inner mitochondrial membrane. The chain is not a single polypeptide or a rigid row in which every electron necessarily passes through every numbered protein. Rather, it is a network with distinct entry points and a shared quinone pool. Complex I receives electrons from matrix NADH; Complex II receives reducing equivalents from the oxidation of succinate. Both conventional entry routes deliver electrons to ubiquinone. Ubiquinol subsequently supplies Complex III, which passes electrons to cytochrome c. The reduced cytochrome c delivers them to Complex IV, where oxygen is converted to water. In plant mitochondria, additional NADH- or NADPH-oxidizing enzymes can feed the quinone pool without operating the proton-pumping machinery of Complex I. A separate terminal route, alternative oxidase, can draw electrons from ubiquinol without using Complexes III and IV. This last branch is introduced here only to explain the network; its regulation and physiology are the subject of a later chapter.</p>
+<p class="teaching-prose">To see why this arrangement matters, distinguish electron transport, proton translocation and ATP synthesis. Electron transport is the transfer of reducing equivalents between chemical groups. Proton translocation is the net movement of positive charge and hydrogen ions across the membrane through energy-coupled reactions. ATP synthesis is the formation of ATP from ADP and inorganic phosphate through the membrane enzyme ATP synthase. The activities are related but not identical. Complex II transfers electrons without directly pumping protons. ATP synthase uses an existing electrochemical difference without accepting electrons from NADH. If the membrane loses its ability to maintain a proton gradient, some electron transfer may continue even when ATP production is inefficient. A student who equates oxygen consumption directly with ATP production will therefore struggle to interpret mitochondrial experiments.</p>
+<p class="teaching-prose">Plant physiology also demands attention to metabolic flexibility. Unlike an idealized closed reaction sequence, a living mitochondrial network receives fluctuating amounts of reducing equivalents from carbon metabolism and, in illuminated C3 leaves, from glycine oxidation during photorespiration. Cells encounter variable oxygen availability, temperature, sugar supply and biosynthetic demand. Consequently, the most useful question is not simply how many molecules of ATP are formed per glucose, but which routes electrons can take under particular conditions, how those routes affect the gradient, and how experiments identify them. The chapter develops the molecular map first, then connects the map to quantitative proton accounting and respiratory observations. ATP synthase catalysis and the detailed costs of ATP synthesis belong to the following chapter.</p>
+<p class="teaching-prose">The biological advantage of a chain rather than a single unrestricted reaction can be appreciated from the chemistry of oxygen. Reduced organic compounds and oxygen have a large difference in electron affinity under appropriate conditions. A direct reaction would not automatically direct energy toward the movement of ions or the regeneration of a particular intracellular cofactor. The organized membrane network instead offers successive catalytic sites, so that substrate oxidation, intermediary electron transfer and the terminal reaction can be coordinated. Some stages are linked to vectorial proton movement. Other stages principally provide a chemical connection between available electron donors and the conserved quinone pool. The distinction between those functions explains why the overall redox reaction is not enough to predict the amount of energy conserved by a mitochondrion.</p></section>
+<section id="topology"><h2>2. Membrane organization and compartment identity</h2><p class="teaching-prose">Before following a single electron, establish the orientation of the mitochondrial membranes. An intact mitochondrion has an outer membrane, an inner membrane, an aqueous intermembrane space between them, and a matrix inside the inner membrane. The inner membrane forms folds called cristae, which increase its surface area and organize many respiratory proteins. The matrix contains enzymes for several respiratory transformations, including most soluble enzymes of the citric acid cycle. The respiratory chain is associated with the inner membrane rather than distributed freely through the matrix. The outer membrane helps define the organelle and supports exchange with the cytosol, but it is not the principal barrier across which the respiratory proton motive force is maintained.</p>
+<p class="teaching-prose">The importance of the inner membrane lies in its selective permeability. A phospholipid bilayer provides a hydrophobic interior that resists the unrestricted movement of hydrated ions. Proteins allow selected molecules and charges to cross through specified routes. If protons were able to move freely across the entire inner membrane, every proton moved outward by respiratory reactions could promptly return without doing useful work. Sustained separation of charge would become difficult. The relatively low passive proton permeability of the inner membrane therefore allows respiratory complexes to establish a difference in proton electrochemical potential between its two aqueous faces.</p>
+<p class="teaching-prose">It is useful to call the matrix-facing surface the N side and the intermembrane-space-facing surface the P side. During conventional forward electron transport, positive charge is displaced toward the P side, and the matrix generally becomes electrically negative relative to the intermembrane space. The abbreviations identify membrane orientation, not universal names for all intracellular compartments. For example, in the thylakoid membrane the side that accumulates protons is the lumen, and ATP is synthesized on the stromal side. Transferring chloroplast orientation directly to a mitochondrion is a common error. In mitochondrial respiration the corresponding proton return is from intermembrane space into matrix, where the catalytic head of ATP synthase operates.</p>
+<p class="teaching-prose">Several respiratory proteins extend into one aqueous compartment while also spanning or associating with the hydrophobic interior of the inner membrane. Complex I has a peripheral arm projecting into the matrix, where soluble NADH can reach its catalytic site, and a membrane arm that participates in proton pumping. Complex II presents its succinate-oxidizing machinery to the matrix and anchors it to the membrane. Complex III interacts with lipid-soluble ubiquinol at membrane-accessible sites and with soluble cytochrome c on the P side. Complex IV accepts electrons from cytochrome c at the P side and receives chemical protons for water formation from the matrix. A diagram of these complexes should not be interpreted as a literal scale model: relative sizes, distances and membrane protein positions vary, and the membrane is a three-dimensional structure.</p>
+<p class="teaching-prose">Ubiquinone is particularly suited to electron transfer among membrane-associated sites because it contains a polar redox-active ring attached to a hydrophobic isoprenoid tail. The tail favors association with the lipid phase, while the ring participates in reversible oxidation and reduction. Cytochrome c, by contrast, is a small water-soluble heme protein associated with the intermembrane-space-facing surface of the inner membrane. It receives electrons from Complex III and transfers them to Complex IV. It would be incorrect to draw cytochrome c as a lipid-soluble quinone traveling through the bilayer. Nor should ubiquinone be drawn as a freely soluble matrix cofactor analogous to NADH. These physical distinctions follow from molecular structure and are essential when locating inhibitor effects.</p>
+<p class="teaching-prose">The outer membrane contains channels that permit exchange of many small solutes between the cytosol and the intermembrane space. This permeability does not make the matrix chemically identical to the cytosol because the inner membrane imposes an additional selective barrier. In particular, NADH itself does not simply diffuse through an intact inner membrane from the cytosol into the matrix. Plants can exploit alternative NAD(P)H dehydrogenases whose catalytic sites face the outer side of the inner membrane, thereby accessing reducing equivalents outside the matrix through the appropriate compartment. This is different from importing intact cytosolic NADH into the matrix. Metabolic shuttles can also transfer reducing equivalents indirectly, but those pathways are not the same reaction as membrane NADH transport.</p>
+<p class="teaching-prose">Topology becomes especially important in isolated mitochondrial experiments. If the outer membrane ruptures, intermembrane-space proteins such as cytochrome c may be lost, and respiration through the conventional chain may decrease even though the catalytic centers of Complexes III and IV are still present. Conversely, inner membrane damage can collapse the electrochemical gradient while leaving some redox activity measurable. A biochemical preparation cannot be assumed to behave like an intact mitochondrion simply because it contains mitochondrial proteins. Before attributing a low oxygen-consumption rate to a missing respiratory enzyme, consider whether the preparation still contains its mobile carriers, appropriate substrates and an intact coupling membrane.</p>
+<p class="teaching-prose">Cristae are not independent miniature mitochondria. Their membranes are continuous with the inner mitochondrial membrane, and their luminal spaces communicate with the intermembrane space through junctions. This permits extensive respiratory membrane area inside the organelle while retaining the relevant separation from the matrix. The exact local distribution of complexes and protons may vary with membrane geometry and physiological conditions. For examination purposes, a two-compartment representation is usually sufficient to explain the direction of proton translocation, carrier accessibility and electrochemical coupling. The representation is a functional abstraction, not a claim that the concentrations and electrical conditions are identical at every point of a real crista.</p>
+<p class="teaching-prose">A simple orientation exercise clarifies the relationship between structure and function. Suppose a membrane-impermeant inhibitor is introduced on the matrix side of an oriented inner-membrane vesicle. It may reach a matrix-facing enzyme site while leaving a P-side catalytic site inaccessible. If the vesicles are inverted during preparation, the same added reagent can act on a different set of exposed domains. A change in accessibility therefore offers experimental evidence about protein orientation, provided the investigator controls membrane integrity and vesicle orientation. The outcome cannot be interpreted merely by comparing inhibitor concentration. Location is part of the causal mechanism, and a compartment map is the foundation of reliable reasoning about respiratory reactions.</p></section>
+<section id="redox"><h2>3. Redox chemistry and the direction of electron transfer</h2><p class="teaching-prose">Oxidation and reduction are complementary processes. In a redox reaction a donor loses reducing equivalents, while an acceptor gains them. An oxidation reaction cannot proceed in isolation without some corresponding reduction. In the mitochondrial chain, substrate-derived electrons are conveyed between cofactors that alternate between oxidized and reduced states. The oxidation of NADH restores NAD+; the final reduction of oxygen produces water. The respiratory proteins contain intermediary cofactors that provide chemically suitable ways for these transfers to occur, often handling one electron at a time even when the original donor transfers two.</p>
+<p class="teaching-prose">A reduction potential expresses the tendency of a redox couple to accept electrons under specified conditions. The more positive the potential, the stronger the relative tendency of its oxidized member to be reduced under those conditions. If a donor couple has a lower reduction potential than the acceptor couple, the transfer can be energetically favorable. The relationship between potential difference and Gibbs free energy is ΔG = −nFΔE, with ΔE defined as the acceptor reduction potential minus the donor reduction potential, n the number of moles of electrons transferred per mole of reaction, and F approximately 96.485 kilocoulombs per mole of electrons. This equation connects a measurable redox property to the maximum non-expansion work available under the specified thermodynamic conditions.</p>
+<p class="teaching-prose">Consider an illustrative biochemical-standard comparison between the NAD+/NADH couple at about −0.32 V and the oxygen/water couple at about +0.82 V. Their potential difference is about 1.14 V. If two electrons are transferred, the calculated free-energy change is approximately −220 kJ per mole of NADH oxidized under those standard conditions. The negative sign means that the net electron transfer is thermodynamically favorable. It does not specify the fraction of this energy captured by proton translocation, nor does it yield the exact ATP output of a real mitochondrion. Real potentials depend on pH, substrate concentrations and the relative amounts of oxidized and reduced cofactors. The standard calculation is a useful reference for the energetic scale of the process, not an invariant physiological measurement.</p>
+<p class="teaching-prose">The tendency to transfer electrons is conditional on the state of both the donor and the acceptor pools. If most NAD is already in the oxidized form and very little NADH is present, then the rate and thermodynamic driving force of NADH oxidation may differ from those in a matrix rich in NADH. If the quinone pool is predominantly reduced, acceptance of additional electrons by quinone becomes less favorable. These effects are understood through the Nernst relation: for a simple half reaction written as Ox + ne− → Red at fixed pH, E = E°′ + (RT/nF) ln([Ox]/[Red]), using activities in rigorous thermodynamic treatment. As the ratio of oxidized to reduced forms increases, the effective reduction potential rises. If protons explicitly appear in the half reaction and pH changes, their activities must also be accounted for.</p>
+<p class="teaching-prose">The diagrammatic arrow from a donor toward oxygen therefore represents the predominant direction of forward respiratory flux, not an absolute law that every carrier step is irreversible. Many redox reactions are reversible in appropriate circumstances. A large proton motive force and a sufficiently reduced quinone pool can, for example, provide conditions favorable to reverse electron transfer through Complex I. Such reverse transfer is not the standard pathway for aerobic matrix NADH oxidation, but its possibility shows why redox chemistry and membrane energetics have to be understood together. Simply ranking proteins in numerical order does not determine the actual direction of every chemical step.</p>
+<p class="teaching-prose">Cofactors also differ in how they carry reducing equivalents. NADH normally transfers a hydride equivalent to a suitable enzyme-bound acceptor. Flavin cofactors can participate in both two-electron and single-electron reactions, which helps connect NADH oxidation to one-electron carriers such as iron-sulfur centers. Quinones can exist in fully oxidized, semiquinone and fully reduced forms. A heme iron in cytochrome c alternates between ferric and ferrous oxidation states, accepting or donating one electron per molecule. These differences help explain why a simple equation involving a pair of electrons may require two successive cytochrome c reduction events. Electron balance must be respected at every intermediate stage, even when the overall pathway is drawn as a single arrow.</p>
+<p class="teaching-prose">The conventional pathway also depends on the existence of oxygen as a final acceptor. Oxygen does not normally accept electrons from every carrier in the chain, because the proteins organize specific catalytic contacts and reaction pathways. At Complex IV, a specialized catalytic center enables the coordinated four-electron reduction of oxygen to water. At other points, particularly where partially reduced redox intermediates occur, some electrons can react with oxygen adventitiously and generate reactive oxygen species. The controlled terminal reaction and this side reaction must not be confused. Oxygen consumption is not necessarily accompanied by a fixed amount of superoxide formation, and production of reactive oxygen species is not the intended function of the conventional chain.</p>
+<p class="teaching-prose">For quantitative reasoning, count electrons before counting protons. One NADH supplies a pair of electrons. Each reduced cytochrome c carries one electron. One molecule of O2 accepts four electrons in complete reduction to two water molecules. Thus a pair of electrons corresponds to half a molecule of O2 in molar stoichiometry. The use of a fractional oxygen coefficient does not imply a physical enzyme molecule breaks oxygen in half; it is a normalized chemical equation. Two NADH molecules provide the four electrons required for one O2. This simple bookkeeping prevents confusion between a mole of oxygen molecules, a mole of oxygen atoms and a mole of electron pairs.</p>
+<p class="teaching-prose">Finally, free energy and rate are different properties. A large favorable ΔG indicates that a reaction can proceed in the forward direction under defined conditions; it does not tell how rapidly the reaction occurs. Enzymes influence rates by lowering activation barriers, and the organization of the membrane determines whether the reaction is linked to proton transport. A respiratory inhibitor can greatly slow a thermodynamically favorable process without changing the underlying standard free-energy difference between NADH and oxygen. A student interpreting experiments should separate the driving force for the overall redox process from the kinetic accessibility of each individual catalytic route.</p></section>
+<section id="complex-i"><h2>4. Complex I: NADH oxidation, quinone reduction and proton pumping</h2><p class="teaching-prose">The first conventional entry point is NADH:ubiquinone oxidoreductase, usually called Complex I. Its function is defined by the two substrates in that name. NADH is oxidized, and ubiquinone is reduced. The reaction occurs through a large multi-subunit enzyme embedded in the inner membrane. Structural studies show the general organization of an L-shaped complex with a matrix-exposed hydrophilic arm and a membrane-embedded arm. The hydrophilic region contains the redox cofactors, and the membrane region enables proton translocation. Plant Complex I shares this conserved functional architecture with other eukaryotic mitochondria, although plant-specific accessory components and assembly features exist.</p>
+<p class="teaching-prose">A soluble matrix NADH molecule reaches the enzyme's NADH-binding site. Its reducing equivalents are transferred to flavin mononucleotide, FMN, which is associated with the complex. A flavin can accept the two reducing equivalents of NADH and pass electrons successively to one-electron carriers. A chain of iron-sulfur centers provides a pathway through the hydrophilic arm toward the quinone reaction region. Iron-sulfur centers are coordinated metal cofactors capable of reversible changes in electronic state. They do not need to diffuse between the respiratory complexes; their positions within the protein support short-distance electron transfer. The electron relay brings the reducing equivalents to the region where ubiquinone is reduced.</p>
+<p class="teaching-prose">At the quinone site, oxidized ubiquinone accepts two electrons and the appropriate protons to become ubiquinol. This reaction is distinct from the protons that are translocated through the membrane arm. Writing the chemical reaction without proton pumping helps separate the bookkeeping: NADH + H+ + Q → NAD+ + QH2. When NADH donates a hydride equivalent, the additional hydrogen ion in the net equation is supplied by the matrix. The electron and proton contents of the reactants and products balance. In the physiological forward reaction the conserved conventional stoichiometry is approximately four protons translocated from matrix to P side per electron pair, in addition to the chemical chemistry represented by the net quinone-reduction reaction.</p>
+<p class="teaching-prose">Energy coupling poses an interesting molecular problem. NADH oxidation and quinone reduction occur predominantly in the hydrophilic arm, whereas the proton-translocating components extend along the membrane arm. How can redox chemistry drive the movement of protons at sites physically separated from the electron-transfer centers? The answer involves communication between quinone-site chemistry, protein conformational states, electrostatic changes and proton pathways within the membrane domain. Exact molecular details remain the subject of structural and biochemical research. At CSIR-NET level, the established functional conclusion is that energy released by favorable NADH-to-quinone electron transfer is coupled to vectorial proton translocation through Complex I. It would be inaccurate to assert that an electron physically travels along each proton channel, or that the four protons are simply carried across the membrane by the NADH molecule.</p>
+<p class="teaching-prose">The four-proton coupling convention is normalized to the oxidation of one NADH, equivalent to two electrons. It is not the number of electrons in the NADH molecule. When succinate-derived electrons enter the quinone pool through Complex II, they do not automatically travel backward through Complex I to obtain this contribution. Likewise, a plant alternative type II NADH dehydrogenase that reduces Q without pumping protons does not make the same contribution merely because the initial substrate is NADH. The energetic contribution is a property of the route, not a fixed property of a free electron or an NADH molecule regardless of its path.</p>
+<p class="teaching-prose">Complex I is sensitive to inhibitors such as rotenone that interfere with quinone-linked electron transfer. If the conventional chain is the only relevant route and respiration depends on matrix NADH, blocking Complex I prevents efficient donation of those electrons to Q. NADH may accumulate as continued substrate oxidation supplies reducing equivalents, and downstream carriers may become more oxidized if they retain access to oxygen but lack electron input. The proton-translocating activity associated with Complex I falls, and oxygen consumption through the conventional NADH-dependent route declines. This prediction assumes that upstream substrate is available and that the remaining respiratory machinery is intact. If no substrate is being oxidized, an inhibitor may cause little detectable change because there was little electron flux to begin with.</p>
+<p class="teaching-prose">Plant mitochondrial respiratory measurements are especially instructive because rotenone sensitivity does not necessarily account for all NADH-related oxygen consumption. Alternative NAD(P)H dehydrogenases can provide other entry pathways to ubiquinone. If they are active and can access the available reducing equivalents, some electron flow may persist after Complex I inhibition. This persistence does not imply that rotenone has somehow converted Complex I into a non-pumping enzyme. It indicates that another route may carry the electrons. The degree of residual respiration depends on the specific preparation and substrate conditions, so a partial inhibitor response cannot by itself establish an exact allocation of flux between enzymes.</p>
+<p class="teaching-prose">A useful causal prediction follows from comparing two mitochondrial suspensions. Both receive a matrix NADH-generating substrate, oxygen and the conditions needed for coupled respiration. Suspension A contains active Complex I; in suspension B the quinone reaction of Complex I is inhibited, while succinate-dependent Complex II remains functional. If no other NADH entry route operates, B will show reduced oxygen consumption with the first substrate. If succinate is then provided in a way that permits its oxidation, oxygen consumption can resume via Complex II. The rescue demonstrates that the downstream chain may still be intact. It does not restore the four protons associated with the normal Complex I route. Comparing oxygen consumption alone would miss that energetic difference; a gradient or ATP measurement offers additional information.</p>
+<p class="teaching-prose">Plant Complex I also has structural features beyond the minimal conserved catalytic machinery. Some accessory subunits form domains related to carbonic anhydrase, particularly in plant and other photosynthetic eukaryotic complexes. Their presence illustrates the integration of conserved energy-converting machinery with lineage-specific cellular history. For the present learning objective, it is enough to distinguish these structural features from the core NADH oxidation, electron relay and proton-translocation functions. The existence of additional protein components does not justify inventing extra pumping sites or adding unverified proton stoichiometries to the conventional respiratory accounting.</p>
+<p class="teaching-prose">An additional distinction concerns reactive oxygen formation. A flavin or other redox site held in a highly reduced state can interact with oxygen in side reactions, particularly when normal electron acceptance is restricted. However, the amount of superoxide formed depends on the redox state, membrane potential and exact inhibitory or substrate conditions. It is not correct to assume that every inhibition of Complex I invariably raises reactive oxygen formation by the same mechanism. Some interventions decrease the supply of electrons to a particular ROS-producing site, whereas others increase its reduction state. A mechanistic prediction should identify the site, specify the availability of reducing equivalents and distinguish a possible tendency from a universal rule.</p></section>
+<section id="complex-ii"><h2>5. Complex II: a connection between carbon metabolism and the quinone pool</h2><p class="teaching-prose">Succinate dehydrogenase is a particularly useful enzyme because it belongs to both the citric acid cycle and the respiratory chain. In the cycle it catalyzes the oxidation of succinate to fumarate. In the respiratory network it transfers the resulting reducing equivalents to ubiquinone. These are two aspects of the same enzyme reaction rather than separate reactions carried out by a soluble succinate dehydrogenase and an unrelated Complex II. The protein's position in the inner mitochondrial membrane enables a matrix-accessible metabolic substrate to deliver electrons to the lipid-associated quinone pool.</p>
+<p class="teaching-prose">Oxidation of succinate removes two hydrogen equivalents from adjacent carbon atoms, leaving the carbon-carbon double bond characteristic of fumarate. The four carbon atoms remain in the organic product; no carbon dioxide is produced at this step. The enzyme-bound flavin adenine dinucleotide, FAD, accepts the reducing equivalents. Unlike NADH, which is a freely exchanging substrate of numerous dehydrogenases, the flavin in succinate dehydrogenase remains associated with the enzyme through catalytic turnover. The shorthand statement that the citric acid cycle produces FADH2 is useful for electron accounting, but the student should not imagine a freely diffusing FADH2 molecule traveling from the matrix to a separate binding site on Complex II. The succinate dehydrogenase reaction already takes place within the complex itself.</p>
+<p class="teaching-prose">The reduced flavin transfers electrons through iron-sulfur centers toward the quinone-binding region. Quinone accepts a pair of electrons and becomes quinol. The net redox reaction can be written as succinate + Q → fumarate + QH2. This equation highlights the fact that succinate and quinone are the donor and acceptor of reducing equivalents, respectively. The flavin and iron-sulfur centers are catalytic intermediaries and are restored during turnover. Additional membrane-associated components anchor and organize the quinone site. Plant Complex II contains distinctive structural subunits compared with the standard simplified description from animal mitochondria, but the principal function of succinate-to-quinone electron transfer remains conserved.</p>
+<p class="teaching-prose">The most important energetic feature of Complex II is what it does not do: it does not directly pump protons across the inner membrane. There is no equivalent four-proton membrane arm performing the work of Complex I. The redox potential difference for succinate-to-quinone electron transfer is also much smaller than for NADH-to-quinone transfer under the usual biochemical conditions. Although the exact thermodynamics depend on concentrations, the route functions as a non-pumping connection from carbon oxidation to Q. The two hydrogen equivalents ending up on QH2 should not be counted as two pumped protons from matrix to intermembrane space. At this stage they are part of the chemical quinol product. Their role in vectorial charge transfer is realized during downstream quinol oxidation.</p>
+<p class="teaching-prose">This distinction is particularly important when comparing NADH-dependent and succinate-dependent respiration. If both routes subsequently use Complexes III and IV, the downstream proton-translocating processes are shared. The succinate route lacks the four-proton contribution of Complex I, so under idealized conventional coupling it contributes six rather than ten protons per electron pair to the total outward proton translocation. The fact that both routes can support oxygen consumption does not make them energetically equivalent. Conversely, the fact that Complex II is not a pump does not imply that succinate oxidation cannot contribute to mitochondrial ATP synthesis; downstream complexes generate an electrochemical gradient from its electrons.</p>
+<p class="teaching-prose">Malonate provides a classical way to reason about succinate dehydrogenase activity. It is structurally similar enough to succinate to compete at its substrate-binding region, but it is not converted by the normal succinate-to-fumarate reaction. Under an ideal competitive inhibition model, adding more succinate can partially overcome inhibition, whereas changing an unrelated donor does not overcome the same competition at that site. In a mitochondrial suspension receiving succinate as the principal electron donor, sufficiently strong inhibition of succinate dehydrogenase reduces electron delivery to Q and therefore decreases conventional oxygen consumption. If NADH-linked electron entry through Complex I is intact, a substrate producing matrix NADH may support respiration independently of Complex II. Such experiments help locate the inhibited step relative to the shared quinone pool.</p>
+<p class="teaching-prose">An inhibitor of Complex II can affect more than a single respiratory rate. Because succinate oxidation participates in the citric acid cycle, changes in its activity may alter the relative amounts of succinate, fumarate and other cycle intermediates. Predicting the steady-state concentration of each metabolite requires more than simply locating the blocked reaction: alternative consumption routes, substrate supply and feedback control may alter the pattern. In a simplified short-term experiment where succinate is continually supplied and fumarate formation is primarily through Complex II, succinate is expected to accumulate relative to control, and the rate of fumarate formation to decrease. In an intact plant cell the wider metabolic network can modify those observations. The distinction between immediate mechanistic consequences and long-term steady-state concentrations is valuable for Part C questions.</p>
+<p class="teaching-prose">The reaction can be interpreted by comparing two experiments with the same downstream machinery. A mitochondrial preparation supplied with succinate and oxygen consumes oxygen even if Complex I is blocked, provided the necessary transport and enzymatic steps remain functional. A second preparation supplied with a matrix NADH-generating substrate can consume oxygen when Complex II is blocked, provided Complex I and downstream pathways function. These independent routes converge at Q. A block of Complex III or IV therefore affects both conventional routes, unless another terminal pathway is available. This logical convergence is more useful than memorizing a list of inhibitor names because it lets the student predict the outcome of unfamiliar experimental manipulations.</p>
+<p class="teaching-prose">The succinate/fumarate reaction also reminds us that thermodynamic direction and physiological role can vary with context. A protein capable of transferring reducing equivalents between two couples may, under suitable conditions, catalyze reactions in the reverse direction. The standard plant respiration map in this chapter focuses on forward succinate oxidation and Q reduction under aerobic conditions. It should not be expanded into a claim that the complete citric acid cycle necessarily operates in one fixed cyclic pattern in every plant tissue or metabolic state. The electron transport network participates in determining the redox balance within which the carbon-metabolic pathways operate.</p></section>
+<section id="pool"><h2>6. Ubiquinone and cytochrome c: mobile carriers</h2><p class="teaching-prose">The respiratory chain has multiple entry points but must communicate between proteins distributed throughout the membrane. A mobile carrier allows different enzymes to share a common redox pool. Ubiquinone, abbreviated Q, is the oxidized form of coenzyme Q. Ubiquinol, QH2, is its fully reduced form. Reduction involves addition of two electrons and two protons to the quinone ring. A one-electron intermediate, semiquinone, is possible in the catalytic mechanisms of quinone-associated enzymes. The hydrophobic tail holds the molecule within the membrane environment, so diffusion and local protein interactions allow Q and QH2 to reach appropriate enzyme-binding regions.</p>
+<p class="teaching-prose">Complex I, Complex II and plant alternative dehydrogenases can all reduce the oxidized quinone pool. Complex III can oxidize QH2 and transfer the electrons onward to cytochrome c. Plant alternative oxidase also oxidizes QH2 but transfers the reducing equivalents directly toward oxygen by a distinct terminal pathway. The pool is therefore a junction, not merely an intermediate that is used by Complex I alone. Its degree of reduction reflects the balance between the input and output pathways. If Q reduction increases while QH2 oxidation does not, the reduced fraction of the pool tends to increase. If terminal oxidation is accelerated without a corresponding increase in input, the pool can shift toward the oxidized form.</p>
+<p class="teaching-prose">The expression 'the Q pool is reduced' does not necessarily mean every quinone molecule is reduced. It usually describes a population with a relatively high QH2 fraction. For a simple accounting example, if an illustrative pool contains 100 molecules of quinone in total, with 70 in the QH2 state and 30 in the Q state, its reduced fraction is 70 percent when semiquinone is negligible. If twenty additional Q molecules are reduced and none are reoxidized during the observation interval, the fraction rises to 90 percent. The example is a teaching model, not experimental data. A real mitochondrion continuously turns over quinone, and changes in redox state reflect the difference between simultaneous reduction and oxidation fluxes.</p>
+<p class="teaching-prose">Cytochrome c plays a different role. It is a heme-containing protein found on the intermembrane-space side of the inner membrane. Its heme iron cycles between oxidized Fe3+ and reduced Fe2+ states. Each cytochrome c accepts one electron from Complex III, then donates one electron to Complex IV and becomes oxidized again. Unlike ubiquinone, it is not a proton-carrying lipid-soluble molecule that cycles between Q and QH2. Its role as a mobile one-electron carrier is essential in connecting the two conventional cytochrome complexes. The difference in carrier capacity explains why oxidation of a single QH2 must be matched by the reduction of two cytochrome c molecules when the overall Complex III reaction is considered.</p>
+<p class="teaching-prose">The two mobile carriers also permit a useful localization of defects. In a system where Complex I and II are active and downstream Complex III is blocked, electron input can drive the Q pool toward reduction, while cytochrome c downstream of the block may remain relatively oxidized if Complex IV can still accept its remaining electrons. If instead Complex IV is blocked while Complex III continues functioning for a short interval, cytochrome c becomes more reduced because its oxidation route is impaired. These tendencies assume continuing electron supply, enough oxygen, and no alternative pathways or loss of carriers. The reasoning is akin to observing a bottleneck: material before the block can accumulate, and supply after the block may decline. Unlike an inert material in a pipe, however, electrons are transferred among reversible redox couples whose state affects subsequent flux, so the analogy has limits.</p>
+<p class="teaching-prose">Experimental assays can sometimes distinguish changes in carrier redox state from changes in total respiration. Cytochromes absorb light differently depending on whether their heme iron is oxidized or reduced. Difference spectroscopy exploits this property to compare samples or follow respiratory changes. A difference in absorbance is interpretable only if the appropriate wavelengths, sample baseline and contributions from other chromophores are considered. A whole-chain oxygen electrode reports net oxygen consumption; it cannot directly identify whether Q or cytochrome c is predominantly oxidized. Combining optical measurements with respiratory assays can therefore narrow down the region at which electron transfer becomes restricted.</p>
+<p class="teaching-prose">The organization of electron transport may also involve associations among several respiratory complexes, often termed supercomplexes. Such associations can influence organization and stability, but the presence of a supercomplex should not lead to the conclusion that ubiquinone and cytochrome c have lost their identities as carriers or that all electrons must pass through a single fixed sequence of physically fused enzymes. At the level required here, the conserved functional routes and their compartmental orientation provide the essential map. Plant-specific assembly and regulation offer context, while detailed structural subunit catalogs are unnecessary for solving the central questions about flux and coupling.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://doi.org/10.1093/plphys/kiad108">The biogenesis and regulation of the plant oxidative phosphorylation system. Plant Physiology (2023), 192:728–747.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26904/">Molecular Biology of the Cell: Electron-Transport Chains and Their Proton Pumps.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK9885/">The Cell: The Mechanism of Oxidative Phosphorylation.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11337409/">Plant mitochondria and oxidative stress: Electron transport, NADPH turnover, and metabolism of reactive oxygen species.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4158967/">Metabolic Control of Redox and Redox Control of Metabolism in Plants.</a></li></ol></section></div></article>
+        <nav class="node-navigation" id="chapter-navigation" aria-label="Adjacent published chapters"><a href="./">Academy curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology – Plant</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog"); document.querySelectorAll("[data-zoom]").forEach(btn=>btn.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return; const clone=byId(btn.dataset.zoom).cloneNode(true); const elements=[clone,...clone.querySelectorAll("[id]")]; elements.forEach(el=>{el.id="enlarged-"+el.id}); clone.setAttribute("aria-labelledby",clone.getAttribute("aria-labelledby").split(" ").map(x=>"enlarged-"+x).join(" ")); byId("zoom-art").replaceChildren(clone);dialog.showModal();})); dialog.addEventListener("close",()=>byId("zoom-art").replaceChildren()); byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");for(const[code,id]of[["6.B.01","previous-node"],["6.B.03","next-node"]]){const entry=[...menu.querySelectorAll(".topic-code")].find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.onclick=()=>location.href=href;const a=document.createElement("a");a.href=href;a.textContent=(id==="previous-node"?"← ":"")+code+" "+link.textContent+(id==="next-node"?" →":"");byId("chapter-navigation").append(a)}}).catch(()=>{});
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

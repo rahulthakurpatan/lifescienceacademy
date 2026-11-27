@@ -14,6 +14,8 @@
 
 ### 6.G.01 — Foundations of Plant Specialized Metabolism
 
+**Publication:** [Chapter](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-specialized-metabolism.html) — editorial and static checks completed; live verification pending.
+
 **Student-facing description:** Connect photosynthetic carbon and assimilated nitrogen with specialized metabolite classification, precursor supply and plant chemical diversity.
 
 **Core scope:** Primary versus specialized metabolism; shared precursors acetyl-CoA, pyruvate, glyceraldehyde-3-phosphate, PEP, erythrose-4-phosphate, malonyl-CoA and amino acids; carbon/nitrogen allocation; biosynthetic versus structural classification, pathway branching and evolutionary diversification. Distinguish essential functions from historical terminology.
@@ -138,3 +140,5 @@ No official topic is intentionally omitted. Examples are illustrative, not a cla
 - Subunit 6.G: 3/10; next unpublished in this subunit: 6.G.01 — Foundations of Plant Specialized Metabolism.
 
 - 6.G.02 — [Biosynthesis of Terpenes: MVA and MEP Pathways](https://rahulthakurpatan.github.io/lifescienceacademy/biosynthesis-of-terpenes-mva-and-mep-pathways.html); source draft expanded, static checks complete; Pages verification pending. Subunit 6.G: 5/10 committed.
+
+- 6.G.01 — [Foundations of Plant Specialized Metabolism](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-specialized-metabolism.html); 20 explained questions, two original SVG diagrams. Subunit 6.G: 9/10 linked at registration; live verification pending.

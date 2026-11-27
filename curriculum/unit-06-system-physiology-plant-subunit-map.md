@@ -285,3 +285,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.E.06 — [Plant Circadian Clock: Entrainment, Feedback Loops and Daily Rhythms](https://rahulthakurpatan.github.io/lifescienceacademy/plant-circadian-clock-entrainment-feedback-loops-and-daily-rhythms.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 3/7; Unit 06: 27/66; Academy: 276/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.05 — [Light-Regulated Stomatal Movement: Guard Cells, Ion Flux and Turgor](https://rahulthakurpatan.github.io/lifescienceacademy/light-regulated-stomatal-movement-guard-cells-ion-flux-and-turgor.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 4/7; Unit 06: 28/66; Academy: 277/723.
+- Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

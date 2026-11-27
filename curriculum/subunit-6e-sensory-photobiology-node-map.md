@@ -166,3 +166,6 @@
 
 - 6.E.06 — [Plant Circadian Clock: Entrainment, Feedback Loops and Daily Rhythms](https://rahulthakurpatan.github.io/lifescienceacademy/plant-circadian-clock-entrainment-feedback-loops-and-daily-rhythms.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 3/7; next unpublished in this subunit: 6.E.02 — Phytochromes: Red/Far-Red Perception, Photoconversion and Developmental Signaling.
+
+- 6.E.05 — [Light-Regulated Stomatal Movement: Guard Cells, Ion Flux and Turgor](https://rahulthakurpatan.github.io/lifescienceacademy/light-regulated-stomatal-movement-guard-cells-ion-flux-and-turgor.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 4/7. Next unpublished: 6.E.02.

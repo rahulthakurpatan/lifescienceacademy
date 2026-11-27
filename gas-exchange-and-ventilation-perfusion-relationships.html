@@ -1,0 +1,436 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Understand respiratory gas laws, diffusion capacity, pulmonary and tissue exchange, ventilation–perfusion mismatch, shunt and dead space for CSIR-NET and SET."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/gas-exchange-and-ventilation-perfusion-relationships.html"><title>Gas Exchange and Ventilation–Perfusion Relationships | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 7</span><span>›</span><span>Sub-unit 7.C</span><span>›</span><strong>Node 05</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 7.C.05</span><span>Unit 7 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Gas Exchange and Ventilation–Perfusion Relationships</h1><p class="subtitle">From gas partial pressures and molecular diffusion to the matching of air and blood flow.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Lung Volumes, Capacities and Respiratory Measurements">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Oxygen Transport and Respiratory Pigments">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#s1">1. The biological problem: two flows and a diffusion barrier</a><a href="#s2">2. Partial pressure, Dalton's law and humidification</a><a href="#s3">3. Henry's law: dissolved concentration is not total gas content</a><a href="#s4">4. Fick's diffusion law and the respiratory membrane</a><a href="#s5">5. Alveolar gas composition and the alveolar gas equation</a><a href="#s6">6. Pulmonary and systemic exchange gradients</a><a href="#references">References</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article class="reading-paper" aria-label="Gas Exchange and Ventilation–Perfusion Relationships study notes"><div class="article-content" id="article"><section id="s1"><h2>1. The biological problem: two flows and a diffusion barrier</h2><p class="teaching-prose">A mammal must continuously replenish the oxygen consumed by its cells and remove the carbon dioxide produced during metabolism. The respiratory system does not accomplish this task merely by moving air in and out of the chest. Air must reach exchange surfaces, blood must flow close to those surfaces, and molecules must be able to cross the intervening tissues. Failure at any one of these three stages can reduce the amount of oxygen reaching the systemic circulation. A person may therefore have a normal breathing frequency and nevertheless exchange gas inefficiently. Similarly, a lung that expands easily may have abnormal gas exchange if the pulmonary blood supply is interrupted.</p>
+<p class="teaching-prose">The movement of fresh gas between the external environment and the alveoli is called ventilation. The movement of blood through pulmonary capillaries is perfusion. Both are forms of bulk flow, meaning that many molecules travel together because of a pressure difference that drives the fluid. In contrast, diffusion is the net movement of individual molecules down their chemical potential gradient. Under the conditions used in elementary respiratory physiology, a difference in partial pressure provides a useful description of this driving force for the same gas on either side of an interface. Respiratory muscles generate airflow, the heart generates blood flow, and random thermal motion accomplishes diffusion. These three physical processes are not interchangeable.</p>
+<p class="teaching-prose">Consider an isolated alveolus with no fresh gas entering it but an intact blood supply. Initially, oxygen diffuses into the passing blood and carbon dioxide diffuses in the reverse direction. Oxygen in the alveolus is progressively depleted and carbon dioxide accumulates. If enough time passes under idealized steady conditions, the alveolar gas approaches equilibrium with the mixed venous blood arriving at the region. The diffusion barrier may remain perfectly normal; the loss of exchange is caused by failure to maintain the gradients. Conversely, an alveolus supplied with fresh gas but no perfusion can have a very high oxygen partial pressure, yet it delivers essentially no oxygen to the circulating blood. High alveolar oxygen is not evidence of high oxygen uptake.</p>
+<p class="teaching-prose">The pulmonary circulation and the systemic circulation work in series. Blood returning from the systemic organs mixes in the right heart and travels through the pulmonary arteries to alveolar capillaries. Blood from the lungs then enters pulmonary veins and returns to the left heart. In a steady state without major intracardiac or vascular bypasses, the average amount of blood pumped through the pulmonary and systemic circuits per minute must be approximately equal. The pulmonary arterial blood is not fully depleted of oxygen; it represents what remains after diverse tissues have extracted different amounts of oxygen. Mixed venous oxygen partial pressure is accordingly a useful starting point for the analysis of pulmonary exchange.</p>
+<p class="teaching-prose">External respiration refers here to exchange between alveolar gas and pulmonary capillary blood; internal respiration refers to exchange between systemic capillary blood and tissue. Cellular respiration is the set of metabolic reactions that consumes oxygen in aerobic cells and produces carbon dioxide through oxidative pathways. These terms describe different levels of organization. A mitochondrion does not ventilate, an alveolus does not synthesize ATP for the body by consuming all the oxygen that enters it, and a pulmonary capillary is not a source of fresh atmospheric oxygen. Oxygen follows a series of connected compartments until it is consumed, whereas carbon dioxide usually moves in the opposite direction. Each compartment modifies the conditions encountered by the next.</p>
+<p class="teaching-prose">This distinction is especially useful in interpreting experiments. A sample of arterial blood reveals the integrated outcome of the respiratory units whose blood contributes to the sample, whereas a sample of expired gas represents gas from the regions that communicate with the airways during expiration. These two samples are weighted by different physical flows. A region receiving little blood may dominate part of an expired-gas sample but contribute almost nothing to arterial blood. A region receiving much blood and little ventilation can substantially depress arterial oxygen while contributing relatively little gas to an expired sample. Comparing these measurements without considering their origins can lead to incorrect conclusions about the functioning lung.</p>
+<p class="teaching-prose">The preceding chapter developed the relation between tidal volume, breathing frequency and effective alveolar ventilation. Here the same concept becomes a local one. A total alveolar ventilation of four litres per minute is meaningful for the lung as a whole, but it does not describe how that ventilation is distributed among millions of exchange units. The distribution of perfusion is similarly heterogeneous. Gas exchange is therefore a problem of local matching as well as total supply. To understand why matching matters, we first need a quantitative definition of the driving force for diffusion and of the amount of gas present in a liquid.</p></section>
+<section id="s2"><h2>2. Partial pressure, Dalton's law and humidification</h2><p class="teaching-prose">Gas pressure results from molecular collisions with a surface. In a mixture of approximately ideal gases, molecules of each species contribute to the total pressure according to their abundance and thermal motion. Dalton's law states that the total pressure is the sum of the partial pressures of the individual species. For gas i with mole fraction Fi in a mixture of total pressure P, its partial pressure Pi is Fi multiplied by P. A mole fraction is a number between zero and one, not a percentage written as a whole number. If oxygen represents twenty-one percent of a gas mixture, its mole fraction is 0.21.</p>
+<p class="teaching-prose">The usual approximate atmospheric pressure at sea level is 760 mmHg, equivalent to one standard atmosphere or about 101.3 kPa. Dry atmospheric oxygen has a mole fraction close to 0.2095. In a simplified problem using 0.21, its partial pressure is 0.21 × 760 = 159.6 mmHg. This quantity describes the pressure contribution of oxygen in the mixture, not a separate pressure compartment within the air. All of the gas molecules occupy the same physical volume. Nitrogen and oxygen can diffuse in different directions within a mixture if their individual gradients differ, even when total pressure is almost the same on both sides.</p>
+<p class="teaching-prose">The ideal-gas equation offers a way to understand Dalton's law. For a mixture containing n total moles in volume V at absolute temperature T, P = nRT/V. The contribution of oxygen can be written PO2 = nO2RT/V under the ideal-mixture approximation. Dividing the second expression by the first gives PO2/P = nO2/n = FO2. The argument assumes that intermolecular interactions are negligible and that temperature is uniform. Near normal atmospheric pressures these assumptions are adequate for the gas-law calculations used in respiratory physiology. They should not be extended uncritically to very high pressures or to liquids, for which gas dissolution must be treated separately.</p>
+<p class="teaching-prose">At an altitude where barometric pressure is 500 mmHg, the dry inspired oxygen partial pressure is approximately 105 mmHg if the atmospheric oxygen fraction remains 0.21. The air has not necessarily lost oxygen relative to nitrogen; both are less abundant per unit volume at the lower pressure. This is why statements about the percentage of atmospheric oxygen alone do not characterize the challenge of altitude. Conversely, at the same pressure, increasing oxygen fraction increases oxygen partial pressure. Pressure and gas composition are two separate variables that influence the partial pressure available at the respiratory surface.</p>
+<p class="teaching-prose">The inspired gas encounters warm, moist airway surfaces. Water molecules enter the gas phase until the air becomes nearly saturated with water vapour under normal conditions by the time it reaches the distal airways. At a temperature of 37 °C the saturation vapour pressure of water is approximately 47 mmHg. This pressure is primarily a function of temperature when water vapour is saturated; it is not a fixed percentage of total barometric pressure. If the overall gas pressure is about 760 mmHg, the remaining dry-gas components together account for 713 mmHg. Oxygen supplies its fraction of that remaining pressure.</p>
+<p class="teaching-prose">Consequently, the humidified inspired oxygen pressure PIO2 is FIO2(PB − PH2O), where FIO2 is the inspired oxygen fraction on a dry-gas basis, PB is barometric pressure, and PH2O is water vapour pressure. All pressures must use the same units. At sea level, 0.21 × (760 − 47) = 149.73 mmHg. At PB = 500 mmHg, the same calculation gives 0.21 × 453 = 95.13 mmHg. Water vapour subtracts 47 mmHg from the pressure budget in both examples, but the fraction of total pressure occupied by water is larger at the lower barometric pressure. One must not multiply 760 by 0.21 and then subtract 47; only the dry portion of the pressure budget is multiplied by the dry oxygen fraction.</p>
+<p class="teaching-prose">There is an important distinction between humidified inspired gas and alveolar gas. The humidified inspired gas is a reference input to the respiratory system. The alveolar gas has additionally exchanged oxygen and carbon dioxide with the blood. It contains less oxygen and considerably more carbon dioxide than inspired air. Alveolar oxygen at sea level under typical resting conditions is around 100 mmHg rather than 150 mmHg. The difference cannot be explained by humidification alone. It reflects oxygen uptake by blood and the relation between metabolism and ventilation.</p>
+<p class="teaching-prose">At the beginning of an inspiration, the conducting airways contain gas left from the preceding expiration. Fresh atmospheric gas subsequently enters and mixes with that gas. Alveoli also contain a substantial reserve of gas that persists between ordinary breaths, the functional residual capacity. As a result, alveolar partial pressures vary less during normal breathing than they would if the lung emptied completely after each expiration. The pressure figures used in many exam questions are approximations to average values, rather than measurements at every instant of the breathing cycle.</p>
+<p class="teaching-prose">Mixed expired gas includes gas from the conducting dead space and from exchange units with varying ventilation and perfusion. It is not identical in composition to ideal alveolar gas. In a normally ventilating adult, mixed expired oxygen is generally higher than alveolar oxygen because gas from the conducting airways has undergone little or no oxygen extraction. Mixed expired carbon dioxide is generally lower than alveolar carbon dioxide for the corresponding reason. These differences explain why the source of a gas sample must be identified before a numerical value is interpreted.</p></section>
+<section id="s3"><h2>3. Henry's law: dissolved concentration is not total gas content</h2><p class="teaching-prose">The preceding equations explain oxygen pressure in a gas mixture. To cross from an alveolus into a capillary, however, oxygen must enter an aqueous environment. At equilibrium between an approximately ideal gas and a dilute liquid, Henry's law can be written C = αP, where C is the concentration of physically dissolved gas, P is the partial pressure of the gas in equilibrium with the liquid, and α is a solubility coefficient. Its numerical value depends on the gas, solvent, temperature and chosen concentration and pressure units. Henry's law is an equilibrium relation. It does not specify how quickly equilibrium will be reached.</p>
+<p class="teaching-prose">The partial pressure or tension of dissolved oxygen in blood expresses the pressure that would be established by that dissolved oxygen in an equilibrated gas phase. It is not the total hydrostatic pressure of the blood. Pulmonary capillary blood can have an oxygen tension much larger than its hydrostatic vascular pressure without any contradiction. These quantities describe different physical phenomena. A blood sample may have a hydrostatic pressure of a few millimetres of mercury relative to the surrounding reference while its dissolved oxygen is in equilibrium with a gas having a partial pressure near 100 mmHg.</p>
+<p class="teaching-prose">In plasma and blood at body temperature, a representative oxygen solubility coefficient is approximately 0.003 mL O2 per dL of blood per mmHg when oxygen volume is expressed using conventional physiological reference conditions. At an oxygen tension of 100 mmHg, physically dissolved oxygen is approximately 0.3 mL per dL. At 40 mmHg it is about 0.12 mL per dL. The amount of oxygen carried in blood is much greater because most is reversibly associated with haemoglobin. That chemically bound oxygen does not contribute to oxygen partial pressure in the same manner as freely dissolved oxygen. It can become available to the dissolved pool as equilibrium shifts, but it must dissociate before it can diffuse across the tissue.</p>
+<p class="teaching-prose">This distinction solves an apparent puzzle. If two blood samples have the same oxygen partial pressure but different haemoglobin concentrations, they can have similar physically dissolved oxygen concentrations while containing quite different total amounts of oxygen. At the same time, if haemoglobin binds newly dissolved oxygen, it can help maintain a low free oxygen tension relative to the alveolar gas during the early stage of loading. Further oxygen can then enter the blood. The protein increases blood oxygen carrying capacity without directly raising the dissolved oxygen tension at a specified equilibrium pressure. The detailed saturation curve belongs to the next chapter; here we need the distinction to understand diffusion and mixing.</p>
+<p class="teaching-prose">Carbon dioxide is considerably more soluble in biological fluids than oxygen. At the same partial pressure, the physically dissolved quantity of carbon dioxide is much greater than that of oxygen. Its aqueous chemistry includes conversion to bicarbonate, which is a separate chemical process and not simply an increase in physical dissolution. When considering diffusion through the respiratory membrane, the solubility of the molecular gas in the intervening tissue is an important determinant of transfer. It is therefore possible for carbon dioxide to cross readily despite having a smaller pressure difference than oxygen in typical pulmonary exchange.</p>
+<p class="teaching-prose">The pressure convention is particularly useful across a boundary between unlike phases. A dissolved concentration expressed in moles per litre is not numerically comparable to a gas concentration expressed per litre of air without accounting for solubility and phase properties. At equilibrium, the partial pressure of a gas can be equal across the interface even though the concentration per unit volume differs considerably. Thus equality of oxygen concentration is not required for equality of oxygen chemical potential. Henry's law connects pressure to dissolved concentration in each medium. This is why a diagram of gas exchange should label partial pressure rather than imply that concentration per millilitre is identical in blood and air.</p>
+<p class="teaching-prose">Suppose a liquid has oxygen solubility coefficient α = 0.003 in the units above and is equilibrated at PO2 = 80 mmHg. It contains 0.24 mL dissolved O2 per dL. Doubling the oxygen tension to 160 mmHg doubles the dissolved amount to 0.48 mL per dL if temperature, solvent and the coefficient remain constant. The amount of oxygen bound to haemoglobin need not double because reversible binding has a finite capacity and nonlinear pressure dependence. The linear law applies only to the physically dissolved fraction. This simple separation prevents many incorrect interpretations of oxygen supplementation, anaemia and regional gas exchange.</p>
+<p class="teaching-prose">Gas molecules still move randomly when an interface has reached equilibrium. At equilibrium, the rate of molecules crossing in one direction equals the rate crossing in the other, so there is no net transfer. The term equilibrium does not imply that molecules have stopped moving. When metabolism removes dissolved oxygen from one side or ventilation replenishes it on the other, the equilibrium condition is disturbed and a net flux appears. The magnitude of that flux depends not only on the driving force but also on the properties of the barrier, as the next section develops.</p></section>
+<section id="s4"><h2>4. Fick's diffusion law and the respiratory membrane</h2><p class="teaching-prose">A diffusion barrier is a region that molecules must traverse between two compartments. For oxygen leaving an alveolus, the path includes the surface liquid, the thin alveolar epithelial cell, basement membrane and any intervening interstitial material, the capillary endothelium, plasma, and eventually the erythrocyte membrane and intracellular fluid before reaction with haemoglobin. Not every path is geometrically identical. The gas-exchange portion of the lung presents an enormous aggregate area because many alveolar surfaces lie alongside a dense capillary network. Thin regions of the barrier are particularly important for rapid molecular transfer.</p>
+<p class="teaching-prose">In a planar homogeneous medium, Fick's first law is J = −D dC/dx. J is molar flux per unit area per unit time, D is a diffusion coefficient with dimensions length squared per unit time, C is concentration per unit volume, and x is distance. The negative sign expresses movement down the concentration gradient. If concentration falls along the positive x direction, dC/dx is negative and J is positive in that direction. If the sign of the gradient reverses, the net flux reverses. The equation does not describe molecules moving only in one direction; it describes the difference between two large random crossing rates.</p>
+<p class="teaching-prose">For a membrane of effective area A and thickness T, assuming approximately steady one-dimensional diffusion, a constant coefficient and an approximately linear concentration profile, the magnitude of transfer can be written Ṅ = DA(C1 − C2)/T. If concentration within the membrane is proportional to the gas partial pressure by a solubility coefficient α, then Ṅ = DαA(P1 − P2)/T. The product Dα is sometimes represented as a gas-specific permeability factor in elementary physiology. Authors differ in how they define their diffusion constants, so the units and definition must be checked before combining formulas from different texts.</p>
+<p class="teaching-prose">The expression predicts that increasing the effective surface area increases the transfer capacity if other variables remain fixed. Destruction of alveolar walls can reduce area and thus impair oxygen transfer. Increasing barrier thickness decreases transfer capacity; fluid accumulating within the interstitium or excessive connective tissue in the gas-exchange path can increase the effective diffusion distance. These are direct predictions under fixed pressure-gradient conditions. In the intact lung, other effects can occur simultaneously: capillary perfusion may change, ventilation may become uneven, and local partial pressures may shift. An observed arterial oxygen change therefore cannot be attributed automatically to thickness alone.</p>
+<p class="teaching-prose">The solubility of a gas in the barrier and its molecular mobility are both important. A useful approximation for comparing respiratory gases is that diffusibility increases with solubility and decreases with the square root of molecular mass under specified conditions. Carbon dioxide is somewhat heavier than oxygen but has much greater solubility in water and biological tissues. Its effective diffusibility through the exchange membrane is consequently often described as about twenty times that of oxygen. This is an approximate comparison, not a universal ratio for all tissues, temperatures or gases. In a simple model, a carbon dioxide gradient of only 5 mmHg may support substantial transfer while the oxygen gradient is much larger.</p>
+<p class="teaching-prose">Consider a hypothetical membrane with an arbitrary permeability factor K = Dα. Its area is 40 units and thickness is 1 unit, giving conductance proportional to 40K. If the area falls to 30 units and thickness doubles, the conductance becomes 15K. The new conductance is 15/40 = 0.375 of the original, a reduction of 62.5 percent. If the pressure difference is maintained, the transfer falls by the same fraction. If the gradient increases, some of the reduction can be offset. The exercise is not a clinical estimate of lung function; it isolates the geometrical dependence of diffusion.</p>
+<p class="teaching-prose">Real alveolar exchange involves barriers and reaction steps arranged in series, not a single perfectly uniform slab. A gas traverses successive media before entering blood and binding to its chemical carrier. Resistance to transfer can therefore be described in terms of contributions from the membrane and from the blood itself. A highly permeable epithelial surface does not guarantee instantaneous uptake if erythrocytes are sparse or chemical binding is slow. Likewise, a larger number of erythrocytes cannot remove the resistance of a severely thickened interstitial layer. An effective diffusion measurement reflects the combined properties of the exchanging system.</p>
+<p class="teaching-prose">The geometry of a lung also matters because total area and functional area are not necessarily equal. An alveolar surface that is ventilated but unperfused has little opportunity for sustained gas transfer into flowing blood. A perfused region that has collapsed may have both poor ventilation and altered exposed exchange area. Increasing blood flow can recruit capillaries and distend previously narrow vessels, making more of the available exchange surface functionally accessible. These changes help explain why measured pulmonary diffusing capacity is not a fixed anatomical constant across all physiological states.</p>
+<p class="teaching-prose">Fick's diffusion law should not be confused with the Fick principle of whole-organ gas balance. Both are useful in respiratory physiology, but they answer different questions. The diffusion law describes local transport driven by concentration or pressure gradients and constrained by barrier properties. The Fick principle uses conservation of a substance to relate uptake to blood flow and the difference in blood content across an organ. An experiment measuring oxygen consumption and arterial and mixed venous oxygen contents can estimate cardiac output by mass balance; it does not thereby measure the microscopic diffusion coefficient of oxygen. Later sections use both relations for different purposes.</p></section>
+<section id="s5"><h2>5. Alveolar gas composition and the alveolar gas equation</h2><p class="teaching-prose">The air reaching the respiratory region continuously mixes with residual alveolar gas while oxygen is removed and carbon dioxide enters. At steady state the amount of oxygen extracted from the alveolar gas per minute reflects metabolic oxygen uptake, and the amount of carbon dioxide added reflects metabolic carbon dioxide elimination. These fluxes are not necessarily equal. The respiratory exchange ratio R is carbon dioxide output divided by oxygen uptake when both volumes are expressed under the same reference conditions. In a resting subject under stable mixed-substrate metabolism, 0.8 is a common illustrative value. Oxidation of glucose yields a ratio of 1, whereas oxidation of many fats yields a lower ratio near 0.7. The actual ratio can differ, especially during nonsteady conditions.</p>
+<p class="teaching-prose">An elementary mass-balance derivation clarifies the alveolar gas equation. If inspired and expired alveolar dry-gas volume flows are approximated as equal, inspired carbon dioxide is negligible, and gas volume conventions are consistent, oxygen uptake is proportional to alveolar ventilation multiplied by the difference between inspired and alveolar oxygen fractions. Carbon dioxide output is proportional to alveolar ventilation multiplied by the alveolar carbon dioxide fraction. Dividing the second relationship by the first cancels the common ventilation term. The resulting approximation is R ≈ FACO2/(FIO2 − FAO2), where the fractions refer to dry gas. Rearranging yields FAO2 ≈ FIO2 − FACO2/R.</p>
+<p class="teaching-prose">Multiplying by the dry alveolar gas pressure PB − PH2O gives PAO2 ≈ FIO2(PB − PH2O) − PACO2/R. Capital A in PAO2 denotes alveolar gas. Lowercase a in PaO2 denotes arterial blood. In many common physiological calculations arterial carbon dioxide tension PaCO2 is used as an approximation to ideal alveolar carbon dioxide tension. The simplified alveolar gas equation then reads PAO2 ≈ PIO2 − PaCO2/R. This distinction matters when the lung is heterogeneous: a measured arterial carbon dioxide pressure cannot be assumed to be the value in every alveolus.</p>
+<p class="teaching-prose">The simplification is commonly useful when breathing room air and in stable conditions. A fuller correction accounts for the difference between inspired and expired gas volumes associated with a respiratory exchange ratio other than one. An often-used complete form, neglecting inspired carbon dioxide, is PAO2 = PIO2 − PACO2[FIO2 + (1 − FIO2)/R]. For R = 0.8 and FIO2 = 0.21, the bracket equals 1.1975 rather than 1.25. With carbon dioxide pressure 40 mmHg, the simplified equation differs by about 2.1 mmHg. When oxygen fraction is high, the correction is more important. Unless the problem specifies a full equation, the familiar simplified version is usually intended for introductory room-air examples.</p>
+<p class="teaching-prose">For a resting room-air example at sea level, use PB = 760 mmHg, PH2O = 47 mmHg, FIO2 = 0.21, PaCO2 = 40 mmHg and R = 0.8. First calculate PIO2 = 149.73 mmHg. The carbon dioxide term is 40/0.8 = 50 mmHg. Subtraction gives PAO2 ≈ 99.73 mmHg. If a blood sample shows PaO2 = 95 mmHg, the alveolar–arterial oxygen difference in this example is approximately 4.73 mmHg. These numbers are illustrative, not universal normal values.</p>
+<p class="teaching-prose">If alveolar ventilation falls while metabolic carbon dioxide output remains constant, arterial carbon dioxide tension usually rises in a relatively uniform lung. At steady state, the relationship PaCO2 ≈ 863 V̇CO2/V̇A is useful when carbon dioxide production is in litres per minute STPD and alveolar ventilation is in litres per minute BTPS, with pressure in mmHg. STPD refers to standard temperature and pressure, dry; BTPS refers to body temperature and ambient pressure, saturated with water vapour. The constant accounts for differences in these conventions. If both flow variables are expressed in mL/min instead, the same ratio and constant apply.</p>
+<p class="teaching-prose">For a hypothetical resting subject producing 0.20 L/min carbon dioxide with an alveolar ventilation of 4.32 L/min, the estimated PaCO2 is 863 × 0.20/4.32 ≈ 40 mmHg. If alveolar ventilation falls to 2.88 L/min without a change in production, PaCO2 rises to approximately 60 mmHg. With unchanged inspired pressure and R = 0.8, the simplified PAO2 falls from about 100 to about 75 mmHg. A perfectly intact diffusion barrier cannot fully compensate for this lower supply of oxygen pressure. This is a mechanism of hypoxaemia distinct from the failure of oxygen to equilibrate with gas already present in an alveolus.</p>
+<p class="teaching-prose">At a lower barometric pressure of 500 mmHg, inspired humidified oxygen tension is about 95.1 mmHg on room air. If carbon dioxide tension remained 40 mmHg and R were 0.8, the calculated alveolar oxygen tension would be only about 45.1 mmHg. If the subject increases alveolar ventilation so that carbon dioxide tension falls to 30 mmHg, estimated PAO2 rises to 57.6 mmHg. Hyperventilation improves alveolar oxygen pressure in this situation by reducing the carbon dioxide term. It does not restore the barometric pressure and cannot elevate alveolar oxygen indefinitely beyond the pressure of humidified inspired oxygen.</p>
+<p class="teaching-prose">The alveolar gas equation is a model of the gas compartment rather than a direct measurement of arterial oxygen. The calculated PAO2 is the oxygen pressure expected under its assumptions, while PaO2 reflects blood leaving the entire lung and entering systemic arteries. A difference between these pressures can arise when some blood fails to equilibrate with well-ventilated gas, when exchange units have different V/Q ratios, or when oxygen transfer is diffusion limited. A student should not substitute PaO2 for PAO2 in the equation simply because both have similar values under favorable conditions.</p></section>
+<section id="s6"><h2>6. Pulmonary and systemic exchange gradients</h2><p class="teaching-prose">At the entrance to a pulmonary capillary, mixed venous blood typically has an oxygen tension near 40 mmHg and a carbon dioxide tension near 46 mmHg in a resting adult at sea level. Ideal alveolar gas under representative conditions has oxygen tension around 100 mmHg and carbon dioxide tension around 40 mmHg. These figures provide useful rounded examples; they vary with metabolic activity, cardiac output, inspired gas and ventilation. The oxygen gradient points from alveolar gas into blood. The carbon dioxide gradient points from blood toward alveolar gas. Both transfers can occur across the same surface at the same time because each gas follows its own gradient.</p>
+<p class="teaching-prose">Oxygen dissolves at the alveolar surface, traverses the exchange membrane and enters plasma. It can diffuse into erythrocytes and associate reversibly with haemoglobin. As capillary blood flows farther along the exchange surface, its dissolved oxygen tension rises. The pressure difference between alveolar gas and blood becomes progressively smaller. If equilibrium is reached, there is little additional net uptake from that particular alveolar compartment, even though the erythrocyte continues to move along the capillary. A gas that has already equilibrated can be carried away in greater quantity if more blood with a lower initial content is delivered.</p>
+<p class="teaching-prose">For carbon dioxide, the direction is reversed. Molecular carbon dioxide diffuses out of plasma and erythrocytes into the alveolar gas. The dissolved pool is replenished as chemically transported forms are converted back into molecular carbon dioxide. This maintains transfer during the passage of blood through the lung. Since carbon dioxide transfer is facilitated by its high solubility, pressure equilibration usually occurs readily in healthy lungs. However, elimination of carbon dioxide at the level of the whole body still depends on adequate effective alveolar ventilation. A rapidly equilibrating gas is not automatically eliminated efficiently if gas is not removed from the alveoli.</p>
+<p class="teaching-prose">A normal pulmonary end-capillary oxygen tension may approach the local alveolar value. Arterial blood sampled after blood from many regions and small physiological venous admixtures has combined may show a somewhat lower oxygen tension. It is helpful to reserve the term end-capillary for blood leaving a specified exchange unit, and arterial for the integrated blood downstream of the lung. The two pressures cannot be assumed equal in every case. This is a central distinction in the study of shunt, diffusion limitation and ventilation–perfusion mismatch.</p>
+<p class="teaching-prose">At the systemic tissue, mitochondria consume oxygen, lowering the intracellular dissolved oxygen concentration and establishing diffusion gradients from the capillary through interstitial fluid toward cells. Tissue oxygen tensions are heterogeneous because cells lie at different distances from vessels and have different rates of consumption. A single textbook value of 40 mmHg is best understood as a representative venous or regional extracellular value, not an invariant oxygen tension of all tissue cells. Oxygen pressure near active mitochondria may be considerably lower than in the arterial blood supplying the tissue.</p>
+<p class="teaching-prose">When a muscle increases its oxygen consumption, oxygen tension in its immediate environment tends to fall unless oxygen delivery increases sufficiently. This strengthens the local driving force for diffusion and promotes unloading of oxygen from blood. It can also trigger local metabolic vasodilation, increasing flow and bringing additional oxygen. The eventual tissue tension is determined jointly by oxygen delivery, cellular consumption and diffusion distances. If perfusion is extremely low, a favorable local gradient cannot sustain high total oxygen delivery because insufficient oxygen enters the region in the blood.</p>
+<p class="teaching-prose">Systemic carbon dioxide follows the complementary path. Carbon dioxide produced by metabolism diffuses through cells and interstitial fluid into blood, increasing the amount carried back to the lungs. Local carbon dioxide pressure and hydrogen ion concentration can change with metabolism and blood flow; chemical transport and buffering moderate the relationship between production and free molecular carbon dioxide pressure. The detailed biochemical steps belong to 7.C.07. Here, the essential point is that metabolism acts as an oxygen sink and carbon dioxide source, thereby maintaining tissue exchange gradients.</p>
+<p class="teaching-prose">A simple steady-state mass balance gives oxygen consumption V̇O2 = Q(CaO2 − CvO2), where Q is systemic blood flow and C denotes total oxygen content per unit blood volume. If Q is in L/min and C in mL O2/L blood, consumption is in mL O2/min. In a hypothetical subject with Q = 5 L/min, arterial content 200 mL/L and mixed venous content 150 mL/L, oxygen uptake is 250 mL/min. These contents cannot be replaced by partial pressures in mmHg, because blood oxygen content is not a linear multiple of pressure over the full physiological range. The next chapter develops the underlying binding relationship.</p>
+<p class="teaching-prose">The oxygen mass balance also illustrates why mixed venous blood is not a fixed input to the lung. If tissue consumption rises while cardiac output and arterial content stay unchanged, the arterial–venous content difference increases. Blood returns with less oxygen, and its oxygen tension may be lower. If pulmonary transfer capacity remains adequate, the lung can restore much of this oxygen before blood re-enters the arterial circulation. If transfer capacity or local matching is impaired, a lower mixed venous oxygen content can magnify the resulting arterial oxygen deficit. The respiratory and cardiovascular systems thus influence each other even when their primary defects occur in different organs.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR–UGC–DBT NET Life Sciences and Biotechnology syllabus, Unit 7.C.</a></li><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange">OpenStax Anatomy and Physiology 2e, 22.4 Gas Exchange.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK539907/">NCBI Bookshelf, Physiology, Pulmonary Ventilation and Perfusion.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK371/">NCBI Bookshelf, Arterial Blood Gases.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/13475180/">Roughton FJ and Forster RE (1957), relative importance of diffusion and chemical reaction rates in pulmonary gas exchange.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/22298659/">Sylvester JT et al. (2012), Hypoxic pulmonary vasoconstriction.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8274320/">Ventilation/Perfusion Relationships and Gas Exchange: Measurement Approaches.</a></li></ol></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 7 · System Physiology – Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.C.04","previous-node","← "],["7.C.06","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

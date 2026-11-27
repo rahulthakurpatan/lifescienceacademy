@@ -217,5 +217,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 ## Publication checkpoint — 2026-11-27
 
 - 6.A.01 — [Photosynthetic Pigments and Light-Harvesting Complexes](https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-pigments-and-light-harvesting-complexes.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.A: 1/8; Unit 06: 1/66; Academy: 250/723.
+- 6.A.03 — [Photosynthetic Electron Transport and Photosystem I](https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-electron-transport-and-photosystem-i.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 2/8; Unit 06: 2/66; Academy: 251/723.
 - Next unpublished: 6.A.02 — Photosystem II and Photolysis of Water.

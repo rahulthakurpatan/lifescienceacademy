@@ -1,0 +1,214 @@
+{
+  "node_id": "6.A.03",
+  "title": "Photosynthetic Electron Transport and Photosystem I",
+  "slug": "photosynthetic-electron-transport-and-photosystem-i.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-electron-transport-and-photosystem-i.html",
+  "unit": "06",
+  "subunit": "6.A",
+  "topic": "Photosynthesis",
+  "date": "2026-11-27",
+  "status": "academic_qa_passed_deployment_verification_pending",
+  "source_draft_branch": "draft/6-a-03-electron-transport",
+  "source_draft_commit_sha": "613a2c5f2e136ceda61216c33a09d9df2fc5bccd",
+  "source_draft_blob_sha": "4515eca6e3a8f118db4c6b0ed3d4fa072f0ab85c",
+  "production_chapter_blob_sha": "4515eca6e3a8f118db4c6b0ed3d4fa072f0ab85c",
+  "publication_base_sha": "e524234af73a15fc4945b353655efc43f0b22504",
+  "metrics": {
+    "genuine_teaching_words": 14407,
+    "teaching_paragraphs": 146,
+    "visible_article_words_excluding_svg_and_buttons": 18595,
+    "theory_sections": 12,
+    "total_sections": 19,
+    "svg": 12,
+    "tables": 3,
+    "graphs": 2,
+    "part_b": 20,
+    "part_c": 20,
+    "other_questions": 10,
+    "total_questions": 50,
+    "answer_positions": {
+      "A": 13,
+      "B": 12,
+      "C": 12,
+      "D": 13
+    },
+    "references": 16,
+    "misconceptions": 16,
+    "active_recall": 12
+  },
+  "word_count_method": "Whitespace-separated tokens in saved p.teaching-prose only, excludes question bank, heading, table, SVG, metadata, revision and references.",
+  "scope": {
+    "official": "Revised 2026 CSIR–UGC–DBT Unit 6.A, p.7; MP SET 2024 Life Sciences Unit 6.A mirrored document",
+    "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
+    "boundary": "PSII water oxidation detail 6.A.02; ATP synthase and cyclic flow detail 6.A.04; photoprotection 6.A.05; mitochondrial respiration 6.B"
+  },
+  "coverage_matrix": [
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "Linear electron flow and two photochemical steps",
+      "chapter_sections": "s1,s2",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "causal chain and redox free energy; prediction",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "PQ and PQH2 pool",
+      "chapter_sections": "s3,s4",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "compartment and quinone redox kinetics",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "b6f and Q-cycle",
+      "chapter_sections": "s5",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "two-turnover net balance, bifurcation and regulation",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "Plastocyanin",
+      "chapter_sections": "s6",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "copper chemistry and recovery kinetics",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "PSI P700",
+      "chapter_sections": "s7",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "charge separation and donor replenishment",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "A0/A1, Fe-S acceptors",
+      "chapter_sections": "s7",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "bound cofactor sequence, recombination",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "Fd and FNR",
+      "chapter_sections": "s8",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "one-to-two-electron coupling and alternative sinks",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "NADPH and proton accounting",
+      "chapter_sections": "s9",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "stoichiometry, gross versus net flux",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "Z-scheme and evidence",
+      "chapter_sections": "s2,s10",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "Hill and Emerson, PSI yield partition",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "DCMU and DBMIB",
+      "chapter_sections": "s11",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "redox predictions, controls and rescue",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Mechanisms of electron transport, Unit 6.A",
+      "microtopic": "Mitochondrial comparison and integration",
+      "chapter_sections": "s12",
+      "depth": "NET/SET",
+      "experimental_and_exam_relevance": "regulated transfer and scope boundary",
+      "verified": "covered"
+    }
+  ],
+  "review_pass_1": {
+    "type": "Internal scientific and syllabus review",
+    "result": "pass",
+    "findings": "Checked official scope and roadmap, carrier compartmentation and redox identity, Q-cycle net two-electron balance, four-electron ideal balance, FNR sequential electron transfer, inhibitor selectivity, Hill/Emerson history, and gross/net flux distinctions against textbook and research references. Independently recalculated representative photon energies, redox free energies, quinone steady-state kinetics, recovery half-times, FNR absorbance rate and PSI operational yields."
+  },
+  "review_pass_2": {
+    "type": "Internal editorial and learner/technical review",
+    "result": "pass with disclosed static-test limitations",
+    "findings": "Compared adjacent 5.E.09 exemplar (14,104 teaching words); checked progression, unique paragraphs, 50 answer mappings, reordered answer positions, expanded misconception explanations, strengthened P700 illustration and inhibitor placement, added three comparison/accounting tables; saved HTML re-fetched and audited."
+  },
+  "quality": {
+    "scientific_accuracy": 19,
+    "syllabus_and_microtopic_coverage": 15,
+    "genuine_teaching_depth": 15,
+    "pedagogical_quality": 9,
+    "scientific_illustrations": 9,
+    "examination_questions_and_answers": 9,
+    "experimental_and_analytical_reasoning": 5,
+    "revision_and_mastery": 5,
+    "reader_architecture_and_accessibility": 4,
+    "technical_integrity_and_seo": 5,
+    "total": 95,
+    "threshold": 95,
+    "assessment": "Internal assessment using owner-specified rubric, not an external peer-review certification.",
+    "deductions": "Scientific: schematic simplifications and representative potentials; pedagogy: some necessary conceptual revisiting; diagrams: static rather than rendered inspection; questions: not externally calibrated; reader architecture: no interactive browser or assistive technology run."
+  },
+  "validation": {
+    "words_pass": true,
+    "svg_count_pass": true,
+    "question_count_pass": true,
+    "answer_option_mapping_pass": true,
+    "duplicate_paragraphs": 0,
+    "duplicate_ids": 0,
+    "missing_anchors": 0,
+    "missing_aria_labelledby": 0,
+    "html_tag_nesting_pass": true,
+    "javascript_syntax_pass": true,
+    "placeholder_scan_pass": true,
+    "canonical_pass": true,
+    "prerequisite_link": "6.A.01 exists in current main menu",
+    "reader_browser_test": false,
+    "assistive_technology_test": false
+  },
+  "navigation": {
+    "previous": "6.A.02",
+    "next": "6.A.04",
+    "previous_link_enabled": false,
+    "next_link_enabled": false,
+    "mechanism": "Existing reader dynamically resolves latest index.html links; planned nodes remain disabled."
+  },
+  "progress": {
+    "subunit_published": 2,
+    "subunit_planned": 8,
+    "unit_published": 2,
+    "unit_planned": 66,
+    "academy_published": 251,
+    "academy_planned": 723,
+    "next_pending_node_id": "6.A.02"
+  },
+  "limitations": [
+    "MP SET alignment checked against mirrored 2024 syllabus, not current official MPPSC host.",
+    "No independent external peer review or external examination calibration.",
+    "Static HTML/JS and diagram markup review; no interactive browser or assistive technology test.",
+    "Deployment and live verification pending."
+  ],
+  "changed_files": [
+    "photosynthetic-electron-transport-and-photosystem-i.html",
+    "index.html",
+    "sitemap.xml",
+    "curriculum/academy-progress.json",
+    "curriculum/node-6a03-publication-qa.json",
+    "curriculum/subunit-6a-photosynthesis-node-map.md",
+    "curriculum/unit-06-system-physiology-plant-subunit-map.md"
+  ],
+  "publication": {
+    "strategy": "Single tree, single commit, expected-head non-force update",
+    "deployment": "pending",
+    "live_verified": false
+  }
+}

@@ -203,3 +203,6 @@
 
 - 6.D.06 — [Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 3/10; next unpublished in this subunit: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.
+
+- 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 4/10; next unpublished in this subunit: 6.D.03 — Cytokinins: Cell Division, Meristem Activity and Organ Formation.

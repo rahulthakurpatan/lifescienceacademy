@@ -188,3 +188,9 @@
 - Annual/perennial and aging/senescence: https://pmc.ncbi.nlm.nih.gov/articles/PMC8050193/
 - Whole-plant lifespan and senescence: https://pubmed.ncbi.nlm.nih.gov/23176101/
 - Hallmarks of animal aging, overview: https://doi.org/10.1016/j.cell.2022.11.001
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.E.01 — Foundations of Programmed Cell Death, Senescence and Aging**: internal academic QA 95/100, 14,907 teaching words, 14 SVGs and 52 explained original questions. [Chapter](../foundations-of-programmed-cell-death-senescence-and-aging.html) · [QA record](node-5e01-publication-qa.json). Pages deployment and live availability require separate verification.
+- Subunit 5.E: 1/10. Unit 05: 48/57. Academy: 240/723. Next pending: 5.E.02 — Animal Apoptosis: Initiation, Caspases and Cellular Dismantling.

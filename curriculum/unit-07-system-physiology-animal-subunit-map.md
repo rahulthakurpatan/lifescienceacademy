@@ -170,3 +170,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.A.04 — [Leukocytes and Blood-Mediated Immunity](https://rahulthakurpatan.github.io/lifescienceacademy/leukocytes-and-blood-mediated-immunity.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
 - Teaching prose: 14,226 words in 159 distinct paragraphs; 11 original scientific SVGs, 1 graph, 6 tables, 52 explained questions (20 Part B, 20 Part C, 12 mixed NET/SET), 15 misconceptions, 11 active-recall prompts and 18 references.
 - Subunit 7.A: 2/8; Unit 07: 2/90; Academy: 317/723. Next global pending: 7.A.02 — Haematopoiesis and Blood Cell Differentiation.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.A.02 — [Haematopoiesis and Blood Cell Differentiation](https://rahulthakurpatan.github.io/lifescienceacademy/haematopoiesis-and-blood-cell-differentiation.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
+- Teaching prose: 14,322 words in 126 distinct paragraphs; 16 original scientific SVGs (2 graphs), 7 tables, 54 explained questions (20 Part B, 24 Part C, 10 mixed), 18 misconceptions, 15 active-recall prompts, 26 references.
+- Subunit 7.A: 3/8; Unit 07: 3/90; Academy: 318/723. Next global pending: 7.A.03 — Erythrocytes and Haemoglobin.

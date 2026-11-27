@@ -348,3 +348,9 @@ How do plants recognize environmental threats and coordinate rapid local protect
 
 - 6.F.01 — [Water Potential, Osmosis and the Driving Forces of Plant Transport](https://rahulthakurpatan.github.io/lifescienceacademy/water-potential-osmosis-and-the-driving-forces-of-plant-transport.html); academic and static review complete; live deployment verification pending.
 - Subunit 6.F: 8/8. Unit 06: 48/66. Academy: 297/723. Next unpublished in subunit: complete. Next global pending: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.G.07 — [Alkaloids: Classification, Biosynthesis and Functions](https://rahulthakurpatan.github.io/lifescienceacademy/alkaloids-classification-biosynthesis-and-functions.html); academic and static review completed; Pages verification pending.
+- Teaching prose: 13,690 words, 135 paragraphs; 12 SVGs, 3 tables and 52 explained questions.
+- Subunit 6.G: 10/10; Unit 06: 49/66; Academy: 298/723. Next unpublished in 6.G: complete. Next global pending: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

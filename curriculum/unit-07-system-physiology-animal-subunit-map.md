@@ -242,3 +242,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.C.01 — [Foundations and Comparative Physiology of Respiration](../foundations-and-comparative-physiology-of-respiration.html): internal QA 95/100; 14,610 genuine teaching words, 12 original SVGs, 55 explained questions (22 Part B, 26 Part C, 7 other), 18 misconception checks and 14 active recall prompts.
 - Respiratory System: 2/8; Unit 07: 18/90; Academy: 333/723. Production integration prepared; Pages/live verification is separate.
 - Next unpublished node: 7.C.02 — Mammalian Respiratory Anatomy and Functional Organisation.
+
+
+### Publication checkpoint — 2026-11-27
+
+- 7.C.03 — Mechanics of Breathing and Pulmonary Ventilation: [chapter](../mechanics-of-breathing-and-pulmonary-ventilation.html); 13,414 genuine teaching words, 14 original SVGs, 52 explained questions (20 Part B, 25 Part C, 7 SET), 18 misconceptions and 14 active-recall prompts. Internal QA: 95/100. Pages deployment/live verification tracked separately.
+- Subunit 7.C: 3/8 published; Unit 07: 19/90 published; global: 334 published. Next unpublished node: 7.C.02 (Mammalian Respiratory Anatomy and Functional Organisation).

@@ -9,7 +9,7 @@
 - **Editorial division:** Eight coherent future reading nodes `6.F.01` through `6.F.08`; this is Academy curriculum architecture **not official syllabus chapter numbering**.
 - **Teaching story:** Why water moves → how membranes/cell links select ions, sugars and signals → roots acquire solutes → xylem elevates water under tension → evaporation drives the transpiration stream → living phloem transports source assimilates by pressure gradients → sugar is loaded into transport phloem → sinks unload and allocate sugars. This is **causal pedagogical order**, not a claim that xylem and phloem operate in strict serial biological steps. Xylem and phloem flow concurrently and exchange water.
 - **Meaning of macromolecules:** Plant-to-plant-cell and phloem transfer of selected signaling RNAs/proteins through regulated pathways, and cell transport of macromolecular cargo; don't claim general unrestricted uptake of intact soil proteins directly into xylem and throughout the plant.
-- **Publication contract:** Approved, quality-gated chapters may be linked individually and added to the sitemap. Unpublished nodes remain nonclickable.
+- **Publication contract:** Link only validated published lessons; planned nodes retain nonclickable menu titles and descriptions. Do not invent URLs or count unpublished reading chapters.
 - **Quality contract:** Each later chapter needs clear motivation and prerequisite, meaningful discovery evidence, original annotated diagrams, correct physical units/equations, explained experimental inference and reasoning questions, biological significance, exceptions and anti-duplication boundaries; write student-friendly connected English, not thin MCQ/table padding.
 - **No-overlap rule:** Unit 1 general thermodynamics/carbohydrate chemistry; Unit 2.A generic membrane pumps, Unit 05 root/vascular development; 6.A photosynthetic carbon fixation; 6.C nitrate assimilation; 6.D ABA/auxin signaling; 6.E guard-cell phototropin and FT photoperiod signal; 6.H drought and salinity stress networks. This subunit owns **physical, cellular and whole-plant transport routes and allocation**.
 
@@ -170,3 +170,8 @@
 
 - 6.F.07 — [Phloem Loading: Apoplastic, Symplastic and Polymer-Trapping Mechanisms](https://rahulthakurpatan.github.io/lifescienceacademy/phloem-loading-apoplastic-symplastic-and-polymer-trapping-mechanisms.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.F: 1/8. Next unpublished in this subunit: 6.F.01 — Water Potential, Osmosis and the Driving Forces of Plant Transport.
+
+## Publication record — 2026-11-27
+
+- 6.F.04 — [Xylem Transport and Ascent of Sap: Cohesion–Tension and Hydraulic Limits](https://rahulthakurpatan.github.io/lifescienceacademy/xylem-transport-and-ascent-of-sap-cohesion-tension-and-hydraulic-limits.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.F: 2/8 published. Next unpublished in this subunit: 6.F.01.

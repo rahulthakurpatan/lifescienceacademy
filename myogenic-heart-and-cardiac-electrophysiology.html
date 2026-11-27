@@ -1,0 +1,443 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Learn cardiac pacemaking, specialised conduction, action potentials, refractoriness and calcium-dependent contraction for CSIR-NET and SET."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/myogenic-heart-and-cardiac-electrophysiology.html"><title>Myogenic Heart and Cardiac Electrophysiology | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 7</span><span>›</span><span>Sub-unit 7.B</span><span>›</span><strong>Node 02</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 7.B.02</span><span>Unit 7 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Myogenic Heart and Cardiac Electrophysiology</h1><p class="subtitle">From spontaneous cardiac rhythm to membrane excitation, coordinated conduction and calcium-dependent force.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Comparative Anatomy and Evolution of the Cardiovascular System">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Electrocardiography: Principles and Physiological Significance">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#s1">1. The physiological problem: producing a rhythm without a command for every beat</a><a href="#s2">2. Myogenic and neurogenic origins of the heartbeat</a><a href="#s3">3. Cardiomyocytes and electrical continuity across cell boundaries</a><a href="#s4">4. Membrane voltage, ion gradients and excitability</a><a href="#s5">5. The specialised mammalian conduction system</a><a href="#s6">6. Slow-response action potentials and coupled pacemaker mechanisms</a><a href="#s7">7. Fast-response action potentials in working myocardium</a><a href="#s8">8. Refractoriness and why sustained tetanus is unsuitable for the heart</a><a href="#s9">9. Excitation–contraction coupling and the calcium transient</a><a href="#s10">10. Relaxation, calcium removal and beat-to-beat balance</a><a href="#s11">11. Autonomic regulation without loss of myogenic identity</a><a href="#s12">12. Experimental reasoning: distinguish rhythm, propagation and force</a><a href="#traps">Misconceptions</a><a href="#practice">Original examination practice</a><a href="#revision">Revision and mastery</a><a href="#references">References</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article class="reading-paper" aria-label="Myogenic Heart and Cardiac Electrophysiology study notes"><div class="article-content" id="article"><section id="s1"><h2>1. The physiological problem: producing a rhythm without a command for every beat</h2><p class="teaching-prose">The cardiovascular system needs more than a set of chambers and valves. Pressure must be generated repeatedly, and the order of contraction must be coordinated with the direction in which blood can travel. In a mammal, the atria normally activate before the ventricles. The ventricles then produce a large rise in pressure, eject blood and relax sufficiently to accept another volume. If all these muscle cells were activated independently at unrelated times, the mechanical work of one region could oppose the work of another. The biological challenge is therefore to establish a rhythm, distribute it through an organised tissue and convert excitation into mechanical tension.</p>
+<p class="teaching-prose">A muscle cell is excitable when an appropriate stimulus can produce a rapid change in its membrane voltage. Excitability alone does not guarantee rhythmic activity. A typical ventricular cardiomyocyte remains at a relatively stable negative membrane potential until a neighbouring cell depolarises it. An autorhythmic cell, in contrast, develops repetitive electrical activity without receiving a separate initiating impulse for each cycle. A group of such cells can form a pacemaker: a source that sets the timing of a larger excitable system. In the adult mammalian heart the principal physiological pacemaker is the sinoatrial node, situated near the junction of the superior vena cava and right atrium.</p>
+<p class="teaching-prose">Automaticity, rhythmicity, excitability, conductivity and contractility describe different functions. Automaticity is spontaneous impulse generation. Rhythmicity concerns the temporal pattern of recurring events. Excitability describes the ability to respond to electrical stimulation; conductivity describes transmission of excitation through tissue. Contractility concerns force generation under specified loading conditions. A preparation might show a regular electrical rhythm but almost no contraction because calcium delivery to the myofilaments has failed. Another preparation might contract in response to every externally applied stimulus while showing no spontaneous electrical activity. These two cases illustrate why an electrical measurement cannot automatically substitute for a mechanical one.</p>
+<p class="teaching-prose">The nervous system adjusts cardiovascular performance according to the needs of the animal. This adjustment is not equivalent to supplying an initiating nerve impulse for every mammalian heartbeat. A viable isolated mammalian heart can continue beating when it receives appropriate perfusion, nutrients and oxygen. The experiment establishes that external neural connections are not essential for ordinary impulse generation. It does not establish that cardiac rhythm remains unchanged when those connections are removed, or that an isolated heart can continue beating indefinitely without metabolic support.</p></section>
+<section id="s2"><h2>2. Myogenic and neurogenic origins of the heartbeat</h2><p class="teaching-prose">A heartbeat is termed myogenic when its initiating rhythm arises within specialised muscle cells. It is termed neurogenic when the primary rhythmic drive is supplied by neurons. These terms describe the origin of excitation rather than whether the resulting contraction depends on calcium, whether the animal possesses a closed circulation, or whether nervous regulation is present. Vertebrate hearts are familiar examples of myogenic organs. Several invertebrate groups also possess myogenic hearts. Adult decapod crustaceans, including familiar crab and lobster models, and the horseshoe crab provide classic examples of neurogenic cardiac rhythm.</p>
+<p class="teaching-prose">A decapod cardiac ganglion is a compact rhythmic neuronal network located in association with the heart. In the extensively studied nine-neuron organisation, four small neurons participate in rhythmic drive and five larger motor neurons deliver excitation to the cardiac muscle. Their organised bursts are translated into contractions through neuromuscular transmission. The ganglion can generate rhythmic output in isolation under suitable conditions. Feedback from the contracting tissue and modulatory signals influence its behaviour in the intact animal. It would be misleading to claim that such a heart depends on a fresh command from the brain for each beat: its local neuronal network is itself a rhythm generator.</p>
+<p class="teaching-prose">An experimental comparison requires care. Imagine disconnecting the extrinsic nerve supply in a mammal and in a crab while leaving the cardiac ganglion intact in the crab. Continued beating in both preparations does not distinguish the two origins, because neither manipulation necessarily removes the actual oscillator. To examine the crab mechanism one must record from or selectively interfere with the local ganglion and establish whether its rhythmic bursts precede muscle excitation. A mammalian experiment can instead record spontaneous potentials in isolated nodal tissue or cells and show that those electrical events persist without neural inputs. Appropriate oxygenation, temperature and preparation viability are necessary controls in either comparison.</p>
+<p class="teaching-prose">The broad classifications should not be converted into a rigid taxonomic rule. The mode of pacing can differ among species and developmental stages. In addition, the term myogenic autoregulation, used later in vascular physiology, describes a local smooth-muscle response to stretch and is not the same concept as the myogenic origin of heartbeat. The comparison matters because similar mechanical tasks can be solved by different biological oscillators. In both cases a rhythm must be transmitted to contractile tissue, and the rhythm can be modified by feedback without being created anew by each feedback signal.</p></section>
+<section id="s3"><h2>3. Cardiomyocytes and electrical continuity across cell boundaries</h2><p class="teaching-prose">The working myocardium is constructed from striated cardiac muscle cells. Their sarcomeres contain ordered thick and thin filaments, and their mitochondria support sustained oxidative metabolism. Adult mammalian ventricular cells typically have transverse tubules that bring the surface membrane into close proximity with calcium stores in the sarcoplasmic reticulum. This arrangement helps translate a voltage change at the membrane into calcium delivery throughout a cell. Nodal cells differ in their organisation and electrical properties because their principal function is pacing or conduction rather than generating the major pumping force.</p>
+<p class="teaching-prose">The ends and branches of cardiomyocytes meet at intercalated discs. Several specialised junctional structures occupy these interfaces. Adherens junctions transmit contractile forces between neighbouring cells through connections involving the actin cytoskeleton. Desmosomes contribute mechanical cohesion by linking intermediate filament systems. Gap junction channels provide pathways through which ions and small molecules can pass between neighbouring cytoplasms. Six connexin subunits form a connexon in one membrane; docking with a compatible connexon in the neighbouring membrane establishes an intercellular channel. The two cells retain distinct membranes and identities.</p>
+<p class="teaching-prose">Electrical coupling is useful because a depolarised region can supply current to an adjacent resting region. The neighbouring membrane charges until its voltage-sensitive channels produce a regenerative action potential of its own. The gap junction does not transport a complete action potential as a material object. It permits electrical current, while the voltage change is regenerated locally. This distinction explains why conduction can fail even when the initiating cell remains excitable: the current delivered to its neighbour may be insufficient to activate the neighbour's channels.</p>
+<p class="teaching-prose">The myocardium behaves as a functional syncytium, a population of distinct electrically connected cells. It is not a single multinucleated skeletal-muscle-like fibre. Moreover, electrical continuity is organised rather than uniform. The fibrous tissue between the atria and ventricles normally constrains direct electrical spread, and the atrioventricular conducting axis supplies the physiological route between them. Gap-junction expression, cell size, tissue orientation and connective tissue also affect how rapidly excitation travels. An excitation wave may move more readily along the long axis of a well-coupled chain of myocytes than across it. This directional dependence is called anisotropy.</p>
+<p class="teaching-prose">Mechanical and electrical junctional defects have different first-order effects. If coupling conductance is reduced, adjacent cells receive less depolarising current, so local propagation may slow or fail even when individual action-potential generation is preserved. If mechanical adhesion is weakened, electrical excitation may initially be transmitted yet the tissue may no longer tolerate repetitive force normally. Real tissue changes can affect both properties together, so an observation of impaired contraction alone is insufficient to specify which junctional component has changed.</p></section>
+<section id="s4"><h2>4. Membrane voltage, ion gradients and excitability</h2><p class="teaching-prose">Membrane potential is the voltage inside a cell relative to its exterior. A resting ventricular myocyte is typically near −85 to −90 mV under physiological conditions, whereas the voltage in a central sinoatrial nodal cell changes spontaneously between beats. The negative interior does not imply that the entire cytoplasm carries a large net negative charge. A small separation of charge at the membrane surfaces creates the voltage, while the bulk solutions are almost electrically neutral. Selective ion permeability and active maintenance of concentration gradients allow the voltage to change in a reproducible manner.</p>
+<p class="teaching-prose">Potassium is more concentrated inside a typical cardiac cell; sodium and calcium are more concentrated outside it when free cytosolic calcium is considered. Each ion is influenced by both its concentration gradient and the electrical field. The Nernst potential is the membrane voltage at which these two influences balance for a particular ion. It does not state what the voltage of a real membrane must be when several ion species can cross simultaneously. At 37 °C, the approximate Nernst expression is Eion = (61.5 mV/z) log10([ion]out/[ion]in), with z the signed ionic valence. Concentrations must use the same units and ideal dilute-solution behaviour is assumed.</p>
+<p class="teaching-prose">For potassium concentrations of 4 mmol/L outside and 140 mmol/L inside, log10(4/140) is approximately −1.544. Multiplying by 61.5 mV gives EK approximately −95.0 mV. For sodium concentrations of 140 and 12 mmol/L, the same calculation gives ENa approximately +65.6 mV. These are illustrative concentrations, not a measurement of a particular heart. A membrane at −85 mV lies far below ENa, favouring inward sodium current when sodium channels open. It lies slightly above EK, favouring outward potassium current through open potassium channels.</p>
+<p class="teaching-prose">A useful simplified current relation is Iion = gion(Vm − Eion), where gion is conductance, Vm is membrane voltage and Eion is equilibrium potential. Outward conventional current is positive in this notation. With conductance measured in nanosiemens and voltage in millivolts, their product has units of picoamperes. If a sodium conductance of 10 nS opens at −80 mV with ENa = +60 mV, the calculated current is −1400 pA, indicating inward positive charge. The conductance is in fact variable because channels open, close and inactivate; this example describes an instant, not a full action potential.</p>
+<p class="teaching-prose">Membrane capacitance describes how much separated charge must accumulate to change voltage. A useful balance is Cm dVm/dt = −ΣIion when applied and intercellular currents are absent and outward ionic current is defined as positive. Inward net current therefore drives depolarisation. During a plateau, large inward and outward currents may nearly cancel, so the voltage changes slowly despite substantial ion movement. During pacemaker depolarisation, even a small imbalance sustained over time can bring a cell to threshold.</p>
+<p class="teaching-prose">The sodium–potassium ATPase maintains sodium and potassium gradients through repeated transport of three sodium ions out and two potassium ions in per ATP consumed. It is electrogenic but does not itself cause the rapid repolarisation of each ventricular action potential. Repolarisation occurs primarily through changes in channel conductance. Pump function remains essential over many cycles because gradual dissipation of the gradients compromises excitability, calcium handling and normal membrane voltage.</p></section>
+<section id="s5"><h2>5. The specialised mammalian conduction system</h2><p class="teaching-prose">The sinoatrial node initiates the normal rhythm. Excitation leaves its pacemaker region and spreads through the atrial myocardium, allowing atrial activation before ventricular activation. Preferential atrial routes help organise spread, but descriptions of completely insulated internodal cables should not be inferred from a simple textbook drawing. The atrioventricular node is located in the lower interatrial septal region near the atrioventricular junction. Propagation through this region is relatively slow, allowing time for atrial activation and associated filling before ventricular systole.</p>
+<p class="teaching-prose">The impulse then passes through the atrioventricular bundle, also called the bundle of His, into right and left bundle branches and their Purkinje network. These specialised cells distribute excitation to the ventricular myocardium rapidly. Much ventricular activation proceeds from inner myocardial regions towards outer regions in an organised spatial sequence, rather than simply travelling down one external line from the atrium. Purkinje fibres have fast-response electrical properties and are electrically coupled to working ventricular tissue. They are modified cardiomyocytes, not axons of motor neurons.</p>
+<p class="teaching-prose">Slow atrioventricular conduction reflects several interacting properties: small cells, tissue geometry, cell coupling and an action-potential upstroke that relies heavily on calcium current in nodal regions. The delay is not a pause imposed by an external neural controller. Rapid conduction in the His–Purkinje system reflects a different combination of membrane excitability and structural properties. The entire atrioventricular interval is not attributable to the AV node alone, since atrial and His–Purkinje conduction also take time.</p>
+<p class="teaching-prose">Suppose two sites are separated by 12 mm along a known pathway and activation arrives at the second site 40 ms after the first. The average apparent conduction velocity is 0.012 m divided by 0.040 s, or 0.30 m/s. This calculation assumes that the measured distance approximates the actual propagation route. When the route is tortuous, direction changes or activation enters from more than one source, dividing straight-line distance by delay may not represent local tissue velocity. A conduction experiment is stronger when several recording sites and known stimulus timing establish a consistent activation sequence.</p>
+<p class="teaching-prose">The SA node normally dominates because its intrinsic timing is faster than that of subsidiary pacemaker regions. When slower automatic cells are repeatedly activated by a faster source they cannot ordinarily complete their own spontaneous interval before the next conducted impulse. Overdrive suppression can additionally reduce their spontaneous firing. If the dominant impulse ceases, a subsidiary pacemaker may eventually initiate an escape rhythm. If an atrial impulse fails to reach the ventricles, atrial and ventricular rhythms may become independent. The ability of subsidiary tissue to generate impulses does not mean every working cardiomyocyte is an effective normal pacemaker.</p></section>
+<section id="s6"><h2>6. Slow-response action potentials and coupled pacemaker mechanisms</h2><p class="teaching-prose">In a central sinoatrial nodal cell the most negative voltage after repolarisation is called the maximum diastolic potential, not a stable resting potential. During phase 4 the membrane slowly depolarises towards threshold. The phase 0 upstroke depends mainly on L-type calcium current, while phase 3 repolarisation depends on outward potassium current and declining calcium current. The familiar fast-response phases 1 and 2 are not separately prominent in this central nodal pattern. Peripheral nodal cells are heterogeneous and may also express functionally significant sodium current.</p>
+<p class="teaching-prose">Hyperpolarisation-activated cyclic nucleotide-gated channels carry the funny current, If. They are unusual in opening in response to sufficiently negative voltage. Their pores conduct both sodium and potassium. At physiological diastolic voltages the net current is generally inward because the combined reversal potential is more positive than the membrane potential. It is inaccurate to call If a pure sodium current or to infer that activation by hyperpolarisation must cause further hyperpolarisation. Channel gating and the direction of ionic current are different properties.</p>
+<p class="teaching-prose">Following repolarisation, activation of If, a decline in outward potassium current and other inward currents create the net depolarising balance. T-type calcium channels can contribute during late diastolic depolarisation in relevant nodal cells; L-type calcium channels become important as voltage approaches the threshold region and generate much of the nodal upstroke. Calcium channels subsequently inactivate, potassium conductance increases and the membrane repolarises. Repolarisation restores the conditions for the next spontaneous cycle.</p>
+<p class="teaching-prose">Intracellular calcium cycling can also participate in pacing. During diastole, local calcium release from the sarcoplasmic reticulum may stimulate forward sodium–calcium exchange. The exchanger typically imports three sodium ions while exporting one calcium ion, moving one net positive charge inward per transport cycle. The resulting inward current can accelerate late diastolic depolarisation. The interaction of membrane channels and intracellular calcium cycling is often described as a coupled-clock mechanism. The relative importance of its components varies with species, cell type and physiological conditions. A useful examination answer should neither ignore If nor claim that it is the sole molecular origin of every cardiac rhythm.</p>
+<p class="teaching-prose">A simple timing exercise separates the influences on spontaneous rate. If maximum diastolic potential is −60 mV and threshold is −40 mV, the membrane must depolarise by 20 mV. At a hypothetical average slope of 40 mV/s this takes 0.50 s. If the remaining upstroke and repolarisation occupy another 0.30 s, the cycle duration is 0.80 s and the calculated rate is 60/0.80 = 75 beats/min. A slope of 50 mV/s decreases the diastolic interval to 0.40 s and, with other timing unchanged, increases rate to about 85.7 beats/min. Actual phase 4 is nonlinear and its threshold and maximum diastolic potential may also change. Thus the calculation is a causal teaching model, not a fitted prediction of intact nodal behaviour.</p><figure><svg id="nodal-ap" role="img" aria-labelledby="nodal-ap-title nodal-ap-desc" viewBox="0 0 540 272" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:auto;color:var(--ink);font-size:13px"><title id="nodal-ap-title">Schematic sinoatrial nodal action potential</title><desc id="nodal-ap-desc">Two successive cycles show gradual phase 4 depolarisation, a calcium-dependent phase 0 upstroke and potassium-dependent phase 3 repolarisation.</desc><g fill="currentColor"><path d="M58 24 V210 H510" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M58 198 C105 194 145 167 180 139 C190 117 200 57 215 42 C240 60 249 160 275 198 C322 194 362 167 397 139 C407 117 417 57 432 42 C455 62 466 160 492 198" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M58 139 H500" stroke="currentColor" stroke-dasharray="5 6" opacity=".5"/><text x="90" y="177">4</text><text x="194" y="95">0</text><text x="246" y="124">3</text><text x="300" y="132">Approximate threshold</text><text x="8" y="48">+10</text><text x="8" y="143">−40</text><text x="8" y="202">−60</text><text x="446" y="258">Time →</text></g></svg><figcaption>Schematic sinoatrial nodal action potential. Two successive cycles show gradual phase 4 depolarisation, a calcium-dependent phase 0 upstroke and potassium-dependent phase 3 repolarisation.</figcaption></figure></section>
+<section id="s7"><h2>7. Fast-response action potentials in working myocardium</h2><p class="teaching-prose">A ventricular action potential begins when depolarising current brings a resting cell into the activation range of voltage-gated sodium channels. During phase 0 rapid sodium entry drives a steep increase in voltage. This sodium conductance activates and inactivates quickly. The rate of the upstroke is important for conduction because a rapid increase in voltage helps an excited cell supply depolarising current to surrounding tissue. The ventricular action potential is therefore different from the central SA nodal upstroke, which relies mainly on calcium current.</p>
+<p class="teaching-prose">Phase 1 is the early partial repolarisation observed in many ventricular cells. It follows sodium current inactivation and contributions from transient outward potassium current. Phase 2 is the plateau, during which inward L-type calcium current and outward potassium currents approximately balance over a substantial interval. The plateau is not a phase during which no ions move. Nor is it simply a period in which all potassium channels are closed. The magnitude and shape of the plateau vary among ventricular regions and species, and some cells have a more triangular profile.</p>
+<p class="teaching-prose">Phase 3 is the principal repolarising phase. Calcium current diminishes through inactivation, while repolarising potassium currents become increasingly effective. Delayed rectifier potassium currents, including rapidly and slowly activating components, contribute to this process. The inward rectifier potassium current helps stabilise negative voltage and contributes during terminal repolarisation. Phase 4 denotes the relatively stable diastolic voltage of an ordinary working ventricular cell. Inward rectification means a channel has a voltage-dependent asymmetric current–voltage relation; it does not mean the channel can only move potassium into the cell.</p>
+<p class="teaching-prose">A decrease in fast sodium channel availability reduces the maximum upstroke rate and can slow propagation without directly abolishing sarcomere function. A reduction in L-type calcium current may shorten the plateau and diminish the trigger for calcium release, although compensating currents and changes in calcium loading affect the final outcome. A decrease in repolarising potassium current tends to prolong repolarisation if the other currents are unchanged. These predictions are useful as controlled perturbations, but an intact cell contains interacting voltage-sensitive currents, so one cannot predict every secondary effect by considering an isolated channel.</p>
+<p class="teaching-prose">A central nodal cell and a ventricular cell may both depolarise, but the waveform alone must be interpreted with time scale, voltage scale and recording context. A trace with slow diastolic depolarisation, a calcium-dependent upstroke and no obvious plateau suggests a nodal phenotype. A trace with stable negative diastolic voltage, a steep sodium-dependent upstroke and a prominent plateau suggests a working ventricular phenotype. Purkinje cells illustrate why automaticity and fast-response excitation need not be mutually exclusive: specialised conducting cells can exhibit latent automaticity while retaining a fast upstroke.</p><figure><svg id="vent-ap" role="img" aria-labelledby="vent-ap-title vent-ap-desc" viewBox="0 0 540 272" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:auto;color:var(--ink);font-size:13px"><title id="vent-ap-title">Schematic ventricular fast-response action potential</title><desc id="vent-ap-desc">The five labelled phases illustrate rapid sodium entry, early repolarisation, a prolonged calcium-supported plateau, final repolarisation and stable resting voltage.</desc><g fill="currentColor"><path d="M58 24 V210 H510" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M58 209 H110 L116 37 Q130 60 142 65 C180 52 262 68 300 88 C335 112 341 200 375 209 H500" fill="none" stroke="var(--accent)" stroke-width="3"/><text x="75" y="200">4</text><text x="99" y="105">0</text><text x="126" y="30">1</text><text x="220" y="53">2</text><text x="345" y="130">3</text><text x="430" y="200">4</text><text x="8" y="40">+30</text><text x="8" y="85">0</text><text x="8" y="213">−90</text><text x="446" y="258">Time →</text></g></svg><figcaption>Schematic ventricular fast-response action potential. The five labelled phases illustrate rapid sodium entry, early repolarisation, a prolonged calcium-supported plateau, final repolarisation and stable resting voltage.</figcaption></figure></section>
+<section id="s8"><h2>8. Refractoriness and why sustained tetanus is unsuitable for the heart</h2><p class="teaching-prose">Following an action potential, a cardiac cell cannot immediately generate another normally propagated response. During the absolute refractory period, a second stimulus cannot elicit another action potential in the usual sense. The effective refractory period is defined operationally by the inability to generate a propagated response; local electrical changes may be possible before propagation is restored. During the relative refractory period some channels have recovered, and a sufficiently strong stimulus may produce a response with altered amplitude or propagation speed. Exact boundaries depend on the cell, stimulus and measurement criterion.</p>
+<p class="teaching-prose">Fast sodium channels recover from inactivation primarily after the membrane returns towards negative potentials. During the prolonged ventricular plateau, the membrane remains depolarised and many sodium channels are unavailable. Consequently the refractory period overlaps much of the mechanical contraction. The action potential and calcium transient are much longer than a typical skeletal muscle action potential. Skeletal muscle can receive repetitive action potentials while tension is still developing and can show temporal summation and fused tetanus. The normal working heart is protected from this form of sustained contraction by the prolonged refractory interval.</p>
+<p class="teaching-prose">Relaxation is indispensable for ventricular filling. A sustained contraction would not function as an effective repetitive pump even if the muscle developed considerable force. This explains why a prolonged action potential can be physiologically advantageous despite limiting maximum firing frequency. It does not mean that a heart is immune to rapid or disorganised electrical activity. Premature impulses, abnormal automaticity and re-entry can disturb coordinated activation without producing the same normal fused tetanus characteristic of stimulated skeletal muscle.</p>
+<p class="teaching-prose">A useful illustrative paired-pulse experiment applies a conditioning stimulus at time zero and tests responses at increasing delays. At 100 ms no second response is observed, at 220 ms a small local response fails to propagate, and at 280 ms a stronger-than-usual stimulus produces a propagated response. The observations suggest continuing refractoriness at 100 ms, a difference between local excitability and tissue propagation at 220 ms, and partial recovery by 280 ms. They do not establish exact absolute or effective refractory endpoints without testing more intervals and stimulus strengths. A response is meaningful only when its recording site and propagation criterion are stated.</p><figure><svg id="refractory" role="img" aria-labelledby="refractory-title refractory-desc" viewBox="0 0 540 272" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:auto;color:var(--ink);font-size:13px"><title id="refractory-title">Refractory recovery and contraction</title><desc id="refractory-desc">Schematic relative timing; refractoriness overlaps much of the mechanical twitch, limiting summation. Curves are qualitative rather than measured data.</desc><g fill="currentColor"><path d="M58 24 V210 H510" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M58 202 H100 L104 45 Q145 54 245 65 Q285 81 325 202 H500" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M58 202 H110 Q140 200 188 115 Q225 68 275 117 Q320 168 365 202 H500" stroke="#c57b32" stroke-width="3" fill="none"/><path d="M104 225 H300" stroke="currentColor" stroke-width="6"/><path d="M300 225 H350" stroke="currentColor" stroke-width="3" stroke-dasharray="4 3"/><text x="105" y="242">Effective refractory</text><text x="305" y="242">Recovery</text><text x="180" y="35">Voltage</text><text x="210" y="103">Force</text><text x="446" y="258">Time →</text></g></svg><figcaption>Refractory recovery and contraction. Schematic relative timing; refractoriness overlaps much of the mechanical twitch, limiting summation. Curves are qualitative rather than measured data.</figcaption></figure></section>
+<section id="s9"><h2>9. Excitation–contraction coupling and the calcium transient</h2><p class="teaching-prose">Cardiac contraction requires an increase in free calcium concentration near the myofilaments. Electrical activation reaches the sarcolemma and, in ventricular cells with a well-developed transverse-tubule system, penetrates deep into the cell through invaginations of that membrane. L-type calcium channels open with depolarisation and admit a local calcium signal. Nearby ryanodine receptors of the RyR2 type in the sarcoplasmic reticulum respond to this signal by releasing additional calcium from the intracellular store. This process is calcium-induced calcium release, commonly abbreviated CICR.</p>
+<p class="teaching-prose">The narrow junction between a transverse tubule and a terminal region of the sarcoplasmic reticulum is a dyadic signalling space. The local calcium concentration near an open L-type channel may be much higher than the average cytosolic concentration. Local release events therefore depend on spatial organisation, not simply on a uniform whole-cell rise. The summation of many local release events produces the cell-wide calcium transient. The transient is not identical to the action potential: it has its own timing and amplitude, depending on trigger current, store content, release probability, buffering and removal.</p>
+<p class="teaching-prose">Free calcium binds to troponin C in the thin filament regulatory complex. Changes in the troponin complex shift tropomyosin away from inhibitory positions on actin, allowing more productive interaction between actin and myosin. Myosin uses ATP in repeated cross-bridge cycles that generate force and, if the load permits, shortening. Electrical excitation is upstream of this process but does not itself supply the mechanical energy. ATP is also needed for calcium reuptake and maintenance of ionic gradients, making repeated contractions dependent on metabolic support.</p>
+<p class="teaching-prose">In mammalian skeletal muscle, voltage-dependent conformational coupling between the L-type channel voltage sensor and the principal skeletal ryanodine receptor provides a major route of sarcoplasmic reticulum calcium release. In ventricular cardiac muscle, entry of extracellular calcium through L-type channels is a crucial trigger for RyR2 release. Consequently reducing extracellular calcium can strongly affect cardiac force even while membrane excitation remains detectable. The extent of dependence varies with preparation and species; the comparison is a distinction of coupling mechanisms rather than a claim that extracellular calcium never matters in skeletal muscle physiology.</p>
+<p class="teaching-prose">A two-measurement experiment illustrates the causal sequence. Record action potentials and force from a paced ventricular preparation while progressively inhibiting L-type calcium entry. If sodium-dependent excitation is still detected but force falls, a defect between electrical excitation and mechanical activation is implicated. Measuring the calcium transient provides a further test. If the transient decreases with force, impaired calcium delivery is plausible. If the transient stays comparable but force falls, altered myofilament responsiveness or cross-bridge function deserves attention. Simultaneous measures constrain explanations more effectively than force alone.</p><figure><svg id="ecc-time" role="img" aria-labelledby="ecc-time-title ecc-time-desc" viewBox="0 0 540 272" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:auto;color:var(--ink);font-size:13px"><title id="ecc-time-title">Temporal order of excitation, calcium and tension</title><desc id="ecc-time-desc">Normalised schematic traces use separate relative amplitudes, not a shared physical unit. Voltage rises before calcium, which precedes tension.</desc><g fill="currentColor"><path d="M58 24 V210 H510" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M58 202 H100 L105 42 Q160 50 235 70 Q265 90 294 202 H500" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M58 202 H120 Q145 72 185 75 Q242 86 310 180 Q330 202 390 202 H500" fill="none" stroke="#c57b32" stroke-width="3"/><path d="M58 202 H140 Q180 155 230 92 Q290 80 335 155 Q365 198 425 202 H500" fill="none" stroke="#7976c9" stroke-width="3"/><text x="120" y="34">Voltage</text><text x="162" y="67">Ca²⁺</text><text x="290" y="83">Tension</text><text x="446" y="258">Time →</text></g></svg><figcaption>Temporal order of excitation, calcium and tension. Normalised schematic traces use separate relative amplitudes, not a shared physical unit. Voltage rises before calcium, which precedes tension.</figcaption></figure></section>
+<section id="s10"><h2>10. Relaxation, calcium removal and beat-to-beat balance</h2><p class="teaching-prose">For a cardiomyocyte to relax, free cytosolic calcium must decrease. The sarcoplasmic reticulum calcium ATPase SERCA2a transports calcium back into the sarcoplasmic reticulum using ATP. Sodium–calcium exchange in the surface membrane normally contributes to net calcium extrusion. A smaller component is handled by the plasma membrane calcium ATPase and other cellular pathways. Mitochondria contribute to calcium signalling and energetics but are not normally the principal rapid route for clearing the global ventricular calcium transient.</p>
+<p class="teaching-prose">The difference between recycling and extrusion is important. Calcium that SERCA returns to the sarcoplasmic reticulum remains within the cell and can be released again on a subsequent beat. Calcium removed by forward sodium–calcium exchange leaves the cytosol for the extracellular space. At steady state, net entry of calcium across the cell membrane over a complete cycle is balanced by net extrusion. Intracellular release and reuptake do not add or subtract calcium from the whole-cell inventory. Failure to distinguish these two balances leads to incorrect predictions about calcium accumulation.</p>
+<p class="teaching-prose">For an illustrative integrated flux example, let 12 arbitrary calcium units enter across the membrane during a beat while 48 units are released from the sarcoplasmic reticulum. If 48 units are returned to the store and 12 are extruded, both store content and total cellular calcium return to their initial values. If SERCA initially returns only 38 units and extrusion remains 12, the store loses 10 units while 10 remain elsewhere in the cell at the end of the interval. In later beats, the altered free calcium and store content will change release and extrusion. The initial arithmetic cannot be extrapolated indefinitely as if the system were not regulated.</p>
+<p class="teaching-prose">Phospholamban modulates SERCA activity in cardiac muscle. In its inhibitory state it reduces the apparent calcium affinity of the pump; phosphorylation can relieve inhibition, accelerating calcium sequestration and supporting relaxation. This can also increase store loading and influence the force generated on subsequent beats. The ability to relax more rapidly is called positive lusitropy. It is distinct from positive inotropy, an increase in contractile state, although the same signalling pathway can influence both.</p>
+<p class="teaching-prose">Sodium–calcium exchange relies on the sodium gradient and membrane voltage. Its direction is not permanently fixed: the electrochemical conditions can favour reverse exchange during parts of a cycle or under altered ionic conditions. In the ordinary beat-to-beat balance it is an important route of calcium extrusion. Inhibiting the sodium–potassium pump can increase intracellular sodium and thereby alter calcium extrusion, but it also changes electrical and metabolic conditions; the resulting cellular response cannot be reduced to one transporter acting in isolation.</p></section>
+<section id="s11"><h2>11. Autonomic regulation without loss of myogenic identity</h2><p class="teaching-prose">Cardiac sympathetic nerves release noradrenaline, and circulating adrenaline also influences the heart. Beta1 adrenergic receptors couple predominantly to Gs, stimulating adenylyl cyclase and increasing cyclic AMP. In pacemaker cells, cAMP can bind directly to HCN channels and shift their activation towards less negative voltages, increasing availability in the diastolic range. Protein kinase A dependent processes also modify calcium channels and calcium handling. Together these effects ordinarily accelerate pacemaker depolarisation and increase the rate of spontaneous impulse generation.</p>
+<p class="teaching-prose">Parasympathetic vagal activity releases acetylcholine, acting through M2 muscarinic receptors. Gi-associated signalling reduces adenylyl cyclase activity and cAMP. G protein beta-gamma subunits can also activate acetylcholine-sensitive potassium channels, promoting outward potassium current at relevant voltages. A more negative diastolic potential and reduced inward pacemaker drive can increase the time required to reach threshold. The result is typically a slower sinoatrial rhythm. Parasympathetic effects on AV nodal conduction can also be substantial.</p>
+<p class="teaching-prose">Chronotropy describes effects on rate, dromotropy on conduction, inotropy on contractile state and lusitropy on relaxation. Sympathetic stimulation usually increases each of these in the mammalian heart under appropriate conditions. Parasympathetic stimulation prominently slows SA rate and AV conduction; direct effects on ventricular force are generally less prominent than effects on nodal and atrial tissue. These words identify outcomes, not a separate set of nerves for each process.</p>
+<p class="teaching-prose">Removing autonomic input leaves a viable myogenic pacemaker capable of generating impulses. It may beat faster than a resting intact heart when tonic vagal restraint is removed. Conversely, a preparation lacking sympathetic stimulation can still increase its rate under certain intrinsic or pharmacological conditions. To distinguish direct effects on rhythm from direct effects on contractile state, researchers can maintain a fixed stimulation rate and compare force before and after a receptor agonist. If force changes despite the same activation frequency, a mechanism beyond simple chronotropy must be considered. Later chapters will extend this cellular explanation to feedback control of arterial pressure and integrated cardiovascular responses.</p></section>
+<section id="s12"><h2>12. Experimental reasoning: distinguish rhythm, propagation and force</h2><p class="teaching-prose">Electrophysiological experiments become more informative when the measured variable is explicitly identified. A current-clamp recording measures voltage as the cell responds to its ionic currents and applied stimulation. In voltage clamp, feedback circuitry holds membrane voltage near a chosen value and measures the current required to do so. Voltage steps to a series of potentials can reveal channel activation ranges and current direction, particularly when combined with ionic substitutions or sufficiently selective blockers. A recorded whole-cell current is the sum of components unless the experiment separates them.</p>
+<p class="teaching-prose">To test whether an inward current is activated by hyperpolarisation, compare currents at progressively more negative test voltages after an appropriate holding condition. A slowly developing inward component that is reduced by an HCN-targeting intervention supports the identification of If. A rigorous interpretation also considers driving force, specificity of the intervention and other voltage-dependent conductances. The fact that a current appears at a negative voltage is not alone sufficient to identify its molecular carrier. Changing cAMP and examining the voltage dependence of activation tests a different feature of HCN regulation.</p>
+<p class="teaching-prose">A paired-site activation experiment can distinguish a change in pacemaker rate from a conduction defect. Record successive activation times in an upstream atrial region and a downstream ventricular region. If both intervals lengthen equally while the atrial-to-ventricular delay remains unchanged, altered rhythm generation is a plausible first interpretation. If the atrial interval remains fixed but the ventricular activation becomes progressively delayed or some atrial events fail to produce ventricular events, impaired propagation is suggested. A single recording from the ventricle cannot reliably distinguish these possibilities.</p>
+<p class="teaching-prose">An optical calcium indicator reports changes in calcium-dependent fluorescence. Its signal depends on indicator properties, concentration, binding kinetics and calibration. It is not automatically a quantitative absolute calcium measurement. Motion during contraction can introduce artefacts; recording voltage, fluorescence and force together helps determine their temporal relationship. If voltage precedes the calcium signal and calcium precedes force, the order supports excitation–contraction coupling. Selective perturbation of the putative intermediate is required to establish more than temporal association.</p>
+<p class="teaching-prose">A conceptual re-entry model introduces one important exception to orderly activation. For an excitation wave to recur around a pathway, tissue ahead of the wave must have recovered excitability by the time it returns. Unidirectional block, sufficiently slow conduction and an available route can support re-entry. In an idealised homogeneous pathway the excitation wavelength may be approximated as conduction velocity multiplied by effective refractory period. A velocity of 0.40 m/s and refractory period of 0.25 s yield 0.10 m, or 10 cm. A 15 cm loop can in principle accommodate this wavelength, but geometry, source–sink relationships and actual recovery patterns determine whether re-entry occurs. This is a reasoning model, not a clinical diagnosis.</p>
+<p class="teaching-prose">These experiments establish the conceptual bridge to electrocardiography. A surface recording measures voltage differences generated by coordinated electrical activity in tissue, rather than a direct record of the membrane potential of a single cell. A student who can distinguish local voltage, propagation, calcium delivery and force is prepared to interpret surface electrical events without confusing them with pressure changes or valve movements.</p></section><section id="traps"><h2>Misconceptions and examination traps</h2><dl><dt><strong>All arthropods have neurogenic hearts</strong></dt><dd>Pacing origin is species-specific; adult decapod and horseshoe crab examples do not establish a universal arthropod rule.</dd><dt><strong>Myogenic means unregulated by nerves</strong></dt><dd>The oscillator arises in muscle, but autonomic nerves modify its timing.</dd><dt><strong>Intercalated discs fuse cells</strong></dt><dd>Cells retain separate membranes; gap junctions establish electrical coupling.</dd><dt><strong>Purkinje fibres are nerves</strong></dt><dd>They are specialised cardiac muscle cells.</dd><dt><strong>If is a sodium-only current</strong></dt><dd>HCN channels conduct sodium and potassium, with net inward current at relevant diastolic voltages.</dd><dt><strong>The ventricular plateau is electrically inactive</strong></dt><dd>Inward and outward currents can nearly balance even while ions continue crossing.</dd><dt><strong>SERCA removes calcium from the entire cell</strong></dt><dd>SERCA recycles calcium into the SR; membrane extrusion changes whole-cell calcium.</dd><dt><strong>A slow ventricular rate proves a slow SA node</strong></dt><dd>Failure of conduction can produce a slower ventricular rate despite a normal atrial rate.</dd></dl></section><section id="practice"><h2>Original examination practice</h2><div class="question"><h3>1. Part B</h3><p>Which characteristic specifically describes spontaneous impulse generation?</p><details><summary>Answer and reasoning</summary><p><strong>Automaticity</strong>. Conductivity measures propagation; contractility concerns force; excitability describes responsiveness.</p></details></div><div class="question"><h3>2. Part B</h3><p>What is the immediate principal depolarising current during phase 0 in a central SA nodal cell?</p><details><summary>Answer and reasoning</summary><p><strong>L-type calcium current</strong>. Fast sodium current is prominent in working ventricular myocardium, not the central nodal upstroke.</p></details></div><div class="question"><h3>3. Part B</h3><p>What is the principal role of gap junctions in intercalated discs?</p><details><summary>Answer and reasoning</summary><p><strong>Electrical coupling through ion movement</strong>. Desmosomes and adherens junctions primarily serve mechanical functions.</p></details></div><div class="question"><h3>4. Part B</h3><p>What activates the HCN channel?</p><details><summary>Answer and reasoning</summary><p><strong>Hyperpolarisation, modulated by cAMP</strong>. HCN conductance carries mixed sodium and potassium current; activation voltage does not dictate current direction.</p></details></div><div class="question"><h3>5. Part B</h3><p>Which transporter replenishes SR calcium?</p><details><summary>Answer and reasoning</summary><p><strong>SERCA2a</strong>. Forward NCX extrudes calcium rather than recycling it into the SR.</p></details></div><div class="question"><h3>6. Part B</h3><p>Which protein directly binds calcium in thin filament regulation?</p><details><summary>Answer and reasoning</summary><p><strong>Troponin C</strong>. Tropomyosin shifts its position downstream of changes in troponin.</p></details></div><div class="question"><h3>7. Part C</h3><p>Two nodal cells have identical threshold and maximum diastolic potential, but A has a steeper phase 4 slope. Other phase durations are equal. Which fires faster?</p><details><summary>Answer and reasoning</summary><p><strong>Cell A</strong>. The voltage excursion is identical, so the greater average slope shortens the time to threshold.</p></details></div><div class="question"><h3>8. Part C</h3><p>A preparation retains a rapid sodium-dependent action potential after L-type calcium-current reduction, but its calcium transient and force decline. What is the most direct explanation?</p><details><summary>Answer and reasoning</summary><p><strong>Reduced trigger for RyR2-mediated release</strong>. Preserved excitation argues against complete loss of excitability; decreased calcium delivery explains reduced force.</p></details></div><div class="question"><h3>9. Part C</h3><p>Atrial activation recurs every 800 ms. Only alternate atrial activations produce ventricular activation. What are the two rates?</p><details><summary>Answer and reasoning</summary><p><strong>75 atrial and 37.5 ventricular beats per minute</strong>. The atrial period is 0.8 s, ventricular period 1.6 s; rate equals 60 divided by period in seconds.</p></details></div><div class="question"><h3>10. Part C</h3><p>A 20 mm pathway has a 50 ms propagation delay. Compute average velocity.</p><details><summary>Answer and reasoning</summary><p><strong>0.40 m/s</strong>. Convert to 0.020 m and 0.050 s, then divide. Assumes measured distance represents the pathway.</p></details></div><div class="question"><h3>11. Part C</h3><p>Electrical pacing and calcium transient amplitude remain constant while tension decreases. Which site merits investigation?</p><details><summary>Answer and reasoning</summary><p><strong>Myofilament calcium responsiveness or cross-bridge function</strong>. A force defect with comparable measured calcium and excitation shifts attention downstream, while calibration and loading still require controls.</p></details></div><div class="question"><h3>12. Part C</h3><p>An idealised pathway has conduction velocity 0.5 m/s and effective refractory period 200 ms. Compute wavelength.</p><details><summary>Answer and reasoning</summary><p><strong>0.10 m</strong>. Multiply 0.5 by 0.200 s. A pathway longer than this may support re-entry under other necessary conditions; length alone cannot prove it.</p></details></div></section><section id="revision"><h2>Revision and mastery</h2><p>Rhythm originates in pacemaker cells, propagates through specialised tissue and working myocardium, and activates calcium-dependent contraction. Recovery of excitability and calcium removal make repeated pumping possible.</p><ol><li>Distinguish automaticity from excitability.</li><li>Why does a viable isolated mammalian heart continue to beat?</li><li>Which junction transmits ionic current between adjacent cells?</li><li>Why is the AV node a relatively slow pathway?</li><li>Compare phase 0 in central nodal and ventricular cells.</li><li>Explain why If is inward despite activation by hyperpolarisation.</li><li>Why does the ventricular plateau extend refractoriness?</li><li>Trace calcium from extracellular entry to troponin C.</li><li>Distinguish SERCA recycling from NCX extrusion.</li><li>Predict what a rise in cAMP does to HCN-mediated pacemaker drive.</li></ol></section><section id="references"><h2>References</h2><ol><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity">OpenStax, Anatomy and Physiology 2e, section 19.2</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11805843/">Bers, Cardiac excitation–contraction coupling, Nature 415 (2002), 198–205</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/20167941/">DiFrancesco, The role of the funny current in pacemaker activity</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/27589603/">The neural control of heartbeat in invertebrates, review</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK54085/">NCBI Bookshelf, Control of Contractility Is at the Cellular Level of Organization</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK572070/">NCBI Bookshelf, Physiology, Cardiac Muscle</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4373508/">Calcium-dependent mechanisms for the initiation of the heartbeat</a></li></ol></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 7 · System Physiology – Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.B.01","previous-node","← "],["7.B.03","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

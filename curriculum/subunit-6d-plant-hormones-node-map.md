@@ -209,3 +209,6 @@
 
 - 6.D.03 — [Cytokinins: Cell Division, Meristem Activity and Organ Formation](https://rahulthakurpatan.github.io/lifescienceacademy/cytokinins-cell-division-meristem-activity-and-organ-formation.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 5/10; next unpublished in this subunit: 6.D.02.
+
+- 6.D.10 — [Salicylic Acid: Defense Signaling and Hormonal Crosstalk](https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 6/10; next unpublished in 6.D: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.

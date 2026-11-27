@@ -206,3 +206,8 @@
 
 - **5.E.02 — Animal Apoptosis: Initiation, Caspases and Cellular Dismantling**: internal academic QA 95/100; 13,234 genuine teaching words, 50 explained questions, 10 accessible SVGs. [Chapter](../animal-apoptosis-initiation-caspases-and-cellular-dismantling.html) and [QA record](node-5e02-publication-qa.json) included in the publication tree. Pages verification is separate.
 - Subunit 5.E: 4/10; Unit 05: 51/57; Academy: 243/723. Next unpublished: 5.E.03 — Programmed Cell Death in Animal Development: Sculpting and Cell Selection.
+
+### Publication checkpoint — 2026-11-27
+
+- **5.E.09 — Regulation of Plant Senescence: Age, Hormones and Environment**: internal academic QA 95/100, 14,104 teaching words, 13 SVGs and 52 explained original questions. [Chapter](../regulation-of-plant-senescence-age-hormones-and-environment.html) · [QA record](node-5e09-publication-qa.json). Pages deployment and live availability require separate verification.
+- Subunit 5.E: 5/10. Unit 05: 52/57. Academy: 244/723. Next pending: 5.E.03 — Programmed Cell Death in Animal Development: Sculpting and Cell Selection.

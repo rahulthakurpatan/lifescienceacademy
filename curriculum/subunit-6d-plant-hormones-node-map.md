@@ -212,3 +212,6 @@
 
 - 6.D.10 — [Salicylic Acid: Defense Signaling and Hormonal Crosstalk](https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 6/10; next unpublished in 6.D: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.
+
+- 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 6/10; next unpublished in this subunit: 6.D.05 — Brassinosteroids: Steroid Hormones and Cell Expansion.

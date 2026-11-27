@@ -269,3 +269,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.D.10 — [Salicylic Acid: Defense Signaling and Hormonal Crosstalk](https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 6/10; Unit 06: 23/66; Academy: 272/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 6/10; Unit 06: 23/66; Academy: 273/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

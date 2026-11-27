@@ -4,170 +4,244 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.D.10",
-  "title": "Salicylic Acid: Defense Signaling and Hormonal Crosstalk",
+  "node_id": "6.D.02",
+  "title": "Auxins: Polar Transport, Cell Elongation and Developmental Regulation",
   "subunit": "6.D",
   "topic": "Plant Hormones",
-  "slug": "salicylic-acid-defense-signaling-and-hormonal-crosstalk.html",
+  "slug": "auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
   "next_pending_node_id": "6.B.04",
   "next_pending_node_title": "Alternative Oxidase and Alternative Respiratory Pathways",
-  "published_node_count": 272,
+  "published_node_count": 273,
   "publication_allowed": true,
-  "main_baseline_sha": "524dd7b56e580b6c8b8be47a89472f2035db36c9",
+  "main_baseline_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
   "quality_hold": false,
-  "next_required_action": "Verify GitHub Pages deployment and continue next pending node",
+  "next_required_action": "Verify Pages deployment and live chapter; continue with 6.B.04",
   "planned_node_count": 66,
   "planned_subunit_count": 8,
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.D.10",
-    "title": "Salicylic Acid: Defense Signaling and Hormonal Crosstalk",
-    "slug": "salicylic-acid-defense-signaling-and-hormonal-crosstalk.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html",
+    "node_id": "6.D.02",
+    "title": "Auxins: Polar Transport, Cell Elongation and Developmental Regulation",
+    "slug": "auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
     "unit": "06",
     "subunit": "6.D",
     "topic": "Plant Hormones",
     "date": "2026-11-27",
+    "source_draft_branch": "draft/6-d-02-auxins",
+    "source_draft_commit_sha": "57a0f10ed2c9917782ce03ae7a614ea8839e4be4",
+    "chapter_blob_sha": "1a3bf6c102022e8e3c6ccce2475c1c72de464817",
+    "publication_base_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
     "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "draft/node-6.D.10-salicylic-acid",
-    "source_draft_commit_sha": "72d47097ef54b21e5a315dbcaf71cb2e2155b249",
-    "chapter_blob_sha": "468f38625aa89813d671e78e2f5eaa0d0769d325",
-    "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
-    "publication_base_sha": "524dd7b56e580b6c8b8be47a89472f2035db36c9",
     "metrics": {
-      "genuine_teaching_words": 14369,
-      "teaching_paragraphs": 135,
-      "teaching_sections": 17,
-      "scientific_svgs": 11,
-      "scientific_tables": 4,
-      "graphs": 2,
+      "genuine_teaching_words": 13653,
+      "teaching_paragraphs": 121,
+      "teaching_sections": 15,
+      "scientific_svgs": 12,
+      "scientific_tables": 5,
+      "scientific_graphs": 1,
       "part_b": 20,
       "part_c": 20,
-      "additional_questions": 10,
-      "total_questions": 50,
-      "mcq": 50,
-      "misconceptions": 17,
-      "active_recall": 13,
-      "references": 21
+      "additional_questions": 11,
+      "total_questions": 51,
+      "misconceptions": 18,
+      "active_recall": 12,
+      "references": 23
     },
-    "word_count_method": "Unicode lexical words in saved p.teaching-prose elements only, after markup/entity removal; excludes captions, tables, questions, revision and references.",
+    "word_count_method": "Whitespace-separated tokens in saved p.teaching-prose elements after removing markup and normalizing entities; no questions, references, tables, headings or revision text. 121 distinct paragraphs; independent repository readback.",
+    "rubric": {
+      "scientific_accuracy": {
+        "score": 19,
+        "max": 20
+      },
+      "syllabus_coverage": {
+        "score": 15,
+        "max": 15
+      },
+      "teaching_depth": {
+        "score": 15,
+        "max": 15
+      },
+      "pedagogy": {
+        "score": 9,
+        "max": 10
+      },
+      "illustrations": {
+        "score": 9,
+        "max": 10
+      },
+      "assessment": {
+        "score": 9,
+        "max": 10
+      },
+      "experimental_reasoning": {
+        "score": 5,
+        "max": 5
+      },
+      "revision": {
+        "score": 5,
+        "max": 5
+      },
+      "reader_accessibility": {
+        "score": 4,
+        "max": 5
+      },
+      "seo_technical": {
+        "score": 5,
+        "max": 5
+      }
+    },
+    "score": 95,
     "coverage_matrix": [
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "Phenolic chemistry, speciation, discovery",
-        "section": "foundation, chemistry, evidence-history",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Biosynthesis",
+        "microtopic": "IAA structure, forms, historical evidence and natural/synthetic auxins",
+        "section": "chemistry; history; foundations",
+        "depth": "Chemical identity and pH-dependent forms; classical bioassay",
+        "experimental": "Compare assay controls and neutral fraction",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "ICS1/SID2, EDS5, PBS3/EPS1 and species-variable PAL routes",
-        "section": "biosynthesis, flux",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Biosynthesis",
+        "microtopic": "TAA/TAR–IPyA–YUCCA and qualified alternative routes",
+        "section": "biosynthesis; experimental",
+        "depth": "Reaction order, tissue-local synthesis and substrate/product interpretation",
+        "experimental": "Mutant rescue, metabolite conversion",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "SAG, MeSA and oxidative catabolism including DMR6",
+        "concept": "Storage and breakdown",
+        "microtopic": "GH3 conjugation, hydrolysis, DAO oxidation and homeostasis",
         "section": "homeostasis",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "depth": "Reversible pools versus irreversible oxidation; mass balance",
+        "experimental": "Conjugate turnover and free-pool predictions",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "Movement, local synthesis and systemic signals",
-        "section": "movement, sar, sar-reasoning",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Transport",
+        "microtopic": "AUX1/LAX influx; PIN efflux; ABCB; chemiosmosis",
+        "section": "transport",
+        "depth": "Membrane driving mechanisms, pH gradient and protein polarity",
+        "experimental": "pH calculations and directional tracer assays",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "NPR1/3/4, TGA, PR1, redox and turnover",
-        "section": "signaling, npr-logic",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Transport",
+        "microtopic": "Local maxima, flux, reporters and perturbations",
+        "section": "gradients; experimental",
+        "depth": "Distinguish flux from concentration and response",
+        "experimental": "DR5/DII/LC-MS and NPA inhibition",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "SA-biased defense and SAR, NHP and priming",
-        "section": "sar, sar-reasoning",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Mechanism of action",
+        "microtopic": "TIR1/AFB–Aux/IAA–ARF, ubiquitination and rapid responses",
+        "section": "signaling",
+        "depth": "Co-receptor recruitment, proteasome, transcription and feedback",
+        "experimental": "Stable repressor and receptor mutants, kinetic model",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "SA–JA, ABA–ethylene and growth-defense tradeoff",
-        "section": "cross, growth-defense",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Physiological effects",
+        "microtopic": "Acid growth, H+-ATPase, SAUR, PP2C.D, expansins and turgor",
+        "section": "acid-growth",
+        "depth": "Wall yielding and water-pressure limits",
+        "experimental": "Lockhart calculation and acidic-buffer rescue",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "Mutant rescue, grafting, measurements and quantitative analysis",
-        "section": "experiments, measurements, integrated-analysis",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Physiological effects",
+        "microtopic": "Phototropism, gravitropism and differential elongation",
+        "section": "tropisms",
+        "depth": "Spatial signal and organ-specific sensitivity",
+        "experimental": "Coleoptile tests, curvature predictions and inhibition controls",
+        "exam": "B/C",
         "covered": true
       },
       {
-        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
-        "concept": "Comparison of all nine major hormone classes",
-        "section": "integration",
-        "depth": "NET/SET mechanism and analytical reasoning",
+        "concept": "Physiological effects",
+        "microtopic": "Apical dominance, cytokinin/SL cross-talk, sugars",
+        "section": "branching",
+        "depth": "Bud outgrowth versus initiation, indirect pathways",
+        "experimental": "Decapitation chronology and branching mutants",
+        "exam": "B/C",
+        "covered": true
+      },
+      {
+        "concept": "Physiological effects",
+        "microtopic": "Lateral/adventitious rooting",
+        "section": "rooting",
+        "depth": "Founder cells, ARF7/19–LBD, initiation and emergence",
+        "experimental": "Counts, fractions, tissue-specific rescue, exposure timing",
+        "exam": "B/C",
+        "covered": true
+      },
+      {
+        "concept": "Physiological effects",
+        "microtopic": "Differential dose sensitivity and developmental applications",
+        "section": "dosage; application",
+        "depth": "Nonmonotonic responses, tissue culture limits, organ positioning boundary",
+        "experimental": "Qualitative graph and simplified occupancy",
+        "exam": "B/C",
         "covered": true
       }
     ],
-    "scientific_review": "Internal review checked chemistry, compartment-specific biosynthesis, conjugation and catabolism, NPR-family nuance and active NPR1 dimer, SAR and NHP, hormone context dependence, numerical examples and answer explanations; corrected ABA–ethylene treatment and added supporting primary sources.",
-    "editorial_review": "Separate internal pass checked genuine narrative depth, reader architecture, question mapping, explanatory answers, diagrams, zoom targets, revision and source links. Some repeated caveats and simple distractors remain.",
-    "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 9,
-      "illustrations": 9,
-      "assessment": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "seo_technical": 5
-    },
-    "score": 95,
-    "deductions": "One point each for limited independent scientific verification, repeated explanatory caveats, no rendered illustration test, lack of external assessment calibration and no browser/assistive technology runtime test. Internal self-assessment.",
-    "static_checks": {
-      "duplicate_ids": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "unresolved_fragment_links": 0,
-      "unresolved_aria_references": 0,
-      "unresolved_zoom_targets": 0,
-      "html_nesting_errors": 0,
-      "script_syntax": "compiled",
-      "answer_explanations": 50,
-      "mcq_answer_mapping": "50/50",
-      "svg_accessibility_labels": 11,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html"
-    },
-    "source_checks": "Revised combined CSIR–UGC–DBT syllabus and previous CSIR Life Sciences syllabus; MP SET 2024 mirror; selected primary research and reviews, not full-text verification of every reference.",
-    "limitations": [
-      "Internal review, not independent peer review.",
-      "Latest official MPPSC-hosted syllabus could not be verified; 2024 mirror used.",
-      "No rendered browser/mobile/screen-reader runtime test; static markup and script checks completed.",
-      "Pages deployment and live availability pending."
+    "scientific_review": "Internal review distinguished free and conjugated IAA, TAA/YUCCA order, DAO oxidation of conjugates, carrier mechanisms, TIR1 molecular glue and ARF regulation, shoot acid growth versus rapid root responses, differential tropisms, branching crosstalk and root initiation/emergence. All 51 answer choices and explanations checked; numerical examples and numerical answers recalculated. Hypothetical data explicitly identified.",
+    "editorial_review": "Separate inspection of progression from classical observations to physiology and experimental reasoning, terminology, narrative, captions, comparisons, misconception rationales, practice and mastery. Rebalanced answer positions; corrected branching schematic and restored figure zoom/table styling.",
+    "deductions": [
+      "Scientific accuracy: 1 for unavoidable simplification of context-dependent responses and models.",
+      "Pedagogy: 1 for density of advanced mechanism passages.",
+      "Illustrations: 1 for schematic rather than anatomically detailed drawings.",
+      "Assessment: 1 for some foundational distractors being less challenging.",
+      "Reader accessibility: 1 for absence of interactive mobile and screen-reader execution tests."
     ],
-    "navigation": {
-      "previous": "6.D.09",
-      "next": "6.E.01",
-      "mechanism": "Reader resolves immediate planned neighbors only if linked in current menu; unavailable neighbors remain disabled."
+    "static_checks": {
+      "one_h1": true,
+      "balanced_tag_stack": true,
+      "duplicate_ids": 0,
+      "unresolved_section_anchors": 0,
+      "unresolved_svg_label_or_zoom_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "placeholder_matches": 0,
+      "all_questions_explained": true,
+      "all_questions_four_options": true,
+      "canonical_correct": true,
+      "relative_navigation_dynamic": true,
+      "reciprocal_previous_node_checked": true,
+      "next_unpublished_disabled": true,
+      "menu_sitemap_progress_reconciliation": "Latest menu and checkpoint IDs agree; sitemap unique; chapter hash unchanged; prior nodes preserved"
     },
+    "source_checks": [
+      "Revised CSIR–UGC–DBT LS&BT January 2026 Unit 6.D, separate CSIR Life Sciences January 2026, MP SET Life Sciences syllabus document on third-party mirror.",
+      "Peer-reviewed papers/reviews including 2011 TAA/YUCCA evidence, 2021 DAO conjugate oxidation, 2005 TIR1 receptor, 2007 structural evidence, 2021 NPA–PIN interaction and 2014 sugar/bud release. Reference titles/identifiers checked through public search or publisher metadata; some full text access restricted."
+    ],
+    "limitations": [
+      "Internal review, not external peer review.",
+      "No actual device/browser interactive rendering or screen-reader test in connector environment; static markup, responsive CSS and navigation logic checked.",
+      "Deployment not yet verified at time of staging."
+    ],
     "publication": {
-      "state": "lesson_committed_pages_verification_pending",
-      "strategy": "atomic tree and conditional non-force ref update",
-      "expected_base_sha": "524dd7b56e580b6c8b8be47a89472f2035db36c9",
-      "linked_nodes_before": 271,
-      "linked_nodes_after": 272,
-      "unit_published_after": 23,
-      "subunit_published_after": 6,
+      "mode": "Single atomic Git commit with expected-head non-force ref update; draft isolated and verified",
+      "initial_main_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+      "reconciled_main_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
+      "concurrent_preserved": [
+        "6.D.01",
+        "6.D.03",
+        "6.D.04",
+        "6.D.06",
+        "6.D.09"
+      ],
       "next_pending_node_id": "6.B.04",
-      "live_verification": "pending"
+      "next_subunit_node_id": "6.D.05",
+      "deployment_verified": false
     }
   },
   "published_node_ids": [
@@ -438,6 +512,7 @@
     "6.C.05",
     "6.C.06",
     "6.D.01",
+    "6.D.02",
     "6.D.03",
     "6.D.04",
     "6.D.06",
@@ -630,106 +705,104 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "6.D.09",
-    "title": "Jasmonates: Wound Signaling and Herbivore Defense",
-    "slug": "jasmonates-wound-signaling-and-herbivore-defense.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/jasmonates-wound-signaling-and-herbivore-defense.html",
+    "node_id": "6.D.10",
+    "title": "Salicylic Acid: Defense Signaling and Hormonal Crosstalk",
+    "slug": "salicylic-acid-defense-signaling-and-hormonal-crosstalk.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html",
     "unit": "06",
     "subunit": "6.D",
     "topic": "Plant Hormones",
     "date": "2026-11-27",
     "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "draft/node-6d09-jasmonates",
-    "source_draft_commit_sha": "c1ccd9ff1ec670ca6ce54cc98aaf3f5ff4e8b335",
-    "chapter_blob_sha": "b57aa719dbf660b173cc4edbf3f2715d8def2a9c",
+    "source_draft_branch": "draft/node-6.D.10-salicylic-acid",
+    "source_draft_commit_sha": "72d47097ef54b21e5a315dbcaf71cb2e2155b249",
+    "chapter_blob_sha": "468f38625aa89813d671e78e2f5eaa0d0769d325",
     "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
-    "publication_base_sha": "46c506495f622ff4a48c8adafcfebbce0f3f0596",
+    "publication_base_sha": "524dd7b56e580b6c8b8be47a89472f2035db36c9",
     "metrics": {
-      "genuine_teaching_words": 13348,
-      "teaching_paragraphs": 146,
-      "teaching_sections": 9,
-      "scientific_svgs": 15,
+      "genuine_teaching_words": 14369,
+      "teaching_paragraphs": 135,
+      "teaching_sections": 17,
+      "scientific_svgs": 11,
       "scientific_tables": 4,
       "graphs": 2,
-      "part_b": 22,
-      "part_c": 27,
-      "additional_questions": 3,
-      "total_questions": 52,
-      "mcq": 32,
-      "free_response": 20,
-      "misconceptions": 15,
-      "active_recall": 10,
-      "mastery_checklist": 6,
-      "references": 14
+      "part_b": 20,
+      "part_c": 20,
+      "additional_questions": 10,
+      "total_questions": 50,
+      "mcq": 50,
+      "misconceptions": 17,
+      "active_recall": 13,
+      "references": 21
     },
-    "word_count_method": "Whitespace-separated tokens of the text inside saved p.teaching-prose elements only; excludes questions, captions, tables, references, navigation and revision.",
+    "word_count_method": "Unicode lexical words in saved p.teaching-prose elements only, after markup/entity removal; excludes captions, tables, questions, revision and references.",
     "coverage_matrix": [
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "Oxylipin chemistry, active jasmonate forms, discovery",
-        "section": "foundations",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "Phenolic chemistry, speciation, discovery",
+        "section": "foundation, chemistry, evidence-history",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "α-linolenate, LOX, AOS, AOC, OPDA",
-        "section": "chloroplast",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "ICS1/SID2, EDS5, PBS3/EPS1 and species-variable PAL routes",
+        "section": "biosynthesis, flux",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "Peroxisome transport, OPR3, beta oxidation, alternative route, JAR1",
-        "section": "peroxisome",
-        "depth": "NET/SET mechanism and analytical reasoning",
-        "covered": true
-      },
-      {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "JA-Ile turnover, conjugation, storage caveat",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "SAG, MeSA and oxidative catabolism including DMR6",
         "section": "homeostasis",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "COI1-JAZ, SCF ubiquitination, proteasome, MYC and feedback",
-        "section": "receptor",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "Movement, local synthesis and systemic signals",
+        "section": "movement, sar, sar-reasoning",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "Wound sensing, glutamate/Ca2+ signals, systemic synthesis vs transport",
-        "section": "systemic",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "NPR1/3/4, TGA, PR1, redox and turnover",
+        "section": "signaling, npr-logic",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "Herbivory, proteinase inhibitors, specialized metabolites and fertility",
-        "section": "defense",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "SA-biased defense and SAR, NHP and priming",
+        "section": "sar, sar-reasoning",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "Growth-defense balance, SA and ethylene interactions",
-        "section": "crosstalk",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "SA–JA, ABA–ethylene and growth-defense tradeoff",
+        "section": "cross, growth-defense",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       },
       {
-        "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-        "concept": "Mutant rescue, grafting, reporter and quantitative data reasoning",
-        "section": "reasoning",
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "Mutant rescue, grafting, measurements and quantitative analysis",
+        "section": "experiments, measurements, integrated-analysis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
+      },
+      {
+        "official_scope": "Plant hormone biosynthesis, storage, breakdown, transport, effects and mechanisms of action",
+        "concept": "Comparison of all nine major hormone classes",
+        "section": "integration",
         "depth": "NET/SET mechanism and analytical reasoning",
         "covered": true
       }
     ],
-    "scientific_review": "Internal pass: checked pathway order, OPR3-independent caveat, JAR1 and active ligand distinction, CYP94 turnover, COI1/JAZ proteolysis, calcium and glutamate systemic signaling, grafting evidence, defense and fertility, context-dependent interactions; recalculated numerical worked examples and examined all 52 answer explanations. No external peer review.",
-    "editorial_review": "Separate internal pass: verified 146 genuine teaching paragraphs and nine narrative sections, compared length and reader architecture with 6.D.01, checked original question explanations and matched 32 MCQ answer letters to actual choices, checked accessibility labels and static navigation. Some repetitive explanatory caveats and short-response questions remain.",
+    "scientific_review": "Internal review checked chemistry, compartment-specific biosynthesis, conjugation and catabolism, NPR-family nuance and active NPR1 dimer, SAR and NHP, hormone context dependence, numerical examples and answer explanations; corrected ABA–ethylene treatment and added supporting primary sources.",
+    "editorial_review": "Separate internal pass checked genuine narrative depth, reader architecture, question mapping, explanatory answers, diagrams, zoom targets, revision and source links. Some repeated caveats and simple distractors remain.",
     "rubric": {
       "scientific_accuracy": 19,
       "syllabus_coverage": 15,
@@ -743,41 +816,40 @@
       "seo_technical": 5
     },
     "score": 95,
-    "deductions": "One mark each for limited independent scientific verification, occasional repeated caveats, no rendered illustration check, mixed short-response and MCQ assessment with some simple distractors, and no interactive accessibility test. Internal self-assessment.",
+    "deductions": "One point each for limited independent scientific verification, repeated explanatory caveats, no rendered illustration test, lack of external assessment calibration and no browser/assistive technology runtime test. Internal self-assessment.",
     "static_checks": {
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
       "unresolved_fragment_links": 0,
       "unresolved_aria_references": 0,
+      "unresolved_zoom_targets": 0,
       "html_nesting_errors": 0,
       "script_syntax": "compiled",
-      "answer_explanations": 52,
-      "mcq_answer_mapping": "32/32",
-      "placeholder_matches": 0,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/jasmonates-wound-signaling-and-herbivore-defense.html",
-      "h1_count": 1,
-      "svg_accessibility_labels": 15
+      "answer_explanations": 50,
+      "mcq_answer_mapping": "50/50",
+      "svg_accessibility_labels": 11,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/salicylic-acid-defense-signaling-and-hormonal-crosstalk.html"
     },
-    "source_checks": "Revised joint CSIR UGC DBT 2026 official syllabus, separate CSIR 2026 syllabus, MP SET 2024 syllabus mirror; Staswick and Tiryaki 2004, Thines 2007, Sheard 2010, Toyota 2018, Li 2002, Chini 2018 and review literature.",
+    "source_checks": "Revised combined CSIR–UGC–DBT syllabus and previous CSIR Life Sciences syllabus; MP SET 2024 mirror; selected primary research and reviews, not full-text verification of every reference.",
     "limitations": [
       "Internal review, not independent peer review.",
-      "MP SET 2024 syllabus mirror, not a verified latest official MPPSC-hosted file.",
+      "Latest official MPPSC-hosted syllabus could not be verified; 2024 mirror used.",
       "No rendered browser/mobile/screen-reader runtime test; static markup and script checks completed.",
-      "Pages configuration and deployment status not yet verified."
+      "Pages deployment and live availability pending."
     ],
     "navigation": {
-      "previous": "6.D.08",
-      "next": "6.D.10",
+      "previous": "6.D.09",
+      "next": "6.E.01",
       "mechanism": "Reader resolves immediate planned neighbors only if linked in current menu; unavailable neighbors remain disabled."
     },
     "publication": {
       "state": "lesson_committed_pages_verification_pending",
       "strategy": "atomic tree and conditional non-force ref update",
-      "expected_base_sha": "46c506495f622ff4a48c8adafcfebbce0f3f0596",
-      "linked_nodes_before": 269,
-      "linked_nodes_after": 270,
-      "unit_published_after": 21,
-      "subunit_published_after": 4,
+      "expected_base_sha": "524dd7b56e580b6c8b8be47a89472f2035db36c9",
+      "linked_nodes_before": 271,
+      "linked_nodes_after": 272,
+      "unit_published_after": 23,
+      "subunit_published_after": 6,
       "next_pending_node_id": "6.B.04",
       "live_verification": "pending"
     }
@@ -37007,6 +37079,230 @@
         "next_pending_node_id": "6.B.04",
         "live_verification": "pending"
       }
+    },
+    "6.D.02": {
+      "node_id": "6.D.02",
+      "title": "Auxins: Polar Transport, Cell Elongation and Developmental Regulation",
+      "slug": "auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
+      "unit": "06",
+      "subunit": "6.D",
+      "topic": "Plant Hormones",
+      "date": "2026-11-27",
+      "source_draft_branch": "draft/6-d-02-auxins",
+      "source_draft_commit_sha": "57a0f10ed2c9917782ce03ae7a614ea8839e4be4",
+      "chapter_blob_sha": "1a3bf6c102022e8e3c6ccce2475c1c72de464817",
+      "publication_base_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
+      "status": "internal_academic_qa_passed_static_checks_complete",
+      "metrics": {
+        "genuine_teaching_words": 13653,
+        "teaching_paragraphs": 121,
+        "teaching_sections": 15,
+        "scientific_svgs": 12,
+        "scientific_tables": 5,
+        "scientific_graphs": 1,
+        "part_b": 20,
+        "part_c": 20,
+        "additional_questions": 11,
+        "total_questions": 51,
+        "misconceptions": 18,
+        "active_recall": 12,
+        "references": 23
+      },
+      "word_count_method": "Whitespace-separated tokens in saved p.teaching-prose elements after removing markup and normalizing entities; no questions, references, tables, headings or revision text. 121 distinct paragraphs; independent repository readback.",
+      "rubric": {
+        "scientific_accuracy": {
+          "score": 19,
+          "max": 20
+        },
+        "syllabus_coverage": {
+          "score": 15,
+          "max": 15
+        },
+        "teaching_depth": {
+          "score": 15,
+          "max": 15
+        },
+        "pedagogy": {
+          "score": 9,
+          "max": 10
+        },
+        "illustrations": {
+          "score": 9,
+          "max": 10
+        },
+        "assessment": {
+          "score": 9,
+          "max": 10
+        },
+        "experimental_reasoning": {
+          "score": 5,
+          "max": 5
+        },
+        "revision": {
+          "score": 5,
+          "max": 5
+        },
+        "reader_accessibility": {
+          "score": 4,
+          "max": 5
+        },
+        "seo_technical": {
+          "score": 5,
+          "max": 5
+        }
+      },
+      "score": 95,
+      "coverage_matrix": [
+        {
+          "concept": "Biosynthesis",
+          "microtopic": "IAA structure, forms, historical evidence and natural/synthetic auxins",
+          "section": "chemistry; history; foundations",
+          "depth": "Chemical identity and pH-dependent forms; classical bioassay",
+          "experimental": "Compare assay controls and neutral fraction",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Biosynthesis",
+          "microtopic": "TAA/TAR–IPyA–YUCCA and qualified alternative routes",
+          "section": "biosynthesis; experimental",
+          "depth": "Reaction order, tissue-local synthesis and substrate/product interpretation",
+          "experimental": "Mutant rescue, metabolite conversion",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Storage and breakdown",
+          "microtopic": "GH3 conjugation, hydrolysis, DAO oxidation and homeostasis",
+          "section": "homeostasis",
+          "depth": "Reversible pools versus irreversible oxidation; mass balance",
+          "experimental": "Conjugate turnover and free-pool predictions",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Transport",
+          "microtopic": "AUX1/LAX influx; PIN efflux; ABCB; chemiosmosis",
+          "section": "transport",
+          "depth": "Membrane driving mechanisms, pH gradient and protein polarity",
+          "experimental": "pH calculations and directional tracer assays",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Transport",
+          "microtopic": "Local maxima, flux, reporters and perturbations",
+          "section": "gradients; experimental",
+          "depth": "Distinguish flux from concentration and response",
+          "experimental": "DR5/DII/LC-MS and NPA inhibition",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Mechanism of action",
+          "microtopic": "TIR1/AFB–Aux/IAA–ARF, ubiquitination and rapid responses",
+          "section": "signaling",
+          "depth": "Co-receptor recruitment, proteasome, transcription and feedback",
+          "experimental": "Stable repressor and receptor mutants, kinetic model",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Physiological effects",
+          "microtopic": "Acid growth, H+-ATPase, SAUR, PP2C.D, expansins and turgor",
+          "section": "acid-growth",
+          "depth": "Wall yielding and water-pressure limits",
+          "experimental": "Lockhart calculation and acidic-buffer rescue",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Physiological effects",
+          "microtopic": "Phototropism, gravitropism and differential elongation",
+          "section": "tropisms",
+          "depth": "Spatial signal and organ-specific sensitivity",
+          "experimental": "Coleoptile tests, curvature predictions and inhibition controls",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Physiological effects",
+          "microtopic": "Apical dominance, cytokinin/SL cross-talk, sugars",
+          "section": "branching",
+          "depth": "Bud outgrowth versus initiation, indirect pathways",
+          "experimental": "Decapitation chronology and branching mutants",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Physiological effects",
+          "microtopic": "Lateral/adventitious rooting",
+          "section": "rooting",
+          "depth": "Founder cells, ARF7/19–LBD, initiation and emergence",
+          "experimental": "Counts, fractions, tissue-specific rescue, exposure timing",
+          "exam": "B/C",
+          "covered": true
+        },
+        {
+          "concept": "Physiological effects",
+          "microtopic": "Differential dose sensitivity and developmental applications",
+          "section": "dosage; application",
+          "depth": "Nonmonotonic responses, tissue culture limits, organ positioning boundary",
+          "experimental": "Qualitative graph and simplified occupancy",
+          "exam": "B/C",
+          "covered": true
+        }
+      ],
+      "scientific_review": "Internal review distinguished free and conjugated IAA, TAA/YUCCA order, DAO oxidation of conjugates, carrier mechanisms, TIR1 molecular glue and ARF regulation, shoot acid growth versus rapid root responses, differential tropisms, branching crosstalk and root initiation/emergence. All 51 answer choices and explanations checked; numerical examples and numerical answers recalculated. Hypothetical data explicitly identified.",
+      "editorial_review": "Separate inspection of progression from classical observations to physiology and experimental reasoning, terminology, narrative, captions, comparisons, misconception rationales, practice and mastery. Rebalanced answer positions; corrected branching schematic and restored figure zoom/table styling.",
+      "deductions": [
+        "Scientific accuracy: 1 for unavoidable simplification of context-dependent responses and models.",
+        "Pedagogy: 1 for density of advanced mechanism passages.",
+        "Illustrations: 1 for schematic rather than anatomically detailed drawings.",
+        "Assessment: 1 for some foundational distractors being less challenging.",
+        "Reader accessibility: 1 for absence of interactive mobile and screen-reader execution tests."
+      ],
+      "static_checks": {
+        "one_h1": true,
+        "balanced_tag_stack": true,
+        "duplicate_ids": 0,
+        "unresolved_section_anchors": 0,
+        "unresolved_svg_label_or_zoom_targets": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "placeholder_matches": 0,
+        "all_questions_explained": true,
+        "all_questions_four_options": true,
+        "canonical_correct": true,
+        "relative_navigation_dynamic": true,
+        "reciprocal_previous_node_checked": true,
+        "next_unpublished_disabled": true,
+        "menu_sitemap_progress_reconciliation": "Latest menu and checkpoint IDs agree; sitemap unique; chapter hash unchanged; prior nodes preserved"
+      },
+      "source_checks": [
+        "Revised CSIR–UGC–DBT LS&BT January 2026 Unit 6.D, separate CSIR Life Sciences January 2026, MP SET Life Sciences syllabus document on third-party mirror.",
+        "Peer-reviewed papers/reviews including 2011 TAA/YUCCA evidence, 2021 DAO conjugate oxidation, 2005 TIR1 receptor, 2007 structural evidence, 2021 NPA–PIN interaction and 2014 sugar/bud release. Reference titles/identifiers checked through public search or publisher metadata; some full text access restricted."
+      ],
+      "limitations": [
+        "Internal review, not external peer review.",
+        "No actual device/browser interactive rendering or screen-reader test in connector environment; static markup, responsive CSS and navigation logic checked.",
+        "Deployment not yet verified at time of staging."
+      ],
+      "publication": {
+        "mode": "Single atomic Git commit with expected-head non-force ref update; draft isolated and verified",
+        "initial_main_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+        "reconciled_main_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
+        "concurrent_preserved": [
+          "6.D.01",
+          "6.D.03",
+          "6.D.04",
+          "6.D.06",
+          "6.D.09"
+        ],
+        "next_pending_node_id": "6.B.04",
+        "next_subunit_node_id": "6.D.05",
+        "deployment_verified": false
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -45439,47 +45735,47 @@
       "6.C.05",
       "6.C.06",
       "6.D.01",
+      "6.D.02",
       "6.D.03",
       "6.D.04",
       "6.D.06",
       "6.D.09"
     ],
-    "published_node_count": 22,
+    "published_node_count": 23,
     "planned_node_count": 66,
-    "last_published_node_id": "6.D.03",
+    "last_published_node_id": "6.D.02",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.D.03",
-      "title": "Cytokinins: Cell Division, Meristem Activity and Organ Formation",
-      "slug": "cytokinins-cell-division-meristem-activity-and-organ-formation.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cytokinins-cell-division-meristem-activity-and-organ-formation.html",
+      "node_id": "6.D.02",
+      "title": "Auxins: Polar Transport, Cell Elongation and Developmental Regulation",
+      "slug": "auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
       "unit": "06",
       "subunit": "6.D",
       "topic": "Plant Hormones",
       "date": "2026-11-27",
-      "source_draft_branch": "draft/6d03-cytokinins-20261127",
-      "source_draft_commit_sha": "633d6cfc695071d75c8fe0ec0736bfa058257ff9",
-      "chapter_blob_sha": "ea70cfc3996959266752716fa0cdde757aacafb8",
-      "publication_base_sha": "2d2978cff6862b7b30b857b75e5b4586391aa8fe",
+      "source_draft_branch": "draft/6-d-02-auxins",
+      "source_draft_commit_sha": "57a0f10ed2c9917782ce03ae7a614ea8839e4be4",
+      "chapter_blob_sha": "1a3bf6c102022e8e3c6ccce2475c1c72de464817",
+      "publication_base_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
       "status": "internal_academic_qa_passed_static_checks_complete",
       "metrics": {
-        "genuine_teaching_words": 14400,
-        "teaching_paragraphs": 143,
+        "genuine_teaching_words": 13653,
+        "teaching_paragraphs": 121,
         "teaching_sections": 15,
-        "total_sections": 19,
-        "scientific_svgs": 14,
-        "scientific_tables": 4,
-        "graphs": 2,
+        "scientific_svgs": 12,
+        "scientific_tables": 5,
+        "scientific_graphs": 1,
         "part_b": 20,
-        "part_c": 25,
-        "additional_questions": 5,
-        "total_questions": 50,
+        "part_c": 20,
+        "additional_questions": 11,
+        "total_questions": 51,
         "misconceptions": 18,
-        "active_recall": 14,
-        "references": 19
+        "active_recall": 12,
+        "references": 23
       },
-      "word_count_method": "Whitespace-separated words in p.teaching-prose only, tags stripped, final saved blob independently re-read. Excludes questions, references, navigation and illustrations.",
+      "word_count_method": "Whitespace-separated tokens in saved p.teaching-prose elements after removing markup and normalizing entities; no questions, references, tables, headings or revision text. 121 distinct paragraphs; independent repository readback.",
       "rubric": {
         "scientific_accuracy": {
           "score": 19,
@@ -45525,101 +45821,153 @@
       "score": 95,
       "coverage_matrix": [
         {
-          "concept": "History and adenine-derived forms",
-          "section": "2–3",
+          "concept": "Biosynthesis",
+          "microtopic": "IAA structure, forms, historical evidence and natural/synthetic auxins",
+          "section": "chemistry; history; foundations",
+          "depth": "Chemical identity and pH-dependent forms; classical bioassay",
+          "experimental": "Compare assay controls and neutral fraction",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "IPT synthesis",
-          "section": "4",
+          "concept": "Biosynthesis",
+          "microtopic": "TAA/TAR–IPyA–YUCCA and qualified alternative routes",
+          "section": "biosynthesis; experimental",
+          "depth": "Reaction order, tissue-local synthesis and substrate/product interpretation",
+          "experimental": "Mutant rescue, metabolite conversion",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "CYP735A hydroxylation",
-          "section": "4",
+          "concept": "Storage and breakdown",
+          "microtopic": "GH3 conjugation, hydrolysis, DAO oxidation and homeostasis",
+          "section": "homeostasis",
+          "depth": "Reversible pools versus irreversible oxidation; mass balance",
+          "experimental": "Conjugate turnover and free-pool predictions",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "LOG activation",
-          "section": "4",
+          "concept": "Transport",
+          "microtopic": "AUX1/LAX influx; PIN efflux; ABCB; chemiosmosis",
+          "section": "transport",
+          "depth": "Membrane driving mechanisms, pH gradient and protein polarity",
+          "experimental": "pH calculations and directional tracer assays",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "Glycosylation and storage",
-          "section": "5",
+          "concept": "Transport",
+          "microtopic": "Local maxima, flux, reporters and perturbations",
+          "section": "gradients; experimental",
+          "depth": "Distinguish flux from concentration and response",
+          "experimental": "DR5/DII/LC-MS and NPA inhibition",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "CKX and pool balance",
-          "section": "5",
+          "concept": "Mechanism of action",
+          "microtopic": "TIR1/AFB–Aux/IAA–ARF, ubiquitination and rapid responses",
+          "section": "signaling",
+          "depth": "Co-receptor recruitment, proteasome, transcription and feedback",
+          "experimental": "Stable repressor and receptor mutants, kinetic model",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "Vascular transport and ABCG14",
-          "section": "6",
+          "concept": "Physiological effects",
+          "microtopic": "Acid growth, H+-ATPase, SAUR, PP2C.D, expansins and turgor",
+          "section": "acid-growth",
+          "depth": "Wall yielding and water-pressure limits",
+          "experimental": "Lockhart calculation and acidic-buffer rescue",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "AHK receptors and AHP phosphorelay",
-          "section": "7–8",
+          "concept": "Physiological effects",
+          "microtopic": "Phototropism, gravitropism and differential elongation",
+          "section": "tropisms",
+          "depth": "Spatial signal and organ-specific sensitivity",
+          "experimental": "Coleoptile tests, curvature predictions and inhibition controls",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "Type-B/type-A ARR and feedback",
-          "section": "8",
+          "concept": "Physiological effects",
+          "microtopic": "Apical dominance, cytokinin/SL cross-talk, sugars",
+          "section": "branching",
+          "depth": "Bud outgrowth versus initiation, indirect pathways",
+          "experimental": "Decapitation chronology and branching mutants",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "Cell cycle, shoot and root meristems",
-          "section": "9–11",
+          "concept": "Physiological effects",
+          "microtopic": "Lateral/adventitious rooting",
+          "section": "rooting",
+          "depth": "Founder cells, ARF7/19–LBD, initiation and emergence",
+          "experimental": "Counts, fractions, tissue-specific rescue, exposure timing",
+          "exam": "B/C",
           "covered": true
         },
         {
-          "concept": "Regeneration and auxin interaction",
-          "section": "12",
-          "covered": true
-        },
-        {
-          "concept": "Nutrient-dependent signaling",
-          "section": "13",
-          "covered": true
-        },
-        {
-          "concept": "Leaf senescence and evidence integration",
-          "section": "14–15",
+          "concept": "Physiological effects",
+          "microtopic": "Differential dose sensitivity and developmental applications",
+          "section": "dosage; application",
+          "depth": "Nonmonotonic responses, tissue culture limits, organ positioning boundary",
+          "experimental": "Qualitative graph and simplified occupancy",
+          "exam": "B/C",
           "covered": true
         }
       ],
-      "scientific_review": "Internal review against syllabus scope and published reviews and primary evidence: tissue culture, LOG, ABCG14, CYCD3, CKX, WUS, ARR1–SHY2 and senescence. Rechecked calculations, pathway order, ligand versus precursor forms, species/context caveats, and all fifty keys.",
-      "editorial_review": "Separate check of chapter sequence, diagrams, accessibility metadata, revision and assessment. Shuffled answer options, corrected wording, independently re-fetched final blob and confirmed all keys and static counts.",
-      "deductions": "Scientific: no independent expert peer review. Pedagogy: dense mechanistic sections. Illustrations: no browser rendering. Assessment: no external calibration. Reader: no browser/keyboard runtime check.",
+      "scientific_review": "Internal review distinguished free and conjugated IAA, TAA/YUCCA order, DAO oxidation of conjugates, carrier mechanisms, TIR1 molecular glue and ARF regulation, shoot acid growth versus rapid root responses, differential tropisms, branching crosstalk and root initiation/emergence. All 51 answer choices and explanations checked; numerical examples and numerical answers recalculated. Hypothetical data explicitly identified.",
+      "editorial_review": "Separate inspection of progression from classical observations to physiology and experimental reasoning, terminology, narrative, captions, comparisons, misconception rationales, practice and mastery. Rebalanced answer positions; corrected branching schematic and restored figure zoom/table styling.",
+      "deductions": [
+        "Scientific accuracy: 1 for unavoidable simplification of context-dependent responses and models.",
+        "Pedagogy: 1 for density of advanced mechanism passages.",
+        "Illustrations: 1 for schematic rather than anatomically detailed drawings.",
+        "Assessment: 1 for some foundational distractors being less challenging.",
+        "Reader accessibility: 1 for absence of interactive mobile and screen-reader execution tests."
+      ],
       "static_checks": {
+        "one_h1": true,
+        "balanced_tag_stack": true,
         "duplicate_ids": 0,
-        "unresolved_fragment_links": 0,
-        "unresolved_aria_references": 0,
+        "unresolved_section_anchors": 0,
+        "unresolved_svg_label_or_zoom_targets": 0,
         "duplicate_teaching_paragraphs": 0,
-        "question_answer_mismatches": 0,
-        "svg_accessibility_labels": 14,
-        "diagram_zoom_controls": 14,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/cytokinins-cell-division-meristem-activity-and-organ-formation.html",
-        "reciprocal_navigation": "Menu-driven; adjacent links resolve only published nodes."
+        "placeholder_matches": 0,
+        "all_questions_explained": true,
+        "all_questions_four_options": true,
+        "canonical_correct": true,
+        "relative_navigation_dynamic": true,
+        "reciprocal_previous_node_checked": true,
+        "next_unpublished_disabled": true,
+        "menu_sitemap_progress_reconciliation": "Latest menu and checkpoint IDs agree; sitemap unique; chapter hash unchanged; prior nodes preserved"
       },
-      "source_checks": "Revised CSIR syllabus unit 6.D; earlier syllabus and archived MP SET 2024 syllabus; academic review and primary records for cytokinin synthesis, transport, signal relay, meristem regulation and senescence.",
+      "source_checks": [
+        "Revised CSIR–UGC–DBT LS&BT January 2026 Unit 6.D, separate CSIR Life Sciences January 2026, MP SET Life Sciences syllabus document on third-party mirror.",
+        "Peer-reviewed papers/reviews including 2011 TAA/YUCCA evidence, 2021 DAO conjugate oxidation, 2005 TIR1 receptor, 2007 structural evidence, 2021 NPA–PIN interaction and 2014 sugar/bud release. Reference titles/identifiers checked through public search or publisher metadata; some full text access restricted."
+      ],
       "limitations": [
-        "Internal self-assessment, not external peer review.",
-        "MP SET source is archived 2024 copy.",
-        "Browser rendering, keyboard runtime testing and individual HTTP responses of every reference not verified."
+        "Internal review, not external peer review.",
+        "No actual device/browser interactive rendering or screen-reader test in connector environment; static markup, responsive CSS and navigation logic checked.",
+        "Deployment not yet verified at time of staging."
       ],
       "publication": {
-        "state": "lesson_committed_pages_verification_pending",
-        "atomic": true,
-        "expected_base_sha": "2d2978cff6862b7b30b857b75e5b4586391aa8fe",
-        "linked_nodes_before": 270,
-        "linked_nodes_after": 271,
-        "unit_published_after": 22,
-        "subunit_published_after": 5,
+        "mode": "Single atomic Git commit with expected-head non-force ref update; draft isolated and verified",
+        "initial_main_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+        "reconciled_main_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
+        "concurrent_preserved": [
+          "6.D.01",
+          "6.D.03",
+          "6.D.04",
+          "6.D.06",
+          "6.D.09"
+        ],
         "next_pending_node_id": "6.B.04",
-        "live_verification": "pending"
+        "next_subunit_node_id": "6.D.05",
+        "deployment_verified": false
       }
     },
     "qa_by_node": {
@@ -49401,6 +49749,230 @@
           "next_pending_node_id": "6.B.04",
           "live_verification": "pending"
         }
+      },
+      "6.D.02": {
+        "node_id": "6.D.02",
+        "title": "Auxins: Polar Transport, Cell Elongation and Developmental Regulation",
+        "slug": "auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html",
+        "unit": "06",
+        "subunit": "6.D",
+        "topic": "Plant Hormones",
+        "date": "2026-11-27",
+        "source_draft_branch": "draft/6-d-02-auxins",
+        "source_draft_commit_sha": "57a0f10ed2c9917782ce03ae7a614ea8839e4be4",
+        "chapter_blob_sha": "1a3bf6c102022e8e3c6ccce2475c1c72de464817",
+        "publication_base_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
+        "status": "internal_academic_qa_passed_static_checks_complete",
+        "metrics": {
+          "genuine_teaching_words": 13653,
+          "teaching_paragraphs": 121,
+          "teaching_sections": 15,
+          "scientific_svgs": 12,
+          "scientific_tables": 5,
+          "scientific_graphs": 1,
+          "part_b": 20,
+          "part_c": 20,
+          "additional_questions": 11,
+          "total_questions": 51,
+          "misconceptions": 18,
+          "active_recall": 12,
+          "references": 23
+        },
+        "word_count_method": "Whitespace-separated tokens in saved p.teaching-prose elements after removing markup and normalizing entities; no questions, references, tables, headings or revision text. 121 distinct paragraphs; independent repository readback.",
+        "rubric": {
+          "scientific_accuracy": {
+            "score": 19,
+            "max": 20
+          },
+          "syllabus_coverage": {
+            "score": 15,
+            "max": 15
+          },
+          "teaching_depth": {
+            "score": 15,
+            "max": 15
+          },
+          "pedagogy": {
+            "score": 9,
+            "max": 10
+          },
+          "illustrations": {
+            "score": 9,
+            "max": 10
+          },
+          "assessment": {
+            "score": 9,
+            "max": 10
+          },
+          "experimental_reasoning": {
+            "score": 5,
+            "max": 5
+          },
+          "revision": {
+            "score": 5,
+            "max": 5
+          },
+          "reader_accessibility": {
+            "score": 4,
+            "max": 5
+          },
+          "seo_technical": {
+            "score": 5,
+            "max": 5
+          }
+        },
+        "score": 95,
+        "coverage_matrix": [
+          {
+            "concept": "Biosynthesis",
+            "microtopic": "IAA structure, forms, historical evidence and natural/synthetic auxins",
+            "section": "chemistry; history; foundations",
+            "depth": "Chemical identity and pH-dependent forms; classical bioassay",
+            "experimental": "Compare assay controls and neutral fraction",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Biosynthesis",
+            "microtopic": "TAA/TAR–IPyA–YUCCA and qualified alternative routes",
+            "section": "biosynthesis; experimental",
+            "depth": "Reaction order, tissue-local synthesis and substrate/product interpretation",
+            "experimental": "Mutant rescue, metabolite conversion",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Storage and breakdown",
+            "microtopic": "GH3 conjugation, hydrolysis, DAO oxidation and homeostasis",
+            "section": "homeostasis",
+            "depth": "Reversible pools versus irreversible oxidation; mass balance",
+            "experimental": "Conjugate turnover and free-pool predictions",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Transport",
+            "microtopic": "AUX1/LAX influx; PIN efflux; ABCB; chemiosmosis",
+            "section": "transport",
+            "depth": "Membrane driving mechanisms, pH gradient and protein polarity",
+            "experimental": "pH calculations and directional tracer assays",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Transport",
+            "microtopic": "Local maxima, flux, reporters and perturbations",
+            "section": "gradients; experimental",
+            "depth": "Distinguish flux from concentration and response",
+            "experimental": "DR5/DII/LC-MS and NPA inhibition",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Mechanism of action",
+            "microtopic": "TIR1/AFB–Aux/IAA–ARF, ubiquitination and rapid responses",
+            "section": "signaling",
+            "depth": "Co-receptor recruitment, proteasome, transcription and feedback",
+            "experimental": "Stable repressor and receptor mutants, kinetic model",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Physiological effects",
+            "microtopic": "Acid growth, H+-ATPase, SAUR, PP2C.D, expansins and turgor",
+            "section": "acid-growth",
+            "depth": "Wall yielding and water-pressure limits",
+            "experimental": "Lockhart calculation and acidic-buffer rescue",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Physiological effects",
+            "microtopic": "Phototropism, gravitropism and differential elongation",
+            "section": "tropisms",
+            "depth": "Spatial signal and organ-specific sensitivity",
+            "experimental": "Coleoptile tests, curvature predictions and inhibition controls",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Physiological effects",
+            "microtopic": "Apical dominance, cytokinin/SL cross-talk, sugars",
+            "section": "branching",
+            "depth": "Bud outgrowth versus initiation, indirect pathways",
+            "experimental": "Decapitation chronology and branching mutants",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Physiological effects",
+            "microtopic": "Lateral/adventitious rooting",
+            "section": "rooting",
+            "depth": "Founder cells, ARF7/19–LBD, initiation and emergence",
+            "experimental": "Counts, fractions, tissue-specific rescue, exposure timing",
+            "exam": "B/C",
+            "covered": true
+          },
+          {
+            "concept": "Physiological effects",
+            "microtopic": "Differential dose sensitivity and developmental applications",
+            "section": "dosage; application",
+            "depth": "Nonmonotonic responses, tissue culture limits, organ positioning boundary",
+            "experimental": "Qualitative graph and simplified occupancy",
+            "exam": "B/C",
+            "covered": true
+          }
+        ],
+        "scientific_review": "Internal review distinguished free and conjugated IAA, TAA/YUCCA order, DAO oxidation of conjugates, carrier mechanisms, TIR1 molecular glue and ARF regulation, shoot acid growth versus rapid root responses, differential tropisms, branching crosstalk and root initiation/emergence. All 51 answer choices and explanations checked; numerical examples and numerical answers recalculated. Hypothetical data explicitly identified.",
+        "editorial_review": "Separate inspection of progression from classical observations to physiology and experimental reasoning, terminology, narrative, captions, comparisons, misconception rationales, practice and mastery. Rebalanced answer positions; corrected branching schematic and restored figure zoom/table styling.",
+        "deductions": [
+          "Scientific accuracy: 1 for unavoidable simplification of context-dependent responses and models.",
+          "Pedagogy: 1 for density of advanced mechanism passages.",
+          "Illustrations: 1 for schematic rather than anatomically detailed drawings.",
+          "Assessment: 1 for some foundational distractors being less challenging.",
+          "Reader accessibility: 1 for absence of interactive mobile and screen-reader execution tests."
+        ],
+        "static_checks": {
+          "one_h1": true,
+          "balanced_tag_stack": true,
+          "duplicate_ids": 0,
+          "unresolved_section_anchors": 0,
+          "unresolved_svg_label_or_zoom_targets": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "placeholder_matches": 0,
+          "all_questions_explained": true,
+          "all_questions_four_options": true,
+          "canonical_correct": true,
+          "relative_navigation_dynamic": true,
+          "reciprocal_previous_node_checked": true,
+          "next_unpublished_disabled": true,
+          "menu_sitemap_progress_reconciliation": "Latest menu and checkpoint IDs agree; sitemap unique; chapter hash unchanged; prior nodes preserved"
+        },
+        "source_checks": [
+          "Revised CSIR–UGC–DBT LS&BT January 2026 Unit 6.D, separate CSIR Life Sciences January 2026, MP SET Life Sciences syllabus document on third-party mirror.",
+          "Peer-reviewed papers/reviews including 2011 TAA/YUCCA evidence, 2021 DAO conjugate oxidation, 2005 TIR1 receptor, 2007 structural evidence, 2021 NPA–PIN interaction and 2014 sugar/bud release. Reference titles/identifiers checked through public search or publisher metadata; some full text access restricted."
+        ],
+        "limitations": [
+          "Internal review, not external peer review.",
+          "No actual device/browser interactive rendering or screen-reader test in connector environment; static markup, responsive CSS and navigation logic checked.",
+          "Deployment not yet verified at time of staging."
+        ],
+        "publication": {
+          "mode": "Single atomic Git commit with expected-head non-force ref update; draft isolated and verified",
+          "initial_main_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+          "reconciled_main_sha": "8a0ac3ad8ebcca4214fb3d6ce94f3e1685d65dc3",
+          "concurrent_preserved": [
+            "6.D.01",
+            "6.D.03",
+            "6.D.04",
+            "6.D.06",
+            "6.D.09"
+          ],
+          "next_pending_node_id": "6.B.04",
+          "next_subunit_node_id": "6.D.05",
+          "deployment_verified": false
+        }
       }
     },
     "next_pending_node_id": "6.B.04",
@@ -49422,154 +49994,174 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.D.09",
-      "title": "Jasmonates: Wound Signaling and Herbivore Defense",
-      "slug": "jasmonates-wound-signaling-and-herbivore-defense.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/jasmonates-wound-signaling-and-herbivore-defense.html",
+      "node_id": "6.D.03",
+      "title": "Cytokinins: Cell Division, Meristem Activity and Organ Formation",
+      "slug": "cytokinins-cell-division-meristem-activity-and-organ-formation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cytokinins-cell-division-meristem-activity-and-organ-formation.html",
       "unit": "06",
       "subunit": "6.D",
       "topic": "Plant Hormones",
       "date": "2026-11-27",
+      "source_draft_branch": "draft/6d03-cytokinins-20261127",
+      "source_draft_commit_sha": "633d6cfc695071d75c8fe0ec0736bfa058257ff9",
+      "chapter_blob_sha": "ea70cfc3996959266752716fa0cdde757aacafb8",
+      "publication_base_sha": "2d2978cff6862b7b30b857b75e5b4586391aa8fe",
       "status": "internal_academic_qa_passed_static_checks_complete",
-      "source_draft_branch": "draft/node-6d09-jasmonates",
-      "source_draft_commit_sha": "c1ccd9ff1ec670ca6ce54cc98aaf3f5ff4e8b335",
-      "chapter_blob_sha": "b57aa719dbf660b173cc4edbf3f2715d8def2a9c",
-      "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
-      "publication_base_sha": "46c506495f622ff4a48c8adafcfebbce0f3f0596",
       "metrics": {
-        "genuine_teaching_words": 13348,
-        "teaching_paragraphs": 146,
-        "teaching_sections": 9,
-        "scientific_svgs": 15,
+        "genuine_teaching_words": 14400,
+        "teaching_paragraphs": 143,
+        "teaching_sections": 15,
+        "total_sections": 19,
+        "scientific_svgs": 14,
         "scientific_tables": 4,
         "graphs": 2,
-        "part_b": 22,
-        "part_c": 27,
-        "additional_questions": 3,
-        "total_questions": 52,
-        "mcq": 32,
-        "free_response": 20,
-        "misconceptions": 15,
-        "active_recall": 10,
-        "mastery_checklist": 6,
-        "references": 14
+        "part_b": 20,
+        "part_c": 25,
+        "additional_questions": 5,
+        "total_questions": 50,
+        "misconceptions": 18,
+        "active_recall": 14,
+        "references": 19
       },
-      "word_count_method": "Whitespace-separated tokens of the text inside saved p.teaching-prose elements only; excludes questions, captions, tables, references, navigation and revision.",
+      "word_count_method": "Whitespace-separated words in p.teaching-prose only, tags stripped, final saved blob independently re-read. Excludes questions, references, navigation and illustrations.",
+      "rubric": {
+        "scientific_accuracy": {
+          "score": 19,
+          "max": 20
+        },
+        "syllabus_coverage": {
+          "score": 15,
+          "max": 15
+        },
+        "teaching_depth": {
+          "score": 15,
+          "max": 15
+        },
+        "pedagogy": {
+          "score": 9,
+          "max": 10
+        },
+        "illustrations": {
+          "score": 9,
+          "max": 10
+        },
+        "assessment": {
+          "score": 9,
+          "max": 10
+        },
+        "experimental_reasoning": {
+          "score": 5,
+          "max": 5
+        },
+        "revision": {
+          "score": 5,
+          "max": 5
+        },
+        "reader_accessibility": {
+          "score": 4,
+          "max": 5
+        },
+        "seo_technical": {
+          "score": 5,
+          "max": 5
+        }
+      },
+      "score": 95,
       "coverage_matrix": [
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "Oxylipin chemistry, active jasmonate forms, discovery",
-          "section": "foundations",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "History and adenine-derived forms",
+          "section": "2–3",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "α-linolenate, LOX, AOS, AOC, OPDA",
-          "section": "chloroplast",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "IPT synthesis",
+          "section": "4",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "Peroxisome transport, OPR3, beta oxidation, alternative route, JAR1",
-          "section": "peroxisome",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "CYP735A hydroxylation",
+          "section": "4",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "JA-Ile turnover, conjugation, storage caveat",
-          "section": "homeostasis",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "LOG activation",
+          "section": "4",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "COI1-JAZ, SCF ubiquitination, proteasome, MYC and feedback",
-          "section": "receptor",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "Glycosylation and storage",
+          "section": "5",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "Wound sensing, glutamate/Ca2+ signals, systemic synthesis vs transport",
-          "section": "systemic",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "CKX and pool balance",
+          "section": "5",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "Herbivory, proteinase inhibitors, specialized metabolites and fertility",
-          "section": "defense",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "Vascular transport and ABCG14",
+          "section": "6",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "Growth-defense balance, SA and ethylene interactions",
-          "section": "crosstalk",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "AHK receptors and AHP phosphorelay",
+          "section": "7–8",
           "covered": true
         },
         {
-          "official_scope": "Unit 6.D Plant Hormones: biosynthesis, storage, breakdown, transport, effects and action mechanisms",
-          "concept": "Mutant rescue, grafting, reporter and quantitative data reasoning",
-          "section": "reasoning",
-          "depth": "NET/SET mechanism and analytical reasoning",
+          "concept": "Type-B/type-A ARR and feedback",
+          "section": "8",
+          "covered": true
+        },
+        {
+          "concept": "Cell cycle, shoot and root meristems",
+          "section": "9–11",
+          "covered": true
+        },
+        {
+          "concept": "Regeneration and auxin interaction",
+          "section": "12",
+          "covered": true
+        },
+        {
+          "concept": "Nutrient-dependent signaling",
+          "section": "13",
+          "covered": true
+        },
+        {
+          "concept": "Leaf senescence and evidence integration",
+          "section": "14–15",
           "covered": true
         }
       ],
-      "scientific_review": "Internal pass: checked pathway order, OPR3-independent caveat, JAR1 and active ligand distinction, CYP94 turnover, COI1/JAZ proteolysis, calcium and glutamate systemic signaling, grafting evidence, defense and fertility, context-dependent interactions; recalculated numerical worked examples and examined all 52 answer explanations. No external peer review.",
-      "editorial_review": "Separate internal pass: verified 146 genuine teaching paragraphs and nine narrative sections, compared length and reader architecture with 6.D.01, checked original question explanations and matched 32 MCQ answer letters to actual choices, checked accessibility labels and static navigation. Some repetitive explanatory caveats and short-response questions remain.",
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogy": 9,
-        "illustrations": 9,
-        "assessment": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "seo_technical": 5
-      },
-      "score": 95,
-      "deductions": "One mark each for limited independent scientific verification, occasional repeated caveats, no rendered illustration check, mixed short-response and MCQ assessment with some simple distractors, and no interactive accessibility test. Internal self-assessment.",
+      "scientific_review": "Internal review against syllabus scope and published reviews and primary evidence: tissue culture, LOG, ABCG14, CYCD3, CKX, WUS, ARR1–SHY2 and senescence. Rechecked calculations, pathway order, ligand versus precursor forms, species/context caveats, and all fifty keys.",
+      "editorial_review": "Separate check of chapter sequence, diagrams, accessibility metadata, revision and assessment. Shuffled answer options, corrected wording, independently re-fetched final blob and confirmed all keys and static counts.",
+      "deductions": "Scientific: no independent expert peer review. Pedagogy: dense mechanistic sections. Illustrations: no browser rendering. Assessment: no external calibration. Reader: no browser/keyboard runtime check.",
       "static_checks": {
         "duplicate_ids": 0,
-        "duplicate_teaching_paragraphs": 0,
         "unresolved_fragment_links": 0,
         "unresolved_aria_references": 0,
-        "html_nesting_errors": 0,
-        "script_syntax": "compiled",
-        "answer_explanations": 52,
-        "mcq_answer_mapping": "32/32",
-        "placeholder_matches": 0,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/jasmonates-wound-signaling-and-herbivore-defense.html",
-        "h1_count": 1,
-        "svg_accessibility_labels": 15
+        "duplicate_teaching_paragraphs": 0,
+        "question_answer_mismatches": 0,
+        "svg_accessibility_labels": 14,
+        "diagram_zoom_controls": 14,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/cytokinins-cell-division-meristem-activity-and-organ-formation.html",
+        "reciprocal_navigation": "Menu-driven; adjacent links resolve only published nodes."
       },
-      "source_checks": "Revised joint CSIR UGC DBT 2026 official syllabus, separate CSIR 2026 syllabus, MP SET 2024 syllabus mirror; Staswick and Tiryaki 2004, Thines 2007, Sheard 2010, Toyota 2018, Li 2002, Chini 2018 and review literature.",
+      "source_checks": "Revised CSIR syllabus unit 6.D; earlier syllabus and archived MP SET 2024 syllabus; academic review and primary records for cytokinin synthesis, transport, signal relay, meristem regulation and senescence.",
       "limitations": [
-        "Internal review, not independent peer review.",
-        "MP SET 2024 syllabus mirror, not a verified latest official MPPSC-hosted file.",
-        "No rendered browser/mobile/screen-reader runtime test; static markup and script checks completed.",
-        "Pages configuration and deployment status not yet verified."
+        "Internal self-assessment, not external peer review.",
+        "MP SET source is archived 2024 copy.",
+        "Browser rendering, keyboard runtime testing and individual HTTP responses of every reference not verified."
       ],
-      "navigation": {
-        "previous": "6.D.08",
-        "next": "6.D.10",
-        "mechanism": "Reader resolves immediate planned neighbors only if linked in current menu; unavailable neighbors remain disabled."
-      },
       "publication": {
         "state": "lesson_committed_pages_verification_pending",
-        "strategy": "atomic tree and conditional non-force ref update",
-        "expected_base_sha": "46c506495f622ff4a48c8adafcfebbce0f3f0596",
-        "linked_nodes_before": 269,
-        "linked_nodes_after": 270,
-        "unit_published_after": 21,
-        "subunit_published_after": 4,
+        "atomic": true,
+        "expected_base_sha": "2d2978cff6862b7b30b857b75e5b4586391aa8fe",
+        "linked_nodes_before": 270,
+        "linked_nodes_after": 271,
+        "unit_published_after": 22,
+        "subunit_published_after": 5,
         "next_pending_node_id": "6.B.04",
         "live_verification": "pending"
       }
@@ -49600,12 +50192,13 @@
     "subunit_6d": {
       "published_node_ids": [
         "6.D.01",
+        "6.D.02",
         "6.D.03",
         "6.D.04",
         "6.D.06",
         "6.D.09"
       ],
-      "published_node_count": 5,
+      "published_node_count": 6,
       "planned_node_count": 10,
       "complete": false
     }
@@ -49627,6 +50220,7 @@
   "unit6c_planned_node_count": 6,
   "unit6d_published_node_ids": [
     "6.D.01",
+    "6.D.02",
     "6.D.03",
     "6.D.04",
     "6.D.06",

@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.D.04",
-  "title": "Gibberellins: Stem Growth, Seed Germination and DELLA Signaling",
+  "node_id": "6.D.06",
+  "title": "Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling",
   "subunit": "6.D",
   "topic": "Plant Hormones",
-  "slug": "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+  "slug": "strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
   "next_pending_node_id": "6.B.04",
   "next_pending_node_title": "Alternative Oxidase and Alternative Respiratory Pathways",
-  "published_node_count": 268,
+  "published_node_count": 269,
   "publication_allowed": true,
-  "main_baseline_sha": "9381ad712650d12e027bd9566060eb55c044162a",
+  "main_baseline_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue with 6.B.04",
   "planned_node_count": 66,
@@ -21,30 +21,31 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.D.04",
-    "title": "Gibberellins: Stem Growth, Seed Germination and DELLA Signaling",
-    "slug": "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+    "node_id": "6.D.06",
+    "title": "Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling",
+    "slug": "strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
     "unit": "06",
     "subunit": "6.D",
     "topic": "Plant Hormones",
     "date": "2026-11-27",
-    "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6-d-04-gibberellins",
-    "source_draft_commit_sha": "8bb924d58a8ad7e71a012fa03556f5a5f27aa70c",
-    "source_draft_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
-    "production_chapter_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
-    "publication_base_sha": "9381ad712650d12e027bd9566060eb55c044162a",
+    "status": "internal_academic_qa_passed_static_checks_complete",
+    "source_draft_branch": "draft/node-6.D.06-strigolactones",
+    "source_draft_commit_sha": "73592c6d76fdf69fef5e230cb6521534823446eb",
+    "chapter_blob_sha": "80c5db5bbd0436531a0a9aae0b49b58bc4232b16",
+    "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+    "publication_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
     "metrics": {
-      "genuine_teaching_words": 13978,
-      "teaching_paragraphs": 146,
-      "theory_sections": 17,
-      "svg": 12,
-      "tables": 4,
-      "graphs": 3,
+      "genuine_teaching_words": 13487,
+      "teaching_paragraphs": 127,
+      "visible_article_words_approx": 18176,
+      "teaching_sections": 13,
+      "scientific_svgs": 10,
+      "scientific_tables": 4,
+      "graphs": 2,
       "part_b": 20,
       "part_c": 20,
-      "other_questions": 10,
+      "additional_questions": 10,
       "total_questions": 50,
       "answer_positions": {
         "A": 12,
@@ -52,172 +53,156 @@
         "C": 12,
         "D": 13
       },
-      "references": 13,
       "misconceptions": 16,
-      "active_recall": 12
+      "active_recall": 12,
+      "references": 17
     },
-    "word_count_method": "Whitespace tokens in the 146 saved p.teaching-prose elements only; all headings, figures, tables, questions, revision and references excluded.",
-    "scope": {
-      "official": "Revised January 2026 combined CSIR–UGC–DBT syllabus and separate CSIR syllabus, Unit 6.D; MP SET 2024 syllabus mirror; Academy node 6.D.04 roadmap.",
-      "boundary": "ABA treated only in context of GA balance; other hormone pathways reserved for their nodes."
-    },
+    "word_count_method": "Lexical tokens from 127 saved p.teaching-prose elements; excludes figures, questions, captions, tables, revisions, references and navigation. Independently re-read saved blob.",
     "coverage_matrix": [
       {
-        "concept": "History and phenotype",
-        "sections": "history",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Carotenoid origin, canonical/noncanonical chemistry",
+        "section": "chemistry",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Chemical class and active forms",
-        "sections": "chemical-specificity",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "D27 isomerization",
+        "section": "biosynthesis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "CPS KS KO KAO and compartments",
-        "sections": "biosynthesis",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "CCD7 cleavage and CCD8 carlactone formation",
+        "section": "biosynthesis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "GA20ox GA3ox and alternative branches",
-        "sections": "biosynthesis",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "MAX1/CYP711A and species-specific derivatives",
+        "section": "biosynthesis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "GA2ox and conjugation",
-        "sections": "homeostasis",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Homeostasis, turnover and storage caveat",
+        "section": "homeostasis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Feedback and movement",
-        "sections": "homeostasis/spatial",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Root release, PDR1 and nonuniversal movement",
+        "section": "homeostasis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Dose and receptor occupancy",
-        "sections": "dose",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "D14 receptor and hydrolase",
+        "section": "signaling",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "GID1 DELLA SCF proteasome",
-        "sections": "signaling",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "MAX2/D3 and SMXL/D53 turnover",
+        "section": "signaling",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Negative-regulator kinetics",
-        "sections": "turnover",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Axillary bud restraint, auxin, cytokinin, BRC1 and transport",
+        "section": "shoot",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Stem elongation bolting flowering",
-        "sections": "stem",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Phosphate dependence and root morphology",
+        "section": "roots",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Cellular growth mechanics",
-        "sections": "growth-mechanics",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "AM fungal branching, colonization, phosphate exchange vs rhizobia",
+        "section": "symbiosis",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "Seed anatomy and germination",
-        "sections": "germination",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Parasitic seed germination and tradeoffs",
+        "section": "parasites",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       },
       {
-        "concept": "ABA interaction and dormancy",
-        "sections": "seed-decisions",
-        "verified": "covered by manuscript inspection"
-      },
-      {
-        "concept": "Aleurone GAMYB amylase and secretion",
-        "sections": "aleurone-analysis",
-        "verified": "covered by manuscript inspection"
-      },
-      {
-        "concept": "Receptor experiments and mutant rescue",
-        "sections": "evidence/integration",
-        "verified": "covered by manuscript inspection"
-      },
-      {
-        "concept": "Environment agriculture and crop dwarfing",
-        "sections": "applied",
-        "verified": "covered by manuscript inspection"
+        "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+        "concept": "Mutant rescue, grafting, epistasis, exudate assays and quantitative reasoning",
+        "section": "analysis; evidence",
+        "depth": "NET/SET mechanism and analytical reasoning",
+        "covered": true
       }
     ],
-    "review_pass_1": {
-      "type": "Internal scientific and syllabus review",
-      "result": "pass with stated limitations",
-      "findings": "Reviewed hormone identity, enzyme positions, compartmentation, inactivation, GA12 transport, feedback, GID1/DELLA/SCF pathways, growth, GAMYB, cereal aleurone, ABA interaction and mutant logic. Checked selected primary and review sources, recomputed steady amount 40, receptor occupancies 1/3 and 5/6, decay 25.0597 and half-life 1.1552; distinguished illustrative data from observations."
-    },
-    "review_pass_2": {
-      "type": "Separate editorial, assessment and static technical review",
-      "result": "pass with limitations",
-      "findings": "Re-read saved HTML, compared 5.E.07 exemplar (13,511 prose words), strengthened analytical distractors, shuffled option positions, checked 50 keyed explanations, 16 misconceptions, 12 recall prompts, 12 titled SVGs and four tables. Added four crosslinks from current linked menu; JavaScript parsed successfully."
-    },
-    "quality": {
+    "scientific_review": "Internal pass: checked D27/CCD7/CCD8/MAX1 order, canonical and noncanonical chemistry, D14/MAX2/SMXL and KAI2 caveats, PDR1 transport, BRC1/PIN context, phosphate response, AM versus rhizobia, Striga cue, and all 50 mapped answer explanations against research and official scope. Recalculated rescue, release rate, root density, turnover, germination fractions and interaction contrasts. No external peer review.",
+    "editorial_review": "Distinct internal pass: compared saved chapter with 6.B.01 exemplar (13,445 teaching words); improved ligand specificity, comparative tables, caveats, answer distribution and source citations. Checked progression, 127 paragraphs, 17 section anchors, accessible SVG labeling and reader template; no identical teaching paragraphs. Browser rendering unavailable.",
+    "rubric": {
       "scientific_accuracy": 19,
-      "syllabus_and_microtopic_coverage": 15,
-      "genuine_teaching_depth": 15,
-      "pedagogical_quality": 9,
-      "scientific_illustrations": 9,
-      "examination_questions_and_answers": 9,
-      "experimental_and_analytical_reasoning": 5,
-      "revision_and_mastery": 5,
-      "reader_architecture_and_accessibility": 4,
-      "technical_integrity_and_seo": 5,
-      "total": 95,
-      "threshold": 95,
-      "assessment": "Internal rubric judgment; not external expert certification.",
-      "deductions": "One point each for selected rather than exhaustive source review, occasional reinforcing caveats, no rendered SVG inspection, no external assessment calibration, and no browser/assistive-technology runtime test."
+      "syllabus_coverage": 15,
+      "teaching_depth": 15,
+      "pedagogy": 9,
+      "illustrations": 9,
+      "assessment": 9,
+      "experimental_reasoning": 5,
+      "revision": 5,
+      "reader_accessibility": 4,
+      "seo_technical": 5
     },
-    "validation": {
+    "score": 95,
+    "deductions": "One mark each for limited independent scientific verification, repeated explanatory caveats, schematic rather than rendered SVG review, some simpler distractors, and lack of interactive accessibility tests. Internal self-assessment.",
+    "static_checks": {
       "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria_refs": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "unresolved_fragment_links": 0,
+      "unresolved_aria_references": 0,
       "unresolved_zoom_targets": 0,
-      "duplicate_prose": 0,
-      "tag_nesting_errors": 0,
-      "js_syntax_pass": true,
-      "invalid_question_options": 0,
+      "html_nesting_errors": 0,
+      "script_syntax": "compiled",
+      "answer_option_and_explanation_mapping": "50/50 reviewed",
       "placeholder_matches": 0,
-      "canonical_pass": true,
-      "robots": "index,follow",
-      "browser_test": false
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+      "h1_count": 1,
+      "svg_accessibility_labels": 10
     },
-    "navigation": {
-      "previous": "6.D.03",
-      "next": "6.D.05",
-      "previous_enabled": false,
-      "next_enabled": false,
-      "mechanism": "Reader resolves current linked homepage entries at runtime."
-    },
-    "progress": {
-      "academy_published": 268,
-      "academy_planned": 723,
-      "unit_published": 19,
-      "unit_planned": 66,
-      "subunit_published": 2,
-      "subunit_planned": 10,
-      "next_pending_node_id": "6.B.04"
-    },
+    "source_checks": "Revised joint CSIR UGC DBT 2026 official syllabus, separate CSIR through June 2026, MP SET 2024 syllabus mirror; primary Akiyama 2005, Gomez-Roldan and Umehara 2008, Alder and Kretzschmar 2012, Jiang and Zhou 2013, Shinohara 2013, Scaffidi 2014 and review literature.",
     "limitations": [
-      "Internal review only, no external peer review or exam calibration.",
-      "MP SET source is 2024 mirror; current official MPPSC copy not independently retrieved.",
-      "Static checks, not browser rendering or assistive technology testing.",
-      "Deployment and live HTTP verification pending."
+      "Internal review, not independent peer review.",
+      "MP SET 2024 syllabus verified from mirror, not latest official MPPSC-hosted file.",
+      "No rendered browser, mobile or screen-reader runtime test; static HTML/SVG and script checks completed.",
+      "Pages configuration endpoint not accessible; live deployment verification pending."
     ],
-    "changed_files": [
-      "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
-      "index.html",
-      "sitemap.xml",
-      "curriculum/subunit-6d-plant-hormones-node-map.md",
-      "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/academy-progress.json",
-      "curriculum/node-6d04-publication-qa.json"
-    ],
+    "navigation": {
+      "previous": "6.D.05",
+      "next": "6.D.07",
+      "mechanism": "Reader dynamically resolves immediate planned neighbors only if linked in menu; unavailable neighbors remain disabled."
+    },
     "publication": {
-      "strategy": "Single tree and commit with conditional non-force ref update from fresh main.",
-      "deployment": "pending",
-      "live_verified": false
+      "state": "lesson_committed_pages_verification_pending",
+      "strategy": "atomic tree and conditional non-force ref update",
+      "expected_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
+      "linked_nodes_before": 268,
+      "linked_nodes_after": 269,
+      "unit_published_after": 20,
+      "subunit_published_after": 3,
+      "next_pending_node_id": "6.B.04",
+      "live_verification": "pending"
     }
   },
   "published_node_ids": [
@@ -488,416 +473,407 @@
     "6.C.05",
     "6.C.06",
     "6.D.01",
-    "6.D.04"
+    "6.D.04",
+    "6.D.06"
   ],
   "prior_publication_qa": {
-    "node_id": "6.C.06",
-    "title": "Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange",
-    "slug": "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+    "node_id": "6.D.04",
+    "title": "Gibberellins: Stem Growth, Seed Germination and DELLA Signaling",
+    "slug": "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/gibberellins-stem-growth-seed-germination-and-della-signaling.html",
     "unit": "06",
-    "subunit": "6.C",
-    "topic": "Nitrogen Metabolism",
+    "subunit": "6.D",
+    "topic": "Plant Hormones",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/node-6c06-symbiotic-nitrogen-fixation-20261127",
-    "source_draft_commit_sha": "acbe4baa9a5f39766e14ddba7eb3a96a1f5487b6",
-    "source_draft_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
-    "production_chapter_blob_sha": "141b7bb0501b6612ebf750802f5ed5ef6c846708",
-    "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
-    "publication_base_sha": "c46f264e50f0b68590a2786f0a3b11c45ca98c65",
-    "production_robots": "index,follow",
+    "source_draft_branch": "draft/6-d-04-gibberellins",
+    "source_draft_commit_sha": "8bb924d58a8ad7e71a012fa03556f5a5f27aa70c",
+    "source_draft_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
+    "production_chapter_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
+    "publication_base_sha": "9381ad712650d12e027bd9566060eb55c044162a",
     "metrics": {
-      "genuine_teaching_words": 13568,
-      "teaching_paragraphs": 156,
+      "genuine_teaching_words": 13978,
+      "teaching_paragraphs": 146,
+      "theory_sections": 17,
       "svg": 12,
       "tables": 4,
-      "graph_and_chart_figures": 1,
-      "worked_numerical_examples": 13,
-      "total_questions": 50,
+      "graphs": 3,
       "part_b": 20,
       "part_c": 20,
       "other_questions": 10,
+      "total_questions": 50,
       "answer_positions": {
-        "A": 10,
-        "B": 11,
-        "C": 17,
-        "D": 12
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
       },
-      "misconceptions": 18,
-      "active_recall": 15,
-      "references": 14
+      "references": 13,
+      "misconceptions": 16,
+      "active_recall": 12
     },
-    "word_count_method": "Unicode word tokens from actual saved p.teaching-prose only; inline HTML removed; exclude diagrams, tables, questions, references and revision.",
+    "word_count_method": "Whitespace tokens in the 146 saved p.teaching-prose elements only; all headings, figures, tables, questions, revision and references excluded.",
     "scope": {
-      "official": "Revised 2026 UGC–CSIR–DBT Unit 6.C explicitly includes biological nitrogen fixation; separate CSIR and MP SET 2024 mirror explicitly list ammonium/nitrate assimilation and amino acid biosynthesis.",
-      "roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
-      "boundaries": "Nodule physiology, not full nitrogenase electron chemistry, specialist proteomics, or microbial genetics."
+      "official": "Revised January 2026 combined CSIR–UGC–DBT syllabus and separate CSIR syllabus, Unit 6.D; MP SET 2024 syllabus mirror; Academy node 6.D.04 roadmap.",
+      "boundary": "ABA treated only in context of GA balance; other hormone pathways reserved for their nodes."
     },
     "coverage_matrix": [
       {
-        "microtopic": "Recognition and NodD/Nod factor signaling",
-        "section": "recognition, signaling",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Host/bacterial signal-rescue analysis",
-        "covered": true
+        "concept": "History and phenotype",
+        "sections": "history",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Root hair curling and infection",
-        "section": "infection",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Topological distinction; microscopy and stage arrest",
-        "covered": true
+        "concept": "Chemical class and active forms",
+        "sections": "chemical-specificity",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Nodule organogenesis and types",
-        "section": "organ",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Indeterminate vs determinate; tissue age",
-        "covered": true
+        "concept": "CPS KS KO KAO and compartments",
+        "sections": "biosynthesis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Symbiosomes and bacteroid differentiation",
-        "section": "symbiosome",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Plant/bacterial membranes; differentiation exceptions",
-        "covered": true
+        "concept": "GA20ox GA3ox and alternative branches",
+        "sections": "biosynthesis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Leghemoglobin and oxygen control",
-        "section": "oxygen",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Binding, respiratory flux, Ott RNAi",
-        "covered": true
+        "concept": "GA2ox and conjugation",
+        "sections": "homeostasis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Carbon provisioning and nitrogenase energetic costs",
-        "section": "carbon",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Dicarboxylates and ATP accounting",
-        "covered": true
+        "concept": "Feedback and movement",
+        "sections": "homeostasis/spatial",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Fixed N and host GS–GOGAT",
-        "section": "exchange",
-        "official_scope": "Ammonium assimilation",
-        "analytical_and_exam_relevance": "Compartment-specific transfer, pH, assimilation",
-        "covered": true
+        "concept": "Dose and receptor occupancy",
+        "sections": "dose",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Amide and ureide export",
-        "section": "export",
-        "official_scope": "Amino acid biosynthesis",
-        "analytical_and_exam_relevance": "N atom and flux calculations",
-        "covered": true
+        "concept": "GID1 DELLA SCF proteasome",
+        "sections": "signaling",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Nodulation regulation and mineral constraints",
-        "section": "regulation, environment",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Split root, grafting, nitrate and mineral limitations",
-        "covered": true
+        "concept": "Negative-regulator kinetics",
+        "sections": "turnover",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Alternative microbial strategies",
-        "section": "comparison",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Heterocyst, Frankia, associative and free-living",
-        "covered": true
+        "concept": "Stem elongation bolting flowering",
+        "sections": "stem",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Experimental evidence and isotope calculations",
-        "section": "history, measure",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "Tracer, isotope dilution, ARA and controls",
-        "covered": true
+        "concept": "Cellular growth mechanics",
+        "sections": "growth-mechanics",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "microtopic": "Whole-plant nitrogen economy",
-        "section": "economy",
-        "official_scope": "Biological N fixation",
-        "analytical_and_exam_relevance": "C/N costs, mass balance, field boundary",
-        "covered": true
+        "concept": "Seed anatomy and germination",
+        "sections": "germination",
+        "verified": "covered by manuscript inspection"
+      },
+      {
+        "concept": "ABA interaction and dormancy",
+        "sections": "seed-decisions",
+        "verified": "covered by manuscript inspection"
+      },
+      {
+        "concept": "Aleurone GAMYB amylase and secretion",
+        "sections": "aleurone-analysis",
+        "verified": "covered by manuscript inspection"
+      },
+      {
+        "concept": "Receptor experiments and mutant rescue",
+        "sections": "evidence/integration",
+        "verified": "covered by manuscript inspection"
+      },
+      {
+        "concept": "Environment agriculture and crop dwarfing",
+        "sections": "applied",
+        "verified": "covered by manuscript inspection"
       }
     ],
     "review_pass_1": {
-      "type": "internal scientific and academic",
-      "result": "pass",
-      "findings": [
-        "Checked distinction between fixation and assimilation, nod signaling and infection topology, nitrogenase equation and ATP accounting, O2 concentration versus flux, amide/ureide elemental counts, isotope-dilution assumptions and field boundary.",
-        "Verified published reviews and Ott et al. RNAi primary article; numerical examples identified as illustrative.",
-        "Reviewed all answer mappings and worked arithmetic. Some historical and physiological evidence is supported by review sources rather than direct original reports."
-      ]
+      "type": "Internal scientific and syllabus review",
+      "result": "pass with stated limitations",
+      "findings": "Reviewed hormone identity, enzyme positions, compartmentation, inactivation, GA12 transport, feedback, GID1/DELLA/SCF pathways, growth, GAMYB, cereal aleurone, ABA interaction and mutant logic. Checked selected primary and review sources, recomputed steady amount 40, receptor occupancies 1/3 and 5/6, decay 25.0597 and half-life 1.1552; distinguished illustrative data from observations."
     },
     "review_pass_2": {
-      "type": "internal editorial and student experience",
-      "result": "pass",
-      "findings": [
-        "Sixteen progressive teaching sections; 156 nonduplicate explanatory paragraphs; 13,568 teaching words compared with CAM exemplar at 13,360 using same tokenizer.",
-        "Varied answer positions, fixed duplicate SVG font-size attributes, verified caption/ARIA/zoom targets and estimated SVG text boundaries.",
-        "Preserved established reader shell and dynamic adjacent-node lookup. Browser rendering not tested."
-      ]
+      "type": "Separate editorial, assessment and static technical review",
+      "result": "pass with limitations",
+      "findings": "Re-read saved HTML, compared 5.E.07 exemplar (13,511 prose words), strengthened analytical distractors, shuffled option positions, checked 50 keyed explanations, 16 misconceptions, 12 recall prompts, 12 titled SVGs and four tables. Added four crosslinks from current linked menu; JavaScript parsed successfully."
     },
     "quality": {
-      "score": 95,
+      "scientific_accuracy": 19,
+      "syllabus_and_microtopic_coverage": 15,
+      "genuine_teaching_depth": 15,
+      "pedagogical_quality": 9,
+      "scientific_illustrations": 9,
+      "examination_questions_and_answers": 9,
+      "experimental_and_analytical_reasoning": 5,
+      "revision_and_mastery": 5,
+      "reader_architecture_and_accessibility": 4,
+      "technical_integrity_and_seo": 5,
+      "total": 95,
       "threshold": 95,
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_and_microtopic_coverage": 15,
-        "genuine_teaching_depth": 15,
-        "pedagogy": 9,
-        "scientific_illustrations": 9,
-        "examination_practice": 9,
-        "experimental_and_analytical_reasoning": 5,
-        "revision_and_mastery": 5,
-        "reader_architecture_and_accessibility": 4,
-        "technical_integrity_and_seo": 5
-      },
-      "basis": "Internal evidence-based rubric: deduct for reliance on some review-level rather than primary historical evidence, dense passages, SVG visual rendering not tested, some Part B distractors are straightforward, and interactive accessibility not browser-tested. Static technical checks pass."
+      "assessment": "Internal rubric judgment; not external expert certification.",
+      "deductions": "One point each for selected rather than exhaustive source review, occasional reinforcing caveats, no rendered SVG inspection, no external assessment calibration, and no browser/assistive-technology runtime test."
     },
     "validation": {
-      "word_count_pass": true,
-      "svg_count_pass": true,
-      "question_count_pass": true,
-      "answer_mapping_pass": true,
-      "duplicate_ids": [],
-      "unresolved_anchors": [],
-      "unresolved_aria_references": [],
-      "unresolved_zoom_targets": [],
-      "duplicate_teaching_paragraphs": 0,
-      "placeholder_markers": 0,
-      "balanced_html_tag_counts": true,
-      "js_syntax_compiled": true,
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_refs": 0,
+      "unresolved_zoom_targets": 0,
+      "duplicate_prose": 0,
+      "tag_nesting_errors": 0,
+      "js_syntax_pass": true,
+      "invalid_question_options": 0,
+      "placeholder_matches": 0,
       "canonical_pass": true,
-      "interactive_browser_test": "not performed: local container cannot resolve GitHub; static markup and script checks completed"
+      "robots": "index,follow",
+      "browser_test": false
     },
     "navigation": {
-      "previous": {
-        "id": "6.C.05",
-        "published": false
-      },
-      "next": {
-        "id": "6.D.01",
-        "published": false
-      },
-      "reciprocal": "Existing reader resolves neighbor links dynamically from current index. Unpublished neighbors stay disabled."
+      "previous": "6.D.03",
+      "next": "6.D.05",
+      "previous_enabled": false,
+      "next_enabled": false,
+      "mechanism": "Reader resolves current linked homepage entries at runtime."
     },
     "progress": {
-      "subunit_published": 3,
-      "subunit_planned": 6,
-      "unit_published": 14,
-      "unit_planned": 66,
-      "academy_published": 263,
+      "academy_published": 268,
       "academy_planned": 723,
-      "next_pending_node_id": "6.B.01"
+      "unit_published": 19,
+      "unit_planned": 66,
+      "subunit_published": 2,
+      "subunit_planned": 10,
+      "next_pending_node_id": "6.B.04"
     },
     "limitations": [
-      "No external peer review; both passes internal.",
-      "No live browser or mobile rendering test; static inspection only.",
-      "MP SET source is a mirror of 2024 syllabus, not a direct MPPSC-hosted current version."
+      "Internal review only, no external peer review or exam calibration.",
+      "MP SET source is 2024 mirror; current official MPPSC copy not independently retrieved.",
+      "Static checks, not browser rendering or assistive technology testing.",
+      "Deployment and live HTTP verification pending."
     ],
     "changed_files": [
-      "symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html",
+      "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
       "index.html",
       "sitemap.xml",
-      "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
+      "curriculum/subunit-6d-plant-hormones-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
       "curriculum/academy-progress.json",
-      "curriculum/node-6c06-publication-qa.json"
+      "curriculum/node-6d04-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Single conditional non-force ref update against freshly inspected main; prior files preserved",
+      "strategy": "Single tree and commit with conditional non-force ref update from fresh main.",
       "deployment": "pending",
       "live_verified": false
     }
   },
   "previous_last_qa": {
-    "node_id": "6.B.01",
-    "title": "Plant Respiration and the Citric Acid Cycle",
-    "slug": "plant-respiration-and-the-citric-acid-cycle.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html",
+    "node_id": "6.D.04",
+    "title": "Gibberellins: Stem Growth, Seed Germination and DELLA Signaling",
+    "slug": "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/gibberellins-stem-growth-seed-germination-and-della-signaling.html",
     "unit": "06",
-    "subunit": "6.B",
-    "topic": "Respiration and Photorespiration",
+    "subunit": "6.D",
+    "topic": "Plant Hormones",
     "date": "2026-11-27",
-    "source_draft_branch": "draft/node-6.B.01-plant-respiration",
-    "source_draft_commit_sha": "9a04d4b2a222f56f44c976e8bde2e64e516aca18",
-    "chapter_blob_sha": "14269dcbb726d9a8467ce65672d35bb23581922b",
-    "publication_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
-    "status": "internal_academic_qa_passed_static_checks_complete",
+    "status": "academic_qa_passed_deployment_verification_pending",
+    "source_draft_branch": "draft/6-d-04-gibberellins",
+    "source_draft_commit_sha": "8bb924d58a8ad7e71a012fa03556f5a5f27aa70c",
+    "source_draft_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
+    "production_chapter_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
+    "publication_base_sha": "9381ad712650d12e027bd9566060eb55c044162a",
     "metrics": {
-      "genuine_teaching_words": 13445,
-      "whitespace_teaching_words": 13421,
-      "teaching_paragraphs": 117,
-      "teaching_sections": 14,
-      "scientific_svgs": 11,
-      "scientific_tables": 4,
+      "genuine_teaching_words": 13978,
+      "teaching_paragraphs": 146,
+      "theory_sections": 17,
+      "svg": 12,
+      "tables": 4,
+      "graphs": 3,
       "part_b": 20,
       "part_c": 20,
-      "additional_questions": 10,
+      "other_questions": 10,
       "total_questions": 50,
-      "misconceptions": 15,
-      "active_recall": 12,
-      "references": 14
+      "answer_positions": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "references": 13,
+      "misconceptions": 16,
+      "active_recall": 12
     },
-    "word_count_method": "Lexical tokens in 117 p.teaching-prose elements only, excluding questions, references, tables, navigation and captions. Saved blob independently retrieved. No duplicated teaching paragraphs.",
-    "rubric": {
-      "scientific_accuracy": {
-        "score": 19,
-        "max": 20
-      },
-      "syllabus_coverage": {
-        "score": 15,
-        "max": 15
-      },
-      "teaching_depth": {
-        "score": 15,
-        "max": 15
-      },
-      "pedagogy": {
-        "score": 9,
-        "max": 10
-      },
-      "illustrations": {
-        "score": 9,
-        "max": 10
-      },
-      "assessment": {
-        "score": 9,
-        "max": 10
-      },
-      "experimental_reasoning": {
-        "score": 5,
-        "max": 5
-      },
-      "revision": {
-        "score": 5,
-        "max": 5
-      },
-      "reader_accessibility": {
-        "score": 4,
-        "max": 5
-      },
-      "seo_technical": {
-        "score": 5,
-        "max": 5
-      }
+    "word_count_method": "Whitespace tokens in the 146 saved p.teaching-prose elements only; all headings, figures, tables, questions, revision and references excluded.",
+    "scope": {
+      "official": "Revised January 2026 combined CSIR–UGC–DBT syllabus and separate CSIR syllabus, Unit 6.D; MP SET 2024 syllabus mirror; Academy node 6.D.04 roadmap.",
+      "boundary": "ABA treated only in context of GA balance; other hormone pathways reserved for their nodes."
     },
-    "score": 95,
     "coverage_matrix": [
       {
-        "concept": "Plant respiration in light and darkness",
-        "covered": true
+        "concept": "History and phenotype",
+        "sections": "history",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Sucrose starch and glycolysis",
-        "covered": true
+        "concept": "Chemical class and active forms",
+        "sections": "chemical-specificity",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Pyruvate transport and compartmentation",
-        "covered": true
+        "concept": "CPS KS KO KAO and compartments",
+        "sections": "biosynthesis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Mitochondrial pyruvate dehydrogenase",
-        "covered": true
+        "concept": "GA20ox GA3ox and alternative branches",
+        "sections": "biosynthesis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Citrate synthase",
-        "covered": true
+        "concept": "GA2ox and conjugation",
+        "sections": "homeostasis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Aconitase",
-        "covered": true
+        "concept": "Feedback and movement",
+        "sections": "homeostasis/spatial",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Isocitrate dehydrogenase",
-        "covered": true
+        "concept": "Dose and receptor occupancy",
+        "sections": "dose",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "2-oxoglutarate dehydrogenase",
-        "covered": true
+        "concept": "GID1 DELLA SCF proteasome",
+        "sections": "signaling",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Succinyl-CoA ligase",
-        "covered": true
+        "concept": "Negative-regulator kinetics",
+        "sections": "turnover",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Succinate dehydrogenase",
-        "covered": true
+        "concept": "Stem elongation bolting flowering",
+        "sections": "stem",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Fumarase",
-        "covered": true
+        "concept": "Cellular growth mechanics",
+        "sections": "growth-mechanics",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Malate dehydrogenase",
-        "covered": true
+        "concept": "Seed anatomy and germination",
+        "sections": "germination",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Reducing equivalents and stoichiometry",
-        "covered": true
+        "concept": "ABA interaction and dormancy",
+        "sections": "seed-decisions",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Carbon isotope tracing",
-        "covered": true
+        "concept": "Aleurone GAMYB amylase and secretion",
+        "sections": "aleurone-analysis",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Oxaloacetate regeneration and anaplerosis",
-        "covered": true
+        "concept": "Receptor experiments and mutant rescue",
+        "sections": "evidence/integration",
+        "verified": "covered by manuscript inspection"
       },
       {
-        "concept": "Biosynthetic withdrawal and nitrogen assimilation",
-        "covered": true
-      },
-      {
-        "concept": "Substrate redox and adenylate regulation",
-        "covered": true
-      },
-      {
-        "concept": "Light-dark branched flux and photorespiratory glycine",
-        "covered": true
-      },
-      {
-        "concept": "Experimental evidence and lesion interpretation",
-        "covered": true
-      },
-      {
-        "concept": "Physiological cases and quantitative reasoning",
-        "covered": true
+        "concept": "Environment agriculture and crop dwarfing",
+        "sections": "applied",
+        "verified": "covered by manuscript inspection"
       }
     ],
-    "scientific_review": "Internal review of reaction order, carbon balance, enzyme localization, cofactors, plant ATP-forming ligase, complex II, pyruvate import, regulation and branched TCA flux against official syllabus, plant physiology and primary research; recalculated numerical answers; distinguished textbook assumptions from plant physiological variability.",
-    "editorial_review": "Separate check for progression, beginner explanations, worked examples, scientific precision, diagram labeling, original explained questions, comparison with 6.A.04 exemplar, accessible reader controls and link integrity.",
-    "deductions": "One point each for limited independent scientific verification, some repeated caveats, lack of rendered SVG inspection, no external question calibration, and unperformed interactive/accessibility runtime checks.",
-    "static_checks": {
-      "duplicate_ids": 0,
-      "unresolved_fragment_links": 0,
-      "unresolved_aria_references": 0,
-      "unresolved_zoom_targets": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "html_nesting_errors": 0,
-      "question_answer_mismatches": 0,
-      "script_syntax": "pass",
-      "placeholder_matches": 0,
-      "svg_accessibility_labels": 11,
-      "reciprocal_navigation": "Existing 6.A.08 and 6.B.02 resolve target via current menu; no edits necessary."
+    "review_pass_1": {
+      "type": "Internal scientific and syllabus review",
+      "result": "pass with stated limitations",
+      "findings": "Reviewed hormone identity, enzyme positions, compartmentation, inactivation, GA12 transport, feedback, GID1/DELLA/SCF pathways, growth, GAMYB, cereal aleurone, ABA interaction and mutant logic. Checked selected primary and review sources, recomputed steady amount 40, receptor occupancies 1/3 and 5/6, decay 25.0597 and half-life 1.1552; distinguished illustrative data from observations."
     },
-    "source_checks": "Revised CSIR UGC DBT 2026 syllabus and legacy CSIR syllabus, MP SET 2022 syllabus mirror, primary/review literature on plant mitochondrial substrates, pyruvate pools, noncyclic flux and regulation.",
+    "review_pass_2": {
+      "type": "Separate editorial, assessment and static technical review",
+      "result": "pass with limitations",
+      "findings": "Re-read saved HTML, compared 5.E.07 exemplar (13,511 prose words), strengthened analytical distractors, shuffled option positions, checked 50 keyed explanations, 16 misconceptions, 12 recall prompts, 12 titled SVGs and four tables. Added four crosslinks from current linked menu; JavaScript parsed successfully."
+    },
+    "quality": {
+      "scientific_accuracy": 19,
+      "syllabus_and_microtopic_coverage": 15,
+      "genuine_teaching_depth": 15,
+      "pedagogical_quality": 9,
+      "scientific_illustrations": 9,
+      "examination_questions_and_answers": 9,
+      "experimental_and_analytical_reasoning": 5,
+      "revision_and_mastery": 5,
+      "reader_architecture_and_accessibility": 4,
+      "technical_integrity_and_seo": 5,
+      "total": 95,
+      "threshold": 95,
+      "assessment": "Internal rubric judgment; not external expert certification.",
+      "deductions": "One point each for selected rather than exhaustive source review, occasional reinforcing caveats, no rendered SVG inspection, no external assessment calibration, and no browser/assistive-technology runtime test."
+    },
+    "validation": {
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_refs": 0,
+      "unresolved_zoom_targets": 0,
+      "duplicate_prose": 0,
+      "tag_nesting_errors": 0,
+      "js_syntax_pass": true,
+      "invalid_question_options": 0,
+      "placeholder_matches": 0,
+      "canonical_pass": true,
+      "robots": "index,follow",
+      "browser_test": false
+    },
+    "navigation": {
+      "previous": "6.D.03",
+      "next": "6.D.05",
+      "previous_enabled": false,
+      "next_enabled": false,
+      "mechanism": "Reader resolves current linked homepage entries at runtime."
+    },
+    "progress": {
+      "academy_published": 268,
+      "academy_planned": 723,
+      "unit_published": 19,
+      "unit_planned": 66,
+      "subunit_published": 2,
+      "subunit_planned": 10,
+      "next_pending_node_id": "6.B.04"
+    },
     "limitations": [
-      "Internal self-assessment, not external peer review.",
-      "MP SET alignment uses a syllabus mirror rather than independently retrieved current official MPPSC copy.",
-      "Interactive browser rendering, keyboard/assistive technology runtime tests and individual reference HTTP availability not verified."
+      "Internal review only, no external peer review or exam calibration.",
+      "MP SET source is 2024 mirror; current official MPPSC copy not independently retrieved.",
+      "Static checks, not browser rendering or assistive technology testing.",
+      "Deployment and live HTTP verification pending."
+    ],
+    "changed_files": [
+      "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+      "index.html",
+      "sitemap.xml",
+      "curriculum/subunit-6d-plant-hormones-node-map.md",
+      "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+      "curriculum/academy-progress.json",
+      "curriculum/node-6d04-publication-qa.json"
     ],
     "publication": {
-      "state": "lesson_committed_pages_verification_pending",
-      "atomic": true,
-      "expected_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
-      "linked_nodes_before": 265,
-      "linked_nodes_after": 266,
-      "unit_published_after": 17,
-      "subunit_published_after": 4,
-      "next_pending_node_id": "6.B.04",
-      "live_verification": "pending"
+      "strategy": "Single tree and commit with conditional non-force ref update from fresh main.",
+      "deployment": "pending",
+      "live_verified": false
     }
   },
   "unit_02": {
@@ -36614,6 +36590,191 @@
         "deployment": "pending",
         "live_verified": false
       }
+    },
+    "6.D.06": {
+      "node_id": "6.D.06",
+      "title": "Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling",
+      "slug": "strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+      "unit": "06",
+      "subunit": "6.D",
+      "topic": "Plant Hormones",
+      "date": "2026-11-27",
+      "status": "internal_academic_qa_passed_static_checks_complete",
+      "source_draft_branch": "draft/node-6.D.06-strigolactones",
+      "source_draft_commit_sha": "73592c6d76fdf69fef5e230cb6521534823446eb",
+      "chapter_blob_sha": "80c5db5bbd0436531a0a9aae0b49b58bc4232b16",
+      "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+      "publication_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
+      "metrics": {
+        "genuine_teaching_words": 13487,
+        "teaching_paragraphs": 127,
+        "visible_article_words_approx": 18176,
+        "teaching_sections": 13,
+        "scientific_svgs": 10,
+        "scientific_tables": 4,
+        "graphs": 2,
+        "part_b": 20,
+        "part_c": 20,
+        "additional_questions": 10,
+        "total_questions": 50,
+        "answer_positions": {
+          "A": 12,
+          "B": 13,
+          "C": 12,
+          "D": 13
+        },
+        "misconceptions": 16,
+        "active_recall": 12,
+        "references": 17
+      },
+      "word_count_method": "Lexical tokens from 127 saved p.teaching-prose elements; excludes figures, questions, captions, tables, revisions, references and navigation. Independently re-read saved blob.",
+      "coverage_matrix": [
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Carotenoid origin, canonical/noncanonical chemistry",
+          "section": "chemistry",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "D27 isomerization",
+          "section": "biosynthesis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "CCD7 cleavage and CCD8 carlactone formation",
+          "section": "biosynthesis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "MAX1/CYP711A and species-specific derivatives",
+          "section": "biosynthesis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Homeostasis, turnover and storage caveat",
+          "section": "homeostasis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Root release, PDR1 and nonuniversal movement",
+          "section": "homeostasis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "D14 receptor and hydrolase",
+          "section": "signaling",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "MAX2/D3 and SMXL/D53 turnover",
+          "section": "signaling",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Axillary bud restraint, auxin, cytokinin, BRC1 and transport",
+          "section": "shoot",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Phosphate dependence and root morphology",
+          "section": "roots",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "AM fungal branching, colonization, phosphate exchange vs rhizobia",
+          "section": "symbiosis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Parasitic seed germination and tradeoffs",
+          "section": "parasites",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        },
+        {
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Mutant rescue, grafting, epistasis, exudate assays and quantitative reasoning",
+          "section": "analysis; evidence",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
+        }
+      ],
+      "scientific_review": "Internal pass: checked D27/CCD7/CCD8/MAX1 order, canonical and noncanonical chemistry, D14/MAX2/SMXL and KAI2 caveats, PDR1 transport, BRC1/PIN context, phosphate response, AM versus rhizobia, Striga cue, and all 50 mapped answer explanations against research and official scope. Recalculated rescue, release rate, root density, turnover, germination fractions and interaction contrasts. No external peer review.",
+      "editorial_review": "Distinct internal pass: compared saved chapter with 6.B.01 exemplar (13,445 teaching words); improved ligand specificity, comparative tables, caveats, answer distribution and source citations. Checked progression, 127 paragraphs, 17 section anchors, accessible SVG labeling and reader template; no identical teaching paragraphs. Browser rendering unavailable.",
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "assessment": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "seo_technical": 5
+      },
+      "score": 95,
+      "deductions": "One mark each for limited independent scientific verification, repeated explanatory caveats, schematic rather than rendered SVG review, some simpler distractors, and lack of interactive accessibility tests. Internal self-assessment.",
+      "static_checks": {
+        "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "unresolved_fragment_links": 0,
+        "unresolved_aria_references": 0,
+        "unresolved_zoom_targets": 0,
+        "html_nesting_errors": 0,
+        "script_syntax": "compiled",
+        "answer_option_and_explanation_mapping": "50/50 reviewed",
+        "placeholder_matches": 0,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+        "h1_count": 1,
+        "svg_accessibility_labels": 10
+      },
+      "source_checks": "Revised joint CSIR UGC DBT 2026 official syllabus, separate CSIR through June 2026, MP SET 2024 syllabus mirror; primary Akiyama 2005, Gomez-Roldan and Umehara 2008, Alder and Kretzschmar 2012, Jiang and Zhou 2013, Shinohara 2013, Scaffidi 2014 and review literature.",
+      "limitations": [
+        "Internal review, not independent peer review.",
+        "MP SET 2024 syllabus verified from mirror, not latest official MPPSC-hosted file.",
+        "No rendered browser, mobile or screen-reader runtime test; static HTML/SVG and script checks completed.",
+        "Pages configuration endpoint not accessible; live deployment verification pending."
+      ],
+      "navigation": {
+        "previous": "6.D.05",
+        "next": "6.D.07",
+        "mechanism": "Reader dynamically resolves immediate planned neighbors only if linked in menu; unavailable neighbors remain disabled."
+      },
+      "publication": {
+        "state": "lesson_committed_pages_verification_pending",
+        "strategy": "atomic tree and conditional non-force ref update",
+        "expected_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
+        "linked_nodes_before": 268,
+        "linked_nodes_after": 269,
+        "unit_published_after": 20,
+        "subunit_published_after": 3,
+        "next_pending_node_id": "6.B.04",
+        "live_verification": "pending"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -45046,38 +45207,40 @@
       "6.C.05",
       "6.C.06",
       "6.D.01",
-      "6.D.04"
+      "6.D.04",
+      "6.D.06"
     ],
-    "published_node_count": 19,
+    "published_node_count": 20,
     "planned_node_count": 66,
-    "last_published_node_id": "6.D.04",
+    "last_published_node_id": "6.D.06",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.D.04",
-      "title": "Gibberellins: Stem Growth, Seed Germination and DELLA Signaling",
-      "slug": "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+      "node_id": "6.D.06",
+      "title": "Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling",
+      "slug": "strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
       "unit": "06",
       "subunit": "6.D",
       "topic": "Plant Hormones",
       "date": "2026-11-27",
-      "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6-d-04-gibberellins",
-      "source_draft_commit_sha": "8bb924d58a8ad7e71a012fa03556f5a5f27aa70c",
-      "source_draft_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
-      "production_chapter_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
-      "publication_base_sha": "9381ad712650d12e027bd9566060eb55c044162a",
+      "status": "internal_academic_qa_passed_static_checks_complete",
+      "source_draft_branch": "draft/node-6.D.06-strigolactones",
+      "source_draft_commit_sha": "73592c6d76fdf69fef5e230cb6521534823446eb",
+      "chapter_blob_sha": "80c5db5bbd0436531a0a9aae0b49b58bc4232b16",
+      "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+      "publication_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
       "metrics": {
-        "genuine_teaching_words": 13978,
-        "teaching_paragraphs": 146,
-        "theory_sections": 17,
-        "svg": 12,
-        "tables": 4,
-        "graphs": 3,
+        "genuine_teaching_words": 13487,
+        "teaching_paragraphs": 127,
+        "visible_article_words_approx": 18176,
+        "teaching_sections": 13,
+        "scientific_svgs": 10,
+        "scientific_tables": 4,
+        "graphs": 2,
         "part_b": 20,
         "part_c": 20,
-        "other_questions": 10,
+        "additional_questions": 10,
         "total_questions": 50,
         "answer_positions": {
           "A": 12,
@@ -45085,172 +45248,156 @@
           "C": 12,
           "D": 13
         },
-        "references": 13,
         "misconceptions": 16,
-        "active_recall": 12
+        "active_recall": 12,
+        "references": 17
       },
-      "word_count_method": "Whitespace tokens in the 146 saved p.teaching-prose elements only; all headings, figures, tables, questions, revision and references excluded.",
-      "scope": {
-        "official": "Revised January 2026 combined CSIR–UGC–DBT syllabus and separate CSIR syllabus, Unit 6.D; MP SET 2024 syllabus mirror; Academy node 6.D.04 roadmap.",
-        "boundary": "ABA treated only in context of GA balance; other hormone pathways reserved for their nodes."
-      },
+      "word_count_method": "Lexical tokens from 127 saved p.teaching-prose elements; excludes figures, questions, captions, tables, revisions, references and navigation. Independently re-read saved blob.",
       "coverage_matrix": [
         {
-          "concept": "History and phenotype",
-          "sections": "history",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Carotenoid origin, canonical/noncanonical chemistry",
+          "section": "chemistry",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Chemical class and active forms",
-          "sections": "chemical-specificity",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "D27 isomerization",
+          "section": "biosynthesis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "CPS KS KO KAO and compartments",
-          "sections": "biosynthesis",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "CCD7 cleavage and CCD8 carlactone formation",
+          "section": "biosynthesis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "GA20ox GA3ox and alternative branches",
-          "sections": "biosynthesis",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "MAX1/CYP711A and species-specific derivatives",
+          "section": "biosynthesis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "GA2ox and conjugation",
-          "sections": "homeostasis",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Homeostasis, turnover and storage caveat",
+          "section": "homeostasis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Feedback and movement",
-          "sections": "homeostasis/spatial",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Root release, PDR1 and nonuniversal movement",
+          "section": "homeostasis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Dose and receptor occupancy",
-          "sections": "dose",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "D14 receptor and hydrolase",
+          "section": "signaling",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "GID1 DELLA SCF proteasome",
-          "sections": "signaling",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "MAX2/D3 and SMXL/D53 turnover",
+          "section": "signaling",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Negative-regulator kinetics",
-          "sections": "turnover",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Axillary bud restraint, auxin, cytokinin, BRC1 and transport",
+          "section": "shoot",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Stem elongation bolting flowering",
-          "sections": "stem",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Phosphate dependence and root morphology",
+          "section": "roots",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Cellular growth mechanics",
-          "sections": "growth-mechanics",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "AM fungal branching, colonization, phosphate exchange vs rhizobia",
+          "section": "symbiosis",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "Seed anatomy and germination",
-          "sections": "germination",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Parasitic seed germination and tradeoffs",
+          "section": "parasites",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         },
         {
-          "concept": "ABA interaction and dormancy",
-          "sections": "seed-decisions",
-          "verified": "covered by manuscript inspection"
-        },
-        {
-          "concept": "Aleurone GAMYB amylase and secretion",
-          "sections": "aleurone-analysis",
-          "verified": "covered by manuscript inspection"
-        },
-        {
-          "concept": "Receptor experiments and mutant rescue",
-          "sections": "evidence/integration",
-          "verified": "covered by manuscript inspection"
-        },
-        {
-          "concept": "Environment agriculture and crop dwarfing",
-          "sections": "applied",
-          "verified": "covered by manuscript inspection"
+          "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+          "concept": "Mutant rescue, grafting, epistasis, exudate assays and quantitative reasoning",
+          "section": "analysis; evidence",
+          "depth": "NET/SET mechanism and analytical reasoning",
+          "covered": true
         }
       ],
-      "review_pass_1": {
-        "type": "Internal scientific and syllabus review",
-        "result": "pass with stated limitations",
-        "findings": "Reviewed hormone identity, enzyme positions, compartmentation, inactivation, GA12 transport, feedback, GID1/DELLA/SCF pathways, growth, GAMYB, cereal aleurone, ABA interaction and mutant logic. Checked selected primary and review sources, recomputed steady amount 40, receptor occupancies 1/3 and 5/6, decay 25.0597 and half-life 1.1552; distinguished illustrative data from observations."
-      },
-      "review_pass_2": {
-        "type": "Separate editorial, assessment and static technical review",
-        "result": "pass with limitations",
-        "findings": "Re-read saved HTML, compared 5.E.07 exemplar (13,511 prose words), strengthened analytical distractors, shuffled option positions, checked 50 keyed explanations, 16 misconceptions, 12 recall prompts, 12 titled SVGs and four tables. Added four crosslinks from current linked menu; JavaScript parsed successfully."
-      },
-      "quality": {
+      "scientific_review": "Internal pass: checked D27/CCD7/CCD8/MAX1 order, canonical and noncanonical chemistry, D14/MAX2/SMXL and KAI2 caveats, PDR1 transport, BRC1/PIN context, phosphate response, AM versus rhizobia, Striga cue, and all 50 mapped answer explanations against research and official scope. Recalculated rescue, release rate, root density, turnover, germination fractions and interaction contrasts. No external peer review.",
+      "editorial_review": "Distinct internal pass: compared saved chapter with 6.B.01 exemplar (13,445 teaching words); improved ligand specificity, comparative tables, caveats, answer distribution and source citations. Checked progression, 127 paragraphs, 17 section anchors, accessible SVG labeling and reader template; no identical teaching paragraphs. Browser rendering unavailable.",
+      "rubric": {
         "scientific_accuracy": 19,
-        "syllabus_and_microtopic_coverage": 15,
-        "genuine_teaching_depth": 15,
-        "pedagogical_quality": 9,
-        "scientific_illustrations": 9,
-        "examination_questions_and_answers": 9,
-        "experimental_and_analytical_reasoning": 5,
-        "revision_and_mastery": 5,
-        "reader_architecture_and_accessibility": 4,
-        "technical_integrity_and_seo": 5,
-        "total": 95,
-        "threshold": 95,
-        "assessment": "Internal rubric judgment; not external expert certification.",
-        "deductions": "One point each for selected rather than exhaustive source review, occasional reinforcing caveats, no rendered SVG inspection, no external assessment calibration, and no browser/assistive-technology runtime test."
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "assessment": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "seo_technical": 5
       },
-      "validation": {
+      "score": 95,
+      "deductions": "One mark each for limited independent scientific verification, repeated explanatory caveats, schematic rather than rendered SVG review, some simpler distractors, and lack of interactive accessibility tests. Internal self-assessment.",
+      "static_checks": {
         "duplicate_ids": 0,
-        "unresolved_anchors": 0,
-        "unresolved_aria_refs": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "unresolved_fragment_links": 0,
+        "unresolved_aria_references": 0,
         "unresolved_zoom_targets": 0,
-        "duplicate_prose": 0,
-        "tag_nesting_errors": 0,
-        "js_syntax_pass": true,
-        "invalid_question_options": 0,
+        "html_nesting_errors": 0,
+        "script_syntax": "compiled",
+        "answer_option_and_explanation_mapping": "50/50 reviewed",
         "placeholder_matches": 0,
-        "canonical_pass": true,
-        "robots": "index,follow",
-        "browser_test": false
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+        "h1_count": 1,
+        "svg_accessibility_labels": 10
       },
-      "navigation": {
-        "previous": "6.D.03",
-        "next": "6.D.05",
-        "previous_enabled": false,
-        "next_enabled": false,
-        "mechanism": "Reader resolves current linked homepage entries at runtime."
-      },
-      "progress": {
-        "academy_published": 268,
-        "academy_planned": 723,
-        "unit_published": 19,
-        "unit_planned": 66,
-        "subunit_published": 2,
-        "subunit_planned": 10,
-        "next_pending_node_id": "6.B.04"
-      },
+      "source_checks": "Revised joint CSIR UGC DBT 2026 official syllabus, separate CSIR through June 2026, MP SET 2024 syllabus mirror; primary Akiyama 2005, Gomez-Roldan and Umehara 2008, Alder and Kretzschmar 2012, Jiang and Zhou 2013, Shinohara 2013, Scaffidi 2014 and review literature.",
       "limitations": [
-        "Internal review only, no external peer review or exam calibration.",
-        "MP SET source is 2024 mirror; current official MPPSC copy not independently retrieved.",
-        "Static checks, not browser rendering or assistive technology testing.",
-        "Deployment and live HTTP verification pending."
+        "Internal review, not independent peer review.",
+        "MP SET 2024 syllabus verified from mirror, not latest official MPPSC-hosted file.",
+        "No rendered browser, mobile or screen-reader runtime test; static HTML/SVG and script checks completed.",
+        "Pages configuration endpoint not accessible; live deployment verification pending."
       ],
-      "changed_files": [
-        "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
-        "index.html",
-        "sitemap.xml",
-        "curriculum/subunit-6d-plant-hormones-node-map.md",
-        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/academy-progress.json",
-        "curriculum/node-6d04-publication-qa.json"
-      ],
+      "navigation": {
+        "previous": "6.D.05",
+        "next": "6.D.07",
+        "mechanism": "Reader dynamically resolves immediate planned neighbors only if linked in menu; unavailable neighbors remain disabled."
+      },
       "publication": {
-        "strategy": "Single tree and commit with conditional non-force ref update from fresh main.",
-        "deployment": "pending",
-        "live_verified": false
+        "state": "lesson_committed_pages_verification_pending",
+        "strategy": "atomic tree and conditional non-force ref update",
+        "expected_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
+        "linked_nodes_before": 268,
+        "linked_nodes_after": 269,
+        "unit_published_after": 20,
+        "subunit_published_after": 3,
+        "next_pending_node_id": "6.B.04",
+        "live_verification": "pending"
       }
     },
     "qa_by_node": {
@@ -48521,6 +48668,191 @@
           "deployment": "pending",
           "live_verified": false
         }
+      },
+      "6.D.06": {
+        "node_id": "6.D.06",
+        "title": "Strigolactones: Shoot Branching, Root Architecture and Symbiotic Signaling",
+        "slug": "strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+        "unit": "06",
+        "subunit": "6.D",
+        "topic": "Plant Hormones",
+        "date": "2026-11-27",
+        "status": "internal_academic_qa_passed_static_checks_complete",
+        "source_draft_branch": "draft/node-6.D.06-strigolactones",
+        "source_draft_commit_sha": "73592c6d76fdf69fef5e230cb6521534823446eb",
+        "chapter_blob_sha": "80c5db5bbd0436531a0a9aae0b49b58bc4232b16",
+        "initial_main_head": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+        "publication_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
+        "metrics": {
+          "genuine_teaching_words": 13487,
+          "teaching_paragraphs": 127,
+          "visible_article_words_approx": 18176,
+          "teaching_sections": 13,
+          "scientific_svgs": 10,
+          "scientific_tables": 4,
+          "graphs": 2,
+          "part_b": 20,
+          "part_c": 20,
+          "additional_questions": 10,
+          "total_questions": 50,
+          "answer_positions": {
+            "A": 12,
+            "B": 13,
+            "C": 12,
+            "D": 13
+          },
+          "misconceptions": 16,
+          "active_recall": 12,
+          "references": 17
+        },
+        "word_count_method": "Lexical tokens from 127 saved p.teaching-prose elements; excludes figures, questions, captions, tables, revisions, references and navigation. Independently re-read saved blob.",
+        "coverage_matrix": [
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Carotenoid origin, canonical/noncanonical chemistry",
+            "section": "chemistry",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "D27 isomerization",
+            "section": "biosynthesis",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "CCD7 cleavage and CCD8 carlactone formation",
+            "section": "biosynthesis",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "MAX1/CYP711A and species-specific derivatives",
+            "section": "biosynthesis",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Homeostasis, turnover and storage caveat",
+            "section": "homeostasis",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Root release, PDR1 and nonuniversal movement",
+            "section": "homeostasis",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "D14 receptor and hydrolase",
+            "section": "signaling",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "MAX2/D3 and SMXL/D53 turnover",
+            "section": "signaling",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Axillary bud restraint, auxin, cytokinin, BRC1 and transport",
+            "section": "shoot",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Phosphate dependence and root morphology",
+            "section": "roots",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "AM fungal branching, colonization, phosphate exchange vs rhizobia",
+            "section": "symbiosis",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Parasitic seed germination and tradeoffs",
+            "section": "parasites",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          },
+          {
+            "official_scope": "Unit 6.D — plant hormone biosynthesis, homeostasis, transport, physiological effects and mechanisms",
+            "concept": "Mutant rescue, grafting, epistasis, exudate assays and quantitative reasoning",
+            "section": "analysis; evidence",
+            "depth": "NET/SET mechanism and analytical reasoning",
+            "covered": true
+          }
+        ],
+        "scientific_review": "Internal pass: checked D27/CCD7/CCD8/MAX1 order, canonical and noncanonical chemistry, D14/MAX2/SMXL and KAI2 caveats, PDR1 transport, BRC1/PIN context, phosphate response, AM versus rhizobia, Striga cue, and all 50 mapped answer explanations against research and official scope. Recalculated rescue, release rate, root density, turnover, germination fractions and interaction contrasts. No external peer review.",
+        "editorial_review": "Distinct internal pass: compared saved chapter with 6.B.01 exemplar (13,445 teaching words); improved ligand specificity, comparative tables, caveats, answer distribution and source citations. Checked progression, 127 paragraphs, 17 section anchors, accessible SVG labeling and reader template; no identical teaching paragraphs. Browser rendering unavailable.",
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "assessment": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "seo_technical": 5
+        },
+        "score": 95,
+        "deductions": "One mark each for limited independent scientific verification, repeated explanatory caveats, schematic rather than rendered SVG review, some simpler distractors, and lack of interactive accessibility tests. Internal self-assessment.",
+        "static_checks": {
+          "duplicate_ids": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "unresolved_fragment_links": 0,
+          "unresolved_aria_references": 0,
+          "unresolved_zoom_targets": 0,
+          "html_nesting_errors": 0,
+          "script_syntax": "compiled",
+          "answer_option_and_explanation_mapping": "50/50 reviewed",
+          "placeholder_matches": 0,
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/strigolactones-shoot-branching-root-architecture-and-symbiotic-signaling.html",
+          "h1_count": 1,
+          "svg_accessibility_labels": 10
+        },
+        "source_checks": "Revised joint CSIR UGC DBT 2026 official syllabus, separate CSIR through June 2026, MP SET 2024 syllabus mirror; primary Akiyama 2005, Gomez-Roldan and Umehara 2008, Alder and Kretzschmar 2012, Jiang and Zhou 2013, Shinohara 2013, Scaffidi 2014 and review literature.",
+        "limitations": [
+          "Internal review, not independent peer review.",
+          "MP SET 2024 syllabus verified from mirror, not latest official MPPSC-hosted file.",
+          "No rendered browser, mobile or screen-reader runtime test; static HTML/SVG and script checks completed.",
+          "Pages configuration endpoint not accessible; live deployment verification pending."
+        ],
+        "navigation": {
+          "previous": "6.D.05",
+          "next": "6.D.07",
+          "mechanism": "Reader dynamically resolves immediate planned neighbors only if linked in menu; unavailable neighbors remain disabled."
+        },
+        "publication": {
+          "state": "lesson_committed_pages_verification_pending",
+          "strategy": "atomic tree and conditional non-force ref update",
+          "expected_base_sha": "80190ec5155500c1ffd5683f82138f80f12d2073",
+          "linked_nodes_before": 268,
+          "linked_nodes_after": 269,
+          "unit_published_after": 20,
+          "subunit_published_after": 3,
+          "next_pending_node_id": "6.B.04",
+          "live_verification": "pending"
+        }
       }
     },
     "next_pending_node_id": "6.B.04",
@@ -48542,192 +48874,203 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.B.01",
-      "title": "Plant Respiration and the Citric Acid Cycle",
-      "slug": "plant-respiration-and-the-citric-acid-cycle.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html",
+      "node_id": "6.D.04",
+      "title": "Gibberellins: Stem Growth, Seed Germination and DELLA Signaling",
+      "slug": "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/gibberellins-stem-growth-seed-germination-and-della-signaling.html",
       "unit": "06",
-      "subunit": "6.B",
-      "topic": "Respiration and Photorespiration",
+      "subunit": "6.D",
+      "topic": "Plant Hormones",
       "date": "2026-11-27",
-      "source_draft_branch": "draft/node-6.B.01-plant-respiration",
-      "source_draft_commit_sha": "9a04d4b2a222f56f44c976e8bde2e64e516aca18",
-      "chapter_blob_sha": "14269dcbb726d9a8467ce65672d35bb23581922b",
-      "publication_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
-      "status": "internal_academic_qa_passed_static_checks_complete",
+      "status": "academic_qa_passed_deployment_verification_pending",
+      "source_draft_branch": "draft/6-d-04-gibberellins",
+      "source_draft_commit_sha": "8bb924d58a8ad7e71a012fa03556f5a5f27aa70c",
+      "source_draft_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
+      "production_chapter_blob_sha": "f8c33f8246c25804fc53777ddb2c71f5af454b4c",
+      "publication_base_sha": "9381ad712650d12e027bd9566060eb55c044162a",
       "metrics": {
-        "genuine_teaching_words": 13445,
-        "whitespace_teaching_words": 13421,
-        "teaching_paragraphs": 117,
-        "teaching_sections": 14,
-        "scientific_svgs": 11,
-        "scientific_tables": 4,
+        "genuine_teaching_words": 13978,
+        "teaching_paragraphs": 146,
+        "theory_sections": 17,
+        "svg": 12,
+        "tables": 4,
+        "graphs": 3,
         "part_b": 20,
         "part_c": 20,
-        "additional_questions": 10,
+        "other_questions": 10,
         "total_questions": 50,
-        "misconceptions": 15,
-        "active_recall": 12,
-        "references": 14
+        "answer_positions": {
+          "A": 12,
+          "B": 13,
+          "C": 12,
+          "D": 13
+        },
+        "references": 13,
+        "misconceptions": 16,
+        "active_recall": 12
       },
-      "word_count_method": "Lexical tokens in 117 p.teaching-prose elements only, excluding questions, references, tables, navigation and captions. Saved blob independently retrieved. No duplicated teaching paragraphs.",
-      "rubric": {
-        "scientific_accuracy": {
-          "score": 19,
-          "max": 20
-        },
-        "syllabus_coverage": {
-          "score": 15,
-          "max": 15
-        },
-        "teaching_depth": {
-          "score": 15,
-          "max": 15
-        },
-        "pedagogy": {
-          "score": 9,
-          "max": 10
-        },
-        "illustrations": {
-          "score": 9,
-          "max": 10
-        },
-        "assessment": {
-          "score": 9,
-          "max": 10
-        },
-        "experimental_reasoning": {
-          "score": 5,
-          "max": 5
-        },
-        "revision": {
-          "score": 5,
-          "max": 5
-        },
-        "reader_accessibility": {
-          "score": 4,
-          "max": 5
-        },
-        "seo_technical": {
-          "score": 5,
-          "max": 5
-        }
+      "word_count_method": "Whitespace tokens in the 146 saved p.teaching-prose elements only; all headings, figures, tables, questions, revision and references excluded.",
+      "scope": {
+        "official": "Revised January 2026 combined CSIR–UGC–DBT syllabus and separate CSIR syllabus, Unit 6.D; MP SET 2024 syllabus mirror; Academy node 6.D.04 roadmap.",
+        "boundary": "ABA treated only in context of GA balance; other hormone pathways reserved for their nodes."
       },
-      "score": 95,
       "coverage_matrix": [
         {
-          "concept": "Plant respiration in light and darkness",
-          "covered": true
+          "concept": "History and phenotype",
+          "sections": "history",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Sucrose starch and glycolysis",
-          "covered": true
+          "concept": "Chemical class and active forms",
+          "sections": "chemical-specificity",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Pyruvate transport and compartmentation",
-          "covered": true
+          "concept": "CPS KS KO KAO and compartments",
+          "sections": "biosynthesis",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Mitochondrial pyruvate dehydrogenase",
-          "covered": true
+          "concept": "GA20ox GA3ox and alternative branches",
+          "sections": "biosynthesis",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Citrate synthase",
-          "covered": true
+          "concept": "GA2ox and conjugation",
+          "sections": "homeostasis",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Aconitase",
-          "covered": true
+          "concept": "Feedback and movement",
+          "sections": "homeostasis/spatial",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Isocitrate dehydrogenase",
-          "covered": true
+          "concept": "Dose and receptor occupancy",
+          "sections": "dose",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "2-oxoglutarate dehydrogenase",
-          "covered": true
+          "concept": "GID1 DELLA SCF proteasome",
+          "sections": "signaling",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Succinyl-CoA ligase",
-          "covered": true
+          "concept": "Negative-regulator kinetics",
+          "sections": "turnover",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Succinate dehydrogenase",
-          "covered": true
+          "concept": "Stem elongation bolting flowering",
+          "sections": "stem",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Fumarase",
-          "covered": true
+          "concept": "Cellular growth mechanics",
+          "sections": "growth-mechanics",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Malate dehydrogenase",
-          "covered": true
+          "concept": "Seed anatomy and germination",
+          "sections": "germination",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Reducing equivalents and stoichiometry",
-          "covered": true
+          "concept": "ABA interaction and dormancy",
+          "sections": "seed-decisions",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Carbon isotope tracing",
-          "covered": true
+          "concept": "Aleurone GAMYB amylase and secretion",
+          "sections": "aleurone-analysis",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Oxaloacetate regeneration and anaplerosis",
-          "covered": true
+          "concept": "Receptor experiments and mutant rescue",
+          "sections": "evidence/integration",
+          "verified": "covered by manuscript inspection"
         },
         {
-          "concept": "Biosynthetic withdrawal and nitrogen assimilation",
-          "covered": true
-        },
-        {
-          "concept": "Substrate redox and adenylate regulation",
-          "covered": true
-        },
-        {
-          "concept": "Light-dark branched flux and photorespiratory glycine",
-          "covered": true
-        },
-        {
-          "concept": "Experimental evidence and lesion interpretation",
-          "covered": true
-        },
-        {
-          "concept": "Physiological cases and quantitative reasoning",
-          "covered": true
+          "concept": "Environment agriculture and crop dwarfing",
+          "sections": "applied",
+          "verified": "covered by manuscript inspection"
         }
       ],
-      "scientific_review": "Internal review of reaction order, carbon balance, enzyme localization, cofactors, plant ATP-forming ligase, complex II, pyruvate import, regulation and branched TCA flux against official syllabus, plant physiology and primary research; recalculated numerical answers; distinguished textbook assumptions from plant physiological variability.",
-      "editorial_review": "Separate check for progression, beginner explanations, worked examples, scientific precision, diagram labeling, original explained questions, comparison with 6.A.04 exemplar, accessible reader controls and link integrity.",
-      "deductions": "One point each for limited independent scientific verification, some repeated caveats, lack of rendered SVG inspection, no external question calibration, and unperformed interactive/accessibility runtime checks.",
-      "static_checks": {
-        "duplicate_ids": 0,
-        "unresolved_fragment_links": 0,
-        "unresolved_aria_references": 0,
-        "unresolved_zoom_targets": 0,
-        "duplicate_teaching_paragraphs": 0,
-        "html_nesting_errors": 0,
-        "question_answer_mismatches": 0,
-        "script_syntax": "pass",
-        "placeholder_matches": 0,
-        "svg_accessibility_labels": 11,
-        "reciprocal_navigation": "Existing 6.A.08 and 6.B.02 resolve target via current menu; no edits necessary."
+      "review_pass_1": {
+        "type": "Internal scientific and syllabus review",
+        "result": "pass with stated limitations",
+        "findings": "Reviewed hormone identity, enzyme positions, compartmentation, inactivation, GA12 transport, feedback, GID1/DELLA/SCF pathways, growth, GAMYB, cereal aleurone, ABA interaction and mutant logic. Checked selected primary and review sources, recomputed steady amount 40, receptor occupancies 1/3 and 5/6, decay 25.0597 and half-life 1.1552; distinguished illustrative data from observations."
       },
-      "source_checks": "Revised CSIR UGC DBT 2026 syllabus and legacy CSIR syllabus, MP SET 2022 syllabus mirror, primary/review literature on plant mitochondrial substrates, pyruvate pools, noncyclic flux and regulation.",
+      "review_pass_2": {
+        "type": "Separate editorial, assessment and static technical review",
+        "result": "pass with limitations",
+        "findings": "Re-read saved HTML, compared 5.E.07 exemplar (13,511 prose words), strengthened analytical distractors, shuffled option positions, checked 50 keyed explanations, 16 misconceptions, 12 recall prompts, 12 titled SVGs and four tables. Added four crosslinks from current linked menu; JavaScript parsed successfully."
+      },
+      "quality": {
+        "scientific_accuracy": 19,
+        "syllabus_and_microtopic_coverage": 15,
+        "genuine_teaching_depth": 15,
+        "pedagogical_quality": 9,
+        "scientific_illustrations": 9,
+        "examination_questions_and_answers": 9,
+        "experimental_and_analytical_reasoning": 5,
+        "revision_and_mastery": 5,
+        "reader_architecture_and_accessibility": 4,
+        "technical_integrity_and_seo": 5,
+        "total": 95,
+        "threshold": 95,
+        "assessment": "Internal rubric judgment; not external expert certification.",
+        "deductions": "One point each for selected rather than exhaustive source review, occasional reinforcing caveats, no rendered SVG inspection, no external assessment calibration, and no browser/assistive-technology runtime test."
+      },
+      "validation": {
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_refs": 0,
+        "unresolved_zoom_targets": 0,
+        "duplicate_prose": 0,
+        "tag_nesting_errors": 0,
+        "js_syntax_pass": true,
+        "invalid_question_options": 0,
+        "placeholder_matches": 0,
+        "canonical_pass": true,
+        "robots": "index,follow",
+        "browser_test": false
+      },
+      "navigation": {
+        "previous": "6.D.03",
+        "next": "6.D.05",
+        "previous_enabled": false,
+        "next_enabled": false,
+        "mechanism": "Reader resolves current linked homepage entries at runtime."
+      },
+      "progress": {
+        "academy_published": 268,
+        "academy_planned": 723,
+        "unit_published": 19,
+        "unit_planned": 66,
+        "subunit_published": 2,
+        "subunit_planned": 10,
+        "next_pending_node_id": "6.B.04"
+      },
       "limitations": [
-        "Internal self-assessment, not external peer review.",
-        "MP SET alignment uses a syllabus mirror rather than independently retrieved current official MPPSC copy.",
-        "Interactive browser rendering, keyboard/assistive technology runtime tests and individual reference HTTP availability not verified."
+        "Internal review only, no external peer review or exam calibration.",
+        "MP SET source is 2024 mirror; current official MPPSC copy not independently retrieved.",
+        "Static checks, not browser rendering or assistive technology testing.",
+        "Deployment and live HTTP verification pending."
+      ],
+      "changed_files": [
+        "gibberellins-stem-growth-seed-germination-and-della-signaling.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/subunit-6d-plant-hormones-node-map.md",
+        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+        "curriculum/academy-progress.json",
+        "curriculum/node-6d04-publication-qa.json"
       ],
       "publication": {
-        "state": "lesson_committed_pages_verification_pending",
-        "atomic": true,
-        "expected_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
-        "linked_nodes_before": 265,
-        "linked_nodes_after": 266,
-        "unit_published_after": 17,
-        "subunit_published_after": 4,
-        "next_pending_node_id": "6.B.04",
-        "live_verification": "pending"
+        "strategy": "Single tree and commit with conditional non-force ref update from fresh main.",
+        "deployment": "pending",
+        "live_verified": false
       }
     },
     "subunit_6b": {
@@ -48756,9 +49099,10 @@
     "subunit_6d": {
       "published_node_ids": [
         "6.D.01",
-        "6.D.04"
+        "6.D.04",
+        "6.D.06"
       ],
-      "published_node_count": 2,
+      "published_node_count": 3,
       "planned_node_count": 10,
       "complete": false
     }
@@ -48780,7 +49124,8 @@
   "unit6c_planned_node_count": 6,
   "unit6d_published_node_ids": [
     "6.D.01",
-    "6.D.04"
+    "6.D.04",
+    "6.D.06"
   ],
   "unit6d_planned_node_count": 10
 }

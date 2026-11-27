@@ -4,189 +4,148 @@
   "unit": "07",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.D.02",
-  "title": "Resting Membrane Potential and Neuronal Excitability",
+  "node_id": "7.D.07",
+  "title": "Peripheral and Autonomic Nervous Systems",
   "subunit": "7.D",
   "topic": "Nervous System",
-  "slug": "resting-membrane-potential-and-neuronal-excitability",
+  "slug": "peripheral-and-autonomic-nervous-systems.html",
   "next_pending_node_id": "7.D.05",
   "next_pending_node_title": "Gross Neuroanatomy and Functional Organisation of the Brain",
-  "published_node_count": 343,
+  "published_node_count": 344,
   "publication_allowed": true,
-  "main_baseline_sha": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
+  "main_baseline_sha": "7fe0d7fd2b8276d63d921ca5a622d4ba65538527",
   "quality_hold": false,
-  "next_required_action": "Verify Pages deployment and live chapter, then develop next unpublished node.",
+  "next_required_action": "Verify production deployment and live chapter; then develop next unpublished node.",
   "planned_node_count": 90,
   "planned_subunit_count": 12,
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.D.02",
-    "title": "Resting Membrane Potential and Neuronal Excitability",
-    "chapter_path": "resting-membrane-potential-and-neuronal-excitability.html",
-    "chapter_blob_sha": "e93ec43dc59f34bf07f0bf9303bd63c878ebb037",
-    "working_branch": "development/7.D.02-resting-potential",
-    "working_commit_sha": "f413a86818406344390d2ce821a1e27b6d949f59",
+    "node_id": "7.D.07",
+    "title": "Peripheral and Autonomic Nervous Systems",
+    "chapter_path": "peripheral-and-autonomic-nervous-systems.html",
+    "chapter_blob_sha": "47676b29e1381833dcd09c34f22815c91e579019",
+    "working_branch": "draft/node-7d07-autonomic-system-20261127",
+    "working_commit_sha": "94eb70d8a978ae3a91e5ef7e7f0025fb1f5a7af8",
     "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+    "publication_base_sha": "7fe0d7fd2b8276d63d921ca5a622d4ba65538527",
     "review_date": "2026-11-27",
-    "status": "qa_passed_main_publication_prepared",
+    "status": "qa_passed_main_publication_pending_deployment_verification",
     "metrics": {
-      "teaching_words": 14632,
-      "letter_containing_tokens": 14211,
-      "teaching_paragraphs": 124,
-      "svg": 12,
-      "graphs": 6,
-      "tables": 3,
-      "worked_examples": 25,
-      "questions": 56,
+      "genuine_teaching_words": 14221,
+      "teaching_paragraphs": 149,
+      "teaching_sections": 10,
+      "svg": 13,
+      "graphs": 2,
+      "tables": 4,
+      "worked_quantitative_examples": 9,
+      "questions": 52,
       "part_b": 20,
-      "part_c": 26,
-      "set": 10,
-      "answer_explanations": 56,
+      "part_c": 24,
+      "other": 8,
       "misconceptions": 17,
-      "active_recall": 14,
-      "references": 14
+      "active_recall": 13,
+      "references": 19
     },
     "rubric": {
-      "scientific_accuracy": 20,
+      "scientific_accuracy": 19,
       "syllabus_coverage": 15,
-      "genuine_teaching_depth": 15,
-      "pedagogical_quality": 9,
-      "scientific_illustrations": 9,
-      "examination_questions": 10,
+      "teaching_depth": 15,
+      "pedagogy": 9,
+      "illustrations": 9,
+      "exam_questions": 10,
       "experimental_analytical_reasoning": 5,
-      "revision_mastery": 5,
-      "reader_architecture_accessibility": 4,
-      "technical_integrity_seo": 4,
-      "total": 96,
-      "threshold": 95
+      "revision": 5,
+      "reader_accessibility": 4,
+      "technical_seo": 4,
+      "total": 95
     },
-    "syllabus_coverage": "Revised CSIR-UGC-DBT NET Life Sciences and Biotechnology Unit 7.D; separate CSIR Life Sciences syllabus and MP SET 2024 Life Sciences Paper II comparison. Mechanistic foundations for neurons/action potential; detailed spike kinetics reserved for 7.D.03.",
+    "syllabus_coverage": "CSIR 2026 merged syllabus Unit 7 and separate Life Sciences syllabus; MP SET 2024 archived syllabus comparison; Academy 7.D roadmap controls detailed scope.",
     "coverage_matrix": [
       {
-        "concept": "Ionic distributions",
-        "section": "Ionic asymmetry",
-        "depth": "bulk electroneutrality and charge separation",
-        "experimental_relevance": "intracellular recording",
-        "analytical_and_exam_relevance": "concentration ratios",
-        "status": "covered"
+        "concept": "PNS and nerves",
+        "sections": "1–2",
+        "depth": "afferent/efferent, cranial/spinal nerves, ganglia, lesion logic",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       },
       {
-        "concept": "Electrochemical gradients",
-        "section": "Electrochemical forces",
-        "depth": "chemical and electrical contributions",
-        "experimental_relevance": "ion substitution",
-        "analytical_and_exam_relevance": "direction predictions",
-        "status": "covered"
+        "concept": "Somatic/autonomic pathways",
+        "sections": "3–5",
+        "depth": "single/two neuron, thoracolumbar, craniosacral, anatomical routes",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       },
       {
-        "concept": "Equilibrium and reversal",
-        "section": "Nernst equation",
-        "depth": "thermodynamic derivation, valence and temperature",
-        "experimental_relevance": "reversal shifts",
-        "analytical_and_exam_relevance": "Nernst numericals",
-        "status": "covered"
+        "concept": "Neurotransmission and receptors",
+        "sections": "6",
+        "depth": "ACh/NE, nicotinic/muscarinic/adrenergic, sweating and adrenal exceptions",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       },
       {
-        "concept": "Resting potential",
-        "section": "GHK and conductance models",
-        "depth": "weighted permeabilities, chloride orientation",
-        "experimental_relevance": "external K manipulation",
-        "analytical_and_exam_relevance": "GHK numerical comparisons",
-        "status": "covered"
+        "concept": "Tone and integration",
+        "sections": "7",
+        "depth": "dual innervation, basal tone and organ prediction",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       },
       {
-        "concept": "Leak channels",
-        "section": "Resting conductance",
-        "depth": "selectivity and driving force",
-        "experimental_relevance": "channel blockade",
-        "analytical_and_exam_relevance": "conductance weighting",
-        "status": "covered"
+        "concept": "Enteric system",
+        "sections": "8",
+        "depth": "plexuses, local circuits, peristalsis, extrinsic modulation",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       },
       {
-        "concept": "Na/K ATPase",
-        "section": "Pump",
-        "depth": "3 Na out/2 K in, ATP, direct and indirect effects",
-        "experimental_relevance": "pump inhibition",
-        "analytical_and_exam_relevance": "acute versus chronic responses",
-        "status": "covered"
+        "concept": "Experimental and quantitative reasoning",
+        "sections": "9–10",
+        "depth": "Loewi, Langley, Bayliss-Starling, stimulation/blockade, nine illustrative calculations",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       },
       {
-        "concept": "Membrane capacitance",
-        "section": "Electrical equivalent circuit",
-        "depth": "charge, capacitance and resistance",
-        "experimental_relevance": "current injection",
-        "analytical_and_exam_relevance": "Q=CV and RC",
-        "status": "covered"
-      },
-      {
-        "concept": "Graded potentials",
-        "section": "Graded responses",
-        "depth": "summation, shunting, passive current",
-        "experimental_relevance": "current-clamp",
-        "analytical_and_exam_relevance": "amplitude and time course",
-        "status": "covered"
-      },
-      {
-        "concept": "Electrotonic spread",
-        "section": "Cable properties",
-        "depth": "length/time constants and geometry",
-        "experimental_relevance": "distance-dependent recording",
-        "analytical_and_exam_relevance": "exponential attenuation",
-        "status": "covered"
-      },
-      {
-        "concept": "Excitability",
-        "section": "Threshold",
-        "depth": "transition from passive to regenerative, inactivation caveat",
-        "experimental_relevance": "strength-duration",
-        "analytical_and_exam_relevance": "threshold predictions",
-        "status": "covered"
+        "concept": "Assessment and revision",
+        "sections": "11–15 and mastery",
+        "depth": "comparisons, original questions, traps, recall",
+        "coverage": "verified in saved chapter",
+        "exam_relevance": "Part B and/or Part C"
       }
     ],
-    "scientific_review": {
-      "result": "pass after correction",
-      "evidence": "Separate academic pass checked signs, valence, GHK orientation, pump stoichiometry, current direction, passive circuit, cable geometry and threshold limits. Recomputed Nernst, GHK, conductance, RC, cable and strength-duration examples; corrected GHK 32 mM K value to −36.6 mV. Reviewed option-answer reasoning and distinguished illustrative data from experiments."
-    },
-    "editorial_review": {
-      "result": "pass with limitations",
-      "evidence": "Separate student-experience pass checked beginner-to-advanced sequence, clear transitions, question explanations, misconception causes, recall, reader template and SVG labels. Reworked pump illustration labels; preserved reader controls. Browser/device and learner testing not performed."
-    },
+    "scientific_review": "Internal review: checked pathway anatomy and receptor mechanisms, corrected figure 2 afferent direction and figure 4 sympathetic bypass, expanded M3 endothelial and beta3 detrusor exceptions, verified all 52 answer mappings and numerical calculations; sources checked against textbooks and indexed research.",
+    "editorial_review": "Distinct second internal review: beginner-to-advanced section progression, revised all 17 misconception cues, balanced correct answer positions (13 per letter), expanded mastery and added valid related links. No repeated teaching paragraphs.",
     "audit": {
-      "result": "static pass",
-      "teaching_word_method": "Whitespace-delimited text inside final p.teaching-prose only; secondary count of tokens containing Unicode letters.",
-      "duplicate_paragraphs": 0,
+      "method": "Saved HTML teaching-prose paragraphs only; tags and entities excluded, whitespace lexical count",
+      "paragraph_duplicates": 0,
       "duplicate_ids": 0,
-      "unresolved_anchors": 0,
+      "unresolved_anchor_or_aria": 0,
       "tag_balance_errors": 0,
-      "placeholder_hits": 0,
-      "h1_count": 1,
-      "accessible_svg": 12,
-      "answer_option_matches": 56,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html",
-      "navigation": "Dynamic published-only previous/next via index; no links to planned nodes."
+      "answer_mapping_errors": 0,
+      "svg_title_desc_viewbox": 13,
+      "script_syntax": "passed",
+      "placeholders": 0,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/peripheral-and-autonomic-nervous-systems.html",
+      "robots": "index,follow",
+      "navigation": "Dynamic links to 7.D.06 and 7.D.08 activate only when corresponding menu links exist."
     },
+    "rubric_basis": "19/20 scientific: internal not external review; 15/15 mapped scope; 15/15 14221 teaching words; 9/10 pedagogy: related contexts recur; 9/10 SVG: static accessibility checked, not rendered; 10/10 52 explained validated questions; 5/5 experimental/quantitative; 5/5 revision; 4/5 reader: browser runtime untested; 4/5 SEO/technical: live deployment not yet checked.",
     "limitations": [
-      "No actual responsive browser rendering, keyboard interaction or assistive-technology testing available; deductions in pedagogy, SVGs, accessibility and technical rubric.",
-      "No external independent peer reviewer; two internal review passes only.",
-      "Live HTTP and Pages deployment require separate verification."
+      "No external peer review or exhaustive full-text verification of every paper.",
+      "MP SET archived mirror; current official-host copy not independently authenticated.",
+      "No rendered mobile/keyboard/assistive technology/browser visual test.",
+      "GitHub Pages and live verification separate from commit."
     ],
-    "publication": {
-      "atomic": true,
-      "live_verification": "pending",
-      "base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed"
-    },
-    "publication_base_sha": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
     "next_unpublished_node_id": "7.D.05",
-    "concurrent_changes_reconciled": {
-      "initial_head": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-      "latest_base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
-      "preserved_newly_published": [
-        "7.D.01",
-        "7.D.03",
-        "7.D.04"
-      ],
-      "menu_checkpoint_consistent": true
+    "concurrent_changes_reconciled": true,
+    "publication": {
+      "mode": "single atomic conditional non-force main update",
+      "academy_published_before": 343,
+      "academy_published_after": 344,
+      "unit7_published_after": 29,
+      "subunit7d_published_after": 5,
+      "prior_menu_links_preserved": 343,
+      "prior_sitemap_entries_preserved": 344,
+      "next_unpublished": "7.D.05"
     }
   },
   "published_node_ids": [
@@ -532,7 +491,8 @@
     "7.D.01",
     "7.D.02",
     "7.D.03",
-    "7.D.04"
+    "7.D.04",
+    "7.D.07"
   ],
   "prior_publication_qa": {
     "node_id": "7.A.03",
@@ -684,65 +644,172 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "7.D.03",
-    "title": "Action Potential and Nerve Impulse Conduction",
-    "chapter_path": "action-potential-and-nerve-impulse-conduction.html",
-    "chapter_blob_sha": "ee0e86461fc9ccede425e863c059af8cc0b67a2d",
-    "working_branch": "draft/node-7d03-action-potential-20261127",
-    "working_commit_sha": "943c40785aa4a82c4eceafb05911ec6c1b392681",
+    "node_id": "7.D.02",
+    "title": "Resting Membrane Potential and Neuronal Excitability",
+    "chapter_path": "resting-membrane-potential-and-neuronal-excitability.html",
+    "chapter_blob_sha": "e93ec43dc59f34bf07f0bf9303bd63c878ebb037",
+    "working_branch": "development/7.D.02-resting-potential",
+    "working_commit_sha": "f413a86818406344390d2ce821a1e27b6d949f59",
     "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-    "publication_base_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
     "review_date": "2026-11-27",
-    "status": "qa_passed_main_publication_pending_deployment_verification",
+    "status": "qa_passed_main_publication_prepared",
     "metrics": {
-      "genuine_teaching_words": 14416,
-      "teaching_paragraphs": 147,
-      "teaching_sections": 13,
+      "teaching_words": 14632,
+      "letter_containing_tokens": 14211,
+      "teaching_paragraphs": 124,
       "svg": 12,
-      "graphs_and_traces": 8,
-      "tables": 6,
-      "questions": 54,
+      "graphs": 6,
+      "tables": 3,
+      "worked_examples": 25,
+      "questions": 56,
       "part_b": 20,
       "part_c": 26,
-      "set": 8,
+      "set": 10,
+      "answer_explanations": 56,
       "misconceptions": 17,
-      "active_recall": 12,
-      "references": 12
+      "active_recall": 14,
+      "references": 14
     },
     "rubric": {
-      "scientific_accuracy": 19,
+      "scientific_accuracy": 20,
       "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 10,
-      "illustrations": 9,
-      "exam_questions": 9,
+      "genuine_teaching_depth": 15,
+      "pedagogical_quality": 9,
+      "scientific_illustrations": 9,
+      "examination_questions": 10,
       "experimental_analytical_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "technical_seo": 4,
-      "total": 95
+      "revision_mastery": 5,
+      "reader_architecture_accessibility": 4,
+      "technical_integrity_seo": 4,
+      "total": 96,
+      "threshold": 95
     },
-    "audit_record": "curriculum/qa/7.D.03-publication-audit.md",
-    "scientific_review": "Internal pass: mechanisms, source identities, numerical crosschecks and all 54 answer mappings.",
-    "editorial_review": "Internal pass: progressive narrative, distinct prose, diagrams, assessment balance and revision.",
-    "audit": "Final saved file: 14,416 lexical teaching words; zero duplicate IDs, teaching paragraphs, unresolved anchors/ARIA, tag balance mismatches; JavaScript syntax passed.",
-    "limitations": [
-      "No external peer review or exhaustive full-text review",
-      "Archived MP SET comparison; latest official-host version not independently authenticated",
-      "No rendered SVG/mobile/keyboard/assistive-technology runtime test",
-      "Production deployment and live verification separate"
+    "syllabus_coverage": "Revised CSIR-UGC-DBT NET Life Sciences and Biotechnology Unit 7.D; separate CSIR Life Sciences syllabus and MP SET 2024 Life Sciences Paper II comparison. Mechanistic foundations for neurons/action potential; detailed spike kinetics reserved for 7.D.03.",
+    "coverage_matrix": [
+      {
+        "concept": "Ionic distributions",
+        "section": "Ionic asymmetry",
+        "depth": "bulk electroneutrality and charge separation",
+        "experimental_relevance": "intracellular recording",
+        "analytical_and_exam_relevance": "concentration ratios",
+        "status": "covered"
+      },
+      {
+        "concept": "Electrochemical gradients",
+        "section": "Electrochemical forces",
+        "depth": "chemical and electrical contributions",
+        "experimental_relevance": "ion substitution",
+        "analytical_and_exam_relevance": "direction predictions",
+        "status": "covered"
+      },
+      {
+        "concept": "Equilibrium and reversal",
+        "section": "Nernst equation",
+        "depth": "thermodynamic derivation, valence and temperature",
+        "experimental_relevance": "reversal shifts",
+        "analytical_and_exam_relevance": "Nernst numericals",
+        "status": "covered"
+      },
+      {
+        "concept": "Resting potential",
+        "section": "GHK and conductance models",
+        "depth": "weighted permeabilities, chloride orientation",
+        "experimental_relevance": "external K manipulation",
+        "analytical_and_exam_relevance": "GHK numerical comparisons",
+        "status": "covered"
+      },
+      {
+        "concept": "Leak channels",
+        "section": "Resting conductance",
+        "depth": "selectivity and driving force",
+        "experimental_relevance": "channel blockade",
+        "analytical_and_exam_relevance": "conductance weighting",
+        "status": "covered"
+      },
+      {
+        "concept": "Na/K ATPase",
+        "section": "Pump",
+        "depth": "3 Na out/2 K in, ATP, direct and indirect effects",
+        "experimental_relevance": "pump inhibition",
+        "analytical_and_exam_relevance": "acute versus chronic responses",
+        "status": "covered"
+      },
+      {
+        "concept": "Membrane capacitance",
+        "section": "Electrical equivalent circuit",
+        "depth": "charge, capacitance and resistance",
+        "experimental_relevance": "current injection",
+        "analytical_and_exam_relevance": "Q=CV and RC",
+        "status": "covered"
+      },
+      {
+        "concept": "Graded potentials",
+        "section": "Graded responses",
+        "depth": "summation, shunting, passive current",
+        "experimental_relevance": "current-clamp",
+        "analytical_and_exam_relevance": "amplitude and time course",
+        "status": "covered"
+      },
+      {
+        "concept": "Electrotonic spread",
+        "section": "Cable properties",
+        "depth": "length/time constants and geometry",
+        "experimental_relevance": "distance-dependent recording",
+        "analytical_and_exam_relevance": "exponential attenuation",
+        "status": "covered"
+      },
+      {
+        "concept": "Excitability",
+        "section": "Threshold",
+        "depth": "transition from passive to regenerative, inactivation caveat",
+        "experimental_relevance": "strength-duration",
+        "analytical_and_exam_relevance": "threshold predictions",
+        "status": "covered"
+      }
     ],
-    "next_unpublished_node_id": "7.D.02",
-    "concurrent_changes_reconciled": true,
+    "scientific_review": {
+      "result": "pass after correction",
+      "evidence": "Separate academic pass checked signs, valence, GHK orientation, pump stoichiometry, current direction, passive circuit, cable geometry and threshold limits. Recomputed Nernst, GHK, conductance, RC, cable and strength-duration examples; corrected GHK 32 mM K value to −36.6 mV. Reviewed option-answer reasoning and distinguished illustrative data from experiments."
+    },
+    "editorial_review": {
+      "result": "pass with limitations",
+      "evidence": "Separate student-experience pass checked beginner-to-advanced sequence, clear transitions, question explanations, misconception causes, recall, reader template and SVG labels. Reworked pump illustration labels; preserved reader controls. Browser/device and learner testing not performed."
+    },
+    "audit": {
+      "result": "static pass",
+      "teaching_word_method": "Whitespace-delimited text inside final p.teaching-prose only; secondary count of tokens containing Unicode letters.",
+      "duplicate_paragraphs": 0,
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "tag_balance_errors": 0,
+      "placeholder_hits": 0,
+      "h1_count": 1,
+      "accessible_svg": 12,
+      "answer_option_matches": 56,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html",
+      "navigation": "Dynamic published-only previous/next via index; no links to planned nodes."
+    },
+    "limitations": [
+      "No actual responsive browser rendering, keyboard interaction or assistive-technology testing available; deductions in pedagogy, SVGs, accessibility and technical rubric.",
+      "No external independent peer reviewer; two internal review passes only.",
+      "Live HTTP and Pages deployment require separate verification."
+    ],
     "publication": {
-      "mode": "single atomic conditional non-force main update",
-      "academy_published_before": 341,
-      "academy_published_after": 342,
-      "unit7_published_after": 27,
-      "subunit7d_published_after": 3,
-      "prior_menu_links_preserved": 341,
-      "prior_sitemap_entries_preserved": 342,
-      "next_unpublished": "7.D.02"
+      "atomic": true,
+      "live_verification": "pending",
+      "base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed"
+    },
+    "publication_base_sha": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
+    "next_unpublished_node_id": "7.D.05",
+    "concurrent_changes_reconciled": {
+      "initial_head": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+      "latest_base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
+      "preserved_newly_published": [
+        "7.D.01",
+        "7.D.03",
+        "7.D.04"
+      ],
+      "menu_checkpoint_consistent": true
     }
   },
   "unit_02": {
@@ -46403,6 +46470,134 @@
         ],
         "menu_checkpoint_consistent": true
       }
+    },
+    "7.D.07": {
+      "node_id": "7.D.07",
+      "title": "Peripheral and Autonomic Nervous Systems",
+      "chapter_path": "peripheral-and-autonomic-nervous-systems.html",
+      "chapter_blob_sha": "47676b29e1381833dcd09c34f22815c91e579019",
+      "working_branch": "draft/node-7d07-autonomic-system-20261127",
+      "working_commit_sha": "94eb70d8a978ae3a91e5ef7e7f0025fb1f5a7af8",
+      "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+      "publication_base_sha": "7fe0d7fd2b8276d63d921ca5a622d4ba65538527",
+      "review_date": "2026-11-27",
+      "status": "qa_passed_main_publication_pending_deployment_verification",
+      "metrics": {
+        "genuine_teaching_words": 14221,
+        "teaching_paragraphs": 149,
+        "teaching_sections": 10,
+        "svg": 13,
+        "graphs": 2,
+        "tables": 4,
+        "worked_quantitative_examples": 9,
+        "questions": 52,
+        "part_b": 20,
+        "part_c": 24,
+        "other": 8,
+        "misconceptions": 17,
+        "active_recall": 13,
+        "references": 19
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "exam_questions": 10,
+        "experimental_analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95
+      },
+      "syllabus_coverage": "CSIR 2026 merged syllabus Unit 7 and separate Life Sciences syllabus; MP SET 2024 archived syllabus comparison; Academy 7.D roadmap controls detailed scope.",
+      "coverage_matrix": [
+        {
+          "concept": "PNS and nerves",
+          "sections": "1–2",
+          "depth": "afferent/efferent, cranial/spinal nerves, ganglia, lesion logic",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        },
+        {
+          "concept": "Somatic/autonomic pathways",
+          "sections": "3–5",
+          "depth": "single/two neuron, thoracolumbar, craniosacral, anatomical routes",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        },
+        {
+          "concept": "Neurotransmission and receptors",
+          "sections": "6",
+          "depth": "ACh/NE, nicotinic/muscarinic/adrenergic, sweating and adrenal exceptions",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        },
+        {
+          "concept": "Tone and integration",
+          "sections": "7",
+          "depth": "dual innervation, basal tone and organ prediction",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        },
+        {
+          "concept": "Enteric system",
+          "sections": "8",
+          "depth": "plexuses, local circuits, peristalsis, extrinsic modulation",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        },
+        {
+          "concept": "Experimental and quantitative reasoning",
+          "sections": "9–10",
+          "depth": "Loewi, Langley, Bayliss-Starling, stimulation/blockade, nine illustrative calculations",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        },
+        {
+          "concept": "Assessment and revision",
+          "sections": "11–15 and mastery",
+          "depth": "comparisons, original questions, traps, recall",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
+        }
+      ],
+      "scientific_review": "Internal review: checked pathway anatomy and receptor mechanisms, corrected figure 2 afferent direction and figure 4 sympathetic bypass, expanded M3 endothelial and beta3 detrusor exceptions, verified all 52 answer mappings and numerical calculations; sources checked against textbooks and indexed research.",
+      "editorial_review": "Distinct second internal review: beginner-to-advanced section progression, revised all 17 misconception cues, balanced correct answer positions (13 per letter), expanded mastery and added valid related links. No repeated teaching paragraphs.",
+      "audit": {
+        "method": "Saved HTML teaching-prose paragraphs only; tags and entities excluded, whitespace lexical count",
+        "paragraph_duplicates": 0,
+        "duplicate_ids": 0,
+        "unresolved_anchor_or_aria": 0,
+        "tag_balance_errors": 0,
+        "answer_mapping_errors": 0,
+        "svg_title_desc_viewbox": 13,
+        "script_syntax": "passed",
+        "placeholders": 0,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/peripheral-and-autonomic-nervous-systems.html",
+        "robots": "index,follow",
+        "navigation": "Dynamic links to 7.D.06 and 7.D.08 activate only when corresponding menu links exist."
+      },
+      "rubric_basis": "19/20 scientific: internal not external review; 15/15 mapped scope; 15/15 14221 teaching words; 9/10 pedagogy: related contexts recur; 9/10 SVG: static accessibility checked, not rendered; 10/10 52 explained validated questions; 5/5 experimental/quantitative; 5/5 revision; 4/5 reader: browser runtime untested; 4/5 SEO/technical: live deployment not yet checked.",
+      "limitations": [
+        "No external peer review or exhaustive full-text verification of every paper.",
+        "MP SET archived mirror; current official-host copy not independently authenticated.",
+        "No rendered mobile/keyboard/assistive technology/browser visual test.",
+        "GitHub Pages and live verification separate from commit."
+      ],
+      "next_unpublished_node_id": "7.D.05",
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "mode": "single atomic conditional non-force main update",
+        "academy_published_before": 343,
+        "academy_published_after": 344,
+        "unit7_published_after": 29,
+        "subunit7d_published_after": 5,
+        "prior_menu_links_preserved": 343,
+        "prior_sitemap_entries_preserved": 344,
+        "next_unpublished": "7.D.05"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -64210,7 +64405,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/peripheral-and-autonomic-nervous-systems.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -64300,180 +64495,140 @@
       "7.D.01",
       "7.D.02",
       "7.D.03",
-      "7.D.04"
+      "7.D.04",
+      "7.D.07"
     ],
-    "published_node_count": 28,
+    "published_node_count": 29,
     "planned_node_count": 90,
-    "last_published_node_id": "7.D.02",
+    "last_published_node_id": "7.D.07",
     "updated_at": "2026-11-27",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "7.D.02",
-      "title": "Resting Membrane Potential and Neuronal Excitability",
-      "chapter_path": "resting-membrane-potential-and-neuronal-excitability.html",
-      "chapter_blob_sha": "e93ec43dc59f34bf07f0bf9303bd63c878ebb037",
-      "working_branch": "development/7.D.02-resting-potential",
-      "working_commit_sha": "f413a86818406344390d2ce821a1e27b6d949f59",
+      "node_id": "7.D.07",
+      "title": "Peripheral and Autonomic Nervous Systems",
+      "chapter_path": "peripheral-and-autonomic-nervous-systems.html",
+      "chapter_blob_sha": "47676b29e1381833dcd09c34f22815c91e579019",
+      "working_branch": "draft/node-7d07-autonomic-system-20261127",
+      "working_commit_sha": "94eb70d8a978ae3a91e5ef7e7f0025fb1f5a7af8",
       "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+      "publication_base_sha": "7fe0d7fd2b8276d63d921ca5a622d4ba65538527",
       "review_date": "2026-11-27",
-      "status": "qa_passed_main_publication_prepared",
+      "status": "qa_passed_main_publication_pending_deployment_verification",
       "metrics": {
-        "teaching_words": 14632,
-        "letter_containing_tokens": 14211,
-        "teaching_paragraphs": 124,
-        "svg": 12,
-        "graphs": 6,
-        "tables": 3,
-        "worked_examples": 25,
-        "questions": 56,
+        "genuine_teaching_words": 14221,
+        "teaching_paragraphs": 149,
+        "teaching_sections": 10,
+        "svg": 13,
+        "graphs": 2,
+        "tables": 4,
+        "worked_quantitative_examples": 9,
+        "questions": 52,
         "part_b": 20,
-        "part_c": 26,
-        "set": 10,
-        "answer_explanations": 56,
+        "part_c": 24,
+        "other": 8,
         "misconceptions": 17,
-        "active_recall": 14,
-        "references": 14
+        "active_recall": 13,
+        "references": 19
       },
       "rubric": {
-        "scientific_accuracy": 20,
+        "scientific_accuracy": 19,
         "syllabus_coverage": 15,
-        "genuine_teaching_depth": 15,
-        "pedagogical_quality": 9,
-        "scientific_illustrations": 9,
-        "examination_questions": 10,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "exam_questions": 10,
         "experimental_analytical_reasoning": 5,
-        "revision_mastery": 5,
-        "reader_architecture_accessibility": 4,
-        "technical_integrity_seo": 4,
-        "total": 96,
-        "threshold": 95
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95
       },
-      "syllabus_coverage": "Revised CSIR-UGC-DBT NET Life Sciences and Biotechnology Unit 7.D; separate CSIR Life Sciences syllabus and MP SET 2024 Life Sciences Paper II comparison. Mechanistic foundations for neurons/action potential; detailed spike kinetics reserved for 7.D.03.",
+      "syllabus_coverage": "CSIR 2026 merged syllabus Unit 7 and separate Life Sciences syllabus; MP SET 2024 archived syllabus comparison; Academy 7.D roadmap controls detailed scope.",
       "coverage_matrix": [
         {
-          "concept": "Ionic distributions",
-          "section": "Ionic asymmetry",
-          "depth": "bulk electroneutrality and charge separation",
-          "experimental_relevance": "intracellular recording",
-          "analytical_and_exam_relevance": "concentration ratios",
-          "status": "covered"
+          "concept": "PNS and nerves",
+          "sections": "1–2",
+          "depth": "afferent/efferent, cranial/spinal nerves, ganglia, lesion logic",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         },
         {
-          "concept": "Electrochemical gradients",
-          "section": "Electrochemical forces",
-          "depth": "chemical and electrical contributions",
-          "experimental_relevance": "ion substitution",
-          "analytical_and_exam_relevance": "direction predictions",
-          "status": "covered"
+          "concept": "Somatic/autonomic pathways",
+          "sections": "3–5",
+          "depth": "single/two neuron, thoracolumbar, craniosacral, anatomical routes",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         },
         {
-          "concept": "Equilibrium and reversal",
-          "section": "Nernst equation",
-          "depth": "thermodynamic derivation, valence and temperature",
-          "experimental_relevance": "reversal shifts",
-          "analytical_and_exam_relevance": "Nernst numericals",
-          "status": "covered"
+          "concept": "Neurotransmission and receptors",
+          "sections": "6",
+          "depth": "ACh/NE, nicotinic/muscarinic/adrenergic, sweating and adrenal exceptions",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         },
         {
-          "concept": "Resting potential",
-          "section": "GHK and conductance models",
-          "depth": "weighted permeabilities, chloride orientation",
-          "experimental_relevance": "external K manipulation",
-          "analytical_and_exam_relevance": "GHK numerical comparisons",
-          "status": "covered"
+          "concept": "Tone and integration",
+          "sections": "7",
+          "depth": "dual innervation, basal tone and organ prediction",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         },
         {
-          "concept": "Leak channels",
-          "section": "Resting conductance",
-          "depth": "selectivity and driving force",
-          "experimental_relevance": "channel blockade",
-          "analytical_and_exam_relevance": "conductance weighting",
-          "status": "covered"
+          "concept": "Enteric system",
+          "sections": "8",
+          "depth": "plexuses, local circuits, peristalsis, extrinsic modulation",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         },
         {
-          "concept": "Na/K ATPase",
-          "section": "Pump",
-          "depth": "3 Na out/2 K in, ATP, direct and indirect effects",
-          "experimental_relevance": "pump inhibition",
-          "analytical_and_exam_relevance": "acute versus chronic responses",
-          "status": "covered"
+          "concept": "Experimental and quantitative reasoning",
+          "sections": "9–10",
+          "depth": "Loewi, Langley, Bayliss-Starling, stimulation/blockade, nine illustrative calculations",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         },
         {
-          "concept": "Membrane capacitance",
-          "section": "Electrical equivalent circuit",
-          "depth": "charge, capacitance and resistance",
-          "experimental_relevance": "current injection",
-          "analytical_and_exam_relevance": "Q=CV and RC",
-          "status": "covered"
-        },
-        {
-          "concept": "Graded potentials",
-          "section": "Graded responses",
-          "depth": "summation, shunting, passive current",
-          "experimental_relevance": "current-clamp",
-          "analytical_and_exam_relevance": "amplitude and time course",
-          "status": "covered"
-        },
-        {
-          "concept": "Electrotonic spread",
-          "section": "Cable properties",
-          "depth": "length/time constants and geometry",
-          "experimental_relevance": "distance-dependent recording",
-          "analytical_and_exam_relevance": "exponential attenuation",
-          "status": "covered"
-        },
-        {
-          "concept": "Excitability",
-          "section": "Threshold",
-          "depth": "transition from passive to regenerative, inactivation caveat",
-          "experimental_relevance": "strength-duration",
-          "analytical_and_exam_relevance": "threshold predictions",
-          "status": "covered"
+          "concept": "Assessment and revision",
+          "sections": "11–15 and mastery",
+          "depth": "comparisons, original questions, traps, recall",
+          "coverage": "verified in saved chapter",
+          "exam_relevance": "Part B and/or Part C"
         }
       ],
-      "scientific_review": {
-        "result": "pass after correction",
-        "evidence": "Separate academic pass checked signs, valence, GHK orientation, pump stoichiometry, current direction, passive circuit, cable geometry and threshold limits. Recomputed Nernst, GHK, conductance, RC, cable and strength-duration examples; corrected GHK 32 mM K value to −36.6 mV. Reviewed option-answer reasoning and distinguished illustrative data from experiments."
-      },
-      "editorial_review": {
-        "result": "pass with limitations",
-        "evidence": "Separate student-experience pass checked beginner-to-advanced sequence, clear transitions, question explanations, misconception causes, recall, reader template and SVG labels. Reworked pump illustration labels; preserved reader controls. Browser/device and learner testing not performed."
-      },
+      "scientific_review": "Internal review: checked pathway anatomy and receptor mechanisms, corrected figure 2 afferent direction and figure 4 sympathetic bypass, expanded M3 endothelial and beta3 detrusor exceptions, verified all 52 answer mappings and numerical calculations; sources checked against textbooks and indexed research.",
+      "editorial_review": "Distinct second internal review: beginner-to-advanced section progression, revised all 17 misconception cues, balanced correct answer positions (13 per letter), expanded mastery and added valid related links. No repeated teaching paragraphs.",
       "audit": {
-        "result": "static pass",
-        "teaching_word_method": "Whitespace-delimited text inside final p.teaching-prose only; secondary count of tokens containing Unicode letters.",
-        "duplicate_paragraphs": 0,
+        "method": "Saved HTML teaching-prose paragraphs only; tags and entities excluded, whitespace lexical count",
+        "paragraph_duplicates": 0,
         "duplicate_ids": 0,
-        "unresolved_anchors": 0,
+        "unresolved_anchor_or_aria": 0,
         "tag_balance_errors": 0,
-        "placeholder_hits": 0,
-        "h1_count": 1,
-        "accessible_svg": 12,
-        "answer_option_matches": 56,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html",
-        "navigation": "Dynamic published-only previous/next via index; no links to planned nodes."
+        "answer_mapping_errors": 0,
+        "svg_title_desc_viewbox": 13,
+        "script_syntax": "passed",
+        "placeholders": 0,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/peripheral-and-autonomic-nervous-systems.html",
+        "robots": "index,follow",
+        "navigation": "Dynamic links to 7.D.06 and 7.D.08 activate only when corresponding menu links exist."
       },
+      "rubric_basis": "19/20 scientific: internal not external review; 15/15 mapped scope; 15/15 14221 teaching words; 9/10 pedagogy: related contexts recur; 9/10 SVG: static accessibility checked, not rendered; 10/10 52 explained validated questions; 5/5 experimental/quantitative; 5/5 revision; 4/5 reader: browser runtime untested; 4/5 SEO/technical: live deployment not yet checked.",
       "limitations": [
-        "No actual responsive browser rendering, keyboard interaction or assistive-technology testing available; deductions in pedagogy, SVGs, accessibility and technical rubric.",
-        "No external independent peer reviewer; two internal review passes only.",
-        "Live HTTP and Pages deployment require separate verification."
+        "No external peer review or exhaustive full-text verification of every paper.",
+        "MP SET archived mirror; current official-host copy not independently authenticated.",
+        "No rendered mobile/keyboard/assistive technology/browser visual test.",
+        "GitHub Pages and live verification separate from commit."
       ],
-      "publication": {
-        "atomic": true,
-        "live_verification": "pending",
-        "base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed"
-      },
-      "publication_base_sha": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
       "next_unpublished_node_id": "7.D.05",
-      "concurrent_changes_reconciled": {
-        "initial_head": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-        "latest_base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
-        "preserved_newly_published": [
-          "7.D.01",
-          "7.D.03",
-          "7.D.04"
-        ],
-        "menu_checkpoint_consistent": true
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "mode": "single atomic conditional non-force main update",
+        "academy_published_before": 343,
+        "academy_published_after": 344,
+        "unit7_published_after": 29,
+        "subunit7d_published_after": 5,
+        "prior_menu_links_preserved": 343,
+        "prior_sitemap_entries_preserved": 344,
+        "next_unpublished": "7.D.05"
       }
     },
     "qa_by_node": {
@@ -68454,6 +68609,134 @@
           ],
           "menu_checkpoint_consistent": true
         }
+      },
+      "7.D.07": {
+        "node_id": "7.D.07",
+        "title": "Peripheral and Autonomic Nervous Systems",
+        "chapter_path": "peripheral-and-autonomic-nervous-systems.html",
+        "chapter_blob_sha": "47676b29e1381833dcd09c34f22815c91e579019",
+        "working_branch": "draft/node-7d07-autonomic-system-20261127",
+        "working_commit_sha": "94eb70d8a978ae3a91e5ef7e7f0025fb1f5a7af8",
+        "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+        "publication_base_sha": "7fe0d7fd2b8276d63d921ca5a622d4ba65538527",
+        "review_date": "2026-11-27",
+        "status": "qa_passed_main_publication_pending_deployment_verification",
+        "metrics": {
+          "genuine_teaching_words": 14221,
+          "teaching_paragraphs": 149,
+          "teaching_sections": 10,
+          "svg": 13,
+          "graphs": 2,
+          "tables": 4,
+          "worked_quantitative_examples": 9,
+          "questions": 52,
+          "part_b": 20,
+          "part_c": 24,
+          "other": 8,
+          "misconceptions": 17,
+          "active_recall": 13,
+          "references": 19
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "exam_questions": 10,
+          "experimental_analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4,
+          "total": 95
+        },
+        "syllabus_coverage": "CSIR 2026 merged syllabus Unit 7 and separate Life Sciences syllabus; MP SET 2024 archived syllabus comparison; Academy 7.D roadmap controls detailed scope.",
+        "coverage_matrix": [
+          {
+            "concept": "PNS and nerves",
+            "sections": "1–2",
+            "depth": "afferent/efferent, cranial/spinal nerves, ganglia, lesion logic",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          },
+          {
+            "concept": "Somatic/autonomic pathways",
+            "sections": "3–5",
+            "depth": "single/two neuron, thoracolumbar, craniosacral, anatomical routes",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          },
+          {
+            "concept": "Neurotransmission and receptors",
+            "sections": "6",
+            "depth": "ACh/NE, nicotinic/muscarinic/adrenergic, sweating and adrenal exceptions",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          },
+          {
+            "concept": "Tone and integration",
+            "sections": "7",
+            "depth": "dual innervation, basal tone and organ prediction",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          },
+          {
+            "concept": "Enteric system",
+            "sections": "8",
+            "depth": "plexuses, local circuits, peristalsis, extrinsic modulation",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          },
+          {
+            "concept": "Experimental and quantitative reasoning",
+            "sections": "9–10",
+            "depth": "Loewi, Langley, Bayliss-Starling, stimulation/blockade, nine illustrative calculations",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          },
+          {
+            "concept": "Assessment and revision",
+            "sections": "11–15 and mastery",
+            "depth": "comparisons, original questions, traps, recall",
+            "coverage": "verified in saved chapter",
+            "exam_relevance": "Part B and/or Part C"
+          }
+        ],
+        "scientific_review": "Internal review: checked pathway anatomy and receptor mechanisms, corrected figure 2 afferent direction and figure 4 sympathetic bypass, expanded M3 endothelial and beta3 detrusor exceptions, verified all 52 answer mappings and numerical calculations; sources checked against textbooks and indexed research.",
+        "editorial_review": "Distinct second internal review: beginner-to-advanced section progression, revised all 17 misconception cues, balanced correct answer positions (13 per letter), expanded mastery and added valid related links. No repeated teaching paragraphs.",
+        "audit": {
+          "method": "Saved HTML teaching-prose paragraphs only; tags and entities excluded, whitespace lexical count",
+          "paragraph_duplicates": 0,
+          "duplicate_ids": 0,
+          "unresolved_anchor_or_aria": 0,
+          "tag_balance_errors": 0,
+          "answer_mapping_errors": 0,
+          "svg_title_desc_viewbox": 13,
+          "script_syntax": "passed",
+          "placeholders": 0,
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/peripheral-and-autonomic-nervous-systems.html",
+          "robots": "index,follow",
+          "navigation": "Dynamic links to 7.D.06 and 7.D.08 activate only when corresponding menu links exist."
+        },
+        "rubric_basis": "19/20 scientific: internal not external review; 15/15 mapped scope; 15/15 14221 teaching words; 9/10 pedagogy: related contexts recur; 9/10 SVG: static accessibility checked, not rendered; 10/10 52 explained validated questions; 5/5 experimental/quantitative; 5/5 revision; 4/5 reader: browser runtime untested; 4/5 SEO/technical: live deployment not yet checked.",
+        "limitations": [
+          "No external peer review or exhaustive full-text verification of every paper.",
+          "MP SET archived mirror; current official-host copy not independently authenticated.",
+          "No rendered mobile/keyboard/assistive technology/browser visual test.",
+          "GitHub Pages and live verification separate from commit."
+        ],
+        "next_unpublished_node_id": "7.D.05",
+        "concurrent_changes_reconciled": true,
+        "publication": {
+          "mode": "single atomic conditional non-force main update",
+          "academy_published_before": 343,
+          "academy_published_after": 344,
+          "unit7_published_after": 29,
+          "subunit7d_published_after": 5,
+          "prior_menu_links_preserved": 343,
+          "prior_sitemap_entries_preserved": 344,
+          "next_unpublished": "7.D.05"
+        }
       }
     },
     "next_pending_node_id": "7.D.05",
@@ -68475,65 +68758,172 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.D.03",
-      "title": "Action Potential and Nerve Impulse Conduction",
-      "chapter_path": "action-potential-and-nerve-impulse-conduction.html",
-      "chapter_blob_sha": "ee0e86461fc9ccede425e863c059af8cc0b67a2d",
-      "working_branch": "draft/node-7d03-action-potential-20261127",
-      "working_commit_sha": "943c40785aa4a82c4eceafb05911ec6c1b392681",
+      "node_id": "7.D.02",
+      "title": "Resting Membrane Potential and Neuronal Excitability",
+      "chapter_path": "resting-membrane-potential-and-neuronal-excitability.html",
+      "chapter_blob_sha": "e93ec43dc59f34bf07f0bf9303bd63c878ebb037",
+      "working_branch": "development/7.D.02-resting-potential",
+      "working_commit_sha": "f413a86818406344390d2ce821a1e27b6d949f59",
       "initial_main_sha": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
-      "publication_base_sha": "09b16fcea2e1e76afba2ac5bab5292e556b53f53",
       "review_date": "2026-11-27",
-      "status": "qa_passed_main_publication_pending_deployment_verification",
+      "status": "qa_passed_main_publication_prepared",
       "metrics": {
-        "genuine_teaching_words": 14416,
-        "teaching_paragraphs": 147,
-        "teaching_sections": 13,
+        "teaching_words": 14632,
+        "letter_containing_tokens": 14211,
+        "teaching_paragraphs": 124,
         "svg": 12,
-        "graphs_and_traces": 8,
-        "tables": 6,
-        "questions": 54,
+        "graphs": 6,
+        "tables": 3,
+        "worked_examples": 25,
+        "questions": 56,
         "part_b": 20,
         "part_c": 26,
-        "set": 8,
+        "set": 10,
+        "answer_explanations": 56,
         "misconceptions": 17,
-        "active_recall": 12,
-        "references": 12
+        "active_recall": 14,
+        "references": 14
       },
       "rubric": {
-        "scientific_accuracy": 19,
+        "scientific_accuracy": 20,
         "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogy": 10,
-        "illustrations": 9,
-        "exam_questions": 9,
+        "genuine_teaching_depth": 15,
+        "pedagogical_quality": 9,
+        "scientific_illustrations": 9,
+        "examination_questions": 10,
         "experimental_analytical_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 4,
-        "total": 95
+        "revision_mastery": 5,
+        "reader_architecture_accessibility": 4,
+        "technical_integrity_seo": 4,
+        "total": 96,
+        "threshold": 95
       },
-      "audit_record": "curriculum/qa/7.D.03-publication-audit.md",
-      "scientific_review": "Internal pass: mechanisms, source identities, numerical crosschecks and all 54 answer mappings.",
-      "editorial_review": "Internal pass: progressive narrative, distinct prose, diagrams, assessment balance and revision.",
-      "audit": "Final saved file: 14,416 lexical teaching words; zero duplicate IDs, teaching paragraphs, unresolved anchors/ARIA, tag balance mismatches; JavaScript syntax passed.",
-      "limitations": [
-        "No external peer review or exhaustive full-text review",
-        "Archived MP SET comparison; latest official-host version not independently authenticated",
-        "No rendered SVG/mobile/keyboard/assistive-technology runtime test",
-        "Production deployment and live verification separate"
+      "syllabus_coverage": "Revised CSIR-UGC-DBT NET Life Sciences and Biotechnology Unit 7.D; separate CSIR Life Sciences syllabus and MP SET 2024 Life Sciences Paper II comparison. Mechanistic foundations for neurons/action potential; detailed spike kinetics reserved for 7.D.03.",
+      "coverage_matrix": [
+        {
+          "concept": "Ionic distributions",
+          "section": "Ionic asymmetry",
+          "depth": "bulk electroneutrality and charge separation",
+          "experimental_relevance": "intracellular recording",
+          "analytical_and_exam_relevance": "concentration ratios",
+          "status": "covered"
+        },
+        {
+          "concept": "Electrochemical gradients",
+          "section": "Electrochemical forces",
+          "depth": "chemical and electrical contributions",
+          "experimental_relevance": "ion substitution",
+          "analytical_and_exam_relevance": "direction predictions",
+          "status": "covered"
+        },
+        {
+          "concept": "Equilibrium and reversal",
+          "section": "Nernst equation",
+          "depth": "thermodynamic derivation, valence and temperature",
+          "experimental_relevance": "reversal shifts",
+          "analytical_and_exam_relevance": "Nernst numericals",
+          "status": "covered"
+        },
+        {
+          "concept": "Resting potential",
+          "section": "GHK and conductance models",
+          "depth": "weighted permeabilities, chloride orientation",
+          "experimental_relevance": "external K manipulation",
+          "analytical_and_exam_relevance": "GHK numerical comparisons",
+          "status": "covered"
+        },
+        {
+          "concept": "Leak channels",
+          "section": "Resting conductance",
+          "depth": "selectivity and driving force",
+          "experimental_relevance": "channel blockade",
+          "analytical_and_exam_relevance": "conductance weighting",
+          "status": "covered"
+        },
+        {
+          "concept": "Na/K ATPase",
+          "section": "Pump",
+          "depth": "3 Na out/2 K in, ATP, direct and indirect effects",
+          "experimental_relevance": "pump inhibition",
+          "analytical_and_exam_relevance": "acute versus chronic responses",
+          "status": "covered"
+        },
+        {
+          "concept": "Membrane capacitance",
+          "section": "Electrical equivalent circuit",
+          "depth": "charge, capacitance and resistance",
+          "experimental_relevance": "current injection",
+          "analytical_and_exam_relevance": "Q=CV and RC",
+          "status": "covered"
+        },
+        {
+          "concept": "Graded potentials",
+          "section": "Graded responses",
+          "depth": "summation, shunting, passive current",
+          "experimental_relevance": "current-clamp",
+          "analytical_and_exam_relevance": "amplitude and time course",
+          "status": "covered"
+        },
+        {
+          "concept": "Electrotonic spread",
+          "section": "Cable properties",
+          "depth": "length/time constants and geometry",
+          "experimental_relevance": "distance-dependent recording",
+          "analytical_and_exam_relevance": "exponential attenuation",
+          "status": "covered"
+        },
+        {
+          "concept": "Excitability",
+          "section": "Threshold",
+          "depth": "transition from passive to regenerative, inactivation caveat",
+          "experimental_relevance": "strength-duration",
+          "analytical_and_exam_relevance": "threshold predictions",
+          "status": "covered"
+        }
       ],
-      "next_unpublished_node_id": "7.D.02",
-      "concurrent_changes_reconciled": true,
+      "scientific_review": {
+        "result": "pass after correction",
+        "evidence": "Separate academic pass checked signs, valence, GHK orientation, pump stoichiometry, current direction, passive circuit, cable geometry and threshold limits. Recomputed Nernst, GHK, conductance, RC, cable and strength-duration examples; corrected GHK 32 mM K value to −36.6 mV. Reviewed option-answer reasoning and distinguished illustrative data from experiments."
+      },
+      "editorial_review": {
+        "result": "pass with limitations",
+        "evidence": "Separate student-experience pass checked beginner-to-advanced sequence, clear transitions, question explanations, misconception causes, recall, reader template and SVG labels. Reworked pump illustration labels; preserved reader controls. Browser/device and learner testing not performed."
+      },
+      "audit": {
+        "result": "static pass",
+        "teaching_word_method": "Whitespace-delimited text inside final p.teaching-prose only; secondary count of tokens containing Unicode letters.",
+        "duplicate_paragraphs": 0,
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "tag_balance_errors": 0,
+        "placeholder_hits": 0,
+        "h1_count": 1,
+        "accessible_svg": 12,
+        "answer_option_matches": 56,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/resting-membrane-potential-and-neuronal-excitability.html",
+        "navigation": "Dynamic published-only previous/next via index; no links to planned nodes."
+      },
+      "limitations": [
+        "No actual responsive browser rendering, keyboard interaction or assistive-technology testing available; deductions in pedagogy, SVGs, accessibility and technical rubric.",
+        "No external independent peer reviewer; two internal review passes only.",
+        "Live HTTP and Pages deployment require separate verification."
+      ],
       "publication": {
-        "mode": "single atomic conditional non-force main update",
-        "academy_published_before": 341,
-        "academy_published_after": 342,
-        "unit7_published_after": 27,
-        "subunit7d_published_after": 3,
-        "prior_menu_links_preserved": 341,
-        "prior_sitemap_entries_preserved": 342,
-        "next_unpublished": "7.D.02"
+        "atomic": true,
+        "live_verification": "pending",
+        "base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed"
+      },
+      "publication_base_sha": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
+      "next_unpublished_node_id": "7.D.05",
+      "concurrent_changes_reconciled": {
+        "initial_head": "57bc6b16eea1994e7afc468a7c866f85e48b7181",
+        "latest_base": "d7f6f46f68b6946da2a36bcc8ad3246a81f95fed",
+        "preserved_newly_published": [
+          "7.D.01",
+          "7.D.03",
+          "7.D.04"
+        ],
+        "menu_checkpoint_consistent": true
       }
     },
     "subunit_7b": {
@@ -68571,9 +68961,10 @@
         "7.D.01",
         "7.D.02",
         "7.D.03",
-        "7.D.04"
+        "7.D.04",
+        "7.D.07"
       ],
-      "published_node_count": 4,
+      "published_node_count": 5,
       "planned_node_count": 10,
       "complete": false
     }
@@ -68604,7 +68995,8 @@
     "7.D.01",
     "7.D.02",
     "7.D.03",
-    "7.D.04"
+    "7.D.04",
+    "7.D.07"
   ],
   "unit7d_planned_node_count": 10
 }

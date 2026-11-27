@@ -310,3 +310,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.G.03 — [Terpenoid Diversity and Biological Functions](https://rahulthakurpatan.github.io/lifescienceacademy/terpenoid-diversity-and-biological-functions.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.G: 1/10; Unit 06: 33/66; Academy: 282/723.
 - Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.G.04 — [Shikimate Pathway and Biosynthetic Origins of Phenolics](https://rahulthakurpatan.github.io/lifescienceacademy/shikimate-pathway-and-biosynthetic-origins-of-phenolics.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.G: 2/10; Unit 06: 34/66; Academy: 283/723.
+- Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

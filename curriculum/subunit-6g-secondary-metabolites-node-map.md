@@ -44,6 +44,8 @@
 
 ### 6.G.04 — Shikimate Pathway and Biosynthetic Origins of Phenolics
 
+**Publication:** [Chapter](https://rahulthakurpatan.github.io/lifescienceacademy/shikimate-pathway-and-biosynthetic-origins-of-phenolics.html) — internal academic QA 95/100; deployment verification pending.
+
 **Student-facing description:** Trace shikimate-derived aromatic amino acids and acetate–malonate contributions to plant phenolics, distinguishing their biosynthetic origins and chemical properties.
 
 **Core scope:** PEP and erythrose-4-phosphate through DAHP, dehydroquinate, dehydroshikimate, shikimate, shikimate-3-phosphate, EPSP and chorismate; phenylalanine, tyrosine and tryptophan branches; phenolic hydroxyl groups, simple phenols, benzoic acids, gallic acid and acetate–malonate/polyketide contribution; distinguish phenolic class from phenylpropanoid origin; bridge to 6.G.05 and 6.G.06.

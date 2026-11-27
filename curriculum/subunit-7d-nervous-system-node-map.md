@@ -128,3 +128,10 @@
 | Neural control of posture | 7.D.09–10 |
 
 All explicit official topic groups have an assigned substantive home. Synaptic integration and neuromuscular transmission provide necessary mechanistic bridges, not additional official subunits. Representative examples support examinable physiological understanding rather than exhaustive clinical neuroscience.
+
+
+### Publication checkpoint — 2026-11-27 — 7.D.01
+
+- 7.D.01 — [Foundations of Nervous System and Cellular Organisation](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-nervous-system-and-cellular-organisation.html); internal QA 95/100, static audit passed, Pages and live verification pending.
+- Teaching prose: 13,509 words, 140 paragraphs; 12 original SVGs, 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET), 18 misconceptions and 15 recall prompts.
+- Subunit 7.D: 1/10; Unit 07: 25/90; Academy: 340/723. Next global unpublished node: 7.D.02 — Resting Membrane Potential and Neuronal Excitability.

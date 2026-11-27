@@ -9,7 +9,7 @@
 - **Academy-approved teaching architecture:** 10 progressively linked future textbook chapters, `6.D.01–6.D.10`. One foundations chapter followed by nine major small-molecule hormone classes. Peptide hormones are introduced in the foundation as an important additional signaling class; plant biology has other signal families and this numbering is not a universal taxonomy.
 - **Systematic learning order:** Production/transport/perception → local growth (auxin, CK, GA, BR) → architecture/nutrient collaboration (strigolactones) → dormancy and life-stage timing (ABA, ethylene) → protection/cross-talk (JA, SA). This is a **teaching progression**, not a claim that hormones act sequentially in an actual plant. They act simultaneously and influence each other.
 - **Standard chapter contract:** Each hormone is taught through source and biosynthesis; physiologically relevant activation, conjugation/storage; degradation; transport and distribution; receptor and signal transduction; growth, development or defense outcomes; classic experiments and NET/SET reasoning. Some hormones (e.g. ethylene gas) have different handling of storage or transport. Do not force one false template onto all classes.
-- **Current publication stage:** These are **nonclickable menu entries and a deep blueprint** for future chapters; there are no completed HTML textbook nodes and no new lesson URLs/sitemap additions. Do not claim the individual lessons are ready to read.
+- **Current publication stage:** This roadmap defines the ten-chapter learning sequence. Published chapters are linked in the homepage menu and sitemap; remaining planned entries are nonclickable.
 - **Anti-duplication:** Unit 4.A owns general signaling machinery, 5.B/5.D plant development, 5.E senescence, 6.E photoreceptor biology, 6.F hydraulics/translocation, 6.G specialized products and 6.H complete plant stress/innate immunity. 6.D owns the specific hormones' synthesis, homeostasis, transport, perception and physiological regulation.
 
 ## Ten chapter microtopic and exam contracts
@@ -188,3 +188,9 @@
 - Plant receptor/ligand survey: https://onlinelibrary.wiley.com/doi/10.1111/tpj.15115
 - Plant hormone sensing and D14–MAX2–SMXL: https://doi.org/10.1146/annurev-arplant-060625-095356
 - Peptide hormones and alternative classification: https://www.sciencedirect.com/science/article/abs/pii/S1360138525002614
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.D.01 — [Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 1/10; next unpublished in this subunit: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.

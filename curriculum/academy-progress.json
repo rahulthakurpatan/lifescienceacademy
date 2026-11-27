@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.B.01",
-  "title": "Plant Respiration and the Citric Acid Cycle",
-  "subunit": "6.B",
-  "topic": "Respiration and Photorespiration",
-  "slug": "plant-respiration-and-the-citric-acid-cycle.html",
+  "node_id": "6.D.01",
+  "title": "Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling",
+  "subunit": "6.D",
+  "topic": "Plant Hormones",
+  "slug": "fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
   "next_pending_node_id": "6.B.04",
   "next_pending_node_title": "Alternative Oxidase and Alternative Respiratory Pathways",
-  "published_node_count": 266,
+  "published_node_count": 267,
   "publication_allowed": true,
-  "main_baseline_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+  "main_baseline_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue with 6.B.04",
   "planned_node_count": 66,
@@ -21,35 +21,36 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.B.01",
-    "title": "Plant Respiration and the Citric Acid Cycle",
-    "slug": "plant-respiration-and-the-citric-acid-cycle.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html",
+    "node_id": "6.D.01",
+    "title": "Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling",
+    "slug": "fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
     "unit": "06",
-    "subunit": "6.B",
-    "topic": "Respiration and Photorespiration",
+    "subunit": "6.D",
+    "topic": "Plant Hormones",
     "date": "2026-11-27",
-    "source_draft_branch": "draft/node-6.B.01-plant-respiration",
-    "source_draft_commit_sha": "9a04d4b2a222f56f44c976e8bde2e64e516aca18",
-    "chapter_blob_sha": "14269dcbb726d9a8467ce65672d35bb23581922b",
-    "publication_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+    "source_draft_branch": "draft/6.D.01-plant-hormone-foundations",
+    "source_draft_commit_sha": "ecbb7f7fee24b32649f92ada6588005f2b2abccd",
+    "chapter_blob_sha": "cf7bd3ad9ded9683095f497ebb76de17c1c7bb98",
+    "publication_base_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
     "status": "internal_academic_qa_passed_static_checks_complete",
     "metrics": {
-      "genuine_teaching_words": 13445,
-      "whitespace_teaching_words": 13421,
-      "teaching_paragraphs": 117,
-      "teaching_sections": 14,
+      "genuine_teaching_words": 13984,
+      "teaching_paragraphs": 153,
+      "teaching_sections": 12,
       "scientific_svgs": 11,
       "scientific_tables": 4,
+      "graphs": 2,
       "part_b": 20,
       "part_c": 20,
       "additional_questions": 10,
       "total_questions": 50,
-      "misconceptions": 15,
-      "active_recall": 12,
-      "references": 14
+      "misconceptions": 16,
+      "active_recall": 14,
+      "references": 17,
+      "approx_visible_words_excluding_svg": 19747
     },
-    "word_count_method": "Lexical tokens in 117 p.teaching-prose elements only, excluding questions, references, tables, navigation and captions. Saved blob independently retrieved. No duplicated teaching paragraphs.",
+    "word_count_method": "Lexical words from p.teaching-prose only, final saved file re-read. No duplicate teaching paragraphs. Exemplar 5.E.09 measured 14104 whitespace-separated teaching words (different counting method).",
     "rubric": {
       "scientific_accuracy": {
         "score": 19,
@@ -95,116 +96,95 @@
     "score": 95,
     "coverage_matrix": [
       {
-        "concept": "Plant respiration in light and darkness",
+        "concept": "Hormones versus nutrients/metabolites/environment",
+        "section": "s1",
         "covered": true
       },
       {
-        "concept": "Sucrose starch and glycolysis",
+        "concept": "Darwin, Boysen-Jensen, Paál, Went",
+        "section": "s2",
         "covered": true
       },
       {
-        "concept": "Pyruvate transport and compartmentation",
+        "concept": "Nine small-molecule families and peptide hormones",
+        "section": "s3",
         "covered": true
       },
       {
-        "concept": "Mitochondrial pyruvate dehydrogenase",
+        "concept": "Biosynthetic origin, precursor activation",
+        "section": "s4",
         "covered": true
       },
       {
-        "concept": "Citrate synthase",
+        "concept": "Conjugation, storage and catabolism including JA-Ile and ethylene exceptions",
+        "section": "s5",
         "covered": true
       },
       {
-        "concept": "Aconitase",
+        "concept": "Active pool balance, dilution, half-life",
+        "section": "s6",
         "covered": true
       },
       {
-        "concept": "Isocitrate dehydrogenase",
+        "concept": "Diffusion, pH, membrane carriers, polarity",
+        "section": "s7",
         "covered": true
       },
       {
-        "concept": "2-oxoglutarate dehydrogenase",
+        "concept": "Vascular mobility, precursor transport, grafts",
+        "section": "s8",
         "covered": true
       },
       {
-        "concept": "Succinyl-CoA ligase",
+        "concept": "Receptor competence, binding and sensitivity",
+        "section": "s9",
         "covered": true
       },
       {
-        "concept": "Succinate dehydrogenase",
+        "concept": "SCF degradation, kinase switches, phosphorelays and other receptor mechanisms",
+        "section": "s10",
         "covered": true
       },
       {
-        "concept": "Fumarase",
+        "concept": "Physiological outcomes, feedback, ratio and cross-talk",
+        "section": "s11",
         "covered": true
       },
       {
-        "concept": "Malate dehydrogenase",
-        "covered": true
-      },
-      {
-        "concept": "Reducing equivalents and stoichiometry",
-        "covered": true
-      },
-      {
-        "concept": "Carbon isotope tracing",
-        "covered": true
-      },
-      {
-        "concept": "Oxaloacetate regeneration and anaplerosis",
-        "covered": true
-      },
-      {
-        "concept": "Biosynthetic withdrawal and nitrogen assimilation",
-        "covered": true
-      },
-      {
-        "concept": "Substrate redox and adenylate regulation",
-        "covered": true
-      },
-      {
-        "concept": "Light-dark branched flux and photorespiratory glycine",
-        "covered": true
-      },
-      {
-        "concept": "Experimental evidence and lesion interpretation",
-        "covered": true
-      },
-      {
-        "concept": "Physiological cases and quantitative reasoning",
+        "concept": "Biosynthesis vs perception mutants, epistasis, reporters, tracer experiments",
+        "section": "s12",
         "covered": true
       }
     ],
-    "scientific_review": "Internal review of reaction order, carbon balance, enzyme localization, cofactors, plant ATP-forming ligase, complex II, pyruvate import, regulation and branched TCA flux against official syllabus, plant physiology and primary research; recalculated numerical answers; distinguished textbook assumptions from plant physiological variability.",
-    "editorial_review": "Separate check for progression, beginner explanations, worked examples, scientific precision, diagram labeling, original explained questions, comparison with 6.A.04 exemplar, accessible reader controls and link integrity.",
-    "deductions": "One point each for limited independent scientific verification, some repeated caveats, lack of rendered SVG inspection, no external question calibration, and unperformed interactive/accessibility runtime checks.",
+    "scientific_review": "Internal academic review of biosynthetic origins, active forms, reversible conjugation, exceptions, mass balance, weak-acid partition, vascular transport, receptor pathways, physiological logic and numerical questions against CSIR syllabus and published review/primary sources. All 50 answer keys rechecked and matched to their option text after shuffling.",
+    "editorial_review": "Separate review of explanatory sequence and chapter length, nonduplicate paragraphs, source links, reader layout, diagrams, assessment, recall and navigation. Corrected previous node to 6.C.06 and added zoom controls and primary evidence.",
+    "deductions": "One point each for no independent scientific reviewer, some recurring qualifications, no rendered diagram inspection, no external question calibration, and no runtime accessibility/browser tests.",
     "static_checks": {
       "duplicate_ids": 0,
       "unresolved_fragment_links": 0,
       "unresolved_aria_references": 0,
-      "unresolved_zoom_targets": 0,
       "duplicate_teaching_paragraphs": 0,
       "html_nesting_errors": 0,
       "question_answer_mismatches": 0,
-      "script_syntax": "pass",
       "placeholder_matches": 0,
       "svg_accessibility_labels": 11,
-      "reciprocal_navigation": "Existing 6.A.08 and 6.B.02 resolve target via current menu; no edits necessary."
+      "diagram_zoom_controls": 11,
+      "reciprocal_navigation": "Existing 6.C.06 and target use menu-driven navigation; 6.D.02 remains unlinked."
     },
-    "source_checks": "Revised CSIR UGC DBT 2026 syllabus and legacy CSIR syllabus, MP SET 2022 syllabus mirror, primary/review literature on plant mitochondrial substrates, pyruvate pools, noncyclic flux and regulation.",
+    "source_checks": "CSIR-HRDG merged syllabus page 7 and separate syllabus, MPPSC SET 2024 syllabus archived PDF page 4; reviews on transport and perception and primary research on TIR1, GID1, PYR/PYL, ABCG14 and Skoog–Miller.",
     "limitations": [
-      "Internal self-assessment, not external peer review.",
-      "MP SET alignment uses a syllabus mirror rather than independently retrieved current official MPPSC copy.",
-      "Interactive browser rendering, keyboard/assistive technology runtime tests and individual reference HTTP availability not verified."
+      "Internal self-assessment; not external peer review.",
+      "MP SET verification used archived 2024 syllabus, not a separately authenticated 2026 MPPSC source.",
+      "Interactive rendering, keyboard runtime checks and every reference's individual HTTP response not verified; source records verified via academic search."
     ],
     "publication": {
       "state": "lesson_committed_pages_verification_pending",
       "atomic": true,
-      "expected_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
-      "linked_nodes_before": 265,
-      "linked_nodes_after": 266,
-      "unit_published_after": 17,
-      "subunit_published_after": 4,
+      "expected_base_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+      "linked_nodes_before": 266,
+      "linked_nodes_after": 267,
+      "unit_published_after": 18,
+      "subunit_published_after": 1,
       "next_pending_node_id": "6.B.04",
       "live_verification": "pending"
     }
@@ -475,7 +455,8 @@
     "6.C.02",
     "6.C.03",
     "6.C.05",
-    "6.C.06"
+    "6.C.06",
+    "6.D.01"
   ],
   "prior_publication_qa": {
     "node_id": "6.C.06",
@@ -699,123 +680,193 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "6.C.05",
-    "title": "Biological Nitrogen Fixation: Nitrogenase and Energy Requirements",
-    "slug": "biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html",
+    "node_id": "6.B.01",
+    "title": "Plant Respiration and the Citric Acid Cycle",
+    "slug": "plant-respiration-and-the-citric-acid-cycle.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html",
     "unit": "06",
-    "subunit": "6.C",
-    "topic": "Nitrogen Metabolism",
+    "subunit": "6.B",
+    "topic": "Respiration and Photorespiration",
     "date": "2026-11-27",
-    "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6-c-05-nitrogenase",
-    "source_draft_commit_sha": "221db9264be6dd2eee99b7bdb9f742d88c5a3c77",
-    "source_draft_blob_sha": "6f7df7c31935b5d4711f4a4c2c6d88c186f9495a",
-    "production_chapter_blob_sha": "6f7df7c31935b5d4711f4a4c2c6d88c186f9495a",
-    "publication_base_sha": "60b55862b66c01dea22f7b64d621bae322a01b73",
+    "source_draft_branch": "draft/node-6.B.01-plant-respiration",
+    "source_draft_commit_sha": "9a04d4b2a222f56f44c976e8bde2e64e516aca18",
+    "chapter_blob_sha": "14269dcbb726d9a8467ce65672d35bb23581922b",
+    "publication_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+    "status": "internal_academic_qa_passed_static_checks_complete",
     "metrics": {
-      "genuine_teaching_words": 13862,
-      "teaching_paragraphs": 141,
-      "svg": 11,
-      "tables": 5,
-      "graphs": 2,
-      "total_questions": 52,
-      "part_b": 24,
-      "part_c": 28,
-      "other_questions": 0,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      },
+      "genuine_teaching_words": 13445,
+      "whitespace_teaching_words": 13421,
+      "teaching_paragraphs": 117,
+      "teaching_sections": 14,
+      "scientific_svgs": 11,
+      "scientific_tables": 4,
+      "part_b": 20,
+      "part_c": 20,
+      "additional_questions": 10,
+      "total_questions": 50,
       "misconceptions": 15,
-      "active_recall": 10,
-      "references": 17
+      "active_recall": 12,
+      "references": 14
     },
-    "word_count_method": "Whitespace-separated words in 141 saved teaching-prose paragraphs, excluding markup and ancillary learning features.",
-    "scope": "Revised merged CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C and MP SET 2024 mirrored syllabus contextual comparison; repository roadmap.",
-    "coverage": [
-      "Diazotrophy and nitrogen fixation",
-      "Mo nitrogenase Fe protein, MoFe protein, P-cluster, FeMo cofactor",
-      "ATP-coupled electron delivery and canonical stoichiometry",
-      "Alternative V and Fe nitrogenases",
-      "Oxygen protection, regulation and biological examples",
-      "ARA, isotope tracer interpretation, quantitative reasoning"
-    ],
-    "review_pass_1": {
-      "result": "pass with limitations",
-      "evidence": "Reviewed electron and proton balance, enzyme/cofactor roles, ATP coupling, oxygen protection, alternative enzymes, ARA versus isotope tracer interpretation and question calculations against sources; internal review only."
-    },
-    "review_pass_2": {
-      "result": "pass with limitations",
-      "evidence": "Checked actual committed chapter, 52 answer mappings, option distribution, revised 23 distractors, 15 misconceptions, 10 recalls, diagram zoom, references section repaired and re-audited; JavaScript compiled."
-    },
-    "quality": {
-      "score": 95,
-      "threshold": 95,
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogy": 10,
-        "illustrations": 9,
-        "questions": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 4
+    "word_count_method": "Lexical tokens in 117 p.teaching-prose elements only, excluding questions, references, tables, navigation and captions. Saved blob independently retrieved. No duplicated teaching paragraphs.",
+    "rubric": {
+      "scientific_accuracy": {
+        "score": 19,
+        "max": 20
       },
-      "basis": "Internal assessment. Deductions for simplified mechanistic schematics, limited independent scientific and examination calibration, concise explanations for some distractors and absent rendered-browser accessibility and live technical tests."
+      "syllabus_coverage": {
+        "score": 15,
+        "max": 15
+      },
+      "teaching_depth": {
+        "score": 15,
+        "max": 15
+      },
+      "pedagogy": {
+        "score": 9,
+        "max": 10
+      },
+      "illustrations": {
+        "score": 9,
+        "max": 10
+      },
+      "assessment": {
+        "score": 9,
+        "max": 10
+      },
+      "experimental_reasoning": {
+        "score": 5,
+        "max": 5
+      },
+      "revision": {
+        "score": 5,
+        "max": 5
+      },
+      "reader_accessibility": {
+        "score": 4,
+        "max": 5
+      },
+      "seo_technical": {
+        "score": 5,
+        "max": 5
+      }
     },
-    "validation": {
-      "words_pass": true,
-      "svg_pass": true,
-      "question_count_pass": true,
-      "answer_mapping_pass": true,
+    "score": 95,
+    "coverage_matrix": [
+      {
+        "concept": "Plant respiration in light and darkness",
+        "covered": true
+      },
+      {
+        "concept": "Sucrose starch and glycolysis",
+        "covered": true
+      },
+      {
+        "concept": "Pyruvate transport and compartmentation",
+        "covered": true
+      },
+      {
+        "concept": "Mitochondrial pyruvate dehydrogenase",
+        "covered": true
+      },
+      {
+        "concept": "Citrate synthase",
+        "covered": true
+      },
+      {
+        "concept": "Aconitase",
+        "covered": true
+      },
+      {
+        "concept": "Isocitrate dehydrogenase",
+        "covered": true
+      },
+      {
+        "concept": "2-oxoglutarate dehydrogenase",
+        "covered": true
+      },
+      {
+        "concept": "Succinyl-CoA ligase",
+        "covered": true
+      },
+      {
+        "concept": "Succinate dehydrogenase",
+        "covered": true
+      },
+      {
+        "concept": "Fumarase",
+        "covered": true
+      },
+      {
+        "concept": "Malate dehydrogenase",
+        "covered": true
+      },
+      {
+        "concept": "Reducing equivalents and stoichiometry",
+        "covered": true
+      },
+      {
+        "concept": "Carbon isotope tracing",
+        "covered": true
+      },
+      {
+        "concept": "Oxaloacetate regeneration and anaplerosis",
+        "covered": true
+      },
+      {
+        "concept": "Biosynthetic withdrawal and nitrogen assimilation",
+        "covered": true
+      },
+      {
+        "concept": "Substrate redox and adenylate regulation",
+        "covered": true
+      },
+      {
+        "concept": "Light-dark branched flux and photorespiratory glycine",
+        "covered": true
+      },
+      {
+        "concept": "Experimental evidence and lesion interpretation",
+        "covered": true
+      },
+      {
+        "concept": "Physiological cases and quantitative reasoning",
+        "covered": true
+      }
+    ],
+    "scientific_review": "Internal review of reaction order, carbon balance, enzyme localization, cofactors, plant ATP-forming ligase, complex II, pyruvate import, regulation and branched TCA flux against official syllabus, plant physiology and primary research; recalculated numerical answers; distinguished textbook assumptions from plant physiological variability.",
+    "editorial_review": "Separate check for progression, beginner explanations, worked examples, scientific precision, diagram labeling, original explained questions, comparison with 6.A.04 exemplar, accessible reader controls and link integrity.",
+    "deductions": "One point each for limited independent scientific verification, some repeated caveats, lack of rendered SVG inspection, no external question calibration, and unperformed interactive/accessibility runtime checks.",
+    "static_checks": {
       "duplicate_ids": 0,
-      "unresolved_anchors": 0,
+      "unresolved_fragment_links": 0,
       "unresolved_aria_references": 0,
       "unresolved_zoom_targets": 0,
       "duplicate_teaching_paragraphs": 0,
-      "tag_balance_issues": 0,
-      "js_syntax_compiled": true,
-      "interactive_browser_test": false
+      "html_nesting_errors": 0,
+      "question_answer_mismatches": 0,
+      "script_syntax": "pass",
+      "placeholder_matches": 0,
+      "svg_accessibility_labels": 11,
+      "reciprocal_navigation": "Existing 6.A.08 and 6.B.02 resolve target via current menu; no edits necessary."
     },
+    "source_checks": "Revised CSIR UGC DBT 2026 syllabus and legacy CSIR syllabus, MP SET 2022 syllabus mirror, primary/review literature on plant mitochondrial substrates, pyruvate pools, noncyclic flux and regulation.",
     "limitations": [
-      "Internal editorial review, not independent peer review.",
-      "MP SET syllabus checked via mirror; official host inaccessible.",
-      "No rendered browser, mobile or screen-reader test; static validation only.",
-      "Public site inaccessible during verification; deployment pending."
+      "Internal self-assessment, not external peer review.",
+      "MP SET alignment uses a syllabus mirror rather than independently retrieved current official MPPSC copy.",
+      "Interactive browser rendering, keyboard/assistive technology runtime tests and individual reference HTTP availability not verified."
     ],
     "publication": {
-      "strategy": "Atomic tree/commit and conditional non-force update",
-      "deployment": "pending",
-      "live_verified": false
-    },
-    "progress": {
-      "subunit_published": 5,
-      "subunit_planned": 6,
-      "unit_published": 16,
-      "unit_planned": 66,
-      "academy_published": 265,
-      "academy_planned": 723,
-      "next_pending_node_id": "6.B.01"
-    },
-    "navigation": {
-      "previous": "6.C.04",
-      "next": "6.C.06",
-      "mechanism": "Dynamic reader resolves only published nodes from menu; unpublished neighbors disabled."
-    },
-    "changed_files": [
-      "biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html",
-      "curriculum/academy-progress.json",
-      "index.html",
-      "sitemap.xml",
-      "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
-      "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6c05-publication-qa.json"
-    ]
+      "state": "lesson_committed_pages_verification_pending",
+      "atomic": true,
+      "expected_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+      "linked_nodes_before": 265,
+      "linked_nodes_after": 266,
+      "unit_published_after": 17,
+      "subunit_published_after": 4,
+      "next_pending_node_id": "6.B.04",
+      "live_verification": "pending"
+    }
   },
   "unit_02": {
     "published_node_ids": [
@@ -2334,7 +2385,7 @@
     "last_published_node_id": "5.E.10",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-6d-plant-hormones-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -44761,43 +44812,45 @@
       "6.C.02",
       "6.C.03",
       "6.C.05",
-      "6.C.06"
+      "6.C.06",
+      "6.D.01"
     ],
-    "published_node_count": 17,
+    "published_node_count": 18,
     "planned_node_count": 66,
-    "last_published_node_id": "6.B.01",
+    "last_published_node_id": "6.D.01",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.B.01",
-      "title": "Plant Respiration and the Citric Acid Cycle",
-      "slug": "plant-respiration-and-the-citric-acid-cycle.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html",
+      "node_id": "6.D.01",
+      "title": "Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling",
+      "slug": "fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
       "unit": "06",
-      "subunit": "6.B",
-      "topic": "Respiration and Photorespiration",
+      "subunit": "6.D",
+      "topic": "Plant Hormones",
       "date": "2026-11-27",
-      "source_draft_branch": "draft/node-6.B.01-plant-respiration",
-      "source_draft_commit_sha": "9a04d4b2a222f56f44c976e8bde2e64e516aca18",
-      "chapter_blob_sha": "14269dcbb726d9a8467ce65672d35bb23581922b",
-      "publication_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+      "source_draft_branch": "draft/6.D.01-plant-hormone-foundations",
+      "source_draft_commit_sha": "ecbb7f7fee24b32649f92ada6588005f2b2abccd",
+      "chapter_blob_sha": "cf7bd3ad9ded9683095f497ebb76de17c1c7bb98",
+      "publication_base_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
       "status": "internal_academic_qa_passed_static_checks_complete",
       "metrics": {
-        "genuine_teaching_words": 13445,
-        "whitespace_teaching_words": 13421,
-        "teaching_paragraphs": 117,
-        "teaching_sections": 14,
+        "genuine_teaching_words": 13984,
+        "teaching_paragraphs": 153,
+        "teaching_sections": 12,
         "scientific_svgs": 11,
         "scientific_tables": 4,
+        "graphs": 2,
         "part_b": 20,
         "part_c": 20,
         "additional_questions": 10,
         "total_questions": 50,
-        "misconceptions": 15,
-        "active_recall": 12,
-        "references": 14
+        "misconceptions": 16,
+        "active_recall": 14,
+        "references": 17,
+        "approx_visible_words_excluding_svg": 19747
       },
-      "word_count_method": "Lexical tokens in 117 p.teaching-prose elements only, excluding questions, references, tables, navigation and captions. Saved blob independently retrieved. No duplicated teaching paragraphs.",
+      "word_count_method": "Lexical words from p.teaching-prose only, final saved file re-read. No duplicate teaching paragraphs. Exemplar 5.E.09 measured 14104 whitespace-separated teaching words (different counting method).",
       "rubric": {
         "scientific_accuracy": {
           "score": 19,
@@ -44843,116 +44896,95 @@
       "score": 95,
       "coverage_matrix": [
         {
-          "concept": "Plant respiration in light and darkness",
+          "concept": "Hormones versus nutrients/metabolites/environment",
+          "section": "s1",
           "covered": true
         },
         {
-          "concept": "Sucrose starch and glycolysis",
+          "concept": "Darwin, Boysen-Jensen, Paál, Went",
+          "section": "s2",
           "covered": true
         },
         {
-          "concept": "Pyruvate transport and compartmentation",
+          "concept": "Nine small-molecule families and peptide hormones",
+          "section": "s3",
           "covered": true
         },
         {
-          "concept": "Mitochondrial pyruvate dehydrogenase",
+          "concept": "Biosynthetic origin, precursor activation",
+          "section": "s4",
           "covered": true
         },
         {
-          "concept": "Citrate synthase",
+          "concept": "Conjugation, storage and catabolism including JA-Ile and ethylene exceptions",
+          "section": "s5",
           "covered": true
         },
         {
-          "concept": "Aconitase",
+          "concept": "Active pool balance, dilution, half-life",
+          "section": "s6",
           "covered": true
         },
         {
-          "concept": "Isocitrate dehydrogenase",
+          "concept": "Diffusion, pH, membrane carriers, polarity",
+          "section": "s7",
           "covered": true
         },
         {
-          "concept": "2-oxoglutarate dehydrogenase",
+          "concept": "Vascular mobility, precursor transport, grafts",
+          "section": "s8",
           "covered": true
         },
         {
-          "concept": "Succinyl-CoA ligase",
+          "concept": "Receptor competence, binding and sensitivity",
+          "section": "s9",
           "covered": true
         },
         {
-          "concept": "Succinate dehydrogenase",
+          "concept": "SCF degradation, kinase switches, phosphorelays and other receptor mechanisms",
+          "section": "s10",
           "covered": true
         },
         {
-          "concept": "Fumarase",
+          "concept": "Physiological outcomes, feedback, ratio and cross-talk",
+          "section": "s11",
           "covered": true
         },
         {
-          "concept": "Malate dehydrogenase",
-          "covered": true
-        },
-        {
-          "concept": "Reducing equivalents and stoichiometry",
-          "covered": true
-        },
-        {
-          "concept": "Carbon isotope tracing",
-          "covered": true
-        },
-        {
-          "concept": "Oxaloacetate regeneration and anaplerosis",
-          "covered": true
-        },
-        {
-          "concept": "Biosynthetic withdrawal and nitrogen assimilation",
-          "covered": true
-        },
-        {
-          "concept": "Substrate redox and adenylate regulation",
-          "covered": true
-        },
-        {
-          "concept": "Light-dark branched flux and photorespiratory glycine",
-          "covered": true
-        },
-        {
-          "concept": "Experimental evidence and lesion interpretation",
-          "covered": true
-        },
-        {
-          "concept": "Physiological cases and quantitative reasoning",
+          "concept": "Biosynthesis vs perception mutants, epistasis, reporters, tracer experiments",
+          "section": "s12",
           "covered": true
         }
       ],
-      "scientific_review": "Internal review of reaction order, carbon balance, enzyme localization, cofactors, plant ATP-forming ligase, complex II, pyruvate import, regulation and branched TCA flux against official syllabus, plant physiology and primary research; recalculated numerical answers; distinguished textbook assumptions from plant physiological variability.",
-      "editorial_review": "Separate check for progression, beginner explanations, worked examples, scientific precision, diagram labeling, original explained questions, comparison with 6.A.04 exemplar, accessible reader controls and link integrity.",
-      "deductions": "One point each for limited independent scientific verification, some repeated caveats, lack of rendered SVG inspection, no external question calibration, and unperformed interactive/accessibility runtime checks.",
+      "scientific_review": "Internal academic review of biosynthetic origins, active forms, reversible conjugation, exceptions, mass balance, weak-acid partition, vascular transport, receptor pathways, physiological logic and numerical questions against CSIR syllabus and published review/primary sources. All 50 answer keys rechecked and matched to their option text after shuffling.",
+      "editorial_review": "Separate review of explanatory sequence and chapter length, nonduplicate paragraphs, source links, reader layout, diagrams, assessment, recall and navigation. Corrected previous node to 6.C.06 and added zoom controls and primary evidence.",
+      "deductions": "One point each for no independent scientific reviewer, some recurring qualifications, no rendered diagram inspection, no external question calibration, and no runtime accessibility/browser tests.",
       "static_checks": {
         "duplicate_ids": 0,
         "unresolved_fragment_links": 0,
         "unresolved_aria_references": 0,
-        "unresolved_zoom_targets": 0,
         "duplicate_teaching_paragraphs": 0,
         "html_nesting_errors": 0,
         "question_answer_mismatches": 0,
-        "script_syntax": "pass",
         "placeholder_matches": 0,
         "svg_accessibility_labels": 11,
-        "reciprocal_navigation": "Existing 6.A.08 and 6.B.02 resolve target via current menu; no edits necessary."
+        "diagram_zoom_controls": 11,
+        "reciprocal_navigation": "Existing 6.C.06 and target use menu-driven navigation; 6.D.02 remains unlinked."
       },
-      "source_checks": "Revised CSIR UGC DBT 2026 syllabus and legacy CSIR syllabus, MP SET 2022 syllabus mirror, primary/review literature on plant mitochondrial substrates, pyruvate pools, noncyclic flux and regulation.",
+      "source_checks": "CSIR-HRDG merged syllabus page 7 and separate syllabus, MPPSC SET 2024 syllabus archived PDF page 4; reviews on transport and perception and primary research on TIR1, GID1, PYR/PYL, ABCG14 and Skoog–Miller.",
       "limitations": [
-        "Internal self-assessment, not external peer review.",
-        "MP SET alignment uses a syllabus mirror rather than independently retrieved current official MPPSC copy.",
-        "Interactive browser rendering, keyboard/assistive technology runtime tests and individual reference HTTP availability not verified."
+        "Internal self-assessment; not external peer review.",
+        "MP SET verification used archived 2024 syllabus, not a separately authenticated 2026 MPPSC source.",
+        "Interactive rendering, keyboard runtime checks and every reference's individual HTTP response not verified; source records verified via academic search."
       ],
       "publication": {
         "state": "lesson_committed_pages_verification_pending",
         "atomic": true,
-        "expected_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
-        "linked_nodes_before": 265,
-        "linked_nodes_after": 266,
-        "unit_published_after": 17,
-        "subunit_published_after": 4,
+        "expected_base_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+        "linked_nodes_before": 266,
+        "linked_nodes_after": 267,
+        "unit_published_after": 18,
+        "subunit_published_after": 1,
         "next_pending_node_id": "6.B.04",
         "live_verification": "pending"
       }
@@ -47856,6 +47888,175 @@
           "next_pending_node_id": "6.B.04",
           "live_verification": "pending"
         }
+      },
+      "6.D.01": {
+        "node_id": "6.D.01",
+        "title": "Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling",
+        "slug": "fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html",
+        "unit": "06",
+        "subunit": "6.D",
+        "topic": "Plant Hormones",
+        "date": "2026-11-27",
+        "source_draft_branch": "draft/6.D.01-plant-hormone-foundations",
+        "source_draft_commit_sha": "ecbb7f7fee24b32649f92ada6588005f2b2abccd",
+        "chapter_blob_sha": "cf7bd3ad9ded9683095f497ebb76de17c1c7bb98",
+        "publication_base_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+        "status": "internal_academic_qa_passed_static_checks_complete",
+        "metrics": {
+          "genuine_teaching_words": 13984,
+          "teaching_paragraphs": 153,
+          "teaching_sections": 12,
+          "scientific_svgs": 11,
+          "scientific_tables": 4,
+          "graphs": 2,
+          "part_b": 20,
+          "part_c": 20,
+          "additional_questions": 10,
+          "total_questions": 50,
+          "misconceptions": 16,
+          "active_recall": 14,
+          "references": 17,
+          "approx_visible_words_excluding_svg": 19747
+        },
+        "word_count_method": "Lexical words from p.teaching-prose only, final saved file re-read. No duplicate teaching paragraphs. Exemplar 5.E.09 measured 14104 whitespace-separated teaching words (different counting method).",
+        "rubric": {
+          "scientific_accuracy": {
+            "score": 19,
+            "max": 20
+          },
+          "syllabus_coverage": {
+            "score": 15,
+            "max": 15
+          },
+          "teaching_depth": {
+            "score": 15,
+            "max": 15
+          },
+          "pedagogy": {
+            "score": 9,
+            "max": 10
+          },
+          "illustrations": {
+            "score": 9,
+            "max": 10
+          },
+          "assessment": {
+            "score": 9,
+            "max": 10
+          },
+          "experimental_reasoning": {
+            "score": 5,
+            "max": 5
+          },
+          "revision": {
+            "score": 5,
+            "max": 5
+          },
+          "reader_accessibility": {
+            "score": 4,
+            "max": 5
+          },
+          "seo_technical": {
+            "score": 5,
+            "max": 5
+          }
+        },
+        "score": 95,
+        "coverage_matrix": [
+          {
+            "concept": "Hormones versus nutrients/metabolites/environment",
+            "section": "s1",
+            "covered": true
+          },
+          {
+            "concept": "Darwin, Boysen-Jensen, Paál, Went",
+            "section": "s2",
+            "covered": true
+          },
+          {
+            "concept": "Nine small-molecule families and peptide hormones",
+            "section": "s3",
+            "covered": true
+          },
+          {
+            "concept": "Biosynthetic origin, precursor activation",
+            "section": "s4",
+            "covered": true
+          },
+          {
+            "concept": "Conjugation, storage and catabolism including JA-Ile and ethylene exceptions",
+            "section": "s5",
+            "covered": true
+          },
+          {
+            "concept": "Active pool balance, dilution, half-life",
+            "section": "s6",
+            "covered": true
+          },
+          {
+            "concept": "Diffusion, pH, membrane carriers, polarity",
+            "section": "s7",
+            "covered": true
+          },
+          {
+            "concept": "Vascular mobility, precursor transport, grafts",
+            "section": "s8",
+            "covered": true
+          },
+          {
+            "concept": "Receptor competence, binding and sensitivity",
+            "section": "s9",
+            "covered": true
+          },
+          {
+            "concept": "SCF degradation, kinase switches, phosphorelays and other receptor mechanisms",
+            "section": "s10",
+            "covered": true
+          },
+          {
+            "concept": "Physiological outcomes, feedback, ratio and cross-talk",
+            "section": "s11",
+            "covered": true
+          },
+          {
+            "concept": "Biosynthesis vs perception mutants, epistasis, reporters, tracer experiments",
+            "section": "s12",
+            "covered": true
+          }
+        ],
+        "scientific_review": "Internal academic review of biosynthetic origins, active forms, reversible conjugation, exceptions, mass balance, weak-acid partition, vascular transport, receptor pathways, physiological logic and numerical questions against CSIR syllabus and published review/primary sources. All 50 answer keys rechecked and matched to their option text after shuffling.",
+        "editorial_review": "Separate review of explanatory sequence and chapter length, nonduplicate paragraphs, source links, reader layout, diagrams, assessment, recall and navigation. Corrected previous node to 6.C.06 and added zoom controls and primary evidence.",
+        "deductions": "One point each for no independent scientific reviewer, some recurring qualifications, no rendered diagram inspection, no external question calibration, and no runtime accessibility/browser tests.",
+        "static_checks": {
+          "duplicate_ids": 0,
+          "unresolved_fragment_links": 0,
+          "unresolved_aria_references": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "html_nesting_errors": 0,
+          "question_answer_mismatches": 0,
+          "placeholder_matches": 0,
+          "svg_accessibility_labels": 11,
+          "diagram_zoom_controls": 11,
+          "reciprocal_navigation": "Existing 6.C.06 and target use menu-driven navigation; 6.D.02 remains unlinked."
+        },
+        "source_checks": "CSIR-HRDG merged syllabus page 7 and separate syllabus, MPPSC SET 2024 syllabus archived PDF page 4; reviews on transport and perception and primary research on TIR1, GID1, PYR/PYL, ABCG14 and Skoog–Miller.",
+        "limitations": [
+          "Internal self-assessment; not external peer review.",
+          "MP SET verification used archived 2024 syllabus, not a separately authenticated 2026 MPPSC source.",
+          "Interactive rendering, keyboard runtime checks and every reference's individual HTTP response not verified; source records verified via academic search."
+        ],
+        "publication": {
+          "state": "lesson_committed_pages_verification_pending",
+          "atomic": true,
+          "expected_base_sha": "27c6cc06b28731c0b6e1974548c1df0d1a047141",
+          "linked_nodes_before": 266,
+          "linked_nodes_after": 267,
+          "unit_published_after": 18,
+          "subunit_published_after": 1,
+          "next_pending_node_id": "6.B.04",
+          "live_verification": "pending"
+        }
       }
     },
     "next_pending_node_id": "6.B.04",
@@ -47877,123 +48078,193 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.C.05",
-      "title": "Biological Nitrogen Fixation: Nitrogenase and Energy Requirements",
-      "slug": "biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html",
+      "node_id": "6.B.01",
+      "title": "Plant Respiration and the Citric Acid Cycle",
+      "slug": "plant-respiration-and-the-citric-acid-cycle.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html",
       "unit": "06",
-      "subunit": "6.C",
-      "topic": "Nitrogen Metabolism",
+      "subunit": "6.B",
+      "topic": "Respiration and Photorespiration",
       "date": "2026-11-27",
-      "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6-c-05-nitrogenase",
-      "source_draft_commit_sha": "221db9264be6dd2eee99b7bdb9f742d88c5a3c77",
-      "source_draft_blob_sha": "6f7df7c31935b5d4711f4a4c2c6d88c186f9495a",
-      "production_chapter_blob_sha": "6f7df7c31935b5d4711f4a4c2c6d88c186f9495a",
-      "publication_base_sha": "60b55862b66c01dea22f7b64d621bae322a01b73",
+      "source_draft_branch": "draft/node-6.B.01-plant-respiration",
+      "source_draft_commit_sha": "9a04d4b2a222f56f44c976e8bde2e64e516aca18",
+      "chapter_blob_sha": "14269dcbb726d9a8467ce65672d35bb23581922b",
+      "publication_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+      "status": "internal_academic_qa_passed_static_checks_complete",
       "metrics": {
-        "genuine_teaching_words": 13862,
-        "teaching_paragraphs": 141,
-        "svg": 11,
-        "tables": 5,
-        "graphs": 2,
-        "total_questions": 52,
-        "part_b": 24,
-        "part_c": 28,
-        "other_questions": 0,
-        "answer_positions": {
-          "A": 13,
-          "B": 13,
-          "C": 13,
-          "D": 13
-        },
+        "genuine_teaching_words": 13445,
+        "whitespace_teaching_words": 13421,
+        "teaching_paragraphs": 117,
+        "teaching_sections": 14,
+        "scientific_svgs": 11,
+        "scientific_tables": 4,
+        "part_b": 20,
+        "part_c": 20,
+        "additional_questions": 10,
+        "total_questions": 50,
         "misconceptions": 15,
-        "active_recall": 10,
-        "references": 17
+        "active_recall": 12,
+        "references": 14
       },
-      "word_count_method": "Whitespace-separated words in 141 saved teaching-prose paragraphs, excluding markup and ancillary learning features.",
-      "scope": "Revised merged CSIR–UGC–DBT Unit 6.C; separate CSIR Life Sciences Unit 6.C and MP SET 2024 mirrored syllabus contextual comparison; repository roadmap.",
-      "coverage": [
-        "Diazotrophy and nitrogen fixation",
-        "Mo nitrogenase Fe protein, MoFe protein, P-cluster, FeMo cofactor",
-        "ATP-coupled electron delivery and canonical stoichiometry",
-        "Alternative V and Fe nitrogenases",
-        "Oxygen protection, regulation and biological examples",
-        "ARA, isotope tracer interpretation, quantitative reasoning"
-      ],
-      "review_pass_1": {
-        "result": "pass with limitations",
-        "evidence": "Reviewed electron and proton balance, enzyme/cofactor roles, ATP coupling, oxygen protection, alternative enzymes, ARA versus isotope tracer interpretation and question calculations against sources; internal review only."
-      },
-      "review_pass_2": {
-        "result": "pass with limitations",
-        "evidence": "Checked actual committed chapter, 52 answer mappings, option distribution, revised 23 distractors, 15 misconceptions, 10 recalls, diagram zoom, references section repaired and re-audited; JavaScript compiled."
-      },
-      "quality": {
-        "score": 95,
-        "threshold": 95,
-        "rubric": {
-          "scientific_accuracy": 19,
-          "syllabus_coverage": 15,
-          "teaching_depth": 15,
-          "pedagogy": 10,
-          "illustrations": 9,
-          "questions": 9,
-          "experimental_reasoning": 5,
-          "revision": 5,
-          "reader_accessibility": 4,
-          "technical_seo": 4
+      "word_count_method": "Lexical tokens in 117 p.teaching-prose elements only, excluding questions, references, tables, navigation and captions. Saved blob independently retrieved. No duplicated teaching paragraphs.",
+      "rubric": {
+        "scientific_accuracy": {
+          "score": 19,
+          "max": 20
         },
-        "basis": "Internal assessment. Deductions for simplified mechanistic schematics, limited independent scientific and examination calibration, concise explanations for some distractors and absent rendered-browser accessibility and live technical tests."
+        "syllabus_coverage": {
+          "score": 15,
+          "max": 15
+        },
+        "teaching_depth": {
+          "score": 15,
+          "max": 15
+        },
+        "pedagogy": {
+          "score": 9,
+          "max": 10
+        },
+        "illustrations": {
+          "score": 9,
+          "max": 10
+        },
+        "assessment": {
+          "score": 9,
+          "max": 10
+        },
+        "experimental_reasoning": {
+          "score": 5,
+          "max": 5
+        },
+        "revision": {
+          "score": 5,
+          "max": 5
+        },
+        "reader_accessibility": {
+          "score": 4,
+          "max": 5
+        },
+        "seo_technical": {
+          "score": 5,
+          "max": 5
+        }
       },
-      "validation": {
-        "words_pass": true,
-        "svg_pass": true,
-        "question_count_pass": true,
-        "answer_mapping_pass": true,
+      "score": 95,
+      "coverage_matrix": [
+        {
+          "concept": "Plant respiration in light and darkness",
+          "covered": true
+        },
+        {
+          "concept": "Sucrose starch and glycolysis",
+          "covered": true
+        },
+        {
+          "concept": "Pyruvate transport and compartmentation",
+          "covered": true
+        },
+        {
+          "concept": "Mitochondrial pyruvate dehydrogenase",
+          "covered": true
+        },
+        {
+          "concept": "Citrate synthase",
+          "covered": true
+        },
+        {
+          "concept": "Aconitase",
+          "covered": true
+        },
+        {
+          "concept": "Isocitrate dehydrogenase",
+          "covered": true
+        },
+        {
+          "concept": "2-oxoglutarate dehydrogenase",
+          "covered": true
+        },
+        {
+          "concept": "Succinyl-CoA ligase",
+          "covered": true
+        },
+        {
+          "concept": "Succinate dehydrogenase",
+          "covered": true
+        },
+        {
+          "concept": "Fumarase",
+          "covered": true
+        },
+        {
+          "concept": "Malate dehydrogenase",
+          "covered": true
+        },
+        {
+          "concept": "Reducing equivalents and stoichiometry",
+          "covered": true
+        },
+        {
+          "concept": "Carbon isotope tracing",
+          "covered": true
+        },
+        {
+          "concept": "Oxaloacetate regeneration and anaplerosis",
+          "covered": true
+        },
+        {
+          "concept": "Biosynthetic withdrawal and nitrogen assimilation",
+          "covered": true
+        },
+        {
+          "concept": "Substrate redox and adenylate regulation",
+          "covered": true
+        },
+        {
+          "concept": "Light-dark branched flux and photorespiratory glycine",
+          "covered": true
+        },
+        {
+          "concept": "Experimental evidence and lesion interpretation",
+          "covered": true
+        },
+        {
+          "concept": "Physiological cases and quantitative reasoning",
+          "covered": true
+        }
+      ],
+      "scientific_review": "Internal review of reaction order, carbon balance, enzyme localization, cofactors, plant ATP-forming ligase, complex II, pyruvate import, regulation and branched TCA flux against official syllabus, plant physiology and primary research; recalculated numerical answers; distinguished textbook assumptions from plant physiological variability.",
+      "editorial_review": "Separate check for progression, beginner explanations, worked examples, scientific precision, diagram labeling, original explained questions, comparison with 6.A.04 exemplar, accessible reader controls and link integrity.",
+      "deductions": "One point each for limited independent scientific verification, some repeated caveats, lack of rendered SVG inspection, no external question calibration, and unperformed interactive/accessibility runtime checks.",
+      "static_checks": {
         "duplicate_ids": 0,
-        "unresolved_anchors": 0,
+        "unresolved_fragment_links": 0,
         "unresolved_aria_references": 0,
         "unresolved_zoom_targets": 0,
         "duplicate_teaching_paragraphs": 0,
-        "tag_balance_issues": 0,
-        "js_syntax_compiled": true,
-        "interactive_browser_test": false
+        "html_nesting_errors": 0,
+        "question_answer_mismatches": 0,
+        "script_syntax": "pass",
+        "placeholder_matches": 0,
+        "svg_accessibility_labels": 11,
+        "reciprocal_navigation": "Existing 6.A.08 and 6.B.02 resolve target via current menu; no edits necessary."
       },
+      "source_checks": "Revised CSIR UGC DBT 2026 syllabus and legacy CSIR syllabus, MP SET 2022 syllabus mirror, primary/review literature on plant mitochondrial substrates, pyruvate pools, noncyclic flux and regulation.",
       "limitations": [
-        "Internal editorial review, not independent peer review.",
-        "MP SET syllabus checked via mirror; official host inaccessible.",
-        "No rendered browser, mobile or screen-reader test; static validation only.",
-        "Public site inaccessible during verification; deployment pending."
+        "Internal self-assessment, not external peer review.",
+        "MP SET alignment uses a syllabus mirror rather than independently retrieved current official MPPSC copy.",
+        "Interactive browser rendering, keyboard/assistive technology runtime tests and individual reference HTTP availability not verified."
       ],
       "publication": {
-        "strategy": "Atomic tree/commit and conditional non-force update",
-        "deployment": "pending",
-        "live_verified": false
-      },
-      "progress": {
-        "subunit_published": 5,
-        "subunit_planned": 6,
-        "unit_published": 16,
-        "unit_planned": 66,
-        "academy_published": 265,
-        "academy_planned": 723,
-        "next_pending_node_id": "6.B.01"
-      },
-      "navigation": {
-        "previous": "6.C.04",
-        "next": "6.C.06",
-        "mechanism": "Dynamic reader resolves only published nodes from menu; unpublished neighbors disabled."
-      },
-      "changed_files": [
-        "biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html",
-        "curriculum/academy-progress.json",
-        "index.html",
-        "sitemap.xml",
-        "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
-        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6c05-publication-qa.json"
-      ]
+        "state": "lesson_committed_pages_verification_pending",
+        "atomic": true,
+        "expected_base_sha": "aa78b6c495dbac12a9166a73d7915fae53aa0000",
+        "linked_nodes_before": 265,
+        "linked_nodes_after": 266,
+        "unit_published_after": 17,
+        "subunit_published_after": 4,
+        "next_pending_node_id": "6.B.04",
+        "live_verification": "pending"
+      }
     },
     "subunit_6b": {
       "published_node_ids": [
@@ -48017,6 +48288,14 @@
       "published_node_count": 5,
       "planned_node_count": 6,
       "complete": false
+    },
+    "subunit_6d": {
+      "published_node_ids": [
+        "6.D.01"
+      ],
+      "published_node_count": 1,
+      "planned_node_count": 10,
+      "complete": false
     }
   },
   "unit6b_published_node_ids": [
@@ -48033,5 +48312,9 @@
     "6.C.05",
     "6.C.06"
   ],
-  "unit6c_planned_node_count": 6
+  "unit6c_planned_node_count": 6,
+  "unit6d_published_node_ids": [
+    "6.D.01"
+  ],
+  "unit6d_planned_node_count": 10
 }

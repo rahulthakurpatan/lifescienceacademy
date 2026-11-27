@@ -245,3 +245,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.B.01 — [Plant Respiration and the Citric Acid Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.B: 4/5; Unit 06: 17/66; Academy: 266/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.D.01 — [Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 1/10; Unit 06: 18/66; Academy: 267/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

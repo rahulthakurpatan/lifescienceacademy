@@ -217,3 +217,8 @@
 
 - **5.E.03 — Programmed Cell Death in Animal Development: Sculpting and Cell Selection**: internal academic QA 95/100, 14,070 teaching words, 12 SVGs and 50 explained original questions. [Chapter](../programmed-cell-death-in-animal-development-sculpting-and-cell-selection.html) · [QA record](node-5e03-publication-qa.json). Pages deployment and live availability require separate verification.
 - Concurrent publications preserved. Subunit 5.E: 6/10. Unit 05: 53/57. Academy: 245/723. Next pending: 5.E.06 — Plant Programmed Cell Death: Vacuoles, Proteases and Controlled Dismantling.
+
+### Publication checkpoint — 2026-11-27
+
+- **5.E.08 — Senescence of Plant Organs: Leaves, Flowers and Nutrient Recycling**: internal academic QA 95/100, 14,064 teaching words, 13 accessible SVGs and 52 explained original questions. [Chapter](../senescence-of-plant-organs-leaves-flowers-and-nutrient-recycling.html) · [QA record](node-5e08-publication-qa.json). Pages deployment and live availability require separate verification.
+- Subunit 5.E: 8/10. Unit 05: 55/57. Academy: 247/723. Next pending: 5.E.07 — Plant Developmental Cell Death: Xylem, Tapetum and Tissue Remodeling.

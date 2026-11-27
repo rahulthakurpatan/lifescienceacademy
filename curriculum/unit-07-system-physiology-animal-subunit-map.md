@@ -261,3 +261,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 
 - 7.C.05 — [Gas Exchange and Ventilation–Perfusion Relationships](../gas-exchange-and-ventilation-perfusion-relationships.html): 14,585 teaching words, 14 original SVGs, 55 explained questions (22 Part B, 25 Part C, 8 SET/other), 19 misconceptions and 16 active recall prompts. Internal QA: 95/100, static checks passed; browser rendering not tested. Pages and live verification separate.
 - Subunit 7.C: 6/8; Unit 07: 22/90; Academy: 337/723. Next unpublished node: 7.C.06 — Oxygen Transport and Respiratory Pigments.
+
+
+### Publication checkpoint — 2026-11-27 — 7.C.06
+
+- 7.C.06 — [Oxygen Transport and Respiratory Pigments](../oxygen-transport-and-respiratory-pigments.html); 14,248 genuine teaching words, 16 SVGs, 56 explained questions (20 Part B, 26 Part C, 10 SET), 18 misconceptions and 14 active recall prompts. Internal academic/editorial QA: 95/100; deployment and live verification tracked separately.
+- Subunit 7.C: 7/8; Unit 07: 23/90; Academy: 338/723. Next unpublished node: 7.C.08 — Neural and Chemical Regulation of Respiration.

@@ -261,3 +261,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.D.09 — [Jasmonates: Wound Signaling and Herbivore Defense](https://rahulthakurpatan.github.io/lifescienceacademy/jasmonates-wound-signaling-and-herbivore-defense.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 4/10; Unit 06: 21/66; Academy: 270/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.D.03 — [Cytokinins: Cell Division, Meristem Activity and Organ Formation](https://rahulthakurpatan.github.io/lifescienceacademy/cytokinins-cell-division-meristem-activity-and-organ-formation.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 5/10; next unpublished in this subunit: 6.D.02.
+- Unit 06: 22/66; academy: 271/723. Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

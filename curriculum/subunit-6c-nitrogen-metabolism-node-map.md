@@ -157,3 +157,6 @@
 
 - 6.C.05 — [Biological Nitrogen Fixation: Nitrogenase and Energy Requirements](https://rahulthakurpatan.github.io/lifescienceacademy/biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 5/6; next unpublished in this subunit: 6.C.04 — Amino Acid Biosynthesis and Carbon–Nitrogen Integration.
+
+- 6.C.04 — [Amino Acid Biosynthesis and Carbon–Nitrogen Integration](https://rahulthakurpatan.github.io/lifescienceacademy/amino-acid-biosynthesis-and-carbon-nitrogen-integration.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.C: 6/6; all planned lessons linked. Next pending Academy node: 6.H.01 — Foundations of Plant Stress Physiology.

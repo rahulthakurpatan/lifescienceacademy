@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.D.07",
-  "title": "Abscisic Acid: Seed Dormancy and Water-Stress Signaling",
-  "subunit": "6.D",
-  "topic": "Plant Hormones",
-  "slug": "abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
-  "next_pending_node_id": "6.B.04",
-  "next_pending_node_title": "Alternative Oxidase and Alternative Respiratory Pathways",
-  "published_node_count": 301,
+  "node_id": "6.C.04",
+  "title": "Amino Acid Biosynthesis and Carbon–Nitrogen Integration",
+  "subunit": "6.C",
+  "topic": "Nitrogen Metabolism",
+  "slug": "amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
+  "next_pending_node_id": "6.H.01",
+  "next_pending_node_title": "Foundations of Plant Stress Physiology",
+  "published_node_count": 303,
   "publication_allowed": true,
-  "main_baseline_sha": "dd359fcaadd03b5eeb33542d3b83b103a717c8a7",
+  "main_baseline_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
   "quality_hold": false,
   "next_required_action": "Verify GitHub Pages and live chapter.",
   "planned_node_count": 66,
@@ -21,49 +21,91 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.D.07",
-    "title": "Abscisic Acid: Seed Dormancy and Water-Stress Signaling",
-    "slug": "abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
+    "node_id": "6.C.04",
+    "title": "Amino Acid Biosynthesis and Carbon–Nitrogen Integration",
+    "slug": "amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
     "unit": "06",
-    "subunit": "6.D",
-    "topic": "Plant Hormones",
+    "subunit": "6.C",
+    "topic": "Nitrogen Metabolism",
     "date": "2026-11-27",
-    "status": "internal_content_and_anchor_review_completed_pages_verification_pending",
-    "source_draft_branch": "draft/6d07-abscisic-acid",
-    "source_draft_blob_sha": "ab3a6a3eb226859f55a9f2cbe3d5dfc2460297b2",
-    "publication_base_sha": "dd359fcaadd03b5eeb33542d3b83b103a717c8a7",
+    "status": "internal_academic_qa_passed_static_checks_complete",
+    "source_draft_branch": "draft/6-c-04-amino-acid-biosynthesis",
+    "source_draft_commit_sha": "a242484307216d743a4c06297425b69fefb3f437",
+    "source_draft_blob_sha": "dbbd9d2a8e5fe5d6a23d18af7c719e64c43d8cc5",
+    "publication_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
     "metrics": {
-      "genuine_teaching_words": 9068,
-      "teaching_paragraphs": 89,
-      "sections": 14,
+      "genuine_teaching_words": 13056,
+      "teaching_paragraphs": 141,
+      "teaching_sections": 10,
+      "article_visible_words_estimate": 17455,
       "scientific_svgs": 10,
-      "total_questions": 45,
-      "part_b": 20,
-      "part_c": 25
+      "graphs": 2,
+      "scientific_tables": 4,
+      "part_b": 25,
+      "part_c": 23,
+      "assertion_reason": 2,
+      "total_questions": 50,
+      "answer_explanations": 50,
+      "misconceptions": 18,
+      "active_recall": 14,
+      "references": 16
     },
-    "coverage": "Carotenoid cleavage NCED, ABA2, AAO3, ABA3, ABA-GE, CYP707A, transport and pH, PYR/PYL–PP2C–SnRK2, AREB/ABF, guard-cell ion flux, seed dormancy and GA, water-use tradeoffs, genetics and quantitative reasoning.",
+    "word_count_method": "Whitespace tokens in p.teaching-prose, excluding markup, questions, tables and diagrams.",
+    "comparison": "Adjacent 6.C.03 has approximately 13,823 teaching-prose words by the same method; the revised 6.C.04 has comparable substantive narrative length and coverage.",
+    "coverage": "Glutamate/glutamine and position-specific N donation; PLP reaction and equilibrium; Asp/Asn synthesis and transport economics; aspartate, BCAA, glutamate, aromatic, serine/glycine/cysteine and histidine families; feedback and compartmentation; ATP/electron costs; carbon skeleton replenishment; source/sink and seed filling; isotope tracing and enzyme/rescue experiments.",
+    "review": "Expanded substantive teaching from roughly 6,200 to 13,056 words, 20 to 50 questions and 4 to 10 diagrams. Checked pathway overview and feedback against Galili et al. 2016 PMID 26735064, Arabidopsis aspartate-derived pathways PMC3243338, amino acid regulation PMID25114014, nitrogen remobilization PMC2887065, plant amino acid transport PMC7466100 and C/N balance PMC12018728. Reviewed calculations and answer mappings; corrected mislabeled adjacent chapter, improved zoom accessibility and focus return. Original examples and graphs are explicitly illustrative.",
+    "rubric": {
+      "scientific_accuracy": 19,
+      "syllabus_coverage": 15,
+      "teaching_depth": 15,
+      "pedagogy": 9,
+      "illustrations": 9,
+      "assessment": 9,
+      "experimental_reasoning": 5,
+      "revision": 5,
+      "reader_accessibility": 4,
+      "seo_technical": 5
+    },
+    "score": 95,
+    "score_basis": "Internal editorial self-assessment, not independent peer review; deductions for limited exhaustive source review, visual rendering, some simple distractors, and lack of runtime/accessibility testing.",
     "static_checks": {
       "duplicate_ids": 0,
-      "unresolved_local_anchors": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_references": 0,
       "unresolved_zoom_targets": 0,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html"
+      "javascript_syntax": "compiled",
+      "question_blocks": 50,
+      "answer_mapping": "50/50 four-option answer blocks",
+      "duplicate_teaching_paragraphs": 0,
+      "robots": "index,follow",
+      "menu_entry": 1,
+      "sitemap_entry": 1
     },
     "limitations": [
-      "No independent expert review or numerical QA score assigned.",
-      "Browser interaction and live deployment not yet verified.",
-      "Narrative shorter than adjacent 6.D.08; existing draft expanded rather than claiming equal word count."
+      "No independent peer review.",
+      "No browser/mobile/keyboard runtime or all-reference URL verification.",
+      "GitHub Pages deployment and live availability pending."
     ],
     "navigation": {
-      "previous": "6.D.06",
-      "next": "6.D.08"
+      "previous": "6.C.03",
+      "next": "6.C.05"
     },
     "publication": {
       "state": "lesson_committed_pages_verification_pending",
-      "published_node_count": 301,
-      "unit_published_count": 52,
-      "subunit_published_count": 9,
-      "live_verified": false
+      "strategy": "Atomic tree, non-force main ref update",
+      "expected_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
+      "subunit_published_after": 6,
+      "unit_published_after": 54,
+      "academy_published_after": 303,
+      "live_verification": "pending"
+    },
+    "checkpoint_reconciliation": {
+      "basis": "All linked curriculum IDs verified against chapter paths and sitemap",
+      "previous_checkpoint_missing": [
+        "6.D.05"
+      ],
+      "next": "6.H.01"
     }
   },
   "published_node_ids": [
@@ -332,12 +374,14 @@
     "6.C.01",
     "6.C.02",
     "6.C.03",
+    "6.C.04",
     "6.C.05",
     "6.C.06",
     "6.D.01",
     "6.D.02",
     "6.D.03",
     "6.D.04",
+    "6.D.05",
     "6.D.06",
     "6.D.07",
     "6.D.08",
@@ -451,84 +495,49 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "6.D.08",
-    "title": "Ethylene: Gaseous Signaling, Ripening and Senescence",
-    "slug": "ethylene-gaseous-signaling-ripening-and-senescence.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/ethylene-gaseous-signaling-ripening-and-senescence.html",
+    "node_id": "6.D.07",
+    "title": "Abscisic Acid: Seed Dormancy and Water-Stress Signaling",
+    "slug": "abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
     "unit": "06",
     "subunit": "6.D",
     "topic": "Plant Hormones",
     "date": "2026-11-27",
-    "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "draft/6-d-08-ethylene-20261127",
-    "source_draft_commit_sha": "34275f8b7f9f81dac6b6135e81651080f27c84d7",
-    "source_draft_blob_sha": "d5384138ac03ae5f3441c6492a9f6571c0a1a550",
-    "publication_base_sha": "669fa9e71e0d427aebc918f1c2d7cade4232745b",
+    "status": "internal_content_and_anchor_review_completed_pages_verification_pending",
+    "source_draft_branch": "draft/6d07-abscisic-acid",
+    "source_draft_blob_sha": "ab3a6a3eb226859f55a9f2cbe3d5dfc2460297b2",
+    "publication_base_sha": "dd359fcaadd03b5eeb33542d3b83b103a717c8a7",
     "metrics": {
-      "genuine_teaching_words": 13718,
-      "teaching_paragraphs": 139,
-      "teaching_sections": 18,
-      "article_visible_words_estimate": 18997,
-      "scientific_svgs": 11,
-      "graphs": 2,
-      "scientific_tables": 5,
+      "genuine_teaching_words": 9068,
+      "teaching_paragraphs": 89,
+      "sections": 14,
+      "scientific_svgs": 10,
+      "total_questions": 45,
       "part_b": 20,
-      "part_c": 20,
-      "additional_questions": 10,
-      "total_questions": 50,
-      "answer_explanations": 50,
-      "misconceptions": 20,
-      "active_recall": 14,
-      "references": 21
+      "part_c": 25
     },
-    "word_count_method": "Whitespace-separated tokens in p.teaching-prose elements after stripping markup; article estimate excludes SVG, includes headings, tables, questions, and references.",
-    "comparison": "Adjacent 6.D.10 internal QA reports 14,369 lexical narrative words, 17 sections, 50 explained questions; 6.D.08 is comparable in breadth and narrative depth (counts use slightly different methods).",
-    "coverage": "Ethylene chemistry and gas movement; ACS/ACO and oxygen dependence; Yang cycle and ACC transport/conjugation; ER receptors, CTR1, EIN2, EIN3/EIL and feedback; mutant epistasis and triple response; dose and chamber flux calculations; climacteric and nonclimacteric ripening; abscission and floral senescence; flooding, rice strategies and hormonal crosstalk. Syllabus mapping retained from draft.",
-    "review": "Prior draft internally rated 94. This pass independently checked biosynthetic and receptor logic against Van de Poel et al. review (PMID 32790878), Schaller et al. ethylene signaling review (PMID 32332098), Ju et al. (PMID 23132950), Qiao et al. (PMID 22936567), Roman et al. (PMID 7768447), ETR1 loss-of-function (PMID 12177468), 1-MCP meta-analysis (PMID 33328458) and nonclimacteric review (PMC11082881). Expanded 16 question explanations with mechanism and distractor analysis; improved all diagram zoom button names and added focus return.",
-    "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 9,
-      "illustrations": 9,
-      "assessment": 10,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "seo_technical": 4
-    },
-    "score": 95,
-    "threshold": 95,
-    "score_basis": "Internal self-assessment; assessment raised from 9 to 10 following substantive rationales across 16 previously less developed questions. Browser/technical deductions retained.",
+    "coverage": "Carotenoid cleavage NCED, ABA2, AAO3, ABA3, ABA-GE, CYP707A, transport and pH, PYR/PYL–PP2C–SnRK2, AREB/ABF, guard-cell ion flux, seed dormancy and GA, water-use tradeoffs, genetics and quantitative reasoning.",
     "static_checks": {
       "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria_references": 0,
+      "unresolved_local_anchors": 0,
       "unresolved_zoom_targets": 0,
-      "javascript_syntax": "compiled",
-      "question_blocks": 50,
-      "zoom_controls": 11,
-      "robots": "index,follow",
-      "menu_entry": 1,
-      "sitemap_entry": 1
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html"
     },
     "limitations": [
-      "Internal self-assessment, not independent peer review.",
-      "Full browser/mobile/keyboard and all reference reachability tests not completed; local runtime cannot resolve raw.githubusercontent.com. Accessibility and technical deductions retained.",
-      "Live Pages availability not yet verified; a main commit is not a live deployment confirmation."
+      "No independent expert review or numerical QA score assigned.",
+      "Browser interaction and live deployment not yet verified.",
+      "Narrative shorter than adjacent 6.D.08; existing draft expanded rather than claiming equal word count."
     ],
     "navigation": {
-      "previous": "6.D.07",
-      "next": "6.D.09",
-      "mechanism": "Resolve immediately adjacent linked menu nodes dynamically."
+      "previous": "6.D.06",
+      "next": "6.D.08"
     },
     "publication": {
       "state": "lesson_committed_pages_verification_pending",
-      "strategy": "Atomic tree, conditional non-force main ref update",
-      "expected_base_sha": "669fa9e71e0d427aebc918f1c2d7cade4232745b",
-      "subunit_published_after": 8,
-      "unit_published_after": 50,
-      "live_verification": "pending"
+      "published_node_count": 301,
+      "unit_published_count": 52,
+      "subunit_published_count": 9,
+      "live_verified": false
     }
   },
   "unit_02": {
@@ -2048,7 +2057,7 @@
     "last_published_node_id": "5.E.10",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-6d-plant-hormones-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-6c-nitrogen-metabolism-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -48110,7 +48119,7 @@
       ]
     }
   },
-  "next_topic_roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+  "next_topic_roadmap": "curriculum/subunit-6h-stress-physiology-node-map.md",
   "unit6a_published_node_ids": [
     "6.A.01",
     "6.A.02",
@@ -48140,12 +48149,14 @@
       "6.C.01",
       "6.C.02",
       "6.C.03",
+      "6.C.04",
       "6.C.05",
       "6.C.06",
       "6.D.01",
       "6.D.02",
       "6.D.03",
       "6.D.04",
+      "6.D.05",
       "6.D.06",
       "6.D.07",
       "6.D.08",
@@ -48177,55 +48188,97 @@
       "6.G.09",
       "6.G.10"
     ],
-    "published_node_count": 52,
+    "published_node_count": 54,
     "planned_node_count": 66,
-    "last_published_node_id": "6.D.07",
+    "last_published_node_id": "6.C.04",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.D.07",
-      "title": "Abscisic Acid: Seed Dormancy and Water-Stress Signaling",
-      "slug": "abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
+      "node_id": "6.C.04",
+      "title": "Amino Acid Biosynthesis and Carbon–Nitrogen Integration",
+      "slug": "amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
       "unit": "06",
-      "subunit": "6.D",
-      "topic": "Plant Hormones",
+      "subunit": "6.C",
+      "topic": "Nitrogen Metabolism",
       "date": "2026-11-27",
-      "status": "internal_content_and_anchor_review_completed_pages_verification_pending",
-      "source_draft_branch": "draft/6d07-abscisic-acid",
-      "source_draft_blob_sha": "ab3a6a3eb226859f55a9f2cbe3d5dfc2460297b2",
-      "publication_base_sha": "dd359fcaadd03b5eeb33542d3b83b103a717c8a7",
+      "status": "internal_academic_qa_passed_static_checks_complete",
+      "source_draft_branch": "draft/6-c-04-amino-acid-biosynthesis",
+      "source_draft_commit_sha": "a242484307216d743a4c06297425b69fefb3f437",
+      "source_draft_blob_sha": "dbbd9d2a8e5fe5d6a23d18af7c719e64c43d8cc5",
+      "publication_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
       "metrics": {
-        "genuine_teaching_words": 9068,
-        "teaching_paragraphs": 89,
-        "sections": 14,
+        "genuine_teaching_words": 13056,
+        "teaching_paragraphs": 141,
+        "teaching_sections": 10,
+        "article_visible_words_estimate": 17455,
         "scientific_svgs": 10,
-        "total_questions": 45,
-        "part_b": 20,
-        "part_c": 25
+        "graphs": 2,
+        "scientific_tables": 4,
+        "part_b": 25,
+        "part_c": 23,
+        "assertion_reason": 2,
+        "total_questions": 50,
+        "answer_explanations": 50,
+        "misconceptions": 18,
+        "active_recall": 14,
+        "references": 16
       },
-      "coverage": "Carotenoid cleavage NCED, ABA2, AAO3, ABA3, ABA-GE, CYP707A, transport and pH, PYR/PYL–PP2C–SnRK2, AREB/ABF, guard-cell ion flux, seed dormancy and GA, water-use tradeoffs, genetics and quantitative reasoning.",
+      "word_count_method": "Whitespace tokens in p.teaching-prose, excluding markup, questions, tables and diagrams.",
+      "comparison": "Adjacent 6.C.03 has approximately 13,823 teaching-prose words by the same method; the revised 6.C.04 has comparable substantive narrative length and coverage.",
+      "coverage": "Glutamate/glutamine and position-specific N donation; PLP reaction and equilibrium; Asp/Asn synthesis and transport economics; aspartate, BCAA, glutamate, aromatic, serine/glycine/cysteine and histidine families; feedback and compartmentation; ATP/electron costs; carbon skeleton replenishment; source/sink and seed filling; isotope tracing and enzyme/rescue experiments.",
+      "review": "Expanded substantive teaching from roughly 6,200 to 13,056 words, 20 to 50 questions and 4 to 10 diagrams. Checked pathway overview and feedback against Galili et al. 2016 PMID 26735064, Arabidopsis aspartate-derived pathways PMC3243338, amino acid regulation PMID25114014, nitrogen remobilization PMC2887065, plant amino acid transport PMC7466100 and C/N balance PMC12018728. Reviewed calculations and answer mappings; corrected mislabeled adjacent chapter, improved zoom accessibility and focus return. Original examples and graphs are explicitly illustrative.",
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "assessment": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "seo_technical": 5
+      },
+      "score": 95,
+      "score_basis": "Internal editorial self-assessment, not independent peer review; deductions for limited exhaustive source review, visual rendering, some simple distractors, and lack of runtime/accessibility testing.",
       "static_checks": {
         "duplicate_ids": 0,
-        "unresolved_local_anchors": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_references": 0,
         "unresolved_zoom_targets": 0,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html"
+        "javascript_syntax": "compiled",
+        "question_blocks": 50,
+        "answer_mapping": "50/50 four-option answer blocks",
+        "duplicate_teaching_paragraphs": 0,
+        "robots": "index,follow",
+        "menu_entry": 1,
+        "sitemap_entry": 1
       },
       "limitations": [
-        "No independent expert review or numerical QA score assigned.",
-        "Browser interaction and live deployment not yet verified.",
-        "Narrative shorter than adjacent 6.D.08; existing draft expanded rather than claiming equal word count."
+        "No independent peer review.",
+        "No browser/mobile/keyboard runtime or all-reference URL verification.",
+        "GitHub Pages deployment and live availability pending."
       ],
       "navigation": {
-        "previous": "6.D.06",
-        "next": "6.D.08"
+        "previous": "6.C.03",
+        "next": "6.C.05"
       },
       "publication": {
         "state": "lesson_committed_pages_verification_pending",
-        "published_node_count": 301,
-        "unit_published_count": 52,
-        "subunit_published_count": 9,
-        "live_verified": false
+        "strategy": "Atomic tree, non-force main ref update",
+        "expected_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
+        "subunit_published_after": 6,
+        "unit_published_after": 54,
+        "academy_published_after": 303,
+        "live_verification": "pending"
+      },
+      "checkpoint_reconciliation": {
+        "basis": "All linked curriculum IDs verified against chapter paths and sitemap",
+        "previous_checkpoint_missing": [
+          "6.D.05"
+        ],
+        "next": "6.H.01"
       }
     },
     "qa_by_node": {
@@ -54849,10 +54902,98 @@
           "subunit_published_count": 9,
           "live_verified": false
         }
+      },
+      "6.C.04": {
+        "node_id": "6.C.04",
+        "title": "Amino Acid Biosynthesis and Carbon–Nitrogen Integration",
+        "slug": "amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
+        "unit": "06",
+        "subunit": "6.C",
+        "topic": "Nitrogen Metabolism",
+        "date": "2026-11-27",
+        "status": "internal_academic_qa_passed_static_checks_complete",
+        "source_draft_branch": "draft/6-c-04-amino-acid-biosynthesis",
+        "source_draft_commit_sha": "a242484307216d743a4c06297425b69fefb3f437",
+        "source_draft_blob_sha": "dbbd9d2a8e5fe5d6a23d18af7c719e64c43d8cc5",
+        "publication_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
+        "metrics": {
+          "genuine_teaching_words": 13056,
+          "teaching_paragraphs": 141,
+          "teaching_sections": 10,
+          "article_visible_words_estimate": 17455,
+          "scientific_svgs": 10,
+          "graphs": 2,
+          "scientific_tables": 4,
+          "part_b": 25,
+          "part_c": 23,
+          "assertion_reason": 2,
+          "total_questions": 50,
+          "answer_explanations": 50,
+          "misconceptions": 18,
+          "active_recall": 14,
+          "references": 16
+        },
+        "word_count_method": "Whitespace tokens in p.teaching-prose, excluding markup, questions, tables and diagrams.",
+        "comparison": "Adjacent 6.C.03 has approximately 13,823 teaching-prose words by the same method; the revised 6.C.04 has comparable substantive narrative length and coverage.",
+        "coverage": "Glutamate/glutamine and position-specific N donation; PLP reaction and equilibrium; Asp/Asn synthesis and transport economics; aspartate, BCAA, glutamate, aromatic, serine/glycine/cysteine and histidine families; feedback and compartmentation; ATP/electron costs; carbon skeleton replenishment; source/sink and seed filling; isotope tracing and enzyme/rescue experiments.",
+        "review": "Expanded substantive teaching from roughly 6,200 to 13,056 words, 20 to 50 questions and 4 to 10 diagrams. Checked pathway overview and feedback against Galili et al. 2016 PMID 26735064, Arabidopsis aspartate-derived pathways PMC3243338, amino acid regulation PMID25114014, nitrogen remobilization PMC2887065, plant amino acid transport PMC7466100 and C/N balance PMC12018728. Reviewed calculations and answer mappings; corrected mislabeled adjacent chapter, improved zoom accessibility and focus return. Original examples and graphs are explicitly illustrative.",
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "assessment": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "seo_technical": 5
+        },
+        "score": 95,
+        "score_basis": "Internal editorial self-assessment, not independent peer review; deductions for limited exhaustive source review, visual rendering, some simple distractors, and lack of runtime/accessibility testing.",
+        "static_checks": {
+          "duplicate_ids": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria_references": 0,
+          "unresolved_zoom_targets": 0,
+          "javascript_syntax": "compiled",
+          "question_blocks": 50,
+          "answer_mapping": "50/50 four-option answer blocks",
+          "duplicate_teaching_paragraphs": 0,
+          "robots": "index,follow",
+          "menu_entry": 1,
+          "sitemap_entry": 1
+        },
+        "limitations": [
+          "No independent peer review.",
+          "No browser/mobile/keyboard runtime or all-reference URL verification.",
+          "GitHub Pages deployment and live availability pending."
+        ],
+        "navigation": {
+          "previous": "6.C.03",
+          "next": "6.C.05"
+        },
+        "publication": {
+          "state": "lesson_committed_pages_verification_pending",
+          "strategy": "Atomic tree, non-force main ref update",
+          "expected_base_sha": "c6a12589cce085ad32f3f72f65d6e61dd4d8e617",
+          "subunit_published_after": 6,
+          "unit_published_after": 54,
+          "academy_published_after": 303,
+          "live_verification": "pending"
+        },
+        "checkpoint_reconciliation": {
+          "basis": "All linked curriculum IDs verified against chapter paths and sitemap",
+          "previous_checkpoint_missing": [
+            "6.D.05"
+          ],
+          "next": "6.H.01"
+        }
       }
     },
-    "next_pending_node_id": "6.B.04",
-    "next_pending_node_title": "Alternative Oxidase and Alternative Respiratory Pathways",
+    "next_pending_node_id": "6.H.01",
+    "next_pending_node_title": "Foundations of Plant Stress Physiology",
     "complete": false,
     "subunit_6a": {
       "published_node_ids": [
@@ -54870,84 +55011,49 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.D.08",
-      "title": "Ethylene: Gaseous Signaling, Ripening and Senescence",
-      "slug": "ethylene-gaseous-signaling-ripening-and-senescence.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/ethylene-gaseous-signaling-ripening-and-senescence.html",
+      "node_id": "6.D.07",
+      "title": "Abscisic Acid: Seed Dormancy and Water-Stress Signaling",
+      "slug": "abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
       "unit": "06",
       "subunit": "6.D",
       "topic": "Plant Hormones",
       "date": "2026-11-27",
-      "status": "internal_academic_qa_passed_static_checks_complete",
-      "source_draft_branch": "draft/6-d-08-ethylene-20261127",
-      "source_draft_commit_sha": "34275f8b7f9f81dac6b6135e81651080f27c84d7",
-      "source_draft_blob_sha": "d5384138ac03ae5f3441c6492a9f6571c0a1a550",
-      "publication_base_sha": "669fa9e71e0d427aebc918f1c2d7cade4232745b",
+      "status": "internal_content_and_anchor_review_completed_pages_verification_pending",
+      "source_draft_branch": "draft/6d07-abscisic-acid",
+      "source_draft_blob_sha": "ab3a6a3eb226859f55a9f2cbe3d5dfc2460297b2",
+      "publication_base_sha": "dd359fcaadd03b5eeb33542d3b83b103a717c8a7",
       "metrics": {
-        "genuine_teaching_words": 13718,
-        "teaching_paragraphs": 139,
-        "teaching_sections": 18,
-        "article_visible_words_estimate": 18997,
-        "scientific_svgs": 11,
-        "graphs": 2,
-        "scientific_tables": 5,
+        "genuine_teaching_words": 9068,
+        "teaching_paragraphs": 89,
+        "sections": 14,
+        "scientific_svgs": 10,
+        "total_questions": 45,
         "part_b": 20,
-        "part_c": 20,
-        "additional_questions": 10,
-        "total_questions": 50,
-        "answer_explanations": 50,
-        "misconceptions": 20,
-        "active_recall": 14,
-        "references": 21
+        "part_c": 25
       },
-      "word_count_method": "Whitespace-separated tokens in p.teaching-prose elements after stripping markup; article estimate excludes SVG, includes headings, tables, questions, and references.",
-      "comparison": "Adjacent 6.D.10 internal QA reports 14,369 lexical narrative words, 17 sections, 50 explained questions; 6.D.08 is comparable in breadth and narrative depth (counts use slightly different methods).",
-      "coverage": "Ethylene chemistry and gas movement; ACS/ACO and oxygen dependence; Yang cycle and ACC transport/conjugation; ER receptors, CTR1, EIN2, EIN3/EIL and feedback; mutant epistasis and triple response; dose and chamber flux calculations; climacteric and nonclimacteric ripening; abscission and floral senescence; flooding, rice strategies and hormonal crosstalk. Syllabus mapping retained from draft.",
-      "review": "Prior draft internally rated 94. This pass independently checked biosynthetic and receptor logic against Van de Poel et al. review (PMID 32790878), Schaller et al. ethylene signaling review (PMID 32332098), Ju et al. (PMID 23132950), Qiao et al. (PMID 22936567), Roman et al. (PMID 7768447), ETR1 loss-of-function (PMID 12177468), 1-MCP meta-analysis (PMID 33328458) and nonclimacteric review (PMC11082881). Expanded 16 question explanations with mechanism and distractor analysis; improved all diagram zoom button names and added focus return.",
-      "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogy": 9,
-        "illustrations": 9,
-        "assessment": 10,
-        "experimental_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "seo_technical": 4
-      },
-      "score": 95,
-      "threshold": 95,
-      "score_basis": "Internal self-assessment; assessment raised from 9 to 10 following substantive rationales across 16 previously less developed questions. Browser/technical deductions retained.",
+      "coverage": "Carotenoid cleavage NCED, ABA2, AAO3, ABA3, ABA-GE, CYP707A, transport and pH, PYR/PYL–PP2C–SnRK2, AREB/ABF, guard-cell ion flux, seed dormancy and GA, water-use tradeoffs, genetics and quantitative reasoning.",
       "static_checks": {
         "duplicate_ids": 0,
-        "unresolved_anchors": 0,
-        "unresolved_aria_references": 0,
+        "unresolved_local_anchors": 0,
         "unresolved_zoom_targets": 0,
-        "javascript_syntax": "compiled",
-        "question_blocks": 50,
-        "zoom_controls": 11,
-        "robots": "index,follow",
-        "menu_entry": 1,
-        "sitemap_entry": 1
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html"
       },
       "limitations": [
-        "Internal self-assessment, not independent peer review.",
-        "Full browser/mobile/keyboard and all reference reachability tests not completed; local runtime cannot resolve raw.githubusercontent.com. Accessibility and technical deductions retained.",
-        "Live Pages availability not yet verified; a main commit is not a live deployment confirmation."
+        "No independent expert review or numerical QA score assigned.",
+        "Browser interaction and live deployment not yet verified.",
+        "Narrative shorter than adjacent 6.D.08; existing draft expanded rather than claiming equal word count."
       ],
       "navigation": {
-        "previous": "6.D.07",
-        "next": "6.D.09",
-        "mechanism": "Resolve immediately adjacent linked menu nodes dynamically."
+        "previous": "6.D.06",
+        "next": "6.D.08"
       },
       "publication": {
         "state": "lesson_committed_pages_verification_pending",
-        "strategy": "Atomic tree, conditional non-force main ref update",
-        "expected_base_sha": "669fa9e71e0d427aebc918f1c2d7cade4232745b",
-        "subunit_published_after": 8,
-        "unit_published_after": 50,
-        "live_verification": "pending"
+        "published_node_count": 301,
+        "unit_published_count": 52,
+        "subunit_published_count": 9,
+        "live_verified": false
       }
     },
     "subunit_6b": {
@@ -54955,23 +55061,25 @@
         "6.B.01",
         "6.B.02",
         "6.B.03",
+        "6.B.04",
         "6.B.05"
       ],
-      "published_node_count": 4,
+      "published_node_count": 5,
       "planned_node_count": 5,
-      "complete": false
+      "complete": true
     },
     "subunit_6c": {
       "published_node_ids": [
         "6.C.01",
         "6.C.02",
         "6.C.03",
+        "6.C.04",
         "6.C.05",
         "6.C.06"
       ],
-      "published_node_count": 5,
+      "published_node_count": 6,
       "planned_node_count": 6,
-      "complete": false
+      "complete": true
     },
     "subunit_6d": {
       "published_node_ids": [
@@ -54979,15 +55087,16 @@
         "6.D.02",
         "6.D.03",
         "6.D.04",
+        "6.D.05",
         "6.D.06",
         "6.D.07",
         "6.D.08",
         "6.D.09",
         "6.D.10"
       ],
-      "published_node_count": 9,
+      "published_node_count": 10,
       "planned_node_count": 10,
-      "complete": false
+      "complete": true
     },
     "subunit_6e": {
       "published_node_ids": [
@@ -55046,6 +55155,7 @@
     "6.B.01",
     "6.B.02",
     "6.B.03",
+    "6.B.04",
     "6.B.05"
   ],
   "unit6b_planned_node_count": 5,
@@ -55053,6 +55163,7 @@
     "6.C.01",
     "6.C.02",
     "6.C.03",
+    "6.C.04",
     "6.C.05",
     "6.C.06"
   ],
@@ -55062,6 +55173,7 @@
     "6.D.02",
     "6.D.03",
     "6.D.04",
+    "6.D.05",
     "6.D.06",
     "6.D.07",
     "6.D.08",
@@ -55069,7 +55181,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/amino-acid-biosynthesis-and-carbon-nitrogen-integration.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",

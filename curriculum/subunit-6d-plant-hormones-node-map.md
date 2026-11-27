@@ -194,3 +194,6 @@
 
 - 6.D.01 — [Fundamentals of Plant Hormones: Biosynthesis, Transport and Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/fundamentals-of-plant-hormones-biosynthesis-transport-and-signaling.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 1/10; next unpublished in this subunit: 6.D.02 — Auxins: Polar Transport, Cell Elongation and Developmental Regulation.
+
+- 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.D: 2/10; next unpublished in this subunit: 6.D.03 — Cytokinins: Cell Division, Meristem Activity and Organ Formation.

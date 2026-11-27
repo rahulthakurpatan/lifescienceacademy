@@ -135,3 +135,9 @@
 - NCBI Bookshelf developmental and plant nitrogen context: https://www.ncbi.nlm.nih.gov/books/NBK22546/
 - General plant nitrogen regulation overview: https://pmc.ncbi.nlm.nih.gov/articles/PMC8075885/
 - Biological N fixation and symbiosis: https://pmc.ncbi.nlm.nih.gov/articles/PMC9108545/
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.C.01 — [Nitrogen Nutrition: Sources, Uptake and Metabolic Entry](https://rahulthakurpatan.github.io/lifescienceacademy/nitrogen-nutrition-sources-uptake-and-metabolic-entry.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.C: 1/6; next unpublished in this subunit: 6.C.02 — Nitrate and Nitrite Reduction in Plants.

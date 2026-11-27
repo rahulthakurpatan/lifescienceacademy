@@ -168,3 +168,9 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.E.01 — Foundations of Programmed Cell Death, Senescence and Aging**: internal academic QA 95/100, 14,907 teaching words, 14 SVGs and 52 explained original questions. [Chapter](../foundations-of-programmed-cell-death-senescence-and-aging.html) · [QA record](node-5e01-publication-qa.json). Pages deployment and live availability require separate verification.
 - Subunit 5.E: 1/10. Unit 05: 48/57. Academy: 240/723. Next pending: 5.E.02 — Animal Apoptosis: Initiation, Caspases and Cellular Dismantling.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.E.05 — Aging in Animals: Tissue Maintenance, Damage and Stem-Cell Decline**: academic QA 95/100 (internal), 13961 teaching words, 50 explained original questions, 12 accessible SVG diagrams; [chapter](../aging-in-animals-tissue-maintenance-damage-and-stem-cell-decline.html) and [QA record](node-5e05-publication-qa.json) included in the publication tree. Pages verification is separate.
+- Subunit 5.E: 3/10. Unit 05: 50/57. Academy: 242/723. Next pending: 5.E.02 — Animal Apoptosis: Initiation, Caspases and Cellular Dismantling.

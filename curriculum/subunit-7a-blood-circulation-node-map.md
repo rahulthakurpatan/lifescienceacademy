@@ -115,3 +115,9 @@ All explicit official topic groups have a substantive assigned home; examples su
 
 - 7.A.01: [Blood Composition and Plasma Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/blood-composition-and-plasma-physiology.html) — 14,636 teaching words; 15 scientific SVGs; 58 explained questions; internal QA 95/100. Production integration prepared; Pages verification pending.
 - Published nodes: 1/8. Next pending: 7.A.02 — Haematopoiesis and Blood Cell Differentiation.
+
+## Publication checkpoint — 2026-11-27
+
+- 7.A.04 — [Leukocytes and Blood-Mediated Immunity](https://rahulthakurpatan.github.io/lifescienceacademy/leukocytes-and-blood-mediated-immunity.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
+- Teaching prose: 14,226 words in 159 distinct paragraphs; 11 original scientific SVGs, 1 graph, 6 tables, 52 explained questions (20 Part B, 20 Part C, 12 mixed NET/SET), 15 misconceptions, 11 active-recall prompts and 18 references.
+- Subunit 7.A: 2/8; Unit 07: 2/90; Academy: 317/723. Next global pending: 7.A.02 — Haematopoiesis and Blood Cell Differentiation.

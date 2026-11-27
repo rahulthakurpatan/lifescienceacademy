@@ -185,3 +185,10 @@ All explicit syllabus requirements are mapped; representative stress examples do
 - 6.H.02 — [Stress Perception and Molecular Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/stress-perception-and-molecular-signaling.html); internal academic QA 95/100, static checks complete; Pages verification pending.
 - Teaching prose: 13,504 words; 12 scientific SVGs, 5 tables and 50 explained questions. Subunit 6.H: 6/12; Unit 06: 60/66; Academy: 309/723.
 - Next unpublished in 6.H: 6.H.07 — Flooding, Hypoxia and Other Abiotic Stresses. Next global pending: 6.H.07 — Flooding, Hypoxia and Other Abiotic Stresses.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.10 — [Effector-Triggered Immunity and Disease Resistance](https://rahulthakurpatan.github.io/lifescienceacademy/effector-triggered-immunity-and-disease-resistance.html); internal academic QA 95/100, static audit completed; Pages/live verification pending.
+- Teaching prose: 13,475 words in 139 paragraphs; 11 scientific SVGs, 6 tables, 52 explained questions (22 Part B, 24 Part C, 6 other), 18 misconception checks, 15 recall prompts.
+- Subunit 6.H: 7/12; Unit 06: 61/66; Academy: 310/723. Next unpublished in 6.H: 6.H.07 — Flooding, Hypoxia and Other Abiotic Stresses. Next global pending: 6.H.07 — Flooding, Hypoxia and Other Abiotic Stresses.

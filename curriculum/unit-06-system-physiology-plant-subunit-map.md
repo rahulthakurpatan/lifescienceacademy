@@ -219,5 +219,6 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.A.01 — [Photosynthetic Pigments and Light-Harvesting Complexes](https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-pigments-and-light-harvesting-complexes.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.03 — [Photosynthetic Electron Transport and Photosystem I](https://rahulthakurpatan.github.io/lifescienceacademy/photosynthetic-electron-transport-and-photosystem-i.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.A.06 — [Calvin–Benson Cycle and C3 Carbon Fixation](https://rahulthakurpatan.github.io/lifescienceacademy/calvin-benson-cycle-and-c3-carbon-fixation.html); academic QA 95/100 (internal); deployment verification pending.
-- Subunit 6.A: 3/8; Unit 06: 3/66; Academy: 252/723.
+- 6.A.05 — [Photoprotection, Nonphotochemical Quenching and Photosystem Repair](https://rahulthakurpatan.github.io/lifescienceacademy/photoprotection-nonphotochemical-quenching-and-photosystem-repair.html); academic QA 95/100 (internal); deployment verification pending.
+- Subunit 6.A: 4/8; Unit 06: 4/66; Academy: 253/723.
 - Next unpublished: 6.A.02 — Photosystem II and Photolysis of Water.

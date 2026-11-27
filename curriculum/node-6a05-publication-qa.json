@@ -1,0 +1,188 @@
+{
+  "node_id": "6.A.05",
+  "title": "Photoprotection, Nonphotochemical Quenching and Photosystem Repair",
+  "slug": "photoprotection-nonphotochemical-quenching-and-photosystem-repair.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photoprotection-nonphotochemical-quenching-and-photosystem-repair.html",
+  "unit": "06",
+  "subunit": "6.A",
+  "topic": "Photosynthesis",
+  "date": "2026-11-27",
+  "status": "academic_qa_passed_deployment_verification_pending",
+  "source_draft_branch": "develop/6a05-photoprotection",
+  "source_draft_commit_sha": "59567e127f8762a9ca11e1dc63a1da5f58ee3959",
+  "source_draft_blob_sha": "74d8d347f16a96a4dd4dde766d23a1889621cace",
+  "production_chapter_blob_sha": "5d2b7679d822091cd23709f12d5e6ca521b644ef",
+  "publication_base_sha": "29388c4639cbefcbb4e0e8e22b7485f4bda74b10",
+  "production_robots": "index,follow",
+  "metrics": {
+    "genuine_teaching_words": 13608,
+    "teaching_paragraphs": 130,
+    "theory_sections": 16,
+    "total_sections": 22,
+    "svg": 13,
+    "tables": 6,
+    "graphs": 5,
+    "part_b": 20,
+    "part_c": 24,
+    "other_questions": 8,
+    "total_questions": 52,
+    "answer_positions": {
+      "A": 13,
+      "B": 13,
+      "C": 13,
+      "D": 13
+    },
+    "references": 13,
+    "misconceptions": 18,
+    "active_recall": 15
+  },
+  "word_count_method": "Whitespace-separated tokens in saved p.teaching-prose elements after stripping HTML tags, excluding headings, questions, diagrams, tables, revision and references.",
+  "scope": {
+    "official": "CSIR-HRDG revised Life Science and Biotechnology Unit 6.A; MP SET Life Sciences mirrored syllabus",
+    "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
+    "boundary": "Photoprotection, fluorescence interpretation and PSII repair; full Calvin cycle, electron transport and photophosphorylation remain separate nodes."
+  },
+  "coverage_matrix": [
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "Excess excitation and reaction-center closure",
+      "chapter_sections": "excess-light, excitation-fates",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "Lumen acidification and PsbS-dependent qE",
+      "chapter_sections": "acidification, qe",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "VAZ cycle, VDE and ZEP",
+      "chapter_sections": "xanthophylls",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "NPQ components and relaxation",
+      "chapter_sections": "npq-components",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "ROS, antioxidant defenses",
+      "chapter_sections": "ros",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "Photoinhibition and D1 turnover",
+      "chapter_sections": "photoinhibition, repair",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "Fluorescence, NPQ, qP, operating yield, ETR",
+      "chapter_sections": "fluorescence, npq-metrics",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "Damage and repair kinetics, experimental design",
+      "chapter_sections": "damage-kinetics, experiments",
+      "depth": "NET/SET",
+      "verified": "covered"
+    },
+    {
+      "syllabus": "Photoprotective mechanisms, Unit 6.A",
+      "microtopic": "Fluctuating light and PSI protection",
+      "chapter_sections": "fluctuating-light, integration, synthesis",
+      "depth": "NET/SET",
+      "verified": "covered"
+    }
+  ],
+  "review_pass_1": {
+    "type": "Internal scientific and syllabus review",
+    "result": "pass",
+    "findings": "Checked scope, causal and mechanistic distinctions, fluorescence definitions, VAZ direction and compartment, ROS chemical identity, D1 turnover, and damage/repair separation. Recomputed representative Fv/Fm, NPQ, ΦPSII, qP, ETR, DES and steady-state active fraction; checked quantitative question explanations."
+  },
+  "review_pass_2": {
+    "type": "Internal editorial and static technical review",
+    "result": "pass with disclosed limitations",
+    "findings": "Compared adjacent exemplar, verified 130 unique teaching paragraphs, expanded all 18 misconceptions with exam reasoning, added mastery checklist, redistributed answer keys 13 each, corrected position-dependent explanations, inspected diagram labels and adjusted repair arrow. Saved HTML re-fetched and answer mapping, tag nesting, anchors and aria references checked."
+  },
+  "quality": {
+    "scientific_accuracy": 19,
+    "syllabus_and_microtopic_coverage": 15,
+    "genuine_teaching_depth": 15,
+    "pedagogical_quality": 9,
+    "scientific_illustrations": 9,
+    "examination_questions_and_answers": 9,
+    "experimental_and_analytical_reasoning": 5,
+    "revision_and_mastery": 5,
+    "reader_architecture_and_accessibility": 4,
+    "technical_integrity_and_seo": 5,
+    "total": 95,
+    "threshold": 95,
+    "assessment": "Internal assessment only; not an externally certified score.",
+    "deductions": "Scientific: simplified kinetic models and unresolved molecular mechanisms; pedagogy: necessary overlap with prerequisite concepts; diagrams: static markup, no rendered inspection; assessment: no external calibration; reader: no interactive browser or assistive-technology run."
+  },
+  "validation": {
+    "words_pass": true,
+    "svg_count_pass": true,
+    "question_count_pass": true,
+    "answer_option_mapping_pass": true,
+    "duplicate_paragraphs": 0,
+    "duplicate_ids": 0,
+    "missing_anchors": 0,
+    "missing_aria_labelledby": 0,
+    "html_tag_nesting_pass": true,
+    "placeholder_scan_pass": true,
+    "canonical_pass": true,
+    "javascript_runtime_test": false,
+    "reader_browser_test": false,
+    "assistive_technology_test": false
+  },
+  "navigation": {
+    "previous": "6.A.04",
+    "next": "6.A.06",
+    "previous_link_enabled": false,
+    "next_link_enabled": true,
+    "mechanism": "Existing reader resolves latest index links dynamically; planned nodes remain disabled."
+  },
+  "progress": {
+    "subunit_published": 4,
+    "subunit_planned": 8,
+    "unit_published": 4,
+    "unit_planned": 66,
+    "academy_published": 253,
+    "academy_planned": 723,
+    "next_pending_node_id": "6.A.02"
+  },
+  "limitations": [
+    "MP SET alignment used a mirrored syllabus.",
+    "No independent external peer review or examination calibration.",
+    "No interactive browser rendering, JavaScript runtime or assistive-technology test.",
+    "Deployment and live verification pending."
+  ],
+  "changed_files": [
+    "photoprotection-nonphotochemical-quenching-and-photosystem-repair.html",
+    "index.html",
+    "sitemap.xml",
+    "curriculum/academy-progress.json",
+    "curriculum/subunit-6a-photosynthesis-node-map.md",
+    "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+    "curriculum/node-6a05-publication-qa.json"
+  ],
+  "publication": {
+    "strategy": "Single tree, single commit, non-force expected-head update",
+    "deployment": "pending",
+    "live_verified": false
+  }
+}

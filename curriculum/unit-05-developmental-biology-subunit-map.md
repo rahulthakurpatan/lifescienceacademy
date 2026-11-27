@@ -203,3 +203,10 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 - Internal QA 95/100; 13,521 teaching words; 13 SVGs; 54 explained questions. Deployment verification pending.
 - Progress: 5.E 9/10; Unit 05 56/57; Academy 248/723.
 - First unpublished: 5.E.10 — Plant Aging and Lifespan Strategies: Annuals, Perennials and Meristem Renewal.
+
+
+### Publication checkpoint — 2026-11-27 — 5.E.10
+
+- **Chapter:** [Plant Aging and Lifespan Strategies: Annuals, Perennials and Meristem Renewal](../plant-aging-and-lifespan-strategies-annuals-perennials-and-meristem-renewal.html) · [QA record](node-5e10-publication-qa.json).
+- 13,707 teaching words, 10 accessible SVG diagrams, 54 explained original practice questions, 16 misconception entries and 14 active-recall prompts; static validation passed. Pages verification separate.
+- **Subunit 5.E complete: 10/10. Unit 05 complete: 57/57. Academy: 249/723.** Next pending: 6.A.01 — Photosynthetic Pigments and Light-Harvesting Complexes.

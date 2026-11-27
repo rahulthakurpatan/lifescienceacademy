@@ -24,6 +24,8 @@
 
 ### 6.G.02 — Biosynthesis of Terpenes: MVA and MEP Pathways
 
+**Publication:** [Chapter](https://rahulthakurpatan.github.io/lifescienceacademy/biosynthesis-of-terpenes-mva-and-mep-pathways.html) — academic and static QA complete; Pages verification pending.
+
 **Student-facing description:** Trace cytosolic mevalonate and plastidial MEP/DOXP pathways to IPP and DMAPP, then explain prenyl diphosphate formation and terpene carbon skeletons.
 
 **Core scope:** MVA from acetyl-CoA via HMG-CoA and HMGR; MEP from pyruvate and glyceraldehyde-3-phosphate via DXS, DXR and downstream intermediates to IPP/DMAPP; energy and reducing equivalents, IPP isomerase; GPP, FPP, GGPP and carbon accounting; compartmentation and possible cross-talk.
@@ -134,3 +136,5 @@ No official topic is intentionally omitted. Examples are illustrative, not a cla
 
 - 6.G.08 — [Other Nitrogenous Specialized Metabolites](https://rahulthakurpatan.github.io/lifescienceacademy/other-nitrogenous-specialized-metabolites.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.G: 3/10; next unpublished in this subunit: 6.G.01 — Foundations of Plant Specialized Metabolism.
+
+- 6.G.02 — [Biosynthesis of Terpenes: MVA and MEP Pathways](https://rahulthakurpatan.github.io/lifescienceacademy/biosynthesis-of-terpenes-mva-and-mep-pathways.html); source draft expanded, static checks complete; Pages verification pending. Subunit 6.G: 5/10 committed.

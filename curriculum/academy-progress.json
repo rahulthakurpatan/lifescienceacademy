@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.A.04",
-  "title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
-  "subunit": "6.A",
-  "topic": "Photosynthesis",
-  "slug": "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+  "node_id": "6.B.03",
+  "title": "Oxidative Phosphorylation and ATP Synthesis in Plants",
+  "subunit": "6.B",
+  "topic": "Respiration and Photorespiration",
+  "slug": "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
   "next_pending_node_id": "6.B.01",
   "next_pending_node_title": "Plant Respiration and the Citric Acid Cycle",
-  "published_node_count": 257,
+  "published_node_count": 258,
   "publication_allowed": true,
-  "main_baseline_sha": "bd01bf3d47495821d936ad9fe7ef642a7c63141a",
+  "main_baseline_sha": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue with 6.B.01",
   "planned_node_count": 66,
@@ -21,93 +21,141 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.A.04",
-    "title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
-    "slug": "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+    "node_id": "6.B.03",
+    "title": "Oxidative Phosphorylation and ATP Synthesis in Plants",
+    "slug": "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
     "unit": "06",
-    "subunit": "6.A",
-    "topic": "Photosynthesis",
+    "subunit": "6.B",
+    "topic": "Respiration and Photorespiration",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6a04-photophosphorylation",
-    "source_draft_commit_sha": "e24090968e0ccecbc7e52aadba483c889f5f4632",
-    "source_draft_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
-    "production_chapter_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
-    "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
-    "publication_base_sha": "bd01bf3d47495821d936ad9fe7ef642a7c63141a",
+    "source_draft_branch": "develop-6b03-plant-oxidative-phosphorylation-20261127",
+    "source_draft_commit_sha": "3322304034381b823308758056d39e5c9c160a13",
+    "source_draft_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+    "production_chapter_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+    "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+    "publication_base_sha": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13601,
-      "teaching_paragraphs": 134,
-      "svg": 10,
-      "tables": 3,
-      "total_questions": 52,
-      "part_b": 25,
-      "part_c": 27,
-      "other_questions": 0,
-      "misconceptions": 15,
-      "active_recall": 10,
-      "references": 12
+      "genuine_teaching_words": 13323,
+      "teaching_paragraphs": 135,
+      "svg": 12,
+      "tables": 5,
+      "graph_and_chart_figures": 4,
+      "worked_numerical_examples": 20,
+      "total_questions": 54,
+      "part_b": 24,
+      "part_c": 24,
+      "other_questions": 6,
+      "answer_positions": {
+        "A": 14,
+        "B": 13,
+        "C": 13,
+        "D": 14
+      },
+      "misconceptions": 18,
+      "active_recall": 14,
+      "references": 11
     },
-    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
+    "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after stripping inline tags; excludes figures, tables, questions, references, revision and navigation.",
     "scope": {
-      "official": "Revised 2026 CSIR–UGC–DBT Unit 6.A; separate Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
-      "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md"
+      "official": "Revised 2026 CSIR–UGC–DBT Unit 6.B; separate Life Sciences Unit 6.B; mirrored MP SET 2024 Paper II Unit 6.B",
+      "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+      "boundaries": "General metabolism Unit 1, electron carriers 6.B.02, AOX-specific regulation 6.B.04, full photorespiration 6.B.05"
     },
     "coverage_matrix": [
       {
-        "concept": "Thylakoid topology and proton sources",
-        "sections": "compartments, protons",
+        "microtopic": "Plant respiration and substrate-level versus oxidative phosphorylation",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "problem, phosphorylation, physiology",
+        "depth": "Direct versus indirect energy coupling; day/night metabolism",
+        "reasoning": "Hypoxia and plant energy budget",
         "status": "covered"
       },
       {
-        "concept": "Chemiosmosis and electrochemical free energy",
-        "sections": "pmf, history",
+        "microtopic": "Inner membrane topology and proton-pumping sites",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "membrane, chemiosmosis",
+        "depth": "Matrix/P orientation; I/III/IV and II exception",
+        "reasoning": "Predict proton translocation by entry route",
         "status": "covered"
       },
       {
-        "concept": "ATP synthase structure, rotor and regulation",
-        "sections": "synthase",
+        "microtopic": "Electrochemical gradient and thermodynamics",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "chemiosmosis, redox-energy, gradient-dynamics, phosphorylation-potential",
+        "depth": "Signed Δψ/ΔpH, redox work and phosphorylation threshold",
+        "reasoning": "Compute driving voltage, energy and threshold",
         "status": "covered"
       },
       {
-        "concept": "Linear versus cyclic electron flow",
-        "sections": "cyclic, balance",
+        "microtopic": "F₀F₁ ATP synthase mechanism",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "synthase, experimental-evidence",
+        "depth": "Rotor/stator, half-channels, O/L/T and reversible catalysis",
+        "reasoning": "Ring stoichiometry and reconstitution logic",
         "status": "covered"
       },
       {
-        "concept": "PGR5/PGRL1 and NDH pathways",
-        "sections": "cyclic",
+        "microtopic": "ADP, Pi and ATP transport",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "transport, constraints",
+        "depth": "Electrogenic ANT; phosphate transport and ATP delivery costs",
+        "reasoning": "Distinguish transport from motor defects",
         "status": "covered"
       },
       {
-        "concept": "ATP:NADPH and stoichiometry limitations",
-        "sections": "balance",
+        "microtopic": "Coupling, P/O and variable plant ATP yield",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "yield, pathway-accounting",
+        "depth": "Conventional versus bypass pathways, sidedness, leaks",
+        "reasoning": "Weighted flux, P/O, glucose budget",
         "status": "covered"
       },
       {
-        "concept": "Experimental evidence and inhibitors",
-        "sections": "history, experiments",
+        "microtopic": "Respiratory control by ADP, substrate and oxygen",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "control, assays, constraints",
+        "depth": "State 3/4, RCR and assay limitations",
+        "reasoning": "Oxygen traces, rates and mutant diagnosis",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Inhibitors and uncouplers",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "inhibition, gradient-dynamics, assays",
+        "depth": "Oligomycin versus FCCP; ETC inhibition and plant AOX",
+        "reasoning": "Sequential inhibitor predictions",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Plant metabolic integration and related pathways",
+        "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+        "sections": "physiology, plant-specialization",
+        "depth": "Roots, seeds, light/dark, chloroplast comparison and carbon/redox allocation",
+        "reasoning": "Interpret physiological and gas-exchange results",
         "status": "covered"
       }
     ],
     "review_pass_1": {
-      "result": "pass",
-      "evidence": "Reviewed lumen/stroma orientation, complete Q-cycle accounting, electrochemical signs, c14 stoichiometry, conditional ATP budget, cyclic-route distinctions and question answers; recalculated quantitative examples; corrected source attribution."
+      "type": "Internal scientific and syllabus review",
+      "result": "pass with disclosed limitations",
+      "findings": "Verified mitochondrial orientation, I/III/IV 4/4/2 and II non-pumping, signed Δp, c-ring/3, effective delivery costs, P/O oxygen-atom denominator, reversible motor, ADP states, inhibitor and AOX qualifications, illustrative experimental data. Recomputed PMF, redox energy, motor ratios, phosphorylation threshold, oxygen chamber normalization, route fractions and numerical question answers. Checked conceptual questions and revised vesicle and branching graphics."
     },
     "review_pass_2": {
-      "result": "pass",
-      "evidence": "Progressive teaching sequence; added tables, revision checklist, 25 MCQs with distractor explanations and 27 analytical short-response questions."
+      "type": "Separate internal editorial and static reader review",
+      "result": "pass with disclosed limitations",
+      "findings": "Compared 13,323 visible words with 6.A.06 exemplar (13,062); 135 unique narrative paragraphs, 18 coherent theory sections, 12 original diagrams and caption/zoom labels, 54 explained questions, 18 misconception analyses and revision glossary/14 recall prompts. Balanced option positions. Reader and dynamic adjacent-menu navigation inherited; no browser runtime test."
     },
     "quality": {
       "score": 95,
       "threshold": 95,
       "rubric": {
-        "scientific_accuracy": 20,
+        "scientific_accuracy": 19,
         "syllabus_coverage": 15,
         "teaching_depth": 15,
-        "pedagogy": 9,
+        "pedagogy": 10,
         "illustrations": 9,
         "questions": 9,
         "experimental_reasoning": 5,
@@ -115,7 +163,7 @@
         "reader_accessibility": 4,
         "technical_seo": 4
       },
-      "basis": "Internal review; deductions for some abstract diagrams, short-response Part C format, unperformed interactive/browser accessibility tests."
+      "basis": "Internal rubric assessment; one mark deducted for limited independent source review, schematic SVG visual checks without rendering, some concise distractor explanations, lack of interactive accessibility testing, lack of browser runtime testing respectively. Not external certification."
     },
     "validation": {
       "word_count_pass": true,
@@ -126,44 +174,46 @@
       "unresolved_anchors": 0,
       "unresolved_aria_references": 0,
       "unresolved_zoom_targets": 0,
+      "unresolved_svg_marker_refs": 0,
       "duplicate_teaching_paragraphs": 0,
       "placeholder_markers": 0,
+      "balanced_html_tag_counts": true,
       "js_syntax_compiled": true,
       "canonical_pass": true,
-      "reference_verification": "Official revised syllabus screenshot, separate syllabus text, MP SET mirror text; academic bibliographic sources retrieved",
+      "reference_verification": "Official revised syllabus and MP SET mirror screenshots, separate syllabus text, 11 academic bibliographic sources retrieved; one PMC full text blocked by CAPTCHA but metadata available.",
       "interactive_browser_test": false
     },
     "navigation": {
-      "previous": "6.A.03",
-      "next": "6.A.05",
-      "reciprocal": "Dynamic links resolve via homepage"
+      "previous": "6.B.02",
+      "next": "6.B.04",
+      "reciprocal": "Dynamic reader uses homepage menu; unlinked neighbors disabled until published."
     },
     "progress": {
-      "subunit_published": 8,
-      "subunit_planned": 8,
-      "unit_published": 8,
+      "subunit_published": 1,
+      "subunit_planned": 5,
+      "unit_published": 9,
       "unit_planned": 66,
-      "academy_published": 257,
+      "academy_published": 258,
       "academy_planned": 723,
       "next_pending_node_id": "6.B.01"
     },
     "limitations": [
-      "Internal review only; no external reviewer.",
-      "No browser rendering or screen-reader interaction test; static checks only.",
-      "MP SET syllabus checked using a mirror.",
-      "Deployment and live content pending."
+      "Internal review only; no independent external academic reviewer.",
+      "Static SVG, HTML, accessibility and script checks; no interactive browser/mobile/screen-reader test.",
+      "MP SET syllabus retrieved from a mirror; not verified on MPPSC host.",
+      "Deployment and live HTTP/content verification pending."
     ],
     "changed_files": [
-      "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+      "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/subunit-6a-photosynthesis-node-map.md",
+      "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6a04-publication-qa.json"
+      "curriculum/node-6b03-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Atomic commit and conditional non-force main update",
+      "strategy": "Atomic tree/commit, conditional non-force main ref",
       "deployment": "pending",
       "live_verified": false
     }
@@ -425,394 +475,301 @@
     "6.A.05",
     "6.A.06",
     "6.A.07",
-    "6.A.08"
+    "6.A.08",
+    "6.B.03"
   ],
   "prior_publication_qa": {
-    "node_id": "6.A.08",
-    "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
-    "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+    "node_id": "6.A.04",
+    "title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
+    "slug": "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
     "unit": "06",
     "subunit": "6.A",
     "topic": "Photosynthesis",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6a08-cam-photosynthesis",
-    "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
-    "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
-    "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+    "source_draft_branch": "draft/6a04-photophosphorylation",
+    "source_draft_commit_sha": "e24090968e0ccecbc7e52aadba483c889f5f4632",
+    "source_draft_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
+    "production_chapter_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
     "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
-    "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+    "publication_base_sha": "bd01bf3d47495821d936ad9fe7ef642a7c63141a",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13337,
-      "teaching_paragraphs": 131,
-      "svg": 11,
-      "tables": 4,
-      "graph_and_chart_figures": 3,
-      "worked_numerical_examples": 10,
-      "total_questions": 50,
-      "part_b": 20,
-      "part_c": 20,
-      "other_questions": 10,
-      "answer_positions": {
-        "A": 13,
-        "B": 12,
-        "C": 13,
-        "D": 12
-      },
+      "genuine_teaching_words": 13601,
+      "teaching_paragraphs": 134,
+      "svg": 10,
+      "tables": 3,
+      "total_questions": 52,
+      "part_b": 25,
+      "part_c": 27,
+      "other_questions": 0,
       "misconceptions": 15,
-      "active_recall": 12,
-      "references": 9
+      "active_recall": 10,
+      "references": 12
     },
-    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
+    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
     "scope": {
-      "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
-      "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-      "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
+      "official": "Revised 2026 CSIR–UGC–DBT Unit 6.A; separate Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
+      "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md"
     },
     "coverage_matrix": [
       {
-        "microtopic": "CAM motivation and discovery",
-        "sections": [
-          "problem"
-        ],
-        "depth": "History, gas exchange, VPD and transpiration",
-        "reasoning": "Interpret equal-conductance VPD comparison",
+        "concept": "Thylakoid topology and proton sources",
+        "sections": "compartments, protons",
         "status": "covered"
       },
       {
-        "microtopic": "Nocturnal PEPC fixation",
-        "sections": [
-          "night"
-        ],
-        "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
-        "reasoning": "Predict defects and tracer ordering",
+        "concept": "Chemiosmosis and electrochemical free energy",
+        "sections": "pmf, history",
         "status": "covered"
       },
       {
-        "microtopic": "Vacuolar malate",
-        "sections": [
-          "storage"
-        ],
-        "depth": "Proton gradients, tonoplast transport, acidity and volume",
-        "reasoning": "Capacity and retention reasoning",
+        "concept": "ATP synthase structure, rotor and regulation",
+        "sections": "synthase",
         "status": "covered"
       },
       {
-        "microtopic": "Daytime decarboxylation",
-        "sections": [
-          "day"
-        ],
-        "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
-        "reasoning": "Carbon accounting and energy balance",
+        "concept": "Linear versus cyclic electron flow",
+        "sections": "cyclic, balance",
         "status": "covered"
       },
       {
-        "microtopic": "Four phases and regulation",
-        "sections": [
-          "phases"
-        ],
-        "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
-        "reasoning": "Interpret acid pool and conductance curves",
+        "concept": "PGR5/PGRL1 and NDH pathways",
+        "sections": "cyclic",
         "status": "covered"
       },
       {
-        "microtopic": "CAM variants",
-        "sections": [
-          "variants"
-        ],
-        "depth": "Constitutive, facultative, cycling and idling",
-        "reasoning": "Stress and rewatering controls",
+        "concept": "ATP:NADPH and stoichiometry limitations",
+        "sections": "balance",
         "status": "covered"
       },
       {
-        "microtopic": "C3/C4/CAM comparison",
-        "sections": [
-          "comparison"
-        ],
-        "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
-        "reasoning": "Compare water-use and gross retention",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Experimental evidence",
-        "sections": [
-          "evidence"
-        ],
-        "depth": "Tracer, isotope, titration and gas exchange",
-        "reasoning": "Quantitative interpretation",
+        "concept": "Experimental evidence and inhibitors",
+        "sections": "history, experiments",
         "status": "covered"
       }
     ],
     "review_pass_1": {
-      "type": "Internal scientific and syllabus review",
-      "result": "pass within stated limitations",
-      "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
+      "result": "pass",
+      "evidence": "Reviewed lumen/stroma orientation, complete Q-cycle accounting, electrochemical signs, c14 stoichiometry, conditional ATP budget, cyclic-route distinctions and question answers; recalculated quantitative examples; corrected source attribution."
     },
     "review_pass_2": {
-      "type": "Separate internal editorial and static reader review",
-      "result": "pass with limitations",
-      "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
+      "result": "pass",
+      "evidence": "Progressive teaching sequence; added tables, revision checklist, 25 MCQs with distractor explanations and 27 analytical short-response questions."
     },
     "quality": {
-      "scientific_accuracy": 19,
-      "syllabus_microtopic_coverage": 15,
-      "genuine_teaching_depth": 15,
-      "pedagogical_quality": 10,
-      "scientific_illustrations": 9,
-      "examination_questions_answers": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision_mastery": 5,
-      "reader_accessibility": 4,
-      "technical_integrity_SEO": 4,
-      "total": 95,
+      "score": 95,
       "threshold": 95,
-      "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
+      "rubric": {
+        "scientific_accuracy": 20,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "questions": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "basis": "Internal review; deductions for some abstract diagrams, short-response Part C format, unperformed interactive/browser accessibility tests."
     },
     "validation": {
-      "teaching_words_pass": true,
+      "word_count_pass": true,
       "svg_count_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
-      "unique_ids": true,
-      "anchors_pass": true,
-      "aria_references_pass": true,
-      "zoom_targets_pass": true,
-      "duplicate_paragraphs": 0,
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_references": 0,
+      "unresolved_zoom_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
       "placeholder_markers": 0,
       "js_syntax_compiled": true,
-      "interactive_browser_test": false,
-      "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
+      "canonical_pass": true,
+      "reference_verification": "Official revised syllabus screenshot, separate syllabus text, MP SET mirror text; academic bibliographic sources retrieved",
+      "interactive_browser_test": false
     },
     "navigation": {
-      "previous": "6.A.07",
-      "previous_link_enabled": true,
-      "next_planned": "6.B.01",
-      "next_link_enabled": false,
-      "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
+      "previous": "6.A.03",
+      "next": "6.A.05",
+      "reciprocal": "Dynamic links resolve via homepage"
     },
     "progress": {
-      "subunit_published": 7,
+      "subunit_published": 8,
       "subunit_planned": 8,
-      "unit_published": 7,
+      "unit_published": 8,
       "unit_planned": 66,
-      "academy_published": 256,
+      "academy_published": 257,
       "academy_planned": 723,
-      "next_pending_node_id": "6.A.04"
+      "next_pending_node_id": "6.B.01"
     },
     "limitations": [
-      "No independent external academic review or exam calibration.",
+      "Internal review only; no external reviewer.",
       "No browser rendering or screen-reader interaction test; static checks only.",
-      "MP SET syllabus mirror, not verified on official MPPSC host.",
-      "Deployment and live verification pending."
+      "MP SET syllabus checked using a mirror.",
+      "Deployment and live content pending."
     ],
     "changed_files": [
-      "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+      "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
       "curriculum/subunit-6a-photosynthesis-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6a08-publication-qa.json"
+      "curriculum/node-6a04-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Atomic tree/commit, conditional non-force main ref",
+      "strategy": "Atomic commit and conditional non-force main update",
       "deployment": "pending",
       "live_verified": false
     }
   },
   "previous_last_qa": {
-    "node_id": "6.A.08",
-    "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
-    "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+    "node_id": "6.A.04",
+    "title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
+    "slug": "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
     "unit": "06",
     "subunit": "6.A",
     "topic": "Photosynthesis",
     "date": "2026-11-27",
     "status": "academic_qa_passed_deployment_verification_pending",
-    "source_draft_branch": "draft/6a08-cam-photosynthesis",
-    "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
-    "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
-    "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+    "source_draft_branch": "draft/6a04-photophosphorylation",
+    "source_draft_commit_sha": "e24090968e0ccecbc7e52aadba483c889f5f4632",
+    "source_draft_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
+    "production_chapter_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
     "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
-    "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+    "publication_base_sha": "bd01bf3d47495821d936ad9fe7ef642a7c63141a",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13337,
-      "teaching_paragraphs": 131,
-      "svg": 11,
-      "tables": 4,
-      "graph_and_chart_figures": 3,
-      "worked_numerical_examples": 10,
-      "total_questions": 50,
-      "part_b": 20,
-      "part_c": 20,
-      "other_questions": 10,
-      "answer_positions": {
-        "A": 13,
-        "B": 12,
-        "C": 13,
-        "D": 12
-      },
+      "genuine_teaching_words": 13601,
+      "teaching_paragraphs": 134,
+      "svg": 10,
+      "tables": 3,
+      "total_questions": 52,
+      "part_b": 25,
+      "part_c": 27,
+      "other_questions": 0,
       "misconceptions": 15,
-      "active_recall": 12,
-      "references": 9
+      "active_recall": 10,
+      "references": 12
     },
-    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
+    "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
     "scope": {
-      "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
-      "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-      "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
+      "official": "Revised 2026 CSIR–UGC–DBT Unit 6.A; separate Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
+      "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md"
     },
     "coverage_matrix": [
       {
-        "microtopic": "CAM motivation and discovery",
-        "sections": [
-          "problem"
-        ],
-        "depth": "History, gas exchange, VPD and transpiration",
-        "reasoning": "Interpret equal-conductance VPD comparison",
+        "concept": "Thylakoid topology and proton sources",
+        "sections": "compartments, protons",
         "status": "covered"
       },
       {
-        "microtopic": "Nocturnal PEPC fixation",
-        "sections": [
-          "night"
-        ],
-        "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
-        "reasoning": "Predict defects and tracer ordering",
+        "concept": "Chemiosmosis and electrochemical free energy",
+        "sections": "pmf, history",
         "status": "covered"
       },
       {
-        "microtopic": "Vacuolar malate",
-        "sections": [
-          "storage"
-        ],
-        "depth": "Proton gradients, tonoplast transport, acidity and volume",
-        "reasoning": "Capacity and retention reasoning",
+        "concept": "ATP synthase structure, rotor and regulation",
+        "sections": "synthase",
         "status": "covered"
       },
       {
-        "microtopic": "Daytime decarboxylation",
-        "sections": [
-          "day"
-        ],
-        "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
-        "reasoning": "Carbon accounting and energy balance",
+        "concept": "Linear versus cyclic electron flow",
+        "sections": "cyclic, balance",
         "status": "covered"
       },
       {
-        "microtopic": "Four phases and regulation",
-        "sections": [
-          "phases"
-        ],
-        "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
-        "reasoning": "Interpret acid pool and conductance curves",
+        "concept": "PGR5/PGRL1 and NDH pathways",
+        "sections": "cyclic",
         "status": "covered"
       },
       {
-        "microtopic": "CAM variants",
-        "sections": [
-          "variants"
-        ],
-        "depth": "Constitutive, facultative, cycling and idling",
-        "reasoning": "Stress and rewatering controls",
+        "concept": "ATP:NADPH and stoichiometry limitations",
+        "sections": "balance",
         "status": "covered"
       },
       {
-        "microtopic": "C3/C4/CAM comparison",
-        "sections": [
-          "comparison"
-        ],
-        "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
-        "reasoning": "Compare water-use and gross retention",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Experimental evidence",
-        "sections": [
-          "evidence"
-        ],
-        "depth": "Tracer, isotope, titration and gas exchange",
-        "reasoning": "Quantitative interpretation",
+        "concept": "Experimental evidence and inhibitors",
+        "sections": "history, experiments",
         "status": "covered"
       }
     ],
     "review_pass_1": {
-      "type": "Internal scientific and syllabus review",
-      "result": "pass within stated limitations",
-      "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
+      "result": "pass",
+      "evidence": "Reviewed lumen/stroma orientation, complete Q-cycle accounting, electrochemical signs, c14 stoichiometry, conditional ATP budget, cyclic-route distinctions and question answers; recalculated quantitative examples; corrected source attribution."
     },
     "review_pass_2": {
-      "type": "Separate internal editorial and static reader review",
-      "result": "pass with limitations",
-      "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
+      "result": "pass",
+      "evidence": "Progressive teaching sequence; added tables, revision checklist, 25 MCQs with distractor explanations and 27 analytical short-response questions."
     },
     "quality": {
-      "scientific_accuracy": 19,
-      "syllabus_microtopic_coverage": 15,
-      "genuine_teaching_depth": 15,
-      "pedagogical_quality": 10,
-      "scientific_illustrations": 9,
-      "examination_questions_answers": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision_mastery": 5,
-      "reader_accessibility": 4,
-      "technical_integrity_SEO": 4,
-      "total": 95,
+      "score": 95,
       "threshold": 95,
-      "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
+      "rubric": {
+        "scientific_accuracy": 20,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "questions": 9,
+        "experimental_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "basis": "Internal review; deductions for some abstract diagrams, short-response Part C format, unperformed interactive/browser accessibility tests."
     },
     "validation": {
-      "teaching_words_pass": true,
+      "word_count_pass": true,
       "svg_count_pass": true,
       "question_count_pass": true,
       "answer_mapping_pass": true,
-      "unique_ids": true,
-      "anchors_pass": true,
-      "aria_references_pass": true,
-      "zoom_targets_pass": true,
-      "duplicate_paragraphs": 0,
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_references": 0,
+      "unresolved_zoom_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
       "placeholder_markers": 0,
       "js_syntax_compiled": true,
-      "interactive_browser_test": false,
-      "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
+      "canonical_pass": true,
+      "reference_verification": "Official revised syllabus screenshot, separate syllabus text, MP SET mirror text; academic bibliographic sources retrieved",
+      "interactive_browser_test": false
     },
     "navigation": {
-      "previous": "6.A.07",
-      "previous_link_enabled": true,
-      "next_planned": "6.B.01",
-      "next_link_enabled": false,
-      "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
+      "previous": "6.A.03",
+      "next": "6.A.05",
+      "reciprocal": "Dynamic links resolve via homepage"
     },
     "progress": {
-      "subunit_published": 7,
+      "subunit_published": 8,
       "subunit_planned": 8,
-      "unit_published": 7,
+      "unit_published": 8,
       "unit_planned": 66,
-      "academy_published": 256,
+      "academy_published": 257,
       "academy_planned": 723,
-      "next_pending_node_id": "6.A.04"
+      "next_pending_node_id": "6.B.01"
     },
     "limitations": [
-      "No independent external academic review or exam calibration.",
+      "Internal review only; no external reviewer.",
       "No browser rendering or screen-reader interaction test; static checks only.",
-      "MP SET syllabus mirror, not verified on official MPPSC host.",
-      "Deployment and live verification pending."
+      "MP SET syllabus checked using a mirror.",
+      "Deployment and live content pending."
     ],
     "changed_files": [
-      "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+      "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
       "curriculum/subunit-6a-photosynthesis-node-map.md",
       "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-      "curriculum/node-6a08-publication-qa.json"
+      "curriculum/node-6a04-publication-qa.json"
     ],
     "publication": {
-      "strategy": "Atomic tree/commit, conditional non-force main ref",
+      "strategy": "Atomic commit and conditional non-force main update",
       "deployment": "pending",
       "live_verified": false
     }
@@ -2334,7 +2291,7 @@
     "last_published_node_id": "5.E.10",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -34891,6 +34848,204 @@
         "deployment": "pending",
         "live_verified": false
       }
+    },
+    "6.B.03": {
+      "node_id": "6.B.03",
+      "title": "Oxidative Phosphorylation and ATP Synthesis in Plants",
+      "slug": "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+      "unit": "06",
+      "subunit": "6.B",
+      "topic": "Respiration and Photorespiration",
+      "date": "2026-11-27",
+      "status": "academic_qa_passed_deployment_verification_pending",
+      "source_draft_branch": "develop-6b03-plant-oxidative-phosphorylation-20261127",
+      "source_draft_commit_sha": "3322304034381b823308758056d39e5c9c160a13",
+      "source_draft_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+      "production_chapter_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+      "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+      "publication_base_sha": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+      "production_robots": "index,follow",
+      "metrics": {
+        "genuine_teaching_words": 13323,
+        "teaching_paragraphs": 135,
+        "svg": 12,
+        "tables": 5,
+        "graph_and_chart_figures": 4,
+        "worked_numerical_examples": 20,
+        "total_questions": 54,
+        "part_b": 24,
+        "part_c": 24,
+        "other_questions": 6,
+        "answer_positions": {
+          "A": 14,
+          "B": 13,
+          "C": 13,
+          "D": 14
+        },
+        "misconceptions": 18,
+        "active_recall": 14,
+        "references": 11
+      },
+      "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after stripping inline tags; excludes figures, tables, questions, references, revision and navigation.",
+      "scope": {
+        "official": "Revised 2026 CSIR–UGC–DBT Unit 6.B; separate Life Sciences Unit 6.B; mirrored MP SET 2024 Paper II Unit 6.B",
+        "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+        "boundaries": "General metabolism Unit 1, electron carriers 6.B.02, AOX-specific regulation 6.B.04, full photorespiration 6.B.05"
+      },
+      "coverage_matrix": [
+        {
+          "microtopic": "Plant respiration and substrate-level versus oxidative phosphorylation",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "problem, phosphorylation, physiology",
+          "depth": "Direct versus indirect energy coupling; day/night metabolism",
+          "reasoning": "Hypoxia and plant energy budget",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Inner membrane topology and proton-pumping sites",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "membrane, chemiosmosis",
+          "depth": "Matrix/P orientation; I/III/IV and II exception",
+          "reasoning": "Predict proton translocation by entry route",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Electrochemical gradient and thermodynamics",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "chemiosmosis, redox-energy, gradient-dynamics, phosphorylation-potential",
+          "depth": "Signed Δψ/ΔpH, redox work and phosphorylation threshold",
+          "reasoning": "Compute driving voltage, energy and threshold",
+          "status": "covered"
+        },
+        {
+          "microtopic": "F₀F₁ ATP synthase mechanism",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "synthase, experimental-evidence",
+          "depth": "Rotor/stator, half-channels, O/L/T and reversible catalysis",
+          "reasoning": "Ring stoichiometry and reconstitution logic",
+          "status": "covered"
+        },
+        {
+          "microtopic": "ADP, Pi and ATP transport",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "transport, constraints",
+          "depth": "Electrogenic ANT; phosphate transport and ATP delivery costs",
+          "reasoning": "Distinguish transport from motor defects",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Coupling, P/O and variable plant ATP yield",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "yield, pathway-accounting",
+          "depth": "Conventional versus bypass pathways, sidedness, leaks",
+          "reasoning": "Weighted flux, P/O, glucose budget",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Respiratory control by ADP, substrate and oxygen",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "control, assays, constraints",
+          "depth": "State 3/4, RCR and assay limitations",
+          "reasoning": "Oxygen traces, rates and mutant diagnosis",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Inhibitors and uncouplers",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "inhibition, gradient-dynamics, assays",
+          "depth": "Oligomycin versus FCCP; ETC inhibition and plant AOX",
+          "reasoning": "Sequential inhibitor predictions",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Plant metabolic integration and related pathways",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "physiology, plant-specialization",
+          "depth": "Roots, seeds, light/dark, chloroplast comparison and carbon/redox allocation",
+          "reasoning": "Interpret physiological and gas-exchange results",
+          "status": "covered"
+        }
+      ],
+      "review_pass_1": {
+        "type": "Internal scientific and syllabus review",
+        "result": "pass with disclosed limitations",
+        "findings": "Verified mitochondrial orientation, I/III/IV 4/4/2 and II non-pumping, signed Δp, c-ring/3, effective delivery costs, P/O oxygen-atom denominator, reversible motor, ADP states, inhibitor and AOX qualifications, illustrative experimental data. Recomputed PMF, redox energy, motor ratios, phosphorylation threshold, oxygen chamber normalization, route fractions and numerical question answers. Checked conceptual questions and revised vesicle and branching graphics."
+      },
+      "review_pass_2": {
+        "type": "Separate internal editorial and static reader review",
+        "result": "pass with disclosed limitations",
+        "findings": "Compared 13,323 visible words with 6.A.06 exemplar (13,062); 135 unique narrative paragraphs, 18 coherent theory sections, 12 original diagrams and caption/zoom labels, 54 explained questions, 18 misconception analyses and revision glossary/14 recall prompts. Balanced option positions. Reader and dynamic adjacent-menu navigation inherited; no browser runtime test."
+      },
+      "quality": {
+        "score": 95,
+        "threshold": 95,
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "questions": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "basis": "Internal rubric assessment; one mark deducted for limited independent source review, schematic SVG visual checks without rendering, some concise distractor explanations, lack of interactive accessibility testing, lack of browser runtime testing respectively. Not external certification."
+      },
+      "validation": {
+        "word_count_pass": true,
+        "svg_count_pass": true,
+        "question_count_pass": true,
+        "answer_mapping_pass": true,
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_references": 0,
+        "unresolved_zoom_targets": 0,
+        "unresolved_svg_marker_refs": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "placeholder_markers": 0,
+        "balanced_html_tag_counts": true,
+        "js_syntax_compiled": true,
+        "canonical_pass": true,
+        "reference_verification": "Official revised syllabus and MP SET mirror screenshots, separate syllabus text, 11 academic bibliographic sources retrieved; one PMC full text blocked by CAPTCHA but metadata available.",
+        "interactive_browser_test": false
+      },
+      "navigation": {
+        "previous": "6.B.02",
+        "next": "6.B.04",
+        "reciprocal": "Dynamic reader uses homepage menu; unlinked neighbors disabled until published."
+      },
+      "progress": {
+        "subunit_published": 1,
+        "subunit_planned": 5,
+        "unit_published": 9,
+        "unit_planned": 66,
+        "academy_published": 258,
+        "academy_planned": 723,
+        "next_pending_node_id": "6.B.01"
+      },
+      "limitations": [
+        "Internal review only; no independent external academic reviewer.",
+        "Static SVG, HTML, accessibility and script checks; no interactive browser/mobile/screen-reader test.",
+        "MP SET syllabus retrieved from a mirror; not verified on MPPSC host.",
+        "Deployment and live HTTP/content verification pending."
+      ],
+      "changed_files": [
+        "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+        "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+        "curriculum/node-6b03-publication-qa.json"
+      ],
+      "publication": {
+        "strategy": "Atomic tree/commit, conditional non-force main ref",
+        "deployment": "pending",
+        "live_verified": false
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -43312,101 +43467,150 @@
       "6.A.05",
       "6.A.06",
       "6.A.07",
-      "6.A.08"
+      "6.A.08",
+      "6.B.03"
     ],
-    "published_node_count": 8,
+    "published_node_count": 9,
     "planned_node_count": 66,
-    "last_published_node_id": "6.A.04",
+    "last_published_node_id": "6.B.03",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.A.04",
-      "title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
-      "slug": "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+      "node_id": "6.B.03",
+      "title": "Oxidative Phosphorylation and ATP Synthesis in Plants",
+      "slug": "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
       "unit": "06",
-      "subunit": "6.A",
-      "topic": "Photosynthesis",
+      "subunit": "6.B",
+      "topic": "Respiration and Photorespiration",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6a04-photophosphorylation",
-      "source_draft_commit_sha": "e24090968e0ccecbc7e52aadba483c889f5f4632",
-      "source_draft_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
-      "production_chapter_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
-      "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
-      "publication_base_sha": "bd01bf3d47495821d936ad9fe7ef642a7c63141a",
+      "source_draft_branch": "develop-6b03-plant-oxidative-phosphorylation-20261127",
+      "source_draft_commit_sha": "3322304034381b823308758056d39e5c9c160a13",
+      "source_draft_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+      "production_chapter_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+      "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+      "publication_base_sha": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 13601,
-        "teaching_paragraphs": 134,
-        "svg": 10,
-        "tables": 3,
-        "total_questions": 52,
-        "part_b": 25,
-        "part_c": 27,
-        "other_questions": 0,
-        "misconceptions": 15,
-        "active_recall": 10,
-        "references": 12
+        "genuine_teaching_words": 13323,
+        "teaching_paragraphs": 135,
+        "svg": 12,
+        "tables": 5,
+        "graph_and_chart_figures": 4,
+        "worked_numerical_examples": 20,
+        "total_questions": 54,
+        "part_b": 24,
+        "part_c": 24,
+        "other_questions": 6,
+        "answer_positions": {
+          "A": 14,
+          "B": 13,
+          "C": 13,
+          "D": 14
+        },
+        "misconceptions": 18,
+        "active_recall": 14,
+        "references": 11
       },
-      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
+      "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after stripping inline tags; excludes figures, tables, questions, references, revision and navigation.",
       "scope": {
-        "official": "Revised 2026 CSIR–UGC–DBT Unit 6.A; separate Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
-        "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md"
+        "official": "Revised 2026 CSIR–UGC–DBT Unit 6.B; separate Life Sciences Unit 6.B; mirrored MP SET 2024 Paper II Unit 6.B",
+        "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+        "boundaries": "General metabolism Unit 1, electron carriers 6.B.02, AOX-specific regulation 6.B.04, full photorespiration 6.B.05"
       },
       "coverage_matrix": [
         {
-          "concept": "Thylakoid topology and proton sources",
-          "sections": "compartments, protons",
+          "microtopic": "Plant respiration and substrate-level versus oxidative phosphorylation",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "problem, phosphorylation, physiology",
+          "depth": "Direct versus indirect energy coupling; day/night metabolism",
+          "reasoning": "Hypoxia and plant energy budget",
           "status": "covered"
         },
         {
-          "concept": "Chemiosmosis and electrochemical free energy",
-          "sections": "pmf, history",
+          "microtopic": "Inner membrane topology and proton-pumping sites",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "membrane, chemiosmosis",
+          "depth": "Matrix/P orientation; I/III/IV and II exception",
+          "reasoning": "Predict proton translocation by entry route",
           "status": "covered"
         },
         {
-          "concept": "ATP synthase structure, rotor and regulation",
-          "sections": "synthase",
+          "microtopic": "Electrochemical gradient and thermodynamics",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "chemiosmosis, redox-energy, gradient-dynamics, phosphorylation-potential",
+          "depth": "Signed Δψ/ΔpH, redox work and phosphorylation threshold",
+          "reasoning": "Compute driving voltage, energy and threshold",
           "status": "covered"
         },
         {
-          "concept": "Linear versus cyclic electron flow",
-          "sections": "cyclic, balance",
+          "microtopic": "F₀F₁ ATP synthase mechanism",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "synthase, experimental-evidence",
+          "depth": "Rotor/stator, half-channels, O/L/T and reversible catalysis",
+          "reasoning": "Ring stoichiometry and reconstitution logic",
           "status": "covered"
         },
         {
-          "concept": "PGR5/PGRL1 and NDH pathways",
-          "sections": "cyclic",
+          "microtopic": "ADP, Pi and ATP transport",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "transport, constraints",
+          "depth": "Electrogenic ANT; phosphate transport and ATP delivery costs",
+          "reasoning": "Distinguish transport from motor defects",
           "status": "covered"
         },
         {
-          "concept": "ATP:NADPH and stoichiometry limitations",
-          "sections": "balance",
+          "microtopic": "Coupling, P/O and variable plant ATP yield",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "yield, pathway-accounting",
+          "depth": "Conventional versus bypass pathways, sidedness, leaks",
+          "reasoning": "Weighted flux, P/O, glucose budget",
           "status": "covered"
         },
         {
-          "concept": "Experimental evidence and inhibitors",
-          "sections": "history, experiments",
+          "microtopic": "Respiratory control by ADP, substrate and oxygen",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "control, assays, constraints",
+          "depth": "State 3/4, RCR and assay limitations",
+          "reasoning": "Oxygen traces, rates and mutant diagnosis",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Inhibitors and uncouplers",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "inhibition, gradient-dynamics, assays",
+          "depth": "Oligomycin versus FCCP; ETC inhibition and plant AOX",
+          "reasoning": "Sequential inhibitor predictions",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Plant metabolic integration and related pathways",
+          "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+          "sections": "physiology, plant-specialization",
+          "depth": "Roots, seeds, light/dark, chloroplast comparison and carbon/redox allocation",
+          "reasoning": "Interpret physiological and gas-exchange results",
           "status": "covered"
         }
       ],
       "review_pass_1": {
-        "result": "pass",
-        "evidence": "Reviewed lumen/stroma orientation, complete Q-cycle accounting, electrochemical signs, c14 stoichiometry, conditional ATP budget, cyclic-route distinctions and question answers; recalculated quantitative examples; corrected source attribution."
+        "type": "Internal scientific and syllabus review",
+        "result": "pass with disclosed limitations",
+        "findings": "Verified mitochondrial orientation, I/III/IV 4/4/2 and II non-pumping, signed Δp, c-ring/3, effective delivery costs, P/O oxygen-atom denominator, reversible motor, ADP states, inhibitor and AOX qualifications, illustrative experimental data. Recomputed PMF, redox energy, motor ratios, phosphorylation threshold, oxygen chamber normalization, route fractions and numerical question answers. Checked conceptual questions and revised vesicle and branching graphics."
       },
       "review_pass_2": {
-        "result": "pass",
-        "evidence": "Progressive teaching sequence; added tables, revision checklist, 25 MCQs with distractor explanations and 27 analytical short-response questions."
+        "type": "Separate internal editorial and static reader review",
+        "result": "pass with disclosed limitations",
+        "findings": "Compared 13,323 visible words with 6.A.06 exemplar (13,062); 135 unique narrative paragraphs, 18 coherent theory sections, 12 original diagrams and caption/zoom labels, 54 explained questions, 18 misconception analyses and revision glossary/14 recall prompts. Balanced option positions. Reader and dynamic adjacent-menu navigation inherited; no browser runtime test."
       },
       "quality": {
         "score": 95,
         "threshold": 95,
         "rubric": {
-          "scientific_accuracy": 20,
+          "scientific_accuracy": 19,
           "syllabus_coverage": 15,
           "teaching_depth": 15,
-          "pedagogy": 9,
+          "pedagogy": 10,
           "illustrations": 9,
           "questions": 9,
           "experimental_reasoning": 5,
@@ -43414,7 +43618,7 @@
           "reader_accessibility": 4,
           "technical_seo": 4
         },
-        "basis": "Internal review; deductions for some abstract diagrams, short-response Part C format, unperformed interactive/browser accessibility tests."
+        "basis": "Internal rubric assessment; one mark deducted for limited independent source review, schematic SVG visual checks without rendering, some concise distractor explanations, lack of interactive accessibility testing, lack of browser runtime testing respectively. Not external certification."
       },
       "validation": {
         "word_count_pass": true,
@@ -43425,44 +43629,46 @@
         "unresolved_anchors": 0,
         "unresolved_aria_references": 0,
         "unresolved_zoom_targets": 0,
+        "unresolved_svg_marker_refs": 0,
         "duplicate_teaching_paragraphs": 0,
         "placeholder_markers": 0,
+        "balanced_html_tag_counts": true,
         "js_syntax_compiled": true,
         "canonical_pass": true,
-        "reference_verification": "Official revised syllabus screenshot, separate syllabus text, MP SET mirror text; academic bibliographic sources retrieved",
+        "reference_verification": "Official revised syllabus and MP SET mirror screenshots, separate syllabus text, 11 academic bibliographic sources retrieved; one PMC full text blocked by CAPTCHA but metadata available.",
         "interactive_browser_test": false
       },
       "navigation": {
-        "previous": "6.A.03",
-        "next": "6.A.05",
-        "reciprocal": "Dynamic links resolve via homepage"
+        "previous": "6.B.02",
+        "next": "6.B.04",
+        "reciprocal": "Dynamic reader uses homepage menu; unlinked neighbors disabled until published."
       },
       "progress": {
-        "subunit_published": 8,
-        "subunit_planned": 8,
-        "unit_published": 8,
+        "subunit_published": 1,
+        "subunit_planned": 5,
+        "unit_published": 9,
         "unit_planned": 66,
-        "academy_published": 257,
+        "academy_published": 258,
         "academy_planned": 723,
         "next_pending_node_id": "6.B.01"
       },
       "limitations": [
-        "Internal review only; no external reviewer.",
-        "No browser rendering or screen-reader interaction test; static checks only.",
-        "MP SET syllabus checked using a mirror.",
-        "Deployment and live content pending."
+        "Internal review only; no independent external academic reviewer.",
+        "Static SVG, HTML, accessibility and script checks; no interactive browser/mobile/screen-reader test.",
+        "MP SET syllabus retrieved from a mirror; not verified on MPPSC host.",
+        "Deployment and live HTTP/content verification pending."
       ],
       "changed_files": [
-        "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+        "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
-        "curriculum/subunit-6a-photosynthesis-node-map.md",
+        "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6a04-publication-qa.json"
+        "curriculum/node-6b03-publication-qa.json"
       ],
       "publication": {
-        "strategy": "Atomic commit and conditional non-force main update",
+        "strategy": "Atomic tree/commit, conditional non-force main ref",
         "deployment": "pending",
         "live_verified": false
       }
@@ -44926,6 +45132,204 @@
           "deployment": "pending",
           "live_verified": false
         }
+      },
+      "6.B.03": {
+        "node_id": "6.B.03",
+        "title": "Oxidative Phosphorylation and ATP Synthesis in Plants",
+        "slug": "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+        "unit": "06",
+        "subunit": "6.B",
+        "topic": "Respiration and Photorespiration",
+        "date": "2026-11-27",
+        "status": "academic_qa_passed_deployment_verification_pending",
+        "source_draft_branch": "develop-6b03-plant-oxidative-phosphorylation-20261127",
+        "source_draft_commit_sha": "3322304034381b823308758056d39e5c9c160a13",
+        "source_draft_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+        "production_chapter_blob_sha": "f40833a80b246dc248fd3043475fb5f6bd0a9251",
+        "initial_main_head": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+        "publication_base_sha": "751ec3f1273c6e2cb5270f16da1114eb7e519ab5",
+        "production_robots": "index,follow",
+        "metrics": {
+          "genuine_teaching_words": 13323,
+          "teaching_paragraphs": 135,
+          "svg": 12,
+          "tables": 5,
+          "graph_and_chart_figures": 4,
+          "worked_numerical_examples": 20,
+          "total_questions": 54,
+          "part_b": 24,
+          "part_c": 24,
+          "other_questions": 6,
+          "answer_positions": {
+            "A": 14,
+            "B": 13,
+            "C": 13,
+            "D": 14
+          },
+          "misconceptions": 18,
+          "active_recall": 14,
+          "references": 11
+        },
+        "word_count_method": "Whitespace-separated visible text in saved p.teaching-prose after stripping inline tags; excludes figures, tables, questions, references, revision and navigation.",
+        "scope": {
+          "official": "Revised 2026 CSIR–UGC–DBT Unit 6.B; separate Life Sciences Unit 6.B; mirrored MP SET 2024 Paper II Unit 6.B",
+          "roadmap": "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+          "boundaries": "General metabolism Unit 1, electron carriers 6.B.02, AOX-specific regulation 6.B.04, full photorespiration 6.B.05"
+        },
+        "coverage_matrix": [
+          {
+            "microtopic": "Plant respiration and substrate-level versus oxidative phosphorylation",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "problem, phosphorylation, physiology",
+            "depth": "Direct versus indirect energy coupling; day/night metabolism",
+            "reasoning": "Hypoxia and plant energy budget",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Inner membrane topology and proton-pumping sites",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "membrane, chemiosmosis",
+            "depth": "Matrix/P orientation; I/III/IV and II exception",
+            "reasoning": "Predict proton translocation by entry route",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Electrochemical gradient and thermodynamics",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "chemiosmosis, redox-energy, gradient-dynamics, phosphorylation-potential",
+            "depth": "Signed Δψ/ΔpH, redox work and phosphorylation threshold",
+            "reasoning": "Compute driving voltage, energy and threshold",
+            "status": "covered"
+          },
+          {
+            "microtopic": "F₀F₁ ATP synthase mechanism",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "synthase, experimental-evidence",
+            "depth": "Rotor/stator, half-channels, O/L/T and reversible catalysis",
+            "reasoning": "Ring stoichiometry and reconstitution logic",
+            "status": "covered"
+          },
+          {
+            "microtopic": "ADP, Pi and ATP transport",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "transport, constraints",
+            "depth": "Electrogenic ANT; phosphate transport and ATP delivery costs",
+            "reasoning": "Distinguish transport from motor defects",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Coupling, P/O and variable plant ATP yield",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "yield, pathway-accounting",
+            "depth": "Conventional versus bypass pathways, sidedness, leaks",
+            "reasoning": "Weighted flux, P/O, glucose budget",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Respiratory control by ADP, substrate and oxygen",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "control, assays, constraints",
+            "depth": "State 3/4, RCR and assay limitations",
+            "reasoning": "Oxygen traces, rates and mutant diagnosis",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Inhibitors and uncouplers",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "inhibition, gradient-dynamics, assays",
+            "depth": "Oligomycin versus FCCP; ETC inhibition and plant AOX",
+            "reasoning": "Sequential inhibitor predictions",
+            "status": "covered"
+          },
+          {
+            "microtopic": "Plant metabolic integration and related pathways",
+            "official_scope": "Unit 6.B — plant mitochondrial electron transport and ATP synthesis",
+            "sections": "physiology, plant-specialization",
+            "depth": "Roots, seeds, light/dark, chloroplast comparison and carbon/redox allocation",
+            "reasoning": "Interpret physiological and gas-exchange results",
+            "status": "covered"
+          }
+        ],
+        "review_pass_1": {
+          "type": "Internal scientific and syllabus review",
+          "result": "pass with disclosed limitations",
+          "findings": "Verified mitochondrial orientation, I/III/IV 4/4/2 and II non-pumping, signed Δp, c-ring/3, effective delivery costs, P/O oxygen-atom denominator, reversible motor, ADP states, inhibitor and AOX qualifications, illustrative experimental data. Recomputed PMF, redox energy, motor ratios, phosphorylation threshold, oxygen chamber normalization, route fractions and numerical question answers. Checked conceptual questions and revised vesicle and branching graphics."
+        },
+        "review_pass_2": {
+          "type": "Separate internal editorial and static reader review",
+          "result": "pass with disclosed limitations",
+          "findings": "Compared 13,323 visible words with 6.A.06 exemplar (13,062); 135 unique narrative paragraphs, 18 coherent theory sections, 12 original diagrams and caption/zoom labels, 54 explained questions, 18 misconception analyses and revision glossary/14 recall prompts. Balanced option positions. Reader and dynamic adjacent-menu navigation inherited; no browser runtime test."
+        },
+        "quality": {
+          "score": 95,
+          "threshold": 95,
+          "rubric": {
+            "scientific_accuracy": 19,
+            "syllabus_coverage": 15,
+            "teaching_depth": 15,
+            "pedagogy": 10,
+            "illustrations": 9,
+            "questions": 9,
+            "experimental_reasoning": 5,
+            "revision": 5,
+            "reader_accessibility": 4,
+            "technical_seo": 4
+          },
+          "basis": "Internal rubric assessment; one mark deducted for limited independent source review, schematic SVG visual checks without rendering, some concise distractor explanations, lack of interactive accessibility testing, lack of browser runtime testing respectively. Not external certification."
+        },
+        "validation": {
+          "word_count_pass": true,
+          "svg_count_pass": true,
+          "question_count_pass": true,
+          "answer_mapping_pass": true,
+          "duplicate_ids": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria_references": 0,
+          "unresolved_zoom_targets": 0,
+          "unresolved_svg_marker_refs": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "placeholder_markers": 0,
+          "balanced_html_tag_counts": true,
+          "js_syntax_compiled": true,
+          "canonical_pass": true,
+          "reference_verification": "Official revised syllabus and MP SET mirror screenshots, separate syllabus text, 11 academic bibliographic sources retrieved; one PMC full text blocked by CAPTCHA but metadata available.",
+          "interactive_browser_test": false
+        },
+        "navigation": {
+          "previous": "6.B.02",
+          "next": "6.B.04",
+          "reciprocal": "Dynamic reader uses homepage menu; unlinked neighbors disabled until published."
+        },
+        "progress": {
+          "subunit_published": 1,
+          "subunit_planned": 5,
+          "unit_published": 9,
+          "unit_planned": 66,
+          "academy_published": 258,
+          "academy_planned": 723,
+          "next_pending_node_id": "6.B.01"
+        },
+        "limitations": [
+          "Internal review only; no independent external academic reviewer.",
+          "Static SVG, HTML, accessibility and script checks; no interactive browser/mobile/screen-reader test.",
+          "MP SET syllabus retrieved from a mirror; not verified on MPPSC host.",
+          "Deployment and live HTTP/content verification pending."
+        ],
+        "changed_files": [
+          "oxidative-phosphorylation-and-atp-synthesis-in-plants.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/subunit-6b-respiration-photorespiration-node-map.md",
+          "curriculum/unit-06-system-physiology-plant-subunit-map.md",
+          "curriculum/node-6b03-publication-qa.json"
+        ],
+        "publication": {
+          "strategy": "Atomic tree/commit, conditional non-force main ref",
+          "deployment": "pending",
+          "live_verified": false
+        }
       }
     },
     "next_pending_node_id": "6.B.01",
@@ -44947,199 +45351,164 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.A.08",
-      "title": "CAM Photosynthesis and Comparative C3, C4 and CAM Adaptations",
-      "slug": "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+      "node_id": "6.A.04",
+      "title": "Photophosphorylation, Chemiosmosis and Cyclic Electron Flow",
+      "slug": "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
       "unit": "06",
       "subunit": "6.A",
       "topic": "Photosynthesis",
       "date": "2026-11-27",
       "status": "academic_qa_passed_deployment_verification_pending",
-      "source_draft_branch": "draft/6a08-cam-photosynthesis",
-      "source_draft_commit_sha": "52fb3a558cb447673bcc593378e9fc116f1f714f",
-      "source_draft_blob_sha": "794d4656c9bd23f2ad7ff74b69b0ebbaef922920",
-      "production_chapter_blob_sha": "fbe563345cf208b102c4aedabcb7c39b813a86ad",
+      "source_draft_branch": "draft/6a04-photophosphorylation",
+      "source_draft_commit_sha": "e24090968e0ccecbc7e52aadba483c889f5f4632",
+      "source_draft_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
+      "production_chapter_blob_sha": "187a328dbd4c1da243ca8c8d1dfa0702321ee213",
       "initial_main_head": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
-      "publication_base_sha": "71eaf303f2eedb428e06cce7d50550ea500c2afa",
+      "publication_base_sha": "bd01bf3d47495821d936ad9fe7ef642a7c63141a",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 13337,
-        "teaching_paragraphs": 131,
-        "svg": 11,
-        "tables": 4,
-        "graph_and_chart_figures": 3,
-        "worked_numerical_examples": 10,
-        "total_questions": 50,
-        "part_b": 20,
-        "part_c": 20,
-        "other_questions": 10,
-        "answer_positions": {
-          "A": 13,
-          "B": 12,
-          "C": 13,
-          "D": 12
-        },
+        "genuine_teaching_words": 13601,
+        "teaching_paragraphs": 134,
+        "svg": 10,
+        "tables": 3,
+        "total_questions": 52,
+        "part_b": 25,
+        "part_c": 27,
+        "other_questions": 0,
         "misconceptions": 15,
-        "active_recall": 12,
-        "references": 9
+        "active_recall": 10,
+        "references": 12
       },
-      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes questions, references, captions, tables, navigation and revision.",
+      "word_count_method": "Whitespace-separated words in saved p.teaching-prose; excludes tables, captions, practice, references and navigation.",
       "scope": {
-        "official": "2026 revised CSIR–UGC–DBT Unit 6.A; separate CSIR Life Sciences Unit 6.A; MP SET 2024 mirrored syllabus Unit 6.A",
-        "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md",
-        "boundaries": "Full photorespiratory cycle belongs to 6.B; detailed stomatal and hydraulic mechanisms belong to subsequent nodes."
+        "official": "Revised 2026 CSIR–UGC–DBT Unit 6.A; separate Life Sciences syllabus and mirrored MP SET 2024 Unit 6.A",
+        "roadmap": "curriculum/subunit-6a-photosynthesis-node-map.md"
       },
       "coverage_matrix": [
         {
-          "microtopic": "CAM motivation and discovery",
-          "sections": [
-            "problem"
-          ],
-          "depth": "History, gas exchange, VPD and transpiration",
-          "reasoning": "Interpret equal-conductance VPD comparison",
+          "concept": "Thylakoid topology and proton sources",
+          "sections": "compartments, protons",
           "status": "covered"
         },
         {
-          "microtopic": "Nocturnal PEPC fixation",
-          "sections": [
-            "night"
-          ],
-          "depth": "Bicarbonate, PEP, OAA, malate, redox and reserve metabolism",
-          "reasoning": "Predict defects and tracer ordering",
+          "concept": "Chemiosmosis and electrochemical free energy",
+          "sections": "pmf, history",
           "status": "covered"
         },
         {
-          "microtopic": "Vacuolar malate",
-          "sections": [
-            "storage"
-          ],
-          "depth": "Proton gradients, tonoplast transport, acidity and volume",
-          "reasoning": "Capacity and retention reasoning",
+          "concept": "ATP synthase structure, rotor and regulation",
+          "sections": "synthase",
           "status": "covered"
         },
         {
-          "microtopic": "Daytime decarboxylation",
-          "sections": [
-            "day"
-          ],
-          "depth": "ME and PEPCK routes, Calvin cycle, reserve regeneration",
-          "reasoning": "Carbon accounting and energy balance",
+          "concept": "Linear versus cyclic electron flow",
+          "sections": "cyclic, balance",
           "status": "covered"
         },
         {
-          "microtopic": "Four phases and regulation",
-          "sections": [
-            "phases"
-          ],
-          "depth": "Diel flux, PEPC phosphorylation, feedback and clock",
-          "reasoning": "Interpret acid pool and conductance curves",
+          "concept": "PGR5/PGRL1 and NDH pathways",
+          "sections": "cyclic",
           "status": "covered"
         },
         {
-          "microtopic": "CAM variants",
-          "sections": [
-            "variants"
-          ],
-          "depth": "Constitutive, facultative, cycling and idling",
-          "reasoning": "Stress and rewatering controls",
+          "concept": "ATP:NADPH and stoichiometry limitations",
+          "sections": "balance",
           "status": "covered"
         },
         {
-          "microtopic": "C3/C4/CAM comparison",
-          "sections": [
-            "comparison"
-          ],
-          "depth": "Spatial and temporal separation, Rubisco competition and tradeoffs",
-          "reasoning": "Compare water-use and gross retention",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Experimental evidence",
-          "sections": [
-            "evidence"
-          ],
-          "depth": "Tracer, isotope, titration and gas exchange",
-          "reasoning": "Quantitative interpretation",
+          "concept": "Experimental evidence and inhibitors",
+          "sections": "history, experiments",
           "status": "covered"
         }
       ],
       "review_pass_1": {
-        "type": "Internal scientific and syllabus review",
-        "result": "pass within stated limitations",
-        "findings": "Checked both CSIR syllabus versions and MP SET mirror, Winter 2019, CAM acid test, anatomy, CAM evolution and facultative transition reviews. Reviewed PEPC substrate, OAA reduction, vacuolar proton pumping, decarboxylation, C3/C4/CAM comparisons, four-phase variability and isotope limitations. Recomputed VPD ratios, 86.4 mmol flux, 0.08 mmol store, 50 µmol equivalents titration, isotope δ values, carbon atom and energy bookkeeping, retention and water-use examples. All question answers inspected; illustrative data marked."
+        "result": "pass",
+        "evidence": "Reviewed lumen/stroma orientation, complete Q-cycle accounting, electrochemical signs, c14 stoichiometry, conditional ATP budget, cyclic-route distinctions and question answers; recalculated quantitative examples; corrected source attribution."
       },
       "review_pass_2": {
-        "type": "Separate internal editorial and static reader review",
-        "result": "pass with limitations",
-        "findings": "Reorganized foundational material into eight progressive theory sections with detailed subsections; compared depth to 6.A.07 QA (14,260 teaching words). Added revision terminology, comparative tables, 11 diagram zoom targets and balanced option keys. Verified no duplicate teaching paragraphs, missing section anchors, invalid ARIA references or answer mismatches; compiled inherited reader JS. Student-facing draft robots changed only for production."
+        "result": "pass",
+        "evidence": "Progressive teaching sequence; added tables, revision checklist, 25 MCQs with distractor explanations and 27 analytical short-response questions."
       },
       "quality": {
-        "scientific_accuracy": 19,
-        "syllabus_microtopic_coverage": 15,
-        "genuine_teaching_depth": 15,
-        "pedagogical_quality": 10,
-        "scientific_illustrations": 9,
-        "examination_questions_answers": 9,
-        "experimental_analytical_reasoning": 5,
-        "revision_mastery": 5,
-        "reader_accessibility": 4,
-        "technical_integrity_SEO": 4,
-        "total": 95,
+        "score": 95,
         "threshold": 95,
-        "assessment": "Internal rubric assessment, not external certification. Deductions for selected source verification rather than independent expert review, schematic figures not browser-tested, some distractors have concise rather than individual explanations, no interactive accessibility or runtime browser testing."
+        "rubric": {
+          "scientific_accuracy": 20,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "questions": 9,
+          "experimental_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "basis": "Internal review; deductions for some abstract diagrams, short-response Part C format, unperformed interactive/browser accessibility tests."
       },
       "validation": {
-        "teaching_words_pass": true,
+        "word_count_pass": true,
         "svg_count_pass": true,
         "question_count_pass": true,
         "answer_mapping_pass": true,
-        "unique_ids": true,
-        "anchors_pass": true,
-        "aria_references_pass": true,
-        "zoom_targets_pass": true,
-        "duplicate_paragraphs": 0,
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_references": 0,
+        "unresolved_zoom_targets": 0,
+        "duplicate_teaching_paragraphs": 0,
         "placeholder_markers": 0,
         "js_syntax_compiled": true,
-        "interactive_browser_test": false,
-        "reference_verification": "Selected peer-reviewed academic references and official CSIR syllabus retrieved; MP SET mirrored PDF, not official host."
+        "canonical_pass": true,
+        "reference_verification": "Official revised syllabus screenshot, separate syllabus text, MP SET mirror text; academic bibliographic sources retrieved",
+        "interactive_browser_test": false
       },
       "navigation": {
-        "previous": "6.A.07",
-        "previous_link_enabled": true,
-        "next_planned": "6.B.01",
-        "next_link_enabled": false,
-        "reciprocal": "Dynamic reader navigation uses current homepage; unpublished target remains disabled."
+        "previous": "6.A.03",
+        "next": "6.A.05",
+        "reciprocal": "Dynamic links resolve via homepage"
       },
       "progress": {
-        "subunit_published": 7,
+        "subunit_published": 8,
         "subunit_planned": 8,
-        "unit_published": 7,
+        "unit_published": 8,
         "unit_planned": 66,
-        "academy_published": 256,
+        "academy_published": 257,
         "academy_planned": 723,
-        "next_pending_node_id": "6.A.04"
+        "next_pending_node_id": "6.B.01"
       },
       "limitations": [
-        "No independent external academic review or exam calibration.",
+        "Internal review only; no external reviewer.",
         "No browser rendering or screen-reader interaction test; static checks only.",
-        "MP SET syllabus mirror, not verified on official MPPSC host.",
-        "Deployment and live verification pending."
+        "MP SET syllabus checked using a mirror.",
+        "Deployment and live content pending."
       ],
       "changed_files": [
-        "cam-photosynthesis-and-comparative-c3-c4-cam-adaptations.html",
+        "photophosphorylation-chemiosmosis-and-cyclic-electron-flow.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
         "curriculum/subunit-6a-photosynthesis-node-map.md",
         "curriculum/unit-06-system-physiology-plant-subunit-map.md",
-        "curriculum/node-6a08-publication-qa.json"
+        "curriculum/node-6a04-publication-qa.json"
       ],
       "publication": {
-        "strategy": "Atomic tree/commit, conditional non-force main ref",
+        "strategy": "Atomic commit and conditional non-force main update",
         "deployment": "pending",
         "live_verified": false
       }
+    },
+    "subunit_6b": {
+      "published_node_ids": [
+        "6.B.03"
+      ],
+      "published_node_count": 1,
+      "planned_node_count": 5,
+      "complete": false
     }
-  }
+  },
+  "unit6b_published_node_ids": [
+    "6.B.03"
+  ],
+  "unit6b_planned_node_count": 5
 }

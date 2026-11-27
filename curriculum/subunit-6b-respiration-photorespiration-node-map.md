@@ -9,7 +9,7 @@
 - Architecture: **5 future full textbook chapters**, `6.B.01` through `6.B.05`, rather than artificial microchapters. The chapter count is editorial, not official syllabus numbering.
 - **Scientific progression:** respiration sources → TCA reducing equivalents → mitochondrial electron transfer to oxygen → gradient-coupled ATP synthesis → AOX alternative terminal pathway → distinct photorespiratory carbon salvage circuit originating from Rubisco oxygenation. This is a causal **learning order**, not a claim that C2 photorespiration happens after mitochondrial ATP synthesis in living plants; plant pathways operate simultaneously and interact.
 - **Learning contract:** Conceptual understanding from basic definitions through NET/SET evidence, accurate biochemical stoichiometry with caveats, compartment diagrams and explained analytical questions. Write future content in connected chronological, natural scientific English, with no thin textbook pages, fabricated sources or question banks used as filler.
-- **Current publication distinction:** This is a **node map and nonclickable syllabus-menu structure**. No completed individual reading pages should be implied or linked; no changes to sitemap, unit progress tracking, existing lessons, styling, repository agent protocol, or other menus.
+- **Current publication distinction:** The roadmap describes five full reading chapters. Only validated and committed chapters are linked in the student-facing menu; unpublished nodes remain nonclickable.
 - **Overlap prevention:** Unit 01 owns deep general central metabolism/ATP chemistry; 6.A photosynthesis/C3-C4-CAM; 6.C NH4+ assimilation; 6.H stress physiology; 6.F leaf water relations. Unit 6.B owns plant-specific mitochondrial mechanisms, AOX and the full C2 salvage itinerary.
 
 ## Five full educational chapter contracts
@@ -117,3 +117,9 @@
 - AOX plant mitochondrial respiratory flexibility and physiological role: https://pmc.ncbi.nlm.nih.gov/articles/PMC3645666/
 - Photorespiration review, cross-compartment itinerary (Nature Plants 2026): https://www.nature.com/articles/s41477-026-02262-3
 - Energetic costs and balance of photorespiratory C2 metabolism: https://onlinelibrary.wiley.com/doi/10.1111/pce.14949
+
+## Publication checkpoint — 2026-11-27
+
+- 6.B.03 — [Oxidative Phosphorylation and ATP Synthesis in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-phosphorylation-and-atp-synthesis-in-plants.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.B: 1/5; Unit 06: 9/66; Academy: 258/723.
+- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.

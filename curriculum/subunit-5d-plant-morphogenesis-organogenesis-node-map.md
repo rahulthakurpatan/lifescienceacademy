@@ -228,3 +228,5 @@
 
 - **5.D.11 — Arabidopsis and Antirrhinum: Floral Mutants and Comparative Development**: academically reviewed and included in the publication tree at `arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html`. Pages deployment and live availability must be verified separately.
 - Subunit 5.D: 7/11; Unit 05: 43/57; Academy: 235/723. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.
+
+- 2026-11-27 — **5.D.05 — Root Development: Tissue Differentiation, Root Hairs and Lateral Roots**: academic QA 95/100 (internal), 13,959 teaching words, 50 explained questions; deployment verification pending. [Chapter](../root-development-tissue-differentiation-root-hairs-and-lateral-roots.html) · [QA record](node-5d05-publication-qa.json).

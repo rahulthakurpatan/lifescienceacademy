@@ -2,182 +2,135 @@
   "schema_version": 1,
   "updated_at": "2026-11-27",
   "unit": "05",
-  "status": "lesson_committed_pages_verification_pending",
+  "status": "committed_to_main_deployment_pending",
   "published": true,
-  "node_id": "5.C.07",
-  "title": "Vertebrate Eye Formation and Lens Induction",
+  "node_id": "5.C.11",
+  "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation",
   "subunit": "5.C",
-  "topic": "Vertebrate Eye Formation and Lens Induction",
-  "slug": "vertebrate-eye-formation-and-lens-induction.html",
+  "topic": "Morphogenesis and Organogenesis in Animals",
+  "slug": "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
   "next_pending_node_id": "5.C.05",
   "next_pending_node_title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning",
-  "published_node_count": 226,
+  "published_node_count": 227,
   "publication_allowed": true,
-  "main_baseline_sha": "9e3592256fbe5618ec428ec16a92c352e8fb9304",
+  "main_baseline_sha": "a12aa254512bceea0c1b19c9556d1562171e9a52",
   "quality_hold": false,
-  "next_required_action": "Verify GitHub Pages and live chapter",
+  "next_required_action": "Verify GitHub Pages deployment and live chapter; continue with 5.C.05",
   "planned_node_count": 57,
   "planned_subunit_count": 5,
   "architecture_version": "unit-05-developmental-biology-2026-11-24",
   "curriculum_roadmap": "curriculum/unit-05-developmental-biology-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-5c-animal-morphogenesis-organogenesis-node-map.md",
   "last_qa": {
-    "node_id": "5.C.07",
-    "title": "Vertebrate Eye Formation and Lens Induction",
-    "slug": "vertebrate-eye-formation-and-lens-induction.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/vertebrate-eye-formation-and-lens-induction.html",
+    "node_id": "5.C.11",
+    "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation",
     "unit": "05",
     "subunit": "5.C",
+    "slug": "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
     "date": "2026-11-27",
-    "status": "lesson_committed_pages_verification_pending",
-    "initial_main_sha": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
-    "publication_base_sha": "9e3592256fbe5618ec428ec16a92c352e8fb9304",
-    "source_draft_branch": "draft/5.C.07-eye-lens-induction",
-    "source_draft_commit_sha": "08fce4f30042aaf4ed729e9b22da0349f82c7543",
-    "production_chapter_blob_sha": "1e375b800a1e3f45e0a16193d6e9f4b16c2b3df5",
-    "production_robots": "index,follow",
+    "status": "committed_to_main_deployment_pending",
+    "initial_head": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
+    "publication_baseline": "a12aa254512bceea0c1b19c9556d1562171e9a52",
+    "draft_branch": "draft/5c11-postembryonic-development",
+    "draft_blob": "bf790f27aa378ee2140cd41a6c7960f4e435a9a6",
+    "published_blob": "6cc7608eb85a38cce7639b6f16b51cd35f5b55e3",
     "metrics": {
-      "genuine_teaching_words": 14013,
-      "total_visible_article_words": 19153,
-      "teaching_paragraphs": 138,
-      "html_bytes": 183770,
-      "theory_sections": 21,
-      "svg": 14,
-      "tables": 3,
-      "worked_examples": 7,
-      "part_b": 25,
+      "teaching_words": 14240,
+      "visible_article_words": 21227,
+      "teaching_paragraphs": 139,
+      "html_bytes": 221356,
+      "theory_sections": 17,
+      "svg": 18,
+      "tables": 5,
+      "worked_examples": 5,
+      "part_b": 20,
       "part_c": 25,
-      "other_questions": 5,
-      "total_questions": 55,
-      "references": 19,
-      "misconceptions": 17,
-      "active_recall": 17,
+      "advanced": 5,
+      "total_questions": 50,
       "answer_positions": {
         "A": 13,
-        "B": 14,
-        "C": 14,
-        "D": 14
-      }
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "references": 27,
+      "misconceptions": 20,
+      "active_recall": 20,
+      "duplicate_teaching_paragraphs": 0
     },
-    "word_count_method": "Whitespace-separated lexical tokens in saved p.teaching-prose only; markup, figures, captions, assessment, revision and references excluded. Visible article count excludes SVG artwork.",
-    "coverage_matrix": {
-      "eye_field_and_optic_vesicle": "s1,s2,s16,s17",
-      "early_ectoderm_competence": "s3,s4,s12",
-      "reciprocal_induction": "s5,s10,s18",
-      "classical_grafts_and_stage_differences": "s3,s4,s9,s20",
-      "placode_pit_vesicle": "s6,s11,s13",
-      "lens_fibers": "s7,s14",
-      "optic_cup_retina_vs_lens": "s2,s7,s17",
-      "Pax6_Sox2": "s8,s18,s19",
-      "comparative_and_reasoning": "s9,s13,s15,s20,s21"
-    },
-    "dimensions": {
-      "A": "s1–s4",
-      "B": "s3,s10,s18,s19",
-      "C": "s7,s8,s14,s19",
-      "D": "s5,s6,s7,s11,s16,s17",
-      "E": "s11,s14,s15",
-      "F": "s8,s10,s12,s14,s18,s19",
-      "G": "s9,s11,s15,s19,s21",
-      "H": "s3,s9,s10,s18,s19,s20,s21",
-      "I": "s1,s7,s14,s17",
-      "J": "s13",
-      "K": "s10,s11,s18,s19,s20",
-      "L": "s3,s4,s12,s13,s17,s20",
-      "M": "developmental genetics, tissue recombination and reporter applications; clinical treatment/agricultural application outside scope",
-      "N": "s21 and prerequisite links",
-      "O": "s9,s15,s20,s21 and 55 practice questions"
-    },
-    "review_pass_1": {
-      "result": "pass_internal",
-      "checks": [
-        "Official merged CSIR 2026 Unit 5.C p.6 and separate syllabus p.4 verified; MP SET 2024 reproduced p.4 verified.",
-        "Checked primary Grainger, Henry, Furuta/Hogan, Ashery-Padan and Kamachi records and selected reviews.",
-        "Distinguished early competence from contact, host induction from donor contamination, retinal differentiation from correct placement, amniote vesicle from zebrafish solid primordium, lens-fiber maturation from apoptosis.",
-        "Recomputed response difference 0.625, ratio 4, occupancy 0.8, area change −0.25, spherical volume increase 0.953125, additive prediction 4 and penetrance 0.75. All constructed datasets identified as hypothetical."
-      ]
-    },
-    "review_pass_2": {
-      "result": "pass_internal",
-      "checks": [
-        "Reordered narrative and figures for causal progression, included source pointers and related foundation links.",
-        "Compared 5.B.07 (13831 words,124 paragraphs) and 5.A.06 (13393 words,129 paragraphs); exact teaching paragraph overlap zero with both; maximum within-draft word-set Jaccard 0.302 before final small wording edit.",
-        "Reviewed question explanations and key ordering; balanced answer positions, 17 misconceptions and 17 recall prompts.",
-        "Static checks of IDs, anchors, ARIA, marker targets, zoom count, canonical and JavaScript parsing; corrected graph tick alignment.",
-        "Reconciled latest main menu, checkpoint, sitemap and actual repository tree; preserved all existing published nodes."
-      ]
-    },
-    "quality": {
-      "syllabus_microtopics": 20,
-      "scientific_mechanistic_accuracy": 24,
-      "teaching_depth": 19,
-      "experimental_quantitative_reasoning": 14,
-      "examination_practice": 9,
-      "technical_accessibility": 9,
+    "score": {
+      "syllabus": 20,
+      "science": 24,
+      "teaching": 19,
+      "experimental_quantitative": 14,
+      "exam": 9,
+      "technical": 9,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal editorial judgment, not independent expert certification.",
-      "deductions": [
-        "Selected primary abstracts and reviews rather than exhaustive full-text review.",
-        "Some necessary concept recurrence across evidence and interpretation.",
-        "Hypothetical datasets rather than raw primary measurements.",
-        "Original question difficulty not externally calibrated; some Part B distractors straightforward.",
-        "Static checks, not interactive browser or assistive-technology testing."
-      ]
+      "assessment": "Internal editorial judgment; not external accreditation"
     },
-    "validation": {
-      "duplicate_ids": 0,
-      "broken_anchors": 0,
-      "broken_aria": 0,
-      "broken_marker_targets": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "script_syntax": "pass",
-      "zoom_controls": 14,
-      "reader_runtime": "not independently exercised"
+    "review": {
+      "scientific": "Mapped syllabus and roadmap; reviewed endocrine pathways, tissue competence, developmental checkpoints, diapause and amphibian plasticity against selected authoritative literature; corrected sequential figure references.",
+      "teaching": "Reviewed progression, worked examples, answer matching and explanations, strengthened nine distractor sets, and checked final saved HTML; comparator 5.C.12 had 14276 teaching words and 162 paragraphs with zero exact paragraph overlap.",
+      "static_checks": "Unique IDs, anchors, ARIA targets, zoom targets, tag nesting, JavaScript syntax, answer-key matching: passed."
     },
+    "coverage": {
+      "direct_indirect": "1–2",
+      "insect_metamorphosis": "2–7",
+      "amphibian_metamorphosis": "8–11",
+      "environmental_regulation": "12–17",
+      "questions": "50 explained original items"
+    },
+    "dimensions": "A–O addressed in narrative, mechanisms, evidence, quantitative reasoning, comparative biology, perturbation reasoning, caveats and examination integration; detailed thermodynamic derivations not applicable to descriptive life-history transitions.",
+    "limitations": [
+      "Selected authoritative sources and accessible primary abstracts; not exhaustive full-text verification or external peer review.",
+      "Hypothetical teaching datasets explicitly labeled; simplified models not universal.",
+      "Question difficulty not independently calibrated.",
+      "Static reader checks only; interactive browser, accessibility assistive technology and cross-device testing not performed.",
+      "MP SET 2024 syllabus checked through mirrored PDF, not official host."
+    ],
     "navigation": {
-      "previous": "5.C.06",
-      "next": "5.C.08",
-      "previous_published": true,
-      "next_published": true,
-      "reciprocal_checked": [
-        {
-          "node": "5.C.06",
-          "path": "c-elegans-vulva-formation.html",
-          "direction": "next",
-          "verified_node_reference": true
-        },
-        {
-          "node": "5.C.08",
-          "path": "vertebrate-limb-development-limb-bud-aer-zpa-and-positional-identity.html",
-          "direction": "previous",
-          "verified_node_reference": true
-        }
-      ],
-      "mechanism": "Existing dynamic homepage resolver; unpublished adjacent chapters are disabled."
-    },
-    "progress": {
-      "academy": 226,
-      "unit_05": 34,
-      "subunit_5c": 10,
-      "next_pending": {
-        "id": "5.C.05",
-        "title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+      "5.C.10": {
+        "path": "neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
+        "reciprocal": "dynamic menu resolution verified in saved source"
+      },
+      "5.C.12": {
+        "path": "sex-determination-and-sexual-differentiation-in-animals.html",
+        "reciprocal": "dynamic menu resolution verified in saved source"
       }
     },
-    "limitations": [
-      "Current primary-host MP SET document not independently verified; archived copy used.",
-      "No external scientific peer review or question calibration.",
-      "No interactive browser, mobile or screen-reader testing.",
-      "Pages deployment and live HTTP verification are separate."
-    ],
-    "changed_files": [
-      "vertebrate-eye-formation-and-lens-induction.html",
-      "index.html",
-      "sitemap.xml",
-      "curriculum/academy-progress.json",
-      "curriculum/node-5c07-publication-qa.json"
-    ]
+    "progress": {
+      "academy": 227,
+      "unit": 35,
+      "subunit": 11,
+      "next_pending_node_id": "5.C.05",
+      "next_pending_node_title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+    },
+    "math_checks": {
+      "growth": [
+        60,
+        68
+      ],
+      "degree_days": 6.666666666666667,
+      "occupancy": [
+        0.5,
+        0.8
+      ],
+      "interaction": 3,
+      "duration_reduction": 0.25,
+      "rate_increase": 0.33333333333333326
+    },
+    "publication": {
+      "files": [
+        "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/node-5c11-publication-qa.json"
+      ],
+      "method": "Atomic tree/commit, non-force conditional ref update; Pages verification pending"
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -405,280 +358,324 @@
     "5.C.08",
     "5.C.09",
     "5.C.10",
+    "5.C.11",
     "5.C.12"
   ],
   "prior_publication_qa": {
-    "node_id": "5.C.04",
-    "title": "Amphibian Axis Formation: Cortical Rotation, Nieuwkoop Center and Organizer",
+    "node_id": "5.C.07",
+    "title": "Vertebrate Eye Formation and Lens Induction",
+    "slug": "vertebrate-eye-formation-and-lens-induction.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/vertebrate-eye-formation-and-lens-induction.html",
     "unit": "05",
     "subunit": "5.C",
-    "slug": "amphibian-axis-formation-cortical-rotation-nieuwkoop-center-and-organizer.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/amphibian-axis-formation-cortical-rotation-nieuwkoop-center-and-organizer.html",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "initial_main_sha": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
-    "publication_base_sha": "8418e49eaafcd25f3f31ce6831b3c8af0195ca11",
-    "source_draft_branch": "draft/5-c-04-amphibian-axis",
-    "source_draft_commit_sha": "3c53589f25fce67d23008873169dae80e46db2ec",
-    "production_chapter_blob_sha": "9ca81f393ce49785b84a16ddb8b944bef272b092",
+    "publication_base_sha": "9e3592256fbe5618ec428ec16a92c352e8fb9304",
+    "source_draft_branch": "draft/5.C.07-eye-lens-induction",
+    "source_draft_commit_sha": "08fce4f30042aaf4ed729e9b22da0349f82c7543",
+    "production_chapter_blob_sha": "1e375b800a1e3f45e0a16193d6e9f4b16c2b3df5",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 13931,
-      "visible_article_words": 18434,
-      "teaching_paragraphs": 155,
-      "html_bytes": 177250,
+      "genuine_teaching_words": 14013,
+      "total_visible_article_words": 19153,
+      "teaching_paragraphs": 138,
+      "html_bytes": 183770,
       "theory_sections": 21,
-      "svg": 13,
+      "svg": 14,
       "tables": 3,
       "worked_examples": 7,
-      "part_b": 22,
-      "part_c": 22,
-      "other_questions": 10,
-      "total_questions": 54,
-      "references": 17,
-      "misconceptions": 15,
-      "active_recall": 10,
+      "part_b": 25,
+      "part_c": 25,
+      "other_questions": 5,
+      "total_questions": 55,
+      "references": 19,
+      "misconceptions": 17,
+      "active_recall": 17,
       "answer_positions": {
-        "A": 14,
+        "A": 13,
         "B": 14,
-        "C": 13,
-        "D": 13
+        "C": 14,
+        "D": 14
       }
     },
-    "word_count_method": "Unicode lexical tokens in p.teaching-prose only; excludes headings, SVG, captions, tables, questions, answers, references and revision. Visible article excludes SVG and zoom buttons.",
-    "scope": {
-      "official_revised": "CSIR-HRDG 21 Jan 2026 Unit 5.C p6 screenshot checked",
-      "official_separate": "CSIR-HRDG 29 Jan 2026 Unit 5.C p4 screenshot checked",
-      "mp_set": "Reproduced MPPSC SET 2022 syllabus Unit 5.C p4 screenshot checked; current official-host version not independently retrieved",
-      "roadmap": "curriculum/subunit-5c-animal-morphogenesis-organogenesis-node-map.md",
-      "microtopics": {
-        "egg_polarity": "egg-polarity, maternal-to-zygotic",
-        "cortical_rotation_and_gray_crescent": "rotation, physical-constraints, separation, microtubules",
-        "dorsal_beta_catenin": "beta-catenin, maternal-to-zygotic",
-        "nieuwkoop_center_and_nodal": "nieuwkoop, vegetal-grafts, signal-reception",
-        "organizer_transplant_and_lineage": "classical, organizer, pattern-assays",
-        "bmp_antagonism": "organizer, bmp-balance",
-        "neural_induction": "neural",
-        "regional_identity": "head-trunk",
-        "experimental_quantitative": "causal-matrix, reasoning, spatial-model, synthesis"
-      },
-      "dimensions": {
-        "A": "egg-polarity",
-        "B": "classical, vegetal-grafts",
-        "C": "beta-catenin, physical-constraints, signal-reception",
-        "D": "rotation through organizer",
-        "E": "physical-constraints, bmp-balance, reasoning",
-        "F": "beta-catenin, signal-reception, bmp-balance",
-        "G": "reasoning, spatial-model, physical-constraints",
-        "H": "classical, microtubules, vegetal-grafts, pattern-assays, causal-matrix",
-        "I": "organizer, head-trunk, neural",
-        "J": "integration",
-        "K": "causal-matrix and experimental questions",
-        "L": "separation, neural, head-trunk, spatial-model",
-        "M": "developmental model and stem-cell-model applications in integration; clinical/agricultural methods not applicable",
-        "N": "integration and synthesis; live prerequisite links",
-        "O": "reasoning, spatial-model and 54 original questions"
-      }
+    "word_count_method": "Whitespace-separated lexical tokens in saved p.teaching-prose only; markup, figures, captions, assessment, revision and references excluded. Visible article count excludes SVG artwork.",
+    "coverage_matrix": {
+      "eye_field_and_optic_vesicle": "s1,s2,s16,s17",
+      "early_ectoderm_competence": "s3,s4,s12",
+      "reciprocal_induction": "s5,s10,s18",
+      "classical_grafts_and_stage_differences": "s3,s4,s9,s20",
+      "placode_pit_vesicle": "s6,s11,s13",
+      "lens_fibers": "s7,s14",
+      "optic_cup_retina_vs_lens": "s2,s7,s17",
+      "Pax6_Sox2": "s8,s18,s19",
+      "comparative_and_reasoning": "s9,s13,s15,s20,s21"
+    },
+    "dimensions": {
+      "A": "s1–s4",
+      "B": "s3,s10,s18,s19",
+      "C": "s7,s8,s14,s19",
+      "D": "s5,s6,s7,s11,s16,s17",
+      "E": "s11,s14,s15",
+      "F": "s8,s10,s12,s14,s18,s19",
+      "G": "s9,s11,s15,s19,s21",
+      "H": "s3,s9,s10,s18,s19,s20,s21",
+      "I": "s1,s7,s14,s17",
+      "J": "s13",
+      "K": "s10,s11,s18,s19,s20",
+      "L": "s3,s4,s12,s13,s17,s20",
+      "M": "developmental genetics, tissue recombination and reporter applications; clinical treatment/agricultural application outside scope",
+      "N": "s21 and prerequisite links",
+      "O": "s9,s15,s20,s21 and 55 practice questions"
     },
     "review_pass_1": {
-      "type": "internal scientific and syllabus review",
-      "findings": "Checked scope against both official CSIR documents and reproduced SET syllabus; verified selected textbook, primary record and review evidence on cortical rotation, maternal beta-catenin, VegT, Nieuwkoop center, Nodal-related induction, Spemann–Mangold donor and host contributions, Chordin/BMP binding, anterior identity and neural induction. Explicitly distinguished marker from function, maternal and later Wnt activities, organizer from Nieuwkoop center, and hypothetical data from primary observations. Recomputed arc, fluorescence ratio, defect frequency difference, kinetic ratio, equilibrium free ligand, exponential boundary and diffusion scaling."
+      "result": "pass_internal",
+      "checks": [
+        "Official merged CSIR 2026 Unit 5.C p.6 and separate syllabus p.4 verified; MP SET 2024 reproduced p.4 verified.",
+        "Checked primary Grainger, Henry, Furuta/Hogan, Ashery-Padan and Kamachi records and selected reviews.",
+        "Distinguished early competence from contact, host induction from donor contamination, retinal differentiation from correct placement, amniote vesicle from zebrafish solid primordium, lens-fiber maturation from apoptosis.",
+        "Recomputed response difference 0.625, ratio 4, occupancy 0.8, area change −0.25, spherical volume increase 0.953125, additive prediction 4 and penetrance 0.75. All constructed datasets identified as hypothetical."
+      ]
     },
     "review_pass_2": {
-      "type": "internal teaching and assessment review",
-      "findings": "Reordered 21 sections into prerequisite, evidence, mechanism, regional pattern, experimental and quantitative progression; corrected graph label and yolk label; added source links and two datasets, integrated revision and checklist; checked 54 question keys with balanced positions and distractor explanations; compared 5.B.07 13,852 lexical teaching words, exact paragraph overlap zero. Parsed script and checked static IDs, anchors, ARIA and figure controls."
-    },
-    "validation": {
-      "duplicate_ids": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "broken_anchors": 0,
-      "broken_aria": 0,
-      "figure_label_or_control_failures": 0,
-      "question_structure_failures": 0,
-      "script_syntax": "parsed",
-      "comparator": "5.B.07",
-      "comparator_teaching_words": 13852,
-      "exact_paragraph_overlap": 0,
-      "max_pairwise_word_set_jaccard": 0.2522522523,
-      "browser_interaction": "not independently tested"
+      "result": "pass_internal",
+      "checks": [
+        "Reordered narrative and figures for causal progression, included source pointers and related foundation links.",
+        "Compared 5.B.07 (13831 words,124 paragraphs) and 5.A.06 (13393 words,129 paragraphs); exact teaching paragraph overlap zero with both; maximum within-draft word-set Jaccard 0.302 before final small wording edit.",
+        "Reviewed question explanations and key ordering; balanced answer positions, 17 misconceptions and 17 recall prompts.",
+        "Static checks of IDs, anchors, ARIA, marker targets, zoom count, canonical and JavaScript parsing; corrected graph tick alignment.",
+        "Reconciled latest main menu, checkpoint, sitemap and actual repository tree; preserved all existing published nodes."
+      ]
     },
     "quality": {
-      "syllabus_microtopic_completeness": 20,
+      "syllabus_microtopics": 20,
       "scientific_mechanistic_accuracy": 24,
-      "teaching_depth_progression": 19,
+      "teaching_depth": 19,
       "experimental_quantitative_reasoning": 14,
-      "examination_practice_quality": 9,
+      "examination_practice": 9,
       "technical_accessibility": 9,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal editorial judgment, not external certification.",
+      "assessment": "Internal editorial judgment, not independent expert certification.",
       "deductions": [
-        "Selected primary records and reviews rather than comprehensive external expert validation.",
-        "Some unavoidable conceptual reinforcement across levels; simplified teaching models.",
-        "Illustrative datasets rather than original primary raw data.",
-        "Question difficulty not independently calibrated.",
-        "Static SVG/HTML and script checks, not interactive browser or screen-reader testing."
+        "Selected primary abstracts and reviews rather than exhaustive full-text review.",
+        "Some necessary concept recurrence across evidence and interpretation.",
+        "Hypothetical datasets rather than raw primary measurements.",
+        "Original question difficulty not externally calibrated; some Part B distractors straightforward.",
+        "Static checks, not interactive browser or assistive-technology testing."
       ]
     },
-    "limitations": [
-      "Current official-host MP SET syllabus not independently retrieved; archived reproduced MPPSC syllabus used.",
-      "Some primary full texts not accessed.",
-      "No independent external peer review or exam calibration.",
-      "No interactive browser/device or screen-reader testing; static checks only.",
-      "Pages and live verification pending at commit creation."
-    ],
+    "validation": {
+      "duplicate_ids": 0,
+      "broken_anchors": 0,
+      "broken_aria": 0,
+      "broken_marker_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "script_syntax": "pass",
+      "zoom_controls": 14,
+      "reader_runtime": "not independently exercised"
+    },
+    "navigation": {
+      "previous": "5.C.06",
+      "next": "5.C.08",
+      "previous_published": true,
+      "next_published": true,
+      "reciprocal_checked": [
+        {
+          "node": "5.C.06",
+          "path": "c-elegans-vulva-formation.html",
+          "direction": "next",
+          "verified_node_reference": true
+        },
+        {
+          "node": "5.C.08",
+          "path": "vertebrate-limb-development-limb-bud-aer-zpa-and-positional-identity.html",
+          "direction": "previous",
+          "verified_node_reference": true
+        }
+      ],
+      "mechanism": "Existing dynamic homepage resolver; unpublished adjacent chapters are disabled."
+    },
     "progress": {
-      "academy": 224,
-      "unit_05": 32,
-      "subunit_5c": 8,
+      "academy": 226,
+      "unit_05": 34,
+      "subunit_5c": 10,
       "next_pending": {
         "id": "5.C.05",
         "title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
       }
     },
-    "navigation": {
-      "previous": "5.C.03",
-      "next": "5.C.05",
-      "previous_published": true,
-      "next_published": false,
-      "mechanism": "Dynamic lookup of immediate neighbors in current homepage; unavailable links disabled. Existing published neighbor pages retained.",
-      "reciprocal_previous": "5.C.03 reader dynamically resolves 5.C.04 from homepage (source inspected)"
-    },
+    "limitations": [
+      "Current primary-host MP SET document not independently verified; archived copy used.",
+      "No external scientific peer review or question calibration.",
+      "No interactive browser, mobile or screen-reader testing.",
+      "Pages deployment and live HTTP verification are separate."
+    ],
     "changed_files": [
-      "amphibian-axis-formation-cortical-rotation-nieuwkoop-center-and-organizer.html",
+      "vertebrate-eye-formation-and-lens-induction.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/node-5c04-publication-qa.json",
-      "curriculum/subunit-5c-animal-morphogenesis-organogenesis-node-map.md"
-    ],
-    "conflict_reconciliation": {
-      "rejected_baselines": [
-        "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
-        "d60825394c706fd539aa0ca407425055a5838c54",
-        "73f48583bd2842d32da19d1587b0913c0451a5b6"
-      ],
-      "latest_baseline": "8418e49eaafcd25f3f31ce6831b3c8af0195ca11",
-      "prior_published_count": 223,
-      "all_prior_published_nodes_preserved": true,
-      "non_force_update": true
-    }
+      "curriculum/node-5c07-publication-qa.json"
+    ]
   },
   "previous_last_qa": {
-    "node_id": "5.C.10",
-    "title": "Neuronal Differentiation: Neural Induction, Cell Fates and Axon Guidance",
-    "slug": "neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
+    "node_id": "5.C.07",
+    "title": "Vertebrate Eye Formation and Lens Induction",
+    "slug": "vertebrate-eye-formation-and-lens-induction.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/vertebrate-eye-formation-and-lens-induction.html",
     "unit": "05",
     "subunit": "5.C",
     "date": "2026-11-27",
-    "status": "committed_to_main_deployment_pending",
-    "initial_head": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
-    "publication_baseline": "f6db8897357aa084d029641c66aa516ac9b96c8f",
-    "draft_branch": "draft/5c10-neuronal-differentiation",
-    "draft_blob": "88e7b2cfcb913c17e55f8370625fe57fe7d45bd0",
-    "published_blob": "ff78e38ebb98f86dd9913254f73194ec213bc5e1",
+    "status": "lesson_committed_pages_verification_pending",
+    "initial_main_sha": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
+    "publication_base_sha": "9e3592256fbe5618ec428ec16a92c352e8fb9304",
+    "source_draft_branch": "draft/5.C.07-eye-lens-induction",
+    "source_draft_commit_sha": "08fce4f30042aaf4ed729e9b22da0349f82c7543",
+    "production_chapter_blob_sha": "1e375b800a1e3f45e0a16193d6e9f4b16c2b3df5",
+    "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 14555,
-      "visible_article_words": 20906,
-      "teaching_paragraphs": 140,
-      "html_bytes": 205211,
-      "theory_sections": 17,
+      "genuine_teaching_words": 14013,
+      "total_visible_article_words": 19153,
+      "teaching_paragraphs": 138,
+      "html_bytes": 183770,
+      "theory_sections": 21,
       "svg": 14,
       "tables": 3,
-      "worked_examples": 6,
-      "part_b": 22,
-      "part_c": 22,
-      "other": 10,
-      "questions": 54,
-      "references": 28,
-      "misconceptions": 18,
-      "active_recall": 16,
+      "worked_examples": 7,
+      "part_b": 25,
+      "part_c": 25,
+      "other_questions": 5,
+      "total_questions": 55,
+      "references": 19,
+      "misconceptions": 17,
+      "active_recall": 17,
       "answer_positions": {
-        "A": 14,
+        "A": 13,
         "B": 14,
-        "C": 13,
-        "D": 13
-      },
+        "C": 14,
+        "D": 14
+      }
+    },
+    "word_count_method": "Whitespace-separated lexical tokens in saved p.teaching-prose only; markup, figures, captions, assessment, revision and references excluded. Visible article count excludes SVG artwork.",
+    "coverage_matrix": {
+      "eye_field_and_optic_vesicle": "s1,s2,s16,s17",
+      "early_ectoderm_competence": "s3,s4,s12",
+      "reciprocal_induction": "s5,s10,s18",
+      "classical_grafts_and_stage_differences": "s3,s4,s9,s20",
+      "placode_pit_vesicle": "s6,s11,s13",
+      "lens_fibers": "s7,s14",
+      "optic_cup_retina_vs_lens": "s2,s7,s17",
+      "Pax6_Sox2": "s8,s18,s19",
+      "comparative_and_reasoning": "s9,s13,s15,s20,s21"
+    },
+    "dimensions": {
+      "A": "s1–s4",
+      "B": "s3,s10,s18,s19",
+      "C": "s7,s8,s14,s19",
+      "D": "s5,s6,s7,s11,s16,s17",
+      "E": "s11,s14,s15",
+      "F": "s8,s10,s12,s14,s18,s19",
+      "G": "s9,s11,s15,s19,s21",
+      "H": "s3,s9,s10,s18,s19,s20,s21",
+      "I": "s1,s7,s14,s17",
+      "J": "s13",
+      "K": "s10,s11,s18,s19,s20",
+      "L": "s3,s4,s12,s13,s17,s20",
+      "M": "developmental genetics, tissue recombination and reporter applications; clinical treatment/agricultural application outside scope",
+      "N": "s21 and prerequisite links",
+      "O": "s9,s15,s20,s21 and 55 practice questions"
+    },
+    "review_pass_1": {
+      "result": "pass_internal",
+      "checks": [
+        "Official merged CSIR 2026 Unit 5.C p.6 and separate syllabus p.4 verified; MP SET 2024 reproduced p.4 verified.",
+        "Checked primary Grainger, Henry, Furuta/Hogan, Ashery-Padan and Kamachi records and selected reviews.",
+        "Distinguished early competence from contact, host induction from donor contamination, retinal differentiation from correct placement, amniote vesicle from zebrafish solid primordium, lens-fiber maturation from apoptosis.",
+        "Recomputed response difference 0.625, ratio 4, occupancy 0.8, area change −0.25, spherical volume increase 0.953125, additive prediction 4 and penetrance 0.75. All constructed datasets identified as hypothetical."
+      ]
+    },
+    "review_pass_2": {
+      "result": "pass_internal",
+      "checks": [
+        "Reordered narrative and figures for causal progression, included source pointers and related foundation links.",
+        "Compared 5.B.07 (13831 words,124 paragraphs) and 5.A.06 (13393 words,129 paragraphs); exact teaching paragraph overlap zero with both; maximum within-draft word-set Jaccard 0.302 before final small wording edit.",
+        "Reviewed question explanations and key ordering; balanced answer positions, 17 misconceptions and 17 recall prompts.",
+        "Static checks of IDs, anchors, ARIA, marker targets, zoom count, canonical and JavaScript parsing; corrected graph tick alignment.",
+        "Reconciled latest main menu, checkpoint, sitemap and actual repository tree; preserved all existing published nodes."
+      ]
+    },
+    "quality": {
+      "syllabus_microtopics": 20,
+      "scientific_mechanistic_accuracy": 24,
+      "teaching_depth": 19,
+      "experimental_quantitative_reasoning": 14,
+      "examination_practice": 9,
+      "technical_accessibility": 9,
+      "total": 95,
+      "threshold": 95,
+      "assessment": "Internal editorial judgment, not independent expert certification.",
+      "deductions": [
+        "Selected primary abstracts and reviews rather than exhaustive full-text review.",
+        "Some necessary concept recurrence across evidence and interpretation.",
+        "Hypothetical datasets rather than raw primary measurements.",
+        "Original question difficulty not externally calibrated; some Part B distractors straightforward.",
+        "Static checks, not interactive browser or assistive-technology testing."
+      ]
+    },
+    "validation": {
       "duplicate_ids": 0,
-      "duplicate_paragraphs": 0,
-      "broken_anchors": [],
-      "broken_aria": [],
-      "incorrect_answer_keys": []
+      "broken_anchors": 0,
+      "broken_aria": 0,
+      "broken_marker_targets": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "script_syntax": "pass",
+      "zoom_controls": 14,
+      "reader_runtime": "not independently exercised"
     },
-    "score": {
-      "syllabus": 20,
-      "scientific_accuracy": 24,
-      "teaching": 19,
-      "experimental_quantitative": 14,
-      "exam": 9,
-      "technical": 9,
-      "total": 95
-    },
-    "review": {
-      "scientific": "Internal pass: merged/separate official CSIR syllabi and archived MP SET syllabus; neural induction, BMP antagonism, SHH and DV patterning, crest, Notch, gliogenesis, migration, guidance and experimental caveats; selected primary and review sources; six numerical worked examples recomputed; source-specific netrin claims refined.",
-      "teaching": "Internal pass: 17 connected theory sections, distinct prose, meaningful SVGs, original explained questions, balanced answer keys, 18 traps, 16 recall prompts; revised distractors and figure anchors; benchmark 5.B.07.",
-      "technical": "Static checks passed: unique IDs, anchors, ARIA targets, answer keys, script parse, diagram markup, indexable canonical and responsive reader inheritance. No interactive browser accessibility test."
-    },
-    "coverage": {
-      "induction": "problem, induction",
-      "neurulation": "neurulation",
-      "crest": "crest",
-      "dorsal_ventral_patterning": "tube-axis, shh, domains, dorsal, gradient",
-      "neurogenesis_notch": "progenitors, notch",
-      "glial_fates": "glia",
-      "neuronal_migration": "migration",
-      "growth_cone_guidance": "growthcone, guidance, midline",
-      "experimental_quantitative_reasoning": "gradient, experiments, worked, part-c, mixed"
-    },
-    "dimensions": "A foundations; B history and evidence; C structure; D mechanisms; E energetics/physical constraints; F regulation; G quantitative models; H experimental design and controls; I biological significance; J comparative development; K perturbations; L exceptions; M applications; N integration; O analytical practice. Full thermodynamic derivations and clinical treatment protocols not appropriate to scope.",
-    "limitations": [
-      "Internal review only, not independent external peer review or calibrated exam testing",
-      "MP SET archived mirrored syllabus; primary host not independently verified",
-      "Some primary evidence accessed through abstracts/reviews",
-      "No interactive browser test"
-    ],
     "navigation": {
-      "previous": {
-        "id": "5.C.09",
-        "title": "Vertebrate Limb Regeneration: Wound Response, Blastema and Pattern Restoration",
-        "file": "vertebrate-limb-regeneration-wound-response-blastema-and-pattern-restoration.html"
-      },
-      "next": {
-        "id": "5.C.11",
-        "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation"
-      },
-      "mode": "dynamic homepage resolver; unpublished nodes disabled; existing published neighbors checked for reciprocal resolver"
+      "previous": "5.C.06",
+      "next": "5.C.08",
+      "previous_published": true,
+      "next_published": true,
+      "reciprocal_checked": [
+        {
+          "node": "5.C.06",
+          "path": "c-elegans-vulva-formation.html",
+          "direction": "next",
+          "verified_node_reference": true
+        },
+        {
+          "node": "5.C.08",
+          "path": "vertebrate-limb-development-limb-bud-aer-zpa-and-positional-identity.html",
+          "direction": "previous",
+          "verified_node_reference": true
+        }
+      ],
+      "mechanism": "Existing dynamic homepage resolver; unpublished adjacent chapters are disabled."
     },
     "progress": {
-      "academy": 225,
-      "unit": 33,
-      "subunit": 9,
-      "next": "5.C.05"
+      "academy": 226,
+      "unit_05": 34,
+      "subunit_5c": 10,
+      "next_pending": {
+        "id": "5.C.05",
+        "title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+      }
     },
-    "math_checks": {
-      "lambda": 60,
-      "threshold": 83.17766166719343,
-      "boundary": 80.47189562170502,
-      "progenitors": 95,
-      "differentiating": 65,
-      "percentages": [
-        30,
-        40
-      ],
-      "conditional": [
-        80,
-        40
-      ],
-      "path_speed": 30,
-      "displacement": 150,
-      "velocity": 21.428571428571427
-    },
-    "publication": {
-      "atomic": true,
-      "nonforce": true,
-      "expected_head": "f6db8897357aa084d029641c66aa516ac9b96c8f"
-    }
+    "limitations": [
+      "Current primary-host MP SET document not independently verified; archived copy used.",
+      "No external scientific peer review or question calibration.",
+      "No interactive browser, mobile or screen-reader testing.",
+      "Pages deployment and live HTTP verification are separate."
+    ],
+    "changed_files": [
+      "vertebrate-eye-formation-and-lens-induction.html",
+      "index.html",
+      "sitemap.xml",
+      "curriculum/academy-progress.json",
+      "curriculum/node-5c07-publication-qa.json"
+    ]
   },
   "unit_02": {
     "published_node_ids": [
@@ -29762,6 +29759,117 @@
         "curriculum/academy-progress.json",
         "curriculum/node-5c07-publication-qa.json"
       ]
+    },
+    "5.C.11": {
+      "node_id": "5.C.11",
+      "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation",
+      "unit": "05",
+      "subunit": "5.C",
+      "slug": "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+      "date": "2026-11-27",
+      "status": "committed_to_main_deployment_pending",
+      "initial_head": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
+      "publication_baseline": "a12aa254512bceea0c1b19c9556d1562171e9a52",
+      "draft_branch": "draft/5c11-postembryonic-development",
+      "draft_blob": "bf790f27aa378ee2140cd41a6c7960f4e435a9a6",
+      "published_blob": "6cc7608eb85a38cce7639b6f16b51cd35f5b55e3",
+      "metrics": {
+        "teaching_words": 14240,
+        "visible_article_words": 21227,
+        "teaching_paragraphs": 139,
+        "html_bytes": 221356,
+        "theory_sections": 17,
+        "svg": 18,
+        "tables": 5,
+        "worked_examples": 5,
+        "part_b": 20,
+        "part_c": 25,
+        "advanced": 5,
+        "total_questions": 50,
+        "answer_positions": {
+          "A": 13,
+          "B": 12,
+          "C": 13,
+          "D": 12
+        },
+        "references": 27,
+        "misconceptions": 20,
+        "active_recall": 20,
+        "duplicate_teaching_paragraphs": 0
+      },
+      "score": {
+        "syllabus": 20,
+        "science": 24,
+        "teaching": 19,
+        "experimental_quantitative": 14,
+        "exam": 9,
+        "technical": 9,
+        "total": 95,
+        "threshold": 95,
+        "assessment": "Internal editorial judgment; not external accreditation"
+      },
+      "review": {
+        "scientific": "Mapped syllabus and roadmap; reviewed endocrine pathways, tissue competence, developmental checkpoints, diapause and amphibian plasticity against selected authoritative literature; corrected sequential figure references.",
+        "teaching": "Reviewed progression, worked examples, answer matching and explanations, strengthened nine distractor sets, and checked final saved HTML; comparator 5.C.12 had 14276 teaching words and 162 paragraphs with zero exact paragraph overlap.",
+        "static_checks": "Unique IDs, anchors, ARIA targets, zoom targets, tag nesting, JavaScript syntax, answer-key matching: passed."
+      },
+      "coverage": {
+        "direct_indirect": "1–2",
+        "insect_metamorphosis": "2–7",
+        "amphibian_metamorphosis": "8–11",
+        "environmental_regulation": "12–17",
+        "questions": "50 explained original items"
+      },
+      "dimensions": "A–O addressed in narrative, mechanisms, evidence, quantitative reasoning, comparative biology, perturbation reasoning, caveats and examination integration; detailed thermodynamic derivations not applicable to descriptive life-history transitions.",
+      "limitations": [
+        "Selected authoritative sources and accessible primary abstracts; not exhaustive full-text verification or external peer review.",
+        "Hypothetical teaching datasets explicitly labeled; simplified models not universal.",
+        "Question difficulty not independently calibrated.",
+        "Static reader checks only; interactive browser, accessibility assistive technology and cross-device testing not performed.",
+        "MP SET 2024 syllabus checked through mirrored PDF, not official host."
+      ],
+      "navigation": {
+        "5.C.10": {
+          "path": "neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
+          "reciprocal": "dynamic menu resolution verified in saved source"
+        },
+        "5.C.12": {
+          "path": "sex-determination-and-sexual-differentiation-in-animals.html",
+          "reciprocal": "dynamic menu resolution verified in saved source"
+        }
+      },
+      "progress": {
+        "academy": 227,
+        "unit": 35,
+        "subunit": 11,
+        "next_pending_node_id": "5.C.05",
+        "next_pending_node_title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+      },
+      "math_checks": {
+        "growth": [
+          60,
+          68
+        ],
+        "degree_days": 6.666666666666667,
+        "occupancy": [
+          0.5,
+          0.8
+        ],
+        "interaction": 3,
+        "duration_reduction": 0.25,
+        "rate_increase": 0.33333333333333326
+      },
+      "publication": {
+        "files": [
+          "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/node-5c11-publication-qa.json"
+        ],
+        "method": "Atomic tree/commit, non-force conditional ref update; Pages verification pending"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -29805,6 +29913,7 @@
     "5.C.08",
     "5.C.09",
     "5.C.10",
+    "5.C.11",
     "5.C.12"
   ],
   "unit5c_planned_node_count": 12,
@@ -29847,170 +29956,124 @@
       "5.C.08",
       "5.C.09",
       "5.C.10",
+      "5.C.11",
       "5.C.12"
     ],
-    "published_node_count": 34,
+    "published_node_count": 35,
     "planned_node_count": 57,
-    "last_published_node_id": "5.C.07",
+    "last_published_node_id": "5.C.11",
     "updated_at": "2026-11-27",
-    "status": "lesson_committed_pages_verification_pending",
+    "status": "committed_to_main_deployment_pending",
     "last_qa": {
-      "node_id": "5.C.07",
-      "title": "Vertebrate Eye Formation and Lens Induction",
-      "slug": "vertebrate-eye-formation-and-lens-induction.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/vertebrate-eye-formation-and-lens-induction.html",
+      "node_id": "5.C.11",
+      "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation",
       "unit": "05",
       "subunit": "5.C",
+      "slug": "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
       "date": "2026-11-27",
-      "status": "lesson_committed_pages_verification_pending",
-      "initial_main_sha": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
-      "publication_base_sha": "9e3592256fbe5618ec428ec16a92c352e8fb9304",
-      "source_draft_branch": "draft/5.C.07-eye-lens-induction",
-      "source_draft_commit_sha": "08fce4f30042aaf4ed729e9b22da0349f82c7543",
-      "production_chapter_blob_sha": "1e375b800a1e3f45e0a16193d6e9f4b16c2b3df5",
-      "production_robots": "index,follow",
+      "status": "committed_to_main_deployment_pending",
+      "initial_head": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
+      "publication_baseline": "a12aa254512bceea0c1b19c9556d1562171e9a52",
+      "draft_branch": "draft/5c11-postembryonic-development",
+      "draft_blob": "bf790f27aa378ee2140cd41a6c7960f4e435a9a6",
+      "published_blob": "6cc7608eb85a38cce7639b6f16b51cd35f5b55e3",
       "metrics": {
-        "genuine_teaching_words": 14013,
-        "total_visible_article_words": 19153,
-        "teaching_paragraphs": 138,
-        "html_bytes": 183770,
-        "theory_sections": 21,
-        "svg": 14,
-        "tables": 3,
-        "worked_examples": 7,
-        "part_b": 25,
+        "teaching_words": 14240,
+        "visible_article_words": 21227,
+        "teaching_paragraphs": 139,
+        "html_bytes": 221356,
+        "theory_sections": 17,
+        "svg": 18,
+        "tables": 5,
+        "worked_examples": 5,
+        "part_b": 20,
         "part_c": 25,
-        "other_questions": 5,
-        "total_questions": 55,
-        "references": 19,
-        "misconceptions": 17,
-        "active_recall": 17,
+        "advanced": 5,
+        "total_questions": 50,
         "answer_positions": {
           "A": 13,
-          "B": 14,
-          "C": 14,
-          "D": 14
-        }
+          "B": 12,
+          "C": 13,
+          "D": 12
+        },
+        "references": 27,
+        "misconceptions": 20,
+        "active_recall": 20,
+        "duplicate_teaching_paragraphs": 0
       },
-      "word_count_method": "Whitespace-separated lexical tokens in saved p.teaching-prose only; markup, figures, captions, assessment, revision and references excluded. Visible article count excludes SVG artwork.",
-      "coverage_matrix": {
-        "eye_field_and_optic_vesicle": "s1,s2,s16,s17",
-        "early_ectoderm_competence": "s3,s4,s12",
-        "reciprocal_induction": "s5,s10,s18",
-        "classical_grafts_and_stage_differences": "s3,s4,s9,s20",
-        "placode_pit_vesicle": "s6,s11,s13",
-        "lens_fibers": "s7,s14",
-        "optic_cup_retina_vs_lens": "s2,s7,s17",
-        "Pax6_Sox2": "s8,s18,s19",
-        "comparative_and_reasoning": "s9,s13,s15,s20,s21"
-      },
-      "dimensions": {
-        "A": "s1–s4",
-        "B": "s3,s10,s18,s19",
-        "C": "s7,s8,s14,s19",
-        "D": "s5,s6,s7,s11,s16,s17",
-        "E": "s11,s14,s15",
-        "F": "s8,s10,s12,s14,s18,s19",
-        "G": "s9,s11,s15,s19,s21",
-        "H": "s3,s9,s10,s18,s19,s20,s21",
-        "I": "s1,s7,s14,s17",
-        "J": "s13",
-        "K": "s10,s11,s18,s19,s20",
-        "L": "s3,s4,s12,s13,s17,s20",
-        "M": "developmental genetics, tissue recombination and reporter applications; clinical treatment/agricultural application outside scope",
-        "N": "s21 and prerequisite links",
-        "O": "s9,s15,s20,s21 and 55 practice questions"
-      },
-      "review_pass_1": {
-        "result": "pass_internal",
-        "checks": [
-          "Official merged CSIR 2026 Unit 5.C p.6 and separate syllabus p.4 verified; MP SET 2024 reproduced p.4 verified.",
-          "Checked primary Grainger, Henry, Furuta/Hogan, Ashery-Padan and Kamachi records and selected reviews.",
-          "Distinguished early competence from contact, host induction from donor contamination, retinal differentiation from correct placement, amniote vesicle from zebrafish solid primordium, lens-fiber maturation from apoptosis.",
-          "Recomputed response difference 0.625, ratio 4, occupancy 0.8, area change −0.25, spherical volume increase 0.953125, additive prediction 4 and penetrance 0.75. All constructed datasets identified as hypothetical."
-        ]
-      },
-      "review_pass_2": {
-        "result": "pass_internal",
-        "checks": [
-          "Reordered narrative and figures for causal progression, included source pointers and related foundation links.",
-          "Compared 5.B.07 (13831 words,124 paragraphs) and 5.A.06 (13393 words,129 paragraphs); exact teaching paragraph overlap zero with both; maximum within-draft word-set Jaccard 0.302 before final small wording edit.",
-          "Reviewed question explanations and key ordering; balanced answer positions, 17 misconceptions and 17 recall prompts.",
-          "Static checks of IDs, anchors, ARIA, marker targets, zoom count, canonical and JavaScript parsing; corrected graph tick alignment.",
-          "Reconciled latest main menu, checkpoint, sitemap and actual repository tree; preserved all existing published nodes."
-        ]
-      },
-      "quality": {
-        "syllabus_microtopics": 20,
-        "scientific_mechanistic_accuracy": 24,
-        "teaching_depth": 19,
-        "experimental_quantitative_reasoning": 14,
-        "examination_practice": 9,
-        "technical_accessibility": 9,
+      "score": {
+        "syllabus": 20,
+        "science": 24,
+        "teaching": 19,
+        "experimental_quantitative": 14,
+        "exam": 9,
+        "technical": 9,
         "total": 95,
         "threshold": 95,
-        "assessment": "Internal editorial judgment, not independent expert certification.",
-        "deductions": [
-          "Selected primary abstracts and reviews rather than exhaustive full-text review.",
-          "Some necessary concept recurrence across evidence and interpretation.",
-          "Hypothetical datasets rather than raw primary measurements.",
-          "Original question difficulty not externally calibrated; some Part B distractors straightforward.",
-          "Static checks, not interactive browser or assistive-technology testing."
-        ]
+        "assessment": "Internal editorial judgment; not external accreditation"
       },
-      "validation": {
-        "duplicate_ids": 0,
-        "broken_anchors": 0,
-        "broken_aria": 0,
-        "broken_marker_targets": 0,
-        "duplicate_teaching_paragraphs": 0,
-        "script_syntax": "pass",
-        "zoom_controls": 14,
-        "reader_runtime": "not independently exercised"
+      "review": {
+        "scientific": "Mapped syllabus and roadmap; reviewed endocrine pathways, tissue competence, developmental checkpoints, diapause and amphibian plasticity against selected authoritative literature; corrected sequential figure references.",
+        "teaching": "Reviewed progression, worked examples, answer matching and explanations, strengthened nine distractor sets, and checked final saved HTML; comparator 5.C.12 had 14276 teaching words and 162 paragraphs with zero exact paragraph overlap.",
+        "static_checks": "Unique IDs, anchors, ARIA targets, zoom targets, tag nesting, JavaScript syntax, answer-key matching: passed."
       },
+      "coverage": {
+        "direct_indirect": "1–2",
+        "insect_metamorphosis": "2–7",
+        "amphibian_metamorphosis": "8–11",
+        "environmental_regulation": "12–17",
+        "questions": "50 explained original items"
+      },
+      "dimensions": "A–O addressed in narrative, mechanisms, evidence, quantitative reasoning, comparative biology, perturbation reasoning, caveats and examination integration; detailed thermodynamic derivations not applicable to descriptive life-history transitions.",
+      "limitations": [
+        "Selected authoritative sources and accessible primary abstracts; not exhaustive full-text verification or external peer review.",
+        "Hypothetical teaching datasets explicitly labeled; simplified models not universal.",
+        "Question difficulty not independently calibrated.",
+        "Static reader checks only; interactive browser, accessibility assistive technology and cross-device testing not performed.",
+        "MP SET 2024 syllabus checked through mirrored PDF, not official host."
+      ],
       "navigation": {
-        "previous": "5.C.06",
-        "next": "5.C.08",
-        "previous_published": true,
-        "next_published": true,
-        "reciprocal_checked": [
-          {
-            "node": "5.C.06",
-            "path": "c-elegans-vulva-formation.html",
-            "direction": "next",
-            "verified_node_reference": true
-          },
-          {
-            "node": "5.C.08",
-            "path": "vertebrate-limb-development-limb-bud-aer-zpa-and-positional-identity.html",
-            "direction": "previous",
-            "verified_node_reference": true
-          }
-        ],
-        "mechanism": "Existing dynamic homepage resolver; unpublished adjacent chapters are disabled."
-      },
-      "progress": {
-        "academy": 226,
-        "unit_05": 34,
-        "subunit_5c": 10,
-        "next_pending": {
-          "id": "5.C.05",
-          "title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+        "5.C.10": {
+          "path": "neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
+          "reciprocal": "dynamic menu resolution verified in saved source"
+        },
+        "5.C.12": {
+          "path": "sex-determination-and-sexual-differentiation-in-animals.html",
+          "reciprocal": "dynamic menu resolution verified in saved source"
         }
       },
-      "limitations": [
-        "Current primary-host MP SET document not independently verified; archived copy used.",
-        "No external scientific peer review or question calibration.",
-        "No interactive browser, mobile or screen-reader testing.",
-        "Pages deployment and live HTTP verification are separate."
-      ],
-      "changed_files": [
-        "vertebrate-eye-formation-and-lens-induction.html",
-        "index.html",
-        "sitemap.xml",
-        "curriculum/academy-progress.json",
-        "curriculum/node-5c07-publication-qa.json"
-      ]
+      "progress": {
+        "academy": 227,
+        "unit": 35,
+        "subunit": 11,
+        "next_pending_node_id": "5.C.05",
+        "next_pending_node_title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+      },
+      "math_checks": {
+        "growth": [
+          60,
+          68
+        ],
+        "degree_days": 6.666666666666667,
+        "occupancy": [
+          0.5,
+          0.8
+        ],
+        "interaction": 3,
+        "duration_reduction": 0.25,
+        "rate_increase": 0.33333333333333326
+      },
+      "publication": {
+        "files": [
+          "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/node-5c11-publication-qa.json"
+        ],
+        "method": "Atomic tree/commit, non-force conditional ref update; Pages verification pending"
+      }
     },
     "qa_by_node": {
       "5.A.02": {
@@ -34347,6 +34410,117 @@
           "curriculum/academy-progress.json",
           "curriculum/node-5c07-publication-qa.json"
         ]
+      },
+      "5.C.11": {
+        "node_id": "5.C.11",
+        "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation",
+        "unit": "05",
+        "subunit": "5.C",
+        "slug": "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+        "date": "2026-11-27",
+        "status": "committed_to_main_deployment_pending",
+        "initial_head": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
+        "publication_baseline": "a12aa254512bceea0c1b19c9556d1562171e9a52",
+        "draft_branch": "draft/5c11-postembryonic-development",
+        "draft_blob": "bf790f27aa378ee2140cd41a6c7960f4e435a9a6",
+        "published_blob": "6cc7608eb85a38cce7639b6f16b51cd35f5b55e3",
+        "metrics": {
+          "teaching_words": 14240,
+          "visible_article_words": 21227,
+          "teaching_paragraphs": 139,
+          "html_bytes": 221356,
+          "theory_sections": 17,
+          "svg": 18,
+          "tables": 5,
+          "worked_examples": 5,
+          "part_b": 20,
+          "part_c": 25,
+          "advanced": 5,
+          "total_questions": 50,
+          "answer_positions": {
+            "A": 13,
+            "B": 12,
+            "C": 13,
+            "D": 12
+          },
+          "references": 27,
+          "misconceptions": 20,
+          "active_recall": 20,
+          "duplicate_teaching_paragraphs": 0
+        },
+        "score": {
+          "syllabus": 20,
+          "science": 24,
+          "teaching": 19,
+          "experimental_quantitative": 14,
+          "exam": 9,
+          "technical": 9,
+          "total": 95,
+          "threshold": 95,
+          "assessment": "Internal editorial judgment; not external accreditation"
+        },
+        "review": {
+          "scientific": "Mapped syllabus and roadmap; reviewed endocrine pathways, tissue competence, developmental checkpoints, diapause and amphibian plasticity against selected authoritative literature; corrected sequential figure references.",
+          "teaching": "Reviewed progression, worked examples, answer matching and explanations, strengthened nine distractor sets, and checked final saved HTML; comparator 5.C.12 had 14276 teaching words and 162 paragraphs with zero exact paragraph overlap.",
+          "static_checks": "Unique IDs, anchors, ARIA targets, zoom targets, tag nesting, JavaScript syntax, answer-key matching: passed."
+        },
+        "coverage": {
+          "direct_indirect": "1–2",
+          "insect_metamorphosis": "2–7",
+          "amphibian_metamorphosis": "8–11",
+          "environmental_regulation": "12–17",
+          "questions": "50 explained original items"
+        },
+        "dimensions": "A–O addressed in narrative, mechanisms, evidence, quantitative reasoning, comparative biology, perturbation reasoning, caveats and examination integration; detailed thermodynamic derivations not applicable to descriptive life-history transitions.",
+        "limitations": [
+          "Selected authoritative sources and accessible primary abstracts; not exhaustive full-text verification or external peer review.",
+          "Hypothetical teaching datasets explicitly labeled; simplified models not universal.",
+          "Question difficulty not independently calibrated.",
+          "Static reader checks only; interactive browser, accessibility assistive technology and cross-device testing not performed.",
+          "MP SET 2024 syllabus checked through mirrored PDF, not official host."
+        ],
+        "navigation": {
+          "5.C.10": {
+            "path": "neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
+            "reciprocal": "dynamic menu resolution verified in saved source"
+          },
+          "5.C.12": {
+            "path": "sex-determination-and-sexual-differentiation-in-animals.html",
+            "reciprocal": "dynamic menu resolution verified in saved source"
+          }
+        },
+        "progress": {
+          "academy": 227,
+          "unit": 35,
+          "subunit": 11,
+          "next_pending_node_id": "5.C.05",
+          "next_pending_node_title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+        },
+        "math_checks": {
+          "growth": [
+            60,
+            68
+          ],
+          "degree_days": 6.666666666666667,
+          "occupancy": [
+            0.5,
+            0.8
+          ],
+          "interaction": 3,
+          "duration_reduction": 0.25,
+          "rate_increase": 0.33333333333333326
+        },
+        "publication": {
+          "files": [
+            "postembryonic-development-larvae-metamorphosis-and-environmental-regulation.html",
+            "index.html",
+            "sitemap.xml",
+            "curriculum/academy-progress.json",
+            "curriculum/node-5c11-publication-qa.json"
+          ],
+          "method": "Atomic tree/commit, non-force conditional ref update; Pages verification pending"
+        }
       }
     },
     "next_pending_node_id": "5.C.05",
@@ -34401,9 +34575,10 @@
         "5.C.08",
         "5.C.09",
         "5.C.10",
+        "5.C.11",
         "5.C.12"
       ],
-      "published_node_count": 10,
+      "published_node_count": 11,
       "planned_node_count": 12,
       "complete": false
     },
@@ -34420,120 +34595,162 @@
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "5.C.10",
-      "title": "Neuronal Differentiation: Neural Induction, Cell Fates and Axon Guidance",
-      "slug": "neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/neuronal-differentiation-neural-induction-cell-fates-and-axon-guidance.html",
+      "node_id": "5.C.07",
+      "title": "Vertebrate Eye Formation and Lens Induction",
+      "slug": "vertebrate-eye-formation-and-lens-induction.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/vertebrate-eye-formation-and-lens-induction.html",
       "unit": "05",
       "subunit": "5.C",
       "date": "2026-11-27",
-      "status": "committed_to_main_deployment_pending",
-      "initial_head": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
-      "publication_baseline": "f6db8897357aa084d029641c66aa516ac9b96c8f",
-      "draft_branch": "draft/5c10-neuronal-differentiation",
-      "draft_blob": "88e7b2cfcb913c17e55f8370625fe57fe7d45bd0",
-      "published_blob": "ff78e38ebb98f86dd9913254f73194ec213bc5e1",
+      "status": "lesson_committed_pages_verification_pending",
+      "initial_main_sha": "c0c1ba48cd4602043ee0b45c2ea00cc6bd2459c8",
+      "publication_base_sha": "9e3592256fbe5618ec428ec16a92c352e8fb9304",
+      "source_draft_branch": "draft/5.C.07-eye-lens-induction",
+      "source_draft_commit_sha": "08fce4f30042aaf4ed729e9b22da0349f82c7543",
+      "production_chapter_blob_sha": "1e375b800a1e3f45e0a16193d6e9f4b16c2b3df5",
+      "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 14555,
-        "visible_article_words": 20906,
-        "teaching_paragraphs": 140,
-        "html_bytes": 205211,
-        "theory_sections": 17,
+        "genuine_teaching_words": 14013,
+        "total_visible_article_words": 19153,
+        "teaching_paragraphs": 138,
+        "html_bytes": 183770,
+        "theory_sections": 21,
         "svg": 14,
         "tables": 3,
-        "worked_examples": 6,
-        "part_b": 22,
-        "part_c": 22,
-        "other": 10,
-        "questions": 54,
-        "references": 28,
-        "misconceptions": 18,
-        "active_recall": 16,
+        "worked_examples": 7,
+        "part_b": 25,
+        "part_c": 25,
+        "other_questions": 5,
+        "total_questions": 55,
+        "references": 19,
+        "misconceptions": 17,
+        "active_recall": 17,
         "answer_positions": {
-          "A": 14,
+          "A": 13,
           "B": 14,
-          "C": 13,
-          "D": 13
-        },
+          "C": 14,
+          "D": 14
+        }
+      },
+      "word_count_method": "Whitespace-separated lexical tokens in saved p.teaching-prose only; markup, figures, captions, assessment, revision and references excluded. Visible article count excludes SVG artwork.",
+      "coverage_matrix": {
+        "eye_field_and_optic_vesicle": "s1,s2,s16,s17",
+        "early_ectoderm_competence": "s3,s4,s12",
+        "reciprocal_induction": "s5,s10,s18",
+        "classical_grafts_and_stage_differences": "s3,s4,s9,s20",
+        "placode_pit_vesicle": "s6,s11,s13",
+        "lens_fibers": "s7,s14",
+        "optic_cup_retina_vs_lens": "s2,s7,s17",
+        "Pax6_Sox2": "s8,s18,s19",
+        "comparative_and_reasoning": "s9,s13,s15,s20,s21"
+      },
+      "dimensions": {
+        "A": "s1–s4",
+        "B": "s3,s10,s18,s19",
+        "C": "s7,s8,s14,s19",
+        "D": "s5,s6,s7,s11,s16,s17",
+        "E": "s11,s14,s15",
+        "F": "s8,s10,s12,s14,s18,s19",
+        "G": "s9,s11,s15,s19,s21",
+        "H": "s3,s9,s10,s18,s19,s20,s21",
+        "I": "s1,s7,s14,s17",
+        "J": "s13",
+        "K": "s10,s11,s18,s19,s20",
+        "L": "s3,s4,s12,s13,s17,s20",
+        "M": "developmental genetics, tissue recombination and reporter applications; clinical treatment/agricultural application outside scope",
+        "N": "s21 and prerequisite links",
+        "O": "s9,s15,s20,s21 and 55 practice questions"
+      },
+      "review_pass_1": {
+        "result": "pass_internal",
+        "checks": [
+          "Official merged CSIR 2026 Unit 5.C p.6 and separate syllabus p.4 verified; MP SET 2024 reproduced p.4 verified.",
+          "Checked primary Grainger, Henry, Furuta/Hogan, Ashery-Padan and Kamachi records and selected reviews.",
+          "Distinguished early competence from contact, host induction from donor contamination, retinal differentiation from correct placement, amniote vesicle from zebrafish solid primordium, lens-fiber maturation from apoptosis.",
+          "Recomputed response difference 0.625, ratio 4, occupancy 0.8, area change −0.25, spherical volume increase 0.953125, additive prediction 4 and penetrance 0.75. All constructed datasets identified as hypothetical."
+        ]
+      },
+      "review_pass_2": {
+        "result": "pass_internal",
+        "checks": [
+          "Reordered narrative and figures for causal progression, included source pointers and related foundation links.",
+          "Compared 5.B.07 (13831 words,124 paragraphs) and 5.A.06 (13393 words,129 paragraphs); exact teaching paragraph overlap zero with both; maximum within-draft word-set Jaccard 0.302 before final small wording edit.",
+          "Reviewed question explanations and key ordering; balanced answer positions, 17 misconceptions and 17 recall prompts.",
+          "Static checks of IDs, anchors, ARIA, marker targets, zoom count, canonical and JavaScript parsing; corrected graph tick alignment.",
+          "Reconciled latest main menu, checkpoint, sitemap and actual repository tree; preserved all existing published nodes."
+        ]
+      },
+      "quality": {
+        "syllabus_microtopics": 20,
+        "scientific_mechanistic_accuracy": 24,
+        "teaching_depth": 19,
+        "experimental_quantitative_reasoning": 14,
+        "examination_practice": 9,
+        "technical_accessibility": 9,
+        "total": 95,
+        "threshold": 95,
+        "assessment": "Internal editorial judgment, not independent expert certification.",
+        "deductions": [
+          "Selected primary abstracts and reviews rather than exhaustive full-text review.",
+          "Some necessary concept recurrence across evidence and interpretation.",
+          "Hypothetical datasets rather than raw primary measurements.",
+          "Original question difficulty not externally calibrated; some Part B distractors straightforward.",
+          "Static checks, not interactive browser or assistive-technology testing."
+        ]
+      },
+      "validation": {
         "duplicate_ids": 0,
-        "duplicate_paragraphs": 0,
-        "broken_anchors": [],
-        "broken_aria": [],
-        "incorrect_answer_keys": []
+        "broken_anchors": 0,
+        "broken_aria": 0,
+        "broken_marker_targets": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "script_syntax": "pass",
+        "zoom_controls": 14,
+        "reader_runtime": "not independently exercised"
       },
-      "score": {
-        "syllabus": 20,
-        "scientific_accuracy": 24,
-        "teaching": 19,
-        "experimental_quantitative": 14,
-        "exam": 9,
-        "technical": 9,
-        "total": 95
-      },
-      "review": {
-        "scientific": "Internal pass: merged/separate official CSIR syllabi and archived MP SET syllabus; neural induction, BMP antagonism, SHH and DV patterning, crest, Notch, gliogenesis, migration, guidance and experimental caveats; selected primary and review sources; six numerical worked examples recomputed; source-specific netrin claims refined.",
-        "teaching": "Internal pass: 17 connected theory sections, distinct prose, meaningful SVGs, original explained questions, balanced answer keys, 18 traps, 16 recall prompts; revised distractors and figure anchors; benchmark 5.B.07.",
-        "technical": "Static checks passed: unique IDs, anchors, ARIA targets, answer keys, script parse, diagram markup, indexable canonical and responsive reader inheritance. No interactive browser accessibility test."
-      },
-      "coverage": {
-        "induction": "problem, induction",
-        "neurulation": "neurulation",
-        "crest": "crest",
-        "dorsal_ventral_patterning": "tube-axis, shh, domains, dorsal, gradient",
-        "neurogenesis_notch": "progenitors, notch",
-        "glial_fates": "glia",
-        "neuronal_migration": "migration",
-        "growth_cone_guidance": "growthcone, guidance, midline",
-        "experimental_quantitative_reasoning": "gradient, experiments, worked, part-c, mixed"
-      },
-      "dimensions": "A foundations; B history and evidence; C structure; D mechanisms; E energetics/physical constraints; F regulation; G quantitative models; H experimental design and controls; I biological significance; J comparative development; K perturbations; L exceptions; M applications; N integration; O analytical practice. Full thermodynamic derivations and clinical treatment protocols not appropriate to scope.",
-      "limitations": [
-        "Internal review only, not independent external peer review or calibrated exam testing",
-        "MP SET archived mirrored syllabus; primary host not independently verified",
-        "Some primary evidence accessed through abstracts/reviews",
-        "No interactive browser test"
-      ],
       "navigation": {
-        "previous": {
-          "id": "5.C.09",
-          "title": "Vertebrate Limb Regeneration: Wound Response, Blastema and Pattern Restoration",
-          "file": "vertebrate-limb-regeneration-wound-response-blastema-and-pattern-restoration.html"
-        },
-        "next": {
-          "id": "5.C.11",
-          "title": "Postembryonic Development: Larvae, Metamorphosis and Environmental Regulation"
-        },
-        "mode": "dynamic homepage resolver; unpublished nodes disabled; existing published neighbors checked for reciprocal resolver"
+        "previous": "5.C.06",
+        "next": "5.C.08",
+        "previous_published": true,
+        "next_published": true,
+        "reciprocal_checked": [
+          {
+            "node": "5.C.06",
+            "path": "c-elegans-vulva-formation.html",
+            "direction": "next",
+            "verified_node_reference": true
+          },
+          {
+            "node": "5.C.08",
+            "path": "vertebrate-limb-development-limb-bud-aer-zpa-and-positional-identity.html",
+            "direction": "previous",
+            "verified_node_reference": true
+          }
+        ],
+        "mechanism": "Existing dynamic homepage resolver; unpublished adjacent chapters are disabled."
       },
       "progress": {
-        "academy": 225,
-        "unit": 33,
-        "subunit": 9,
-        "next": "5.C.05"
+        "academy": 226,
+        "unit_05": 34,
+        "subunit_5c": 10,
+        "next_pending": {
+          "id": "5.C.05",
+          "title": "Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning"
+        }
       },
-      "math_checks": {
-        "lambda": 60,
-        "threshold": 83.17766166719343,
-        "boundary": 80.47189562170502,
-        "progenitors": 95,
-        "differentiating": 65,
-        "percentages": [
-          30,
-          40
-        ],
-        "conditional": [
-          80,
-          40
-        ],
-        "path_speed": 30,
-        "displacement": 150,
-        "velocity": 21.428571428571427
-      },
-      "publication": {
-        "atomic": true,
-        "nonforce": true,
-        "expected_head": "f6db8897357aa084d029641c66aa516ac9b96c8f"
-      }
+      "limitations": [
+        "Current primary-host MP SET document not independently verified; archived copy used.",
+        "No external scientific peer review or question calibration.",
+        "No interactive browser, mobile or screen-reader testing.",
+        "Pages deployment and live HTTP verification are separate."
+      ],
+      "changed_files": [
+        "vertebrate-eye-formation-and-lens-induction.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/node-5c07-publication-qa.json"
+      ]
     }
   }
 }

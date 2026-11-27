@@ -380,3 +380,9 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.H.05 — [Salinity and Ionic Stress](https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html); internal academic QA 95/100, static checks passed; Pages/live verification pending.
 - Teaching prose: 14,017 words in 134 paragraphs; 12 SVGs, 3 tables and 52 explained questions (22 Part B, 24 Part C, 6 other).
 - Subunit 6.H: 3/12; Unit 06: 57/66; Academy: 306/723. Next unpublished: 6.H.02 — Stress Perception and Molecular Signaling.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.03 — [Oxidative Stress and Cellular Protection](https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html); internal academic QA 95/100; static checks passed; Pages/live verification pending.
+- Teaching prose: 14,077 words in 157 paragraphs; 11 SVGs, 4 tables, 56 explained questions (25 Part B, 27 Part C, 4 other).
+- Subunit 6.H: 4/12; Unit 06: 58/66; Academy: 307/723. Next unpublished: 6.H.02 — Stress Perception and Molecular Signaling.

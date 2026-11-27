@@ -4,16 +4,16 @@
   "unit": "06",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "6.H.05",
-  "title": "Salinity and Ionic Stress",
+  "node_id": "6.H.03",
+  "title": "Oxidative Stress and Cellular Protection",
   "subunit": "6.H",
   "topic": "Stress Physiology",
-  "slug": "salinity-and-ionic-stress.html",
+  "slug": "oxidative-stress-and-cellular-protection.html",
   "next_pending_node_id": "6.H.02",
   "next_pending_node_title": "Stress Perception and Molecular Signaling",
-  "published_node_count": 306,
+  "published_node_count": 307,
   "publication_allowed": true,
-  "main_baseline_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
+  "main_baseline_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
   "quality_hold": false,
   "next_required_action": "Verify GitHub Pages and live chapter.",
   "planned_node_count": 66,
@@ -21,104 +21,107 @@
   "architecture_version": "unit-06-system-physiology-plant",
   "curriculum_roadmap": "curriculum/unit-06-system-physiology-plant-subunit-map.md",
   "last_qa": {
-    "node_id": "6.H.05",
-    "title": "Salinity and Ionic Stress",
-    "slug": "salinity-and-ionic-stress.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
+    "node_id": "6.H.03",
+    "title": "Oxidative Stress and Cellular Protection",
+    "slug": "oxidative-stress-and-cellular-protection.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
     "unit": "06",
     "subunit": "6.H",
     "topic": "Stress Physiology",
     "date": "2026-11-27",
     "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "chapter/6-h-05-salinity-ionic-stress",
-    "source_draft_commit_sha": "71e7a105f39b05b234ecc151eca04b0b8e0fa6f5",
-    "source_draft_blob_sha": "9219594a9e77d43100a705dbe6dd150dbf88e65d",
-    "production_blob_sha": "af777993646725a3851650ecdfdc34cd766b0239",
-    "publication_base_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
+    "source_draft_branch": "draft/6-h-03-oxidative-stress",
+    "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+    "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+    "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+    "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
     "metrics": {
-      "genuine_teaching_words": 14017,
-      "teaching_paragraphs": 134,
-      "teaching_sections": 16,
-      "scientific_svg_count": 12,
-      "graph_count": 3,
-      "table_count": 3,
-      "question_count": 52,
-      "part_b": 22,
-      "part_c": 24,
-      "other_questions": 6,
-      "answer_explanations": 52,
+      "genuine_teaching_words": 14077,
+      "teaching_paragraphs": 157,
+      "teaching_sections": 11,
+      "scientific_svg_count": 11,
+      "graph_count": 1,
+      "table_count": 4,
+      "question_count": 56,
+      "part_b": 25,
+      "part_c": 27,
+      "other_questions": 4,
+      "answer_explanations": 56,
       "misconceptions": 18,
-      "active_recall": 12,
-      "references": 11
+      "active_recall": 15,
+      "references": 15
     },
-    "word_count_method": "Whitespace-separated tokens in p.teaching-prose after markup removal; excludes headings, questions, tables, figures, bibliography, revision, navigation and metadata.",
-    "comparison": "6.C.04 Amino Acid Biosynthesis and Carbon-Nitrogen Integration: 13,056 words under identical extraction; 6.H.05: 14,017 words.",
-    "coverage": "Osmotic and ionic phases; Na and Cl toxicity; potassium homeostasis; SOS signaling; HKT retrieval; NHX and proton gradients; osmolytes; halophyte strategies and salt glands; glycophytes; saline/sodic soils; Na/K data and iso-osmotic controls. Revised CSIR-UGC-DBT Unit 6.H and older CSIR/MP SET explicit salt stress.",
+    "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+    "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+    "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
     "coverage_matrix": [
       [
-        "Salinity and osmotic stress",
-        "Osmotic phase and water potential",
-        "quantitative water relations; iso-osmotic controls",
+        "ROS species and properties",
+        "1–2",
+        "Electron transfer, radicals, ROS reaction stoichiometry",
+        "Source/sink and species distinctions",
         "covered"
       ],
       [
-        "Ionic toxicity",
-        "Ionic phase, Na+ and Cl−",
-        "time course and compartment comparisons",
+        "Chloroplast and mitochondrial ROS",
+        "3–4",
+        "PSI electron leakage, PSII excitation, respiratory chain",
+        "Fluorescence, inhibitors, controls",
         "covered"
       ],
       [
-        "Potassium homeostasis",
-        "K+ competition and membrane potential",
-        "electrochemical calculations and Na/K ratios",
+        "Peroxisomes and RBOHs",
+        "4",
+        "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+        "cat2 conditional phenotype; oxidase mutants",
         "covered"
       ],
       [
-        "SOS signaling",
-        "CBL4/CIPK24/SOS1",
-        "mutant and complementation inference",
+        "Oxidative injury",
+        "5",
+        "Lipid, protein, DNA damage and repair",
+        "Leakage, oxidation markers, recovery",
         "covered"
       ],
       [
-        "HKT transport",
-        "Xylem retrieval",
-        "tissue-specific transport and flux",
+        "Enzymatic antioxidants",
+        "6",
+        "SOD, catalase, APX, peroxidases",
+        "Stoichiometry and activity assays",
         "covered"
       ],
       [
-        "NHX and proton gradients",
-        "Vacuole, NHX, proton pumps",
-        "pH gradient and vesicle reasoning",
+        "Ascorbate glutathione cycle",
+        "7",
+        "MDHAR/DHAR/GR, NADPH and redox potential",
+        "Recycling flux, Nernst reasoning",
         "covered"
       ],
       [
-        "Osmotic adjustment",
-        "Compatible solutes",
-        "dilution, osmotic potential",
+        "Nonenzymatic protection",
+        "8",
+        "Ascorbate, GSH, tocopherol, carotenoids",
+        "Vitamin E mutant seed evidence",
         "covered"
       ],
       [
-        "Halophytes, glycophytes, glands",
-        "Adaptation and secretion",
-        "salt excretion and growth tradeoffs",
+        "Redox signaling",
+        "9",
+        "Local and systemic ROS, calcium and feedback",
+        "RBOHD evidence and time course",
         "covered"
       ],
       [
-        "Saline vs sodic soil",
-        "Soil EC, SAR, ESP",
-        "soil data classification and remediation principles",
-        "covered"
-      ],
-      [
-        "Experimental interpretation",
-        "Controls and quantitative reasoning",
-        "Na/K data, iso-osmotic comparisons, genotype effects, recovery",
+        "Measurement and integrated protection",
+        "10–11",
+        "Source, clearance, injury, repair, acclimation",
+        "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
         "covered"
       ]
     ],
     "review": {
-      "scientific": "Reviewed selected syllabus and source records (Munns & Tester; Qiu et al.; Bassil et al.; wheat HKT Nax2; halophyte reviews; van Zelm et al.; FAO). Distinguished tissue-specific HKT and vacuolar K/pH roles of NHX from blanket sodium-exclusion claims. Recomputed osmotic potentials -0.4955144 and -0.2477572 MPa, Na inward free energy -17.283 kJ/mol, EK -118.253 mV, H+ chemical energy -11.40964 kJ/mol, mass ratio 2.00087, RWC 75%, leakage 20%, Fv/Fm .65, SAR 8, ESP 15 and efflux 6; reviewed answer logic and illustrative data labeling.",
-      "editorial": "Separate review of 16-section learning progression, 134 distinct teaching paragraphs, captions, question wording and explanations, revision resources and reader compatibility. Revised 26 question sets, distributed correct positions equally, retained reader controls, checked SVG/ARIA/anchor targets and improved zoom focus return."
+      "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+      "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -134,48 +137,45 @@
     },
     "score": 95,
     "threshold": 95,
-    "score_basis": "Internal evidence-based self-assessment; deductions for selective source verification, complexity of some passages, static-only figure inspection, some simpler distractors and lack of interactive/accessibility runtime testing. Not external peer review.",
+    "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
     "static_checks": {
-      "teaching_words_pass": true,
-      "question_distribution_pass": true,
-      "answer_mapping_52_of_52": true,
-      "balanced_answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 13,
-        "D": 13
-      },
       "duplicate_prose": 0,
       "duplicate_ids": 0,
       "broken_local_anchors": 0,
       "broken_zoom_targets": 0,
       "broken_aria_labelledby": 0,
-      "html_tag_stack_errors": 0,
-      "javascript_syntax_pass": true,
+      "svg_accessible_labels": 11,
+      "answer_positions": {
+        "A": 14,
+        "B": 14,
+        "C": 13,
+        "D": 15
+      },
       "canonical_pass": true,
-      "production_blob_roundtrip_exact": true,
-      "existing_menu_links_preserved": 305,
-      "existing_sitemap_entries_preserved": true
+      "javascript_syntax_pass": true,
+      "answer_mapping_pass": true,
+      "teaching_words_pass": true,
+      "question_distribution_pass": true
     },
     "limitations": [
-      "Desktop/mobile interactive rendering, keyboard and screen-reader runtime not tested.",
-      "Selected source records and syllabus checked; exhaustive full-text source verification and independent peer review not performed. MP SET checked through reproduced 2024 PDF, latest official MPPSC copy not independently confirmed.",
-      "Pages deployment and live content must be verified separately."
+      "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+      "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+      "GitHub Pages and live content require separate verification."
     ],
     "navigation": {
-      "previous": "6.H.04",
-      "previous_active": true,
-      "next": "6.H.06",
-      "next_active": false,
-      "method": "Reader resolves adjacent published menu links dynamically; unpublished links stay disabled."
+      "previous": "6.H.02",
+      "next": "6.H.04",
+      "previous_active": false,
+      "next_active": true,
+      "dynamic_menu": true
     },
     "publication": {
       "main_verified": false,
       "pages_verified": false,
       "live_verified": false,
-      "academy_published_count": 306,
-      "unit_published_count": 57,
-      "subunit_published_count": 3,
+      "academy_published_count": 307,
+      "unit_published_count": 58,
+      "subunit_published_count": 4,
       "next_pending_node_id": "6.H.02"
     }
   },
@@ -484,6 +484,7 @@
     "6.G.09",
     "6.G.10",
     "6.H.01",
+    "6.H.03",
     "6.H.04",
     "6.H.05"
   ],
@@ -576,198 +577,162 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "6.H.04",
-    "title": "Drought and Dehydration Stress",
-    "slug": "drought-and-dehydration-stress.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/drought-and-dehydration-stress.html",
+    "node_id": "6.H.05",
+    "title": "Salinity and Ionic Stress",
+    "slug": "salinity-and-ionic-stress.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
     "unit": "06",
     "subunit": "6.H",
     "topic": "Stress Physiology",
     "date": "2026-11-27",
-    "status": "lesson_committed_pages_verification_pending",
-    "source_draft_branch": "draft/node-6h04-drought-dehydration-20261127",
-    "source_draft_commit_sha": "80aab1c8f3f50838bb6dcd3655d6791180544607",
-    "source_draft_blob_sha": "bcfdf6e366b1bf5fcdeb74a42810d20d1b50971f",
-    "production_blob_sha": "94c19f5f8ac779e4b417dd17ba70142afdc3fb24",
-    "publication_base_sha": "3294a2b0079140c88cc03a34017a81ce270db6f2",
+    "status": "internal_academic_qa_passed_static_checks_complete",
+    "source_draft_branch": "chapter/6-h-05-salinity-ionic-stress",
+    "source_draft_commit_sha": "71e7a105f39b05b234ecc151eca04b0b8e0fa6f5",
+    "source_draft_blob_sha": "9219594a9e77d43100a705dbe6dd150dbf88e65d",
+    "production_blob_sha": "af777993646725a3851650ecdfdc34cd766b0239",
+    "publication_base_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
     "metrics": {
-      "teaching_words": 14405,
-      "teaching_paragraphs": 152,
-      "teaching_sections": 11,
-      "svg": 11,
-      "tables": 5,
-      "graphs": 1,
-      "questions": 55,
-      "part_b": 21,
-      "part_c": 23,
-      "other_questions": 11,
-      "answer_explanations": 55,
-      "misconceptions": 15,
+      "genuine_teaching_words": 14017,
+      "teaching_paragraphs": 134,
+      "teaching_sections": 16,
+      "scientific_svg_count": 12,
+      "graph_count": 3,
+      "table_count": 3,
+      "question_count": 52,
+      "part_b": 22,
+      "part_c": 24,
+      "other_questions": 6,
+      "answer_explanations": 52,
+      "misconceptions": 18,
       "active_recall": 12,
-      "references": 17
+      "references": 11
     },
-    "word_count_method": "Whitespace-delimited text in saved p.teaching-prose elements only; excludes headings, question/answer content, revision, tables, references and SVGs.",
-    "comparison": "6.F.05 verified 13,435 teaching words; current chapter independently counted 14,405.",
-    "coverage": "Official revised Joint CSIR–UGC–DBT NET 2026 Unit 6.H; legacy CSIR NET Unit 6.H and MP SET 2024 mirrored syllabus; repository node scope.",
+    "word_count_method": "Whitespace-separated tokens in p.teaching-prose after markup removal; excludes headings, questions, tables, figures, bibliography, revision, navigation and metadata.",
+    "comparison": "6.C.04 Amino Acid Biosynthesis and Carbon-Nitrogen Integration: 13,056 words under identical extraction; 6.H.05: 14,017 words.",
+    "coverage": "Osmotic and ionic phases; Na and Cl toxicity; potassium homeostasis; SOS signaling; HKT retrieval; NHX and proton gradients; osmolytes; halophyte strategies and salt glands; glycophytes; saline/sodic soils; Na/K data and iso-osmotic controls. Revised CSIR-UGC-DBT Unit 6.H and older CSIR/MP SET explicit salt stress.",
     "coverage_matrix": [
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Soil and atmospheric drought",
-        "section": "water-deficit",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Soil–atmosphere gradients; supply/demand distinction",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Water potential and hydraulic supply",
-        "section": "water-potential",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Ψ components, flux, VPD and numerical predictions",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Hydraulic and chemical signals",
-        "section": "signals",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "ABA origin, signal timing and controls",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "ABA/PYL/PP2C/SnRK2/SLAC1",
-        "section": "guard-cells",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Guard-cell electrical and osmotic mechanisms; mutant reasoning",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "DREB and transcriptional acclimation",
-        "section": "transcription",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "ABA-dependent and independent transcription; expression limitations",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Osmotic adjustment; compatible solutes",
-        "section": "osmotic-adjustment",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Passive concentration vs active accumulation; turgor and proline",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Root allocation; aquaporins; avoidance",
-        "section": "roots",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Root depth, conductance, regulated permeability and tradeoffs",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "LEA, dehydrins and desiccation tolerance",
-        "section": "protection",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Membrane/protein stabilization, seed vs vegetative tolerance",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Photosynthesis, growth and water-use efficiency",
-        "section": "carbon",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "Gas exchange, stomatal and nonstomatal limitation, WUE",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Recovery and hydraulic injury",
-        "section": "recovery",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "PLC, vulnerability curves and rewatering constraints",
-        "status": "covered"
-      },
-      {
-        "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-        "microtopic": "Experimental measurement",
-        "section": "experiments",
-        "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-        "experimental_analytical_exam_relevance": "RWC, osmotic potential, gas exchange, matched controls",
-        "status": "covered"
-      }
+      [
+        "Salinity and osmotic stress",
+        "Osmotic phase and water potential",
+        "quantitative water relations; iso-osmotic controls",
+        "covered"
+      ],
+      [
+        "Ionic toxicity",
+        "Ionic phase, Na+ and Cl−",
+        "time course and compartment comparisons",
+        "covered"
+      ],
+      [
+        "Potassium homeostasis",
+        "K+ competition and membrane potential",
+        "electrochemical calculations and Na/K ratios",
+        "covered"
+      ],
+      [
+        "SOS signaling",
+        "CBL4/CIPK24/SOS1",
+        "mutant and complementation inference",
+        "covered"
+      ],
+      [
+        "HKT transport",
+        "Xylem retrieval",
+        "tissue-specific transport and flux",
+        "covered"
+      ],
+      [
+        "NHX and proton gradients",
+        "Vacuole, NHX, proton pumps",
+        "pH gradient and vesicle reasoning",
+        "covered"
+      ],
+      [
+        "Osmotic adjustment",
+        "Compatible solutes",
+        "dilution, osmotic potential",
+        "covered"
+      ],
+      [
+        "Halophytes, glycophytes, glands",
+        "Adaptation and secretion",
+        "salt excretion and growth tradeoffs",
+        "covered"
+      ],
+      [
+        "Saline vs sodic soil",
+        "Soil EC, SAR, ESP",
+        "soil data classification and remediation principles",
+        "covered"
+      ],
+      [
+        "Experimental interpretation",
+        "Controls and quantitative reasoning",
+        "Na/K data, iso-osmotic comparisons, genotype effects, recovery",
+        "covered"
+      ]
     ],
     "review": {
-      "scientific": "Internal mechanism and source review; distinguish active adjustment, passive concentration, hydraulic vs chemical signaling and causation; original illustrative datasets identified; numerical checks repeated.",
-      "editorial": "Separate internal editorial pass: removed overlapping prose, improved headings, distractors, explanations, comparisons and revision; corrected guard-cell near-closed geometry; 152 unique paragraphs.",
-      "numerical_rechecks": {
-        "vanthoff": -0.4955144,
-        "rwc": 77.5,
-        "question_rwc": 60,
-        "flow": 1.6,
-        "VPD25": 1.585,
-        "VPD30": 2.12,
-        "transpiration": 4,
-        "nernst": -59,
-        "osmotic_delta": -0.081759876,
-        "plc": 70,
-        "assimilation": 21600,
-        "assimilation2": 16200,
-        "fvFm": 0.625
-      }
+      "scientific": "Reviewed selected syllabus and source records (Munns & Tester; Qiu et al.; Bassil et al.; wheat HKT Nax2; halophyte reviews; van Zelm et al.; FAO). Distinguished tissue-specific HKT and vacuolar K/pH roles of NHX from blanket sodium-exclusion claims. Recomputed osmotic potentials -0.4955144 and -0.2477572 MPa, Na inward free energy -17.283 kJ/mol, EK -118.253 mV, H+ chemical energy -11.40964 kJ/mol, mass ratio 2.00087, RWC 75%, leakage 20%, Fv/Fm .65, SAR 8, ESP 15 and efflux 6; reviewed answer logic and illustrative data labeling.",
+      "editorial": "Separate review of 16-section learning progression, 134 distinct teaching paragraphs, captions, question wording and explanations, revision resources and reader compatibility. Revised 26 question sets, distributed correct positions equally, retained reader controls, checked SVG/ARIA/anchor targets and improved zoom focus return."
     },
     "rubric": {
       "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
+      "syllabus_microtopic_coverage": 15,
+      "genuine_teaching_depth": 15,
       "pedagogical_quality": 9,
-      "illustrations": 9,
-      "questions_and_answers": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "technical_seo": 5
+      "scientific_illustrations": 9,
+      "examination_questions_answers": 9,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
+      "reader_architecture_accessibility": 4,
+      "technical_integrity_seo": 5
     },
     "score": 95,
     "threshold": 95,
-    "score_basis": "Internal assessment only. Deductions for limited independent source checking, conceptual revisiting, static-only figure review, uncalibrated original questions and untested runtime reader accessibility. Technical score based on validated HTML and coherent staged menu/sitemap/tree.",
+    "score_basis": "Internal evidence-based self-assessment; deductions for selective source verification, complexity of some passages, static-only figure inspection, some simpler distractors and lack of interactive/accessibility runtime testing. Not external peer review.",
     "static_checks": {
+      "teaching_words_pass": true,
+      "question_distribution_pass": true,
+      "answer_mapping_52_of_52": true,
+      "balanced_answer_positions": {
+        "A": 13,
+        "B": 13,
+        "C": 13,
+        "D": 13
+      },
+      "duplicate_prose": 0,
       "duplicate_ids": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria": 0,
-      "unresolved_zoom": 0,
-      "unresolved_prerequisite_links": 0,
-      "missing_answer_explanations": 0,
-      "answer_mapping_errors": 0,
-      "html_nesting_errors": 0,
-      "javascript_syntax": "compiled",
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/drought-and-dehydration-stress.html",
-      "placeholder_matches": 0,
-      "menu_sitemap_chapter_crosscheck": 305
+      "broken_local_anchors": 0,
+      "broken_zoom_targets": 0,
+      "broken_aria_labelledby": 0,
+      "html_tag_stack_errors": 0,
+      "javascript_syntax_pass": true,
+      "canonical_pass": true,
+      "production_blob_roundtrip_exact": true,
+      "existing_menu_links_preserved": 305,
+      "existing_sitemap_entries_preserved": true
     },
     "limitations": [
-      "No independent external peer review or exam calibration.",
-      "No live browser/mobile, keyboard runtime or assistive-technology test; static SVG and reader review only.",
-      "MP SET source is a 2024 mirrored syllabus; no claim of current MPPSC primary-host validation.",
-      "Deployment and HTTP/live content verification remain pending; references not exhaustively retested."
+      "Desktop/mobile interactive rendering, keyboard and screen-reader runtime not tested.",
+      "Selected source records and syllabus checked; exhaustive full-text source verification and independent peer review not performed. MP SET checked through reproduced 2024 PDF, latest official MPPSC copy not independently confirmed.",
+      "Pages deployment and live content must be verified separately."
     ],
     "navigation": {
-      "previous_node": "6.H.03",
-      "next_node": "6.H.05",
-      "dynamic_index_lookup": true,
-      "previous_link_available": false,
-      "next_link_available": false
+      "previous": "6.H.04",
+      "previous_active": true,
+      "next": "6.H.06",
+      "next_active": false,
+      "method": "Reader resolves adjacent published menu links dynamically; unpublished links stay disabled."
     },
     "publication": {
-      "academy_published": 305,
-      "unit_published": 56,
-      "subunit_published": 2,
-      "next_pending_node_id": "6.H.02",
-      "next_pending_subunit_node_id": "6.H.02",
-      "method": "Atomic git tree; non-force expected-head update"
+      "main_verified": false,
+      "pages_verified": false,
+      "live_verified": false,
+      "academy_published_count": 306,
+      "unit_published_count": 57,
+      "subunit_published_count": 3,
+      "next_pending_node_id": "6.H.02"
     }
   },
   "unit_02": {
@@ -40542,6 +40507,165 @@
         "subunit_published_count": 3,
         "next_pending_node_id": "6.H.02"
       }
+    },
+    "6.H.03": {
+      "node_id": "6.H.03",
+      "title": "Oxidative Stress and Cellular Protection",
+      "slug": "oxidative-stress-and-cellular-protection.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
+      "unit": "06",
+      "subunit": "6.H",
+      "topic": "Stress Physiology",
+      "date": "2026-11-27",
+      "status": "internal_academic_qa_passed_static_checks_complete",
+      "source_draft_branch": "draft/6-h-03-oxidative-stress",
+      "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+      "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+      "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+      "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
+      "metrics": {
+        "genuine_teaching_words": 14077,
+        "teaching_paragraphs": 157,
+        "teaching_sections": 11,
+        "scientific_svg_count": 11,
+        "graph_count": 1,
+        "table_count": 4,
+        "question_count": 56,
+        "part_b": 25,
+        "part_c": 27,
+        "other_questions": 4,
+        "answer_explanations": 56,
+        "misconceptions": 18,
+        "active_recall": 15,
+        "references": 15
+      },
+      "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+      "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+      "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
+      "coverage_matrix": [
+        [
+          "ROS species and properties",
+          "1–2",
+          "Electron transfer, radicals, ROS reaction stoichiometry",
+          "Source/sink and species distinctions",
+          "covered"
+        ],
+        [
+          "Chloroplast and mitochondrial ROS",
+          "3–4",
+          "PSI electron leakage, PSII excitation, respiratory chain",
+          "Fluorescence, inhibitors, controls",
+          "covered"
+        ],
+        [
+          "Peroxisomes and RBOHs",
+          "4",
+          "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+          "cat2 conditional phenotype; oxidase mutants",
+          "covered"
+        ],
+        [
+          "Oxidative injury",
+          "5",
+          "Lipid, protein, DNA damage and repair",
+          "Leakage, oxidation markers, recovery",
+          "covered"
+        ],
+        [
+          "Enzymatic antioxidants",
+          "6",
+          "SOD, catalase, APX, peroxidases",
+          "Stoichiometry and activity assays",
+          "covered"
+        ],
+        [
+          "Ascorbate glutathione cycle",
+          "7",
+          "MDHAR/DHAR/GR, NADPH and redox potential",
+          "Recycling flux, Nernst reasoning",
+          "covered"
+        ],
+        [
+          "Nonenzymatic protection",
+          "8",
+          "Ascorbate, GSH, tocopherol, carotenoids",
+          "Vitamin E mutant seed evidence",
+          "covered"
+        ],
+        [
+          "Redox signaling",
+          "9",
+          "Local and systemic ROS, calcium and feedback",
+          "RBOHD evidence and time course",
+          "covered"
+        ],
+        [
+          "Measurement and integrated protection",
+          "10–11",
+          "Source, clearance, injury, repair, acclimation",
+          "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
+          "covered"
+        ]
+      ],
+      "review": {
+        "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+        "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_microtopic_coverage": 15,
+        "genuine_teaching_depth": 15,
+        "pedagogical_quality": 9,
+        "scientific_illustrations": 9,
+        "examination_questions_answers": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_architecture_accessibility": 4,
+        "technical_integrity_seo": 5
+      },
+      "score": 95,
+      "threshold": 95,
+      "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
+      "static_checks": {
+        "duplicate_prose": 0,
+        "duplicate_ids": 0,
+        "broken_local_anchors": 0,
+        "broken_zoom_targets": 0,
+        "broken_aria_labelledby": 0,
+        "svg_accessible_labels": 11,
+        "answer_positions": {
+          "A": 14,
+          "B": 14,
+          "C": 13,
+          "D": 15
+        },
+        "canonical_pass": true,
+        "javascript_syntax_pass": true,
+        "answer_mapping_pass": true,
+        "teaching_words_pass": true,
+        "question_distribution_pass": true
+      },
+      "limitations": [
+        "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+        "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+        "GitHub Pages and live content require separate verification."
+      ],
+      "navigation": {
+        "previous": "6.H.02",
+        "next": "6.H.04",
+        "previous_active": false,
+        "next_active": true,
+        "dynamic_menu": true
+      },
+      "publication": {
+        "main_verified": false,
+        "pages_verified": false,
+        "live_verified": false,
+        "academy_published_count": 307,
+        "unit_published_count": 58,
+        "subunit_published_count": 4,
+        "next_pending_node_id": "6.H.02"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -49011,113 +49135,117 @@
       "6.G.09",
       "6.G.10",
       "6.H.01",
+      "6.H.03",
       "6.H.04",
       "6.H.05"
     ],
-    "published_node_count": 57,
+    "published_node_count": 58,
     "planned_node_count": 66,
-    "last_published_node_id": "6.H.05",
+    "last_published_node_id": "6.H.03",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "6.H.05",
-      "title": "Salinity and Ionic Stress",
-      "slug": "salinity-and-ionic-stress.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
+      "node_id": "6.H.03",
+      "title": "Oxidative Stress and Cellular Protection",
+      "slug": "oxidative-stress-and-cellular-protection.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
       "unit": "06",
       "subunit": "6.H",
       "topic": "Stress Physiology",
       "date": "2026-11-27",
       "status": "internal_academic_qa_passed_static_checks_complete",
-      "source_draft_branch": "chapter/6-h-05-salinity-ionic-stress",
-      "source_draft_commit_sha": "71e7a105f39b05b234ecc151eca04b0b8e0fa6f5",
-      "source_draft_blob_sha": "9219594a9e77d43100a705dbe6dd150dbf88e65d",
-      "production_blob_sha": "af777993646725a3851650ecdfdc34cd766b0239",
-      "publication_base_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
+      "source_draft_branch": "draft/6-h-03-oxidative-stress",
+      "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+      "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+      "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+      "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
       "metrics": {
-        "genuine_teaching_words": 14017,
-        "teaching_paragraphs": 134,
-        "teaching_sections": 16,
-        "scientific_svg_count": 12,
-        "graph_count": 3,
-        "table_count": 3,
-        "question_count": 52,
-        "part_b": 22,
-        "part_c": 24,
-        "other_questions": 6,
-        "answer_explanations": 52,
+        "genuine_teaching_words": 14077,
+        "teaching_paragraphs": 157,
+        "teaching_sections": 11,
+        "scientific_svg_count": 11,
+        "graph_count": 1,
+        "table_count": 4,
+        "question_count": 56,
+        "part_b": 25,
+        "part_c": 27,
+        "other_questions": 4,
+        "answer_explanations": 56,
         "misconceptions": 18,
-        "active_recall": 12,
-        "references": 11
+        "active_recall": 15,
+        "references": 15
       },
-      "word_count_method": "Whitespace-separated tokens in p.teaching-prose after markup removal; excludes headings, questions, tables, figures, bibliography, revision, navigation and metadata.",
-      "comparison": "6.C.04 Amino Acid Biosynthesis and Carbon-Nitrogen Integration: 13,056 words under identical extraction; 6.H.05: 14,017 words.",
-      "coverage": "Osmotic and ionic phases; Na and Cl toxicity; potassium homeostasis; SOS signaling; HKT retrieval; NHX and proton gradients; osmolytes; halophyte strategies and salt glands; glycophytes; saline/sodic soils; Na/K data and iso-osmotic controls. Revised CSIR-UGC-DBT Unit 6.H and older CSIR/MP SET explicit salt stress.",
+      "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+      "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+      "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
       "coverage_matrix": [
         [
-          "Salinity and osmotic stress",
-          "Osmotic phase and water potential",
-          "quantitative water relations; iso-osmotic controls",
+          "ROS species and properties",
+          "1–2",
+          "Electron transfer, radicals, ROS reaction stoichiometry",
+          "Source/sink and species distinctions",
           "covered"
         ],
         [
-          "Ionic toxicity",
-          "Ionic phase, Na+ and Cl−",
-          "time course and compartment comparisons",
+          "Chloroplast and mitochondrial ROS",
+          "3–4",
+          "PSI electron leakage, PSII excitation, respiratory chain",
+          "Fluorescence, inhibitors, controls",
           "covered"
         ],
         [
-          "Potassium homeostasis",
-          "K+ competition and membrane potential",
-          "electrochemical calculations and Na/K ratios",
+          "Peroxisomes and RBOHs",
+          "4",
+          "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+          "cat2 conditional phenotype; oxidase mutants",
           "covered"
         ],
         [
-          "SOS signaling",
-          "CBL4/CIPK24/SOS1",
-          "mutant and complementation inference",
+          "Oxidative injury",
+          "5",
+          "Lipid, protein, DNA damage and repair",
+          "Leakage, oxidation markers, recovery",
           "covered"
         ],
         [
-          "HKT transport",
-          "Xylem retrieval",
-          "tissue-specific transport and flux",
+          "Enzymatic antioxidants",
+          "6",
+          "SOD, catalase, APX, peroxidases",
+          "Stoichiometry and activity assays",
           "covered"
         ],
         [
-          "NHX and proton gradients",
-          "Vacuole, NHX, proton pumps",
-          "pH gradient and vesicle reasoning",
+          "Ascorbate glutathione cycle",
+          "7",
+          "MDHAR/DHAR/GR, NADPH and redox potential",
+          "Recycling flux, Nernst reasoning",
           "covered"
         ],
         [
-          "Osmotic adjustment",
-          "Compatible solutes",
-          "dilution, osmotic potential",
+          "Nonenzymatic protection",
+          "8",
+          "Ascorbate, GSH, tocopherol, carotenoids",
+          "Vitamin E mutant seed evidence",
           "covered"
         ],
         [
-          "Halophytes, glycophytes, glands",
-          "Adaptation and secretion",
-          "salt excretion and growth tradeoffs",
+          "Redox signaling",
+          "9",
+          "Local and systemic ROS, calcium and feedback",
+          "RBOHD evidence and time course",
           "covered"
         ],
         [
-          "Saline vs sodic soil",
-          "Soil EC, SAR, ESP",
-          "soil data classification and remediation principles",
-          "covered"
-        ],
-        [
-          "Experimental interpretation",
-          "Controls and quantitative reasoning",
-          "Na/K data, iso-osmotic comparisons, genotype effects, recovery",
+          "Measurement and integrated protection",
+          "10–11",
+          "Source, clearance, injury, repair, acclimation",
+          "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
           "covered"
         ]
       ],
       "review": {
-        "scientific": "Reviewed selected syllabus and source records (Munns & Tester; Qiu et al.; Bassil et al.; wheat HKT Nax2; halophyte reviews; van Zelm et al.; FAO). Distinguished tissue-specific HKT and vacuolar K/pH roles of NHX from blanket sodium-exclusion claims. Recomputed osmotic potentials -0.4955144 and -0.2477572 MPa, Na inward free energy -17.283 kJ/mol, EK -118.253 mV, H+ chemical energy -11.40964 kJ/mol, mass ratio 2.00087, RWC 75%, leakage 20%, Fv/Fm .65, SAR 8, ESP 15 and efflux 6; reviewed answer logic and illustrative data labeling.",
-        "editorial": "Separate review of 16-section learning progression, 134 distinct teaching paragraphs, captions, question wording and explanations, revision resources and reader compatibility. Revised 26 question sets, distributed correct positions equally, retained reader controls, checked SVG/ARIA/anchor targets and improved zoom focus return."
+        "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+        "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -49133,48 +49261,45 @@
       },
       "score": 95,
       "threshold": 95,
-      "score_basis": "Internal evidence-based self-assessment; deductions for selective source verification, complexity of some passages, static-only figure inspection, some simpler distractors and lack of interactive/accessibility runtime testing. Not external peer review.",
+      "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
       "static_checks": {
-        "teaching_words_pass": true,
-        "question_distribution_pass": true,
-        "answer_mapping_52_of_52": true,
-        "balanced_answer_positions": {
-          "A": 13,
-          "B": 13,
-          "C": 13,
-          "D": 13
-        },
         "duplicate_prose": 0,
         "duplicate_ids": 0,
         "broken_local_anchors": 0,
         "broken_zoom_targets": 0,
         "broken_aria_labelledby": 0,
-        "html_tag_stack_errors": 0,
-        "javascript_syntax_pass": true,
+        "svg_accessible_labels": 11,
+        "answer_positions": {
+          "A": 14,
+          "B": 14,
+          "C": 13,
+          "D": 15
+        },
         "canonical_pass": true,
-        "production_blob_roundtrip_exact": true,
-        "existing_menu_links_preserved": 305,
-        "existing_sitemap_entries_preserved": true
+        "javascript_syntax_pass": true,
+        "answer_mapping_pass": true,
+        "teaching_words_pass": true,
+        "question_distribution_pass": true
       },
       "limitations": [
-        "Desktop/mobile interactive rendering, keyboard and screen-reader runtime not tested.",
-        "Selected source records and syllabus checked; exhaustive full-text source verification and independent peer review not performed. MP SET checked through reproduced 2024 PDF, latest official MPPSC copy not independently confirmed.",
-        "Pages deployment and live content must be verified separately."
+        "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+        "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+        "GitHub Pages and live content require separate verification."
       ],
       "navigation": {
-        "previous": "6.H.04",
-        "previous_active": true,
-        "next": "6.H.06",
-        "next_active": false,
-        "method": "Reader resolves adjacent published menu links dynamically; unpublished links stay disabled."
+        "previous": "6.H.02",
+        "next": "6.H.04",
+        "previous_active": false,
+        "next_active": true,
+        "dynamic_menu": true
       },
       "publication": {
         "main_verified": false,
         "pages_verified": false,
         "live_verified": false,
-        "academy_published_count": 306,
-        "unit_published_count": 57,
-        "subunit_published_count": 3,
+        "academy_published_count": 307,
+        "unit_published_count": 58,
+        "subunit_published_count": 4,
         "next_pending_node_id": "6.H.02"
       }
     },
@@ -56392,6 +56517,165 @@
           "subunit_published_count": 3,
           "next_pending_node_id": "6.H.02"
         }
+      },
+      "6.H.03": {
+        "node_id": "6.H.03",
+        "title": "Oxidative Stress and Cellular Protection",
+        "slug": "oxidative-stress-and-cellular-protection.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
+        "unit": "06",
+        "subunit": "6.H",
+        "topic": "Stress Physiology",
+        "date": "2026-11-27",
+        "status": "internal_academic_qa_passed_static_checks_complete",
+        "source_draft_branch": "draft/6-h-03-oxidative-stress",
+        "source_draft_commit_sha": "31ca0e11e2b372c38e4890e907c2d44181718517",
+        "source_draft_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+        "production_blob_sha": "5284092e4f1f67e20611f36ad6a22d6ab913821f",
+        "publication_base_sha": "b99e876e91fded3510cc2914099b11125b5dc6ad",
+        "metrics": {
+          "genuine_teaching_words": 14077,
+          "teaching_paragraphs": 157,
+          "teaching_sections": 11,
+          "scientific_svg_count": 11,
+          "graph_count": 1,
+          "table_count": 4,
+          "question_count": 56,
+          "part_b": 25,
+          "part_c": 27,
+          "other_questions": 4,
+          "answer_explanations": 56,
+          "misconceptions": 18,
+          "active_recall": 15,
+          "references": 15
+        },
+        "word_count_method": "Whitespace-delimited tokens in p.teaching-prose after markup removal; all nonteaching elements excluded.",
+        "comparison": "6.C.04 verified checkpoint reported 13,056 teaching words in 141 paragraphs; this chapter has 14077 words in 157 paragraphs.",
+        "coverage": "Revised CSIR-UGC-DBT 2026 and separate CSIR Life Sciences Unit 6.H; MP SET 2024 reproduced syllabus checked. All assigned 6.H.03 microtopics addressed without expanding into neighboring stress-specific nodes.",
+        "coverage_matrix": [
+          [
+            "ROS species and properties",
+            "1–2",
+            "Electron transfer, radicals, ROS reaction stoichiometry",
+            "Source/sink and species distinctions",
+            "covered"
+          ],
+          [
+            "Chloroplast and mitochondrial ROS",
+            "3–4",
+            "PSI electron leakage, PSII excitation, respiratory chain",
+            "Fluorescence, inhibitors, controls",
+            "covered"
+          ],
+          [
+            "Peroxisomes and RBOHs",
+            "4",
+            "Glycolate oxidase, compartmentation, apoplastic electron transfer",
+            "cat2 conditional phenotype; oxidase mutants",
+            "covered"
+          ],
+          [
+            "Oxidative injury",
+            "5",
+            "Lipid, protein, DNA damage and repair",
+            "Leakage, oxidation markers, recovery",
+            "covered"
+          ],
+          [
+            "Enzymatic antioxidants",
+            "6",
+            "SOD, catalase, APX, peroxidases",
+            "Stoichiometry and activity assays",
+            "covered"
+          ],
+          [
+            "Ascorbate glutathione cycle",
+            "7",
+            "MDHAR/DHAR/GR, NADPH and redox potential",
+            "Recycling flux, Nernst reasoning",
+            "covered"
+          ],
+          [
+            "Nonenzymatic protection",
+            "8",
+            "Ascorbate, GSH, tocopherol, carotenoids",
+            "Vitamin E mutant seed evidence",
+            "covered"
+          ],
+          [
+            "Redox signaling",
+            "9",
+            "Local and systemic ROS, calcium and feedback",
+            "RBOHD evidence and time course",
+            "covered"
+          ],
+          [
+            "Measurement and integrated protection",
+            "10–11",
+            "Source, clearance, injury, repair, acclimation",
+            "Fluorescence, conductivity, Beer–Lambert, enzyme rates; matched controls",
+            "covered"
+          ]
+        ],
+        "review": {
+          "scientific": "Reviewed ROS species chemistry, organellar sources, reaction balance, antioxidant routes, redox potential, injury and signaling distinctions, selected primary and review literature. Rechecked numerical questions independently: 14 nmol/min peroxide, 15 µmol/h oxygen, 12 nmol/min NADPH, Fv/Fm 0.82 and 0.65, relative leakage threefold, Michaelis–Menten 15 nmol/min, GR assay 0.20 µmol/min/mg. Original practice data explicitly illustrative. Checked answer logic and remapped answer choices without changing correct content.",
+          "editorial": "Reviewed progression from oxygen chemistry to organelles, injury, defenses, signaling and experimental integration. Revised landmark evidence, multiple statement and time-course questions, figure labels and zoom buttons. Checked unique teaching paragraphs, anchors, headings, revision, answer explanations, canonical and JavaScript syntax."
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_microtopic_coverage": 15,
+          "genuine_teaching_depth": 15,
+          "pedagogical_quality": 9,
+          "scientific_illustrations": 9,
+          "examination_questions_answers": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_architecture_accessibility": 4,
+          "technical_integrity_seo": 5
+        },
+        "score": 95,
+        "threshold": 95,
+        "score_basis": "Internal assessment based on saved-file inspection: one mark each deducted for incomplete exhaustive reference full-text review, dense passages, no rendered SVG review, some easy distractors, and untested interactive accessibility. Not independent peer review.",
+        "static_checks": {
+          "duplicate_prose": 0,
+          "duplicate_ids": 0,
+          "broken_local_anchors": 0,
+          "broken_zoom_targets": 0,
+          "broken_aria_labelledby": 0,
+          "svg_accessible_labels": 11,
+          "answer_positions": {
+            "A": 14,
+            "B": 14,
+            "C": 13,
+            "D": 15
+          },
+          "canonical_pass": true,
+          "javascript_syntax_pass": true,
+          "answer_mapping_pass": true,
+          "teaching_words_pass": true,
+          "question_distribution_pass": true
+        },
+        "limitations": [
+          "Rendered desktop/mobile, keyboard and screen reader runtime not tested; figure audit is static.",
+          "Selected primary and review references checked, not an exhaustive full-text audit of all sources; MP SET via reproduced 2024 document, not independently confirmed latest official MPPSC copy.",
+          "GitHub Pages and live content require separate verification."
+        ],
+        "navigation": {
+          "previous": "6.H.02",
+          "next": "6.H.04",
+          "previous_active": false,
+          "next_active": true,
+          "dynamic_menu": true
+        },
+        "publication": {
+          "main_verified": false,
+          "pages_verified": false,
+          "live_verified": false,
+          "academy_published_count": 307,
+          "unit_published_count": 58,
+          "subunit_published_count": 4,
+          "next_pending_node_id": "6.H.02"
+        }
       }
     },
     "next_pending_node_id": "6.H.02",
@@ -56413,198 +56697,162 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "6.H.04",
-      "title": "Drought and Dehydration Stress",
-      "slug": "drought-and-dehydration-stress.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/drought-and-dehydration-stress.html",
+      "node_id": "6.H.05",
+      "title": "Salinity and Ionic Stress",
+      "slug": "salinity-and-ionic-stress.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
       "unit": "06",
       "subunit": "6.H",
       "topic": "Stress Physiology",
       "date": "2026-11-27",
-      "status": "lesson_committed_pages_verification_pending",
-      "source_draft_branch": "draft/node-6h04-drought-dehydration-20261127",
-      "source_draft_commit_sha": "80aab1c8f3f50838bb6dcd3655d6791180544607",
-      "source_draft_blob_sha": "bcfdf6e366b1bf5fcdeb74a42810d20d1b50971f",
-      "production_blob_sha": "94c19f5f8ac779e4b417dd17ba70142afdc3fb24",
-      "publication_base_sha": "3294a2b0079140c88cc03a34017a81ce270db6f2",
+      "status": "internal_academic_qa_passed_static_checks_complete",
+      "source_draft_branch": "chapter/6-h-05-salinity-ionic-stress",
+      "source_draft_commit_sha": "71e7a105f39b05b234ecc151eca04b0b8e0fa6f5",
+      "source_draft_blob_sha": "9219594a9e77d43100a705dbe6dd150dbf88e65d",
+      "production_blob_sha": "af777993646725a3851650ecdfdc34cd766b0239",
+      "publication_base_sha": "b31ecf2b7ebff1635d29a9ed2dbfe622c6cf9493",
       "metrics": {
-        "teaching_words": 14405,
-        "teaching_paragraphs": 152,
-        "teaching_sections": 11,
-        "svg": 11,
-        "tables": 5,
-        "graphs": 1,
-        "questions": 55,
-        "part_b": 21,
-        "part_c": 23,
-        "other_questions": 11,
-        "answer_explanations": 55,
-        "misconceptions": 15,
+        "genuine_teaching_words": 14017,
+        "teaching_paragraphs": 134,
+        "teaching_sections": 16,
+        "scientific_svg_count": 12,
+        "graph_count": 3,
+        "table_count": 3,
+        "question_count": 52,
+        "part_b": 22,
+        "part_c": 24,
+        "other_questions": 6,
+        "answer_explanations": 52,
+        "misconceptions": 18,
         "active_recall": 12,
-        "references": 17
+        "references": 11
       },
-      "word_count_method": "Whitespace-delimited text in saved p.teaching-prose elements only; excludes headings, question/answer content, revision, tables, references and SVGs.",
-      "comparison": "6.F.05 verified 13,435 teaching words; current chapter independently counted 14,405.",
-      "coverage": "Official revised Joint CSIR–UGC–DBT NET 2026 Unit 6.H; legacy CSIR NET Unit 6.H and MP SET 2024 mirrored syllabus; repository node scope.",
+      "word_count_method": "Whitespace-separated tokens in p.teaching-prose after markup removal; excludes headings, questions, tables, figures, bibliography, revision, navigation and metadata.",
+      "comparison": "6.C.04 Amino Acid Biosynthesis and Carbon-Nitrogen Integration: 13,056 words under identical extraction; 6.H.05: 14,017 words.",
+      "coverage": "Osmotic and ionic phases; Na and Cl toxicity; potassium homeostasis; SOS signaling; HKT retrieval; NHX and proton gradients; osmolytes; halophyte strategies and salt glands; glycophytes; saline/sodic soils; Na/K data and iso-osmotic controls. Revised CSIR-UGC-DBT Unit 6.H and older CSIR/MP SET explicit salt stress.",
       "coverage_matrix": [
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Soil and atmospheric drought",
-          "section": "water-deficit",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Soil–atmosphere gradients; supply/demand distinction",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Water potential and hydraulic supply",
-          "section": "water-potential",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Ψ components, flux, VPD and numerical predictions",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Hydraulic and chemical signals",
-          "section": "signals",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "ABA origin, signal timing and controls",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "ABA/PYL/PP2C/SnRK2/SLAC1",
-          "section": "guard-cells",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Guard-cell electrical and osmotic mechanisms; mutant reasoning",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "DREB and transcriptional acclimation",
-          "section": "transcription",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "ABA-dependent and independent transcription; expression limitations",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Osmotic adjustment; compatible solutes",
-          "section": "osmotic-adjustment",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Passive concentration vs active accumulation; turgor and proline",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Root allocation; aquaporins; avoidance",
-          "section": "roots",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Root depth, conductance, regulated permeability and tradeoffs",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "LEA, dehydrins and desiccation tolerance",
-          "section": "protection",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Membrane/protein stabilization, seed vs vegetative tolerance",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Photosynthesis, growth and water-use efficiency",
-          "section": "carbon",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "Gas exchange, stomatal and nonstomatal limitation, WUE",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Recovery and hydraulic injury",
-          "section": "recovery",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "PLC, vulnerability curves and rewatering constraints",
-          "status": "covered"
-        },
-        {
-          "official_requirement": "Unit 6.H water deficit and physiological/molecular stress responses",
-          "microtopic": "Experimental measurement",
-          "section": "experiments",
-          "depth": "NET/SET undergraduate-to-postgraduate mechanism",
-          "experimental_analytical_exam_relevance": "RWC, osmotic potential, gas exchange, matched controls",
-          "status": "covered"
-        }
+        [
+          "Salinity and osmotic stress",
+          "Osmotic phase and water potential",
+          "quantitative water relations; iso-osmotic controls",
+          "covered"
+        ],
+        [
+          "Ionic toxicity",
+          "Ionic phase, Na+ and Cl−",
+          "time course and compartment comparisons",
+          "covered"
+        ],
+        [
+          "Potassium homeostasis",
+          "K+ competition and membrane potential",
+          "electrochemical calculations and Na/K ratios",
+          "covered"
+        ],
+        [
+          "SOS signaling",
+          "CBL4/CIPK24/SOS1",
+          "mutant and complementation inference",
+          "covered"
+        ],
+        [
+          "HKT transport",
+          "Xylem retrieval",
+          "tissue-specific transport and flux",
+          "covered"
+        ],
+        [
+          "NHX and proton gradients",
+          "Vacuole, NHX, proton pumps",
+          "pH gradient and vesicle reasoning",
+          "covered"
+        ],
+        [
+          "Osmotic adjustment",
+          "Compatible solutes",
+          "dilution, osmotic potential",
+          "covered"
+        ],
+        [
+          "Halophytes, glycophytes, glands",
+          "Adaptation and secretion",
+          "salt excretion and growth tradeoffs",
+          "covered"
+        ],
+        [
+          "Saline vs sodic soil",
+          "Soil EC, SAR, ESP",
+          "soil data classification and remediation principles",
+          "covered"
+        ],
+        [
+          "Experimental interpretation",
+          "Controls and quantitative reasoning",
+          "Na/K data, iso-osmotic comparisons, genotype effects, recovery",
+          "covered"
+        ]
       ],
       "review": {
-        "scientific": "Internal mechanism and source review; distinguish active adjustment, passive concentration, hydraulic vs chemical signaling and causation; original illustrative datasets identified; numerical checks repeated.",
-        "editorial": "Separate internal editorial pass: removed overlapping prose, improved headings, distractors, explanations, comparisons and revision; corrected guard-cell near-closed geometry; 152 unique paragraphs.",
-        "numerical_rechecks": {
-          "vanthoff": -0.4955144,
-          "rwc": 77.5,
-          "question_rwc": 60,
-          "flow": 1.6,
-          "VPD25": 1.585,
-          "VPD30": 2.12,
-          "transpiration": 4,
-          "nernst": -59,
-          "osmotic_delta": -0.081759876,
-          "plc": 70,
-          "assimilation": 21600,
-          "assimilation2": 16200,
-          "fvFm": 0.625
-        }
+        "scientific": "Reviewed selected syllabus and source records (Munns & Tester; Qiu et al.; Bassil et al.; wheat HKT Nax2; halophyte reviews; van Zelm et al.; FAO). Distinguished tissue-specific HKT and vacuolar K/pH roles of NHX from blanket sodium-exclusion claims. Recomputed osmotic potentials -0.4955144 and -0.2477572 MPa, Na inward free energy -17.283 kJ/mol, EK -118.253 mV, H+ chemical energy -11.40964 kJ/mol, mass ratio 2.00087, RWC 75%, leakage 20%, Fv/Fm .65, SAR 8, ESP 15 and efflux 6; reviewed answer logic and illustrative data labeling.",
+        "editorial": "Separate review of 16-section learning progression, 134 distinct teaching paragraphs, captions, question wording and explanations, revision resources and reader compatibility. Revised 26 question sets, distributed correct positions equally, retained reader controls, checked SVG/ARIA/anchor targets and improved zoom focus return."
       },
       "rubric": {
         "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
+        "syllabus_microtopic_coverage": 15,
+        "genuine_teaching_depth": 15,
         "pedagogical_quality": 9,
-        "illustrations": 9,
-        "questions_and_answers": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 5
+        "scientific_illustrations": 9,
+        "examination_questions_answers": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_architecture_accessibility": 4,
+        "technical_integrity_seo": 5
       },
       "score": 95,
       "threshold": 95,
-      "score_basis": "Internal assessment only. Deductions for limited independent source checking, conceptual revisiting, static-only figure review, uncalibrated original questions and untested runtime reader accessibility. Technical score based on validated HTML and coherent staged menu/sitemap/tree.",
+      "score_basis": "Internal evidence-based self-assessment; deductions for selective source verification, complexity of some passages, static-only figure inspection, some simpler distractors and lack of interactive/accessibility runtime testing. Not external peer review.",
       "static_checks": {
+        "teaching_words_pass": true,
+        "question_distribution_pass": true,
+        "answer_mapping_52_of_52": true,
+        "balanced_answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        },
+        "duplicate_prose": 0,
         "duplicate_ids": 0,
-        "duplicate_teaching_paragraphs": 0,
-        "unresolved_anchors": 0,
-        "unresolved_aria": 0,
-        "unresolved_zoom": 0,
-        "unresolved_prerequisite_links": 0,
-        "missing_answer_explanations": 0,
-        "answer_mapping_errors": 0,
-        "html_nesting_errors": 0,
-        "javascript_syntax": "compiled",
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/drought-and-dehydration-stress.html",
-        "placeholder_matches": 0,
-        "menu_sitemap_chapter_crosscheck": 305
+        "broken_local_anchors": 0,
+        "broken_zoom_targets": 0,
+        "broken_aria_labelledby": 0,
+        "html_tag_stack_errors": 0,
+        "javascript_syntax_pass": true,
+        "canonical_pass": true,
+        "production_blob_roundtrip_exact": true,
+        "existing_menu_links_preserved": 305,
+        "existing_sitemap_entries_preserved": true
       },
       "limitations": [
-        "No independent external peer review or exam calibration.",
-        "No live browser/mobile, keyboard runtime or assistive-technology test; static SVG and reader review only.",
-        "MP SET source is a 2024 mirrored syllabus; no claim of current MPPSC primary-host validation.",
-        "Deployment and HTTP/live content verification remain pending; references not exhaustively retested."
+        "Desktop/mobile interactive rendering, keyboard and screen-reader runtime not tested.",
+        "Selected source records and syllabus checked; exhaustive full-text source verification and independent peer review not performed. MP SET checked through reproduced 2024 PDF, latest official MPPSC copy not independently confirmed.",
+        "Pages deployment and live content must be verified separately."
       ],
       "navigation": {
-        "previous_node": "6.H.03",
-        "next_node": "6.H.05",
-        "dynamic_index_lookup": true,
-        "previous_link_available": false,
-        "next_link_available": false
+        "previous": "6.H.04",
+        "previous_active": true,
+        "next": "6.H.06",
+        "next_active": false,
+        "method": "Reader resolves adjacent published menu links dynamically; unpublished links stay disabled."
       },
       "publication": {
-        "academy_published": 305,
-        "unit_published": 56,
-        "subunit_published": 2,
-        "next_pending_node_id": "6.H.02",
-        "next_pending_subunit_node_id": "6.H.02",
-        "method": "Atomic git tree; non-force expected-head update"
+        "main_verified": false,
+        "pages_verified": false,
+        "live_verified": false,
+        "academy_published_count": 306,
+        "unit_published_count": 57,
+        "subunit_published_count": 3,
+        "next_pending_node_id": "6.H.02"
       }
     },
     "subunit_6b": {
@@ -56698,10 +56946,11 @@
     "subunit_6h": {
       "published_node_ids": [
         "6.H.01",
+        "6.H.03",
         "6.H.04",
         "6.H.05"
       ],
-      "published_node_count": 3,
+      "published_node_count": 4,
       "planned_node_count": 12,
       "complete": false
     }
@@ -56736,7 +56985,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/salinity-and-ionic-stress.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/oxidative-stress-and-cellular-protection.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -56773,6 +57022,7 @@
   "unit6g_planned_node_count": 10,
   "unit6h_published_node_ids": [
     "6.H.01",
+    "6.H.03",
     "6.H.04",
     "6.H.05"
   ],

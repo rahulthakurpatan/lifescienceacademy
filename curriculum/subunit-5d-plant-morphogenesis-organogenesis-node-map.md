@@ -11,7 +11,7 @@
 - **Narrative logic:** germinating plant's continuing organ formation → shoot apex organization → shoot architecture → root apex organization → root tissues/branches → leaf positioning → leaf shape and differentiated tissues → flowering signals → floral meristem identity → organ identity → Arabidopsis/Antirrhinum experimental evidence.
 - **Structural note:** Shoot and root modules are **parallel organ systems**, not a claim that shoot development must biologically finish before roots develop. Chapters are organized pedagogically from common meristem concepts to independent morphogenic applications and finally reproductive transition.
 - **Academic standard:** Complete MSc/CSIR NET/State SET conceptual depth with accessible continuous English, real experiment-to-mechanism reasoning, original diagrams and explained questions. No specialist PhD biology, obscure transcriptome inventories, detailed laboratory gene-editing methods or plant breeding protocols.
-- **Publication status:** These eleven nodes are **planned lesson titles and summaries**, not finished reading pages. Keep their menu entries nonclickable, with no invented lesson URLs or sitemap updates.
+- **Publication status:** The eleven node contracts define the learning sequence. Link only chapters recorded as published in the synchronized Academy checkpoint; keep remaining entries nonclickable.
 - **Overlap prevention:** Unit 5.B owns embryogenesis/seed germination and male/female gametophyte development; 5.A stem cell, induction and patterning principles; 5.E developmental death and aging; Unit 06 hormones, photoperiod receptors and detailed plant physiology; 4.A general receptor signaling; Unit 08 detailed gene inheritance. Teach only the **developmental function** of these mechanisms in 5.D.
 
 ## Eleven complete future textbook-page contracts
@@ -198,3 +198,9 @@
 - Developmental transition and floral meristem (Gilbert, NCBI): https://www.ncbi.nlm.nih.gov/books/NBK10122/
 - Classical floral ABC model and Antirrhinum/Arabidopsis context: https://pmc.ncbi.nlm.nih.gov/articles/PMC2735328/
 - Floral organ identity modern ABCE review: https://pmc.ncbi.nlm.nih.gov/articles/PMC11207604/
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.03 — Shoot Development: Stem Elongation, Nodes, Buds and Branching**: `shoot-development-stem-elongation-nodes-buds-and-branching.html`, academically reviewed and included in the publication tree. Pages deployment is verified separately.
+- Subunit 5.D: 1 / 11; Unit 05: 37 / 57. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.

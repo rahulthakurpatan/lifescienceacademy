@@ -130,3 +130,9 @@ MP SET 2024 syllabus: https://cdn-images.prepp.in/public/image/mp-set-paper-2-li
 
 - **5.A.07 — Morphogen Gradients, Positional Information and Pattern Formation**: chapter included in the publication tree at `morphogen-gradients-positional-information-and-pattern-formation.html`; live deployment must be checked separately.
 - Subunit 5.A: 7 / 11. Unit 05: 7 / 57. Next pending: 5.A.01 — Foundations of Development and Cell Potency.
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.D.03 — Shoot Development: Stem Elongation, Nodes, Buds and Branching**: chapter included in publication tree at `shoot-development-stem-elongation-nodes-buds-and-branching.html`; deployment requires separate verification.
+- Subunit 5.D: 1 / 11. Unit 05: 37 / 57. Next pending: 5.D.01 — Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth.

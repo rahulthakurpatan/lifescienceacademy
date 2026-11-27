@@ -131,3 +131,6 @@ No official topic is intentionally omitted. Examples are illustrative, not a cla
 
 - 6.G.03 — [Terpenoid Diversity and Biological Functions](https://rahulthakurpatan.github.io/lifescienceacademy/terpenoid-diversity-and-biological-functions.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.G: 1/10; next unpublished in this subunit: 6.G.01 — Foundations of Plant Specialized Metabolism.
+
+- 6.G.08 — [Other Nitrogenous Specialized Metabolites](https://rahulthakurpatan.github.io/lifescienceacademy/other-nitrogenous-specialized-metabolites.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.G: 3/10; next unpublished in this subunit: 6.G.01 — Foundations of Plant Specialized Metabolism.

@@ -154,3 +154,9 @@ All explicit syllabus requirements are mapped; representative stress examples do
 - 6.H.01 — [Foundations of Plant Stress Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-stress-physiology.html); internal academic QA 95/100, static checks passed; Pages/live verification pending.
 - Teaching prose: 14,074 words in 142 paragraphs; 13 SVGs, 6 tables and 52 explained questions (20 Part B, 26 Part C, 6 other).
 - Subunit 6.H: 1/12; Unit 06: 55/66; Academy: 304/723. Next unpublished: 6.H.02 — Stress Perception and Molecular Signaling.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.04 — [Drought and Dehydration Stress](https://rahulthakurpatan.github.io/lifescienceacademy/drought-and-dehydration-stress.html); internal academic QA 95/100; static audit completed; Pages/live verification pending.
+- Teaching prose: 14,405 words in 152 paragraphs; 11 original SVGs, 5 tables, 55 explained questions (21 Part B, 23 Part C, 11 other), 15 misconception checks and 12 recall prompts.
+- Subunit 6.H: 2/12; Unit 06: 56/66; Academy: 305/723. Next unpublished in subunit: 6.H.02 — Stress Perception and Molecular Signaling. Next global unpublished: 6.H.02 — Stress Perception and Molecular Signaling.

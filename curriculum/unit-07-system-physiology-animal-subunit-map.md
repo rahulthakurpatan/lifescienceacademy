@@ -182,3 +182,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.A.06 — [Blood Coagulation and Fibrinolysis](https://rahulthakurpatan.github.io/lifescienceacademy/blood-coagulation-and-fibrinolysis.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
 - Teaching prose: 14,176 words in 134 distinct paragraphs; 15 original scientific SVGs including 2 graphs; 6 tables; 55 explained questions (20 Part B, 25 Part C, 10 mixed NET/SET), 16 misconceptions, 12 active-recall prompts and 20 reference entries.
 - Subunit 7.A: 4/8; Unit 07: 4/90; Academy: 319/723. Next global pending: 7.A.03 — Erythrocytes and Haemoglobin.
+
+
+## Publication checkpoint — 2026-11-27
+
+- 7.A.05 — [Platelets and Primary Haemostasis](https://rahulthakurpatan.github.io/lifescienceacademy/platelets-and-primary-haemostasis.html); internal academic QA 95/100, static checks complete; Pages/live verification pending.
+- Teaching prose: 13,733 words in 147 paragraphs; 12 scientific SVGs, 2 plotted graphs, 4 tables, 54 explained questions (20 Part B, 28 Part C, 6 SET), 15 misconception checks, 12 recall prompts, 14 references.
+- Subunit 7.A: 5/8; Unit 07: 5/90; Academy: 320/723.
+- Next global unpublished: 7.A.03 — Erythrocytes and Haemoglobin.

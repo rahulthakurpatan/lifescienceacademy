@@ -148,3 +148,9 @@
 | Integrated local and systemic defenses | 6.H.12 |
 
 All explicit syllabus requirements are mapped; representative stress examples do not imply an exhaustive catalog of every possible environmental stress.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.01 — [Foundations of Plant Stress Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-stress-physiology.html); internal academic QA 95/100, static checks passed; Pages/live verification pending.
+- Teaching prose: 14,074 words in 142 paragraphs; 13 SVGs, 6 tables and 52 explained questions (20 Part B, 26 Part C, 6 other).
+- Subunit 6.H: 1/12; Unit 06: 55/66; Academy: 304/723. Next unpublished: 6.H.02 — Stress Perception and Molecular Signaling.

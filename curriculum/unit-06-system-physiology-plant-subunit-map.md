@@ -361,3 +361,9 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.D.07 — [Abscisic Acid: Seed Dormancy and Water-Stress Signaling](https://rahulthakurpatan.github.io/lifescienceacademy/abscisic-acid-seed-dormancy-and-water-stress-signaling.html); internal content and anchor review completed; Pages verification pending.
 - Teaching prose: 9068 words; 10 SVGs and 45 explained questions.
 - Subunit 6.D: 9/10; Unit 06: 52/66; Academy: 301/723. Next unpublished in 6.D: 6.D.05 — Brassinosteroids (subject to concurrent publication).
+
+## Publication checkpoint — 2026-11-27
+
+- 6.H.01 — [Foundations of Plant Stress Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-stress-physiology.html); internal academic QA 95/100, static checks passed; Pages/live verification pending.
+- Teaching prose: 14,074 words in 142 paragraphs; 13 SVGs, 6 tables and 52 explained questions (20 Part B, 26 Part C, 6 other).
+- Subunit 6.H: 1/12; Unit 06: 55/66; Academy: 304/723. Next unpublished: 6.H.02 — Stress Perception and Molecular Signaling.

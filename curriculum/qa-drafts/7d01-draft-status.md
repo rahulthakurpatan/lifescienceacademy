@@ -1,3 +1,3 @@
 # 7.D.01 isolated draft
 
-Status: academically incomplete. Do not merge. Saved teaching prose: 13052 words, 18 sections. Scope expanded to include nerve histology, tracing, mass balance and integrated predictions. 13 reference entries. Remaining: diagrams, practice, revision, separate academic/editorial reviews, saved HTML audit and production integration. Official CSIR syllabi checked; MP SET direct official verification pending. Oversized academy progress checkpoint inaccessible through connector. No production changes.
+Status: academically incomplete. Do not merge. 13,052 teaching words, 137 paragraphs, 18 teaching sections; 12 original SVGs (2 plotted graphs), 5 tables, 13 reference entries. Remaining: examination practice, misconceptions, revision, separate reviews, final saved HTML audit, integration. Official CSIR syllabi checked; direct official MP SET verification pending. Progress checkpoint inaccessible through connector. No production changes.

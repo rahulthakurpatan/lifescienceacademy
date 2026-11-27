@@ -4,16 +4,16 @@
   "unit": "05",
   "status": "lesson_committed_pages_verification_pending",
   "published": true,
-  "node_id": "5.D.10",
-  "title": "Floral Organogenesis: Whorls, ABC/ABCE Identity and Genetic Control",
+  "node_id": "5.D.07",
+  "title": "Leaf Development: Polarity, Lamina Growth and Tissue Differentiation",
   "subunit": "5.D",
   "topic": "Morphogenesis and Organogenesis in Plants",
-  "slug": "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+  "slug": "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
   "next_pending_node_id": "5.D.01",
   "next_pending_node_title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth",
-  "published_node_count": 237,
+  "published_node_count": 238,
   "publication_allowed": true,
-  "main_baseline_sha": "43191eb4731250c9409672d506713410ecd9f527",
+  "main_baseline_sha": "97197372ac4bfa2c1f8bad0061bf66c83fb2b2b8",
   "quality_hold": false,
   "next_required_action": "Verify GitHub Pages deployment and live chapter; continue with 5.D.01",
   "planned_node_count": 57,
@@ -22,36 +22,38 @@
   "curriculum_roadmap": "curriculum/unit-05-developmental-biology-subunit-map.md",
   "next_topic_roadmap": "curriculum/subunit-5d-plant-morphogenesis-organogenesis-node-map.md",
   "last_qa": {
-    "node_id": "5.D.10",
-    "title": "Floral Organogenesis: Whorls, ABC/ABCE Identity and Genetic Control",
-    "slug": "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+    "node_id": "5.D.07",
+    "title": "Leaf Development: Polarity, Lamina Growth and Tissue Differentiation",
+    "slug": "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
     "unit": "05",
     "subunit": "5.D",
+    "topic": "Morphogenesis and Organogenesis in Plants",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
-    "source_draft_branch": "draft/5.D.10-floral-organogenesis",
-    "source_draft_commit_sha": "0226d71119d2e61934d4372df01417704b8a6e93",
+    "source_draft_branch": "draft/node-5d07-leaf-development",
+    "source_draft_commit_sha": "6ff7cc11669bdd91218d55c7932d0f6f28bd27c5",
     "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
-    "publication_base_sha": "43191eb4731250c9409672d506713410ecd9f527",
-    "production_chapter_blob_sha": "03bf5bf413e442045d4e4ba651dc82eb5804443c",
+    "publication_base_sha": "97197372ac4bfa2c1f8bad0061bf66c83fb2b2b8",
+    "source_draft_blob_sha": "775b2d285bb29c42bc643ad15792c332be60d0bb",
+    "production_chapter_blob_sha": "dada101a891439cdf58837b784c03175430e41b6",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 14101,
-      "total_visible_article_words": 19378,
-      "teaching_paragraphs": 142,
-      "html_bytes": 221043,
-      "theory_sections": 19,
-      "svg": 14,
-      "tables": 4,
+      "genuine_teaching_words": 13436,
+      "total_visible_article_words": 20669,
+      "teaching_paragraphs": 138,
+      "html_bytes": 214683,
+      "theory_sections": 11,
+      "svg": 11,
+      "tables": 3,
       "worked_examples": 6,
-      "part_b": 20,
-      "part_c": 25,
-      "other_questions": 7,
+      "part_b": 22,
+      "part_c": 24,
+      "other_questions": 6,
       "total_questions": 52,
-      "references": 25,
-      "misconceptions": 18,
-      "active_recall": 18,
+      "references": 26,
+      "misconceptions": 15,
+      "active_recall": 12,
       "answer_positions": {
         "A": 13,
         "B": 13,
@@ -59,136 +61,98 @@
         "D": 13
       }
     },
-    "word_count_method": "Count whitespace-delimited words from saved p.teaching-prose only, stripping markup/entities. Excludes headings, questions, answers, tables, SVGs/captions, revision and references. Visible article count excludes SVG and zoom buttons.",
+    "word_count_method": "Whitespace-delimited visible text of saved p.teaching-prose; article total excludes SVG text, includes expandable answers. No exact repeated teaching paragraphs.",
     "coverage_matrix": {
-      "floral_primordia_and_whorls": "foundations, initiation, staging, organ-structure",
-      "history_and_homeosis": "history, abc",
-      "abc_and_loss_gain": "abc, mutants, genetic-inference",
-      "AP1_AP2_AP3_PI_AG": "genes, spatial-regulation, feedback, determinacy",
-      "ABCE_SEP_and_D": "abce, ovules-model",
-      "MADS_and_quartets": "quartets, molecular-tests",
-      "identity_vs_growth_and_gametogenesis": "organ-structure, evidence, ovules-model",
-      "comparative_scope": "comparative; detailed Antirrhinum mutant comparisons reserved for 5.D.11",
-      "quantitative_and_exam": "quantitative, worked, part-b, part-c, mixed"
+      "Primordium, three axes": "1–2",
+      "Classical experiments, PHAN, HD-ZIP III": "3–4",
+      "REV, KANADI, miR165/166, AS1/AS2": "4",
+      "Middle domain, WOX1/PRS, lamina and margins": "5",
+      "Division, expansion and growth physics": "6",
+      "Simple and compound leaves": "7",
+      "Epidermis and representative stomatal lineage": "8",
+      "Mesophyll": "9",
+      "Vein differentiation, auxin canalization and model limits": "10",
+      "Maturation, heteroblasty": "11"
     },
     "dimensions": {
-      "A": "foundations and initiation",
-      "B": "history, staging, abce, quartets",
-      "C": "organ-structure, genes, quartets",
-      "D": "abc, mutants, spatial-regulation, determinacy",
-      "E": "molecular-tests and feedback; binding thermodynamics and growth mechanics, no fabricated biochemical constants",
-      "F": "spatial-regulation, feedback, determinacy",
-      "G": "quantitative and worked examples",
-      "H": "staging, molecular-tests, evidence, genetic-inference",
-      "I": "organ-structure, feedback, comparative",
-      "J": "comparative and model limits",
-      "K": "mutants, genetic-inference, abce",
-      "L": "mutants, ovules-model, comparative",
-      "M": "comparative applications; clinical applications not applicable",
-      "N": "initiation, organ-structure, ovules-model, revision",
-      "O": "quantitative, worked and 52 original questions"
+      "A": "Foundations",
+      "B": "Classical surgery and genetic evidence",
+      "C": "Regulators, small RNAs and tissue structure",
+      "D": "Domain and differentiation mechanisms",
+      "E": "Wall yield, turgor and expansion; no invented energetics",
+      "F": "Mutual restriction and growth regulation",
+      "G": "Cell count, RGR, index, expansion and compensation",
+      "H": "Experimental controls and labeled hypothetical datasets",
+      "I": "Organ and tissue functions",
+      "J": "Arabidopsis, Antirrhinum and maize comparisons",
+      "K": "Mutants and target resistance",
+      "L": "Species variability, redundancy and model limitations",
+      "M": "Crop relevance within scope",
+      "N": "Phyllotaxy and flowering connections",
+      "O": "52 explained questions and graph reasoning"
     },
-    "review_pass_1": "Internal scientific/syllabus review: verified revised and separate CSIR Unit 5.D pages and mirrored MP SET p.4; checked selected primary and review records for ABC, SEP redundancy, D function, AP2/miR172, AP3/PI, SUP boundary, LFY/WUS/AG/KNU and MADS complexes. Distinguished idealized A/C antagonism from real named-gene alleles and ag reiteration; separated whorl identity from nested ovule identity, proliferation, fertility, and reporter activity. Independently recomputed six examples and quantitative questions.",
-    "review_pass_2": "Internal teaching/examination review: reordered 19 sections for progression, added anatomical diagram, explicit misconception cause/exam cue, graph dataset, section-level evidence, glossary and recall; checked 52 answers against options and 13 of each answer position. Saved-text comparator 5.D.02 contains 13,733 teaching words and 120 paragraphs; zero exact paragraph overlap. Reviewed draft reader architecture, tag nesting, unique IDs, anchors, SVG descriptions and zoom targets; JS copied from established reader with neighbor strings corrected.",
+    "review_pass_1": "Internal scientific/syllabus review: all eleven sections, mutant directionality, regional identity versus growth, cell lineage and vein model limits. Separate and merged CSIR official syllabi and MP SET 2024 mirror checked. Recomputed examples: 200000/100000 cells; RGR .27465/.17329; stomatal index 20%, density 200→100; marker/width comparison; wall .018→.012 h⁻¹; area 60/48/60 mm²; graph .34657 vs .20273 day⁻¹. No all-full-text claim.",
+    "review_pass_2": "Internal teaching and exam audit compared 138 paragraphs and 13,436 words with published embryogenesis exemplar (141 paragraphs, 14,085 words); audited question answers and positions, improved distractors, graph exercise, link and figure placement. No external review.",
     "quality": {
-      "syllabus_microtopic_completeness": 20,
-      "scientific_mechanistic_accuracy": 24,
-      "teaching_depth_progression": 19,
-      "experimental_quantitative_reasoning": 14,
-      "examination_practice": 9,
+      "type": "Internal two-pass editorial assessment; not external expert peer review",
+      "syllabus": 19,
+      "scientific_accuracy": 24,
+      "teaching_depth": 19,
+      "experimental_quantitative": 15,
+      "exam_practice": 9,
       "technical_accessibility": 9,
       "total": 95,
       "threshold": 95,
-      "assessment": "Internal editorial judgment, not external expert peer review.",
-      "deductions": [
-        "Selected primary records and reviews rather than exhaustive full-text verification; simplified classical model with caveats.",
-        "Some necessary conceptual recurrence in evidence and interpretation.",
-        "Illustrative hypothetical datasets and binding parameters, not experimental measurements.",
-        "Original question difficulty not externally calibrated; some straightforward Part B distractors.",
-        "Static markup and reader architecture checks only; no independent browser or assistive-technology test."
-      ]
+      "deductions": "MP SET 2024 mirror checked, latest official MPPSC-hosted source not confirmed (-1); selected papers checked via abstracts/reviews rather than all full texts (-1); limited introductory restatement (-1); some foundational distractors simpler and not psychometrically calibrated (-1); static reader and SVG checks without interactive browser audit (-1)."
     },
     "validation": {
-      "exact_duplicate_teaching_paragraphs": 0,
-      "duplicate_ids": 0,
-      "broken_internal_anchors": 0,
-      "broken_aria_targets": 0,
-      "broken_zoom_targets": 0,
-      "accessible_svg": 14,
-      "zoom_controls": 14,
-      "tag_stack_errors": 0,
-      "answer_key_mismatches": 0,
-      "reader_runtime": "not independently exercised",
-      "comparator": "5.D.02, 13733 teaching words, 120 paragraphs; no exact paragraph overlap",
-      "math_checks": {
-        "penetrance": 0.75,
-        "expressivity": 0.6,
-        "rescue": 0.75,
-        "binding": [
-          0.75,
-          0.5
-        ],
-        "relative_binding_reduction": 0.3333333333333333,
-        "segregation": [
-          0.5625,
-          0.4375
-        ],
-        "reporter_ratio": 16,
-        "area_mm2": [
-          0.2,
-          0.2
-        ],
-        "question_checks": [
-          90,
-          0.75,
-          0.75,
-          0.75,
-          0.75,
-          0.3,
-          0.3
-        ]
-      }
+      "unique_ids": true,
+      "internal_anchors": true,
+      "aria_references": true,
+      "zoom_targets": true,
+      "svg_titles_descriptions": true,
+      "duplicate_teaching_paragraphs": 0,
+      "explanations": 52,
+      "reader_controls": "Preserved existing shell; static checks only",
+      "sitemap_unique": true,
+      "actual_files_and_menu_baseline": true,
+      "conditional_non_force_ref": true,
+      "live_verified": false
     },
     "limitations": [
-      "Current MPPSC primary-host syllabus not independently verified; archived 2024 copy used.",
-      "Selected primary abstracts and reviews, not exhaustive full-text verification or external peer review.",
-      "Hypothetical teaching datasets explicitly identified.",
-      "No independent interactive browser, mobile, screen-reader or separate script-parser test; static reader checks only.",
-      "Pages deployment and live verification are separate."
+      "No interactive browser or external peer review.",
+      "Current official MPPSC-hosted SET syllabus not confirmed; 2024 mirror used.",
+      "Some references checked via abstracts/reviews; Waites-Hudson link corrected to Edinburgh repository landing page.",
+      "Numerical datasets hypothetical; no psychometric testing."
     ],
-    "navigation": {
-      "previous": {
-        "id": "5.D.09",
-        "published": true,
-        "file": "inflorescence-and-floral-meristems-identity-position-and-determinacy.html",
-        "reciprocal_reference": true
-      },
-      "next": {
-        "id": "5.D.11",
-        "published": true,
-        "file": "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
-        "reciprocal_reference": true
-      },
-      "mechanism": "Existing dynamic homepage resolver; absent immediate neighbors disabled, published neighbors resolve via menu."
-    },
     "progress": {
-      "academy": 237,
-      "unit_05": 45,
-      "subunit_5d": 9,
-      "next_pending_node_id": "5.D.01",
-      "next_pending_node_title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+      "academy": 238,
+      "unit_05": 46,
+      "subunit_5d": 10,
+      "next_pending": {
+        "id": "5.D.01",
+        "title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+      }
+    },
+    "navigation": {
+      "5.D.06": {
+        "published": true,
+        "file": "leaf-primordium-initiation-and-phyllotaxy-at-the-shoot-apex.html",
+        "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+      },
+      "5.D.08": {
+        "published": true,
+        "file": "vegetative-to-reproductive-transition-developmental-timing-of-flowering.html",
+        "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+      }
     },
     "changed_files": [
-      "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+      "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/node-5d10-publication-qa.json"
-    ],
-    "publication": {
-      "method": "One tree/commit, conditional non-force main ref update",
-      "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
-    }
+      "curriculum/node-5d07-publication-qa.json"
+    ]
   },
   "published_node_ids": [
     "1.A.01",
@@ -424,44 +388,43 @@
     "5.D.04",
     "5.D.05",
     "5.D.06",
+    "5.D.07",
     "5.D.08",
     "5.D.09",
     "5.D.10",
     "5.D.11"
   ],
   "prior_publication_qa": {
-    "node_id": "5.D.11",
-    "title": "Arabidopsis and Antirrhinum: Floral Mutants and Comparative Development",
+    "node_id": "5.D.10",
+    "title": "Floral Organogenesis: Whorls, ABC/ABCE Identity and Genetic Control",
+    "slug": "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
     "unit": "05",
     "subunit": "5.D",
-    "topic": "Morphogenesis and Organogenesis in Plants",
-    "slug": "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
+    "source_draft_branch": "draft/5.D.10-floral-organogenesis",
+    "source_draft_commit_sha": "0226d71119d2e61934d4372df01417704b8a6e93",
     "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
-    "publication_base_sha": "c9f5a311413b528f3f8158f4ecd5bd356c82526f",
-    "source_draft_branch": "draft/5.D.11-floral-mutants-comparative-development",
-    "source_draft_commit_sha": "ee9dc4b8865763bd27557c5bbb9695bb52ba12c0",
-    "source_draft_blob_sha": "61891622456fbbfb71ee131151d69dfeb2c0a685",
-    "production_chapter_blob_sha": "f4c0a2fe71e5de2d7df3e3dbb31d291f1d24a17a",
+    "publication_base_sha": "43191eb4731250c9409672d506713410ecd9f527",
+    "production_chapter_blob_sha": "03bf5bf413e442045d4e4ba651dc82eb5804443c",
     "production_robots": "index,follow",
     "metrics": {
-      "genuine_teaching_words": 14449,
-      "total_visible_article_words": 20453,
-      "teaching_paragraphs": 138,
-      "html_bytes": 227305,
-      "theory_sections": 17,
+      "genuine_teaching_words": 14101,
+      "total_visible_article_words": 19378,
+      "teaching_paragraphs": 142,
+      "html_bytes": 221043,
+      "theory_sections": 19,
       "svg": 14,
       "tables": 4,
-      "worked_examples": 5,
+      "worked_examples": 6,
       "part_b": 20,
-      "part_c": 20,
-      "other_questions": 12,
+      "part_c": 25,
+      "other_questions": 7,
       "total_questions": 52,
-      "references": 28,
+      "references": 25,
       "misconceptions": 18,
-      "active_recall": 12,
+      "active_recall": 18,
       "answer_positions": {
         "A": 13,
         "B": 13,
@@ -469,316 +432,305 @@
         "D": 13
       }
     },
-    "word_count_method": "Actual saved whitespace-delimited p.teaching-prose text only. Visible article count excludes SVG internals.",
-    "scope": {
-      "merged": "Official CSIR–UGC–DBT 2026 Unit 5.D p.6 verified",
-      "separate": "Official CSIR LS 2026 Unit 5.D p.4 verified",
-      "set": "MP SET 2024 p.4 verified from third-party hosted syllabus copy",
-      "roadmap": "curriculum/subunit-5d-plant-morphogenesis-organogenesis-node-map.md",
-      "boundaries": "5.D.09–10 meristem/introductory ABC, 5.B gametogenesis, Unit 06 physiology; no specialist protocols."
-    },
+    "word_count_method": "Count whitespace-delimited words from saved p.teaching-prose only, stripping markup/entities. Excludes headings, questions, answers, tables, SVGs/captions, revision and references. Visible article count excludes SVG and zoom buttons.",
     "coverage_matrix": {
-      "models": "1–2",
-      "history": "3",
-      "AP1_AP2": "4",
-      "AP3_PI": "5",
-      "AG_determinacy": "6",
-      "SEP": "7",
-      "complexes": "8",
-      "DEF_GLO": "9",
-      "PLE_FAR": "10",
-      "evolution": "11",
-      "genetics": "12–13",
-      "experiments": "14–15",
-      "quantitative": "16",
-      "integration": "17"
+      "floral_primordia_and_whorls": "foundations, initiation, staging, organ-structure",
+      "history_and_homeosis": "history, abc",
+      "abc_and_loss_gain": "abc, mutants, genetic-inference",
+      "AP1_AP2_AP3_PI_AG": "genes, spatial-regulation, feedback, determinacy",
+      "ABCE_SEP_and_D": "abce, ovules-model",
+      "MADS_and_quartets": "quartets, molecular-tests",
+      "identity_vs_growth_and_gametogenesis": "organ-structure, evidence, ovules-model",
+      "comparative_scope": "comparative; detailed Antirrhinum mutant comparisons reserved for 5.D.11",
+      "quantitative_and_exam": "quantitative, worked, part-b, part-c, mixed"
     },
     "dimensions": {
-      "A": "definitions, whorls and identity",
-      "B": "historical mutant evidence",
-      "C": "MADS and AP2 structure/function",
-      "D": "homeotic mechanisms",
-      "E": "association equilibrium and physical constraints",
-      "F": "feedback, expression boundaries, termination",
-      "G": "Mendelian ratios, penetrance, affinity, thresholds, rescue and chi-square",
-      "H": "screen, complementation, expression, EMSA, rescue",
-      "I": "cell fate to fertility",
-      "J": "comparative development and duplication",
-      "K": "loss, gain, conditional mutants",
-      "L": "allelic and species exceptions",
-      "M": "research and ornamental applications",
-      "N": "cross-unit integration",
-      "O": "52 explained questions"
+      "A": "foundations and initiation",
+      "B": "history, staging, abce, quartets",
+      "C": "organ-structure, genes, quartets",
+      "D": "abc, mutants, spatial-regulation, determinacy",
+      "E": "molecular-tests and feedback; binding thermodynamics and growth mechanics, no fabricated biochemical constants",
+      "F": "spatial-regulation, feedback, determinacy",
+      "G": "quantitative and worked examples",
+      "H": "staging, molecular-tests, evidence, genetic-inference",
+      "I": "organ-structure, feedback, comparative",
+      "J": "comparative and model limits",
+      "K": "mutants, genetic-inference, abce",
+      "L": "mutants, ovules-model, comparative",
+      "M": "comparative applications; clinical applications not applicable",
+      "N": "initiation, organ-structure, ovules-model, revision",
+      "O": "quantitative, worked and 52 original questions"
     },
-    "review_pass_1": {
-      "type": "Internal scientific and syllabus audit",
-      "outcome": "Passed",
-      "checks": [
-        "Confirmed official syllabus and roadmap; all assigned microtopics",
-        "Verified mutant phenotypes, B heterodimers, AP2 exception, AG/KNU/WUS, SEP redundancy and nonorthology of AG/PLE",
-        "Recomputed five worked examples; hypothetical datasets clearly identified",
-        "Added primary and review sources to support historical and mechanistic claims"
-      ]
-    },
-    "review_pass_2": {
-      "type": "Separate internal teaching, examination and technical audit",
-      "outcome": "Passed",
-      "checks": [
-        "Progressive teaching text 14449 words across 138 unique paragraphs",
-        "52 question keys matched actual options and balanced positions; no identical stems",
-        "14 accessible original illustrations; 18 traps and 12 recall prompts",
-        "Compared against saved 5.C.12 chapter (14249 teaching words,162 paragraphs)",
-        "Script parsed; IDs, anchors, ARIA and zoom targets checked; reader preserves immediate-neighbor convention"
-      ]
-    },
+    "review_pass_1": "Internal scientific/syllabus review: verified revised and separate CSIR Unit 5.D pages and mirrored MP SET p.4; checked selected primary and review records for ABC, SEP redundancy, D function, AP2/miR172, AP3/PI, SUP boundary, LFY/WUS/AG/KNU and MADS complexes. Distinguished idealized A/C antagonism from real named-gene alleles and ag reiteration; separated whorl identity from nested ovule identity, proliferation, fertility, and reporter activity. Independently recomputed six examples and quantitative questions.",
+    "review_pass_2": "Internal teaching/examination review: reordered 19 sections for progression, added anatomical diagram, explicit misconception cause/exam cue, graph dataset, section-level evidence, glossary and recall; checked 52 answers against options and 13 of each answer position. Saved-text comparator 5.D.02 contains 13,733 teaching words and 120 paragraphs; zero exact paragraph overlap. Reviewed draft reader architecture, tag nesting, unique IDs, anchors, SVG descriptions and zoom targets; JS copied from established reader with neighbor strings corrected.",
     "quality": {
-      "syllabus_and_microtopics": 20,
-      "scientific_and_mechanistic_accuracy": 24,
-      "teaching_depth_and_progression": 19,
-      "experimental_and_quantitative_reasoning": 14,
-      "examination_practice": 10,
-      "technical_and_accessibility": 9,
-      "total": 96,
+      "syllabus_microtopic_completeness": 20,
+      "scientific_mechanistic_accuracy": 24,
+      "teaching_depth_progression": 19,
+      "experimental_quantitative_reasoning": 14,
+      "examination_practice": 9,
+      "technical_accessibility": 9,
+      "total": 95,
       "threshold": 95,
-      "method": "Internal rubric, not external expert review",
+      "assessment": "Internal editorial judgment, not external expert peer review.",
       "deductions": [
-        "Some primary studies checked through abstracts/reviews rather than full text",
-        "Schematic identity diagrams rather than detailed anatomy",
-        "Numerical datasets hypothetical, not original empirical data",
-        "Interactive browser not independently executed"
+        "Selected primary records and reviews rather than exhaustive full-text verification; simplified classical model with caveats.",
+        "Some necessary conceptual recurrence in evidence and interpretation.",
+        "Illustrative hypothetical datasets and binding parameters, not experimental measurements.",
+        "Original question difficulty not externally calibrated; some straightforward Part B distractors.",
+        "Static markup and reader architecture checks only; no independent browser or assistive-technology test."
       ]
     },
     "validation": {
+      "exact_duplicate_teaching_paragraphs": 0,
       "duplicate_ids": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "duplicate_question_stems": 0,
-      "broken_anchors": [],
-      "broken_zoom_targets": [],
-      "broken_aria": [],
-      "answer_key_mismatches": [],
-      "checked_answer_keys": 52,
+      "broken_internal_anchors": 0,
+      "broken_aria_targets": 0,
+      "broken_zoom_targets": 0,
       "accessible_svg": 14,
-      "script_syntax": "parsed",
-      "interactive_browser": "not independently tested",
-      "independently_recomputed": {
-        "normal": 90,
-        "mutant": 70,
-        "redundancy": 0.0625,
-        "penetrance": 0.6,
-        "position_fraction": 0.15,
-        "bound_before": 0.75,
-        "bound_after": 0.5,
-        "recovery": 0.75,
-        "normal_fraction": 0.8,
-        "chi_square": 1.0666666666666667
+      "zoom_controls": 14,
+      "tag_stack_errors": 0,
+      "answer_key_mismatches": 0,
+      "reader_runtime": "not independently exercised",
+      "comparator": "5.D.02, 13733 teaching words, 120 paragraphs; no exact paragraph overlap",
+      "math_checks": {
+        "penetrance": 0.75,
+        "expressivity": 0.6,
+        "rescue": 0.75,
+        "binding": [
+          0.75,
+          0.5
+        ],
+        "relative_binding_reduction": 0.3333333333333333,
+        "segregation": [
+          0.5625,
+          0.4375
+        ],
+        "reporter_ratio": 16,
+        "area_mm2": [
+          0.2,
+          0.2
+        ],
+        "question_checks": [
+          90,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.3,
+          0.3
+        ]
       }
     },
+    "limitations": [
+      "Current MPPSC primary-host syllabus not independently verified; archived 2024 copy used.",
+      "Selected primary abstracts and reviews, not exhaustive full-text verification or external peer review.",
+      "Hypothetical teaching datasets explicitly identified.",
+      "No independent interactive browser, mobile, screen-reader or separate script-parser test; static reader checks only.",
+      "Pages deployment and live verification are separate."
+    ],
     "navigation": {
-      "previous": "5.D.10",
-      "next": "5.E.01",
-      "previous_published": false,
-      "next_published": false,
-      "mechanism": "Resolves immediate published links through homepage; disabled until available; existing published neighbors checked for reciprocal target references."
+      "previous": {
+        "id": "5.D.09",
+        "published": true,
+        "file": "inflorescence-and-floral-meristems-identity-position-and-determinacy.html",
+        "reciprocal_reference": true
+      },
+      "next": {
+        "id": "5.D.11",
+        "published": true,
+        "file": "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
+        "reciprocal_reference": true
+      },
+      "mechanism": "Existing dynamic homepage resolver; absent immediate neighbors disabled, published neighbors resolve via menu."
     },
     "progress": {
-      "subunit_published": 7,
-      "subunit_planned": 11,
-      "unit_published": 43,
-      "unit_planned": 57,
-      "academy_published": 235,
-      "academy_planned": 723,
+      "academy": 237,
+      "unit_05": 45,
+      "subunit_5d": 9,
       "next_pending_node_id": "5.D.01",
       "next_pending_node_title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
     },
-    "limitations": [
-      "MP SET document third-party hosted",
-      "Some articles verified via abstracts/reviews",
-      "No external expert peer review or interactive browser testing; Pages pending"
-    ],
     "changed_files": [
-      "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
+      "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/subunit-5d-plant-morphogenesis-organogenesis-node-map.md",
-      "curriculum/unit-05-developmental-biology-subunit-map.md",
-      "curriculum/node-5d11-publication-qa.json"
-    ]
+      "curriculum/node-5d10-publication-qa.json"
+    ],
+    "publication": {
+      "method": "One tree/commit, conditional non-force main ref update",
+      "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
+    }
   },
   "previous_last_qa": {
-    "node_id": "5.D.05",
-    "title": "Root Development: Tissue Differentiation, Root Hairs and Lateral Roots",
-    "slug": "root-development-tissue-differentiation-root-hairs-and-lateral-roots.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/root-development-tissue-differentiation-root-hairs-and-lateral-roots.html",
+    "node_id": "5.D.10",
+    "title": "Floral Organogenesis: Whorls, ABC/ABCE Identity and Genetic Control",
+    "slug": "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
     "unit": "05",
     "subunit": "5.D",
     "date": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
+    "source_draft_branch": "draft/5.D.10-floral-organogenesis",
+    "source_draft_commit_sha": "0226d71119d2e61934d4372df01417704b8a6e93",
     "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
-    "publication_base_sha": "fab27b41597fae344bcf47304fddd180ae527acc",
-    "source_draft_branch": "draft/5-d-05-root-development",
-    "source_draft_commit_sha": "5b43fad186d4badbce2b930a7fa4fc072eda877f",
-    "production_chapter_blob_sha": "3731219e448661befa0e6b03cc86f2893f1b1364",
+    "publication_base_sha": "43191eb4731250c9409672d506713410ecd9f527",
+    "production_chapter_blob_sha": "03bf5bf413e442045d4e4ba651dc82eb5804443c",
     "production_robots": "index,follow",
     "metrics": {
-      "teaching_words": 13959,
-      "visible_article_words": 19738,
-      "teaching_paragraphs": 138,
-      "html_bytes": 202785,
-      "theory_sections": 12,
-      "svg": 12,
-      "tables": 2,
-      "worked_examples": 8,
+      "genuine_teaching_words": 14101,
+      "total_visible_article_words": 19378,
+      "teaching_paragraphs": 142,
+      "html_bytes": 221043,
+      "theory_sections": 19,
+      "svg": 14,
+      "tables": 4,
+      "worked_examples": 6,
       "part_b": 20,
       "part_c": 25,
-      "other_questions": 5,
-      "total_questions": 50,
-      "references": 19,
-      "misconceptions": 20,
-      "active_recall": 15,
+      "other_questions": 7,
+      "total_questions": 52,
+      "references": 25,
+      "misconceptions": 18,
+      "active_recall": 18,
       "answer_positions": {
         "A": 13,
-        "B": 12,
-        "C": 12,
+        "B": 13,
+        "C": 13,
         "D": 13
       }
     },
-    "word_count_method": "Unicode letter/number words in p.teaching-prose only; excludes headings, diagrams, captions, questions, answers, tables, revision and references.",
+    "word_count_method": "Count whitespace-delimited words from saved p.teaching-prose only, stripping markup/entities. Excludes headings, questions, answers, tables, SVGs/captions, revision and references. Visible article count excludes SVG and zoom buttons.",
     "coverage_matrix": {
-      "root_origin": "1",
-      "growth_zones_cap": "2",
-      "radial_tissue_and_formative_divisions": "3",
-      "epidermal_position_WER_CPC_GL2": "4",
-      "hair_initiation_tip_growth_RHD2_RSL4": "5",
-      "prospective_sites_auxin": "6",
-      "founder_cells_primordium_IAA14_ARF_LBD": "7",
-      "LAX3_emergence": "8",
-      "environment_and_comparison": "9",
-      "quantitative_experimental": "10–12"
+      "floral_primordia_and_whorls": "foundations, initiation, staging, organ-structure",
+      "history_and_homeosis": "history, abc",
+      "abc_and_loss_gain": "abc, mutants, genetic-inference",
+      "AP1_AP2_AP3_PI_AG": "genes, spatial-regulation, feedback, determinacy",
+      "ABCE_SEP_and_D": "abce, ovules-model",
+      "MADS_and_quartets": "quartets, molecular-tests",
+      "identity_vs_growth_and_gametogenesis": "organ-structure, evidence, ovules-model",
+      "comparative_scope": "comparative; detailed Antirrhinum mutant comparisons reserved for 5.D.11",
+      "quantitative_and_exam": "quantitative, worked, part-b, part-c, mixed"
     },
     "dimensions": {
-      "A": "1–3",
-      "B": "2–8",
-      "C": "3–5",
-      "D": "2–8",
-      "E": "2,5,10",
-      "F": "4–9",
-      "G": "10–12, eight examples",
-      "H": "3–8,11–12",
-      "I": "1–9",
-      "J": "9",
-      "K": "4–8,11",
-      "L": "2–9",
-      "M": "9,12; medical applications not applicable",
-      "N": "1,3,9,12",
-      "O": "50 original questions and eight examples"
+      "A": "foundations and initiation",
+      "B": "history, staging, abce, quartets",
+      "C": "organ-structure, genes, quartets",
+      "D": "abc, mutants, spatial-regulation, determinacy",
+      "E": "molecular-tests and feedback; binding thermodynamics and growth mechanics, no fabricated biochemical constants",
+      "F": "spatial-regulation, feedback, determinacy",
+      "G": "quantitative and worked examples",
+      "H": "staging, molecular-tests, evidence, genetic-inference",
+      "I": "organ-structure, feedback, comparative",
+      "J": "comparative and model limits",
+      "K": "mutants, genetic-inference, abce",
+      "L": "mutants, ovules-model, comparative",
+      "M": "comparative applications; clinical applications not applicable",
+      "N": "initiation, organ-structure, ovules-model, revision",
+      "O": "quantitative, worked and 52 original questions"
     },
-    "review_pass_1": "Internal scientific and syllabus review: revised and separate national syllabi plus archived MP SET 2024 syllabus; roadmap coverage, formative divisions, cap, vascular differentiation, positional fate, hair polarity, auxin-mediated lateral root initiation and emergence, numerical recomputation.",
-    "review_pass_2": "Internal teaching and exam review: revised distractors, graph questions, references, cap and vascular differentiation and diagram. Compared 5.A.08 (14,170 teaching words); no exact paragraph overlap in comparison before final additions. Re-fetched final saved draft and audited counts, answer positions and markup.",
+    "review_pass_1": "Internal scientific/syllabus review: verified revised and separate CSIR Unit 5.D pages and mirrored MP SET p.4; checked selected primary and review records for ABC, SEP redundancy, D function, AP2/miR172, AP3/PI, SUP boundary, LFY/WUS/AG/KNU and MADS complexes. Distinguished idealized A/C antagonism from real named-gene alleles and ag reiteration; separated whorl identity from nested ovule identity, proliferation, fertility, and reporter activity. Independently recomputed six examples and quantitative questions.",
+    "review_pass_2": "Internal teaching/examination review: reordered 19 sections for progression, added anatomical diagram, explicit misconception cause/exam cue, graph dataset, section-level evidence, glossary and recall; checked 52 answers against options and 13 of each answer position. Saved-text comparator 5.D.02 contains 13,733 teaching words and 120 paragraphs; zero exact paragraph overlap. Reviewed draft reader architecture, tag nesting, unique IDs, anchors, SVG descriptions and zoom targets; JS copied from established reader with neighbor strings corrected.",
     "quality": {
-      "type": "Internal assessment, not external expert review",
-      "syllabus": 20,
-      "scientific_accuracy": 24,
-      "teaching_depth": 19,
-      "experimental_quantitative": 14,
-      "exam_practice": 9,
+      "syllabus_microtopic_completeness": 20,
+      "scientific_mechanistic_accuracy": 24,
+      "teaching_depth_progression": 19,
+      "experimental_quantitative_reasoning": 14,
+      "examination_practice": 9,
       "technical_accessibility": 9,
       "total": 95,
       "threshold": 95,
-      "deductions": "Selective accessible primary evidence, some conceptual recurrence, illustrative models, uncalibrated assessment, static rather than interactive accessibility testing."
-    },
-    "validation": {
-      "duplicate_ids": 0,
-      "duplicate_teaching_paragraphs": 0,
-      "broken_anchors": [],
-      "broken_zoom_targets": [],
-      "broken_aria": [],
-      "answer_mismatches": 0,
-      "tag_nesting": "passed",
-      "script_syntax": "parsed",
-      "interactive_browser": "not independently tested",
-      "comparator": "5.A.08"
-    },
-    "math_checks": {
-      "production": [
-        2,
-        1,
-        2,
-        1.5,
-        2,
-        2
-      ],
-      "relative_expansion": 0.2027325540540822,
-      "densities": [
-        2,
-        3,
-        2,
-        3
-      ],
-      "emergence": [
-        0.75,
-        0.25,
-        0.75,
-        0.25
-      ],
-      "spacing": [
-        1.2,
-        0.6,
-        1.5,
-        1
-      ],
-      "hair_density": [
-        6,
-        8,
-        6.25,
-        12.5
-      ],
-      "area_mm2": 0.62831853,
-      "ratio": 0.4,
-      "local_gradient": [
-        0.2,
-        0.2
-      ],
-      "integrated_growth": [
-        240,
-        240
+      "assessment": "Internal editorial judgment, not external expert peer review.",
+      "deductions": [
+        "Selected primary records and reviews rather than exhaustive full-text verification; simplified classical model with caveats.",
+        "Some necessary conceptual recurrence in evidence and interpretation.",
+        "Illustrative hypothetical datasets and binding parameters, not experimental measurements.",
+        "Original question difficulty not externally calibrated; some straightforward Part B distractors.",
+        "Static markup and reader architecture checks only; no independent browser or assistive-technology test."
       ]
     },
-    "navigation": {
-      "5.D.04": {
-        "published": true,
-        "resolution": "Dynamic menu link resolution"
-      },
-      "5.D.06": {
-        "published": true,
-        "resolution": "Dynamic menu link resolution"
-      }
-    },
-    "progress": {
-      "academy": 236,
-      "unit_05": 44,
-      "subunit_5d": 8,
-      "next_pending": {
-        "id": "5.D.01",
-        "title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+    "validation": {
+      "exact_duplicate_teaching_paragraphs": 0,
+      "duplicate_ids": 0,
+      "broken_internal_anchors": 0,
+      "broken_aria_targets": 0,
+      "broken_zoom_targets": 0,
+      "accessible_svg": 14,
+      "zoom_controls": 14,
+      "tag_stack_errors": 0,
+      "answer_key_mismatches": 0,
+      "reader_runtime": "not independently exercised",
+      "comparator": "5.D.02, 13733 teaching words, 120 paragraphs; no exact paragraph overlap",
+      "math_checks": {
+        "penetrance": 0.75,
+        "expressivity": 0.6,
+        "rescue": 0.75,
+        "binding": [
+          0.75,
+          0.5
+        ],
+        "relative_binding_reduction": 0.3333333333333333,
+        "segregation": [
+          0.5625,
+          0.4375
+        ],
+        "reporter_ratio": 16,
+        "area_mm2": [
+          0.2,
+          0.2
+        ],
+        "question_checks": [
+          90,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.3,
+          0.3
+        ]
       }
     },
     "limitations": [
-      "MP SET 2024 archived mirror; commission-hosted latest version not independently verified.",
-      "No external peer review or empirically calibrated questions.",
-      "Selected accessible sources, illustrative datasets.",
-      "Interactive browser and screen-reader checks not independently performed.",
-      "Pages verification pending."
+      "Current MPPSC primary-host syllabus not independently verified; archived 2024 copy used.",
+      "Selected primary abstracts and reviews, not exhaustive full-text verification or external peer review.",
+      "Hypothetical teaching datasets explicitly identified.",
+      "No independent interactive browser, mobile, screen-reader or separate script-parser test; static reader checks only.",
+      "Pages deployment and live verification are separate."
     ],
+    "navigation": {
+      "previous": {
+        "id": "5.D.09",
+        "published": true,
+        "file": "inflorescence-and-floral-meristems-identity-position-and-determinacy.html",
+        "reciprocal_reference": true
+      },
+      "next": {
+        "id": "5.D.11",
+        "published": true,
+        "file": "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
+        "reciprocal_reference": true
+      },
+      "mechanism": "Existing dynamic homepage resolver; absent immediate neighbors disabled, published neighbors resolve via menu."
+    },
+    "progress": {
+      "academy": 237,
+      "unit_05": 45,
+      "subunit_5d": 9,
+      "next_pending_node_id": "5.D.01",
+      "next_pending_node_title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+    },
     "changed_files": [
-      "root-development-tissue-differentiation-root-hairs-and-lateral-roots.html",
+      "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
       "index.html",
       "sitemap.xml",
       "curriculum/academy-progress.json",
-      "curriculum/node-5d05-publication-qa.json",
-      "curriculum/subunit-5d-plant-morphogenesis-organogenesis-node-map.md",
-      "curriculum/unit-05-developmental-biology-subunit-map.md"
-    ]
+      "curriculum/node-5d10-publication-qa.json"
+    ],
+    "publication": {
+      "method": "One tree/commit, conditional non-force main ref update",
+      "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
+    }
   },
   "unit_02": {
     "published_node_ids": [
@@ -31571,6 +31523,139 @@
         "method": "One tree/commit, conditional non-force main ref update",
         "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
       }
+    },
+    "5.D.07": {
+      "node_id": "5.D.07",
+      "title": "Leaf Development: Polarity, Lamina Growth and Tissue Differentiation",
+      "slug": "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+      "unit": "05",
+      "subunit": "5.D",
+      "topic": "Morphogenesis and Organogenesis in Plants",
+      "date": "2026-11-27",
+      "status": "lesson_committed_pages_verification_pending",
+      "source_draft_branch": "draft/node-5d07-leaf-development",
+      "source_draft_commit_sha": "6ff7cc11669bdd91218d55c7932d0f6f28bd27c5",
+      "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
+      "publication_base_sha": "97197372ac4bfa2c1f8bad0061bf66c83fb2b2b8",
+      "source_draft_blob_sha": "775b2d285bb29c42bc643ad15792c332be60d0bb",
+      "production_chapter_blob_sha": "dada101a891439cdf58837b784c03175430e41b6",
+      "production_robots": "index,follow",
+      "metrics": {
+        "genuine_teaching_words": 13436,
+        "total_visible_article_words": 20669,
+        "teaching_paragraphs": 138,
+        "html_bytes": 214683,
+        "theory_sections": 11,
+        "svg": 11,
+        "tables": 3,
+        "worked_examples": 6,
+        "part_b": 22,
+        "part_c": 24,
+        "other_questions": 6,
+        "total_questions": 52,
+        "references": 26,
+        "misconceptions": 15,
+        "active_recall": 12,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 13,
+          "D": 13
+        }
+      },
+      "word_count_method": "Whitespace-delimited visible text of saved p.teaching-prose; article total excludes SVG text, includes expandable answers. No exact repeated teaching paragraphs.",
+      "coverage_matrix": {
+        "Primordium, three axes": "1–2",
+        "Classical experiments, PHAN, HD-ZIP III": "3–4",
+        "REV, KANADI, miR165/166, AS1/AS2": "4",
+        "Middle domain, WOX1/PRS, lamina and margins": "5",
+        "Division, expansion and growth physics": "6",
+        "Simple and compound leaves": "7",
+        "Epidermis and representative stomatal lineage": "8",
+        "Mesophyll": "9",
+        "Vein differentiation, auxin canalization and model limits": "10",
+        "Maturation, heteroblasty": "11"
+      },
+      "dimensions": {
+        "A": "Foundations",
+        "B": "Classical surgery and genetic evidence",
+        "C": "Regulators, small RNAs and tissue structure",
+        "D": "Domain and differentiation mechanisms",
+        "E": "Wall yield, turgor and expansion; no invented energetics",
+        "F": "Mutual restriction and growth regulation",
+        "G": "Cell count, RGR, index, expansion and compensation",
+        "H": "Experimental controls and labeled hypothetical datasets",
+        "I": "Organ and tissue functions",
+        "J": "Arabidopsis, Antirrhinum and maize comparisons",
+        "K": "Mutants and target resistance",
+        "L": "Species variability, redundancy and model limitations",
+        "M": "Crop relevance within scope",
+        "N": "Phyllotaxy and flowering connections",
+        "O": "52 explained questions and graph reasoning"
+      },
+      "review_pass_1": "Internal scientific/syllabus review: all eleven sections, mutant directionality, regional identity versus growth, cell lineage and vein model limits. Separate and merged CSIR official syllabi and MP SET 2024 mirror checked. Recomputed examples: 200000/100000 cells; RGR .27465/.17329; stomatal index 20%, density 200→100; marker/width comparison; wall .018→.012 h⁻¹; area 60/48/60 mm²; graph .34657 vs .20273 day⁻¹. No all-full-text claim.",
+      "review_pass_2": "Internal teaching and exam audit compared 138 paragraphs and 13,436 words with published embryogenesis exemplar (141 paragraphs, 14,085 words); audited question answers and positions, improved distractors, graph exercise, link and figure placement. No external review.",
+      "quality": {
+        "type": "Internal two-pass editorial assessment; not external expert peer review",
+        "syllabus": 19,
+        "scientific_accuracy": 24,
+        "teaching_depth": 19,
+        "experimental_quantitative": 15,
+        "exam_practice": 9,
+        "technical_accessibility": 9,
+        "total": 95,
+        "threshold": 95,
+        "deductions": "MP SET 2024 mirror checked, latest official MPPSC-hosted source not confirmed (-1); selected papers checked via abstracts/reviews rather than all full texts (-1); limited introductory restatement (-1); some foundational distractors simpler and not psychometrically calibrated (-1); static reader and SVG checks without interactive browser audit (-1)."
+      },
+      "validation": {
+        "unique_ids": true,
+        "internal_anchors": true,
+        "aria_references": true,
+        "zoom_targets": true,
+        "svg_titles_descriptions": true,
+        "duplicate_teaching_paragraphs": 0,
+        "explanations": 52,
+        "reader_controls": "Preserved existing shell; static checks only",
+        "sitemap_unique": true,
+        "actual_files_and_menu_baseline": true,
+        "conditional_non_force_ref": true,
+        "live_verified": false
+      },
+      "limitations": [
+        "No interactive browser or external peer review.",
+        "Current official MPPSC-hosted SET syllabus not confirmed; 2024 mirror used.",
+        "Some references checked via abstracts/reviews; Waites-Hudson link corrected to Edinburgh repository landing page.",
+        "Numerical datasets hypothetical; no psychometric testing."
+      ],
+      "progress": {
+        "academy": 238,
+        "unit_05": 46,
+        "subunit_5d": 10,
+        "next_pending": {
+          "id": "5.D.01",
+          "title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+        }
+      },
+      "navigation": {
+        "5.D.06": {
+          "published": true,
+          "file": "leaf-primordium-initiation-and-phyllotaxy-at-the-shoot-apex.html",
+          "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+        },
+        "5.D.08": {
+          "published": true,
+          "file": "vegetative-to-reproductive-transition-developmental-timing-of-flowering.html",
+          "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+        }
+      },
+      "changed_files": [
+        "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+        "index.html",
+        "sitemap.xml",
+        "curriculum/academy-progress.json",
+        "curriculum/node-5d07-publication-qa.json"
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -31625,6 +31710,7 @@
     "5.D.04",
     "5.D.05",
     "5.D.06",
+    "5.D.07",
     "5.D.08",
     "5.D.09",
     "5.D.10",
@@ -31676,47 +31762,50 @@
       "5.D.04",
       "5.D.05",
       "5.D.06",
+      "5.D.07",
       "5.D.08",
       "5.D.09",
       "5.D.10",
       "5.D.11"
     ],
-    "published_node_count": 45,
+    "published_node_count": 46,
     "planned_node_count": 57,
-    "last_published_node_id": "5.D.10",
+    "last_published_node_id": "5.D.07",
     "updated_at": "2026-11-27",
     "status": "lesson_committed_pages_verification_pending",
     "last_qa": {
-      "node_id": "5.D.10",
-      "title": "Floral Organogenesis: Whorls, ABC/ABCE Identity and Genetic Control",
-      "slug": "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+      "node_id": "5.D.07",
+      "title": "Leaf Development: Polarity, Lamina Growth and Tissue Differentiation",
+      "slug": "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
       "unit": "05",
       "subunit": "5.D",
+      "topic": "Morphogenesis and Organogenesis in Plants",
       "date": "2026-11-27",
       "status": "lesson_committed_pages_verification_pending",
-      "source_draft_branch": "draft/5.D.10-floral-organogenesis",
-      "source_draft_commit_sha": "0226d71119d2e61934d4372df01417704b8a6e93",
+      "source_draft_branch": "draft/node-5d07-leaf-development",
+      "source_draft_commit_sha": "6ff7cc11669bdd91218d55c7932d0f6f28bd27c5",
       "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
-      "publication_base_sha": "43191eb4731250c9409672d506713410ecd9f527",
-      "production_chapter_blob_sha": "03bf5bf413e442045d4e4ba651dc82eb5804443c",
+      "publication_base_sha": "97197372ac4bfa2c1f8bad0061bf66c83fb2b2b8",
+      "source_draft_blob_sha": "775b2d285bb29c42bc643ad15792c332be60d0bb",
+      "production_chapter_blob_sha": "dada101a891439cdf58837b784c03175430e41b6",
       "production_robots": "index,follow",
       "metrics": {
-        "genuine_teaching_words": 14101,
-        "total_visible_article_words": 19378,
-        "teaching_paragraphs": 142,
-        "html_bytes": 221043,
-        "theory_sections": 19,
-        "svg": 14,
-        "tables": 4,
+        "genuine_teaching_words": 13436,
+        "total_visible_article_words": 20669,
+        "teaching_paragraphs": 138,
+        "html_bytes": 214683,
+        "theory_sections": 11,
+        "svg": 11,
+        "tables": 3,
         "worked_examples": 6,
-        "part_b": 20,
-        "part_c": 25,
-        "other_questions": 7,
+        "part_b": 22,
+        "part_c": 24,
+        "other_questions": 6,
         "total_questions": 52,
-        "references": 25,
-        "misconceptions": 18,
-        "active_recall": 18,
+        "references": 26,
+        "misconceptions": 15,
+        "active_recall": 12,
         "answer_positions": {
           "A": 13,
           "B": 13,
@@ -31724,136 +31813,98 @@
           "D": 13
         }
       },
-      "word_count_method": "Count whitespace-delimited words from saved p.teaching-prose only, stripping markup/entities. Excludes headings, questions, answers, tables, SVGs/captions, revision and references. Visible article count excludes SVG and zoom buttons.",
+      "word_count_method": "Whitespace-delimited visible text of saved p.teaching-prose; article total excludes SVG text, includes expandable answers. No exact repeated teaching paragraphs.",
       "coverage_matrix": {
-        "floral_primordia_and_whorls": "foundations, initiation, staging, organ-structure",
-        "history_and_homeosis": "history, abc",
-        "abc_and_loss_gain": "abc, mutants, genetic-inference",
-        "AP1_AP2_AP3_PI_AG": "genes, spatial-regulation, feedback, determinacy",
-        "ABCE_SEP_and_D": "abce, ovules-model",
-        "MADS_and_quartets": "quartets, molecular-tests",
-        "identity_vs_growth_and_gametogenesis": "organ-structure, evidence, ovules-model",
-        "comparative_scope": "comparative; detailed Antirrhinum mutant comparisons reserved for 5.D.11",
-        "quantitative_and_exam": "quantitative, worked, part-b, part-c, mixed"
+        "Primordium, three axes": "1–2",
+        "Classical experiments, PHAN, HD-ZIP III": "3–4",
+        "REV, KANADI, miR165/166, AS1/AS2": "4",
+        "Middle domain, WOX1/PRS, lamina and margins": "5",
+        "Division, expansion and growth physics": "6",
+        "Simple and compound leaves": "7",
+        "Epidermis and representative stomatal lineage": "8",
+        "Mesophyll": "9",
+        "Vein differentiation, auxin canalization and model limits": "10",
+        "Maturation, heteroblasty": "11"
       },
       "dimensions": {
-        "A": "foundations and initiation",
-        "B": "history, staging, abce, quartets",
-        "C": "organ-structure, genes, quartets",
-        "D": "abc, mutants, spatial-regulation, determinacy",
-        "E": "molecular-tests and feedback; binding thermodynamics and growth mechanics, no fabricated biochemical constants",
-        "F": "spatial-regulation, feedback, determinacy",
-        "G": "quantitative and worked examples",
-        "H": "staging, molecular-tests, evidence, genetic-inference",
-        "I": "organ-structure, feedback, comparative",
-        "J": "comparative and model limits",
-        "K": "mutants, genetic-inference, abce",
-        "L": "mutants, ovules-model, comparative",
-        "M": "comparative applications; clinical applications not applicable",
-        "N": "initiation, organ-structure, ovules-model, revision",
-        "O": "quantitative, worked and 52 original questions"
+        "A": "Foundations",
+        "B": "Classical surgery and genetic evidence",
+        "C": "Regulators, small RNAs and tissue structure",
+        "D": "Domain and differentiation mechanisms",
+        "E": "Wall yield, turgor and expansion; no invented energetics",
+        "F": "Mutual restriction and growth regulation",
+        "G": "Cell count, RGR, index, expansion and compensation",
+        "H": "Experimental controls and labeled hypothetical datasets",
+        "I": "Organ and tissue functions",
+        "J": "Arabidopsis, Antirrhinum and maize comparisons",
+        "K": "Mutants and target resistance",
+        "L": "Species variability, redundancy and model limitations",
+        "M": "Crop relevance within scope",
+        "N": "Phyllotaxy and flowering connections",
+        "O": "52 explained questions and graph reasoning"
       },
-      "review_pass_1": "Internal scientific/syllabus review: verified revised and separate CSIR Unit 5.D pages and mirrored MP SET p.4; checked selected primary and review records for ABC, SEP redundancy, D function, AP2/miR172, AP3/PI, SUP boundary, LFY/WUS/AG/KNU and MADS complexes. Distinguished idealized A/C antagonism from real named-gene alleles and ag reiteration; separated whorl identity from nested ovule identity, proliferation, fertility, and reporter activity. Independently recomputed six examples and quantitative questions.",
-      "review_pass_2": "Internal teaching/examination review: reordered 19 sections for progression, added anatomical diagram, explicit misconception cause/exam cue, graph dataset, section-level evidence, glossary and recall; checked 52 answers against options and 13 of each answer position. Saved-text comparator 5.D.02 contains 13,733 teaching words and 120 paragraphs; zero exact paragraph overlap. Reviewed draft reader architecture, tag nesting, unique IDs, anchors, SVG descriptions and zoom targets; JS copied from established reader with neighbor strings corrected.",
+      "review_pass_1": "Internal scientific/syllabus review: all eleven sections, mutant directionality, regional identity versus growth, cell lineage and vein model limits. Separate and merged CSIR official syllabi and MP SET 2024 mirror checked. Recomputed examples: 200000/100000 cells; RGR .27465/.17329; stomatal index 20%, density 200→100; marker/width comparison; wall .018→.012 h⁻¹; area 60/48/60 mm²; graph .34657 vs .20273 day⁻¹. No all-full-text claim.",
+      "review_pass_2": "Internal teaching and exam audit compared 138 paragraphs and 13,436 words with published embryogenesis exemplar (141 paragraphs, 14,085 words); audited question answers and positions, improved distractors, graph exercise, link and figure placement. No external review.",
       "quality": {
-        "syllabus_microtopic_completeness": 20,
-        "scientific_mechanistic_accuracy": 24,
-        "teaching_depth_progression": 19,
-        "experimental_quantitative_reasoning": 14,
-        "examination_practice": 9,
+        "type": "Internal two-pass editorial assessment; not external expert peer review",
+        "syllabus": 19,
+        "scientific_accuracy": 24,
+        "teaching_depth": 19,
+        "experimental_quantitative": 15,
+        "exam_practice": 9,
         "technical_accessibility": 9,
         "total": 95,
         "threshold": 95,
-        "assessment": "Internal editorial judgment, not external expert peer review.",
-        "deductions": [
-          "Selected primary records and reviews rather than exhaustive full-text verification; simplified classical model with caveats.",
-          "Some necessary conceptual recurrence in evidence and interpretation.",
-          "Illustrative hypothetical datasets and binding parameters, not experimental measurements.",
-          "Original question difficulty not externally calibrated; some straightforward Part B distractors.",
-          "Static markup and reader architecture checks only; no independent browser or assistive-technology test."
-        ]
+        "deductions": "MP SET 2024 mirror checked, latest official MPPSC-hosted source not confirmed (-1); selected papers checked via abstracts/reviews rather than all full texts (-1); limited introductory restatement (-1); some foundational distractors simpler and not psychometrically calibrated (-1); static reader and SVG checks without interactive browser audit (-1)."
       },
       "validation": {
-        "exact_duplicate_teaching_paragraphs": 0,
-        "duplicate_ids": 0,
-        "broken_internal_anchors": 0,
-        "broken_aria_targets": 0,
-        "broken_zoom_targets": 0,
-        "accessible_svg": 14,
-        "zoom_controls": 14,
-        "tag_stack_errors": 0,
-        "answer_key_mismatches": 0,
-        "reader_runtime": "not independently exercised",
-        "comparator": "5.D.02, 13733 teaching words, 120 paragraphs; no exact paragraph overlap",
-        "math_checks": {
-          "penetrance": 0.75,
-          "expressivity": 0.6,
-          "rescue": 0.75,
-          "binding": [
-            0.75,
-            0.5
-          ],
-          "relative_binding_reduction": 0.3333333333333333,
-          "segregation": [
-            0.5625,
-            0.4375
-          ],
-          "reporter_ratio": 16,
-          "area_mm2": [
-            0.2,
-            0.2
-          ],
-          "question_checks": [
-            90,
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.3,
-            0.3
-          ]
-        }
+        "unique_ids": true,
+        "internal_anchors": true,
+        "aria_references": true,
+        "zoom_targets": true,
+        "svg_titles_descriptions": true,
+        "duplicate_teaching_paragraphs": 0,
+        "explanations": 52,
+        "reader_controls": "Preserved existing shell; static checks only",
+        "sitemap_unique": true,
+        "actual_files_and_menu_baseline": true,
+        "conditional_non_force_ref": true,
+        "live_verified": false
       },
       "limitations": [
-        "Current MPPSC primary-host syllabus not independently verified; archived 2024 copy used.",
-        "Selected primary abstracts and reviews, not exhaustive full-text verification or external peer review.",
-        "Hypothetical teaching datasets explicitly identified.",
-        "No independent interactive browser, mobile, screen-reader or separate script-parser test; static reader checks only.",
-        "Pages deployment and live verification are separate."
+        "No interactive browser or external peer review.",
+        "Current official MPPSC-hosted SET syllabus not confirmed; 2024 mirror used.",
+        "Some references checked via abstracts/reviews; Waites-Hudson link corrected to Edinburgh repository landing page.",
+        "Numerical datasets hypothetical; no psychometric testing."
       ],
-      "navigation": {
-        "previous": {
-          "id": "5.D.09",
-          "published": true,
-          "file": "inflorescence-and-floral-meristems-identity-position-and-determinacy.html",
-          "reciprocal_reference": true
-        },
-        "next": {
-          "id": "5.D.11",
-          "published": true,
-          "file": "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
-          "reciprocal_reference": true
-        },
-        "mechanism": "Existing dynamic homepage resolver; absent immediate neighbors disabled, published neighbors resolve via menu."
-      },
       "progress": {
-        "academy": 237,
-        "unit_05": 45,
-        "subunit_5d": 9,
-        "next_pending_node_id": "5.D.01",
-        "next_pending_node_title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+        "academy": 238,
+        "unit_05": 46,
+        "subunit_5d": 10,
+        "next_pending": {
+          "id": "5.D.01",
+          "title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+        }
+      },
+      "navigation": {
+        "5.D.06": {
+          "published": true,
+          "file": "leaf-primordium-initiation-and-phyllotaxy-at-the-shoot-apex.html",
+          "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+        },
+        "5.D.08": {
+          "published": true,
+          "file": "vegetative-to-reproductive-transition-developmental-timing-of-flowering.html",
+          "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+        }
       },
       "changed_files": [
-        "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+        "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
-        "curriculum/node-5d10-publication-qa.json"
-      ],
-      "publication": {
-        "method": "One tree/commit, conditional non-force main ref update",
-        "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
-      }
+        "curriculum/node-5d07-publication-qa.json"
+      ]
     },
     "qa_by_node": {
       "5.A.02": {
@@ -37899,6 +37950,139 @@
           "method": "One tree/commit, conditional non-force main ref update",
           "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
         }
+      },
+      "5.D.07": {
+        "node_id": "5.D.07",
+        "title": "Leaf Development: Polarity, Lamina Growth and Tissue Differentiation",
+        "slug": "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+        "url": "https://rahulthakurpatan.github.io/lifescienceacademy/leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+        "unit": "05",
+        "subunit": "5.D",
+        "topic": "Morphogenesis and Organogenesis in Plants",
+        "date": "2026-11-27",
+        "status": "lesson_committed_pages_verification_pending",
+        "source_draft_branch": "draft/node-5d07-leaf-development",
+        "source_draft_commit_sha": "6ff7cc11669bdd91218d55c7932d0f6f28bd27c5",
+        "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
+        "publication_base_sha": "97197372ac4bfa2c1f8bad0061bf66c83fb2b2b8",
+        "source_draft_blob_sha": "775b2d285bb29c42bc643ad15792c332be60d0bb",
+        "production_chapter_blob_sha": "dada101a891439cdf58837b784c03175430e41b6",
+        "production_robots": "index,follow",
+        "metrics": {
+          "genuine_teaching_words": 13436,
+          "total_visible_article_words": 20669,
+          "teaching_paragraphs": 138,
+          "html_bytes": 214683,
+          "theory_sections": 11,
+          "svg": 11,
+          "tables": 3,
+          "worked_examples": 6,
+          "part_b": 22,
+          "part_c": 24,
+          "other_questions": 6,
+          "total_questions": 52,
+          "references": 26,
+          "misconceptions": 15,
+          "active_recall": 12,
+          "answer_positions": {
+            "A": 13,
+            "B": 13,
+            "C": 13,
+            "D": 13
+          }
+        },
+        "word_count_method": "Whitespace-delimited visible text of saved p.teaching-prose; article total excludes SVG text, includes expandable answers. No exact repeated teaching paragraphs.",
+        "coverage_matrix": {
+          "Primordium, three axes": "1–2",
+          "Classical experiments, PHAN, HD-ZIP III": "3–4",
+          "REV, KANADI, miR165/166, AS1/AS2": "4",
+          "Middle domain, WOX1/PRS, lamina and margins": "5",
+          "Division, expansion and growth physics": "6",
+          "Simple and compound leaves": "7",
+          "Epidermis and representative stomatal lineage": "8",
+          "Mesophyll": "9",
+          "Vein differentiation, auxin canalization and model limits": "10",
+          "Maturation, heteroblasty": "11"
+        },
+        "dimensions": {
+          "A": "Foundations",
+          "B": "Classical surgery and genetic evidence",
+          "C": "Regulators, small RNAs and tissue structure",
+          "D": "Domain and differentiation mechanisms",
+          "E": "Wall yield, turgor and expansion; no invented energetics",
+          "F": "Mutual restriction and growth regulation",
+          "G": "Cell count, RGR, index, expansion and compensation",
+          "H": "Experimental controls and labeled hypothetical datasets",
+          "I": "Organ and tissue functions",
+          "J": "Arabidopsis, Antirrhinum and maize comparisons",
+          "K": "Mutants and target resistance",
+          "L": "Species variability, redundancy and model limitations",
+          "M": "Crop relevance within scope",
+          "N": "Phyllotaxy and flowering connections",
+          "O": "52 explained questions and graph reasoning"
+        },
+        "review_pass_1": "Internal scientific/syllabus review: all eleven sections, mutant directionality, regional identity versus growth, cell lineage and vein model limits. Separate and merged CSIR official syllabi and MP SET 2024 mirror checked. Recomputed examples: 200000/100000 cells; RGR .27465/.17329; stomatal index 20%, density 200→100; marker/width comparison; wall .018→.012 h⁻¹; area 60/48/60 mm²; graph .34657 vs .20273 day⁻¹. No all-full-text claim.",
+        "review_pass_2": "Internal teaching and exam audit compared 138 paragraphs and 13,436 words with published embryogenesis exemplar (141 paragraphs, 14,085 words); audited question answers and positions, improved distractors, graph exercise, link and figure placement. No external review.",
+        "quality": {
+          "type": "Internal two-pass editorial assessment; not external expert peer review",
+          "syllabus": 19,
+          "scientific_accuracy": 24,
+          "teaching_depth": 19,
+          "experimental_quantitative": 15,
+          "exam_practice": 9,
+          "technical_accessibility": 9,
+          "total": 95,
+          "threshold": 95,
+          "deductions": "MP SET 2024 mirror checked, latest official MPPSC-hosted source not confirmed (-1); selected papers checked via abstracts/reviews rather than all full texts (-1); limited introductory restatement (-1); some foundational distractors simpler and not psychometrically calibrated (-1); static reader and SVG checks without interactive browser audit (-1)."
+        },
+        "validation": {
+          "unique_ids": true,
+          "internal_anchors": true,
+          "aria_references": true,
+          "zoom_targets": true,
+          "svg_titles_descriptions": true,
+          "duplicate_teaching_paragraphs": 0,
+          "explanations": 52,
+          "reader_controls": "Preserved existing shell; static checks only",
+          "sitemap_unique": true,
+          "actual_files_and_menu_baseline": true,
+          "conditional_non_force_ref": true,
+          "live_verified": false
+        },
+        "limitations": [
+          "No interactive browser or external peer review.",
+          "Current official MPPSC-hosted SET syllabus not confirmed; 2024 mirror used.",
+          "Some references checked via abstracts/reviews; Waites-Hudson link corrected to Edinburgh repository landing page.",
+          "Numerical datasets hypothetical; no psychometric testing."
+        ],
+        "progress": {
+          "academy": 238,
+          "unit_05": 46,
+          "subunit_5d": 10,
+          "next_pending": {
+            "id": "5.D.01",
+            "title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+          }
+        },
+        "navigation": {
+          "5.D.06": {
+            "published": true,
+            "file": "leaf-primordium-initiation-and-phyllotaxy-at-the-shoot-apex.html",
+            "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+          },
+          "5.D.08": {
+            "published": true,
+            "file": "vegetative-to-reproductive-transition-developmental-timing-of-flowering.html",
+            "resolution": "Existing dynamic index lookup verified statically; no rewrite needed"
+          }
+        },
+        "changed_files": [
+          "leaf-development-polarity-lamina-growth-and-tissue-differentiation.html",
+          "index.html",
+          "sitemap.xml",
+          "curriculum/academy-progress.json",
+          "curriculum/node-5d07-publication-qa.json"
+        ]
       }
     },
     "next_pending_node_id": "5.D.01",
@@ -37968,12 +38152,13 @@
         "5.D.04",
         "5.D.05",
         "5.D.06",
+        "5.D.07",
         "5.D.08",
         "5.D.09",
         "5.D.10",
         "5.D.11"
       ],
-      "published_node_count": 9,
+      "published_node_count": 10,
       "planned_node_count": 11,
       "complete": false
     },
@@ -37984,179 +38169,173 @@
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "5.D.05",
-      "title": "Root Development: Tissue Differentiation, Root Hairs and Lateral Roots",
-      "slug": "root-development-tissue-differentiation-root-hairs-and-lateral-roots.html",
-      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/root-development-tissue-differentiation-root-hairs-and-lateral-roots.html",
+      "node_id": "5.D.10",
+      "title": "Floral Organogenesis: Whorls, ABC/ABCE Identity and Genetic Control",
+      "slug": "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
+      "url": "https://rahulthakurpatan.github.io/lifescienceacademy/floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
       "unit": "05",
       "subunit": "5.D",
       "date": "2026-11-27",
       "status": "lesson_committed_pages_verification_pending",
+      "source_draft_branch": "draft/5.D.10-floral-organogenesis",
+      "source_draft_commit_sha": "0226d71119d2e61934d4372df01417704b8a6e93",
       "initial_main_sha": "215d732e88b76c1ef1cd0a5e4fc4608d5ac06a04",
-      "publication_base_sha": "fab27b41597fae344bcf47304fddd180ae527acc",
-      "source_draft_branch": "draft/5-d-05-root-development",
-      "source_draft_commit_sha": "5b43fad186d4badbce2b930a7fa4fc072eda877f",
-      "production_chapter_blob_sha": "3731219e448661befa0e6b03cc86f2893f1b1364",
+      "publication_base_sha": "43191eb4731250c9409672d506713410ecd9f527",
+      "production_chapter_blob_sha": "03bf5bf413e442045d4e4ba651dc82eb5804443c",
       "production_robots": "index,follow",
       "metrics": {
-        "teaching_words": 13959,
-        "visible_article_words": 19738,
-        "teaching_paragraphs": 138,
-        "html_bytes": 202785,
-        "theory_sections": 12,
-        "svg": 12,
-        "tables": 2,
-        "worked_examples": 8,
+        "genuine_teaching_words": 14101,
+        "total_visible_article_words": 19378,
+        "teaching_paragraphs": 142,
+        "html_bytes": 221043,
+        "theory_sections": 19,
+        "svg": 14,
+        "tables": 4,
+        "worked_examples": 6,
         "part_b": 20,
         "part_c": 25,
-        "other_questions": 5,
-        "total_questions": 50,
-        "references": 19,
-        "misconceptions": 20,
-        "active_recall": 15,
+        "other_questions": 7,
+        "total_questions": 52,
+        "references": 25,
+        "misconceptions": 18,
+        "active_recall": 18,
         "answer_positions": {
           "A": 13,
-          "B": 12,
-          "C": 12,
+          "B": 13,
+          "C": 13,
           "D": 13
         }
       },
-      "word_count_method": "Unicode letter/number words in p.teaching-prose only; excludes headings, diagrams, captions, questions, answers, tables, revision and references.",
+      "word_count_method": "Count whitespace-delimited words from saved p.teaching-prose only, stripping markup/entities. Excludes headings, questions, answers, tables, SVGs/captions, revision and references. Visible article count excludes SVG and zoom buttons.",
       "coverage_matrix": {
-        "root_origin": "1",
-        "growth_zones_cap": "2",
-        "radial_tissue_and_formative_divisions": "3",
-        "epidermal_position_WER_CPC_GL2": "4",
-        "hair_initiation_tip_growth_RHD2_RSL4": "5",
-        "prospective_sites_auxin": "6",
-        "founder_cells_primordium_IAA14_ARF_LBD": "7",
-        "LAX3_emergence": "8",
-        "environment_and_comparison": "9",
-        "quantitative_experimental": "10–12"
+        "floral_primordia_and_whorls": "foundations, initiation, staging, organ-structure",
+        "history_and_homeosis": "history, abc",
+        "abc_and_loss_gain": "abc, mutants, genetic-inference",
+        "AP1_AP2_AP3_PI_AG": "genes, spatial-regulation, feedback, determinacy",
+        "ABCE_SEP_and_D": "abce, ovules-model",
+        "MADS_and_quartets": "quartets, molecular-tests",
+        "identity_vs_growth_and_gametogenesis": "organ-structure, evidence, ovules-model",
+        "comparative_scope": "comparative; detailed Antirrhinum mutant comparisons reserved for 5.D.11",
+        "quantitative_and_exam": "quantitative, worked, part-b, part-c, mixed"
       },
       "dimensions": {
-        "A": "1–3",
-        "B": "2–8",
-        "C": "3–5",
-        "D": "2–8",
-        "E": "2,5,10",
-        "F": "4–9",
-        "G": "10–12, eight examples",
-        "H": "3–8,11–12",
-        "I": "1–9",
-        "J": "9",
-        "K": "4–8,11",
-        "L": "2–9",
-        "M": "9,12; medical applications not applicable",
-        "N": "1,3,9,12",
-        "O": "50 original questions and eight examples"
+        "A": "foundations and initiation",
+        "B": "history, staging, abce, quartets",
+        "C": "organ-structure, genes, quartets",
+        "D": "abc, mutants, spatial-regulation, determinacy",
+        "E": "molecular-tests and feedback; binding thermodynamics and growth mechanics, no fabricated biochemical constants",
+        "F": "spatial-regulation, feedback, determinacy",
+        "G": "quantitative and worked examples",
+        "H": "staging, molecular-tests, evidence, genetic-inference",
+        "I": "organ-structure, feedback, comparative",
+        "J": "comparative and model limits",
+        "K": "mutants, genetic-inference, abce",
+        "L": "mutants, ovules-model, comparative",
+        "M": "comparative applications; clinical applications not applicable",
+        "N": "initiation, organ-structure, ovules-model, revision",
+        "O": "quantitative, worked and 52 original questions"
       },
-      "review_pass_1": "Internal scientific and syllabus review: revised and separate national syllabi plus archived MP SET 2024 syllabus; roadmap coverage, formative divisions, cap, vascular differentiation, positional fate, hair polarity, auxin-mediated lateral root initiation and emergence, numerical recomputation.",
-      "review_pass_2": "Internal teaching and exam review: revised distractors, graph questions, references, cap and vascular differentiation and diagram. Compared 5.A.08 (14,170 teaching words); no exact paragraph overlap in comparison before final additions. Re-fetched final saved draft and audited counts, answer positions and markup.",
+      "review_pass_1": "Internal scientific/syllabus review: verified revised and separate CSIR Unit 5.D pages and mirrored MP SET p.4; checked selected primary and review records for ABC, SEP redundancy, D function, AP2/miR172, AP3/PI, SUP boundary, LFY/WUS/AG/KNU and MADS complexes. Distinguished idealized A/C antagonism from real named-gene alleles and ag reiteration; separated whorl identity from nested ovule identity, proliferation, fertility, and reporter activity. Independently recomputed six examples and quantitative questions.",
+      "review_pass_2": "Internal teaching/examination review: reordered 19 sections for progression, added anatomical diagram, explicit misconception cause/exam cue, graph dataset, section-level evidence, glossary and recall; checked 52 answers against options and 13 of each answer position. Saved-text comparator 5.D.02 contains 13,733 teaching words and 120 paragraphs; zero exact paragraph overlap. Reviewed draft reader architecture, tag nesting, unique IDs, anchors, SVG descriptions and zoom targets; JS copied from established reader with neighbor strings corrected.",
       "quality": {
-        "type": "Internal assessment, not external expert review",
-        "syllabus": 20,
-        "scientific_accuracy": 24,
-        "teaching_depth": 19,
-        "experimental_quantitative": 14,
-        "exam_practice": 9,
+        "syllabus_microtopic_completeness": 20,
+        "scientific_mechanistic_accuracy": 24,
+        "teaching_depth_progression": 19,
+        "experimental_quantitative_reasoning": 14,
+        "examination_practice": 9,
         "technical_accessibility": 9,
         "total": 95,
         "threshold": 95,
-        "deductions": "Selective accessible primary evidence, some conceptual recurrence, illustrative models, uncalibrated assessment, static rather than interactive accessibility testing."
-      },
-      "validation": {
-        "duplicate_ids": 0,
-        "duplicate_teaching_paragraphs": 0,
-        "broken_anchors": [],
-        "broken_zoom_targets": [],
-        "broken_aria": [],
-        "answer_mismatches": 0,
-        "tag_nesting": "passed",
-        "script_syntax": "parsed",
-        "interactive_browser": "not independently tested",
-        "comparator": "5.A.08"
-      },
-      "math_checks": {
-        "production": [
-          2,
-          1,
-          2,
-          1.5,
-          2,
-          2
-        ],
-        "relative_expansion": 0.2027325540540822,
-        "densities": [
-          2,
-          3,
-          2,
-          3
-        ],
-        "emergence": [
-          0.75,
-          0.25,
-          0.75,
-          0.25
-        ],
-        "spacing": [
-          1.2,
-          0.6,
-          1.5,
-          1
-        ],
-        "hair_density": [
-          6,
-          8,
-          6.25,
-          12.5
-        ],
-        "area_mm2": 0.62831853,
-        "ratio": 0.4,
-        "local_gradient": [
-          0.2,
-          0.2
-        ],
-        "integrated_growth": [
-          240,
-          240
+        "assessment": "Internal editorial judgment, not external expert peer review.",
+        "deductions": [
+          "Selected primary records and reviews rather than exhaustive full-text verification; simplified classical model with caveats.",
+          "Some necessary conceptual recurrence in evidence and interpretation.",
+          "Illustrative hypothetical datasets and binding parameters, not experimental measurements.",
+          "Original question difficulty not externally calibrated; some straightforward Part B distractors.",
+          "Static markup and reader architecture checks only; no independent browser or assistive-technology test."
         ]
       },
-      "navigation": {
-        "5.D.04": {
-          "published": true,
-          "resolution": "Dynamic menu link resolution"
-        },
-        "5.D.06": {
-          "published": true,
-          "resolution": "Dynamic menu link resolution"
-        }
-      },
-      "progress": {
-        "academy": 236,
-        "unit_05": 44,
-        "subunit_5d": 8,
-        "next_pending": {
-          "id": "5.D.01",
-          "title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+      "validation": {
+        "exact_duplicate_teaching_paragraphs": 0,
+        "duplicate_ids": 0,
+        "broken_internal_anchors": 0,
+        "broken_aria_targets": 0,
+        "broken_zoom_targets": 0,
+        "accessible_svg": 14,
+        "zoom_controls": 14,
+        "tag_stack_errors": 0,
+        "answer_key_mismatches": 0,
+        "reader_runtime": "not independently exercised",
+        "comparator": "5.D.02, 13733 teaching words, 120 paragraphs; no exact paragraph overlap",
+        "math_checks": {
+          "penetrance": 0.75,
+          "expressivity": 0.6,
+          "rescue": 0.75,
+          "binding": [
+            0.75,
+            0.5
+          ],
+          "relative_binding_reduction": 0.3333333333333333,
+          "segregation": [
+            0.5625,
+            0.4375
+          ],
+          "reporter_ratio": 16,
+          "area_mm2": [
+            0.2,
+            0.2
+          ],
+          "question_checks": [
+            90,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.3,
+            0.3
+          ]
         }
       },
       "limitations": [
-        "MP SET 2024 archived mirror; commission-hosted latest version not independently verified.",
-        "No external peer review or empirically calibrated questions.",
-        "Selected accessible sources, illustrative datasets.",
-        "Interactive browser and screen-reader checks not independently performed.",
-        "Pages verification pending."
+        "Current MPPSC primary-host syllabus not independently verified; archived 2024 copy used.",
+        "Selected primary abstracts and reviews, not exhaustive full-text verification or external peer review.",
+        "Hypothetical teaching datasets explicitly identified.",
+        "No independent interactive browser, mobile, screen-reader or separate script-parser test; static reader checks only.",
+        "Pages deployment and live verification are separate."
       ],
+      "navigation": {
+        "previous": {
+          "id": "5.D.09",
+          "published": true,
+          "file": "inflorescence-and-floral-meristems-identity-position-and-determinacy.html",
+          "reciprocal_reference": true
+        },
+        "next": {
+          "id": "5.D.11",
+          "published": true,
+          "file": "arabidopsis-and-antirrhinum-floral-mutants-and-comparative-development.html",
+          "reciprocal_reference": true
+        },
+        "mechanism": "Existing dynamic homepage resolver; absent immediate neighbors disabled, published neighbors resolve via menu."
+      },
+      "progress": {
+        "academy": 237,
+        "unit_05": 45,
+        "subunit_5d": 9,
+        "next_pending_node_id": "5.D.01",
+        "next_pending_node_title": "Foundations of Plant Organogenesis: Meristems, Axes and Indeterminate Growth"
+      },
       "changed_files": [
-        "root-development-tissue-differentiation-root-hairs-and-lateral-roots.html",
+        "floral-organogenesis-whorls-abc-abce-identity-and-genetic-control.html",
         "index.html",
         "sitemap.xml",
         "curriculum/academy-progress.json",
-        "curriculum/node-5d05-publication-qa.json",
-        "curriculum/subunit-5d-plant-morphogenesis-organogenesis-node-map.md",
-        "curriculum/unit-05-developmental-biology-subunit-map.md"
-      ]
+        "curriculum/node-5d10-publication-qa.json"
+      ],
+      "publication": {
+        "method": "One tree/commit, conditional non-force main ref update",
+        "expected_main_sha": "43191eb4731250c9409672d506713410ecd9f527"
+      }
     }
   }
 }

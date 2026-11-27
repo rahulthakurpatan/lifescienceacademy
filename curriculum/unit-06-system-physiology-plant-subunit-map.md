@@ -273,3 +273,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.D.02 — [Auxins: Polar Transport, Cell Elongation and Developmental Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/auxins-polar-transport-cell-elongation-and-developmental-regulation.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.D: 6/10; Unit 06: 23/66; Academy: 273/723.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.01 — [Foundations of Plant Light Perception: Signals, Spectra and Responses](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-plant-light-perception-signals-spectra-and-responses.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 1/7; Unit 06: 25/66; Academy: 274/723. Subunit 6.D reconciled to 7/10 from actual published menu.
+- Next global unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

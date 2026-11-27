@@ -230,14 +230,18 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.B.05 — [Photorespiration: The C2 Glycolate Pathway](https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.C.06 — [Symbiotic Nitrogen Fixation and Plant–Microbe Nitrogen Exchange](https://rahulthakurpatan.github.io/lifescienceacademy/symbiotic-nitrogen-fixation-and-plant-microbe-nitrogen-exchange.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.A: 8/8 (complete); Subunit 6.B: 3/5; Subunit 6.C: 3/6; Unit 06: 14/66; Academy: 263/723.
-- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
 
 - 6.C.02 — [Nitrate and Nitrite Reduction in Plants](https://rahulthakurpatan.github.io/lifescienceacademy/nitrate-and-nitrite-reduction-in-plants.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 2/6; Unit 06: 12/66; Academy: 261/723.
 - 6.C.03 — [Ammonium Assimilation: The GS–GOGAT Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/ammonium-assimilation-the-gs-gogat-cycle.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.C: 4/6; Unit 06: 15/66; Academy: 264/723.
-- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
 
 - 6.C.05 — [Biological Nitrogen Fixation: Nitrogenase and Energy Requirements](https://rahulthakurpatan.github.io/lifescienceacademy/biological-nitrogen-fixation-nitrogenase-and-energy-requirements.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.A: 8/8; Subunit 6.B: 3/5; Subunit 6.C: 5/6; Unit 06: 16/66; Academy: 265/723.
-- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.B.01 — [Plant Respiration and the Citric Acid Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.B: 4/5; Unit 06: 17/66; Academy: 266/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

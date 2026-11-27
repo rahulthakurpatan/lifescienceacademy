@@ -124,4 +124,8 @@
 - 6.B.02 — [Plant Mitochondrial Electron Transport Chain](https://rahulthakurpatan.github.io/lifescienceacademy/plant-mitochondrial-electron-transport-chain.html); academic QA 95/100 (internal); deployment verification pending.
 - 6.B.05 — [Photorespiration: The C2 Glycolate Pathway](https://rahulthakurpatan.github.io/lifescienceacademy/photorespiration-the-c2-glycolate-pathway.html); academic QA 95/100 (internal); deployment verification pending.
 - Subunit 6.B: 3/5; Unit 06: 13/66; Academy: 262/723.
-- Next unpublished: 6.B.01 — Plant Respiration and the Citric Acid Cycle.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.B.01 — [Plant Respiration and the Citric Acid Cycle](https://rahulthakurpatan.github.io/lifescienceacademy/plant-respiration-and-the-citric-acid-cycle.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.B: 4/5; Unit 06: 17/66; Academy: 266/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

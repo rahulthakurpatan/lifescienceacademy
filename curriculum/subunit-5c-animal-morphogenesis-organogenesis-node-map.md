@@ -208,3 +208,9 @@
 - Official revised CSIR syllabus: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf
 - Separate CSIR Life Sciences: https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf
 - MP SET Life Sciences: https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf
+
+
+### Publication checkpoint — 2026-11-27
+
+- **5.C.04 — Amphibian Axis Formation: Cortical Rotation, Nieuwkoop Center and Organizer**: audited chapter included at `amphibian-axis-formation-cortical-rotation-nieuwkoop-center-and-organizer.html`; Pages verification separate.
+- Subunit 5.C: 8/12. Unit 05: 32/57. Next unpublished: 5.C.05 — Chick Embryo Axis Formation: Primitive Streak, Hensen's Node and Patterning.

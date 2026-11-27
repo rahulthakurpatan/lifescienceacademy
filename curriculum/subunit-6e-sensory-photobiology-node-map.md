@@ -161,3 +161,8 @@
 
 - 6.E.04 — [Phototropins: LOV Kinase Signaling, Phototropism and Chloroplast Movement](https://rahulthakurpatan.github.io/lifescienceacademy/phototropins-lov-kinase-signaling-phototropism-and-chloroplast-movement.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 2/7. Next unpublished in this subunit: 6.E.01 — Foundations of Plant Light Perception: Signals, Spectra and Responses.
+
+## Publication checkpoint — 2026-11-27
+
+- 6.E.06 — [Plant Circadian Clock: Entrainment, Feedback Loops and Daily Rhythms](https://rahulthakurpatan.github.io/lifescienceacademy/plant-circadian-clock-entrainment-feedback-loops-and-daily-rhythms.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 3/7; next unpublished in this subunit: 6.E.02 — Phytochromes: Red/Far-Red Perception, Photoconversion and Developmental Signaling.

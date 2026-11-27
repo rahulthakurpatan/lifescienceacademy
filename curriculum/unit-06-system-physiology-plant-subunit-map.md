@@ -281,3 +281,7 @@ How do plants recognize environmental threats and coordinate rapid local protect
 - 6.E.04 — [Phototropins: LOV Kinase Signaling, Phototropism and Chloroplast Movement](https://rahulthakurpatan.github.io/lifescienceacademy/phototropins-lov-kinase-signaling-phototropism-and-chloroplast-movement.html); internal academic QA 95/100; deployment verification pending.
 - Subunit 6.E: 2/7; Unit 06: 26/66; Academy: 275/723. Reconciled older 6.D count to 7/10 from actual menu links.
 - Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.
+
+- 6.E.06 — [Plant Circadian Clock: Entrainment, Feedback Loops and Daily Rhythms](https://rahulthakurpatan.github.io/lifescienceacademy/plant-circadian-clock-entrainment-feedback-loops-and-daily-rhythms.html); internal academic QA 95/100; deployment verification pending.
+- Subunit 6.E: 3/7; Unit 06: 27/66; Academy: 276/723.
+- Next unpublished: 6.B.04 — Alternative Oxidase and Alternative Respiratory Pathways.

@@ -210,3 +210,10 @@ All seven explicit topic groups have substantive assigned coverage. Supporting c
 - 13,542 genuine teaching words, 130 unique paragraphs, 9 teaching sections, 12 original accessible SVGs (4 graphs), 4 tables, 50 explained questions (20 B / 20 C / 10 additional), 16 misconceptions, 12 recall prompts, 14 references.
 - Academy: 412/723; Unit 07: 79/90; 7.J: 9/12. Earliest global unpublished: 7.J.06 — Endocrine Pancreas and Glucose Homeostasis; next in 7.J: 7.J.06 — Endocrine Pancreas and Glucose Homeostasis.
 - Audit: `curriculum/qa/7.J.01-publication-audit.md`.
+
+### Publication checkpoint — 2026-11-28 — 7.J.10
+- Published: [Female Reproductive Physiology and Oogenesis](../female-reproductive-physiology-and-oogenesis.html) — 13,594 teaching words, 15 original SVGs, 50 explained questions, internal QA 95/100.
+- Academy: 413/723; Unit 07: 80/90; Subunit 7.J: 10/12.
+- Earliest pending: 7.J.06 — Endocrine Pancreas and Glucose Homeostasis.
+- QA: `curriculum/qa/7.J.10-publication-audit.md`.
+- Deployment/live verification pending.

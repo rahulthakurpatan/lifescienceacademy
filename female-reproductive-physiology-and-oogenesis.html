@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Explore ovarian organization, folliculogenesis, meiotic arrest, ovarian steroidogenesis and follicle–oocyte coordination.">
+  <meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/female-reproductive-physiology-and-oogenesis.html">
+  <title>Female Reproductive Physiology and Oogenesis (7.J.10) | CSIR-NET Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.figure-panel .svg-scroll{overflow-x:auto;max-width:100%;padding:2px}.figure-panel .svg-scroll svg{min-width:520px;width:100%;max-width:none}.svg-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:2px}.figure-panel svg{color:var(--ink)}.question{border-bottom:1px solid var(--border);padding-bottom:1em;margin-bottom:1em}.options{list-style-type:upper-alpha}.article-content .meta{color:var(--muted);font-size:.82em}.article-content .notice{border-left:3px solid var(--accent);padding:12px;background:var(--panel)}body[data-theme=dark] svg [stroke="#147c65"]{stroke:#6cdbb7}body[data-theme=dark] svg [stroke="#a85b16"]{stroke:#ffc37d}body[data-theme=dark] svg [stroke="#7753b5"]{stroke:#d4b5ff}body[data-theme=dark] svg [fill="#dceee9"]{fill:#294d40}body[data-theme=dark] svg [fill="#f3dfbc"]{fill:#5b482e}.practice-question{border-bottom:1px solid var(--border);padding:14px 0}.practice-question details,.active-recall details{background:var(--panel);padding:10px 13px;border-radius:8px}.practice-question summary,.active-recall summary{cursor:pointer;font-weight:700;color:var(--accent-dark)}.misconception{margin:.7em 0!important}.source-note{font: .78em Inter,Arial,sans-serif;color:var(--muted);margin-top:1em!important}</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 7</span><span>›</span><span>7.J Endocrinology and Reproduction</span><span>›</span><strong>7.J.10</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">7.J.10</span><span>System Physiology: Animal</span></div><h1>Female Reproductive Physiology and Oogenesis</h1><p class="subtitle">How ovarian follicles coordinate oocyte development, endocrine signalling and meiotic maturation.</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Male Reproductive Physiology and Spermatogenesis">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Reproductive Cycles, Ovulation and Hormonal Feedback">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#s1">The ovary as a gonad and endocrine organ</a><a href="#s2">Establishment and depletion of the ovarian reserve</a><a href="#s3">Meiosis and the two interruptions in oocyte development</a><a href="#s4">Folliculogenesis: development of the somatic environment</a><a href="#s5">Two-cell, two-gonadotropin steroidogenesis</a><a href="#s6">Communication between oocyte and follicular somatic cells</a><a href="#s7">Experimental evidence and causal reasoning</a><a href="#s8">Ovarian reserve, follicular atresia and quantitative interpretation</a><a href="#references">References</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Female Reproductive Physiology and Oogenesis">
+          <div class="article-content" id="article">
+<section id="s1"><h2>The ovary as a gonad and endocrine organ</h2><p class="teaching-prose">Reproductive physiology presents an unusual timing problem. A mammal must produce a cell capable of contributing half of a new organism's nuclear genome, but that cell must also contain enough cytoplasmic machinery to support early development. It must become available when the reproductive tract is appropriately prepared. The ovary meets these requirements by allowing a germ cell and its neighbouring somatic cells to develop as a coordinated unit. That unit is the ovarian follicle. Studying the oocyte in isolation explains the chromosome divisions, but studying the follicle explains why those divisions occur at a particular time, how growth is supported and how the reproductive system communicates with the rest of the body.</p>
+<p class="teaching-prose">A gonad has two related functions. Its germinal function produces gametes, while its endocrine function produces signals that travel to distant targets. The ovarian germ cell is called an oocyte during its growth and meiotic maturation. Ovarian somatic cells, rather than the oocyte itself, produce most of the steroid hormones considered in this chapter. The distinction is important because a defect can impair follicular steroid synthesis while leaving a recognisable oocyte present, or impair chromosome segregation despite apparently appropriate endocrine stimulation. Fertility requires both sets of functions, but neither is a direct measure of the other.</p>
+<p class="teaching-prose">The paired human ovaries lie in the pelvis near the uterine tubes. Each tube has a fimbrial region near the ovary, but its lumen is not directly continuous with an ovarian follicle. After release from the ovarian surface, the oocyte and its associated cumulus cells enter the peritoneal space briefly before capture by the tube. This arrangement explains why release and transport are distinct physiological events. The uterus receives endocrine signals that alter its tissue state, even though the ovary and uterus are separate organs. The tube, uterus, cervix and vagina respond to the reproductive endocrine environment in different ways; a full comparison of their cyclical responses belongs to the next chapter.</p>
+<p class="teaching-prose">In an ovarian section the outer cortex contains most follicles, embedded in a connective tissue stroma, whereas the medulla contains larger vessels, lymphatics and nerves. The boundary is not a sharply sealed partition. A connective tissue layer called the tunica albuginea lies beneath the surface epithelium. The historical name germinal epithelium for this surface can mislead: it is not ordinarily the source of the human oocytes produced during reproductive life. Primordial germ cells instead arise during early development and populate the developing gonad. Recognising the distinction prevents confusing surface repair after ovulation with production of new germ cells.</p>
+<p class="teaching-prose">A growing follicle acquires a specialised internal organisation. The oocyte is separated from neighbouring granulosa cell bodies by the zona pellucida, an extracellular glycoprotein coat. Cellular extensions pass through this coat, maintaining communication with the oocyte. A basal lamina separates the granulosa compartment from the developing theca. The vascular supply approaches through the surrounding stroma and theca; before ovulation, the granulosa compartment is normally avascular. Nutrients and hormones therefore move across compartment boundaries before reaching some of their targets. This architecture anticipates why androgen precursors can pass from theca to granulosa while the two cell types remain physiologically distinct.</p>
+<p class="teaching-prose">Histology supplies evidence for these relationships, but a single microscopic section can be deceptive. A section near one edge of a spherical follicle may omit the oocyte or the antrum and make the follicle appear less complex than it really is. Serial sections or a suitable three-dimensional method distinguish absence of a structure from failure to intersect it. This is a general lesson for interpreting histological questions: identify the tissue boundaries, then ask what plane of observation could account for the visible pattern. A large fluid space is evidence of antral development when it is enclosed within the appropriate granulosa organisation, not merely when any cavity is seen.</p>
+<p class="teaching-prose">The ovarian system is also different from the testicular system discussed in 7.J.09. Spermatogonial renewal generally supplies successive cohorts of male germ cells throughout adult reproductive life. In the standard human ovarian model the oocyte supply is established before birth, and follicles leave a finite resting pool over time. Both organs use gonadotropins and somatic support cells, yet they solve different cellular and temporal problems. This comparison is more useful than trying to assign a direct female equivalent to every testicular cell.</p></section>
+<section id="s2"><h2>Establishment and depletion of the ovarian reserve</h2><p class="teaching-prose">The germ-cell lineage separates from somatic lineages during embryonic development. Primordial germ cells migrate into the developing gonads, where the female germ-cell population expands by mitosis as oogonia. A mitotic division can increase the number of germ cells without changing the chromosome set carried by each daughter. Entry into meiosis changes the purpose of the cell cycle: the future gamete now prepares for the reduction of chromosome sets. In human fetal ovaries, many oogonia enter the first meiotic prophase and become primary oocytes. The germ-cell population undergoes substantial loss during this process.</p>
+<p class="teaching-prose">A primary oocyte may become enclosed by a small group of flattened somatic cells to establish a primordial follicle. Thus the formation of the reserve requires more than survival of an isolated germ cell; it requires assembly of a functional germ-cell and somatic-cell association. Germ cells that do not enter or maintain this association need not contribute to the lasting follicle pool. The reserve is not a collection of completed ova waiting to be released. It is predominantly a population of immature oocytes in resting follicles with substantial developmental work remaining.</p>
+<p class="teaching-prose">Developmental estimates are often described by broad orders of magnitude. The fetal germ-cell population reaches several million, the population at birth is much smaller, and the population at puberty is smaller again. These values vary among individuals and among counting methods. They should not be treated as exact universal inventories or as evidence that the ovary loses a fixed number every month. Most follicles that disappear do not disappear through ovulation. They undergo degeneration or are recruited into growth pathways that end without ovulation.</p>
+<p class="teaching-prose">A useful distinction is between initial recruitment, which means activation of a resting primordial follicle, and cyclic recruitment, which concerns survival and growth of a cohort of follicles responsive to gonadotropins. Initial recruitment is strongly influenced by local ovarian signalling, whereas gonadotropin support becomes particularly important as follicles advance. An FSH increase around the beginning of a reproductive cycle cannot create primordial follicles de novo. It primarily changes the prospects of follicles already sufficiently developed to respond. An exam may describe a brief reduction in FSH and ask whether fetal meiosis or adult antral follicle survival is affected; the developmental time of exposure gives the answer.</p>
+<p class="teaching-prose">Local regulation allows the ovary to prevent every resting follicle from entering growth simultaneously. A resting pool must retain members for future reproductive opportunities. Signalling systems involving oocytes and their neighbouring cells affect whether follicles remain quiescent or activate. The PI3K–AKT pathway and FOXO3-dependent regulation are useful mammalian examples of the coupling between nutrient-sensitive cellular signalling and follicle activation. Mouse genetic experiments support a role for this pathway in maintaining the reserve, but the detailed kinetics and contributions of individual signals vary with species and developmental stage. It is unnecessary to memorise every intermediary to understand the central logic: premature recruitment can deplete the future supply even when initial growth appears enhanced.</p>
+<p class="teaching-prose">AMH, or anti-Müllerian hormone, is secreted by granulosa cells of growing follicles, especially preantral and small antral follicles. It participates in local regulation and can serve as an indirect indicator of the population of growing follicles. Primordial follicles themselves are not a major direct source of circulating AMH. Therefore the connection between serum AMH and resting reserve is statistical and physiological, not a direct count of all remaining oocytes. This distinction helps explain why conditions that change the composition of the growing follicle pool can change AMH without producing a simple one-to-one change in the number of resting follicles.</p>
+<p class="teaching-prose">A reserve measurement must also be distinguished from gamete competence. An ovarian reserve estimate concerns quantity, while competence concerns whether a particular oocyte can complete maturation, be fertilised and support early development. Chromosome segregation, mitochondrial function and many other cellular properties contribute to competence. Two individuals with similar measures of reserve can differ in age and oocyte competence, and two with different reserve estimates can both ovulate. The ASRM committee opinion on ovarian reserve testing makes this distinction particularly clear in discussing prediction of ovarian response versus prediction of reproductive outcomes.</p><figure class="figure-panel"><svg viewBox="0 0 680 334" role="img" aria-labelledby="f1t f1d" xmlns="http://www.w3.org/2000/svg"><title id="f1t">The germ-cell lineage and the resting follicle pool.</title><desc id="f1d">Primordial germ cells; then Oogonia: mitotic expansion; then Primary oocytes: meiotic entry; then Primordial follicles: resting reserve</desc><rect x="75" y="15" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="44" text-anchor="middle" font-size="17" fill="var(--ink)">Primordial germ cells</text><path d="M340 63v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="91" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="120" text-anchor="middle" font-size="17" fill="var(--ink)">Oogonia: mitotic expansion</text><path d="M340 139v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="167" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="196" text-anchor="middle" font-size="17" fill="var(--ink)">Primary oocytes: meiotic entry</text><path d="M340 215v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="243" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="272" text-anchor="middle" font-size="17" fill="var(--ink)">Primordial follicles: resting reserve</text></svg><figcaption>The germ-cell lineage and the resting follicle pool.</figcaption></figure></section>
+<section id="s3"><h2>Meiosis and the two interruptions in oocyte development</h2><p class="teaching-prose">Chromosome counting and DNA counting describe different aspects of the meiotic cell. Let n denote the number of distinct chromosome types in a single haploid set, and let C denote the amount of nuclear DNA in one unreplicated haploid genome. The human value of n is 23. A diploid oogonium before DNA replication contains 46 chromosomes and 2C DNA. After S phase the chromosomes are duplicated into sister chromatids, but the number of chromosomes, counted by centromere units, is still 46. The DNA content has increased to 4C. The cell is still diploid because both parental homologous sets remain present.</p>
+<p class="teaching-prose">During first meiotic prophase, homologous chromosomes establish associations, and recombination between non-sister chromatids creates physical and genetic links between homologues. The terms leptotene, zygotene, pachytene and diplotene describe successive stages of this process. In diplotene the synaptonemal complex disassembles and homologues remain connected at chiasmata. A prolonged diplotene-like arrest in the mammalian oocyte is commonly called the dictyate stage. This pause begins long before the eventual release of many human oocytes. A primary oocyte is not haploid merely because it has entered meiosis.</p>
+<p class="teaching-prose">As a follicle matures, the oocyte increases in size while its nucleus remains arrested. The large visible nucleus of the fully grown prophase-arrested oocyte is termed the germinal vesicle. Germinal vesicle breakdown, or GVBD, denotes loss of the nuclear envelope as the cell resumes meiotic progression. GVBD is a useful observable sign of maturation, but it is not proof that chromosomes subsequently segregate normally. The distinction is central to experimental interpretation: a treatment that increases GVBD may initiate maturation while reducing the probability of producing a normal metaphase II oocyte.</p>
+<p class="teaching-prose">Meiosis I separates homologous chromosomes. In the ordinary human sequence, one large secondary oocyte and a much smaller first polar body result from this division. Both receive one haploid chromosome set, but each chromosome remains duplicated at this time. The secondary oocyte therefore contains 23 chromosomes, 46 chromatids and 2C DNA. It is haploid, even though its DNA content equals that of an unreplicated diploid oogonium. Identical DNA content need not imply identical ploidy.</p>
+<p class="teaching-prose">The unequal division preserves most of the cytoplasm in the future gamete. A typical mammalian oocyte has accumulated organelles, transcripts, proteins and metabolic substrates during growth. Partitioning those materials into equal daughter cells would distribute resources differently. Instead, the polar body principally provides a means of segregating chromosomes while minimising the loss of cytoplasm. It is not correct to call the polar body genetically empty. It receives chromosomes and DNA, and its subsequent fate can vary.</p>
+<p class="teaching-prose">Without another round of S phase, the secondary oocyte enters meiosis II. In humans and many other mammals, it pauses at metaphase II and is generally released in that state. The sister chromatids are aligned for the second division, but not yet segregated. Fertilisation normally triggers signals that remove the second arrest and permit sister chromatids to separate. The resulting maternal haploid genome has 1C DNA before replication. The paternal genome contributes a separate haploid set. The detailed mechanisms of sperm recognition, egg activation and early embryonic development are addressed in Unit 5; the present concern is the physiological meaning of the arrest points.</p>
+<p class="teaching-prose">The distinction between species is indispensable. Some animals release gametes at a meiotic stage different from the human metaphase II stage. A model in which maturation is triggered by progesterone in amphibian oocytes, for example, should not be imposed unchanged on the human ovarian follicle. The shared problem is coordinating reductional and equational divisions with reproduction, while the hormonal stimuli and stage of release can differ. If a question explicitly identifies a species, that information determines which sequence is appropriate.</p>
+<p class="teaching-prose">The very long arrest also creates an unusual challenge for maintaining chromosome cohesion. Sister-chromatid cohesion must remain functional long after it was established, and the arrangement of homologous chromosomes must be resolved accurately when division resumes. Age-related changes in chromosome cohesion and spindle function help explain why the risk of segregation error can rise with maternal age. This is a mechanistic link between cell-cycle biology and reproductive physiology, not an assertion that age determines the outcome of every oocyte.</p><div class="table-wrap"><table><caption>Human germ-cell stages: nuclear chromosome and DNA content</caption><thead><tr><th scope="col">Stage</th><th scope="col">Ploidy</th><th scope="col">DNA</th><th scope="col">Chromosomes</th></tr></thead><tbody><tr><td>Oogonium before S</td><td>2n</td><td>2C</td><td>46</td></tr><tr><td>Primary oocyte after S</td><td>2n</td><td>4C</td><td>46</td></tr><tr><td>Secondary oocyte</td><td>n</td><td>2C</td><td>23</td></tr><tr><td>Maternal genome after meiosis II</td><td>n</td><td>1C</td><td>23</td></tr></tbody></table></div><figure class="figure-panel"><svg viewBox="0 0 680 334" role="img" aria-labelledby="f2t f2d" xmlns="http://www.w3.org/2000/svg"><title id="f2t">Chromosome and DNA content through human oogenesis.</title><desc id="f2d">Oogonium before S: 2n, 2C; then Primary oocyte after S: 2n, 4C; then Meiosis I: secondary oocyte n, 2C; then Meiosis II completion: maternal set n, 1C</desc><rect x="75" y="15" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="44" text-anchor="middle" font-size="17" fill="var(--ink)">Oogonium before S: 2n, 2C</text><path d="M340 63v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="91" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="120" text-anchor="middle" font-size="17" fill="var(--ink)">Primary oocyte after S: 2n, 4C</text><path d="M340 139v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="167" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="196" text-anchor="middle" font-size="17" fill="var(--ink)">Meiosis I: secondary oocyte n, 2C</text><path d="M340 215v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="243" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="272" text-anchor="middle" font-size="17" fill="var(--ink)">Meiosis II completion: maternal set n, 1C</text></svg><figcaption>Chromosome and DNA content through human oogenesis.</figcaption></figure></section>
+<section id="s4"><h2>Folliculogenesis: development of the somatic environment</h2><p class="teaching-prose">A primordial follicle contains a primary oocyte surrounded by flattened pregranulosa cells. When activation begins, surrounding cells become cuboidal, and the oocyte starts sustained growth. This stage is often called the primary follicle. With further proliferation, granulosa cells form multiple layers; the oocyte enlarges, its zona pellucida becomes prominent and the surrounding stroma differentiates into thecal compartments. Terminology differs between histology sources: some use secondary follicle for the multilaminar preantral stage, while others apply secondary to early antral follicles. In an examination, use the stated morphological criterion rather than the ordinal stage name alone.</p>
+<p class="teaching-prose">The appearance of an antrum marks an important change in follicular organisation. Small fluid-containing spaces form between granulosa cells and eventually coalesce. Follicular fluid contains water, ions, metabolites, proteins and hormones derived from the follicular tissues and vascular supply. As the antrum enlarges, granulosa cells near the follicular wall become distinguishable from cumulus cells that surround the oocyte. The cumulus oophorus projects into the antral cavity and supports the oocyte. The innermost cells immediately outside the zona pellucida form the corona radiata.</p>
+<p class="teaching-prose">Theca interna cells acquire steroidogenic properties and are supplied by blood vessels in the surrounding tissue. Theca externa is predominantly a supportive fibromuscular and connective tissue layer. It is helpful to distinguish them by position and function instead of treating the theca as one homogeneous endocrine cell population. The basal lamina between theca interna and granulosa defines a boundary across which substances can be exchanged. The arrangement supplies a physical basis for division of steroidogenic labour in the growing follicle.</p>
+<p class="teaching-prose">The oocyte itself undergoes major cytoplasmic changes during this growth sequence. It accumulates transcripts and proteins that will be needed for maturation and early development, and its organelles are redistributed and functionally modified. Nuclear competence and cytoplasmic competence are related but separable. A cell may be able to resume meiosis when removed from its follicle while still lacking optimal cytoplasmic preparation. Conversely, maintaining a healthy growing oocyte does not require it to complete meiosis immediately. The follicle must provide support while keeping the meiotic programme paused.</p>
+<p class="teaching-prose">The early phases of follicle growth are not simply miniature versions of late antral growth. A resting follicle can activate under local regulatory influences, while advanced follicles increasingly depend on gonadotropin stimulation. In particular, FSH supports granulosa proliferation, differentiation and steroidogenic capacity. LH stimulates steroidogenic theca interna cells. The transition is gradual: gonadotropins can influence earlier growing follicles, and local signals remain important at later stages. The phrase gonadotropin-independent early growth is a shorthand for relative dependence rather than a universal declaration that hormones have no influence.</p>
+<p class="teaching-prose">As antral follicles grow, their capacities to respond to gonadotropins may differ. The ability to survive falling FSH concentrations depends on factors such as receptor abundance, local growth factors and the development of steroidogenic machinery. A follicle that becomes dominant can continue development in an endocrine environment that does not sustain every member of its cohort. Other members often undergo atresia. The precise timing of cohort recruitment, selection and ovulation is developed in 7.J.11. Here the principle is that an endocrine signal acting on a heterogeneous group need not produce identical cellular outcomes.</p>
+<p class="teaching-prose">A preovulatory follicle contains a large antral cavity, well-developed mural granulosa and theca, and a cumulus–oocyte complex. Its oocyte can still be in prophase I before the maturational signal. Size and meiotic stage therefore cannot be used interchangeably. A section depicting a large antral follicle provides information about follicular organisation, whereas nuclear morphology or chromosome analysis is needed to identify the exact meiotic state. The two variables become coordinated through endocrine and paracrine signalling rather than through size alone.</p><figure class="figure-panel"><svg viewBox="0 0 680 410" role="img" aria-labelledby="f3t f3d" xmlns="http://www.w3.org/2000/svg"><title id="f3t">Morphological progression of a growing follicle.</title><desc id="f3d">Primordial: flattened supporting cells; then Primary: cuboidal granulosa; then Multilaminar preantral: theca develops; then Antral: fluid-filled cavity; then Preovulatory: differentiated cumulus</desc><rect x="75" y="15" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="44" text-anchor="middle" font-size="17" fill="var(--ink)">Primordial: flattened supporting cells</text><path d="M340 63v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="91" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="120" text-anchor="middle" font-size="17" fill="var(--ink)">Primary: cuboidal granulosa</text><path d="M340 139v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="167" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="196" text-anchor="middle" font-size="17" fill="var(--ink)">Multilaminar preantral: theca develops</text><path d="M340 215v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="243" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="272" text-anchor="middle" font-size="17" fill="var(--ink)">Antral: fluid-filled cavity</text><path d="M340 291v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="319" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="348" text-anchor="middle" font-size="17" fill="var(--ink)">Preovulatory: differentiated cumulus</text></svg><figcaption>Morphological progression of a growing follicle.</figcaption></figure></section>
+<section id="s5"><h2>Two-cell, two-gonadotropin steroidogenesis</h2><p class="teaching-prose">Steroid synthesis begins with cholesterol. Steroidogenic cells can obtain cholesterol from circulating lipoproteins and cellular stores, as well as through endogenous synthesis. StAR facilitates transfer of cholesterol to the inner mitochondrial membrane, where CYP11A1 catalyses formation of pregnenolone. Subsequent enzyme reactions alter the steroid skeleton. Which products accumulate depends not only on the amount of cholesterol supplied, but also on the enzymatic capabilities of the cell. In a follicle the distribution of enzymes between different cell types makes cooperation necessary for efficient estradiol production.</p>
+<p class="teaching-prose">The basic two-cell, two-gonadotropin model assigns theca interna cells a primary role in synthesising androgen precursors in response to LH, and granulosa cells a primary role in converting those precursors into estrogens in response to FSH. Theca cells express CYP17A1, whose activities contribute to the formation of androgen precursors. Androstenedione and testosterone can enter the granulosa compartment. Granulosa cells of the growing follicle express aromatase, or CYP19A1, which enables the conversion of C19 androgen substrates into C18 estrogens. Androstenedione yields estrone, while testosterone yields estradiol; interconversion between estrone and estradiol depends on appropriate hydroxysteroid dehydrogenase activities.</p>
+<p class="teaching-prose">This model explains a seemingly paradoxical observation: stimulation of granulosa cells with FSH may enhance estrogen synthesis only if an androgen substrate is available. An enzyme is not itself the material from which its product is built. Even abundant aromatase cannot sustain substantial estrogen output when precursor supply is severely limited. Conversely, theca cells can produce androgen precursors in response to LH without necessarily producing a matching amount of estradiol if aromatase activity in granulosa is inadequate. Substrate supply and catalytic capacity jointly determine pathway flux.</p>
+<p class="teaching-prose">LH and FSH are glycoprotein hormones acting through specific receptors on target cells. Their receptors are G protein-coupled receptors, with prominent signalling through Gs, adenylyl cyclase, cyclic AMP and protein kinase A in the steroidogenic contexts described here. The signal alters both relatively rapid processes and gene expression over longer times. A student should therefore distinguish the stimulation of an already present enzyme or substrate transport mechanism from induction of new enzyme expression. The measured steroid response to a brief exposure can differ from that observed after a longer exposure.</p>
+<p class="teaching-prose">The two-cell model is a useful approximation, not a fixed identity for each somatic cell throughout the entire reproductive lifespan. Granulosa cells of the dominant late follicle acquire LH responsiveness; after luteinisation, the steroidogenic properties of the cells change substantially, and progesterone becomes a major product. Theca and granulosa derivatives both contribute to the corpus luteum. The simple rule that granulosa responds only to FSH is therefore stage-dependent and becomes misleading if applied without context.</p>
+<p class="teaching-prose">Estradiol diffuses out of the follicle and influences remote target tissues. It also participates in feedback at hypothalamic and pituitary levels. Granulosa-derived inhibins provide additional feedback, particularly on FSH secretion. Inhibin B is associated prominently with growing follicles, whereas inhibin A has a prominent luteal contribution. These peptide hormones must not be confused with estradiol, a steroid, or with AMH, another granulosa-derived signal with different functions. Their coexistence allows the ovary to communicate more than one aspect of follicular state.</p>
+<p class="teaching-prose">A perturbation provides a practical test of the model. Suppose granulosa cells from an appropriate growing follicle are exposed to a selective aromatase inhibitor while theca androgen production is maintained. Estradiol output should fall relative to the matched control. Androgen substrate may accumulate if other routes of metabolism and removal do not compensate. The same intervention in an intact animal may produce secondary changes in FSH or LH because feedback has changed. Results from isolated cells and intact animals thus need not show identical hormone profiles, even when the primary biochemical action is identical.</p><figure class="figure-panel"><svg viewBox="0 0 720 390" role="img" aria-labelledby="st sd" xmlns="http://www.w3.org/2000/svg"><title id="st">Two-cell, two-gonadotropin model</title><desc id="sd">LH stimulates androgen production in theca; FSH supports aromatase in granulosa, which converts the supplied androgens into estrogens.</desc><rect x="20" y="75" width="280" height="285" rx="16" fill="var(--panel)" stroke="var(--accent)"/><rect x="420" y="75" width="280" height="285" rx="16" fill="var(--panel)" stroke="var(--accent)"/><g font-size="17" text-anchor="middle" fill="var(--ink)"><text x="160" y="30">LH</text><text x="560" y="30">FSH</text><text x="160" y="105">Theca interna</text><text x="560" y="105">Granulosa</text><text x="160" y="155">Cholesterol</text><text x="160" y="205">Pregnenolone</text><text x="160" y="255">CYP17A1 pathway</text><text x="160" y="320">Androgens</text><text x="560" y="205">Aromatase (CYP19A1)</text><text x="560" y="320">Estrogens</text><text x="360" y="301" font-size="14">Transfer</text></g><g stroke="var(--accent)" stroke-width="3" fill="none"><path d="M160 37v34l-6 -8m6 8 6 -8M560 37v34l-6 -8m6 8 6 -8M160 163v27l-6 -8m6 8 6 -8M160 213v27l-6 -8m6 8 6 -8M160 263v39l-6 -8m6 8 6 -8M226 315h205l-8 -6m8 6 -8 6M560 216v80l-6 -8m6 8 6 -8"/></g></svg><figcaption>Androgen substrate transfer allows theca and granulosa cells to cooperate in estrogen synthesis. The model describes a growing follicle; receptor expression changes near ovulation.</figcaption></figure></section>
+<section id="s6"><h2>Communication between oocyte and follicular somatic cells</h2><p class="teaching-prose">The large oocyte is physically surrounded by somatic cells but remains separated from them by its own plasma membrane. The two cell types do not become one continuous cytoplasm. Instead, gap junction channels provide pathways for selected small molecules and ions to pass directly between connected cells. Cellular projections from granulosa or cumulus cells traverse the zona pellucida and establish contacts with the oocyte. These transzonal projections help explain how an extracellular coat can be present without preventing all direct intercellular communication.</p>
+<p class="teaching-prose">Granulosa and cumulus cells have metabolic functions as well as signalling functions. The oocyte depends in part on neighbouring cells to transform and supply metabolic substrates. For example, cumulus cells can use glucose and supply metabolites such as pyruvate that support oocyte energy metabolism. This metabolic partnership is not equivalent to saying the oocyte has no capacity for its own metabolism. The central idea is complementary cellular specialisation, with the microenvironment influencing developmental competence.</p>
+<p class="teaching-prose">Communication also operates in the opposite direction. Oocytes secrete growth factors, including GDF9 and BMP15 in mammals, which influence granulosa or cumulus differentiation and function. These factors belong to the broader transforming growth factor beta superfamily. Their relative importance and the reproductive phenotypes associated with their disruption vary among species. The oocyte is therefore not merely a passive recipient of follicular nourishment. It helps organise the tissue that supports its own development.</p>
+<p class="teaching-prose">The arrest of the fully grown mammalian oocyte provides a particularly instructive example of intercellular control. High oocyte cyclic AMP maintains conditions that restrain the activation of the cyclin B–CDK1 complex, also known as maturation-promoting factor. Cyclic AMP-dependent protein kinase A supports the inhibitory state of the cell-cycle regulatory machinery. A high concentration of a second messenger is a dynamic state: synthesis must balance breakdown. The phosphodiesterase PDE3A can hydrolyse oocyte cAMP, so regulation of this enzyme can determine whether the cell-cycle block persists.</p>
+<p class="teaching-prose">Work in mouse follicles established that cyclic GMP generated in the somatic cell compartment can pass through gap junctions to the oocyte and inhibit PDE3A. The C-type natriuretic peptide, encoded by NPPC, stimulates the guanylyl cyclase receptor NPR2 in granulosa cells. This pathway helps maintain cGMP and thereby preserve the cAMP-dependent arrest in the oocyte. The two cyclic nucleotides are not interchangeable. The relevant cGMP effect is inhibition of cAMP breakdown, so a reduction of cGMP can ultimately cause a reduction in cAMP. This is a useful example of one second messenger controlling the lifetime of another.</p>
+<p class="teaching-prose">When a mature follicle receives the LH stimulus, cGMP synthesis decreases and the organisation of intercellular communication changes. A decline in oocyte cGMP relieves inhibition of PDE3A, allowing cAMP to fall. Downstream cell-cycle regulators can then permit cyclin B–CDK1 activation, germinal vesicle breakdown and progression through meiosis I. The somatic cell compartment is therefore an important intermediary between the pituitary hormone and the germ-cell cycle. The detailed temporal balance of these events has been investigated particularly in rodents; the model should not be presented as though every kinetic detail were measured directly in human follicles.</p>
+<p class="teaching-prose">Notice an apparent contradiction that often occurs in exam questions. LH acting on mural granulosa cells can activate a cAMP-dependent pathway, whereas the downstream oocyte must experience a fall in its own cAMP for meiotic resumption. The measurements refer to different cell compartments. The rise in one intracellular messenger concentration does not require the same rise in every adjacent cell. The whole follicle is a network of communicating but distinct cells, and interpretation depends on the location of each molecular event.</p><figure class="figure-panel"><svg viewBox="0 0 680 410" role="img" aria-labelledby="f4t f4d" xmlns="http://www.w3.org/2000/svg"><title id="f4t">Somatic regulation of meiotic prophase arrest in mouse follicles.</title><desc id="f4d">CNP activates granulosa NPR2; then Somatic cGMP reaches oocyte; then cGMP restrains PDE3A activity; then Oocyte cAMP remains high; then Cyclin B–CDK1 activation restrained</desc><rect x="75" y="15" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="44" text-anchor="middle" font-size="17" fill="var(--ink)">CNP activates granulosa NPR2</text><path d="M340 63v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="91" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="120" text-anchor="middle" font-size="17" fill="var(--ink)">Somatic cGMP reaches oocyte</text><path d="M340 139v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="167" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="196" text-anchor="middle" font-size="17" fill="var(--ink)">cGMP restrains PDE3A activity</text><path d="M340 215v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="243" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="272" text-anchor="middle" font-size="17" fill="var(--ink)">Oocyte cAMP remains high</text><path d="M340 291v23 l-6 -8 m6 8 l6 -8" fill="none" stroke="var(--accent)" stroke-width="2.5"/><rect x="75" y="319" width="530" height="48" rx="12" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><text x="340" y="348" text-anchor="middle" font-size="17" fill="var(--ink)">Cyclin B–CDK1 activation restrained</text></svg><figcaption>Somatic regulation of meiotic prophase arrest in mouse follicles.</figcaption></figure></section>
+<section id="s7"><h2>Experimental evidence and causal reasoning</h2><p class="teaching-prose">A classical way to separate ovarian endocrine and germ-cell functions is to compare the responses of intact follicles with the responses of separated cell populations. If a steroid precursor is produced by one cell type and converted by another, cultures containing only one population may yield a different steroid profile from co-cultures. To interpret the result, one needs comparable viable cell numbers, an appropriate medium, controls for exogenous steroids and a clear description of follicular stage. Contamination by even a small number of another steroidogenic cell type can obscure the separation of function.</p>
+<p class="teaching-prose">An informative hypothetical design uses four granulosa culture conditions: vehicle alone, FSH alone, androgen alone, and FSH plus androgen. Estradiol is measured in the medium after a fixed incubation interval. An increase with combined FSH and substrate would be consistent with FSH-dependent enhancement of aromatase capacity, provided appropriate control conditions are used. Measuring aromatase abundance or activity and including a selective inhibitor would strengthen the causal inference. Measuring steroid output alone does not prove which enzyme changed, because altered substrate uptake, metabolism or cell survival may also affect the result.</p>
+<p class="teaching-prose">A second experimental approach compares the meiotic state of oocytes that remain within intact follicles with those removed from the follicular environment. In mammalian model systems, isolated fully grown oocytes can undergo spontaneous meiotic resumption under suitable culture conditions. This observation suggests that the follicle normally provides inhibitory support. It does not mean that every stage of oocyte growth becomes autonomous when isolated, or that the isolated cells always acquire full developmental competence. The initial developmental state is a necessary variable in interpreting the result.</p>
+<p class="teaching-prose">In 2009, Norris and colleagues investigated the role of somatic-cell cGMP in mouse ovarian follicles. Their work connected the concentrations of cyclic nucleotides across compartments with meiotic control. In 2010, Zhang and colleagues examined the contribution of the granulosa-cell NPPC–NPR2 pathway, combining expression and functional evidence in mouse follicles. In 2012, Robinson and colleagues investigated changes in NPR2 activity following LH stimulation. These studies support a causal model in which the somatic environment actively maintains arrest and alters that state in response to hormonal stimulation. They do not establish that all mammals have identical messenger concentrations, receptor distributions or response kinetics.</p>
+<p class="teaching-prose">One can test the logic without memorising the experimental apparatus. If PDE3A is strongly inhibited in a fully grown oocyte, the breakdown of cAMP through this route is reduced. Even if LH lowers follicular cGMP, the normal downstream fall in cAMP may be impaired. If the only measured endpoint is GVBD, the investigator should still avoid concluding that all aspects of oocyte function have been rescued. Complementary measurements of cAMP, chromosome alignment and polar-body extrusion would separate signal transduction from completion of the cellular division.</p>
+<p class="teaching-prose">Consider also an experiment that disrupts gap junction communication. A decline in oocyte cGMP and increased meiotic resumption could fit the transport model. However, gap junctions participate in other exchanges, including metabolic cooperation. If prolonged disruption reduces oocyte viability, then increased or decreased maturation may reflect a mixture of effects. A short exposure, suitable vehicle controls and independent viability assessment are therefore valuable. Experimental specificity is not guaranteed simply by labelling a reagent an inhibitor.</p></section>
+<section id="s8"><h2>Ovarian reserve, follicular atresia and quantitative interpretation</h2><p class="teaching-prose">Atresia is the degeneration of a follicle that fails to continue development. It occurs at multiple stages and represents a major route of loss from the ovarian follicle population. In many growing follicles, granulosa cell apoptosis is a prominent feature of the process. The oocyte and other follicular tissues subsequently degenerate or are remodelled. Not every follicle is necessarily lost through an identical sequence of cellular events. Atresia should be distinguished from ovulation, which releases the cumulus–oocyte complex, and from luteal regression, which concerns the endocrine structure formed after ovulation.</p>
+<p class="teaching-prose">Consider an illustrative population model over a specified time interval. Let R be the number of resting follicles at the start of the interval, A the number that activate, and L the number lost directly from the resting pool without entering the counted growing population. Under the simplified assumption that new resting follicles are not added, the final number is R minus A minus L. This accounting identity does not assume that activation and direct loss are the only biological processes in all circumstances; it defines a deliberately simplified bookkeeping model for the population being counted.</p>
+<p class="teaching-prose">For example, suppose an illustrative ovary begins with 20,000 resting follicles, 240 activate during the interval and 160 are lost directly. The final resting pool is 19,600. The decline of 400 represents two percent of the initial pool. If one follicle from a previously growing cohort ovulates in the same interval, it should not be subtracted again from the resting pool: it had already left that pool earlier. Counting both the initial recruitment and subsequent ovulation as independent losses from the same reserve would double-count the follicle. The numbers are invented for reasoning and are not human clinical measurements.</p>
+<p class="teaching-prose">The antral follicle count obtained using ultrasound samples a different population from the reserve in this model. It counts visible antral follicles meeting the measurement criteria, not all follicles embedded microscopically in the cortex. Serum AMH also provides an indirect indication of growing follicle populations. The two measures can be useful when estimating the quantitative response of ovaries to stimulation. They cannot establish the chromosomal normality of a particular oocyte or supply a guaranteed prediction of pregnancy.</p>
+<p class="teaching-prose">Basal FSH provides another physiological perspective. If follicular steroid and inhibin feedback falls, the pituitary may increase FSH secretion. Thus elevated FSH can arise because ovarian responsiveness is diminished rather than because ovarian stimulation is excessively effective. A measurement from one time point requires interpretation in relation to cycle stage and associated hormone concentrations. A normal value likewise does not prove that all parts of the reproductive system are normal. Endocrine interpretation rests on linked signals rather than on a single number in isolation.</p>
+<p class="teaching-prose">A comparison of groups illustrates the difference between quantity and quality. Suppose two model cohorts each contain ten mature oocytes. If one contains a higher fraction of normally segregated chromosomes, the expected number of chromosomally balanced cells differs even though the mature-cell counts are identical. Conversely, a larger cohort may have a smaller normal fraction yet a similar number of balanced cells. These hypothetical relations demonstrate why neither the size of a follicle pool nor the fraction of mature oocytes provides a complete measure of developmental outcomes. A physiological examination may ask students to distinguish the denominator of a percentage, the stage of measurement and the specific endpoint before drawing a conclusion.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system">OpenStax, Anatomy and Physiology 2e, §27.2</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK279054/">Endotext, The Normal Menstrual Cycle and the Control of Ovulation</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2680110/">Norris et al. (2009), Cyclic GMP from the surrounding somatic cells regulates cyclic AMP and meiosis in the mouse oocyte</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/20947764/">Zhang et al. (2010), Granulosa cell ligand NPPC and its receptor NPR2 maintain meiotic arrest in mouse oocytes</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/22546688/">Robinson et al. (2012), LH reduces the activity of NPR2 guanylyl cyclase in mouse ovarian follicles</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/33280722/">ASRM (2020), Testing and interpreting measures of ovarian reserve</a></li></ol></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology: Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged scientific diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // Resolve adjacent chapters from published curriculum links, including later publications.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.J.09","previous-node","← "],["7.J.11","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);if(Array.from(nav.querySelectorAll("a")).some(a=>a.getAttribute("href")===href))continue;const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      document.querySelectorAll(".figure-panel svg").forEach(figure=>{const button=document.createElement("button");button.type="button";button.className="tool-btn";button.textContent="Enlarge diagram";figure.parentNode.append(button);button.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return;const clone=figure.cloneNode(true);clone.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);clone.querySelectorAll("*").forEach(el=>{for(const attr of Array.from(el.attributes)){if(/url\(#/.test(attr.value))el.setAttribute(attr.name,attr.value.replace(/url\(#([^)]*)\)/g,"url(#zoom-$1)"));if((attr.name==="href"||attr.name==="xlink:href")&&attr.value.startsWith("#"))el.setAttribute(attr.name,"#zoom-"+attr.value.slice(1));}});const refs=clone.getAttribute("aria-labelledby");if(refs)clone.setAttribute("aria-labelledby",refs.split(" ").map(id=>"zoom-"+id).join(" "));byId("zoom-art").replaceChildren(clone);dialog.showModal();});});
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

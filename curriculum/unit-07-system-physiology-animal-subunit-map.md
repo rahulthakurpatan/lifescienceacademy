@@ -587,3 +587,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 13,993 genuine teaching words, 141 distinct paragraphs, 11 teaching sections, 12 original SVGs (3 graphs), 5 tables, 55 original explained questions (25 B / 25 C / 5 additional), 17 misconceptions, 14 recall prompts and 16 reference entries.
 - Academy: 411/723; Unit 07: 78/90; 7.J: 8/12. Earliest global pending: 7.J.01 — Foundations of Endocrinology and Hormonal Communication; earliest in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.11-publication-audit.md`.
+
+### Publication checkpoint — 7.J.01 (2026-11-28)
+
+- Chapter: [Foundations of Endocrinology and Hormonal Communication](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-endocrinology-and-hormonal-communication.html); internal scientific/editorial review 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 13,542 genuine teaching words, 130 unique paragraphs, 9 teaching sections, 12 original accessible SVGs (4 graphs), 4 tables, 50 explained questions (20 B / 20 C / 10 additional), 16 misconceptions, 12 recall prompts, 14 references.
+- Academy: 412/723; Unit 07: 79/90; 7.J: 9/12. Earliest global unpublished: 7.J.06 — Endocrine Pancreas and Glucose Homeostasis; next in 7.J: 7.J.06 — Endocrine Pancreas and Glucose Homeostasis.
+- Audit: `curriculum/qa/7.J.01-publication-audit.md`.

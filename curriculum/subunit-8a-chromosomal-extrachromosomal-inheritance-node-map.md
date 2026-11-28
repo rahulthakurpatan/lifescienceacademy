@@ -143,3 +143,13 @@ Trace Mendelian transmission from segregation and independent assortment through
 - Academy: 388/723; Unit 08: 5/36; 8.A: 5/8.
 - Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.A.05-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.A.07
+
+- Chapter: [Sex-Linked, Sex-Limited and Sex-Influenced Inheritance](https://rahulthakurpatan.github.io/lifescienceacademy/sex-linked-sex-limited-and-sex-influenced-inheritance.html).
+- Internal QA: 95/100; 14,185 genuine teaching words; 14 SVGs (3 graphs); 5 tables; 56 explained questions (20 B, 31 C, 5 SET); 15 misconceptions; 12 recall prompts; 18 references.
+- Integrated progress: 423/723 Academy; Unit 08 19/36; 8.A 6/8.
+- Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships. Global earliest pending: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/8.A.07-publication-audit.md`.
+- Deployment and live verification pending.

@@ -1,74 +1,68 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-28",
-  "unit": "07",
+  "unit": "08",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.L.02",
-  "title": "Central Regulation of Appetite and Energy Homeostasis",
-  "subunit": "7.L",
-  "topic": "Central Regulation of Appetite and Energy Homeostasis",
-  "slug": "central-regulation-of-appetite-and-energy-homeostasis",
+  "node_id": "8.A.07",
+  "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
+  "subunit": "8.A",
+  "topic": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
+  "slug": "sex-linked-sex-limited-and-sex-influenced-inheritance",
   "next_pending_node_id": "7.L.04",
   "next_pending_node_title": "Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure",
-  "published_node_count": 422,
+  "published_node_count": 423,
   "publication_allowed": true,
-  "main_baseline_sha": "bdf121f2c27ef0c7aa863e58ceeebcf35b23c8e9",
+  "main_baseline_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; then develop earliest unpublished node.",
-  "planned_node_count": 90,
-  "planned_subunit_count": 12,
-  "architecture_version": "unit-07-subunit-node-map",
-  "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
+  "planned_node_count": 36,
+  "planned_subunit_count": 6,
+  "architecture_version": "unit-08-subunit-node-map",
+  "curriculum_roadmap": "curriculum/unit-08-inheritance-biology-subunit-map.md",
   "last_qa": {
-    "node_id": "7.L.02",
-    "title": "Central Regulation of Appetite and Energy Homeostasis",
-    "chapter_path": "central-regulation-of-appetite-and-energy-homeostasis.html",
-    "chapter_blob_sha": "156e867d156abc61b75f7ad6a4041b17590a3e1e",
-    "working_branch": "recovery/7-l-02-central-appetite-83ece1d",
-    "working_commit_sha": "9aa02c4ee9c1b7ad372173aa274799a8804531ad",
-    "publication_base_sha": "bdf121f2c27ef0c7aa863e58ceeebcf35b23c8e9",
-    "review_date": "2026-11-28",
+    "node_id": "8.A.07",
+    "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
+    "chapter_path": "sex-linked-sex-limited-and-sex-influenced-inheritance.html",
+    "chapter_blob_sha": "6afd27591b46b017dc99c37752c48745ee1795bb",
+    "working_branch": "recovery/8a07-quality-review-20261128",
+    "working_commit_sha": "ddc611ffd09cc6609e40e6c45e60258dec733119",
+    "publication_base_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
     "status": "published_deployment_verification_pending",
-    "teaching_words": 14693,
-    "teaching_words_lexical": 14702,
-    "teaching_paragraphs": 130,
-    "teaching_sections": 11,
-    "microtopic_coverage_groups": 10,
-    "svg_count": 13,
-    "graph_count": 2,
-    "table_count": 3,
-    "worked_quantitative_examples": 8,
-    "questions": 50,
-    "part_b": 20,
-    "part_c": 20,
-    "other_questions": 10,
-    "answer_explanations": 50,
-    "misconceptions": 17,
-    "active_recall": 12,
-    "references": 13,
-    "score": 95,
-    "rubric": {
+    "audit_path": "curriculum/qa/8.A.07-publication-audit.md",
+    "metrics": {
+      "genuine_teaching_words": 14185,
+      "unicode_lexical_teaching_words": 14302,
+      "teaching_paragraphs": 126,
+      "scientific_svgs": 14,
+      "graphs": 3,
+      "tables": 5,
+      "questions_total": 56,
+      "part_b": 20,
+      "part_c": 31,
+      "set": 5,
+      "answer_explanations": 56,
+      "misconceptions": 15,
+      "active_recall": 12,
+      "references": 18
+    },
+    "word_count_method": "Saved p.teaching-prose text, whitespace-delimited; supplementary content excluded.",
+    "quality_score": 95,
+    "quality_rubric": {
       "scientific_accuracy": 19,
       "syllabus_coverage": 15,
       "teaching_depth": 15,
-      "pedagogy": 9,
+      "pedagogy": 10,
       "illustrations": 9,
-      "questions": 9,
-      "experimental_reasoning": 5,
+      "exam_practice": 9,
+      "analytical_reasoning": 5,
       "revision": 5,
       "reader_accessibility": 4,
-      "technical_seo": 5
+      "technical_seo": 4
     },
-    "scientific_review": "Internal review of pathway distinctions, source identities, all answers, units, numerical examples and model limitations; clarified CART and receptor identity.",
-    "editorial_review": "Internal review of progression, teaching prose, balanced MCQ positions, misconceptions, diagram labels, reader controls, navigation and metadata; final saved HTML static audit.",
     "limitations": [
-      "No independent external peer review; not every source full text accessible.",
-      "No browser runtime or viewport rendering test; static accessibility and diagram checks only.",
-      "MP SET alignment uses official 2024 paper II syllabus, not an independently confirmed newer version.",
-      "Deployment and live content verification pending."
-    ],
-    "audit_path": "curriculum/qa/7.L.02-publication-audit.md"
+      "Internal review only; some primary full texts unavailable; MP SET archived syllabus used; static checks only, no interactive browser or screen-reader tests."
+    ]
   },
   "published_node_ids": [
     "1.A.01",
@@ -479,6 +473,7 @@
     "8.A.02",
     "8.A.05",
     "8.A.06",
+    "8.A.07",
     "8.A.08",
     "8.B.01",
     "8.B.03",
@@ -495,33 +490,32 @@
     "8.E.04"
   ],
   "prior_publication_qa": {
-    "node_id": "7.L.06",
-    "title": "Metabolic Flexibility and Maintenance of Metabolic Health",
-    "chapter_path": "metabolic-flexibility-and-maintenance-of-metabolic-health.html",
-    "chapter_blob_sha": "c63eb7dc6624f1191be78159440e15df2cfebc06",
-    "working_branch": "develop/7-l-06-metabolic-flexibility",
-    "working_commit_sha": "9e63e683b4f26b6ac2034c61f010568314093d62",
-    "publication_base_sha": "3203bf172d87b8fed1a7e7b7ab9b184af6c51f47",
+    "node_id": "7.L.02",
+    "title": "Central Regulation of Appetite and Energy Homeostasis",
+    "chapter_path": "central-regulation-of-appetite-and-energy-homeostasis.html",
+    "chapter_blob_sha": "156e867d156abc61b75f7ad6a4041b17590a3e1e",
+    "working_branch": "recovery/7-l-02-central-appetite-83ece1d",
+    "working_commit_sha": "9aa02c4ee9c1b7ad372173aa274799a8804531ad",
+    "publication_base_sha": "bdf121f2c27ef0c7aa863e58ceeebcf35b23c8e9",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
-    "teaching_words": 13138,
-    "teaching_words_lexical": 13223,
-    "visible_article_words": 17694,
-    "teaching_paragraphs": 146,
-    "teaching_sections": 12,
-    "microtopic_coverage_groups": 12,
-    "svg_count": 15,
-    "graph_count": 3,
-    "table_count": 4,
-    "worked_quantitative_examples": 12,
-    "questions": 52,
+    "teaching_words": 14693,
+    "teaching_words_lexical": 14702,
+    "teaching_paragraphs": 130,
+    "teaching_sections": 11,
+    "microtopic_coverage_groups": 10,
+    "svg_count": 13,
+    "graph_count": 2,
+    "table_count": 3,
+    "worked_quantitative_examples": 8,
+    "questions": 50,
     "part_b": 20,
-    "part_c": 26,
-    "other_questions": 6,
-    "answer_explanations": 52,
-    "misconceptions": 18,
-    "active_recall": 15,
-    "references": 15,
+    "part_c": 20,
+    "other_questions": 10,
+    "answer_explanations": 50,
+    "misconceptions": 17,
+    "active_recall": 12,
+    "references": 13,
     "score": 95,
     "rubric": {
       "scientific_accuracy": 19,
@@ -529,49 +523,49 @@
       "teaching_depth": 15,
       "pedagogy": 9,
       "illustrations": 9,
-      "questions": 10,
+      "questions": 9,
       "experimental_reasoning": 5,
       "revision": 5,
       "reader_accessibility": 4,
-      "technical_seo": 4
+      "technical_seo": 5
     },
-    "scientific_review": "Internal pass: checked tissue distinctions, pathway signs, stoichiometry, numerical calculations, mass balance and literature links; revised nine SVG pathways and answer positions.",
-    "editorial_review": "Internal pass: inspected ordered sections, definitions, study scope, source notes, reader controls, question and revision structure; browser rendering and interaction not tested.",
+    "scientific_review": "Internal review of pathway distinctions, source identities, all answers, units, numerical examples and model limitations; clarified CART and receptor identity.",
+    "editorial_review": "Internal review of progression, teaching prose, balanced MCQ positions, misconceptions, diagram labels, reader controls, navigation and metadata; final saved HTML static audit.",
     "limitations": [
-      "No independent external peer review.",
-      "No actual browser/mobile rendering or interactive control execution available in this execution; static structure checked.",
-      "GitHub Pages deployment and live content not yet verified."
+      "No independent external peer review; not every source full text accessible.",
+      "No browser runtime or viewport rendering test; static accessibility and diagram checks only.",
+      "MP SET alignment uses official 2024 paper II syllabus, not an independently confirmed newer version.",
+      "Deployment and live content verification pending."
     ],
-    "audit_path": "curriculum/qa/7.L.06-publication-audit.md"
+    "audit_path": "curriculum/qa/7.L.02-publication-audit.md"
   },
   "previous_last_qa": {
-    "node_id": "7.L.06",
-    "title": "Metabolic Flexibility and Maintenance of Metabolic Health",
-    "chapter_path": "metabolic-flexibility-and-maintenance-of-metabolic-health.html",
-    "chapter_blob_sha": "c63eb7dc6624f1191be78159440e15df2cfebc06",
-    "working_branch": "develop/7-l-06-metabolic-flexibility",
-    "working_commit_sha": "9e63e683b4f26b6ac2034c61f010568314093d62",
-    "publication_base_sha": "3203bf172d87b8fed1a7e7b7ab9b184af6c51f47",
+    "node_id": "7.L.02",
+    "title": "Central Regulation of Appetite and Energy Homeostasis",
+    "chapter_path": "central-regulation-of-appetite-and-energy-homeostasis.html",
+    "chapter_blob_sha": "156e867d156abc61b75f7ad6a4041b17590a3e1e",
+    "working_branch": "recovery/7-l-02-central-appetite-83ece1d",
+    "working_commit_sha": "9aa02c4ee9c1b7ad372173aa274799a8804531ad",
+    "publication_base_sha": "bdf121f2c27ef0c7aa863e58ceeebcf35b23c8e9",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
-    "teaching_words": 13138,
-    "teaching_words_lexical": 13223,
-    "visible_article_words": 17694,
-    "teaching_paragraphs": 146,
-    "teaching_sections": 12,
-    "microtopic_coverage_groups": 12,
-    "svg_count": 15,
-    "graph_count": 3,
-    "table_count": 4,
-    "worked_quantitative_examples": 12,
-    "questions": 52,
+    "teaching_words": 14693,
+    "teaching_words_lexical": 14702,
+    "teaching_paragraphs": 130,
+    "teaching_sections": 11,
+    "microtopic_coverage_groups": 10,
+    "svg_count": 13,
+    "graph_count": 2,
+    "table_count": 3,
+    "worked_quantitative_examples": 8,
+    "questions": 50,
     "part_b": 20,
-    "part_c": 26,
-    "other_questions": 6,
-    "answer_explanations": 52,
-    "misconceptions": 18,
-    "active_recall": 15,
-    "references": 15,
+    "part_c": 20,
+    "other_questions": 10,
+    "answer_explanations": 50,
+    "misconceptions": 17,
+    "active_recall": 12,
+    "references": 13,
     "score": 95,
     "rubric": {
       "scientific_accuracy": 19,
@@ -579,20 +573,21 @@
       "teaching_depth": 15,
       "pedagogy": 9,
       "illustrations": 9,
-      "questions": 10,
+      "questions": 9,
       "experimental_reasoning": 5,
       "revision": 5,
       "reader_accessibility": 4,
-      "technical_seo": 4
+      "technical_seo": 5
     },
-    "scientific_review": "Internal pass: checked tissue distinctions, pathway signs, stoichiometry, numerical calculations, mass balance and literature links; revised nine SVG pathways and answer positions.",
-    "editorial_review": "Internal pass: inspected ordered sections, definitions, study scope, source notes, reader controls, question and revision structure; browser rendering and interaction not tested.",
+    "scientific_review": "Internal review of pathway distinctions, source identities, all answers, units, numerical examples and model limitations; clarified CART and receptor identity.",
+    "editorial_review": "Internal review of progression, teaching prose, balanced MCQ positions, misconceptions, diagram labels, reader controls, navigation and metadata; final saved HTML static audit.",
     "limitations": [
-      "No independent external peer review.",
-      "No actual browser/mobile rendering or interactive control execution available in this execution; static structure checked.",
-      "GitHub Pages deployment and live content not yet verified."
+      "No independent external peer review; not every source full text accessible.",
+      "No browser runtime or viewport rendering test; static accessibility and diagram checks only.",
+      "MP SET alignment uses official 2024 paper II syllabus, not an independently confirmed newer version.",
+      "Deployment and live content verification pending."
     ],
-    "audit_path": "curriculum/qa/7.L.06-publication-audit.md"
+    "audit_path": "curriculum/qa/7.L.02-publication-audit.md"
   },
   "unit_02": {
     "published_node_ids": [
@@ -2111,7 +2106,7 @@
     "last_published_node_id": "6.H.11",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-7l-interorgan-communication-metabolic-homeostasis-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-8a-chromosomal-extrachromosomal-inheritance-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -52265,6 +52260,50 @@
         "Deployment and live content verification pending."
       ],
       "audit_path": "curriculum/qa/7.L.02-publication-audit.md"
+    },
+    "8.A.07": {
+      "node_id": "8.A.07",
+      "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
+      "chapter_path": "sex-linked-sex-limited-and-sex-influenced-inheritance.html",
+      "chapter_blob_sha": "6afd27591b46b017dc99c37752c48745ee1795bb",
+      "working_branch": "recovery/8a07-quality-review-20261128",
+      "working_commit_sha": "ddc611ffd09cc6609e40e6c45e60258dec733119",
+      "publication_base_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
+      "status": "published_deployment_verification_pending",
+      "audit_path": "curriculum/qa/8.A.07-publication-audit.md",
+      "metrics": {
+        "genuine_teaching_words": 14185,
+        "unicode_lexical_teaching_words": 14302,
+        "teaching_paragraphs": 126,
+        "scientific_svgs": 14,
+        "graphs": 3,
+        "tables": 5,
+        "questions_total": 56,
+        "part_b": 20,
+        "part_c": 31,
+        "set": 5,
+        "answer_explanations": 56,
+        "misconceptions": 15,
+        "active_recall": 12,
+        "references": 18
+      },
+      "word_count_method": "Saved p.teaching-prose text, whitespace-delimited; supplementary content excluded.",
+      "quality_score": 95,
+      "quality_rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "exam_practice": 9,
+        "analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "limitations": [
+        "Internal review only; some primary full texts unavailable; MP SET archived syllabus used; static checks only, no interactive browser or screen-reader tests."
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -70072,7 +70111,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/central-regulation-of-appetite-and-energy-homeostasis.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/sex-linked-sex-limited-and-sex-influenced-inheritance.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -78509,6 +78548,7 @@
       "8.A.02",
       "8.A.05",
       "8.A.06",
+      "8.A.07",
       "8.A.08",
       "8.B.01",
       "8.B.03",
@@ -78524,117 +78564,53 @@
       "8.E.03",
       "8.E.04"
     ],
-    "published_node_count": 18,
+    "published_node_count": 19,
     "planned_node_count": 36,
-    "last_published_node_id": "8.E.04",
+    "last_published_node_id": "8.A.07",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "8.E.04",
-      "title": "Genetic Variance, Heritability and Response to Selection",
-      "chapter_path": "genetic-variance-heritability-and-response-to-selection.html",
-      "chapter_blob_sha": "7b24621e7a8041d758eb1407b4d2bd2373d7eb5b",
-      "working_branch": "draft/8e04-genetic-variance-heritability",
-      "working_commit_sha": "470a82728c15d7b5f638fd98936b85d37ea3f41b",
-      "draft_blob_sha": "782ec9a5faa814482075a0ad3c614d6a8114b1b9",
-      "publication_base_sha": "6c0cba8b5f8fb878771d79c1a4d447524411bee8",
-      "review_date": "2026-11-28",
+      "node_id": "8.A.07",
+      "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
+      "chapter_path": "sex-linked-sex-limited-and-sex-influenced-inheritance.html",
+      "chapter_blob_sha": "6afd27591b46b017dc99c37752c48745ee1795bb",
+      "working_branch": "recovery/8a07-quality-review-20261128",
+      "working_commit_sha": "ddc611ffd09cc6609e40e6c45e60258dec733119",
+      "publication_base_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
       "status": "published_deployment_verification_pending",
+      "audit_path": "curriculum/qa/8.A.07-publication-audit.md",
       "metrics": {
-        "genuine_teaching_words": 14001,
-        "teaching_paragraphs": 166,
-        "scientific_svgs": 11,
-        "graphs": 5,
-        "tables": 4,
-        "questions_total": 50,
+        "genuine_teaching_words": 14185,
+        "unicode_lexical_teaching_words": 14302,
+        "teaching_paragraphs": 126,
+        "scientific_svgs": 14,
+        "graphs": 3,
+        "tables": 5,
+        "questions_total": 56,
         "part_b": 20,
-        "part_c": 20,
-        "set": 10,
-        "answer_explanations": 50,
+        "part_c": 31,
+        "set": 5,
+        "answer_explanations": 56,
         "misconceptions": 15,
         "active_recall": 12,
-        "references": 12,
-        "answer_positions": {
-          "A": 13,
-          "B": 13,
-          "C": 12,
-          "D": 12
-        }
+        "references": 18
       },
-      "word_count_method": "Unicode lexical tokens in p.teaching-prose only, excluding supplementary content.",
+      "word_count_method": "Saved p.teaching-prose text, whitespace-delimited; supplementary content excluded.",
       "quality_score": 95,
       "quality_rubric": {
         "scientific_accuracy": 19,
-        "syllabus_alignment": 15,
+        "syllabus_coverage": 15,
         "teaching_depth": 15,
         "pedagogy": 10,
         "illustrations": 9,
-        "exam_questions": 9,
-        "quantitative_analysis": 5,
-        "revision_mastery": 5,
-        "reader_experience": 4,
-        "technical_quality": 4
-      },
-      "coverage_matrix": [
-        {
-          "topic": "Phenotype model and variance components",
-          "status": "covered"
-        },
-        {
-          "topic": "Additive, dominance and epistatic effects",
-          "status": "covered"
-        },
-        {
-          "topic": "Single-locus substitution effect and variance derivation",
-          "status": "covered"
-        },
-        {
-          "topic": "Genotype–environment covariance and interaction",
-          "status": "covered"
-        },
-        {
-          "topic": "Broad- and narrow-sense heritability",
-          "status": "covered"
-        },
-        {
-          "topic": "Experimental designs, ANOVA, family and twin studies",
-          "status": "covered"
-        },
-        {
-          "topic": "Parent–offspring regression and repeatability",
-          "status": "covered"
-        },
-        {
-          "topic": "Selection differential, breeder’s equation and realised heritability",
-          "status": "covered"
-        },
-        {
-          "topic": "Assumptions, interpretation, limitations and quantitative practice",
-          "status": "covered"
-        }
-      ],
-      "audit_record": "curriculum/qa/8.E.04-publication-audit.md",
-      "scientific_review": "Reviewed variance decomposition, substitution effect, family covariance, ACE/ADE assumptions, ANOVA, selection response and answers against cited sources; numerical spot checks passed.",
-      "editorial_review": "Revised ten analytical items, balanced answer keys, expanded misconception explanations and checked saved HTML, progression and navigation.",
-      "audit": {
-        "production_blob_verified": true,
-        "duplicate_ids": 0,
-        "broken_internal_anchors": 0,
-        "duplicate_teaching_paragraphs": 0,
-        "duplicate_questions": 0,
-        "question_option_counts_verified": true,
-        "aria_references_verified": true,
-        "balanced_tags": true,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-variance-heritability-and-response-to-selection.html",
-        "robots": "index,follow",
-        "previous_menu_links_preserved": 400,
-        "previous_sitemap_entries_preserved": 401
+        "exam_practice": 9,
+        "analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
       },
       "limitations": [
-        "Internal static review, not external peer review.",
-        "No interactive browser or screen-reader test available.",
-        "Current official-host MP SET syllabus not independently accessible; archived syllabus consulted. Some cited full texts not accessible.",
-        "Pages deployment and live rendering verification separate."
+        "Internal review only; some primary full texts unavailable; MP SET archived syllabus used; static checks only, no interactive browser or screen-reader tests."
       ]
     },
     "qa_by_node": {
@@ -80858,6 +80834,50 @@
           "Current official-host MP SET syllabus not independently accessible; archived syllabus consulted. Some cited full texts not accessible.",
           "Pages deployment and live rendering verification separate."
         ]
+      },
+      "8.A.07": {
+        "node_id": "8.A.07",
+        "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
+        "chapter_path": "sex-linked-sex-limited-and-sex-influenced-inheritance.html",
+        "chapter_blob_sha": "6afd27591b46b017dc99c37752c48745ee1795bb",
+        "working_branch": "recovery/8a07-quality-review-20261128",
+        "working_commit_sha": "ddc611ffd09cc6609e40e6c45e60258dec733119",
+        "publication_base_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
+        "status": "published_deployment_verification_pending",
+        "audit_path": "curriculum/qa/8.A.07-publication-audit.md",
+        "metrics": {
+          "genuine_teaching_words": 14185,
+          "unicode_lexical_teaching_words": 14302,
+          "teaching_paragraphs": 126,
+          "scientific_svgs": 14,
+          "graphs": 3,
+          "tables": 5,
+          "questions_total": 56,
+          "part_b": 20,
+          "part_c": 31,
+          "set": 5,
+          "answer_explanations": 56,
+          "misconceptions": 15,
+          "active_recall": 12,
+          "references": 18
+        },
+        "word_count_method": "Saved p.teaching-prose text, whitespace-delimited; supplementary content excluded.",
+        "quality_score": 95,
+        "quality_rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "exam_practice": 9,
+          "analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "limitations": [
+          "Internal review only; some primary full texts unavailable; MP SET archived syllabus used; static checks only, no interactive browser or screen-reader tests."
+        ]
       }
     },
     "next_pending_node_id": "8.A.03",
@@ -80869,144 +80889,121 @@
         "8.A.02",
         "8.A.05",
         "8.A.06",
+        "8.A.07",
         "8.A.08"
       ],
-      "published_node_count": 5,
+      "published_node_count": 6,
       "planned_node_count": 8,
       "next_pending_node_id": "8.A.03",
       "next_pending_node_title": "Incomplete Dominance, Codominance and Allelic Relationships",
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "8.E.02",
-      "title": "Genetic Structure and Departure from Population Equilibrium",
-      "chapter_path": "genetic-structure-and-departure-from-population-equilibrium.html",
-      "chapter_blob_sha": "a4459d1efb6ec36aa146563962c926ecc3dac51f",
-      "working_branch": "development/8e02-population-equilibrium",
-      "working_commit_sha": "4744e8731ae84e1531def0b6bee4be671292e9b1",
-      "draft_blob_sha": "a4459d1efb6ec36aa146563962c926ecc3dac51f",
-      "publication_base_sha": "764e9f399f688479ad6b9f4a96c58dbfa47fc634",
+      "node_id": "8.E.04",
+      "title": "Genetic Variance, Heritability and Response to Selection",
+      "chapter_path": "genetic-variance-heritability-and-response-to-selection.html",
+      "chapter_blob_sha": "7b24621e7a8041d758eb1407b4d2bd2373d7eb5b",
+      "working_branch": "draft/8e04-genetic-variance-heritability",
+      "working_commit_sha": "470a82728c15d7b5f638fd98936b85d37ea3f41b",
+      "draft_blob_sha": "782ec9a5faa814482075a0ad3c614d6a8114b1b9",
+      "publication_base_sha": "6c0cba8b5f8fb878771d79c1a4d447524411bee8",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13899,
-        "teaching_paragraphs": 136,
-        "unique_teaching_paragraphs": 136,
-        "visible_words_excluding_svg": 18838,
-        "teaching_sections": 18,
+        "genuine_teaching_words": 14001,
+        "teaching_paragraphs": 166,
         "scientific_svgs": 11,
-        "graphs": 6,
+        "graphs": 5,
         "tables": 4,
-        "questions_total": 57,
+        "questions_total": 50,
         "part_b": 20,
-        "part_c": 30,
-        "set": 7,
-        "answer_explanations": 57,
-        "misconceptions": 18,
-        "active_recall": 16,
-        "references": 9,
-        "independent_numerical_checks": 69
+        "part_c": 20,
+        "set": 10,
+        "answer_explanations": 50,
+        "misconceptions": 15,
+        "active_recall": 12,
+        "references": 12,
+        "answer_positions": {
+          "A": 13,
+          "B": 13,
+          "C": 12,
+          "D": 12
+        }
       },
-      "word_count_method": "p.teaching-prose only; whitespace-delimited tokens containing a Unicode letter or digit; excludes questions, SVG, tables, UI, revision and references.",
+      "word_count_method": "Unicode lexical tokens in p.teaching-prose only, excluding supplementary content.",
       "quality_score": 95,
       "quality_rubric": {
         "scientific_accuracy": 19,
-        "syllabus_microtopics": 15,
+        "syllabus_alignment": 15,
         "teaching_depth": 15,
         "pedagogy": 10,
-        "scientific_illustrations": 9,
+        "illustrations": 9,
         "exam_questions": 9,
-        "experimental_analytical_reasoning": 5,
+        "quantitative_analysis": 5,
         "revision_mastery": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 4
+        "reader_experience": 4,
+        "technical_quality": 4
       },
       "coverage_matrix": [
         {
-          "microtopic": "Equilibrium baseline and sampling",
-          "section": "baseline; population-baselines; sampling",
-          "evidence": "Distinguish locus, population, census and sample; calculate observed and expected genotype proportions."
+          "topic": "Phenotype model and variance components",
+          "status": "covered"
         },
         {
-          "microtopic": "Nonrandom mating",
-          "section": "mating; pedigree",
-          "evidence": "Mechanism, assortative versus disassortative mating, genotype versus allele frequency effects."
+          "topic": "Additive, dominance and epistatic effects",
+          "status": "covered"
         },
         {
-          "microtopic": "Inbreeding and identity by descent",
-          "section": "pedigree; allele-identity",
-          "evidence": "F, pedigree interpretation, heterozygosity, selfing and genotype corrections."
+          "topic": "Single-locus substitution effect and variance derivation",
+          "status": "covered"
         },
         {
-          "microtopic": "Population subdivision",
-          "section": "subdivision",
-          "evidence": "Pooled versus local equilibrium; Wahlund effect and F statistics."
+          "topic": "Genotype–environment covariance and interaction",
+          "status": "covered"
         },
         {
-          "microtopic": "Gametic phase and haplotypes",
-          "section": "ld; ld-data",
-          "evidence": "Four haplotypes, phase ambiguity, coupling and repulsion."
+          "topic": "Broad- and narrow-sense heritability",
+          "status": "covered"
         },
         {
-          "microtopic": "Linkage disequilibrium",
-          "section": "ld; ld-data",
-          "evidence": "Derive D and r²; signed and bounded measures, contrasting physical linkage."
+          "topic": "Experimental designs, ANOVA, family and twin studies",
+          "status": "covered"
         },
         {
-          "microtopic": "Recombination and LD decay",
-          "section": "recombination; mechanistic-recombination",
-          "evidence": "Recurrence, assumptions, time course and exceptions."
+          "topic": "Parent–offspring regression and repeatability",
+          "status": "covered"
         },
         {
-          "microtopic": "Admixture",
-          "section": "admixture",
-          "evidence": "Source mixture, allele-frequency covariance and admixture-generated LD."
+          "topic": "Selection differential, breeder’s equation and realised heritability",
+          "status": "covered"
         },
         {
-          "microtopic": "Selection, mutation and migration",
-          "section": "forces; selection-depth",
-          "evidence": "Frequency change, viability selection, gene flow and mutation assumptions."
-        },
-        {
-          "microtopic": "Genetic drift and effective size",
-          "section": "forces; drift-evidence",
-          "evidence": "Sampling variance, bottlenecks, Buri experiment and limitations."
-        },
-        {
-          "microtopic": "Distinguishing causal processes",
-          "section": "inference; integrated-case",
-          "evidence": "Evaluate evidence and competing hypotheses; interpret integrated datasets."
-        },
-        {
-          "microtopic": "Quantitative genetics and applications",
-          "section": "applications",
-          "evidence": "Marker association, stratification, breeding and next-node conceptual bridge."
+          "topic": "Assumptions, interpretation, limitations and quantitative practice",
+          "status": "covered"
         }
       ],
-      "audit_record": "curriculum/qa/8.E.02-publication-audit.md",
-      "scientific_review": "Internal scientific pass: syllabus-bound mechanisms, source review, distinction between genotype and allele frequencies, F and identity by descent, Wahlund effect, haplotypes, signed LD, recombination recurrence, admixture, selection and drift, empirical interpretation. Independently recomputed 69 numerical assertions; all passed.",
-      "editorial_review": "Separate internal editorial pass: reordered foundations to applications, repaired duplicate SVG font attributes, revised MCQs and explanations, expanded misconceptions and mastery checks, improved graph tick labels; final saved HTML re-read.",
+      "audit_record": "curriculum/qa/8.E.04-publication-audit.md",
+      "scientific_review": "Reviewed variance decomposition, substitution effect, family covariance, ACE/ADE assumptions, ANOVA, selection response and answers against cited sources; numerical spot checks passed.",
+      "editorial_review": "Revised ten analytical items, balanced answer keys, expanded misconception explanations and checked saved HTML, progression and navigation.",
       "audit": {
+        "production_blob_verified": true,
         "duplicate_ids": 0,
+        "broken_internal_anchors": 0,
         "duplicate_teaching_paragraphs": 0,
-        "unresolved_anchors": 0,
-        "unresolved_aria_references": 0,
-        "unclosed_core_tags": 0,
-        "duplicate_svg_font_attributes": 0,
-        "placeholder_markers": 0,
-        "unicode_replacement_characters": 0,
         "duplicate_questions": 0,
-        "missing_explanations": 0,
-        "independent_numerical_failures": 0,
-        "canonical_correct": true,
-        "robots_index_follow": true,
-        "svg_accessibility_static": true
+        "question_option_counts_verified": true,
+        "aria_references_verified": true,
+        "balanced_tags": true,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/genetic-variance-heritability-and-response-to-selection.html",
+        "robots": "index,follow",
+        "previous_menu_links_preserved": 400,
+        "previous_sitemap_entries_preserved": 401
       },
       "limitations": [
-        "Internal reviews, not external peer review. Targeted reference checks, not independent full-text review of every source.",
-        "MP SET comparison uses archived 2024 syllabus; no newly issued 2026 MP SET document was independently verified.",
-        "HTML/SVG static checks only: no actual browser rendering, keyboard interaction, screen-reader session, mobile viewport test, or formal external HTML validator.",
-        "GitHub Pages deployment and live HTTP verification remain pending until separately evidenced."
+        "Internal static review, not external peer review.",
+        "No interactive browser or screen-reader test available.",
+        "Current official-host MP SET syllabus not independently accessible; archived syllabus consulted. Some cited full texts not accessible.",
+        "Pages deployment and live rendering verification separate."
       ]
     },
     "subunit_8b": {
@@ -81064,6 +81061,7 @@
     "8.A.02",
     "8.A.05",
     "8.A.06",
+    "8.A.07",
     "8.A.08"
   ],
   "unit8a_planned_node_count": 8,

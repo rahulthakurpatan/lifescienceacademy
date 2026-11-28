@@ -91,3 +91,9 @@
 - 7.E.01 — [Foundations of Sensory Physiology and Signal Transduction](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-sensory-physiology-and-signal-transduction.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 14,467 lexical words, 123 paragraphs; 13 original SVGs (5 graphs and a spike raster), 5 tables, 50 explained questions (20 Part B, 20 Part C, 10 SET/integrated), 18 misconceptions, 15 recall prompts and 16 references. Audit: `curriculum/qa/7.E.01-publication-audit.md`.
 - Subunit 7.E: 1/6; Unit 07: 35/90; Academy: 350/723. Next global unpublished node: 7.E.02 — Visual System: Eye Anatomy and Physiological Optics.
+
+### Publication checkpoint — 2026-11-28 — 7.E.06
+
+- 7.E.06 — [Tactile Sensation and Somatosensory Processing](https://rahulthakurpatan.github.io/lifescienceacademy/tactile-sensation-and-somatosensory-processing.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- 13,625 teaching words, 143 paragraphs; 11 accessible SVGs, 3 tables, 53 explained questions (21 Part B, 27 Part C, 5 SET/integrated), 15 misconceptions, 12 recall prompts and 15 references. Audit: `curriculum/qa/7.E.06-publication-audit.md`.
+- Subunit 7.E: 2/6; Unit 07: 36/90; Academy: 351/723. Next global unpublished node: 7.E.02 — Visual System: Eye Anatomy and Physiological Optics.

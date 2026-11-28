@@ -314,3 +314,12 @@ Molecular sample preparation and separation → biophysical measurements → omi
 - Reconciled source progress: Academy 437/723; Unit 14 8/60; Subunit 14.B 3/7.
 - Earliest pending in 14.B: 14.B.02 — Fluorescence Spectroscopy and Circular Dichroism; Unit 14: 14.A.05 — Chromatographic Separation and Analytical Interpretation; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/14.B.01-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 14.A.05
+
+- [14.A.05 — Chromatographic Separation and Analytical Interpretation](https://rahulthakurpatan.github.io/lifescienceacademy/chromatographic-separation-and-analytical-interpretation.html) — production source publication; Pages and live verification pending.
+- 13,978 genuine teaching words; 13 SVGs (5 graphs), 4 tables, 55 explained questions (20 B, 25 C, 10 additional), 18 misconceptions, 15 recall prompts, 14 references; internal static QA 95/100.
+- Reconciled source progress: Academy 438/723; Unit 14 9/60; Subunit 14.A 6/6.
+- Subunit 14.A: complete; existing next subunit menu preserved; Unit 14 next pending 14.B.02 — Fluorescence Spectroscopy and Circular Dichroism; global 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.A.05-publication-audit.md`.

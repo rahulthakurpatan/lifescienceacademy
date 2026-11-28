@@ -326,3 +326,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.E.01 — [Foundations of Sensory Physiology and Signal Transduction](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-sensory-physiology-and-signal-transduction.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 14,467 lexical words, 123 paragraphs; 13 original SVGs (5 graphs and a spike raster), 5 tables, 50 explained questions (20 Part B, 20 Part C, 10 SET/integrated), 18 misconceptions, 15 recall prompts and 16 references. Audit: `curriculum/qa/7.E.01-publication-audit.md`.
 - Subunit 7.E: 1/6; Unit 07: 35/90; Academy: 350/723. Next global unpublished node: 7.E.02 — Visual System: Eye Anatomy and Physiological Optics.
+
+### Publication checkpoint — 2026-11-28 — 7.E.02
+
+- 7.E.02 — [Visual System: Eye Anatomy and Physiological Optics](https://rahulthakurpatan.github.io/lifescienceacademy/visual-system-eye-anatomy-and-physiological-optics.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 14,323 whitespace-separated words, 133 paragraphs; 15 original SVGs (2 graphs), 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET/integrated), 17 misconceptions, 14 recall prompts and 18 references. Audit: `curriculum/qa/7.E.02-publication-audit.md`.
+- Subunit 7.E: 3/6; Unit 07: 37/90; Academy: 352/723. Next global unpublished node: 7.E.03 — Phototransduction and Neural Processing of Vision.

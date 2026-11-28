@@ -97,3 +97,9 @@
 - 7.E.06 — [Tactile Sensation and Somatosensory Processing](https://rahulthakurpatan.github.io/lifescienceacademy/tactile-sensation-and-somatosensory-processing.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - 13,625 teaching words, 143 paragraphs; 11 accessible SVGs, 3 tables, 53 explained questions (21 Part B, 27 Part C, 5 SET/integrated), 15 misconceptions, 12 recall prompts and 15 references. Audit: `curriculum/qa/7.E.06-publication-audit.md`.
 - Subunit 7.E: 2/6; Unit 07: 36/90; Academy: 351/723. Next global unpublished node: 7.E.02 — Visual System: Eye Anatomy and Physiological Optics.
+
+### Publication checkpoint — 2026-11-28 — 7.E.02
+
+- 7.E.02 — [Visual System: Eye Anatomy and Physiological Optics](https://rahulthakurpatan.github.io/lifescienceacademy/visual-system-eye-anatomy-and-physiological-optics.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 14,323 whitespace-separated words, 133 paragraphs; 15 original SVGs (2 graphs), 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET/integrated), 17 misconceptions, 14 recall prompts and 18 references. Audit: `curriculum/qa/7.E.02-publication-audit.md`.
+- Subunit 7.E: 3/6; Unit 07: 37/90; Academy: 352/723. Next global unpublished node: 7.E.03 — Phototransduction and Neural Processing of Vision.

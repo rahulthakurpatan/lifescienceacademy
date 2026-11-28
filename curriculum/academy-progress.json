@@ -4,81 +4,125 @@
   "unit": "07",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.F.02",
-  "title": "Kidney Anatomy and Functional Organisation of the Nephron",
-  "subunit": "7.F",
-  "topic": "Excretory System",
-  "slug": "kidney-anatomy-and-functional-organisation-of-the-nephron.html",
-  "next_pending_node_id": "7.E.04",
-  "next_pending_node_title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
-  "published_node_count": 356,
+  "node_id": "7.E.04",
+  "title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+  "subunit": "7.E",
+  "topic": "Sense Organs",
+  "slug": "auditory-system-ear-anatomy-and-mechanics-of-hearing.html",
+  "next_pending_node_id": "7.E.05",
+  "next_pending_node_title": "Auditory Transduction, Neural Processing and Equilibrium",
+  "published_node_count": 357,
   "publication_allowed": true,
-  "main_baseline_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8",
+  "main_baseline_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
   "quality_hold": false,
-  "next_required_action": "Verify production deployment and live chapter; then develop earliest unpublished node.",
+  "next_required_action": "Verify Pages deployment; continue earliest unpublished node 7.E.05",
   "planned_node_count": 90,
   "planned_subunit_count": 12,
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.F.02",
-    "title": "Kidney Anatomy and Functional Organisation of the Nephron",
-    "chapter_path": "kidney-anatomy-and-functional-organisation-of-the-nephron.html",
-    "chapter_blob_sha": "799de357d0c4f9295ffc05e41ceb5ec969d2dfab",
+    "node_id": "7.E.04",
+    "title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+    "chapter_path": "auditory-system-ear-anatomy-and-mechanics-of-hearing.html",
+    "working_branch": "draft/node-7e04-auditory-mechanics-20261128",
+    "working_commit_sha": "0fa6bcba624b3aed3ff0d64613eda42a620bd093",
+    "chapter_blob_sha": "b2e17b02b9dea0c0ad25fa0e7146021f7b32b57f",
+    "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+    "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
-    "genuine_teaching_words": 13077,
-    "whitespace_teaching_words": 13072,
-    "teaching_paragraphs": 128,
-    "svg_count": 13,
-    "scientific_tables": 2,
-    "practice_questions": 50,
-    "part_b_questions": 20,
-    "part_c_questions": 20,
-    "set_questions": 10,
-    "misconceptions": 15,
-    "active_recall_prompts": 10,
-    "references": 16,
-    "quality_score": 95,
+    "metrics": {
+      "genuine_teaching_words": 13883,
+      "whitespace_teaching_words": 13799,
+      "word_count_method": "Lexical tokens in p.teaching-prose only; whitespace cross-check",
+      "teaching_paragraphs": 133,
+      "teaching_sections": 9,
+      "svg": 12,
+      "graphs_and_traces": 5,
+      "tables": 2,
+      "questions": 53,
+      "part_b": 22,
+      "part_c": 31,
+      "set": 0,
+      "misconceptions": 16,
+      "active_recall": 11,
+      "references": 17
+    },
     "rubric": {
       "scientific_accuracy": 19,
       "syllabus_coverage": 15,
       "teaching_depth": 15,
-      "pedagogical_structure": 10,
-      "scientific_illustrations": 9,
-      "practice_questions": 9,
-      "analytical_reasoning": 5,
-      "revision_support": 5,
+      "pedagogy": 9,
+      "illustrations": 9,
+      "exam_questions": 10,
+      "experimental_analytical_reasoning": 5,
+      "revision": 5,
       "reader_accessibility": 4,
-      "technical_integration": 4
+      "technical_seo": 4,
+      "total": 95
     },
-    "scientific_review": "Internal review: comparative kidney organisation, renal anatomy, portal circulation where applicable, vascular and tubular routes, corpuscle poles, segment histology, loop classes, JGA and mass balance. Recomputed illustrative numerical examples and checked key sources against indexed records.",
-    "editorial_review": "Separate internal review: progressive section sequence, distinct teaching paragraphs, improved distractors, balanced correct option distribution, accessible figures, headings, revision and navigation; static tests only.",
-    "static_validation": {
-      "duplicate_paragraphs": 0,
-      "duplicate_ids": 0,
-      "broken_anchors": 0,
-      "tag_balance_errors": 0,
-      "javascript_syntax": "pass",
-      "answer_mappings": 50,
-      "answer_distribution": [
-        13,
-        13,
-        12,
-        12
-      ]
-    },
-    "limitations": [
-      "No independent external reviewer",
-      "No runtime browser/mobile/keyboard or screen-reader test",
-      "No exhaustive full-text review of all references; MP SET syllabus is an archived mirror",
-      "Live deployment verification pending"
+    "syllabus_coverage": "CSIR January 2026 Unit 7.E hearing, Academy node roadmap; MP SET archived comparison.",
+    "coverage_matrix": [
+      {
+        "microtopic": "Sound physics and decibel quantities",
+        "section": 1,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Comparative auditory organs",
+        "section": 2,
+        "status": "covered"
+      },
+      {
+        "microtopic": "External ear collection and resonance",
+        "section": 3,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Tympanum and ossicular impedance matching",
+        "section": 4,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Cochlear compartments and fluids",
+        "section": 5,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Pressure and travelling waves",
+        "section": 6,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Basal-apical mechanics and tonotopy",
+        "section": 7,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Organ of Corti and hair-cell functional distinction",
+        "section": 8,
+        "status": "covered"
+      },
+      {
+        "microtopic": "Experimental and quantitative reasoning",
+        "section": 9,
+        "status": "covered"
+      }
     ],
-    "audit_path": "curriculum/qa/7.F.02-publication-audit.md",
-    "working_branch": "draft/7-f-02-kidney-anatomy",
-    "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
-    "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
+    "scientific_review": "Internal mechanisms, boundaries, numerical calculations and reference identity checks; see audit.",
+    "editorial_review": "Separate internal review and saved HTML audit, all 53 question mappings passed, established reader preserved.",
+    "limitations": "No external peer review, exhaustive full-text literature review, official-host current MP SET authentication or browser/device/accessibility runtime verification. Deployment pending.",
+    "audit_record": "curriculum/qa/7.E.04-publication-audit.md",
+    "next_unpublished_node_id": "7.E.05",
+    "concurrent_changes_reconciled": true,
+    "publication": {
+      "strategy": "Atomic tree with non-force expected-HEAD update",
+      "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
+      "subunit_published_after": 5,
+      "unit_published_after": 42,
+      "academy_published_after": 357,
+      "live_verification": "pending"
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -436,255 +480,128 @@
     "7.E.06",
     "7.F.01",
     "7.F.02",
-    "7.F.07"
+    "7.F.07",
+    "7.E.04"
   ],
   "prior_publication_qa": {
-    "node_id": "7.A.03",
-    "title": "Erythrocytes and Haemoglobin",
-    "slug": "erythrocytes-and-haemoglobin.html",
-    "url": "https://rahulthakurpatan.github.io/lifescienceacademy/erythrocytes-and-haemoglobin.html",
-    "unit": "07",
-    "subunit": "7.A",
-    "topic": "Blood and Circulation",
-    "date": "2026-11-27",
-    "status": "internal_academic_qa_passed_static_checks_complete",
-    "source_draft_branch": "draft/node-7-a-03-erythrocytes-20261127",
-    "source_draft_commit_sha": "c513ebf4feeb11eeb34632f31981dd934fd02222",
-    "source_draft_blob_sha": "7cdf9dee6b4c00ec2902d5e3e18e151206598e88",
-    "production_blob_sha": "afc88b7970cac7bd7b653f74d7c8323be12838c8",
-    "publication_base_sha": "23484112dcdddb92318a8f6eb47020b445730399",
-    "metrics": {
-      "genuine_teaching_words": 14529,
-      "teaching_paragraphs": 149,
-      "teaching_sections": 15,
-      "scientific_svgs": 12,
-      "graphs": 2,
-      "scientific_tables": 5,
-      "part_b": 20,
-      "part_c": 24,
-      "other_questions": 10,
-      "total_questions": 54,
-      "answer_explanations": 54,
-      "misconceptions": 17,
-      "active_recall": 12,
-      "references": 15,
-      "total_article_visible_word_estimate": 20439,
-      "table_word_estimate": 233
-    },
-    "word_count_method": "Whitespace-delimited narrative in p.teaching-prose only, tags and entities stripped; excludes navigation, figures, tables, questions and references. Approximately 71% of article words are teaching prose; table share about 1.1%.",
-    "comparison": "7.A.04: 14226 genuine teaching words and 159 paragraphs; 7.A.03: 14529 and 149.",
-    "syllabus": "CSIR Life Sciences and revised merged Life Sciences & Biotechnology January 2026 Unit 7.A; MP SET Life Sciences scope compared using a publicly hosted scan, not independently authenticated on MPPSC host; repository subunit-7a-blood-circulation-node-map.md",
-    "coverage_matrix": [
-      {
-        "requirement": "Erythrocyte morphology and mechanical adaptation",
-        "sections": "problem, geometry, membrane",
-        "evidence": "Biconcavity, surface/volume, deformability, spectrin, ankyrin, band 3; fragility graph and mechanical inference",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      },
-      {
-        "requirement": "Mature erythrocyte specialisation and metabolism",
-        "sections": "metabolism, redox",
-        "evidence": "Organelle loss, anaerobic ATP, PPP, NADPH, glutathione, 2,3-BPG; G6PD and PK comparisons, ATP accounting",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      },
-      {
-        "requirement": "Erythropoiesis and iron availability",
-        "sections": "maturation, haem",
-        "evidence": "Terminal differentiation, EPO context, iron uptake, haem synthesis and globin coordination; reticulocyte calculations",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      },
-      {
-        "requirement": "Haemoglobin structure and binding",
-        "sections": "tetramer, binding",
-        "evidence": "Tetramer, haem coordination, T/R, cooperativity, P50, allostery; Hill graph and pressure reasoning",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      },
-      {
-        "requirement": "Functional and pathological forms",
-        "sections": "variants, methemoglobin",
-        "evidence": "HbA, HbF, HbS, thalassaemia comparison, ferric haem, NADH reductase; electrophoresis and functional capacity",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      },
-      {
-        "requirement": "Lifespan and recycling",
-        "sections": "clearance, recycling",
-        "evidence": "Ageing, splenic clearance, macrophage haem degradation, bilirubin, transferrin, ferroportin, hepcidin; renewal and iron flux",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      },
-      {
-        "requirement": "Quantitative and experimental synthesis",
-        "sections": "indices, evidence",
-        "evidence": "MCV, MCH, MCHC, reticulocytes, content versus affinity; worked examples and experimental controls",
-        "depth": "NET/SET foundation through analytical application",
-        "coverage": "present in saved draft; internal review"
-      }
-    ],
-    "second_review": {
-      "scientific": "Rechecked core mechanisms with OpenStax 18.3, Mohandas/Gallagher (PMC2582001), Erythrocyte metabolism (doi:10.1111/apha.14081), Dailey/Meissner (PMC3683999), Hemoglobin: Structure, Function and Allostery (PMC7370311), macrophage iron recycling (PMC6741611), and matching academic abstracts. Recomputed Hill examples, ATP shunt, red-cell indices, iron flux, turnover, oxygen capacity, and fragility plot values. Corrected dimensional logarithm expression.",
-      "editorial": "Repaired mobile TOC wrapper, graph line styles and legend, haem synthesis Fe2+/ferrochelatase label, redox diagram stoichiometry, accessible table captions/scope and progress indicator, zoom sizing, metadata and durable references."
-    },
-    "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogical_quality": 10,
-      "scientific_illustrations": 9,
-      "exam_questions": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "technical_SEO": 4,
-      "total": 95,
-      "threshold": 95,
-      "basis": "Internal score after actual improvements and second evidence review; not external peer review."
-    },
-    "score": 95,
-    "tests": {
-      "duplicate_paragraphs": 0,
-      "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria": 0,
-      "unresolved_zoom": 0,
-      "html_tag_balance": "passed",
-      "all_svgs_title_desc": true,
-      "all_answers_explained": true,
-      "menu_entry": 1,
-      "sitemap_entry": 1,
-      "robots": "index,follow",
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/erythrocytes-and-haemoglobin.html"
-    },
-    "limitations": [
-      "No external peer review; not all reference full texts independently accessed (some sites blocked).",
-      "MP SET comparison relies on archived third-party scan.",
-      "No full browser/mobile or assistive-technology runtime test: container could not resolve raw.githubusercontent.com; static checks and source inspection only.",
-      "Pages workflow/live endpoint verification remains pending at commit."
-    ],
-    "navigation": {
-      "previous": "7.A.02",
-      "next": "7.A.04",
-      "method": "Existing dynamic published-menu navigation"
-    },
-    "publication": {
-      "state": "lesson_committed_pages_verification_pending",
-      "strategy": "atomic conditional non-force ref update",
-      "expected_base_sha": "23484112dcdddb92318a8f6eb47020b445730399",
-      "subunit_published_after": 7,
-      "unit_published_after": 7,
-      "academy_published_after": 322,
-      "next_pending": "7.A.08",
-      "live_verification": "pending"
-    },
-    "checkpoint_reconciliation": {
-      "previous_main": "23484112dcdddb92318a8f6eb47020b445730399",
-      "previous_count": 321,
-      "preserved_ids": 321,
-      "next": "7.A.08"
-    }
-  },
-  "previous_last_qa": {
-    "node_id": "7.F.07",
-    "title": "Renal Regulation of Acid–Base Balance",
-    "chapter_path": "renal-regulation-of-acid-base-balance.html",
-    "chapter_blob_sha": "487cd0518d9b1b2d03260e1f3a857ee7ca79cc93",
-    "working_branch": "develop-7f07-renal-acid-base-20261128",
-    "working_commit_sha": "b7f92168644c1e57eec8c27d9a5b8f85b3c78440",
-    "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_base_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
+    "node_id": "7.F.02",
+    "title": "Kidney Anatomy and Functional Organisation of the Nephron",
+    "chapter_path": "kidney-anatomy-and-functional-organisation-of-the-nephron.html",
+    "chapter_blob_sha": "799de357d0c4f9295ffc05e41ceb5ec969d2dfab",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
-    "metrics": {
-      "genuine_teaching_words": 13605,
-      "teaching_paragraphs": 142,
-      "teaching_sections": 21,
-      "svg": 13,
-      "graphs": 5,
-      "tables": 3,
-      "questions": 50,
-      "part_b": 20,
-      "part_c": 25,
-      "set": 5,
-      "answer_explanations": 50,
-      "misconceptions": 17,
-      "active_recall": 12,
-      "references": 15
-    },
+    "genuine_teaching_words": 13077,
+    "whitespace_teaching_words": 13072,
+    "teaching_paragraphs": 128,
+    "svg_count": 13,
+    "scientific_tables": 2,
+    "practice_questions": 50,
+    "part_b_questions": 20,
+    "part_c_questions": 20,
+    "set_questions": 10,
+    "misconceptions": 15,
+    "active_recall_prompts": 10,
+    "references": 16,
+    "quality_score": 95,
     "rubric": {
       "scientific_accuracy": 19,
       "syllabus_coverage": 15,
       "teaching_depth": 15,
-      "pedagogy": 10,
-      "illustrations": 9,
-      "exam_questions": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision": 5,
+      "pedagogical_structure": 10,
+      "scientific_illustrations": 9,
+      "practice_questions": 9,
+      "analytical_reasoning": 5,
+      "revision_support": 5,
       "reader_accessibility": 4,
-      "technical_seo": 4,
-      "total": 95
+      "technical_integration": 4
     },
-    "audit_record": "curriculum/qa/7.F.07-publication-audit.md",
-    "syllabus_coverage": "Official January 2026 separate and merged CSIR syllabi Unit 7.F, official MPPSC SET Life Sciences Paper II page 5, Academy node contract.",
-    "coverage_matrix": [
-      {
-        "concept": "Acid loads and bicarbonate buffering; Henderson–Hasselbalch; respiratory cross-link",
-        "sections": "s1–s4, s16–s18",
-        "evidence": "pH derivation and worked ratios, open buffer, fixed-acid balance, acute and chronic compensation",
-        "status": "covered"
-      },
-      {
-        "concept": "Proximal NHE3, carbonic anhydrase and bicarbonate reclamation; new bicarbonate distinction",
-        "sections": "s5–s6, s12–s15",
-        "evidence": "Filtered load 4320 mmol/day, transporter polarity, energetics, historical micropuncture and titration",
-        "status": "covered"
-      },
-      {
-        "concept": "Alpha/beta intercalated cells; H+-ATPase, H+/K+-ATPase, AE1 and pendrin",
-        "sections": "s7–s8, s14, s19–s20",
-        "evidence": "Opposing polarity diagrams, controlled transporter perturbations, chloride and potassium effects",
-        "status": "covered"
-      },
-      {
-        "concept": "Glutamine ammoniagenesis; NH3/NH4+ handling and trapping",
-        "sections": "s9–s11, s14–s15",
-        "evidence": "Glutamine stoichiometry, loop recycling, Rh-mediated transport, equilibrium fractions and organ mass balance",
-        "status": "covered"
-      },
-      {
-        "concept": "Phosphate and other titratable buffers; net acid excretion",
-        "sections": "s9, s11–s13, s20–s21",
-        "evidence": "Phosphate speciation, timed NAE, urinary bicarbonate subtraction, acid loading datasets",
-        "status": "covered"
-      },
-      {
-        "concept": "Metabolic acidosis/alkalosis; respiratory compensation; renal compensation for respiratory changes; time course and limits; anion gap",
-        "sections": "s16–s21",
-        "evidence": "Empirical compensation relationships and limitations; pH, anion gap, time-course and cumulative retention examples",
-        "status": "covered"
-      }
+    "scientific_review": "Internal review: comparative kidney organisation, renal anatomy, portal circulation where applicable, vascular and tubular routes, corpuscle poles, segment histology, loop classes, JGA and mass balance. Recomputed illustrative numerical examples and checked key sources against indexed records.",
+    "editorial_review": "Separate internal review: progressive section sequence, distinct teaching paragraphs, improved distractors, balanced correct option distribution, accessible figures, headings, revision and navigation; static tests only.",
+    "static_validation": {
+      "duplicate_paragraphs": 0,
+      "duplicate_ids": 0,
+      "broken_anchors": 0,
+      "tag_balance_errors": 0,
+      "javascript_syntax": "pass",
+      "answer_mappings": 50,
+      "answer_distribution": [
+        13,
+        13,
+        12,
+        12
+      ]
+    },
+    "limitations": [
+      "No independent external reviewer",
+      "No runtime browser/mobile/keyboard or screen-reader test",
+      "No exhaustive full-text review of all references; MP SET syllabus is an archived mirror",
+      "Live deployment verification pending"
     ],
-    "scientific_review": "Internal scientific pass: checked acid-equivalent accounting, bicarbonate/CO2 equilibrium and units, polarized proximal and intercalated transport, catalysis versus transport, glutamine ammoniagenesis and urinary versus venous ammonia fate, NKCC2 recycling and Rh transport, phosphate speciation, NAE sign, respiratory–renal compensation, volume/chloride/potassium modifiers and experimental limitations against source records. Recalculated key numerical practice results: pH 7.401 and 7.498; filtered load 3600 mmol/day; reclamation 99.537%; NAE 54; timed NH4+ change −5; micropuncture fraction 0.2; phosphate 0.409; ammonia ratio 0.01; free H+ 0.02 mmol; adaptive NAE increment 60; urinary ammonia 25 µmol/min; expected PCO2 29; anion gap 15; cumulative retention 10; remaining nephron capacity 0.8. Checked all 50 answer keys and option correspondence. Historical examples attributed to identified retrospective reviews; teaching data explicitly hypothetical.",
-    "editorial_review": "Separate internal editorial pass: reordered 21 sections from acid and buffer foundations to polarized transport, renal ammonia and net excretion, classical evidence, compensation and integration. Added explanatory causes of all 17 misconceptions. Confirmed no identical teaching paragraphs, 13 accessible SVGs with title/description/viewBox, 13 diagram enlargement buttons, three responsive tables, 50 explained original questions, 12 active recall prompts, summary and mastery checklist. Answer distribution A12 B13 C12 D13. Compared with actual adjacent 7.C.07 exemplar (13,392 whitespace-separated p.teaching-prose words). Preserved Academy reader template, including dynamic menu-based adjacent navigation.",
-    "audit": "Re-fetched final saved HTML and counted whitespace-delimited words inside p.teaching-prose only, excluding navigation, headings, tables, diagrams, practice, revision and references. 13,605 words in 142 unique paragraphs; zero tag-stack errors, duplicate IDs, broken fragment anchors, unresolved aria-labelledby/aria-describedby/for IDs, or invalid question option-key mappings. One H1, correct canonical and index/follow, 13 SVG title/desc/viewBox/role attributes, 15 reference links. Reader and graphics source inspected statically.",
-    "limitations": "Internal review, not independent external peer review. Core references located and syllabus pages checked, but full-text review of every scientific source and independent expert verification are not complete. Browser/mobile/keyboard/assistive-technology execution and visual SVG rendering not tested because the local container cannot resolve GitHub and the connector provides text only. No separate dashboard file found; index menu and checkpoint are the maintained integration. Live Pages deployment verification is separate and pending.",
-    "next_unpublished_node_id": "7.E.04",
-    "concurrent_changes_reconciled": true,
-    "publication": {
-      "mode": "one atomic conditional non-force main commit",
-      "academy_published_before": 354,
-      "academy_published_after": 355,
-      "unit07_published_after": 40,
-      "subunit7f_published_after": 2,
-      "prior_menu_links_preserved": 354,
-      "prior_sitemap_entries_preserved": 355,
-      "previous": "7.F.06",
-      "next": "7.F.08",
-      "adjacent_navigation": "resolved dynamically from the published main index; unpublished nodes remain disabled"
-    }
+    "audit_path": "curriculum/qa/7.F.02-publication-audit.md",
+    "working_branch": "draft/7-f-02-kidney-anatomy",
+    "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
+    "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+    "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
+  },
+  "previous_last_qa": {
+    "node_id": "7.F.02",
+    "title": "Kidney Anatomy and Functional Organisation of the Nephron",
+    "chapter_path": "kidney-anatomy-and-functional-organisation-of-the-nephron.html",
+    "chapter_blob_sha": "799de357d0c4f9295ffc05e41ceb5ec969d2dfab",
+    "review_date": "2026-11-28",
+    "status": "published_deployment_verification_pending",
+    "genuine_teaching_words": 13077,
+    "whitespace_teaching_words": 13072,
+    "teaching_paragraphs": 128,
+    "svg_count": 13,
+    "scientific_tables": 2,
+    "practice_questions": 50,
+    "part_b_questions": 20,
+    "part_c_questions": 20,
+    "set_questions": 10,
+    "misconceptions": 15,
+    "active_recall_prompts": 10,
+    "references": 16,
+    "quality_score": 95,
+    "rubric": {
+      "scientific_accuracy": 19,
+      "syllabus_coverage": 15,
+      "teaching_depth": 15,
+      "pedagogical_structure": 10,
+      "scientific_illustrations": 9,
+      "practice_questions": 9,
+      "analytical_reasoning": 5,
+      "revision_support": 5,
+      "reader_accessibility": 4,
+      "technical_integration": 4
+    },
+    "scientific_review": "Internal review: comparative kidney organisation, renal anatomy, portal circulation where applicable, vascular and tubular routes, corpuscle poles, segment histology, loop classes, JGA and mass balance. Recomputed illustrative numerical examples and checked key sources against indexed records.",
+    "editorial_review": "Separate internal review: progressive section sequence, distinct teaching paragraphs, improved distractors, balanced correct option distribution, accessible figures, headings, revision and navigation; static tests only.",
+    "static_validation": {
+      "duplicate_paragraphs": 0,
+      "duplicate_ids": 0,
+      "broken_anchors": 0,
+      "tag_balance_errors": 0,
+      "javascript_syntax": "pass",
+      "answer_mappings": 50,
+      "answer_distribution": [
+        13,
+        13,
+        12,
+        12
+      ]
+    },
+    "limitations": [
+      "No independent external reviewer",
+      "No runtime browser/mobile/keyboard or screen-reader test",
+      "No exhaustive full-text review of all references; MP SET syllabus is an archived mirror",
+      "Live deployment verification pending"
+    ],
+    "audit_path": "curriculum/qa/7.F.02-publication-audit.md",
+    "working_branch": "draft/7-f-02-kidney-anatomy",
+    "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
+    "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+    "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
   },
   "unit_02": {
     "published_node_ids": [
@@ -2203,7 +2120,7 @@
     "last_published_node_id": "6.H.11",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-7f-excretory-system-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-7e-sense-organs-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -47562,6 +47479,110 @@
       "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
       "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
       "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
+    },
+    "7.E.04": {
+      "node_id": "7.E.04",
+      "title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+      "chapter_path": "auditory-system-ear-anatomy-and-mechanics-of-hearing.html",
+      "working_branch": "draft/node-7e04-auditory-mechanics-20261128",
+      "working_commit_sha": "0fa6bcba624b3aed3ff0d64613eda42a620bd093",
+      "chapter_blob_sha": "b2e17b02b9dea0c0ad25fa0e7146021f7b32b57f",
+      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+      "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 13883,
+        "whitespace_teaching_words": 13799,
+        "word_count_method": "Lexical tokens in p.teaching-prose only; whitespace cross-check",
+        "teaching_paragraphs": 133,
+        "teaching_sections": 9,
+        "svg": 12,
+        "graphs_and_traces": 5,
+        "tables": 2,
+        "questions": 53,
+        "part_b": 22,
+        "part_c": 31,
+        "set": 0,
+        "misconceptions": 16,
+        "active_recall": 11,
+        "references": 17
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "exam_questions": 10,
+        "experimental_analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95
+      },
+      "syllabus_coverage": "CSIR January 2026 Unit 7.E hearing, Academy node roadmap; MP SET archived comparison.",
+      "coverage_matrix": [
+        {
+          "microtopic": "Sound physics and decibel quantities",
+          "section": 1,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Comparative auditory organs",
+          "section": 2,
+          "status": "covered"
+        },
+        {
+          "microtopic": "External ear collection and resonance",
+          "section": 3,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Tympanum and ossicular impedance matching",
+          "section": 4,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Cochlear compartments and fluids",
+          "section": 5,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Pressure and travelling waves",
+          "section": 6,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Basal-apical mechanics and tonotopy",
+          "section": 7,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Organ of Corti and hair-cell functional distinction",
+          "section": 8,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Experimental and quantitative reasoning",
+          "section": 9,
+          "status": "covered"
+        }
+      ],
+      "scientific_review": "Internal mechanisms, boundaries, numerical calculations and reference identity checks; see audit.",
+      "editorial_review": "Separate internal review and saved HTML audit, all 53 question mappings passed, established reader preserved.",
+      "limitations": "No external peer review, exhaustive full-text literature review, official-host current MP SET authentication or browser/device/accessibility runtime verification. Deployment pending.",
+      "audit_record": "curriculum/qa/7.E.04-publication-audit.md",
+      "next_unpublished_node_id": "7.E.05",
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "strategy": "Atomic tree with non-force expected-HEAD update",
+        "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
+        "subunit_published_after": 5,
+        "unit_published_after": 42,
+        "academy_published_after": 357,
+        "live_verification": "pending"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -65369,7 +65390,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/kidney-anatomy-and-functional-organisation-of-the-nephron.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/auditory-system-ear-anatomy-and-mechanics-of-hearing.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -65472,72 +65493,117 @@
       "7.E.06",
       "7.F.01",
       "7.F.02",
-      "7.F.07"
+      "7.F.07",
+      "7.E.04"
     ],
-    "published_node_count": 41,
+    "published_node_count": 42,
     "planned_node_count": 90,
-    "last_published_node_id": "7.F.02",
+    "last_published_node_id": "7.E.04",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "7.F.02",
-      "title": "Kidney Anatomy and Functional Organisation of the Nephron",
-      "chapter_path": "kidney-anatomy-and-functional-organisation-of-the-nephron.html",
-      "chapter_blob_sha": "799de357d0c4f9295ffc05e41ceb5ec969d2dfab",
+      "node_id": "7.E.04",
+      "title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+      "chapter_path": "auditory-system-ear-anatomy-and-mechanics-of-hearing.html",
+      "working_branch": "draft/node-7e04-auditory-mechanics-20261128",
+      "working_commit_sha": "0fa6bcba624b3aed3ff0d64613eda42a620bd093",
+      "chapter_blob_sha": "b2e17b02b9dea0c0ad25fa0e7146021f7b32b57f",
+      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+      "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
-      "genuine_teaching_words": 13077,
-      "whitespace_teaching_words": 13072,
-      "teaching_paragraphs": 128,
-      "svg_count": 13,
-      "scientific_tables": 2,
-      "practice_questions": 50,
-      "part_b_questions": 20,
-      "part_c_questions": 20,
-      "set_questions": 10,
-      "misconceptions": 15,
-      "active_recall_prompts": 10,
-      "references": 16,
-      "quality_score": 95,
+      "metrics": {
+        "genuine_teaching_words": 13883,
+        "whitespace_teaching_words": 13799,
+        "word_count_method": "Lexical tokens in p.teaching-prose only; whitespace cross-check",
+        "teaching_paragraphs": 133,
+        "teaching_sections": 9,
+        "svg": 12,
+        "graphs_and_traces": 5,
+        "tables": 2,
+        "questions": 53,
+        "part_b": 22,
+        "part_c": 31,
+        "set": 0,
+        "misconceptions": 16,
+        "active_recall": 11,
+        "references": 17
+      },
       "rubric": {
         "scientific_accuracy": 19,
         "syllabus_coverage": 15,
         "teaching_depth": 15,
-        "pedagogical_structure": 10,
-        "scientific_illustrations": 9,
-        "practice_questions": 9,
-        "analytical_reasoning": 5,
-        "revision_support": 5,
+        "pedagogy": 9,
+        "illustrations": 9,
+        "exam_questions": 10,
+        "experimental_analytical_reasoning": 5,
+        "revision": 5,
         "reader_accessibility": 4,
-        "technical_integration": 4
+        "technical_seo": 4,
+        "total": 95
       },
-      "scientific_review": "Internal review: comparative kidney organisation, renal anatomy, portal circulation where applicable, vascular and tubular routes, corpuscle poles, segment histology, loop classes, JGA and mass balance. Recomputed illustrative numerical examples and checked key sources against indexed records.",
-      "editorial_review": "Separate internal review: progressive section sequence, distinct teaching paragraphs, improved distractors, balanced correct option distribution, accessible figures, headings, revision and navigation; static tests only.",
-      "static_validation": {
-        "duplicate_paragraphs": 0,
-        "duplicate_ids": 0,
-        "broken_anchors": 0,
-        "tag_balance_errors": 0,
-        "javascript_syntax": "pass",
-        "answer_mappings": 50,
-        "answer_distribution": [
-          13,
-          13,
-          12,
-          12
-        ]
-      },
-      "limitations": [
-        "No independent external reviewer",
-        "No runtime browser/mobile/keyboard or screen-reader test",
-        "No exhaustive full-text review of all references; MP SET syllabus is an archived mirror",
-        "Live deployment verification pending"
+      "syllabus_coverage": "CSIR January 2026 Unit 7.E hearing, Academy node roadmap; MP SET archived comparison.",
+      "coverage_matrix": [
+        {
+          "microtopic": "Sound physics and decibel quantities",
+          "section": 1,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Comparative auditory organs",
+          "section": 2,
+          "status": "covered"
+        },
+        {
+          "microtopic": "External ear collection and resonance",
+          "section": 3,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Tympanum and ossicular impedance matching",
+          "section": 4,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Cochlear compartments and fluids",
+          "section": 5,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Pressure and travelling waves",
+          "section": 6,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Basal-apical mechanics and tonotopy",
+          "section": 7,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Organ of Corti and hair-cell functional distinction",
+          "section": 8,
+          "status": "covered"
+        },
+        {
+          "microtopic": "Experimental and quantitative reasoning",
+          "section": 9,
+          "status": "covered"
+        }
       ],
-      "audit_path": "curriculum/qa/7.F.02-publication-audit.md",
-      "working_branch": "draft/7-f-02-kidney-anatomy",
-      "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
-      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
+      "scientific_review": "Internal mechanisms, boundaries, numerical calculations and reference identity checks; see audit.",
+      "editorial_review": "Separate internal review and saved HTML audit, all 53 question mappings passed, established reader preserved.",
+      "limitations": "No external peer review, exhaustive full-text literature review, official-host current MP SET authentication or browser/device/accessibility runtime verification. Deployment pending.",
+      "audit_record": "curriculum/qa/7.E.04-publication-audit.md",
+      "next_unpublished_node_id": "7.E.05",
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "strategy": "Atomic tree with non-force expected-HEAD update",
+        "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
+        "subunit_published_after": 5,
+        "unit_published_after": 42,
+        "academy_published_after": 357,
+        "live_verification": "pending"
+      }
     },
     "qa_by_node": {
       "7.A.01": {
@@ -70735,10 +70801,114 @@
         "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
         "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
         "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
+      },
+      "7.E.04": {
+        "node_id": "7.E.04",
+        "title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+        "chapter_path": "auditory-system-ear-anatomy-and-mechanics-of-hearing.html",
+        "working_branch": "draft/node-7e04-auditory-mechanics-20261128",
+        "working_commit_sha": "0fa6bcba624b3aed3ff0d64613eda42a620bd093",
+        "chapter_blob_sha": "b2e17b02b9dea0c0ad25fa0e7146021f7b32b57f",
+        "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+        "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 13883,
+          "whitespace_teaching_words": 13799,
+          "word_count_method": "Lexical tokens in p.teaching-prose only; whitespace cross-check",
+          "teaching_paragraphs": 133,
+          "teaching_sections": 9,
+          "svg": 12,
+          "graphs_and_traces": 5,
+          "tables": 2,
+          "questions": 53,
+          "part_b": 22,
+          "part_c": 31,
+          "set": 0,
+          "misconceptions": 16,
+          "active_recall": 11,
+          "references": 17
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 9,
+          "illustrations": 9,
+          "exam_questions": 10,
+          "experimental_analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4,
+          "total": 95
+        },
+        "syllabus_coverage": "CSIR January 2026 Unit 7.E hearing, Academy node roadmap; MP SET archived comparison.",
+        "coverage_matrix": [
+          {
+            "microtopic": "Sound physics and decibel quantities",
+            "section": 1,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Comparative auditory organs",
+            "section": 2,
+            "status": "covered"
+          },
+          {
+            "microtopic": "External ear collection and resonance",
+            "section": 3,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Tympanum and ossicular impedance matching",
+            "section": 4,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Cochlear compartments and fluids",
+            "section": 5,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Pressure and travelling waves",
+            "section": 6,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Basal-apical mechanics and tonotopy",
+            "section": 7,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Organ of Corti and hair-cell functional distinction",
+            "section": 8,
+            "status": "covered"
+          },
+          {
+            "microtopic": "Experimental and quantitative reasoning",
+            "section": 9,
+            "status": "covered"
+          }
+        ],
+        "scientific_review": "Internal mechanisms, boundaries, numerical calculations and reference identity checks; see audit.",
+        "editorial_review": "Separate internal review and saved HTML audit, all 53 question mappings passed, established reader preserved.",
+        "limitations": "No external peer review, exhaustive full-text literature review, official-host current MP SET authentication or browser/device/accessibility runtime verification. Deployment pending.",
+        "audit_record": "curriculum/qa/7.E.04-publication-audit.md",
+        "next_unpublished_node_id": "7.E.05",
+        "concurrent_changes_reconciled": true,
+        "publication": {
+          "strategy": "Atomic tree with non-force expected-HEAD update",
+          "publication_base_sha": "c6252ecfd90a4e4cd4916a7c96f3a89c4ca85b7d",
+          "subunit_published_after": 5,
+          "unit_published_after": 42,
+          "academy_published_after": 357,
+          "live_verification": "pending"
+        }
       }
     },
-    "next_pending_node_id": "7.E.04",
-    "next_pending_node_title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+    "next_pending_node_id": "7.E.05",
+    "next_pending_node_title": "Auditory Transduction, Neural Processing and Equilibrium",
     "complete": false,
     "subunit_7a": {
       "published_node_ids": [
@@ -70756,103 +70926,64 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.F.07",
-      "title": "Renal Regulation of Acid–Base Balance",
-      "chapter_path": "renal-regulation-of-acid-base-balance.html",
-      "chapter_blob_sha": "487cd0518d9b1b2d03260e1f3a857ee7ca79cc93",
-      "working_branch": "develop-7f07-renal-acid-base-20261128",
-      "working_commit_sha": "b7f92168644c1e57eec8c27d9a5b8f85b3c78440",
-      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
+      "node_id": "7.F.02",
+      "title": "Kidney Anatomy and Functional Organisation of the Nephron",
+      "chapter_path": "kidney-anatomy-and-functional-organisation-of-the-nephron.html",
+      "chapter_blob_sha": "799de357d0c4f9295ffc05e41ceb5ec969d2dfab",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
-      "metrics": {
-        "genuine_teaching_words": 13605,
-        "teaching_paragraphs": 142,
-        "teaching_sections": 21,
-        "svg": 13,
-        "graphs": 5,
-        "tables": 3,
-        "questions": 50,
-        "part_b": 20,
-        "part_c": 25,
-        "set": 5,
-        "answer_explanations": 50,
-        "misconceptions": 17,
-        "active_recall": 12,
-        "references": 15
-      },
+      "genuine_teaching_words": 13077,
+      "whitespace_teaching_words": 13072,
+      "teaching_paragraphs": 128,
+      "svg_count": 13,
+      "scientific_tables": 2,
+      "practice_questions": 50,
+      "part_b_questions": 20,
+      "part_c_questions": 20,
+      "set_questions": 10,
+      "misconceptions": 15,
+      "active_recall_prompts": 10,
+      "references": 16,
+      "quality_score": 95,
       "rubric": {
         "scientific_accuracy": 19,
         "syllabus_coverage": 15,
         "teaching_depth": 15,
-        "pedagogy": 10,
-        "illustrations": 9,
-        "exam_questions": 9,
-        "experimental_analytical_reasoning": 5,
-        "revision": 5,
+        "pedagogical_structure": 10,
+        "scientific_illustrations": 9,
+        "practice_questions": 9,
+        "analytical_reasoning": 5,
+        "revision_support": 5,
         "reader_accessibility": 4,
-        "technical_seo": 4,
-        "total": 95
+        "technical_integration": 4
       },
-      "audit_record": "curriculum/qa/7.F.07-publication-audit.md",
-      "syllabus_coverage": "Official January 2026 separate and merged CSIR syllabi Unit 7.F, official MPPSC SET Life Sciences Paper II page 5, Academy node contract.",
-      "coverage_matrix": [
-        {
-          "concept": "Acid loads and bicarbonate buffering; Henderson–Hasselbalch; respiratory cross-link",
-          "sections": "s1–s4, s16–s18",
-          "evidence": "pH derivation and worked ratios, open buffer, fixed-acid balance, acute and chronic compensation",
-          "status": "covered"
-        },
-        {
-          "concept": "Proximal NHE3, carbonic anhydrase and bicarbonate reclamation; new bicarbonate distinction",
-          "sections": "s5–s6, s12–s15",
-          "evidence": "Filtered load 4320 mmol/day, transporter polarity, energetics, historical micropuncture and titration",
-          "status": "covered"
-        },
-        {
-          "concept": "Alpha/beta intercalated cells; H+-ATPase, H+/K+-ATPase, AE1 and pendrin",
-          "sections": "s7–s8, s14, s19–s20",
-          "evidence": "Opposing polarity diagrams, controlled transporter perturbations, chloride and potassium effects",
-          "status": "covered"
-        },
-        {
-          "concept": "Glutamine ammoniagenesis; NH3/NH4+ handling and trapping",
-          "sections": "s9–s11, s14–s15",
-          "evidence": "Glutamine stoichiometry, loop recycling, Rh-mediated transport, equilibrium fractions and organ mass balance",
-          "status": "covered"
-        },
-        {
-          "concept": "Phosphate and other titratable buffers; net acid excretion",
-          "sections": "s9, s11–s13, s20–s21",
-          "evidence": "Phosphate speciation, timed NAE, urinary bicarbonate subtraction, acid loading datasets",
-          "status": "covered"
-        },
-        {
-          "concept": "Metabolic acidosis/alkalosis; respiratory compensation; renal compensation for respiratory changes; time course and limits; anion gap",
-          "sections": "s16–s21",
-          "evidence": "Empirical compensation relationships and limitations; pH, anion gap, time-course and cumulative retention examples",
-          "status": "covered"
-        }
+      "scientific_review": "Internal review: comparative kidney organisation, renal anatomy, portal circulation where applicable, vascular and tubular routes, corpuscle poles, segment histology, loop classes, JGA and mass balance. Recomputed illustrative numerical examples and checked key sources against indexed records.",
+      "editorial_review": "Separate internal review: progressive section sequence, distinct teaching paragraphs, improved distractors, balanced correct option distribution, accessible figures, headings, revision and navigation; static tests only.",
+      "static_validation": {
+        "duplicate_paragraphs": 0,
+        "duplicate_ids": 0,
+        "broken_anchors": 0,
+        "tag_balance_errors": 0,
+        "javascript_syntax": "pass",
+        "answer_mappings": 50,
+        "answer_distribution": [
+          13,
+          13,
+          12,
+          12
+        ]
+      },
+      "limitations": [
+        "No independent external reviewer",
+        "No runtime browser/mobile/keyboard or screen-reader test",
+        "No exhaustive full-text review of all references; MP SET syllabus is an archived mirror",
+        "Live deployment verification pending"
       ],
-      "scientific_review": "Internal scientific pass: checked acid-equivalent accounting, bicarbonate/CO2 equilibrium and units, polarized proximal and intercalated transport, catalysis versus transport, glutamine ammoniagenesis and urinary versus venous ammonia fate, NKCC2 recycling and Rh transport, phosphate speciation, NAE sign, respiratory–renal compensation, volume/chloride/potassium modifiers and experimental limitations against source records. Recalculated key numerical practice results: pH 7.401 and 7.498; filtered load 3600 mmol/day; reclamation 99.537%; NAE 54; timed NH4+ change −5; micropuncture fraction 0.2; phosphate 0.409; ammonia ratio 0.01; free H+ 0.02 mmol; adaptive NAE increment 60; urinary ammonia 25 µmol/min; expected PCO2 29; anion gap 15; cumulative retention 10; remaining nephron capacity 0.8. Checked all 50 answer keys and option correspondence. Historical examples attributed to identified retrospective reviews; teaching data explicitly hypothetical.",
-      "editorial_review": "Separate internal editorial pass: reordered 21 sections from acid and buffer foundations to polarized transport, renal ammonia and net excretion, classical evidence, compensation and integration. Added explanatory causes of all 17 misconceptions. Confirmed no identical teaching paragraphs, 13 accessible SVGs with title/description/viewBox, 13 diagram enlargement buttons, three responsive tables, 50 explained original questions, 12 active recall prompts, summary and mastery checklist. Answer distribution A12 B13 C12 D13. Compared with actual adjacent 7.C.07 exemplar (13,392 whitespace-separated p.teaching-prose words). Preserved Academy reader template, including dynamic menu-based adjacent navigation.",
-      "audit": "Re-fetched final saved HTML and counted whitespace-delimited words inside p.teaching-prose only, excluding navigation, headings, tables, diagrams, practice, revision and references. 13,605 words in 142 unique paragraphs; zero tag-stack errors, duplicate IDs, broken fragment anchors, unresolved aria-labelledby/aria-describedby/for IDs, or invalid question option-key mappings. One H1, correct canonical and index/follow, 13 SVG title/desc/viewBox/role attributes, 15 reference links. Reader and graphics source inspected statically.",
-      "limitations": "Internal review, not independent external peer review. Core references located and syllabus pages checked, but full-text review of every scientific source and independent expert verification are not complete. Browser/mobile/keyboard/assistive-technology execution and visual SVG rendering not tested because the local container cannot resolve GitHub and the connector provides text only. No separate dashboard file found; index menu and checkpoint are the maintained integration. Live Pages deployment verification is separate and pending.",
-      "next_unpublished_node_id": "7.E.04",
-      "concurrent_changes_reconciled": true,
-      "publication": {
-        "mode": "one atomic conditional non-force main commit",
-        "academy_published_before": 354,
-        "academy_published_after": 355,
-        "unit07_published_after": 40,
-        "subunit7f_published_after": 2,
-        "prior_menu_links_preserved": 354,
-        "prior_sitemap_entries_preserved": 355,
-        "previous": "7.F.06",
-        "next": "7.F.08",
-        "adjacent_navigation": "resolved dynamically from the published main index; unpublished nodes remain disabled"
-      }
+      "audit_path": "curriculum/qa/7.F.02-publication-audit.md",
+      "working_branch": "draft/7-f-02-kidney-anatomy",
+      "working_commit": "cdf66623068258416b422b0bd2a2f21398d00974",
+      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+      "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
     },
     "subunit_7b": {
       "published_node_ids": [
@@ -70906,9 +71037,10 @@
         "7.E.01",
         "7.E.02",
         "7.E.03",
+        "7.E.04",
         "7.E.06"
       ],
-      "published_node_count": 4,
+      "published_node_count": 5,
       "planned_node_count": 6,
       "complete": false
     },
@@ -70962,6 +71094,7 @@
     "7.E.01",
     "7.E.02",
     "7.E.03",
+    "7.E.04",
     "7.E.06"
   ],
   "unit7e_planned_node_count": 6,

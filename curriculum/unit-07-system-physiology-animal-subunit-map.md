@@ -349,3 +349,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.F.07 — [Renal Regulation of Acid–Base Balance](https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-acid-base-balance.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - 13,605 teaching words, 142 paragraphs; 13 accessible original SVGs (5 graphs), 3 tables, 50 explained questions (20 Part B, 25 Part C, 5 SET/integrated), 17 misconceptions, 12 recall prompts and 15 references. Audit: `curriculum/qa/7.F.07-publication-audit.md`.
 - Subunit 7.F: 2/8; Unit 07: 40/90; Academy: 355/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing.
+
+### Publication checkpoint — 2026-11-28 — 7.E.04
+
+- 7.E.04 — [Auditory System: Ear Anatomy and Mechanics of Hearing](https://rahulthakurpatan.github.io/lifescienceacademy/auditory-system-ear-anatomy-and-mechanics-of-hearing.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 13,883 lexical words (13,799 whitespace tokens), 133 paragraphs; 12 original SVGs (5 graphs), 2 tables, 53 explained questions (22 Part B, 31 Part C), 16 misconceptions, 11 recall prompts and 17 references. Audit: `curriculum/qa/7.E.04-publication-audit.md`.
+- Subunit 7.E: 5/6; Unit 07: 42/90; Academy: 357/723. Next global unpublished node: 7.E.05 — Auditory Transduction, Neural Processing and Equilibrium.

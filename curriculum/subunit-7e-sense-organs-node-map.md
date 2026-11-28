@@ -109,3 +109,9 @@
 - 7.E.03 — [Phototransduction and Neural Processing of Vision](https://rahulthakurpatan.github.io/lifescienceacademy/phototransduction-and-neural-processing-of-vision.html); internal QA 95/100; saved HTML static audit passed; Pages and direct live verification pending.
 - 13,827 lexical teaching words (13,782 whitespace), 141 distinct paragraphs, 16 original accessible SVGs (7 graphs/traces), 5 tables, 56 explained questions (20 Part B, 26 Part C, 10 SET/integrated), 16 misconceptions, 13 recall prompts, 15 references. Audit: `curriculum/qa/7.E.03-publication-audit.md`.
 - Subunit 7.E: 4/6; Unit 07: 38/90; Academy: 353/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing.
+
+### Publication checkpoint — 2026-11-28 — 7.E.04
+
+- 7.E.04 — [Auditory System: Ear Anatomy and Mechanics of Hearing](https://rahulthakurpatan.github.io/lifescienceacademy/auditory-system-ear-anatomy-and-mechanics-of-hearing.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 13,883 lexical words (13,799 whitespace tokens), 133 paragraphs; 12 original SVGs (5 graphs), 2 tables, 53 explained questions (22 Part B, 31 Part C), 16 misconceptions, 11 recall prompts and 17 references. Audit: `curriculum/qa/7.E.04-publication-audit.md`.
+- Subunit 7.E: 5/6; Unit 07: 42/90; Academy: 357/723. Next global unpublished node: 7.E.05 — Auditory Transduction, Neural Processing and Equilibrium.

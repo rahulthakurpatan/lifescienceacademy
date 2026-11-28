@@ -204,3 +204,11 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 391/723; Unit 08: 8/36; 8.B: 3/5.
 - Earliest pending in 8.B: 8.B.02 — Complementation Tests and Functional Analysis of Genes; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.B.05-publication-audit.md`.
+
+
+### Publication checkpoint — 2026-11-28 — 8.B.03
+
+- Chapter: [Molecular Basis and Causes of Mutations](../molecular-basis-and-causes-of-mutations.html)
+- Internal static QA: 95/100; 13,623 genuine teaching words; 13 SVGs; 55 explained questions (20 Part B, 25 Part C, 10 SET).
+- [Publication audit](qa/8.B.03-publication-audit.md).
+- Pages/live verification pending at commit creation.

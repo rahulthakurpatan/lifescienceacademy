@@ -179,3 +179,11 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 388/723; Unit 08: 5/36; 8.A: 5/8.
 - Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.A.05-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 8.B.01
+
+- [8.B.01 — Concept of Gene, Alleles and Pseudoalleles](https://rahulthakurpatan.github.io/lifescienceacademy/concept-of-gene-alleles-and-pseudoalleles.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,730; 12 original SVGs (2 graphs), 3 tables, 56 explained questions (25 Part B, 29 Part C, 2 assertion–reason), 15 misconceptions, 12 recall prompts, 12 references; internal QA 95/100.
+- Academy: 389/723; Unit 08: 6/36; 8.B: 1/5.
+- Earliest pending in 8.B: 8.B.02 — Complementation Tests and Functional Analysis of Genes; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.B.01-publication-audit.md`.

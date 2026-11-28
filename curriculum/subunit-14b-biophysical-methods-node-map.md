@@ -106,3 +106,12 @@ Progress from electromagnetic and optical measurements to structural determinati
 - Unit 13 owns biotechnology application and conceptual comparison; Unit 14 owns measurement principles, experimental evidence, instrumentation, statistical interpretation and ethical governance. Unit 3 owns molecular mechanisms, Unit 4 immunology, Unit 5 development, Unit 8 inheritance, Unit 10 ecology, Unit 11 algorithms and Unit 12 industrial engineering. Preview later methods when needed without duplicating full chapters.
 - Use benign educational examples, abstract models and published high-level evidence. No actionable pathogen culture or engineering, harmful genetic modification, production recipes, invasive experimentation, radioisotope handling or medical treatment instructions. Research involving biological hazards, animals, humans or radiation requires trained personnel and authorised oversight.
 - Verify current laws, biosafety rules, regulatory bodies and journal AI policies at actual publication; distinguish prediction from experimental or clinical validation. Maintain provenance and research integrity.
+
+
+## Publication checkpoint — 2026-11-28 — 14.B.04
+
+- [14.B.04 — X-Ray Diffraction and Molecular Structure Determination](https://rahulthakurpatan.github.io/lifescienceacademy/x-ray-diffraction-and-molecular-structure-determination.html) — production source publication; Pages deployment and live verification pending.
+- 13,721 teaching words; 12 SVGs (2 graphs), 5 tables, 55 explained questions (22 B, 26 C, 7 additional), 18 misconceptions, 12 recall prompts, 10 references; internal static QA 95/100.
+- Academy 435/723; Unit 14 6/60; Subunit 14.B 2/7.
+- Earliest pending subunit 14.B.01 — Spectroscopy Foundations and UV–Visible Analysis; Unit 14 14.A.05 — Chromatographic Separation and Analytical Interpretation; global 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.B.04-publication-audit.md`.

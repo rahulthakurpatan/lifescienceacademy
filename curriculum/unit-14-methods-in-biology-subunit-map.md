@@ -289,3 +289,12 @@ Molecular sample preparation and separation → biophysical measurements → omi
 - Reconciled source progress: Academy 431/723; Unit 14 2/60; Subunit 14.A 2/6.
 - Earliest pending in 14.A: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis; Unit 14: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/14.A.03-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 14.B.04
+
+- [14.B.04 — X-Ray Diffraction and Molecular Structure Determination](https://rahulthakurpatan.github.io/lifescienceacademy/x-ray-diffraction-and-molecular-structure-determination.html) — production source publication; Pages deployment and live verification pending.
+- 13,721 teaching words; 12 SVGs (2 graphs), 5 tables, 55 explained questions (22 B, 26 C, 7 additional), 18 misconceptions, 12 recall prompts, 10 references; internal static QA 95/100.
+- Academy 435/723; Unit 14 6/60; Subunit 14.B 2/7.
+- Earliest pending subunit 14.B.01 — Spectroscopy Foundations and UV–Visible Analysis; Unit 14 14.A.05 — Chromatographic Separation and Analytical Interpretation; global 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.B.04-publication-audit.md`.

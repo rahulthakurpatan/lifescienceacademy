@@ -1,0 +1,386 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Understand physiological stressors, homeostasis, allostasis, tolerance, resilience, acclimation, acclimatization and evolutionary adaptation through comparative physiology and experimental reasoning."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-stress-homeostasis-and-adaptation.html"><title>Foundations of Stress, Homeostasis and Adaptation | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}.exam-question{margin:1.2em 0;padding:.8em 1em;border:1px solid var(--border);border-radius:12px;background:var(--surface)}.exam-question h4{font-size:1em;margin:.4em 0}.answer-explanation summary{cursor:pointer;font-weight:700;color:var(--accent-dark)}.answer-explanation p{margin:.5em 0}.figure-panel svg{width:100%;max-width:660px;height:auto}.table-wrap{overflow-x:auto}.table-wrap table{width:100%;border-collapse:collapse}.table-wrap caption{font-weight:700;text-align:left;padding:.6em 0}.table-wrap th,.table-wrap td{padding:.5em;border:1px solid var(--border);text-align:left;vertical-align:top}</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 7</span><span>›</span><span>Sub-unit 7.H</span><span>›</span><strong>Node 01</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 7.H.01</span><span>Unit 7 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Foundations of Stress, Homeostasis and Adaptation</h1><p class="subtitle">Understand physiological stressors, homeostasis, allostasis, tolerance, resilience, acclimation, acclimatization and evolutionary adaptation through comparative physiology and experimental reasoning.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Previous published thermoregulation node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Neural and Endocrine Mechanisms of Stress Response">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#s1">1. The problem of maintaining life in a changing environment</a><a href="#s2">2. Regulated variables, feedback and homeostasis</a><a href="#s3">3. Allostasis, anticipation and physiological coordination</a><a href="#references">References</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article class="reading-paper" aria-label="Foundations of Stress, Homeostasis and Adaptation study notes"><div class="article-content" id="article"><section id="s1"><h2>1. The problem of maintaining life in a changing environment</h2><p class="teaching-prose">An animal is not a closed vessel containing a permanent supply of suitable chemicals. Every cell consumes substrates, produces metabolic wastes and exchanges heat and water with its surroundings. A freshwater fish experiences a constant tendency for water to enter its body; a terrestrial insect risks losing water to dry air; a mammal exercising vigorously experiences a sudden demand for oxygen and fuel. In all three cases the problem is not simply that an external condition has changed. The decisive question is whether the animal can maintain the internal conditions needed for biological function while the environment or its own activity changes. The study of stress and adaptation provides a framework for answering that question.</p><p class="teaching-prose">Imagine a resting animal that begins running. Its contracting muscles consume ATP faster than at rest. ATP must be replenished, and sustained aerobic exercise requires delivery of oxygen and substrates, as well as removal of carbon dioxide and heat. If cardiac output, ventilation and fuel mobilisation remained fixed at resting values, tissue demands could exceed supply. Increasing cardiac output is therefore not automatically a departure from health. It is often precisely the response that helps preserve adequate tissue function. Similarly, water conservation during dehydration may require the kidney to produce urine that differs markedly from urine produced when water is abundant. In both examples, an altered organ activity protects a more important physiological variable.</p><p class="teaching-prose">The distinction between the condition that challenges the organism and the response it produces is foundational. A stressor is an internal or external challenge capable of disturbing, or threatening to disturb, an animal's physiological organisation. The stress response is the set of physiological and behavioural adjustments evoked by that challenge. Stress itself is used somewhat differently by different investigators: some emphasise threatened homeostasis, others emphasise the overall response or the state of physiological challenge. In this chapter the word refers to the physiological challenge and its response context, while the more precise terms stressor and response identify causal events. It is not restricted to emotional distress, and an animal need not display a human-like conscious experience for its physiology to be studied under stress.</p><p class="teaching-prose">Consider exposure to high environmental temperature. Air temperature is the external condition. Its capacity to act as a stressor depends on whether it challenges the organism's ability to balance heat gain and loss. A change in skin blood flow, movement to shade or increased evaporative cooling constitutes a response. Internal temperature measured during the exposure is one possible regulated outcome. Tissue injury after excessive heating is a damaging outcome, not a synonym for the cooling response. A student who conflates these four categories cannot infer whether a treatment has reduced stressor intensity, changed compensatory capacity or merely changed a particular biomarker.</p><p class="teaching-prose">Internal challenges are equally important. Bleeding reduces circulating volume, even if the external environment is unchanged. A fall in plasma glucose during fasting reflects the relationship between fuel intake, storage and utilisation. Infection introduces biologically active material and inflammatory signals within the host. Exercise, reproduction and development also alter physiological demands; these processes may be normal components of life rather than disease. Consequently the distinction between external and internal stressors describes where a challenge arises, not whether it is harmful. A single event often has both components: an external heat challenge can increase internal water loss, which then changes the demands on water and circulatory regulation.</p><p class="teaching-prose">A useful causal model distinguishes input, state, response and outcome. Input is the exposure or challenge. State includes the animal's hydration, nutritional reserves, developmental condition and prior experience. Response describes what the animal does in the face of that input while in that state. Outcome describes the resulting maintenance, loss or restoration of function. Two individuals exposed to identical heat need not produce identical responses because their states differ. Two individuals producing the same response need not have identical outcomes because their physiological reserves or other effector systems differ. This is why a physiological measurement must always be interpreted within a defined exposure, species and time interval.</p><p class="teaching-prose">A response can be protective even when it appears costly. A bird that interrupts feeding to escape a predator loses an opportunity to obtain energy, but the immediate survival benefit can outweigh that cost. A mammal that increases ventilation during exertion spends energy on respiratory muscles while maintaining gas exchange. A fish that moves into cooler water can avoid dangerous heat without changing its biochemical tolerance. Behaviour and internal physiology thus form an integrated defence system. Avoiding an exposure is not the same as tolerating it; this distinction becomes essential when designing experiments to measure animal tolerance.</p><p class="teaching-prose">Conversely, a conspicuous response does not guarantee effective protection. If water loss is extreme, thirst may increase while the animal remains unable to find water. If environmental oxygen is severely reduced, increasing ventilation may be insufficient to support aerobic performance. Strong activation and unsuccessful compensation can occur together. Likewise, a small response is not necessarily evidence of safety. It can indicate that the animal avoids the stressor effectively, that its physiology is already well suited to the exposure, or that its response system is impaired. The meaning of the signal depends on an independently measured functional outcome.</p><p class="teaching-prose">The unit of analysis must also be specified. A cell may experience a changed osmotic gradient while the whole animal maintains a nearly stable plasma composition. A tissue can face a transient shortage of fuel during otherwise well-regulated exercise. A population may contain individuals that differ widely in stress tolerance, and the distribution of those traits can influence survival across seasons. Cellular, organ-system, individual and population responses operate at related but distinct levels. This chapter focuses on animal-level physiological principles; subsequent chapters examine neural and endocrine mediators, cellular protective pathways, comparative environmental challenges and cumulative physiological costs.</p><p class="teaching-prose">For examination purposes, begin every stress question by identifying the imposed variable, the response variable, the functional endpoint and the relevant timescale. For example, if investigators expose two groups of fish to the same reduction in dissolved oxygen and one group maintains swimming speed better, the result establishes a difference in performance under that exposure. It does not by itself reveal whether the difference arises from oxygen uptake, oxygen transport, metabolic demand, behaviour or inherited variation. A valid explanation requires evidence that narrows those possibilities. This habit of separating observation from mechanism is the foundation of comparative stress physiology.</p><figure class="figure-panel"><svg viewBox="0 0 540 240" role="img" id="fig-s1" aria-labelledby="fig-s1-t fig-s1-d" xmlns="http://www.w3.org/2000/svg"><title id="fig-s1-t">Stressor and physiological outcome</title><desc id="fig-s1-d">Causal sequence from exposure and animal state through response to outcome.</desc><rect x="18" y="10" width="504" height="39" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="270" y="35" font-size="15" text-anchor="middle" fill="currentColor">Exposure / internal challenge</text><path d="M270 49 v16 l-5 -6 m5 6 l5 -6" stroke="var(--accent)" fill="none" stroke-width="2"/><rect x="18" y="67" width="504" height="39" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="270" y="92" font-size="15" text-anchor="middle" fill="currentColor">Challenge evaluated in current state</text><path d="M270 106 v16 l-5 -6 m5 6 l5 -6" stroke="var(--accent)" fill="none" stroke-width="2"/><rect x="18" y="124" width="504" height="39" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="270" y="149" font-size="15" text-anchor="middle" fill="currentColor">Physiological and behavioural response</text><path d="M270 163 v16 l-5 -6 m5 6 l5 -6" stroke="var(--accent)" fill="none" stroke-width="2"/><rect x="18" y="181" width="504" height="39" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="270" y="206" font-size="15" text-anchor="middle" fill="currentColor">Functional outcome and possible injury</text></svg><figcaption>A stressor, response and outcome are different variables. A strong response is not necessarily a successful one.</figcaption><button class="tool-btn diagram-zoom" data-figure="fig-s1" type="button">Enlarge diagram</button></figure></section><section id="s2"><h2>2. Regulated variables, feedback and homeostasis</h2><p class="teaching-prose">The internal environment of a multicellular animal includes fluids surrounding and supplying its cells. In vertebrates, extracellular fluid comprises plasma and interstitial fluid, which exchange substances across capillary walls. Although external conditions may fluctuate, many properties of this internal environment must remain compatible with enzyme activity, membrane integrity and cellular transport. The nineteenth-century concept of the internal milieu associated with Claude Bernard emphasised the importance of this stability. Walter Cannon later developed the concept of homeostasis to describe the coordinated physiological processes that maintain suitable internal conditions. Homeostasis does not imply absolute immobility. The organism remains alive by continuously exchanging energy and matter with its environment.</p><p class="teaching-prose">A regulated variable is a measurable physiological property whose variation is constrained by regulatory processes. Examples include extracellular osmolality, arterial carbon dioxide tension and, in endotherms, core temperature within context-dependent ranges. An effector variable is an activity that can be changed to influence the regulated property. Ventilation is an effector activity in respiratory regulation; sweating is an effector activity for heat loss in humans; urine water excretion is an effector activity in fluid balance. A common examination error is to assume every quantity that changes in a feedback loop is itself the regulated quantity. Increased ventilation during exercise can help keep arterial carbon dioxide tension near its appropriate operating range even though breathing frequency is much higher than at rest.</p><p class="teaching-prose">A basic regulatory system requires information about the relevant condition, a means of integrating that information and an effector capable of changing it. A sensor detects a physical or chemical signal. An integrating system links that signal to an effector response. The effector changes a rate or flux that influences the variable being regulated. For example, when effective extracellular solute concentration rises following water loss, osmosensitive systems contribute to thirst and water conservation. Drinking can add water; renal conservation can reduce subsequent water loss. These are not identical effects, but both can contribute to restoring fluid concentration. Feedback closes the causal loop because the resulting internal condition influences subsequent sensor activity.</p><p class="teaching-prose">Negative feedback means that the consequences of a response oppose the deviation that initiated it. The word negative refers to the sign of this causal relationship, not to an undesirable outcome or necessarily a decrease in effector activity. If body temperature rises, an increase in heat loss opposes that rise. If circulating volume falls, an increase in fluid conservation opposes further volume loss. Both examples can involve increased activity. A response may amplify another signal within its pathway while the completed physiological loop is still negative. The loop must be classified by the effect of the response on the original regulated variable, not by one molecular arrow in the pathway.</p><p class="teaching-prose">A simple balance model helps clarify how regulation operates. Let X denote the amount of a substance in a specified body compartment, measured in millimoles or another appropriate unit. Its rate of change equals input rate minus output rate. Thus dX/dt = J_in − J_out, where each J is measured in amount per unit time. At a steady state dX/dt is zero, which means the two rates are equal. It does not mean that either rate is zero. For a hypothetical animal taking in and losing 10 mmol of a solute per hour, the amount remains unchanged while substantial material flows through the system. If intake rises to 13 mmol/h and output initially remains 10 mmol/h, the pool increases by 3 mmol/h until adjustment changes the balance. Feedback can alter the rate of removal or intake. The model assumes the compartment is adequately defined and all significant input and output pathways have been included.</p><p class="teaching-prose">Amount and concentration must not be confused. If X is the amount of a dissolved substance and V the volume of the relevant fluid, concentration C is X/V. Concentration may rise because X increases or because V decreases. In an illustrative compartment containing 300 mmol of solute in 1 L, concentration is 300 mmol/L. Removing 0.1 L of pure water without removing solute gives 300/0.9, approximately 333 mmol/L. The increase is about eleven percent, not ten percent, because the denominator changes. Real extracellular fluid is more complex, and changes in effective osmoles, redistribution and solute excretion complicate the calculation. Nevertheless the example explains why a concentration signal alone does not identify the original cause of a disturbance.</p><p class="teaching-prose">Regulation also has finite speed. If a disturbance begins abruptly, the regulated variable may deviate before effectors have achieved their full response. Delays arise from sensory detection, transmission, biochemical reactions and the time required for flux changes to influence the internal compartment. A transient deviation is therefore compatible with successful homeostatic regulation. The amplitude of the deviation, duration and residual error provide different information. An animal might show a large initial deviation followed by rapid recovery, while another shows a modest deviation that persists for a long time. Without a defined endpoint, neither can universally be labelled better regulated.</p><p class="teaching-prose">For a simplified small-perturbation model, write x = X − X_ref, with x expressed in the same units as the regulated variable. If an external disturbance is represented by u in units of X per minute and proportional restoration by −kx, where k is a positive rate constant in inverse minutes, then dx/dt = u − kx. With u constant, the model approaches a steady deviation u/k. When the disturbance is removed, the deviation decreases exponentially according to x(t) = x(0)e^(−kt). A larger k represents faster restoration in this particular model. It is not a universal physiological gain constant. Real regulatory systems include nonlinear responses, delays, saturation, multiple interacting effectors and changing operating conditions.</p><p class="teaching-prose">Suppose that a hypothetical variable deviates by 8 units after an exposure ends. After 10 minutes, a response system reduces the deviation to 4 units. The model implies a recovery half-time of 10 minutes, so the estimated rate constant is ln(2)/10, about 0.0693 per minute. After another 10 minutes the predicted deviation is 2 units. If the measured value instead remains at 4 units, the simple model is inadequate or a disturbance persists. Such calculations help distinguish a descriptive curve from a causal explanation. They also show why data at a single time point are insufficient for judging recovery.</p><p class="teaching-prose">The idea of an operating range is often more realistic than a rigid set point. Body temperature changes with circadian phase, activity and reproductive state. Arterial pressure varies with posture and behaviour. The regulatory system constrains variables within context-appropriate limits rather than maintaining every measurement at its resting mean. A change in temperature can result from a failure to dissipate heat or from a coordinated shift in thermal regulation; the direction of change alone is insufficient to distinguish them. In a fever, for example, coordinated thermoregulatory responses can temporarily defend an elevated temperature; passive overheating has a different relationship between heat load and regulation. Detailed thermal mechanisms belong to the preceding subunit.</p><p class="teaching-prose">Negative feedback cannot prevent every disturbance. Each effector has a finite capacity, and the effectiveness of one pathway may depend on the integrity of another. Increasing peripheral blood flow can help dissipate heat only if the environmental gradient and other physical conditions permit effective heat exchange. Evaporative cooling depends on water availability and the capacity of the environment to accept water vapour. Regulatory limits are therefore determined by both physiological capacity and environmental constraints. Failure beyond these limits does not invalidate the feedback concept; it indicates that the disturbance has exceeded the conditions under which regulation can achieve the required outcome.</p><p class="teaching-prose">The control of an animal is also distributed. Local tissue responses, endocrine signals, neural reflexes and behavioural decisions can all influence the same physiological quantity. There need not be a single central comparator for every regulated variable. A mammalian reflex can be analysed as a convenient sensor–integrator–effector loop while local vascular responses simultaneously influence blood flow. The simplified feedback diagram is useful because it predicts the direction of compensation, but the actual organism is a network. This distinction prevents a student from mistaking an instructional model for a complete anatomical map.</p><figure class="figure-panel"><svg viewBox="0 0 540 240" role="img" id="fig-s2" aria-labelledby="fig-s2-t fig-s2-d" xmlns="http://www.w3.org/2000/svg"><title id="fig-s2-t">Negative feedback</title><desc id="fig-s2-d">A disturbance changes X; a sensor and effector oppose that change.</desc><rect x="25" y="20" width="180" height="48" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="115" y="49" text-anchor="middle" fill="currentColor">Regulated variable X</text><rect x="330" y="20" width="180" height="48" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="420" y="49" text-anchor="middle" fill="currentColor">Sensor / integration</text><rect x="330" y="150" width="180" height="48" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="420" y="179" text-anchor="middle" fill="currentColor">Effector activity</text><path d="M205 44 H324 l-7 -6 m7 6 l-7 6 M420 68 V144 l-6 -7 m6 7 l6 -7 M330 174 H115 V74 l-6 7 m6 -7 l6 7" fill="none" stroke="var(--accent)" stroke-width="3"/><text x="160" y="165" text-anchor="middle" font-size="13" fill="currentColor">Opposes deviation</text><text x="270" y="225" text-anchor="middle" font-size="13" fill="currentColor">Disturbance acts on X; feedback opposes its effect.</text></svg><figcaption>Negative feedback is defined by the net effect on the regulated variable, not by the sign of an intermediate signal.</figcaption><button class="tool-btn diagram-zoom" data-figure="fig-s2" type="button">Enlarge diagram</button></figure></section><section id="s3"><h2>3. Allostasis, anticipation and physiological coordination</h2><p class="teaching-prose">Homeostasis describes the achievement of suitable internal stability through regulation. Allostasis highlights the active adjustments by which an organism maintains function under changing demands, including anticipatory and coordinated adjustments. The terms overlap in actual physiological processes and authors do not use them in entirely identical ways. It is unhelpful to treat them as mutually exclusive categories. An animal can maintain stable blood chemistry by changing cardiovascular, respiratory, endocrine and behavioural activities. These changing activities can be considered allostatic means of achieving homeostatic ends.</p><p class="teaching-prose">A familiar example is the transition from rest to exercise. Motor commands recruit skeletal muscles, and circulatory and respiratory adjustments can begin in anticipation of the full rise in metabolic products. Feedback from working muscles and blood chemistry continues to refine the response. If the animal had to wait for substantial oxygen deficiency before changing delivery, its performance would suffer. Anticipation can reduce the magnitude of a disturbance. Feedforward regulation means that a response is initiated by a signal predicting a demand or disturbance, rather than exclusively by measurement of the resulting error. It is not identical to positive feedback. In feedforward control the predictor acts before or alongside the consequences of an event, whereas in positive feedback the consequences amplify the originating change.</p><p class="teaching-prose">Predictive signals are valuable only to the extent that they convey reliable information. A nocturnal animal can prepare for the active phase through biological rhythms. A food-associated cue can evoke anticipatory physiological changes. An animal encountering a familiar predator-related signal may alter behaviour before physical contact occurs. In each case the initiating signal is not necessarily the regulated variable itself. If the prediction is wrong, the organism may spend resources unnecessarily. Feedback can then help correct the resulting mismatch. Both prediction and error correction are important because the environment contains regularities as well as surprises.</p><p class="teaching-prose">Allostatic coordination is especially useful when physiological priorities conflict. During activity, blood flow must support contracting muscle while maintaining adequate arterial pressure and perfusion of other essential tissues. During dehydration, preserving circulating volume may become important even as increased evaporation would help cool the body. A regulatory network cannot maximise every desirable outcome independently when resources are limited. It must adjust the relative allocation of resources. This is why an optimal response for one tissue or variable can create a cost elsewhere.</p><p class="teaching-prose">Consider a simplified oxygen-delivery example. Oxygen delivery to the systemic circulation is approximately cardiac output multiplied by arterial oxygen content, provided units are compatible. If cardiac output is 5 L/min and arterial oxygen content is 200 mL O2/L, delivery is 1000 mL O2/min. During a hypothetical activity, output increases to 8 L/min while arterial content remains 200 mL/L, giving 1600 mL O2/min. This calculation is delivery, not oxygen consumption; tissues extract only part of the delivered oxygen. The example illustrates how the rate of a supporting process changes to meet demand without requiring a corresponding change in arterial oxygen concentration. It also highlights the importance of distinguishing a regulated blood property from a flux that supports tissues.</p><p class="teaching-prose">The resources used in compensation are not free. Increasing ventilation and circulation requires energy. Evaporative heat loss consumes water. Maintaining ionic gradients requires active transport supported by ATP. Behavioural vigilance can reduce time available for feeding or mating. These costs can be biologically worthwhile when they help an animal survive a short challenge. However, the same costs may be substantial if the challenge is repeated or the response remains active when it is no longer useful. Allostatic load describes cumulative burdens associated with adjustment, especially when mediators are repeatedly or inappropriately engaged. It is a conceptual framework, not a universal quantity measured by one hormone concentration. The detailed chronic consequences are reserved for 7.H.05.</p><p class="teaching-prose">A useful hypothetical experiment compares two animals facing identical predictable daily heat exposures. One receives a reliable cue before each exposure, while the other receives a cue unrelated to the exposure. If the first group begins a protective behavioural adjustment before temperature rises and shows a smaller internal temperature deviation, the result is consistent with useful anticipation. To isolate the effect of predictability, the groups must experience matched intensity, duration and number of heat episodes, and the cue itself should not directly alter the environment. The experiment should also measure energy or water expenditure. If anticipation reduces peak temperature but increases resource consumption, the benefit must be interpreted together with its cost.</p><p class="teaching-prose">A physiological response is therefore best understood as an adjustment in an integrated system. A rise in a mediator can be protective in one context, neutral in another and costly if persistent or inappropriate. An unchanged mediator does not prove unchanged physiological demand, because another pathway may compensate. Homeostasis and allostasis give complementary ways to organise these observations: one asks which variables are maintained and by what regulatory relationships; the other asks how the organism changes its physiological activities and priorities as conditions change.</p><figure class="figure-panel"><svg viewBox="0 0 540 240" role="img" id="fig-s3" aria-labelledby="fig-s3-t fig-s3-d" xmlns="http://www.w3.org/2000/svg"><title id="fig-s3-t">Feedforward versus feedback</title><desc id="fig-s3-d">Predictive signal and detected error converge on adjustment.</desc><rect x="16" y="20" width="230" height="42" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="131" y="46" font-size="15" text-anchor="middle" fill="currentColor">Predictive cue</text><rect x="294" y="20" width="230" height="42" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="409" y="46" font-size="15" text-anchor="middle" fill="currentColor">Detected deviation</text><path d="M131 62 V90 H270 V112 M409 62 V90 H270" fill="none" stroke="var(--accent)" stroke-width="2"/><rect x="140" y="115" width="260" height="44" rx="8" fill="var(--surface)" stroke="var(--accent)"/><text x="270" y="142" text-anchor="middle" fill="currentColor">Coordinated adjustment</text><path d="M270 159 V185" stroke="var(--accent)" stroke-width="2"/><text x="270" y="207" text-anchor="middle" fill="currentColor">Support appropriate internal function</text></svg><figcaption>Anticipation and error correction can operate together; neither is equivalent to positive feedback.</figcaption><button class="tool-btn diagram-zoom" data-figure="fig-s3" type="button">Enlarge diagram</button></figure></section><section id="references"><h2>References</h2><ol><li><a href="https://csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR-HRDG. Revised Life Sciences and Biotechnology syllabus, Unit 7.H.</a></li><li><a href="https://www.nature.com/articles/138032a0">Selye H. A Syndrome produced by Diverse Nocuous Agents. Nature 138, 32 (1936).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/9629234/">McEwen BS. Stress, adaptation, and disease: allostasis and allostatic load (1998).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/17615391/">McEwen BS. Physiology and neurobiology of stress and adaptation: central role of the brain (2007).</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK278995/">Endotext. Stress: Endocrine Physiology and Pathophysiology.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6951893/">Collier et al. Heat stress: physiology of acclimation and adaptation (2019).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/30009486/">The complex drivers of thermal acclimation and breadth in ectotherms (2018).</a></li></ol></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 7 · System Physiology – Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.G.08","previous-node","← "],["7.H.02","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

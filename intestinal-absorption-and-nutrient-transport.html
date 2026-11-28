@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Understand intestinal epithelial transport of sugars, amino acids, lipids, vitamins, minerals, water and electrolytes for CSIR-NET and SET.">
+  <meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/intestinal-absorption-and-nutrient-transport.html">
+  <title>Intestinal Absorption and Nutrient Transport (7.I.04) | CSIR-NET Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.figure-panel .svg-scroll{overflow-x:auto;max-width:100%;padding:2px}.figure-panel .svg-scroll svg{min-width:520px;width:100%;max-width:none}.svg-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:2px}.figure-panel svg{color:var(--ink)}.question{border-bottom:1px solid var(--border);padding-bottom:1em;margin-bottom:1em}.options{list-style-type:upper-alpha}.article-content .meta{color:var(--muted);font-size:.82em}.article-content .notice{border-left:3px solid var(--accent);padding:12px;background:var(--panel)}body[data-theme=dark] svg [stroke="#147c65"]{stroke:#6cdbb7}body[data-theme=dark] svg [stroke="#a85b16"]{stroke:#ffc37d}body[data-theme=dark] svg [stroke="#7753b5"]{stroke:#d4b5ff}body[data-theme=dark] svg [fill="#dceee9"]{fill:#294d40}body[data-theme=dark] svg [fill="#f3dfbc"]{fill:#5b482e}.practice-question{border-bottom:1px solid var(--border);padding:14px 0}.practice-question details,.active-recall details{background:var(--panel);padding:10px 13px;border-radius:8px}.practice-question summary,.active-recall summary{cursor:pointer;font-weight:700;color:var(--accent-dark)}.misconception{margin:.7em 0!important}.source-note{font: .78em Inter,Arial,sans-serif;color:var(--muted);margin-top:1em!important}</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 7</span><span>›</span><span>7.I Digestive System</span><span>›</span><strong>7.I.04</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">7.I.04</span><span>System Physiology: Animal</span></div><h1>Intestinal Absorption and Nutrient Transport</h1><p class="subtitle">From epithelial polarity and nutrient transport to portal blood, lymph and fluid balance.</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Digestive Secretions and Enzymatic Digestion">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Nutrition, Energy Balance and Metabolic States">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#s1">Absorption as a biological problem</a><a href="#s2">Surface architecture, regionalization and epithelial polarity</a><a href="#s3">Physical chemistry of directional transport</a><a href="#s4">Monosaccharide absorption: glucose, galactose and fructose</a><a href="#references">References</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Intestinal Absorption and Nutrient Transport">
+          <div class="article-content" id="article">
+<section id="s1"><h2>Absorption as a biological problem</h2><p class="teaching-prose">The intestinal lumen is continuous with the outside environment. A molecule that has been swallowed, dissolved and even completely hydrolysed has not necessarily entered the internal environment of an animal. The epithelial barrier separates the meal from extracellular fluid, and the epithelium must transfer useful molecules without allowing all luminal constituents unrestricted access to the blood. This distinction explains why a failure of digestion and a failure of absorption can produce superficially similar nutritional consequences even though their mechanisms are different. In the former case the appropriate molecular substrate has not been generated; in the latter it is present but its transfer across the epithelium is defective. A third possibility is that entry occurs but onward delivery is impaired. To identify the mechanism of an absorption defect, one must therefore ask what form of the nutrient is available, where it is located and which step limits its movement.</p>
+<p class="teaching-prose">Consider a molecule of starch. Salivary and pancreatic enzymes shorten its chains; brush-border hydrolases generate glucose. Glucose is highly soluble in water but poorly permeable through the hydrophobic core of a phospholipid bilayer. Its availability in the lumen therefore creates a transport problem that an enzyme cannot solve. By comparison, the products of triglyceride hydrolysis can partition into lipid membranes, but they have limited solubility in the aqueous chyme. Their major initial difficulty is delivery through an aqueous boundary layer, and the major subsequent difficulty is packaging large amounts of hydrophobic material for delivery through the extracellular fluids. Both nutrients ultimately contribute carbon to tissues. The difference in physical chemistry produces radically different routes from food to internal circulation.</p>
+<p class="teaching-prose">The term absorption denotes net transfer from lumen to internal compartments. Uptake is a narrower term that may denote entry into an individual cell, including entry that is followed by metabolism or storage rather than release. Assimilation describes incorporation or utilization of absorbed molecules within tissues. In a laboratory preparation one might measure uptake of labelled glucose into the mucosa; that result alone cannot establish the rate of delivery of unmodified glucose into blood because some of the label may have entered glycolytic intermediates. Similarly, appearance of a lipid label in a liver sample cannot prove that the original lipid molecule crossed the intestinal wall unchanged. Chemical identity and anatomical destination are distinct experimental questions.</p>
+<p class="teaching-prose">In a mammalian intestine, a nutrient commonly encounters a luminal fluid layer, the apical membrane of an enterocyte, intracellular components, the basolateral membrane, interstitial fluid, and a capillary or lymphatic endothelial barrier. A substance may bypass the cellular interior by travelling between adjacent epithelial cells, if the junctions allow it. These alternative paths are termed transcellular and paracellular, respectively. They are not simply interchangeable holes: the permeability of each path depends on the nature of the molecule, the membrane proteins present and the electrical and chemical conditions across the tissue. A highly selective carrier can therefore coexist with appreciable passive ion or water flow through junctions.</p>
+<p class="teaching-prose">The transfer of nutrients must occur while the mucosa also secretes ions, mucus and fluid, renews its cells, samples the intestinal contents and responds to neural and hormonal signals. The physiological result of interest is net balance, not an isolated unidirectional movement. An intestine that secretes fluid into one region and absorbs it in another can nevertheless conserve water efficiently at the organ level. Conversely, a normal uptake mechanism may be overwhelmed by an increased fluid load or a shortened contact time. In this chapter the human and representative mammalian small intestine provide the central model; species, diet, developmental stage and intestinal region can change the relative importance of individual pathways. The logical principles remain useful in comparative physiology, but precise transporter maps should not be transferred automatically to every animal.</p></section>
+<section id="s2"><h2>Surface architecture, regionalization and epithelial polarity</h2><p class="teaching-prose">A long narrow tube exposes more surface than a short sac of equal volume, but length alone is not sufficient to explain the capacity of the mammalian small intestine. Its mucosa is organized at several scales. Large folds increase the area of the inner lining. Finger-like or leaf-like villi project into the chyme; each contains connective tissue, blood vessels and a central lymphatic capillary called a lacteal. At a smaller scale each mature absorptive enterocyte presents numerous microscopic membrane projections. These microvilli collectively form the brush border. Villi and microvilli are not synonyms: the former are multicellular tissue projections, whereas the latter are extensions of the plasma membrane of individual cells, supported by an actin-based cytoskeleton. A reduction of villus height can diminish total absorptive area even if each surviving enterocyte retains its normal density of transport proteins.</p>
+<p class="teaching-prose">The epithelial cells form a single cellular layer over the villus surface. This creates a short path for transfer but also creates a potential vulnerability, because mechanical injury or failure of intercellular junctions can compromise the barrier. The crypts between villi contain proliferating cells whose descendants migrate, differentiate and replace the mature epithelium. Mature absorptive cells and secretory cells show overlapping rather than absolutely separated functions. The common teaching contrast of absorptive villus cells and secretory crypt cells is useful as an emphasis, but some transport processes are expressed across the axis and the precise pattern varies. Goblet cells secrete mucins, helping to establish a protective layer at the interface. This layer must permit small nutrient molecules to reach the cell surface while limiting exposure to damaging materials. Enteroendocrine cells detect aspects of luminal composition and communicate with local and systemic targets.</p>
+<p class="teaching-prose">The apical membrane faces the lumen; the basolateral domain faces the intercellular space and underlying tissue. These names are functional coordinates, not a statement about the direction in which a microscopic photograph happens to be oriented. A sodium-glucose cotransporter concentrated at the apical membrane and a facilitative sugar transporter at the basolateral membrane have different tasks. If both proteins were randomly distributed on both surfaces, the cell would have far less control over net vectorial transfer. Tight junctions form a regulated barrier to movement between cells and help maintain the distinction between membrane domains. A tight junction is not an absolutely impermeable weld. Different claudin compositions permit different degrees of selective ion and water movement. Experimental disruption of junctions can therefore change conductance and passive flux without directly altering a particular transporter.</p>
+<p class="teaching-prose">A glucose molecule that has entered the enterocyte can leave from the basolateral side only if the necessary onward route and gradient are available. Removal of glucose from the interstitium by blood flow helps sustain a concentration difference across that membrane. The blood supply also delivers oxygen and substrates for epithelial ATP production. When perfusion is seriously impaired, oxygen limitation can reduce active transport, while slower clearance can reduce the driving forces for passive exit. This illustrates how a membrane mechanism depends on tissue-level physiology: expression of a transporter is necessary but may not be sufficient for its full contribution to absorption.</p>
+<p class="teaching-prose">The duodenum receives gastric contents, bile and pancreatic secretion; it is a major region for the uptake of iron and regulated calcium. The jejunum has a prominent absorptive role for products of carbohydrate, protein and lipid digestion. The ileum continues to absorb many nutrients and possesses specialized mechanisms for bile acid salvage and intrinsic-factor-dependent cobalamin uptake. These descriptions refer to predominant physiological roles, not impermeable borders between functions. When an upstream region delivers fewer substrates, a downstream segment may be able to compensate for part of the loss; where a highly specialized route is restricted to a narrow region, compensation may be more limited. For example, retained jejunum cannot automatically substitute for loss of all functional terminal ileum in the uptake of the intrinsic-factor–cobalamin complex.</p>
+<p class="teaching-prose">The colon generally lacks the villi characteristic of the small intestine but has crypts, absorptive surface cells with microvilli and transport systems for salts, water and microbial fermentation products. Its role is not simply to store waste. In a healthy animal it recovers valuable material delivered from the small bowel, including water and short-chain fatty acids generated by fermentation. The balance between intestinal length, residence time, epithelial area, available substrates and microbial activity helps explain why different digestive architectures are successful for different diets.</p>
+<p class="teaching-prose">Surface area has a quantitative meaning. For a simple nonreacting solute crossing a uniform membrane at steady state, the amount transferred per unit time can be approximated by P A (C₁ − C₂), where P is permeability expressed as length per time, A is area, and C is concentration in amount per volume. Multiplying these units gives amount per time. Suppose two otherwise identical preparations have areas of 10 and 20 square centimetres. At the same permeability and concentration difference the second transfers twice as much solute. Real intestine does not obey this proportionality under all conditions: perfusion, carrier density, access of chyme to the surface and intracellular handling can all become limiting. Microvilli increase geometric area, but only viable membrane supplied with the right machinery constitutes useful functional area. The equation is a way to isolate one variable, not to treat the tissue as an inert membrane.</p>
+<p class="teaching-prose">Histological examination and transport assays provide complementary evidence. Histology can show villus shortening, epithelial loss and altered brush-border morphology. Immunolocalization can identify where a transporter is concentrated, while a functional assay tests its ability to move the substrate. An unchanged intensity of staining does not guarantee unchanged flux because a protein can be inactive, gradients can collapse or the total number of cells can decline. Likewise, lower total transport per intestinal segment need not mean each cell has lost function. Normalizing by area or protein content, alongside an independent assessment of tissue health, helps distinguish loss of surface from an intrinsic transport defect.</p></section>
+<section id="s3"><h2>Physical chemistry of directional transport</h2><p class="teaching-prose">Moving a neutral solute from a high concentration to a low concentration can reduce its free energy. A lipid-soluble small molecule may do so directly through a membrane; a water-soluble solute can use a carrier. Facilitated diffusion differs from simple diffusion because it uses a protein with specific binding sites and conformational changes, so it may saturate and exhibit substrate competition. It remains passive: the direction of net transport depends on the chemical gradient, and equilibrium is not overcome merely by having more protein. An ion experiences electrical as well as chemical forces. When it is positively charged and the inside of the cell is negative, an inward electrical driving force may cooperate with the concentration gradient. For an anion the same voltage opposes inward movement.</p>
+<p class="teaching-prose">For transfer of a solute from outside to inside the molar free-energy difference is ΔG = RT ln(Cin/Cout) + zF(Vin − Vout). Here R is the gas constant, T the absolute temperature, z the signed charge number, F the Faraday constant and V the electrical potential in volts. The concentration ratio approximates the activity ratio for dilute ideal solutions. The logarithm is natural and dimensionless. For a neutral molecule z is zero. If intracellular glucose is higher than extracellular glucose, its passive inward transfer has a positive free-energy change and must be supported by some coupled process. For sodium entering a cell, both terms are often negative: sodium concentration is lower inside and the voltage is negative inside. Adding the contributions gives the available energy per mole of entering sodium.</p>
+<p class="teaching-prose">As an illustrative numerical example take extracellular sodium as 140 mmol/L, cytosolic sodium as 14 mmol/L, temperature 310 K and intracellular potential as −50 mV relative to outside. RT is approximately 2.58 kJ/mol. The chemical contribution is 2.58 ln(0.1), approximately −5.94 kJ/mol. The electrical contribution for a monovalent cation is 96.485 kJ/(V mol) multiplied by −0.050 V, approximately −4.82 kJ/mol. Together they yield −10.76 kJ/mol. Both concentration and voltage favour sodium entry. If the membrane depolarizes to zero, the inward chemical contribution remains; if intracellular sodium rises to match extracellular concentration as well, neither contribution remains. This calculation uses hypothetical representative concentrations and a defined membrane potential, not a published measurement for a particular intestinal region.</p>
+<p class="teaching-prose">A transporter can couple two downhill or one downhill and one uphill transfer in a single transport cycle. In symport the substrates move in the same direction; in antiport they move in opposite directions. The sum of free energies for the coupled substrates determines whether a cycle is thermodynamically favourable in the stated direction. This is why the distinction between primary and secondary active transport is about the source of energy, not the importance of the protein. A primary pump uses chemical energy directly, typically hydrolysis of ATP. A secondary carrier uses an ion gradient already established by another process. If the primary pump fails, the secondary carrier may retain activity transiently until the gradient dissipates. Consequently the immediate effect of blocking ATP supply need not match the eventual steady-state effect.</p>
+<p class="teaching-prose">The basolateral sodium-potassium ATPase transports three sodium ions out of the enterocyte and two potassium ions in during a complete ATP-dependent cycle. Because the net outward movement is one positive charge, it contributes directly to membrane electrogenicity. Other ion permeabilities, including potassium conductance, also contribute to the membrane potential. The pump is located on the side that faces the internal environment, and sodium which entered at the apical surface can be returned to that environment. Without the pump, continued entry of sodium would increase intracellular sodium, change cell volume and reduce the chemical gradient used by several absorptive processes. A pump that maintained sodium gradients but were placed exclusively in the wrong membrane domain would not achieve the same transepithelial result.</p>
+<p class="teaching-prose">The gradient is shared by multiple carriers. It is useful to think of a sodium gradient as an energy reservoir, but the analogy is limited because the stored free energy includes electrical as well as concentration contributions and varies continuously as carriers operate. The Na⁺/K⁺ pump consumes ATP to maintain conditions far from equilibrium. Apical sodium uptake via nutrient cotransport and sodium-hydrogen exchange, followed by basolateral pumping, can produce net sodium absorption. Potassium brought into the cell by the pump can recycle through channels, and anions can move through separate conductive or exchange pathways. A complete tissue-level model must respect mass balance and charge conservation, rather than drawing only the arrows for the nutrient under discussion.</p>
+<p class="teaching-prose">Carrier-mediated transport can be approximated over an appropriate substrate range by v = Vmax C/(Km + C). The expression describes a simple saturable component; Vmax is its maximum rate and Km is the concentration at half that rate under the specified experimental conditions. At very low concentration the rate is approximately proportional to concentration; at high concentration it approaches Vmax. An epithelial flux may additionally include a passive component P C, if the receiving side concentration is negligible. Therefore a total flux that continues to rise after a saturable component approaches its maximum does not disprove the existence of the carrier. It may reveal an additional unsaturable route. The apparent kinetic parameters in intact tissue also depend on sodium, voltage, intracellular metabolism and the diffusion boundary layer.</p>
+<p class="teaching-prose">Imagine an isolated carrier with Vmax 12 nmol/min and Km 3 mmol/L at fixed sodium and potential. At 1 mmol/L the predicted rate is 3 nmol/min; at 3 mmol/L it is 6 nmol/min; at 9 mmol/L it is 9 nmol/min. Tripling the concentration from 3 to 9 mmol/L increases the rate by only fifty percent because many carriers are already engaged. Doubling carrier number under otherwise identical conditions can double Vmax but need not change Km. In an actual tissue, changes in perfusion or membrane area can mimic kinetic differences, so it is important to state the experimental preparation and normalization before making a molecular claim.</p></section>
+<section id="s4"><h2>Monosaccharide absorption: glucose, galactose and fructose</h2><p class="teaching-prose">The major absorbable products of dietary carbohydrates are monosaccharides. In the conventional mammalian small intestinal model, glucose and galactose use the apical sodium-glucose cotransporter SGLT1. Its alternating-access cycle couples the entry of a sugar molecule to that of two sodium ions. The protein is not an ATPase and does not phosphorylate glucose. Sodium binding and sugar binding favour particular conformations of the carrier, and the coupled translocation permits sugar to accumulate against its concentration gradient. Release on the intracellular side and return of the empty transporter complete the cycle. The exact molecular conformations are not needed to reason about the overall stoichiometry: the free energy of two inward sodium ions can drive one inward neutral sugar.</p>
+<p class="teaching-prose">At the basolateral membrane, GLUT2 commonly provides a facilitative exit pathway for glucose and galactose into the interstitium. It is a different class of transporter and has no requirement for cotransport of sodium in the same cycle. The movement remains reversible in principle, so the physiological net outward flux depends on the sugar concentration difference and continued removal into blood. An increase in intracellular glucose caused by active apical uptake enhances the drive for basolateral exit, but if basolateral clearance were blocked intracellular glucose could accumulate and ultimately reduce further net uptake. The transport steps operate in series, so increasing the capacity of an already nonlimiting step may have little effect on final delivery.</p>
+<p class="teaching-prose">Fructose is transported predominantly by apical GLUT5 through facilitated diffusion, with GLUT2 contributing to its basolateral exit. This explains why removal of extracellular sodium in a controlled preparation strongly reduces the direct SGLT1 component of glucose uptake but need not directly eliminate GLUT5-mediated fructose influx. The cell may still undergo secondary changes in volume, metabolism and membrane potential, so prolonged sodium removal is not a perfectly selective perturbation. A short-time experiment with intact membrane integrity and matched osmolarity offers a better test of the direct dependence. Fructose can also undergo intracellular metabolism; appearance of fructose-derived carbon on the serosal side does not necessarily mean that all the carbon crossed as unchanged fructose.</p>
+<p class="teaching-prose">Localization is a useful model, not an invariant across all experimental contexts. The predominant apical SGLT1, apical GLUT5 and basolateral GLUT2 arrangement is an appropriate starting point for examination questions. Reports of apical recruitment of GLUT2 under high luminal glucose in some models are conditional and should not be promoted into a universal rule. SGLT1 function, expression, diet, intestinal region and experimental conditions can alter the relative pathways. GLUT4, the insulin-responsive glucose transporter particularly associated with skeletal muscle and adipose tissue, is not the principal apical transporter for normal intestinal glucose absorption. Insulin-dependent uptake by muscle after a meal is a different physiological step from the movement of glucose across an intestinal epithelial layer.</p>
+<p class="teaching-prose">The thermodynamic calculation in the preceding section gives a useful bound. With an inward sodium free-energy change of −10.76 kJ/mol, two sodium ions supply −21.52 kJ/mol for one sugar. At equilibrium for an ideal tightly coupled cycle, RT ln(Cin/Cout) would equal 21.52 kJ/mol. Dividing by RT ≈ 2.58 kJ/mol gives ln(Cin/Cout) ≈ 8.34, corresponding to a ratio of roughly 4,200. This is a theoretical limiting ratio for the chosen gradients and potential, not an observed intracellular glucose concentration. Real cells metabolize sugar, export it, possess other pathways and cannot maintain arbitrarily extreme gradients. The calculation nevertheless demonstrates why coupling two sodium ions instead of one greatly increases the maximum energy available for sugar accumulation.</p>
+<p class="teaching-prose">In early physiological studies investigators found that sugar movement in isolated intestinal tissue depended on sodium and could produce electrical current. Work on intestinal brush-border membrane vesicles showed that the dependence was present in isolated apical membrane preparations, supporting a direct coupled mechanism rather than an explanation based entirely on whole-cell metabolism. If vesicles initially contain little sodium but are exposed to high external sodium and labelled glucose, a transient accumulation of glucose above its eventual equilibrium level can occur as the sodium gradient supplies energy. This phenomenon is called an overshoot. As the imposed sodium gradient dissipates, the driving force declines and glucose redistributes. A suitable control substitutes a nontransported cation while maintaining osmolarity and monitors vesicle integrity. Such a system can isolate the apical event but cannot reproduce basolateral transfer, tissue blood flow or endocrine regulation.</p>
+<p class="teaching-prose">Expression of an intestinal transporter in a heterologous cell offers a complementary strategy. Introducing the relevant coding sequence and comparing substrate uptake or electrical current with uninjected or control-expressing cells tests whether that protein is sufficient to produce the transport signature in the new cellular environment. This strategy was important in molecular identification of SGLT1. An expression experiment must still account for endogenous conductances, background transport and differences between the host cell and natural enterocyte. Complementary localization, native tissue physiology and genetic evidence together produce a stronger explanation than a single overexpression experiment.</p>
+<p class="teaching-prose">When glucose and galactose compete for SGLT1, addition of a high concentration of one can reduce transport of a trace concentration of the other. This result is expected if both occupy the same carrier binding pathway. It does not by itself identify the exact binding site or prove that every molecule of either sugar traverses that route. To distinguish competition from nonspecific osmotic effects, a comparison solute should match osmotic concentration without sharing the transport mechanism. A glucose-dependent inward current that disappears when sodium is removed is consistent with electrogenic cotransport, but current alone cannot establish sugar stoichiometry; an independent substrate flux measurement is needed. If the only charge coupled to the sugar is two monovalent sodium ions, two moles of charge equivalents accompany each mole of sugar entering. The whole epithelium also contains other conductive pathways, which complicate direct interpretation of its total current.</p></section>
+<section id="references"><h2>References</h2><ol><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines">OpenStax Anatomy and Physiology 2e, small and large intestines</a></li><li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look">OpenStax Anatomy and Physiology 2e, chemical digestion and absorption</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7462918/">Glucose transporters in the small intestine in health and disease</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2803310/">H+-coupled nutrient, micronutrient and drug transporters in the mammalian small intestine</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4956471/">Physiology of intestinal absorption and secretion</a></li><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR-HRDG revised merged syllabus, 21 January 2026</a></li><li><a href="https://cdn-images.prepp.in/public/image/mp-set-paper-2-life-scinces-1760795800.pdf">MPPSC SET 2024 Life Sciences syllabus, mirrored copy</a></li></ol></section>
+</div>
+</article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology: Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged scientific diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // Resolve adjacent chapters from published curriculum links, including later publications.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.I.03","previous-node","← "],["7.I.05","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);if(Array.from(nav.querySelectorAll("a")).some(a=>a.getAttribute("href")===href))continue;const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      document.querySelectorAll(".figure-panel svg").forEach(figure=>{const button=document.createElement("button");button.type="button";button.className="tool-btn";button.textContent="Enlarge diagram";figure.parentNode.append(button);button.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return;const clone=figure.cloneNode(true);clone.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);clone.querySelectorAll("*").forEach(el=>{for(const attr of Array.from(el.attributes)){if(/url\(#/.test(attr.value))el.setAttribute(attr.name,attr.value.replace(/url\(#([^)]*)\)/g,"url(#zoom-$1)"));if((attr.name==="href"||attr.name==="xlink:href")&&attr.value.startsWith("#"))el.setAttribute(attr.name,"#zoom-"+attr.value.slice(1));}});const refs=clone.getAttribute("aria-labelledby");if(refs)clone.setAttribute("aria-labelledby",refs.split(" ").map(id=>"zoom-"+id).join(" "));byId("zoom-art").replaceChildren(clone);dialog.showModal();});});
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

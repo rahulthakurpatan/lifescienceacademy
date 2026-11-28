@@ -101,3 +101,12 @@ Develop the gene and allele concepts, use complementation to identify functional
 - Academy: 390/723; Unit 08: 7/36; 8.B: 2/5.
 - Earliest pending in 8.B: 8.B.02 — Complementation Tests and Functional Analysis of Genes; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.B.04-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.B.05
+
+- [8.B.05 — Mutation Detection and Genetic Screening](https://rahulthakurpatan.github.io/lifescienceacademy/mutation-detection-and-genetic-screening.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,452; 12 original SVGs (3 graphs), 5 tables, 60 explained questions (25 Part B, 30 Part C, 5 SET), 18 misconceptions, 15 recall prompts, 14 references; internal QA 95/100.
+- Academy: 391/723; Unit 08: 8/36; 8.B: 3/5.
+- Earliest pending in 8.B: 8.B.02 — Complementation Tests and Functional Analysis of Genes; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.B.05-publication-audit.md`.

@@ -127,5 +127,5 @@ All six explicit topic groups have substantive assigned coverage. Supporting exa
 - [7.K.06 — Gut Dysbiosis, Disease and Restoration of Microbial Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/gut-dysbiosis-disease-and-restoration-of-microbial-homeostasis.html) — production publication; Pages deployment verification pending.
 - Teaching words: 13,956 lexical (13,917 whitespace); 12 original SVGs (3 graphs), 4 tables, 50 explained questions (20 B, 22 C, 8 SET), 17 misconceptions, 12 recall prompts, 17 references; internal QA 95/100.
 - Academy: 420/723; Unit 07: 87/90; 7.K: 6/6.
-- Earliest pending in 7.K: undefined — undefined; global checkpoint: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis.
+- Subunit 7.K: Complete (6/6); global checkpoint: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis.
 - Audit: `curriculum/qa/7.K.06-publication-audit.md`.

@@ -132,3 +132,12 @@ With 7.L mapped, all 12 subunits (7.A–7.L) have planned learning sequences, to
 - Academy: 383/723; Unit 07: 68/90; 7.L: 3/8.
 - Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/7.L.07-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 7.L.01
+
+- [7.L.01 — Foundations of Interorgan Communication and Metabolic Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-interorgan-communication-and-metabolic-homeostasis.html) — production publication; Pages deployment verification pending.
+- Teaching words: 14,073; 14 original SVGs (2 graphs), 4 tables, 56 explained questions (22 B, 30 C, 4 SET), 18 misconceptions, 13 recall prompts, 15 references; internal QA 95/100.
+- Academy: 417/723; Unit 07: 84/90; 7.L: 4/8.
+- Earliest pending in 7.L: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
+- Audit: `curriculum/qa/7.L.01-publication-audit.md`.

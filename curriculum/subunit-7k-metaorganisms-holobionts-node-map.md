@@ -111,3 +111,13 @@ All six explicit topic groups have substantive assigned coverage. Supporting exa
 - Academy: 416/723; Unit 07: 83/90; 7.K: 4/6.
 - Earliest pending in 7.K: 7.K.03; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
 - Audit: `curriculum/qa/7.K.05-publication-audit.md`.
+
+
+### 7.K.03 publication checkpoint — 2026-11-28
+
+- Chapter: [Methods and Experimental Approaches to Study the Gut Microbiome](../methods-and-experimental-approaches-to-study-the-gut-microbiome.html)
+- State: production publication; Pages verification pending.
+- 13,318 teaching words; 11 original SVGs; 50 questions (20 B, 20 C, 10 other); 16 misconceptions; internal QA 95/100.
+- Reconciled counts: academy 419/723; Unit 7 86/90; 7.K 5/6.
+- Audit: [7.K.03 publication audit](qa/7.K.03-publication-audit.md).
+- Next unpublished: 7.K.06 — Gut Dysbiosis, Disease and Restoration of Microbial Homeostasis.

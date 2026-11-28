@@ -643,3 +643,13 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 418/723; Unit 07: 85/90; 7.L: 5/8.
 - Earliest pending in 7.L: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
 - Audit: `curriculum/qa/7.L.08-publication-audit.md`.
+
+
+### 7.K.03 publication checkpoint — 2026-11-28
+
+- Chapter: [Methods and Experimental Approaches to Study the Gut Microbiome](../methods-and-experimental-approaches-to-study-the-gut-microbiome.html)
+- State: production publication; Pages verification pending.
+- 13,318 teaching words; 11 original SVGs; 50 questions (20 B, 20 C, 10 other); 16 misconceptions; internal QA 95/100.
+- Reconciled counts: academy 419/723; Unit 7 86/90; 7.K 5/6.
+- Audit: [7.K.03 publication audit](qa/7.K.03-publication-audit.md).
+- Next unpublished: 7.K.06 — Gut Dysbiosis, Disease and Restoration of Microbial Homeostasis.

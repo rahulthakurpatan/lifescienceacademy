@@ -188,3 +188,11 @@ All seven explicit topic groups have substantive assigned coverage. Supporting c
 - Academy: 376/723; Unit 07: 61/90; 7.J: 6/12.
 - Earliest global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.07-publication-audit.md`. Deployment verification pending; static review only.
+
+### Publication checkpoint — 7.J.08 (2026-11-28)
+
+- Chapter: [Comparative Reproductive Physiology and Neuroendocrine Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/comparative-reproductive-physiology-and-neuroendocrine-regulation.html).
+- Internal QA 95/100; 13,974 genuine teaching words, 151 paragraphs, 13 original SVGs (5 graphs), 5 tables, 52 explained questions (20 B / 24 C / 8 additional), 18 misconceptions, 14 recall prompts, 16 references.
+- Academy: 377/723; Unit 07: 62/90; 7.J: 7/12.
+- Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.J.08-publication-audit.md`. Deployment verification pending.

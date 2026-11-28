@@ -103,3 +103,11 @@ Learn the principles and interpretation of macromolecule isolation, separation, 
 - 13,758 genuine teaching words, 13 SVGs (3 graphs), 3 tables, 50 explained questions (22 B, 23 C, 5 additional), 17 misconceptions, 12 recall prompts, 7 references; internal static QA 95/100.
 - Academy 430/723; Unit 14 1/60; Subunit 14.A 1/6. Earliest pending in 14.A: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis. Global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/14.A.04-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 14.A.03
+
+- [14.A.03 — Protein, Carbohydrate and Lipid Isolation and Analysis](https://rahulthakurpatan.github.io/lifescienceacademy/protein-carbohydrate-and-lipid-isolation-and-analysis.html) — production source publication; Pages deployment and live verification pending.
+- 13,914 genuine teaching words (14,045 alternate lexical); 12 SVGs (5 graphs), 5 tables, 50 explained questions (20 B, 22 C, 8 additional), 18 misconceptions, 12 recall prompts, 15 references; internal static QA 95/100.
+- Reconciled source progress: Academy 431/723; Unit 14 2/60; Subunit 14.A 2/6.
+- Earliest pending in 14.A: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis; Unit 14: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.A.03-publication-audit.md`.

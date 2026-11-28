@@ -556,3 +556,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 14,878 genuine teaching words; 144 distinct teaching paragraphs; 12 sections; 11 SVGs (4 graphs/charts), 5 tables, 53 explained original questions (25 B / 28 C), 15 misconceptions, 10 recall prompts, 14 references.
 - Academy: 407/723; Unit 07: 74/90; 7.I: 4/6. Next global pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation; next in 7.I: 7.I.04 — Intestinal Absorption and Nutrient Transport.
 - Audit: `curriculum/qa/7.I.06-publication-audit.md`.
+
+
+### Publication checkpoint — 2026-11-28 — 7.H.03
+
+- 7.H.03 — [Cellular and Molecular Mechanisms of Stress Adaptation](https://rahulthakurpatan.github.io/lifescienceacademy/cellular-and-molecular-mechanisms-of-stress-adaptation.html); internal academic and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 14,320 teaching words in 125 distinct teaching paragraphs; 8 teaching sections; 12 original accessible SVGs (3 graphs), 4 tables, 50 original explained questions (25 B / 25 C), 17 misconceptions, 12 active recall prompts and 17 reference entries.
+- Subunit 7.H: 5/5, complete; Unit 07: 75/90; Academy: 408/723. Earliest unpublished node: 7.I.04 — Intestinal Absorption and Nutrient Transport.
+- Audit: `curriculum/qa/7.H.03-publication-audit.md`.

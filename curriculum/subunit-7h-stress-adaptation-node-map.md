@@ -103,3 +103,11 @@ The full official heading has substantive mapped coverage at the planned NET/SET
 - 7.H.04 — [Environmental Stress and Comparative Physiological Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/environmental-stress-and-comparative-physiological-adaptations.html); recovered previously audited chapter, internal QA 95/100; Pages/live verification pending.
 - 13,394 genuine teaching words, 116 distinct teaching paragraphs, 13 original SVGs (3 graphs), 4 tables, 50 explained original questions (20 B / 22 C / 8 SET), 18 misconceptions, 12 recall prompts, 23 references. Audit: `curriculum/qa/7.H.04-publication-audit.md`.
 - Subunit 7.H: 4/5; Unit 07: 72/90; Academy: 405/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation.
+
+
+### Publication checkpoint — 2026-11-28 — 7.H.03
+
+- 7.H.03 — [Cellular and Molecular Mechanisms of Stress Adaptation](https://rahulthakurpatan.github.io/lifescienceacademy/cellular-and-molecular-mechanisms-of-stress-adaptation.html); internal academic and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 14,320 teaching words in 125 distinct teaching paragraphs; 8 teaching sections; 12 original accessible SVGs (3 graphs), 4 tables, 50 original explained questions (25 B / 25 C), 17 misconceptions, 12 active recall prompts and 17 reference entries.
+- Subunit 7.H: 5/5, complete; Unit 07: 75/90; Academy: 408/723. Earliest unpublished node: 7.I.04 — Intestinal Absorption and Nutrient Transport.
+- Audit: `curriculum/qa/7.H.03-publication-audit.md`.

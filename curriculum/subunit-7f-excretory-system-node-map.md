@@ -140,3 +140,9 @@ All explicit official topic groups have substantive assigned coverage. Comparati
 - 7.F.04 — [Tubular Reabsorption, Secretion and Urine Formation](https://rahulthakurpatan.github.io/lifescienceacademy/tubular-reabsorption-secretion-and-urine-formation.html); rebuilt original full chapter from node contract. Static saved-HTML checks passed; Pages deployment and direct live verification pending.
 - 14,460 whitespace-separated teaching words, 172 distinct paragraphs, 13 accessible SVGs (3 graphs), 5 tables including revision formula table, 54 explained MCQs (20 B / 28 C / 6 SET), 16 misconceptions, 12 recall prompts, 15 references and further-reading entries. Audit: `curriculum/qa/7.F.04-publication-audit.md`.
 - Subunit 7.F: 6/8; Unit 07: 46/90; Academy: 361/723. Next global unpublished: 7.F.05 — Urine Concentration and Regulation of Water Balance.
+
+### Publication checkpoint — 2026-11-28 — 7.F.05
+
+- 7.F.05 — [Urine Concentration and Regulation of Water Balance](https://rahulthakurpatan.github.io/lifescienceacademy/urine-concentration-and-regulation-of-water-balance.html); expanded recovered draft into full chapter. Static saved-HTML checks passed; Pages deployment and direct live verification pending.
+- 14,044 whitespace-separated teaching words, 156 distinct paragraphs, 14 accessible SVGs, 5 tables, 54 explained MCQs (20 B / 28 C / 6 SET), 15 misconceptions, 12 recall prompts, 15 references and further-reading entries. Audit: `curriculum/qa/7.F.05-publication-audit.md`.
+- Subunit 7.F: 7/8; Unit 07: 47/90; Academy: 362/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.

@@ -264,3 +264,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 400/723; Unit 08: 17/36; 8.E: 2/5.
 - Earliest pending in 8.E: 8.E.01 — Population Genetics and Hardy–Weinberg Equilibrium; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.E.02-publication-audit.md`.
+
+
+### Publication checkpoint — 8.E.04 — 2026-11-28
+
+- Chapter: [Genetic Variance, Heritability and Response to Selection](https://rahulthakurpatan.github.io/lifescienceacademy/genetic-variance-heritability-and-response-to-selection.html)
+- Integrated progress: 401/723 Academy; Unit 08 18/36; Subunit 8.E 3/5.
+- Internal static QA: 95/100; 14,001 genuine teaching words, 11 scientific SVGs, 50 explained questions.
+- Audit: [publication audit](qa/8.E.04-publication-audit.md).
+- Deployment/live verification pending.

@@ -124,3 +124,11 @@ With 7.L mapped, all 12 subunits (7.A–7.L) have planned learning sequences, to
 - Academy: 382/723; Unit 07: 67/90; 7.L: 2/8.
 - Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08.
 - Audit: `curriculum/qa/7.L.03-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 7.L.07
+
+- [7.L.07 — Obesity, Insulin Resistance and Diabetes Mellitus](https://rahulthakurpatan.github.io/lifescienceacademy/obesity-insulin-resistance-and-diabetes-mellitus.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,323; 15 original SVGs (3 graphs), 5 tables, 55 explained questions (21 B, 26 C, 8 SET), 15 misconceptions, 12 recall prompts, 16 references; internal QA 95/100.
+- Academy: 383/723; Unit 07: 68/90; 7.L: 3/8.
+- Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/7.L.07-publication-audit.md`.

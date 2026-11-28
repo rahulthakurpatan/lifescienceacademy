@@ -162,3 +162,12 @@ Trace Mendelian transmission from segregation and independent assortment through
 - Reconciled source progress: Academy 424/723; Unit 08 20/36; Subunit 8.A 7/8.
 - Earliest pending in Unit 08 and 8.A: 8.A.04 — Gene Interactions and Epistasis. Existing global workflow checkpoint retained: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/8.A.03-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.A.04
+
+- [8.A.04 — Gene Interactions and Epistasis](https://rahulthakurpatan.github.io/lifescienceacademy/gene-interactions-and-epistasis.html) — production source publication; Pages/live verification pending.
+- 14,189 genuine teaching words; 16 SVGs (2 graphs), 6 tables, 55 explained questions (20 B, 25 C, 10 SET/additional), 19 misconceptions, 15 recall prompts, 16 reference entries; internal static QA 95/100.
+- Reconciled source progress: Academy 427/723; Unit 08 23/36; Subunit 8.A 8/8 — complete. Existing next subunit menus preserved.
+- Unit 08 earliest pending: 8.C.02 — Tetrad Analysis and Fungal Genetics; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/8.A.04-publication-audit.md`.

@@ -110,3 +110,11 @@ All four explicit official topic groups have substantive assigned coverage. Supp
 - 14,878 genuine teaching words; 144 distinct teaching paragraphs; 12 sections; 11 SVGs (4 graphs/charts), 5 tables, 53 explained original questions (25 B / 28 C), 15 misconceptions, 10 recall prompts, 14 references.
 - Academy: 407/723; Unit 07: 74/90; 7.I: 4/6. Next global pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation; next in 7.I: 7.I.04 — Intestinal Absorption and Nutrient Transport.
 - Audit: `curriculum/qa/7.I.06-publication-audit.md`.
+
+
+### Publication checkpoint — 7.I.05 (2026-11-28)
+
+- Chapter: [Nutrition, Energy Balance and Metabolic States](https://rahulthakurpatan.github.io/lifescienceacademy/nutrition-energy-balance-and-metabolic-states.html); internal scientific and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 13,499 lexical teaching words (13,512 whitespace), 136 distinct teaching paragraphs, 11 sections, 13 original SVGs (3 graphs), 6 tables, 52 explained questions (20 B / 22 C / 10 other), 20 misconceptions, 15 active recall prompts and 13 references.
+- Academy: 409/723; Unit 07: 76/90; 7.I: 5/6. Next global and subunit pending: 7.I.04 — Intestinal Absorption and Nutrient Transport.
+- Audit: `curriculum/qa/7.I.05-publication-audit.md`.

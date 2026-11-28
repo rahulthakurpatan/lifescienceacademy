@@ -564,3 +564,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 14,320 teaching words in 125 distinct teaching paragraphs; 8 teaching sections; 12 original accessible SVGs (3 graphs), 4 tables, 50 original explained questions (25 B / 25 C), 17 misconceptions, 12 active recall prompts and 17 reference entries.
 - Subunit 7.H: 5/5, complete; Unit 07: 75/90; Academy: 408/723. Earliest unpublished node: 7.I.04 — Intestinal Absorption and Nutrient Transport.
 - Audit: `curriculum/qa/7.H.03-publication-audit.md`.
+
+
+### Publication checkpoint — 7.I.05 (2026-11-28)
+
+- Chapter: [Nutrition, Energy Balance and Metabolic States](https://rahulthakurpatan.github.io/lifescienceacademy/nutrition-energy-balance-and-metabolic-states.html); internal scientific and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 13,499 lexical teaching words (13,512 whitespace), 136 distinct teaching paragraphs, 11 sections, 13 original SVGs (3 graphs), 6 tables, 52 explained questions (20 B / 22 C / 10 other), 20 misconceptions, 15 active recall prompts and 13 references.
+- Academy: 409/723; Unit 07: 76/90; 7.I: 5/6. Next global and subunit pending: 7.I.04 — Intestinal Absorption and Nutrient Transport.
+- Audit: `curriculum/qa/7.I.05-publication-audit.md`.

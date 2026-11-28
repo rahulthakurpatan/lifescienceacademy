@@ -74,3 +74,12 @@ Use family data, statistical linkage and cytogenetic evidence to understand huma
 - Preserve official scope and conceptual balance, not forced identical word counts. Use examples to explain mechanisms rather than catalogue every disorder or marker.
 - Unit 2 owns chromosome structure and meiosis; Unit 3 owns DNA replication/repair/recombination biochemistry; Unit 4 signalling and cancer; Unit 5 development; Unit 7 endocrine/reproductive physiology; Unit 9 detailed evolution; Unit 11 computational workflows; Units 13–14 specialist techniques. Unit 8 owns transmission, inference, mapping and genetic consequences. Use brief prerequisite previews where the official sequence introduces a later topic early (e.g. cytogenetics before detailed chromosome rearrangements).
 - No personal genetic diagnosis, treatment, or operational mutagenesis/gene-transfer protocols. Comparative historical and experimental analysis is educational.
+
+
+## Publication checkpoint — 2026-11-28 — 8.D.01
+
+- [8.D.01 — Human Pedigree Analysis and Inheritance Patterns](https://rahulthakurpatan.github.io/lifescienceacademy/human-pedigree-analysis-and-inheritance-patterns.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,063; 11 original SVGs (2 graphs), 2 tables, 57 explained questions (24 Part B, 28 Part C, 5 SET), 18 misconceptions, 15 recall prompts, 12 references; internal static QA 95/100.
+- Academy: 395/723; Unit 08: 12/36; 8.D: 1/4.
+- Earliest pending in 8.D: 8.D.02 — Human Linkage Analysis and LOD Scores; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.D.01-publication-audit.md`.

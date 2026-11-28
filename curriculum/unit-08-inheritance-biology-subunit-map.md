@@ -221,3 +221,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 393/723; Unit 08: 10/36; 8.C: 1/8.
 - Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.C.01-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.D.01
+
+- [8.D.01 — Human Pedigree Analysis and Inheritance Patterns](https://rahulthakurpatan.github.io/lifescienceacademy/human-pedigree-analysis-and-inheritance-patterns.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,063; 11 original SVGs (2 graphs), 2 tables, 57 explained questions (24 Part B, 28 Part C, 5 SET), 18 misconceptions, 15 recall prompts, 12 references; internal static QA 95/100.
+- Academy: 395/723; Unit 08: 12/36; 8.D: 1/4.
+- Earliest pending in 8.D: 8.D.02 — Human Linkage Analysis and LOD Scores; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.D.01-publication-audit.md`.

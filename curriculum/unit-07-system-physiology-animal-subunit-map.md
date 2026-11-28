@@ -485,3 +485,12 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 377/723; Unit 07: 62/90; 7.J: 7/12.
 - Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.08-publication-audit.md`. Deployment verification pending.
+
+
+## Publication checkpoint — 2026-11-28 — 7.K.02
+
+- [7.K.02 — Physiological Functions of the Gut Microbiome](https://rahulthakurpatan.github.io/lifescienceacademy/physiological-functions-of-the-gut-microbiome.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,399; 12 original SVGs (3 graphs), 52 explained questions (20 B, 24 C, 8 SET), 16 misconceptions, 12 recall prompts; internal QA 95/100.
+- Academy: 379/723; Unit 07: 64/90; 7.K: 2/6.
+- Earliest pending in 7.K: 7.K.03; global checkpoint: 7.F.08.
+- Audit: `curriculum/qa/7.K.02-publication-audit.md`.

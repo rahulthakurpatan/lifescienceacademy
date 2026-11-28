@@ -85,3 +85,12 @@
 | Dysbiosis and disease | 7.K.06 |
 
 All six explicit topic groups have substantive assigned coverage. Supporting examples explain examinable physiology and evidence interpretation rather than expanding into a specialist clinical microbiome or bioinformatics curriculum. Correlation must never be presented as proof of causation.
+
+
+## Publication checkpoint — 2026-11-28 — 7.K.02
+
+- [7.K.02 — Physiological Functions of the Gut Microbiome](https://rahulthakurpatan.github.io/lifescienceacademy/physiological-functions-of-the-gut-microbiome.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,399; 12 original SVGs (3 graphs), 52 explained questions (20 B, 24 C, 8 SET), 16 misconceptions, 12 recall prompts; internal QA 95/100.
+- Academy: 379/723; Unit 07: 64/90; 7.K: 2/6.
+- Earliest pending in 7.K: 7.K.03; global checkpoint: 7.F.08.
+- Audit: `curriculum/qa/7.K.02-publication-audit.md`.

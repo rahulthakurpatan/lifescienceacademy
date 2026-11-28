@@ -601,3 +601,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Earliest pending: 7.J.06 — Endocrine Pancreas and Glucose Homeostasis.
 - QA: `curriculum/qa/7.J.10-publication-audit.md`.
 - Deployment/live verification pending.
+
+
+### Publication checkpoint — 7.J.06 (2026-11-28)
+
+- Chapter: [Endocrine Pancreas and Glucose Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/endocrine-pancreas-and-glucose-homeostasis.html); internal scientific and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 13,160 genuine teaching words, 156 distinct paragraphs, 12 teaching sections, 13 coverage groups, 12 SVGs (5 graphs), 4 tables, 50 original explained questions (20 B / 20 C / 10 SET), 15 misconceptions, 10 active recall prompts, 17 references.
+- Academy: 414/723; Unit 07: 81/90; 7.J: 11/12. Earliest pending: 7.J.12 — Fertilization, Pregnancy, Parturition and Lactation; earliest in 7.J: 7.J.12 — Fertilization, Pregnancy, Parturition and Lactation.
+- Audit: `curriculum/qa/7.J.06-publication-audit.md`.

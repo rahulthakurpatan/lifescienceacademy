@@ -86,3 +86,12 @@
 | Basal metabolic rate | 7.I.06 |
 
 All four explicit official topic groups have substantive assigned coverage. Supporting anatomical, comparative, neural, hormonal and quantitative concepts explain the official topics, rather than expanding into specialist clinical gastroenterology or nutrition.
+
+
+### Publication checkpoint — 7.I.03 (2026-11-28)
+
+- Chapter: [Digestive Secretions and Enzymatic Digestion](https://rahulthakurpatan.github.io/lifescienceacademy/digestive-secretions-and-enzymatic-digestion.html)
+- QA: 95/100 internal review; 13,810 teaching words, 14 SVGs, 6 tables, 50 explained questions, 20 misconceptions, 15 recall prompts.
+- Academy: 370/723; Unit 07: 55/90; 7.I: 2/6.
+- Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.I: 7.I.02 — Gastrointestinal Motility and Neuroendocrine Regulation.
+- Audit: `curriculum/qa/7.I.03-publication-audit.md`. Deployment verification pending.

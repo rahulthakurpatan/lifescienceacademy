@@ -427,3 +427,12 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.G.05 — [Thermal Acclimatization and Comparative Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/thermal-acclimatization-and-comparative-adaptations.html); internal QA 95/100; saved HTML static audit passed; Pages/live verification pending.
 - 14,677 genuine teaching words, 139 distinct paragraphs, 10 SVGs, 6 tables, 50 explained original questions (20 B / 20 C / 10 additional), 16 misconceptions, 12 recall prompts, 17 references. Audit: `curriculum/qa/7.G.05-publication-audit.md`.
 - Subunit 7.G: 3/5; Unit 07: 54/90; Academy: 369/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Next in 7.G: 7.G.02 — Physical Regulation of Body Temperature.
+
+
+### Publication checkpoint — 7.I.03 (2026-11-28)
+
+- Chapter: [Digestive Secretions and Enzymatic Digestion](https://rahulthakurpatan.github.io/lifescienceacademy/digestive-secretions-and-enzymatic-digestion.html)
+- QA: 95/100 internal review; 13,810 teaching words, 14 SVGs, 6 tables, 50 explained questions, 20 misconceptions, 15 recall prompts.
+- Academy: 370/723; Unit 07: 55/90; 7.I: 2/6.
+- Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.I: 7.I.02 — Gastrointestinal Motility and Neuroendocrine Regulation.
+- Audit: `curriculum/qa/7.I.03-publication-audit.md`. Deployment verification pending.

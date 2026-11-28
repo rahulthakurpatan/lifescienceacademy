@@ -119,3 +119,11 @@ Learn the principles and interpretation of macromolecule isolation, separation, 
 - 14,334 teaching words; 13 SVGs; 9 tables; 55 explained questions (20 B, 25 C, 10 other); 20 misconceptions; 15 recall; 13 references; internal QA 95/100.
 - Academy 436/723; Unit 14 7/60; Subunit 14.A 5/6. Earliest Unit 14: 14.A.05; global: 7.L.04.
 - [Audit](qa/14.A.06-publication-audit.md).
+
+
+## Publication checkpoint — 2026-11-28 — 14.A.02
+
+- [14.A.02 — Isolation and Analysis of DNA and RNA](https://rahulthakurpatan.github.io/lifescienceacademy/isolation-and-analysis-of-dna-and-rna.html) — production source published in commit `bf1ad899621dca6a4c61bcf9d27631acecc3374f`; live verification separate.
+- 14,224 genuine teaching words, 13 SVGs (5 graphs), 5 tables, 54 explained questions (20 B, 24 C, 10 additional), 18 misconceptions, 14 recall prompts, 15 references; internal static QA 95/100.
+- Reconciled roadmap snapshot: Academy 437/723; Unit 14 8/60; Subunit 14.A 5/6. Current progress and next node are authoritative in `academy-progress.json`.
+- Audit: `curriculum/qa/14.A.02-publication-audit.md`.

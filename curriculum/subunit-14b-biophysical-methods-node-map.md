@@ -123,3 +123,12 @@ Progress from electromagnetic and optical measurements to structural determinati
 - Reconciled source progress: Academy 437/723; Unit 14 8/60; Subunit 14.B 3/7.
 - Earliest pending in 14.B: 14.B.02 — Fluorescence Spectroscopy and Circular Dichroism; Unit 14: 14.A.05 — Chromatographic Separation and Analytical Interpretation; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/14.B.01-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 14.B.02
+
+- [14.B.02 — Fluorescence Spectroscopy and Circular Dichroism](https://rahulthakurpatan.github.io/lifescienceacademy/fluorescence-spectroscopy-and-circular-dichroism.html) — production source publication; Pages deployment and live verification pending.
+- 14,360 genuine teaching words; 14 original SVGs (8 graphs), 6 tables, 54 explained questions (22 B, 26 C, 6 additional), 18 misconceptions, 14 recall prompts, 15 references; internal static QA 95/100.
+- Reconciled source progress: Academy 438/723; Unit 14 9/60; Subunit 14.B 4/7.
+- Earliest pending in 14.B: 14.B.05 — Cryo-Electron Microscopy and Integrated Structural Analysis; Unit 14: 14.A.05 — Chromatographic Separation and Analytical Interpretation; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.B.02-publication-audit.md`.

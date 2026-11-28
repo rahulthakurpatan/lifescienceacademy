@@ -653,3 +653,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Reconciled counts: academy 419/723; Unit 7 86/90; 7.K 5/6.
 - Audit: [7.K.03 publication audit](qa/7.K.03-publication-audit.md).
 - Next unpublished: 7.K.06 — Gut Dysbiosis, Disease and Restoration of Microbial Homeostasis.
+
+## Publication checkpoint — 2026-11-28 — 7.K.06
+
+- [7.K.06 — Gut Dysbiosis, Disease and Restoration of Microbial Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/gut-dysbiosis-disease-and-restoration-of-microbial-homeostasis.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,956 lexical (13,917 whitespace); 12 original SVGs (3 graphs), 4 tables, 50 explained questions (20 B, 22 C, 8 SET), 17 misconceptions, 12 recall prompts, 17 references; internal QA 95/100.
+- Academy: 420/723; Unit 07: 87/90; 7.K: 6/6.
+- Earliest pending in 7.K: undefined — undefined; global checkpoint: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis.
+- Audit: `curriculum/qa/7.K.06-publication-audit.md`.

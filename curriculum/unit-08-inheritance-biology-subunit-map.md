@@ -255,3 +255,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 399/723; Unit 08: 16/36; 8.E: 1/5.
 - Earliest pending in 8.E: 8.E.01 — Population Genetics and Hardy–Weinberg Equilibrium; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `qa/8.E.03-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.E.02
+
+- [8.E.02 — Genetic Structure and Departure from Population Equilibrium](https://rahulthakurpatan.github.io/lifescienceacademy/genetic-structure-and-departure-from-population-equilibrium.html) — production source publication; Pages deployment verification pending.
+- 13,899 genuine teaching words; 11 original SVGs (6 graphs), 4 tables, 57 explained questions (20 Part B, 30 Part C, 7 SET), 18 misconceptions, 16 recall prompts, 9 references; internal static QA 95/100.
+- Academy: 400/723; Unit 08: 17/36; 8.E: 2/5.
+- Earliest pending in 8.E: 8.E.01 — Population Genetics and Hardy–Weinberg Equilibrium; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.E.02-publication-audit.md`.

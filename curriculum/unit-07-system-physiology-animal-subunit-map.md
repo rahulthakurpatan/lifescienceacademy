@@ -461,3 +461,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 374/723; Unit 07: 59/90; 7.J: 4/12.
 - Earliest global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.05-publication-audit.md`. GitHub Pages deployment and live verification pending; static review only.
+
+### Publication checkpoint — 7.J.09 (2026-11-28)
+
+- Chapter: [Male Reproductive Physiology and Spermatogenesis](https://rahulthakurpatan.github.io/lifescienceacademy/male-reproductive-physiology-and-spermatogenesis.html).
+- Internal QA 95/100; 13,776 genuine whitespace-separated teaching words (13,811 lexical), 133 unique paragraphs, 15 teaching sections, 10 original accessible SVGs (2 graphs), 4 tables, 52 explained questions (20 B / 22 C / 10 additional), 18 misconceptions, 15 recall prompts, 11 references.
+- Academy: 375/723; Unit 07: 60/90; 7.J: 5/12.
+- Next global: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.J.09-publication-audit.md`. Deployment verification pending.

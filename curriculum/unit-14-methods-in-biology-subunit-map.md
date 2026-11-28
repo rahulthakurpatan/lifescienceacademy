@@ -273,3 +273,11 @@ Molecular sample preparation and separation → biophysical measurements → omi
 - Unit 13 owns biotechnology application and conceptual comparison; Unit 14 owns measurement principles, experimental evidence, instrumentation, statistical interpretation and ethical governance. Unit 3 owns molecular mechanisms, Unit 4 immunology, Unit 5 development, Unit 8 inheritance, Unit 10 ecology, Unit 11 algorithms and Unit 12 industrial engineering. Preview later methods when needed without duplicating full chapters.
 - Use benign educational examples, abstract models and published high-level evidence. No actionable pathogen culture or engineering, harmful genetic modification, production recipes, invasive experimentation, radioisotope handling or medical treatment instructions. Research involving biological hazards, animals, humans or radiation requires trained personnel and authorised oversight.
 - Verify current laws, biosafety rules, regulatory bodies and journal AI policies at actual publication; distinguish prediction from experimental or clinical validation. Maintain provenance and research integrity.
+
+
+## Publication record — 2026-11-28 — 14.A.04
+
+- [14.A.04 — Centrifugation and Biological Fractionation](https://rahulthakurpatan.github.io/lifescienceacademy/centrifugation-and-biological-fractionation.html) — production source publication; Pages deployment and live verification pending.
+- 13,758 genuine teaching words, 13 SVGs (3 graphs), 3 tables, 50 explained questions (22 B, 23 C, 5 additional), 17 misconceptions, 12 recall prompts, 7 references; internal static QA 95/100.
+- Academy 430/723; Unit 14 1/60; Subunit 14.A 1/6. Earliest pending in 14.A: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis. Global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.A.04-publication-audit.md`.

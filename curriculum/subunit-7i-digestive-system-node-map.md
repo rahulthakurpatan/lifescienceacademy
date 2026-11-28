@@ -24,6 +24,8 @@
 
 **Progression:** Build on animal homeostasis and basic biochemical principles. Prepare 7.I.02.
 
+**Publication record (7.I.01):** [Reading chapter](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-and-comparative-physiology-of-digestion.html); academic and structural QA passed, production deployment verification tracked separately.
+
 ### 7.I.02 — Gastrointestinal Motility and Neuroendocrine Regulation
 
 **Student-facing description:** Trace food movement through swallowing, peristalsis, segmentation and gastric emptying, explaining enteric neural circuits, digestive reflexes and gastrointestinal hormones that coordinate motility and secretion.

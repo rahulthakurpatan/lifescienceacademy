@@ -95,3 +95,10 @@ All four explicit official topic groups have substantive assigned coverage. Supp
 - Academy: 370/723; Unit 07: 55/90; 7.I: 2/6.
 - Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.I: 7.I.02 — Gastrointestinal Motility and Neuroendocrine Regulation.
 - Audit: `curriculum/qa/7.I.03-publication-audit.md`. Deployment verification pending.
+
+
+### Publication checkpoint — 2026-11-28 — 7.I.02
+
+- 7.I.02 — [Gastrointestinal Motility and Neuroendocrine Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/gastrointestinal-motility-and-neuroendocrine-regulation.html); internal academic and static QA 95/100; Pages/live verification pending.
+- 13,899 genuine teaching words, 128 distinct teaching paragraphs, 14 original SVGs (4 graphs/traces), 5 tables, 58 explained original questions (25 B / 30 C / 3 SET), 15 misconceptions, 12 recall prompts, 18 references. Audit: `curriculum/qa/7.I.02-publication-audit.md`.
+- Subunit 7.I: 3/6; Unit 07: 73/90; Academy: 406/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation. Next pending in 7.I: 7.I.04 — Intestinal Absorption and Nutrient Transport.

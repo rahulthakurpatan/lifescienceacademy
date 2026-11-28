@@ -541,3 +541,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.H.04 — [Environmental Stress and Comparative Physiological Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/environmental-stress-and-comparative-physiological-adaptations.html); recovered previously audited chapter, internal QA 95/100; Pages/live verification pending.
 - 13,394 genuine teaching words, 116 distinct teaching paragraphs, 13 original SVGs (3 graphs), 4 tables, 50 explained original questions (20 B / 22 C / 8 SET), 18 misconceptions, 12 recall prompts, 23 references. Audit: `curriculum/qa/7.H.04-publication-audit.md`.
 - Subunit 7.H: 4/5; Unit 07: 72/90; Academy: 405/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation.
+
+
+### Publication checkpoint — 2026-11-28 — 7.I.02
+
+- 7.I.02 — [Gastrointestinal Motility and Neuroendocrine Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/gastrointestinal-motility-and-neuroendocrine-regulation.html); internal academic and static QA 95/100; Pages/live verification pending.
+- 13,899 genuine teaching words, 128 distinct teaching paragraphs, 14 original SVGs (4 graphs/traces), 5 tables, 58 explained original questions (25 B / 30 C / 3 SET), 15 misconceptions, 12 recall prompts, 18 references. Audit: `curriculum/qa/7.I.02-publication-audit.md`.
+- Subunit 7.I: 3/6; Unit 07: 73/90; Academy: 406/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation. Next pending in 7.I: 7.I.04 — Intestinal Absorption and Nutrient Transport.

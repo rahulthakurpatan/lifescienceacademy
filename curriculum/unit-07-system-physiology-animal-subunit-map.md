@@ -534,3 +534,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.G.04 — [Neural Regulation of Body Temperature](https://rahulthakurpatan.github.io/lifescienceacademy/neural-regulation-of-body-temperature.html); recovered audited chapter, internal QA 95/100; Pages/live verification pending.
 - 13,832 teaching words (whitespace count), 150 distinct paragraphs, 13 SVGs, 5 tables, 52 original explained questions (20 B / 24 C / 8 SET), 16 misconceptions, 13 recall prompts, 18 references. Audit: `curriculum/qa/7.G.04-publication-audit.md`.
 - Subunit 7.G: 5/5; Unit 07: 71/90; Academy: 404/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation. All five thermoregulation chapters now registered in this publication candidate.
+
+
+### Publication checkpoint — 2026-11-28 — 7.H.04
+
+- 7.H.04 — [Environmental Stress and Comparative Physiological Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/environmental-stress-and-comparative-physiological-adaptations.html); recovered previously audited chapter, internal QA 95/100; Pages/live verification pending.
+- 13,394 genuine teaching words, 116 distinct teaching paragraphs, 13 original SVGs (3 graphs), 4 tables, 50 explained original questions (20 B / 22 C / 8 SET), 18 misconceptions, 12 recall prompts, 23 references. Audit: `curriculum/qa/7.H.04-publication-audit.md`.
+- Subunit 7.H: 4/5; Unit 07: 72/90; Academy: 405/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation.

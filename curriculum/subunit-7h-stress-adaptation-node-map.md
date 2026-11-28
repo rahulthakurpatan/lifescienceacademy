@@ -96,3 +96,10 @@ The full official heading has substantive mapped coverage at the planned NET/SET
 - 7.H.05 — [Chronic Stress, Allostatic Load and Integrated Physiological Recovery](https://rahulthakurpatan.github.io/lifescienceacademy/chronic-stress-allostatic-load-and-integrated-physiological-recovery.html); internal QA 95/100; static HTML audit passed; Pages/live verification pending.
 - 13,488 genuine teaching words, 160 distinct paragraphs, 11 original accessible SVGs, 5 tables, 50 explained original questions (20 B / 20 C / 10 mixed), 15 misconceptions, 12 recall prompts, 20 references. Audit: `curriculum/qa/7.H.05-publication-audit.md`.
 - Subunit 7.H: 3/5; Unit 07: 53/90; Academy: 368/723. Earliest global unpublished node: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+
+
+### Publication checkpoint — 2026-11-28 — 7.H.04
+
+- 7.H.04 — [Environmental Stress and Comparative Physiological Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/environmental-stress-and-comparative-physiological-adaptations.html); recovered previously audited chapter, internal QA 95/100; Pages/live verification pending.
+- 13,394 genuine teaching words, 116 distinct teaching paragraphs, 13 original SVGs (3 graphs), 4 tables, 50 explained original questions (20 B / 22 C / 8 SET), 18 misconceptions, 12 recall prompts, 23 references. Audit: `curriculum/qa/7.H.04-publication-audit.md`.
+- Subunit 7.H: 4/5; Unit 07: 72/90; Academy: 405/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation.

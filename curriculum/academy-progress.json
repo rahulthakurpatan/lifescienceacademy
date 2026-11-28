@@ -4,16 +4,16 @@
   "unit": "07",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.F.06",
-  "title": "Renal Regulation of Blood Volume, Blood Pressure and Electrolytes",
+  "node_id": "7.F.04",
+  "title": "Tubular Reabsorption, Secretion and Urine Formation",
   "subunit": "7.F",
   "topic": "Excretory System",
-  "slug": "renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html",
-  "next_pending_node_id": "7.F.04",
-  "next_pending_node_title": "Tubular Reabsorption, Secretion and Urine Formation",
-  "published_node_count": 360,
+  "slug": "tubular-reabsorption-secretion-and-urine-formation.html",
+  "next_pending_node_id": "7.F.05",
+  "next_pending_node_title": "Urine Concentration and Regulation of Water Balance",
+  "published_node_count": 361,
   "publication_allowed": true,
-  "main_baseline_sha": "b4ec4590185ea95530b1c58897eb916aa3565910",
+  "main_baseline_sha": "8ebd26454aa7c236317d4fc6276a3df79838f8ff",
   "quality_hold": false,
   "next_required_action": "Verify production deployment and live chapter; then develop earliest unpublished node.",
   "planned_node_count": 90,
@@ -21,35 +21,44 @@
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.F.06",
-    "title": "Renal Regulation of Blood Volume, Blood Pressure and Electrolytes",
-    "chapter_path": "renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html",
-    "chapter_blob_sha": "50ce6ffc78bcf560dc4751e6c569260126c20f84",
-    "working_branch": "development/7f06-renal-regulation",
-    "working_commit_sha": "c2d765d205376f020e89b71b330d02c743211985",
-    "publication_base_sha": "b4ec4590185ea95530b1c58897eb916aa3565910",
+    "node_id": "7.F.04",
+    "title": "Tubular Reabsorption, Secretion and Urine Formation",
+    "chapter_path": "tubular-reabsorption-secretion-and-urine-formation.html",
+    "chapter_blob_sha": "9b19f08e42fba14304f1b154b4a4b3be9e09ad87",
+    "working_branch": "draft/7f04-tubular-transport-recovery",
+    "working_commit_sha": "418b04f9b25f0f33f549606a1dfda0459f0e34c4",
+    "draft_blob_sha": "2e0d1d249cc5c632d0c1f375ebf3fc8ecc2c023a",
+    "publication_base_sha": "8ebd26454aa7c236317d4fc6276a3df79838f8ff",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13831,
-      "teaching_paragraphs": 125,
-      "svg": 12,
-      "graphs": 2,
-      "tables": 4,
+      "genuine_teaching_words": 14460,
+      "teaching_paragraphs": 172,
+      "teaching_sections": 13,
+      "svg": 13,
+      "graphs": 3,
+      "tables": 5,
       "questions": 54,
       "part_b": 20,
-      "part_c": 30,
-      "set": 4,
+      "part_c": 28,
+      "set": 6,
       "answer_explanations": 54,
-      "misconceptions": 15,
-      "active_recall": 10,
-      "references": 16
+      "misconceptions": 16,
+      "active_recall": 12,
+      "references": 15
     },
-    "rubric": {
-      "total": 95
+    "audit_record": "curriculum/qa/7.F.04-publication-audit.md",
+    "scientific_review": "Internal mechanism and worked-example review",
+    "editorial_review": "Static structure and exact-duplicate checks",
+    "audit": {
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria": 0,
+      "duplicate_paragraphs": 0,
+      "invalid_questions": 0,
+      "canonical_verified": true
     },
-    "audit_record": "curriculum/qa/7.F.06-publication-audit.md",
-    "limitations": "Original internal QA; browser and live deployment not yet verified."
+    "limitations": "No independent peer review or browser/live runtime testing yet; no numeric QA score assigned."
   },
   "published_node_ids": [
     "1.A.01",
@@ -411,7 +420,8 @@
     "7.F.02",
     "7.F.07",
     "7.F.03",
-    "7.F.06"
+    "7.F.06",
+    "7.F.04"
   ],
   "prior_publication_qa": {
     "node_id": "7.F.02",
@@ -474,112 +484,35 @@
     "publication_parent_sha": "8b9ea1507bb1f7ebfa72cedcf2ce9f02985345d8"
   },
   "previous_last_qa": {
-    "node_id": "7.F.03",
-    "title": "Glomerular Filtration and Renal Haemodynamics",
-    "chapter_path": "glomerular-filtration-and-renal-haemodynamics.html",
-    "working_branch": "draft/7f03-glomerular-filtration-20261128",
-    "working_commit_sha": "4d8e92260e9b9de7075c4d180ad4352a7382db48",
-    "draft_blob_sha": "1f7a3647bad084e228508b8205d8339d57b9feb1",
-    "chapter_blob_sha": "e78124ba39a0c05aeaa80da0e72a838563cef767",
-    "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_base_sha": "5ce049fa80fcf8d3e09755fa293c7b129aa7df1c",
+    "node_id": "7.F.06",
+    "title": "Renal Regulation of Blood Volume, Blood Pressure and Electrolytes",
+    "chapter_path": "renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html",
+    "chapter_blob_sha": "50ce6ffc78bcf560dc4751e6c569260126c20f84",
+    "working_branch": "development/7f06-renal-regulation",
+    "working_commit_sha": "c2d765d205376f020e89b71b330d02c743211985",
+    "publication_base_sha": "b4ec4590185ea95530b1c58897eb916aa3565910",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 14612,
-      "word_count_method": "Unicode lexical words in p.teaching-prose only; excludes questions, tables, revision, SVG labels, references, UI",
-      "visible_article_words_excluding_svg": 19933,
-      "teaching_share_percent": 73.3,
-      "teaching_paragraphs": 140,
-      "teaching_sections": 14,
+      "genuine_teaching_words": 13831,
+      "teaching_paragraphs": 125,
       "svg": 12,
-      "graphs": 3,
+      "graphs": 2,
       "tables": 4,
       "questions": 54,
       "part_b": 20,
-      "part_c": 24,
-      "set": 10,
-      "misconceptions": 18,
-      "active_recall": 12,
+      "part_c": 30,
+      "set": 4,
+      "answer_explanations": 54,
+      "misconceptions": 15,
+      "active_recall": 10,
       "references": 16
     },
     "rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
-      "teaching_depth": 15,
-      "pedagogy": 10,
-      "illustrations": 9,
-      "exam_questions": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision": 5,
-      "reader_accessibility": 4,
-      "technical_seo": 4,
       "total": 95
     },
-    "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.F; archived MP SET 2024 syllabus comparison; Academy node roadmap.",
-    "coverage_matrix": [
-      {
-        "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-        "microtopic": "Filtration barrier and selectivity",
-        "section": "2–3",
-        "evidence": "Endothelium/glycocalyx, GBM, slit diaphragm, size and protein binding",
-        "depth": "NET/SET",
-        "status": "covered"
-      },
-      {
-        "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-        "microtopic": "Starling forces and filtration coefficient",
-        "section": "4–5",
-        "evidence": "Hydrostatic and oncotic pressures, capillary gradients and worked GFR",
-        "depth": "NET/SET",
-        "status": "covered"
-      },
-      {
-        "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-        "microtopic": "Renal blood and plasma flow",
-        "section": "6",
-        "evidence": "Haematocrit, RBF/RPF, filtration fraction and protein conservation",
-        "depth": "NET/SET",
-        "status": "covered"
-      },
-      {
-        "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-        "microtopic": "Clearance and markers",
-        "section": "7–9",
-        "evidence": "Mass balance, inulin, creatinine, PAH, extraction and saturation",
-        "depth": "NET/SET",
-        "status": "covered"
-      },
-      {
-        "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-        "microtopic": "Arteriolar resistance and autoregulation",
-        "section": "10–12",
-        "evidence": "Afferent/efferent effects, myogenic response, NKCC2, ATP/adenosine A1 feedback",
-        "depth": "NET/SET",
-        "status": "covered"
-      },
-      {
-        "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-        "microtopic": "Neural/hormonal modulation and experimental analysis",
-        "section": "13–14",
-        "evidence": "Sympathetic tone, angiotensin II, micropuncture and illustrative datasets",
-        "depth": "NET/SET",
-        "status": "covered"
-      }
-    ],
-    "scientific_review": "Checked pressure signs, protein selectivity, Kf and mass balance, RBF/RPF/FF, efferent resistance limits, NKCC2/adenosine A1 feedback, 2001 Sun et al A1-receptor knockout experiment and numerical examples. Illustrative data labelled.",
-    "editorial_review": "Separate pass checked paragraph distinctness, headings, figures and scroll containers, balanced answer letters A14 B14 C13 D13, explanations and revision. Adjacent published 7.D.08: 13,793 lexical teaching words.",
-    "score_basis": "Internal 95/100: scientific -1 (not all full texts checked), figures -1 (no browser rendering), exam -1 (some direct distractors), accessibility -1 (runtime pending), technical -1 (live pending).",
-    "audit": "Saved draft re-fetched: 140 unique teaching paragraphs; 54 four-option questions and explanations, exact answer-option agreement; unique IDs, resolved anchors/ARIA/marker references, balanced tags, JS compiled; reader and canonical retained. Production only changes robots directive.",
-    "limitations": "Internal review only. MP SET archived 2024 syllabus comparison; not current official-host copy. Not all primary full texts reviewed. Browser, mobile, keyboard, screen-reader and live deployment verification pending. Unpublished neighboring nodes disabled.",
-    "audit_record": "curriculum/qa/7.F.03-publication-audit.md",
-    "next_unpublished_node_id": "7.F.04",
-    "concurrent_changes_reconciled": true,
-    "publication": {
-      "academy_published_count": 359,
-      "unit_published_count": 44,
-      "subunit_published_count": 4
-    }
+    "audit_record": "curriculum/qa/7.F.06-publication-audit.md",
+    "limitations": "Original internal QA; browser and live deployment not yet verified."
   },
   "unit_02": {
     "published_node_ids": [
@@ -47749,6 +47682,46 @@
       },
       "audit_record": "curriculum/qa/7.F.06-publication-audit.md",
       "limitations": "Original internal QA; browser and live deployment not yet verified."
+    },
+    "7.F.04": {
+      "node_id": "7.F.04",
+      "title": "Tubular Reabsorption, Secretion and Urine Formation",
+      "chapter_path": "tubular-reabsorption-secretion-and-urine-formation.html",
+      "chapter_blob_sha": "9b19f08e42fba14304f1b154b4a4b3be9e09ad87",
+      "working_branch": "draft/7f04-tubular-transport-recovery",
+      "working_commit_sha": "418b04f9b25f0f33f549606a1dfda0459f0e34c4",
+      "draft_blob_sha": "2e0d1d249cc5c632d0c1f375ebf3fc8ecc2c023a",
+      "publication_base_sha": "8ebd26454aa7c236317d4fc6276a3df79838f8ff",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 14460,
+        "teaching_paragraphs": 172,
+        "teaching_sections": 13,
+        "svg": 13,
+        "graphs": 3,
+        "tables": 5,
+        "questions": 54,
+        "part_b": 20,
+        "part_c": 28,
+        "set": 6,
+        "answer_explanations": 54,
+        "misconceptions": 16,
+        "active_recall": 12,
+        "references": 15
+      },
+      "audit_record": "curriculum/qa/7.F.04-publication-audit.md",
+      "scientific_review": "Internal mechanism and worked-example review",
+      "editorial_review": "Static structure and exact-duplicate checks",
+      "audit": {
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "duplicate_paragraphs": 0,
+        "invalid_questions": 0,
+        "canonical_verified": true
+      },
+      "limitations": "No independent peer review or browser/live runtime testing yet; no numeric QA score assigned."
     }
   },
   "academy_planned_node_count": 723,
@@ -65556,7 +65529,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/tubular-reabsorption-secretion-and-urine-formation.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -65663,43 +65636,53 @@
       "7.F.02",
       "7.F.07",
       "7.F.03",
-      "7.F.06"
+      "7.F.06",
+      "7.F.04"
     ],
-    "published_node_count": 45,
+    "published_node_count": 46,
     "planned_node_count": 90,
-    "last_published_node_id": "7.F.06",
+    "last_published_node_id": "7.F.04",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "7.F.06",
-      "title": "Renal Regulation of Blood Volume, Blood Pressure and Electrolytes",
-      "chapter_path": "renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html",
-      "chapter_blob_sha": "50ce6ffc78bcf560dc4751e6c569260126c20f84",
-      "working_branch": "development/7f06-renal-regulation",
-      "working_commit_sha": "c2d765d205376f020e89b71b330d02c743211985",
-      "publication_base_sha": "b4ec4590185ea95530b1c58897eb916aa3565910",
+      "node_id": "7.F.04",
+      "title": "Tubular Reabsorption, Secretion and Urine Formation",
+      "chapter_path": "tubular-reabsorption-secretion-and-urine-formation.html",
+      "chapter_blob_sha": "9b19f08e42fba14304f1b154b4a4b3be9e09ad87",
+      "working_branch": "draft/7f04-tubular-transport-recovery",
+      "working_commit_sha": "418b04f9b25f0f33f549606a1dfda0459f0e34c4",
+      "draft_blob_sha": "2e0d1d249cc5c632d0c1f375ebf3fc8ecc2c023a",
+      "publication_base_sha": "8ebd26454aa7c236317d4fc6276a3df79838f8ff",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13831,
-        "teaching_paragraphs": 125,
-        "svg": 12,
-        "graphs": 2,
-        "tables": 4,
+        "genuine_teaching_words": 14460,
+        "teaching_paragraphs": 172,
+        "teaching_sections": 13,
+        "svg": 13,
+        "graphs": 3,
+        "tables": 5,
         "questions": 54,
         "part_b": 20,
-        "part_c": 30,
-        "set": 4,
+        "part_c": 28,
+        "set": 6,
         "answer_explanations": 54,
-        "misconceptions": 15,
-        "active_recall": 10,
-        "references": 16
+        "misconceptions": 16,
+        "active_recall": 12,
+        "references": 15
       },
-      "rubric": {
-        "total": 95
+      "audit_record": "curriculum/qa/7.F.04-publication-audit.md",
+      "scientific_review": "Internal mechanism and worked-example review",
+      "editorial_review": "Static structure and exact-duplicate checks",
+      "audit": {
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "duplicate_paragraphs": 0,
+        "invalid_questions": 0,
+        "canonical_verified": true
       },
-      "audit_record": "curriculum/qa/7.F.06-publication-audit.md",
-      "limitations": "Original internal QA; browser and live deployment not yet verified."
+      "limitations": "No independent peer review or browser/live runtime testing yet; no numeric QA score assigned."
     },
     "qa_by_node": {
       "7.A.01": {
@@ -71189,10 +71172,50 @@
         },
         "audit_record": "curriculum/qa/7.F.06-publication-audit.md",
         "limitations": "Original internal QA; browser and live deployment not yet verified."
+      },
+      "7.F.04": {
+        "node_id": "7.F.04",
+        "title": "Tubular Reabsorption, Secretion and Urine Formation",
+        "chapter_path": "tubular-reabsorption-secretion-and-urine-formation.html",
+        "chapter_blob_sha": "9b19f08e42fba14304f1b154b4a4b3be9e09ad87",
+        "working_branch": "draft/7f04-tubular-transport-recovery",
+        "working_commit_sha": "418b04f9b25f0f33f549606a1dfda0459f0e34c4",
+        "draft_blob_sha": "2e0d1d249cc5c632d0c1f375ebf3fc8ecc2c023a",
+        "publication_base_sha": "8ebd26454aa7c236317d4fc6276a3df79838f8ff",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 14460,
+          "teaching_paragraphs": 172,
+          "teaching_sections": 13,
+          "svg": 13,
+          "graphs": 3,
+          "tables": 5,
+          "questions": 54,
+          "part_b": 20,
+          "part_c": 28,
+          "set": 6,
+          "answer_explanations": 54,
+          "misconceptions": 16,
+          "active_recall": 12,
+          "references": 15
+        },
+        "audit_record": "curriculum/qa/7.F.04-publication-audit.md",
+        "scientific_review": "Internal mechanism and worked-example review",
+        "editorial_review": "Static structure and exact-duplicate checks",
+        "audit": {
+          "duplicate_ids": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria": 0,
+          "duplicate_paragraphs": 0,
+          "invalid_questions": 0,
+          "canonical_verified": true
+        },
+        "limitations": "No independent peer review or browser/live runtime testing yet; no numeric QA score assigned."
       }
     },
-    "next_pending_node_id": "7.F.04",
-    "next_pending_node_title": "Tubular Reabsorption, Secretion and Urine Formation",
+    "next_pending_node_id": "7.F.05",
+    "next_pending_node_title": "Urine Concentration and Regulation of Water Balance",
     "complete": false,
     "subunit_7a": {
       "published_node_ids": [
@@ -71210,112 +71233,35 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.F.03",
-      "title": "Glomerular Filtration and Renal Haemodynamics",
-      "chapter_path": "glomerular-filtration-and-renal-haemodynamics.html",
-      "working_branch": "draft/7f03-glomerular-filtration-20261128",
-      "working_commit_sha": "4d8e92260e9b9de7075c4d180ad4352a7382db48",
-      "draft_blob_sha": "1f7a3647bad084e228508b8205d8339d57b9feb1",
-      "chapter_blob_sha": "e78124ba39a0c05aeaa80da0e72a838563cef767",
-      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "5ce049fa80fcf8d3e09755fa293c7b129aa7df1c",
+      "node_id": "7.F.06",
+      "title": "Renal Regulation of Blood Volume, Blood Pressure and Electrolytes",
+      "chapter_path": "renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html",
+      "chapter_blob_sha": "50ce6ffc78bcf560dc4751e6c569260126c20f84",
+      "working_branch": "development/7f06-renal-regulation",
+      "working_commit_sha": "c2d765d205376f020e89b71b330d02c743211985",
+      "publication_base_sha": "b4ec4590185ea95530b1c58897eb916aa3565910",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 14612,
-        "word_count_method": "Unicode lexical words in p.teaching-prose only; excludes questions, tables, revision, SVG labels, references, UI",
-        "visible_article_words_excluding_svg": 19933,
-        "teaching_share_percent": 73.3,
-        "teaching_paragraphs": 140,
-        "teaching_sections": 14,
+        "genuine_teaching_words": 13831,
+        "teaching_paragraphs": 125,
         "svg": 12,
-        "graphs": 3,
+        "graphs": 2,
         "tables": 4,
         "questions": 54,
         "part_b": 20,
-        "part_c": 24,
-        "set": 10,
-        "misconceptions": 18,
-        "active_recall": 12,
+        "part_c": 30,
+        "set": 4,
+        "answer_explanations": 54,
+        "misconceptions": 15,
+        "active_recall": 10,
         "references": 16
       },
       "rubric": {
-        "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
-        "teaching_depth": 15,
-        "pedagogy": 10,
-        "illustrations": 9,
-        "exam_questions": 9,
-        "experimental_analytical_reasoning": 5,
-        "revision": 5,
-        "reader_accessibility": 4,
-        "technical_seo": 4,
         "total": 95
       },
-      "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.F; archived MP SET 2024 syllabus comparison; Academy node roadmap.",
-      "coverage_matrix": [
-        {
-          "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-          "microtopic": "Filtration barrier and selectivity",
-          "section": "2–3",
-          "evidence": "Endothelium/glycocalyx, GBM, slit diaphragm, size and protein binding",
-          "depth": "NET/SET",
-          "status": "covered"
-        },
-        {
-          "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-          "microtopic": "Starling forces and filtration coefficient",
-          "section": "4–5",
-          "evidence": "Hydrostatic and oncotic pressures, capillary gradients and worked GFR",
-          "depth": "NET/SET",
-          "status": "covered"
-        },
-        {
-          "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-          "microtopic": "Renal blood and plasma flow",
-          "section": "6",
-          "evidence": "Haematocrit, RBF/RPF, filtration fraction and protein conservation",
-          "depth": "NET/SET",
-          "status": "covered"
-        },
-        {
-          "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-          "microtopic": "Clearance and markers",
-          "section": "7–9",
-          "evidence": "Mass balance, inulin, creatinine, PAH, extraction and saturation",
-          "depth": "NET/SET",
-          "status": "covered"
-        },
-        {
-          "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-          "microtopic": "Arteriolar resistance and autoregulation",
-          "section": "10–12",
-          "evidence": "Afferent/efferent effects, myogenic response, NKCC2, ATP/adenosine A1 feedback",
-          "depth": "NET/SET",
-          "status": "covered"
-        },
-        {
-          "official_scope": "CSIR Unit 7.F excretory physiology; Academy 7.F.03",
-          "microtopic": "Neural/hormonal modulation and experimental analysis",
-          "section": "13–14",
-          "evidence": "Sympathetic tone, angiotensin II, micropuncture and illustrative datasets",
-          "depth": "NET/SET",
-          "status": "covered"
-        }
-      ],
-      "scientific_review": "Checked pressure signs, protein selectivity, Kf and mass balance, RBF/RPF/FF, efferent resistance limits, NKCC2/adenosine A1 feedback, 2001 Sun et al A1-receptor knockout experiment and numerical examples. Illustrative data labelled.",
-      "editorial_review": "Separate pass checked paragraph distinctness, headings, figures and scroll containers, balanced answer letters A14 B14 C13 D13, explanations and revision. Adjacent published 7.D.08: 13,793 lexical teaching words.",
-      "score_basis": "Internal 95/100: scientific -1 (not all full texts checked), figures -1 (no browser rendering), exam -1 (some direct distractors), accessibility -1 (runtime pending), technical -1 (live pending).",
-      "audit": "Saved draft re-fetched: 140 unique teaching paragraphs; 54 four-option questions and explanations, exact answer-option agreement; unique IDs, resolved anchors/ARIA/marker references, balanced tags, JS compiled; reader and canonical retained. Production only changes robots directive.",
-      "limitations": "Internal review only. MP SET archived 2024 syllabus comparison; not current official-host copy. Not all primary full texts reviewed. Browser, mobile, keyboard, screen-reader and live deployment verification pending. Unpublished neighboring nodes disabled.",
-      "audit_record": "curriculum/qa/7.F.03-publication-audit.md",
-      "next_unpublished_node_id": "7.F.04",
-      "concurrent_changes_reconciled": true,
-      "publication": {
-        "academy_published_count": 359,
-        "unit_published_count": 44,
-        "subunit_published_count": 4
-      }
+      "audit_record": "curriculum/qa/7.F.06-publication-audit.md",
+      "limitations": "Original internal QA; browser and live deployment not yet verified."
     },
     "subunit_7b": {
       "published_node_ids": [
@@ -71383,9 +71329,10 @@
         "7.F.02",
         "7.F.07",
         "7.F.03",
-        "7.F.06"
+        "7.F.06",
+        "7.F.04"
       ],
-      "published_node_count": 5,
+      "published_node_count": 6,
       "planned_node_count": 8,
       "complete": false
     }
@@ -71439,7 +71386,8 @@
     "7.F.02",
     "7.F.07",
     "7.F.03",
-    "7.F.06"
+    "7.F.06",
+    "7.F.04"
   ],
   "unit7f_planned_node_count": 8
 }

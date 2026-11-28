@@ -373,3 +373,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.F.06 — [Renal Regulation of Blood Volume, Blood Pressure and Electrolytes](https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html); recovered reviewed chapter from integration branch, original internal QA 95/100; production static ID and anchor checks passed; Pages/live verification pending.
 - 13,831 teaching words, 125 paragraphs, 12 SVGs, 4 tables, 54 explained questions; audit: `curriculum/qa/7.F.06-publication-audit.md`.
 - Subunit 7.F: 5/8; Unit 07: 45/90; Academy: 360/723. Next global unpublished: 7.F.04 — Tubular Reabsorption, Secretion and Urine Formation.
+
+### Publication checkpoint — 2026-11-28 — 7.F.04
+
+- 7.F.04 — [Tubular Reabsorption, Secretion and Urine Formation](https://rahulthakurpatan.github.io/lifescienceacademy/tubular-reabsorption-secretion-and-urine-formation.html); rebuilt original full chapter from node contract. Static saved-HTML checks passed; Pages deployment and direct live verification pending.
+- 14,460 whitespace-separated teaching words, 172 distinct paragraphs, 13 accessible SVGs (3 graphs), 5 tables including revision formula table, 54 explained MCQs (20 B / 28 C / 6 SET), 16 misconceptions, 12 recall prompts, 15 references and further-reading entries. Audit: `curriculum/qa/7.F.04-publication-audit.md`.
+- Subunit 7.F: 6/8; Unit 07: 46/90; Academy: 361/723. Next global unpublished: 7.F.05 — Urine Concentration and Regulation of Water Balance.

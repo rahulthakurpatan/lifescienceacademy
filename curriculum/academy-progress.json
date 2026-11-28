@@ -2,69 +2,158 @@
   "schema_version": 1,
   "updated_at": "2026-11-28",
   "unit": "08",
-  "status": "published",
+  "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "8.A.08",
-  "title": "Extrachromosomal Inheritance and Maternal Effects",
+  "node_id": "8.A.05",
+  "title": "Pleiotropy, Penetrance, Expressivity and Genomic Imprinting",
   "subunit": "8.A",
   "topic": "Chromosomal and Extrachromosomal Inheritance",
-  "slug": "extrachromosomal-inheritance-and-maternal-effects.html",
+  "slug": "pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
   "next_pending_node_id": "7.F.08",
   "next_pending_node_title": "Waste Elimination, Micturition and Integrated Renal Homeostasis",
-  "published_node_count": 387,
+  "published_node_count": 388,
   "publication_allowed": true,
-  "main_baseline_sha": "f83433e01d0f2f2c75a36cc7aa2887d9f1f53ee1",
+  "main_baseline_sha": "c30969555f30e6b464758e8007ba9cb9d6e6f133",
   "quality_hold": false,
-  "next_required_action": "Develop 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis",
+  "next_required_action": "Verify Pages deployment and live chapter; continue earliest pending node.",
   "planned_node_count": 36,
   "planned_subunit_count": 6,
   "architecture_version": "unit-08-inheritance-biology",
   "curriculum_roadmap": "curriculum/unit-08-inheritance-biology-subunit-map.md",
   "last_qa": {
-    "node_id": "8.A.08",
-    "title": "Extrachromosomal Inheritance and Maternal Effects",
+    "node_id": "8.A.05",
+    "title": "Pleiotropy, Penetrance, Expressivity and Genomic Imprinting",
+    "chapter_path": "pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+    "chapter_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+    "working_branch": "develop-8a05-pleiotropy-imprinting-20261128",
+    "working_commit_sha": "06c9799e150e1a1785cd2ff3dbdbbcd6063995af",
+    "draft_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+    "publication_base_sha": "c30969555f30e6b464758e8007ba9cb9d6e6f133",
     "review_date": "2026-11-28",
-    "score": 95,
-    "threshold": 95,
-    "verdict": "PASS",
-    "review_type": "Internal academic and separate editorial review; not external peer review",
-    "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
-    "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
+    "status": "published_deployment_verification_pending",
     "metrics": {
-      "teaching_words": 13755,
-      "article_visible_words": 19948,
-      "teaching_paragraphs": 137,
-      "teaching_sections": 18,
-      "original_svg": 12,
+      "genuine_teaching_words": 14002,
+      "visible_article_words": 19928,
+      "teaching_paragraphs": 160,
+      "unique_teaching_paragraphs": 160,
+      "teaching_sections": 21,
+      "scientific_svgs": 13,
       "graphs": 3,
-      "tables": 7,
-      "questions_total": 57,
+      "tables": 4,
+      "questions_total": 55,
       "part_b": 20,
-      "part_c": 27,
+      "part_c": 25,
       "set": 10,
-      "misconceptions": 18,
-      "active_recall": 12,
-      "reference_links": 19
+      "answer_explanations": 55,
+      "misconceptions": 17,
+      "active_recall": 15,
+      "references": 14
     },
-    "rubric": {
+    "word_count_method": "Visible p.teaching-prose only; remove markup and decode entities; whitespace-delimited tokens containing at least one letter or digit; excludes headings, figures, questions, tables, recall, references and navigation.",
+    "quality_score": 95,
+    "quality_rubric": {
       "scientific_accuracy": 19,
-      "scope_coverage": 15,
+      "syllabus_microtopics": 15,
       "teaching_depth": 15,
       "pedagogy": 10,
-      "illustrations": 9,
-      "questions": 9,
-      "analytical_depth": 5,
-      "mastery": 5,
-      "reader": 4,
-      "seo_technical": 4
+      "scientific_illustrations": 9,
+      "exam_questions": 9,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
+      "reader_accessibility": 4,
+      "technical_seo": 4
+    },
+    "coverage_matrix": [
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Pleiotropy versus polygenic inheritance",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "FBN1 and PAH examples; one locus/multiple outcomes versus multiple loci/one trait",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Penetrance and age dependence",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "Conditional probability, age cohorts, pedigree and posterior inference",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Expressivity and modifiers",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "Variable severity, thresholds, ascertainment, distinguish penetrance",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Phenocopy and environment",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "Phenotype convergence, reaction norms, developmental timing, G×E",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Parent-of-origin expression",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "Reciprocal crosses, parental alleles and phenotype versus genotype",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Imprint establishment, maintenance and resetting",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "Germline methylation, Igf2/H19 regulatory mechanism, CTCF",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Imprinting syndromes and UPD",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "PWS/AS critical region, dosage and UPD mechanisms, educational limits",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+        "microtopic": "Experimental discrimination",
+        "depth": "BSc to NET Part B/C and SET",
+        "evidence": "Maternal-effect contrast, allele-specific RNA, methylation and cross controls",
+        "status": "covered"
+      }
+    ],
+    "audit_record": "curriculum/qa/8.A.05-publication-audit.md",
+    "scientific_review": "Separate internal scientific pass: checked FBN1/PAH, conditional and age-dependent penetrance, expressivity, phenocopy and interaction, reciprocal crosses, germline imprint resetting, methylation and Igf2/H19-CTCF insulation, PWS/AS and UPD, allele-specific expression and controls. Recomputed 13 quantitative results and inspected all 55 explanations; illustrative data distinguished from historical evidence.",
+    "editorial_review": "Separate internal editorial pass: compared 8.A.02 (13,955 teaching words, 125 paragraphs, 11 SVGs, 50 questions) and 7.L.07 exemplar; improved pedigree, enhancer diagram, distractors and misconception corrections. Verified 160 unique paragraphs, 21 sections, 13 accessible labeled SVGs, 3 graphs, 4 tables and balanced answer keys. Established reader shell, dynamic adjacent links and zoom preserved.",
+    "audit": {
+      "duplicate_ids": 0,
+      "unresolved_anchors": 0,
+      "unresolved_aria_labels": 0,
+      "exact_duplicate_teaching_paragraphs": 0,
+      "invalid_mcq_keys": 0,
+      "mcq_key_distribution": {
+        "A": 14,
+        "B": 13,
+        "C": 14,
+        "D": 14
+      },
+      "mcq_count": 55,
+      "tag_count_mismatches_checked": 0,
+      "heading_jumps": 0,
+      "script_syntax": "not independently parsed; established reader script reused",
+      "placeholder": false,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+      "robots": "index,follow",
+      "svg_zoom_targets": 13,
+      "prior_menu_links_preserved": 387,
+      "prior_sitemap_urls_preserved": 388,
+      "concurrent_reconciliation": true
     },
     "limitations": [
-      "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
-      "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
-      "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
-      "GitHub Pages deployment and live HTTP/content verification pending at production commit."
-    ],
-    "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
+      "Internal scientific and editorial review, not external peer review; bibliographic sources checked, not all full texts audited.",
+      "Archived MP SET document checked; current official-host version not independently confirmed.",
+      "Static saved-file checks; real-browser rendering, mobile/keyboard interaction and assistive-technology testing unavailable. Inline reader script retained from exemplar; no separate JS runtime or syntax-parser test claimed.",
+      "Pages deployment and independent live verification pending at publication."
+    ]
   },
   "published_node_ids": [
     "1.A.01",
@@ -453,7 +542,8 @@
     "8.A.01",
     "8.A.02",
     "8.A.06",
-    "8.A.08"
+    "8.A.08",
+    "8.A.05"
   ],
   "prior_publication_qa": {
     "node_id": "8.A.01",
@@ -624,30 +714,30 @@
     ]
   },
   "previous_last_qa": {
-    "node_id": "8.A.06",
-    "title": "Chromosomal Linkage and Crossing Over",
+    "node_id": "8.A.08",
+    "title": "Extrachromosomal Inheritance and Maternal Effects",
     "review_date": "2026-11-28",
     "score": 95,
     "threshold": 95,
     "verdict": "PASS",
     "review_type": "Internal academic and separate editorial review; not external peer review",
-    "draft_commit": "a60f229805cadb9f2c00808bf314222d31a06d86",
-    "lesson_blob_sha": "386fdc581d22261c2f25d1fceac434db24dc6943",
+    "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
+    "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
     "metrics": {
-      "teaching_words": 14756,
-      "article_visible_words": 19871,
-      "teaching_paragraphs": 151,
+      "teaching_words": 13755,
+      "article_visible_words": 19948,
+      "teaching_paragraphs": 137,
       "teaching_sections": 18,
-      "original_svg": 11,
+      "original_svg": 12,
       "graphs": 3,
-      "tables": 2,
-      "questions_total": 55,
-      "part_b": 22,
-      "part_c": 28,
-      "set": 5,
-      "misconceptions": 15,
-      "active_recall": 10,
-      "reference_links": 10
+      "tables": 7,
+      "questions_total": 57,
+      "part_b": 20,
+      "part_c": 27,
+      "set": 10,
+      "misconceptions": 18,
+      "active_recall": 12,
+      "reference_links": 19
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -662,11 +752,12 @@
       "seo_technical": 4
     },
     "limitations": [
-      "No real browser rendering, keyboard or screen reader runtime test; static inspection only.",
-      "References and syllabus mapping checked; not all source full texts independently reviewed.",
-      "Deployment and live checks pending at publication."
+      "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
+      "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
+      "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
+      "GitHub Pages deployment and live HTTP/content verification pending at production commit."
     ],
-    "audit_path": "curriculum/qa/8.A.06-publication-audit.md"
+    "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
   },
   "unit_02": {
     "published_node_ids": [
@@ -49570,6 +49661,141 @@
         "GitHub Pages deployment and live HTTP/content verification pending at production commit."
       ],
       "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
+    },
+    "8.A.05": {
+      "node_id": "8.A.05",
+      "title": "Pleiotropy, Penetrance, Expressivity and Genomic Imprinting",
+      "chapter_path": "pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+      "chapter_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+      "working_branch": "develop-8a05-pleiotropy-imprinting-20261128",
+      "working_commit_sha": "06c9799e150e1a1785cd2ff3dbdbbcd6063995af",
+      "draft_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+      "publication_base_sha": "c30969555f30e6b464758e8007ba9cb9d6e6f133",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 14002,
+        "visible_article_words": 19928,
+        "teaching_paragraphs": 160,
+        "unique_teaching_paragraphs": 160,
+        "teaching_sections": 21,
+        "scientific_svgs": 13,
+        "graphs": 3,
+        "tables": 4,
+        "questions_total": 55,
+        "part_b": 20,
+        "part_c": 25,
+        "set": 10,
+        "answer_explanations": 55,
+        "misconceptions": 17,
+        "active_recall": 15,
+        "references": 14
+      },
+      "word_count_method": "Visible p.teaching-prose only; remove markup and decode entities; whitespace-delimited tokens containing at least one letter or digit; excludes headings, figures, questions, tables, recall, references and navigation.",
+      "quality_score": 95,
+      "quality_rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_microtopics": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "scientific_illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "coverage_matrix": [
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Pleiotropy versus polygenic inheritance",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "FBN1 and PAH examples; one locus/multiple outcomes versus multiple loci/one trait",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Penetrance and age dependence",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Conditional probability, age cohorts, pedigree and posterior inference",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Expressivity and modifiers",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Variable severity, thresholds, ascertainment, distinguish penetrance",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Phenocopy and environment",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Phenotype convergence, reaction norms, developmental timing, G×E",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Parent-of-origin expression",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Reciprocal crosses, parental alleles and phenotype versus genotype",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Imprint establishment, maintenance and resetting",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Germline methylation, Igf2/H19 regulatory mechanism, CTCF",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Imprinting syndromes and UPD",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "PWS/AS critical region, dosage and UPD mechanisms, educational limits",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Experimental discrimination",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Maternal-effect contrast, allele-specific RNA, methylation and cross controls",
+          "status": "covered"
+        }
+      ],
+      "audit_record": "curriculum/qa/8.A.05-publication-audit.md",
+      "scientific_review": "Separate internal scientific pass: checked FBN1/PAH, conditional and age-dependent penetrance, expressivity, phenocopy and interaction, reciprocal crosses, germline imprint resetting, methylation and Igf2/H19-CTCF insulation, PWS/AS and UPD, allele-specific expression and controls. Recomputed 13 quantitative results and inspected all 55 explanations; illustrative data distinguished from historical evidence.",
+      "editorial_review": "Separate internal editorial pass: compared 8.A.02 (13,955 teaching words, 125 paragraphs, 11 SVGs, 50 questions) and 7.L.07 exemplar; improved pedigree, enhancer diagram, distractors and misconception corrections. Verified 160 unique paragraphs, 21 sections, 13 accessible labeled SVGs, 3 graphs, 4 tables and balanced answer keys. Established reader shell, dynamic adjacent links and zoom preserved.",
+      "audit": {
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_labels": 0,
+        "exact_duplicate_teaching_paragraphs": 0,
+        "invalid_mcq_keys": 0,
+        "mcq_key_distribution": {
+          "A": 14,
+          "B": 13,
+          "C": 14,
+          "D": 14
+        },
+        "mcq_count": 55,
+        "tag_count_mismatches_checked": 0,
+        "heading_jumps": 0,
+        "script_syntax": "not independently parsed; established reader script reused",
+        "placeholder": false,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+        "robots": "index,follow",
+        "svg_zoom_targets": 13,
+        "prior_menu_links_preserved": 387,
+        "prior_sitemap_urls_preserved": 388,
+        "concurrent_reconciliation": true
+      },
+      "limitations": [
+        "Internal scientific and editorial review, not external peer review; bibliographic sources checked, not all full texts audited.",
+        "Archived MP SET document checked; current official-host version not independently confirmed.",
+        "Static saved-file checks; real-browser rendering, mobile/keyboard interaction and assistive-technology testing unavailable. Inline reader script retained from exemplar; no separate JS runtime or syntax-parser test claimed.",
+        "Pages deployment and independent live verification pending at publication."
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -67377,7 +67603,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/extrachromosomal-inheritance-and-maternal-effects.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -74838,59 +75064,149 @@
     "published_node_ids": [
       "8.A.01",
       "8.A.02",
+      "8.A.05",
       "8.A.06",
       "8.A.08"
     ],
-    "published_node_count": 4,
+    "published_node_count": 5,
     "planned_node_count": 36,
-    "last_published_node_id": "8.A.08",
+    "last_published_node_id": "8.A.05",
     "updated_at": "2026-11-28",
-    "status": "in_progress",
+    "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "8.A.08",
-      "title": "Extrachromosomal Inheritance and Maternal Effects",
+      "node_id": "8.A.05",
+      "title": "Pleiotropy, Penetrance, Expressivity and Genomic Imprinting",
+      "chapter_path": "pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+      "chapter_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+      "working_branch": "develop-8a05-pleiotropy-imprinting-20261128",
+      "working_commit_sha": "06c9799e150e1a1785cd2ff3dbdbbcd6063995af",
+      "draft_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+      "publication_base_sha": "c30969555f30e6b464758e8007ba9cb9d6e6f133",
       "review_date": "2026-11-28",
-      "score": 95,
-      "threshold": 95,
-      "verdict": "PASS",
-      "review_type": "Internal academic and separate editorial review; not external peer review",
-      "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
-      "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
+      "status": "published_deployment_verification_pending",
       "metrics": {
-        "teaching_words": 13755,
-        "article_visible_words": 19948,
-        "teaching_paragraphs": 137,
-        "teaching_sections": 18,
-        "original_svg": 12,
+        "genuine_teaching_words": 14002,
+        "visible_article_words": 19928,
+        "teaching_paragraphs": 160,
+        "unique_teaching_paragraphs": 160,
+        "teaching_sections": 21,
+        "scientific_svgs": 13,
         "graphs": 3,
-        "tables": 7,
-        "questions_total": 57,
+        "tables": 4,
+        "questions_total": 55,
         "part_b": 20,
-        "part_c": 27,
+        "part_c": 25,
         "set": 10,
-        "misconceptions": 18,
-        "active_recall": 12,
-        "reference_links": 19
+        "answer_explanations": 55,
+        "misconceptions": 17,
+        "active_recall": 15,
+        "references": 14
       },
-      "rubric": {
+      "word_count_method": "Visible p.teaching-prose only; remove markup and decode entities; whitespace-delimited tokens containing at least one letter or digit; excludes headings, figures, questions, tables, recall, references and navigation.",
+      "quality_score": 95,
+      "quality_rubric": {
         "scientific_accuracy": 19,
-        "scope_coverage": 15,
+        "syllabus_microtopics": 15,
         "teaching_depth": 15,
         "pedagogy": 10,
-        "illustrations": 9,
-        "questions": 9,
-        "analytical_depth": 5,
-        "mastery": 5,
-        "reader": 4,
-        "seo_technical": 4
+        "scientific_illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "coverage_matrix": [
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Pleiotropy versus polygenic inheritance",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "FBN1 and PAH examples; one locus/multiple outcomes versus multiple loci/one trait",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Penetrance and age dependence",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Conditional probability, age cohorts, pedigree and posterior inference",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Expressivity and modifiers",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Variable severity, thresholds, ascertainment, distinguish penetrance",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Phenocopy and environment",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Phenotype convergence, reaction norms, developmental timing, G×E",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Parent-of-origin expression",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Reciprocal crosses, parental alleles and phenotype versus genotype",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Imprint establishment, maintenance and resetting",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Germline methylation, Igf2/H19 regulatory mechanism, CTCF",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Imprinting syndromes and UPD",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "PWS/AS critical region, dosage and UPD mechanisms, educational limits",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+          "microtopic": "Experimental discrimination",
+          "depth": "BSc to NET Part B/C and SET",
+          "evidence": "Maternal-effect contrast, allele-specific RNA, methylation and cross controls",
+          "status": "covered"
+        }
+      ],
+      "audit_record": "curriculum/qa/8.A.05-publication-audit.md",
+      "scientific_review": "Separate internal scientific pass: checked FBN1/PAH, conditional and age-dependent penetrance, expressivity, phenocopy and interaction, reciprocal crosses, germline imprint resetting, methylation and Igf2/H19-CTCF insulation, PWS/AS and UPD, allele-specific expression and controls. Recomputed 13 quantitative results and inspected all 55 explanations; illustrative data distinguished from historical evidence.",
+      "editorial_review": "Separate internal editorial pass: compared 8.A.02 (13,955 teaching words, 125 paragraphs, 11 SVGs, 50 questions) and 7.L.07 exemplar; improved pedigree, enhancer diagram, distractors and misconception corrections. Verified 160 unique paragraphs, 21 sections, 13 accessible labeled SVGs, 3 graphs, 4 tables and balanced answer keys. Established reader shell, dynamic adjacent links and zoom preserved.",
+      "audit": {
+        "duplicate_ids": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria_labels": 0,
+        "exact_duplicate_teaching_paragraphs": 0,
+        "invalid_mcq_keys": 0,
+        "mcq_key_distribution": {
+          "A": 14,
+          "B": 13,
+          "C": 14,
+          "D": 14
+        },
+        "mcq_count": 55,
+        "tag_count_mismatches_checked": 0,
+        "heading_jumps": 0,
+        "script_syntax": "not independently parsed; established reader script reused",
+        "placeholder": false,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+        "robots": "index,follow",
+        "svg_zoom_targets": 13,
+        "prior_menu_links_preserved": 387,
+        "prior_sitemap_urls_preserved": 388,
+        "concurrent_reconciliation": true
       },
       "limitations": [
-        "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
-        "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
-        "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
-        "GitHub Pages deployment and live HTTP/content verification pending at production commit."
-      ],
-      "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
+        "Internal scientific and editorial review, not external peer review; bibliographic sources checked, not all full texts audited.",
+        "Archived MP SET document checked; current official-host version not independently confirmed.",
+        "Static saved-file checks; real-browser rendering, mobile/keyboard interaction and assistive-technology testing unavailable. Inline reader script retained from exemplar; no separate JS runtime or syntax-parser test claimed.",
+        "Pages deployment and independent live verification pending at publication."
+      ]
     },
     "qa_by_node": {
       "8.A.02": {
@@ -75196,6 +75512,141 @@
           "GitHub Pages deployment and live HTTP/content verification pending at production commit."
         ],
         "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
+      },
+      "8.A.05": {
+        "node_id": "8.A.05",
+        "title": "Pleiotropy, Penetrance, Expressivity and Genomic Imprinting",
+        "chapter_path": "pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+        "chapter_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+        "working_branch": "develop-8a05-pleiotropy-imprinting-20261128",
+        "working_commit_sha": "06c9799e150e1a1785cd2ff3dbdbbcd6063995af",
+        "draft_blob_sha": "482bc4dbc0786400e87196cede1cd7bbff8ce5ee",
+        "publication_base_sha": "c30969555f30e6b464758e8007ba9cb9d6e6f133",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 14002,
+          "visible_article_words": 19928,
+          "teaching_paragraphs": 160,
+          "unique_teaching_paragraphs": 160,
+          "teaching_sections": 21,
+          "scientific_svgs": 13,
+          "graphs": 3,
+          "tables": 4,
+          "questions_total": 55,
+          "part_b": 20,
+          "part_c": 25,
+          "set": 10,
+          "answer_explanations": 55,
+          "misconceptions": 17,
+          "active_recall": 15,
+          "references": 14
+        },
+        "word_count_method": "Visible p.teaching-prose only; remove markup and decode entities; whitespace-delimited tokens containing at least one letter or digit; excludes headings, figures, questions, tables, recall, references and navigation.",
+        "quality_score": 95,
+        "quality_rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_microtopics": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "scientific_illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "coverage_matrix": [
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Pleiotropy versus polygenic inheritance",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "FBN1 and PAH examples; one locus/multiple outcomes versus multiple loci/one trait",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Penetrance and age dependence",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "Conditional probability, age cohorts, pedigree and posterior inference",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Expressivity and modifiers",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "Variable severity, thresholds, ascertainment, distinguish penetrance",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Phenocopy and environment",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "Phenotype convergence, reaction norms, developmental timing, G×E",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Parent-of-origin expression",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "Reciprocal crosses, parental alleles and phenotype versus genotype",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Imprint establishment, maintenance and resetting",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "Germline methylation, Igf2/H19 regulatory mechanism, CTCF",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Imprinting syndromes and UPD",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "PWS/AS critical region, dosage and UPD mechanisms, educational limits",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised CSIR–UGC–DBT Unit 8.A, separate CSIR Life Sciences inheritance biology and archived MP SET; Academy 8.A.05 contract",
+            "microtopic": "Experimental discrimination",
+            "depth": "BSc to NET Part B/C and SET",
+            "evidence": "Maternal-effect contrast, allele-specific RNA, methylation and cross controls",
+            "status": "covered"
+          }
+        ],
+        "audit_record": "curriculum/qa/8.A.05-publication-audit.md",
+        "scientific_review": "Separate internal scientific pass: checked FBN1/PAH, conditional and age-dependent penetrance, expressivity, phenocopy and interaction, reciprocal crosses, germline imprint resetting, methylation and Igf2/H19-CTCF insulation, PWS/AS and UPD, allele-specific expression and controls. Recomputed 13 quantitative results and inspected all 55 explanations; illustrative data distinguished from historical evidence.",
+        "editorial_review": "Separate internal editorial pass: compared 8.A.02 (13,955 teaching words, 125 paragraphs, 11 SVGs, 50 questions) and 7.L.07 exemplar; improved pedigree, enhancer diagram, distractors and misconception corrections. Verified 160 unique paragraphs, 21 sections, 13 accessible labeled SVGs, 3 graphs, 4 tables and balanced answer keys. Established reader shell, dynamic adjacent links and zoom preserved.",
+        "audit": {
+          "duplicate_ids": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria_labels": 0,
+          "exact_duplicate_teaching_paragraphs": 0,
+          "invalid_mcq_keys": 0,
+          "mcq_key_distribution": {
+            "A": 14,
+            "B": 13,
+            "C": 14,
+            "D": 14
+          },
+          "mcq_count": 55,
+          "tag_count_mismatches_checked": 0,
+          "heading_jumps": 0,
+          "script_syntax": "not independently parsed; established reader script reused",
+          "placeholder": false,
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/pleiotropy-penetrance-expressivity-and-genomic-imprinting.html",
+          "robots": "index,follow",
+          "svg_zoom_targets": 13,
+          "prior_menu_links_preserved": 387,
+          "prior_sitemap_urls_preserved": 388,
+          "concurrent_reconciliation": true
+        },
+        "limitations": [
+          "Internal scientific and editorial review, not external peer review; bibliographic sources checked, not all full texts audited.",
+          "Archived MP SET document checked; current official-host version not independently confirmed.",
+          "Static saved-file checks; real-browser rendering, mobile/keyboard interaction and assistive-technology testing unavailable. Inline reader script retained from exemplar; no separate JS runtime or syntax-parser test claimed.",
+          "Pages deployment and independent live verification pending at publication."
+        ]
       }
     },
     "next_pending_node_id": "8.A.03",
@@ -75205,10 +75656,11 @@
       "published_node_ids": [
         "8.A.01",
         "8.A.02",
+        "8.A.05",
         "8.A.06",
         "8.A.08"
       ],
-      "published_node_count": 4,
+      "published_node_count": 5,
       "planned_node_count": 8,
       "next_pending_node_id": "8.A.03",
       "next_pending_node_title": "Incomplete Dominance, Codominance and Allelic Relationships",
@@ -75386,6 +75838,7 @@
   "unit8a_published_node_ids": [
     "8.A.01",
     "8.A.02",
+    "8.A.05",
     "8.A.06",
     "8.A.08"
   ],

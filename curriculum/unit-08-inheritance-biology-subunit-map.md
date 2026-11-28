@@ -171,3 +171,11 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 387/723; Unit 08: 4/36; 8.A: 4/8.
 - Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.A.08-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 8.A.05
+
+- [8.A.05 — Pleiotropy, Penetrance, Expressivity and Genomic Imprinting](https://rahulthakurpatan.github.io/lifescienceacademy/pleiotropy-penetrance-expressivity-and-genomic-imprinting.html) — production publication; Pages deployment verification pending.
+- Teaching words: 14,002; 13 original SVGs (3 graphs), 4 tables, 55 explained questions (20 Part B, 25 Part C, 10 SET), 17 misconceptions, 15 recall prompts, 14 references; internal QA 95/100.
+- Academy: 388/723; Unit 08: 5/36; 8.A: 5/8.
+- Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.A.05-publication-audit.md`.

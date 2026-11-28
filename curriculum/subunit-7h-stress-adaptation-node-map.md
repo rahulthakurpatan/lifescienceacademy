@@ -75,3 +75,10 @@
 | Chronic stress, allostatic cost, resilience and recovery | 7.H.05 |
 
 The full official heading has substantive mapped coverage at the planned NET/SET physiology level. These five dimensions are instructional categories, not five separately listed official syllabus requirements. Future lesson development should validate evidence and avoid excessive duplication with other subunits.
+
+
+### Publication checkpoint — 2026-11-28 — 7.H.02
+
+- 7.H.02 — [Neural and Endocrine Mechanisms of Stress Response](https://rahulthakurpatan.github.io/lifescienceacademy/neural-and-endocrine-mechanisms-of-stress-response.html); internal QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 14,071 whitespace-separated genuine teaching words, 153 distinct paragraphs, 13 original SVGs (3 graphs), 4 tables, 50 explained original questions (25 Part B MCQs, 25 Part C analytical responses), 15 misconceptions, 12 active recall prompts, 14 references. Audit: `curriculum/qa/7.H.02-publication-audit.md`.
+- Subunit 7.H: 1/5; Unit 07: 50/90; Academy: 365/723. Next global unpublished node: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.

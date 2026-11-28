@@ -331,3 +331,11 @@ Molecular sample preparation and separation → biophysical measurements → omi
 - Reconciled source progress: Academy 438/723; Unit 14 9/60; Subunit 14.B 4/7.
 - Earliest pending in 14.B: 14.B.05 — Cryo-Electron Microscopy and Integrated Structural Analysis; Unit 14: 14.A.05 — Chromatographic Separation and Analytical Interpretation; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/14.B.02-publication-audit.md`.
+
+
+## Publication record — 2026-11-28 — 14.B.05
+
+- [14.B.05 — Cryo-Electron Microscopy and Integrated Structural Analysis](https://rahulthakurpatan.github.io/lifescienceacademy/cryo-electron-microscopy-and-integrated-structural-analysis.html) — production source publication; Pages deployment and live verification pending.
+- 13,779 genuine teaching words, 12 SVGs (3 graphs), 5 tables, 55 explained questions (20 B, 25 C, 10 additional), 18 misconceptions, 15 recall prompts, 14 references; internal static QA 95/100.
+- Academy 439/723; Unit 14 10/60; Subunit 14.B 5/7. Earliest pending in 14.B: 14.B.06 — Mass Spectrometry and Molecular Identification. Global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.B.05-publication-audit.md`.

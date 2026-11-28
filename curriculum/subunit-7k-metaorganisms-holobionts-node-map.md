@@ -102,3 +102,12 @@ All six explicit topic groups have substantive assigned coverage. Supporting exa
 - Academy: 380/723; Unit 07: 65/90; 7.K: 3/6.
 - Earliest pending in 7.K: 7.K.03; global checkpoint: 7.F.08.
 - Audit: `curriculum/qa/7.K.04-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 7.K.05
+
+- [7.K.05 — Gut–Brain Axis and Neuroendocrine Communication](https://rahulthakurpatan.github.io/lifescienceacademy/gut-brain-axis-and-neuroendocrine-communication.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,901; 12 original SVGs (1 graph), 3 tables, 54 explained questions (22 B, 24 C, 8 SET), 15 misconceptions, 10 recall prompts; internal QA 95/100.
+- Academy: 416/723; Unit 07: 83/90; 7.K: 4/6.
+- Earliest pending in 7.K: 7.K.03; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
+- Audit: `curriculum/qa/7.K.05-publication-audit.md`.

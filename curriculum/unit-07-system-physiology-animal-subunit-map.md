@@ -616,3 +616,12 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 14,655 genuine teaching words, 124 unique paragraphs, 12 teaching sections, 14 original accessible SVGs (3 graphs), 6 tables, 54 original explained questions (20 B / 29 C / 5 SET), 20 misconceptions, 15 recall prompts and 19 references.
 - Academy: 415/723; Unit 07: 82/90; 7.J: 12/12. Earliest global pending: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome; earliest in 7.J: Complete.
 - Audit: `curriculum/qa/7.J.12-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 7.K.05
+
+- [7.K.05 — Gut–Brain Axis and Neuroendocrine Communication](https://rahulthakurpatan.github.io/lifescienceacademy/gut-brain-axis-and-neuroendocrine-communication.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,901; 12 original SVGs (1 graph), 3 tables, 54 explained questions (22 B, 24 C, 8 SET), 15 misconceptions, 10 recall prompts; internal QA 95/100.
+- Academy: 416/723; Unit 07: 83/90; 7.K: 4/6.
+- Earliest pending in 7.K: 7.K.03; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
+- Audit: `curriculum/qa/7.K.05-publication-audit.md`.

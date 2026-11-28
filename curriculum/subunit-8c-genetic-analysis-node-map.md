@@ -127,3 +127,11 @@ Progress from linkage and tetrad maps to marker-based mapping and plant populati
 - Academy: 393/723; Unit 08: 10/36; 8.C: 1/8.
 - Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.C.01-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 8.C.02
+
+- [8.C.02 — Tetrad Analysis and Fungal Genetics](https://rahulthakurpatan.github.io/lifescienceacademy/tetrad-analysis-and-fungal-genetics.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,978; 11 original SVGs (1 quantitative graph), 3 tables, 52 explained questions (20 Part B, 22 Part C, 10 SET/mixed), 18 misconceptions, 15 recall prompts, 12 references; internal static QA 95/100.
+- Academy: 397/723; Unit 08: 14/36; 8.C: 4/8.
+- Next pending in 8.C: 8.C.03 — Molecular Markers and Genetic Mapping Methods; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.C.02-publication-audit.md`.

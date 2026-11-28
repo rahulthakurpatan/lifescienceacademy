@@ -338,3 +338,8 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.E.03 — [Phototransduction and Neural Processing of Vision](https://rahulthakurpatan.github.io/lifescienceacademy/phototransduction-and-neural-processing-of-vision.html); internal QA 95/100; saved HTML static audit passed; Pages and direct live verification pending.
 - 13,827 lexical teaching words (13,782 whitespace), 141 distinct paragraphs, 16 original accessible SVGs (7 graphs/traces), 5 tables, 56 explained questions (20 Part B, 26 Part C, 10 SET/integrated), 16 misconceptions, 13 recall prompts, 15 references. Audit: `curriculum/qa/7.E.03-publication-audit.md`.
 - Subunit 7.E: 4/6; Unit 07: 38/90; Academy: 353/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing.
+
+
+### Publication checkpoint — 2026-11-28
+- **7.F.01 — Comparative Physiology of Excretion and Osmoregulation:** [published chapter](https://rahulthakurpatan.github.io/lifescienceacademy/comparative-physiology-of-excretion-and-osmoregulation.html); 14,213 genuine teaching words, 14 SVGs, 52 explained questions (22 B / 26 C / 4 SET), internal QA 95/100.
+- Subunit 7.F: 1/8; Unit 7: 39/90; Academy: 354/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing. Deployment verification pending.

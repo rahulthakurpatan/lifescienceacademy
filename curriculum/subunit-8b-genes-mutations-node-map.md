@@ -118,3 +118,12 @@ Develop the gene and allele concepts, use complementation to identify functional
 - Internal static QA: 95/100; 13,623 genuine teaching words; 13 SVGs; 55 explained questions (20 Part B, 25 Part C, 10 SET).
 - [Publication audit](qa/8.B.03-publication-audit.md).
 - Pages/live verification pending at commit creation.
+
+
+## Publication checkpoint — 2026-11-28 — 8.B.02
+
+- [8.B.02 — Complementation Tests and Functional Analysis of Genes](https://rahulthakurpatan.github.io/lifescienceacademy/complementation-tests-and-functional-analysis-of-genes.html) — production source publication; Pages deployment and live verification pending.
+- 14,048 genuine teaching words; 12 original SVGs (2 graphs), 4 tables, 50 explained questions (20 Part B, 25 Part C, 5 SET/integrated), 18 misconceptions, 15 recall prompts, 11 references; internal static QA 95/100.
+- Reconciled source progress: Academy 425/723; Unit 08 21/36; Subunit 8.B 5/5 — complete.
+- Earliest pending in Unit 08: 8.A.04 — Gene Interactions and Epistasis; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure. Subunit 8.C menu already exists; planned nodes stay unlinked.
+- Audit: `curriculum/qa/8.B.02-publication-audit.md`.

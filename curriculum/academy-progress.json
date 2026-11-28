@@ -4,16 +4,16 @@
   "unit": "08",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "8.A.07",
-  "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
-  "subunit": "8.A",
-  "topic": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
-  "slug": "sex-linked-sex-limited-and-sex-influenced-inheritance",
+  "node_id": "8.B.02",
+  "title": "Complementation Tests and Functional Analysis of Genes",
+  "subunit": "8.B",
+  "topic": "Complementation Tests and Functional Analysis of Genes",
+  "slug": "complementation-tests-and-functional-analysis-of-genes",
   "next_pending_node_id": "7.L.04",
   "next_pending_node_title": "Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure",
-  "published_node_count": 424,
+  "published_node_count": 425,
   "publication_allowed": true,
-  "main_baseline_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
+  "main_baseline_sha": "63e1511198e52425d2ca65c9959cd8d0aa1354be",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; then develop earliest unpublished node.",
   "planned_node_count": 36,
@@ -21,32 +21,33 @@
   "architecture_version": "unit-08-subunit-node-map",
   "curriculum_roadmap": "curriculum/unit-08-inheritance-biology-subunit-map.md",
   "last_qa": {
-    "node_id": "8.A.07",
-    "title": "Sex-Linked, Sex-Limited and Sex-Influenced Inheritance",
-    "chapter_path": "sex-linked-sex-limited-and-sex-influenced-inheritance.html",
-    "chapter_blob_sha": "6afd27591b46b017dc99c37752c48745ee1795bb",
-    "working_branch": "recovery/8a07-quality-review-20261128",
-    "working_commit_sha": "ddc611ffd09cc6609e40e6c45e60258dec733119",
-    "publication_base_sha": "e97e2f62833dcbba1436e7d43d25baa01431b27f",
+    "node_id": "8.B.02",
+    "title": "Complementation Tests and Functional Analysis of Genes",
+    "chapter_path": "complementation-tests-and-functional-analysis-of-genes.html",
+    "chapter_blob_sha": "ba1f57ea62e5c8afa04384a67a4a93775e842729",
+    "working_branch": "recovery/8-b-02-complementation-20261128",
+    "working_commit_sha": "21e8c90d46ae8fe8f6987bc42e884cfb7a28e466",
+    "publication_base_sha": "63e1511198e52425d2ca65c9959cd8d0aa1354be",
+    "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
-    "audit_path": "curriculum/qa/8.A.07-publication-audit.md",
+    "audit_path": "curriculum/qa/8.B.02-publication-audit.md",
     "metrics": {
-      "genuine_teaching_words": 14185,
-      "unicode_lexical_teaching_words": 14302,
+      "genuine_teaching_words": 14048,
       "teaching_paragraphs": 126,
-      "scientific_svgs": 14,
-      "graphs": 3,
-      "tables": 5,
-      "questions_total": 56,
+      "teaching_sections": 20,
+      "scientific_svgs": 12,
+      "graphs": 2,
+      "tables": 4,
+      "questions_total": 50,
       "part_b": 20,
-      "part_c": 31,
-      "set": 5,
-      "answer_explanations": 56,
-      "misconceptions": 15,
-      "active_recall": 12,
-      "references": 18
+      "part_c": 25,
+      "other": 5,
+      "answer_explanations": 50,
+      "misconceptions": 18,
+      "active_recall": 15,
+      "references": 11
     },
-    "word_count_method": "Saved p.teaching-prose text, whitespace-delimited; supplementary content excluded.",
+    "word_count_method": "Unicode lexical tokens in saved p.teaching-prose only; question bank, tables, UI, captions, references and revision excluded.",
     "quality_score": 95,
     "quality_rubric": {
       "scientific_accuracy": 19,
@@ -60,8 +61,11 @@
       "reader_accessibility": 4,
       "technical_seo": 4
     },
+    "scientific_review": "pass_internal",
+    "editorial_review": "pass_internal_static",
     "limitations": [
-      "Internal review only; some primary full texts unavailable; MP SET archived syllabus used; static checks only, no interactive browser or screen-reader tests."
+      "Internal review, not external peer review. Some full texts unavailable; relevant abstract/indexed text verified. Archived MP SET 2024 syllabus verified, current official-host MP SET not independently established.",
+      "Static HTML and SVG checks; real-browser mobile/keyboard/screen-reader, formal HTML validation and interactive JS runtime tests not performed."
     ]
   },
   "published_node_ids": [
@@ -477,6 +481,7 @@
     "8.A.07",
     "8.A.08",
     "8.B.01",
+    "8.B.02",
     "8.B.03",
     "8.B.04",
     "8.B.05",
@@ -2107,7 +2112,7 @@
     "last_published_node_id": "6.H.11",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-8a-chromosomal-extrachromosomal-inheritance-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-8b-genes-mutations-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -52351,6 +52356,54 @@
       "limitations": [
         "Browser device rendering, formal validator and accessibility scanner unavailable; archived MP SET 2024 syllabus verified, newer official version not established."
       ]
+    },
+    "8.B.02": {
+      "node_id": "8.B.02",
+      "title": "Complementation Tests and Functional Analysis of Genes",
+      "chapter_path": "complementation-tests-and-functional-analysis-of-genes.html",
+      "chapter_blob_sha": "ba1f57ea62e5c8afa04384a67a4a93775e842729",
+      "working_branch": "recovery/8-b-02-complementation-20261128",
+      "working_commit_sha": "21e8c90d46ae8fe8f6987bc42e884cfb7a28e466",
+      "publication_base_sha": "63e1511198e52425d2ca65c9959cd8d0aa1354be",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "audit_path": "curriculum/qa/8.B.02-publication-audit.md",
+      "metrics": {
+        "genuine_teaching_words": 14048,
+        "teaching_paragraphs": 126,
+        "teaching_sections": 20,
+        "scientific_svgs": 12,
+        "graphs": 2,
+        "tables": 4,
+        "questions_total": 50,
+        "part_b": 20,
+        "part_c": 25,
+        "other": 5,
+        "answer_explanations": 50,
+        "misconceptions": 18,
+        "active_recall": 15,
+        "references": 11
+      },
+      "word_count_method": "Unicode lexical tokens in saved p.teaching-prose only; question bank, tables, UI, captions, references and revision excluded.",
+      "quality_score": 95,
+      "quality_rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "exam_practice": 9,
+        "analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "scientific_review": "pass_internal",
+      "editorial_review": "pass_internal_static",
+      "limitations": [
+        "Internal review, not external peer review. Some full texts unavailable; relevant abstract/indexed text verified. Archived MP SET 2024 syllabus verified, current official-host MP SET not independently established.",
+        "Static HTML and SVG checks; real-browser mobile/keyboard/screen-reader, formal HTML validation and interactive JS runtime tests not performed."
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -70158,7 +70211,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/sex-linked-sex-limited-and-sex-influenced-inheritance.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/complementation-tests-and-functional-analysis-of-genes.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -78599,6 +78652,7 @@
       "8.A.07",
       "8.A.08",
       "8.B.01",
+      "8.B.02",
       "8.B.03",
       "8.B.04",
       "8.B.05",
@@ -78612,55 +78666,57 @@
       "8.E.03",
       "8.E.04"
     ],
-    "published_node_count": 20,
+    "published_node_count": 21,
     "planned_node_count": 36,
-    "last_published_node_id": "8.A.03",
+    "last_published_node_id": "8.B.02",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "8.A.03",
-      "title": "Incomplete Dominance, Codominance and Allelic Relationships",
-      "chapter_path": "incomplete-dominance-codominance-and-allelic-relationships.html",
-      "chapter_blob_sha": "25ca7810aba03f262c9d8cf279c3c309f89d0200",
-      "working_branch": "draft/8a03-recovery-20261128",
-      "working_commit_sha": "4d920544302bb31f4e202b6ce4cbc823cbffbfe9",
-      "publication_base_sha": "19baeb685e456cf6bb29b372421a9bc43a256da6",
+      "node_id": "8.B.02",
+      "title": "Complementation Tests and Functional Analysis of Genes",
+      "chapter_path": "complementation-tests-and-functional-analysis-of-genes.html",
+      "chapter_blob_sha": "ba1f57ea62e5c8afa04384a67a4a93775e842729",
+      "working_branch": "recovery/8-b-02-complementation-20261128",
+      "working_commit_sha": "21e8c90d46ae8fe8f6987bc42e884cfb7a28e466",
+      "publication_base_sha": "63e1511198e52425d2ca65c9959cd8d0aa1354be",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
+      "audit_path": "curriculum/qa/8.B.02-publication-audit.md",
       "metrics": {
-        "teaching_words": 13186,
-        "teaching_words_whitespace": 13111,
-        "teaching_paragraphs": 130,
-        "teaching_sections": 10,
-        "svg_count": 11,
-        "graph_count": 3,
-        "table_count": 4,
-        "question_count": 50,
-        "part_b_count": 20,
-        "part_c_count": 25,
-        "other_count": 5,
-        "misconception_count": 15,
-        "active_recall_count": 10,
-        "reference_count": 12
+        "genuine_teaching_words": 14048,
+        "teaching_paragraphs": 126,
+        "teaching_sections": 20,
+        "scientific_svgs": 12,
+        "graphs": 2,
+        "tables": 4,
+        "questions_total": 50,
+        "part_b": 20,
+        "part_c": 25,
+        "other": 5,
+        "answer_explanations": 50,
+        "misconceptions": 18,
+        "active_recall": 15,
+        "references": 11
       },
+      "word_count_method": "Unicode lexical tokens in saved p.teaching-prose only; question bank, tables, UI, captions, references and revision excluded.",
       "quality_score": 95,
       "quality_rubric": {
-        "scientific": 19,
-        "syllabus": 14,
-        "depth": 15,
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
         "pedagogy": 10,
         "illustrations": 9,
-        "examination": 10,
-        "analytical": 5,
+        "exam_practice": 9,
+        "analytical_reasoning": 5,
         "revision": 5,
-        "reader": 4,
-        "technical": 4
+        "reader_accessibility": 4,
+        "technical_seo": 4
       },
       "scientific_review": "pass_internal",
       "editorial_review": "pass_internal_static",
-      "audit_record": "curriculum/qa/8.A.03-publication-audit.md",
       "limitations": [
-        "Browser device rendering, formal validator and accessibility scanner unavailable; archived MP SET 2024 syllabus verified, newer official version not established."
+        "Internal review, not external peer review. Some full texts unavailable; relevant abstract/indexed text verified. Archived MP SET 2024 syllabus verified, current official-host MP SET not independently established.",
+        "Static HTML and SVG checks; real-browser mobile/keyboard/screen-reader, formal HTML validation and interactive JS runtime tests not performed."
       ]
     },
     "qa_by_node": {
@@ -80974,6 +81030,54 @@
         "limitations": [
           "Browser device rendering, formal validator and accessibility scanner unavailable; archived MP SET 2024 syllabus verified, newer official version not established."
         ]
+      },
+      "8.B.02": {
+        "node_id": "8.B.02",
+        "title": "Complementation Tests and Functional Analysis of Genes",
+        "chapter_path": "complementation-tests-and-functional-analysis-of-genes.html",
+        "chapter_blob_sha": "ba1f57ea62e5c8afa04384a67a4a93775e842729",
+        "working_branch": "recovery/8-b-02-complementation-20261128",
+        "working_commit_sha": "21e8c90d46ae8fe8f6987bc42e884cfb7a28e466",
+        "publication_base_sha": "63e1511198e52425d2ca65c9959cd8d0aa1354be",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "audit_path": "curriculum/qa/8.B.02-publication-audit.md",
+        "metrics": {
+          "genuine_teaching_words": 14048,
+          "teaching_paragraphs": 126,
+          "teaching_sections": 20,
+          "scientific_svgs": 12,
+          "graphs": 2,
+          "tables": 4,
+          "questions_total": 50,
+          "part_b": 20,
+          "part_c": 25,
+          "other": 5,
+          "answer_explanations": 50,
+          "misconceptions": 18,
+          "active_recall": 15,
+          "references": 11
+        },
+        "word_count_method": "Unicode lexical tokens in saved p.teaching-prose only; question bank, tables, UI, captions, references and revision excluded.",
+        "quality_score": 95,
+        "quality_rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "exam_practice": 9,
+          "analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "scientific_review": "pass_internal",
+        "editorial_review": "pass_internal_static",
+        "limitations": [
+          "Internal review, not external peer review. Some full texts unavailable; relevant abstract/indexed text verified. Archived MP SET 2024 syllabus verified, current official-host MP SET not independently established.",
+          "Static HTML and SVG checks; real-browser mobile/keyboard/screen-reader, formal HTML validation and interactive JS runtime tests not performed."
+        ]
       }
     },
     "next_pending_node_id": "8.A.04",
@@ -81042,15 +81146,16 @@
     "subunit_8b": {
       "published_node_ids": [
         "8.B.01",
+        "8.B.02",
         "8.B.03",
         "8.B.04",
         "8.B.05"
       ],
-      "published_node_count": 4,
+      "published_node_count": 5,
       "planned_node_count": 5,
-      "next_pending_node_id": "8.B.02",
-      "next_pending_node_title": "Complementation Tests and Functional Analysis of Genes",
-      "complete": false
+      "next_pending_node_id": null,
+      "next_pending_node_title": null,
+      "complete": true
     },
     "subunit_8c": {
       "published_node_ids": [
@@ -81101,6 +81206,7 @@
   "unit8a_planned_node_count": 8,
   "unit8b_published_node_ids": [
     "8.B.01",
+    "8.B.02",
     "8.B.03",
     "8.B.04",
     "8.B.05"

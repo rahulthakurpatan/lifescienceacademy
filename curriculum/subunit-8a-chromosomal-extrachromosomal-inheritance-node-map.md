@@ -117,3 +117,12 @@ Trace Mendelian transmission from segregation and independent assortment through
 - Preserve official scope and conceptual balance, not forced identical word counts. Use examples to explain mechanisms rather than catalogue every disorder or marker.
 - Unit 2 owns chromosome structure and meiosis; Unit 3 owns DNA replication/repair/recombination biochemistry; Unit 4 signalling and cancer; Unit 5 development; Unit 7 endocrine/reproductive physiology; Unit 9 detailed evolution; Unit 11 computational workflows; Units 13–14 specialist techniques. Unit 8 owns transmission, inference, mapping and genetic consequences. Use brief prerequisite previews where the official sequence introduces a later topic early (e.g. cytogenetics before detailed chromosome rearrangements).
 - No personal genetic diagnosis, treatment, or operational mutagenesis/gene-transfer protocols. Comparative historical and experimental analysis is educational.
+
+
+## Publication checkpoint — 2026-11-28 — 8.A.02
+
+- [8.A.02 — Independent Assortment and Probability in Genetics](https://rahulthakurpatan.github.io/lifescienceacademy/independent-assortment-and-probability-in-genetics.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,955; 11 original SVGs (4 graphs), 7 tables, 50 explained questions (20 Part B, 25 Part C, 5 SET), 17 misconceptions, 14 recall prompts, 9 references; internal QA 95/100.
+- Academy: 384/723; Unit 08: 1/36; 8.A: 1/8.
+- Earliest pending in 8.A: 8.A.01 — Foundations of Genetics and Mendelian Segregation; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.A.02-publication-audit.md`.

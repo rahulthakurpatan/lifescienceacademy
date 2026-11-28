@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Understand fertilization, implantation, placental endocrinology, pregnancy adaptation, parturition and lactation.">
+  <meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/fertilization-pregnancy-parturition-and-lactation.html">
+  <title>Fertilization, Pregnancy, Parturition and Lactation (7.J.12) | CSIR-NET Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.figure-panel .svg-scroll{overflow-x:auto;max-width:100%;padding:2px}.figure-panel .svg-scroll svg{min-width:520px;width:100%;max-width:none}.svg-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:2px}.figure-panel svg{color:var(--ink)}.question{border-bottom:1px solid var(--border);padding-bottom:1em;margin-bottom:1em}.options{list-style-type:upper-alpha}.article-content .meta{color:var(--muted);font-size:.82em}.article-content .notice{border-left:3px solid var(--accent);padding:12px;background:var(--panel)}body[data-theme=dark] svg [stroke="#147c65"]{stroke:#6cdbb7}body[data-theme=dark] svg [stroke="#a85b16"]{stroke:#ffc37d}body[data-theme=dark] svg [stroke="#7753b5"]{stroke:#d4b5ff}body[data-theme=dark] svg [fill="#dceee9"]{fill:#294d40}body[data-theme=dark] svg [fill="#f3dfbc"]{fill:#5b482e}.practice-question{border-bottom:1px solid var(--border);padding:14px 0}.practice-question details,.active-recall details{background:var(--panel);padding:10px 13px;border-radius:8px}.practice-question summary,.active-recall summary{cursor:pointer;font-weight:700;color:var(--accent-dark)}.misconception{margin:.7em 0!important}.source-note{font: .78em Inter,Arial,sans-serif;color:var(--muted);margin-top:1em!important}</style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Unit 7</span><span>›</span><span>7.J Endocrinology and Reproduction</span><span>›</span><strong>7.J.12</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">7.J.12</span><span>System Physiology: Animal</span></div><h1>Fertilization, Pregnancy, Parturition and Lactation</h1><p class="subtitle">From gamete competence to maternal–placental communication, birth and postnatal nourishment.</p></div><div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Reproductive Cycles, Ovulation and Hormonal Feedback">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Foundations of Metaorganisms, Holobionts and Gut Microbiome Ecology">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#s1">Reproduction as a sequence of physiological transitions</a><a href="#s2">Gamete transport, capacitation and the fertilization interface</a><a href="#s3">Uterine receptivity and implantation</a><a href="#s4">Maternal recognition of pregnancy and luteal rescue</a><!-- DRAFT_TOC --></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Fertilization, Pregnancy, Parturition and Lactation">
+          <div class="article-content" id="article">
+<section id="s1"><h2>Reproduction as a sequence of physiological transitions</h2>
+<p class="teaching-prose">The birth of a mammal is not the immediate consequence of an encounter between two gametes. It depends on a succession of coordinated physiological states, each with different requirements for hormones, target tissues and communication between organs. Before conception, the reproductive tract must support the meeting of sperm and oocyte while the ovary produces a temporary endocrine organ. After conception, the developing conceptus must establish a functional relationship with the uterine lining before that endocrine organ loses its activity. Later, the placenta becomes a powerful endocrine and exchange organ in its own right. Near birth, a uterus that has remained comparatively quiet for months must become capable of coordinated contractions. After birth, a mammary gland prepared during pregnancy must begin sustained secretion and respond to neural signals generated by the infant. The unifying question is how the same maternal body changes from one functional state to another without losing the ability to regulate its internal environment.</p>
+<p class="teaching-prose">A useful starting distinction is between reproduction at the level of cells and reproduction at the level of a whole organism. Fertilization combines genetic contributions from two gametes and activates development; it is investigated in detail in developmental biology. Reproductive physiology asks a complementary set of questions: how do the gametes reach the appropriate location, how does the uterine environment become receptive, which endocrine signals sustain pregnancy, and how does communication between the fetus and the maternal organism change over time? A cell may complete a developmental event successfully without the next organism-level event occurring. For example, a fertilized oocyte can divide outside the uterus in a suitable culture environment, but cell division alone cannot replace implantation, placental exchange or maternal cardiovascular adaptation. Conversely, a receptive endometrium does not establish pregnancy if no developmentally competent conceptus reaches it. Both temporal and spatial coordination matter.</p>
+<p class="teaching-prose">In the ovarian cycle, the follicle that released an oocyte becomes a corpus luteum. Its progesterone secretion transforms a previously estrogen-primed endometrium into tissue capable of receiving a conceptus. Without an appropriate pregnancy-associated signal, luteal activity normally declines and the next cycle begins. This arrangement creates a time-sensitive biological problem: a conceptus is initially very small, and yet its presence must influence an organ located some distance away. In humans, a trophoblast-derived glycoprotein hormone called human chorionic gonadotropin, abbreviated hCG, helps solve that problem. The corpus luteum responds because its luteinizing hormone receptor can recognize hCG as well as pituitary LH. The hormone does not create the ovulated follicle from nothing; it prolongs the functional life of a differentiated organ already formed by events in the preceding cycle.</p>
+<p class="teaching-prose">Endocrine control is therefore not a single switch between pregnancy and absence of pregnancy. It is a series of overlapping signals. The placenta gradually acquires the ability to make sufficient progesterone to maintain the maternal uterine environment, while hCG concentration eventually declines from its early peak. The source of progesterone changes more dramatically than its importance changes. Later in gestation, the placenta and fetal adrenal gland participate in pathways that determine the supply of estrogen precursors. After delivery, removal of the placenta changes the concentrations of several hormones at once. A student who follows only one hormone at a time will have difficulty explaining these transitions. A better strategy is to identify the source, target, timing and physiological action of each signal, and then ask what other sources or pathways remain when it changes.</p>
+<p class="teaching-prose">The term gestation describes the interval of carrying developing offspring. The age of a human pregnancy is conventionally expressed in obstetric weeks counted from the first day of the last menstrual period, not directly from the day of fertilization. If ovulation occurs approximately two weeks after that date, a developmental event four weeks after fertilization corresponds to about six gestational weeks. The approximation is useful for reading standard physiological graphs, but it does not hold exactly for every ovarian cycle. A study that reports days after mating in an experimental mouse and a study reporting weeks of human gestation are not using equivalent clocks. Likewise, the onset of detectable hCG, establishment of a placenta and initiation of labor are different events rather than synonyms for the beginning or end of development.</p>
+<p class="teaching-prose">A central idea in the present chapter is that the response of a target tissue depends on more than the hormone concentration in blood. Receptor abundance, receptor subtype, intracellular signaling competence, previous hormone exposure and the presence of local mediators can all alter the response. The uterine muscle near term is an important example: an oxytocin concentration that produces little coordinated force in an earlier physiological state may become effective when the myometrium expresses more oxytocin receptors and intercellular gap junctions. Similarly, the mammary gland during pregnancy can undergo extensive structural growth while copious milk secretion remains restrained by the hormonal environment. A rise in the capacity of a tissue and the actual expression of that capacity need not occur simultaneously.</p>
+<p class="teaching-prose">Different mammals solve some reproductive problems using different endocrine routes. The examples in this chapter primarily concern human physiology because its ovarian and placental hormones are well characterized and frequently appear in examinations. When comparing humans with domestic animals or laboratory rodents, distinguish a shared function from a shared molecular messenger. The need to preserve luteal progesterone action during early gestation is widespread, but the messenger responsible for recognition of pregnancy differs. The need to generate force for expulsion of the fetus is also shared, yet the contributions of fetal adrenal signals and systemic progesterone withdrawal vary. A comparative answer should explain what is conserved and what is species dependent rather than replacing one species name with another in a memorized human pathway.</p>
+<p class="teaching-prose">The historical development of this subject illustrates why reproductive physiology depends on both observation and experimental intervention. The detection of a gonadotropic activity in urine from pregnant individuals provided evidence that early pregnancy produces a circulating biological signal. Experiments that altered ovarian or pituitary function helped separate the roles of ovarian steroids from those of pituitary hormones. Later immunoassays allowed investigators to distinguish related glycoprotein hormones and follow their concentrations through gestation. Modern receptor and tissue studies help identify the specific cells responding to those molecules. Each approach answers a different question. Detecting a hormone is not proof that it is necessary; blocking its action may show necessity, while restoring function under appropriate conditions can provide further evidence about causal order.</p>
+<p class="teaching-prose">To reason through the remainder of the chapter, keep four biological interfaces in mind: the gamete and reproductive-tract interface, the conceptus and endometrium interface, the placenta and maternal circulation interface, and the infant and mammary neuroendocrine interface. The first determines opportunities for fertilization; the second permits attachment and establishes early endocrine communication; the third coordinates exchange and long-term maternal adaptation; the fourth replaces placental nutrient delivery with postnatal nutritional support. None of these interfaces is a simple passive boundary. Each contains cells that detect signals, respond selectively, and change the behavior of other cells. This perspective also connects reproductive physiology with earlier chapters on cell communication, endocrine action, metabolism and homeostasis.</p></section>
+<section id="s2"><h2>Gamete transport, capacitation and the fertilization interface</h2>
+<p class="teaching-prose">The anatomical site where an oocyte is released and the site where a sperm cell is deposited are separated in space. In humans, fertilization commonly occurs in the ampullary portion of the uterine tube. The oocyte is surrounded by cumulus cells and an extracellular glycoprotein coat, the zona pellucida. After ovulation, fimbrial movements and ciliary activity help direct the cumulus–oocyte complex into the tube. Sperm travel from the lower reproductive tract through the uterus toward the uterine tube. Movement of a sperm flagellum is necessary for many aspects of sperm function, but the distance covered in the tract is not determined simply by multiplying its swimming speed by time. Smooth muscle activity, tract secretions, anatomical barriers and interactions with epithelial surfaces all influence transport. Thus, a sperm cell that moves normally in a laboratory chamber need not behave identically within a reproductive tract.</p>
+<p class="teaching-prose">The female tract changes across the ovarian cycle. Estradiol influences cervical mucus and the function of tubal and uterine tissues, while progesterone after ovulation alters epithelial and muscular properties. These effects provide an example of hormone action on an environment rather than directly on the final developmental outcome. A hormone can increase the probability of two gametes meeting by changing the properties of the route through which they move. This is different from directly causing their plasma membranes to fuse. In examination questions, distinguish factors that influence delivery to the oocyte, factors required for recognition of the oocyte and factors required for activation of the oocyte after fusion. An abnormal result at one stage does not prove a defect at all later stages.</p>
+<p class="teaching-prose">Although sperm leaving the epididymis have acquired many of the features associated with mature sperm, they usually require additional functional changes before mammalian fertilization. These changes are collectively termed capacitation. Capacitation is not another meiotic division or the production of a new sperm cell. It is a modification of the properties of an existing cell, occurring during appropriate exposure to the female tract or under suitable conditions in vitro. Components of the extracellular environment influence the sperm plasma membrane, ion movements and intracellular signaling. Loss or redistribution of membrane cholesterol and changes in intracellular bicarbonate and calcium participate in this process. Because the sperm has a highly specialized cellular organization, relatively modest biochemical changes can produce substantial changes in its motility and capacity to interact with the egg.</p>
+<p class="teaching-prose">Bicarbonate can stimulate soluble adenylyl cyclase, increasing intracellular cyclic AMP. Cyclic AMP can activate protein kinase A, which phosphorylates cellular proteins and contributes to the acquisition of fertilization-related competence. Calcium and pH also influence flagellar behavior. These signaling events overlap rather than forming a universal rigid sequence with an identical time course in every mammalian species. The important examination principle is that capacitation involves biochemical regulation of a differentiated cell. It is not simply the removal of a physical coat that uncovers a fully functional sperm without further signaling. A change in phosphorylation, membrane composition or intracellular ion concentration may be experimentally useful as a marker, but no single marker necessarily demonstrates successful fertilization.</p>
+<p class="teaching-prose">One conspicuous change associated with mammalian capacitation is hyperactivation, a pattern of flagellar movement that differs from relatively symmetrical progressive swimming. Greater amplitude and asymmetry of flagellar bending can help a sperm move through complex environments and detach from epithelial associations. The sperm-specific CatSper channel participates in calcium entry associated with motility regulation. Its regulatory properties differ among mammalian species, including differences in responses to progesterone. It would be misleading to say that progesterone has an identical direct action on CatSper in every mammal. If an experiment shows that an ion-channel defect alters the ability to penetrate the egg investments, the primary observation concerns the performance of sperm under those test conditions. Determining whether the underlying mechanism is loss of calcium entry, altered waveform or a separate effect requires additional measurements.</p>
+<p class="teaching-prose">The acrosome is a specialized secretory organelle covering part of the sperm head. Acrosomal exocytosis involves fusion between the plasma membrane and the outer acrosomal membrane at multiple sites, resulting in release and redistribution of acrosomal material and exposure of different membrane domains. It is therefore a membrane-remodeling event, not simply the rupture of the entire sperm head. Capacitation and acrosomal exocytosis are distinct: capacitation creates functional competence, whereas the acrosome reaction is an execution step associated with the encounter and penetration process. In several mammalian experimental systems, acrosome reactions can begin before sperm contact the zona pellucida. A textbook diagram that places the reaction at a single precise point is best interpreted as a simplified sequence rather than a universal description of every sperm.</p>
+<p class="teaching-prose">Passage through cumulus material and the zona involves mechanical activity and molecular interactions. Once a sperm reaches the space immediately surrounding the oocyte plasma membrane, recognition and membrane fusion require additional components. The sperm protein IZUMO1 and its oocyte binding partner JUNO illustrate this distinction particularly well. In a mouse model, loss of the oocyte receptor disrupts successful fertilization even when sperm reach the region adjacent to the oocyte surface. This localizes an important defect beyond initial passage through the zona. The landmark study by Bianchi and colleagues identified JUNO as a binding partner and demonstrated its importance through functional experiments. The ability of two isolated proteins to bind does not by itself demonstrate that those proteins constitute the complete membrane-fusion machinery. Adhesion can occur without fusion.</p>
+<p class="teaching-prose">Once sperm–oocyte fusion succeeds, the oocyte must prevent the entry of additional sperm and resume development. In mammals, changes associated with intracellular calcium signaling trigger cortical granule exocytosis and modification of egg investments, reducing the likelihood of further successful sperm entry. Alterations at the oocyte surface contribute additional protection. Mammalian mechanisms should not be equated uncritically with the rapid electrical blocks described in some externally fertilizing organisms. In a question about a fertilization defect, multiple sperm nuclei or abnormal genome complements suggest a failure of mechanisms that ordinarily constrain successful sperm entry, whereas absence of any paternal contribution can result from a much earlier problem. Distinguishing fertilization failure from abnormal fertilization is essential.</p>
+<p class="teaching-prose">The ovulated human secondary oocyte is arrested in metaphase of meiosis II. Activation following successful fertilization permits completion of that meiotic division and extrusion of the second polar body. The sperm genome and maternal genome then participate in the establishment of a diploid embryonic lineage. Pronuclei are transient structures that allow the two parental genomes to organize before their chromosomes participate in the early cleavage divisions. It is unnecessary to assume that two intact nuclear envelopes physically merge to form a conventional nucleus at the moment of membrane fusion. The gamete-level sequence is covered further in the Academy's developmental biology chapter. Here its physiological importance is that successful activation permits a conceptus to develop to a stage capable of producing signals relevant to the maternal organism.</p>
+<p class="teaching-prose">Experimental analysis can separate stages of sperm function. Consider two sperm populations, one from a control animal and one lacking a protein suspected of being essential for fusion. If both reach the oocyte surface at similar frequencies but only the control population generates fertilized eggs, a transport defect is unlikely to explain the entire difference. A direct membrane-interaction assay, careful viability controls and an assessment of oocyte activation would help narrow the explanation. If the mutant sperm rarely reaches the surface, by contrast, the final absence of fertilized eggs is not informative about fusion alone. Students should resist attributing a late readout to a late defect when the experimental system has not established that earlier stages were successful.</p>
+<p class="teaching-prose">A further distinction concerns the interval during which fertilization is possible. Oocyte competence is time limited after ovulation, whereas sperm that survive in a favorable tract environment can remain capable of contributing to conception for a longer interval. Their viable lifetime depends on biological conditions and should not be treated as an exact universal number. The probability that functional gametes coexist therefore depends on the timing of ovulation, sperm arrival and the rate at which each loses competence. This probabilistic relationship is one reason a perfectly regular mathematical calendar is an inadequate representation of reproductive events. The physiological sequence is best understood as overlapping windows rather than instantaneous events scheduled on a fixed day in every individual.</p></section>
+<section id="s3"><h2>Uterine receptivity and implantation</h2>
+<p class="teaching-prose">Fertilization occurs outside the uterine lining in the ordinary human pathway. The early conceptus must then travel toward the uterine cavity while it undergoes cleavage and becomes a blastocyst. A blastocyst contains a fluid-filled cavity, an inner cell mass associated with formation of the embryo and an outer trophectoderm lineage that participates in establishing fetal components of the placenta. During the initial transit it remains enclosed by the zona pellucida. Escape from that coat, commonly called hatching, permits direct contact of the outer cells with the endometrial surface. This event changes the nature of the interaction from movement within a lumen to association with maternal tissue. The details of early developmental lineage specification are reserved for Unit 5; our concern is the establishment of a physiological interface.</p>
+<p class="teaching-prose">The endometrium comprises an epithelial surface, glands and underlying stromal tissue containing blood vessels and resident immune cells. It changes over the reproductive cycle because estrogen and progesterone influence proliferation, differentiation and secretory activity. During the follicular phase, estradiol promotes growth of the functional layer after the preceding cycle. After ovulation, progesterone acts on a tissue already exposed to estrogen and promotes features characteristic of the secretory phase. This sequential exposure matters. The same amount of progesterone administered to an unprepared tissue need not have the effect observed in an appropriately primed endometrium. Consequently, descriptions of receptivity should include the previous ovarian endocrine history rather than simply the concentration of one steroid on the day of implantation.</p>
+<p class="teaching-prose">Receptivity is the transient physiological state in which the endometrium can support attachment and subsequent development of an appropriately staged conceptus. The concept is useful because it separates tissue thickness from tissue function. A thick endometrium is not necessarily receptive, and a molecular marker of receptivity is not by itself proof that every other requirement has been met. During the normal sequence, the development of the conceptus and the differentiation of the endometrial tissue progress over overlapping time intervals. If one proceeds much faster than the other, their opportunities for productive interaction may be reduced even when each is individually capable of functioning at a suitable time. This requirement for synchrony explains why a static observation of either partner alone is insufficient to describe implantation.</p>
+<p class="teaching-prose">Implantation can be divided conceptually into apposition, adhesion and invasion. During apposition, the blastocyst establishes close contact with the uterine epithelial surface. Adhesion stabilizes that association through cell and extracellular-matrix interactions. Invasion in humans involves trophoblast penetration and remodeling of maternal tissues. These descriptions indicate functional stages that overlap. They do not imply that a single molecular signal abruptly completes each stage in all individuals. Local cytokines, growth factors, adhesion molecules and ovarian steroids cooperate to alter maternal and trophoblast behavior. Implantation is thus an especially clear example of interactions between endocrine signals that arrive through the bloodstream and local signals exchanged within a tissue.</p>
+<p class="teaching-prose">Decidualization refers to a transformation of endometrial stromal cells into specialized decidual cells, with changes in secretory function, cellular morphology and local regulation. Human stromal differentiation begins in the progesterone-dominated phase even in cycles without conception; pregnancy extends and reorganizes that program around the implantation site. In several experimental rodents, the initiation of a decidual response is more closely associated with a local stimulus from the conceptus or an experimentally applied stimulus. This comparative distinction explains why a mechanically induced decidual response in a rodent is informative about maternal tissue competence but is not a complete experimental model of the spontaneous changes occurring in a human cycle. The common physiological principle is that endometrial cells must acquire a state capable of participating in implantation.</p>
+<p class="teaching-prose">Invasive trophoblast cells interact with maternal decidua and maternal vessels. Their activity contributes to establishment of a blood supply appropriate to placental function. Maternal immune cells are also present at the interface, particularly specialized populations of uterine natural killer cells and other leukocytes. Their functions cannot be understood solely in terms of killing foreign cells. They contribute to tissue organization and signaling in the environment where implantation and vascular remodeling occur. The developing conceptus carries paternal genetic contributions, but pregnancy is not maintained by a global shutdown of maternal immunity. Local immune regulation and the characteristics of trophoblast cells are essential to accommodation of the fetal-derived tissue while preserving broader maternal defenses.</p>
+<p class="teaching-prose">The association between a molecular marker and a receptive endometrium is often discovered by comparing samples collected during different phases of the cycle. Such a comparison can demonstrate that the marker changes with time, but not that the marker causes implantation. To evaluate causality, investigators may use a model in which the candidate molecule is selectively perturbed, compare appropriately staged control tissues, and examine whether the effect can be reversed by restoring the missing activity. Endometrial differentiation, embryo viability and steroid exposure must be considered in interpreting the result. Failure of implantation could reflect an incompetent conceptus, a defect in epithelial contact, an altered stromal environment or a systemic endocrine problem. The final observation alone is insufficient to identify the relevant step.</p>
+<p class="teaching-prose">A physiological consequence of implantation is the establishment of stronger communication between the trophoblast and maternal tissues. The human trophoblast differentiates into cell populations that include multinucleated syncytiotrophoblast, an important source of hCG. The hormone enters maternal compartments and can be measured in circulating blood and eventually in urine. Its detection therefore reflects an activity of trophoblastic tissue rather than the occurrence of sperm–oocyte fusion itself. A fertilized egg at the instant of membrane fusion does not instantly generate the sustained maternal hCG pattern characteristic of an implanted pregnancy. The distinction becomes important when interpreting timelines, experimental culture studies and tests based on hormone detection.</p></section>
+<section id="s4"><h2>Maternal recognition of pregnancy and luteal rescue</h2>
+<p class="teaching-prose">A corpus luteum is formed from cells of the ovulated follicle after the ovulatory signal. It has a rich vascular supply and produces progesterone, along with other signals. In an ordinary nonpregnant human cycle, the persistence of effective luteal steroid secretion is limited. As progesterone and estradiol support declines, the endometrium undergoes changes associated with menstruation. For an early conceptus this would be an unfavorable outcome. The phrase maternal recognition of pregnancy describes the physiological communication that prevents or modifies the normal nonpregnant reproductive sequence so that pregnancy can continue. This term does not describe conscious recognition. It refers to a change in the endocrine or local regulatory state of the maternal organism caused by the presence of the developing conceptus.</p>
+<p class="teaching-prose">Human chorionic gonadotropin is structurally related to the pituitary gonadotropin LH. Both belong to the glycoprotein hormone family and contain alpha and beta subunits. The shared alpha subunit contributes to the family relationship; the beta subunits contribute to receptor and assay specificity. hCG has structural and glycosylation characteristics that differ from those of LH and influence its persistence in circulation. Both can activate the LH/chorionic gonadotropin receptor, commonly abbreviated LHCGR. This receptor is present on luteal cells and can engage G protein-dependent signaling. The relationship provides a powerful example of a target tissue recognizing a hormone from a different anatomical source because the ligand can activate an existing receptor.</p>
+<p class="teaching-prose">In a luteal steroidogenic cell, activation of LHCGR can stimulate the Gs–adenylyl cyclase–cyclic AMP pathway. Protein kinase A-dependent regulation contributes to the ability to mobilize and deliver cholesterol to the mitochondrial steroidogenic machinery. Steroidogenic acute regulatory protein participates in transfer of cholesterol to the inner mitochondrial membrane where cholesterol side-chain cleavage produces pregnenolone. Subsequent enzymatic conversion yields progesterone. This route connects an extracellular glycoprotein hormone signal with a steroid hormone output. The two hormones do not act on the same class of receptor in their major roles: hCG acts through a membrane receptor on the steroid-producing cell, whereas progesterone can bind intracellular progesterone receptors in target tissues and alter gene regulation. The endocrine chain therefore involves one signal controlling production of a chemically different signal.</p>
+<p class="teaching-prose">The term luteal rescue means prolongation of functional corpus luteum activity by a pregnancy-associated signal. It does not imply that the corpus luteum itself produces the hCG responsible for its rescue. Nor does hCG act primarily by replacing progesterone at the progesterone receptor. Consider a hypothetical selective loss of luteal LHCGR function during the early interval when ovarian progesterone remains essential. Even if trophoblast hCG secretion is intact, luteal cells would be less able to respond to that signal. A consequence could be inadequate progesterone support. By contrast, a defect in the progesterone receptor of a critical maternal target tissue would not necessarily cause low progesterone production; instead, the tissue would respond inadequately despite the circulating steroid. The distinction between a hormone deficiency and resistance at a target is fundamental to endocrine reasoning.</p>
+<p class="teaching-prose">The timing of luteal rescue is important because the trophoblast begins communication before the placenta has fully acquired its later endocrine capacity. hCG concentration rises markedly in early human gestation and generally reaches a maximum around the end of the first two to three months before declining to a lower sustained level. Individual trajectories vary, and concentration values depend on the assay and pregnancy dating. A decline after an early peak does not imply that pregnancy maintenance becomes hormone independent. It reflects a change in the balance of hormone-producing tissues and regulatory requirements. Progesterone support continues as placental production becomes sufficient, while hCG also has functions beyond the early rescue of the corpus luteum.</p>
+<p class="teaching-prose">The activity of hCG is detected by immunological assays that recognize specific epitopes, often involving the beta subunit or the intact hormone. Assay design is important because glycoprotein hormones share structural features. A test based on immunoreactivity estimates the abundance of forms recognized by its antibodies, not directly the magnitude of every physiological response in every tissue. Historical bioassays used biological responses to infer the presence of pregnancy-associated gonadotropic activity. Immunoassays improved the ability to measure hormone concentrations and distinguish related molecules, but their interpretation still requires knowledge of the timing and biology of the sample. For examination purposes, distinguish detection of an endocrine product, demonstration that a receptor responds to it and proof that its action is essential for a given physiological outcome.</p>
+<p class="teaching-prose">Different mammals use different mechanisms for preserving luteal function. In ruminants such as sheep and cattle, interferon tau from the elongating conceptus acts on uterine tissues and modifies the mechanisms that would otherwise generate luteolytic prostaglandin F2 alpha pulses. It is not simply a ruminant version of human hCG acting on the same receptor. In several rodents, pituitary prolactin secretion associated with mating contributes to early luteal maintenance; placental lactogens can later participate. The precise pattern is species and stage dependent. The general problem is to prevent premature loss of ovarian steroid support, but the point of intervention differs. In humans an important signal directly supports luteal cells, whereas in ruminants a major signal prevents the uterus from driving luteal regression. An examination may test this difference by presenting a uterus that fails to produce luteolytic pulses rather than an ovary that has acquired a new circulating agonist.</p>
+<p class="teaching-prose">The physiological principle of pregnancy recognition can be investigated by comparing early pregnancy, nonpregnant luteal phases and experimental states in which signaling is altered. A persuasive causal sequence would include the appearance of a conceptus signal before luteal failure would ordinarily occur, detection of an appropriate receptor or target mechanism, persistence of steroid secretion, and evidence that the relevant response depends on the signal. Simply finding that two hormones are high in the same samples does not identify which is upstream. This reasoning leads naturally to the next question: once luteal progesterone action has provided continuity during early development, how does the growing placenta assume responsibility for sustained endocrine support?</p></section>
+<!-- DRAFT_CONTENT -->
+</div>
+</article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · System Physiology: Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged scientific diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // Resolve adjacent chapters from published curriculum links, including later publications.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.J.11","previous-node","← "],["7.K.01","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);if(Array.from(nav.querySelectorAll("a")).some(a=>a.getAttribute("href")===href))continue;const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      document.querySelectorAll(".figure-panel svg").forEach(figure=>{const button=document.createElement("button");button.type="button";button.className="tool-btn";button.textContent="Enlarge diagram";figure.parentNode.append(button);button.addEventListener("click",()=>{if(typeof dialog.showModal!=="function")return;const clone=figure.cloneNode(true);clone.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);clone.querySelectorAll("*").forEach(el=>{for(const attr of Array.from(el.attributes)){if(/url\(#/.test(attr.value))el.setAttribute(attr.name,attr.value.replace(/url\(#([^)]*)\)/g,"url(#zoom-$1)"));if((attr.name==="href"||attr.name==="xlink:href")&&attr.value.startsWith("#"))el.setAttribute(attr.name,"#zoom-"+attr.value.slice(1));}});const refs=clone.getAttribute("aria-labelledby");if(refs)clone.setAttribute("aria-labelledby",refs.split(" ").map(id=>"zoom-"+id).join(" "));byId("zoom-art").replaceChildren(clone);dialog.showModal();});});
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

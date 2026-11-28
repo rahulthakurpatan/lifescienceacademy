@@ -527,3 +527,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 383/723; Unit 07: 68/90; 7.L: 3/8.
 - Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/7.L.07-publication-audit.md`.
+
+
+### Publication checkpoint — 2026-11-28 — 7.G.04
+
+- 7.G.04 — [Neural Regulation of Body Temperature](https://rahulthakurpatan.github.io/lifescienceacademy/neural-regulation-of-body-temperature.html); recovered audited chapter, internal QA 95/100; Pages/live verification pending.
+- 13,832 teaching words (whitespace count), 150 distinct paragraphs, 13 SVGs, 5 tables, 52 original explained questions (20 B / 24 C / 8 SET), 16 misconceptions, 13 recall prompts, 18 references. Audit: `curriculum/qa/7.G.04-publication-audit.md`.
+- Subunit 7.G: 5/5; Unit 07: 71/90; Academy: 404/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation. All five thermoregulation chapters now registered in this publication candidate.

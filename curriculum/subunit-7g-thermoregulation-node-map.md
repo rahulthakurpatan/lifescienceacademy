@@ -96,3 +96,10 @@ All explicit topic groups have substantive assigned coverage. Comparative exampl
 - 7.G.05 — [Thermal Acclimatization and Comparative Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/thermal-acclimatization-and-comparative-adaptations.html); internal QA 95/100; saved HTML static audit passed; Pages/live verification pending.
 - 14,677 genuine teaching words, 139 distinct paragraphs, 10 SVGs, 6 tables, 50 explained original questions (20 B / 20 C / 10 additional), 16 misconceptions, 12 recall prompts, 17 references. Audit: `curriculum/qa/7.G.05-publication-audit.md`.
 - Subunit 7.G: 3/5; Unit 07: 54/90; Academy: 369/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Next in 7.G: 7.G.02 — Physical Regulation of Body Temperature.
+
+
+### Publication checkpoint — 2026-11-28 — 7.G.04
+
+- 7.G.04 — [Neural Regulation of Body Temperature](https://rahulthakurpatan.github.io/lifescienceacademy/neural-regulation-of-body-temperature.html); recovered audited chapter, internal QA 95/100; Pages/live verification pending.
+- 13,832 teaching words (whitespace count), 150 distinct paragraphs, 13 SVGs, 5 tables, 52 original explained questions (20 B / 24 C / 8 SET), 16 misconceptions, 13 recall prompts, 18 references. Audit: `curriculum/qa/7.G.04-publication-audit.md`.
+- Subunit 7.G: 5/5; Unit 07: 71/90; Academy: 404/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation. All five thermoregulation chapters now registered in this publication candidate.

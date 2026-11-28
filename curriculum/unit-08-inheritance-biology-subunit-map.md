@@ -283,3 +283,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships. Global earliest pending: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/8.A.07-publication-audit.md`.
 - Deployment and live verification pending.
+
+
+## Publication checkpoint — 2026-11-28 — 8.A.03
+
+- [8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships](https://rahulthakurpatan.github.io/lifescienceacademy/incomplete-dominance-codominance-and-allelic-relationships.html) — production source publication; Pages deployment and live verification pending.
+- Teaching words: 13,186 lexical (13,111 whitespace); 11 original SVGs (3 graphs), 4 tables, 50 explained questions (20 Part B, 25 Part C, 5 SET), 15 misconceptions, 10 recall prompts, 12 reference entries; internal static QA 95/100.
+- Reconciled source progress: Academy 424/723; Unit 08 20/36; Subunit 8.A 7/8.
+- Earliest pending in Unit 08 and 8.A: 8.A.04 — Gene Interactions and Epistasis. Existing global workflow checkpoint retained: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/8.A.03-publication-audit.md`.

@@ -318,3 +318,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Reconciled source progress: Academy 427/723; Unit 08 23/36; Subunit 8.A 8/8 — complete. Existing next subunit menus preserved.
 - Unit 08 earliest pending: 8.C.02 — Tetrad Analysis and Fungal Genetics; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/8.A.04-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.C.02
+
+- [8.C.02 — Tetrad Analysis and Fungal Genetics](https://rahulthakurpatan.github.io/lifescienceacademy/tetrad-analysis-and-fungal-genetics.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,978; 11 original SVGs (1 graph), 3 tables, 8 integrated worked cases, 52 explained questions (20 Part B, 22 Part C, 10 SET), 18 misconceptions, 15 recall prompts, 12 references; internal static QA 95/100.
+- Progress: 428/723 Academy, 24/36 Unit 08, 6/8 subunit 8.C.
+- Next pending in 8.C: 8.C.03 — Molecular Markers and Genetic Mapping Methods; global checkpoint: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/8.C.02-publication-audit.md`.

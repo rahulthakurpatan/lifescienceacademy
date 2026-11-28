@@ -1,0 +1,424 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Intestinal nutrient sensing, incretin physiology, pancreatic islet feedback, hepatic glucose balance and interorgan metabolic regulation."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/gut-pancreas-liver-communication-and-glucose-homeostasis.html"><title>Gut–Pancreas–Liver Communication and Glucose Homeostasis | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    .exam-question { border-bottom: 1px solid var(--border); padding: 0.8em 0 1.2em; } .exam-question details { background: var(--panel); border-radius: 10px; padding: 0.65em 0.9em; } .exam-question summary { cursor: pointer; font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: .84em; } .source-note { color: var(--muted); } .figure-panel svg { overflow: visible; }
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 7</span><span>›</span><span>Sub-unit 7.L</span><span>›</span><strong>Node 03</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 7.L.03</span><span>Unit 7 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Gut–Pancreas–Liver Communication and Glucose Homeostasis</h1><p class="subtitle">Intestinal nutrient sensing, incretin physiology, pancreatic islet feedback, hepatic glucose balance and interorgan metabolic regulation.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Central Regulation of Appetite and Energy Homeostasis">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#s1">1. The physiological problem: intermittent nutrient entry and continuous glucose demand</a><a href="#s2">2. Portal circulation gives the liver early access to intestinal and pancreatic signals</a><a href="#s3">3. The intestinal epithelium is a nutrient-sensing endocrine organ</a><a href="#s4">4. The incretin effect: evidence from glucose administered by different routes</a><a href="#s5">5. Pancreatic islets convert nutrient availability into complementary hormonal messages</a><a href="#s6">6. Gut–brain–liver neural pathways and anticipatory regulation</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article class="reading-paper" aria-label="Gut–Pancreas–Liver Communication and Glucose Homeostasis study notes"><div class="article-content" id="article"><section id="s1"><h2>1. The physiological problem: intermittent nutrient entry and continuous glucose demand</h2><p class="teaching-prose">Most animals consume food intermittently, whereas their tissues remain metabolically active between meals. A neuron cannot suspend every energy-requiring process until the next meal, and an erythrocyte depends on glycolysis because it lacks mitochondria. The digestive system therefore faces a problem of timing as well as absorption. The intestine delivers a variable stream of nutrients, the pancreas estimates the metabolic significance of that stream, and the liver adjusts whether glucose enters or leaves the circulation. The same liver that removes glucose during one part of the day may supply it during another. This reversible role provides a useful starting point for understanding organ communication.</p>
+<p class="teaching-prose">Glucose homeostasis means that rates of glucose delivery and removal are coordinated so that circulating glucose remains within a physiologically appropriate range. It does not mean that glucose never changes, nor does it imply that all organs simultaneously consume identical amounts. A meal typically raises glucose availability, and a period without food tends to reduce it. The organism controls the size and duration of these deviations through coordinated changes in transport, storage, synthesis and oxidation. The appropriate response depends on what other tissues are doing: resting skeletal muscle, exercising muscle and a rapidly growing tissue all create different patterns of demand.</p>
+<p class="teaching-prose">Consider two individuals whose measured blood glucose concentrations are identical. In one, glucose enters and disappears from circulation slowly; in the other, both rates are high and exactly balanced. The measurement alone cannot distinguish the two. A concentration describes glucose in a specified volume of fluid, whereas a flux describes the amount transferred per unit time. The distinction is central to this chapter because metabolic homeostasis is a property of flows between organs, not merely a set of laboratory concentrations. An examination question may deliberately supply normal glucose concentrations despite abnormal insulin or glucose turnover to test this distinction.</p>
+<p class="teaching-prose">The intestine, pancreatic islets and liver have complementary positions in this network. Intestinal epithelial cells are the first host cells to encounter many digested nutrients. Enteroendocrine cells embedded in the epithelium convert nutrient exposure into secretory and neural signals. Pancreatic islets contain endocrine cells that sample their local environment and release hormones into nearby capillaries. The liver receives venous blood draining much of the digestive tract and pancreas before this blood mixes fully with systemic circulation. These anatomical relationships create information that would be lost if each organ responded only to a single well-mixed peripheral glucose concentration.</p>
+<p class="teaching-prose">Regulation combines feedback and feedforward processes. Feedback occurs when a change in circulating glucose modifies insulin or glucagon secretion, which in turn changes glucose flux and tends to oppose the original disturbance. Feedforward control occurs when signals associated with nutrient entry modify metabolism before the full systemic consequence of absorption has developed. Incretin hormones supply an important example: they are released in response to intestinal nutrient exposure and amplify the insulin response when glucose is elevated. Neither mode replaces the other. Anticipation without feedback can produce an inappropriate response, whereas feedback alone may respond late to rapid nutrient entry.</p>
+<p class="teaching-prose">The liver can change its net glucose balance by altering both glucose production and glucose uptake. This difference matters when interpreting experiments. A reduction in hepatic glucose output may occur because less glucose is newly produced, because more glucose is being retained or because both processes change. Similarly, the absence of net exchange does not demonstrate the absence of intracellular carbohydrate metabolism. Opposing fluxes may occur at the same time. The following sections develop these principles through the routes of nutrient delivery, endocrine control, biochemical mechanisms and experimental measurements.</p></section>
+<section id="s2"><h2>2. Portal circulation gives the liver early access to intestinal and pancreatic signals</h2><p class="teaching-prose">Blood leaving the capillaries of the stomach, intestines and much of the pancreas drains through tributaries into the hepatic portal vein. Rather than returning directly to the heart, this venous blood enters a second capillary-like network in the liver, the hepatic sinusoids. Oxygenated blood from the hepatic artery also supplies the sinusoids. Blood leaves through the hepatic veins and returns toward the heart. The two inflow sources differ in both flow rate and composition, so hepatic nutrient exposure cannot generally be inferred from peripheral venous blood alone.</p>
+<p class="teaching-prose">After carbohydrate digestion, absorbed monosaccharides reach the portal circulation. Glucose and galactose can enter absorptive enterocytes through sodium-coupled transport and subsequently leave through facilitative transport pathways. Fructose uses a different entry transporter and undergoes distinct first-pass metabolism. Most long-chain dietary lipids initially enter lymph in chylomicrons rather than following the same immediate portal route. Shorter-chain fatty acids and other small metabolites may have substantial portal delivery. These distinctions explain why the composition of the material arriving at the liver is not an exact copy of the meal or of the fluid inside the intestinal lumen.</p>
+<p class="teaching-prose">Pancreatic hormones are particularly important in this anatomy. Insulin secreted by beta cells reaches the liver via portal drainage, and a substantial but variable fraction is removed during the first hepatic passage. Peripheral insulin concentration consequently reflects secretion, hepatic extraction, distribution and clearance in other tissues. A low peripheral concentration is not proof of inadequate secretion; increased clearance could contribute. Conversely, reduced hepatic extraction can raise peripheral insulin without a proportional increase in beta-cell secretion. Glucagon also reaches hepatocytes through the portal circulation, but its clearance characteristics differ from those of insulin.</p>
+<p class="teaching-prose">Insulin and C-peptide are formed from proinsulin in equimolar amounts during processing and secreted together from mature granules. Insulin undergoes considerable first-pass hepatic extraction, whereas C-peptide largely escapes that extraction and is cleared substantially by the kidneys. Measuring C-peptide can therefore help estimate endogenous insulin secretion, particularly when an experiment compares states with altered insulin clearance. It is not a direct instantaneous reading of secretion because its distribution and clearance must be accounted for. Renal function and differences in peptide kinetics matter when interpreting the measurements.</p>
+<p class="teaching-prose">A simple mixing calculation illustrates the significance of dual blood supply. Suppose portal plasma flow is 0.9 L per minute and hepatic arterial plasma flow is 0.3 L per minute. Portal glucose is 8 mmol per litre and arterial glucose is 5 mmol per litre. The total delivery is 0.9 × 8 plus 0.3 × 5, or 8.7 mmol per minute. If the outgoing hepatic venous plasma concentration is 6 mmol per litre and plasma outflow is 1.2 L per minute, departure is 7.2 mmol per minute. Net hepatic glucose uptake is therefore 1.5 mmol per minute. These illustrative numbers are not observations from a published experiment. They show why an arterial-to-hepatic-vein concentration difference alone is insufficient when portal concentration differs from arterial concentration.</p>
+<p class="teaching-prose">The portal route also provides spatial information. Delivery of glucose through the portal vein, compared with matched systemic delivery, may increase hepatic glucose uptake in experimental settings where other hormonal and glucose conditions are controlled. This has been described as a portal glucose signal. Its contribution is not a universal fixed increment; it depends on the route, gradient, species, hormonal environment and experimental design. Neural pathways have been implicated in sensing portal nutrient availability and coordinating responses across tissues. The mechanistic lesson is that changing the route of administration may change more than the concentration of a substance at one sampling site.</p></section>
+<section id="s3"><h2>3. The intestinal epithelium is a nutrient-sensing endocrine organ</h2><p class="teaching-prose">Absorption and sensing are related but distinguishable tasks. An absorptive enterocyte transfers nutrients from the lumen toward the circulation. A specialised enteroendocrine cell detects chemical or mechanical features of its environment and releases signalling molecules. Some enteroendocrine cells contact the lumen and can respond to luminal nutrients directly; others receive information indirectly through neighbouring cells, absorbed substrates or neural inputs. These cells are scattered among the intestinal epithelium and can release peptides from their basolateral surfaces into interstitial fluid, where the peptides may reach capillaries or nearby nerve endings.</p>
+<p class="teaching-prose">Glucose-dependent insulinotropic polypeptide, abbreviated GIP, is predominantly associated with K cells of the proximal small intestine. Glucagon-like peptide-1, abbreviated GLP-1, is commonly associated with L cells that are enriched distally but also occur in proximal regions. Modern observations reveal that enteroendocrine populations can express more than one peptide, so the traditional letter-based classification is useful but not an absolute rule. A meal does not encounter an abrupt border beyond which only one hormone can be released. The spatial pattern of nutrient exposure and the distribution of responsive cells both influence the timing and magnitude of hormone secretion.</p>
+<p class="teaching-prose">One important glucose-sensing mechanism uses electrogenic sodium-glucose cotransport. When sodium and glucose enter together through SGLT1, positive charge moves across the membrane. In suitable enteroendocrine cells this depolarises the membrane, promotes opening of voltage-dependent calcium channels and increases calcium-dependent granule exocytosis. The nutrient is therefore not only metabolic fuel; its transport can itself generate an electrical signal. Changes in intracellular metabolism and other nutrient-sensing mechanisms can also modify secretion, and their relative contributions vary across cell types and experimental conditions.</p>
+<p class="teaching-prose">The electrochemical sodium gradient is ultimately maintained by the sodium-potassium ATPase. Thus even a sensing mechanism that does not hydrolyse ATP directly at the cotransporter depends on cellular energy metabolism. In an experiment, blocking sodium-coupled glucose transport might reduce glucose-triggered peptide release, but interpreting the result requires care: the intervention can also alter the rate at which glucose is absorbed and its concentration elsewhere in the intestinal lumen. If the aim is to identify a direct sensory mechanism, one should distinguish effects on enteroendocrine cells from altered nutrient delivery to those cells.</p>
+<p class="teaching-prose">Enteroendocrine cells also respond to products of protein and lipid digestion. Amino acids and small peptides can activate transport-dependent and receptor-dependent sensing mechanisms. Fatty acids can stimulate appropriate G protein-coupled receptors. Different meals therefore generate distinct hormonal combinations even when their total energy contents are similar. An incretin response after a mixed meal should not be understood as a pure readout of glucose alone. Macronutrient composition, digestion rate and gastric emptying determine when different signalling molecules reach different regions of the gut.</p>
+<p class="teaching-prose">GLP-1 is produced from proglucagon through tissue-specific processing. In intestinal L cells, prohormone convertase PC1/3 is important for generation of GLP-1 and related peptides, whereas pancreatic alpha cells primarily use PC2 to generate glucagon. The same precursor gene therefore contributes to distinct endocrine messages in different cellular contexts. This provides a useful link between gene expression and physiological function: identifying a precursor transcript is not enough to identify the secreted active hormone, because post-translational processing changes the products.</p>
+<p class="teaching-prose">Both active GIP and active GLP-1 are rapidly cleaved by dipeptidyl peptidase-4, often abbreviated DPP-4. This processing limits the lifetime of intact active peptides. Measurement of total immunoreactive peptide can therefore differ from measurement of biologically active forms. The short lifetime of active GLP-1 is one reason local neural or paracrine routes can matter alongside endocrine delivery. The physiological signal should be interpreted by considering secretion, degradation, receptor access and the target cell's responsiveness rather than by assuming that every molecule released reaches the pancreas unchanged.</p></section>
+<section id="s4"><h2>4. The incretin effect: evidence from glucose administered by different routes</h2><p class="teaching-prose">The existence of an intestinal contribution to insulin release can be established experimentally without first knowing the identities of the hormones. An oral glucose load is followed by absorption and a rise in plasma glucose. If glucose is instead delivered intravenously, intestinal nutrient sensing is largely bypassed. Comparing the insulin responses to these two routes provides information about gastrointestinal signalling, but only when the glycaemic stimulus is matched. Since beta cells are sensitive to glucose itself, an uncontrolled difference in plasma glucose would confound the interpretation.</p>
+<p class="teaching-prose">In an isoglycaemic intravenous glucose experiment, the investigators first record the plasma glucose profile following oral glucose administration. On another occasion they vary the intravenous infusion rate to reproduce that profile as closely as possible. They measure insulin, or preferably estimate secretion using C-peptide kinetics, under both conditions. A larger secretory response to oral glucose despite a similar peripheral glucose time course supports the presence of gut-dependent amplification. It does not prove that one individual peptide accounts for the entire effect. Identification of GIP and GLP-1, followed by receptor and intervention studies, establishes their contributions.</p>
+<p class="teaching-prose">The incretin effect can be expressed as a percentage of the oral insulin secretory response that exceeds the intravenous response. With baseline-corrected integrated secretion values of 120 arbitrary units after oral administration and 48 after matched intravenous administration, the calculated effect is (120 − 48) / 120 × 100, or 60 percent. If a question instead reports that oral secretion is 2.5 times intravenous secretion, this is a fold difference rather than a percentage of the oral response. The same data support both descriptions, but the denominators differ.</p>
+<p class="teaching-prose">The calculation assumes that the integrated responses are measured over comparable intervals and represent the quantity named in the question. Integrated peripheral insulin concentration is not necessarily identical to integrated secretion. Changes in insulin clearance or hepatic extraction could affect it. An area under the curve can also be calculated relative to baseline or as total area; the convention must be kept consistent. Isoglycaemia at a peripheral sampling site does not ensure identical portal glucose gradients or neural activity, so the route comparison is an operational physiological measure of gut-associated amplification, not a perfectly isolated molecular assay.</p>
+<p class="teaching-prose">GIP and GLP-1 receptors on beta cells couple predominantly to stimulatory G proteins. Their activation increases adenylate cyclase activity, elevates cyclic AMP and recruits effectors including protein kinase A and exchange proteins directly activated by cyclic AMP. These pathways amplify secretion by modifying electrical activity, calcium signalling and the exocytotic machinery. A crucial distinction is that amplification operates most effectively when the glucose-triggering pathway is active. At sufficiently low glucose concentrations, beta-cell membrane activity and calcium-dependent release are limited, so the same incretin stimulus need not produce a large insulin response.</p>
+<p class="teaching-prose">The two incretins do not have identical actions outside beta cells. GLP-1 can inhibit glucagon secretion in a glucose-dependent context, slow gastric emptying and influence satiety. GIP can stimulate glucagon secretion particularly at low or normal glucose concentrations. The effects depend on the nutritional and glycaemic state, and the relative contribution to insulin secretion varies. Therefore, the claim that both peptides always lower glucose through identical actions ignores their distinct effects and context-dependent physiology. A useful examination approach is to ask which cell receives the signal, which receptor pathway operates and what the prevailing glucose concentration permits.</p>
+<p class="teaching-prose">The stomach also contributes indirectly. Slower gastric emptying reduces the rate at which nutrients reach the small intestine. A lower early plasma glucose peak can therefore reflect delayed delivery rather than a larger glucose uptake flux. If investigators wish to isolate the pancreatic action of GLP-1, they must account for changes in gastric emptying and nutrient appearance. These interacting mechanisms explain how a single gut-derived peptide can influence glucose concentrations through multiple physiological routes.</p></section>
+<section id="s5"><h2>5. Pancreatic islets convert nutrient availability into complementary hormonal messages</h2><p class="teaching-prose">A pancreatic islet contains several endocrine cell populations. Beta cells secrete insulin, alpha cells secrete glucagon and delta cells secrete somatostatin. Other endocrine cell types occur in smaller proportions. The cells communicate through local molecules as well as through the circulation. Islet architecture differs between species, so a diagram showing a central beta-cell core surrounded by other cell types describes a common rodent arrangement rather than a universal organisation of all mammalian islets.</p>
+<p class="teaching-prose">Glucose-stimulated insulin secretion begins when beta cells take up glucose and metabolise it. Glucokinase helps couple intracellular glucose phosphorylation to extracellular availability. ATP production rises relative to ADP, reducing the activity of ATP-sensitive potassium channels. The membrane depolarises, voltage-gated calcium channels open and intracellular calcium stimulates fusion of insulin-containing granules. This sequence links an energy substrate to a hormone signal. It also explains why a mutation affecting a potassium channel can modify secretion despite the presence of normal extracellular glucose.</p>
+<p class="teaching-prose">The contribution of particular glucose transporters differs between species. GLUT2 is prominent in rodent beta cells, whereas human beta cells express substantial GLUT1 and GLUT3. Glucokinase and downstream metabolism remain important for glucose sensing. In an examination, it is better to state that facilitated glucose entry and metabolism initiate the canonical pathway than to claim that GLUT2 is the sole glucose transporter in every mammalian beta cell. The overall mechanism is conserved without requiring identical expression of each component.</p>
+<p class="teaching-prose">Insulin secretion has temporal structure. Rapid release can involve granules already competent for fusion, while sustained stimulation recruits and primes additional granules and maintains metabolic amplification. A biphasic pattern may be observed following a sharp glucose step, but oral meals produce more gradual and variable time courses because intestinal absorption and gut signals change dynamically. The duration and shape of the secretory response depend on the stimulus protocol. A biphasic response should not be interpreted as evidence that two different hormones have been released from beta cells.</p>
+<p class="teaching-prose">Alpha cells respond to glucose, amino acids, autonomic signals and local islet communication. Falling glucose generally favours glucagon secretion, while a carbohydrate-rich meal tends to suppress it in healthy physiology. A protein-rich meal can stimulate glucagon alongside insulin because amino acids require disposal and because increased insulin action without a complementary glucose-supplying signal could compromise glucose availability. Local insulin, somatostatin and other mediators contribute to regulation of alpha-cell behaviour. It is therefore misleading to treat glucagon as a hormone that can only be secreted when insulin is absent.</p>
+<p class="teaching-prose">Somatostatin provides inhibitory local control of both beta- and alpha-cell secretion through appropriate receptors. It helps shape the response of the islet to changing nutrient signals. A change in delta-cell output can consequently alter insulin and glucagon responses even if the intrinsic glucose sensor in either recipient cell remains intact. Intact-islet experiments preserve many of these interactions, whereas isolated single cells simplify the system and make cell-autonomous mechanisms easier to investigate. Neither preparation answers every question.</p>
+<p class="teaching-prose">Insulin and glucagon act on the liver as a coordinated pair, but the simple ratio of their plasma concentrations cannot fully predict hepatic flux. Absolute hormone concentrations, receptor responses, temporal secretion patterns, portal delivery and substrate supply matter. A high ratio produced by very low glucagon and moderate insulin is not necessarily equivalent to the same ratio produced by high concentrations of both hormones. The ratio is a useful descriptive concept for fed and fasting transitions, not a substitute for a mechanistic analysis of receptor signalling and substrate delivery.</p></section>
+<section id="s6"><h2>6. Gut–brain–liver neural pathways and anticipatory regulation</h2><p class="teaching-prose">Endocrine messages circulate in blood, whereas neural messages propagate along excitable cells and can influence distant organs through synaptic pathways. The digestive tract is densely supplied by sensory and motor neural circuits. Vagal afferents convey information toward the brainstem from the gut and associated regions, and the nucleus tractus solitarius integrates many visceral signals. Central networks can then influence autonomic outflow, feeding behaviour and digestive functions. This provides a route through which nutrient-related information can modify physiology without requiring every signalling molecule to travel to every recipient organ.</p>
+<p class="teaching-prose">The sight, smell and expectation of a meal can elicit anticipatory responses. Such responses are often described as cephalic-phase responses. Neural effects on pancreatic secretion can prepare metabolism for nutrient entry, although their magnitude varies with species, experimental conditions and the nature of the stimulus. A cephalic response should not be equated with the incretin effect, which specifically concerns amplification associated with gastrointestinal glucose administration. Both contribute to anticipatory control, but they are defined by different experimental comparisons.</p>
+<p class="teaching-prose">Portal glucose sensing provides a second example of neural integration. In animal experiments, changes in the relative glucose concentrations of portal and arterial blood may alter hepatic glucose uptake and glucose utilisation by other tissues. If portal glucose infusion generates a response different from systemic infusion under matched glycaemia and hormonal conditions, it supports the importance of the route of nutrient delivery. However, the response does not by itself specify a particular nerve or molecular sensor. Selective neural interventions, appropriate sham controls and measurements of blood flow and hormone concentrations help establish the contribution of neural pathways.</p>
+<p class="teaching-prose">The vagus is not a single homogeneous cable carrying only a glucose message. It contains distinct populations of sensory and motor fibres with different targets and physiological properties. A broad intervention that disrupts vagal signalling may change gastric motility, nutrient absorption, pancreatic secretion and central feedback simultaneously. A difference in liver glucose metabolism after such an intervention can therefore have several explanations. The experimental goal is to separate the information-bearing pathway from secondary changes in the variables that it normally regulates.</p>
+<p class="teaching-prose">A useful integrative model treats hormones, metabolites and neural signals as parallel routes carrying overlapping information. A rise in portal glucose directly changes hepatocyte substrate availability; gut-derived peptides influence pancreatic secretion and local nerves; changing insulin and glucagon alter hepatic metabolism; autonomic responses can modify several of these processes. Because the signals occur concurrently, the body can maintain glucose regulation even when one pathway contributes less than usual. This redundancy is one reason a single measured hormone rarely explains an entire postprandial glucose profile.</p></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 7 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 7 · System Physiology – Animal</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["7.L.02","previous-node","← "],["7.L.04","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

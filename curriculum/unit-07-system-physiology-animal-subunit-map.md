@@ -415,3 +415,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy 366/723; Unit 07 51/90; Subunit 7.H 2/5.
 - Earliest unpublished node: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Deployment and live verification pending.
 - Audit: `curriculum/qa/7.H.01-publication-audit.md`.
+
+
+### Publication checkpoint — 2026-11-28 — 7.H.04
+
+- [Environmental Stress and Comparative Physiological Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/environmental-stress-and-comparative-physiological-adaptations.html); internal QA 95/100; saved HTML audit passed.
+- 13,394 genuine teaching words; 116 paragraphs; 13 SVGs (3 graph figures); 4 tables; 50 explained original questions (20 B / 22 C / 8 additional); 18 misconceptions; 12 recall prompts; 23 references.
+- Academy 368/723; Unit 07 53/90; Subunit 7.H 3/5. Next global unpublished node: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Deployment and live verification pending.
+- Audit: `curriculum/qa/7.H.04-publication-audit.md`.

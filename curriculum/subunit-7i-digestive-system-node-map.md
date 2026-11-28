@@ -102,3 +102,11 @@ All four explicit official topic groups have substantive assigned coverage. Supp
 - 7.I.02 — [Gastrointestinal Motility and Neuroendocrine Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/gastrointestinal-motility-and-neuroendocrine-regulation.html); internal academic and static QA 95/100; Pages/live verification pending.
 - 13,899 genuine teaching words, 128 distinct teaching paragraphs, 14 original SVGs (4 graphs/traces), 5 tables, 58 explained original questions (25 B / 30 C / 3 SET), 15 misconceptions, 12 recall prompts, 18 references. Audit: `curriculum/qa/7.I.02-publication-audit.md`.
 - Subunit 7.I: 3/6; Unit 07: 73/90; Academy: 406/723. Earliest pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation. Next pending in 7.I: 7.I.04 — Intestinal Absorption and Nutrient Transport.
+
+
+### Publication checkpoint — 7.I.06 (2026-11-28)
+
+- Chapter: [Basal Metabolic Rate and Measurement of Energy Expenditure](https://rahulthakurpatan.github.io/lifescienceacademy/basal-metabolic-rate-and-measurement-of-energy-expenditure.html); internal academic and editorial QA 95/100; Pages/live verification pending.
+- 14,878 genuine teaching words; 144 distinct teaching paragraphs; 12 sections; 11 SVGs (4 graphs/charts), 5 tables, 53 explained original questions (25 B / 28 C), 15 misconceptions, 10 recall prompts, 14 references.
+- Academy: 407/723; Unit 07: 74/90; 7.I: 4/6. Next global pending: 7.H.03 — Cellular and Molecular Mechanisms of Stress Adaptation; next in 7.I: 7.I.04 — Intestinal Absorption and Nutrient Transport.
+- Audit: `curriculum/qa/7.I.06-publication-audit.md`.

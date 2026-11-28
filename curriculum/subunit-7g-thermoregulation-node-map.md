@@ -90,3 +90,9 @@ All explicit topic groups have substantive assigned coverage. Comparative exampl
 - Academy 364/723; Unit 07 49/90; Subunit 7.G 2/5.
 - Earliest unpublished node: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Deployment and live verification pending.
 - [Audit record](qa/7.G.03-publication-audit.md).
+
+### Publication checkpoint — 2026-11-28 — 7.G.05
+
+- 7.G.05 — [Thermal Acclimatization and Comparative Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/thermal-acclimatization-and-comparative-adaptations.html); internal QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 14,677 genuine teaching words, 139 distinct paragraphs, 10 SVGs, 6 tables, 50 explained original questions (20 B / 20 C / 10 additional), 16 misconceptions, 12 recall prompts, 17 references. Audit: `curriculum/qa/7.G.05-publication-audit.md`.
+- Subunit 7.G: 3/5; Unit 07: 54/90; Academy: 369/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Next in 7.G: 7.G.02 — Physical Regulation of Body Temperature.

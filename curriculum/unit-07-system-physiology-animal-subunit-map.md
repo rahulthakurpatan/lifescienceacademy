@@ -421,3 +421,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.H.05 — [Chronic Stress, Allostatic Load and Integrated Physiological Recovery](https://rahulthakurpatan.github.io/lifescienceacademy/chronic-stress-allostatic-load-and-integrated-physiological-recovery.html); internal QA 95/100; static HTML audit passed; Pages/live verification pending.
 - 13,488 genuine teaching words, 160 distinct paragraphs, 11 original accessible SVGs, 5 tables, 50 explained original questions (20 B / 20 C / 10 mixed), 15 misconceptions, 12 recall prompts, 20 references. Audit: `curriculum/qa/7.H.05-publication-audit.md`.
 - Subunit 7.H: 3/5; Unit 07: 53/90; Academy: 368/723. Earliest global unpublished node: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+
+### Publication checkpoint — 2026-11-28 — 7.G.05
+
+- 7.G.05 — [Thermal Acclimatization and Comparative Adaptations](https://rahulthakurpatan.github.io/lifescienceacademy/thermal-acclimatization-and-comparative-adaptations.html); internal QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 14,677 genuine teaching words, 139 distinct paragraphs, 10 SVGs, 6 tables, 50 explained original questions (20 B / 20 C / 10 additional), 16 misconceptions, 12 recall prompts, 17 references. Audit: `curriculum/qa/7.G.05-publication-audit.md`.
+- Subunit 7.G: 3/5; Unit 07: 54/90; Academy: 369/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Next in 7.G: 7.G.02 — Physical Regulation of Body Temperature.

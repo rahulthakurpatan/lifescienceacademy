@@ -661,3 +661,12 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 420/723; Unit 07: 87/90; 7.K: 6/6.
 - Subunit 7.K: Complete (6/6); global checkpoint: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis.
 - Audit: `curriculum/qa/7.K.06-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 7.L.06
+
+- [7.L.06 — Metabolic Flexibility and Maintenance of Metabolic Health](https://rahulthakurpatan.github.io/lifescienceacademy/metabolic-flexibility-and-maintenance-of-metabolic-health.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,138 whitespace; 13,223 lexical; 15 original SVGs (3 graphs), 4 tables, 52 explained questions (20 B, 26 C, 6 SET), 18 misconceptions, 15 recall prompts, 15 references; internal QA 95/100.
+- Academy: 421/723; Unit 07: 88/90; 7.L: 6/8.
+- Earliest pending in 7.L: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis; Unit 7 checkpoint: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis.
+- Audit: `curriculum/qa/7.L.06-publication-audit.md`.

@@ -1,0 +1,443 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Understand genomic and plasmid DNA, RNA isolation, nucleic acid integrity, optical quantification, hybridisation and analytical controls."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/isolation-and-analysis-of-dna-and-rna.html"><title>Isolation and Analysis of DNA and RNA | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    .exam-question { border-bottom: 1px solid var(--border); padding: 0.8em 0 1.2em; } .exam-question details { background: var(--panel); border-radius: 10px; padding: 0.65em 0.9em; } .exam-question summary { cursor: pointer; font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: .84em; } .source-note { color: var(--muted); } .figure-panel svg { overflow: visible; }
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}.article-content figure{margin:1.5em 0;padding:1em;border:1px solid var(--border);border-radius:12px}.article-content figure svg{width:100%;height:auto;display:block}.article-content figcaption{font-size:.85em;color:var(--muted)}.article-content dt{margin-top:1em}.article-content dd{margin-left:0}.diagram-zoom{margin:.5rem 0;padding:.4rem .8rem;border:1px solid var(--border);background:var(--panel);color:var(--ink);border-radius:6px;cursor:pointer}
+</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 14</span><span>›</span><span>Sub-unit 14.A</span><span>›</span><strong>Node 02</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 14.A.02</span><span>Unit 14 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Isolation and Analysis of DNA and RNA</h1><p class="subtitle">From nucleic acid chemistry to selective recovery, optical measurement and sequence recognition.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Biological Sample Preparation and Macromolecule Analysis">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Protein, Carbohydrate and Lipid Isolation and Analysis">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#foundations">The biological problem: recovering information-bearing molecules</a><a href="#genomic">Genomic DNA: release, preservation and selection</a><a href="#plasmid">Plasmid DNA and the significance of topology</a><a href="#rna">RNA isolation and selective recovery</a><a href="#purification">Physical chemistry of nucleic acid purification</a><a href="#integrity">Integrity: interpreting DNA and RNA gels</a><a href="#absorbance">Absorbance, concentration and optical purity</a><a href="#fluorescence">Fluorescence-based quantification and calibration</a><a href="#hybridisation">Complementarity, hybridisation and sequence recognition</a><a href="#controls">Controls, specific detection and integrated interpretation</a><a href="#references">References</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article data-node-id="14.A.02" class="reading-paper" aria-label="Isolation and Analysis of DNA and RNA study notes"><div class="article-content" id="article"><section id="foundations"><h2>The biological problem: recovering information-bearing molecules</h2><p class="teaching-prose">A leaf contains a remarkably complicated mixture of molecules. Its cells contain chromosomes, chloroplast genomes, mitochondrial genomes, messenger RNAs, ribosomal RNAs, enzymes, pigments, membranes and storage carbohydrates. A scientist studying one gene must distinguish the molecules carrying that gene from everything else present in the tissue. Merely breaking open cells produces a mixture, not a purified preparation. Isolation means recovering the desired class of molecule from its biological setting; purification means progressively excluding other material. Analysis means determining what has actually been recovered. These three operations are connected but are not interchangeable.</p>
+<p class="teaching-prose">The scientific question determines which molecule should be recovered. Genomic DNA preserves information about inherited sequence, including regions not transcribed in the sampled tissue. RNA gives access to transcripts and other expressed RNA species present at the time of sampling. A leaf cell and a root cell of the same plant may carry very similar nuclear genomes yet contain different populations of messenger RNA. A difference in RNA abundance therefore need not imply a difference in gene copy number. Conversely, an inherited DNA variant can be present even in a tissue where its gene is silent. These distinctions explain why DNA and RNA cannot be treated as equivalent samples simply because both contain nucleotides.</p>
+<p class="teaching-prose">A useful nucleic acid preparation has at least four independent attributes: quantity, chemical purity, molecular integrity and suitability for the intended measurement. Quantity is the amount of target recovered. Purity describes the proportion of material belonging to the intended class and the absence of problematic contaminants. Integrity concerns the preservation of molecular length and structure. Suitability is the practical question of whether the sample permits a reliable result in a defined downstream assay. A short DNA fragment may be perfectly suitable for detecting a short sequence but unsuitable for mapping the arrangement of distant regions on the same chromosome. No single quality number resolves all four attributes.</p>
+<p class="teaching-prose">Imagine two preparations containing the same mass of DNA. One contains relatively long chromosome fragments, while the other consists of many short fragments. Both can have identical concentrations, although the latter contains more individual molecules and fewer long uninterrupted regions. If the task is to determine whether two distant sequence landmarks occur on the same molecule, fragmentation destroys precisely the evidence required. If the task is simply to detect a short region, fragmentation may have little consequence provided that the region is still intact. The desired information, rather than a universal ideal of purity, defines the relevant quality criterion.</p>
+<p class="teaching-prose">A nucleotide includes a nitrogenous base, a pentose sugar and phosphate. Phosphodiester bonds link successive nucleotides into a polymer whose direction is described by its 5′ and 3′ ends. At ordinary biological pH, the phosphate backbone carries negative charge. This common property explains many similarities between DNA and RNA during separation. Aromatic bases absorb ultraviolet radiation and complementary bases associate through hydrogen bonding and stacking interactions. These properties supply two distinct routes for analysis: measuring the collective amount of nucleic acid through optical signals and recognizing a particular sequence through complementarity. Neither route by itself reports every feature of the sample.</p>
+<p class="teaching-prose">RNA differs chemically from DNA through the hydroxyl group at the 2′ position of ribose and the usual use of uracil instead of thymine. The additional hydroxyl group permits an intramolecular reaction leading to backbone cleavage under alkaline conditions. DNA lacks this group, so the same chemical pathway is unavailable to it. DNA nevertheless undergoes damage by other mechanisms, including oxidation, depurination and nuclease action. The apparent simplicity of extracting a polymer therefore hides a central requirement: preserve the molecular properties that carry biological information while removing the components that obscure its measurement.</p></section>
+<section id="genomic"><h2>Genomic DNA: release, preservation and selection</h2><p class="teaching-prose">In a eukaryotic nucleus DNA is associated with histones and other proteins. These associations organize and compact the chromosome rather than changing its nucleotide sequence. DNA from chloroplasts and mitochondria can also be present in a whole-cell preparation. The phrase genomic DNA must therefore be interpreted in relation to the sample and the question. An assay that measures all double-stranded DNA does not identify the genome of origin. A sequence-specific test or deliberate fractionation may be required to distinguish nuclear DNA from organellar DNA.</p>
+<p class="teaching-prose">Genomic DNA isolation presents a physical problem as well as a chemical one. A chromosome is much longer than an ordinary enzyme or small metabolite. When released from cellular organization, long DNA molecules can become entangled. Mechanical forces that would leave compact proteins relatively unaffected can break long DNA chains. Such breakage may not substantially change the number of bases present in the preparation, but it changes the distribution of fragment lengths. This is why an apparently excellent total yield cannot establish that long molecules have survived the isolation.</p>
+<p class="teaching-prose">Cell boundaries differ across biological materials. The lipid bilayer is susceptible to disruption by detergents because amphipathic molecules interact with membrane lipids. Plant cell walls present an additional mechanical barrier composed largely of polysaccharides. The extraction principle must therefore account for both the cellular architecture and the chemical composition of the resulting mixture. Removing a barrier is not identical to destroying every macromolecule within it. Ideally, release of the target is accompanied by protection of the target from endogenous degradative enzymes.</p>
+<p class="teaching-prose">After disruption, cellular nucleases may encounter DNA that was previously protected or spatially separated from them. Many DNases depend on divalent metal ions for catalysis. A chelating agent reduces the free concentration of those ions and can consequently suppress the activity of metal-dependent enzymes. This does not imply that all nucleases are inhibited by chelation. Enzymes differ in their mechanisms and cofactor requirements. The same chelator can become undesirable in a later assay if that assay needs a metal-dependent polymerase. A protective reagent during isolation can thus become an inhibitor during analysis.</p>
+<p class="teaching-prose">Protein removal depends on differences between the physicochemical properties of nucleic acids and proteins. Proteases break peptide bonds, whereas detergents and chaotropic agents disrupt many noncovalent interactions that maintain protein structure. These changes help release DNA from its associated proteins. Removing proteins by precipitation, phase partitioning or a selective solid support then separates them from the target. The selection step must be judged by both the DNA retained and the impurities removed. A process that eliminates nearly every contaminant but also discards nearly all target molecules may be a poor choice for a small biological sample.</p>
+<p class="teaching-prose">Consider a model in which an initial extract contains 100 micrograms of DNA and 900 micrograms of other material. A purification step leaves 75 micrograms of DNA and 25 micrograms of other material. The DNA recovery is 75 percent. Its mass fraction rises from 10 percent to 75 percent. A second step that leaves 60 micrograms of DNA and 2 micrograms of other material improves the mass fraction to about 97 percent, but the overall recovery falls to 60 percent. These illustrative values show why purity and recovery must be reported separately. A purity improvement is not a claim of increased yield.</p>
+<p class="teaching-prose">The nature of the contaminants also matters. A small amount of a potent enzyme inhibitor can be more consequential than a greater amount of an inert molecule. A plant extract may contain substances that alter optical measurements or interfere with enzymatic analysis. A DNA preparation intended for a physical size measurement may tolerate contaminants that would be unacceptable for a sensitive enzyme-based assay. Consequently, comparing methods solely by their nominal purity values ignores the biological and analytical reasons for purification.</p></section>
+<section id="plasmid"><h2>Plasmid DNA and the significance of topology</h2><p class="teaching-prose">A plasmid is an independently maintained genetic element, commonly represented in textbook examples as a circular double-stranded DNA molecule. Although many plasmids are circular, linear plasmids exist, and circular topology should not be mistaken for a universal definition. A typical circular plasmid may be much smaller than the chromosome of its host. This size contrast, together with topological differences, creates opportunities for separating the two classes of DNA.</p>
+<p class="teaching-prose">The two strands of a covalently closed circular DNA molecule cannot rotate freely around one another without a strand break or strand passage. Its linking number describes a topological relationship between the strands. The molecule can distribute torsional deformation between twisting of the double helix and coiling of the helix axis. In a closed circular duplex, the linking number can be written as the sum of twist and writhe. This relationship is not needed for every isolation problem, but it explains why two molecules with the same sequence and mass can adopt different shapes.</p>
+<p class="teaching-prose">A nick in one strand permits torsional relaxation and commonly gives rise to an open circular form. A double-strand break at one position converts a circular molecule into a linear molecule. In each case the nucleotide sequence may remain almost identical, yet the physical behavior changes. When a small plasmid is examined by conventional agarose electrophoresis, compact supercoiled forms often move faster than the corresponding linear form, while open circular forms tend to move more slowly. This order is conditional on the separation environment; it is not a universal law for every DNA size or gel system.</p>
+<p class="teaching-prose">The classical alkaline separation principle exploits differences in how different DNA molecules respond to disruption of base pairing and subsequent restoration of conditions favorable to duplex formation. The complementary strands of small covalently closed circular DNA remain topologically linked even when base pairing is disrupted. Their association can favor efficient restoration of duplex structure. Much larger chromosomal DNA and associated material behave differently during the separation. Selectivity depends on the physical state of the molecules and the chemistry of the mixture rather than an absolute inability of genomic DNA to reassociate.</p>
+<p class="teaching-prose">Birnboim and Doly described a plasmid screening method based on alkaline extraction in 1979. Its historical importance lies in demonstrating a practical way to exploit the physical and chemical differences between plasmid and chromosomal DNA. A method developed for a particular class of plasmids and biological samples does not automatically guarantee equal recovery for every independently maintained DNA element. Large plasmids, damaged circular molecules, unusual topology and fragmented chromosomal DNA can complicate the separation.</p>
+<p class="teaching-prose">Suppose a gel displays three bands from a single plasmid preparation. It is tempting to infer the presence of three unrelated plasmids. That inference is unwarranted because three topological forms of the same molecule can migrate differently. If an independent analytical comparison establishes that the forms correspond to the same linear length, a topological interpretation becomes much stronger. The key examination principle is to distinguish number of electrophoretic species from number of distinct nucleotide sequences. The gel separates molecules by physical mobility, not by a direct reading of their base sequences.</p><figure class="figure-panel"><svg viewBox="0 0 540 180" role="img" aria-labelledby="topology-title topology-desc"><title id="topology-title">Three forms of the same circular DNA sequence</title><desc id="topology-desc">Compact supercoiled DNA, relaxed open circle and linear DNA differ in shape.</desc><g stroke="currentColor" stroke-width="3" fill="none"><path d="M45 80 C0 20 135 20 120 85 S30 140 65 75 S160 35 115 110 S20 130 45 80Z"/><circle cx="268" cy="80" r="51"/><path d="M385 100 Q421 35 453 76 T510 66"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="83" y="160">Supercoiled</text><text x="268" y="160">Open circular</text><text x="448" y="160">Linear</text></g></svg><figcaption>Conceptual topological forms: relative mobility is not simply molecular length.</figcaption></figure></section>
+<section id="rna"><h2>RNA isolation and selective recovery</h2><p class="teaching-prose">RNA isolation is particularly sensitive to the preservation of the starting biological state. Transcription and RNA degradation continue in living material until the sample is stabilized, and the distribution of RNA species can change during handling. A biological comparison is trustworthy only if the measured difference reflects the intended biological condition rather than a systematic difference in preservation. An extracted RNA population is a sample of the transcripts that survived collection and processing, not a perfect record of every molecule present in the original cells.</p>
+<p class="teaching-prose">The ribose 2′ hydroxyl group increases the chemical vulnerability of RNA relative to DNA under certain conditions. In addition, ribonucleases are widespread, and some remain active despite conditions that disrupt many other proteins. RNase A is a classical example of a ribonuclease that does not require a divalent metal cofactor for its catalytic mechanism. A chelator alone therefore cannot provide universal RNA protection. The conceptual distinction between suppressing nuclease catalysis and removing or inactivating nuclease molecules is important.</p>
+<p class="teaching-prose">The classic work of Chomczynski and Sacchi in 1987 established a widely influential approach using acid guanidinium thiocyanate and organic phase separation. The chaotropic environment disrupts protein structure, while the partitioning conditions favor recovery of RNA in the aqueous fraction relative to much of the DNA and protein. The method illustrates two independent principles working together: protection of the desired molecule and differential partitioning. It does not mean that every RNA molecule is recovered equally or that DNA contamination becomes impossible.</p>
+<p class="teaching-prose">Total cellular RNA is not synonymous with messenger RNA. In many actively growing cells, ribosomal RNA accounts for a large fraction of the total RNA mass. Transfer RNAs, messenger RNAs and numerous other classes contribute smaller fractions that can nevertheless have profound biological roles. An increase in total RNA concentration might reflect changes in ribosome abundance rather than a specific change in the transcription of a particular gene. Conversely, substantial changes in a low-abundance messenger RNA may make almost no difference to the total RNA mass.</p>
+<p class="teaching-prose">Many eukaryotic messenger RNAs have a polyadenylated 3′ end. Complementary oligo(dT) sequences can recognize this tail and provide an affinity principle for enriching polyadenylated transcripts. Not all messenger RNAs possess such tails, and not every molecule carrying a poly(A) tract is a mature functional messenger RNA. Degradation can also separate a tail-containing segment from the remainder of a transcript. The capture therefore selects a molecular feature rather than directly verifying the full biological identity or integrity of each captured molecule. Ribosomal RNA depletion instead removes a major unwanted class, leaving a broader collection of other RNAs.</p>
+<p class="teaching-prose">Genomic DNA contamination is especially important when RNA is analyzed through complementary DNA. Reverse transcriptase produces DNA copies of RNA templates. A later DNA-based signal might come from the newly synthesized complementary DNA or from genomic DNA already present in the sample. A control that omits reverse transcription can reveal detectable DNA-derived signal. A negative result in that control only bounds the contamination within the sensitivity of the particular assay; it does not prove the total absence of genomic DNA throughout the preparation.</p></section>
+<section id="purification"><h2>Physical chemistry of nucleic acid purification</h2><p class="teaching-prose">A purification scheme can be understood as a sequence of partitioning decisions. When two classes of molecule differ in their solubility, charge, surface affinity or size, it becomes possible to create conditions in which one class is preferentially recovered. The relevant physical property need not be unique to the target. Many different macromolecules carry negative charge, so charge alone is rarely a complete definition of nucleic acid specificity.</p>
+<p class="teaching-prose">Alcohol precipitation exploits changes in the solvent environment and electrostatic interactions. In aqueous solution the charged phosphate backbone is extensively hydrated, and repulsion between similarly charged regions favors dispersion. Counterions reduce the effective electrostatic repulsion; a less polar solvent environment changes the energetics of hydration. Together these effects can favor aggregation and recovery of nucleic acids. The precipitate is not necessarily pure: salts and other macromolecules can accompany it, and very small or dilute nucleic acids can be recovered less efficiently. Precipitation is consequently a concentration and separation operation, not an identity test.</p>
+<p class="teaching-prose">Solid-phase purification uses reversible association with a material such as silica. Under appropriate chemical conditions, nucleic acids associate with the surface while other components can be removed. A different solvent environment favors release of bound nucleic acid. Boom and colleagues reported a silica-based method in 1990, illustrating how nucleic acid binding and protein-disrupting chemistry could be combined. The interaction should not be explained as simple attraction between universally positive silica and negative DNA: surface chemistry, ionic conditions and hydration all matter, and the precise binding mechanism depends on the system.</p>
+<p class="teaching-prose">An ion-exchange material contains fixed charged groups. A positively charged anion exchanger binds anions, including negatively charged nucleic acids, under suitable conditions. Dissolved ions compete for electrostatic interactions with the stationary phase. Thus changes in ionic conditions alter the strength of retention. The terminology names the ion being exchanged, not the sign of the fixed groups. A cation exchanger is negatively charged and ordinarily retains cations.</p>
+<p class="teaching-prose">Magnetic supports provide a different means of handling a solid phase. The magnet separates the support from the liquid; the chemical coating determines which molecules associate with the support. DNA is not separated because it is itself strongly attracted by an ordinary magnet. Likewise, a centrifugal column combines a physical method for moving fluid with a chemical surface that selects solutes. Distinguishing the physical handling mechanism from the molecular recognition mechanism prevents incorrect comparisons between different formats.</p>
+<p class="teaching-prose">Method comparison should include the potential for size bias. If a support retains long fragments more efficiently than short fragments, the resulting population is not an unbiased sample of the starting material. This may be harmless if the target is a long chromosome fragment, but it can be misleading if short regulatory RNAs are the target. The same preparation may appear excellent on a bulk measurement while having lost an entire scientifically important class of molecules.</p></section>
+<section id="integrity"><h2>Integrity: interpreting DNA and RNA gels</h2><p class="teaching-prose">Electrophoresis provides evidence about molecular mobility under an electric field. Nucleic acids possess a negatively charged backbone and therefore move toward the positive electrode in ordinary electrophoresis. In a porous gel, the matrix impedes different molecular forms to different degrees. For linear double-stranded DNA over a suitable size range, smaller fragments usually move farther than larger fragments. A ladder of known linear DNA lengths provides a comparison, but it should not be used uncritically to assign the length of an intact circular molecule.</p>
+<p class="teaching-prose">Relatively intact genomic DNA often remains near the upper part of a conventional gel, where very large molecules move slowly. A broad distribution extending toward the lower region can indicate fragmentation. An important exception is deliberately fragmented DNA, where a broad distribution may be the intended result rather than a defect. A smear also may reflect overloading or unresolved material. Interpretation requires information about sample preparation, loading, and appropriate comparison standards.</p>
+<p class="teaching-prose">For RNA, electrophoretic mobility is affected by both length and secondary structure. A folded RNA molecule can behave differently from an unfolded molecule of the same length. Denaturing analytical conditions are used when the question is primarily about length rather than conformation. In many eukaryotic total RNA samples, prominent large and small ribosomal RNA species provide convenient indicators of gross degradation. Plant, bacterial, organellar and unusual eukaryotic samples need not show the same pattern as mammalian total RNA.</p>
+<p class="teaching-prose">Schroeder and colleagues introduced the RNA integrity number in 2006 to summarize features of electrophoretic RNA traces. The RIN scale conventionally runs from 1, representing severe degradation, to 10, representing high integrity under the model's applicable conditions. It is not simply a measurement of a single ribosomal band ratio. A numerical summary of an electropherogram can be useful for consistent sample comparisons, but it does not independently establish that every messenger RNA is full length. Nor does a particular threshold guarantee suitability for every downstream application.</p>
+<p class="teaching-prose">In an illustrative comparison, sample A shows distinct ribosomal peaks and little low-size material, while sample B shows diminished large peaks and increased small fragments. If both samples began with similar RNA populations and were measured under comparable conditions, degradation is a plausible explanation. If they originated from different organisms or tissues, a difference in natural RNA composition must also be considered. The strongest inference comes from a control drawn from the same biological context and measured in the same way.</p><figure class="figure-panel"><svg viewBox="0 0 420 290" role="img" aria-labelledby="gel-title gel-desc"><title id="gel-title">Illustrative genomic DNA gel</title><desc id="gel-desc">Lane A contains high molecular weight DNA near the top; lane B has a broad fragmented DNA smear.</desc><rect x="30" y="36" width="360" height="210" rx="6" fill="#152823"/><g fill="#a4e7ba"><rect x="77" y="57" width="55" height="7"/><rect x="77" y="85" width="55" height="5"/><rect x="77" y="122" width="55" height="5"/><rect x="77" y="155" width="55" height="5"/><rect x="77" y="202" width="55" height="5"/><rect x="180" y="58" width="55" height="12"/><rect x="286" y="70" width="55" height="140" opacity=".32"/><rect x="286" y="106" width="55" height="45" opacity=".38"/></g><g fill="currentColor" font-size="14" text-anchor="middle"><text x="104" y="23">Ladder</text><text x="207" y="23">A</text><text x="313" y="23">B</text><text x="207" y="270">Migration downward</text></g></svg><figcaption>Illustrative lanes compare relatively long genomic DNA with a broad fragment distribution.</figcaption></figure></section>
+<section id="absorbance"><h2>Absorbance, concentration and optical purity</h2><p class="teaching-prose">The bases of DNA and RNA absorb ultraviolet light because electronic transitions can occur in their aromatic ring systems. The amount of transmitted light depends on the concentration of absorbing material, optical path length and wavelength. If the incident intensity is I₀ and the transmitted intensity is I, transmittance is I divided by I₀ and absorbance is the negative base-ten logarithm of that ratio. An absorbance of 1 means that one tenth of the incident intensity is transmitted under ideal measurement conditions.</p>
+<p class="teaching-prose">The Beer–Lambert relationship expresses absorbance as A = εlc, where ε is the molar extinction coefficient, l is the optical path length and c is molar concentration. If ε has units of litres per mole per centimetre and l is expressed in centimetres, c is in moles per litre and absorbance is dimensionless. For a mixture, absorbances are approximately additive when independent components obey the relationship and the measurement remains in its valid linear range. An optical measurement at one wavelength therefore cannot distinguish several overlapping absorbers without additional information.</p>
+<p class="teaching-prose">For common textbook estimates at an equivalent one-centimetre path length, an A260 of 1 corresponds to about 50 micrograms per millilitre of double-stranded DNA, 40 micrograms per millilitre of RNA, or 33 micrograms per millilitre of single-stranded DNA. These are approximate mass conversion factors, not identical molecular extinction coefficients. They depend on the molecular class, base composition and conformational state. Short oligonucleotides may require sequence-specific extinction coefficients. Instruments that normalize path length to one centimetre should not be corrected a second time.</p>
+<p class="teaching-prose">An illustrative dsDNA sample diluted tenfold gives a blank-corrected A260 of 0.24 at a one-centimetre equivalent path length. Its original concentration is 0.24 × 50 × 10 = 120 micrograms per millilitre, which is numerically equal to 120 nanograms per microlitre. If the original recovered volume is 50 microlitres, the total estimated mass is 6,000 nanograms or 6 micrograms. Dilution changes concentration but not the total amount of solute in a closed system; transferring only part of a diluted sample would, of course, transfer only part of that amount.</p>
+<p class="teaching-prose">Absorbance ratios provide rough evidence about contaminants. For conventional measurements, an A260/A280 near 1.8 for DNA or near 2.0 for RNA is often used as a heuristic. A260/A230 values near 2.0–2.2 are also commonly expected in clean preparations. Protein aromatic groups contribute at 280 nm, while various salts and organic compounds can influence the shorter-wavelength region. However, none of the ratios is a direct percentage purity. The ratios depend on blank composition, pH, low-signal noise and the combination of contaminants.</p>
+<p class="teaching-prose">Base stacking alters absorption. When double-stranded DNA separates into single strands, reduced stacking commonly increases ultraviolet absorption, an effect called hyperchromicity. An increase in A260 during thermal denaturation does not indicate synthesis of new DNA. Instead, the optical properties of the existing nucleotides change. The distinction between amount and molar absorptivity is a fundamental example of why the equation's assumptions must be examined before concentration is calculated.</p></section>
+<section id="fluorescence"><h2>Fluorescence-based quantification and calibration</h2><p class="teaching-prose">A fluorescent molecule absorbs light in an excitation band and can emit light at a generally longer wavelength. Binding of certain dyes to nucleic acids changes their fluorescence properties. Some dyes preferentially report double-stranded DNA, while others are designed for RNA or single-stranded DNA. Selectivity is a property of the particular dye and its analytical environment, not an intrinsic ability of fluorescence to distinguish DNA from RNA.</p>
+<p class="teaching-prose">A quantitative fluorescence measurement requires calibration against standards with known target amounts. In the linear range the background-corrected signal may be represented by F = mc, where m is a calibration slope and c is concentration. A more general form is F = mc + b, with b representing a baseline contribution. It is essential to distinguish the measured assay mixture from the original sample if the latter was diluted. Outside the calibrated range, extrapolation can produce misleading results because dye response, detector response or binding occupancy may cease to be linear.</p>
+<p class="teaching-prose">For an illustrative calibration, suppose the standard curve is F = 12c + 20, where c is expressed in nanograms per millilitre and F is an arbitrary fluorescence unit. A sample gives F = 260. Subtract the intercept to obtain 240, then divide by 12 to obtain 20 nanograms per millilitre in the measured mixture. If the original sample was diluted fiftyfold, its concentration is 1,000 nanograms per millilitre, or 1 nanogram per microlitre. The result is meaningful only if the observed fluorescence lies within the validated standard range.</p>
+<p class="teaching-prose">UV and dye-based measurements can disagree for good scientific reasons. UV absorption includes contributions from free nucleotides, RNA and certain contaminants in a DNA preparation. A dsDNA-selective fluorescence assay may report much less material if much of the UV signal comes from non-dsDNA components. Alternatively, an interfering sample matrix can alter dye response. The difference is a clue requiring investigation, not automatic proof that either instrument is defective. Independent evidence from gel profiles and appropriate standards can help resolve the discrepancy.</p><figure class="figure-panel"><svg viewBox="0 0 480 280" role="img" aria-labelledby="cal-title cal-desc"><title id="cal-title">Illustrative fluorescence standard curve</title><desc id="cal-desc">Fluorescence increases linearly from 20 units at zero concentration to 380 at 30 nanograms per millilitre.</desc><g fill="none" stroke="currentColor" stroke-width="2"><path d="M65 20V220H445"/><path d="M65 210L425 30" stroke="#3aaf77"/><path d="M65 90H305V220" stroke-dasharray="5 5"/></g><g font-size="12" fill="currentColor"><text x="25" y="214">20</text><text x="15" y="94">260</text><text x="15" y="34">380</text><text x="62" y="240">0</text><text x="295" y="240">20</text><text x="415" y="240">30</text><text x="174" y="266">Concentration (ng/mL)</text><text x="70" y="15">Fluorescence (a.u.)</text></g></svg><figcaption>Illustrative calibration F = 12c + 20. The dashed projection gives c = 20 ng/mL at F = 260.</figcaption></figure></section>
+<section id="hybridisation"><h2>Complementarity, hybridisation and sequence recognition</h2><p class="teaching-prose">Quantification answers how much nucleic acid is present, but it does not answer whether a particular sequence is present. Hybridisation supplies a basis for sequence recognition because complementary strands can form a duplex. A probe is a nucleic acid molecule chosen to recognize a target sequence and carrying or associated with a detectable label. Specificity depends on the association between probe and target rather than on whether the label is fluorescent, enzymatic or radioactive.</p>
+<p class="teaching-prose">Duplex stability reflects hydrogen bonding, base stacking, electrostatic interactions, strand length, base sequence and solvent conditions. A mismatch can destabilize a duplex, but its effect varies with its position and the surrounding bases. Higher ionic strength generally shields phosphate charges and favors duplex stability; increased temperature generally opposes duplex formation. Stringency describes how strongly the chosen conditions discriminate between stable complementary duplexes and less stable associations. Greater stringency can improve discrimination but may reduce sensitivity when even correctly matched targets form weak duplexes.</p>
+<p class="teaching-prose">Melting temperature is the midpoint of a defined duplex melting transition under specified conditions. It is not an immutable characteristic of a sequence independent of its environment. A short probe and a long DNA fragment obey the same general thermodynamic principles, but they need not share the same useful empirical melting equation. Examination problems must state the model and assumptions before a numerical relationship can be applied.</p>
+<p class="teaching-prose">Southern's 1975 work showed how sequence recognition could be combined with prior electrophoretic separation of DNA fragments. The separation distinguishes fragments by mobility; transfer preserves their spatial pattern on a support; a complementary probe reveals which positions contain the target sequence. Northern blotting applies an analogous logic to RNA. A dot blot sacrifices length information in exchange for a simpler spatial signal from the deposited sample. All three approaches illustrate how sequence identity can be investigated without requiring the entire nucleotide sequence to be determined.</p>
+<p class="teaching-prose">A band on a Southern blot is evidence that a detected fragment contains a sequence sufficiently complementary to the probe under the applied conditions. It is not necessarily evidence for an intact functional gene, because a probe may recognize a fragment, duplicated region or related sequence. On a Northern blot the migration position and intensity provide information about transcript length and relative abundance under appropriate controls. Neither observation alone proves protein abundance or activity. These inferential limits are especially important when gene expression is compared between tissues.</p></section>
+<section id="controls"><h2>Controls, specific detection and integrated interpretation</h2><p class="teaching-prose">A positive control contains material expected to produce the relevant signal. Its successful detection supports the operation of the assay in that control context. A negative control lacks the intended target and helps assess background or nonspecific detection. An extraction blank begins without the biological sample and accompanies the isolation workflow, so it can reveal contamination introduced during processing. An assay blank may not detect that earlier source of contamination. A no-template control assesses signal in the absence of added template, while a no-reverse-transcription control addresses DNA-derived signal in an RNA-based analysis.</p>
+<p class="teaching-prose">A failed positive control makes a negative sample difficult to interpret. The absence of signal might reflect target absence, assay inhibition, detection failure or an insufficient amount of target. Conversely, a positive extraction blank raises concern that apparent sample signals may arise from contamination. Controls do not simply provide a ritual checklist; each control is designed to distinguish a specific competing explanation for an observation.</p>
+<p class="teaching-prose">Specific sequences can be enriched by affinity recognition or identified through a targeted analytical signal. Enrichment changes the composition of the recovered material; detection supplies evidence that a target is present. Amplification creates copies of a defined region and therefore changes the amount of that region. These operations can be combined, but they do not mean the same thing. A highly sensitive detection result is not proof that the original target was isolated as an intact full-length molecule.</p>
+<p class="teaching-prose">Consider two hypothetical leaf RNA preparations with identical A260 values. Preparation A has high integrity and negligible DNA-derived signal in its no-reverse-transcription control. Preparation B has a strongly degraded electrophoretic trace and a detectable no-reverse-transcription signal. An absorbance measurement alone cannot distinguish the two. If the aim is to compare full-length transcript populations, preparation B is unsuitable without resolving those problems. If the aim is to assess a short RNA-derived region, degradation may be less consequential, but the DNA-derived signal still threatens interpretation.</p>
+<p class="teaching-prose">The central habit of molecular analysis is to ask what physical property was measured and what alternative causes could produce that result. Absorbance measures attenuation of light by absorbing substances; fluorescence reports a particular optical response; electrophoresis reveals mobility; hybridisation tests complementary association. Each addresses a different aspect of the same sample. A defensible conclusion emerges when the appropriate observations agree and controls rule out the most plausible alternatives.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK459462/">NCBI Bookshelf. Analysis of nucleic acids.</a></li><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK567244/">NCBI Bookshelf. Recommendations for biobanks: nucleic acid quality.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC342324/">Birnboim and Doly (1979). A rapid alkaline extraction procedure for screening recombinant plasmid DNA.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/2440339/">Chomczynski and Sacchi (1987). Single-step method of RNA isolation.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC269651/">Boom et al. (1990). Rapid and simple method for purification of nucleic acids.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/16448564/">Schroeder et al. (2006). The RIN: an RNA integrity number for assigning integrity values to RNA measurements.</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/1195397/">Southern (1975). Detection of specific sequences among DNA fragments separated by gel electrophoresis.</a></li></ol></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 14 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 14 · Methods in Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["14.A.01","previous-node","← "],["14.A.03","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

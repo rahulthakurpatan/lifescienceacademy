@@ -319,3 +319,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.D.06 — [Spinal Cord, Neural Pathways and Reflex Integration](https://rahulthakurpatan.github.io/lifescienceacademy/spinal-cord-neural-pathways-and-reflex-integration.html); internal QA 95/100; 14,695 genuine teaching words, 12 original SVGs, 52 explained questions. Recovery audit: `curriculum/qa/7.D.06-publication-audit.md`. Pages and direct live verification pending.
 - 7.D.08 — [Neuromuscular Transmission and Motor Unit Physiology](https://rahulthakurpatan.github.io/lifescienceacademy/neuromuscular-transmission-and-motor-unit-physiology.html); internal QA 95/100; 13,793 genuine teaching words, 12 original SVGs, 54 explained questions. Recovery audit: `curriculum/qa/7.D.08-publication-audit.md`. Pages and direct live verification pending.
 - Subunit 7.D: 10/10, complete; Unit 07: 34/90; Academy: 349/723. Next global unpublished node: 7.E.01 — Foundations of Sensory Physiology and Signal Transduction.
+
+
+### Publication checkpoint — 2026-11-28 — 7.E.01
+
+- 7.E.01 — [Foundations of Sensory Physiology and Signal Transduction](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-sensory-physiology-and-signal-transduction.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- Teaching prose: 14,467 lexical words, 123 paragraphs; 13 original SVGs (5 graphs and a spike raster), 5 tables, 50 explained questions (20 Part B, 20 Part C, 10 SET/integrated), 18 misconceptions, 15 recall prompts and 16 references. Audit: `curriculum/qa/7.E.01-publication-audit.md`.
+- Subunit 7.E: 1/6; Unit 07: 35/90; Academy: 350/723. Next global unpublished node: 7.E.02 — Visual System: Eye Anatomy and Physiological Optics.

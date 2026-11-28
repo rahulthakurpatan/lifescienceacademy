@@ -1,0 +1,448 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="Understand nuclear and electron spin resonance, chemical shifts, coupling, relaxation, multidimensional NMR and EPR for CSIR-NET and SET."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/nmr-and-esr-spectroscopy.html"><title>NMR and ESR Spectroscopy | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    .exam-question { border-bottom: 1px solid var(--border); padding: 0.8em 0 1.2em; } .exam-question details { background: var(--panel); border-radius: 10px; padding: 0.65em 0.9em; } .exam-question summary { cursor: pointer; font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: .84em; } .source-note { color: var(--muted); } .figure-panel svg { overflow: visible; }
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}.article-content figure{margin:1.5em 0;padding:1em;border:1px solid var(--border);border-radius:12px}.article-content figure svg{width:100%;height:auto;display:block}.article-content figcaption{font-size:.85em;color:var(--muted)}.article-content dt{margin-top:1em}.article-content dd{margin-left:0}.diagram-zoom{margin:.5rem 0;padding:.4rem .8rem;border:1px solid var(--border);background:var(--panel);color:var(--ink);border-radius:6px;cursor:pointer}
+</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 14</span><span>›</span><span>Sub-unit 14.B</span><span>›</span><strong>Node 03</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 14.B.03</span><span>Unit 14 · CSIR-NET &amp; SET Life Sciences</span></div><h1>NMR and ESR Spectroscopy</h1><p class="subtitle">Magnetic resonance from quantum spin to molecular environments, interactions and paramagnetic species.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Fluorescence Spectroscopy and Circular Dichroism">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: X-Ray Diffraction and Molecular Structure Determination">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#motivation">Why magnetic resonance reveals molecular information</a><a href="#spin">Nuclear and electronic spin: the measurable magnetic property</a><a href="#resonance">Zeeman splitting, populations and the resonance condition</a><a href="#instrument">From pulse to spectrum: how an NMR measurement works</a><a href="#shift">Chemical shift, shielding and site assignment</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article data-node-id="14.B.03" class="reading-paper" aria-label="NMR and ESR Spectroscopy study notes"><div class="article-content" id="article"><section id="motivation"><h2>Why magnetic resonance reveals molecular information</h2><p class="teaching-prose">A solution of a purified enzyme may appear completely transparent, yet the molecules inside it are not motionless. They bend, rotate, exchange protons with water, bind substrates and move between conformations. A visible absorption measurement can sometimes identify a cofactor or establish concentration, while fluorescence may report the environment of a particular aromatic group. Neither measurement automatically identifies which individual atomic sites have changed. Magnetic resonance provides another route to molecular information. Certain nuclei and electrons possess magnetic moments, and their response to a magnetic field depends on both their intrinsic properties and their surroundings. Consequently, an experiment can distinguish sites within a molecule without first separating those sites into different samples.</p>
+<p class="teaching-prose">Nuclear magnetic resonance, abbreviated NMR, uses the magnetic properties of atomic nuclei. Electron spin resonance, abbreviated ESR, uses the magnetic properties of unpaired electrons and is also known as electron paramagnetic resonance or EPR. The alternative names ESR and EPR refer to the same basic family of experiments. Their similarity is not accidental: in both cases a magnetic field creates energy differences between quantum states, and electromagnetic energy can induce transitions between those states. However, the two methods do not simply offer alternative instruments for measuring the same molecule. They differ in which particles contribute to the signal, how large their magnetic moments are, the frequency range employed and what molecular questions can be answered.</p>
+<p class="teaching-prose">Consider two samples containing the same amount of a small protein. One contains a ligand that binds reversibly to the protein; the other does not. If the protein remains folded in both tubes, its far ultraviolet circular dichroism spectrum may change little. Nevertheless, NMR signals from nuclei close to the binding region may move because binding changes their local electromagnetic environment. Alternatively, consider a redox protein containing a metal centre that alternates between a diamagnetic state and an EPR-detectable paramagnetic state. Its change of electron configuration can be tracked by EPR even when a measurement of bulk protein concentration detects no change. These examples show why choosing the property that the instrument detects is an essential part of experimental design.</p>
+<p class="teaching-prose">The word resonance describes the selective response of a system to an oscillating perturbation at a frequency appropriate to its energy separation. An analogy is a playground swing that responds efficiently when pushed at the right rhythm. The analogy explains frequency selectivity but not the discrete allowed states of a quantum spin, nor the fact that a macroscopic signal arises from an ensemble rather than a literal rotating object. In magnetic resonance, the applied oscillating field is magnetic, and the frequency condition is linked quantitatively to the energy required for a transition. The field strength can therefore be adjusted to change the resonance frequency.</p>
+<p class="teaching-prose">The historical development illustrates the distinction between observing a phenomenon and constructing an analytical method. Isidor Rabi's experiments on molecular beams in the 1930s established magnetic resonance as a means of examining nuclear magnetic properties. Evgeny Zavoisky observed EPR in condensed matter in 1944. The independent work of the Purcell and Bloch groups in the mid-1940s demonstrated nuclear magnetic resonance in bulk samples. Their achievements were recognized by the Nobel Prize in Physics in 1952. Later developments in high-resolution and Fourier-transform NMR made it practical to separate closely spaced signals. Richard Ernst received the Nobel Prize in Chemistry in 1991 for developments in high-resolution NMR methods, and Kurt Wüthrich shared the 2002 chemistry prize for work enabling three-dimensional structures of biological macromolecules in solution.</p>
+<p class="teaching-prose">Early measurements established the magnetic nature of the transition by changing field and frequency and observing when the response appeared. The crucial inference was not that all nuclei in a material possessed one fixed resonance frequency independent of context. Rather, as measurement resolution improved, slight differences in resonance frequency became scientifically useful because they could be associated with different chemical environments. This development transformed nuclear resonance from a tool of physical measurement into a method of chemical and biochemical analysis. EPR followed its own route toward characterization of radicals, transition-metal sites and molecular motions.</p>
+<p class="teaching-prose">The distinction between the observation and the inference remains central. A measured resonance frequency is an experimental property. Assigning that frequency to a particular nucleus or electronic species requires additional evidence. Interpreting a change as ligand binding, unfolding or a change in oxidation state requires further controls. A good examination answer therefore explains what the signal directly measures before using the signal to make a biological claim. The same logic applies when no signal is observed: absence of an observable signal may arise from physical insensitivity, broadening, unsuitable acquisition conditions or insufficient material, and cannot automatically establish absence of the species.</p>
+<p class="teaching-prose">In this chapter the aim is to understand the signal itself, beginning with the quantum property that makes resonance possible and ending with comparative experimental interpretation. Detailed computation of three-dimensional macromolecular structures from multiple restraints belongs to the subsequent structural-analysis chapter. Here a student should learn enough about chemical shifts, interactions between spins and relaxation to understand why those restraints are informative and why a spectrum alone is not a complete structural model.</p></section>
+<section id="spin"><h2>Nuclear and electronic spin: the measurable magnetic property</h2><p class="teaching-prose">An electron has an intrinsic angular momentum called spin. Atomic nuclei can also possess net angular momentum arising from the combined angular momenta of their constituent protons and neutrons. The word intrinsic is important because quantum spin is not explained by imagining a small charged sphere physically rotating about an axis. The spin angular momentum is specified by a quantum number, S for an electron system and I for a nucleus. The magnitude of the angular momentum for a spin quantum number I is the square root of I(I+1) multiplied by the reduced Planck constant, ℏ. In a specified direction, its projection has the allowed values m times ℏ, where m runs from −I to +I in unit steps.</p>
+<p class="teaching-prose">For an isolated spin-one-half nucleus, the allowed projections are +1/2 and −1/2. There are therefore two states for the projection along a selected axis. A spin-one nucleus has three projections, while a spin-zero nucleus has only one. A spin-zero nucleus has no ordinary nuclear magnetic dipole moment associated with spin and cannot generate conventional NMR transitions. The number of allowed projections is 2I+1, a result that applies to both integer and half-integer spin. This formula counts quantum states rather than the number of peaks that necessarily appear in an experimental spectrum.</p>
+<p class="teaching-prose">The magnetic moment is related to angular momentum by the gyromagnetic ratio γ. This proportionality contains information about the charge and internal structure of the particle. A particle with nonzero angular momentum can interact with a magnetic field through its moment. For a nucleus described by the angular momentum vector J, the magnetic moment is μ = γJ. The sign of γ determines how the moment relates to the angular momentum. It matters, for example, for the ordering of the magnetic energy levels of nitrogen-15, whose gyromagnetic ratio is negative. In calculations of the ordinary positive resonance frequency the magnitude of γ is used.</p>
+<p class="teaching-prose">A particularly useful nucleus is hydrogen-1, the proton, which has I=1/2 and a relatively large nuclear gyromagnetic ratio. It is abundant in organic molecules and water, so proton NMR offers a favorable combination of sensitivity and biological relevance. Carbon-12 has spin zero, whereas carbon-13 has I=1/2. An unlabeled biological sample therefore contains many carbon atoms but only a small naturally occurring fraction of carbon-13 nuclei that are accessible by ordinary carbon NMR. Nitrogen-15 also has I=1/2 and is naturally uncommon. Nitrogen-14 has I=1 and is magnetic, yet its quadrupolar interactions often cause rapid relaxation and broad signals.</p>
+<p class="teaching-prose">Isotopes are nuclei of the same chemical element with different numbers of neutrons. They have the same atomic number and, in the neutral atom, the same number of electrons. Their electronic bonding behavior can be similar even though their nuclear spin differs. This is why stable isotope enrichment is useful in protein NMR: it increases the number of detectable carbon-13 or nitrogen-15 nuclei without replacing carbon or nitrogen with a different chemical element. Isotope substitution can nonetheless affect molecular properties slightly through mass-dependent effects. A measured biological activity should not be assumed unchanged merely because an isotope has the same atomic number.</p>
+<p class="teaching-prose">Phosphorus-31 has I=1/2 and a high natural isotopic abundance. It is particularly attractive for studying phosphorus-containing metabolites such as ATP and inorganic phosphate. Fluorine-19 also has I=1/2 and high natural abundance, and fluorinated labels can be valuable because most native biomolecules have little fluorine background. Deuterium, hydrogen-2, has I=1. It is often used in solvents and for isotopic substitution rather than treated as another proton signal. When a question asks which isotope is appropriate, the answer depends on spin, abundance, gyromagnetic ratio, molecular location and the nature of the proposed measurement.</p>
+<p class="teaching-prose">Electrons require a separate line of reasoning. Two electrons in a closed-shell orbital pair have opposed spin projections and a net spin of zero in the simple pairing picture. A molecule with all electrons paired is normally diamagnetic and does not give ordinary electron spin resonance. It can still contain NMR-active nuclei. For instance, a solution of a closed-shell sugar contains magnetic protons but has no stable electron-spin signal of its own under ordinary conditions. A radical, on the other hand, contains at least one unpaired electron and can have a nonzero net spin. Many transition-metal ions also possess unpaired electrons.</p>
+<p class="teaching-prose">The electron count alone does not establish the spin of every metal complex. The distribution of electrons among split d orbitals depends on ligand-field strength, metal identity, oxidation state and geometry. Iron in one environment can have a different spin state from iron in another. An even total electron count does not guarantee diamagnetism; two unpaired electrons can form a nonzero total spin state. Molecular oxygen provides a classic example of a paramagnetic molecule despite an even total number of electrons. Conversely, interactions between unpaired electrons can favor a spin-zero ground state, making the simple rule of counting unpaired electrons insufficient in coupled systems.</p>
+<p class="teaching-prose">The difference between a paramagnetic species and a detectable EPR signal also deserves attention. Nonzero electron spin is a prerequisite for ordinary EPR, but not every such species yields an easily recorded line. Relaxation may be too rapid, transitions may lie outside the measured field or frequency range, or interactions can create complex spectra. Some integer-spin systems are difficult to observe at a conventional frequency because of zero-field splitting. These qualifications prevent the oversimplified inference that every EPR-silent sample is diamagnetic.</p>
+<p class="teaching-prose">Electron and nuclear moments differ greatly in magnitude. The Bohr magneton, μB = eℏ/(2me), sets the natural scale for electronic magnetic moments. The nuclear magneton, μN = eℏ/(2mp), uses the proton mass instead of the electron mass. Because the proton is much heavier than the electron, the nuclear magneton is roughly 1/1836 of the Bohr magneton. The proton magnetic moment has an additional intrinsic proportionality factor, so the ratio of electron and proton gyromagnetic magnitudes is about 658 rather than 1836. Distinguish the ratio of fundamental magnetons from the ratio of actual magnetic moments or frequencies.</p>
+<p class="teaching-prose">A biological sample contains many nuclear spins even when it has no unpaired electrons. EPR is selective for a smaller chemical population, while NMR commonly receives overlapping contributions from a large number of sites. Selectivity can be advantageous: a paramagnetic cofactor can be detected in the presence of considerable diamagnetic protein. It can also be limiting: an ordinary unlabelled membrane protein may be invisible to EPR. Magnetic nuclei and electron spins therefore supply complementary rather than competing windows into biology.</p></section>
+<section id="resonance"><h2>Zeeman splitting, populations and the resonance condition</h2><p class="teaching-prose">Imagine a sample in the absence of an external magnetic field. For a simplified isolated spin-one-half system, the two magnetic projections are degenerate: they have equal energy. The application of a static field B0 defines an axis, conventionally the z direction, and removes that degeneracy through the magnetic interaction energy E = −μ·B. The dot product states that only the component of the magnetic moment along the field contributes to this simple energy expression. For a positive gyromagnetic ratio, the projection m=+1/2 has lower energy than m=−1/2. For a negative ratio the order reverses.</p>
+<p class="teaching-prose">Writing the projection of the moment as γℏm gives Em = −γℏmB0. Adjacent allowed spin projections differ by one unit. Therefore the magnitude of the separation of neighboring Zeeman levels is |γ|ℏB0. This is called Zeeman splitting. In a real molecule, additional interactions alter the energies, which is precisely what produces the analytical information in magnetic resonance. For the moment the simplified expression isolates the role of the field.</p>
+<p class="teaching-prose">The energy of a quantum of electromagnetic radiation is hν, where h is Planck's constant and ν is frequency in cycles per second. Equating this energy to the separation of the spin states gives hν = |γ|ℏB0. Because h=2πℏ, the resulting frequency is ν0 = |γ|B0/(2π). The angular frequency ω0 is |γ|B0 and is measured in radians per second. A common calculation error occurs when a gyromagnetic ratio expressed in radians per second per tesla is used as though it were in megahertz per tesla. Always examine the units of the supplied constant before deciding whether the factor of 2π is needed.</p>
+<p class="teaching-prose">The free proton has γ/(2π) approximately 42.58 MHz/T. A nominal 400 MHz proton instrument therefore uses a field of about 9.39 T, since 400/42.58 = 9.39. The same field applied to carbon-13 produces a frequency near 100.6 MHz, using the approximate carbon-13 factor 10.705 MHz/T. A spectrometer called a 400 MHz instrument is normally named according to its proton resonance frequency, even though it can measure different nuclei at their own frequencies. This convention must not be mistaken for the operating frequency of every nucleus.</p>
+<p class="teaching-prose">The Larmor frequency can also be understood using a vector model. A magnetic moment in a static magnetic field experiences torque when its direction is not parallel to the field. In the classical picture it precesses around the field axis, rather like the direction of a spinning top changes under gravity. The gravitational analogy is limited: the nuclear magnetic moment is not a tiny macroscopic gyroscope, and quantum spin measurements yield discrete projections. Nevertheless, the ensemble vector model correctly provides a convenient way to describe the time-dependent direction of net magnetization during many NMR pulse experiments.</p>
+<p class="teaching-prose">At thermal equilibrium the populations of the two spin states follow the Boltzmann distribution. If the lower-energy population is Nl and the upper-energy population is Nu, their ratio is Nu/Nl = exp(−ΔE/kBT), with kB the Boltzmann constant and T the absolute temperature. At room temperature the nuclear Zeeman splitting is small compared with kBT. Thus the populations differ only slightly, even in a strong magnet. The net longitudinal magnetization arises from the small excess of moments in the lower-energy state, not from all nuclei becoming aligned in the same direction.</p>
+<p class="teaching-prose">For two states of equal degeneracy, define the fractional population difference P=(Nl−Nu)/(Nl+Nu). Substitution of the Boltzmann ratio gives P=(1−exp(−x))/(1+exp(−x)), where x=ΔE/(kBT), or equivalently tanh(x/2). At high temperature relative to the splitting, x is much less than one, so P is approximately x/2. This approximation clarifies why increasing field or decreasing temperature increases equilibrium polarization. It is not valid when the energy separation approaches or exceeds the thermal energy.</p>
+<p class="teaching-prose">As an illustrative calculation, at 298 K a proton resonating at 400 MHz has ΔE = (6.626×10⁻³⁴ J s)(4.00×10⁸ s⁻¹) = 2.65×10⁻²⁵ J. Thermal energy kBT is (1.381×10⁻²³ J/K)(298 K) = 4.12×10⁻²¹ J. The ratio x is 6.44×10⁻⁵, and the fractional population difference is approximately 3.22×10⁻⁵. Expressed as a percentage this is about 0.00322%. The number is small but still represents a substantial ensemble of spins in an ordinary macroscopic sample. It explains both the possibility of detection and the relatively poor intrinsic sensitivity of NMR.</p>
+<p class="teaching-prose">For an electron spin with a resonance near 9.5 GHz, the corresponding energy separation is about 6.29×10⁻²⁴ J. At the same temperature, x is about 0.00153 and the fractional population difference is approximately 0.000765, or 0.0765%. Although the magnet used in this EPR example is much weaker than the NMR magnet, the electron's larger magnetic moment yields a higher transition frequency and greater thermal polarization. Actual instrument sensitivity additionally depends on the number of spins, line width, detector design and relaxation, so polarization alone is not a universal sensitivity ranking.</p>
+<p class="teaching-prose">The static field B0 establishes the energy levels. An oscillating magnetic field B1 perpendicular to B0 can drive transitions when its frequency is close to resonance. In the simple magnetic dipole picture, the selection rule for the spin projection is Δm=±1. A longitudinal oscillating field parallel to B0 does not efficiently drive the ordinary transverse spin-flip transition in this model. In pulsed experiments, the B1 field manipulates the net magnetization, and its effect depends on the pulse amplitude, duration and frequency offset.</p>
+<p class="teaching-prose">Resonance does not mean that only upward transitions occur. The field can also stimulate transitions from the higher-energy state to the lower-energy state. At equilibrium the net absorptive response reflects the excess of spins available in the lower state. If the populations become equal through strong or repeated excitation without sufficient relaxation, the net absorption decreases. This effect is called saturation. It is an especially important distinction in experiments intended to compare signal intensities quantitatively.</p>
+<p class="teaching-prose">The energies involved in ordinary NMR and EPR are far below the energy of visible or ultraviolet photons and are not used to break chemical bonds or ionize molecules. The scientific response instead comes from changing spin-state populations and coherence. Strong magnets, radiofrequency or microwave systems and cryogenic equipment still require appropriate institutional safety controls; nonionizing radiation does not mean equipment is free of hazards. The discussion here concerns measurement principles, not practical operation of specialized instruments.</p>
+<p class="teaching-prose">A graph of resonance frequency versus field is a straight line through the origin for the ideal isolated spin. Its slope is determined by the gyromagnetic ratio. When different nuclei are measured at the same field, they fall on lines with different slopes. When a particular chemical site differs slightly in shielding from another site of the same isotope, their slopes differ slightly. The large difference between proton and carbon frequencies and the tiny difference between chemically different proton frequencies must not be confused; both arise from magnetic interactions but represent different scales of information.</p></section>
+<section id="instrument"><h2>From pulse to spectrum: how an NMR measurement works</h2><p class="teaching-prose">A high-resolution solution NMR spectrometer contains a magnet, a probe, radiofrequency electronics and a computer-based acquisition system. The magnet supplies a strong and highly homogeneous static field. The probe contains coils and circuitry that transmit radiofrequency energy and detect the resulting signal. The sample is located in a region of the magnet where the field is as uniform as practicable. A receiver converts the weak signal into data suitable for processing. Each component matters because the chemical differences that need to be resolved may correspond to only a few hertz.</p>
+<p class="teaching-prose">The instrument does not determine the position of each nucleus in space by viewing it. It detects a collective response of spins. At equilibrium, the net magnetization lies along the z axis, even though individual spins have a distribution of quantum states and phases. A transverse magnetic field applied near resonance can rotate the net magnetization away from the z axis. The rotating-frame description makes this manipulation easier to understand: a coordinate frame rotating near the resonance frequency sees the applied field as approximately stationary during the pulse.</p>
+<p class="teaching-prose">For an ideal on-resonance rectangular pulse, the flip angle is θ=|γ|B1tp when B1 denotes the effective rotating component of the radiofrequency field and tp is the pulse duration. A 90-degree pulse takes longitudinal magnetization into the transverse plane. A 180-degree pulse can invert longitudinal magnetization or refocus appropriately evolving transverse magnetization. The simple relation assumes a uniform B1 field, exact resonance and a rectangular pulse. Real pulse sequences can involve multiple frequencies, shaped pulses or offsets, but the basic relationship is sufficient to explain standard examination experiments.</p>
+<p class="teaching-prose">Suppose an ideal pulse gives a 90-degree rotation at a particular amplitude and duration. Keeping the amplitude fixed and doubling the duration gives a 180-degree rotation on resonance. The reasoning fails if the pulse is far from resonance or if the amplitude is altered by a change in sample loading. A pulse described by its intended flip angle therefore has an experimental calibration behind it. The term flip angle describes the rotation of the ensemble magnetization vector, not the literal rotation of a nucleus.</p>
+<p class="teaching-prose">After the excitation pulse, transverse magnetization precesses around the static field. Its time-varying magnetic flux induces an electrical signal in the receiver coil. This signal is known as the free induction decay, or FID. In an ideal sample containing one resonance, the FID can be represented by a decaying sinusoid. A molecule with several different chemical environments produces a signal composed of several frequencies. Their sum may look complicated in time, but the underlying contributions can be separated mathematically.</p>
+<p class="teaching-prose">Fourier transformation converts the acquired time-domain signal into a frequency-domain representation. The frequency-domain spectrum displays resonances as peaks whose positions, areas, shapes and splittings can be analyzed. The transformation does not add chemical information absent from the time-domain measurement; it rearranges information into a form that exposes the constituent frequencies. An analogy is separating a musical chord into the frequencies corresponding to individual notes. Unlike an ideal chord, however, the NMR signals decay and can overlap, so peak widths and phase relationships are important.</p>
+<p class="teaching-prose">A finite acquisition period limits the ability to distinguish nearby frequencies. The frequency spacing between discrete Fourier points is inversely related to the acquisition time under simple sampling conditions. For example, an acquisition window of 1 second produces a nominal frequency grid spacing of about 1 Hz; a 0.25-second window gives approximately 4 Hz. Zero filling can increase the density of displayed points but does not recover genuinely unmeasured time-domain information or improve intrinsic resolution beyond the line shape and acquisition constraints. Digital point spacing and physical spectral resolution are related but are not identical.</p>
+<p class="teaching-prose">Sampling rate determines the frequency range that can be represented without aliasing. If a component lies outside the acquired spectral window, it can appear at an incorrect position. The result may resemble a legitimate chemical signal, so knowing the window and reference is part of interpretation. Increasing spectral width at fixed number of data points reduces acquisition time, creating a trade-off between coverage and point spacing. In examination problems, a change in sampling conditions should be distinguished from a change in the molecule itself.</p>
+<p class="teaching-prose">Repeated acquisitions improve the signal-to-noise ratio when noise is uncorrelated between scans. The coherent signal adds predictably, whereas random noise grows more slowly, giving the approximate relationship SNR proportional to the square root of the number of scans. If 16 scans give SNR 10, then 64 scans under unchanged conditions give approximately SNR 20. To double the SNR again requires 256 scans, not 128. This square-root rule does not hold for coherent artifacts, sample degradation, instrument drift or changes in recovery between successive pulses.</p>
+<p class="teaching-prose">A practical distinction exists between sensitivity and resolution. Sensitivity concerns how reliably a weak signal can be detected. Resolution concerns whether signals close together can be distinguished. More scans often improve sensitivity but do not necessarily separate two lines broadened by an underlying physical process. A stronger field may increase separation in hertz between two chemical shifts, while a field inhomogeneity may cause broadening that offsets that benefit. The experimental question is not merely whether a spectrum has more signal but whether the relevant features are distinguishable.</p>
+<p class="teaching-prose">Field shimming improves magnetic-field homogeneity. If different regions of a solution experience different fields, spins of the same chemical type precess at slightly different frequencies, producing a broadened signal even when the molecular properties are uniform. A field-frequency lock helps compensate for slow drift of the magnetic field during measurement, often using a deuterium-containing solvent. Chemical-shift referencing is a different operation: it provides a consistent frequency origin for comparing spectral positions. Shimming, locking and referencing thus address three different problems.</p>
+<p class="teaching-prose">Aqueous samples contain enormous numbers of water protons relative to most dissolved biomolecules. The water resonance can dominate the spectrum and obscure nearby signals or overload parts of the acquisition system. Water suppression exploits frequency or other magnetic properties to reduce the unwanted signal while preserving as much of the analyte information as possible. It is not equivalent to physically removing water from the sample. Exchangeable protons in the biomolecule can be affected by suppression through exchange or proximity to the water frequency, which is a reason to be careful when comparing their intensities.</p>
+<p class="teaching-prose">Deuterated solvents are widely used in chemical NMR because replacing many solvent protons with deuterium reduces proton background. In protein experiments, a mixture containing mainly ordinary water may be required to observe exchangeable amide protons, with some deuterated water serving the lock. In predominantly D2O, solvent-exchangeable hydrogens may be replaced by deuterium and their proton signals can disappear. Such disappearance is informative about exchange under suitable conditions, but it is not evidence that the peptide bond itself has been lost.</p>
+<p class="teaching-prose">Before interpreting an unusual spectrum, consider whether the instrument or the sample has changed. Field drift can shift many peaks together; incorrect phase correction can produce dispersive peak shapes; a distorted baseline can corrupt area measurements. Sample precipitation can lower detectable concentration; pH changes can move peaks; temperature changes can alter exchange and viscosity. Matching acquisition and processing conditions, inspecting a reference and checking sample integrity are therefore integral parts of scientific reasoning rather than merely technical housekeeping.</p></section>
+<section id="shift"><h2>Chemical shift, shielding and site assignment</h2><p class="teaching-prose">If every proton experienced exactly the field supplied by the instrument, all protons of an isolated isotope would have the same simple Larmor frequency. In a molecule, electrons respond to the applied field and generate local magnetic fields. The resulting field at a given nucleus differs slightly from the external field. The term shielding describes the reduction of the effective field associated with the electronic response in the simple isotropic case. For a site with shielding constant σ, the effective field is approximately B0(1−σ). Thus the resonance frequency of a proton depends on both the static field and its chemical environment.</p>
+<p class="teaching-prose">The expression involving σ is a first-order simplified description for an isotropically averaged site. Magnetic shielding is in general directional, and the relevant quantity is a tensor. In a rapidly tumbling liquid molecule, orientations are averaged on an appropriate timescale, so the observed shift often corresponds approximately to an isotropic average. In rigid solids or oriented systems the directional contributions may remain visible, producing broader or more complex patterns. This is one reason solution NMR and solid-state NMR require different ways of obtaining and interpreting high-resolution spectra.</p>
+<p class="teaching-prose">Greater shielding in ordinary proton NMR generally lowers the resonance frequency at fixed external field. Less shielding, often called deshielding, raises the frequency. Historical terminology calls low-frequency signals upfield and high-frequency signals downfield. Modern proton spectra conventionally plot increasing chemical shift toward the left, so downfield is normally leftward on the printed spectrum. Reading the numerical tick labels is safer than using the apparent visual direction when a graph has an unusual axis convention.</p>
+<p class="teaching-prose">Chemical shift is expressed relative to a reference signal, rather than by writing the entire resonance frequency. The usual definition is δ = [(νsample−νref)/νref] × 10⁶, with both frequencies in the same units and δ expressed in parts per million. In routine calculations, the nominal operating frequency in megahertz is used as a close approximation to the reference frequency. Thus a shift difference in ppm equals the frequency difference in hertz divided by the operating frequency in megahertz. The word ppm here is a dimensionless frequency ratio scaled by one million, not a concentration of molecules.</p>
+<p class="teaching-prose">At a nominal 400 MHz proton frequency, a site at 2.0 ppm is about 800 Hz above a zero-ppm reference. At 600 MHz, the same shift is about 1200 Hz above the reference. Both measurements give 2.0 ppm because the relative shift scales with the applied field to first order. A pair of signals at 2.0 and 2.1 ppm are 40 Hz apart at 400 MHz but 60 Hz apart at 600 MHz. A higher field therefore improves their separation in hertz, which is often valuable when the line widths do not increase proportionally.</p>
+<p class="teaching-prose">Tetramethylsilane, TMS, is a common reference for organic solution proton and carbon NMR. Aqueous biomolecular NMR frequently uses an appropriate reference such as DSS. Referencing conventions and solvent conditions need to be consistent because small shifts can matter. A zero-ppm reference is a chosen origin, not the frequency of a nucleus in zero magnetic field. In an experiment measuring changes in chemical shift, the reference must remain stable enough that an apparent change is attributable to the analyte rather than a shift of the frequency origin.</p>
+<p class="teaching-prose">Electron-withdrawing substituents can reduce shielding at nearby protons, but a simple rule based only on electronegativity is insufficient. Aromatic ring currents, carbonyl anisotropy, hydrogen bonding, conformation and local electrostatic environments can all influence shielding. In an aromatic system, the applied field induces circulation of electron density, which produces local fields with different directions in different spatial regions. A proton situated outside the ring plane may experience a different induced field from a proton positioned above the ring. Consequently, the same type of atom can exhibit an unexpected shift when its spatial surroundings change.</p>
+<p class="teaching-prose">This spatial dependence helps make protein NMR informative. A side-chain proton in a compact hydrophobic core can experience shielding from nearby aromatic groups. A backbone amide proton participating in hydrogen bonding can shift relative to a corresponding site in a different conformation. Yet no universal one-to-one rule assigns a particular shift to a unique protein structure. Many combinations of local geometry, solvent exposure, charge and hydrogen bonding can yield similar values. Chemical shifts are best understood as site-sensitive observables that can constrain interpretations when combined with independent information.</p>
+<p class="teaching-prose">A folded protein often displays greater chemical-shift dispersion than a highly disordered protein, especially for backbone amide proton signals. This pattern emerges because different residues in a folded structure occupy distinct environments, whereas many residues in a disordered chain sample more similar environments. It is a useful diagnostic but not a proof of one precise fold. A protein with some structured regions and some disordered regions can produce both well-dispersed and crowded signals. Aggregation or exchange may obscure peaks and alter the apparent pattern, so a broad conclusion about folding should take line widths, concentration and complementary data into account.</p>
+<p class="teaching-prose">The number of resonances is also informative. Chemically equivalent nuclei have the same chemical shift under the experimental conditions. Symmetry or fast exchange can make sites equivalent, so a molecule containing six protons does not necessarily yield six proton resonance positions. For example, the three protons of a methyl group are often equivalent in an ordinary solution spectrum because rapid rotation and molecular symmetry average their environments. Distinct methyl groups elsewhere in a molecule may produce different resonances, even when each group individually contains three equivalent protons.</p>
+<p class="teaching-prose">Equivalence can depend on the surroundings. Two protons on a methylene carbon may be equivalent in an achiral environment but become distinguishable when a neighboring stereocentre makes their environments different. In a protein, chiral residues and a folded asymmetric structure are common, so treating every pair of methylene hydrogens as equivalent is inappropriate. Chemical equivalence must also be distinguished from magnetic equivalence: chemically equivalent spins can have different couplings to other spins, leading to more complex spectra.</p>
+<p class="teaching-prose">For a simple illustrative molecule, acetate has a methyl group whose three protons are ordinarily equivalent. Its proton spectrum therefore contains one dominant methyl resonance from the acetate ion, ignoring small isotope satellites and other sample components. Lactate has a methyl group attached to a methine group; these environments are different and their resonance positions and couplings provide additional information. An assignment based on the positions alone is strengthened by observing the expected proton ratios and spin-spin splitting, which will be developed in the next section.</p>
+<p class="teaching-prose">The local environment may change without any covalent bond breaking. Consider a histidine-containing protein titrated across a pH range. Protonation of the imidazole group alters its charge distribution and can shift signals from nearby nuclei. In rapid exchange between protonated and deprotonated states, a single peak may move smoothly as their relative populations change. A plot of shift versus pH can sometimes be used to estimate an apparent pKa if a suitable equilibrium model applies. If other ionizable groups or conformational changes contribute, a simple one-site fit may not have a unique physical interpretation.</p>
+<p class="teaching-prose">This example illustrates why controlling pH, ionic strength and temperature is essential in ligand-binding experiments. Adding a ligand solution can alter pH or salt concentration independently of specific binding. If the spectrum changes, a matched buffer addition without ligand helps separate the effect of dilution and buffer composition from the effect of the ligand. A systematic series of ligand concentrations can establish whether a change follows a saturating relationship. None of these controls alone establishes a particular atomic contact, but they narrow the possible explanations.</p>
+<p class="teaching-prose">The use of chemical shifts in structure and interaction analysis follows a common chain of reasoning: first obtain a reproducibly referenced spectrum, next assign or track individual peaks, then quantify changes, and finally test a model against alternative explanations. A shift is neither a direct molecular distance nor a universal measure of binding strength. Its magnitude depends on both the difference in shielding between states and their populations. Two equally occupied sites can exhibit very different shift changes if the local shielding response differs. Understanding this distinction prepares the way for quantitative interpretation of binding and exchange.</p></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 14 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 14 · Methods in Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["14.B.02","previous-node","← "],["14.B.04","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

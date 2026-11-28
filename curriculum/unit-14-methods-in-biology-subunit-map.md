@@ -306,3 +306,11 @@ Molecular sample preparation and separation → biophysical measurements → omi
 - 14,334 teaching words; 13 SVGs; 9 tables; 55 explained questions (20 B, 25 C, 10 other); 20 misconceptions; 15 recall; 13 references; internal QA 95/100.
 - Academy 436/723; Unit 14 7/60; Subunit 14.A 5/6. Earliest Unit 14: 14.A.05; global: 7.L.04.
 - [Audit](qa/14.A.06-publication-audit.md).
+
+## Publication checkpoint — 2026-11-28 — 14.B.01
+
+- [14.B.01 — Spectroscopy Foundations and UV–Visible Analysis](https://rahulthakurpatan.github.io/lifescienceacademy/spectroscopy-foundations-and-uv-visible-analysis.html) — production source publication; Pages deployment and live verification pending.
+- 14,547 genuine teaching words (14,880 alternate lexical); 14 original SVGs (7 graphs), 6 tables, 54 explained questions (24 B, 24 C, 6 additional), 18 misconceptions, 15 recall prompts, 17 references; internal static QA 95/100.
+- Reconciled source progress: Academy 437/723; Unit 14 8/60; Subunit 14.B 3/7.
+- Earliest pending in 14.B: 14.B.02 — Fluorescence Spectroscopy and Circular Dichroism; Unit 14: 14.A.05 — Chromatographic Separation and Analytical Interpretation; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/14.B.01-publication-audit.md`.

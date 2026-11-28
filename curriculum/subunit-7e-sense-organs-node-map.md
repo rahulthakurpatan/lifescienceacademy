@@ -103,3 +103,9 @@
 - 7.E.02 — [Visual System: Eye Anatomy and Physiological Optics](https://rahulthakurpatan.github.io/lifescienceacademy/visual-system-eye-anatomy-and-physiological-optics.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 14,323 whitespace-separated words, 133 paragraphs; 15 original SVGs (2 graphs), 6 tables, 52 explained questions (20 Part B, 24 Part C, 8 SET/integrated), 17 misconceptions, 14 recall prompts and 18 references. Audit: `curriculum/qa/7.E.02-publication-audit.md`.
 - Subunit 7.E: 3/6; Unit 07: 37/90; Academy: 352/723. Next global unpublished node: 7.E.03 — Phototransduction and Neural Processing of Vision.
+
+### Publication checkpoint — 2026-11-28 — 7.E.03
+
+- 7.E.03 — [Phototransduction and Neural Processing of Vision](https://rahulthakurpatan.github.io/lifescienceacademy/phototransduction-and-neural-processing-of-vision.html); internal QA 95/100; saved HTML static audit passed; Pages and direct live verification pending.
+- 13,827 lexical teaching words (13,782 whitespace), 141 distinct paragraphs, 16 original accessible SVGs (7 graphs/traces), 5 tables, 56 explained questions (20 Part B, 26 Part C, 10 SET/integrated), 16 misconceptions, 13 recall prompts, 15 references. Audit: `curriculum/qa/7.E.03-publication-audit.md`.
+- Subunit 7.E: 4/6; Unit 07: 38/90; Academy: 353/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing.

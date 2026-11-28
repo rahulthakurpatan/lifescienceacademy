@@ -4,16 +4,16 @@
   "unit": "07",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.E.02",
-  "title": "Visual System: Eye Anatomy and Physiological Optics",
+  "node_id": "7.E.03",
+  "title": "Phototransduction and Neural Processing of Vision",
   "subunit": "7.E",
   "topic": "Sense Organs",
-  "slug": "visual-system-eye-anatomy-and-physiological-optics.html",
-  "next_pending_node_id": "7.E.03",
-  "next_pending_node_title": "Phototransduction and Neural Processing of Vision",
-  "published_node_count": 352,
+  "slug": "phototransduction-and-neural-processing-of-vision.html",
+  "next_pending_node_id": "7.E.04",
+  "next_pending_node_title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
+  "published_node_count": 353,
   "publication_allowed": true,
-  "main_baseline_sha": "69aca090650ddbbd8ec7c95982edbad793dfd848",
+  "main_baseline_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
   "quality_hold": false,
   "next_required_action": "Verify production deployment and live chapter; then develop earliest unpublished node.",
   "planned_node_count": 90,
@@ -21,31 +21,34 @@
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.E.02",
-    "title": "Visual System: Eye Anatomy and Physiological Optics",
-    "chapter_path": "visual-system-eye-anatomy-and-physiological-optics.html",
-    "chapter_blob_sha": "856faef383bcbb7830180ddd74a38d1575f9a120",
-    "working_branch": "draft/node-7-e-02-visual-optics-20261128",
-    "working_commit_sha": "f5611049d74403069d47d13b668f53ed3361a254",
+    "node_id": "7.E.03",
+    "title": "Phototransduction and Neural Processing of Vision",
+    "chapter_path": "phototransduction-and-neural-processing-of-vision.html",
+    "working_branch": "draft/node-7-e-03-phototransduction-20261128",
+    "working_commit_sha": "c95b4ce804870699cf73c7832feab6a4cbb8a2f6",
+    "draft_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+    "chapter_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
     "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_base_sha": "69aca090650ddbbd8ec7c95982edbad793dfd848",
+    "publication_base_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 14323,
-      "teaching_paragraphs": 133,
-      "teaching_sections": 14,
-      "svg": 15,
-      "graphs": 2,
-      "tables": 6,
-      "questions": 52,
+      "genuine_teaching_words": 13827,
+      "whitespace_teaching_words": 13782,
+      "word_count_method": "Lexical words in p.teaching-prose only; excludes figures, tables, practice, revision, references",
+      "teaching_paragraphs": 141,
+      "teaching_sections": 20,
+      "total_sections": 24,
+      "svg": 16,
+      "graphs_and_traces": 7,
+      "tables": 5,
+      "questions": 56,
       "part_b": 20,
-      "part_c": 24,
-      "set": 8,
-      "answer_explanations": 52,
-      "misconceptions": 17,
-      "active_recall": 14,
-      "references": 18
+      "part_c": 26,
+      "set": 10,
+      "misconceptions": 16,
+      "active_recall": 13,
+      "references": 15
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -60,80 +63,69 @@
       "technical_seo": 4,
       "total": 95
     },
-    "audit_record": "curriculum/qa/7.E.02-publication-audit.md",
-    "syllabus_coverage": "Official January 2026 revised merged and separate CSIR syllabus Unit 7.E; MP SET 2024 archived syllabus; Academy node contract.",
+    "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.E vision; archived MP SET syllabus; Academy 7.E.03 node contract.",
     "coverage_matrix": [
       {
-        "concept": "Comparative visual organs; eyespots and pigment cups",
-        "sections": "s1–s2",
-        "evidence": "Directional screening controls and light detection",
+        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+        "microtopic": "Rod/cone morphology, pigment, photon capture and dark current",
+        "section": "signal, photon, cells, dark",
+        "evidence": "Membrane orientation, sensitivity, noise and net current",
+        "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "concept": "Compound eyes, ommatidia, apposition and superposition",
-        "sections": "s3",
-        "evidence": "Acceptance angle, sampling, photon pooling and noise",
+        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+        "microtopic": "Photoisomerisation, transducin/PDE6/cGMP/CNG and graded voltage",
+        "section": "cascade, kinetics",
+        "evidence": "Molecular causal chain, Hill relationship, simultaneous messenger/current trace",
+        "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "concept": "Camera-type eyes; comparison of vertebrate and cephalopod eyes",
-        "sections": "s4",
-        "evidence": "Optical adaptations and aquatic versus aerial refraction",
+        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+        "microtopic": "Termination, calcium feedback, adaptation and visual cycle",
+        "section": "recovery, feedback, cycle, regeneration",
+        "evidence": "GRK1/arrestin, RGS, GCAP/RetGC, RPE65, dark adaptation and Purkinje shift",
+        "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "concept": "Sclera, cornea, choroid, aqueous, vitreous, iris, pupil, lens, ciliary muscle and zonules",
-        "sections": "s5–s6, s10–s11",
-        "evidence": "Optical route, tissue function and aqueous mass balance",
+        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+        "microtopic": "Colour signals and variants",
+        "section": "colour, spectral",
+        "evidence": "Cone opsins, univariance, trichromacy and opponency, metamerism and colour deficiencies",
+        "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "concept": "Retina, fovea, optic disc and blind spot",
-        "sections": "s7, s13",
-        "evidence": "Sampling and retinal magnification; controlled acuity comparisons",
+        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+        "microtopic": "Retinal neurons and receptive fields",
+        "section": "retina, spatial, synapses",
+        "evidence": "mGluR6/TRPM1, OFF glutamate receptors, horizontal and amacrine cells, ganglion spikes",
+        "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "concept": "Refraction, focal length, dioptres, thin-lens model, image inversion",
-        "sections": "s8–s9",
-        "evidence": "Snell, surface power, vergence, thin-lens assumptions and worked examples",
-        "status": "covered"
-      },
-      {
-        "concept": "Accommodation; pupil and depth of field",
-        "sections": "s10–s11",
-        "evidence": "Ciliary mechanics, reciprocal distance, diffraction and blur",
-        "status": "covered"
-      },
-      {
-        "concept": "Pupillary light reflex",
-        "sections": "s12",
-        "evidence": "Direct and consensual responses, afferent/efferent interruption",
-        "status": "covered"
-      },
-      {
-        "concept": "Visual acuity; myopia, hyperopia, astigmatism and presbyopia",
-        "sections": "s13–s14",
-        "evidence": "MAR, Nyquist sampling, contrast and corrections; optical versus sensory limitation",
+        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+        "microtopic": "Central pathways and evidence",
+        "section": "pathways, cortex, history, evidence, integration",
+        "evidence": "Chiasm/tract/LGN/radiations/V1, lesions and reflexes, single-photon and ERG evidence",
+        "depth": "NET/SET",
         "status": "covered"
       }
     ],
-    "scientific_review": "Internal scientific pass: checked eye anatomy and comparative optical strategies, directional screens, ommatidial isolation/pooling, vertebrate and cephalopod retinal arrangements, cornea/aqueous/lens/vitreous, fovea/disc, accommodation, iris and reflex pathway, refraction and acuity. Confirmed principal source records; corrected historical reference attribution and identified illustrative rather than measured datasets. Recalculated Snell angle 21.24°, anterior surface 48.21 D in air/5.51 D in water, reduced-eye back focal distance 22.27 mm, diffraction 0.769 arcmin; checked all 52 keyed options including calculations 0.333 cycles/degree, fractional noise 1/6→1/12, 47.5 D, 18 cm, 3 D, 3.5 D, 1/4, 40 μm, 0.75 arcmin, 1.72 arcmin, 9.9 μm, 8 μm, −2.5 D, 5.5 D, ±1.5 D, 0.50, 20 cm, 22.3 mm, +3 μL. Phototransduction reserved for 7.E.03.",
-    "editorial_review": "Separate internal editorial pass: checked progression from simple optical organs to anatomy, optical models, reflexes, resolution and disorders; revised schematic labels, responsive comparison tables, figure zoom and numerical graph. Preserved existing Academy reader shell. 133 distinct narrative paragraphs, 15 titled/described original SVG, two model graphs, six tables, 52 explained questions, 17 traps, 14 active recall prompts, revision and mastery. Answer distribution A13 B13 C14 D12; all four-option keys mapped.",
-    "audit": "Final saved HTML re-fetched: 14,323 whitespace-separated words in p.teaching-prose only, excluding headings, figures, tables, practice, revision and references; 133 unique paragraphs, zero duplicate IDs, broken fragment links, unresolved ARIA references, duplicate attributes or tag-stack errors. All 15 SVG have role img, title, description and viewBox; single H1, index/follow, canonical, dynamic adjacent-node controls, 52 valid four-option explanations, 18 references. Comparison: actual exemplar 7.B.03 has 13,872 whitespace teaching words.",
-    "limitations": "Internal review, not independent peer review; not every reference full text/external link verified. MP SET comparison uses archived 2024 syllabus copy rather than authenticated current commission-hosted document. Browser/mobile/keyboard/assistive-technology runtime and JavaScript execution not tested; no separately maintained dashboard identified. Pages deployment/live HTTP verification pending.",
-    "next_unpublished_node_id": "7.E.03",
+    "scientific_review": "Separate scientific review checked the rod/cone sign chain (light lowers cGMP, closes CNG, reduces inward current and glutamate), GRK/arrestin/RGS termination, calcium-dependent feedback, RPE retinoid regeneration, spectral weighting versus pigment absorption, retinal ON/OFF sign inversion, receptive-field antagonism, nasal fibre crossing and field defects. Recomputed representative current balance, Hill probabilities, exponential and Poisson calculations; graph data explicitly illustrative. Checked landmark Baylor, Kuffler and Wald sources; not all reference full texts independently reviewed.",
+    "editorial_review": "Separate editorial review reorganised historical evidence after mechanisms, removed redundant prose, added normalized flash and rod/cone traces and corrected axis labels, numbered figures, retained reader controls, built TOC, checked questions and explanations, and balanced answer letters A14/B14/C14/D14 without changing correct options. Comparable adjacent chapter 7.D.08 has 13,724 whitespace teaching words.",
+    "score_basis": "Internal 95/100: scientific -1 (not all full texts checked); diagrams -1 (no browser render); exam -1 (some direct distractors); accessibility -1 (runtime tests pending); technical -1 (live verification pending). Remaining dimensions supported by saved chapter and coverage matrix.",
+    "audit": "Re-fetched exact final HTML: unique IDs, resolved anchors and aria-labelledby references, balanced tags, JavaScript syntax compiled, distinct teaching paragraphs, four options and explanation per question; canonical and reader retained.",
+    "limitations": "Internal review only, not external peer review. MP SET archived syllabus comparison, current official-host copy not established. Full-text review of all references and runtime browser, mobile, keyboard, screen-reader and live deployment tests not independently completed. SVG source reviewed, not rendered in a browser.",
+    "audit_record": "curriculum/qa/7.E.03-publication-audit.md",
+    "next_unpublished_node_id": "7.E.04",
     "concurrent_changes_reconciled": true,
     "publication": {
-      "mode": "one atomic conditional non-force main commit",
-      "academy_published_before": 351,
-      "academy_published_after": 352,
-      "unit07_published_after": 37,
-      "subunit7e_published_after": 3,
-      "prior_menu_links_preserved": 351,
-      "prior_sitemap_entries_preserved": 352,
-      "previous": "7.E.01",
-      "next_unpublished": "7.E.03"
+      "academy_published_count": 353,
+      "unit_published_count": 38,
+      "subunit_published_count": 4
     }
   },
   "published_node_ids": [
@@ -488,6 +480,7 @@
     "7.D.10",
     "7.E.01",
     "7.E.02",
+    "7.E.03",
     "7.E.06"
   ],
   "prior_publication_qa": {
@@ -640,33 +633,31 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "7.E.06",
-    "title": "Tactile Sensation and Somatosensory Processing",
-    "chapter_path": "tactile-sensation-and-somatosensory-processing.html",
-    "working_branch": "draft/node-7e06-tactile-sensation-20261128",
-    "working_commit_sha": "49cc836c82e0c26447754dd2cd7b65cf42e25b73",
-    "draft_blob_sha": "706c178a3db0092d7da6b65818cc6f2f8e495954",
-    "chapter_blob_sha": "706c178a3db0092d7da6b65818cc6f2f8e495954",
+    "node_id": "7.E.02",
+    "title": "Visual System: Eye Anatomy and Physiological Optics",
+    "chapter_path": "visual-system-eye-anatomy-and-physiological-optics.html",
+    "chapter_blob_sha": "856faef383bcbb7830180ddd74a38d1575f9a120",
+    "working_branch": "draft/node-7-e-02-visual-optics-20261128",
+    "working_commit_sha": "f5611049d74403069d47d13b668f53ed3361a254",
     "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_base_sha": "8a956d3684a6df85dc610990ce674ab32d2d2e87",
+    "publication_base_sha": "69aca090650ddbbd8ec7c95982edbad793dfd848",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13625,
-      "word_count_method": "Whitespace tokens in p.teaching-prose only; excludes tables, figures, questions, revision and references",
-      "teaching_paragraphs": 143,
-      "teaching_sections": 11,
-      "total_sections": 15,
-      "svg": 11,
-      "graphs_and_traces": 5,
-      "tables": 3,
-      "questions": 53,
-      "part_b": 21,
-      "part_c": 27,
-      "set": 5,
-      "misconceptions": 15,
-      "active_recall": 12,
-      "references": 15
+      "genuine_teaching_words": 14323,
+      "teaching_paragraphs": 133,
+      "teaching_sections": 14,
+      "svg": 15,
+      "graphs": 2,
+      "tables": 6,
+      "questions": 52,
+      "part_b": 20,
+      "part_c": 24,
+      "set": 8,
+      "answer_explanations": 52,
+      "misconceptions": 17,
+      "active_recall": 14,
+      "references": 18
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -681,65 +672,80 @@
       "technical_seo": 4,
       "total": 95
     },
-    "syllabus_coverage": "January 2026 revised merged and separate CSIR syllabi Unit 7.E tactile responses; archived MP SET 2024 syllabus comparison. Academy node scope fully addressed; pain, temperature and proprioceptive motor control only contextual.",
+    "audit_record": "curriculum/qa/7.E.02-publication-audit.md",
+    "syllabus_coverage": "Official January 2026 revised merged and separate CSIR syllabus Unit 7.E; MP SET 2024 archived syllabus; Academy node contract.",
     "coverage_matrix": [
       {
-        "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-        "microtopic": "Cutaneous mechanoreceptors and hair follicles",
-        "section": "Sections 1–3",
-        "evidence": "Skin mechanics; SA1/RA1/RA2/SA2, receptor distribution, morphology and afferent firing",
-        "depth": "NET/SET",
+        "concept": "Comparative visual organs; eyespots and pigment cups",
+        "sections": "s1–s2",
+        "evidence": "Directional screening controls and light detection",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-        "microtopic": "Mechanotransduction and adaptation",
-        "section": "Sections 4–5",
-        "evidence": "Piezo2, receptor current, capsule filtering, static and dynamic responses, vibration",
-        "depth": "NET/SET",
+        "concept": "Compound eyes, ommatidia, apposition and superposition",
+        "sections": "s3",
+        "evidence": "Acceptance angle, sampling, photon pooling and noise",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-        "microtopic": "Spatial encoding and psychophysics",
-        "section": "Section 6",
-        "evidence": "Receptive fields, convergence, lateral inhibition and two-point threshold",
-        "depth": "NET/SET",
+        "concept": "Camera-type eyes; comparison of vertebrate and cephalopod eyes",
+        "sections": "s4",
+        "evidence": "Optical adaptations and aquatic versus aerial refraction",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-        "microtopic": "Afferent classes and pathways",
-        "section": "Sections 7–9",
-        "evidence": "Conduction latency, DCML crossing, thalamus, cortical representation",
-        "depth": "NET/SET",
+        "concept": "Sclera, cornea, choroid, aqueous, vitreous, iris, pupil, lens, ciliary muscle and zonules",
+        "sections": "s5–s6, s10–s11",
+        "evidence": "Optical route, tissue function and aqueous mass balance",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-        "microtopic": "Comparative and experimental interpretation",
-        "section": "Sections 10–11",
-        "evidence": "Whiskers, insect sensory bristles, stimulus-control designs and numerical analysis",
-        "depth": "NET/SET",
+        "concept": "Retina, fovea, optic disc and blind spot",
+        "sections": "s7, s13",
+        "evidence": "Sampling and retinal magnification; controlled acuity comparisons",
+        "status": "covered"
+      },
+      {
+        "concept": "Refraction, focal length, dioptres, thin-lens model, image inversion",
+        "sections": "s8–s9",
+        "evidence": "Snell, surface power, vergence, thin-lens assumptions and worked examples",
+        "status": "covered"
+      },
+      {
+        "concept": "Accommodation; pupil and depth of field",
+        "sections": "s10–s11",
+        "evidence": "Ciliary mechanics, reciprocal distance, diffraction and blur",
+        "status": "covered"
+      },
+      {
+        "concept": "Pupillary light reflex",
+        "sections": "s12",
+        "evidence": "Direct and consensual responses, afferent/efferent interruption",
+        "status": "covered"
+      },
+      {
+        "concept": "Visual acuity; myopia, hyperopia, astigmatism and presbyopia",
+        "sections": "s13–s14",
+        "evidence": "MAR, Nyquist sampling, contrast and corrections; optical versus sensory limitation",
         "status": "covered"
       }
     ],
-    "scientific_review": "Distinct scientific pass checked receptor classes and uncertain Ruffini attribution, Piezo2/Merkel dual-site evidence, adaptation, receptive fields, conduction units, DCML decussation and thalamocortical relays. Numerical examples and examination keys reviewed, including inward current −120 pA, adaptation 42.07/28.12, vibration velocity 0.00157/0.0157 m/s, conduction 16/400 ms and 50 m/s, pressure 2000/20000 Pa, RC time 4 ms, weighted population centres 1.23 and 2. Illustrative datasets not represented as published measurements.",
-    "editorial_review": "Separate editorial pass checked 143 distinct paragraphs, sequential sections, reader and TOC, accessible SVG title/desc/viewBox, corrected DCML diagram, expanded explanation and revision, grouped 53 questions and balanced answers A14 B13 C13 D13, 15 misconceptions and 12 recall prompts. Re-fetched final blob: no duplicate IDs, broken anchors or unbalanced tags; all questions have four options and explanations. Adjacent 7.D.09 measured 13,726 words by comparable method.",
-    "score_basis": "Internal rubric 95/100: deductions for incomplete reference full-text review, no browser rendering of diagrams, some direct Part B distractors, no runtime accessibility testing, and no deployed-site verification. Coverage, depth, pedagogy, analytical reasoning and revision supported by the saved chapter.",
-    "audit": "Final saved HTML independently fetched; 13,625 prose words, 143 distinct paragraphs, 11 accessible SVGs, 53 explained questions; unique IDs, resolved local anchors and ARIA references, balanced HTML tags, one H1, canonical URL, index/follow; existing reader retained.",
-    "limitations": "Internal review, not external peer review. Archived MP SET syllabus comparison, not current official-host verification. Full texts of all references, browser/mobile/keyboard/screen-reader runtime and JavaScript execution were not independently tested. Direct live Pages verification pending.",
-    "audit_record": "curriculum/qa/7.E.06-publication-audit.md",
-    "next_unpublished_node_id": "7.E.02",
+    "scientific_review": "Internal scientific pass: checked eye anatomy and comparative optical strategies, directional screens, ommatidial isolation/pooling, vertebrate and cephalopod retinal arrangements, cornea/aqueous/lens/vitreous, fovea/disc, accommodation, iris and reflex pathway, refraction and acuity. Confirmed principal source records; corrected historical reference attribution and identified illustrative rather than measured datasets. Recalculated Snell angle 21.24°, anterior surface 48.21 D in air/5.51 D in water, reduced-eye back focal distance 22.27 mm, diffraction 0.769 arcmin; checked all 52 keyed options including calculations 0.333 cycles/degree, fractional noise 1/6→1/12, 47.5 D, 18 cm, 3 D, 3.5 D, 1/4, 40 μm, 0.75 arcmin, 1.72 arcmin, 9.9 μm, 8 μm, −2.5 D, 5.5 D, ±1.5 D, 0.50, 20 cm, 22.3 mm, +3 μL. Phototransduction reserved for 7.E.03.",
+    "editorial_review": "Separate internal editorial pass: checked progression from simple optical organs to anatomy, optical models, reflexes, resolution and disorders; revised schematic labels, responsive comparison tables, figure zoom and numerical graph. Preserved existing Academy reader shell. 133 distinct narrative paragraphs, 15 titled/described original SVG, two model graphs, six tables, 52 explained questions, 17 traps, 14 active recall prompts, revision and mastery. Answer distribution A13 B13 C14 D12; all four-option keys mapped.",
+    "audit": "Final saved HTML re-fetched: 14,323 whitespace-separated words in p.teaching-prose only, excluding headings, figures, tables, practice, revision and references; 133 unique paragraphs, zero duplicate IDs, broken fragment links, unresolved ARIA references, duplicate attributes or tag-stack errors. All 15 SVG have role img, title, description and viewBox; single H1, index/follow, canonical, dynamic adjacent-node controls, 52 valid four-option explanations, 18 references. Comparison: actual exemplar 7.B.03 has 13,872 whitespace teaching words.",
+    "limitations": "Internal review, not independent peer review; not every reference full text/external link verified. MP SET comparison uses archived 2024 syllabus copy rather than authenticated current commission-hosted document. Browser/mobile/keyboard/assistive-technology runtime and JavaScript execution not tested; no separately maintained dashboard identified. Pages deployment/live HTTP verification pending.",
+    "next_unpublished_node_id": "7.E.03",
     "concurrent_changes_reconciled": true,
     "publication": {
-      "strategy": "Atomic tree with non-force expected-HEAD update",
-      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "8a956d3684a6df85dc610990ce674ab32d2d2e87",
-      "subunit_published_after": 2,
-      "unit_published_after": 36,
-      "academy_published_after": 351,
-      "live_verification": "pending"
+      "mode": "one atomic conditional non-force main commit",
+      "academy_published_before": 351,
+      "academy_published_after": 352,
+      "unit07_published_after": 37,
+      "subunit7e_published_after": 3,
+      "prior_menu_links_preserved": 351,
+      "prior_sitemap_entries_preserved": 352,
+      "previous": "7.E.01",
+      "next_unpublished": "7.E.03"
     }
   },
   "unit_02": {
@@ -47254,6 +47260,114 @@
         "previous": "7.E.01",
         "next_unpublished": "7.E.03"
       }
+    },
+    "7.E.03": {
+      "node_id": "7.E.03",
+      "title": "Phototransduction and Neural Processing of Vision",
+      "chapter_path": "phototransduction-and-neural-processing-of-vision.html",
+      "working_branch": "draft/node-7-e-03-phototransduction-20261128",
+      "working_commit_sha": "c95b4ce804870699cf73c7832feab6a4cbb8a2f6",
+      "draft_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+      "chapter_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+      "publication_base_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 13827,
+        "whitespace_teaching_words": 13782,
+        "word_count_method": "Lexical words in p.teaching-prose only; excludes figures, tables, practice, revision, references",
+        "teaching_paragraphs": 141,
+        "teaching_sections": 20,
+        "total_sections": 24,
+        "svg": 16,
+        "graphs_and_traces": 7,
+        "tables": 5,
+        "questions": 56,
+        "part_b": 20,
+        "part_c": 26,
+        "set": 10,
+        "misconceptions": 16,
+        "active_recall": 13,
+        "references": 15
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95
+      },
+      "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.E vision; archived MP SET syllabus; Academy 7.E.03 node contract.",
+      "coverage_matrix": [
+        {
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Rod/cone morphology, pigment, photon capture and dark current",
+          "section": "signal, photon, cells, dark",
+          "evidence": "Membrane orientation, sensitivity, noise and net current",
+          "depth": "NET/SET",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Photoisomerisation, transducin/PDE6/cGMP/CNG and graded voltage",
+          "section": "cascade, kinetics",
+          "evidence": "Molecular causal chain, Hill relationship, simultaneous messenger/current trace",
+          "depth": "NET/SET",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Termination, calcium feedback, adaptation and visual cycle",
+          "section": "recovery, feedback, cycle, regeneration",
+          "evidence": "GRK1/arrestin, RGS, GCAP/RetGC, RPE65, dark adaptation and Purkinje shift",
+          "depth": "NET/SET",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Colour signals and variants",
+          "section": "colour, spectral",
+          "evidence": "Cone opsins, univariance, trichromacy and opponency, metamerism and colour deficiencies",
+          "depth": "NET/SET",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Retinal neurons and receptive fields",
+          "section": "retina, spatial, synapses",
+          "evidence": "mGluR6/TRPM1, OFF glutamate receptors, horizontal and amacrine cells, ganglion spikes",
+          "depth": "NET/SET",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Central pathways and evidence",
+          "section": "pathways, cortex, history, evidence, integration",
+          "evidence": "Chiasm/tract/LGN/radiations/V1, lesions and reflexes, single-photon and ERG evidence",
+          "depth": "NET/SET",
+          "status": "covered"
+        }
+      ],
+      "scientific_review": "Separate scientific review checked the rod/cone sign chain (light lowers cGMP, closes CNG, reduces inward current and glutamate), GRK/arrestin/RGS termination, calcium-dependent feedback, RPE retinoid regeneration, spectral weighting versus pigment absorption, retinal ON/OFF sign inversion, receptive-field antagonism, nasal fibre crossing and field defects. Recomputed representative current balance, Hill probabilities, exponential and Poisson calculations; graph data explicitly illustrative. Checked landmark Baylor, Kuffler and Wald sources; not all reference full texts independently reviewed.",
+      "editorial_review": "Separate editorial review reorganised historical evidence after mechanisms, removed redundant prose, added normalized flash and rod/cone traces and corrected axis labels, numbered figures, retained reader controls, built TOC, checked questions and explanations, and balanced answer letters A14/B14/C14/D14 without changing correct options. Comparable adjacent chapter 7.D.08 has 13,724 whitespace teaching words.",
+      "score_basis": "Internal 95/100: scientific -1 (not all full texts checked); diagrams -1 (no browser render); exam -1 (some direct distractors); accessibility -1 (runtime tests pending); technical -1 (live verification pending). Remaining dimensions supported by saved chapter and coverage matrix.",
+      "audit": "Re-fetched exact final HTML: unique IDs, resolved anchors and aria-labelledby references, balanced tags, JavaScript syntax compiled, distinct teaching paragraphs, four options and explanation per question; canonical and reader retained.",
+      "limitations": "Internal review only, not external peer review. MP SET archived syllabus comparison, current official-host copy not established. Full-text review of all references and runtime browser, mobile, keyboard, screen-reader and live deployment tests not independently completed. SVG source reviewed, not rendered in a browser.",
+      "audit_record": "curriculum/qa/7.E.03-publication-audit.md",
+      "next_unpublished_node_id": "7.E.04",
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "academy_published_count": 353,
+        "unit_published_count": 38,
+        "subunit_published_count": 4
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -65061,7 +65175,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/visual-system-eye-anatomy-and-physiological-optics.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/phototransduction-and-neural-processing-of-vision.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -65160,39 +65274,43 @@
       "7.D.10",
       "7.E.01",
       "7.E.02",
+      "7.E.03",
       "7.E.06"
     ],
-    "published_node_count": 37,
+    "published_node_count": 38,
     "planned_node_count": 90,
-    "last_published_node_id": "7.E.02",
+    "last_published_node_id": "7.E.03",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "7.E.02",
-      "title": "Visual System: Eye Anatomy and Physiological Optics",
-      "chapter_path": "visual-system-eye-anatomy-and-physiological-optics.html",
-      "chapter_blob_sha": "856faef383bcbb7830180ddd74a38d1575f9a120",
-      "working_branch": "draft/node-7-e-02-visual-optics-20261128",
-      "working_commit_sha": "f5611049d74403069d47d13b668f53ed3361a254",
+      "node_id": "7.E.03",
+      "title": "Phototransduction and Neural Processing of Vision",
+      "chapter_path": "phototransduction-and-neural-processing-of-vision.html",
+      "working_branch": "draft/node-7-e-03-phototransduction-20261128",
+      "working_commit_sha": "c95b4ce804870699cf73c7832feab6a4cbb8a2f6",
+      "draft_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+      "chapter_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
       "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "69aca090650ddbbd8ec7c95982edbad793dfd848",
+      "publication_base_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 14323,
-        "teaching_paragraphs": 133,
-        "teaching_sections": 14,
-        "svg": 15,
-        "graphs": 2,
-        "tables": 6,
-        "questions": 52,
+        "genuine_teaching_words": 13827,
+        "whitespace_teaching_words": 13782,
+        "word_count_method": "Lexical words in p.teaching-prose only; excludes figures, tables, practice, revision, references",
+        "teaching_paragraphs": 141,
+        "teaching_sections": 20,
+        "total_sections": 24,
+        "svg": 16,
+        "graphs_and_traces": 7,
+        "tables": 5,
+        "questions": 56,
         "part_b": 20,
-        "part_c": 24,
-        "set": 8,
-        "answer_explanations": 52,
-        "misconceptions": 17,
-        "active_recall": 14,
-        "references": 18
+        "part_c": 26,
+        "set": 10,
+        "misconceptions": 16,
+        "active_recall": 13,
+        "references": 15
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -65207,80 +65325,69 @@
         "technical_seo": 4,
         "total": 95
       },
-      "audit_record": "curriculum/qa/7.E.02-publication-audit.md",
-      "syllabus_coverage": "Official January 2026 revised merged and separate CSIR syllabus Unit 7.E; MP SET 2024 archived syllabus; Academy node contract.",
+      "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.E vision; archived MP SET syllabus; Academy 7.E.03 node contract.",
       "coverage_matrix": [
         {
-          "concept": "Comparative visual organs; eyespots and pigment cups",
-          "sections": "s1–s2",
-          "evidence": "Directional screening controls and light detection",
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Rod/cone morphology, pigment, photon capture and dark current",
+          "section": "signal, photon, cells, dark",
+          "evidence": "Membrane orientation, sensitivity, noise and net current",
+          "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "concept": "Compound eyes, ommatidia, apposition and superposition",
-          "sections": "s3",
-          "evidence": "Acceptance angle, sampling, photon pooling and noise",
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Photoisomerisation, transducin/PDE6/cGMP/CNG and graded voltage",
+          "section": "cascade, kinetics",
+          "evidence": "Molecular causal chain, Hill relationship, simultaneous messenger/current trace",
+          "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "concept": "Camera-type eyes; comparison of vertebrate and cephalopod eyes",
-          "sections": "s4",
-          "evidence": "Optical adaptations and aquatic versus aerial refraction",
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Termination, calcium feedback, adaptation and visual cycle",
+          "section": "recovery, feedback, cycle, regeneration",
+          "evidence": "GRK1/arrestin, RGS, GCAP/RetGC, RPE65, dark adaptation and Purkinje shift",
+          "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "concept": "Sclera, cornea, choroid, aqueous, vitreous, iris, pupil, lens, ciliary muscle and zonules",
-          "sections": "s5–s6, s10–s11",
-          "evidence": "Optical route, tissue function and aqueous mass balance",
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Colour signals and variants",
+          "section": "colour, spectral",
+          "evidence": "Cone opsins, univariance, trichromacy and opponency, metamerism and colour deficiencies",
+          "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "concept": "Retina, fovea, optic disc and blind spot",
-          "sections": "s7, s13",
-          "evidence": "Sampling and retinal magnification; controlled acuity comparisons",
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Retinal neurons and receptive fields",
+          "section": "retina, spatial, synapses",
+          "evidence": "mGluR6/TRPM1, OFF glutamate receptors, horizontal and amacrine cells, ganglion spikes",
+          "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "concept": "Refraction, focal length, dioptres, thin-lens model, image inversion",
-          "sections": "s8–s9",
-          "evidence": "Snell, surface power, vergence, thin-lens assumptions and worked examples",
-          "status": "covered"
-        },
-        {
-          "concept": "Accommodation; pupil and depth of field",
-          "sections": "s10–s11",
-          "evidence": "Ciliary mechanics, reciprocal distance, diffraction and blur",
-          "status": "covered"
-        },
-        {
-          "concept": "Pupillary light reflex",
-          "sections": "s12",
-          "evidence": "Direct and consensual responses, afferent/efferent interruption",
-          "status": "covered"
-        },
-        {
-          "concept": "Visual acuity; myopia, hyperopia, astigmatism and presbyopia",
-          "sections": "s13–s14",
-          "evidence": "MAR, Nyquist sampling, contrast and corrections; optical versus sensory limitation",
+          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+          "microtopic": "Central pathways and evidence",
+          "section": "pathways, cortex, history, evidence, integration",
+          "evidence": "Chiasm/tract/LGN/radiations/V1, lesions and reflexes, single-photon and ERG evidence",
+          "depth": "NET/SET",
           "status": "covered"
         }
       ],
-      "scientific_review": "Internal scientific pass: checked eye anatomy and comparative optical strategies, directional screens, ommatidial isolation/pooling, vertebrate and cephalopod retinal arrangements, cornea/aqueous/lens/vitreous, fovea/disc, accommodation, iris and reflex pathway, refraction and acuity. Confirmed principal source records; corrected historical reference attribution and identified illustrative rather than measured datasets. Recalculated Snell angle 21.24°, anterior surface 48.21 D in air/5.51 D in water, reduced-eye back focal distance 22.27 mm, diffraction 0.769 arcmin; checked all 52 keyed options including calculations 0.333 cycles/degree, fractional noise 1/6→1/12, 47.5 D, 18 cm, 3 D, 3.5 D, 1/4, 40 μm, 0.75 arcmin, 1.72 arcmin, 9.9 μm, 8 μm, −2.5 D, 5.5 D, ±1.5 D, 0.50, 20 cm, 22.3 mm, +3 μL. Phototransduction reserved for 7.E.03.",
-      "editorial_review": "Separate internal editorial pass: checked progression from simple optical organs to anatomy, optical models, reflexes, resolution and disorders; revised schematic labels, responsive comparison tables, figure zoom and numerical graph. Preserved existing Academy reader shell. 133 distinct narrative paragraphs, 15 titled/described original SVG, two model graphs, six tables, 52 explained questions, 17 traps, 14 active recall prompts, revision and mastery. Answer distribution A13 B13 C14 D12; all four-option keys mapped.",
-      "audit": "Final saved HTML re-fetched: 14,323 whitespace-separated words in p.teaching-prose only, excluding headings, figures, tables, practice, revision and references; 133 unique paragraphs, zero duplicate IDs, broken fragment links, unresolved ARIA references, duplicate attributes or tag-stack errors. All 15 SVG have role img, title, description and viewBox; single H1, index/follow, canonical, dynamic adjacent-node controls, 52 valid four-option explanations, 18 references. Comparison: actual exemplar 7.B.03 has 13,872 whitespace teaching words.",
-      "limitations": "Internal review, not independent peer review; not every reference full text/external link verified. MP SET comparison uses archived 2024 syllabus copy rather than authenticated current commission-hosted document. Browser/mobile/keyboard/assistive-technology runtime and JavaScript execution not tested; no separately maintained dashboard identified. Pages deployment/live HTTP verification pending.",
-      "next_unpublished_node_id": "7.E.03",
+      "scientific_review": "Separate scientific review checked the rod/cone sign chain (light lowers cGMP, closes CNG, reduces inward current and glutamate), GRK/arrestin/RGS termination, calcium-dependent feedback, RPE retinoid regeneration, spectral weighting versus pigment absorption, retinal ON/OFF sign inversion, receptive-field antagonism, nasal fibre crossing and field defects. Recomputed representative current balance, Hill probabilities, exponential and Poisson calculations; graph data explicitly illustrative. Checked landmark Baylor, Kuffler and Wald sources; not all reference full texts independently reviewed.",
+      "editorial_review": "Separate editorial review reorganised historical evidence after mechanisms, removed redundant prose, added normalized flash and rod/cone traces and corrected axis labels, numbered figures, retained reader controls, built TOC, checked questions and explanations, and balanced answer letters A14/B14/C14/D14 without changing correct options. Comparable adjacent chapter 7.D.08 has 13,724 whitespace teaching words.",
+      "score_basis": "Internal 95/100: scientific -1 (not all full texts checked); diagrams -1 (no browser render); exam -1 (some direct distractors); accessibility -1 (runtime tests pending); technical -1 (live verification pending). Remaining dimensions supported by saved chapter and coverage matrix.",
+      "audit": "Re-fetched exact final HTML: unique IDs, resolved anchors and aria-labelledby references, balanced tags, JavaScript syntax compiled, distinct teaching paragraphs, four options and explanation per question; canonical and reader retained.",
+      "limitations": "Internal review only, not external peer review. MP SET archived syllabus comparison, current official-host copy not established. Full-text review of all references and runtime browser, mobile, keyboard, screen-reader and live deployment tests not independently completed. SVG source reviewed, not rendered in a browser.",
+      "audit_record": "curriculum/qa/7.E.03-publication-audit.md",
+      "next_unpublished_node_id": "7.E.04",
       "concurrent_changes_reconciled": true,
       "publication": {
-        "mode": "one atomic conditional non-force main commit",
-        "academy_published_before": 351,
-        "academy_published_after": 352,
-        "unit07_published_after": 37,
-        "subunit7e_published_after": 3,
-        "prior_menu_links_preserved": 351,
-        "prior_sitemap_entries_preserved": 352,
-        "previous": "7.E.01",
-        "next_unpublished": "7.E.03"
+        "academy_published_count": 353,
+        "unit_published_count": 38,
+        "subunit_published_count": 4
       }
     },
     "qa_by_node": {
@@ -70115,10 +70222,118 @@
           "previous": "7.E.01",
           "next_unpublished": "7.E.03"
         }
+      },
+      "7.E.03": {
+        "node_id": "7.E.03",
+        "title": "Phototransduction and Neural Processing of Vision",
+        "chapter_path": "phototransduction-and-neural-processing-of-vision.html",
+        "working_branch": "draft/node-7-e-03-phototransduction-20261128",
+        "working_commit_sha": "c95b4ce804870699cf73c7832feab6a4cbb8a2f6",
+        "draft_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+        "chapter_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+        "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+        "publication_base_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 13827,
+          "whitespace_teaching_words": 13782,
+          "word_count_method": "Lexical words in p.teaching-prose only; excludes figures, tables, practice, revision, references",
+          "teaching_paragraphs": 141,
+          "teaching_sections": 20,
+          "total_sections": 24,
+          "svg": 16,
+          "graphs_and_traces": 7,
+          "tables": 5,
+          "questions": 56,
+          "part_b": 20,
+          "part_c": 26,
+          "set": 10,
+          "misconceptions": 16,
+          "active_recall": 13,
+          "references": 15
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4,
+          "total": 95
+        },
+        "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.E vision; archived MP SET syllabus; Academy 7.E.03 node contract.",
+        "coverage_matrix": [
+          {
+            "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+            "microtopic": "Rod/cone morphology, pigment, photon capture and dark current",
+            "section": "signal, photon, cells, dark",
+            "evidence": "Membrane orientation, sensitivity, noise and net current",
+            "depth": "NET/SET",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+            "microtopic": "Photoisomerisation, transducin/PDE6/cGMP/CNG and graded voltage",
+            "section": "cascade, kinetics",
+            "evidence": "Molecular causal chain, Hill relationship, simultaneous messenger/current trace",
+            "depth": "NET/SET",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+            "microtopic": "Termination, calcium feedback, adaptation and visual cycle",
+            "section": "recovery, feedback, cycle, regeneration",
+            "evidence": "GRK1/arrestin, RGS, GCAP/RetGC, RPE65, dark adaptation and Purkinje shift",
+            "depth": "NET/SET",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+            "microtopic": "Colour signals and variants",
+            "section": "colour, spectral",
+            "evidence": "Cone opsins, univariance, trichromacy and opponency, metamerism and colour deficiencies",
+            "depth": "NET/SET",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+            "microtopic": "Retinal neurons and receptive fields",
+            "section": "retina, spatial, synapses",
+            "evidence": "mGluR6/TRPM1, OFF glutamate receptors, horizontal and amacrine cells, ganglion spikes",
+            "depth": "NET/SET",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
+            "microtopic": "Central pathways and evidence",
+            "section": "pathways, cortex, history, evidence, integration",
+            "evidence": "Chiasm/tract/LGN/radiations/V1, lesions and reflexes, single-photon and ERG evidence",
+            "depth": "NET/SET",
+            "status": "covered"
+          }
+        ],
+        "scientific_review": "Separate scientific review checked the rod/cone sign chain (light lowers cGMP, closes CNG, reduces inward current and glutamate), GRK/arrestin/RGS termination, calcium-dependent feedback, RPE retinoid regeneration, spectral weighting versus pigment absorption, retinal ON/OFF sign inversion, receptive-field antagonism, nasal fibre crossing and field defects. Recomputed representative current balance, Hill probabilities, exponential and Poisson calculations; graph data explicitly illustrative. Checked landmark Baylor, Kuffler and Wald sources; not all reference full texts independently reviewed.",
+        "editorial_review": "Separate editorial review reorganised historical evidence after mechanisms, removed redundant prose, added normalized flash and rod/cone traces and corrected axis labels, numbered figures, retained reader controls, built TOC, checked questions and explanations, and balanced answer letters A14/B14/C14/D14 without changing correct options. Comparable adjacent chapter 7.D.08 has 13,724 whitespace teaching words.",
+        "score_basis": "Internal 95/100: scientific -1 (not all full texts checked); diagrams -1 (no browser render); exam -1 (some direct distractors); accessibility -1 (runtime tests pending); technical -1 (live verification pending). Remaining dimensions supported by saved chapter and coverage matrix.",
+        "audit": "Re-fetched exact final HTML: unique IDs, resolved anchors and aria-labelledby references, balanced tags, JavaScript syntax compiled, distinct teaching paragraphs, four options and explanation per question; canonical and reader retained.",
+        "limitations": "Internal review only, not external peer review. MP SET archived syllabus comparison, current official-host copy not established. Full-text review of all references and runtime browser, mobile, keyboard, screen-reader and live deployment tests not independently completed. SVG source reviewed, not rendered in a browser.",
+        "audit_record": "curriculum/qa/7.E.03-publication-audit.md",
+        "next_unpublished_node_id": "7.E.04",
+        "concurrent_changes_reconciled": true,
+        "publication": {
+          "academy_published_count": 353,
+          "unit_published_count": 38,
+          "subunit_published_count": 4
+        }
       }
     },
-    "next_pending_node_id": "7.E.03",
-    "next_pending_node_title": "Phototransduction and Neural Processing of Vision",
+    "next_pending_node_id": "7.E.04",
+    "next_pending_node_title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
     "complete": false,
     "subunit_7a": {
       "published_node_ids": [
@@ -70136,33 +70351,31 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.E.06",
-      "title": "Tactile Sensation and Somatosensory Processing",
-      "chapter_path": "tactile-sensation-and-somatosensory-processing.html",
-      "working_branch": "draft/node-7e06-tactile-sensation-20261128",
-      "working_commit_sha": "49cc836c82e0c26447754dd2cd7b65cf42e25b73",
-      "draft_blob_sha": "706c178a3db0092d7da6b65818cc6f2f8e495954",
-      "chapter_blob_sha": "706c178a3db0092d7da6b65818cc6f2f8e495954",
+      "node_id": "7.E.02",
+      "title": "Visual System: Eye Anatomy and Physiological Optics",
+      "chapter_path": "visual-system-eye-anatomy-and-physiological-optics.html",
+      "chapter_blob_sha": "856faef383bcbb7830180ddd74a38d1575f9a120",
+      "working_branch": "draft/node-7-e-02-visual-optics-20261128",
+      "working_commit_sha": "f5611049d74403069d47d13b668f53ed3361a254",
       "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "8a956d3684a6df85dc610990ce674ab32d2d2e87",
+      "publication_base_sha": "69aca090650ddbbd8ec7c95982edbad793dfd848",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13625,
-        "word_count_method": "Whitespace tokens in p.teaching-prose only; excludes tables, figures, questions, revision and references",
-        "teaching_paragraphs": 143,
-        "teaching_sections": 11,
-        "total_sections": 15,
-        "svg": 11,
-        "graphs_and_traces": 5,
-        "tables": 3,
-        "questions": 53,
-        "part_b": 21,
-        "part_c": 27,
-        "set": 5,
-        "misconceptions": 15,
-        "active_recall": 12,
-        "references": 15
+        "genuine_teaching_words": 14323,
+        "teaching_paragraphs": 133,
+        "teaching_sections": 14,
+        "svg": 15,
+        "graphs": 2,
+        "tables": 6,
+        "questions": 52,
+        "part_b": 20,
+        "part_c": 24,
+        "set": 8,
+        "answer_explanations": 52,
+        "misconceptions": 17,
+        "active_recall": 14,
+        "references": 18
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -70177,65 +70390,80 @@
         "technical_seo": 4,
         "total": 95
       },
-      "syllabus_coverage": "January 2026 revised merged and separate CSIR syllabi Unit 7.E tactile responses; archived MP SET 2024 syllabus comparison. Academy node scope fully addressed; pain, temperature and proprioceptive motor control only contextual.",
+      "audit_record": "curriculum/qa/7.E.02-publication-audit.md",
+      "syllabus_coverage": "Official January 2026 revised merged and separate CSIR syllabus Unit 7.E; MP SET 2024 archived syllabus; Academy node contract.",
       "coverage_matrix": [
         {
-          "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-          "microtopic": "Cutaneous mechanoreceptors and hair follicles",
-          "section": "Sections 1–3",
-          "evidence": "Skin mechanics; SA1/RA1/RA2/SA2, receptor distribution, morphology and afferent firing",
-          "depth": "NET/SET",
+          "concept": "Comparative visual organs; eyespots and pigment cups",
+          "sections": "s1–s2",
+          "evidence": "Directional screening controls and light detection",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-          "microtopic": "Mechanotransduction and adaptation",
-          "section": "Sections 4–5",
-          "evidence": "Piezo2, receptor current, capsule filtering, static and dynamic responses, vibration",
-          "depth": "NET/SET",
+          "concept": "Compound eyes, ommatidia, apposition and superposition",
+          "sections": "s3",
+          "evidence": "Acceptance angle, sampling, photon pooling and noise",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-          "microtopic": "Spatial encoding and psychophysics",
-          "section": "Section 6",
-          "evidence": "Receptive fields, convergence, lateral inhibition and two-point threshold",
-          "depth": "NET/SET",
+          "concept": "Camera-type eyes; comparison of vertebrate and cephalopod eyes",
+          "sections": "s4",
+          "evidence": "Optical adaptations and aquatic versus aerial refraction",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-          "microtopic": "Afferent classes and pathways",
-          "section": "Sections 7–9",
-          "evidence": "Conduction latency, DCML crossing, thalamus, cortical representation",
-          "depth": "NET/SET",
+          "concept": "Sclera, cornea, choroid, aqueous, vitreous, iris, pupil, lens, ciliary muscle and zonules",
+          "sections": "s5–s6, s10–s11",
+          "evidence": "Optical route, tissue function and aqueous mass balance",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E tactile responses; Academy 7.E.06 contract",
-          "microtopic": "Comparative and experimental interpretation",
-          "section": "Sections 10–11",
-          "evidence": "Whiskers, insect sensory bristles, stimulus-control designs and numerical analysis",
-          "depth": "NET/SET",
+          "concept": "Retina, fovea, optic disc and blind spot",
+          "sections": "s7, s13",
+          "evidence": "Sampling and retinal magnification; controlled acuity comparisons",
+          "status": "covered"
+        },
+        {
+          "concept": "Refraction, focal length, dioptres, thin-lens model, image inversion",
+          "sections": "s8–s9",
+          "evidence": "Snell, surface power, vergence, thin-lens assumptions and worked examples",
+          "status": "covered"
+        },
+        {
+          "concept": "Accommodation; pupil and depth of field",
+          "sections": "s10–s11",
+          "evidence": "Ciliary mechanics, reciprocal distance, diffraction and blur",
+          "status": "covered"
+        },
+        {
+          "concept": "Pupillary light reflex",
+          "sections": "s12",
+          "evidence": "Direct and consensual responses, afferent/efferent interruption",
+          "status": "covered"
+        },
+        {
+          "concept": "Visual acuity; myopia, hyperopia, astigmatism and presbyopia",
+          "sections": "s13–s14",
+          "evidence": "MAR, Nyquist sampling, contrast and corrections; optical versus sensory limitation",
           "status": "covered"
         }
       ],
-      "scientific_review": "Distinct scientific pass checked receptor classes and uncertain Ruffini attribution, Piezo2/Merkel dual-site evidence, adaptation, receptive fields, conduction units, DCML decussation and thalamocortical relays. Numerical examples and examination keys reviewed, including inward current −120 pA, adaptation 42.07/28.12, vibration velocity 0.00157/0.0157 m/s, conduction 16/400 ms and 50 m/s, pressure 2000/20000 Pa, RC time 4 ms, weighted population centres 1.23 and 2. Illustrative datasets not represented as published measurements.",
-      "editorial_review": "Separate editorial pass checked 143 distinct paragraphs, sequential sections, reader and TOC, accessible SVG title/desc/viewBox, corrected DCML diagram, expanded explanation and revision, grouped 53 questions and balanced answers A14 B13 C13 D13, 15 misconceptions and 12 recall prompts. Re-fetched final blob: no duplicate IDs, broken anchors or unbalanced tags; all questions have four options and explanations. Adjacent 7.D.09 measured 13,726 words by comparable method.",
-      "score_basis": "Internal rubric 95/100: deductions for incomplete reference full-text review, no browser rendering of diagrams, some direct Part B distractors, no runtime accessibility testing, and no deployed-site verification. Coverage, depth, pedagogy, analytical reasoning and revision supported by the saved chapter.",
-      "audit": "Final saved HTML independently fetched; 13,625 prose words, 143 distinct paragraphs, 11 accessible SVGs, 53 explained questions; unique IDs, resolved local anchors and ARIA references, balanced HTML tags, one H1, canonical URL, index/follow; existing reader retained.",
-      "limitations": "Internal review, not external peer review. Archived MP SET syllabus comparison, not current official-host verification. Full texts of all references, browser/mobile/keyboard/screen-reader runtime and JavaScript execution were not independently tested. Direct live Pages verification pending.",
-      "audit_record": "curriculum/qa/7.E.06-publication-audit.md",
-      "next_unpublished_node_id": "7.E.02",
+      "scientific_review": "Internal scientific pass: checked eye anatomy and comparative optical strategies, directional screens, ommatidial isolation/pooling, vertebrate and cephalopod retinal arrangements, cornea/aqueous/lens/vitreous, fovea/disc, accommodation, iris and reflex pathway, refraction and acuity. Confirmed principal source records; corrected historical reference attribution and identified illustrative rather than measured datasets. Recalculated Snell angle 21.24°, anterior surface 48.21 D in air/5.51 D in water, reduced-eye back focal distance 22.27 mm, diffraction 0.769 arcmin; checked all 52 keyed options including calculations 0.333 cycles/degree, fractional noise 1/6→1/12, 47.5 D, 18 cm, 3 D, 3.5 D, 1/4, 40 μm, 0.75 arcmin, 1.72 arcmin, 9.9 μm, 8 μm, −2.5 D, 5.5 D, ±1.5 D, 0.50, 20 cm, 22.3 mm, +3 μL. Phototransduction reserved for 7.E.03.",
+      "editorial_review": "Separate internal editorial pass: checked progression from simple optical organs to anatomy, optical models, reflexes, resolution and disorders; revised schematic labels, responsive comparison tables, figure zoom and numerical graph. Preserved existing Academy reader shell. 133 distinct narrative paragraphs, 15 titled/described original SVG, two model graphs, six tables, 52 explained questions, 17 traps, 14 active recall prompts, revision and mastery. Answer distribution A13 B13 C14 D12; all four-option keys mapped.",
+      "audit": "Final saved HTML re-fetched: 14,323 whitespace-separated words in p.teaching-prose only, excluding headings, figures, tables, practice, revision and references; 133 unique paragraphs, zero duplicate IDs, broken fragment links, unresolved ARIA references, duplicate attributes or tag-stack errors. All 15 SVG have role img, title, description and viewBox; single H1, index/follow, canonical, dynamic adjacent-node controls, 52 valid four-option explanations, 18 references. Comparison: actual exemplar 7.B.03 has 13,872 whitespace teaching words.",
+      "limitations": "Internal review, not independent peer review; not every reference full text/external link verified. MP SET comparison uses archived 2024 syllabus copy rather than authenticated current commission-hosted document. Browser/mobile/keyboard/assistive-technology runtime and JavaScript execution not tested; no separately maintained dashboard identified. Pages deployment/live HTTP verification pending.",
+      "next_unpublished_node_id": "7.E.03",
       "concurrent_changes_reconciled": true,
       "publication": {
-        "strategy": "Atomic tree with non-force expected-HEAD update",
-        "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-        "publication_base_sha": "8a956d3684a6df85dc610990ce674ab32d2d2e87",
-        "subunit_published_after": 2,
-        "unit_published_after": 36,
-        "academy_published_after": 351,
-        "live_verification": "pending"
+        "mode": "one atomic conditional non-force main commit",
+        "academy_published_before": 351,
+        "academy_published_after": 352,
+        "unit07_published_after": 37,
+        "subunit7e_published_after": 3,
+        "prior_menu_links_preserved": 351,
+        "prior_sitemap_entries_preserved": 352,
+        "previous": "7.E.01",
+        "next_unpublished": "7.E.03"
       }
     },
     "subunit_7b": {
@@ -70289,9 +70517,10 @@
       "published_node_ids": [
         "7.E.01",
         "7.E.02",
+        "7.E.03",
         "7.E.06"
       ],
-      "published_node_count": 3,
+      "published_node_count": 4,
       "planned_node_count": 6,
       "complete": false
     }
@@ -70334,6 +70563,7 @@
   "unit7e_published_node_ids": [
     "7.E.01",
     "7.E.02",
+    "7.E.03",
     "7.E.06"
   ],
   "unit7e_planned_node_count": 6

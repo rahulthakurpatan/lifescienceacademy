@@ -1,0 +1,422 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index,follow"><meta name="description" content="Learn how cryo-EM particle projections become three-dimensional molecular maps, and compare structural evidence from cryo-EM, X-ray diffraction and NMR."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/cryo-electron-microscopy-and-integrated-structural-analysis.html"><title>Cryo-Electron Microscopy and Integrated Structural Analysis | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    .exam-question { border-bottom: 1px solid var(--border); padding: 0.8em 0 1.2em; } .exam-question details { background: var(--panel); border-radius: 10px; padding: 0.65em 0.9em; } .exam-question summary { cursor: pointer; font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: .84em; } .source-note { color: var(--muted); } .figure-panel svg { overflow: visible; }
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}.article-content figure{margin:1.5em 0;padding:1em;border:1px solid var(--border);border-radius:12px}.article-content figure svg{width:100%;height:auto;display:block}.article-content figcaption{font-size:.85em;color:var(--muted)}.article-content dt{margin-top:1em}.article-content dd{margin-left:0}.diagram-zoom{margin:.5rem 0;padding:.4rem .8rem;border:1px solid var(--border);background:var(--panel);color:var(--ink);border-radius:6px;cursor:pointer}
+</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 14</span><span>›</span><span>Sub-unit 14.B</span><span>›</span><strong>Node 05</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 14.B.05</span><span>Unit 14 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Cryo-Electron Microscopy and Integrated Structural Analysis</h1><p class="subtitle">From vitrified molecular specimens to three-dimensional maps, validation and complementary structural evidence.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: X-Ray Diffraction and Molecular Structure Determination">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Mass Spectrometry and Molecular Identification">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#motivation">Why molecules need structural evidence</a><a href="#vitrification">Vitrification and the preservation of hydrated structures</a><a href="#image-formation">Electron waves, contrast and the dose constraint</a><a href="#projection">Projection geometry and three-dimensional recovery</a><a href="#processing">Particle selection, alignment and classification</a><a href="#references">References</a></div><p class="toc-hint">Jump directly to a section.</p></aside><div class="note-wrap"><article data-node-id="14.B.05" class="reading-paper" aria-label="Cryo-Electron Microscopy and Integrated Structural Analysis study notes"><div class="article-content" id="article"><section id="motivation"><h2>Why molecules need structural evidence</h2><p class="teaching-prose">A protein sequence specifies the order of amino acids, but most biochemical functions depend on the positions of those amino acids in space. An enzyme must bring chemical groups together in an appropriate geometry; a ribosome must hold RNA and proteins in an arrangement that allows translation; a membrane channel must provide a route through a hydrophobic barrier while discriminating among solutes. Knowing molecular mass, sequence or activity therefore does not by itself establish the architecture that produces the activity. Structural biology addresses the missing spatial information, and its experiments produce evidence from which an arrangement of atoms or larger molecular units can be inferred.</p>
+<p class="teaching-prose">Imagine a soluble protein complex that binds a nucleotide and changes the distance between two of its domains. An activity assay detects a change in reaction rate when the nucleotide is added. A fluorescence experiment may reveal a changed environment near a labelled site. These observations are compatible with a domain movement, but they are also compatible with a local change around the label or a change in oligomeric state. A structural measurement can distinguish some of these possibilities by determining where the domains lie relative to one another. Even then, a structure is not a complete explanation of the reaction: the lifetime of an intermediate, the order of chemical events and the rate-limiting transition require other measurements.</p>
+<p class="teaching-prose">The structural methods introduced in this sequence differ in the physical quantities they observe. X-ray diffraction records scattering intensities from a crystalline array, which can be interpreted in terms of electron density after phase information is obtained. Solution nuclear magnetic resonance records signals from magnetic nuclei, from which relationships such as proximity and torsion angles can be inferred. Electron microscopy records the effect of a transmitted electron wave on an image detector. For suitably thin specimens and an appropriate image model, each particle image can be related to a projected molecular electrostatic potential. Combining observations collected from differently oriented particles makes the recovery of a three-dimensional map possible.</p>
+<p class="teaching-prose">A model is distinct from the experimental information used to construct it. In cryo-electron microscopy, a volume represents a numerical field sampled at points throughout space. A molecular model is usually a list of atomic coordinates, chemical identities and associated parameters. At sufficiently high local resolution it is possible to justify individual residue positions; at low resolution it may only be reasonable to establish the shape and location of a domain. A smooth atomic representation can be drawn at either resolution. Its visual attractiveness provides no independent evidence of accuracy. The correct question is what aspects of the representation are actually constrained by the measurements.</p>
+<p class="teaching-prose">The scales encountered in the chapter can be expressed in nanometres or ångströms. One nanometre equals ten ångströms, and one ångström equals 10⁻¹⁰ metre. Molecular assemblies such as ribosomes extend over many nanometres, whereas interatomic distances are measured in ångströms. An experiment resolving an overall molecular envelope can answer a question about subunit arrangement without resolving individual covalent bonds. Conversely, an accurate local view of a ligand pocket may reveal molecular recognition while saying little about the distribution of conformations throughout an assembly. Resolution must always be interpreted in relation to the scientific question.</p></section>
+<section id="vitrification"><h2>Vitrification and the preservation of hydrated structures</h2><p class="teaching-prose">Electron microscopes ordinarily operate with electrons travelling through a vacuum. A hydrated specimen cannot simply be introduced into this environment at room temperature: liquid water would be lost, and the intermolecular forces that maintain a native fold could be disturbed. The challenge is to preserve the arrangement of water and biomolecules while maintaining a specimen thin enough for transmission. Cryogenic electron microscopy tackles this problem by trapping the specimen in a solid, noncrystalline aqueous environment and maintaining low temperature during imaging.</p>
+<p class="teaching-prose">Water usually forms ordered ice when it freezes under ordinary conditions. In a crystalline solid, molecules occupy repeating positions, and the growth of a lattice can displace dissolved material and damage biological structures. If a thin aqueous layer is cooled sufficiently rapidly, the ordering process can be suppressed, producing amorphous or vitreous ice. Its molecular arrangement lacks the long-range periodicity of ordinary ice. This is why vitrification is not simply another name for freezing: it specifies the type of solid state obtained, not merely a temperature below the normal freezing point.</p>
+<p class="teaching-prose">The historical importance of this solution becomes clear when compared with earlier electron microscopy. Drying a biological specimen or surrounding it with a heavy-metal stain can provide a recognizable outline, but the resulting image may depend partly on how the stain occupies the space around the molecule. The development of vitrified aqueous preparations associated with Jacques Dubochet allowed biomolecular structures to be investigated in a hydrated, frozen state. Joachim Frank developed computational approaches to combine noisy views of particles, and Richard Henderson helped establish the potential of electron microscopy for fine structural determination. The three shared the 2017 Nobel Prize in Chemistry. The advances addressed different obstacles: the specimen must remain structurally meaningful, its measurements must contain interpretable information, and that information must be combined reliably.</p>
+<p class="teaching-prose">A cryo-EM grid is a small support that holds an electron-transparent layer of material. Many single-particle preparations place isolated molecules in thin aqueous films spanning holes in a supporting layer. The resulting vitreous film may contain many copies of the same molecular species. A useful region contains separated particles that do not extensively overlap along the beam direction. Thick ice adds scattering and reduces contrast; ice that is excessively thin may exclude particles or perturb them near an interface. The best ice thickness is therefore related to molecular size and stability rather than to a universal numerical value.</p>
+<p class="teaching-prose">The air-water interface is an important source of specimen bias. Molecules may adsorb at the interface, sometimes in a particular orientation. They can unfold partially, dissociate or become enriched in conformations different from those prevailing in bulk solution. This can occur before cooling immobilizes the specimen. Therefore the word native, when applied to a vitrified sample, indicates avoidance of certain preparation artifacts, not proof that all conformational equilibria are preserved. A comparison with independent solution measurements and a suitable functional assay can help establish whether the specimen remains representative.</p>
+<p class="teaching-prose">Consider a purified dimer that is active in a solution assay but appears predominantly monomeric in images. It is not justified to infer immediately that the enzyme is physiologically monomeric. One possibility is that sample dilution dissociates the dimer. Another is that the preparation interface disrupts the contact. A third is that an apparent monomer is an orientation of the dimer whose projected components overlap. Distinguishing these requires independent evidence for mass and oligomerization and multiple viewing directions. This example illustrates the difference between observing a feature in a preparation and attributing it to normal biological organization.</p>
+<p class="teaching-prose">Crystalline ice, aggregation, contamination and excessive overlap can each make images unsuitable for analysis, but they generate different patterns. Ordered ice may give sharp diffraction features; aggregates can appear as irregular clusters; overlap can produce projections that are not attributable to one molecule; and contamination can contribute unrelated contrast. Examining the micrographs and their Fourier transforms allows the researcher to reject regions that are unlikely to yield meaningful information. A clean grid is a necessary foundation, not a guarantee of a validated atomic structure.</p></section>
+<section id="image-formation"><h2>Electron waves, contrast and the dose constraint</h2><p class="teaching-prose">Electrons exhibit wave-like behaviour as well as carrying charge and momentum. The de Broglie relation expresses the wavelength as Planck's constant divided by momentum. The short wavelength of energetic electrons offers the possibility of resolving features much smaller than the wavelength of visible light. In a real electron microscope, however, wavelength alone does not set the achieved structural resolution. Lens aberrations, specimen scattering, radiation damage, detector sampling, motion and the distribution of particle orientations all influence the available information.</p>
+<p class="teaching-prose">A transmission electron microscope has an electron source, electromagnetic lenses that control and focus the beam, a specimen stage and a detector. Some electrons pass through the thin specimen with little change, while others interact with its electrostatic potential. Elastic scattering changes the direction and phase of the electron wave without a significant loss of its energy. Inelastic scattering transfers energy to the specimen and can contribute unwanted background and radiation damage. These distinctions explain why an electron micrograph is not a photograph made by light reflected from the surface of a molecule.</p>
+<p class="teaching-prose">Biological macromolecules are often weak phase objects. Their constituent light elements can shift the phase of a transmitted electron wave more strongly than they change its amplitude. A detector measures intensity rather than phase directly. Defocus and the imaging optics can convert part of this phase modulation into measurable intensity contrast through interference. Defocus is not simply a mistake in focusing: controlled defocus can increase visibility of particles, although the resulting transfer of structural detail depends on spatial frequency. Contrast transfer correction is necessary for high-resolution reconstruction.</p>
+<p class="teaching-prose">A spatial frequency describes how rapidly an image feature changes with distance. Broad domains contribute lower spatial frequencies, whereas fine repeated features contribute higher frequencies. The contrast transfer function describes the frequency-dependent relationship between object information and measured image contrast. Its oscillations mean that some frequencies are transferred with reversed sign and some are strongly attenuated or absent. If a frequency is at a transfer zero, correcting the sign of the measured signal does not recover information that was never transferred. Data acquired with different defocus values can supply complementary information because their zeros need not coincide.</p>
+<p class="teaching-prose">A simplified model for the Fourier transform of a particle image is I(k) = C(k)P(k) + n(k). Here k denotes spatial frequency, C is the contrast transfer function, P is the Fourier transform of the ideal projection and n represents noise. This linear expression assumes a sufficiently thin, weakly scattering specimen and omits complications that are not necessary for the present conceptual treatment. It separates two different problems: the image optics modulate the molecular signal, and random or structured errors are superimposed upon it. Changing the CTF model cannot remove all noise, and averaging images cannot compensate for a systematically incorrect CTF.</p>
+<p class="teaching-prose">The beam also changes the specimen that it is used to observe. Ionization and other damaging interactions can break chemical bonds or alter molecular groups. A low temperature slows some subsequent processes but does not abolish the initial interaction. Imaging therefore involves a trade-off: more detected electrons can improve counting statistics, yet accumulating dose can erase delicate molecular information. A single image of a biological macromolecule cannot be improved indefinitely by increasing exposure.</p>
+<p class="teaching-prose">Direct electron detectors have helped address this trade-off by recording a substantial fraction of incident electron information with good efficiency and by enabling time-resolved recording during an exposure. A sequence of frames can reveal relative movement of the ice and particles, which would otherwise blur details. Aligning frames can reduce motion blur, and weighting their information by accumulated dose can reduce the contribution of damaged high-frequency features. These procedures do not reconstruct a chemically intact specimen from one that has been destroyed; they make better use of the information recorded while it remains available.</p>
+<p class="teaching-prose">For an illustrative dose calculation, suppose an image covers an area of 40,000 Å² and a total of 800,000 incident electrons are distributed over it. The mean fluence is 800,000 divided by 40,000, or 20 electrons per Å². This is a count per area, not a measure of the energy absorbed by the specimen in gray. If a second image of equal area receives twice as many electrons, its nominal fluence is twice as large. It does not follow that its fine structural details will be twice as accurate, because damage and shot noise have different dependencies on exposure.</p>
+<p class="teaching-prose">Detector sampling creates another bound. If the specimen-scale pixel spacing is p ångströms, the highest non-aliased spatial frequency of an ideally sampled image is 1/(2p) Å⁻¹. Expressed as a real-space period, the Nyquist limit is 2p. Thus, at 1.2 Å per pixel, the sampling limit is 2.4 Å. This is a theoretical sampling bound, not an experimental resolution claim. A reconstruction may be much poorer because it contains insufficient reliable high-frequency information. An image enlargement on a monitor changes neither the original pixel spacing nor the experimental sampling limit.</p></section>
+<section id="projection"><h2>Projection geometry and three-dimensional recovery</h2><p class="teaching-prose">A single projection loses depth information because material at different positions along the beam contributes to the same image coordinate. In an idealized model, if V(x,y,z) represents the molecular potential and the electron beam travels along z, the projection P(x,y) is the integral of V along z. The result is a two-dimensional representation of a three-dimensional distribution. An elongated domain pointing along the beam can look compact, while the same domain viewed perpendicular to the beam can appear elongated. One view alone cannot establish the full shape.</p>
+<p class="teaching-prose">A familiar analogy is the shadow of a three-dimensional object cast onto a surface. A cylinder casts either a circle or a rectangle depending on its orientation. This makes the loss of depth intuitive, but a cryo-EM image differs from an ordinary shadow because its contrast depends on electron-wave interference and microscope transfer. The projection analogy concerns the ideal object information that is encoded in the image, not every intensity feature in the raw micrograph.</p>
+<p class="teaching-prose">Single-particle analysis exploits the repeated presence of copies of a molecular assembly. The copies occupy orientations in ice that can vary from particle to particle. The experiment collects images of many individual copies rather than rotating one isolated molecule through every possible angle. If the copies are sufficiently similar, different images can be treated as different projections of the same underlying structure. The problem is that the direction of each projection is initially unknown, and the images may be too noisy for direct visual assignment of their orientations.</p>
+<p class="teaching-prose">The Fourier slice theorem gives a useful explanation of how a projection constrains a volume. The two-dimensional Fourier transform of an ideal projection corresponds to a central plane through the three-dimensional Fourier transform of the object, perpendicular to the viewing direction. A second viewing direction supplies a different central plane. With adequate angular coverage, the planes populate three-dimensional frequency space, allowing an inverse transform to produce a volume estimate. The theorem does not require a student to perform a numerical reconstruction by hand; it explains why diverse orientations provide complementary evidence and why repeating one view cannot replace missing angles.</p>
+<p class="teaching-prose">In a simplified reconstruction, particle positions, shifts and orientations are estimated and the associated projection information is combined. Modern refinement procedures compare experimental images against calculated projections from a current estimate of the three-dimensional object. Agreement helps improve the assignment of orientation and translation, and the resulting set of assignments supports a revised volume estimate. Iterating this process can progressively recover structural detail. However, the procedure is an inference that depends on the reliability of starting assumptions, the images, their optical correction and the independence of validation data.</p>
+<p class="teaching-prose">An orientation in three-dimensional space requires three angular parameters, often expressed as Euler angles. Two angles specify the beam direction relative to the particle, while a third specifies rotation within the image plane. Two further parameters describe translations in the image plane. These parameters must not be confused with molecular conformational variables: rotating a rigid molecule changes the projection without changing its internal structure. A conformational change alters the relative positions of parts of the molecule even when its overall orientation is held fixed.</p>
+<p class="teaching-prose">Preferential orientation occurs if most particles lie in one or a few orientations. The resulting maps may resolve features in some directions better than in others. For example, if a flat assembly lies almost exclusively face-on, its lateral outline may be well constrained while its thickness remains poorly determined. Acquiring more copies of the same face-on orientation strengthens existing evidence but does not adequately fill the missing regions of frequency space. Collecting images from a broader set of orientations, where practicable, can address the cause rather than merely increasing the image count. A global resolution value alone may conceal this directional difference.</p>
+<p class="teaching-prose">The distinction from electron tomography is important. Tomography typically collects different tilted views of the same specimen region and can reconstruct a unique cellular volume or an individual object. Single-particle analysis combines images of many copies, each generally observed from one orientation. Tomographic data may have a restricted angular range, giving a missing wedge of information; single-particle data may suffer from preferential orientation. Both methods use projections, but their data collection and assumptions about averaging are different. The detailed cellular microscopy applications belong to the later microscopy subunit.</p></section>
+<section id="processing"><h2>Particle selection, alignment and classification</h2><p class="teaching-prose">A micrograph contains much more than the molecular projections that are ultimately used. It may include the supporting film, ice, contamination and particles at different positions. Particle picking identifies candidate molecular images, and extraction places each candidate into a small image region suitable for computation. It is essential to distinguish the count of candidates from the count of accepted particles. Some candidates may be unrelated objects, some may contain multiple particles, and some may represent poorly preserved molecules. Automated selection does not remove the need to examine the data.</p>
+<p class="teaching-prose">Two-dimensional alignment estimates the shifts and in-plane rotations needed to compare images. Suppose two identical projections differ only in their position on the detector. Averaging them without alignment blurs their boundaries, whereas alignment places corresponding features together. Alignment of fundamentally different views does not turn them into equivalent projections, so classification is required as well. Groups of similar projections can be averaged to enhance shared features, allowing the researcher to inspect recognizable structural motifs and identify groups that contain contaminants or damaged particles.</p>
+<p class="teaching-prose">The statistical benefit of averaging follows from the behaviour of independent noise. If N images contain an identical aligned signal and independent noise of variance σ², the average preserves the signal while the noise variance becomes σ²/N. Its standard deviation is σ divided by the square root of N. For an amplitude signal-to-noise ratio, this gives an improvement by √N; for a power ratio the improvement is N. These relationships assume unbiased independent noise, accurate alignment and an invariant underlying projection. If the input images contain shared systematic distortion, averaging does not remove that distortion.</p>
+<p class="teaching-prose">For example, if the amplitude signal-to-noise ratio for one ideal projection is 0.2, averaging 100 correctly aligned independent images of that projection gives an expected ratio of 0.2 × 10 = 2. Averaging 400 images gives 4 under the same ideal assumptions. This does not mean that the resolution doubles every time the signal-to-noise ratio doubles. High-frequency information, orientation accuracy and structural variability can be limiting independently of noise amplitude. A question that states only the particle count cannot determine the final experimental resolution.</p>
+<p class="teaching-prose">After candidate selection and initial classification, an initial three-dimensional map can be estimated. Refinement improves the map and the assigned viewing parameters. When the population includes different conformations, three-dimensional classification can separate subsets that are better represented by distinct structural estimates. Classification must be interpreted cautiously because algorithms can also create groups from differences in orientation coverage, noise or alignment quality. A class whose map appears different is an observation that requires interpretation, not automatically a new biological state.</p>
+<p class="teaching-prose">Symmetry can improve reconstruction when the molecular assembly possesses the assumed symmetry. If a homotetramer is exactly fourfold rotationally symmetric, equivalent views can constrain the same arrangement of subunits. The imposed symmetry reduces the number of independent structural parameters. But a ligand binding to one subunit, partial occupancy or an asymmetric conformational change may violate that symmetry. Imposing fourfold symmetry in such cases can smear the distinctive density across four positions. Comparison with a reconstruction in which the symmetry is not enforced can help determine whether the symmetry assumption is biologically justified.</p></section><section id="references"><h2>References</h2><ol><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4409659/">Cheng and colleagues, A Primer to Single-Particle Cryo-Electron Microscopy (2015).</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6442032/">Challenges and opportunities in cryo-EM single-particle analysis.</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8411978/">Validation, analysis and annotation of cryo-EM structures.</a></li><li><a href="https://www.ebi.ac.uk/emdb/va/">EMDB validation analysis.</a></li><li><a href="https://www.rcsb.org/docs/general-help/assessing-the-quality-of-3d-structures">RCSB PDB: Assessing the quality of 3D structures.</a></li><li><a href="https://www.nobelprize.org/prizes/chemistry/2017/summary/">Nobel Prize in Chemistry 2017.</a></li><li><a href="https://www.rcsb.org/structure/5T2C">RCSB PDB 5T2C: Human ribosome.</a></li><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">Revised CSIR–UGC–DBT NET syllabus, January 2026, Unit 14.B.</a></li></ol></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 14 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 14 · Methods in Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["14.B.04","previous-node","← "],["14.B.06","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

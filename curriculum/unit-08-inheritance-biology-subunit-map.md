@@ -238,3 +238,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 397/723; Unit 08: 14/36; 8.C: 4/8.
 - Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.C.06-publication-audit.md`.
+
+
+### Publication checkpoint — 2026-11-28 — 8.D.04
+
+- Published to production source: [Genetic Disorders and Human Disease Inheritance](https://rahulthakurpatan.github.io/lifescienceacademy/genetic-disorders-and-human-disease-inheritance.html).
+- Academic audit: 13,896 genuine teaching words; 14 original SVGs; 50 explained questions; 95/100 internal static review.
+- Audit record: `curriculum/qa/8.D.04-publication-audit.md`.
+- Reconciled counts: academy 398/723; Unit 08 15/36; Subunit 8.D 2/4.
+- Deployment and live verification pending.

@@ -118,3 +118,11 @@ All four explicit official topic groups have substantive assigned coverage. Supp
 - 13,499 lexical teaching words (13,512 whitespace), 136 distinct teaching paragraphs, 11 sections, 13 original SVGs (3 graphs), 6 tables, 52 explained questions (20 B / 22 C / 10 other), 20 misconceptions, 15 active recall prompts and 13 references.
 - Academy: 409/723; Unit 07: 76/90; 7.I: 5/6. Next global and subunit pending: 7.I.04 — Intestinal Absorption and Nutrient Transport.
 - Audit: `curriculum/qa/7.I.05-publication-audit.md`.
+
+
+### Publication checkpoint — 7.I.04 (2026-11-28)
+
+- 7.I.04 — [Intestinal Absorption and Nutrient Transport](https://rahulthakurpatan.github.io/lifescienceacademy/intestinal-absorption-and-nutrient-transport.html); internal scientific and editorial QA 95/100; final saved HTML static audit passed; Pages/live verification pending.
+- 14,834 genuine teaching words, 124 distinct teaching paragraphs, 15 sections, 15 original SVGs (2 graphs), 7 tables, 50 explained questions (20 B / 20 C / 10 SET), 20 misconceptions, 15 recall prompts, 21 references.
+- Academy: 410/723; Unit 07: 77/90; 7.I: 6/6, complete. Earliest pending: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.I.04-publication-audit.md`.

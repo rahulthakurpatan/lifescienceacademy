@@ -93,3 +93,11 @@ Develop the gene and allele concepts, use complementation to identify functional
 - Academy: 389/723; Unit 08: 6/36; 8.B: 1/5.
 - Earliest pending in 8.B: 8.B.02 — Complementation Tests and Functional Analysis of Genes; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.B.01-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 8.B.04
+
+- [8.B.04 — Functional Classification and Inheritance of Mutations](https://rahulthakurpatan.github.io/lifescienceacademy/functional-classification-and-inheritance-of-mutations.html) — production publication; Pages deployment verification pending.
+- Teaching words: 14,730; 12 original SVGs (5 graphs), 5 tables, 50 explained questions (20 Part B, 20 Part C, 10 SET), 18 misconceptions, 12 recall prompts, 13 references; internal QA 95/100.
+- Academy: 390/723; Unit 08: 7/36; 8.B: 2/5.
+- Earliest pending in 8.B: 8.B.02 — Complementation Tests and Functional Analysis of Genes; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.B.04-publication-audit.md`.

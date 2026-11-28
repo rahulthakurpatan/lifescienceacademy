@@ -196,3 +196,10 @@ All seven explicit topic groups have substantive assigned coverage. Supporting c
 - Academy: 377/723; Unit 07: 62/90; 7.J: 7/12.
 - Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.08-publication-audit.md`. Deployment verification pending.
+
+### Publication checkpoint — 7.J.11 (2026-11-28)
+
+- Chapter: [Reproductive Cycles, Ovulation and Hormonal Feedback](https://rahulthakurpatan.github.io/lifescienceacademy/reproductive-cycles-ovulation-and-hormonal-feedback.html); internal scientific and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 13,993 genuine teaching words, 141 distinct paragraphs, 11 teaching sections, 12 original SVGs (3 graphs), 5 tables, 55 original explained questions (25 B / 25 C / 5 additional), 17 misconceptions, 14 recall prompts and 16 reference entries.
+- Academy: 411/723; Unit 07: 78/90; 7.J: 8/12. Earliest global pending: 7.J.01 — Foundations of Endocrinology and Hormonal Communication; earliest in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.J.11-publication-audit.md`.

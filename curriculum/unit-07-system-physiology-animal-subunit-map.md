@@ -580,3 +580,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 14,834 genuine teaching words, 124 distinct teaching paragraphs, 15 sections, 15 original SVGs (2 graphs), 7 tables, 50 explained questions (20 B / 20 C / 10 SET), 20 misconceptions, 15 recall prompts, 21 references.
 - Academy: 410/723; Unit 07: 77/90; 7.I: 6/6, complete. Earliest pending: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.I.04-publication-audit.md`.
+
+### Publication checkpoint — 7.J.11 (2026-11-28)
+
+- Chapter: [Reproductive Cycles, Ovulation and Hormonal Feedback](https://rahulthakurpatan.github.io/lifescienceacademy/reproductive-cycles-ovulation-and-hormonal-feedback.html); internal scientific and editorial QA 95/100; saved HTML static audit passed; Pages/live verification pending.
+- 13,993 genuine teaching words, 141 distinct paragraphs, 11 teaching sections, 12 original SVGs (3 graphs), 5 tables, 55 original explained questions (25 B / 25 C / 5 additional), 17 misconceptions, 14 recall prompts and 16 reference entries.
+- Academy: 411/723; Unit 07: 78/90; 7.J: 8/12. Earliest global pending: 7.J.01 — Foundations of Endocrinology and Hormonal Communication; earliest in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.J.11-publication-audit.md`.

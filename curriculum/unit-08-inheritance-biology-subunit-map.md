@@ -230,3 +230,11 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Academy: 395/723; Unit 08: 12/36; 8.D: 1/4.
 - Earliest pending in 8.D: 8.D.02 — Human Linkage Analysis and LOD Scores; Unit 08: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.D.01-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 8.C.06
+
+- [8.C.06 — Bacterial Conjugation, Sexduction and Interrupted Mating](https://rahulthakurpatan.github.io/lifescienceacademy/bacterial-conjugation-sexduction-and-interrupted-mating.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,892; 12 original SVGs (2 graphs), 5 tables, 50 explained questions (20 Part B, 20 Part C, 10 additional), 17 misconceptions, 12 recall prompts, 10 references; internal static QA 95/100.
+- Academy: 397/723; Unit 08: 14/36; 8.C: 4/8.
+- Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.C.06-publication-audit.md`.

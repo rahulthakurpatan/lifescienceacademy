@@ -135,3 +135,11 @@ Progress from linkage and tetrad maps to marker-based mapping and plant populati
 - Academy: 397/723; Unit 08: 14/36; 8.C: 4/8.
 - Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.C.06-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 8.C.08
+
+- [8.C.08 — Fine-Structure Analysis of Genes](https://rahulthakurpatan.github.io/lifescienceacademy/fine-structure-analysis-of-genes.html) — production source publication; deployment and live verification pending.
+- Teaching words: 14,221 lexical (14,121 whitespace); 12 SVGs (1 graph), 4 tables, 57 explained questions (20 Part B, 27 Part C, 10 additional), 16 misconceptions, 13 recall prompts, 8 references; static QA 95/100.
+- Reconciled source progress: Academy 426/723; Unit 08 22/36; Subunit 8.C 5/8.
+- Earliest pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; Unit 08: 8.A.04 — Gene Interactions and Epistasis; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/8.C.08-publication-audit.md`.

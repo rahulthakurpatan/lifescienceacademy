@@ -327,3 +327,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Progress: 428/723 Academy, 24/36 Unit 08, 6/8 subunit 8.C.
 - Next pending in 8.C: 8.C.03 — Molecular Markers and Genetic Mapping Methods; global checkpoint: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/8.C.02-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.C.05
+
+- [8.C.05 — Bacterial Transformation and Genetic Mapping](https://rahulthakurpatan.github.io/lifescienceacademy/bacterial-transformation-and-genetic-mapping.html) — production source publication; Pages deployment and live verification pending.
+- 13,602 genuine teaching words (13,747 alternate lexical); 12 SVGs (2 graphs), 5 tables, 55 explained questions (20 B, 25 C, 10 additional), 16 misconceptions, 12 recall prompts, 11 references; internal static QA 95/100.
+- Reconciled source progress: Academy 429/723; Unit 08 25/36; Subunit 8.C 7/8.
+- Earliest pending in 8.C and Unit 08: 8.C.03 — Molecular Markers and Genetic Mapping Methods. Global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/8.C.05-publication-audit.md`.

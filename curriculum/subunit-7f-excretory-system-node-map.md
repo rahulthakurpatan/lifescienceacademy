@@ -128,3 +128,9 @@ All explicit official topic groups have substantive assigned coverage. Comparati
 - 7.F.03 — [Glomerular Filtration and Renal Haemodynamics](https://rahulthakurpatan.github.io/lifescienceacademy/glomerular-filtration-and-renal-haemodynamics.html); internal QA 95/100, static audit passed; Pages/live verification pending.
 - 14,612 lexical teaching words; 140 paragraphs; 12 original SVGs (3 graphs); 4 tables; 54 explained questions (20 Part B, 24 Part C, 10 SET); 18 misconceptions; 12 recall; 16 references. Audit: `curriculum/qa/7.F.03-publication-audit.md`.
 - Subunit 7.F: 4/8; Unit 07: 44/90; Academy: 359/723. Next global unpublished: 7.F.04 — Tubular Reabsorption, Secretion and Urine Formation.
+
+### Publication checkpoint — 2026-11-28 — 7.F.06
+
+- 7.F.06 — [Renal Regulation of Blood Volume, Blood Pressure and Electrolytes](https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html); recovered reviewed chapter from integration branch, original internal QA 95/100; production static ID and anchor checks passed; Pages/live verification pending.
+- 13,831 teaching words, 125 paragraphs, 12 SVGs, 4 tables, 54 explained questions; audit: `curriculum/qa/7.F.06-publication-audit.md`.
+- Subunit 7.F: 5/8; Unit 07: 45/90; Academy: 360/723. Next global unpublished: 7.F.04 — Tubular Reabsorption, Secretion and Urine Formation.

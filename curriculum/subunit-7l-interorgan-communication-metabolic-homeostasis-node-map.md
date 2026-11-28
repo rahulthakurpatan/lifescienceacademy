@@ -159,3 +159,11 @@ With 7.L mapped, all 12 subunits (7.A–7.L) have planned learning sequences, to
 - Academy: 421/723; Unit 07: 88/90; 7.L: 6/8.
 - Earliest pending in 7.L: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis; Unit 7 checkpoint: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis.
 - Audit: `curriculum/qa/7.L.06-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 7.L.02
+
+- [7.L.02 — Central Regulation of Appetite and Energy Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/central-regulation-of-appetite-and-energy-homeostasis.html) — production publication; Pages deployment verification pending.
+- Teaching words: 14,693 whitespace; 14,702 lexical; 13 original SVGs (2 graphs), 3 tables, 50 explained questions (20 B, 20 C, 10 SET/mixed), 17 misconceptions, 12 recall prompts, 13 references; internal QA 95/100.
+- Academy: 422/723; Unit 07: 89/90; 7.L: 7/8.
+- Earliest pending: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
+- Audit: `curriculum/qa/7.L.02-publication-audit.md`.

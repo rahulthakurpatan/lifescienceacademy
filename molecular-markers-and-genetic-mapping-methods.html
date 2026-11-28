@@ -1,0 +1,431 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index,follow"><meta name="description" content="Compare molecular markers and interpret genetic, physical and somatic cell hybrid maps across organisms."><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/molecular-markers-and-genetic-mapping-methods.html"><title>Molecular Markers and Genetic Mapping Methods | CSIR-NET Life Sciences | Life Science Academy</title><style>
+    .exam-question { border-bottom: 1px solid var(--border); padding: 0.8em 0 1.2em; } .exam-question details { background: var(--panel); border-radius: 10px; padding: 0.65em 0.9em; } .exam-question summary { cursor: pointer; font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: .84em; } .source-note { color: var(--muted); } .figure-panel svg { overflow: visible; }
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.article-content svg{width:100%;height:auto;max-width:640px;display:block;margin:auto}.article-content figure{margin:1.5rem 0;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}.article-content figcaption{font-size:.9rem;line-height:1.55}.table-wrap{overflow-x:auto}.article-content .question,.article-content .misconception{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:1rem;margin:1rem 0}.article-content table{width:100%;border-collapse:collapse}.article-content th,.article-content td{padding:.5rem;border:1px solid var(--border)}.article-content caption{font-weight:700;text-align:left;padding:.5rem}.article-content a{overflow-wrap:anywhere}.node-navigation span{color:var(--muted);padding:.5rem}.article-content summary{cursor:pointer}.article-content .question,.article-content .trap{background:var(--panel);border:1px solid var(--border);padding:1rem;margin:1rem 0;border-radius:12px}.article-content .answer{border-top:1px solid var(--border);padding-top:.5rem}.article-content .figure-panel svg{width:100%;max-width:720px}.article-content .figure-panel{overflow-x:auto}.article-content .figure-panel svg text{font-family:system-ui,sans-serif}.article-content .table-scroll table{min-width:360px}</style></head><body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 8</span><span>›</span><span>Sub-unit 8.C</span><span>›</span><strong>Node 03</strong>
+    </nav>
+    <div class="overview">
+      <div class="meta-row"><span class="pill">Node 8.C.03</span><span>Unit 8 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Molecular Markers and Genetic Mapping Methods</h1><p class="subtitle">From inherited DNA polymorphisms to marker-based linkage and chromosome assignment.</p>
+    </div>
+    
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node: Tetrad Analysis and Fungal Genetics">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node: Development of Genetic Mapping Populations">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page"><h2>On this page</h2><div class="toc-list"><a href="#foundations">Why geneticists need molecular markers</a><a href="#scoring">Dominant and codominant molecular scoring</a><a href="#rflp">Restriction fragment length polymorphism</a><a href="#rapd">Random amplified polymorphic DNA</a><a href="#aflp">Amplified fragment length polymorphism</a><a href="#ssr">Simple sequence repeats and microsatellites</a><a href="#snp">Single nucleotide polymorphism</a><a href="#maps">From marker inheritance to genetic and physical maps</a><a href="#organisms">Marker mapping across plants, animals and bacteria</a><a href="#hybrids">Somatic cell hybrid mapping and radiation hybrids</a><a href="#references">References</a></div><p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p></aside><div class="note-wrap"><article class="reading-paper" aria-label="Molecular Markers and Genetic Mapping Methods study notes"><div class="article-content" id="article"><section id="foundations"><h2>Why geneticists need molecular markers</h2><p class="teaching-prose">A chromosome contains many DNA sequences that cannot be distinguished by ordinary observation of an organism. Classical genetics follows visible differences such as flower colour, seed shape or a nutritional requirement. These differences can provide excellent landmarks, but there are relatively few readily scored traits, and each may depend on the environment, developmental stage or several genes. Molecular markers solve a different problem: they allow geneticists to follow inherited differences in DNA itself, even when the difference has no visible biological consequence. A marker therefore need not encode a protein or cause a phenotype. Its value is that its alternative forms can be distinguished reliably and can be followed through a suitable genetic experiment.</p>
+<p class="teaching-prose">Consider two plants whose chromosomes contain different DNA sequences at a particular site. If a cross produces offspring in which one of the two parental sequence forms can be identified, the investigator can determine which parental chromosome contributed that region. At another location, a sequence difference may mark a second region. Following both sites in many offspring reveals how frequently inheritance separates the two parental combinations. These observations are the molecular counterpart of the phenotype-based testcross developed in classical linkage analysis. The crucial innovation is the ability to observe differences that are ordinarily invisible, not a replacement of the underlying laws of chromosome inheritance.</p>
+<p class="teaching-prose">A locus is a defined genomic position or region; an allele is one of the alternative forms found at that locus. A polymorphism is sequence variation among individuals or chromosomes in a population. The operational definition used in a marker experiment depends on the assay: the actual difference might be a nucleotide substitution, an insertion, a deletion, a change in repeat number or a rearrangement affecting a larger fragment. If every individual in a particular cross carries the same marker allele, that marker is monomorphic within that experiment, even if it is highly variable in other populations. Informative polymorphism is thus a relationship between a marker and the biological material under study.</p>
+<p class="teaching-prose">It is useful to separate the DNA variant from the assay used to observe it. For example, a single nucleotide substitution might eliminate a restriction site, making two alleles distinguishable by restriction fragment length. The same substitution could instead be detected by sequencing or by an allele-specific assay. The biological variant is unchanged; the laboratory observation differs. Conversely, two fragments that migrate to the same position in a gel may have different sequences. An assay distinguishes the classes it was designed to distinguish, not necessarily every possible sequence at the locus.</p>
+<p class="teaching-prose">The essential logic of mapping is to connect an observation to an inference. An assay provides an observable signal, which is interpreted as a genotype. A collection of genotypes is interpreted through an inheritance model. A mapping analysis then estimates the position or relationship of a locus. Each inference introduces assumptions. Incorrect scoring, unknown parentage, a duplicated sequence or a biased sample can weaken the conclusion even when the DNA band itself is real. A good geneticist therefore asks not only whether a marker can be detected but whether its segregation can be interpreted unambiguously.</p></section>
+<section id="scoring"><h2>Dominant and codominant molecular scoring</h2><p class="teaching-prose">Diploid organisms generally have two homologous copies of an autosomal locus. If an assay can distinguish both alleles in a heterozygote, the marker is scored codominantly. Suppose one allele produces a fragment of 150 base pairs and a second allele produces a fragment of 158 base pairs. The two homozygotes have their respective fragment lengths, while a heterozygote has both. The observable genotype classes can therefore be recorded as AA, AB and BB. In an F2 from two homozygous parents, those classes are expected in proportions one quarter, one half and one quarter when Mendelian segregation occurs without viability or scoring biases.</p>
+<p class="teaching-prose">A dominant marker assay distinguishes the presence of a signal from its absence without distinguishing the two genotypes that carry at least one signal-producing allele. Suppose D produces a band and d does not. DD and Dd both score as present; dd scores as absent. In an F2 the expected observable ratio is three present to one absent under the same assumptions. This is dominance of the scored marker signal, not necessarily dominance of a biological phenotype. The underlying alleles may have no measurable physiological effect.</p>
+<p class="teaching-prose">Dominant markers can be informative in a carefully chosen cross. In a Dd by dd testcross, band-positive offspring are expected to be Dd and band-negative offspring dd. The two classes reveal the allele contributed by the heterozygous parent. In an F2, however, the band-positive class combines two genotypes and loses information. Treating all band-positive F2 individuals as heterozygotes would create false segregation patterns and may distort estimates of linkage.</p>
+<p class="teaching-prose">The distinction also affects evaluation of marker quality. A marker allele at a known locus may fail to produce a detectable band because an assay does not amplify it, a phenomenon often described as a null allele in PCR-based scoring. That is not automatically a loss-of-function mutation of a biological gene. A true heterozygote carrying one visible allele and one nonamplifying allele may be scored incorrectly as a homozygote. Replicate assays, family segregation, alternative primers and independent genotype checks can help distinguish assay failure from genuine homozygosity.</p>
+<p class="teaching-prose">An informative marker is not simply one with many alleles. A multiallelic marker that is identical in both experimental parents cannot track their different ancestry. A biallelic SNP can be completely informative when the parents are fixed for different alleles. For a population with allele frequencies p_i, expected heterozygosity under random mating is one minus the sum of squared allele frequencies. If two alleles each occur at frequency 0.5, expected heterozygosity is 0.5; if four alleles each occur at frequency 0.25, it is 0.75. These values describe population-level diversity and must not be mistaken for the probability of informative segregation in a specific family.</p></section>
+<section id="rflp"><h2>Restriction fragment length polymorphism</h2><p class="teaching-prose">Restriction enzymes recognize particular DNA sequences and cleave at defined positions relative to those sequences. A mutation can create or destroy a recognition site, or change the length of DNA between two sites. Consequently, homologous chromosomes may produce restriction fragments of different lengths when treated with the same enzyme. A restriction fragment length polymorphism, abbreviated RFLP, is the inherited difference in fragment size revealed by such an analysis.</p>
+<p class="teaching-prose">Imagine a genomic region bounded by two conserved restriction sites 8 kilobases apart. One allele contains an additional site 3 kilobases from the left boundary, whereas the other does not. Complete digestion yields fragments of 3 and 5 kilobases from the first allele and one fragment of 8 kilobases from the second. A probe complementary to a unique sequence lying entirely within the left 3-kilobase interval detects the 3-kilobase fragment in one allele and the 8-kilobase fragment in the other. It does not detect the 5-kilobase fragment because that fragment lacks the complementary sequence. A heterozygote therefore displays the 3- and 8-kilobase signals. The sum of detected band lengths need not equal the total genomic region length, because the probe selectively reveals fragments containing its target.</p>
+<p class="teaching-prose">Classical genomic RFLP analysis separates restriction fragments by electrophoresis and detects selected fragments through Southern hybridization. A genome contains a very large number of restriction fragments; detecting every fragment as a simple collection of DNA bands would not normally identify a particular locus. Hybridization supplies sequence specificity. A unique probe gives a much more interpretable pattern than a repetitive probe that binds many unrelated regions. For an appropriate single-copy locus, the two homologous allele forms can often be distinguished codominantly.</p>
+<p class="teaching-prose">The 1980 proposal by Botstein and colleagues showed how restriction fragment polymorphisms could provide landmarks for constructing human linkage maps without requiring each marker to produce a visible trait. The logic was especially important for human genetics, where controlled crosses cannot be performed. DNA polymorphisms could be followed through existing pedigrees, and linkage between an unknown disease locus and informative markers could narrow the search for the gene. Linkage indicated a chromosomal neighbourhood, not a functional identity between the marker and the disease gene.</p>
+<p class="teaching-prose">Incomplete restriction digestion is an important confounder. A partially digested sample may contain a larger fragment even when the corresponding fully digested allele lacks it. If an investigator calls the larger product a new allele without verifying digestion, the apparent genotypes can become systematically wrong. Multiple independent markers, complete-digestion controls and known reference genotypes provide complementary checks. RFLP approaches are generally locus-specific and reproducible when well designed, but classical Southern-based analysis is relatively labour intensive and requires suitable DNA and probes. PCR-based restriction assays can interrogate smaller predefined regions and should be distinguished from the original genomic Southern approach.</p><figure class="figure-panel"><svg viewBox="0 0 640 180" width="100%" role="img" aria-label="An extra site divides an 8 kb region into 3 kb and 5 kb; the left-hand probe detects 3 kb or 8 kb."><title>Restriction-site polymorphism</title><g fill="none" stroke="currentColor" stroke-width="2"><path d="M90 40H570V40"/><path d="M90 100H570V100"/><path d="M90 28v24"/><path d="M270 28v24"/><path d="M570 28v24"/><path d="M90 88v24"/><path d="M570 88v24"/><path d="M120 50h65 M120 110h65" stroke="#38a169" stroke-width="6"/><text x="5" y="44" fill="currentColor" stroke="none" font-size="14">Allele A</text><text x="5" y="104" fill="currentColor" stroke="none" font-size="14">Allele B</text><text x="155" y="22" fill="currentColor" stroke="none" font-size="14">3 kb</text><text x="390" y="22" fill="currentColor" stroke="none" font-size="14">5 kb</text><text x="310" y="85" fill="currentColor" stroke="none" font-size="14">8 kb</text><text x="120" y="145" fill="currentColor" stroke="none" font-size="14">Green segment: probe target</text></g></svg><figcaption>An extra site divides an 8 kb region into 3 kb and 5 kb; the left-hand probe detects 3 kb or 8 kb.</figcaption></figure></section>
+<section id="rapd"><h2>Random amplified polymorphic DNA</h2><p class="teaching-prose">RAPD, or random amplified polymorphic DNA, uses short primers of arbitrary sequence to sample anonymous regions of a genome. A detectable amplification product requires compatible primer binding positions in opposite orientations and within an amplifiable distance. A nucleotide change affecting a primer-binding site, or a change in the length or arrangement of the intervening sequence, can alter the resulting band pattern. The investigator does not need to know the complete sequence of the target regions before selecting the arbitrary primer.</p>
+<p class="teaching-prose">A single reaction may reveal several products from different genomic locations. Each reliably resolved band may be treated as an individual candidate marker, but the bands are not automatically alleles of the same locus. An individual producing four bands and another producing three have not necessarily gained or lost a whole gene. The observed difference might reflect a small primer-binding variant, an amplification competition effect or a genuine larger genomic alteration. Only segregation and additional characterization can establish how a particular band should be interpreted.</p>
+<p class="teaching-prose">Most RAPD bands are scored as dominant presence or absence markers. If the homologous chromosome in a diploid lacks the amplifiable configuration, it may contribute no visible signal, while the other chromosome supplies the band. A heterozygote and a homozygote carrying the amplified allele then appear the same. Consequently, the choice of mapping population and segregation model becomes critical. The ease of surveying variation must be balanced against loss of genotype information.</p>
+<p class="teaching-prose">RAPD profiles can be sensitive to technical conditions. A weak or inconsistent band is poor evidence of heritable polymorphism. If the same DNA sample yields different profiles in independent observations, a biological explanation is not warranted until technical variability has been excluded. Conversely, repeated observation of a band difference, followed by inheritance in the predicted classes, strengthens the case for a genetic marker. Conversion of an informative anonymous band into a sequence-characterized locus can improve specificity; that is a distinct follow-up strategy rather than an intrinsic property of every RAPD band.</p></section>
+<section id="aflp"><h2>Amplified fragment length polymorphism</h2><p class="teaching-prose">AFLP combines restriction digestion with selective amplification of a subset of the resulting DNA fragments. Adaptors provide known sequence elements at restriction-fragment ends, allowing primers to target those fragments. Additional selective bases at primer ends reduce the number of amplified fragments, creating a reproducible subset of genomic products that can be resolved as a profile. This is a conceptual description of the relationship between fragmentation and detection, not a laboratory recipe.</p>
+<p class="teaching-prose">The essential difference between AFLP and RAPD is the source of primer-defined specificity. RAPD relies on arbitrary primer-binding sites distributed in the genome. AFLP first defines a collection of restriction fragments, then selects subsets through adaptor-associated primers. Polymorphism may alter restriction sites, selective-primer matching or fragment lengths. Because many fragments can be surveyed in one profile, AFLP has been useful when researchers need genome-wide marker coverage without an existing detailed reference sequence.</p>
+<p class="teaching-prose">AFLP bands are commonly scored as dominant markers. This does not mean codominant information is physically impossible; under some circumstances corresponding length alleles can be identified. Nevertheless, anonymous presence or absence scoring is typical, and one should not infer a three-genotype classification merely because the gel contains many bands. Like RAPD, coincident migration of distinct fragments can create apparent identity, especially when comparing evolutionarily distant genomes.</p>
+<p class="teaching-prose">Vos and colleagues described AFLP in 1995. Its historical significance lies in combining the reproducible sequence recognition of restriction digestion with the efficiency of selective DNA amplification. A researcher comparing AFLP with an older RFLP system should distinguish the number of loci sampled per assay from the information available at each locus. A dense set of dominant AFLP markers may be more useful for a coarse genome survey than a handful of codominant markers, while an individual codominant marker can offer clearer inference of heterozygosity. Neither method is universally superior.</p></section>
+<section id="ssr"><h2>Simple sequence repeats and microsatellites</h2><p class="teaching-prose">Simple sequence repeats are tandem arrays of short DNA motifs, often one to six nucleotides long. They are commonly called microsatellites or short tandem repeats. A locus containing eight copies of the motif CA differs in length from the corresponding locus containing twelve copies if the flanking regions are otherwise unchanged. Replication-associated slippage is an important source of variation in repeat number. Different repeat counts may persist as alternative alleles in populations.</p>
+<p class="teaching-prose">A locus-specific assay ordinarily uses the relatively conserved sequences flanking the repeat. Suppose the total flanking contribution to an amplified fragment is 120 base pairs. The eight-repeat allele has length 120 + 2 × 8 = 136 base pairs, whereas the twelve-repeat allele has length 144 base pairs. The predicted heterozygote contains both products. The difference of eight base pairs corresponds to four repeat units, not eight repeat units. This simple calculation connects an electrophoretic size measurement with a molecular model of the allele.</p>
+<p class="teaching-prose">Microsatellites are attractive in linkage experiments because one locus may contain several alleles. In a family where both parents have different repeat-length alleles, transmission of each parental copy can often be inferred. However, fragment length is not a unique sequence identifier. Independent changes can produce the same length, and an insertion in flanking DNA may alter product length without changing the repeat count. The size class must be interpreted as a measured marker allele rather than a complete sequence description.</p>
+<p class="teaching-prose">PCR slippage can generate minor products called stutter peaks or bands, often differing by one repeat unit from a main product. A stutter product is not evidence of a third inherited allele in an ordinary diploid. Calling alleles requires a reliable interpretation of the signal pattern and awareness of the assay's resolution. Flanking-sequence variation can also lead to nonamplifying alleles. Such errors are especially important when an apparent homozygote has unexpected segregation among offspring. The biological model and the technical observation must be checked together.</p><figure class="figure-panel"><svg viewBox="0 0 640 180" width="100%" role="img" aria-label="Eight CA repeats produce a shorter allele than twelve CA repeats with identical flanking DNA."><title>Microsatellite length</title><g fill="none" stroke="currentColor" stroke-width="2"><rect x="70" y="30" width="100" height="22"/><rect x="170" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="193" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="216" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="239" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="262" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="285" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="308" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="331" y="30" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="354" y="30" width="100" height="22"/><text x="5" y="47" fill="currentColor" stroke="none" font-size="14">8 CA</text><rect x="70" y="105" width="100" height="22"/><rect x="170" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="193" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="216" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="239" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="262" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="285" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="308" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="331" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="354" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="377" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="400" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="423" y="105" width="23" height="22" fill="#38a169" fill-opacity=".28"/><rect x="446" y="105" width="100" height="22"/><text x="5" y="122" fill="currentColor" stroke="none" font-size="14">12 CA</text><text x="70" y="166" fill="currentColor" stroke="none" font-size="14">Flanks are unchanged; repeat count determines length.</text></g></svg><figcaption>Eight CA repeats produce a shorter allele than twelve CA repeats with identical flanking DNA.</figcaption></figure></section>
+<section id="snp"><h2>Single nucleotide polymorphism</h2><p class="teaching-prose">A single nucleotide polymorphism, abbreviated SNP, is a variable nucleotide position in a set of homologous sequences. For example, a reference sequence may contain an A at a position where another chromosome carries G. A diploid individual's genotype at that position could be AA, AG or GG, provided the locus is autosomal, diploid and uniquely assayed. A SNP is often biallelic, although more than two nucleotide states can exist in a population.</p>
+<p class="teaching-prose">A SNP can be synonymous, nonsynonymous, regulatory or located in a region with no known direct function. The classification of the sequence difference depends on its genomic context, while its usefulness as a marker depends on whether the alternative forms can be scored and inherited informatively. A neutral SNP may be linked to a causal variant and can therefore track a trait. A functional SNP may have no detectable association with the trait under study. The word marker does not imply pathogenicity, benefit or functional neutrality.</p>
+<p class="teaching-prose">Genotyping can be based on sequencing, allele-specific hybridization or other sequence-discriminating methods. Unlike fragment length scoring, the intended observation is the nucleotide identity at a defined position. A dense collection of SNPs can provide fine coverage of a genome. Nevertheless, a high number of markers does not create new meiotic crossovers. If several closely spaced SNPs are transmitted together in every sampled individual, they provide essentially the same segregation information for that family. They may delimit a physical interval but cannot resolve gene order within it by linkage data alone.</p>
+<p class="teaching-prose">Missing genotype calls should be distinguished from confirmed absence of an allele. A sample with insufficient evidence for a genotype must not automatically be labelled homozygous reference. Systematic missingness in one genotype class can distort segregation ratios and create apparent linkage. When interpreting a genotype matrix, investigators need to distinguish biological variation from measurement uncertainty before calculating recombination frequencies.</p></section>
+<section id="maps"><h2>From marker inheritance to genetic and physical maps</h2><p class="teaching-prose">A genetic map represents relative positions inferred from inheritance, usually expressed in centimorgans. A physical map represents locations or distances along DNA, expressed in base pairs or their multiples. Although they describe the same chromosome, they are not proportional scales. Recombination probability varies along chromosomes because crossover events are not uniformly distributed. Two regions with the same physical length may therefore have very different genetic lengths.</p>
+<p class="teaching-prose">Suppose a testcross has 500 offspring, of which 40 carry recombinant combinations at two codominant markers. The observed recombination fraction is 40 divided by 500, or 0.08. For a short interval this is approximately 8 centimorgans. The estimate assumes informative phase, accurate genotyping and no differential recovery of the parental and recombinant classes. A longer interval can contain multiple crossovers, including events that restore the parental arrangement at the two outer markers. Consequently, simple percentage recombination increasingly underestimates map distance as intervals become larger.</p>
+<p class="teaching-prose">Consider an illustrative comparison in which markers A and B are 2 megabases apart but genetically separated by 1 centimorgan, while B and C are 2 megabases apart and genetically separated by 8 centimorgans. Both physical intervals are equal, but the inferred recombination rates are 0.5 and 4 centimorgans per megabase. The second interval has the greater observed rate. This does not demonstrate that every base in the second interval has an eightfold higher recombination probability; the average can reflect a localized hotspot, differences in chromatin or a variety of other factors.</p>
+<p class="teaching-prose">Marker density and recombination sample size impose different limits. Increasing density supplies more landmarks at which to detect crossovers that actually occurred. Increasing the number of informative meioses increases the opportunity to observe crossovers within a short region. If no recombinants appear among 100 independent informative gametes, this is evidence that the fraction is low, but not proof of zero recombination or identical physical coordinates. Under a binomial model, the probability of zero observed recombinants at true fraction r is (1 − r)^100. At r = 0.01 this probability is approximately 0.366. A one-percent recombinant fraction is therefore quite compatible with the observation of zero in such a sample.</p><figure class="figure-panel"><svg viewBox="0 0 640 180" width="100%" role="img" aria-label="Equal 2 Mb physical intervals correspond to unequal genetic intervals of 1 and 8 cM in this hypothetical example."><title>Genetic versus physical scales</title><g fill="none" stroke="currentColor" stroke-width="2"><path d="M70 40H570V40"/><path d="M70 120H570V120"/><path d="M70 30v20"/><path d="M320 30v20"/><path d="M570 30v20"/><path d="M70 110v20"/><path d="M126 110v20"/><path d="M570 110v20"/><text x="70" y="20" fill="currentColor" stroke="none" font-size="14">A</text><text x="320" y="20" fill="currentColor" stroke="none" font-size="14">B</text><text x="570" y="20" fill="currentColor" stroke="none" font-size="14">C</text><text x="160" y="65" fill="currentColor" stroke="none" font-size="14">2 Mb</text><text x="410" y="65" fill="currentColor" stroke="none" font-size="14">2 Mb</text><text x="77" y="150" fill="currentColor" stroke="none" font-size="14">1 cM</text><text x="320" y="150" fill="currentColor" stroke="none" font-size="14">8 cM</text></g></svg><figcaption>Equal 2 Mb physical intervals correspond to unequal genetic intervals of 1 and 8 cM in this hypothetical example.</figcaption></figure></section>
+<section id="organisms"><h2>Marker mapping across plants, animals and bacteria</h2><p class="teaching-prose">In plant genetics, crossing two lines with contrasting marker alleles and a trait of interest creates progeny in which recombination can separate the trait locus from adjacent markers. Selfing, backcrossing or the production of fixed mapping lines changes the distribution of genotype classes and the amount of recombination represented. The choice of population is addressed in the next node. For the present analysis, the key point is that the marker must distinguish parental ancestry and the inheritance model must correspond to the cross actually performed.</p>
+<p class="teaching-prose">Animal linkage mapping may use controlled crosses in model species, existing pedigrees in humans or other documented family structures. A marker informative in one family may be uninformative in another, and sex-specific recombination rates may influence genetic distances. A rare trait can be followed with linked markers even if the trait's underlying molecular variant remains unknown. The association between a marker and a trait in a pedigree depends on the parental phase; the same marker allele can be associated with the alternate trait allele in another family.</p>
+<p class="teaching-prose">Bacteria generally do not undergo the diploid meiosis on which conventional eukaryotic linkage maps are based. A molecular difference can still mark a chromosomal region, and sequence comparisons can establish physical coordinates. Transfer and recombination events may also reveal relationships between markers. The interpretation depends on the process supplying the inherited DNA, such as transformation, conjugation or transduction, each of which has its own mapping assumptions. A bacterial co-transfer fraction cannot simply be substituted into a eukaryotic centimorgan calculation. Subsequent nodes treat the distinct transfer models in greater depth.</p>
+<p class="teaching-prose">Across all three systems, marker association is an observation that requires explanation. A marker may predict a phenotype because it is causal, because it is linked to a causal allele, because it is associated with ancestry, or because of sampling and scoring artifacts. An experimentally observed association is strongest when alternative explanations are addressed by the design. Linkage analysis can localize a gene, but identifying a causal change requires independent evidence connecting sequence, function and phenotype.</p></section>
+<section id="hybrids"><h2>Somatic cell hybrid mapping and radiation hybrids</h2><p class="teaching-prose">Somatic cell hybrid mapping uses a different type of genetic evidence from a meiotic cross. Cells from different species, classically human and rodent cells, can produce hybrids containing genetic material from both parental species. During propagation, different hybrid cell lines may retain different subsets of human chromosomes. If a human-specific gene product or DNA marker is detected only in lines retaining one particular human chromosome, the chromosome-retention pattern supports assignment of the locus to that chromosome.</p>
+<p class="teaching-prose">Consider six hypothetical hybrid lines. Human chromosome 3 is retained in lines 1, 2 and 5; chromosome 7 in lines 1, 3 and 5; and the human-specific marker is detected in lines 1, 2 and 5. The marker and chromosome 3 have perfect concordance in this small panel: all three chromosome-positive lines are marker-positive and all three chromosome-negative lines are marker-negative. Chromosome 7 has two discordant lines: line 2 lacks the chromosome despite the marker being present, and line 3 retains the chromosome despite absence of the marker. The result favours chromosome 3, conditional on accurate chromosome and marker scoring.</p>
+<p class="teaching-prose">Concordance is the proportion of lines in which marker and chromosome are both present or both absent. Discordance is the proportion in which their presence states differ. Here chromosome 3 has concordance 6/6 and chromosome 7 has concordance 4/6. If two chromosomes have identical retention patterns, both receive the same concordance score, and the panel cannot distinguish them. More independently informative hybrid lines or additional chromosomal information are needed.</p>
+<p class="teaching-prose">A human chromosome assignment is not necessarily a precise gene position within that chromosome. Chromosomes can be lost, retained as fragments or rearranged, and gene-product expression can be influenced by the hybrid cellular context. A DNA-based assay of a human-specific sequence may avoid some expression-dependent ambiguity, but it does not eliminate errors arising from chromosome characterization. A strong interpretation requires evidence that the measured marker and retained chromosome segment are correctly identified.</p>
+<p class="teaching-prose">Radiation hybrid mapping extends the retention principle to chromosome fragments. Chromosomal DNA is broken, and independently retained fragments create patterns of co-retention across hybrid lines. Nearby loci are more likely than distant loci to remain on the same unbroken fragment under the model, so patterns of joint retention can be used to infer relative proximity. Radiation hybrid distance depends on breakage and retention, not on meiotic crossover frequency. The centiray is a model-dependent radiation hybrid map unit; it must not be equated with the centimorgan or with a fixed number of base pairs. Radiation hybrid analysis provides historical and conceptual context for physical localization without requiring detailed computational treatment at this level.</p><figure class="figure-panel"><svg viewBox="0 0 640 180" width="100%" role="img" aria-label="Six hypothetical hybrid lines show complete agreement between the marker and chromosome 3, but two disagreements with chromosome 7."><title>Chromosome retention</title><g fill="none" stroke="currentColor" stroke-width="2"><text x="10" y="25" fill="currentColor" stroke="none" font-size="14">Line</text><text x="135" y="25" fill="currentColor" stroke="none" font-size="14">1</text><text x="209" y="25" fill="currentColor" stroke="none" font-size="14">2</text><text x="283" y="25" fill="currentColor" stroke="none" font-size="14">3</text><text x="357" y="25" fill="currentColor" stroke="none" font-size="14">4</text><text x="431" y="25" fill="currentColor" stroke="none" font-size="14">5</text><text x="505" y="25" fill="currentColor" stroke="none" font-size="14">6</text><text x="10" y="63" fill="currentColor" stroke="none" font-size="14">Chr 3</text><text x="135" y="63" fill="currentColor" stroke="none" font-size="14">+</text><text x="209" y="63" fill="currentColor" stroke="none" font-size="14">+</text><text x="283" y="63" fill="currentColor" stroke="none" font-size="14">−</text><text x="357" y="63" fill="currentColor" stroke="none" font-size="14">−</text><text x="431" y="63" fill="currentColor" stroke="none" font-size="14">+</text><text x="505" y="63" fill="currentColor" stroke="none" font-size="14">−</text><text x="10" y="101" fill="currentColor" stroke="none" font-size="14">Chr 7</text><text x="135" y="101" fill="currentColor" stroke="none" font-size="14">+</text><text x="209" y="101" fill="currentColor" stroke="none" font-size="14">−</text><text x="283" y="101" fill="currentColor" stroke="none" font-size="14">+</text><text x="357" y="101" fill="currentColor" stroke="none" font-size="14">−</text><text x="431" y="101" fill="currentColor" stroke="none" font-size="14">+</text><text x="505" y="101" fill="currentColor" stroke="none" font-size="14">−</text><text x="10" y="139" fill="currentColor" stroke="none" font-size="14">Marker</text><text x="135" y="139" fill="currentColor" stroke="none" font-size="14">+</text><text x="209" y="139" fill="currentColor" stroke="none" font-size="14">+</text><text x="283" y="139" fill="currentColor" stroke="none" font-size="14">−</text><text x="357" y="139" fill="currentColor" stroke="none" font-size="14">−</text><text x="431" y="139" fill="currentColor" stroke="none" font-size="14">+</text><text x="505" y="139" fill="currentColor" stroke="none" font-size="14">−</text></g></svg><figcaption>Six hypothetical hybrid lines show complete agreement between the marker and chromosome 3, but two disagreements with chromosome 7.</figcaption></figure></section>
+<section id="references"><h2>References</h2><ul><li><a href="https://www.ncbi.nlm.nih.gov/books/NBK21116/">Brown, T. A. Genomes, 2nd edition: Mapping Genomes.</a> NCBI Bookshelf.</li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8569399/">Basic concepts and methodologies of DNA marker systems in plant molecular breeding.</a></li><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">Revised CSIR–UGC–DBT NET Life Sciences and Biotechnology syllabus, Unit 8.</a></li></ul></section></div></article><nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 8 curriculum</a></nav></div></div><footer class="site-footer">Life Science Academy · Unit 8 · Inheritance Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      
+      
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["8.C.02","previous-node","← "],["8.C.04","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+
+
+
+
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" ")); copy.querySelectorAll("*").forEach(el=>Array.from(el.attributes).forEach(attr=>{if(attr.value.includes("url(#"))el.setAttribute(attr.name,attr.value.replace(/url\(#([^\)]+)\)/g,(_,id)=>"url(#zoom-"+id+")"))}));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

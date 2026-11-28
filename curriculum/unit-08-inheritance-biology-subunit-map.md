@@ -212,3 +212,12 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Internal static QA: 95/100; 13,623 genuine teaching words; 13 SVGs; 55 explained questions (20 Part B, 25 Part C, 10 SET).
 - [Publication audit](qa/8.B.03-publication-audit.md).
 - Pages/live verification pending at commit creation.
+
+
+## Publication checkpoint — 2026-11-28 — 8.C.01
+
+- [8.C.01 — Linkage Mapping and Recombination Analysis](https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,312; 10 original SVGs (4 graphs), 5 tables, 58 explained questions (23 Part B, 30 Part C, 5 SET), 18 misconceptions, 14 recall prompts, 8 references; internal static QA 95/100.
+- Academy: 393/723; Unit 08: 10/36; 8.C: 1/8.
+- Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.C.01-publication-audit.md`.

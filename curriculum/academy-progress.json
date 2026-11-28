@@ -4,16 +4,16 @@
   "unit": "08",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "8.B.03",
-  "title": "Molecular Basis and Causes of Mutations",
-  "subunit": "8.B",
-  "topic": "Molecular Basis and Causes of Mutations",
-  "slug": "molecular-basis-and-causes-of-mutations",
+  "node_id": "8.C.01",
+  "title": "Linkage Mapping and Recombination Analysis",
+  "subunit": "8.C",
+  "topic": "Linkage Mapping and Recombination Analysis",
+  "slug": "linkage-mapping-and-recombination-analysis",
   "next_pending_node_id": "7.F.08",
   "next_pending_node_title": "Waste Elimination, Micturition and Integrated Renal Homeostasis",
-  "published_node_count": 392,
+  "published_node_count": 393,
   "publication_allowed": true,
-  "main_baseline_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
+  "main_baseline_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue earliest pending node.",
   "planned_node_count": 36,
@@ -21,153 +21,136 @@
   "architecture_version": "unit-08-inheritance-biology",
   "curriculum_roadmap": "curriculum/unit-08-inheritance-biology-subunit-map.md",
   "last_qa": {
-    "node_id": "8.B.03",
-    "title": "Molecular Basis and Causes of Mutations",
-    "chapter_path": "molecular-basis-and-causes-of-mutations.html",
-    "chapter_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-    "working_branch": "develop-8b03-molecular-mutations-20261128",
-    "working_commit_sha": "9735aa1427df04b7f919be709933019c963c6550",
-    "draft_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-    "publication_base_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
+    "node_id": "8.C.01",
+    "title": "Linkage Mapping and Recombination Analysis",
+    "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+    "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+    "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+    "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+    "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+    "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13623,
-      "visible_article_words": 19422,
-      "teaching_paragraphs": 160,
-      "unique_teaching_paragraphs": 160,
-      "teaching_sections": 21,
-      "scientific_svgs": 13,
-      "graphs": 2,
-      "tables": 3,
-      "questions_total": 55,
-      "part_b": 20,
-      "part_c": 25,
-      "set": 10,
-      "answer_explanations": 55,
+      "genuine_teaching_words": 13312,
+      "whitespace_tokens": 13515,
+      "teaching_paragraphs": 142,
+      "unique_teaching_paragraphs": 142,
+      "scientific_svgs": 10,
+      "graphs": 4,
+      "tables": 5,
+      "questions_total": 58,
+      "part_b": 23,
+      "part_c": 30,
+      "set": 5,
+      "answer_explanations": 58,
       "misconceptions": 18,
       "active_recall": 14,
-      "references": 12
+      "references": 8,
+      "answer_positions": {
+        "A": 14,
+        "B": 15,
+        "C": 15,
+        "D": 14
+      }
     },
-    "word_count_method": "Saved p.teaching-prose only; no headings, captions, options, explanations, revision or references.",
+    "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
     "quality_score": 95,
     "quality_rubric": {
       "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
+      "syllabus_microtopics": 15,
       "teaching_depth": 15,
       "pedagogy": 10,
-      "diagrams": 9,
+      "scientific_illustrations": 9,
       "exam_questions": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
       "reader_accessibility": 4,
       "technical_seo": 4
     },
     "coverage_matrix": [
       {
-        "microtopic": "Mutation versus damage and fixation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Testcross classes and phase",
+        "section": "phase, two-point",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Spontaneous and induced mutation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Two-point map distances and centimorgans",
+        "section": "two-point, functions",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Transition and transversion",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Three-point maps and middle marker",
+        "section": "three-point, worked-repulsion, order-independent",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Synonymous, missense, nonsense",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Interval-specific recombination and joint crossover categories",
+        "section": "three-point, chromatids, joint-bounds",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Insertion, deletion and frame",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Expected versus observed DCO and coincidence/interference",
+        "section": "interference, statistical, joint-bounds",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Splice and regulatory variants",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+        "section": "functions, kosambi-logic",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Depurination and deamination",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Map additivity and saturation",
+        "section": "additivity, map-resolution",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Tautomerism and mismatch",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Oxidative lesions",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Repeat expansion and slippage",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "UV and ionizing radiation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Base analogues, alkylation and intercalation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Repair versus fixation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Rate, frequency and fluctuation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Spectra, hotspots and interpretation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Experimental interpretation and genetic versus physical distance",
+        "section": "evidence, statistical, map-resolution, cross-design, applications",
+        "depth": "Foundational to Part C",
         "status": "covered"
       }
     ],
-    "audit_record": "curriculum/qa/8.B.03-publication-audit.md",
-    "scientific_review": "Internal mechanisms, sequence consequences and rates; 15 arithmetic checks passed.",
-    "editorial_review": "Separate progression, clarity, diagram, question and HTML pass; compared with 14,002-word 8.A.05 exemplar.",
+    "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+    "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+    "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
     "audit": {
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
       "duplicate_questions": 0,
-      "unresolved_internal_anchors": 0,
-      "unresolved_aria_labelledby": 0,
-      "unclosed_tags": 0,
-      "answer_key_matches": 55,
-      "related_published_links_verified": 5,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
-      "h1_count": 1,
-      "answer_distribution": {
-        "A": 14,
-        "B": 13,
-        "C": 14,
-        "D": 14
-      },
+      "unresolved_anchors": 0,
+      "unresolved_aria": 0,
+      "unresolved_zoom_targets": 0,
+      "tag_count_mismatches": 0,
+      "invalid_answer_keys": 0,
+      "missing_explanations": 0,
+      "placeholder_markers": 0,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+      "robots": "index,follow",
+      "prior_menu_links_preserved": 392,
+      "prior_sitemap_urls_preserved": 393,
       "static_only": true
     },
     "limitations": [
-      "Internal review, not independent peer review.",
-      "Relevant references and excerpts checked; not every full text read.",
-      "Archived MP SET syllabus comparison only.",
-      "No real-browser mobile, keyboard or screen-reader runtime test.",
-      "Pages/live checks pending at commit creation."
+      "Internal academic and editorial reviews only; no external peer review.",
+      "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+      "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+      "Deployment and live content verification pending at publication."
     ]
   },
   "published_node_ids": [
@@ -560,46 +543,46 @@
     "8.A.06",
     "8.A.08",
     "8.B.01",
+    "8.B.03",
     "8.B.04",
     "8.B.05",
-    "8.B.03"
+    "8.C.01"
   ],
   "prior_publication_qa": {
-    "node_id": "8.B.01",
-    "title": "Concept of Gene, Alleles and Pseudoalleles",
-    "chapter_path": "concept-of-gene-alleles-and-pseudoalleles.html",
-    "chapter_blob_sha": "9be6d38763574a5e51fdc2b29f7ee8d120d9de9f",
-    "working_branch": "draft/node-8b01-gene-alleles-pseudoalleles",
-    "working_commit_sha": "cd056e1159b3e35c06202f41fbe11eea01877372",
-    "draft_blob_sha": "9be6d38763574a5e51fdc2b29f7ee8d120d9de9f",
-    "publication_base_sha": "f79279c966133a8a9ca89fd147825e65597f8b70",
+    "node_id": "8.C.01",
+    "title": "Linkage Mapping and Recombination Analysis",
+    "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+    "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+    "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+    "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+    "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+    "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13730,
-      "visible_article_words_approx": 18623,
-      "teaching_paragraphs": 145,
-      "unique_teaching_paragraphs": 145,
-      "teaching_sections": 19,
-      "scientific_svgs": 12,
-      "graphs": 2,
-      "tables": 3,
-      "questions_total": 56,
-      "part_b": 25,
-      "part_c": 29,
-      "assertion_reason": 2,
-      "answer_explanations": 56,
-      "misconceptions": 15,
-      "active_recall": 12,
-      "references": 12,
+      "genuine_teaching_words": 13312,
+      "whitespace_tokens": 13515,
+      "teaching_paragraphs": 142,
+      "unique_teaching_paragraphs": 142,
+      "scientific_svgs": 10,
+      "graphs": 4,
+      "tables": 5,
+      "questions_total": 58,
+      "part_b": 23,
+      "part_c": 30,
+      "set": 5,
+      "answer_explanations": 58,
+      "misconceptions": 18,
+      "active_recall": 14,
+      "references": 8,
       "answer_positions": {
-        "A": 15,
-        "B": 13,
+        "A": 14,
+        "B": 15,
         "C": 15,
-        "D": 13
+        "D": 14
       }
     },
-    "word_count_method": "Unicode lexical tokens in saved p.teaching-prose only, stripping tags and decoding basic entities; excludes navigation, headings, questions, references, tables, SVG and revision.",
+    "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
     "quality_score": 95,
     "quality_rubric": {
       "scientific_accuracy": 19,
@@ -615,249 +598,237 @@
     },
     "coverage_matrix": [
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Classical gene concept",
-        "section": "1–3",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Mendelian inference, Johannsen, chromosome model and Neurospora biochemical evidence",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Testcross classes and phase",
+        "section": "phase, two-point",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Molecular gene and transcript complexity",
-        "section": "4–5",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Coding/noncoding products, alternative splicing, cis/trans expression and regulatory elements",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Two-point map distances and centimorgans",
+        "section": "two-point, functions",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Locus, allele, wild type and variants",
-        "section": "6–7",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Homologs, sequence comparison, reference versus ancestry, haplotypes",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Three-point maps and middle marker",
+        "section": "three-point, worked-repulsion, order-independent",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Multiple alleles",
-        "section": "8–9",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "ABO, H precursor, genotype count, probability and population versus individual",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Interval-specific recombination and joint crossover categories",
+        "section": "three-point, chromatids, joint-bounds",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Allelic series",
-        "section": "10–11",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Activity/dosage, temperature and tissue-specific function, thresholds",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Expected versus observed DCO and coincidence/interference",
+        "section": "interference, statistical, joint-bounds",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Pseudoalleles and tightly linked variants",
-        "section": "12–14",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Lewis, rare recombinants, phase and conditional functional interpretation",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+        "section": "functions, kosambi-logic",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Cistron, recon and muton",
-        "section": "15–16",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Benzer rII evidence, selected recombinant calculation and fine structure",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Map additivity and saturation",
+        "section": "additivity, map-resolution",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT 2026 Unit 8.B/8.C, separate CSIR Life Sciences Unit 8.B/F, archived MP SET 2024 Unit 8.B/F, Academy 8.B.01 roadmap",
-        "microtopic": "Experimental distinctions and bridge",
-        "section": "17–19",
-        "depth": "Foundations to NET Part B/C and SET",
-        "evidence": "Controls, competing hypotheses, integrated scenarios and 8.B.02/8.C.08 conceptual bridge",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Experimental interpretation and genetic versus physical distance",
+        "section": "evidence, statistical, map-resolution, cross-design, applications",
+        "depth": "Foundational to Part C",
         "status": "covered"
       }
     ],
-    "audit_record": "curriculum/qa/8.B.01-publication-audit.md",
-    "scientific_review": "Internal review: verified allele/locus and gene-product distinctions, Mendelian and biochemical history, ABO and FUT1, historical pseudoalleles and rII mapping, operational cistron/recon/muton, cis/trans logic and numerical results; checked question answers and stated assumptions.",
-    "editorial_review": "Internal review: reordered 19 theory sections, corrected numbering, revised 15 traps, added inline sources, balanced answer positions without changing correct option text, compared 8.A.08 (13,755 words, 137 paragraphs), preserved existing reader architecture.",
+    "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+    "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+    "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
     "audit": {
       "duplicate_ids": 0,
+      "duplicate_teaching_paragraphs": 0,
+      "duplicate_questions": 0,
       "unresolved_anchors": 0,
-      "duplicate_paragraphs": 0,
-      "article_tag_mismatches": 0,
-      "svg_accessibility_label_failures": 0,
-      "missing_answers": 0,
-      "answer_choice_changes_after_reordering": 0,
-      "placeholders": 0,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/concept-of-gene-alleles-and-pseudoalleles.html",
+      "unresolved_aria": 0,
+      "unresolved_zoom_targets": 0,
+      "tag_count_mismatches": 0,
+      "invalid_answer_keys": 0,
+      "missing_explanations": 0,
+      "placeholder_markers": 0,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
       "robots": "index,follow",
-      "comparison_node": "8.A.08",
-      "comparison_teaching_words": 13755,
-      "comparison_teaching_paragraphs": 137,
-      "calculation_checks": {
-        "six_allele_genotypes": 21,
-        "p_zero_50": 0.6050060671375364,
-        "p_zero_100": 0.8185668046884277,
-        "p_zero_2000": 0.367787452146011,
-        "min_sample_95_percent": 5990,
-        "recombinant_percent": 0.2,
-        "reciprocal_selected_percent": 0.4,
-        "background_corrected_percent": 0.08666666666666667,
-        "observed_allele_frequencies": [
-          0.4,
-          0.375,
-          0.225
-        ]
-      }
+      "prior_menu_links_preserved": 392,
+      "prior_sitemap_urls_preserved": 393,
+      "static_only": true
     },
     "limitations": [
-      "Internal reviews, not external peer review; major claims checked against retrieved academic references but no exhaustive full-text audit of every reference.",
-      "Archived MP SET 2024 syllabus verified; current official-host MP SET version not independently verified.",
-      "Static source and structural validation only; real-browser mobile, keyboard and assistive-technology tests, formal HTML conformance validator and JS runtime execution not available.",
-      "Pages configuration endpoint not permitted by connector; repository has Pages enabled and baseline Pages workflow succeeded. Target deployment and live verification pending."
+      "Internal academic and editorial reviews only; no external peer review.",
+      "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+      "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+      "Deployment and live content verification pending at publication."
     ]
   },
   "previous_last_qa": {
-    "node_id": "8.B.05",
-    "title": "Mutation Detection and Genetic Screening",
-    "chapter_path": "mutation-detection-and-genetic-screening.html",
-    "chapter_blob_sha": "9fb1f80070c58d662829161b3b1206b481ad2db0",
-    "working_branch": "draft/node-8b05-mutation-detection-20261128",
-    "working_commit_sha": "0a02098021ccbce3d01d3632951344dfe81c68b4",
-    "draft_blob_sha": "9fb1f80070c58d662829161b3b1206b481ad2db0",
-    "publication_base_sha": "ab6039bf49dc46f4cd8974c874a46269f810d8b1",
+    "node_id": "8.B.03",
+    "title": "Molecular Basis and Causes of Mutations",
+    "chapter_path": "molecular-basis-and-causes-of-mutations.html",
+    "chapter_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
+    "working_branch": "develop-8b03-molecular-mutations-20261128",
+    "working_commit_sha": "9735aa1427df04b7f919be709933019c963c6550",
+    "draft_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
+    "publication_base_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13452,
-      "teaching_paragraphs": 141,
-      "unique_teaching_paragraphs": 141,
-      "teaching_sections": 18,
-      "scientific_svgs": 12,
-      "graphs": 3,
-      "tables": 5,
-      "questions_total": 60,
-      "part_b": 25,
-      "part_c": 30,
-      "set": 5,
-      "answer_explanations": 60,
+      "genuine_teaching_words": 13623,
+      "visible_article_words": 19422,
+      "teaching_paragraphs": 160,
+      "unique_teaching_paragraphs": 160,
+      "teaching_sections": 21,
+      "scientific_svgs": 13,
+      "graphs": 2,
+      "tables": 3,
+      "questions_total": 55,
+      "part_b": 20,
+      "part_c": 25,
+      "set": 10,
+      "answer_explanations": 55,
       "misconceptions": 18,
-      "active_recall": 15,
-      "references": 14,
-      "answer_positions": {
-        "A": 13,
-        "B": 13,
-        "C": 12,
-        "D": 12
-      }
+      "active_recall": 14,
+      "references": 12
     },
-    "word_count_method": "Saved p.teaching-prose text only; markup and basic entities removed; whitespace-separated tokens containing Unicode letters or numbers; excludes questions, navigation, references, SVG, tables and revision.",
+    "word_count_method": "Saved p.teaching-prose only; no headings, captions, options, explanations, revision or references.",
     "quality_score": 95,
     "quality_rubric": {
       "scientific_accuracy": 19,
-      "syllabus_microtopics": 15,
+      "syllabus_coverage": 15,
       "teaching_depth": 15,
       "pedagogy": 10,
-      "scientific_illustrations": 9,
+      "diagrams": 9,
       "exam_questions": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision_mastery": 5,
+      "experimental_reasoning": 5,
+      "revision": 5,
       "reader_accessibility": 4,
       "technical_seo": 4
     },
     "coverage_matrix": [
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Forward and reverse genetics",
-        "section": "1–2",
-        "evidence": "Phenotype-to-gene and gene-to-phenotype inference",
+        "microtopic": "Mutation versus damage and fixation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Selection and screening",
-        "section": "3, 10–11",
-        "evidence": "Controls, sensitivity, specificity, penetrance and saturation",
+        "microtopic": "Spontaneous and induced mutation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Replica plating",
-        "section": "4",
-        "evidence": "Historical indirect selection and position-based recovery logic",
+        "microtopic": "Transition and transversion",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Fluctuation analysis",
-        "section": "5, 12",
-        "evidence": "Luria–Delbrück evidence, variance and zero-class interpretation",
+        "microtopic": "Synonymous, missense, nonsense",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Ames test",
-        "section": "6, 13",
-        "evidence": "Reverse mutation, controls, metabolic activation and limitations",
+        "microtopic": "Insertion, deletion and frame",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Molecular detection",
-        "section": "7, 14–15",
-        "evidence": "Sequence, marker and restriction-pattern interpretation",
+        "microtopic": "Splice and regulatory variants",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Insertional mutagenesis",
-        "section": "8, 16",
-        "evidence": "Tagged alleles, published collection and causal validation",
+        "microtopic": "Depurination and deamination",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       },
       {
-        "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-        "microtopic": "Reversion and suppression",
-        "section": "9, 17–18",
-        "evidence": "True back mutation, intra/intergenic suppression and genetic reasoning",
+        "microtopic": "Tautomerism and mismatch",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Oxidative lesions",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Repeat expansion and slippage",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "UV and ionizing radiation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Base analogues, alkylation and intercalation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Repair versus fixation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Rate, frequency and fluctuation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "status": "covered"
+      },
+      {
+        "microtopic": "Spectra, hotspots and interpretation",
+        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
         "status": "covered"
       }
     ],
-    "audit_record": "curriculum/qa/8.B.05-publication-audit.md",
-    "scientific_review": "Internal review of classical evidence, distinct mutation and recovery endpoints, model assumptions, matched controls, association versus causation, suppressor classes and numerical answers. Independently recalculated sensitivity, specificity, predictive value, variance, zero class and probability examples.",
-    "editorial_review": "Separate internal inspection of progression, paragraph uniqueness, headings, labels, revision and answer explanations; refined repetitive analytical question and added authenticated insertion-collection evidence; compared neighboring textbook chapter and retained reader shell.",
+    "audit_record": "curriculum/qa/8.B.03-publication-audit.md",
+    "scientific_review": "Internal mechanisms, sequence consequences and rates; 15 arithmetic checks passed.",
+    "editorial_review": "Separate progression, clarity, diagram, question and HTML pass; compared with 14,002-word 8.A.05 exemplar.",
     "audit": {
       "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "duplicate_paragraphs": 0,
-      "article_tag_mismatches": 0,
-      "svg_accessibility_label_failures": 0,
-      "missing_answers": 0,
-      "invalid_mcq_keys": 0,
-      "placeholders": 0,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/mutation-detection-and-genetic-screening.html",
-      "robots": "index,follow",
-      "calculation_checks": {
-        "sensitivity": 0.9,
-        "specificity": 0.95,
-        "ppv": 0.26865671641791045,
-        "variance": 87.2,
-        "variance_to_mean": 17.44,
-        "miss_four": 0.31640625,
-        "hit_twelve": 0.9683236479759216,
-        "miss_penetrance": 0.14224175713617207,
-        "rare_class_miss": 0.8179069375972308,
-        "zero_class": 0.916290731874155,
-        "relative_m": 2.356915448856724
-      }
+      "duplicate_teaching_paragraphs": 0,
+      "duplicate_questions": 0,
+      "unresolved_internal_anchors": 0,
+      "unresolved_aria_labelledby": 0,
+      "unclosed_tags": 0,
+      "answer_key_matches": 55,
+      "related_published_links_verified": 5,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
+      "h1_count": 1,
+      "answer_distribution": {
+        "A": 14,
+        "B": 13,
+        "C": 14,
+        "D": 14
+      },
+      "static_only": true
     },
     "limitations": [
-      "Internal scientific and editorial review; not external peer review. Core source records checked, not every full text exhaustively audited.",
-      "MP SET 2024 archived copy checked; current official-host copy not independently confirmed.",
-      "Static structural checks; browser mobile, keyboard, assistive technology, formal validator and JavaScript runtime testing not performed. Diagram readability assessed from SVG source; not rendered.",
-      "Pages configuration, deployment and live content not yet independently verified."
+      "Internal review, not independent peer review.",
+      "Relevant references and excerpts checked; not every full text read.",
+      "Archived MP SET syllabus comparison only.",
+      "No real-browser mobile, keyboard or screen-reader runtime test.",
+      "Pages/live checks pending at commit creation."
     ]
   },
   "unit_02": {
@@ -2377,7 +2348,7 @@
     "last_published_node_id": "6.H.11",
     "complete": true
   },
-  "last_node_roadmap": "curriculum/subunit-8b-genes-mutations-node-map.md",
+  "last_node_roadmap": "curriculum/subunit-8c-genetic-analysis-node-map.md",
   "unit2a_published_node_ids": [
     "2.A.01",
     "2.A.02",
@@ -50511,6 +50482,139 @@
         "No real-browser mobile, keyboard or screen-reader runtime test.",
         "Pages/live checks pending at commit creation."
       ]
+    },
+    "8.C.01": {
+      "node_id": "8.C.01",
+      "title": "Linkage Mapping and Recombination Analysis",
+      "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+      "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+      "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+      "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+      "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+      "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 13312,
+        "whitespace_tokens": 13515,
+        "teaching_paragraphs": 142,
+        "unique_teaching_paragraphs": 142,
+        "scientific_svgs": 10,
+        "graphs": 4,
+        "tables": 5,
+        "questions_total": 58,
+        "part_b": 23,
+        "part_c": 30,
+        "set": 5,
+        "answer_explanations": 58,
+        "misconceptions": 18,
+        "active_recall": 14,
+        "references": 8,
+        "answer_positions": {
+          "A": 14,
+          "B": 15,
+          "C": 15,
+          "D": 14
+        }
+      },
+      "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
+      "quality_score": 95,
+      "quality_rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_microtopics": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "scientific_illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "coverage_matrix": [
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Testcross classes and phase",
+          "section": "phase, two-point",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Two-point map distances and centimorgans",
+          "section": "two-point, functions",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Three-point maps and middle marker",
+          "section": "three-point, worked-repulsion, order-independent",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Interval-specific recombination and joint crossover categories",
+          "section": "three-point, chromatids, joint-bounds",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Expected versus observed DCO and coincidence/interference",
+          "section": "interference, statistical, joint-bounds",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+          "section": "functions, kosambi-logic",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Map additivity and saturation",
+          "section": "additivity, map-resolution",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Experimental interpretation and genetic versus physical distance",
+          "section": "evidence, statistical, map-resolution, cross-design, applications",
+          "depth": "Foundational to Part C",
+          "status": "covered"
+        }
+      ],
+      "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+      "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+      "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
+      "audit": {
+        "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "duplicate_questions": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "unresolved_zoom_targets": 0,
+        "tag_count_mismatches": 0,
+        "invalid_answer_keys": 0,
+        "missing_explanations": 0,
+        "placeholder_markers": 0,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+        "robots": "index,follow",
+        "prior_menu_links_preserved": 392,
+        "prior_sitemap_urls_preserved": 393,
+        "static_only": true
+      },
+      "limitations": [
+        "Internal academic and editorial reviews only; no external peer review.",
+        "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+        "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+        "Deployment and live content verification pending at publication."
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -68318,7 +68422,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -75785,161 +75889,145 @@
       "8.B.01",
       "8.B.03",
       "8.B.04",
-      "8.B.05"
+      "8.B.05",
+      "8.C.01"
     ],
-    "published_node_count": 9,
+    "published_node_count": 10,
     "planned_node_count": 36,
-    "last_published_node_id": "8.B.03",
+    "last_published_node_id": "8.C.01",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "8.B.03",
-      "title": "Molecular Basis and Causes of Mutations",
-      "chapter_path": "molecular-basis-and-causes-of-mutations.html",
-      "chapter_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-      "working_branch": "develop-8b03-molecular-mutations-20261128",
-      "working_commit_sha": "9735aa1427df04b7f919be709933019c963c6550",
-      "draft_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-      "publication_base_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
+      "node_id": "8.C.01",
+      "title": "Linkage Mapping and Recombination Analysis",
+      "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+      "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+      "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+      "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+      "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+      "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13623,
-        "visible_article_words": 19422,
-        "teaching_paragraphs": 160,
-        "unique_teaching_paragraphs": 160,
-        "teaching_sections": 21,
-        "scientific_svgs": 13,
-        "graphs": 2,
-        "tables": 3,
-        "questions_total": 55,
-        "part_b": 20,
-        "part_c": 25,
-        "set": 10,
-        "answer_explanations": 55,
+        "genuine_teaching_words": 13312,
+        "whitespace_tokens": 13515,
+        "teaching_paragraphs": 142,
+        "unique_teaching_paragraphs": 142,
+        "scientific_svgs": 10,
+        "graphs": 4,
+        "tables": 5,
+        "questions_total": 58,
+        "part_b": 23,
+        "part_c": 30,
+        "set": 5,
+        "answer_explanations": 58,
         "misconceptions": 18,
         "active_recall": 14,
-        "references": 12
+        "references": 8,
+        "answer_positions": {
+          "A": 14,
+          "B": 15,
+          "C": 15,
+          "D": 14
+        }
       },
-      "word_count_method": "Saved p.teaching-prose only; no headings, captions, options, explanations, revision or references.",
+      "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
       "quality_score": 95,
       "quality_rubric": {
         "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
+        "syllabus_microtopics": 15,
         "teaching_depth": 15,
         "pedagogy": 10,
-        "diagrams": 9,
+        "scientific_illustrations": 9,
         "exam_questions": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
         "reader_accessibility": 4,
         "technical_seo": 4
       },
       "coverage_matrix": [
         {
-          "microtopic": "Mutation versus damage and fixation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Testcross classes and phase",
+          "section": "phase, two-point",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Spontaneous and induced mutation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Two-point map distances and centimorgans",
+          "section": "two-point, functions",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Transition and transversion",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Three-point maps and middle marker",
+          "section": "three-point, worked-repulsion, order-independent",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Synonymous, missense, nonsense",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Interval-specific recombination and joint crossover categories",
+          "section": "three-point, chromatids, joint-bounds",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Insertion, deletion and frame",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Expected versus observed DCO and coincidence/interference",
+          "section": "interference, statistical, joint-bounds",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Splice and regulatory variants",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+          "section": "functions, kosambi-logic",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Depurination and deamination",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Map additivity and saturation",
+          "section": "additivity, map-resolution",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Tautomerism and mismatch",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Oxidative lesions",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Repeat expansion and slippage",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "UV and ionizing radiation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Base analogues, alkylation and intercalation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Repair versus fixation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Rate, frequency and fluctuation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Spectra, hotspots and interpretation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Experimental interpretation and genetic versus physical distance",
+          "section": "evidence, statistical, map-resolution, cross-design, applications",
+          "depth": "Foundational to Part C",
           "status": "covered"
         }
       ],
-      "audit_record": "curriculum/qa/8.B.03-publication-audit.md",
-      "scientific_review": "Internal mechanisms, sequence consequences and rates; 15 arithmetic checks passed.",
-      "editorial_review": "Separate progression, clarity, diagram, question and HTML pass; compared with 14,002-word 8.A.05 exemplar.",
+      "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+      "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+      "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
       "audit": {
         "duplicate_ids": 0,
         "duplicate_teaching_paragraphs": 0,
         "duplicate_questions": 0,
-        "unresolved_internal_anchors": 0,
-        "unresolved_aria_labelledby": 0,
-        "unclosed_tags": 0,
-        "answer_key_matches": 55,
-        "related_published_links_verified": 5,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
-        "h1_count": 1,
-        "answer_distribution": {
-          "A": 14,
-          "B": 13,
-          "C": 14,
-          "D": 14
-        },
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "unresolved_zoom_targets": 0,
+        "tag_count_mismatches": 0,
+        "invalid_answer_keys": 0,
+        "missing_explanations": 0,
+        "placeholder_markers": 0,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+        "robots": "index,follow",
+        "prior_menu_links_preserved": 392,
+        "prior_sitemap_urls_preserved": 393,
         "static_only": true
       },
       "limitations": [
-        "Internal review, not independent peer review.",
-        "Relevant references and excerpts checked; not every full text read.",
-        "Archived MP SET syllabus comparison only.",
-        "No real-browser mobile, keyboard or screen-reader runtime test.",
-        "Pages/live checks pending at commit creation."
+        "Internal academic and editorial reviews only; no external peer review.",
+        "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+        "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+        "Deployment and live content verification pending at publication."
       ]
     },
     "qa_by_node": {
@@ -76995,6 +77083,139 @@
           "No real-browser mobile, keyboard or screen-reader runtime test.",
           "Pages/live checks pending at commit creation."
         ]
+      },
+      "8.C.01": {
+        "node_id": "8.C.01",
+        "title": "Linkage Mapping and Recombination Analysis",
+        "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+        "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+        "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+        "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+        "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+        "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 13312,
+          "whitespace_tokens": 13515,
+          "teaching_paragraphs": 142,
+          "unique_teaching_paragraphs": 142,
+          "scientific_svgs": 10,
+          "graphs": 4,
+          "tables": 5,
+          "questions_total": 58,
+          "part_b": 23,
+          "part_c": 30,
+          "set": 5,
+          "answer_explanations": 58,
+          "misconceptions": 18,
+          "active_recall": 14,
+          "references": 8,
+          "answer_positions": {
+            "A": 14,
+            "B": 15,
+            "C": 15,
+            "D": 14
+          }
+        },
+        "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
+        "quality_score": 95,
+        "quality_rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_microtopics": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "scientific_illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "coverage_matrix": [
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Testcross classes and phase",
+            "section": "phase, two-point",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Two-point map distances and centimorgans",
+            "section": "two-point, functions",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Three-point maps and middle marker",
+            "section": "three-point, worked-repulsion, order-independent",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Interval-specific recombination and joint crossover categories",
+            "section": "three-point, chromatids, joint-bounds",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Expected versus observed DCO and coincidence/interference",
+            "section": "interference, statistical, joint-bounds",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+            "section": "functions, kosambi-logic",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Map additivity and saturation",
+            "section": "additivity, map-resolution",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+            "microtopic": "Experimental interpretation and genetic versus physical distance",
+            "section": "evidence, statistical, map-resolution, cross-design, applications",
+            "depth": "Foundational to Part C",
+            "status": "covered"
+          }
+        ],
+        "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+        "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+        "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
+        "audit": {
+          "duplicate_ids": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "duplicate_questions": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria": 0,
+          "unresolved_zoom_targets": 0,
+          "tag_count_mismatches": 0,
+          "invalid_answer_keys": 0,
+          "missing_explanations": 0,
+          "placeholder_markers": 0,
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+          "robots": "index,follow",
+          "prior_menu_links_preserved": 392,
+          "prior_sitemap_urls_preserved": 393,
+          "static_only": true
+        },
+        "limitations": [
+          "Internal academic and editorial reviews only; no external peer review.",
+          "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+          "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+          "Deployment and live content verification pending at publication."
+        ]
       }
     },
     "next_pending_node_id": "8.A.03",
@@ -77015,144 +77236,153 @@
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "8.B.05",
-      "title": "Mutation Detection and Genetic Screening",
-      "chapter_path": "mutation-detection-and-genetic-screening.html",
-      "chapter_blob_sha": "9fb1f80070c58d662829161b3b1206b481ad2db0",
-      "working_branch": "draft/node-8b05-mutation-detection-20261128",
-      "working_commit_sha": "0a02098021ccbce3d01d3632951344dfe81c68b4",
-      "draft_blob_sha": "9fb1f80070c58d662829161b3b1206b481ad2db0",
-      "publication_base_sha": "ab6039bf49dc46f4cd8974c874a46269f810d8b1",
+      "node_id": "8.B.03",
+      "title": "Molecular Basis and Causes of Mutations",
+      "chapter_path": "molecular-basis-and-causes-of-mutations.html",
+      "chapter_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
+      "working_branch": "develop-8b03-molecular-mutations-20261128",
+      "working_commit_sha": "9735aa1427df04b7f919be709933019c963c6550",
+      "draft_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
+      "publication_base_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13452,
-        "teaching_paragraphs": 141,
-        "unique_teaching_paragraphs": 141,
-        "teaching_sections": 18,
-        "scientific_svgs": 12,
-        "graphs": 3,
-        "tables": 5,
-        "questions_total": 60,
-        "part_b": 25,
-        "part_c": 30,
-        "set": 5,
-        "answer_explanations": 60,
+        "genuine_teaching_words": 13623,
+        "visible_article_words": 19422,
+        "teaching_paragraphs": 160,
+        "unique_teaching_paragraphs": 160,
+        "teaching_sections": 21,
+        "scientific_svgs": 13,
+        "graphs": 2,
+        "tables": 3,
+        "questions_total": 55,
+        "part_b": 20,
+        "part_c": 25,
+        "set": 10,
+        "answer_explanations": 55,
         "misconceptions": 18,
-        "active_recall": 15,
-        "references": 14,
-        "answer_positions": {
-          "A": 13,
-          "B": 13,
-          "C": 12,
-          "D": 12
-        }
+        "active_recall": 14,
+        "references": 12
       },
-      "word_count_method": "Saved p.teaching-prose text only; markup and basic entities removed; whitespace-separated tokens containing Unicode letters or numbers; excludes questions, navigation, references, SVG, tables and revision.",
+      "word_count_method": "Saved p.teaching-prose only; no headings, captions, options, explanations, revision or references.",
       "quality_score": 95,
       "quality_rubric": {
         "scientific_accuracy": 19,
-        "syllabus_microtopics": 15,
+        "syllabus_coverage": 15,
         "teaching_depth": 15,
         "pedagogy": 10,
-        "scientific_illustrations": 9,
+        "diagrams": 9,
         "exam_questions": 9,
-        "experimental_analytical_reasoning": 5,
-        "revision_mastery": 5,
+        "experimental_reasoning": 5,
+        "revision": 5,
         "reader_accessibility": 4,
         "technical_seo": 4
       },
       "coverage_matrix": [
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Forward and reverse genetics",
-          "section": "1–2",
-          "evidence": "Phenotype-to-gene and gene-to-phenotype inference",
+          "microtopic": "Mutation versus damage and fixation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Selection and screening",
-          "section": "3, 10–11",
-          "evidence": "Controls, sensitivity, specificity, penetrance and saturation",
+          "microtopic": "Spontaneous and induced mutation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Replica plating",
-          "section": "4",
-          "evidence": "Historical indirect selection and position-based recovery logic",
+          "microtopic": "Transition and transversion",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Fluctuation analysis",
-          "section": "5, 12",
-          "evidence": "Luria–Delbrück evidence, variance and zero-class interpretation",
+          "microtopic": "Synonymous, missense, nonsense",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Ames test",
-          "section": "6, 13",
-          "evidence": "Reverse mutation, controls, metabolic activation and limitations",
+          "microtopic": "Insertion, deletion and frame",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Molecular detection",
-          "section": "7, 14–15",
-          "evidence": "Sequence, marker and restriction-pattern interpretation",
+          "microtopic": "Splice and regulatory variants",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Insertional mutagenesis",
-          "section": "8, 16",
-          "evidence": "Tagged alleles, published collection and causal validation",
+          "microtopic": "Depurination and deamination",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         },
         {
-          "official_scope": "Revised CSIR–UGC–DBT Unit 8.B; legacy CSIR Life Sciences Unit 8.I; archived MP SET 2024 Unit 8.I; Academy node roadmap",
-          "microtopic": "Reversion and suppression",
-          "section": "9, 17–18",
-          "evidence": "True back mutation, intra/intergenic suppression and genetic reasoning",
+          "microtopic": "Tautomerism and mismatch",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Oxidative lesions",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Repeat expansion and slippage",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "UV and ionizing radiation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Base analogues, alkylation and intercalation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Repair versus fixation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Rate, frequency and fluctuation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "status": "covered"
+        },
+        {
+          "microtopic": "Spectra, hotspots and interpretation",
+          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
           "status": "covered"
         }
       ],
-      "audit_record": "curriculum/qa/8.B.05-publication-audit.md",
-      "scientific_review": "Internal review of classical evidence, distinct mutation and recovery endpoints, model assumptions, matched controls, association versus causation, suppressor classes and numerical answers. Independently recalculated sensitivity, specificity, predictive value, variance, zero class and probability examples.",
-      "editorial_review": "Separate internal inspection of progression, paragraph uniqueness, headings, labels, revision and answer explanations; refined repetitive analytical question and added authenticated insertion-collection evidence; compared neighboring textbook chapter and retained reader shell.",
+      "audit_record": "curriculum/qa/8.B.03-publication-audit.md",
+      "scientific_review": "Internal mechanisms, sequence consequences and rates; 15 arithmetic checks passed.",
+      "editorial_review": "Separate progression, clarity, diagram, question and HTML pass; compared with 14,002-word 8.A.05 exemplar.",
       "audit": {
         "duplicate_ids": 0,
-        "unresolved_anchors": 0,
-        "duplicate_paragraphs": 0,
-        "article_tag_mismatches": 0,
-        "svg_accessibility_label_failures": 0,
-        "missing_answers": 0,
-        "invalid_mcq_keys": 0,
-        "placeholders": 0,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/mutation-detection-and-genetic-screening.html",
-        "robots": "index,follow",
-        "calculation_checks": {
-          "sensitivity": 0.9,
-          "specificity": 0.95,
-          "ppv": 0.26865671641791045,
-          "variance": 87.2,
-          "variance_to_mean": 17.44,
-          "miss_four": 0.31640625,
-          "hit_twelve": 0.9683236479759216,
-          "miss_penetrance": 0.14224175713617207,
-          "rare_class_miss": 0.8179069375972308,
-          "zero_class": 0.916290731874155,
-          "relative_m": 2.356915448856724
-        }
+        "duplicate_teaching_paragraphs": 0,
+        "duplicate_questions": 0,
+        "unresolved_internal_anchors": 0,
+        "unresolved_aria_labelledby": 0,
+        "unclosed_tags": 0,
+        "answer_key_matches": 55,
+        "related_published_links_verified": 5,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
+        "h1_count": 1,
+        "answer_distribution": {
+          "A": 14,
+          "B": 13,
+          "C": 14,
+          "D": 14
+        },
+        "static_only": true
       },
       "limitations": [
-        "Internal scientific and editorial review; not external peer review. Core source records checked, not every full text exhaustively audited.",
-        "MP SET 2024 archived copy checked; current official-host copy not independently confirmed.",
-        "Static structural checks; browser mobile, keyboard, assistive technology, formal validator and JavaScript runtime testing not performed. Diagram readability assessed from SVG source; not rendered.",
-        "Pages configuration, deployment and live content not yet independently verified."
+        "Internal review, not independent peer review.",
+        "Relevant references and excerpts checked; not every full text read.",
+        "Archived MP SET syllabus comparison only.",
+        "No real-browser mobile, keyboard or screen-reader runtime test.",
+        "Pages/live checks pending at commit creation."
       ]
     },
     "subunit_8b": {
@@ -77166,6 +77396,16 @@
       "planned_node_count": 5,
       "next_pending_node_id": "8.B.02",
       "next_pending_node_title": "Complementation Tests and Functional Analysis of Genes",
+      "complete": false
+    },
+    "subunit_8c": {
+      "published_node_ids": [
+        "8.C.01"
+      ],
+      "published_node_count": 1,
+      "planned_node_count": 8,
+      "next_pending_node_id": "8.C.02",
+      "next_pending_node_title": "Tetrad Analysis and Fungal Genetics",
       "complete": false
     }
   },
@@ -77183,5 +77423,9 @@
     "8.B.04",
     "8.B.05"
   ],
-  "unit8b_planned_node_count": 5
+  "unit8b_planned_node_count": 5,
+  "unit8c_published_node_ids": [
+    "8.C.01"
+  ],
+  "unit8c_planned_node_count": 8
 }

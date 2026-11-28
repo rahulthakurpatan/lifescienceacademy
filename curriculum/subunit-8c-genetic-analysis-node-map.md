@@ -118,3 +118,12 @@ Progress from linkage and tetrad maps to marker-based mapping and plant populati
 - Preserve official scope and conceptual balance, not forced identical word counts. Use examples to explain mechanisms rather than catalogue every disorder or marker.
 - Unit 2 owns chromosome structure and meiosis; Unit 3 owns DNA replication/repair/recombination biochemistry; Unit 4 signalling and cancer; Unit 5 development; Unit 7 endocrine/reproductive physiology; Unit 9 detailed evolution; Unit 11 computational workflows; Units 13–14 specialist techniques. Unit 8 owns transmission, inference, mapping and genetic consequences. Use brief prerequisite previews where the official sequence introduces a later topic early (e.g. cytogenetics before detailed chromosome rearrangements).
 - No personal genetic diagnosis, treatment, or operational mutagenesis/gene-transfer protocols. Comparative historical and experimental analysis is educational.
+
+
+## Publication checkpoint — 2026-11-28 — 8.C.01
+
+- [8.C.01 — Linkage Mapping and Recombination Analysis](https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,312; 10 original SVGs (4 graphs), 5 tables, 58 explained questions (23 Part B, 30 Part C, 5 SET), 18 misconceptions, 14 recall prompts, 8 references; internal static QA 95/100.
+- Academy: 393/723; Unit 08: 10/36; 8.C: 1/8.
+- Next pending in 8.C: 8.C.02 — Tetrad Analysis and Fungal Genetics; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.C.01-publication-audit.md`.

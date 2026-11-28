@@ -107,3 +107,12 @@ All four broad dimensions have substantive assigned coverage. The eight-node str
 ## Unit 7 architecture closure
 
 With 7.L mapped, all 12 subunits (7.A–7.L) have planned learning sequences, totalling 90 planned nodes (8 + 8 + 8 + 10 + 6 + 8 + 5 + 5 + 6 + 12 + 6 + 8). This is curriculum architecture completion, not publication of 90 textbook lessons. Individual learning nodes must be developed, researched and verified before their reading pages are published.
+
+
+## Publication checkpoint — 2026-11-28 — 7.L.05
+
+- [7.L.05 — Integrated Metabolism During Feeding, Fasting and Exercise](https://rahulthakurpatan.github.io/lifescienceacademy/integrated-metabolism-during-feeding-fasting-and-exercise.html) — production publication; Pages deployment verification pending.
+- Teaching words: 14,129; 14 original SVGs (2 graphs), 4 tables, 52 explained questions (22 B, 24 C, 6 SET/application), 17 misconceptions, 14 recall prompts, 18 references; internal QA 95/100.
+- Academy: 381/723; Unit 07: 66/90; 7.L: 1/8.
+- Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/7.L.05-publication-audit.md`.

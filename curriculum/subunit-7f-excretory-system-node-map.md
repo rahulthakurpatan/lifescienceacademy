@@ -116,3 +116,9 @@ All explicit official topic groups have substantive assigned coverage. Comparati
 ### Publication checkpoint — 2026-11-28
 - **7.F.01 — Comparative Physiology of Excretion and Osmoregulation:** [published chapter](https://rahulthakurpatan.github.io/lifescienceacademy/comparative-physiology-of-excretion-and-osmoregulation.html); 14,213 genuine teaching words, 14 SVGs, 52 explained questions (22 B / 26 C / 4 SET), internal QA 95/100.
 - Subunit 7.F: 1/8; Unit 7: 39/90; Academy: 354/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing. Deployment verification pending.
+
+### Publication checkpoint — 2026-11-28 — 7.F.06
+
+- 7.F.06 — [Renal Regulation of Blood Volume, Blood Pressure and Electrolytes](https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-blood-volume-blood-pressure-and-electrolytes.html); internal QA 95/100, saved HTML static audit passed; Pages and direct live verification pending.
+- Teaching prose: 13,831 words, 125 paragraphs; 12 original SVGs (2 graphs), 4 tables, 54 explained questions (20 Part B, 30 Part C, 4 SET), 15 misconceptions, 10 recall prompts, 16 references. Audit: `curriculum/qa/7.F.06-publication-audit.md`.
+- Subunit 7.F: 2/8; Unit 07: 40/90; Academy: 355/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing.

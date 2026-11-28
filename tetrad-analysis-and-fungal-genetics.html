@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f9f6">
+  <meta name="description" content="Interpret fungal tetrads, centromere mapping, PD/NPD/T, genetic distances and gene conversion for CSIR-NET and SET.">
+  <meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://rahulthakurpatan.github.io/lifescienceacademy/tetrad-analysis-and-fungal-genetics.html">
+  <title>Tetrad Analysis and Fungal Genetics | CSIR-NET Life Sciences | Life Science Academy</title>
+  <style>
+    :root { font-family: Inter, "Segoe UI", Arial, system-ui, sans-serif; color-scheme: light; --bg:#f5f9f6; --surface:#fff; --panel:#eef6f0; --ink:#172a24; --muted:#516b5d; --accent:#116746; --accent-dark:#0a5035; --border:#d6e5da; --shadow:0 14px 40px rgba(17,62,41,.07); --read-size:18px; --read-leading:1.85; --read-width:760px }
+    *,*::before,*::after { box-sizing:border-box }
+    html { scroll-behavior:smooth; scroll-padding-top:125px }
+    body { margin:0; padding-bottom:calc(var(--reader-toolbar-occupancy, 72px) + 30px + env(safe-area-inset-bottom, 0px)); color:var(--ink); background:var(--bg); min-height:100vh; transition:background .2s,color .2s }
+    body[data-theme="dark"] { color-scheme:dark; --bg:#0b1815; --surface:#152823; --panel:#20372f; --ink:#f0f8f2; --muted:#b3cebc; --accent:#a4e7ba; --accent-dark:#cfefda; --border:#385549; --shadow:0 16px 40px rgba(0,0,0,.2) }
+    body[data-theme="sepia"] { color-scheme:light; --bg:#f6efde; --surface:#fff8e8; --panel:#f4e7ce; --ink:#403525; --muted:#695741; --accent:#72572b; --accent-dark:#4a381a; --border:#e4d3b2; --shadow:0 14px 38px rgba(78,59,32,.07) }
+    button,select { font:inherit }
+    button { cursor:pointer }
+    button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:3px }
+    a { color:var(--accent-dark) }
+    .progress-track { position:fixed; top:0; left:0; height:4px; background:transparent; width:100%; z-index:30 }
+    .progress-fill { height:100%; width:0; background:var(--accent); transition:width .09s linear }
+    .site-header { background:var(--surface); border-bottom:1px solid var(--border) }
+    .header-inner { display:flex; gap:14px; align-items:center; justify-content:space-between; max-width:1260px; padding:21px 24px; margin:auto }
+    .brand { display:flex; gap:12px; align-items:center; color:var(--ink); text-decoration:none; font-size:1.02rem; font-weight:800; letter-spacing:-.025em }
+    .brand-icon { display:grid; place-items:center; background:#17694c; color:#fff; border-radius:13px; height:39px; width:39px; font-size:1.3rem }
+    .header-back { text-decoration:none; display:inline-flex; gap:7px; align-items:center; font-size:.87rem; font-weight:700 }
+    .container { max-width:1240px; padding:0 24px; margin:auto }
+    .breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; padding:26px 0 14px; color:var(--muted); font-size:.79rem; line-height:1.5 }
+    .breadcrumbs a { color:var(--muted); text-decoration:none }
+    .breadcrumbs strong { color:var(--ink) }
+    .overview { padding:10px 0 24px }
+    .meta-row { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; font-size:.77rem; font-weight:700; color:var(--accent-dark); text-transform:uppercase; letter-spacing:.06em }
+    .pill { display:inline-flex; align-items:center; padding:7px 11px; border:1px solid var(--border); border-radius:30px; background:var(--panel) }
+    h1 { margin:0; font-size:clamp(2.1rem,4.8vw,3.35rem); line-height:1.12; letter-spacing:-.05em; max-width:900px }
+    .subtitle { margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.7; max-width:800px }
+    .sample-banner { display:flex; gap:9px; align-items:flex-start; background:var(--panel); border:1px solid var(--border); color:var(--muted); padding:14px 16px; border-radius:13px; font-size:.87rem; line-height:1.6; margin:10px 0 24px }
+    .sample-banner strong { color:var(--ink) }
+    .toolbar { position:fixed; left:50%; bottom:calc(12px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); width:min(1180px,calc(100vw - 24px)); z-index:25; display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; align-items:center; gap:9px; padding:11px 12px; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.19); margin:0 }
+
+    .reader-node-nav { display:flex; flex:0 0 auto; align-items:center; gap:7px; padding-right:11px; border-right:1px solid var(--border) }
+    .nav-btn { border:1px solid var(--border); border-radius:10px; background:var(--panel); color:var(--ink); min-height:38px; padding:8px 12px; font-weight:800; font-size:.82rem; white-space:nowrap }
+    .nav-btn.nav-next:not(:disabled) { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    .nav-btn:disabled { opacity:.56; cursor:not-allowed; }
+    .nav-btn:not(:disabled):hover { border-color:var(--accent) }
+    .reader-tools-scroll { display:flex; flex:1 1 auto; align-items:center; gap:9px; overflow-x:auto; overscroll-behavior-x:contain; min-width:0; scrollbar-width:thin; }
+    .tool-group { display:flex; flex:0 0 auto; align-items:center; gap:5px; flex-wrap:nowrap; padding-right:10px; border-right:1px solid var(--border) }
+    .tool-group:last-child { border-right:0; padding-right:0 }
+    .tool-label { font-size:.73rem; font-weight:700; color:var(--muted); margin-right:4px }
+    .tool-btn,.tool-select { min-height:35px; border:1px solid var(--border); border-radius:9px; background:var(--panel); color:var(--ink); padding:6px 10px; font-size:.82rem; font-weight:700 }
+    .tool-btn:hover,.tool-select:hover { border-color:var(--accent) }
+    .tool-btn[aria-pressed="true"] { background:var(--accent); color:var(--surface); border-color:var(--accent) }
+    body[data-theme="dark"] .tool-btn[aria-pressed="true"] { color:#072218 }
+    .font-value { min-width:40px; text-align:center; font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums }
+    .reading-layout { display:grid; grid-template-columns:minmax(180px,235px) minmax(0,1fr); gap:26px; align-items:start }
+    .toc { position:sticky; top:92px; background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:21px; box-shadow:var(--shadow) }
+    .toc h2 { font-size:.88rem; margin:0 0 15px }
+    .toc a { display:block; padding:10px 7px; border-left:2px solid var(--border); color:var(--muted); text-decoration:none; font-size:.82rem; line-height:1.45 }
+    .toc a:hover,.toc a.active { color:var(--accent-dark); border-left-color:var(--accent); background:var(--panel); border-radius:0 8px 8px 0 }
+    .toc-hint { font-size:.72rem; color:var(--muted); line-height:1.6; margin-top:17px }
+    .note-wrap { min-width:0 }
+    .reading-paper { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:clamp(22px,4vw,56px); box-shadow:var(--shadow) }
+    .article-content { max-width:var(--read-width); margin:auto; font-family:Georgia,"Times New Roman",serif; font-size:var(--read-size); line-height:var(--read-leading); overflow-wrap:anywhere }
+    .article-content h2,.article-content h3,.article-content h4 { font-family:Inter,"Segoe UI",Arial,system-ui,sans-serif; color:var(--ink); letter-spacing:-.025em; line-height:1.32; }
+    .article-content h2 { font-size:1.5em; margin:1.5em 0 .65em }
+    .article-content h2:first-child { margin-top:0 }
+    .article-content h3 { font-size:1.12em; margin:1.25em 0 .5em }
+    .article-content p { margin:.8em 0 1.05em }
+    .article-content ul { padding-left:1.3em }
+    .article-content li { margin:.3em 0 }
+    .article-content strong { color:var(--ink) }
+    .keybox { margin:1.4em 0; padding:16px 19px; background:var(--panel); border-left:4px solid var(--accent); border-radius:0 13px 13px 0 }
+    .keybox h3 { font-size:1em; margin:0 0 8px }
+    .keybox p { margin:.3em 0 }
+    .figure-panel { margin:1.6em 0; background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:17px; text-align:center }
+    .figure-panel svg { max-width:100%; width:460px; height:auto }
+    .figure-panel figcaption { color:var(--muted); font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.76em; line-height:1.65; margin-top:8px }
+    .figure-panel button { display:block; margin:10px auto 0; }
+    .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:1.3em 0 }
+    .compare-table { width:100%; border-collapse:collapse; font-family:Inter,"Segoe UI",Arial,sans-serif; font-size:.78em; text-align:left; min-width:360px }
+    .compare-table th,.compare-table td { border:1px solid var(--border); padding:11px 12px; vertical-align:top }
+    .compare-table th { background:var(--panel) }
+    .exam-tip { padding:17px 20px; border:1px dashed var(--accent); border-radius:12px; margin-top:25px }
+    .exam-tip h3 { margin:0 0 7px; font-size:1em }
+    .exam-tip p { margin:0 }
+    .node-navigation { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; margin:22px 0 34px }
+    .disabled-nav { border:1px solid var(--border); border-radius:12px; padding:13px 16px; color:var(--muted); background:var(--panel); font-size:.88rem }
+    .site-footer { padding:28px 0 38px; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem; line-height:1.6 }
+    dialog { border:1px solid var(--border); border-radius:16px; background:var(--surface); color:var(--ink); width:min(94vw,920px); max-height:90vh; padding:14px; box-shadow:0 30px 90px rgba(0,0,0,.38) }
+    dialog::backdrop { background:rgba(0,0,0,.75) }
+    .zoom-top { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-bottom:16px }
+    .zoom-top h2 { font-size:1rem; margin:0 }
+    .zoom-art { padding:20px; background:var(--panel); border-radius:12px; text-align:center; overflow:auto }
+    .zoom-art svg { width:min(100%,800px); height:auto }
+    #notice { position:fixed; bottom:calc(var(--reader-toolbar-occupancy, 72px) + 26px + env(safe-area-inset-bottom, 0px)); left:50%; transform:translateX(-50%); background:var(--ink); color:var(--surface); padding:9px 14px; border-radius:8px; font-size:.8rem; z-index:45; opacity:0; pointer-events:none; transition:opacity .15s; text-align:center }
+    #notice.show { opacity:1 }
+    .focus-mode .site-header,.focus-mode .breadcrumbs,.focus-mode .overview,.focus-mode .sample-banner,.focus-mode .toc,.focus-mode .node-navigation,.focus-mode .site-footer { display:none }
+    .focus-mode .reading-layout { display:block }
+    .focus-mode .container { max-width:1100px }
+    .focus-mode .toolbar { margin:0 }
+    .focus-mode .reading-paper { border:0; box-shadow:none; }
+    @media (max-width:940px) { .reading-layout { grid-template-columns:1fr; gap:15px } .toc { position:static; padding:13px 17px } .toc h2 { margin:0 0 7px } .toc-list { display:flex; gap:7px; overflow-x:auto; padding-bottom:4px } .toc a { flex-shrink:0; border-left:0; border-bottom:2px solid var(--border); border-radius:5px 5px 0 0; padding:9px 10px } .toc-hint { display:none } }
+    @media (max-width:640px) { .toolbar { flex-direction:column; align-items:stretch; overflow:visible; gap:8px } .reader-node-nav { width:100%; border-right:0; padding:0; display:grid; grid-template-columns:1fr 1fr; } .nav-btn { width:100%; min-height:39px; padding:8px 6px } .reader-tools-scroll { width:100%; flex:0 0 auto; padding-bottom:2px } }
+    @media (max-width:640px) { .container { padding:0 13px } .header-inner { padding:14px } .brand { font-size:.86rem } .brand-icon { width:32px; height:32px; font-size:1rem } .header-back { font-size:.75rem } .overview { padding-top:3px } h1 { font-size:2.05rem } .toolbar { gap:7px; padding:10px; left:8px; right:8px; bottom:calc(8px + env(safe-area-inset-bottom, 0px)); width:auto; transform:none; border-radius:13px } .tool-group { border-right:0; padding-right:0 } .tool-label { font-size:.7rem } .tool-btn,.tool-select { font-size:.79rem } .reading-paper { padding:23px 18px; border-radius:13px } .article-content { font-family:Georgia,"Times New Roman",serif } .focus-mode .reading-paper { padding:20px 8px } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto } body { transition:none } }
+  
+    /* Reader responsive layout: constrain grid and scroll regions independently. */
+    html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body { min-width:0; }
+    .container,.header-inner,.overview,.reading-layout,.toc,.toc-list,.note-wrap,.reading-paper,.article-content,.article-content section { min-width:0; max-inline-size:100%; }
+    .container { width:100%; max-inline-size:1240px; }
+    .header-inner { width:100%; max-inline-size:1260px; }
+    .brand { min-width:0; }
+    .brand-icon { flex:none; }
+    .header-back { flex:none; }
+    .overview h1,.subtitle,.breadcrumbs,.article-content h2,.article-content h3,.article-content summary { overflow-wrap:anywhere; }
+    .toc { max-height:calc(100vh - 130px); overflow-y:auto; overscroll-behavior:contain; }
+    .toc-list { min-width:0; }
+    .reading-paper { width:100%; }
+    .article-content { width:100%; max-inline-size:min(100%,var(--read-width)); }
+    .article-content details,.keybox,.figure-panel,.table-scroll { min-width:0; max-inline-size:100%; }
+    .article-content img,.article-content svg { max-inline-size:100%; height:auto; }
+    .figure-panel svg { display:block; margin-inline:auto; }
+    .table-scroll { display:block; width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+    .compare-table { max-width:none; }
+    .compare-table td,.compare-table th { overflow-wrap:normal; }
+    .reader-tools-scroll { min-width:0; max-width:100%; }
+    .nav-btn { white-space:normal; }
+    .zoom-art { min-width:0; max-width:100%; }
+    #notice { max-width:calc(100% - 24px); overflow-wrap:anywhere; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); width:100%; }
+      .toc { width:100%; max-height:none; overflow:visible; }
+      .toc-list { width:100%; display:flex; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scroll-snap-type:x proximity; }
+      .toc a { flex:0 0 auto; max-width:min(250px,75vw); white-space:normal; overflow-wrap:anywhere; scroll-snap-align:start; }
+      .note-wrap { width:100%; }
+    }
+    @media (max-width:640px) {
+      .container { padding-inline:12px; }
+      .header-inner { gap:8px; padding:12px; flex-wrap:wrap; }
+      .brand { flex:1 1 180px; }
+      .brand span:last-child { overflow-wrap:anywhere; }
+      .overview h1 { font-size:clamp(1.65rem,7.5vw,2.1rem); }
+      .reading-paper { padding:clamp(12px,4vw,20px); }
+      .article-content { font-size:var(--read-size); line-height:var(--read-leading); }
+      .article-content h2 { font-size:1.3em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .compare-table th,.compare-table td { padding:8px; }
+      .toolbar { min-width:0; max-width:calc(100% - 16px); }
+      .reader-node-nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:6px; }
+      .nav-btn,.tool-btn,.tool-select { min-height:40px; }
+      .reader-tools-scroll { overflow-x:auto; overflow-y:hidden; touch-action:pan-x; }
+      .focus-mode .container { padding-inline:8px; }
+      .focus-mode .reading-paper { padding:12px 6px; }
+      dialog { width:calc(100% - 24px); max-width:calc(100% - 24px); margin:auto; }
+      .zoom-art { padding:8px; }
+    }
+
+
+    /* Reader typography and alignment: shared chapter styling. */
+    .header-inner,.container { max-width:1200px; margin-inline:auto; }
+    .header-inner { align-items:center; }
+    .breadcrumbs { align-items:baseline; padding-block:24px 12px; }
+    .overview { padding-block:8px 30px; }
+    .overview h1 { line-height:1.17; letter-spacing:-.035em; text-wrap:balance; }
+    .subtitle { max-width:65ch; font-size:1.04rem; line-height:1.65; margin-top:14px; }
+    .reading-layout { grid-template-columns:minmax(0,230px) minmax(0,1fr); gap:24px; }
+    .toc { padding:18px 14px; }
+    .toc h2 { margin:0 8px 12px; font-size:.92rem; }
+    .toc a { padding:10px 9px; line-height:1.5; font-size:.85rem; border-radius:0 6px 6px 0; }
+    .toc a + a { margin-top:2px; }
+    .reading-paper { padding:clamp(24px,4vw,50px); }
+    .article-content { text-align:start; font-kerning:normal; letter-spacing:.005em; }
+    .article-content section + section { margin-top:2.2em; padding-top:1.45em; border-top:1px solid var(--border); }
+    .article-content section > h2 { margin:0 0 .8em; font-size:1.48em; line-height:1.28; font-weight:750; letter-spacing:-.025em; text-wrap:pretty; }
+    .article-content h3 { font-size:1.12em; line-height:1.4; margin:1.55em 0 .55em; }
+    .article-content p { margin:0 0 1.05em; text-align:start; }
+    .article-content p:last-child { margin-bottom:0; }
+    .article-content ul,.article-content ol { padding-inline-start:1.4em; margin:.7em 0 1.15em; }
+    .article-content li { padding-inline-start:.15em; margin:.5em 0; }
+    .article-content a { text-decoration-thickness:1px; text-underline-offset:3px; }
+    .keybox { padding:18px 20px; margin:1.5em 0; }
+    .keybox h3,.exam-tip h3 { margin:0 0 .45em; font-size:.98em; }
+    .keybox p,.exam-tip p { margin:0; }
+    .figure-panel { margin:1.55em 0; padding:18px; }
+    .figure-panel figcaption { max-width:58ch; margin:12px auto 0; font-size:.82em; line-height:1.6; text-align:start; }
+    .compare-table { font-size:.82em; line-height:1.5; }
+    .compare-table caption { color:var(--muted); font-size:.95em; font-weight:650; padding:0 0 10px; text-align:start; }
+    .compare-table th,.compare-table td { text-align:start; vertical-align:top; }
+    .compare-table tbody tr:nth-child(even) { background:var(--panel); }
+    .article-content details { margin:12px 0; padding:14px 16px; border:1px solid var(--border); border-radius:12px; }
+    .article-content summary { cursor:pointer; font-weight:650; line-height:1.55; }
+    .article-content details[open] { background:var(--panel); }
+    .article-content details[open] > summary { margin-bottom:.8em; }
+    .article-content details > p { margin:0; }
+    .node-navigation { align-items:center; }
+    .toolbar { box-shadow:0 8px 30px rgba(0,0,0,.15); }
+    .tool-btn,.tool-select,.nav-btn { font-variant-numeric:tabular-nums; }
+    @media (max-width:940px) {
+      .reading-layout { grid-template-columns:minmax(0,1fr); gap:16px; }
+      .toc { padding:13px 14px; }
+      .toc h2 { margin:0 0 7px; }
+      .toc a { flex-basis:auto; max-width:min(230px,75vw); margin-top:0; padding:9px 12px; border-radius:7px; background:var(--panel); }
+      .toc a + a { margin-top:0; }
+    }
+    @media (max-width:640px) {
+      .header-inner,.container { padding-inline:12px; }
+      .breadcrumbs { gap:5px; padding-block:16px 8px; font-size:.74rem; }
+      .overview { padding-block:4px 18px; }
+      .meta-row { gap:6px; margin-bottom:12px; font-size:.68rem; }
+      .overview h1 { font-size:clamp(1.7rem,7vw,2.05rem); line-height:1.2; }
+      .subtitle { font-size:.95rem; margin-top:10px; }
+      .reading-paper { padding:18px 14px; border-radius:12px; }
+      .article-content { font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; letter-spacing:0; }
+      .article-content section + section { margin-top:1.8em; padding-top:1.25em; }
+      .article-content section > h2 { font-size:1.29em; line-height:1.35; }
+      .article-content p { margin-bottom:1em; }
+      .keybox,.figure-panel,.article-content details { padding:12px; }
+      .figure-panel figcaption { font-size:.78em; line-height:1.55; }
+      .compare-table { font-size:.79em; }
+      .compare-table th,.compare-table td { padding:9px; }
+      .focus-mode .reading-paper { padding:14px 8px; }
+      .toc a { font-size:.8rem; }
+    }
+
+.source-note{font-size:.78em;color:var(--muted)} .figure-panel svg{width:100%;max-width:700px} .article-content details ol{margin:0.65em 0 0.8em;padding-inline-start:1.6em} .article-content details summary{cursor:pointer} .practice-question{margin:1.5em 0;padding-bottom:1em;border-bottom:1px solid var(--border)}.practice-question h3{font-size:1.03em;margin:0 0 .5em}.practice-question ol{padding-inline-start:1.8em}.practice-question details{margin:.7em 0} .question-block{padding:16px 0;border-bottom:1px solid var(--border)}.question-block h3{font-size:1rem}.question-block details,.article-content details{margin:.7rem 0;padding:.6rem .8rem;background:var(--panel);border:1px solid var(--border);border-radius:8px}.article-content summary{cursor:pointer;font-weight:700}.section-sources{color:var(--muted);font-size:.85em}.table-scroll{overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll th,.table-scroll td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}.table-scroll th{background:var(--panel)}.figure-panel,.zoom-art{--reg-green:#116746;--reg-orange:#a45316;--reg-blue:#315f9b}body[data-theme="dark"] .figure-panel,body[data-theme="dark"] .zoom-art{--reg-green:#8be5bb;--reg-orange:#ffc388;--reg-blue:#aec7ff}.figure-panel svg,.zoom-art svg{color:var(--ink)}
+.article-content .question{padding:1em 1.1em;margin:1.2em 0;border:1px solid var(--border);border-radius:12px;background:var(--panel)} .article-content .question h3{margin:0 0 .5em}.article-content .question details{margin-top:.8em}.article-content figure{margin:1.5em 0;padding:1em;border:1px solid var(--border);border-radius:14px;background:var(--panel)}.article-content figure svg{display:block;margin:auto;width:100%;height:auto}.article-content figcaption{font-size:.88em;color:var(--muted);margin-top:.7em}.table-scroll{max-width:100%;overflow-x:auto}.table-scroll table{width:100%;border-collapse:collapse}.table-scroll td,.table-scroll th{padding:.55em;border:1px solid var(--border);text-align:left}.table-scroll caption{font-weight:700;text-align:left;margin:.5em 0}.diagram-zoom{display:block;margin:.5em auto} </style>
+</head>
+<body data-theme="light">
+  <div class="progress-track" aria-hidden="true"><div id="progress" class="progress-fill"></div></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="brand"><span class="brand-icon" aria-hidden="true">✦</span><span>Life Science Academy</span></a>
+      <a href="./" class="header-back">← Back to Academy</a>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>›</span><span>Study Notes</span><span>›</span><span>Unit 8</span><span>›</span><span>Sub-unit 8.C</span><span>›</span><strong>Node 8.C.02</strong></nav>
+    <div class="overview"><div class="meta-row"><span class="pill">Node 8.C.02</span><span>Unit 8 · CSIR-NET &amp; SET Life Sciences</span></div><h1>Tetrad Analysis and Fungal Genetics</h1><p class="subtitle">Calculate linkage maps, gene order, double crossovers, interference and Haldane and Kosambi mapping functions for CSIR-NET and SET.</p></div>
+    <div class="toolbar" id="reader-tools" role="group" aria-label="Reading preferences. On smaller screens, swipe horizontally to see more controls.">
+      <div class="reader-node-nav" aria-label="Node navigation">
+        <button class="nav-btn" type="button" id="previous-node" disabled aria-label="Previous curriculum node">← Previous Node</button>
+        <button class="nav-btn nav-next" type="button" id="next-node" disabled aria-label="Next curriculum node">Next Node →</button>
+      </div>
+      <div class="reader-tools-scroll" aria-label="Reading settings; swipe horizontally on small screens">
+        <div class="tool-group">
+        <span class="tool-label">Text</span>
+        <button type="button" class="tool-btn" id="smaller" aria-label="Decrease text size">A−</button>
+        <span class="font-value" id="font-display">18px</span>
+        <button type="button" class="tool-btn" id="larger" aria-label="Increase text size">A+</button>
+        <button type="button" class="tool-btn" id="reset" aria-label="Reset reading preferences">Reset</button>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="theme">Theme</label>
+        <select class="tool-select" id="theme" aria-label="Reading color theme"><option value="light">☀ Light</option><option value="dark">☾ Dark</option><option value="sepia">▧ Sepia</option></select>
+      </div>
+      <div class="tool-group">
+        <label class="tool-label" for="spacing">Spacing</label>
+        <select class="tool-select" id="spacing" aria-label="Line spacing"><option value="1.6">Compact</option><option value="1.85">Comfort</option><option value="2.1">Relaxed</option></select>
+        <label class="tool-label" for="width">Width</label>
+        <select class="tool-select" id="width" aria-label="Reading column width"><option value="660px">Narrow</option><option value="760px">Regular</option><option value="900px">Wide</option></select>
+      </div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="focus" aria-pressed="false">⛶ Focus / Full screen</button>
+      </div>
+      </div>
+    </div>
+    <div class="reading-layout">
+      <aside class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <div class="toc-list"><a href="#problem">Why recover an entire meiosis?</a><a href="#fungi">Fungal life cycles and the meaning of an ascus</a><a href="#division">From DNA replication to ordered segregation</a><a href="#centromere">Gene-centromere distances: derivation and calculation</a><a href="#refs">References</a></div>
+        <p class="toc-hint">Jump directly to a section. Reading progress appears at the top of the screen.</p>
+      </aside>
+      <div class="note-wrap">
+        <article class="reading-paper" aria-label="Tetrad Analysis and Fungal Genetics study notes"><div class="article-content" id="article"><section id="problem"><h2>Why recover an entire meiosis?</h2><p class="teaching-prose">In a conventional genetic cross, offspring are usually considered one at a time. Each offspring reports a combination of alleles inherited from the gamete that contributed to its formation. A sufficiently large collection of offspring can reveal the frequency of recombinant gametes and therefore the linkage relationship between genes. However, information about the other products of the same meiosis is usually lost. If a recombinant offspring carries the combination Ab rather than AB, the investigator cannot ordinarily identify the reciprocal aB product generated during the same exchange. The unit of observation is an individual descendant rather than a complete chromosome segregation event. Tetrad analysis changes this unit of observation. Instead of assembling an indirect account of meiosis from unrelated offspring, it examines the four haploid products generated by one meiotic cell and preserves their association with one another.</p>
+<p class="teaching-prose">Imagine two genetically distinct parental strains whose chromosomes carry alleles A and a at one locus. Their nuclei unite to establish a diploid nucleus. Before meiosis, each chromosome replicates, producing two sister chromatids. During the first division, homologous chromosomes separate; during the second, sister chromatids segregate. If nothing alters the genetic information at the marker, two of the four resulting nuclei contain A and two contain a. The ordinary Mendelian segregation ratio of one to one is therefore recovered inside each complete tetrad rather than merely as an average over many individuals. There is an important distinction here: a population ratio may arise because many individual meiotic events have different outcomes, while a complete tetrad constrains the possible outcomes of each event. It is this constraint that makes anomalous segregation informative.</p>
+<p class="teaching-prose">The concept of a tetrad has two related meanings in cell biology and genetics. A meiotic bivalent contains two homologous chromosomes, each consisting of two chromatids, so the four chromatids of this association are sometimes called a tetrad. In fungal genetics, the term normally denotes the four haploid products of a single meiosis. These products result from the segregation of chromatids from all chromosome pairs, not just one bivalent. A genetic tetrad can therefore be studied for markers on one chromosome or for markers on different chromosomes. Whenever a question refers to parental ditypes, tetratypes or spore segregation, tetrad means the recovered set of meiotic products. The chromatid tetrad, by contrast, is the chromosome structure before segregation.</p>
+<p class="teaching-prose">Many ascomycete fungi package the products of a sexual nuclear division inside a sac called an ascus. The plural is asci. Spores formed in asci are ascospores. An ascus is particularly useful because it places the products in a recognizable family. The products can be examined visually when a marker affects spore pigmentation or analyzed by growing individual spores and determining their phenotype or genotype. Some fungi preserve an additional clue: the spatial arrangement of spores reflects the sequence of nuclear divisions. Other species provide a group of spores without a reliable linear record of which nuclei were separated in which division. Both systems can reveal linkage, but their data must be interpreted differently.</p>
+<p class="teaching-prose">Why are haploid fungi especially convenient for this analysis? In a haploid nucleus, each ordinary nuclear locus is represented by a single chromosome copy. A loss of function allele can be expressed directly without being masked by a functional homolog. For example, a mutant spore that cannot synthesize an essential amino acid may germinate when supplied with that amino acid but fail to form a colony when the nutrient is absent. A complementary medium that supports both parental genotypes establishes whether the spore is viable; a diagnostic medium then distinguishes genotypes. This separates the question of inheritance from the question of growth under a particular environment. Not every haploid marker is simple to score, because expression can still depend on other genes or environmental conditions. Haploidy removes the usual dominance complication at a nuclear locus, not all sources of phenotypic uncertainty.</p>
+<p class="teaching-prose">The study of complete asci also altered how geneticists thought about the relationship between recombination and allele transmission. Ordinary reciprocal crossing over rearranges the association of neighboring alleles without changing how many copies of each allele exist among the four products. Yet some fungal crosses produced asci containing unequal numbers of parental alleles. Such observations could not be explained simply by moving intact chromosome segments from one homolog to another. They helped establish the concept of gene conversion, in which recombination-associated DNA processing can result in a nonreciprocal transfer of sequence information. In ordered octads, even the two mitotic descendants of a single meiotic product may differ if a mismatch in a DNA duplex survives until the next replication. Thus the complete ascus provides evidence about both chromosome-scale segregation and local molecular processing.</p>
+<p class="teaching-prose">This chapter develops these inferences in two stages. First, it connects the spatial order of Neurospora spores with the separation of homologous centromeres and sister chromatids. This permits estimation of a gene's genetic distance from its centromere. Second, it removes the requirement for spatial order and uses the identities of the four products to study linkage between two loci, as in budding yeast. The two approaches ask different questions of the same fundamental process. Their equations are not interchangeable, because they count different observations and depend on different assumptions. At the end, anomalous segregation will be examined separately rather than forced into an ordinary linkage model.</p></section>
+<section id="fungi"><h2>Fungal life cycles and the meaning of an ascus</h2><p class="teaching-prose">Neurospora crassa is a filamentous ascomycete in which vegetative growth occurs as a network of hyphae. A hypha is a tubular cellular structure that extends and branches, and the resulting network is termed a mycelium. Its nuclei are ordinarily haploid. Compatible mating types can participate in a sexual cycle in which nuclei from the two genetic backgrounds eventually fuse. Nuclear fusion, called karyogamy, creates a diploid nucleus that undergoes meiosis. The four meiotic nuclei normally undergo a subsequent mitotic division during ascus development, ultimately giving eight ascospores arranged in a line. The resulting eight-spore ascus is an octad. The octad represents one meiosis followed by a duplication of the four products, not two independent meioses.</p>
+<p class="teaching-prose">The distinction between cellular fusion and nuclear fusion is useful in understanding fungal life cycles. Plasmogamy refers to the association or fusion of cytoplasms, whereas karyogamy refers to the union of haploid nuclei. In many fungi these events are separated in time. A compartment containing genetically different haploid nuclei is not equivalent to a diploid nucleus: each nucleus in that compartment may still possess only one set of chromosomes. For tetrad analysis, the relevant event is the establishment of a diploid nucleus with homologous chromosomes capable of pairing and segregating at meiosis. Tracking nuclei rather than simply counting cells avoids ambiguity about ploidy in filamentous organisms.</p>
+<p class="teaching-prose">A single ascus in Neurospora ordinarily records one meiotic division sequence. Different asci in a fruiting body can represent different meiotic events. They are valuable as replicate observations, but nearby spores within one ascus cannot be treated as eight independent meioses. When a scientist analyzes hundreds of asci, the statistical sample size for an ascus-class frequency is the number of asci. This matters especially in comparing second-division segregation frequencies across crosses. Treating the eight spores of an ascus as independent samples would artificially suggest greater precision, because the sibling spores share a common history.</p>
+<p class="teaching-prose">Saccharomyces cerevisiae, the budding yeast, offers a contrasting fungal model. Compatible haploid cells can mate and establish a diploid cell. Diploid yeast can proliferate mitotically or enter a meiotic developmental program under suitable nutritional conditions. A sporulating diploid generally packages its four meiotic products as four ascospores. These spores are enclosed together in an ascus but do not provide the routine linear order that is characteristic of the Neurospora octad. A genetic investigator can separate the four spores and examine their progeny independently while preserving their common ascus identity. The resulting collection is known as an unordered tetrad.</p>
+<p class="teaching-prose">The expression unordered does not mean genetically unstructured. Homologs still segregate during the first meiotic division and sister chromatids during the second. It means the investigator cannot normally identify these divisions simply from the spatial order in the mature yeast ascus. The four products can be permuted without changing the data used to define a tetrad class. For example, the unordered tetrad AB, ab, AB, ab is genetically equivalent to ab, ab, AB, AB. In an ordered ascus, exchanging positions can destroy evidence about the division in which two alleles became separated. The biological process is conserved; the measurement differs.</p>
+<p class="teaching-prose">The term ascospore describes developmental origin rather than a particular genetic phenotype. Spores can be haploid or, in unusual cases, have abnormal chromosome content as a result of segregation errors. A spore that fails to germinate cannot simply be assigned an allele from the remaining products unless the assumptions used in that inference are justified. The absence of growth could arise from a lethal mutation, chromosome imbalance, environmental stress or a technical scoring failure. Complete tetrad analysis therefore normally uses fully informative sets with reliable marker calls, or separately records incomplete sets for methods appropriate to such data. Discarding incomplete sets can itself introduce bias if the missing products are genetically nonrandom.</p>
+<p class="teaching-prose">An additional complication is the meaning of a pair of adjacent ascospores in an octad. Under ordinary ordered development, the two mitotic descendants of one meiotic nucleus carry the same allele at a given marker and lie adjacent to one another. This allows an eight-spore pattern to be compressed to a four-product pattern. But a persistent mismatch at the marker can cause the two descendants to inherit different allelic information. In that case compression would lose the very observation that reveals postmeiotic segregation. The paired structure should therefore be checked before reducing an octad to a tetrad.</p>
+<p class="teaching-prose">These two fungi illustrate why a species must be identified before choosing a mapping method. The same marker pair could show parental combinations in both organisms, but a positional count of second-division segregation is justified only when the relative positions reflect the nuclear lineage or another validated method identifies the division. Conversely, the PD, NPD and tetratype categories can be defined even if the four products have been randomly arranged. A Neurospora octad can be analyzed as an unordered set if its spatial information is unavailable, provided each meiotic product is identifiable and abnormal segregation is handled explicitly. It is not the taxonomic name alone that authorizes an equation; it is the information preserved by the biological sample.</p></section>
+<section id="division"><h2>From DNA replication to ordered segregation</h2><p class="teaching-prose">Consider a diploid cell that is heterozygous at a marker A/a. Before premeiotic DNA replication there are two homologous copies of the chromosome, one carrying A and one carrying a. After replication there are four chromatids, two carrying A and two carrying a. Each sister pair shares a centromeric region whose cohesion keeps it associated until the appropriate division. The centromere is a chromosomal region at which the kinetochore assembles and permits interaction with the spindle. It acts as a positional reference in genetic mapping because homologous centromeres are segregated at meiosis I, whereas the sister centromeres separate at meiosis II. The centromere need not itself be polymorphic for a geneticist to reason about its segregation.</p>
+<p class="teaching-prose">During meiotic prophase I, homologous chromosomes associate and recombination can take place between non-sister chromatids. In a simple representation, let the two sisters of one homolog be C1-A and C1-A, and those of the other homolog C2-a and C2-a. C1 and C2 here denote centromere identities based on their parental origins; they do not denote observable alleles. A reciprocal exchange between a non-sister pair at a position between the marker and its centromere changes which allele is linked to each centromere. The new set contains C1-A, C1-a, C2-A and C2-a. This notation makes it possible to follow centromeres and alleles separately.</p>
+<p class="teaching-prose">In meiosis I, the two chromatids bearing C1 go to one daughter nucleus while those bearing C2 go to the other. If there was no exchange between the marker and centromere, both chromatids in one first-division nucleus contain A and both in the other contain a. When the second division separates the chromatids, the marker identity of each product has already been determined at the first division. In an ordered four-product arrangement, the products are A, A, a, a or the reverse. After the mitosis that forms the octad, the usual pattern is A A A A a a a a or a a a a A A A A. This is termed first-division segregation, often abbreviated FDS or MI segregation.</p>
+<p class="teaching-prose">If a single crossover occurred between marker and centromere, each first-division nucleus contains one chromatid with A and one with a. Homolog separation does not resolve the two marker alleles into different nuclei at that division. They are separated at meiosis II when the sister chromatids, which may now differ at the distal marker, move apart. The first two meiotic products contain one A and one a, and so do the last two. There are two basic arrangements when reverse orientation and exchange of allele names are recognized as equivalent patterns. One ordered tetrad can read A, a, A, a, giving A A a a A A a a in the octad. Another can read A, a, a, A, giving A A a a a a A A. These are second-division segregation, abbreviated SDS or MII segregation.</p>
+<p class="teaching-prose">Why are the octad classes described using 4:4, 2:2:2:2 and 2:4:2? The numbers refer to lengths of consecutive runs of an allele when the ascus is read from one end. They do not refer to the total number of copies of each allele, which remains four and four in all three ordinary patterns. Both SDS classes obey Mendelian segregation. In the 2:4:2 pattern, the two central pairs happen to share the same marker allele because of the orientation of the second-division spindles; they still descend from two distinct meiotic nuclei. A central block of four does not therefore prove that there was first-division segregation. The student must consider the positions of the first and last pairs as well.</p>
+<p class="teaching-prose">It is equally important to recognize which exchanges do not affect the observed pattern. Suppose the marker lies to the right of the centromere and a crossover occurs farther to the right than the marker. This can exchange genetic information at a distal locus while leaving A and a linked to their original centromeres. The A marker still displays first-division segregation. Thus an FDS ascus does not establish that the chromosome experienced no crossing over. It establishes that the marker and centromere show the first-division association pattern, which is sensitive to exchanges in their interval. A marker lying on another chromosome also cannot report crossing over on the focal chromosome.</p>
+<p class="teaching-prose">Multiple exchanges in the centromere-marker interval complicate this reasoning. Two crossovers involving the same two non-sister chromatids can restore the original association between the marker and centromere. Four-strand double exchanges can also yield an FDS pattern with exchanged centromere-marker associations. In a three-strand double crossover, two chromatids can be recombinant with respect to the interval, generating SDS. The precise result depends on which chromatids participate and where the exchanges occur. Consequently, the mapping rule derived from SDS is most directly interpreted as an estimate based on the observed segregation pattern. It is not a literal count of all molecular exchange events, especially for a long interval.</p>
+<p class="teaching-prose">The central role of the centromere in this argument can be appreciated by comparing it with a conventional two-gene cross. Both analyses ask whether two genetic landmarks remain associated after meiosis. In one case, both landmarks are scored polymorphic loci; in the other, the first and second divisions supply evidence about which centromere group a marker entered. A visible centromeric marker is unnecessary in the latter because ascus order provides an indirect label. If the asci were mixed before scoring, their products would still give a one-to-one segregation ratio at the marker, but the information needed to distinguish FDS from SDS would disappear.</p><figure class="figure-panel"><svg role="img" id="ordered-patterns" aria-labelledby="ordered-patterns-t ordered-patterns-d" viewBox="0 0 440 159" xmlns="http://www.w3.org/2000/svg"><title id="ordered-patterns-t">Ordered Neurospora octads</title><desc id="ordered-patterns-d">Each adjacent pair normally descends from one meiotic nucleus. All three patterns retain four copies of each allele; their spatial order distinguishes first- and second-division segregation.</desc><text x="10" y="44" fill="var(--ink)" font-size="12">FDS: 4:4</text><rect x="145" y="28" width="29" height="24" rx="10" fill="#127653"/><text x="159" y="44" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="180" y="28" width="29" height="24" rx="10" fill="#127653"/><text x="194" y="44" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="215" y="28" width="29" height="24" rx="10" fill="#127653"/><text x="229" y="44" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="250" y="28" width="29" height="24" rx="10" fill="#127653"/><text x="264" y="44" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="285" y="28" width="29" height="24" rx="10" fill="#547bb2"/><text x="299" y="44" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="320" y="28" width="29" height="24" rx="10" fill="#547bb2"/><text x="334" y="44" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="355" y="28" width="29" height="24" rx="10" fill="#547bb2"/><text x="369" y="44" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="390" y="28" width="29" height="24" rx="10" fill="#547bb2"/><text x="404" y="44" text-anchor="middle" fill="#fff" font-size="13">a</text><text x="10" y="89" fill="var(--ink)" font-size="12">SDS: 2:2:2:2</text><rect x="145" y="73" width="29" height="24" rx="10" fill="#127653"/><text x="159" y="89" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="180" y="73" width="29" height="24" rx="10" fill="#127653"/><text x="194" y="89" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="215" y="73" width="29" height="24" rx="10" fill="#547bb2"/><text x="229" y="89" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="250" y="73" width="29" height="24" rx="10" fill="#547bb2"/><text x="264" y="89" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="285" y="73" width="29" height="24" rx="10" fill="#127653"/><text x="299" y="89" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="320" y="73" width="29" height="24" rx="10" fill="#127653"/><text x="334" y="89" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="355" y="73" width="29" height="24" rx="10" fill="#547bb2"/><text x="369" y="89" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="390" y="73" width="29" height="24" rx="10" fill="#547bb2"/><text x="404" y="89" text-anchor="middle" fill="#fff" font-size="13">a</text><text x="10" y="134" fill="var(--ink)" font-size="12">SDS: 2:4:2</text><rect x="145" y="118" width="29" height="24" rx="10" fill="#127653"/><text x="159" y="134" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="180" y="118" width="29" height="24" rx="10" fill="#127653"/><text x="194" y="134" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="215" y="118" width="29" height="24" rx="10" fill="#547bb2"/><text x="229" y="134" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="250" y="118" width="29" height="24" rx="10" fill="#547bb2"/><text x="264" y="134" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="285" y="118" width="29" height="24" rx="10" fill="#547bb2"/><text x="299" y="134" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="320" y="118" width="29" height="24" rx="10" fill="#547bb2"/><text x="334" y="134" text-anchor="middle" fill="#fff" font-size="13">a</text><rect x="355" y="118" width="29" height="24" rx="10" fill="#127653"/><text x="369" y="134" text-anchor="middle" fill="#fff" font-size="13">A</text><rect x="390" y="118" width="29" height="24" rx="10" fill="#127653"/><text x="404" y="134" text-anchor="middle" fill="#fff" font-size="13">A</text></svg><figcaption>Each adjacent pair normally descends from one meiotic nucleus. All three patterns retain four copies of each allele; their spatial order distinguishes first- and second-division segregation.</figcaption></figure></section>
+<section id="centromere"><h2>Gene-centromere distances: derivation and calculation</h2><p class="teaching-prose">For a sufficiently short interval between a gene and its centromere, suppose the common outcomes are no crossover or a single crossover involving two non-sister chromatids. In an FDS ascus of the no-crossover type, none of the four meiotic products is recombinant relative to the parental centromere-marker associations. In an SDS ascus of the single-crossover type, two of the four products are recombinant. There are four products in each ascus, so across N complete asci with S second-division asci the total number of recombinant chromatids in the simplified model is 2S and the total number examined is 4N. Dividing yields a recombinant fraction of S/(2N). Multiplying by 100 expresses this estimate in map units or centimorgans.</p>
+<p class="teaching-prose">The standard classroom equation is gene-centromere distance = 50 × SDS/N cM, or one-half the percentage of second-division segregation. The factor one-half is not a correction for the number of ascospores by itself. It reflects the proportion of recombinant chromatids when a single crossover involves only two of four chromatids. If eight-spore octads are counted, each of the two recombinant nuclei produces two spores. This gives four recombinant spores out of eight, which is still one-half. One cannot divide by two a second time simply because the organism forms octads. The additional mitosis doubles the numerator and denominator equally.</p>
+<p class="teaching-prose">An illustrative Neurospora cross yields 152 first-division 4:4 asci, 28 asci of the 2:2:2:2 pattern and 20 of the 2:4:2 pattern. The total number of asci is 200. Both of the latter classes are SDS, so S = 48. The SDS frequency is 48/200 = 0.24, or 24 percent. The map distance is 12 cM. If the investigator uses only the alternating 2:2:2:2 class, the result would be 7 cM, an underestimate caused by ignoring a second valid arrangement of the same underlying segregation type. If the investigator reports 24 cM, the SDS percentage has been incorrectly treated as the recombinant chromatid percentage. These errors have different biological causes, even though both arise in applying a simple formula.</p>
+<p class="teaching-prose">Now consider a second marker with 8 SDS asci among 200 total. Its estimated centromere distance is 2 cM. If the two markers belong to the same chromosome, the second marker is genetically closer to the centromere under comparable conditions. But a distance of 2 cM and a distance of 12 cM alone do not determine whether they lie on the same arm or opposite arms. If both lie on one arm, their approximate separation may be 10 cM; if they lie on opposite arms, their approximate separation may be 14 cM. The word approximate acknowledges that independently estimated genetic intervals may not be strictly additive when multiple events and sampling variation influence the observations. To choose between the two configurations requires additional linkage information.</p>
+<p class="teaching-prose">The distance is an estimate of genetic behavior, not a measurement of physical DNA length. Centromeric and pericentromeric regions often display patterns of crossover suppression, and the strength of suppression depends on organism, chromosome and local chromosomal organization. Two loci separated by the same number of base pairs from their centromeres need not exhibit the same SDS frequencies. A genetic interval reflects how chromosome structure and the meiotic recombination program influence segregation. A genetic map can therefore be a valuable description of chromosome function even when a physical genome assembly is available.</p>
+<p class="teaching-prose">Sampling uncertainty is another reason to avoid reporting a calculated value as exact. If the observed SDS fraction is 0.24 from 200 independent asci and the underlying class probability is constant, a binomial approximation gives standard error sqrt(0.24 × 0.76 / 200) = 0.0302 for the SDS fraction. Because distance in cM is fifty times this fraction, the approximate standard error of the estimated distance is 1.51 cM. A rough normal confidence interval for the estimate is therefore 12 ± 2.96 cM. This calculation describes random sampling error under the stated model, not errors from misclassification, selective ascospore survival or multiple crossovers. Increasing the number of asci improves statistical precision but does not by itself eliminate systematic error.</p>
+<p class="teaching-prose">For long intervals, SDS can no longer be equated with the occurrence of exactly one exchange. Under a simple random-association limit in which two A-bearing and two a-bearing chromatids are distributed randomly among the four ordered meiotic positions, six distinct arrangements are possible. Two are FDS, and four are SDS. The expected SDS frequency in this limiting model is two-thirds, giving a conventional half-SDS estimate near 33.3 cM. This is not a universal maximum physical or genetic chromosome length; it is a limit of what the observable pattern can resolve under the stated randomization model. Individual samples can produce values above it, and other biological constraints can modify class probabilities. Long-distance mapping is better approached using multiple informative markers and suitable mapping models rather than reading the half-SDS number as a count of all exchanges.</p>
+<p class="teaching-prose">A small interval can also yield no observed SDS in a finite sample. This observation does not prove that the gene is located exactly at the centromere. In a cross with no SDS in 100 independent asci, a rough upper 95 percent bound on the underlying SDS probability is three divided by 100, giving an approximate upper bound of 1.5 cM under the short-interval model. The underlying recombination rate could be low but nonzero. Genetic maps are estimates whose resolution is limited by sample size and the biological process under investigation.</p><div class="table-wrap"><table><caption>Illustrative gene-centromere mapping dataset</caption><thead><tr><th scope="col">Octad pattern</th><th scope="col">Count</th><th scope="col">Division</th></tr></thead><tbody><tr><td>4:4</td><td>152</td><td>FDS</td></tr><tr><td>2:2:2:2</td><td>28</td><td>SDS</td></tr><tr><td>2:4:2</td><td>20</td><td>SDS</td></tr></tbody></table></div></section><section id="refs"><h2>References</h2><ol><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf">CSIR–UGC–DBT NET Life Sciences and Biotechnology syllabus, January 2026, Unit 8.C</a></li><li><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260129163159108LS_Sylbs_29Jan2026.pdf">CSIR–UGC NET Life Sciences syllabus, January 2026, Unit 8.D</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2758532/">Genetic Analysis of Meiotic Recombination in Schizosaccharomyces pombe</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1448106/">Gene Conversion and Crossing Over Along the 405-kb Left Arm of Saccharomyces cerevisiae Chromosome VII</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9273591/">Gene conversion: a non-Mendelian process integral to meiotic recombination</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/3299108/">The role of heteroduplex correction in gene conversion in Saccharomyces cerevisiae</a></li></ol></section></div></article>
+        <nav class="node-navigation" aria-label="Curriculum navigation" id="chapter-navigation"><a href="./">← Unit 8 curriculum</a></nav>
+      </div>
+    </div>
+    <footer class="site-footer">Life Science Academy · Unit 8 · Inheritance Biology</footer>
+  </div>
+  <dialog id="diagram-dialog" aria-labelledby="diagram-dialog-title">
+    <div class="zoom-top"><h2 id="diagram-dialog-title">Enlarged diagram</h2><button class="tool-btn" type="button" id="zoom-close">✕ Close</button></div>
+    <div id="zoom-art" class="zoom-art"></div>
+  </dialog>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const root = document.documentElement, body = document.body;
+      const byId = id => document.getElementById(id);
+      const theme = byId("theme"), spacing = byId("spacing"), width = byId("width");
+      const fontDisplay = byId("font-display"), focusBtn = byId("focus"), notice = byId("notice");
+      const storageKey = "lsa-reading-prefs-v1";
+      const defaults = {size:18,theme:"light",leading:"1.85",width:"760px"};
+      let current = {...defaults}, noticeHandle;
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if(saved && typeof saved === "object") current = {...current,...saved};
+      } catch (_) { /* Browsers may block local storage */ }
+      const saneTheme = x => ["light","dark","sepia"].includes(x) ? x : "light";
+      const saneLeading = x => ["1.6","1.85","2.1"].includes(String(x)) ? String(x) : "1.85";
+      const saneWidth = x => ["660px","760px","900px"].includes(x) ? x : "760px";
+      function save() { try { localStorage.setItem(storageKey,JSON.stringify(current)); } catch (_) {} }
+      function applyPrefs() {
+        current.size = Math.max(14,Math.min(28,Number(current.size)||18));
+        current.theme = saneTheme(current.theme);
+        current.leading = saneLeading(current.leading);
+        current.width = saneWidth(current.width);
+        root.style.setProperty("--read-size",current.size+"px");
+        root.style.setProperty("--read-leading",current.leading);
+        root.style.setProperty("--read-width",current.width);
+        body.dataset.theme=current.theme;
+        theme.value=current.theme; spacing.value=current.leading; width.value=current.width;
+        fontDisplay.textContent=current.size+"px";
+        save();
+      }
+      byId("larger").addEventListener("click",()=>{current.size+=2;applyPrefs();});
+      byId("smaller").addEventListener("click",()=>{current.size-=2;applyPrefs();});
+      byId("reset").addEventListener("click",()=>{current={...defaults};applyPrefs();});
+      theme.addEventListener("change",()=>{current.theme=theme.value;applyPrefs();});
+      spacing.addEventListener("change",()=>{current.leading=spacing.value;applyPrefs();});
+      width.addEventListener("change",()=>{current.width=width.value;applyPrefs();});
+      applyPrefs();
+      // A fixed bottom toolbar must never obscure the end of the reading content.
+      const readerToolbar = byId("reader-tools");
+      const syncToolbarSpacing = () => {
+        const toolbarHeight = Math.ceil(readerToolbar.getBoundingClientRect().height);
+        root.style.setProperty("--reader-toolbar-occupancy", toolbarHeight + "px");
+      };
+      syncToolbarSpacing();
+      if ("ResizeObserver" in window) new ResizeObserver(syncToolbarSpacing).observe(readerToolbar);
+      window.addEventListener("resize",syncToolbarSpacing,{passive:true});
+      const inform = message => { notice.textContent=message; notice.classList.add("show"); clearTimeout(noticeHandle); noticeHandle=setTimeout(()=>notice.classList.remove("show"),2400); };
+      const setFocus=on=>{
+        body.classList.toggle("focus-mode",on);
+        focusBtn.setAttribute("aria-pressed",String(on));
+        focusBtn.textContent=on?"⤢ Exit focus":"⛶ Focus / Full screen";
+      };
+      focusBtn.addEventListener("click",async ()=>{
+        if(body.classList.contains("focus-mode")){
+          setFocus(false);
+          if(document.fullscreenElement && document.exitFullscreen) { try { await document.exitFullscreen(); } catch (_) {} }
+          return;
+        }
+        setFocus(true);
+        if(document.documentElement.requestFullscreen) {
+          try { await document.documentElement.requestFullscreen(); }
+          catch (_) { inform("Focus mode enabled. Browser full screen is unavailable."); }
+        } else inform("Focus mode enabled. Browser full screen is unavailable.");
+      });
+      document.addEventListener("fullscreenchange",()=>{
+        if(!document.fullscreenElement && body.classList.contains("focus-mode")) setFocus(false);
+      });
+      document.addEventListener("keydown",e=>{
+        if(e.key==="Escape" && body.classList.contains("focus-mode") && !document.fullscreenElement) setFocus(false);
+      });
+      const dialog=byId("diagram-dialog");
+      // Resolve adjacent chapters only from published curriculum links.
+      fetch("./index.html",{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("Menu unavailable");return r.text()}).then(markup=>{const menu=new DOMParser().parseFromString(markup,"text/html");const nav=byId("chapter-navigation");for(const [code,id,label] of [["8.C.01","previous-node","← "],["8.C.03","next-node",""]]){const entry=Array.from(menu.querySelectorAll(".topic-code")).find(x=>x.textContent.trim()===code);const link=entry?.parentElement.querySelector("strong a[href]");if(!link)continue;const href=link.getAttribute("href");if(!/^[a-z0-9][a-z0-9-]*\.html$/.test(href))continue;const b=byId(id);b.disabled=false;b.setAttribute("aria-label",link.textContent);b.addEventListener("click",()=>location.href=href);const a=document.createElement("a");a.href=href;a.textContent=label+code+" "+link.textContent+(id==="next-node"?" →":"");nav.append(a)}}).catch(()=>{});
+
+
+      document.querySelectorAll(".diagram-zoom").forEach(btn=>btn.addEventListener("click",()=>{
+        if(typeof dialog.showModal!=="function"){inform("Diagram enlargement is unavailable in this browser.");return;}
+        const figure=byId(btn.dataset.figure),copy=figure.cloneNode(true);
+        copy.removeAttribute("id");
+        const labels=copy.getAttribute("aria-labelledby").split(" ");
+        copy.querySelectorAll("[id]").forEach(el=>el.id="zoom-"+el.id);
+        copy.setAttribute("aria-labelledby",labels.map(id=>"zoom-"+id).join(" "));
+        byId("diagram-dialog-title").textContent=figure.querySelector("title").textContent;
+        byId("zoom-art").replaceChildren(copy);dialog.showModal();
+      }));
+      byId("zoom-close").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+      let ticking=false;
+      function updateProgress(){
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        const percent=scrollable>0?Math.max(0,Math.min(100,window.scrollY/scrollable*100)):100;
+        byId("progress").style.width=percent+"%";
+        ticking=false;
+      }
+      window.addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(updateProgress);}}, {passive:true});
+      window.addEventListener("resize",updateProgress);
+      updateProgress();
+      const anchors=Array.from(document.querySelectorAll(".toc a"));
+      if("IntersectionObserver" in window){
+        const observer=new IntersectionObserver(entries=>{
+          const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+          if(visible[0]){
+            anchors.forEach(a=>{const active=a.getAttribute("href")==="#"+visible[0].target.id;a.classList.toggle("active",active);if(active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");});
+          }
+        },{rootMargin:"-15% 0px -65% 0px"});
+        document.querySelectorAll(".article-content section[id]").forEach(s=>observer.observe(s));
+      }
+    })();
+  </script>
+</body>
+</html>

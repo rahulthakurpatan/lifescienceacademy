@@ -634,3 +634,12 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 417/723; Unit 07: 84/90; 7.L: 4/8.
 - Earliest pending in 7.L: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
 - Audit: `curriculum/qa/7.L.01-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 7.L.08
+
+- [7.L.08 — Dyslipidaemia, Fatty Liver and Integrated Metabolic Disorders](https://rahulthakurpatan.github.io/lifescienceacademy/dyslipidaemia-fatty-liver-and-integrated-metabolic-disorders.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,154; 12 original SVGs (2 graphs), 5 tables, 57 explained questions (22 B, 27 C, 8 SET), 16 misconceptions, 14 recall prompts, 13 references; internal QA 95/100.
+- Academy: 418/723; Unit 07: 85/90; 7.L: 5/8.
+- Earliest pending in 7.L: 7.L.02 — Central Regulation of Appetite and Energy Homeostasis; global checkpoint: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome.
+- Audit: `curriculum/qa/7.L.08-publication-audit.md`.

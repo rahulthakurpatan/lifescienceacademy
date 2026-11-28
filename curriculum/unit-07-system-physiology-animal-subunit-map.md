@@ -494,3 +494,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 379/723; Unit 07: 64/90; 7.K: 2/6.
 - Earliest pending in 7.K: 7.K.03; global checkpoint: 7.F.08.
 - Audit: `curriculum/qa/7.K.02-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 7.K.04
+
+- [7.K.04 — Germ-Free Animals and Gnotobiotic Models](https://rahulthakurpatan.github.io/lifescienceacademy/germ-free-animals-and-gnotobiotic-models.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,526; 11 original SVGs (2 graphs), 3 tables, 52 explained questions (20 B, 22 C, 10 SET/application), 15 misconceptions, 10 recall prompts; internal QA 95/100.
+- Academy: 380/723; Unit 07: 65/90; 7.K: 3/6.
+- Earliest pending in 7.K: 7.K.03; global checkpoint: 7.F.08.
+- Audit: `curriculum/qa/7.K.04-publication-audit.md`.

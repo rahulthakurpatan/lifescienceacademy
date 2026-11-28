@@ -156,3 +156,11 @@ All seven explicit topic groups have substantive assigned coverage. Supporting c
 - Academy: 371/723; Unit 07: 56/90; 7.J: 1/12.
 - Earliest global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.02-publication-audit.md`. GitHub Pages deployment and live verification pending; static review only.
+
+### Publication checkpoint — 7.J.04 (2026-11-28)
+
+- Chapter: [Thyroid, Parathyroid and Calcium Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/thyroid-parathyroid-and-calcium-homeostasis.html).
+- Internal QA 95/100; 14,292 genuine teaching words, 14 SVGs, 2 graphs, 4 tables, 55 explained original questions (20 B / 25 C / 10 additional), 15 misconceptions, 12 active recall prompts, 10 references.
+- Academy: 373/723; Unit 07: 58/90; 7.J: 3/12.
+- Next global pending: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.J.04-publication-audit.md`. Deployment verification pending.

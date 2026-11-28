@@ -75,3 +75,9 @@
 | Acclimatization | 7.G.05 |
 
 All explicit topic groups have substantive assigned coverage. Comparative examples and heat-balance reasoning support examinable physiology rather than an exhaustive clinical or ecological curriculum.
+
+### Publication checkpoint — 2026-11-28 — 7.G.01
+
+- 7.G.01 — [Foundations of Thermoregulation and Thermal Comfort Zone](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-thermoregulation-and-thermal-comfort-zone.html); final static review 95/100; Pages deployment and direct live verification pending.
+- 14,298 teaching words, 142 distinct paragraphs, 13 accessible SVGs, 3 scientific tables, 52 explained questions (20 B / 24 C / 8 SET), 18 misconceptions, 14 recall prompts, 16 references. Audit: `curriculum/qa/7.G.01-publication-audit.md`.
+- Subunit 7.G: 1/5; Unit 07: 48/90; Academy: 363/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Next in 7.G: 7.G.02 — Physical Regulation of Body Temperature.

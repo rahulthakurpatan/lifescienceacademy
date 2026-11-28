@@ -385,3 +385,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.F.05 — [Urine Concentration and Regulation of Water Balance](https://rahulthakurpatan.github.io/lifescienceacademy/urine-concentration-and-regulation-of-water-balance.html); expanded recovered draft into full chapter. Static saved-HTML checks passed; Pages deployment and direct live verification pending.
 - 14,044 whitespace-separated teaching words, 156 distinct paragraphs, 14 accessible SVGs, 5 tables, 54 explained MCQs (20 B / 28 C / 6 SET), 15 misconceptions, 12 recall prompts, 15 references and further-reading entries. Audit: `curriculum/qa/7.F.05-publication-audit.md`.
 - Subunit 7.F: 7/8; Unit 07: 47/90; Academy: 362/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+
+### Publication checkpoint — 2026-11-28 — 7.G.01
+
+- 7.G.01 — [Foundations of Thermoregulation and Thermal Comfort Zone](https://rahulthakurpatan.github.io/lifescienceacademy/foundations-of-thermoregulation-and-thermal-comfort-zone.html); final static review 95/100; Pages deployment and direct live verification pending.
+- 14,298 teaching words, 142 distinct paragraphs, 13 accessible SVGs, 3 scientific tables, 52 explained questions (20 B / 24 C / 8 SET), 18 misconceptions, 14 recall prompts, 16 references. Audit: `curriculum/qa/7.G.01-publication-audit.md`.
+- Subunit 7.G: 1/5; Unit 07: 48/90; Academy: 363/723. Next global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis. Next in 7.G: 7.G.02 — Physical Regulation of Body Temperature.

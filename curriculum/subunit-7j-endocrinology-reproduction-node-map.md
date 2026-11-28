@@ -180,3 +180,11 @@ All seven explicit topic groups have substantive assigned coverage. Supporting c
 - Academy: 375/723; Unit 07: 60/90; 7.J: 5/12.
 - Next global: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
 - Audit: `curriculum/qa/7.J.09-publication-audit.md`. Deployment verification pending.
+
+### Publication checkpoint — 7.J.07 (2026-11-28)
+
+- Chapter: [Other Endocrine Organs and Integrated Hormonal Regulation](https://rahulthakurpatan.github.io/lifescienceacademy/other-endocrine-organs-and-integrated-hormonal-regulation.html)
+- Internal quality review: 95/100; 14,520 genuine teaching words, 144 distinct teaching paragraphs, 15 original accessible SVGs (3 graphs), 3 tables, 53 explained original questions (20 B / 26 C / 7 additional), 20 misconceptions, 15 recall prompts, 24 references.
+- Academy: 376/723; Unit 07: 61/90; 7.J: 6/12.
+- Earliest global unpublished: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis; next in 7.J: 7.J.01 — Foundations of Endocrinology and Hormonal Communication.
+- Audit: `curriculum/qa/7.J.07-publication-audit.md`. Deployment verification pending; static review only.

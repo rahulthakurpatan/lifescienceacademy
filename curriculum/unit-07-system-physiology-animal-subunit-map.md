@@ -361,3 +361,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.E.05 — [Auditory Transduction, Neural Processing and Equilibrium](https://rahulthakurpatan.github.io/lifescienceacademy/auditory-transduction-neural-processing-and-equilibrium.html); internal academic QA 95/100; saved HTML static checks passed; Pages/live verification pending.
 - 14,109 genuine teaching words in 130 distinct paragraphs; 16 original scientific SVGs including 6 graphs, 5 tables, 54 explained questions (20 Part B, 26 Part C, 8 SET), 20 misconceptions, 15 recall prompts, 22 references.
 - Subunit 7.E: 6/6; Unit 07: 43/90; Academy: 358/723. Next earliest unpublished node: 7.F.03 — Glomerular Filtration and Renal Haemodynamics.
+
+### Publication checkpoint — 2026-11-28 — 7.F.03
+
+- 7.F.03 — [Glomerular Filtration and Renal Haemodynamics](https://rahulthakurpatan.github.io/lifescienceacademy/glomerular-filtration-and-renal-haemodynamics.html); internal QA 95/100, static audit passed; Pages/live verification pending.
+- 14,612 lexical teaching words; 140 paragraphs; 12 original SVGs (3 graphs); 4 tables; 54 explained questions (20 Part B, 24 Part C, 10 SET); 18 misconceptions; 12 recall; 16 references. Audit: `curriculum/qa/7.F.03-publication-audit.md`.
+- Subunit 7.F: 4/8; Unit 07: 44/90; Academy: 359/723. Next global unpublished: 7.F.04 — Tubular Reabsorption, Secretion and Urine Formation.

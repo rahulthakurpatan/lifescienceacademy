@@ -343,3 +343,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 ### Publication checkpoint — 2026-11-28
 - **7.F.01 — Comparative Physiology of Excretion and Osmoregulation:** [published chapter](https://rahulthakurpatan.github.io/lifescienceacademy/comparative-physiology-of-excretion-and-osmoregulation.html); 14,213 genuine teaching words, 14 SVGs, 52 explained questions (22 B / 26 C / 4 SET), internal QA 95/100.
 - Subunit 7.F: 1/8; Unit 7: 39/90; Academy: 354/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing. Deployment verification pending.
+
+### Publication checkpoint — 2026-11-28 — 7.F.07
+
+- 7.F.07 — [Renal Regulation of Acid–Base Balance](https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-acid-base-balance.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
+- 13,605 teaching words, 142 paragraphs; 13 accessible original SVGs (5 graphs), 3 tables, 50 explained questions (20 Part B, 25 Part C, 5 SET/integrated), 17 misconceptions, 12 recall prompts and 15 references. Audit: `curriculum/qa/7.F.07-publication-audit.md`.
+- Subunit 7.F: 2/8; Unit 07: 40/90; Academy: 355/723. Next global unpublished node: 7.E.04 — Auditory System: Ear Anatomy and Mechanics of Hearing.

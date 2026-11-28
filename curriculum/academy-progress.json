@@ -4,16 +4,16 @@
   "unit": "07",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "7.F.01",
-  "title": "Comparative Physiology of Excretion and Osmoregulation",
+  "node_id": "7.F.07",
+  "title": "Renal Regulation of Acid–Base Balance",
   "subunit": "7.F",
   "topic": "Excretory System",
-  "slug": "comparative-physiology-of-excretion-and-osmoregulation.html",
+  "slug": "renal-regulation-of-acid-base-balance.html",
   "next_pending_node_id": "7.E.04",
   "next_pending_node_title": "Auditory System: Ear Anatomy and Mechanics of Hearing",
-  "published_node_count": 354,
+  "published_node_count": 355,
   "publication_allowed": true,
-  "main_baseline_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
+  "main_baseline_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
   "quality_hold": false,
   "next_required_action": "Verify production deployment and live chapter; then develop earliest unpublished node.",
   "planned_node_count": 90,
@@ -21,29 +21,29 @@
   "architecture_version": "unit-07-system-physiology-animal",
   "curriculum_roadmap": "curriculum/unit-07-system-physiology-animal-subunit-map.md",
   "last_qa": {
-    "node_id": "7.F.01",
-    "title": "Comparative Physiology of Excretion and Osmoregulation",
-    "chapter_path": "comparative-physiology-of-excretion-and-osmoregulation.html",
-    "working_branch": "develop-7f01-excretion-20261128",
-    "working_commit_sha": "a6f9db8ee01a79ae4a6067c04d5fb3d4a4b36259",
-    "draft_blob_sha": "9cac13d9d8495315c3cfe97f245996768110ee9c",
+    "node_id": "7.F.07",
+    "title": "Renal Regulation of Acid–Base Balance",
+    "chapter_path": "renal-regulation-of-acid-base-balance.html",
+    "chapter_blob_sha": "487cd0518d9b1b2d03260e1f3a857ee7ca79cc93",
+    "working_branch": "develop-7f07-renal-acid-base-20261128",
+    "working_commit_sha": "b7f92168644c1e57eec8c27d9a5b8f85b3c78440",
     "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
+    "publication_base_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 14213,
-      "whitespace_teaching_words": 14154,
-      "teaching_paragraphs": 140,
-      "teaching_sections": 9,
-      "svg": 14,
-      "graphs": 4,
-      "tables": 5,
-      "questions": 52,
-      "part_b": 22,
-      "part_c": 26,
-      "set": 4,
-      "misconceptions": 16,
+      "genuine_teaching_words": 13605,
+      "teaching_paragraphs": 142,
+      "teaching_sections": 21,
+      "svg": 13,
+      "graphs": 5,
+      "tables": 3,
+      "questions": 50,
+      "part_b": 20,
+      "part_c": 25,
+      "set": 5,
+      "answer_explanations": 50,
+      "misconceptions": 17,
       "active_recall": 12,
       "references": 15
     },
@@ -60,62 +60,64 @@
       "technical_seo": 4,
       "total": 95
     },
-    "syllabus_coverage": "Revised 21 January 2026 CSIR-UGC-DBT Life Sciences & Biotechnology Unit 7.F; MPPSC SET Unit 7.F archived syllabus scan. Covers all Academy roadmap requirements for comparative excretion and osmoregulation; detailed renal anatomy/urine physiology reserved for 7.F.02–08.",
+    "audit_record": "curriculum/qa/7.F.07-publication-audit.md",
+    "syllabus_coverage": "Official January 2026 separate and merged CSIR syllabi Unit 7.F, official MPPSC SET Life Sciences Paper II page 5, Academy node contract.",
     "coverage_matrix": [
       {
-        "official_scope": "7.F Comparative physiology of excretion",
-        "microtopic": "Waste chemistry",
-        "evidence": "Ammonia/NH4+, pH dependence and toxicity; ureotelism, uricotelism, stoichiometric and water trade-offs; life-stage exceptions",
-        "depth": "NET/SET",
+        "concept": "Acid loads and bicarbonate buffering; Henderson–Hasselbalch; respiratory cross-link",
+        "sections": "s1–s4, s16–s18",
+        "evidence": "pH derivation and worked ratios, open buffer, fixed-acid balance, acute and chronic compensation",
         "status": "covered"
       },
       {
-        "official_scope": "7.F Comparative physiology of excretion",
-        "microtopic": "Invertebrate excretory systems",
-        "evidence": "Contractile vacuole, protonephridia/flame cells, metanephridia, crustacean antennal glands, Malpighian tubule and hindgut transport",
-        "depth": "NET/SET",
+        "concept": "Proximal NHE3, carbonic anhydrase and bicarbonate reclamation; new bicarbonate distinction",
+        "sections": "s5–s6, s12–s15",
+        "evidence": "Filtered load 4320 mmol/day, transporter polarity, energetics, historical micropuncture and titration",
         "status": "covered"
       },
       {
-        "official_scope": "7.F Comparative physiology of excretion",
-        "microtopic": "Comparative osmoregulation",
-        "evidence": "Osmolality, tonicity, gradients, regulators/conformers, cell volume and water/salt balance",
-        "depth": "NET/SET",
+        "concept": "Alpha/beta intercalated cells; H+-ATPase, H+/K+-ATPase, AE1 and pendrin",
+        "sections": "s7–s8, s14, s19–s20",
+        "evidence": "Opposing polarity diagrams, controlled transporter perturbations, chloride and potassium effects",
         "status": "covered"
       },
       {
-        "official_scope": "7.F Comparative physiology of excretion",
-        "microtopic": "Aquatic vertebrates",
-        "evidence": "Freshwater and marine teleosts, gill ionocytes, NKCC1/CFTR; elasmobranch organic osmolytes and rectal gland; euryhalinity",
-        "depth": "NET/SET",
+        "concept": "Glutamine ammoniagenesis; NH3/NH4+ handling and trapping",
+        "sections": "s9–s11, s14–s15",
+        "evidence": "Glutamine stoichiometry, loop recycling, Rh-mediated transport, equilibrium fractions and organ mass balance",
         "status": "covered"
       },
       {
-        "official_scope": "7.F Comparative physiology of excretion",
-        "microtopic": "Terrestrial adaptations and integration",
-        "evidence": "Urate and water economy, renal concentration as overview, avian/reptilian salt glands, experimental and numerical reasoning",
-        "depth": "NET/SET",
+        "concept": "Phosphate and other titratable buffers; net acid excretion",
+        "sections": "s9, s11–s13, s20–s21",
+        "evidence": "Phosphate speciation, timed NAE, urinary bicarbonate subtraction, acid loading datasets",
+        "status": "covered"
+      },
+      {
+        "concept": "Metabolic acidosis/alkalosis; respiratory compensation; renal compensation for respiratory changes; time course and limits; anion gap",
+        "sections": "s16–s21",
+        "evidence": "Empirical compensation relationships and limitations; pH, anion gap, time-course and cumulative retention examples",
         "status": "covered"
       }
     ],
-    "scientific_review": "Internal review checked osmotic units/tonicity, nitrogen atom balances and ammonia fractions, urea ATP accounting, epithelial polarity, filtration versus secretion, freshwater/seawater gradients, organic osmolytes, salt glands, developmental and species exceptions. Recomputed quantitative examples and numerical question answers; distinguished hypothetical data from historical evidence; added direct academic sources for contractile vacuoles, Malpighian transport and avian salt gland.",
-    "editorial_review": "Separate internal pass checked sequence, 140 distinct teaching paragraphs, 14 responsive SVGs with title/description/ARIA, 52 four-option questions and explanations with 13 answers in each position, 16 misconception reasoning checks, 12 recall prompts, five tables, established reader controls, TOC, and published-only adjacent navigation. Comparison: 7.E.01 had 14,468 whitespace teaching words; 7.F.01 has 14,154. All post-shuffle correct option texts match the pre-shuffle answer mappings.",
-    "score_basis": "Internal score 95/100. Scientific -1: not every primary paper reviewed in full; figures -1: schematic/static not rendered across devices; questions -1: some introductory distractors are straightforward; reader -1: no runtime keyboard/assistive testing; technical -1: no prepublication live rendering. Remaining categories supported by content inspection and saved-file metrics. Not external peer review.",
-    "audit": "Final saved draft independently fetched and inspected: 14,213 lexical words (Unicode letters/numbers with internal hyphen/apostrophe), 14,154 whitespace teaching words in p.teaching-prose, zero duplicate IDs, zero unresolved local anchors/ARIA/zoom IDs, all 14 SVGs have titles/descriptions/viewBox/role, no unbalanced tags, one H1, all 52 answer explanations and four-option mappings retained, three local learning links present on main, canonical and previous/next codes correct, no placeholder text. Production changes robots directive only.",
-    "limitations": "MP SET syllabus verified from archived mirrored MPPSC document, not current official-host copy. No full runtime browser/mobile/keyboard/screen-reader testing or external peer review. Pages deployment/live verification must be checked separately.",
-    "audit_record": "curriculum/qa/7.F.01-publication-audit.md",
+    "scientific_review": "Internal scientific pass: checked acid-equivalent accounting, bicarbonate/CO2 equilibrium and units, polarized proximal and intercalated transport, catalysis versus transport, glutamine ammoniagenesis and urinary versus venous ammonia fate, NKCC2 recycling and Rh transport, phosphate speciation, NAE sign, respiratory–renal compensation, volume/chloride/potassium modifiers and experimental limitations against source records. Recalculated key numerical practice results: pH 7.401 and 7.498; filtered load 3600 mmol/day; reclamation 99.537%; NAE 54; timed NH4+ change −5; micropuncture fraction 0.2; phosphate 0.409; ammonia ratio 0.01; free H+ 0.02 mmol; adaptive NAE increment 60; urinary ammonia 25 µmol/min; expected PCO2 29; anion gap 15; cumulative retention 10; remaining nephron capacity 0.8. Checked all 50 answer keys and option correspondence. Historical examples attributed to identified retrospective reviews; teaching data explicitly hypothetical.",
+    "editorial_review": "Separate internal editorial pass: reordered 21 sections from acid and buffer foundations to polarized transport, renal ammonia and net excretion, classical evidence, compensation and integration. Added explanatory causes of all 17 misconceptions. Confirmed no identical teaching paragraphs, 13 accessible SVGs with title/description/viewBox, 13 diagram enlargement buttons, three responsive tables, 50 explained original questions, 12 active recall prompts, summary and mastery checklist. Answer distribution A12 B13 C12 D13. Compared with actual adjacent 7.C.07 exemplar (13,392 whitespace-separated p.teaching-prose words). Preserved Academy reader template, including dynamic menu-based adjacent navigation.",
+    "audit": "Re-fetched final saved HTML and counted whitespace-delimited words inside p.teaching-prose only, excluding navigation, headings, tables, diagrams, practice, revision and references. 13,605 words in 142 unique paragraphs; zero tag-stack errors, duplicate IDs, broken fragment anchors, unresolved aria-labelledby/aria-describedby/for IDs, or invalid question option-key mappings. One H1, correct canonical and index/follow, 13 SVG title/desc/viewBox/role attributes, 15 reference links. Reader and graphics source inspected statically.",
+    "limitations": "Internal review, not independent external peer review. Core references located and syllabus pages checked, but full-text review of every scientific source and independent expert verification are not complete. Browser/mobile/keyboard/assistive-technology execution and visual SVG rendering not tested because the local container cannot resolve GitHub and the connector provides text only. No separate dashboard file found; index menu and checkpoint are the maintained integration. Live Pages deployment verification is separate and pending.",
     "next_unpublished_node_id": "7.E.04",
     "concurrent_changes_reconciled": true,
     "publication": {
-      "strategy": "Atomic tree, non-force expected-HEAD update",
-      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
-      "subunit_published_after": 1,
-      "unit_published_after": 39,
-      "academy_published_after": 354,
-      "live_verification": "pending"
-    },
-    "chapter_blob_sha": "26d3b0ad733ee025855b1bdeb3b64e5228f6ac38"
+      "mode": "one atomic conditional non-force main commit",
+      "academy_published_before": 354,
+      "academy_published_after": 355,
+      "unit07_published_after": 40,
+      "subunit7f_published_after": 2,
+      "prior_menu_links_preserved": 354,
+      "prior_sitemap_entries_preserved": 355,
+      "previous": "7.F.06",
+      "next": "7.F.08",
+      "adjacent_navigation": "resolved dynamically from the published main index; unpublished nodes remain disabled"
+    }
   },
   "published_node_ids": [
     "1.A.01",
@@ -471,7 +473,8 @@
     "7.E.02",
     "7.E.03",
     "7.E.06",
-    "7.F.01"
+    "7.F.01",
+    "7.F.07"
   ],
   "prior_publication_qa": {
     "node_id": "7.A.03",
@@ -623,33 +626,30 @@
     }
   },
   "previous_last_qa": {
-    "node_id": "7.E.03",
-    "title": "Phototransduction and Neural Processing of Vision",
-    "chapter_path": "phototransduction-and-neural-processing-of-vision.html",
-    "working_branch": "draft/node-7-e-03-phototransduction-20261128",
-    "working_commit_sha": "c95b4ce804870699cf73c7832feab6a4cbb8a2f6",
-    "draft_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
-    "chapter_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+    "node_id": "7.F.01",
+    "title": "Comparative Physiology of Excretion and Osmoregulation",
+    "chapter_path": "comparative-physiology-of-excretion-and-osmoregulation.html",
+    "working_branch": "develop-7f01-excretion-20261128",
+    "working_commit_sha": "a6f9db8ee01a79ae4a6067c04d5fb3d4a4b36259",
+    "draft_blob_sha": "9cac13d9d8495315c3cfe97f245996768110ee9c",
     "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-    "publication_base_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
+    "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13827,
-      "whitespace_teaching_words": 13782,
-      "word_count_method": "Lexical words in p.teaching-prose only; excludes figures, tables, practice, revision, references",
-      "teaching_paragraphs": 141,
-      "teaching_sections": 20,
-      "total_sections": 24,
-      "svg": 16,
-      "graphs_and_traces": 7,
+      "genuine_teaching_words": 14213,
+      "whitespace_teaching_words": 14154,
+      "teaching_paragraphs": 140,
+      "teaching_sections": 9,
+      "svg": 14,
+      "graphs": 4,
       "tables": 5,
-      "questions": 56,
-      "part_b": 20,
+      "questions": 52,
+      "part_b": 22,
       "part_c": 26,
-      "set": 10,
+      "set": 4,
       "misconceptions": 16,
-      "active_recall": 13,
+      "active_recall": 12,
       "references": 15
     },
     "rubric": {
@@ -665,70 +665,62 @@
       "technical_seo": 4,
       "total": 95
     },
-    "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.E vision; archived MP SET syllabus; Academy 7.E.03 node contract.",
+    "syllabus_coverage": "Revised 21 January 2026 CSIR-UGC-DBT Life Sciences & Biotechnology Unit 7.F; MPPSC SET Unit 7.F archived syllabus scan. Covers all Academy roadmap requirements for comparative excretion and osmoregulation; detailed renal anatomy/urine physiology reserved for 7.F.02–08.",
     "coverage_matrix": [
       {
-        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-        "microtopic": "Rod/cone morphology, pigment, photon capture and dark current",
-        "section": "signal, photon, cells, dark",
-        "evidence": "Membrane orientation, sensitivity, noise and net current",
+        "official_scope": "7.F Comparative physiology of excretion",
+        "microtopic": "Waste chemistry",
+        "evidence": "Ammonia/NH4+, pH dependence and toxicity; ureotelism, uricotelism, stoichiometric and water trade-offs; life-stage exceptions",
         "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-        "microtopic": "Photoisomerisation, transducin/PDE6/cGMP/CNG and graded voltage",
-        "section": "cascade, kinetics",
-        "evidence": "Molecular causal chain, Hill relationship, simultaneous messenger/current trace",
+        "official_scope": "7.F Comparative physiology of excretion",
+        "microtopic": "Invertebrate excretory systems",
+        "evidence": "Contractile vacuole, protonephridia/flame cells, metanephridia, crustacean antennal glands, Malpighian tubule and hindgut transport",
         "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-        "microtopic": "Termination, calcium feedback, adaptation and visual cycle",
-        "section": "recovery, feedback, cycle, regeneration",
-        "evidence": "GRK1/arrestin, RGS, GCAP/RetGC, RPE65, dark adaptation and Purkinje shift",
+        "official_scope": "7.F Comparative physiology of excretion",
+        "microtopic": "Comparative osmoregulation",
+        "evidence": "Osmolality, tonicity, gradients, regulators/conformers, cell volume and water/salt balance",
         "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-        "microtopic": "Colour signals and variants",
-        "section": "colour, spectral",
-        "evidence": "Cone opsins, univariance, trichromacy and opponency, metamerism and colour deficiencies",
+        "official_scope": "7.F Comparative physiology of excretion",
+        "microtopic": "Aquatic vertebrates",
+        "evidence": "Freshwater and marine teleosts, gill ionocytes, NKCC1/CFTR; elasmobranch organic osmolytes and rectal gland; euryhalinity",
         "depth": "NET/SET",
         "status": "covered"
       },
       {
-        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-        "microtopic": "Retinal neurons and receptive fields",
-        "section": "retina, spatial, synapses",
-        "evidence": "mGluR6/TRPM1, OFF glutamate receptors, horizontal and amacrine cells, ganglion spikes",
-        "depth": "NET/SET",
-        "status": "covered"
-      },
-      {
-        "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-        "microtopic": "Central pathways and evidence",
-        "section": "pathways, cortex, history, evidence, integration",
-        "evidence": "Chiasm/tract/LGN/radiations/V1, lesions and reflexes, single-photon and ERG evidence",
+        "official_scope": "7.F Comparative physiology of excretion",
+        "microtopic": "Terrestrial adaptations and integration",
+        "evidence": "Urate and water economy, renal concentration as overview, avian/reptilian salt glands, experimental and numerical reasoning",
         "depth": "NET/SET",
         "status": "covered"
       }
     ],
-    "scientific_review": "Separate scientific review checked the rod/cone sign chain (light lowers cGMP, closes CNG, reduces inward current and glutamate), GRK/arrestin/RGS termination, calcium-dependent feedback, RPE retinoid regeneration, spectral weighting versus pigment absorption, retinal ON/OFF sign inversion, receptive-field antagonism, nasal fibre crossing and field defects. Recomputed representative current balance, Hill probabilities, exponential and Poisson calculations; graph data explicitly illustrative. Checked landmark Baylor, Kuffler and Wald sources; not all reference full texts independently reviewed.",
-    "editorial_review": "Separate editorial review reorganised historical evidence after mechanisms, removed redundant prose, added normalized flash and rod/cone traces and corrected axis labels, numbered figures, retained reader controls, built TOC, checked questions and explanations, and balanced answer letters A14/B14/C14/D14 without changing correct options. Comparable adjacent chapter 7.D.08 has 13,724 whitespace teaching words.",
-    "score_basis": "Internal 95/100: scientific -1 (not all full texts checked); diagrams -1 (no browser render); exam -1 (some direct distractors); accessibility -1 (runtime tests pending); technical -1 (live verification pending). Remaining dimensions supported by saved chapter and coverage matrix.",
-    "audit": "Re-fetched exact final HTML: unique IDs, resolved anchors and aria-labelledby references, balanced tags, JavaScript syntax compiled, distinct teaching paragraphs, four options and explanation per question; canonical and reader retained.",
-    "limitations": "Internal review only, not external peer review. MP SET archived syllabus comparison, current official-host copy not established. Full-text review of all references and runtime browser, mobile, keyboard, screen-reader and live deployment tests not independently completed. SVG source reviewed, not rendered in a browser.",
-    "audit_record": "curriculum/qa/7.E.03-publication-audit.md",
+    "scientific_review": "Internal review checked osmotic units/tonicity, nitrogen atom balances and ammonia fractions, urea ATP accounting, epithelial polarity, filtration versus secretion, freshwater/seawater gradients, organic osmolytes, salt glands, developmental and species exceptions. Recomputed quantitative examples and numerical question answers; distinguished hypothetical data from historical evidence; added direct academic sources for contractile vacuoles, Malpighian transport and avian salt gland.",
+    "editorial_review": "Separate internal pass checked sequence, 140 distinct teaching paragraphs, 14 responsive SVGs with title/description/ARIA, 52 four-option questions and explanations with 13 answers in each position, 16 misconception reasoning checks, 12 recall prompts, five tables, established reader controls, TOC, and published-only adjacent navigation. Comparison: 7.E.01 had 14,468 whitespace teaching words; 7.F.01 has 14,154. All post-shuffle correct option texts match the pre-shuffle answer mappings.",
+    "score_basis": "Internal score 95/100. Scientific -1: not every primary paper reviewed in full; figures -1: schematic/static not rendered across devices; questions -1: some introductory distractors are straightforward; reader -1: no runtime keyboard/assistive testing; technical -1: no prepublication live rendering. Remaining categories supported by content inspection and saved-file metrics. Not external peer review.",
+    "audit": "Final saved draft independently fetched and inspected: 14,213 lexical words (Unicode letters/numbers with internal hyphen/apostrophe), 14,154 whitespace teaching words in p.teaching-prose, zero duplicate IDs, zero unresolved local anchors/ARIA/zoom IDs, all 14 SVGs have titles/descriptions/viewBox/role, no unbalanced tags, one H1, all 52 answer explanations and four-option mappings retained, three local learning links present on main, canonical and previous/next codes correct, no placeholder text. Production changes robots directive only.",
+    "limitations": "MP SET syllabus verified from archived mirrored MPPSC document, not current official-host copy. No full runtime browser/mobile/keyboard/screen-reader testing or external peer review. Pages deployment/live verification must be checked separately.",
+    "audit_record": "curriculum/qa/7.F.01-publication-audit.md",
     "next_unpublished_node_id": "7.E.04",
     "concurrent_changes_reconciled": true,
     "publication": {
-      "academy_published_count": 353,
-      "unit_published_count": 38,
-      "subunit_published_count": 4
-    }
+      "strategy": "Atomic tree, non-force expected-HEAD update",
+      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+      "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
+      "subunit_published_after": 1,
+      "unit_published_after": 39,
+      "academy_published_after": 354,
+      "live_verification": "pending"
+    },
+    "chapter_blob_sha": "26d3b0ad733ee025855b1bdeb3b64e5228f6ac38"
   },
   "unit_02": {
     "published_node_ids": [
@@ -47447,6 +47439,105 @@
         "live_verification": "pending"
       },
       "chapter_blob_sha": "26d3b0ad733ee025855b1bdeb3b64e5228f6ac38"
+    },
+    "7.F.07": {
+      "node_id": "7.F.07",
+      "title": "Renal Regulation of Acid–Base Balance",
+      "chapter_path": "renal-regulation-of-acid-base-balance.html",
+      "chapter_blob_sha": "487cd0518d9b1b2d03260e1f3a857ee7ca79cc93",
+      "working_branch": "develop-7f07-renal-acid-base-20261128",
+      "working_commit_sha": "b7f92168644c1e57eec8c27d9a5b8f85b3c78440",
+      "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+      "publication_base_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 13605,
+        "teaching_paragraphs": 142,
+        "teaching_sections": 21,
+        "svg": 13,
+        "graphs": 5,
+        "tables": 3,
+        "questions": 50,
+        "part_b": 20,
+        "part_c": 25,
+        "set": 5,
+        "answer_explanations": 50,
+        "misconceptions": 17,
+        "active_recall": 12,
+        "references": 15
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4,
+        "total": 95
+      },
+      "audit_record": "curriculum/qa/7.F.07-publication-audit.md",
+      "syllabus_coverage": "Official January 2026 separate and merged CSIR syllabi Unit 7.F, official MPPSC SET Life Sciences Paper II page 5, Academy node contract.",
+      "coverage_matrix": [
+        {
+          "concept": "Acid loads and bicarbonate buffering; Henderson–Hasselbalch; respiratory cross-link",
+          "sections": "s1–s4, s16–s18",
+          "evidence": "pH derivation and worked ratios, open buffer, fixed-acid balance, acute and chronic compensation",
+          "status": "covered"
+        },
+        {
+          "concept": "Proximal NHE3, carbonic anhydrase and bicarbonate reclamation; new bicarbonate distinction",
+          "sections": "s5–s6, s12–s15",
+          "evidence": "Filtered load 4320 mmol/day, transporter polarity, energetics, historical micropuncture and titration",
+          "status": "covered"
+        },
+        {
+          "concept": "Alpha/beta intercalated cells; H+-ATPase, H+/K+-ATPase, AE1 and pendrin",
+          "sections": "s7–s8, s14, s19–s20",
+          "evidence": "Opposing polarity diagrams, controlled transporter perturbations, chloride and potassium effects",
+          "status": "covered"
+        },
+        {
+          "concept": "Glutamine ammoniagenesis; NH3/NH4+ handling and trapping",
+          "sections": "s9–s11, s14–s15",
+          "evidence": "Glutamine stoichiometry, loop recycling, Rh-mediated transport, equilibrium fractions and organ mass balance",
+          "status": "covered"
+        },
+        {
+          "concept": "Phosphate and other titratable buffers; net acid excretion",
+          "sections": "s9, s11–s13, s20–s21",
+          "evidence": "Phosphate speciation, timed NAE, urinary bicarbonate subtraction, acid loading datasets",
+          "status": "covered"
+        },
+        {
+          "concept": "Metabolic acidosis/alkalosis; respiratory compensation; renal compensation for respiratory changes; time course and limits; anion gap",
+          "sections": "s16–s21",
+          "evidence": "Empirical compensation relationships and limitations; pH, anion gap, time-course and cumulative retention examples",
+          "status": "covered"
+        }
+      ],
+      "scientific_review": "Internal scientific pass: checked acid-equivalent accounting, bicarbonate/CO2 equilibrium and units, polarized proximal and intercalated transport, catalysis versus transport, glutamine ammoniagenesis and urinary versus venous ammonia fate, NKCC2 recycling and Rh transport, phosphate speciation, NAE sign, respiratory–renal compensation, volume/chloride/potassium modifiers and experimental limitations against source records. Recalculated key numerical practice results: pH 7.401 and 7.498; filtered load 3600 mmol/day; reclamation 99.537%; NAE 54; timed NH4+ change −5; micropuncture fraction 0.2; phosphate 0.409; ammonia ratio 0.01; free H+ 0.02 mmol; adaptive NAE increment 60; urinary ammonia 25 µmol/min; expected PCO2 29; anion gap 15; cumulative retention 10; remaining nephron capacity 0.8. Checked all 50 answer keys and option correspondence. Historical examples attributed to identified retrospective reviews; teaching data explicitly hypothetical.",
+      "editorial_review": "Separate internal editorial pass: reordered 21 sections from acid and buffer foundations to polarized transport, renal ammonia and net excretion, classical evidence, compensation and integration. Added explanatory causes of all 17 misconceptions. Confirmed no identical teaching paragraphs, 13 accessible SVGs with title/description/viewBox, 13 diagram enlargement buttons, three responsive tables, 50 explained original questions, 12 active recall prompts, summary and mastery checklist. Answer distribution A12 B13 C12 D13. Compared with actual adjacent 7.C.07 exemplar (13,392 whitespace-separated p.teaching-prose words). Preserved Academy reader template, including dynamic menu-based adjacent navigation.",
+      "audit": "Re-fetched final saved HTML and counted whitespace-delimited words inside p.teaching-prose only, excluding navigation, headings, tables, diagrams, practice, revision and references. 13,605 words in 142 unique paragraphs; zero tag-stack errors, duplicate IDs, broken fragment anchors, unresolved aria-labelledby/aria-describedby/for IDs, or invalid question option-key mappings. One H1, correct canonical and index/follow, 13 SVG title/desc/viewBox/role attributes, 15 reference links. Reader and graphics source inspected statically.",
+      "limitations": "Internal review, not independent external peer review. Core references located and syllabus pages checked, but full-text review of every scientific source and independent expert verification are not complete. Browser/mobile/keyboard/assistive-technology execution and visual SVG rendering not tested because the local container cannot resolve GitHub and the connector provides text only. No separate dashboard file found; index menu and checkpoint are the maintained integration. Live Pages deployment verification is separate and pending.",
+      "next_unpublished_node_id": "7.E.04",
+      "concurrent_changes_reconciled": true,
+      "publication": {
+        "mode": "one atomic conditional non-force main commit",
+        "academy_published_before": 354,
+        "academy_published_after": 355,
+        "unit07_published_after": 40,
+        "subunit7f_published_after": 2,
+        "prior_menu_links_preserved": 354,
+        "prior_sitemap_entries_preserved": 355,
+        "previous": "7.F.06",
+        "next": "7.F.08",
+        "adjacent_navigation": "resolved dynamically from the published main index; unpublished nodes remain disabled"
+      }
     }
   },
   "academy_planned_node_count": 723,
@@ -65254,7 +65345,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/comparative-physiology-of-excretion-and-osmoregulation.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/renal-regulation-of-acid-base-balance.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -65355,37 +65446,38 @@
       "7.E.02",
       "7.E.03",
       "7.E.06",
-      "7.F.01"
+      "7.F.01",
+      "7.F.07"
     ],
-    "published_node_count": 39,
+    "published_node_count": 40,
     "planned_node_count": 90,
-    "last_published_node_id": "7.F.01",
+    "last_published_node_id": "7.F.07",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "7.F.01",
-      "title": "Comparative Physiology of Excretion and Osmoregulation",
-      "chapter_path": "comparative-physiology-of-excretion-and-osmoregulation.html",
-      "working_branch": "develop-7f01-excretion-20261128",
-      "working_commit_sha": "a6f9db8ee01a79ae4a6067c04d5fb3d4a4b36259",
-      "draft_blob_sha": "9cac13d9d8495315c3cfe97f245996768110ee9c",
+      "node_id": "7.F.07",
+      "title": "Renal Regulation of Acid–Base Balance",
+      "chapter_path": "renal-regulation-of-acid-base-balance.html",
+      "chapter_blob_sha": "487cd0518d9b1b2d03260e1f3a857ee7ca79cc93",
+      "working_branch": "develop-7f07-renal-acid-base-20261128",
+      "working_commit_sha": "b7f92168644c1e57eec8c27d9a5b8f85b3c78440",
       "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
+      "publication_base_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 14213,
-        "whitespace_teaching_words": 14154,
-        "teaching_paragraphs": 140,
-        "teaching_sections": 9,
-        "svg": 14,
-        "graphs": 4,
-        "tables": 5,
-        "questions": 52,
-        "part_b": 22,
-        "part_c": 26,
-        "set": 4,
-        "misconceptions": 16,
+        "genuine_teaching_words": 13605,
+        "teaching_paragraphs": 142,
+        "teaching_sections": 21,
+        "svg": 13,
+        "graphs": 5,
+        "tables": 3,
+        "questions": 50,
+        "part_b": 20,
+        "part_c": 25,
+        "set": 5,
+        "answer_explanations": 50,
+        "misconceptions": 17,
         "active_recall": 12,
         "references": 15
       },
@@ -65402,62 +65494,64 @@
         "technical_seo": 4,
         "total": 95
       },
-      "syllabus_coverage": "Revised 21 January 2026 CSIR-UGC-DBT Life Sciences & Biotechnology Unit 7.F; MPPSC SET Unit 7.F archived syllabus scan. Covers all Academy roadmap requirements for comparative excretion and osmoregulation; detailed renal anatomy/urine physiology reserved for 7.F.02–08.",
+      "audit_record": "curriculum/qa/7.F.07-publication-audit.md",
+      "syllabus_coverage": "Official January 2026 separate and merged CSIR syllabi Unit 7.F, official MPPSC SET Life Sciences Paper II page 5, Academy node contract.",
       "coverage_matrix": [
         {
-          "official_scope": "7.F Comparative physiology of excretion",
-          "microtopic": "Waste chemistry",
-          "evidence": "Ammonia/NH4+, pH dependence and toxicity; ureotelism, uricotelism, stoichiometric and water trade-offs; life-stage exceptions",
-          "depth": "NET/SET",
+          "concept": "Acid loads and bicarbonate buffering; Henderson–Hasselbalch; respiratory cross-link",
+          "sections": "s1–s4, s16–s18",
+          "evidence": "pH derivation and worked ratios, open buffer, fixed-acid balance, acute and chronic compensation",
           "status": "covered"
         },
         {
-          "official_scope": "7.F Comparative physiology of excretion",
-          "microtopic": "Invertebrate excretory systems",
-          "evidence": "Contractile vacuole, protonephridia/flame cells, metanephridia, crustacean antennal glands, Malpighian tubule and hindgut transport",
-          "depth": "NET/SET",
+          "concept": "Proximal NHE3, carbonic anhydrase and bicarbonate reclamation; new bicarbonate distinction",
+          "sections": "s5–s6, s12–s15",
+          "evidence": "Filtered load 4320 mmol/day, transporter polarity, energetics, historical micropuncture and titration",
           "status": "covered"
         },
         {
-          "official_scope": "7.F Comparative physiology of excretion",
-          "microtopic": "Comparative osmoregulation",
-          "evidence": "Osmolality, tonicity, gradients, regulators/conformers, cell volume and water/salt balance",
-          "depth": "NET/SET",
+          "concept": "Alpha/beta intercalated cells; H+-ATPase, H+/K+-ATPase, AE1 and pendrin",
+          "sections": "s7–s8, s14, s19–s20",
+          "evidence": "Opposing polarity diagrams, controlled transporter perturbations, chloride and potassium effects",
           "status": "covered"
         },
         {
-          "official_scope": "7.F Comparative physiology of excretion",
-          "microtopic": "Aquatic vertebrates",
-          "evidence": "Freshwater and marine teleosts, gill ionocytes, NKCC1/CFTR; elasmobranch organic osmolytes and rectal gland; euryhalinity",
-          "depth": "NET/SET",
+          "concept": "Glutamine ammoniagenesis; NH3/NH4+ handling and trapping",
+          "sections": "s9–s11, s14–s15",
+          "evidence": "Glutamine stoichiometry, loop recycling, Rh-mediated transport, equilibrium fractions and organ mass balance",
           "status": "covered"
         },
         {
-          "official_scope": "7.F Comparative physiology of excretion",
-          "microtopic": "Terrestrial adaptations and integration",
-          "evidence": "Urate and water economy, renal concentration as overview, avian/reptilian salt glands, experimental and numerical reasoning",
-          "depth": "NET/SET",
+          "concept": "Phosphate and other titratable buffers; net acid excretion",
+          "sections": "s9, s11–s13, s20–s21",
+          "evidence": "Phosphate speciation, timed NAE, urinary bicarbonate subtraction, acid loading datasets",
+          "status": "covered"
+        },
+        {
+          "concept": "Metabolic acidosis/alkalosis; respiratory compensation; renal compensation for respiratory changes; time course and limits; anion gap",
+          "sections": "s16–s21",
+          "evidence": "Empirical compensation relationships and limitations; pH, anion gap, time-course and cumulative retention examples",
           "status": "covered"
         }
       ],
-      "scientific_review": "Internal review checked osmotic units/tonicity, nitrogen atom balances and ammonia fractions, urea ATP accounting, epithelial polarity, filtration versus secretion, freshwater/seawater gradients, organic osmolytes, salt glands, developmental and species exceptions. Recomputed quantitative examples and numerical question answers; distinguished hypothetical data from historical evidence; added direct academic sources for contractile vacuoles, Malpighian transport and avian salt gland.",
-      "editorial_review": "Separate internal pass checked sequence, 140 distinct teaching paragraphs, 14 responsive SVGs with title/description/ARIA, 52 four-option questions and explanations with 13 answers in each position, 16 misconception reasoning checks, 12 recall prompts, five tables, established reader controls, TOC, and published-only adjacent navigation. Comparison: 7.E.01 had 14,468 whitespace teaching words; 7.F.01 has 14,154. All post-shuffle correct option texts match the pre-shuffle answer mappings.",
-      "score_basis": "Internal score 95/100. Scientific -1: not every primary paper reviewed in full; figures -1: schematic/static not rendered across devices; questions -1: some introductory distractors are straightforward; reader -1: no runtime keyboard/assistive testing; technical -1: no prepublication live rendering. Remaining categories supported by content inspection and saved-file metrics. Not external peer review.",
-      "audit": "Final saved draft independently fetched and inspected: 14,213 lexical words (Unicode letters/numbers with internal hyphen/apostrophe), 14,154 whitespace teaching words in p.teaching-prose, zero duplicate IDs, zero unresolved local anchors/ARIA/zoom IDs, all 14 SVGs have titles/descriptions/viewBox/role, no unbalanced tags, one H1, all 52 answer explanations and four-option mappings retained, three local learning links present on main, canonical and previous/next codes correct, no placeholder text. Production changes robots directive only.",
-      "limitations": "MP SET syllabus verified from archived mirrored MPPSC document, not current official-host copy. No full runtime browser/mobile/keyboard/screen-reader testing or external peer review. Pages deployment/live verification must be checked separately.",
-      "audit_record": "curriculum/qa/7.F.01-publication-audit.md",
+      "scientific_review": "Internal scientific pass: checked acid-equivalent accounting, bicarbonate/CO2 equilibrium and units, polarized proximal and intercalated transport, catalysis versus transport, glutamine ammoniagenesis and urinary versus venous ammonia fate, NKCC2 recycling and Rh transport, phosphate speciation, NAE sign, respiratory–renal compensation, volume/chloride/potassium modifiers and experimental limitations against source records. Recalculated key numerical practice results: pH 7.401 and 7.498; filtered load 3600 mmol/day; reclamation 99.537%; NAE 54; timed NH4+ change −5; micropuncture fraction 0.2; phosphate 0.409; ammonia ratio 0.01; free H+ 0.02 mmol; adaptive NAE increment 60; urinary ammonia 25 µmol/min; expected PCO2 29; anion gap 15; cumulative retention 10; remaining nephron capacity 0.8. Checked all 50 answer keys and option correspondence. Historical examples attributed to identified retrospective reviews; teaching data explicitly hypothetical.",
+      "editorial_review": "Separate internal editorial pass: reordered 21 sections from acid and buffer foundations to polarized transport, renal ammonia and net excretion, classical evidence, compensation and integration. Added explanatory causes of all 17 misconceptions. Confirmed no identical teaching paragraphs, 13 accessible SVGs with title/description/viewBox, 13 diagram enlargement buttons, three responsive tables, 50 explained original questions, 12 active recall prompts, summary and mastery checklist. Answer distribution A12 B13 C12 D13. Compared with actual adjacent 7.C.07 exemplar (13,392 whitespace-separated p.teaching-prose words). Preserved Academy reader template, including dynamic menu-based adjacent navigation.",
+      "audit": "Re-fetched final saved HTML and counted whitespace-delimited words inside p.teaching-prose only, excluding navigation, headings, tables, diagrams, practice, revision and references. 13,605 words in 142 unique paragraphs; zero tag-stack errors, duplicate IDs, broken fragment anchors, unresolved aria-labelledby/aria-describedby/for IDs, or invalid question option-key mappings. One H1, correct canonical and index/follow, 13 SVG title/desc/viewBox/role attributes, 15 reference links. Reader and graphics source inspected statically.",
+      "limitations": "Internal review, not independent external peer review. Core references located and syllabus pages checked, but full-text review of every scientific source and independent expert verification are not complete. Browser/mobile/keyboard/assistive-technology execution and visual SVG rendering not tested because the local container cannot resolve GitHub and the connector provides text only. No separate dashboard file found; index menu and checkpoint are the maintained integration. Live Pages deployment verification is separate and pending.",
       "next_unpublished_node_id": "7.E.04",
       "concurrent_changes_reconciled": true,
       "publication": {
-        "strategy": "Atomic tree, non-force expected-HEAD update",
-        "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-        "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
-        "subunit_published_after": 1,
-        "unit_published_after": 39,
-        "academy_published_after": 354,
-        "live_verification": "pending"
-      },
-      "chapter_blob_sha": "26d3b0ad733ee025855b1bdeb3b64e5228f6ac38"
+        "mode": "one atomic conditional non-force main commit",
+        "academy_published_before": 354,
+        "academy_published_after": 355,
+        "unit07_published_after": 40,
+        "subunit7f_published_after": 2,
+        "prior_menu_links_preserved": 354,
+        "prior_sitemap_entries_preserved": 355,
+        "previous": "7.F.06",
+        "next": "7.F.08",
+        "adjacent_navigation": "resolved dynamically from the published main index; unpublished nodes remain disabled"
+      }
     },
     "qa_by_node": {
       "7.A.01": {
@@ -70496,6 +70590,105 @@
           "live_verification": "pending"
         },
         "chapter_blob_sha": "26d3b0ad733ee025855b1bdeb3b64e5228f6ac38"
+      },
+      "7.F.07": {
+        "node_id": "7.F.07",
+        "title": "Renal Regulation of Acid–Base Balance",
+        "chapter_path": "renal-regulation-of-acid-base-balance.html",
+        "chapter_blob_sha": "487cd0518d9b1b2d03260e1f3a857ee7ca79cc93",
+        "working_branch": "develop-7f07-renal-acid-base-20261128",
+        "working_commit_sha": "b7f92168644c1e57eec8c27d9a5b8f85b3c78440",
+        "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+        "publication_base_sha": "b7d2baa390d4d38585eebfd807e9ae76da446aab",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 13605,
+          "teaching_paragraphs": 142,
+          "teaching_sections": 21,
+          "svg": 13,
+          "graphs": 5,
+          "tables": 3,
+          "questions": 50,
+          "part_b": 20,
+          "part_c": 25,
+          "set": 5,
+          "answer_explanations": 50,
+          "misconceptions": 17,
+          "active_recall": 12,
+          "references": 15
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4,
+          "total": 95
+        },
+        "audit_record": "curriculum/qa/7.F.07-publication-audit.md",
+        "syllabus_coverage": "Official January 2026 separate and merged CSIR syllabi Unit 7.F, official MPPSC SET Life Sciences Paper II page 5, Academy node contract.",
+        "coverage_matrix": [
+          {
+            "concept": "Acid loads and bicarbonate buffering; Henderson–Hasselbalch; respiratory cross-link",
+            "sections": "s1–s4, s16–s18",
+            "evidence": "pH derivation and worked ratios, open buffer, fixed-acid balance, acute and chronic compensation",
+            "status": "covered"
+          },
+          {
+            "concept": "Proximal NHE3, carbonic anhydrase and bicarbonate reclamation; new bicarbonate distinction",
+            "sections": "s5–s6, s12–s15",
+            "evidence": "Filtered load 4320 mmol/day, transporter polarity, energetics, historical micropuncture and titration",
+            "status": "covered"
+          },
+          {
+            "concept": "Alpha/beta intercalated cells; H+-ATPase, H+/K+-ATPase, AE1 and pendrin",
+            "sections": "s7–s8, s14, s19–s20",
+            "evidence": "Opposing polarity diagrams, controlled transporter perturbations, chloride and potassium effects",
+            "status": "covered"
+          },
+          {
+            "concept": "Glutamine ammoniagenesis; NH3/NH4+ handling and trapping",
+            "sections": "s9–s11, s14–s15",
+            "evidence": "Glutamine stoichiometry, loop recycling, Rh-mediated transport, equilibrium fractions and organ mass balance",
+            "status": "covered"
+          },
+          {
+            "concept": "Phosphate and other titratable buffers; net acid excretion",
+            "sections": "s9, s11–s13, s20–s21",
+            "evidence": "Phosphate speciation, timed NAE, urinary bicarbonate subtraction, acid loading datasets",
+            "status": "covered"
+          },
+          {
+            "concept": "Metabolic acidosis/alkalosis; respiratory compensation; renal compensation for respiratory changes; time course and limits; anion gap",
+            "sections": "s16–s21",
+            "evidence": "Empirical compensation relationships and limitations; pH, anion gap, time-course and cumulative retention examples",
+            "status": "covered"
+          }
+        ],
+        "scientific_review": "Internal scientific pass: checked acid-equivalent accounting, bicarbonate/CO2 equilibrium and units, polarized proximal and intercalated transport, catalysis versus transport, glutamine ammoniagenesis and urinary versus venous ammonia fate, NKCC2 recycling and Rh transport, phosphate speciation, NAE sign, respiratory–renal compensation, volume/chloride/potassium modifiers and experimental limitations against source records. Recalculated key numerical practice results: pH 7.401 and 7.498; filtered load 3600 mmol/day; reclamation 99.537%; NAE 54; timed NH4+ change −5; micropuncture fraction 0.2; phosphate 0.409; ammonia ratio 0.01; free H+ 0.02 mmol; adaptive NAE increment 60; urinary ammonia 25 µmol/min; expected PCO2 29; anion gap 15; cumulative retention 10; remaining nephron capacity 0.8. Checked all 50 answer keys and option correspondence. Historical examples attributed to identified retrospective reviews; teaching data explicitly hypothetical.",
+        "editorial_review": "Separate internal editorial pass: reordered 21 sections from acid and buffer foundations to polarized transport, renal ammonia and net excretion, classical evidence, compensation and integration. Added explanatory causes of all 17 misconceptions. Confirmed no identical teaching paragraphs, 13 accessible SVGs with title/description/viewBox, 13 diagram enlargement buttons, three responsive tables, 50 explained original questions, 12 active recall prompts, summary and mastery checklist. Answer distribution A12 B13 C12 D13. Compared with actual adjacent 7.C.07 exemplar (13,392 whitespace-separated p.teaching-prose words). Preserved Academy reader template, including dynamic menu-based adjacent navigation.",
+        "audit": "Re-fetched final saved HTML and counted whitespace-delimited words inside p.teaching-prose only, excluding navigation, headings, tables, diagrams, practice, revision and references. 13,605 words in 142 unique paragraphs; zero tag-stack errors, duplicate IDs, broken fragment anchors, unresolved aria-labelledby/aria-describedby/for IDs, or invalid question option-key mappings. One H1, correct canonical and index/follow, 13 SVG title/desc/viewBox/role attributes, 15 reference links. Reader and graphics source inspected statically.",
+        "limitations": "Internal review, not independent external peer review. Core references located and syllabus pages checked, but full-text review of every scientific source and independent expert verification are not complete. Browser/mobile/keyboard/assistive-technology execution and visual SVG rendering not tested because the local container cannot resolve GitHub and the connector provides text only. No separate dashboard file found; index menu and checkpoint are the maintained integration. Live Pages deployment verification is separate and pending.",
+        "next_unpublished_node_id": "7.E.04",
+        "concurrent_changes_reconciled": true,
+        "publication": {
+          "mode": "one atomic conditional non-force main commit",
+          "academy_published_before": 354,
+          "academy_published_after": 355,
+          "unit07_published_after": 40,
+          "subunit7f_published_after": 2,
+          "prior_menu_links_preserved": 354,
+          "prior_sitemap_entries_preserved": 355,
+          "previous": "7.F.06",
+          "next": "7.F.08",
+          "adjacent_navigation": "resolved dynamically from the published main index; unpublished nodes remain disabled"
+        }
       }
     },
     "next_pending_node_id": "7.E.04",
@@ -70517,33 +70710,30 @@
       "complete": true
     },
     "previous_last_qa": {
-      "node_id": "7.E.03",
-      "title": "Phototransduction and Neural Processing of Vision",
-      "chapter_path": "phototransduction-and-neural-processing-of-vision.html",
-      "working_branch": "draft/node-7-e-03-phototransduction-20261128",
-      "working_commit_sha": "c95b4ce804870699cf73c7832feab6a4cbb8a2f6",
-      "draft_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
-      "chapter_blob_sha": "a40ff82c273505894969f658f8054fa23df91718",
+      "node_id": "7.F.01",
+      "title": "Comparative Physiology of Excretion and Osmoregulation",
+      "chapter_path": "comparative-physiology-of-excretion-and-osmoregulation.html",
+      "working_branch": "develop-7f01-excretion-20261128",
+      "working_commit_sha": "a6f9db8ee01a79ae4a6067c04d5fb3d4a4b36259",
+      "draft_blob_sha": "9cac13d9d8495315c3cfe97f245996768110ee9c",
       "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
-      "publication_base_sha": "8790bc3c0c5ca48b9ab343fc8ee24fd7f3de7e87",
+      "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13827,
-        "whitespace_teaching_words": 13782,
-        "word_count_method": "Lexical words in p.teaching-prose only; excludes figures, tables, practice, revision, references",
-        "teaching_paragraphs": 141,
-        "teaching_sections": 20,
-        "total_sections": 24,
-        "svg": 16,
-        "graphs_and_traces": 7,
+        "genuine_teaching_words": 14213,
+        "whitespace_teaching_words": 14154,
+        "teaching_paragraphs": 140,
+        "teaching_sections": 9,
+        "svg": 14,
+        "graphs": 4,
         "tables": 5,
-        "questions": 56,
-        "part_b": 20,
+        "questions": 52,
+        "part_b": 22,
         "part_c": 26,
-        "set": 10,
+        "set": 4,
         "misconceptions": 16,
-        "active_recall": 13,
+        "active_recall": 12,
         "references": 15
       },
       "rubric": {
@@ -70559,70 +70749,62 @@
         "technical_seo": 4,
         "total": 95
       },
-      "syllabus_coverage": "January 2026 separate and merged CSIR Unit 7.E vision; archived MP SET syllabus; Academy 7.E.03 node contract.",
+      "syllabus_coverage": "Revised 21 January 2026 CSIR-UGC-DBT Life Sciences & Biotechnology Unit 7.F; MPPSC SET Unit 7.F archived syllabus scan. Covers all Academy roadmap requirements for comparative excretion and osmoregulation; detailed renal anatomy/urine physiology reserved for 7.F.02–08.",
       "coverage_matrix": [
         {
-          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-          "microtopic": "Rod/cone morphology, pigment, photon capture and dark current",
-          "section": "signal, photon, cells, dark",
-          "evidence": "Membrane orientation, sensitivity, noise and net current",
+          "official_scope": "7.F Comparative physiology of excretion",
+          "microtopic": "Waste chemistry",
+          "evidence": "Ammonia/NH4+, pH dependence and toxicity; ureotelism, uricotelism, stoichiometric and water trade-offs; life-stage exceptions",
           "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-          "microtopic": "Photoisomerisation, transducin/PDE6/cGMP/CNG and graded voltage",
-          "section": "cascade, kinetics",
-          "evidence": "Molecular causal chain, Hill relationship, simultaneous messenger/current trace",
+          "official_scope": "7.F Comparative physiology of excretion",
+          "microtopic": "Invertebrate excretory systems",
+          "evidence": "Contractile vacuole, protonephridia/flame cells, metanephridia, crustacean antennal glands, Malpighian tubule and hindgut transport",
           "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-          "microtopic": "Termination, calcium feedback, adaptation and visual cycle",
-          "section": "recovery, feedback, cycle, regeneration",
-          "evidence": "GRK1/arrestin, RGS, GCAP/RetGC, RPE65, dark adaptation and Purkinje shift",
+          "official_scope": "7.F Comparative physiology of excretion",
+          "microtopic": "Comparative osmoregulation",
+          "evidence": "Osmolality, tonicity, gradients, regulators/conformers, cell volume and water/salt balance",
           "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-          "microtopic": "Colour signals and variants",
-          "section": "colour, spectral",
-          "evidence": "Cone opsins, univariance, trichromacy and opponency, metamerism and colour deficiencies",
+          "official_scope": "7.F Comparative physiology of excretion",
+          "microtopic": "Aquatic vertebrates",
+          "evidence": "Freshwater and marine teleosts, gill ionocytes, NKCC1/CFTR; elasmobranch organic osmolytes and rectal gland; euryhalinity",
           "depth": "NET/SET",
           "status": "covered"
         },
         {
-          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-          "microtopic": "Retinal neurons and receptive fields",
-          "section": "retina, spatial, synapses",
-          "evidence": "mGluR6/TRPM1, OFF glutamate receptors, horizontal and amacrine cells, ganglion spikes",
-          "depth": "NET/SET",
-          "status": "covered"
-        },
-        {
-          "official_scope": "Unit 7.E vision; Academy 7.E.03 contract",
-          "microtopic": "Central pathways and evidence",
-          "section": "pathways, cortex, history, evidence, integration",
-          "evidence": "Chiasm/tract/LGN/radiations/V1, lesions and reflexes, single-photon and ERG evidence",
+          "official_scope": "7.F Comparative physiology of excretion",
+          "microtopic": "Terrestrial adaptations and integration",
+          "evidence": "Urate and water economy, renal concentration as overview, avian/reptilian salt glands, experimental and numerical reasoning",
           "depth": "NET/SET",
           "status": "covered"
         }
       ],
-      "scientific_review": "Separate scientific review checked the rod/cone sign chain (light lowers cGMP, closes CNG, reduces inward current and glutamate), GRK/arrestin/RGS termination, calcium-dependent feedback, RPE retinoid regeneration, spectral weighting versus pigment absorption, retinal ON/OFF sign inversion, receptive-field antagonism, nasal fibre crossing and field defects. Recomputed representative current balance, Hill probabilities, exponential and Poisson calculations; graph data explicitly illustrative. Checked landmark Baylor, Kuffler and Wald sources; not all reference full texts independently reviewed.",
-      "editorial_review": "Separate editorial review reorganised historical evidence after mechanisms, removed redundant prose, added normalized flash and rod/cone traces and corrected axis labels, numbered figures, retained reader controls, built TOC, checked questions and explanations, and balanced answer letters A14/B14/C14/D14 without changing correct options. Comparable adjacent chapter 7.D.08 has 13,724 whitespace teaching words.",
-      "score_basis": "Internal 95/100: scientific -1 (not all full texts checked); diagrams -1 (no browser render); exam -1 (some direct distractors); accessibility -1 (runtime tests pending); technical -1 (live verification pending). Remaining dimensions supported by saved chapter and coverage matrix.",
-      "audit": "Re-fetched exact final HTML: unique IDs, resolved anchors and aria-labelledby references, balanced tags, JavaScript syntax compiled, distinct teaching paragraphs, four options and explanation per question; canonical and reader retained.",
-      "limitations": "Internal review only, not external peer review. MP SET archived syllabus comparison, current official-host copy not established. Full-text review of all references and runtime browser, mobile, keyboard, screen-reader and live deployment tests not independently completed. SVG source reviewed, not rendered in a browser.",
-      "audit_record": "curriculum/qa/7.E.03-publication-audit.md",
+      "scientific_review": "Internal review checked osmotic units/tonicity, nitrogen atom balances and ammonia fractions, urea ATP accounting, epithelial polarity, filtration versus secretion, freshwater/seawater gradients, organic osmolytes, salt glands, developmental and species exceptions. Recomputed quantitative examples and numerical question answers; distinguished hypothetical data from historical evidence; added direct academic sources for contractile vacuoles, Malpighian transport and avian salt gland.",
+      "editorial_review": "Separate internal pass checked sequence, 140 distinct teaching paragraphs, 14 responsive SVGs with title/description/ARIA, 52 four-option questions and explanations with 13 answers in each position, 16 misconception reasoning checks, 12 recall prompts, five tables, established reader controls, TOC, and published-only adjacent navigation. Comparison: 7.E.01 had 14,468 whitespace teaching words; 7.F.01 has 14,154. All post-shuffle correct option texts match the pre-shuffle answer mappings.",
+      "score_basis": "Internal score 95/100. Scientific -1: not every primary paper reviewed in full; figures -1: schematic/static not rendered across devices; questions -1: some introductory distractors are straightforward; reader -1: no runtime keyboard/assistive testing; technical -1: no prepublication live rendering. Remaining categories supported by content inspection and saved-file metrics. Not external peer review.",
+      "audit": "Final saved draft independently fetched and inspected: 14,213 lexical words (Unicode letters/numbers with internal hyphen/apostrophe), 14,154 whitespace teaching words in p.teaching-prose, zero duplicate IDs, zero unresolved local anchors/ARIA/zoom IDs, all 14 SVGs have titles/descriptions/viewBox/role, no unbalanced tags, one H1, all 52 answer explanations and four-option mappings retained, three local learning links present on main, canonical and previous/next codes correct, no placeholder text. Production changes robots directive only.",
+      "limitations": "MP SET syllabus verified from archived mirrored MPPSC document, not current official-host copy. No full runtime browser/mobile/keyboard/screen-reader testing or external peer review. Pages deployment/live verification must be checked separately.",
+      "audit_record": "curriculum/qa/7.F.01-publication-audit.md",
       "next_unpublished_node_id": "7.E.04",
       "concurrent_changes_reconciled": true,
       "publication": {
-        "academy_published_count": 353,
-        "unit_published_count": 38,
-        "subunit_published_count": 4
-      }
+        "strategy": "Atomic tree, non-force expected-HEAD update",
+        "initial_main_sha": "d2f2082f4548c7e7dd6f0e1b38aa4c8a1873a582",
+        "publication_base_sha": "d2367d8d8c4072866e4a725da9568913124735f6",
+        "subunit_published_after": 1,
+        "unit_published_after": 39,
+        "academy_published_after": 354,
+        "live_verification": "pending"
+      },
+      "chapter_blob_sha": "26d3b0ad733ee025855b1bdeb3b64e5228f6ac38"
     },
     "subunit_7b": {
       "published_node_ids": [
@@ -70684,9 +70866,10 @@
     },
     "subunit_7f": {
       "published_node_ids": [
-        "7.F.01"
+        "7.F.01",
+        "7.F.07"
       ],
-      "published_node_count": 1,
+      "published_node_count": 2,
       "planned_node_count": 8,
       "complete": false
     }
@@ -70734,7 +70917,8 @@
   ],
   "unit7e_planned_node_count": 6,
   "unit7f_published_node_ids": [
-    "7.F.01"
+    "7.F.01",
+    "7.F.07"
   ],
   "unit7f_planned_node_count": 8
 }

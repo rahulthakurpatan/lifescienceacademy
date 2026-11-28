@@ -111,3 +111,11 @@ Learn the principles and interpretation of macromolecule isolation, separation, 
 - Reconciled source progress: Academy 431/723; Unit 14 2/60; Subunit 14.A 2/6.
 - Earliest pending in 14.A: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis; Unit 14: 14.A.01 — Biological Sample Preparation and Macromolecule Analysis; global: 7.L.04 — Adipose Tissue–Skeletal Muscle Communication and Energy Expenditure.
 - Audit: `curriculum/qa/14.A.03-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 14.A.06
+
+- [Electrophoresis and Molecular Profiling](https://rahulthakurpatan.github.io/lifescienceacademy/electrophoresis-and-molecular-profiling.html) — production source publication, deployment verification pending.
+- 14,334 teaching words; 13 SVGs; 9 tables; 55 explained questions (20 B, 25 C, 10 other); 20 misconceptions; 15 recall; 13 references; internal QA 95/100.
+- Academy 436/723; Unit 14 7/60; Subunit 14.A 5/6. Earliest Unit 14: 14.A.05; global: 7.L.04.
+- [Audit](qa/14.A.06-publication-audit.md).

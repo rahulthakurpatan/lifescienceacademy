@@ -247,3 +247,11 @@ Mendelian foundations → modified inheritance and linkage → gene function and
 - Audit record: `curriculum/qa/8.D.04-publication-audit.md`.
 - Reconciled counts: academy 398/723; Unit 08 15/36; Subunit 8.D 2/4.
 - Deployment and live verification pending.
+
+## Publication checkpoint — 2026-11-28 — 8.E.03
+
+- [8.E.03 — Polygenic Inheritance and Quantitative Trait Variation](https://rahulthakurpatan.github.io/lifescienceacademy/polygenic-inheritance-and-quantitative-trait-variation.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,544 (13,187 whitespace-token cross-check); 14 original SVGs (10 graphs), 4 tables, 55 explained questions (22 Part B, 29 Part C, 4 SET), 16 misconceptions, 12 recall prompts, 10 references; internal static QA 95/100.
+- Academy: 399/723; Unit 08: 16/36; 8.E: 1/5.
+- Earliest pending in 8.E: 8.E.01 — Population Genetics and Hardy–Weinberg Equilibrium; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `qa/8.E.03-publication-audit.md`.

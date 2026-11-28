@@ -84,3 +84,11 @@ Progress from population allele frequencies and Hardy–Weinberg equilibrium to 
 - Preserve official scope and conceptual balance, not forced identical word counts. Use examples to explain mechanisms rather than catalogue every disorder or marker.
 - Unit 2 owns chromosome structure and meiosis; Unit 3 owns DNA replication/repair/recombination biochemistry; Unit 4 signalling and cancer; Unit 5 development; Unit 7 endocrine/reproductive physiology; Unit 9 detailed evolution; Unit 11 computational workflows; Units 13–14 specialist techniques. Unit 8 owns transmission, inference, mapping and genetic consequences. Use brief prerequisite previews where the official sequence introduces a later topic early (e.g. cytogenetics before detailed chromosome rearrangements).
 - No personal genetic diagnosis, treatment, or operational mutagenesis/gene-transfer protocols. Comparative historical and experimental analysis is educational.
+
+## Publication checkpoint — 2026-11-28 — 8.E.03
+
+- [8.E.03 — Polygenic Inheritance and Quantitative Trait Variation](https://rahulthakurpatan.github.io/lifescienceacademy/polygenic-inheritance-and-quantitative-trait-variation.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,544 (13,187 whitespace-token cross-check); 14 original SVGs (10 graphs), 4 tables, 55 explained questions (22 Part B, 29 Part C, 4 SET), 16 misconceptions, 12 recall prompts, 10 references; internal static QA 95/100.
+- Academy: 399/723; Unit 08: 16/36; 8.E: 1/5.
+- Earliest pending in 8.E: 8.E.01 — Population Genetics and Hardy–Weinberg Equilibrium; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `qa/8.E.03-publication-audit.md`.

@@ -4,16 +4,16 @@
   "unit": "08",
   "status": "published_deployment_verification_pending",
   "published": true,
-  "node_id": "8.C.01",
-  "title": "Linkage Mapping and Recombination Analysis",
+  "node_id": "8.C.04",
+  "title": "Development of Genetic Mapping Populations",
   "subunit": "8.C",
-  "topic": "Linkage Mapping and Recombination Analysis",
-  "slug": "linkage-mapping-and-recombination-analysis",
+  "topic": "Development of Genetic Mapping Populations",
+  "slug": "development-of-genetic-mapping-populations",
   "next_pending_node_id": "7.F.08",
   "next_pending_node_title": "Waste Elimination, Micturition and Integrated Renal Homeostasis",
-  "published_node_count": 393,
+  "published_node_count": 394,
   "publication_allowed": true,
-  "main_baseline_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
+  "main_baseline_sha": "a40feafcc5f79740fb0ac3d49b41632548b24c0a",
   "quality_hold": false,
   "next_required_action": "Verify Pages deployment and live chapter; continue earliest pending node.",
   "planned_node_count": 36,
@@ -21,40 +21,39 @@
   "architecture_version": "unit-08-inheritance-biology",
   "curriculum_roadmap": "curriculum/unit-08-inheritance-biology-subunit-map.md",
   "last_qa": {
-    "node_id": "8.C.01",
-    "title": "Linkage Mapping and Recombination Analysis",
-    "chapter_path": "linkage-mapping-and-recombination-analysis.html",
-    "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
-    "working_branch": "draft/8.C.01-linkage-mapping-20261128",
-    "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
-    "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
-    "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
+    "node_id": "8.C.04",
+    "title": "Development of Genetic Mapping Populations",
+    "chapter_path": "development-of-genetic-mapping-populations.html",
+    "chapter_blob_sha": "76f79dd26b94b8a265a6a515ccbb32eff60a845d",
+    "working_branch": "draft/8-c-04-mapping-populations-20261128",
+    "working_commit_sha": "405541a613de1cfb2d20925d8a2589ce028ecc71",
+    "draft_blob_sha": "a5617008d3e64e598f6c33288c9d1c0094c8b01f",
+    "publication_base_sha": "a40feafcc5f79740fb0ac3d49b41632548b24c0a",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13312,
-      "whitespace_tokens": 13515,
-      "teaching_paragraphs": 142,
-      "unique_teaching_paragraphs": 142,
-      "scientific_svgs": 10,
-      "graphs": 4,
-      "tables": 5,
-      "questions_total": 58,
-      "part_b": 23,
-      "part_c": 30,
-      "set": 5,
-      "answer_explanations": 58,
-      "misconceptions": 18,
-      "active_recall": 14,
-      "references": 8,
-      "answer_positions": {
-        "A": 14,
-        "B": 15,
-        "C": 15,
-        "D": 14
+      "genuine_teaching_words": 13388,
+      "teaching_paragraphs": 141,
+      "unique_teaching_paragraphs": 141,
+      "article_words": 18601,
+      "scientific_svgs": 13,
+      "tables": 4,
+      "questions_total": 55,
+      "part_b": 20,
+      "part_c": 25,
+      "set": 10,
+      "answer_explanations": 55,
+      "misconceptions": 15,
+      "active_recall": 12,
+      "references": 10,
+      "part_b_answer_positions": {
+        "A": 5,
+        "B": 5,
+        "C": 5,
+        "D": 5
       }
     },
-    "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
+    "word_count_method": "Saved p.teaching-prose: whitespace-separated tokens containing Unicode letters or numbers, excluding headings, tables, SVG, questions, revision and references.",
     "quality_score": 95,
     "quality_rubric": {
       "scientific_accuracy": 19,
@@ -70,65 +69,99 @@
     },
     "coverage_matrix": [
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Testcross classes and phase",
-        "section": "phase, two-point",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Parental polymorphism and founder selection",
+        "section": "founders",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Informative markers, genetic contrast, crossing plan and segregation assumptions",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Two-point map distances and centimorgans",
-        "section": "two-point, functions",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "F1 and F2 populations",
+        "section": "f2",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Single-locus and linked two-locus genotype frequencies, dominance and information content",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Three-point maps and middle marker",
-        "section": "three-point, worked-repulsion, order-independent",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Backcross populations",
+        "section": "bc",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Gamete scoring, background recovery, linkage drag and selection",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Interval-specific recombination and joint crossover categories",
-        "section": "three-point, chromatids, joint-bounds",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Recombinant inbred lines",
+        "section": "ril",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Fixation, selfing recurrence, recombinant probability derivation and mapping conversion",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Expected versus observed DCO and coincidence/interference",
-        "section": "interference, statistical, joint-bounds",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Doubled haploid populations",
+        "section": "dh",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Haploid origin, doubling, one-meiosis information and distortion",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Haldane and Kosambi assumptions, derivation and application",
-        "section": "functions, kosambi-logic",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Near-isogenic lines",
+        "section": "nil",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Introgression, residual donor segments, causal controls and validation",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Map additivity and saturation",
-        "section": "additivity, map-resolution",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Advanced intercross populations",
+        "section": "advanced",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Accumulated recombination, independent information and intermated maize evidence",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       },
       {
-        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-        "microtopic": "Experimental interpretation and genetic versus physical distance",
-        "section": "evidence, statistical, map-resolution, cross-design, applications",
-        "depth": "Foundational to Part C",
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Population size, marker density and mapping resolution",
+        "section": "resolution",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Binomial detection, upper limits, quantitative design comparison",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Phenotype replication and environmental control",
+        "section": "phenotype",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Experimental units, confounding, segregation distortion and line means",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
+        "status": "covered"
+      },
+      {
+        "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+        "microtopic": "Selection of mapping population for a biological question",
+        "section": "choice",
+        "depth": "Foundations to analytical Part C",
+        "experimental_analytical_relevance": "Comparative design, worked crop case, assumptions and practical trade-offs",
+        "examination_relevance": "Part B concepts and Part C design or data interpretation",
         "status": "covered"
       }
     ],
-    "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
-    "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
-    "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
+    "audit_record": "curriculum/qa/8.C.04-publication-audit.md",
+    "scientific_review": "Internal review of founder information, F2 and backcross segregation, RIL recurrence and fixation, DH and NIL interpretation, intercross evidence, mapping resolution, segregation distortion, phenotype design and answer explanations; recomputed representative numerical results.",
+    "editorial_review": "Separate structure and progression pass; compared against 8.A.06 exemplar (14,477 teaching words using the same counting method); 141 unique paragraphs, 13 accessible SVG source structures, four tables, 55 questions; refined Part B distractors and Part C design cases; retained reader shell.",
     "audit": {
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
@@ -136,21 +169,22 @@
       "unresolved_anchors": 0,
       "unresolved_aria": 0,
       "unresolved_zoom_targets": 0,
-      "tag_count_mismatches": 0,
-      "invalid_answer_keys": 0,
+      "tag_stack_errors": 0,
       "missing_explanations": 0,
       "placeholder_markers": 0,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+      "inline_js_syntax": "pass",
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/development-of-genetic-mapping-populations.html",
       "robots": "index,follow",
-      "prior_menu_links_preserved": 392,
-      "prior_sitemap_urls_preserved": 393,
+      "prior_menu_links_preserved": 393,
+      "prior_sitemap_urls_preserved": 394,
       "static_only": true
     },
     "limitations": [
-      "Internal academic and editorial reviews only; no external peer review.",
-      "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
-      "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
-      "Deployment and live content verification pending at publication."
+      "Internal scientific and editorial review only; not independent external peer review.",
+      "MP SET syllabus alignment uses archived mirror, not independently confirmed latest official-host copy.",
+      "Some reference destinations restrict automated retrieval; bibliographic records and accessible source text used, not a complete full-text audit of every reference.",
+      "Static markup, source-level SVG, and JS syntax checks; full conformance validation, rendered mobile/desktop, keyboard, screen-reader and runtime interaction tests not performed.",
+      "Deployment/live status pending at publication."
     ]
   },
   "published_node_ids": [
@@ -546,7 +580,8 @@
     "8.B.03",
     "8.B.04",
     "8.B.05",
-    "8.C.01"
+    "8.C.01",
+    "8.C.04"
   ],
   "prior_publication_qa": {
     "node_id": "8.C.01",
@@ -682,153 +717,136 @@
     ]
   },
   "previous_last_qa": {
-    "node_id": "8.B.03",
-    "title": "Molecular Basis and Causes of Mutations",
-    "chapter_path": "molecular-basis-and-causes-of-mutations.html",
-    "chapter_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-    "working_branch": "develop-8b03-molecular-mutations-20261128",
-    "working_commit_sha": "9735aa1427df04b7f919be709933019c963c6550",
-    "draft_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-    "publication_base_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
+    "node_id": "8.C.01",
+    "title": "Linkage Mapping and Recombination Analysis",
+    "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+    "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+    "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+    "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+    "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+    "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
     "review_date": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "metrics": {
-      "genuine_teaching_words": 13623,
-      "visible_article_words": 19422,
-      "teaching_paragraphs": 160,
-      "unique_teaching_paragraphs": 160,
-      "teaching_sections": 21,
-      "scientific_svgs": 13,
-      "graphs": 2,
-      "tables": 3,
-      "questions_total": 55,
-      "part_b": 20,
-      "part_c": 25,
-      "set": 10,
-      "answer_explanations": 55,
+      "genuine_teaching_words": 13312,
+      "whitespace_tokens": 13515,
+      "teaching_paragraphs": 142,
+      "unique_teaching_paragraphs": 142,
+      "scientific_svgs": 10,
+      "graphs": 4,
+      "tables": 5,
+      "questions_total": 58,
+      "part_b": 23,
+      "part_c": 30,
+      "set": 5,
+      "answer_explanations": 58,
       "misconceptions": 18,
       "active_recall": 14,
-      "references": 12
+      "references": 8,
+      "answer_positions": {
+        "A": 14,
+        "B": 15,
+        "C": 15,
+        "D": 14
+      }
     },
-    "word_count_method": "Saved p.teaching-prose only; no headings, captions, options, explanations, revision or references.",
+    "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
     "quality_score": 95,
     "quality_rubric": {
       "scientific_accuracy": 19,
-      "syllabus_coverage": 15,
+      "syllabus_microtopics": 15,
       "teaching_depth": 15,
       "pedagogy": 10,
-      "diagrams": 9,
+      "scientific_illustrations": 9,
       "exam_questions": 9,
-      "experimental_reasoning": 5,
-      "revision": 5,
+      "experimental_analytical_reasoning": 5,
+      "revision_mastery": 5,
       "reader_accessibility": 4,
       "technical_seo": 4
     },
     "coverage_matrix": [
       {
-        "microtopic": "Mutation versus damage and fixation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Testcross classes and phase",
+        "section": "phase, two-point",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Spontaneous and induced mutation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Two-point map distances and centimorgans",
+        "section": "two-point, functions",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Transition and transversion",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Three-point maps and middle marker",
+        "section": "three-point, worked-repulsion, order-independent",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Synonymous, missense, nonsense",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Interval-specific recombination and joint crossover categories",
+        "section": "three-point, chromatids, joint-bounds",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Insertion, deletion and frame",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Expected versus observed DCO and coincidence/interference",
+        "section": "interference, statistical, joint-bounds",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Splice and regulatory variants",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+        "section": "functions, kosambi-logic",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Depurination and deamination",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Map additivity and saturation",
+        "section": "additivity, map-resolution",
+        "depth": "Foundational to Part C",
         "status": "covered"
       },
       {
-        "microtopic": "Tautomerism and mismatch",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Oxidative lesions",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Repeat expansion and slippage",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "UV and ionizing radiation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Base analogues, alkylation and intercalation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Repair versus fixation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Rate, frequency and fluctuation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-        "status": "covered"
-      },
-      {
-        "microtopic": "Spectra, hotspots and interpretation",
-        "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+        "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+        "microtopic": "Experimental interpretation and genetic versus physical distance",
+        "section": "evidence, statistical, map-resolution, cross-design, applications",
+        "depth": "Foundational to Part C",
         "status": "covered"
       }
     ],
-    "audit_record": "curriculum/qa/8.B.03-publication-audit.md",
-    "scientific_review": "Internal mechanisms, sequence consequences and rates; 15 arithmetic checks passed.",
-    "editorial_review": "Separate progression, clarity, diagram, question and HTML pass; compared with 14,002-word 8.A.05 exemplar.",
+    "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+    "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+    "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
     "audit": {
       "duplicate_ids": 0,
       "duplicate_teaching_paragraphs": 0,
       "duplicate_questions": 0,
-      "unresolved_internal_anchors": 0,
-      "unresolved_aria_labelledby": 0,
-      "unclosed_tags": 0,
-      "answer_key_matches": 55,
-      "related_published_links_verified": 5,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
-      "h1_count": 1,
-      "answer_distribution": {
-        "A": 14,
-        "B": 13,
-        "C": 14,
-        "D": 14
-      },
+      "unresolved_anchors": 0,
+      "unresolved_aria": 0,
+      "unresolved_zoom_targets": 0,
+      "tag_count_mismatches": 0,
+      "invalid_answer_keys": 0,
+      "missing_explanations": 0,
+      "placeholder_markers": 0,
+      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+      "robots": "index,follow",
+      "prior_menu_links_preserved": 392,
+      "prior_sitemap_urls_preserved": 393,
       "static_only": true
     },
     "limitations": [
-      "Internal review, not independent peer review.",
-      "Relevant references and excerpts checked; not every full text read.",
-      "Archived MP SET syllabus comparison only.",
-      "No real-browser mobile, keyboard or screen-reader runtime test.",
-      "Pages/live checks pending at commit creation."
+      "Internal academic and editorial reviews only; no external peer review.",
+      "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+      "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+      "Deployment and live content verification pending at publication."
     ]
   },
   "unit_02": {
@@ -50615,6 +50633,173 @@
         "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
         "Deployment and live content verification pending at publication."
       ]
+    },
+    "8.C.04": {
+      "node_id": "8.C.04",
+      "title": "Development of Genetic Mapping Populations",
+      "chapter_path": "development-of-genetic-mapping-populations.html",
+      "chapter_blob_sha": "76f79dd26b94b8a265a6a515ccbb32eff60a845d",
+      "working_branch": "draft/8-c-04-mapping-populations-20261128",
+      "working_commit_sha": "405541a613de1cfb2d20925d8a2589ce028ecc71",
+      "draft_blob_sha": "a5617008d3e64e598f6c33288c9d1c0094c8b01f",
+      "publication_base_sha": "a40feafcc5f79740fb0ac3d49b41632548b24c0a",
+      "review_date": "2026-11-28",
+      "status": "published_deployment_verification_pending",
+      "metrics": {
+        "genuine_teaching_words": 13388,
+        "teaching_paragraphs": 141,
+        "unique_teaching_paragraphs": 141,
+        "article_words": 18601,
+        "scientific_svgs": 13,
+        "tables": 4,
+        "questions_total": 55,
+        "part_b": 20,
+        "part_c": 25,
+        "set": 10,
+        "answer_explanations": 55,
+        "misconceptions": 15,
+        "active_recall": 12,
+        "references": 10,
+        "part_b_answer_positions": {
+          "A": 5,
+          "B": 5,
+          "C": 5,
+          "D": 5
+        }
+      },
+      "word_count_method": "Saved p.teaching-prose: whitespace-separated tokens containing Unicode letters or numbers, excluding headings, tables, SVG, questions, revision and references.",
+      "quality_score": 95,
+      "quality_rubric": {
+        "scientific_accuracy": 19,
+        "syllabus_microtopics": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "scientific_illustrations": 9,
+        "exam_questions": 9,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
+        "reader_accessibility": 4,
+        "technical_seo": 4
+      },
+      "coverage_matrix": [
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Parental polymorphism and founder selection",
+          "section": "founders",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Informative markers, genetic contrast, crossing plan and segregation assumptions",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "F1 and F2 populations",
+          "section": "f2",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Single-locus and linked two-locus genotype frequencies, dominance and information content",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Backcross populations",
+          "section": "bc",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Gamete scoring, background recovery, linkage drag and selection",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Recombinant inbred lines",
+          "section": "ril",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Fixation, selfing recurrence, recombinant probability derivation and mapping conversion",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Doubled haploid populations",
+          "section": "dh",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Haploid origin, doubling, one-meiosis information and distortion",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Near-isogenic lines",
+          "section": "nil",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Introgression, residual donor segments, causal controls and validation",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Advanced intercross populations",
+          "section": "advanced",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Accumulated recombination, independent information and intermated maize evidence",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Population size, marker density and mapping resolution",
+          "section": "resolution",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Binomial detection, upper limits, quantitative design comparison",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Phenotype replication and environmental control",
+          "section": "phenotype",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Experimental units, confounding, segregation distortion and line means",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Selection of mapping population for a biological question",
+          "section": "choice",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Comparative design, worked crop case, assumptions and practical trade-offs",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        }
+      ],
+      "audit_record": "curriculum/qa/8.C.04-publication-audit.md",
+      "scientific_review": "Internal review of founder information, F2 and backcross segregation, RIL recurrence and fixation, DH and NIL interpretation, intercross evidence, mapping resolution, segregation distortion, phenotype design and answer explanations; recomputed representative numerical results.",
+      "editorial_review": "Separate structure and progression pass; compared against 8.A.06 exemplar (14,477 teaching words using the same counting method); 141 unique paragraphs, 13 accessible SVG source structures, four tables, 55 questions; refined Part B distractors and Part C design cases; retained reader shell.",
+      "audit": {
+        "duplicate_ids": 0,
+        "duplicate_teaching_paragraphs": 0,
+        "duplicate_questions": 0,
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "unresolved_zoom_targets": 0,
+        "tag_stack_errors": 0,
+        "missing_explanations": 0,
+        "placeholder_markers": 0,
+        "inline_js_syntax": "pass",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/development-of-genetic-mapping-populations.html",
+        "robots": "index,follow",
+        "prior_menu_links_preserved": 393,
+        "prior_sitemap_urls_preserved": 394,
+        "static_only": true
+      },
+      "limitations": [
+        "Internal scientific and editorial review only; not independent external peer review.",
+        "MP SET syllabus alignment uses archived mirror, not independently confirmed latest official-host copy.",
+        "Some reference destinations restrict automated retrieval; bibliographic records and accessible source text used, not a complete full-text audit of every reference.",
+        "Static markup, source-level SVG, and JS syntax checks; full conformance validation, rendered mobile/desktop, keyboard, screen-reader and runtime interaction tests not performed.",
+        "Deployment/live status pending at publication."
+      ]
     }
   },
   "academy_planned_node_count": 723,
@@ -68422,7 +68607,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/development-of-genetic-mapping-populations.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -75890,48 +76075,48 @@
       "8.B.03",
       "8.B.04",
       "8.B.05",
-      "8.C.01"
+      "8.C.01",
+      "8.C.04"
     ],
-    "published_node_count": 10,
+    "published_node_count": 11,
     "planned_node_count": 36,
-    "last_published_node_id": "8.C.01",
+    "last_published_node_id": "8.C.04",
     "updated_at": "2026-11-28",
     "status": "published_deployment_verification_pending",
     "last_qa": {
-      "node_id": "8.C.01",
-      "title": "Linkage Mapping and Recombination Analysis",
-      "chapter_path": "linkage-mapping-and-recombination-analysis.html",
-      "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
-      "working_branch": "draft/8.C.01-linkage-mapping-20261128",
-      "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
-      "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
-      "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
+      "node_id": "8.C.04",
+      "title": "Development of Genetic Mapping Populations",
+      "chapter_path": "development-of-genetic-mapping-populations.html",
+      "chapter_blob_sha": "76f79dd26b94b8a265a6a515ccbb32eff60a845d",
+      "working_branch": "draft/8-c-04-mapping-populations-20261128",
+      "working_commit_sha": "405541a613de1cfb2d20925d8a2589ce028ecc71",
+      "draft_blob_sha": "a5617008d3e64e598f6c33288c9d1c0094c8b01f",
+      "publication_base_sha": "a40feafcc5f79740fb0ac3d49b41632548b24c0a",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13312,
-        "whitespace_tokens": 13515,
-        "teaching_paragraphs": 142,
-        "unique_teaching_paragraphs": 142,
-        "scientific_svgs": 10,
-        "graphs": 4,
-        "tables": 5,
-        "questions_total": 58,
-        "part_b": 23,
-        "part_c": 30,
-        "set": 5,
-        "answer_explanations": 58,
-        "misconceptions": 18,
-        "active_recall": 14,
-        "references": 8,
-        "answer_positions": {
-          "A": 14,
-          "B": 15,
-          "C": 15,
-          "D": 14
+        "genuine_teaching_words": 13388,
+        "teaching_paragraphs": 141,
+        "unique_teaching_paragraphs": 141,
+        "article_words": 18601,
+        "scientific_svgs": 13,
+        "tables": 4,
+        "questions_total": 55,
+        "part_b": 20,
+        "part_c": 25,
+        "set": 10,
+        "answer_explanations": 55,
+        "misconceptions": 15,
+        "active_recall": 12,
+        "references": 10,
+        "part_b_answer_positions": {
+          "A": 5,
+          "B": 5,
+          "C": 5,
+          "D": 5
         }
       },
-      "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
+      "word_count_method": "Saved p.teaching-prose: whitespace-separated tokens containing Unicode letters or numbers, excluding headings, tables, SVG, questions, revision and references.",
       "quality_score": 95,
       "quality_rubric": {
         "scientific_accuracy": 19,
@@ -75947,65 +76132,99 @@
       },
       "coverage_matrix": [
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Testcross classes and phase",
-          "section": "phase, two-point",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Parental polymorphism and founder selection",
+          "section": "founders",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Informative markers, genetic contrast, crossing plan and segregation assumptions",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Two-point map distances and centimorgans",
-          "section": "two-point, functions",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "F1 and F2 populations",
+          "section": "f2",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Single-locus and linked two-locus genotype frequencies, dominance and information content",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Three-point maps and middle marker",
-          "section": "three-point, worked-repulsion, order-independent",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Backcross populations",
+          "section": "bc",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Gamete scoring, background recovery, linkage drag and selection",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Interval-specific recombination and joint crossover categories",
-          "section": "three-point, chromatids, joint-bounds",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Recombinant inbred lines",
+          "section": "ril",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Fixation, selfing recurrence, recombinant probability derivation and mapping conversion",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Expected versus observed DCO and coincidence/interference",
-          "section": "interference, statistical, joint-bounds",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Doubled haploid populations",
+          "section": "dh",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Haploid origin, doubling, one-meiosis information and distortion",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Haldane and Kosambi assumptions, derivation and application",
-          "section": "functions, kosambi-logic",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Near-isogenic lines",
+          "section": "nil",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Introgression, residual donor segments, causal controls and validation",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Map additivity and saturation",
-          "section": "additivity, map-resolution",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Advanced intercross populations",
+          "section": "advanced",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Accumulated recombination, independent information and intermated maize evidence",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         },
         {
-          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
-          "microtopic": "Experimental interpretation and genetic versus physical distance",
-          "section": "evidence, statistical, map-resolution, cross-design, applications",
-          "depth": "Foundational to Part C",
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Population size, marker density and mapping resolution",
+          "section": "resolution",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Binomial detection, upper limits, quantitative design comparison",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Phenotype replication and environmental control",
+          "section": "phenotype",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Experimental units, confounding, segregation distortion and line means",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
+          "status": "covered"
+        },
+        {
+          "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+          "microtopic": "Selection of mapping population for a biological question",
+          "section": "choice",
+          "depth": "Foundations to analytical Part C",
+          "experimental_analytical_relevance": "Comparative design, worked crop case, assumptions and practical trade-offs",
+          "examination_relevance": "Part B concepts and Part C design or data interpretation",
           "status": "covered"
         }
       ],
-      "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
-      "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
-      "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
+      "audit_record": "curriculum/qa/8.C.04-publication-audit.md",
+      "scientific_review": "Internal review of founder information, F2 and backcross segregation, RIL recurrence and fixation, DH and NIL interpretation, intercross evidence, mapping resolution, segregation distortion, phenotype design and answer explanations; recomputed representative numerical results.",
+      "editorial_review": "Separate structure and progression pass; compared against 8.A.06 exemplar (14,477 teaching words using the same counting method); 141 unique paragraphs, 13 accessible SVG source structures, four tables, 55 questions; refined Part B distractors and Part C design cases; retained reader shell.",
       "audit": {
         "duplicate_ids": 0,
         "duplicate_teaching_paragraphs": 0,
@@ -76013,21 +76232,22 @@
         "unresolved_anchors": 0,
         "unresolved_aria": 0,
         "unresolved_zoom_targets": 0,
-        "tag_count_mismatches": 0,
-        "invalid_answer_keys": 0,
+        "tag_stack_errors": 0,
         "missing_explanations": 0,
         "placeholder_markers": 0,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+        "inline_js_syntax": "pass",
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/development-of-genetic-mapping-populations.html",
         "robots": "index,follow",
-        "prior_menu_links_preserved": 392,
-        "prior_sitemap_urls_preserved": 393,
+        "prior_menu_links_preserved": 393,
+        "prior_sitemap_urls_preserved": 394,
         "static_only": true
       },
       "limitations": [
-        "Internal academic and editorial reviews only; no external peer review.",
-        "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
-        "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
-        "Deployment and live content verification pending at publication."
+        "Internal scientific and editorial review only; not independent external peer review.",
+        "MP SET syllabus alignment uses archived mirror, not independently confirmed latest official-host copy.",
+        "Some reference destinations restrict automated retrieval; bibliographic records and accessible source text used, not a complete full-text audit of every reference.",
+        "Static markup, source-level SVG, and JS syntax checks; full conformance validation, rendered mobile/desktop, keyboard, screen-reader and runtime interaction tests not performed.",
+        "Deployment/live status pending at publication."
       ]
     },
     "qa_by_node": {
@@ -77216,6 +77436,173 @@
           "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
           "Deployment and live content verification pending at publication."
         ]
+      },
+      "8.C.04": {
+        "node_id": "8.C.04",
+        "title": "Development of Genetic Mapping Populations",
+        "chapter_path": "development-of-genetic-mapping-populations.html",
+        "chapter_blob_sha": "76f79dd26b94b8a265a6a515ccbb32eff60a845d",
+        "working_branch": "draft/8-c-04-mapping-populations-20261128",
+        "working_commit_sha": "405541a613de1cfb2d20925d8a2589ce028ecc71",
+        "draft_blob_sha": "a5617008d3e64e598f6c33288c9d1c0094c8b01f",
+        "publication_base_sha": "a40feafcc5f79740fb0ac3d49b41632548b24c0a",
+        "review_date": "2026-11-28",
+        "status": "published_deployment_verification_pending",
+        "metrics": {
+          "genuine_teaching_words": 13388,
+          "teaching_paragraphs": 141,
+          "unique_teaching_paragraphs": 141,
+          "article_words": 18601,
+          "scientific_svgs": 13,
+          "tables": 4,
+          "questions_total": 55,
+          "part_b": 20,
+          "part_c": 25,
+          "set": 10,
+          "answer_explanations": 55,
+          "misconceptions": 15,
+          "active_recall": 12,
+          "references": 10,
+          "part_b_answer_positions": {
+            "A": 5,
+            "B": 5,
+            "C": 5,
+            "D": 5
+          }
+        },
+        "word_count_method": "Saved p.teaching-prose: whitespace-separated tokens containing Unicode letters or numbers, excluding headings, tables, SVG, questions, revision and references.",
+        "quality_score": 95,
+        "quality_rubric": {
+          "scientific_accuracy": 19,
+          "syllabus_microtopics": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "scientific_illustrations": 9,
+          "exam_questions": 9,
+          "experimental_analytical_reasoning": 5,
+          "revision_mastery": 5,
+          "reader_accessibility": 4,
+          "technical_seo": 4
+        },
+        "coverage_matrix": [
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Parental polymorphism and founder selection",
+            "section": "founders",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Informative markers, genetic contrast, crossing plan and segregation assumptions",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "F1 and F2 populations",
+            "section": "f2",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Single-locus and linked two-locus genotype frequencies, dominance and information content",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Backcross populations",
+            "section": "bc",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Gamete scoring, background recovery, linkage drag and selection",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Recombinant inbred lines",
+            "section": "ril",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Fixation, selfing recurrence, recombinant probability derivation and mapping conversion",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Doubled haploid populations",
+            "section": "dh",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Haploid origin, doubling, one-meiosis information and distortion",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Near-isogenic lines",
+            "section": "nil",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Introgression, residual donor segments, causal controls and validation",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Advanced intercross populations",
+            "section": "advanced",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Accumulated recombination, independent information and intermated maize evidence",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Population size, marker density and mapping resolution",
+            "section": "resolution",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Binomial detection, upper limits, quantitative design comparison",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Phenotype replication and environmental control",
+            "section": "phenotype",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Experimental units, confounding, segregation distortion and line means",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          },
+          {
+            "official_scope": "Revised NET 8.C genetic mapping populations in plants; legacy NET and archived MP SET genetic mapping; Academy 8.C.04 roadmap",
+            "microtopic": "Selection of mapping population for a biological question",
+            "section": "choice",
+            "depth": "Foundations to analytical Part C",
+            "experimental_analytical_relevance": "Comparative design, worked crop case, assumptions and practical trade-offs",
+            "examination_relevance": "Part B concepts and Part C design or data interpretation",
+            "status": "covered"
+          }
+        ],
+        "audit_record": "curriculum/qa/8.C.04-publication-audit.md",
+        "scientific_review": "Internal review of founder information, F2 and backcross segregation, RIL recurrence and fixation, DH and NIL interpretation, intercross evidence, mapping resolution, segregation distortion, phenotype design and answer explanations; recomputed representative numerical results.",
+        "editorial_review": "Separate structure and progression pass; compared against 8.A.06 exemplar (14,477 teaching words using the same counting method); 141 unique paragraphs, 13 accessible SVG source structures, four tables, 55 questions; refined Part B distractors and Part C design cases; retained reader shell.",
+        "audit": {
+          "duplicate_ids": 0,
+          "duplicate_teaching_paragraphs": 0,
+          "duplicate_questions": 0,
+          "unresolved_anchors": 0,
+          "unresolved_aria": 0,
+          "unresolved_zoom_targets": 0,
+          "tag_stack_errors": 0,
+          "missing_explanations": 0,
+          "placeholder_markers": 0,
+          "inline_js_syntax": "pass",
+          "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/development-of-genetic-mapping-populations.html",
+          "robots": "index,follow",
+          "prior_menu_links_preserved": 393,
+          "prior_sitemap_urls_preserved": 394,
+          "static_only": true
+        },
+        "limitations": [
+          "Internal scientific and editorial review only; not independent external peer review.",
+          "MP SET syllabus alignment uses archived mirror, not independently confirmed latest official-host copy.",
+          "Some reference destinations restrict automated retrieval; bibliographic records and accessible source text used, not a complete full-text audit of every reference.",
+          "Static markup, source-level SVG, and JS syntax checks; full conformance validation, rendered mobile/desktop, keyboard, screen-reader and runtime interaction tests not performed.",
+          "Deployment/live status pending at publication."
+        ]
       }
     },
     "next_pending_node_id": "8.A.03",
@@ -77236,153 +77623,136 @@
       "complete": false
     },
     "previous_last_qa": {
-      "node_id": "8.B.03",
-      "title": "Molecular Basis and Causes of Mutations",
-      "chapter_path": "molecular-basis-and-causes-of-mutations.html",
-      "chapter_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-      "working_branch": "develop-8b03-molecular-mutations-20261128",
-      "working_commit_sha": "9735aa1427df04b7f919be709933019c963c6550",
-      "draft_blob_sha": "f279f76cbfcb7316f6cc93b6394b56be4d73e93c",
-      "publication_base_sha": "caca8465e2efbbe019b54983b28da2f915bb21a0",
+      "node_id": "8.C.01",
+      "title": "Linkage Mapping and Recombination Analysis",
+      "chapter_path": "linkage-mapping-and-recombination-analysis.html",
+      "chapter_blob_sha": "6d485386f84464175869c82c48267aed8af4b78f",
+      "working_branch": "draft/8.C.01-linkage-mapping-20261128",
+      "working_commit_sha": "1035b93f98558c5d1cd9f7120a0e46085235890a",
+      "draft_blob_sha": "774ba5a6a514bd6106a59cd956b8da2bd1ad1c51",
+      "publication_base_sha": "88eada8976fed9ae89faee9bcaa1c8ce870c5be9",
       "review_date": "2026-11-28",
       "status": "published_deployment_verification_pending",
       "metrics": {
-        "genuine_teaching_words": 13623,
-        "visible_article_words": 19422,
-        "teaching_paragraphs": 160,
-        "unique_teaching_paragraphs": 160,
-        "teaching_sections": 21,
-        "scientific_svgs": 13,
-        "graphs": 2,
-        "tables": 3,
-        "questions_total": 55,
-        "part_b": 20,
-        "part_c": 25,
-        "set": 10,
-        "answer_explanations": 55,
+        "genuine_teaching_words": 13312,
+        "whitespace_tokens": 13515,
+        "teaching_paragraphs": 142,
+        "unique_teaching_paragraphs": 142,
+        "scientific_svgs": 10,
+        "graphs": 4,
+        "tables": 5,
+        "questions_total": 58,
+        "part_b": 23,
+        "part_c": 30,
+        "set": 5,
+        "answer_explanations": 58,
         "misconceptions": 18,
         "active_recall": 14,
-        "references": 12
+        "references": 8,
+        "answer_positions": {
+          "A": 14,
+          "B": 15,
+          "C": 15,
+          "D": 14
+        }
       },
-      "word_count_method": "Saved p.teaching-prose only; no headings, captions, options, explanations, revision or references.",
+      "word_count_method": "Saved p.teaching-prose only: whitespace-separated tokens containing Unicode letters or numbers (13,312); raw whitespace-token count 13,515. Excludes headings, tables, SVG, questions, revision and references.",
       "quality_score": 95,
       "quality_rubric": {
         "scientific_accuracy": 19,
-        "syllabus_coverage": 15,
+        "syllabus_microtopics": 15,
         "teaching_depth": 15,
         "pedagogy": 10,
-        "diagrams": 9,
+        "scientific_illustrations": 9,
         "exam_questions": 9,
-        "experimental_reasoning": 5,
-        "revision": 5,
+        "experimental_analytical_reasoning": 5,
+        "revision_mastery": 5,
         "reader_accessibility": 4,
         "technical_seo": 4
       },
       "coverage_matrix": [
         {
-          "microtopic": "Mutation versus damage and fixation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Testcross classes and phase",
+          "section": "phase, two-point",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Spontaneous and induced mutation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Two-point map distances and centimorgans",
+          "section": "two-point, functions",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Transition and transversion",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Three-point maps and middle marker",
+          "section": "three-point, worked-repulsion, order-independent",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Synonymous, missense, nonsense",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Interval-specific recombination and joint crossover categories",
+          "section": "three-point, chromatids, joint-bounds",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Insertion, deletion and frame",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Expected versus observed DCO and coincidence/interference",
+          "section": "interference, statistical, joint-bounds",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Splice and regulatory variants",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Haldane and Kosambi assumptions, derivation and application",
+          "section": "functions, kosambi-logic",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Depurination and deamination",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Map additivity and saturation",
+          "section": "additivity, map-resolution",
+          "depth": "Foundational to Part C",
           "status": "covered"
         },
         {
-          "microtopic": "Tautomerism and mismatch",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Oxidative lesions",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Repeat expansion and slippage",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "UV and ionizing radiation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Base analogues, alkylation and intercalation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Repair versus fixation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Rate, frequency and fluctuation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
-          "status": "covered"
-        },
-        {
-          "microtopic": "Spectra, hotspots and interpretation",
-          "official_scope": "Unit 8 inheritance biology: mutation; 8.B.03 roadmap",
+          "official_scope": "Revised NET 8.C linkage maps; legacy NET and archived MP SET 8.D; Academy 8.C.01 roadmap",
+          "microtopic": "Experimental interpretation and genetic versus physical distance",
+          "section": "evidence, statistical, map-resolution, cross-design, applications",
+          "depth": "Foundational to Part C",
           "status": "covered"
         }
       ],
-      "audit_record": "curriculum/qa/8.B.03-publication-audit.md",
-      "scientific_review": "Internal mechanisms, sequence consequences and rates; 15 arithmetic checks passed.",
-      "editorial_review": "Separate progression, clarity, diagram, question and HTML pass; compared with 14,002-word 8.A.05 exemplar.",
+      "audit_record": "curriculum/qa/8.C.01-publication-audit.md",
+      "scientific_review": "Internal scientific review of phase, single and multiple exchange, parity, three illustrative crosses, coincidence/interference, Haldane and Kosambi derivations, sampling and recovery assumptions; checked all question answers and recomputed numerical examples, including 18 recorded arithmetic results.",
+      "editorial_review": "Separate progression and structure pass; compared with 8.A.06 (14,756 teaching words, 151 paragraphs, 11 SVGs), checked 142 distinct paragraphs, 10 original figures, 58 explained questions, 18 misconceptions, 14 recall items; refined question formats and graph legend; preserved established reader shell.",
       "audit": {
         "duplicate_ids": 0,
         "duplicate_teaching_paragraphs": 0,
         "duplicate_questions": 0,
-        "unresolved_internal_anchors": 0,
-        "unresolved_aria_labelledby": 0,
-        "unclosed_tags": 0,
-        "answer_key_matches": 55,
-        "related_published_links_verified": 5,
-        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/molecular-basis-and-causes-of-mutations.html",
-        "h1_count": 1,
-        "answer_distribution": {
-          "A": 14,
-          "B": 13,
-          "C": 14,
-          "D": 14
-        },
+        "unresolved_anchors": 0,
+        "unresolved_aria": 0,
+        "unresolved_zoom_targets": 0,
+        "tag_count_mismatches": 0,
+        "invalid_answer_keys": 0,
+        "missing_explanations": 0,
+        "placeholder_markers": 0,
+        "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/linkage-mapping-and-recombination-analysis.html",
+        "robots": "index,follow",
+        "prior_menu_links_preserved": 392,
+        "prior_sitemap_urls_preserved": 393,
         "static_only": true
       },
       "limitations": [
-        "Internal review, not independent peer review.",
-        "Relevant references and excerpts checked; not every full text read.",
-        "Archived MP SET syllabus comparison only.",
-        "No real-browser mobile, keyboard or screen-reader runtime test.",
-        "Pages/live checks pending at commit creation."
+        "Internal academic and editorial reviews only; no external peer review.",
+        "Official revised and legacy NET PDFs and archived MP SET 2024 mirror inspected; current official-host MP SET copy not independently confirmed.",
+        "Static checks only; no full HTML conformance validator, rendered mobile/desktop, keyboard, screen-reader or runtime interaction tests. SVG source inspection rather than rendered inspection.",
+        "Deployment and live content verification pending at publication."
       ]
     },
     "subunit_8b": {
@@ -77400,9 +77770,10 @@
     },
     "subunit_8c": {
       "published_node_ids": [
-        "8.C.01"
+        "8.C.01",
+        "8.C.04"
       ],
-      "published_node_count": 1,
+      "published_node_count": 2,
       "planned_node_count": 8,
       "next_pending_node_id": "8.C.02",
       "next_pending_node_title": "Tetrad Analysis and Fungal Genetics",
@@ -77425,7 +77796,8 @@
   ],
   "unit8b_planned_node_count": 5,
   "unit8c_published_node_ids": [
-    "8.C.01"
+    "8.C.01",
+    "8.C.04"
   ],
   "unit8c_planned_node_count": 8
 }

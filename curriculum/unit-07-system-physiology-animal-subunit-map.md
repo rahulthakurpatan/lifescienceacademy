@@ -609,3 +609,10 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 13,160 genuine teaching words, 156 distinct paragraphs, 12 teaching sections, 13 coverage groups, 12 SVGs (5 graphs), 4 tables, 50 original explained questions (20 B / 20 C / 10 SET), 15 misconceptions, 10 active recall prompts, 17 references.
 - Academy: 414/723; Unit 07: 81/90; 7.J: 11/12. Earliest pending: 7.J.12 — Fertilization, Pregnancy, Parturition and Lactation; earliest in 7.J: 7.J.12 — Fertilization, Pregnancy, Parturition and Lactation.
 - Audit: `curriculum/qa/7.J.06-publication-audit.md`.
+
+### Publication checkpoint — 7.J.12 (2026-11-28)
+
+- Chapter: [Fertilization, Pregnancy, Parturition and Lactation](https://rahulthakurpatan.github.io/lifescienceacademy/fertilization-pregnancy-parturition-and-lactation.html); internal academic/editorial QA 95/100, saved HTML static audit passed; Pages/live verification pending.
+- 14,655 genuine teaching words, 124 unique paragraphs, 12 teaching sections, 14 original accessible SVGs (3 graphs), 6 tables, 54 original explained questions (20 B / 29 C / 5 SET), 20 misconceptions, 15 recall prompts and 19 references.
+- Academy: 415/723; Unit 07: 82/90; 7.J: 12/12. Earliest global pending: 7.K.03 — Methods and Experimental Approaches to Study the Gut Microbiome; earliest in 7.J: Complete.
+- Audit: `curriculum/qa/7.J.12-publication-audit.md`.

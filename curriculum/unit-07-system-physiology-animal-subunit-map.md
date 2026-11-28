@@ -511,3 +511,11 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - Academy: 381/723; Unit 07: 66/90; 7.L: 1/8.
 - Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/7.L.05-publication-audit.md`.
+
+## Publication checkpoint — 2026-11-28 — 7.L.03
+
+- [7.L.03 — Gut–Pancreas–Liver Communication and Glucose Homeostasis](https://rahulthakurpatan.github.io/lifescienceacademy/gut-pancreas-liver-communication-and-glucose-homeostasis.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,599; 15 original SVGs (4 graphs), 5 tables, 52 explained questions (20 B, 26 C, 6 SET), 18 misconceptions, 15 recall prompts; internal QA 95/100.
+- Academy: 382/723; Unit 07: 67/90; 7.L: 2/8.
+- Earliest pending in 7.L: 7.L.01; global checkpoint: 7.F.08.
+- Audit: `curriculum/qa/7.L.03-publication-audit.md`.

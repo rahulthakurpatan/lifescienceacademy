@@ -355,3 +355,9 @@ Every explicit official topic is represented in the corresponding subunit scope.
 - 7.E.04 — [Auditory System: Ear Anatomy and Mechanics of Hearing](https://rahulthakurpatan.github.io/lifescienceacademy/auditory-system-ear-anatomy-and-mechanics-of-hearing.html); internal QA 95/100, final saved HTML static audit passed; Pages and live verification pending.
 - Teaching prose: 13,883 lexical words (13,799 whitespace tokens), 133 paragraphs; 12 original SVGs (5 graphs), 2 tables, 53 explained questions (22 Part B, 31 Part C), 16 misconceptions, 11 recall prompts and 17 references. Audit: `curriculum/qa/7.E.04-publication-audit.md`.
 - Subunit 7.E: 5/6; Unit 07: 42/90; Academy: 357/723. Next global unpublished node: 7.E.05 — Auditory Transduction, Neural Processing and Equilibrium.
+
+## Publication checkpoint — 2026-11-28
+
+- 7.E.05 — [Auditory Transduction, Neural Processing and Equilibrium](https://rahulthakurpatan.github.io/lifescienceacademy/auditory-transduction-neural-processing-and-equilibrium.html); internal academic QA 95/100; saved HTML static checks passed; Pages/live verification pending.
+- 14,109 genuine teaching words in 130 distinct paragraphs; 16 original scientific SVGs including 6 graphs, 5 tables, 54 explained questions (20 Part B, 26 Part C, 8 SET), 20 misconceptions, 15 recall prompts, 22 references.
+- Subunit 7.E: 6/6; Unit 07: 43/90; Academy: 358/723. Next earliest unpublished node: 7.F.03 — Glomerular Filtration and Renal Haemodynamics.

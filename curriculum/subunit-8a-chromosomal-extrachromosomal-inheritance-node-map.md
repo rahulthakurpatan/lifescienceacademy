@@ -126,3 +126,12 @@ Trace Mendelian transmission from segregation and independent assortment through
 - Academy: 384/723; Unit 08: 1/36; 8.A: 1/8.
 - Earliest pending in 8.A: 8.A.01 — Foundations of Genetics and Mendelian Segregation; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
 - Audit: `curriculum/qa/8.A.02-publication-audit.md`.
+
+
+## Publication checkpoint — 2026-11-28 — 8.A.08
+
+- [8.A.08 — Extrachromosomal Inheritance and Maternal Effects](https://rahulthakurpatan.github.io/lifescienceacademy/extrachromosomal-inheritance-and-maternal-effects.html) — production publication; Pages deployment verification pending.
+- Teaching words: 13,755; 12 original SVGs (3 graphs), 7 tables, 57 explained questions (20 Part B, 27 Part C, 10 SET), 18 misconceptions, 12 recall prompts, 19 references; internal QA 95/100.
+- Academy: 387/723; Unit 08: 4/36; 8.A: 4/8.
+- Earliest pending in 8.A: 8.A.03 — Incomplete Dominance, Codominance and Allelic Relationships; global checkpoint: 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis.
+- Audit: `curriculum/qa/8.A.08-publication-audit.md`.

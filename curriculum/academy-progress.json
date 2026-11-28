@@ -4,16 +4,16 @@
   "unit": "08",
   "status": "published",
   "published": true,
-  "node_id": "8.A.06",
-  "title": "Chromosomal Linkage and Crossing Over",
+  "node_id": "8.A.08",
+  "title": "Extrachromosomal Inheritance and Maternal Effects",
   "subunit": "8.A",
   "topic": "Chromosomal and Extrachromosomal Inheritance",
-  "slug": "chromosomal-linkage-and-crossing-over.html",
+  "slug": "extrachromosomal-inheritance-and-maternal-effects.html",
   "next_pending_node_id": "7.F.08",
   "next_pending_node_title": "Waste Elimination, Micturition and Integrated Renal Homeostasis",
-  "published_node_count": 386,
+  "published_node_count": 387,
   "publication_allowed": true,
-  "main_baseline_sha": "78ce30de2b3104ada38b6510fa917956cfe45d06",
+  "main_baseline_sha": "f83433e01d0f2f2c75a36cc7aa2887d9f1f53ee1",
   "quality_hold": false,
   "next_required_action": "Develop 7.F.08 — Waste Elimination, Micturition and Integrated Renal Homeostasis",
   "planned_node_count": 36,
@@ -21,30 +21,30 @@
   "architecture_version": "unit-08-inheritance-biology",
   "curriculum_roadmap": "curriculum/unit-08-inheritance-biology-subunit-map.md",
   "last_qa": {
-    "node_id": "8.A.06",
-    "title": "Chromosomal Linkage and Crossing Over",
+    "node_id": "8.A.08",
+    "title": "Extrachromosomal Inheritance and Maternal Effects",
     "review_date": "2026-11-28",
     "score": 95,
     "threshold": 95,
     "verdict": "PASS",
     "review_type": "Internal academic and separate editorial review; not external peer review",
-    "draft_commit": "a60f229805cadb9f2c00808bf314222d31a06d86",
-    "lesson_blob_sha": "386fdc581d22261c2f25d1fceac434db24dc6943",
+    "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
+    "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
     "metrics": {
-      "teaching_words": 14756,
-      "article_visible_words": 19871,
-      "teaching_paragraphs": 151,
+      "teaching_words": 13755,
+      "article_visible_words": 19948,
+      "teaching_paragraphs": 137,
       "teaching_sections": 18,
-      "original_svg": 11,
+      "original_svg": 12,
       "graphs": 3,
-      "tables": 2,
-      "questions_total": 55,
-      "part_b": 22,
-      "part_c": 28,
-      "set": 5,
-      "misconceptions": 15,
-      "active_recall": 10,
-      "reference_links": 10
+      "tables": 7,
+      "questions_total": 57,
+      "part_b": 20,
+      "part_c": 27,
+      "set": 10,
+      "misconceptions": 18,
+      "active_recall": 12,
+      "reference_links": 19
     },
     "rubric": {
       "scientific_accuracy": 19,
@@ -59,11 +59,12 @@
       "seo_technical": 4
     },
     "limitations": [
-      "No real browser rendering, keyboard or screen reader runtime test; static inspection only.",
-      "References and syllabus mapping checked; not all source full texts independently reviewed.",
-      "Deployment and live checks pending at publication."
+      "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
+      "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
+      "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
+      "GitHub Pages deployment and live HTTP/content verification pending at production commit."
     ],
-    "audit_path": "curriculum/qa/8.A.06-publication-audit.md"
+    "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
   },
   "published_node_ids": [
     "1.A.01",
@@ -451,85 +452,10 @@
     "7.L.07",
     "8.A.01",
     "8.A.02",
-    "8.A.06"
+    "8.A.06",
+    "8.A.08"
   ],
   "prior_publication_qa": {
-    "node_id": "7.L.03",
-    "title": "Gut–Pancreas–Liver Communication and Glucose Homeostasis",
-    "chapter_path": "gut-pancreas-liver-communication-and-glucose-homeostasis.html",
-    "chapter_blob_sha": "c0c97e734ddd6b77ec1178c6e0855a1c49f4a9a5",
-    "working_branch": "draft/node-7l03-gut-pancreas-liver",
-    "working_commit_sha": "fef12e97d6f860e0f4955ccfb0f0df7d12b2138d",
-    "draft_blob_sha": "c0c97e734ddd6b77ec1178c6e0855a1c49f4a9a5",
-    "publication_base_sha": "b04a927c12ca4d268226d6f642f7863abddab046",
-    "review_date": "2026-11-28",
-    "status": "published_deployment_verification_pending",
-    "metrics": {
-      "genuine_teaching_words": 13599,
-      "lexical_teaching_words": 13650,
-      "visible_article_words": 19204,
-      "teaching_paragraphs": 147,
-      "unique_teaching_paragraphs": 147,
-      "scientific_svgs": 15,
-      "graphs": 4,
-      "tables": 5,
-      "questions_total": 52,
-      "part_b": 20,
-      "part_c": 26,
-      "set": 6,
-      "answer_explanations": 52,
-      "misconceptions": 18,
-      "active_recall": 15,
-      "references": 23,
-      "teaching_sections": 18
-    },
-    "quality_score": 95,
-    "quality_rubric": {
-      "scientific_accuracy": 19,
-      "syllabus_microtopics": 15,
-      "teaching_depth": 15,
-      "pedagogy": 10,
-      "scientific_illustrations": 9,
-      "exam_questions": 9,
-      "experimental_analytical_reasoning": 5,
-      "revision_mastery": 5,
-      "reader_accessibility": 4,
-      "technical_seo": 4
-    },
-    "audit_record": "curriculum/qa/7.L.03-publication-audit.md",
-    "scientific_review": "Internal scientific pass: reviewed portal mass balance, enteroendocrine nutrient sensing, incretin effect and clearance, islet signalling, neural routes, hepatic glycogen and gluconeogenesis, direct/indirect insulin action, FGF21 and counterregulation, tracer dilution and clamp assumptions. Rechecked numerical worked examples and all 52 explanations.",
-    "editorial_review": "Separate internal pass: revised all 20 Part B distractor sets, expanded 18 misconception explanations, improved diagram labels, added graph interpretation, source notes, glossary and revision; checked 147 unique teaching paragraphs and adjacent-node scope.",
-    "audit": {
-      "duplicate_ids": 0,
-      "unresolved_anchors": 0,
-      "unresolved_aria_labels": 0,
-      "exact_duplicate_teaching_paragraphs": 0,
-      "invalid_mcq_keys": 0,
-      "mcq_key_distribution": {
-        "A": 5,
-        "B": 5,
-        "C": 5,
-        "D": 5
-      },
-      "mcq_count": 20,
-      "short_response_count": 32,
-      "tag_count_mismatches_checked": 0,
-      "script_syntax": "pass",
-      "placeholder": false,
-      "canonical": "https://rahulthakurpatan.github.io/lifescienceacademy/gut-pancreas-liver-communication-and-glucose-homeostasis.html",
-      "robots": "index,follow",
-      "svg_zoom_targets": 15,
-      "prior_menu_links_preserved": 381,
-      "prior_sitemap_urls_preserved": 382
-    },
-    "limitations": [
-      "Internal scientific and editorial self-review, not independent peer review; selected source records and reviews inspected, not every full text.",
-      "Revised CSIR syllabus explicitly covers the broad Unit 7.L domain; archived MP SET syllabus supports related physiology, but current official MP SET syllabus could not be independently confirmed.",
-      "Static checks and script syntax only; browser/device/assistive-technology rendering and external deployment verification are not part of this static audit.",
-      "20 Part B MCQs and 32 analytical/SET short responses; foundational questions intentionally introductory."
-    ]
-  },
-  "previous_last_qa": {
     "node_id": "8.A.01",
     "title": "Foundations of Genetics and Mendelian Segregation",
     "chapter_path": "foundations-of-genetics-and-mendelian-segregation.html",
@@ -696,6 +622,51 @@
       "Some foundational multiple-choice distractors are deliberately straightforward. No fabricated prior-year questions.",
       "Deployment and independent live content verification remain pending at publication."
     ]
+  },
+  "previous_last_qa": {
+    "node_id": "8.A.06",
+    "title": "Chromosomal Linkage and Crossing Over",
+    "review_date": "2026-11-28",
+    "score": 95,
+    "threshold": 95,
+    "verdict": "PASS",
+    "review_type": "Internal academic and separate editorial review; not external peer review",
+    "draft_commit": "a60f229805cadb9f2c00808bf314222d31a06d86",
+    "lesson_blob_sha": "386fdc581d22261c2f25d1fceac434db24dc6943",
+    "metrics": {
+      "teaching_words": 14756,
+      "article_visible_words": 19871,
+      "teaching_paragraphs": 151,
+      "teaching_sections": 18,
+      "original_svg": 11,
+      "graphs": 3,
+      "tables": 2,
+      "questions_total": 55,
+      "part_b": 22,
+      "part_c": 28,
+      "set": 5,
+      "misconceptions": 15,
+      "active_recall": 10,
+      "reference_links": 10
+    },
+    "rubric": {
+      "scientific_accuracy": 19,
+      "scope_coverage": 15,
+      "teaching_depth": 15,
+      "pedagogy": 10,
+      "illustrations": 9,
+      "questions": 9,
+      "analytical_depth": 5,
+      "mastery": 5,
+      "reader": 4,
+      "seo_technical": 4
+    },
+    "limitations": [
+      "No real browser rendering, keyboard or screen reader runtime test; static inspection only.",
+      "References and syllabus mapping checked; not all source full texts independently reviewed.",
+      "Deployment and live checks pending at publication."
+    ],
+    "audit_path": "curriculum/qa/8.A.06-publication-audit.md"
   },
   "unit_02": {
     "published_node_ids": [
@@ -49553,6 +49524,52 @@
         "Deployment and live checks pending at publication."
       ],
       "audit_path": "curriculum/qa/8.A.06-publication-audit.md"
+    },
+    "8.A.08": {
+      "node_id": "8.A.08",
+      "title": "Extrachromosomal Inheritance and Maternal Effects",
+      "review_date": "2026-11-28",
+      "score": 95,
+      "threshold": 95,
+      "verdict": "PASS",
+      "review_type": "Internal academic and separate editorial review; not external peer review",
+      "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
+      "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
+      "metrics": {
+        "teaching_words": 13755,
+        "article_visible_words": 19948,
+        "teaching_paragraphs": 137,
+        "teaching_sections": 18,
+        "original_svg": 12,
+        "graphs": 3,
+        "tables": 7,
+        "questions_total": 57,
+        "part_b": 20,
+        "part_c": 27,
+        "set": 10,
+        "misconceptions": 18,
+        "active_recall": 12,
+        "reference_links": 19
+      },
+      "rubric": {
+        "scientific_accuracy": 19,
+        "scope_coverage": 15,
+        "teaching_depth": 15,
+        "pedagogy": 10,
+        "illustrations": 9,
+        "questions": 9,
+        "analytical_depth": 5,
+        "mastery": 5,
+        "reader": 4,
+        "seo_technical": 4
+      },
+      "limitations": [
+        "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
+        "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
+        "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
+        "GitHub Pages deployment and live HTTP/content verification pending at production commit."
+      ],
+      "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
     }
   },
   "academy_planned_node_count": 723,
@@ -67360,7 +67377,7 @@
     "6.D.10"
   ],
   "unit6d_planned_node_count": 10,
-  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/chromosomal-linkage-and-crossing-over.html",
+  "url": "https://rahulthakurpatan.github.io/lifescienceacademy/extrachromosomal-inheritance-and-maternal-effects.html",
   "unit6e_published_node_ids": [
     "6.E.01",
     "6.E.02",
@@ -74821,38 +74838,39 @@
     "published_node_ids": [
       "8.A.01",
       "8.A.02",
-      "8.A.06"
+      "8.A.06",
+      "8.A.08"
     ],
-    "published_node_count": 3,
+    "published_node_count": 4,
     "planned_node_count": 36,
-    "last_published_node_id": "8.A.06",
+    "last_published_node_id": "8.A.08",
     "updated_at": "2026-11-28",
     "status": "in_progress",
     "last_qa": {
-      "node_id": "8.A.06",
-      "title": "Chromosomal Linkage and Crossing Over",
+      "node_id": "8.A.08",
+      "title": "Extrachromosomal Inheritance and Maternal Effects",
       "review_date": "2026-11-28",
       "score": 95,
       "threshold": 95,
       "verdict": "PASS",
       "review_type": "Internal academic and separate editorial review; not external peer review",
-      "draft_commit": "a60f229805cadb9f2c00808bf314222d31a06d86",
-      "lesson_blob_sha": "386fdc581d22261c2f25d1fceac434db24dc6943",
+      "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
+      "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
       "metrics": {
-        "teaching_words": 14756,
-        "article_visible_words": 19871,
-        "teaching_paragraphs": 151,
+        "teaching_words": 13755,
+        "article_visible_words": 19948,
+        "teaching_paragraphs": 137,
         "teaching_sections": 18,
-        "original_svg": 11,
+        "original_svg": 12,
         "graphs": 3,
-        "tables": 2,
-        "questions_total": 55,
-        "part_b": 22,
-        "part_c": 28,
-        "set": 5,
-        "misconceptions": 15,
-        "active_recall": 10,
-        "reference_links": 10
+        "tables": 7,
+        "questions_total": 57,
+        "part_b": 20,
+        "part_c": 27,
+        "set": 10,
+        "misconceptions": 18,
+        "active_recall": 12,
+        "reference_links": 19
       },
       "rubric": {
         "scientific_accuracy": 19,
@@ -74867,11 +74885,12 @@
         "seo_technical": 4
       },
       "limitations": [
-        "No real browser rendering, keyboard or screen reader runtime test; static inspection only.",
-        "References and syllabus mapping checked; not all source full texts independently reviewed.",
-        "Deployment and live checks pending at publication."
+        "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
+        "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
+        "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
+        "GitHub Pages deployment and live HTTP/content verification pending at production commit."
       ],
-      "audit_path": "curriculum/qa/8.A.06-publication-audit.md"
+      "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
     },
     "qa_by_node": {
       "8.A.02": {
@@ -75131,6 +75150,52 @@
           "Deployment and live checks pending at publication."
         ],
         "audit_path": "curriculum/qa/8.A.06-publication-audit.md"
+      },
+      "8.A.08": {
+        "node_id": "8.A.08",
+        "title": "Extrachromosomal Inheritance and Maternal Effects",
+        "review_date": "2026-11-28",
+        "score": 95,
+        "threshold": 95,
+        "verdict": "PASS",
+        "review_type": "Internal academic and separate editorial review; not external peer review",
+        "draft_commit": "ca48a14a15c314c76cccbcab9681baed79f9161f",
+        "lesson_blob_sha": "02b7eafa1b7625ae70fc2dee714a794a69e933fc",
+        "metrics": {
+          "teaching_words": 13755,
+          "article_visible_words": 19948,
+          "teaching_paragraphs": 137,
+          "teaching_sections": 18,
+          "original_svg": 12,
+          "graphs": 3,
+          "tables": 7,
+          "questions_total": 57,
+          "part_b": 20,
+          "part_c": 27,
+          "set": 10,
+          "misconceptions": 18,
+          "active_recall": 12,
+          "reference_links": 19
+        },
+        "rubric": {
+          "scientific_accuracy": 19,
+          "scope_coverage": 15,
+          "teaching_depth": 15,
+          "pedagogy": 10,
+          "illustrations": 9,
+          "questions": 9,
+          "analytical_depth": 5,
+          "mastery": 5,
+          "reader": 4,
+          "seo_technical": 4
+        },
+        "limitations": [
+          "Internal author self-review and separate editorial pass, not external peer review; not all cited source full texts independently read.",
+          "Static HTML, SVG accessibility and link-structure checks only; no real-browser, keyboard, screen reader or device runtime test.",
+          "Archived 2024 MP SET syllabus used for comparison; current SET syllabus not independently verified.",
+          "GitHub Pages deployment and live HTTP/content verification pending at production commit."
+        ],
+        "audit_path": "curriculum/qa/8.A.08-publication-audit.md"
       }
     },
     "next_pending_node_id": "8.A.03",
@@ -75140,9 +75205,10 @@
       "published_node_ids": [
         "8.A.01",
         "8.A.02",
-        "8.A.06"
+        "8.A.06",
+        "8.A.08"
       ],
-      "published_node_count": 3,
+      "published_node_count": 4,
       "planned_node_count": 8,
       "next_pending_node_id": "8.A.03",
       "next_pending_node_title": "Incomplete Dominance, Codominance and Allelic Relationships",
@@ -75320,7 +75386,8 @@
   "unit8a_published_node_ids": [
     "8.A.01",
     "8.A.02",
-    "8.A.06"
+    "8.A.06",
+    "8.A.08"
   ],
   "unit8a_planned_node_count": 8
 }
